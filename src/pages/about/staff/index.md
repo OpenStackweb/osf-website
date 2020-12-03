@@ -94,6 +94,22 @@ members:
     title: Vice President of Engineering
     twitter: 'https://twitter.com/tcarrez'
   - description: >-
+      Claire is the Director of Strategic Partnerships for the Open Infrastructure
+      Foundation. She is primarily  responsible for stewarding relationships
+      with stakeholders at organizations across the global  open source
+      ecosystem to engage investors and bring open infrastructure technologies
+      to new markets.  Claire is also responsible for establishing and
+      onboarding new strategic projects and building  out programs. In past
+      endeavors, she has managed OpenStack Summits, OpenStack Days, hackathons, 
+      technical events, the Foundation's presence at industry events and
+      marketing communications activities.
+    linkedin: 'https://www.linkedin.com/in/clairemassey'
+    name: Claire Massey
+    openStack: 'https://www.openstack.org/community/members/profile/6997'
+    picture: /img/about-staff/ClaireMassey.jpg
+    title: Director of Strategic Partnerships
+    twitter: 'https://twitter.com/Massey'
+  - description: >-
       Wes Wilson is Director of Marketing for the Open Infrastructure Foundation. He has
       spent the past two decades  in startups including founding Brandstack a
       graphic design marketplace that was acquired in 2011.  Wes’ endeavors have
@@ -186,22 +202,6 @@ members:
     openStack: 'https://www.openstack.org/community/members/profile/64085'
     picture: /img/about-staff/AFheadshot.png
     title: Community and Event Coordinator
-  - description: >-
-      Claire is the Director of Strategic Partnerships for the Open Infrastructure
-      Foundation. She is primarily  responsible for stewarding relationships
-      with stakeholders at organizations across the global  open source
-      ecosystem to engage investors and bring open infrastructure technologies
-      to new markets.  Claire is also responsible for establishing and
-      onboarding new strategic projects and building  out programs. In past
-      endeavors, she has managed OpenStack Summits, OpenStack Days, hackathons, 
-      technical events, the Foundation's presence at industry events and
-      marketing communications activities.
-    linkedin: 'https://www.linkedin.com/in/clairemassey'
-    name: Claire Massey
-    openStack: 'https://www.openstack.org/community/members/profile/6997'
-    picture: /img/about-staff/ClaireMassey.jpg
-    title: Director of Strategic Partnerships
-    twitter: 'https://twitter.com/Massey'
   - description: >-
       In addition to managing the Open Infrastructure Foundation web properties and Summit
       mobile application  development, Jimmy works extensively with the

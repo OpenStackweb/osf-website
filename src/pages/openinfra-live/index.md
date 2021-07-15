@@ -85,6 +85,7 @@ episodes:
     episodeSpeakers: Paul Miller, Mark Collier, Ildiko Vancsa
     youtubeEmbed: https://www.youtube.com/embed/pHHCIGkpNzs
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6813893379852763136/
+    superuserRecap: https://superuser.openstack.org/articles/building-the-intelligent-edge-with-open-source-technologies-openinfra-live-recap/
     episodeTitle: Building the Intelligent Edge with Open Source Technologies
     youtubeLink: https://www.youtube.com/watch?v=pHHCIGkpNzs
   - facebookLink: https://www.facebook.com/104139126308032/posts/4076497655738806/

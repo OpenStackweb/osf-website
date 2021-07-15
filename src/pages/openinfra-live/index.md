@@ -24,6 +24,7 @@ episodes:
       updated on the latest developments. "
     calendarInvite: /static/invites/openinfralive-july29.ics
     youtubeLink: https://www.youtube.com/watch?v=G1vplawafw4
+    youtubeEmbed: https://www.youtube.com/embed/G1vplawafw4
   - facebookLink: https://www.facebook.com/104139126308032/posts/4154104931311411/
     episodeDescription: "The #KataContainers community is going to host community
       members from AMD, Ant Group, Apple, IBM, and Huawei to share how they’re

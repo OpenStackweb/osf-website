@@ -48,6 +48,7 @@ episodes:
       (CityNetwork), Viktor Molnar (T-Systems)
     youtubeEmbed: https://www.youtube.com/embed/G7oN2XdI__k
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6818945419729604608/
+    superuserRecap: https://superuser.openstack.org/articles/how-openstack-large-clouds-manage-their-spare-capacity-openinfra-live-recap/
     episodeTitle: How OpenStack Large Clouds Manage their Spare Capacity
     youtubeLink: https://www.youtube.com/watch?v=G7oN2XdI__k
   - facebookLink: https://www.facebook.com/104139126308032/posts/4115187991869772/

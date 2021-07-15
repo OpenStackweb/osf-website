@@ -71,6 +71,7 @@ episodes:
     episodeSpeakers: Johan Christenson, Pierre Gronlier, Kurt Garloff, Linda Siwe
     youtubeEmbed: https://www.youtube.com/embed/JPfo6wXM0BY
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6816387657984155648/
+    superuserRecap: https://superuser.openstack.org/articles/the-role-of-open-source-in-digital-sovereignty-openinfra-live-recap/
     episodeTitle: The Role of Open Source in Digital Sovereignty
     youtubeLink: https://www.youtube.com/watch?v=JPfo6wXM0BY
   - facebookLink: https://www.facebook.com/104139126308032/posts/4096084423780129/

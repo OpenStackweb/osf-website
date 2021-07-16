@@ -11,7 +11,8 @@ header:
     text: Learn more about how your company can support the Open Infrastructure
       community
     url: /join/
-  subTitle: The Open Infrastructure Foundation would not exist without the support
+  subTitle:
+    The Open Infrastructure Foundation would not exist without the support
     of the Platinum, Gold, and Corporate Members listed below.
   title: Companies Supporting The Open Infrastructure Foundation
 companies:
@@ -124,6 +125,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Hitachi.png
       - alt: IBM
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_IBM.png
+      - alt: Infomaniak
+        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Infomaniak.jpg
       - alt: InMotion Hosting
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_inmotionhosting.png
       - alt: iVolve
@@ -158,7 +161,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
-    text: "Open Infrastructure Foundation Silver Members provide funding and pledge
+    text:
+      "Open Infrastructure Foundation Silver Members provide funding and pledge
       strategic alignment to the OpenInfra Foundation mission. If your
       organization  is highly involved with  the Open Infrastructure community
       and interested in becoming a Silver Member,  read more about joining
@@ -885,7 +889,8 @@ companies:
         image: /img/companies/zenoss-large.jpg
       - alt: Zetta.IO
         image: /img/companies/logo-w500.png
-    text: The resources provided by the OpenInfra Foundation Members are critical to
+    text:
+      The resources provided by the OpenInfra Foundation Members are critical to
       making the Open Infrastructure Foundation successful, but there are many
       ways to support the OpenInfra Foundation mission, whether you're
       contributing  code, building a product or helping build the community.

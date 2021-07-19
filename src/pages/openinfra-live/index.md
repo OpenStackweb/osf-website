@@ -39,7 +39,7 @@ episodes:
       (Huawei). "
     youtubeEmbed: https://www.youtube.com/embed/-9LtBfwj03Y
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6821467132325445632/
-    episodeTitle: "Kata Containers "
+    episodeTitle: Kata Containers Use Cases
     youtubeLink: https://www.youtube.com/watch?v=-9LtBfwj03Y
   - facebookLink: https://www.facebook.com/104139126308032/posts/4134653546589883/
     episodeDescription: One of the reasons workloads moved to virtualization and

@@ -15,6 +15,18 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-08-19T14:00:00.000Z
+    episodeTitle: OpenStack Basics
+    episodeSpeakers: Ben Silverman
+    episodeDescription: For the uninitiated, OpenStack's role in cloud
+      infrastructure can be a little hard to understand unless you know it's
+      capabilities and how it operates. Furthermore if someone is new to
+      infrastructure-as-a-service, OpenStack looks a lot like virtualization or
+      simply like public cloud offerings. In this session we will start at the
+      very beginning and walk our way through early services. These services
+      like Nova and Swift provided VMs and storage and were the building blocks
+      for every project today.
+  - hidden: false
     date: 2021-07-29T14:00:00.000Z
     episodeTitle: Kubernetes and OpenStack Working Together
     episodeDescription: "The Kubernetes steering committee and OpenStack technical
@@ -39,7 +51,7 @@ episodes:
       (Huawei). "
     youtubeEmbed: https://www.youtube.com/embed/-9LtBfwj03Y
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6821467132325445632/
-    episodeTitle: Kata Containers Use Cases
+    episodeTitle: "Kata Containers "
     youtubeLink: https://www.youtube.com/watch?v=-9LtBfwj03Y
   - facebookLink: https://www.facebook.com/104139126308032/posts/4134653546589883/
     episodeDescription: One of the reasons workloads moved to virtualization and

@@ -24,6 +24,8 @@ episodes:
       infrastructure-as-a-service, OpenStack looks a lot like virtualization or
       simply like public cloud offerings. In this session we will start at the
       very beginning and walk our way through early services. "
+    youtubeLink: https://www.youtube.com/watch?v=hGRkdYu6I5k
+    youtubeEmbed: https://www.youtube.com/embed/hGRkdYu6I5k
   - facebookLink: https://www.facebook.com/104139126308032/posts/4173780696010501/
     episodeDescription: "The Kubernetes steering committee and OpenStack technical
       committee meet regularly to talk about cross-community learnings and

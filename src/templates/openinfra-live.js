@@ -23,6 +23,7 @@ export const OpenInfraLiveTemplate = ({
   const PageContent = contentComponent || Content
 
   const [today, setToday] = useState(moment().utc().unix())
+  const [ready, setReady] = useState(false)
 
   useEffect(() => {
     fetch(`https://timeintervalsince1970.appspot.com/`)
@@ -30,6 +31,7 @@ export const OpenInfraLiveTemplate = ({
       .then(resultData => {
         if (resultData.timestamp) {
           setToday(Math.trunc(resultData.timestamp) - 7200);
+          setReady(true);
         }
       })
   }, [])
@@ -136,12 +138,13 @@ export const OpenInfraLiveTemplate = ({
           </div>
           <section className="live-section">
             <div className="container">
-              {futureEpisodes.length > 0 &&
+              {ready ? futureEpisodes.length > 0 &&
                 <>
                   <h2 className="section-title">{moment(futureEpisodes[0].date).utc().unix() >= today && moment(futureEpisodes[0].date).utc().unix() <= today + 7200 ? 'OpenInfra Live is Airing!' : 'The Next Episode Is Airing Soon!'}</h2>
                   {/* Next episode */}
                   { buildEpisodeItem(futureEpisodes[0], 0) }
                 </>
+                : <h2 className="section-title">Loading...</h2>
               }
               <section className="more-recent-wrapper" style={{ padding: futureEpisodes.length === 0 ? '0px' : '' }}>
                 <h2 className="section-title">

@@ -24,17 +24,19 @@ episodes:
       infrastructure-as-a-service, OpenStack looks a lot like virtualization or
       simply like public cloud offerings. In this session we will start at the
       very beginning and walk our way through early services. "
-  - hidden: false
-    date: 2021-07-29T14:00:00.000Z
-    episodeTitle: Kubernetes and OpenStack Working Together
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4173780696010501/
     episodeDescription: "The Kubernetes steering committee and OpenStack technical
       committee meet regularly to talk about cross-community learnings and
       collaboration opportunities. Join members of both governance bodies to ask
       questions about integration, cross-project support and how you can stay
       updated on the latest developments. "
     calendarInvite: /static/invites/openinfralive-july29.ics
-    youtubeLink: https://www.youtube.com/watch?v=G1vplawafw4
+    hidden: false
+    date: 2021-07-29T14:00:00.000Z
     youtubeEmbed: https://www.youtube.com/embed/G1vplawafw4
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6823993987699937280/
+    episodeTitle: Kubernetes and OpenStack Working Together
+    youtubeLink: https://www.youtube.com/watch?v=G1vplawafw4
   - facebookLink: https://www.facebook.com/104139126308032/posts/4154104931311411/
     episodeDescription: "The #KataContainers community is going to host community
       members from AMD, Ant Group, Apple, IBM, and Huawei to share how they’re

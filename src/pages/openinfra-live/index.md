@@ -35,6 +35,7 @@ episodes:
     calendarInvite: /static/invites/openinfralive-july29.ics
     hidden: false
     date: 2021-07-29T14:00:00.000Z
+    episodeSpeakers: Christoph Blecker, Jay Bryant, Ghanshyam Mann, Kendall Nelson
     youtubeEmbed: https://www.youtube.com/embed/G1vplawafw4
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6823993987699937280/
     episodeTitle: Kubernetes and OpenStack Working Together

@@ -283,7 +283,7 @@
     max-width: 850px;
   }
 
-  .itemtitle {
+  h3.itemtitle {
     font-family: "Jura", "Roboto", sans-serif;
     color: #28a4db;
     margin-top: 20px;
@@ -291,6 +291,16 @@
     font-size: 2rem;
     text-transform: uppercase;
   }
+
+  h4.itemtitle {
+    font-family: "Jura", "Roboto", sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
 
   .fix-h5 {
     color: white;

@@ -122,6 +122,11 @@
           "url": "/press/"
         }
       ]
+    },
+    {
+      "title": "Jobs",
+      "url": "https://openstack.org/jobs",
+      "image": "/img/background-shapes1.svg"
     }
   ],
   "button": {

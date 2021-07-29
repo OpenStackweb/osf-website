@@ -15,6 +15,16 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-08-12T09:00:44.146Z
+    episodeTitle: "Bare Metal: Ironic In Production "
+    episodeDescription: Join us as members from the Bare Metal SIG join us to
+      discuss how Ironic works to simplify many of the hardships physical bare
+      metal operators deal with on a daily basis, including an overview of the
+      project, project roadmap, and use cases of Ironic in production.
+    youtubeLink: https://www.youtube.com/watch?v=m81Q2bU9bGU
+    youtubeEmbed: https://www.youtube.com/embed/m81Q2bU9bGU
+    calendarInvite: /static/invites/openinfralive-august12.ics
+  - hidden: false
     date: 2021-08-19T14:00:00.000Z
     episodeTitle: OpenStack Basics
     episodeSpeakers: Ben Silverman

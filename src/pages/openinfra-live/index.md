@@ -23,7 +23,7 @@ episodes:
       project, project roadmap, and use cases of Ironic in production.
     youtubeLink: https://www.youtube.com/watch?v=m81Q2bU9bGU
     youtubeEmbed: https://www.youtube.com/embed/m81Q2bU9bGU
-    calendarInvite: /static/invites/openinfralive-august12.ics
+    calendarInvite: /static/invites/oil_august12th.ics
   - hidden: false
     date: 2021-08-19T14:00:00.000Z
     episodeTitle: OpenStack Basics

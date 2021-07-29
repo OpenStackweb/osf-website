@@ -36,6 +36,7 @@ episodes:
       very beginning and walk our way through early services. "
     youtubeLink: https://www.youtube.com/watch?v=hGRkdYu6I5k
     youtubeEmbed: https://www.youtube.com/embed/hGRkdYu6I5k
+    calendarInvite: /static/invites/openinfralive_august19th.ics
   - facebookLink: https://www.facebook.com/104139126308032/posts/4173780696010501/
     episodeDescription: "The Kubernetes steering committee and OpenStack technical
       committee meet regularly to talk about cross-community learnings and

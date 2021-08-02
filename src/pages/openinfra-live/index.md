@@ -15,6 +15,19 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-08-26T09:00:13.693Z
+    episodeTitle: "Large Scale OpenStack: Discussing Software-Defined Supercomputers"
+    episodeDescription: "When we talk about Large Scale, it usually refers to
+      scaling out to hundreds of thousands of commodity nodes. But there is
+      another dimension to Large Scale OpenStack: using OpenStack to build
+      supercomputers to use in research and HPC. In this episode, operators of
+      OpenStack supercomputers and HPC centers will discuss the unique
+      challenges this use case brings."
+    episodeSpeakers: ""
+    youtubeEmbed: https://www.youtube.com/embed/fOJTHanmOFg
+    youtubeLink: https://www.youtube.com/watch?v=fOJTHanmOFg
+    calendarInvite: /static/invites/myevents-2-.ics
+  - hidden: false
     date: 2021-08-12T09:00:44.146Z
     episodeTitle: "Bare Metal: Ironic In Production "
     episodeDescription: Join us as members from the Bare Metal SIG join us to

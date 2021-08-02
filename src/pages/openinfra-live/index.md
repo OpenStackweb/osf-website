@@ -63,6 +63,7 @@ episodes:
       Srinivas, Kendall Nelson
     youtubeEmbed: https://www.youtube.com/embed/G1vplawafw4
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6823993987699937280/
+    superuserRecap: https://superuser.openstack.org/articles/kubernetes-and-openstack-working-together-openinfra-live-recap/
     episodeTitle: Kubernetes and OpenStack Working Together
     youtubeLink: https://www.youtube.com/watch?v=G1vplawafw4
   - facebookLink: https://www.facebook.com/104139126308032/posts/4154104931311411/

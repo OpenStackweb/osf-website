@@ -28,7 +28,7 @@ episodes:
     youtubeLink: https://www.youtube.com/watch?v=fOJTHanmOFg
     calendarInvite: /static/invites/myevents-2-.ics
   - hidden: false
-    date: 2021-08-12T09:00:44.146Z
+    date: 2021-08-12T16:00:44.146Z
     episodeTitle: "Bare Metal: Ironic In Production "
     episodeDescription: Join us as members from the Bare Metal SIG join us to
       discuss how Ironic works to simplify many of the hardships physical bare

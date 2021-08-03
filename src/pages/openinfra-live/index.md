@@ -15,7 +15,7 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2021-08-26T09:00:13.693Z
+    date: 2021-08-26T14:00:13.693Z
     episodeTitle: "Large Scale OpenStack: Discussing Software-Defined Supercomputers"
     episodeDescription: "When we talk about Large Scale, it usually refers to
       scaling out to hundreds of thousands of commodity nodes. But there is

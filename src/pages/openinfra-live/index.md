@@ -23,23 +23,22 @@ episodes:
       supercomputers to use in research and HPC. In this episode, operators of
       OpenStack supercomputers and HPC centers will discuss the unique
       challenges this use case brings."
-    episodeSpeakers: Stig Telfer (CTO, StackHPC), Sadaf Alam, (Swiss National
-      Supercomputer Centre), Steve Quenette (Monash e-Research infrastructure),
-      Happy Sithole (Cape Town Center for HPC)
+    episodeSpeakers: ""
     youtubeEmbed: https://www.youtube.com/embed/fOJTHanmOFg
     youtubeLink: https://www.youtube.com/watch?v=fOJTHanmOFg
     calendarInvite: /static/invites/myevents-2-.ics
-  - hidden: false
-    date: 2021-08-12T14:00:44.146Z
-    episodeTitle: "Bare Metal: Ironic In Production "
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4229345477120689/
     episodeDescription: Join us as members from the Bare Metal SIG join us to
       discuss how Ironic works to simplify many of the hardships physical bare
       metal operators deal with on a daily basis, including an overview of the
       project, project roadmap, and use cases of Ironic in production.
-    youtubeLink: https://www.youtube.com/watch?v=m81Q2bU9bGU
+    calendarInvite: /static/invites/oil_august12th.ics
+    hidden: false
+    date: 2021-08-12T14:00:44.146Z
     youtubeEmbed: https://www.youtube.com/embed/m81Q2bU9bGU
-    calendarInvite: /static/invites/myevents-3-.ics
-    episodeSpeakers: Julia Kreger, Mohammed Naser
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6830910904905940992/
+    episodeTitle: "Bare Metal: Ironic In Production "
+    youtubeLink: https://www.youtube.com/watch?v=m81Q2bU9bGU
   - hidden: false
     date: 2021-08-19T14:00:00.000Z
     episodeTitle: OpenStack Basics

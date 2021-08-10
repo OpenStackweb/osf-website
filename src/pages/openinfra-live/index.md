@@ -35,6 +35,8 @@ episodes:
     calendarInvite: /static/invites/oil_august12th.ics
     hidden: false
     date: 2021-08-12T14:00:44.146Z
+    episodeSpeakers: "Julia Kreger (Red Hat), Mohammed Naser (Vexxhost), Mark
+      Goddard (StackHPC), and Chris Krelle (NVIDIA) "
     youtubeEmbed: https://www.youtube.com/embed/m81Q2bU9bGU
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6830910904905940992/
     episodeTitle: "Bare Metal: Ironic In Production "

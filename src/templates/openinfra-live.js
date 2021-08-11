@@ -34,6 +34,10 @@ export const OpenInfraLiveTemplate = ({
           setReady(true);
         }
       })
+      .catch(() => {
+        setToday(moment().utc().unix());
+        setReady(true);
+      })
   }, [])
 
   const buildEpisodeItem = (episode, index) => {
@@ -142,7 +146,7 @@ export const OpenInfraLiveTemplate = ({
                 <>
                   <h2 className="section-title">{moment(futureEpisodes[0].date).utc().unix() >= today && moment(futureEpisodes[0].date).utc().unix() <= today + 7200 ? 'OpenInfra Live is Airing!' : 'The Next Episode Is Airing Soon!'}</h2>
                   {/* Next episode */}
-                  { buildEpisodeItem(futureEpisodes[0], 0) }
+                  {buildEpisodeItem(futureEpisodes[0], 0)}
                 </>
                 : <h2 className="section-title">Loading...</h2>
               }

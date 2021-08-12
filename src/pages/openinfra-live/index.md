@@ -39,6 +39,7 @@ episodes:
       Goddard (StackHPC), and Chris Krelle (NVIDIA) "
     youtubeEmbed: https://www.youtube.com/embed/m81Q2bU9bGU
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6830910904905940992/
+    superuserRecap: https://superuser.openstack.org/articles/bare-metal-ironic-in-production-openinfra-live-recap/
     episodeTitle: "Bare Metal: Ironic In Production "
     youtubeLink: https://www.youtube.com/watch?v=m81Q2bU9bGU
   - hidden: false

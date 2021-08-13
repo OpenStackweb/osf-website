@@ -47,18 +47,12 @@ export const JoinPageTemplate = ({
                         </span>
                         <div className="buttons">
                             <a>A Business <img src={leftArrow} alt="" /> </a>
-                            <a>An Individual <img src={leftArrow} style={{ fill: "#848484" }} alt="" /> </a>
+                            <a>An Individual <img src={leftArrow} alt="" /> </a>
                         </div>
                     </div>
                     <div className="header-left">
                         <div className="picture">
-                            <img src="/img/join/EWP-IMG_8197 1.jpg" />
-                            <svg width="663" height="520" viewBox="0 0 663 520" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="42.9841" height="125.255" rx="21.4921" transform="matrix(-0.707107 0.707107 0.707107 0.707107 520.523 200.929)" fill="#F7B749" />
-                                <rect y="125.451" width="155.711" height="453.74" rx="77.8557" transform="rotate(-45 0 125.451)" fill="#43B85C" />
-                                <rect x="51.3923" y="223.999" width="43.3922" height="126.444" rx="21.6961" transform="rotate(-45 51.3923 223.999)" fill="#43B85C" />
-                                <rect x="143.708" y="132.796" width="187.633" height="546.757" rx="93.8163" transform="rotate(-45 143.708 132.796)" fill="#F7B749" />
-                            </svg>
+                            <img src="/img/join/Hero-Image.png" />
                         </div>
                     </div>
                 </div>
@@ -166,15 +160,6 @@ export const JoinPageTemplate = ({
 
             <main className="main">
                 <div className="content">
-                    <section className="section about-s1-main">
-                        <div className="container about-s1-container">
-                            <div className="columns">
-                                <div className="column">
-                                    <PageContent content={content} />
-                                </div>
-                            </div>
-                        </div>
-                    </section>
                     {footer &&
                         <Hero content={footer} />
                     }

@@ -112,6 +112,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_DevStack.png
       - alt: Elastx
         image: /img/elastx-oi.png
+      - image: /img/188x101px-exaion.png
+        alt: Exaion
       - alt: FredomFi
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_FreedomFi.png
       - alt: Fujitsu

@@ -226,6 +226,9 @@
         width: 100%;
         align-self: center;
         line-height: 50px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
       }
       .row-silver {
         align-self: center;
@@ -455,6 +458,9 @@
       letter-spacing: 1px;
       color: rgba(0, 0, 0, 0.45);
     }
+    .company-tier-title-mobile {
+        display: none;
+    }
     .company-tier-logos {
       display: grid;
       grid-column-gap: 20px;
@@ -611,7 +617,7 @@
             font-size: 14px;
             line-height: 25px;
             margin-bottom: 15px;
-            span {
+            > span {
               display: inline-block;
               margin-right: 15px;
             }
@@ -640,10 +646,13 @@
             font-size: 14px;
             line-height: 25px;
             margin-bottom: 15px;
-            span {
+            > span {
               display: inline-block;
               margin-right: 15px;
               color: #d3bc3b;
+              &:last-of-type {
+                color: #121212;
+              }
             }
           }
         }
@@ -673,10 +682,13 @@
             font-size: 14px;
             line-height: 25px;
             margin-bottom: 15px;
-            span {
+            > span {
               display: inline-block;
               margin-right: 15px;
               color: #dddaca;
+              &:last-of-type {
+                color: #121212;
+              }
             }
           }
         }
@@ -715,7 +727,7 @@
           font-size: 14px;
           font-weight: bold;
           line-height: 25px;
-          text-align: center;          
+          text-align: center;
           letter-spacing: 0.3px;
           margin-bottom: 25px;
         }

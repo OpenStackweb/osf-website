@@ -21,8 +21,7 @@ export const JoinPageTemplate = ({
     weAreOpenInfra,
     communities,
     contact,
-    involved,
-    footer,
+    involved,    
     content,
     contentComponent
 }) => {
@@ -148,24 +147,19 @@ export const JoinPageTemplate = ({
                         </div>
                     </div>
                 }
-            </div>
-
-            <main className="main">
-                <div className="content">
-                    {footer &&
-                        <Hero content={footer} />
-                    }
-                </div>
-            </main>
+            </div>            
         </div >
     )
 }
 
-JoinPageTemplate.propTypes = {
-    companies: PropTypes.object,
+JoinPageTemplate.propTypes = {    
     title: PropTypes.string,
     subTitle: PropTypes.string,
-    footer: PropTypes.object,
+    header: PropTypes.object,
+    weAreOpenInfra: PropTypes.object,
+    communities: PropTypes.object,
+    contact: PropTypes.object,
+    involved: PropTypes.object,
 }
 
 const JoinPage = ({ isLoggedUser, data }) => {
@@ -210,7 +204,6 @@ const JoinPage = ({ isLoggedUser, data }) => {
                 communities={post.frontmatter.communities}
                 contact={post.frontmatter.contact}
                 involved={post.frontmatter.involved}
-                footer={post.frontmatter.footer}
                 content={post.html}
             />
         </Layout>
@@ -318,14 +311,7 @@ export const joinPageQuery = graphql`
             text
             link
           }
-        }
-        footer {
-          title
-          subTitle
-          button
-          buttonText
-          display
-        }
+        }        
       }
     }
   }

@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: OpenStackweb/osf-website
-  branch: master
+  repo: tomrndom/osf-website
+  branch: join-member-pages
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -341,29 +341,180 @@ collections:
                   {label: OpenStack Profile, name: openStack, widget: string, required: false},
                 ]}
               ]}
-  - name: "generic-membership-pages"
-    label: "Membership Pages"
-    folder: "src/pages/membership/"
-    create: true
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "generic-page"}
-      - {label: SEO, name: seo, widget: object, fields: [
-          {label: "Title", name: "title", widget: string},
-          {label: "Description", name: "description", widget: string},
-          {label: "Url", name: "url", widget: string},
-          {label: "Image", name: "image", widget: image},
-          {label: "Twitter Username", name: "twitterUsername", widget: string},
-        ]}
-      - {label: "Title", name: title, widget: string}
-      - {label: "Sub Title", name: subTitle, widget: string}
-      - {label: "Body", name: body, widget: markdown}
-      - {label: "Footer", name: footer, widget: object, required: false, fields: [
-          {label: "Title", name: title, widget: string, required: false },
-          {label: "Sub Title", name: subTitle, widget: string, required: false},
-          {label: "Button Link", name: button, widget: string, required: false},
-          {label: "Button Text", name: buttonText, widget: string, required: false},
-          {label: "Display", name: display, widget: boolean, required: false}
-        ]}
+  - name: "join-page"
+    label: "Join Page"
+    files:
+      - file: "src/pages/membership/join-the-open-infrastructure-foundation-1.md"    
+        label: "Join"
+        name: join
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "generic-page"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sub Title", name: subTitle, widget: string}
+          - {label: "Header", name: header, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Title", name: title, widget: string},
+              {label: "Upper Title", name: upperTitle, widget: string},
+              {label: "Description", name: description, widget: text},
+              {label: "Buttons", name: buttons, widget: list, fields: [
+                {label: "Text", name: text, widget: string},
+                {label: "Link", name: link, widget: string},
+              ]},
+              {label: "Image", name: image, widget: image}
+            ]}
+          - {label: "#WeAreOpenInfra", name: weAreOpenInfra, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Title", name: title, widget: string},
+              {label: "Description", name: description, widget: string},
+              {label: "Items", name: numbers, widget: object, fields: [
+                {label: "Number", name: number, widget: string},
+                {label: "Text", name: text, widget: string},
+              ]}
+            ]}
+          - {label: "Communities", name: communities, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Title", name: title, widget: string},
+              {label: "Description", name: description, widget: list, fields: [
+                {label: "Text", name: text, widget: text},
+              ]},
+              {label: "Product Logos", name: logos, widget: list, fields: [
+                {label: "Image", name: image, widget: image},
+                {label: "Image Alt", name: alt, widget: string},
+              ]}
+            ]}
+          - {label: "Contact", name: contact, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Text", name: text, widget: string},
+              {label: "Buttons", name: buttons, widget: object, fields: [
+                {label: "Text", name: text, widget: string},
+                {label: "Link", name: link, widget: string},
+              ]},
+            ]}
+          - {label: "Get Involved", name: involved, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Title", name: title, widget: string},
+              {label: "Image Slider", name: slider, widget: list, fields: [
+                {label: "Image", name: image, widget: image},
+              ]},
+              {label: "Buttons", name: buttons, widget: list, fields: [
+                {label: "Text", name: text, widget: string},
+                {label: "Link", name: link, widget: string},
+              ]},
+            ]}
+          - {label: "Body", name: body, widget: markdown}
+  - name: "members-page"
+    label: "Members Page"
+    files:
+      - file: "src/pages/membership/members.md"    
+        label: "Members"
+        name: members
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "generic-page"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sub Title", name: subTitle, widget: string}
+          - {label: "Header", name: header, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Title", name: title, widget: string},
+              {label: "Upper Title", name: upperTitle, widget: string},
+              {label: "Description", name: description, widget: text},
+              {label: "Buttons", name: buttons, widget: list, fields: [
+                {label: "Text", name: text, widget: string},
+                {label: "Link", name: link, widget: string},
+              ]},
+              {label: "Image", name: image, widget: image},
+              {label: "Membership", name: membership, widget: string}
+            ]}
+          - {label: "Why Organizations Join the Foundation", name: whyJoin, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Title", name: title, widget: string},
+              {label: "Items", name: items, widget: list, fields: [
+                {label: "Image", name: image, widget: image},
+                {label: "Title", name: title, widget: string},
+                {label: "Description", name: description, widget: text},
+              ]}
+            ]}
+          - {label: "Member Benefits", name: memberBenefits, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Title", name: title, widget: string},
+              {label: "Benefits", name: table, widget: list, fields: [
+                {label: "Text", name: text, widget: string},
+                {label: "Silver", name: silver, widget: boolean, required: false},
+                {label: "Gold", name: gold, widget: boolean, required: false},
+                {label: "Platinum", name: platinum, widget: boolean, required: false},
+              ]},
+              {label: "Fees", name: fees, widget: object, fields: [
+                {label: "Silver", name: silver, widget: object, fields: [
+                  {label: "Price", name: price, widget: string},
+                  {label: Button, name: button, widget: object, fields: [
+                    {label: "Text", name: text, widget: string},
+                    {label: "Link", name: link, widget: string},
+                  ]}
+                ]},
+                {label: "Gold", name: gold, widget: object, fields: [
+                  {label: "Price", name: price, widget: string},
+                  {label: Button, name: button, widget: object, fields: [
+                    {label: "Text", name: text, widget: string},
+                    {label: "Link", name: link, widget: string},
+                  ]}
+                ]},
+                {label: "Platinum", name: platinum, widget: object, fields: [
+                  {label: "Price", name: price, widget: string},
+                  {label: Button, name: button, widget: object, fields: [
+                    {label: "Text", name: text, widget: string},
+                    {label: "Link", name: link, widget: string},
+                  ]}
+                ]}
+              ]},
+              {label: "Schedule call", name: scheduleCall, widget: string}
+            ]}
+          - {label: "Quote", name: quote, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Text", name: text, widget: text},
+              {label: People, name: people, widget: object, fields: [
+                {label: "Picture", name: "picture", widget: image},
+                {label: "Name", name: name, widget: string},
+                {label: "Position", name: position, widget: string},
+                {label: "Company", name: "company", widget: image},
+              ]}
+            ]}
+          - {label: "Company Tiers", name: companyTier, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Title", name: title, widget: string},
+              {label: "Sub Title", name: subTitle, widget: string},
+              {label: "Tiers", name: tiers, widget: list, fields: [
+                {label: "Title", name: title, widget: string},
+                {label: "Mobile Title", name: mobileTitle, widget: string},
+                {label: "Companies", name: companies, widget: list, fields: [
+                  {label: "Logo", name: logo, widget: image},
+                  {label: "Image Alt", name: alt, widget: string},
+                ]}
+              ]}
+            ]}
+          - {label: "Help", name: help, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Title", name: title, widget: string},
+              {label: "Description", name: description, widget: string},
+              {label: Button, name: button, widget: object, fields: [
+                {label: "Text", name: text, widget: string},
+                {label: "Link", name: link, widget: string},
+              ]},
+              {label: "Picture", name: picture, widget: image},
+            ]}
+          - {label: "Body", name: body, widget: markdown}
   - name: "custom-membership-pages"
     label: "Membership Custom Pages"
     files:

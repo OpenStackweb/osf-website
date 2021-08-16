@@ -81,12 +81,12 @@ episodes:
     date: 2021-08-19T14:00:00.000Z
     episodeTitle: OpenStack Basics
     episodeSpeakers: Ben Silverman
-    episodeDescription: "For the uninitiated, OpenStack's role in cloud
-      infrastructure can be a little hard to understand unless you know it's
-      capabilities and how it operates. Furthermore if someone is new to
-      infrastructure-as-a-service, OpenStack looks a lot like virtualization or
-      simply like public cloud offerings. In this session we will start at the
-      very beginning and walk our way through early services. "
+    episodeDescription: For the uninitiated, OpenStack's role in programmable
+      infrastructure can be a little hard to understand unless you know its
+      capabilities and how it works. Furthermore, to some people, OpenStack
+      looks very similar to virtualization or simply like existing public cloud
+      offerings. To fully understand this cloud platform, we will start at the
+      origins of cloud technology and end at how today's OpenStack works.
     youtubeLink: https://www.youtube.com/watch?v=hGRkdYu6I5k
     youtubeEmbed: https://www.youtube.com/embed/hGRkdYu6I5k
     calendarInvite: /static/invites/openinfralive_august19th.ics

@@ -195,6 +195,7 @@ export const MembersPageTemplate = ({
                                         }
                                     })}
                                 </div>
+                                <hr />
                                 <div className="mobile-price">
                                     <span className="price">{memberBenefits.fees.gold.price}</span>
                                     <span className="fee">Annual Membership Fee</span>

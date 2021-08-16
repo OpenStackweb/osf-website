@@ -42,7 +42,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 12px 30px 13px;        
+        padding: 12px 30px 13px;
         height: 44px;
         border-radius: 37px;
         font-family: "Roboto", sans-serif;
@@ -210,32 +210,25 @@
       }
     }
     &-row {
-      height: 50px;
       display: flex;
       border-bottom: 1px solid rgba(18, 18, 18, 0.1);
       font-size: 17px;
-      line-height: 25px;
       color: #121212;
-      display: flex;
-      align-items: center;
+      align-items: stretch;
       &:last-of-type {
         border-bottom: none;
       }
       span {
         display: block;
-        height: 50px;
       }
       .row-text {
         width: 100%;
         align-self: center;
-        line-height: 50px;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
+        line-height: 25px;
+        padding: 5px 0;
       }
       .row-silver {
         align-self: center;
-        line-height: 50px;
         text-align: center;
         width: 154px;
         flex-shrink: 0;
@@ -243,20 +236,20 @@
       }
       .row-gold {
         align-self: center;
-        line-height: 50px;
         text-align: center;
         width: 154px;
         flex-shrink: 0;
         color: #d3bc3b;
       }
       .row-platinum {
-        align-self: center;
-        line-height: 50px;
         text-align: center;
         width: 154px;
         flex-shrink: 0;
         color: #000;
         background-color: #dddaca;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
     &-lower-row {
@@ -523,7 +516,7 @@
       align-items: center;
       padding: 12px 30px 13px;
       background: #e61e24;
-      border-radius: 37px;      
+      border-radius: 37px;
       height: 44px;
       margin-top: 22px;
       color: #ffffff;
@@ -535,7 +528,7 @@
       text-align: center;
       letter-spacing: 0.3px;
       flex: none;
-      flex-grow: 0;      
+      flex-grow: 0;
       max-width: 300px;
       &:hover {
         background-color: #9a0c28;
@@ -586,6 +579,9 @@
     &-title {
       span {
         text-align: left;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -0.3px;
       }
     }
     &-container {
@@ -599,6 +595,13 @@
   }
   .member-benefits {
     padding: 50px 32px;
+    &-title {
+      font-size: 30px;
+      line-height: 36px;
+      text-align: center;
+      letter-spacing: -0.2px;
+      display: inherit;
+    }
     &-table,
     &-questions {
       display: none;
@@ -630,6 +633,7 @@
             font-size: 14px;
             line-height: 25px;
             margin-bottom: 15px;
+            display: inline-flex;
             > span {
               display: inline-block;
               margin-right: 15px;
@@ -659,6 +663,7 @@
             font-size: 14px;
             line-height: 25px;
             margin-bottom: 15px;
+            display: inline-flex;
             > span {
               display: inline-block;
               margin-right: 15px;
@@ -695,6 +700,7 @@
             font-size: 14px;
             line-height: 25px;
             margin-bottom: 15px;
+            display: inline-flex;
             > span {
               display: inline-block;
               margin-right: 15px;
@@ -731,7 +737,7 @@
           justify-content: center;
           align-items: center;
           align-self: center;
-          padding: 12px 30px 13px;          
+          padding: 12px 30px 13px;
           height: 40px;
           color: #ffffff;
           background: #ed362f;

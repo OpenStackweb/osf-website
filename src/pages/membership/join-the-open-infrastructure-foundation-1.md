@@ -9,8 +9,6 @@ seo:
   title: Join The Open Infrastructure Foundation
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/join/
-title: Join The Open Infrastructure Foundation
-subTitle: Help us build open source communities that write software to run in production
 header:
   display: true
   title: JOIN US IN ADVANCING OPEN INFRASTRUCTURE
@@ -21,9 +19,9 @@ header:
     open source communities who write software that runs in production.
   buttons:
     - text: A Business
-      link: ""
+      link: https://openinfra.dev/join/members/
     - text: An Individual
-      link: ""
+      link: "#"
   image: /img/join/Hero-Image.png
 weAreOpenInfra:
   display: true
@@ -77,7 +75,7 @@ contact:
   text: Interested in hosting your open source project with the OpenInfra Foundation?
   button:
     text: Contact Us
-    link: ""
+    link: "mailto:ecosystem@openinfra.dev"
 involved:
   display: true
   title: Get Involved
@@ -90,7 +88,7 @@ involved:
     - picture: "/img/join/OSSBER_Keynote_web-32 1.png" 
   buttons:
     - text: A Business
-      link: ""
+      link: https://openinfra.dev/join/members/
     - text: An Individual
       link: ""
 ---

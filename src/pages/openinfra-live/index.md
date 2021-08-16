@@ -15,6 +15,17 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-09-09T09:00:05.776Z
+    episodeDescription: "Are you looking for a job in open source? Curious about
+      what companies might be right for you? Join us as we spotlight companies
+      with open infrastructure job openings, hear straight from current
+      employees about their day-to-day community involvement and hear what their
+      organizations are looking for in candidates. "
+    episodeTitle: Open Source Job Openings (and how to land them) Round Two
+    youtubeLink: https://www.youtube.com/watch?v=BPtr_nq3wJQ
+    youtubeEmbed: https://www.youtube.com/embed/BPtr_nq3wJQ
+    calendarInvite: /static/invites/myevents-6-.ics
+  - hidden: false
     date: 2021-09-02T09:00:00.000Z
     episodeTitle: "Open Source Training Opportunities "
     episodeDescription: "Interested in learning more or improving your open source

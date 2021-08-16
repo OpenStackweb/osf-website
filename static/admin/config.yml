@@ -180,7 +180,7 @@ collections:
               {label: Buttons, name: buttons, widget: list, fields: [
                 {label: Text, name: text, widget: string}, 
                 {label: Link, name: link, widget: string}
-              ]}              
+              ]}
             ]}          
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [
               {label: First Row, name: row1, widget: object, fields: [
@@ -356,8 +356,6 @@ collections:
               {label: "Image", name: "image", widget: image},
               {label: "Twitter Username", name: "twitterUsername", widget: string},
             ]}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sub Title", name: subTitle, widget: string}
           - {label: "Header", name: header, widget: object, fields: [
               {label: "Display", name: display, widget: boolean, required: false},
               {label: "Title", name: title, widget: string},
@@ -373,7 +371,7 @@ collections:
               {label: "Display", name: display, widget: boolean, required: false},
               {label: "Title", name: title, widget: string},
               {label: "Description", name: description, widget: string},
-              {label: "Items", name: numbers, widget: object, fields: [
+              {label: "Items", name: numbers, widget: list, fields: [
                 {label: "Number", name: number, widget: string},
                 {label: "Text", name: text, widget: string},
               ]}
@@ -385,14 +383,14 @@ collections:
                 {label: "Text", name: text, widget: text},
               ]},
               {label: "Product Logos", name: logos, widget: list, fields: [
-                {label: "Image", name: image, widget: image},
+                {label: "Image", name: img, widget: image},
                 {label: "Image Alt", name: alt, widget: string},
               ]}
             ]}
           - {label: "Contact", name: contact, widget: object, fields: [
               {label: "Display", name: display, widget: boolean, required: false},
               {label: "Text", name: text, widget: string},
-              {label: "Buttons", name: buttons, widget: object, fields: [
+              {label: "Button", name: button, widget: object, fields: [
                 {label: "Text", name: text, widget: string},
                 {label: "Link", name: link, widget: string},
               ]},
@@ -400,8 +398,8 @@ collections:
           - {label: "Get Involved", name: involved, widget: object, fields: [
               {label: "Display", name: display, widget: boolean, required: false},
               {label: "Title", name: title, widget: string},
-              {label: "Image Slider", name: slider, widget: list, fields: [
-                {label: "Image", name: image, widget: image},
+              {label: "Image Slider", name: slide, widget: list, fields: [
+                {label: "Image", name: picture, widget: image},
               ]},
               {label: "Buttons", name: buttons, widget: list, fields: [
                 {label: "Text", name: text, widget: string},
@@ -424,14 +422,12 @@ collections:
               {label: "Image", name: "image", widget: image},
               {label: "Twitter Username", name: "twitterUsername", widget: string},
             ]}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sub Title", name: subTitle, widget: string}
           - {label: "Header", name: header, widget: object, fields: [
               {label: "Display", name: display, widget: boolean, required: false},
               {label: "Title", name: title, widget: string},
               {label: "Upper Title", name: upperTitle, widget: string},
               {label: "Description", name: description, widget: text},
-              {label: "Buttons", name: buttons, widget: list, fields: [
+              {label: "Buttons", name: button, widget: object, fields: [
                 {label: "Text", name: text, widget: string},
                 {label: "Link", name: link, widget: string},
               ]},

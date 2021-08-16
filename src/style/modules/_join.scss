@@ -15,7 +15,7 @@
       display: inline-block;
     }
     .upper-title {
-      text-transform: uppercase;      
+      text-transform: uppercase;
     }
     .title {
       font-family: "Jura", "Roboto", sans-serif;
@@ -44,7 +44,6 @@
         justify-content: center;
         align-items: center;
         padding: 12px 30px 13px;
-        width: 160px;
         height: 40px;
         border-radius: 37px;
         font-style: normal;
@@ -66,6 +65,10 @@
           background: #e61e24;
           border-color: #e61e24;
           margin-right: 20px;
+          &:hover {
+            background-color: #9a0c28;
+            border-color: #9a0c28;
+          }
         }
         &:last-of-type {
           width: 163px;
@@ -75,6 +78,14 @@
           img {
             filter: invert(61%) sepia(5%) saturate(90%) hue-rotate(315deg)
               brightness(84%) contrast(86%);
+          }
+          &:hover {
+            color: #fff;
+            background: #e61e24;
+            border-color: #e61e24;
+            img {
+              filter: none;
+            }
           }
         }
       }
@@ -166,6 +177,7 @@
       line-height: 40px;
       letter-spacing: -0.30000001192092896px;
       text-align: left;
+      margin-bottom: 20px;
     }
     &-text {
       font-family: "Roboto", sans-serif;
@@ -242,9 +254,17 @@
     padding: 12px 30px 13px;
     background: #e61e24;
     border-radius: 37px;
-    width: 141px;
+    font-weight: bold;
     height: 44px;
+    font-size: 12px;
+    line-height: 19px;    
+    text-align: center;
+    letter-spacing: 0.3px;
     color: #ffffff;
+    &:hover {
+      background-color: #9a0c28;
+      border-color: #9a0c28;
+    }
   }
 }
 .involved {
@@ -315,7 +335,6 @@
         justify-content: center;
         align-items: center;
         padding: 12px 30px 13px;
-        width: 160px;
         height: 40px;
         border-radius: 37px;
         font-weight: bold;
@@ -329,6 +348,10 @@
           background: #e61e24;
           border-color: #e61e24;
           margin-right: 20px;
+          &:hover {
+            background-color: #9a0c28;
+            border-color: #9a0c28;
+          }
         }
         &:last-of-type {
           width: 163px;
@@ -338,6 +361,14 @@
           img {
             filter: invert(61%) sepia(5%) saturate(90%) hue-rotate(315deg)
               brightness(84%) contrast(86%);
+          }
+          &:hover {
+            color: #fff;
+            background: #e61e24;
+            border-color: #e61e24;
+            img {
+              filter: none;
+            }
           }
         }
       }

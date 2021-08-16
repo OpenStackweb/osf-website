@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
+import LinkComponent from '../components/LinkComponent';
 import SEO from '../components/SEO';
 import envVariables from '../utils/envVariables'
 import { connect } from "react-redux";
@@ -21,7 +22,7 @@ export const JoinPageTemplate = ({
     weAreOpenInfra,
     communities,
     contact,
-    involved,    
+    involved,
     content,
     contentComponent
 }) => {
@@ -50,7 +51,12 @@ export const JoinPageTemplate = ({
                             <div className="buttons">
                                 {header.buttons.map((button, index) => {
                                     return (
-                                        <a key={`header-button-${index}`} href={button.link}>{button.text} <img src={leftArrow} alt="" /> </a>
+                                        <LinkComponent
+                                            className={`${index === 1 ? 'membership_action' : null}`}
+                                            key={`header-button-${index}`}
+                                            href={button.link}>
+                                            {button.text} <img src={leftArrow} alt="" />
+                                        </LinkComponent>
                                     )
                                 })}
                             </div>
@@ -106,7 +112,7 @@ export const JoinPageTemplate = ({
                                                 (logo.img.extension === 'svg' || logo.img.extension === 'gif') && !logo.img.childImageSharp ?
                                                     logo.img.publicURL
                                                     :
-                                                    !!logo.img.childImageSharp ? logo.img.childImageSharp.fluid.src : logo.image
+                                                    !!logo.img.childImageSharp ? logo.img.childImageSharp.fluid.src : logo.img
                                             } alt={logo.alt} />
                                         </div>
                                     )
@@ -119,7 +125,7 @@ export const JoinPageTemplate = ({
                     <div className="contact">
                         <img src="/img/apple-touch-icon.png" alt="" />
                         <span>{contact.text}</span>
-                        <a href={contact.button.link}>{contact.button.text}</a>
+                        <LinkComponent href={contact.button.link}>{contact.button.text}</LinkComponent>
                     </div>
                 }
                 {involved && involved.display &&
@@ -140,19 +146,19 @@ export const JoinPageTemplate = ({
                             <div className="buttons-container">
                                 {involved.buttons.map((button, index) => {
                                     return (
-                                        <a href={button.link} key={`ìnvolved-button-${index}`}>{button.text} <img src={leftArrow} alt="" /> </a>
+                                        <LinkComponent className={`${index === 0 ? 'membership_action' : null}`} href={button.link} key={`ìnvolved-button-${index}`}>{button.text} <img src={leftArrow} alt="" /> </LinkComponent>
                                     )
                                 })}
                             </div>
                         </div>
                     </div>
                 }
-            </div>            
+            </div>
         </div >
     )
 }
 
-JoinPageTemplate.propTypes = {    
+JoinPageTemplate.propTypes = {
     title: PropTypes.string,
     subTitle: PropTypes.string,
     header: PropTypes.object,
@@ -176,6 +182,8 @@ const JoinPage = ({ isLoggedUser, data }) => {
     useEffect(() => {
 
         let Anchors = document.getElementsByClassName("membership_action");
+
+        console.log('anchors', Anchors)
 
         for (var i = 0; i < Anchors.length; i++) {
             Anchors[i].addEventListener("click", handleOnClick);
@@ -251,7 +259,7 @@ export const joinPageQuery = graphql`
           }       
           image {
             childImageSharp {
-              fluid(maxWidth: 640, quality: 64) {
+              fluid(maxWidth: 2048, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }

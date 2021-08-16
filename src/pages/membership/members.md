@@ -8,9 +8,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: Join The Open Infrastructure Foundation
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/members/
-title: Join The Open Infrastructure Foundation
-subTitle: Help us build open source communities that write software to run in production
+  url: https://openinfra.dev/join/members/
 header:
   display: true
   title: OUR MEMBERS MAKE OPEN INFRASTRUCTURE A REALITY
@@ -21,10 +19,10 @@ header:
     open source communities who write software that runs in production.
   button:
     text: Schedule a Call
-    link: ""    
-  image: "/img/members/Group 49.png"
+    link: https://calendly.com/jimmy-mcarthur
+  image: /img/members/Group-49.png
   membership: >
-    Read about <a href="">membership levels</a>
+    Read about <a href="#benefits">membership levels</a>
 whyJoin:
     display: true
     title: Why Organizations Join the Foundation
@@ -154,7 +152,7 @@ memberBenefits:
             button:
                 link: ""
                 text: Learn More
-    scheduleCall: Still have questions? <a href="">Schedule a phone call</a>.
+    scheduleCall: Still have questions? <a href="https://calendly.com/jimmy-mcarthur">Schedule a phone call</a>.
 quote:
     display: true
     text: >
@@ -307,6 +305,6 @@ help:
     description: Get in touch if you’d like to know more about membership options
     button:
         text: Schedule a Call
-        link: ""
+        link: https://calendly.com/jimmy-mcarthur
     picture: /img/members/IMG_7800 1.png
 ---

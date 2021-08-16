@@ -8,6 +8,7 @@ import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO';
+import LinkComponent from '../components/LinkComponent';
 import envVariables from '../utils/envVariables'
 import { connect } from "react-redux";
 
@@ -27,9 +28,7 @@ export const MembersPageTemplate = ({
     content,
     contentComponent
 }) => {
-    const PageContent = contentComponent || Content
-
-    console.log('asda', header)
+    const PageContent = contentComponent || Content    
 
     return (
         <div>
@@ -49,7 +48,7 @@ export const MembersPageTemplate = ({
                                 {header.description}
                             </span>
                             <div className="buttons">
-                                <a href={header.button.link}>{header.button.text} <img src={leftArrow} alt="" /> </a>
+                                <LinkComponent href={header.button.link}>{header.button.text} <img src={leftArrow} alt="" /> </LinkComponent>
                             </div>
                             <span dangerouslySetInnerHTML={{ __html: header.membership }}>
                             </span>
@@ -91,7 +90,7 @@ export const MembersPageTemplate = ({
                     </div>
                 }
                 {memberBenefits && memberBenefits.display &&
-                    <div className="member-benefits">
+                    <div className="member-benefits" id="benefits">
                         <span className="member-benefits-title">
                             {memberBenefits.title}
                         </span>
@@ -116,7 +115,7 @@ export const MembersPageTemplate = ({
                                         <div className="row-text" dangerouslySetInnerHTML={{ __html: row.text }} />
                                         <div className="row-silver" dangerouslySetInnerHTML={row.silver ? { __html: '&#10003' } : { __html: '&nbsp;' }} />
                                         <div className="row-gold" dangerouslySetInnerHTML={row.gold ? { __html: '&#10003' } : { __html: '&nbsp;' }} />
-                                        <div className="row-platinum" dangerouslySetInnerHTML={row.platinum ? { __html: '&#10003' } : { __html: '&nbsp;' }} />
+                                        <div className="row-platinum"><span dangerouslySetInnerHTML={row.platinum ? { __html: '&#10003' } : { __html: '&nbsp;' }} /></div>
                                     </div>
                                 )
                             })}
@@ -139,13 +138,13 @@ export const MembersPageTemplate = ({
                                 <div className="row-text">
                                 </div>
                                 <div className="row-silver">
-                                    <a href={memberBenefits.fees.silver.button.link} >{memberBenefits.fees.silver.button.text}</a>
+                                    <LinkComponent href={memberBenefits.fees.silver.button.link} >{memberBenefits.fees.silver.button.text}</LinkComponent>
                                 </div>
                                 <div className="row-gold">
-                                    <a href={memberBenefits.fees.gold.button.link} >{memberBenefits.fees.gold.button.text}</a>
+                                    <LinkComponent href={memberBenefits.fees.gold.button.link} >{memberBenefits.fees.gold.button.text}</LinkComponent>
                                 </div>
                                 <div className="row-platinum">
-                                    <a href={memberBenefits.fees.platinum.button.link} >{memberBenefits.fees.platinum.button.text}</a>
+                                    <LinkComponent href={memberBenefits.fees.platinum.button.link} >{memberBenefits.fees.platinum.button.text}</LinkComponent>
                                 </div>
                             </div>
                         </div>
@@ -173,7 +172,7 @@ export const MembersPageTemplate = ({
                                 <div className="mobile-price">
                                     <span className="price">{memberBenefits.fees.silver.price}</span>
                                     <span className="fee">Annual Membership Fee</span>
-                                    <a href={memberBenefits.fees.silver.button.link} >{memberBenefits.fees.silver.button.text}</a>
+                                    <LinkComponent href={memberBenefits.fees.silver.button.link} >{memberBenefits.fees.silver.button.text}</LinkComponent>
                                     <span>Startup pricing available</span>
                                 </div>
                             </div>
@@ -199,7 +198,7 @@ export const MembersPageTemplate = ({
                                 <div className="mobile-price">
                                     <span className="price">{memberBenefits.fees.gold.price}</span>
                                     <span className="fee">Annual Membership Fee</span>
-                                    <a href={memberBenefits.fees.gold.button.link} >{memberBenefits.fees.gold.button.text}</a>
+                                    <LinkComponent href={memberBenefits.fees.gold.button.link} >{memberBenefits.fees.gold.button.text}</LinkComponent>
                                     <span>Startup pricing available</span>
                                 </div>
                             </div>
@@ -225,7 +224,7 @@ export const MembersPageTemplate = ({
                                 <div className="mobile-price">
                                     <span className="price">{memberBenefits.fees.platinum.price}</span>
                                     <span className="fee">Annual Membership Fee</span>
-                                    <a href={memberBenefits.fees.platinum.button.link} >{memberBenefits.fees.platinum.button.text}</a>
+                                    <LinkComponent href={memberBenefits.fees.platinum.button.link} >{memberBenefits.fees.platinum.button.text}</LinkComponent>
                                     <span>Startup pricing available</span>
                                 </div>
                             </div>
@@ -288,7 +287,7 @@ export const MembersPageTemplate = ({
                         <div>
                             <span className="help-title">{help.title}</span>
                             <span>{help.description}</span>
-                            <a href={help.button.link}>{help.button.text}<img src={leftArrow} alt="" /> </a>
+                            <LinkComponent href={help.button.link}>{help.button.text}<img src={leftArrow} alt="" /> </LinkComponent>
                         </div>
                     </div>
                 }
@@ -403,7 +402,7 @@ export const membersPageQuery = graphql`
             }       
             image {
               childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
+                fluid(maxWidth: 2048, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }

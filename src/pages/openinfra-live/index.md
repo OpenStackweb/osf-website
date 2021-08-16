@@ -15,6 +15,18 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-09-02T09:00:00.000Z
+    episodeTitle: "Open Source Training Opportunities "
+    episodeDescription: "Interested in learning more or improving your open source
+      development skills? Looking to learn more about OpenStack and Kubernetes
+      administration and prep for the Certified OpenStack Administrator or
+      Certified Kubernetes Administrator exams? Join us as OpenInfra
+      organizations discuss their training programs and how they can accelerate
+      your open source career. "
+    youtubeEmbed: https://www.youtube.com/embed/0bMI1fcrI0A
+    youtubeLink: https://youtu.be/0bMI1fcrI0A
+    calendarInvite: /static/invites/myevents-5-.ics
+  - hidden: false
     date: 2021-08-26T14:00:13.693Z
     episodeTitle: "Large Scale OpenStack: Discussing Software-Defined Supercomputers"
     episodeDescription: "When we talk about Large Scale, it usually refers to

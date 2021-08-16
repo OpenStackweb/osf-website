@@ -534,6 +534,9 @@
       line-height: 19px;
       text-align: center;
       letter-spacing: 0.3px;
+      flex: none;
+      flex-grow: 0;      
+      max-width: 300px;
       &:hover {
         background-color: #9a0c28;
         border-color: #9a0c28;

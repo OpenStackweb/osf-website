@@ -15,7 +15,7 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2021-09-16T09:00:47.738Z
+    date: 2021-09-16T14:00:47.738Z
     episodeTitle: "Superusers: Where are they Now"
     episodeDescription: "Since the Paris Summit in 2014, the OpenInfra Foundation
       has hosted our annual Superuser Awards to recognize organizations that
@@ -27,7 +27,7 @@ episodes:
     youtubeEmbed: https://www.youtube.com/embed/nUwgBdx0lSw
     calendarInvite: /static/invites/myevents-7-.ics
   - hidden: false
-    date: 2021-09-09T09:00:05.776Z
+    date: 2021-09-09T14:00:05.776Z
     episodeDescription: "Are you looking for a job in open source? Curious about
       what companies might be right for you? Join us as we spotlight companies
       with open infrastructure job openings, hear straight from current
@@ -38,7 +38,7 @@ episodes:
     youtubeEmbed: https://www.youtube.com/embed/BPtr_nq3wJQ
     calendarInvite: /static/invites/myevents-6-.ics
   - hidden: false
-    date: 2021-09-02T09:00:00.000Z
+    date: 2021-09-02T14:00:00.000Z
     episodeTitle: "Open Source Training Opportunities "
     episodeDescription: "Interested in learning more or improving your open source
       development skills? Looking to learn more about OpenStack and Kubernetes

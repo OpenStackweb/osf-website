@@ -80,7 +80,7 @@ episodes:
   - hidden: false
     date: 2021-08-19T14:00:00.000Z
     episodeTitle: OpenStack Basics
-    episodeSpeakers: Ben Silverman
+    episodeSpeakers: Ben Silverman, Ildiko Vancsa
     episodeDescription: For the uninitiated, OpenStack's role in programmable
       infrastructure can be a little hard to understand unless you know its
       capabilities and how it works. Furthermore, to some people, OpenStack

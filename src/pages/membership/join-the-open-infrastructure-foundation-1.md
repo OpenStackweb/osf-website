@@ -92,7 +92,7 @@ involved:
     - picture: /img/join/OSSBER_Keynote_web-32 1.png
   buttons:
     - text: A Business
-      link: https://openinfra.dev/join/members/
+      link: /join/members/
     - text: An Individual
       link: "#"
 ---

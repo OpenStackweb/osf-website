@@ -11,9 +11,11 @@ header:
     text: Learn more about how your company can support the Open Infrastructure
       community
     url: /join/
-  subTitle: The Open Infrastructure Foundation would not exist without the support
-    of the Platinum, Gold, and Silver Members listed below.
-  title: Companies Supporting The Open Infrastructure Foundation
+  subTitle: The Open Infrastructure Foundation would not exist without the
+    financial support of the Platinum, Gold, and Silver Members listed below.
+    Infrastructure donors and Associate members also directly or indirectly
+    support our mission.
+  title: Organizations supporting the OpenInfra Foundation
 companies:
   - companyList:
       - alt: Ant Group

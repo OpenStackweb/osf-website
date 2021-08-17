@@ -235,7 +235,7 @@ export const MembersPageTemplate = ({
                 {quote && quote.display &&
                     <div className="quote">
                         <span className="quote-text">
-                            <img src="/img/members/Quotes.png" />
+                            <img src="/img/members-page/Quotes.png" />
                             {quote.text}
                         </span>
                         <div>

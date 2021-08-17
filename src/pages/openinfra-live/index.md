@@ -58,7 +58,10 @@ episodes:
       supercomputers to use in research and HPC. In this episode, operators of
       OpenStack supercomputers and HPC centers will discuss the unique
       challenges this use case brings."
-    episodeSpeakers: ""
+    episodeSpeakers: >
+      Stig Telfer (StackHPC), Sadaf Alam (CSCS, the Swiss National Supercomputer
+      Centre), Happy Sithole (Center for High Performance Computing (CHPC) South
+      Africa), Steve Quenette (Monash e-Research Centre)
     youtubeEmbed: https://www.youtube.com/embed/fOJTHanmOFg
     youtubeLink: https://www.youtube.com/watch?v=fOJTHanmOFg
     calendarInvite: /static/invites/myevents-2-.ics

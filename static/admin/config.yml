@@ -384,7 +384,7 @@ collections:
               ]},
               {label: "Product Logos", name: logos, widget: list, fields: [
                 {label: "Image", name: img, widget: image},
-                {label: "Image Alt", name: alt, widget: string},
+                {label: "Image Alt", name: alt, widget: string, required: false},
               ]}
             ]}
           - {label: "Contact", name: contact, widget: object, fields: [
@@ -406,7 +406,7 @@ collections:
                 {label: "Link", name: link, widget: string},
               ]},
             ]}
-          - {label: "Body", name: body, widget: markdown}
+          - {label: "Body", name: body, widget: markdown, required: false}
   - name: "members-page"
     label: "Members Page"
     files:
@@ -496,7 +496,7 @@ collections:
                 {label: "Mobile Title", name: mobileTitle, widget: string},
                 {label: "Companies", name: companies, widget: list, fields: [
                   {label: "Logo", name: logo, widget: image},
-                  {label: "Image Alt", name: alt, widget: string},
+                  {label: "Image Alt", name: alt, widget: string, required: false},
                 ]}
               ]}
             ]}
@@ -510,7 +510,7 @@ collections:
               ]},
               {label: "Picture", name: picture, widget: image},
             ]}
-          - {label: "Body", name: body, widget: markdown}
+          - {label: "Body", name: body, widget: markdown, required: false}
   - name: "custom-membership-pages"
     label: "Membership Custom Pages"
     files:

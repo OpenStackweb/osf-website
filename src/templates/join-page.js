@@ -146,7 +146,7 @@ export const JoinPageTemplate = ({
                             <div className="buttons-container">
                                 {involved.buttons.map((button, index) => {
                                     return (
-                                        <LinkComponent className={`${index === 0 ? 'membership_action' : null}`} href={button.link} key={`ìnvolved-button-${index}`}>{button.text} <img src={leftArrow} alt="" /> </LinkComponent>
+                                        <LinkComponent className={`${index === 1 ? 'membership_action' : null}`} href={button.link} key={`ìnvolved-button-${index}`}>{button.text} <img src={leftArrow} alt="" /> </LinkComponent>
                                     )
                                 })}
                             </div>
@@ -182,8 +182,6 @@ const JoinPage = ({ isLoggedUser, data }) => {
     useEffect(() => {
 
         let Anchors = document.getElementsByClassName("membership_action");
-
-        console.log('anchors', Anchors)
 
         for (var i = 0; i < Anchors.length; i++) {
             Anchors[i].addEventListener("click", handleOnClick);

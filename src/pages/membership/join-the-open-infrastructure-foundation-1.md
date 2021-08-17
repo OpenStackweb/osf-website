@@ -23,7 +23,7 @@ header:
       link: /join/members/
     - text: An Individual
       link: "#"
-  image: /img/join/Hero-Image.png
+  image: /img/join-page/Hero-Image.png
 weAreOpenInfra:
   display: true
   title: "#WeAreOpenInfra"
@@ -84,12 +84,12 @@ involved:
   display: true
   title: Get Involved
   slide:
-    - picture: /img/join/ossvan_hallway_convo-7 1.png
-    - picture: /img/join/EWP-IMG_1870 1.png
-    - picture: /img/join/Tokyo WOO 1.png
-    - picture: /img/join/marketmixer_full-111 1.png
-    - picture: /img/join/Barcelona Attendees 1.png
-    - picture: /img/join/OSSBER_Keynote_web-32 1.png
+    - picture: /img/join-page/ossvan_hallway_convo-7 1.png
+    - picture: /img/join-page/EWP-IMG_1870 1.png
+    - picture: /img/join-page/Tokyo WOO 1.png
+    - picture: /img/join-page/marketmixer_full-111 1.png
+    - picture: /img/join-page/Barcelona Attendees 1.png
+    - picture: /img/join-page/OSSBER_Keynote_web-32 1.png
   buttons:
     - text: A Business
       link: /join/members/

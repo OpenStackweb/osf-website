@@ -12,7 +12,7 @@ header:
       community
     url: /join/
   subTitle: The Open Infrastructure Foundation would not exist without the support
-    of the Platinum, Gold, and Corporate Members listed below.
+    of the Platinum, Gold, and Silver Members listed below.
   title: Companies Supporting The Open Infrastructure Foundation
 companies:
   - companyList:
@@ -168,6 +168,17 @@ companies:
       critical to the global community's success. "
     title: SILVER MEMBERS
     level: silver
+  - title: ASSOCIATE MEMBERS
+    text: Associate members are other organizations actively supporting the mission
+      of the Open Infrastructure Foundation. They may be partner non-profit
+      organizations sustaining the development of open infrastructure, or
+      notable academic and research institutions making extensive use of open
+      infrastructure solutions.
+    companyList:
+      - image: /img/ow2-member.png
+        alt: OW2
+      - image: /img/soda-foundation-member.png
+        alt: SODA Foundation
   - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg

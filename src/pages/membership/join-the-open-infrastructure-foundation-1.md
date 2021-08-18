@@ -19,7 +19,7 @@ header:
     OpenInfra Foundation mission: Build  open source communities who write
     software that runs in production.
   buttons:
-    - text: A Business
+    - text: An Organization
       link: /join/members/
     - text: An Individual
       link: "#"
@@ -91,7 +91,7 @@ involved:
     - picture: /img/join-page/Barcelona Attendees 1.png
     - picture: /img/join-page/OSSBER_Keynote_web-32 1.png
   buttons:
-    - text: A Business
+    - text: An Organization
       link: /join/members/
     - text: An Individual
       link: "#"

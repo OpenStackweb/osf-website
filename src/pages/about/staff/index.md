@@ -252,6 +252,19 @@ members:
     picture: /img/about-staff/ildikovancsa.png
     title: Senior Manager of Community and Ecosystem
     twitter: https://twitter.com/IldikoVancsa
+  - name: Helena Spease
+    picture: /img/screen-shot-2021-05-04-at-4.47.38-pm.png
+    title: Marketing & Community Associate
+    description: Helena is a graduate of St. Edward's University in Austin, Texas
+      where she received her Bachelors Degree in Business Management. As the
+      Marketing and Community Intern, she assists in the creation of marketing
+      comms, the collection of analytics, as well as community support around
+      content creation. While working for the OpenInfra Foundation, she is also
+      working to earn a degree in Computer Science. Outside of work and school,
+      she is an avid camper/hiker, true crime junkie, and coffee shop fiend.
+    linkedin: https://www.linkedin.com/in/helenaspease/
+    twitter: https://twitter.com/helena_spease
+    openStack: https://www.openstack.org/community/members/profile/121598
 support:
   members:
     - description: Horace is currently working as China Community Manager @ Open
@@ -267,17 +280,6 @@ support:
       openStack: https://www.openstack.org/community/members/profile/98596
       picture: /img/about-staff/horaceli.jpg
       title: China Community Manager
-    - name: "Helena Spease "
-      title: Marketing & Community Intern
-      description: Helena is a graduate of St. Edward's University in Austin, Texas
-        where she received her Bachelors Degree in Business Management. As the
-        Marketing and Community Intern, she assists in the creation of marketing
-        comms, the collection of analytics, as well as community support around
-        content creation. While working for the OpenInfra Foundation, she is
-        also working to earn a degree in Computer Science. Outside of work and
-        school, she is an avid camper/hiker, true crime junkie, and coffee shop
-        fiend.
-      picture: /img/screen-shot-2021-05-04-at-4.47.38-pm.png
     - description: Lisa Miller serves as legal counsel for the Open Infrastructure
         Foundation. Lisa focuses her practice on  providing quality legal
         services to corporate clients on transactional matters and

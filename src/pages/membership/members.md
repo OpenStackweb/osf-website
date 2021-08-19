@@ -189,7 +189,9 @@ quote:
   people:
     picture: /img/members-page/1616433488142 1.png
     name: Paul Miller
-    position: CTO at Wind River
+    position: CTO at Wind River<br/><a href="/about/board"
+      style="display:block;font-size:0.65em;line-height:22px;">OpenInfra
+      Foundation Board Member</a>
     company: /img/members-page/Wind_River_logo 1.png
 companyTier:
   display: true

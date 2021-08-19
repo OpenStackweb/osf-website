@@ -108,7 +108,7 @@ people:
         (#19!) a reality.  There are a lot of OSS projects dominated by one
         company, who are changing models right  now to control the benefits($).
         At OpenInfra Foundation #fouropens mean more opportunity, IMHO."
-      user: '@sparkycollier'
+      user: "@sparkycollier"
     - name: Tim Bell
       picture: https://pbs.twimg.com/profile_images/556073063888850945/xCO4x5vO_bigger.jpeg
       text: "Thanks to the #openstack infra team for the help to debug a mailing list
@@ -166,7 +166,7 @@ sponsor:
       - alt: Ericsson
         image: /img/companies/_New/Platinum/Sponsor-Logos_Ericsson.png
       - alt: Facebook Connectivity
-        image: /img/companies/_New/Platinum/Sponsor-Logos_FBC.png
+        image: /img/sponsor-logos_fbc-new.png
       - alt: FiberHome
         image: /img/companies/_New/Platinum/Sponsor-Logos_FiberHome.png
       - alt: Huawei

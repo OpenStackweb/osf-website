@@ -243,7 +243,7 @@ export const MembersPageTemplate = ({
                                 <img className="quote-picture" src={!!quote.people.picture.childImageSharp ? quote.people.picture.childImageSharp.fluid.src : quote.people.picture} />
                                 <div>
                                     <span className="quote-name">{quote.people.name},</span>
-                                    <span className="quote-title">{quote.people.position}</span>
+                                    <span className="quote-title" dangerouslySetInnerHTML={{__html: quote.people.position}} />
                                 </div>
                             </div>
                             <img className="quote-logo" src={!!quote.people.company.childImageSharp ? quote.people.company.childImageSharp.fluid.src : quote.people.company} />

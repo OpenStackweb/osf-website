@@ -226,7 +226,6 @@ export const MembersPageTemplate = ({
                                     <span className="price">{memberBenefits.fees.platinum.price}</span>
                                     <span className="fee">Annual Membership Fee</span>
                                     <LinkComponent href={memberBenefits.fees.platinum.button.link} >{memberBenefits.fees.platinum.button.text}</LinkComponent>
-                                    <span>Startup pricing available</span>
                                 </div>
                             </div>
                         </div>

@@ -34,14 +34,21 @@ members:
     picture: /img/board/allisonrandall.png
     title: Chair
     twitter: https://twitter.com/allisonrandal
-  - name: Amar Padmanabhan
+  - name: Michael Cheng
     company: Facebook
-    openStack: https://www.openstack.org/community/members/profile/8248
-    picture: /img/1528776640793.jpg
+    openStack: https://www.openstack.org/community/members/profile/135942/michael-cheng
+    picture: /img/headshot-1-.jpg
     title: Platinum Director
-    description: I work on opensource projects in connectivity that helps bring more
-      people online to a faster internet
-    linkedin: https://www.linkedin.com/in/amar-padmanabhan-6a765810
+    description: >-
+      Michael is a product manager at Facebook, currently supporting open source
+      and standards work across the company. 
+
+
+      Michael is former network engineer, investment banker, car salesman and M&A attorney. He previously led the Product and IP function on Facebook's M&A legal team.
+
+
+      While at Facebook, Michael has established and/or now actively serving on the boards of 20+ open source foundations, non-profits, standards setting organizations, including: ML Commons, Confidential Computing Consortium, Libra/Diem Association, Urban Computing Foundation, OpenChain, Open Invention Network Technical Advisory Committee, Magma Foundation, and others.
+    linkedin: https://www.linkedin.com/in/priorart/
   - company: Red Hat
     description: Amy Marrich is a Principal Technical Marketing Manager at Red Hat.
       She previously worked at a small Open Source e-assessment company in

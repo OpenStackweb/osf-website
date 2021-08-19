@@ -40,14 +40,14 @@ members:
     picture: /img/headshot-1-.jpg
     title: Platinum Director
     description: >-
-      Michael is a product manager at Facebook, currently supporting open source
-      and standards work across the company. 
+      <p>Michael is a product manager at Facebook, currently supporting open
+      source and standards work across the company.</p>
 
 
-      Michael is former network engineer, investment banker, car salesman and M&A attorney. He previously led the Product and IP function on Facebook's M&A legal team.
+      <p>Michael is former network engineer, investment banker, car salesman and M&A attorney. He previously led the Product and IP function on Facebook's M&A legal team.</p>
 
 
-      While at Facebook, Michael has established and/or now actively serving on the boards of 20+ open source foundations, non-profits, standards setting organizations, including: ML Commons, Confidential Computing Consortium, Libra/Diem Association, Urban Computing Foundation, OpenChain, Open Invention Network Technical Advisory Committee, Magma Foundation, and others.
+      <p>While at Facebook, Michael has established and/or now actively serving on the boards of 20+ open source foundations, non-profits, standards setting organizations, including: ML Commons, Confidential Computing Consortium, Libra/Diem Association, Urban Computing Foundation, OpenChain, Open Invention Network Technical Advisory Committee, Magma Foundation, and others.</p>
     linkedin: https://www.linkedin.com/in/priorart/
   - company: Red Hat
     description: Amy Marrich is a Principal Technical Marketing Manager at Red Hat.

@@ -49,22 +49,24 @@ episodes:
     youtubeEmbed: https://www.youtube.com/embed/0bMI1fcrI0A
     youtubeLink: https://youtu.be/0bMI1fcrI0A
     calendarInvite: /static/invites/myevents-5-.ics
-  - hidden: false
-    date: 2021-08-26T14:00:13.693Z
-    episodeTitle: "Large Scale OpenStack: Discussing Software-Defined Supercomputers"
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4256168904438346/
     episodeDescription: "When we talk about Large Scale, it usually refers to
       scaling out to hundreds of thousands of commodity nodes. But there is
       another dimension to Large Scale OpenStack: using OpenStack to build
       supercomputers to use in research and HPC. In this episode, operators of
       OpenStack supercomputers and HPC centers will discuss the unique
       challenges this use case brings."
+    calendarInvite: /static/invites/myevents-2-.ics
+    hidden: false
+    date: 2021-08-26T14:00:13.693Z
     episodeSpeakers: >
       Stig Telfer (StackHPC), Sadaf Alam (Swiss National Supercomputer Centre),
       Happy Sithole (Center for High Performance Computing South Africa), Steve
       Quenette (Monash e-Research Centre), and Jonathan Mills (NASA Goddard)
     youtubeEmbed: https://www.youtube.com/embed/fOJTHanmOFg
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6834150009706037248
+    episodeTitle: "Large Scale OpenStack: Discussing Software-Defined Supercomputers"
     youtubeLink: https://www.youtube.com/watch?v=fOJTHanmOFg
-    calendarInvite: /static/invites/myevents-2-.ics
   - facebookLink: https://www.facebook.com/104139126308032/posts/4229345477120689/
     episodeDescription: Join us as members from the Bare Metal SIG join us to
       discuss how Ironic works to simplify many of the hardships physical bare

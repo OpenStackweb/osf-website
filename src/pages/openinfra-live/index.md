@@ -59,10 +59,9 @@ episodes:
       OpenStack supercomputers and HPC centers will discuss the unique
       challenges this use case brings."
     episodeSpeakers: >
-      Stig Telfer (StackHPC), Sadaf Alam (CSCS, the Swiss National Supercomputer
-      Centre), Happy Sithole (Center for High Performance Computing (CHPC) South
-      Africa), Steve Quenette (Monash e-Research Centre), and Jonathan Mills
-      (NASA Goddard)
+      Stig Telfer (StackHPC), Sadaf Alam (Swiss National Supercomputer Centre),
+      Happy Sithole (Center for High Performance Computing South Africa), Steve
+      Quenette (Monash e-Research Centre), and Jonathan Mills (NASA Goddard)
     youtubeEmbed: https://www.youtube.com/embed/fOJTHanmOFg
     youtubeLink: https://www.youtube.com/watch?v=fOJTHanmOFg
     calendarInvite: /static/invites/myevents-2-.ics

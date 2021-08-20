@@ -72,10 +72,10 @@ export const MembersPageTemplate = ({
                                 return (
                                     <div className="why-join-container" key={`why-join-${index}`}>
                                         <img src={
-                                            (item.image.extension === 'svg' || item.image.extension === 'gif') && !item.image.childImageSharp ?
-                                                item.image.publicURL
+                                            (item.image?.extension === 'svg' || item.image?.extension === 'gif') && !item.image?.childImageSharp ?
+                                                item.image?.publicURL
                                                 :
-                                                !!item.image.childImageSharp ? item.image.childImageSharp.fluid.src : item.image
+                                                !!item.image?.childImageSharp ? item.image?.childImageSharp.fluid.src : item.image
                                         } />
                                         <div className="why-join-text">
                                             <span className="why-join-container-title">{item.title}</span>
@@ -268,10 +268,10 @@ export const MembersPageTemplate = ({
                                             return (
                                                 <img key={`company-tier-${tierIndex}-${index}`}
                                                     src={
-                                                        (company.logo.extension === 'svg' || company.logo.extension === 'gif') && !company.logo.childImageSharp ?
+                                                        (company.logo?.extension === 'svg' || company.logo?.extension === 'gif') && !company.logo?.childImageSharp ?
                                                             company.logo.publicURL
                                                             :
-                                                            !!company.logo.childImageSharp ? company.logo.childImageSharp.fluid.src : company.logo
+                                                            !!company.logo?.childImageSharp ? company.logo?.childImageSharp.fluid.src : company.logo
                                                     } />
                                             )
                                         })}

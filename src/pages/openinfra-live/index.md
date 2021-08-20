@@ -82,19 +82,20 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/bare-metal-ironic-in-production-openinfra-live-recap/
     episodeTitle: "Bare Metal: Ironic In Production "
     youtubeLink: https://www.youtube.com/watch?v=m81Q2bU9bGU
-  - hidden: false
-    date: 2021-08-19T14:00:00.000Z
-    episodeTitle: OpenStack Basics
-    episodeSpeakers: Ben Silverman, Ildiko Vancsa
-    episodeDescription: For the uninitiated, OpenStack's role in programmable
+  - episodeDescription: For the uninitiated, OpenStack's role in programmable
       infrastructure can be a little hard to understand unless you know its
       capabilities and how it works. Furthermore, to some people, OpenStack
       looks very similar to virtualization or simply like existing public cloud
       offerings. To fully understand this cloud platform, we will start at the
       origins of cloud technology and end at how today's OpenStack works.
-    youtubeLink: https://www.youtube.com/watch?v=hGRkdYu6I5k
-    youtubeEmbed: https://www.youtube.com/embed/hGRkdYu6I5k
     calendarInvite: /static/invites/openinfralive_august19th.ics
+    hidden: false
+    date: 2021-08-19T14:00:00.000Z
+    episodeSpeakers: Ben Silverman, Ildiko Vancsa
+    youtubeEmbed: https://www.youtube.com/embed/hGRkdYu6I5k
+    superuserRecap: https://superuser.openstack.org/articles/openstack-basics-openinfra-live-recap/
+    episodeTitle: OpenStack Basics
+    youtubeLink: https://www.youtube.com/watch?v=hGRkdYu6I5k
   - facebookLink: https://www.facebook.com/104139126308032/posts/4173780696010501/
     episodeDescription: "The Kubernetes steering committee and OpenStack technical
       committee meet regularly to talk about cross-community learnings and

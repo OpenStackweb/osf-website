@@ -203,6 +203,7 @@ companyTier:
       companies:
         - logo: /img/members-page/platinum/Sponsor-Logos_AntGroup 1.png
           alt: Ant Group
+        - logo: /img/sponsor-logos_at-t.png
         - logo: /img/members-page/platinum/Sponsor-Logos_Ericsson 1.png
           alt: Ericsson
         - logo: /img/members-page/platinum/Sponsor-Logos_FBC-new 1.png

@@ -109,10 +109,10 @@ export const JoinPageTemplate = ({
                                     return (
                                         <div class="section-bg-green-logo" key={`logo-${index}`}>
                                             <img src={
-                                                (logo.img.extension === 'svg' || logo.img.extension === 'gif') && !logo.img.childImageSharp ?
-                                                    logo.img.publicURL
+                                                (logo.img?.extension === 'svg' || logo.img?.extension === 'gif') && !logo.img?.childImageSharp ?
+                                                    logo.img?.publicURL
                                                     :
-                                                    !!logo.img.childImageSharp ? logo.img.childImageSharp.fluid.src : logo.img
+                                                    !!logo.img?.childImageSharp ? logo.img?.childImageSharp.fluid.src : logo.img
                                             } alt={logo.alt} />
                                         </div>
                                     )
@@ -137,7 +137,7 @@ export const JoinPageTemplate = ({
                             <div className="gradient" />
                             {involved.slide.map((pic, index) => {
                                 return (
-                                    <img key={`involved-slide-${index}`} src={!!pic.picture.childImageSharp ? pic.picture.childImageSharp.fluid.src : pic.picture} />
+                                    <img key={`involved-slide-${index}`} src={!!pic.picture?.childImageSharp ? pic.picture?.childImageSharp.fluid.src : pic.picture} />
                                 )
                             })}
                         </div>

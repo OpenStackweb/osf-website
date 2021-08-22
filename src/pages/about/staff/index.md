@@ -257,11 +257,12 @@ members:
     title: Marketing & Community Associate
     description: Helena is a graduate of St. Edward's University in Austin, Texas
       where she received her Bachelors Degree in Business Management. As the
-      Marketing and Community Intern, she assists in the creation of marketing
-      comms, the collection of analytics, as well as community support around
-      content creation. While working for the OpenInfra Foundation, she is also
-      working to earn a degree in Computer Science. Outside of work and school,
-      she is an avid camper/hiker, true crime junkie, and coffee shop fiend.
+      Marketing and Community Associate, she assists in the creation of
+      marketing comms, the collection of analytics, as well as community support
+      around content creation. While working for the OpenInfra Foundation, she
+      is also working to earn a degree in Computer Science. Outside of work and
+      school, she is an avid camper/hiker, true crime junkie, and coffee shop
+      fiend.
     linkedin: https://www.linkedin.com/in/helenaspease/
     twitter: https://twitter.com/helena_spease
     openStack: https://www.openstack.org/community/members/profile/121598

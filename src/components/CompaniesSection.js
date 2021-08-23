@@ -106,7 +106,7 @@ const CompaniesSection = class extends React.Component {
             })}
           </Slider>
 
-          <LinkComponent href="/companies/" className="button button-red">
+          <LinkComponent href="/members/" className="button button-red">
             <span>View all Member Companies <img src="/img/symbols/arrow-left.svg" alt="" /></span>
           </LinkComponent>
         </div>

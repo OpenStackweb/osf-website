@@ -515,8 +515,8 @@ collections:
     label: "Membership Custom Pages"
     files:
       - file: "src/pages/membership/companies.md"
-        label: "Companies"
-        name: "companies"
+        label: "Members"
+        name: "members"
         fields:
             - {label: "Template Key", name: "templateKey", widget: "hidden", default: "companies-page"}
             - {label: SEO, name: seo, widget: object, fields: [

@@ -41,10 +41,9 @@ companies:
       empowering and promoting the Open Infrastructure community and open source
       software projects. Each Platinum Member's company strategy aligns with the
       OpenInfra Foundation mission and is responsible for committing full-time
-      resources toward the project. There are eight Platinum Members at any
-      given time, each of which holds a seat on the Board of  Directors. Thank
-      you to the following Platinum Members who are committed to the Open
-      Infrastructure community's success.
+      resources toward the project. Thank you to the following Platinum Members
+      who are committed to the Open Infrastructure community's success. <a
+      href="/join/members">Learn more about becoming a member.</a>
     level: platinum
     title: PLATINUM MEMBERS
   - companyList:
@@ -90,7 +89,8 @@ companies:
       If your organization  is highly involved with the Open Infrastructure
       community and interested in becoming a Gold Member, read more about
       joining the  Foundation. Thank you to the following Gold Members who are
-      critical to the global community's success.
+      critical to the global community's success.  <a href="/join/members">Learn
+      more about becoming a member.</a>
     title: GOLD MEMBERS
     level: gold
   - companyList:
@@ -162,12 +162,13 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
-    text: "Open Infrastructure Foundation Silver Members provide funding and pledge
+    text: Open Infrastructure Foundation Silver Members provide funding and pledge
       strategic alignment to the OpenInfra Foundation mission. If your
       organization  is highly involved with  the Open Infrastructure community
       and interested in becoming a Silver Member,  read more about joining
       the  Foundation. Thank you to the following Silver  Members who are
-      critical to the global community's success. "
+      critical to the global community's success.  <a href="/join/members">Learn
+      more about becoming a member.</a>
     title: SILVER MEMBERS
     level: silver
   - title: ASSOCIATE MEMBERS
@@ -175,7 +176,10 @@ companies:
       of the Open Infrastructure Foundation. They may be partner non-profit
       organizations sustaining the development of open infrastructure, or
       notable academic and research institutions making extensive use of open
-      infrastructure solutions.
+      infrastructure solutions. <a
+      href="mailto:ecosystem@openinfra.dev?subject=Interested in becoming an
+      Associate Member">Interested in having your logo listed as an Associate
+      Member? Contact us</a>
     companyList:
       - image: /img/ow2-member.png
         alt: OW2

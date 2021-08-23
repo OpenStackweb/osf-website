@@ -36,5 +36,9 @@
   to = "/about/openinfra-partnerships/"
   status = 301
   force = true
-  
+[[redirects]]
+  from = "/companies/"
+  to = "/members/"
+  status = 301
+  force = true  
  

@@ -142,6 +142,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT.png
       - alt: NTT TechnoCross
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT-TX.png
+      - alt: ORock
+        image: /img/companies/_New/Silver/orock-silver.jpg
       - alt: OVH
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_OVH.png
       - alt: Safespring

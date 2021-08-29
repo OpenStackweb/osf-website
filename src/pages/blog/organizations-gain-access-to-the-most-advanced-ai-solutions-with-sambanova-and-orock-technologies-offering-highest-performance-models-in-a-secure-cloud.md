@@ -15,7 +15,7 @@ seo:
     Secure Cloud
   description: Strategic partnership makes secure cloud-based AI solutions
     available to everyone, everywhere
-  url: https://www.openinfra.dev/blog/orock-sambanova
+  url: https://openinfra.dev/blog/orock-sambanova
   twitterUsername: "@ORock_Tech"
 ---
 SambaNova Systems, the company building the industry’s most advanced software, hardware, and services to run AI applications, today announced a strategic partnership with ORock Technologies, Inc., a high-performance cloud services provider, to deliver the industry’s most powerful and secure cloud-based AI solutions to organizations seeking a competitive advantage in faster time-to- decision and model outcomes.

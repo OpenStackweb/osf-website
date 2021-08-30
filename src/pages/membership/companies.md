@@ -3,7 +3,8 @@ templateKey: companies-page
 seo:
   description: The Home of Open Infrastructure
   image: /img/OpenInfra-icon-white.jpg
-  title: Supporting Organizations - Open Infrastructure Foundation (OpenInfra Foundation)
+  title: Supporting Organizations - Open Infrastructure Foundation (OpenInfra
+    Foundation)
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/members/
 header:
@@ -187,6 +188,8 @@ companies:
         alt: OW2
       - image: /img/soda-foundation-member.png
         alt: SODA Foundation
+      - alt: Boston University
+        image: /img/bu.png
   - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg

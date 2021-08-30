@@ -184,12 +184,12 @@ companies:
       Associate Member">Interested in having your logo listed as an Associate
       Member? Contact us</a>
     companyList:
+      - alt: Boston University
+        image: /img/bu.png
       - image: /img/ow2-member.png
         alt: OW2
       - image: /img/soda-foundation-member.png
         alt: SODA Foundation
-      - alt: Boston University
-        image: /img/bu.png
   - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg

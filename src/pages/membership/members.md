@@ -280,6 +280,7 @@ companyTier:
           alt: ""
         - logo: /img/members-page/silver/componentsoft-silver 1.png
           alt: ""
+        - logo: /img/coredge188.png
         - logo: /img/members-page/silver/Sponsor-Logos-Silver_DevStack 1.png
           alt: ""
         - logo: /img/members-page/silver/elastx-oi 1.png

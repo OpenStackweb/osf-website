@@ -186,6 +186,8 @@ companies:
     companyList:
       - alt: Boston University
         image: /img/bu.png
+      - image: /img/cern.png
+        alt: CERN
       - image: /img/ow2-member.png
         alt: OW2
       - image: /img/soda-foundation-member.png

@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210625T155407Z
+UID:20210625T155407Z-2036112206@marudot.com
+DTSTART;TZID=America/Chicago:20210701T090000
+DTEND;TZID=America/Chicago:20210701T100000
+SUMMARY:OpenInfra Live Episode 12: Building the Intelligent Edge with Open Source Technologies
+URL:https://youtu.be/pHHCIGkpNzs
+DESCRIPTION:The GSMA expects there will be over 24 billion edge connections by 2025\, 20% of them on 5G. The intelligent edge is the analysis of data and development of solutions at the site where the data is generated. A recent survey\, conducted by Wind River and supported by the #OpenInfra Foundation\, highlights some key trends around the intelligent edge and how open source plays a critical role. \n\nJoin Ildiko Vancsa as she hosts Mark Collier and Paul Miller to learn about the results of the survey and insight into how upstream communities are making progress for this emerging use case. 
+LOCATION:https://youtu.be/pHHCIGkpNzs
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenInfra Live Episode 12: Building the Intelligent Edge with Open Source Technologies
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

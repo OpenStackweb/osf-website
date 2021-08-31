@@ -33,7 +33,7 @@ const ContactInformation = class extends React.Component {
                   <p><LinkComponent href="/about/board/" className="aboutstaff-s3-link">Board of Directors</LinkComponent></p> 
                   <p><LinkComponent href="https://www.openstack.org/foundation/tech-committee/" className="aboutstaff-s3-link">Technical Committee</LinkComponent></p> 
                   <p><LinkComponent href="https://www.openstack.org/community/members/" className="aboutstaff-s3-link">Member Directory</LinkComponent></p> 
-                  <p><LinkComponent href="/companies/" className="aboutstaff-s3-link">Supporting Companies</LinkComponent></p>
+                  <p><LinkComponent href="/members/" className="aboutstaff-s3-link">Supporting Organizations</LinkComponent></p>
                 </div>
               </div>
             </div>

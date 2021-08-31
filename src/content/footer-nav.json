@@ -46,8 +46,8 @@
       "title": "Membership",
       "nav": [
         {
-          "text": "Supporting Companies",
-          "link": "/companies/"
+          "text": "Supporting Organizations",
+          "link": "/members/"
         },
         {
           "text": "Join OpenInfra Foundation",
@@ -89,7 +89,7 @@
         },
         {
           "text": "Partnerships",
-          "link": "/about/osf-partnerships/"
+          "link": "/about/openinfra-partnerships/"
         }
       ]
     },

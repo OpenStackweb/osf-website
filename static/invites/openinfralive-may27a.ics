@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20210519T154550Z
+UID:20210519T154550Z-1246756036@marudot.com
+DTSTART:20210527T140000Z
+DTEND:20210527T150000Z
+SUMMARY:OpenInfra Live: Large Scale Open Source CI Featuring Zuul
+URL:https://www.youtube.com/watch?v=MptrjDKrKhI
+DESCRIPTION:Don’t merge broken code. Infrastructure at scale relies on quality software that is tested before it’s deployed. Operators rely on open source CI systems like Zuul for gating\, scaling across organizations and cross-project dependencies. In this OpenInfra Live episode\, Jim Blair\, Zuul Maintainer and CEO at Acme Gating\, and Mohammed Naser\, CEO of Vexxhost will provide an overview of Zuul\, the open source CI/CD business case and a demo showing what cross project dependencies look like in production.\n\nWatch live at https://www.youtube.com/watch?v=MptrjDKrKhI
+LOCATION:https://www.youtube.com/watch?v=MptrjDKrKhI
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenInfra Live: Large Scale Open Source CI Featuring Zuul
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

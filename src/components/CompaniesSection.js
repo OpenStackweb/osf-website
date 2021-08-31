@@ -13,16 +13,16 @@ const CompaniesSection = class extends React.Component {
 
     let perChunk = 6 // items per chunk    
     let inputArray = gold.companyList;
-    let goldCompanies = inputArray.reduce((resultArray, item, index) => { 
-      const chunkIndex = Math.floor(index/perChunk)
+    let goldCompanies = inputArray.reduce((resultArray, item, index) => {
+      const chunkIndex = Math.floor(index / perChunk)
 
-      if(!resultArray[chunkIndex]) {
+      if (!resultArray[chunkIndex]) {
         resultArray[chunkIndex] = [] // start a new chunk
       }
 
       resultArray[chunkIndex].push(item)
 
-      if(resultArray.length === 4) {
+      if (resultArray.length === 4) {
         resultArray[2] = [...resultArray[2], ...resultArray[3]]
         resultArray.pop();
       }
@@ -32,17 +32,17 @@ const CompaniesSection = class extends React.Component {
 
     function SamplePrevArrow(props) {
       const { style, onClick } = props;
-      return (        
+      return (
         <a role="button" data-slide="prev" className="carousel-control-prev" style={{ ...style, display: 'flex' }} onClick={onClick}>
           <span aria-hidden="true" className="carousel-control-prev-icon"></span>
-              <img src="/img/symbols/logo-arrow-left.svg" alt="Previous" className="home-s8-container-child" />
+          <img src="/img/symbols/logo-arrow-left.svg" alt="Previous" className="home-s8-container-child" />
         </a>
       );
     }
 
     function SampleNextArrow(props) {
       const { style, onClick } = props;
-      return (        
+      return (
         <a role="button" data-slide="next" className="carousel-control-next" style={{ ...style, display: 'flex' }} onClick={onClick}>
           <span aria-hidden="true" className="carousel-control-next-icon"></span>
           <img src="/img/symbols/logo-arrow-right.svg" alt="Next" className="home-s8-container-child" />
@@ -50,7 +50,7 @@ const CompaniesSection = class extends React.Component {
       );
     }
 
-    let slideSettings = {      
+    let slideSettings = {
       dots: false,
       infinite: true,
       speed: 600,
@@ -69,42 +69,46 @@ const CompaniesSection = class extends React.Component {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 {platinum.companyList.map((company, index) => {
-                  return (
-                    <img src={
-                      (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
-                        company.image.publicURL
-                        :                        
-                        !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                    } alt={company.alt} className="home-s8-container-child" key={index} />
-                  )
+                  if (company.image) {
+                    return (
+                      <img src={
+                        (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
+                          company.image.publicURL
+                          :
+                          !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
+                      } alt={company.alt} className="home-s8-container-child" key={index} />
+                    )
+                  }
                 })}
               </div>
             </div>
           </div>
           <h3>{gold.title}</h3>
 
-          <Slider {...slideSettings}>            
+          <Slider {...slideSettings}>
             {goldCompanies.map((list, index) => {
-                return (
-                  <div key={index}>
-                    {list.map((company, index) => {
-                      return(
+              return (
+                <div key={index}>
+                  {list.map((company, index) => {
+                    if (company.image) {
+                      return (
                         <img src={
                           (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
                             company.image.publicURL
                             :
                             !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                        } alt={company.alt} style={{marginRight: '1em'}} className="home-s8-container-child" key={index} />
+                        } alt={company.alt} style={{ marginRight: '1em' }} className="home-s8-container-child" key={index} />
                       )
-                    })}                    
-                  </div>
-                )
-            })}            
+                    }
+                  })}
+                </div>
+              )
+            })}
           </Slider>
-          
-          <LinkComponent href="/companies/" className="button button-red">
+
+          <LinkComponent href="/members/" className="button button-red">
             <span>View all Member Companies <img src="/img/symbols/arrow-left.svg" alt="" /></span>
-          </LinkComponent>          
+          </LinkComponent>
         </div>
       </section>
     )

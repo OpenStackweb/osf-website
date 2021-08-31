@@ -1,12 +1,12 @@
 ---
 templateKey: blog-post
-hidePost: false
 title: "Introducing OpenInfraLive: A Weekly, Interactive Webinar Series"
 author: Erin Disney
 date: 2021-04-15T19:30:26.832Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
+hidePost: false
 seo:
   title: "Introducing OpenInfraLive: A Weekly, Interactive Webinar Series"
   twitterUsername: "@OpenInfraDev "
@@ -20,7 +20,7 @@ OpenInfra Live is a weekly hour-long interactive content series streaming to the
 
 * April 22nd: A behind the scenes look at the OpenStack TC meeting at the PTG
 * April 29th: Airship 2.0 Release 
-* May 6th: A Global Connectivity conversation to highlight Magma and OIF’s involvement in the community
+* May 6th: A Global Connectivity conversation to highlight Magma and Open Infrastructure Foundation’s involvement in the community
 * May 13th: Large Scale SIG 
 * May 20th: The StarlingX 5.0 Release
 * May 27th: Zuul in Production User Story

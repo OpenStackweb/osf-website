@@ -1,0 +1,474 @@
+.join-header {
+  min-height: 520px;
+  padding: 20px 20px 20px 120px;
+  display: flex;
+  flex-direction: row;
+  .header-right {
+    width: 45%;
+    padding: 35px 0 20px;
+    color: #000;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    span {
+      display: inline-block;
+    }
+    .upper-title {
+      text-transform: uppercase;
+    }
+    .title {
+      font-family: "Jura", "Roboto", sans-serif;
+      font-size: 45px;
+      line-height: 42px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 24px;
+    }
+    .description {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .join {
+      font-family: Roboto;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 30px;
+      margin: 20px 0 18px;
+    }
+    .buttons {
+      display: flex;
+      a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 30px 13px;
+        height: 40px;
+        border-radius: 37px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.3px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px 20px 0;
+        img {
+          margin-left: 10px;
+        }
+        &:first-of-type {
+          color: #fff;
+          background: #e61e24;
+          border-color: #e61e24;
+          margin-right: 20px;
+          &:hover {
+            background-color: #9a0c28;
+            border-color: #9a0c28;
+          }
+        }
+        &:last-of-type {
+          width: 163px;
+          color: #848484;
+          background-color: #fff;
+          border: 2px solid #848484;
+          img {
+            filter: invert(61%) sepia(5%) saturate(90%) hue-rotate(315deg)
+              brightness(84%) contrast(86%);
+          }
+          &:hover {
+            color: #fff;
+            background-color: #9a0c28;
+            border-color: #9a0c28;
+            img {
+              filter: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .header-left {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    .picture {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        z-index: 10;
+        width: 100%;
+      }
+    }
+    svg {
+      position: absolute;
+    }
+  }
+}
+.waoi {
+  background-color: #161616;
+  min-height: 400px;
+  display: flex;
+  padding: 60px 128px;
+  > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .waoi-left {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 100px 0;
+    div {
+      width: 50%;
+      border-left: 4px solid #e61e24;
+      margin-top: 55px;
+      display: flex;
+      flex-direction: column;
+      padding-left: 15px;
+      span {
+        display: inline-block;
+      }
+      &:nth-of-type(2) {
+        border-left: 4px solid #2cb4e2;
+      }
+      &:nth-of-type(3) {
+        border-left: 4px solid #f7b749;
+      }
+      &:nth-of-type(4) {
+        border-left: 4px solid #43b85c;
+      }
+    }
+    &-number {
+      font-family: "Jura", "Roboto", sans-serif;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -0.30000001192092896px;
+      text-align: left;
+      margin-bottom: 8px;
+    }
+    &-text {
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+  .waoi-right {
+    &-title {
+      font-family: Jura;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -0.30000001192092896px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    &-text {
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+}
+.communities {
+  color: #121212;
+  min-height: 545px;
+  padding: 50px 120px;
+  .communities-title {
+    font-family: "Jura", "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+  }
+  .communities-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    margin-top: 35px;
+    div {
+      width: 50%;
+      &:first-of-type {
+        margin-right: 35px;
+      }
+    }
+  }
+  .communities-icons {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 60px;
+    }
+  }
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 180px;
+  background-color: #000;
+  img {
+    width: 60px;
+  }
+  span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 30px 13px;
+    background: #e61e24;
+    border-radius: 37px;
+    font-weight: bold;
+    height: 44px;
+    font-size: 12px;
+    line-height: 19px;    
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+    &:hover {
+      background-color: #9a0c28;
+      border-color: #9a0c28;
+    }
+  }
+}
+.involved {
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .involved-title {
+    font-family: "Jura", "Roboto", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.3;
+    text-align: center;
+    color: #121212;
+    text-align: center;
+  }
+  .involved-slide {
+    padding: 40px 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    .gradient {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: linear-gradient(
+        90deg,
+        rgba(256, 256, 256, 1) 0%,
+        rgba(196, 196, 196, 0) 16.48%,
+        rgba(196, 196, 196, 0) 81.56%,
+        rgba(256, 256, 256, 1) 100%
+      );
+      height: 100%;
+      width: 100%;
+      z-index: 10;
+    }
+    img {
+      margin-right: 15px;
+      height: 150px;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+  .involved-buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    span {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 30px;
+      text-align: center;
+      color: #000000;
+    }
+    .buttons-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      margin-top: 18px;
+      a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 30px 13px;
+        height: 40px;
+        border-radius: 37px;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 19px;
+        img {
+          margin-left: 10px;
+        }
+        &:first-of-type {
+          color: #fff;
+          background: #e61e24;
+          border-color: #e61e24;
+          margin-right: 20px;
+          &:hover {
+            background-color: #9a0c28;
+            border-color: #9a0c28;
+          }
+        }
+        &:last-of-type {
+          width: 163px;
+          color: #848484;
+          background-color: #fff;
+          border: 2px solid #848484;
+          img {
+            filter: invert(61%) sepia(5%) saturate(90%) hue-rotate(315deg)
+              brightness(84%) contrast(86%);
+          }
+          &:hover {
+            color: #fff;
+            background-color: #9a0c28;
+            border-color: #9a0c28;
+            img {
+              filter: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .join-header {
+    flex-direction: column-reverse;
+    padding: 10px 20px 20px;
+    .header-left {
+      width: 100%;
+    }
+    .header-right {
+      width: 100%;
+      .upper-title {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 1px;
+      }
+      .title {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: -0.6000000238418579px;
+      }
+      .buttons {
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+  }
+  .waoi {
+    height: auto;
+    flex-direction: column-reverse;
+    padding: 50px 32px;
+    > div {
+      width: 100%;
+    }
+    .waoi-right {
+      &-title {
+        margin-bottom: 50px;
+        font-size: 30px;
+        line-height: 40px;
+      }
+    }
+    .waoi-left {
+      padding: 0;
+      flex-direction: column;
+      align-content: flex-start;
+      > div {
+        margin-top: 55px;
+      }
+    }
+  }
+  .communities {
+    padding: 58px 32px;
+    .communities-title {
+      font-size: 30px;
+      line-height: 36px;
+    }
+    .communities-text {
+      flex-direction: column;
+      > div {
+        width: 100%;
+        &:first-of-type {
+          margin-bottom: 64px;
+        }
+      }
+    }
+    .communities-icons {
+      > div {
+        flex-wrap: wrap;
+        > div {
+          flex: 1 0 20%;
+        }
+      }
+    }
+  }
+  .contact {
+    flex-direction: column;
+    padding: 60px 32px;
+    img {
+      margin-bottom: 60px;
+    }
+    span {
+      margin-bottom: 52px;
+    }
+  }
+  .involved {
+    padding: 50px 0 60px;
+    .involved-title {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    .involved-slide {
+      img {
+        flex: 1 0 22%;
+      }
+    }
+  }
+}

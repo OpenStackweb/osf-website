@@ -10,3 +10,4 @@ public/
 static/admin/*.bundle.*
 .idea/
 .env
+.env.development

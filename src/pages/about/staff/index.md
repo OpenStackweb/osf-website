@@ -4,7 +4,7 @@ seo:
   description: The OpenInfra Foundation staff serves developers, users, and
     ecosystem by providing a set of shared resources to help organizations build
     and operate open infrastructure.  "
-  image: /img/osficon-social.png
+  image: /img/openinfrastructurefoundation-logo-rgb-horiz3.png
   title: Staff
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/about/staff/
@@ -119,6 +119,19 @@ members:
     picture: /img/about-staff/Wes-headshot.jpg
     title: Director of Product & Engineering
     twitter: https://twitter.com/iamweswilson
+  - description: Allison manages Marketing Content initiatives including case study
+      development, advertising  campaigns, the Superuser online publication and
+      OpenStack User Survey. Her past roles have  specialized in social strategy
+      and execution for both B2B and B2C global companies in the  technology and
+      consumer industries. In her spare time, she enjoys finding new hiking
+      trails and  sharing her love with Celine Dion with anyone and everyone who
+      will listen.
+    linkedin: https://www.linkedin.com/in/allisonmarieprice
+    name: Allison Price
+    openStack: https://www.openstack.org/community/members/profile/17777
+    picture: /img/about-staff/AllisonPrice.jpg
+    title: Director of Marketing & Community
+    twitter: https://twitter.com/amprice88
   - description: It all started as a volunteer sysadmin at Portland State
       University. Since then Clark has operated  large network infrastructures,
       built radios for airplanes, and is now a core member of the
@@ -192,31 +205,17 @@ members:
     picture: /img/about-staff/jimmymcarthur.jpg
     title: Senior Manager Community & Business Development
     twitter: https://twitter.com/jimmymcarthur
-  - description: Allison manages Marketing Content initiatives including case study
-      development, advertising  campaigns, the Superuser online publication and
-      OpenStack User Survey. Her past roles have  specialized in social strategy
-      and execution for both B2B and B2C global companies in the  technology and
-      consumer industries. In her spare time, she enjoys finding new hiking
-      trails and  sharing her love with Celine Dion with anyone and everyone who
-      will listen.
-    linkedin: https://www.linkedin.com/in/allisonmarieprice
-    name: Allison Price
-    openStack: https://www.openstack.org/community/members/profile/17777
-    picture: /img/about-staff/AllisonPrice.jpg
-    title: Director of Marketing & Community
-    twitter: https://twitter.com/amprice88
-  - description: <p>Kendall is an Upstream Developer Advocate at the Open
-      Infrastructure Foundation based in Seattle, WA.  She first started working
-      on Cinder and os-brick in the Liberty release and since then
-      gotten  involved in Release Mangement, StoryBoard, the Women of OpenStack
-      (WoO), the First Contact SIG,  the Contributor Guide, and OpenStack
-      Upstream Institute. She has also worked as an election  official for TC
-      and PTL elections (Pike-Rocky) and served as a track chair for the
-      Barcelona,  Boston, Sydney, and Vancouver summits.</p> <p>When she is not
-      evangelizing about the awesomeness of OpenStack, bringing people into
-      the  community, or working to make upstream development a friendlier
-      place, she can be found reading  Harry Potter, watching Doctor Who, or out
-      on a photo taking adventure.</p>
+  - description: >-
+      <p>Kendall is an Upstream Developer Advocate at the Open Infrastructure
+      Foundation based in the United States. She first started working on
+      OpenStack during the Liberty release (2015) on Cinder and since then been
+      involved in Release Management, StoryBoard, the Women of OpenStack (WoO),
+      the First Contact SIG, the Contributor Guide, and OpenStack Upstream
+      Institute.
+
+      She’s recently gotten more involved in the Kubernetes community helping to bridge it with the OpenStack community via SIG Cloud Provider and provider OpenStack. 
+
+      When she is not evangelizing about the awesomeness of OpenStack, bringing people into the community, binding open source communities together, or working to make upstream development in open source a friendlier place, she can be found reading Harry Potter, watching Doctor Who, or out on a photo taking adventure.</p>
     linkedin: https://www.linkedin.com/in/kendall-nelson-a7409575/
     name: Kendall Nelson
     openStack: https://www.openstack.org/community/members/profile/35859/kendall-nelson
@@ -253,20 +252,20 @@ members:
     picture: /img/about-staff/ildikovancsa.png
     title: Senior Manager of Community and Ecosystem
     twitter: https://twitter.com/IldikoVancsa
-  - description: Kendall Waters Perez has joined the Open Infrastructure Foundation
-      as a Marketing Associate after completing a  spring internship in 2015.
-      She graduated from St. Edward s University in Austin, TX with a  Bachelor
-      s degree in Digital Media Management. She helps the marketing team
-      organize and manage  the twice-annual Summits. Her previous roles have
-      specialized in social media management at  local start-up companies in
-      Austin. In her free time, she likes to ride her bike around town,  attend
-      music festivals, and spend time with her two cats.
-    linkedin: https://www.linkedin.com/in/waterskendall
-    name: Kendall Waters Perez
-    openStack: https://www.openstack.org/community/members/profile/29123
-    picture: /img/about-staff/kendallwaters.jpg
-    title: Community Partnerships Manager
-    twitter: https://twitter.com/wendallkaters
+  - name: Helena Spease
+    picture: /img/screen-shot-2021-05-04-at-4.47.38-pm.png
+    title: Marketing & Community Associate
+    description: Helena is a graduate of St. Edward's University in Austin, Texas
+      where she received her Bachelors Degree in Business Management. As the
+      Marketing and Community Associate, she assists in the creation of
+      marketing comms, the collection of analytics, as well as community support
+      around content creation. While working for the OpenInfra Foundation, she
+      is also working to earn a degree in Computer Science. Outside of work and
+      school, she is an avid camper/hiker, true crime junkie, and coffee shop
+      fiend.
+    linkedin: https://www.linkedin.com/in/helenaspease/
+    twitter: https://twitter.com/helena_spease
+    openStack: https://www.openstack.org/community/members/profile/121598
 support:
   members:
     - description: Horace is currently working as China Community Manager @ Open

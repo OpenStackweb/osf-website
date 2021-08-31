@@ -13,7 +13,7 @@ import LinkComponent from '../components/LinkComponent'
 import { connect } from "react-redux";
 
 export const ServicesPageTemplate = ({
-  isLoggedUser,  
+  isLoggedUser,
   header,
   row1,
   row2,
@@ -41,9 +41,11 @@ export const ServicesPageTemplate = ({
               <div className="columns">
                 <div className="column">
                   {row1.images.map((image, index) => {
-                    return (
-                      <img src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} id={index < 1 ? 'about-s1-id-pic4' : 'about-s1-id-pic5'} alt="" key={index} />
-                    )
+                    if (image.image) {
+                      return (
+                        <img src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} id={index < 1 ? 'about-s1-id-pic4' : 'about-s1-id-pic5'} alt="" key={index} />
+                      )
+                    }
                   })}
                 </div>
                 <div className="column">
@@ -87,9 +89,11 @@ export const ServicesPageTemplate = ({
               <div className="columns">
                 <div className="column">
                   {row5.images.map((image, index) => {
-                    return (
-                      <img src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} id={index < 1 ? 'about-s1-id-pic1' : 'about-s1-id-pic2'} alt="" key={index} />
-                    )
+                    if (image.image) {
+                      return (
+                        <img src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} id={index < 1 ? 'about-s1-id-pic1' : 'about-s1-id-pic2'} alt="" key={index} />
+                      )
+                    }
                   })}
                 </div>
                 <div className="column">
@@ -142,7 +146,7 @@ const ServicesPage = ({ isLoggedUser, data }) => {
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <ServicesPageTemplate
         isLoggedUser={isLoggedUser}
-        contentComponent={HTMLContent}        
+        contentComponent={HTMLContent}
         header={post.frontmatter.header}
         row1={post.frontmatter.row1}
         row2={post.frontmatter.row2}

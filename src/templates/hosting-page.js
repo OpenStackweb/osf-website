@@ -36,12 +36,14 @@ export const HostingPageTemplate = ({
               <div className="columns">
                 <div className="column">
                   {row1.images.map((image, index) => {
-                    return (
-                      <img
-                        src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image}
-                        id={index < 1 ? `about-s1-id-pic1` : `about-s1-id-pic2`} alt=""
-                        key={index} />
-                    )
+                    if (image.image) {
+                      return (
+                        <img
+                          src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image}
+                          id={index < 1 ? `about-s1-id-pic1` : `about-s1-id-pic2`} alt=""
+                          key={index} />
+                      )
+                    }
                   })}
                 </div>
                 <div className="column">
@@ -77,12 +79,14 @@ export const HostingPageTemplate = ({
                 </div>
                 <div className="column">
                   {row2.images.map((image, index) => {
-                    return (
-                      <img
-                        src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image}
-                        id="about-s1-id-pic3" alt=""
-                        key={index} />
-                    )
+                    if (image.image) {
+                      return (
+                        <img
+                          src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image}
+                          id="about-s1-id-pic3" alt=""
+                          key={index} />
+                      )
+                    }
                   })}
                 </div>
               </div>
@@ -96,7 +100,7 @@ export const HostingPageTemplate = ({
   )
 }
 
-HostingPageTemplate.propTypes = {  
+HostingPageTemplate.propTypes = {
   header: PropTypes.object,
   row1: PropTypes.object,
   row2: PropTypes.object,
@@ -109,7 +113,7 @@ const HostingPage = ({ data }) => {
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <HostingPageTemplate
-        contentComponent={HTMLContent}        
+        contentComponent={HTMLContent}
         header={post.frontmatter.header}
         row1={post.frontmatter.row1}
         row2={post.frontmatter.row2}

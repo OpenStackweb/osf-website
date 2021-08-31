@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20210527T162354Z
+UID:20210527T162354Z-1437940604@marudot.com
+DTSTART:20210603T140000Z
+DTEND:20210603T150000Z
+SUMMARY:OpenInfra Live Episode 8: OpenInfra AMA
+URL:https://www.youtube.com/watch?v=d5ieK74F804
+DESCRIPTION:Are the hyperscale public clouds killing open source? Is open source actually secure? How does open source impact software supply chains? Join us as Jonathan Bryce (Executive Director\, OpenInfra Foundation)\, Mark Collier (COO\, OpenInfra Foundation) and Allison Randal (Board Chair\, OpenInfra Foundation) answer all of your toughest questions live on Thursday\, June 3rd 14:00 UTC. Share your questions with us in advance on all our social media channels like Twitter\, Facebook\, and Linked In.
+LOCATION:https://www.youtube.com/watch?v=d5ieK74F804
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenInfra Live Episode 8: OpenInfra AMA
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

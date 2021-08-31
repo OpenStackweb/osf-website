@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210630T173546Z
+UID:20210630T173546Z-1618296071@marudot.com
+DTSTART;TZID=America/Chicago:20210708T090000
+DTEND;TZID=America/Chicago:20210708T100000
+SUMMARY:OpenInfra Live Episode 13: The Role of Open Source in Digital Sovereignty
+URL:https://youtu.be/JPfo6wXM0BY
+DESCRIPTION:Johan Christenson\, CEO of CityNetwork\, hosts a discussion around the role of open source in digital sovereignty between Pierre Gronlier\, CTO of Gaia-X\, Kurt Garloff\, CTO at Sovereign Cloud Stack\, and Linda Siwe\, chief commercial officer at Binero.
+LOCATION:https://youtu.be/JPfo6wXM0BY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenInfra Live Episode 13: The Role of Open Source in Digital Sovereignty
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

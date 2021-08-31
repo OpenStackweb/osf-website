@@ -48,8 +48,8 @@
       "display": true,
       "links": [
         {
-          "text": "Supporting Companies ",
-          "url": "/companies/"
+          "text": "Supporting Organizations ",
+          "url": "/members/"
         },
         {
           "text": "Join OpenInfra Foundation ",
@@ -102,7 +102,7 @@
         },
         {
           "text": "Partnerships",
-          "url": "/about/osf-partnerships/"
+          "url": "/about/openinfra-partnerships/"
         }
       ]
     },
@@ -122,6 +122,11 @@
           "url": "/press/"
         }
       ]
+    },
+    {
+      "title": "Jobs",
+      "url": "https://openstack.org/jobs",
+      "image": "/img/background-shapes1.svg"
     }
   ],
   "button": {

@@ -62,7 +62,7 @@ projectList:
         text: Mailing Lists
       - link: https://katacontainers.io/docs/
         text: Documentation
-      - link: https://github.com/kata-containers/runtime/releases/
+      - link: https://github.com/kata-containers/kata-containers/releases
         text: Releases
       - link: https://katacontainers.io/community/
         text: Blog

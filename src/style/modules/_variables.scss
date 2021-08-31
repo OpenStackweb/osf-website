@@ -65,6 +65,7 @@ $danger: #d91a31;
 $danger-invert: findColorInvert($danger);
 
 $dark-light: #4a4a4a;
+$secondary-light: #f6f6f6;
 
 $primary-dark: #f15b3e;
 
@@ -75,30 +76,30 @@ $black: #222;
 $colors: (
   "white": (
     $white,
-    $black
+    $black,
   ),
   "black": (
     $black,
-    $white
+    $white,
   ),
   "danger": (
     $danger,
-    $danger-invert
+    $danger-invert,
   ),
   "primary": (
     $primary,
-    $primary-invert
+    $primary-invert,
   ),
   "purple-light": (
     $purple-light,
-    $purple-light-invert
+    $purple-light-invert,
   ),
   "dark": (
     $dark,
-    $dark-invert
+    $dark-invert,
   ),
   "dark-gray": (
     $dark-gray,
-    $dark-gray-invert
-  )
+    $dark-gray-invert,
+  ),
 );

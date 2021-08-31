@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20210610T222241Z
+UID:20210610T222241Z-680770813@marudot.com
+DTSTART:20210617T140000Z
+DTEND:20210617T150000Z
+SUMMARY:OpenInfra Live Episode 10: How to Start Contributing Upstream to OpenInfra
+URL:https://www.youtube.com/watch?v=4kGtM4J_hjM
+DESCRIPTION:Victoria Martinez de la Cruz\, an #OpenStack contributor who joined the community through the Outreachy internship program\, will be joined by Kendall Nelson\, OpenInfra Upstream Developer Advocate\, and contributors who are just getting started. \n\nThe group will discuss internships\, mentoring\, and how you can get started contributing upstream to open source projects like OpenStack\, Airship\, Kata\, StarlingX and Zuul. \n\nWatch live ou YouTube: https://www.youtube.com/watch?v=4kGtM4J_hjM
+LOCATION:https://www.youtube.com/watch?v=4kGtM4J_hjM
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenInfra Live Episode 10: How to Start Contributing Upstream to OpenInfra
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -12,6 +12,9 @@ import ProjectsPagePreview from './preview-templates/ProjectsPagePreview'
 import ServicesPagePreview from './preview-templates/ServicesPagePreview'
 import StaffPagePreview from './preview-templates/StaffPagePreview'
 import CompanyProfilePagePreview from './preview-templates/CompanyProfilePagePreview'
+import LivePagePreview from './preview-templates/LivePagePreview'
+import JoinPagePreview from './preview-templates/JoinPagePreview'
+import MembersPagePreview from './preview-templates/MembersPagePreview'
 
 CMS.registerPreviewStyle('style/styles.scss');
 
@@ -23,12 +26,15 @@ CMS.registerWidget(FileRelationWidget)
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('board', BoardPagePreview)
 CMS.registerPreviewTemplate('staff', StaffPagePreview)
-CMS.registerPreviewTemplate('companies', CompaniesPagePreview)
+CMS.registerPreviewTemplate('members', CompaniesPagePreview)
 CMS.registerPreviewTemplate('hosting', HostingPagePreview)
 CMS.registerPreviewTemplate('projects', ProjectsPagePreview)
 CMS.registerPreviewTemplate('services', ServicesPagePreview)
 CMS.registerPreviewTemplate('generic-about-pages', GenericPagePreview)
 CMS.registerPreviewTemplate('generic-projects-pages', GenericPagePreview)
-CMS.registerPreviewTemplate('generic-companies-pages', GenericPagePreview)
+CMS.registerPreviewTemplate('generic-membership-pages', GenericPagePreview)
 CMS.registerPreviewTemplate('generic-four-open-pages', GenericPagePreview)
+CMS.registerPreviewTemplate('openinfra-live-page', LivePagePreview)
+CMS.registerPreviewTemplate('join', JoinPagePreview)
+CMS.registerPreviewTemplate('members', MembersPagePreview)
 CMS.registerPreviewTemplate('companiesProfiles', CompanyProfilePagePreview)

@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../img/svg/OIF-logo.svg'
+import logo from '../img/svg/OpenInfraFoundation-logo-RGB-horiz-w.svg'
 import Menu from "../content/navbar.json"
 import LinkComponent from './LinkComponent'
 import {doLogin, initLogOut} from 'openstack-uicore-foundation/lib/methods'

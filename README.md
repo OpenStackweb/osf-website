@@ -1,6 +1,6 @@
 # OpenStack Software Foundation website
 
-This is the public repo to mantain the OIF website at [openinfra.dev](https://openinfra.dev).
+This is the public repo to mantain the OpenInfraFoundation website at [openinfra.dev](https://openinfra.dev).
 
 ## Overview
 
@@ -29,6 +29,7 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 ### Access Locally
 
 Pulldown a local copy of the Github repository Netlify created for you, with the name you specified in the previous step
+
 ```
 $ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
 $ cd [REPO_NAME]
@@ -49,14 +50,14 @@ $ netlify dev # or ntl dev
 
 ```sh
 $ git clone https://github.com/OpenStackweb/osf-website
-$ yarn 
+$ yarn
 ```
 
 ## Available scripts
 
 ### `build`
 
-Build the static files into the `public` folder, turns lambda functions into a deployable form. 
+Build the static files into the `public` folder, turns lambda functions into a deployable form.
 
 #### Usage
 

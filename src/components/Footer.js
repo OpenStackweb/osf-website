@@ -1,7 +1,5 @@
 import React from 'react'
-
-import logo from '../img/svg/OpenInfraFoundation-logo-RGB-horiz-w.svg'
-
+import logo from '../img/svg/OpenInfra-logo-RGB-w.svg'
 import content from '../content/footer-nav.json'
 import LinkComponent from './LinkComponent'
 

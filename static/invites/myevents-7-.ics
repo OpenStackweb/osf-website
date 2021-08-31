@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210816T190012Z
+UID:20210816T190012Z-1555407743@marudot.com
+DTSTART;TZID=America/Chicago:20210916T090000
+DTEND;TZID=America/Chicago:20210916T100000
+SUMMARY:OpenInfra Live Episode 22: Superusers- Where Are They Now
+URL:https://www.youtube.com/watch?v=nUwgBdx0lSw
+DESCRIPTION:Since the Paris Summit in 2014\, the OpenInfra Foundation has hosted our annual Superuser Awards to recognize organizations that have used open infrastructure to meaningfully improve their business while contributing back to the community. Past winners will join us for this episode to discuss where they are now\, what is next\, and tips for organizations applying for this year's awards. 
+LOCATION:https://www.youtube.com/watch?v=nUwgBdx0lSw
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenInfra Live Episode 22: Superusers- Where Are They Now
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

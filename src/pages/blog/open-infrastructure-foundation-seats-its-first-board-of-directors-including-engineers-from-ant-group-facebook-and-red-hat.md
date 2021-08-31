@@ -69,7 +69,7 @@ Gold Directors
 
 “Open infrastructure promotes ‘innovation and choice on the Internet,’ as Mozilla is fond of saying,” said Allison Randal, OpenInfra Foundation board chair and individual member of the Foundation. “The open source nature of the projects hosted at the OpenInfra Foundation—as well as the projects with which we openly collaborate—create economic opportunity around the world. It is an important proof point that modern, open source development can be funded by corporate interests but guided by the technical governance of individual contributors. I’m humbled by those who put their confidence in me to lead the board, and I’m energized by the opportunities before us to help define the next decade of open infrastructure.”
 
-Cloud&Heat, iVolve and SafeSpring also join the [60 organizations](https://openinfra.dev/companies/) to support the OpenInfra mission of creating open source communities who write software that runs in production. 
+Cloud&Heat, iVolve and SafeSpring also join the [60 organizations](https://openinfra.dev/members/) to support the OpenInfra mission of creating open source communities who write software that runs in production. 
 
 **OpenInfra Community Approves Amended Bylaws** 
 Community members of the OpenInfra Foundation approved on January 15 bylaw amendments that remove the limits on the number of Platinum and Gold Members of the Foundation. The amended bylaws also allow for adjusting the total number of board members as needed in order to balance the number of Platinum, Gold, and Individual Members. Each Platinum Member organization appoints a representative to serve on the Board of Directors. Gold and Individual members are elected by the community at large.

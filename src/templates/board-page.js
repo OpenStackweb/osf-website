@@ -38,9 +38,11 @@ export const BoardPageTemplate = ({
                   return (
                     <div className="aboutstaff-s2-container-border" key={index}>
                       <div className="card-social-container-icons">
-                        <LinkComponent href={member.openStack}>
-                          <img src="/img/symbols/icon-1.svg" alt="icon" className="card-social-icons" />
-                        </LinkComponent>
+                        {member.openStack &&
+                          <LinkComponent href={member.openStack}>
+                            <img src="/img/symbols/icon-1.svg" alt="icon" className="card-social-icons" />
+                          </LinkComponent>
+                        }
                         {member.twitter &&
                           <LinkComponent href={member.twitter}>
                             <img src="/img/symbols/icon-3.svg" alt="icon" className="card-social-icons" />
@@ -57,7 +59,11 @@ export const BoardPageTemplate = ({
                           <div className="media">
                             <div className="media-left">
                               <figure className="image is-128x128">
-                                <img src={!!member.picture.childImageSharp ? member.picture.childImageSharp.fluid.src : member.picture} alt="" />
+                                {member.picture ?
+                                  <img src={!!member.picture.childImageSharp ? member.picture.childImageSharp.fluid.src : member.picture} alt="" />
+                                  :
+                                  null
+                                }
                               </figure>
                             </div>
                             <div className="media-content">

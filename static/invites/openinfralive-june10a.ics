@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20210603T154102Z
+UID:20210603T154102Z-429994179@marudot.com
+DTSTART:20210610T140000Z
+DTEND:20210610T150000Z
+SUMMARY:OpenInfra Live Episode 9: Upgrades in Large scale OpenStack infrastructure: the discussion
+URL:https://www.youtube.com/watch?v=C2fSy005lDs
+DESCRIPTION:Keeping up with new OpenStack releases can be a challenge. In this continuation of the May 20 OpenInfra Live episode\, a panel of large scale OpenStack infrastructure operators from Blizzard Entertainment\, OVHcloud\, Workday\, Vexxhost and CERN\, join us again to further discuss upgrades.\n\nFeaturing: \nBelmiro Moreira (CERN)\, Arnaud Morin (OVH). Mohammed Naser (Vexxhost)\, Imtiaz Chowdhury (Workday)\, and Joshua Slater (Blizzard)\n\nWatch live on YouTube: https://www.youtube.com/watch?v=C2fSy005lDs\n\nSee past episodes and the upcoming schedule for OpenInfra Live at https://openinfra.live
+LOCATION:https://www.youtube.com/watch?v=C2fSy005lDs
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenInfra Live Episode 9: Upgrades in Large scale OpenStack infrastructure: the discussion
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

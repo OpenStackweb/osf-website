@@ -59,7 +59,10 @@
       }
       &.bar-button {
         color: $white !important;
-        padding: 12px;
+        font-size: 14px;
+        width: 60px;
+        text-align: center;
+        padding: 5px;
         &:hover{
           background-color: darken(#EE1E48, 20%);
           border-color: darken(#EE1E48, 20%);
@@ -89,7 +92,8 @@
 	
 @media (max-width:1090px) {
  .logo-containter-child-img {
-    padding-left: 60px !important;
+    padding-left: 20px !important;
+    width: 130px;
   }
 }
 

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20210516T183837Z
+UID:20210516T183837Z-510266242@marudot.com
+DTSTART:20210520T140000Z
+DTEND:20210520T150000Z
+SUMMARY:OpenInfra Live: Upgrades in Large Scale OpenStack Infrastructure
+URL:https://www.youtube.com/watch?v=yf5iFiCg_Tw
+DESCRIPTION:Keeping up with new #OpenStack releases can be a challenge. At a very large scale\, it can be daunting. In this episode of OpenInfra.Live\, operators from some of the largest OpenStack deployments at Blizzard Entertainment\, OVH\, Bloomberg\, Workday\, Vexxhost or CERN will explain their upgrades methodology\, share their experience\, and answer the questions of our live audience. \n\nTune in on Thursday\, May 20 at 1400 UTC (9:00 AM CT) to watch this #OpenInfraLive episode: Upgrades in Large Scale OpenStack Infrastructure
+LOCATION:https://www.youtube.com/watch?v=yf5iFiCg_Tw
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenInfra Live: Upgrades in Large Scale OpenStack Infrastructure
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

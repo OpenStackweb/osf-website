@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210616T151457Z
+UID:20210616T151457Z-818226289@marudot.com
+DTSTART;TZID=America/Chicago:20210624T090000
+DTEND;TZID=America/Chicago:20210624T100000
+SUMMARY:OpenInfra Live Episode 11: Open Source Job Openings (and how to land them)
+URL:https://youtu.be/xfrvN9zkjs8
+DESCRIPTION:Are you looking for a job in open source? Curious about what companies might be right for you? Join us as we spotlight OpenInfra Foundation members job openings\, learn about their company cultures\, and hear what they are looking for in candidates. Watch live ou YouTube: https://youtu.be/xfrvN9zkjs8
+LOCATION:https://youtu.be/xfrvN9zkjs8
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenInfra Live Episode 11: Open Source Job Openings (and how to land them)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

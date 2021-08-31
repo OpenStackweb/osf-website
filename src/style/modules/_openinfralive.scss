@@ -1,0 +1,387 @@
+/* ------------------------------------------------------------ *\
+    OPENINFRA LIVE
+\* ------------------------------------------------------------ */
+
+// ############ SECTION 1 #################
+
+.live-hero {
+  display: flex;
+  text-align: left;
+  padding: 6rem 0;
+  flex-direction: row;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
+  h1 {
+    color: $primary;
+    font-size: 30px;
+    font-family: "Jura", "Helvetica", sans-serif;
+  }
+  .logo {
+    width: 250px;
+    object-fit: contain;
+    align-self: flex-start;
+    margin: 0;
+    @media (max-width: 768px) {
+      width: 200px;
+      align-self: center;
+    }
+  }
+  .text {
+    color: $primary;
+    margin-left: 4rem;
+    @media (max-width: 768px) {
+      margin-left: 0;
+    }
+    .platforms {
+      align-items: baseline;
+      margin-top: 2rem;
+      .social-links {
+        white-space: nowrap;
+        margin-right: 2rem;
+        text-align: left;
+        font-size: 0.9em;
+      }
+      @media (max-width: 768px) {
+        .social-links {
+          margin-right: 0;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
+.social-links {
+  color: $primary;
+  .social-icon {
+    max-width: 1.8rem;
+    margin-right: 0.4rem;
+  }
+}
+.live-section {
+  padding: 60px 0;
+  margin: 0 auto;
+  background: $secondary-light;
+}
+.section-title {
+  color: $primary;
+  font-size: 30px;
+  font-family: "Jura", "Helvetica", sans-serif;
+  text-align: center;
+}
+.up-next-highlight {
+  display: block;
+  background: $dark-gray;
+  color: $white;
+  padding: 0.75rem 1rem;
+  margin: 3rem 0 2rem;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 4px;
+  &:hover,
+  &:focus {
+    color: $white;
+  }
+}
+.up-next-wrapper {
+  display: flex;
+  flex-direction: row;
+  .video {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  .details {
+    flex: 1;
+    h2 {
+      font-size: 27px;
+      font-family: "Jura", "Helvetica", sans-serif;
+      font-weight: 700;
+    }
+    .social-links {
+      font-size: 0.8em;
+      margin-right: 0.75rem;
+      .social-icon {
+        max-width: 1.5rem;
+        margin-right: 0.4rem;
+      }
+    }
+    .guests {
+      color: $primary;
+      margin-bottom: 2rem;
+      span {
+        font-weight: 700;
+        display: block;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    .video {
+      margin-right: 0;
+      margin-bottom: 2rem;
+    }
+  }
+}
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.more-recent-wrapper {
+  padding: 5rem 0 3rem;
+}
+.more-recent-episodes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0px 15px;
+  grid-template-areas:
+    "more-recent-single-left more-recent-single-left more-recent-single-right more-recent-single-right"
+    "more-recent-single-left more-recent-single-left more-recent-single-right more-recent-single-right";
+  margin-top: 4rem;
+}
+.more-recent-single-left {
+  grid-area: more-recent-single-left;
+}
+.more-recent-single-right {
+  grid-area: more-recent-single-right;
+}
+.more-recent-single-left,
+.more-recent-single-right {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  grid-template-rows: 0.2fr 1.8fr;
+  grid-template-areas:
+    "date date"
+    "video details";
+  gap: 0px 15px;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px auto 1fr;
+    grid-template-areas:
+      "date"
+      "video"
+      "details";
+  }
+  .date {
+    grid-area: date;
+    color: $gray;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid $gray;
+  }
+  .video {
+    grid-area: video;
+  }
+  .details {
+    grid-area: details;
+    h2 {
+      font-size: 1.3em;
+      font-family: "Jura", "Helvetica", sans-serif;
+      font-weight: 700;
+    }
+    p {
+      font-size: 0.8em;
+      color: $primary;
+    }
+    .description {
+    }
+    .social-links {
+      font-size: 0.8em;
+      margin-right: 1rem;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}
+.schedule-link {
+  color: $primary;
+  text-align: center;
+  margin-top: 3rem;
+  display: block;
+  font-family: "Jura", "Helvetica", sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  .link-icon {
+    max-height: 1rem;
+    margin-left: 0.4rem;
+  }
+}
+.schedule-wrapper {
+  background: $white;
+  padding: 6rem 0;
+}
+.schedule-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  .schedule-single {
+    color: $primary;
+    flex: 0 45%;
+    margin-bottom: 2rem;
+    &:nth-child(even) {
+      margin-left: 10%;
+    }
+    @media (max-width: 768px) {
+      flex: 0 100%;
+      margin-left: 0;
+      &:nth-child(even) {
+        margin-left: 0;
+      }
+    }
+    h2 {
+      font-weight: 700;
+      font-family: "Jura", "Helvetica", sans-serif;
+    }
+    .date {
+      color: $gray;
+      text-transform: uppercase;
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid $gray;
+    }
+    .details {
+      .social-links {
+        font-size: 0.8em;
+        margin-right: 0.75rem;
+        .social-icon {
+          max-width: 1.5rem;
+          margin-right: 0.4rem;
+        }
+      }
+      .guests {
+        color: $primary;
+        margin-bottom: 1rem;
+        span {
+          font-weight: 700;
+          display: block;
+        }
+      }
+    }
+  }
+}
+.ideas-banner {
+  display: flex;
+  position: relative;
+  background-color: $dark;
+  color: $white;
+  margin-top: 4rem;
+  padding: 2rem 4rem 3rem;
+  border-radius: 4px;
+  align-items: center;
+  column-gap: 20px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
+  h2 {
+    color: $white;
+    font-family: "Jura", "Helvetica", sans-serif;
+    font-weight: 700;
+    vertical-align: middle;
+    img {
+      max-height: 25px;
+      margin-right: 0.75rem;
+      margin-top: -5px;
+    }
+  }
+  a {
+    border: 1px solid $white;
+    color: $white;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    text-align: center;
+    white-space: nowrap;
+    display: block;
+    &:hover,
+    &:focus {
+      background: $white;
+      color: $dark;
+    }
+    @media (max-width: 768px) {
+      margin-top: 2rem;
+    }
+  }
+  .multi-color-border {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
+.all-episode-list {
+  margin-top: 4rem;
+  .all-episode-single {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6rem;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+      row-gap: 2rem;
+    }
+    .video {
+      flex: 70%;
+      @media (max-width: 768px) {
+        flex: 100%;
+      }
+    }
+    .details {
+      flex: 100%;
+      margin-left: 2rem;
+      h2 {
+        font-family: "Jura", "Helvetica", sans-serif;
+        font-weight: 700;
+        margin-top: 0;
+      }
+      .date {
+        color: $gray;
+        text-transform: uppercase;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-bottom: 1px solid $gray;
+      }
+      .guests {
+        color: $primary;
+        margin-bottom: 2rem;
+        span {
+          font-weight: 700;
+          display: block;
+        }
+      }
+      .social-links {
+        font-size: 1em;
+        margin-right: 1.5rem;
+        .social-icon {
+          max-width: 2rem;
+          margin-right: 0.4rem;
+        }
+      }
+      @media (max-width: 768px) {
+        margin-left: 0;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .social-links {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

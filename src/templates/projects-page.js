@@ -21,7 +21,7 @@ export const ProjectsPageTemplate = ({
   content,
   contentComponent
 }) => {
-  const PageContent = contentComponent || Content
+  const PageContent = contentComponent || Content  
 
   return (
     <div>
@@ -35,18 +35,21 @@ export const ProjectsPageTemplate = ({
         <div className="content">
           {projectCategories.map(category => {
             return (
-              projectList.filter(project => project.category === category.categoryId).length > 0 &&
+              projectList.filter(project => project.category && project.category === category.categoryId).length > 0 &&
               <section className="projects-s1-main container">
                 <h3 className="itemtitle">{category.label}</h3>
                 <hr className="itemtitle-hr" />
-                {projectList.filter(project => project.category === category.categoryId).map((project, index) => {
+                {projectList.filter(project => project.category && project.category === category.categoryId).map((project, index) => {
                   return (
                     <div className="projects-s1-container columns" key={index}>
                       <div className="column is-2">
-                        {project.logo.extension === 'svg' && !project.logo.childImageSharp ?
-                          <img src={!!project.logo.publicURL ? project.logo.publicURL : project.logo} alt='' className="projetcs-s1-container-child" />
+                        {project.logo ?
+                          project.logo.extension === 'svg' && !project.logo.childImageSharp ?
+                            <img src={!!project.logo.publicURL ? project.logo.publicURL : project.logo} alt='' className="projetcs-s1-container-child" />
+                            :
+                            <img src={!!project.logo.childImageSharp ? project.logo.childImageSharp.fluid.src : project.logo} alt='' className="projetcs-s1-container-child" />
                           :
-                          <img src={!!project.logo.childImageSharp ? project.logo.childImageSharp.fluid.src : project.logo} alt='' className="projetcs-s1-container-child" />
+                          null
                         }
                       </div>
                       <div className="projetcs-s1-container-child column is-7 is-full-mobile">
@@ -57,37 +60,43 @@ export const ProjectsPageTemplate = ({
                         </p>
                         <div className="columns">
                           <div className="column is-three-fifths">
-                            {project.features.map((feature, index) => {
-                              return (
-                                <p key={index}>
-                                  <img
-                                    src={feature.icon.extension === 'svg' && !feature.icon.childImageSharp ?
-                                      feature.icon.publicURL
-                                      :
-                                      !!feature.icon.childImageSharp ? feature.icon.childImageSharp.fluid.src : feature.icon}
-                                    alt="" />
-                                  {feature.text}
-                                </p>
-                              )
+                            {project.features && project.features.map((feature, index) => {
+                              if (feature.image) {
+                                return (
+                                  <p key={index}>
+                                    <img
+                                      src={feature.icon.extension === 'svg' && !feature.icon.childImageSharp ?
+                                        feature.icon.publicURL
+                                        :
+                                        !!feature.icon.childImageSharp ? feature.icon.childImageSharp.fluid.src : feature.icon}
+                                      alt="" />
+                                    {feature.text}
+                                  </p>
+                                )
+                              }
                             })}
                           </div>
                           <div className="column">
                             <p>IMPORTANT LINKS:</p>
                             <br />
-                            {project.links.map((link, index) => {
-                              return (
-                                <p key={index}>
-                                  <LinkComponent href={link.link}>{link.text}</LinkComponent>
-                                </p>
-                              )
+                            {project.links?.length > 0 && project.links.map((link, index) => {
+                              if (link.link) {
+                                return (
+                                  <p key={index}>
+                                    <LinkComponent href={link.link}>{link.text}</LinkComponent>
+                                  </p>
+                                )
+                              }
                             })}
                           </div>
                         </div>
                       </div>
                       <div className="projetcs-s1-container-child column is-3">
-                        <LinkComponent href={project.button.link} className="button button-red projects-btn" id={project.class ? `${project.class}-btn` : ''}>
-                          <span>{project.button.text} <img src={leftArrow} alt="" /></span>
-                        </LinkComponent>
+                        {project.button?.link &&
+                          <LinkComponent href={project.button.link} className="button button-red projects-btn" id={project.class ? `${project.class}-btn` : ''}>
+                            <span>{project.button.text} <img src={leftArrow} alt="" /></span>
+                          </LinkComponent>
+                        }
                       </div>
                     </div>
                   )
@@ -118,7 +127,7 @@ const ProjectsPage = ({ isLoggedUser, data }) => {
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <ProjectsPageTemplate
         isLoggedUser={isLoggedUser}
-        contentComponent={HTMLContent}        
+        contentComponent={HTMLContent}
         header={post.frontmatter.header}
         projectCategories={post.frontmatter.projectCategories}
         projectList={post.frontmatter.projectList}

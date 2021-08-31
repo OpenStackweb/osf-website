@@ -260,8 +260,6 @@ companyTier:
     - title: OpenInfra foundation Silver members
       mobileTitle: Silver Members
       companies:
-        - logo: /img/members-page/silver/sponsor-ivolve 1.png
-          alt: ""
         - logo: /img/members-page/silver/Sponsor-Logos-Silver_Ampere 1.png
           alt: ""
         - logo: /img/members-page/silver/Sponsor-Logos-Silver_AWCloud 1.png
@@ -275,8 +273,6 @@ companyTier:
         - logo: /img/members-page/silver/Sponsor-Logos-Silver_CloudbaseSolutions 1.png
           alt: ""
         - logo: /img/members-page/silver/cloudfiresilver 1.png
-          alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_Cloudical 1.png
           alt: ""
         - logo: /img/members-page/silver/componentsoft-silver 1.png
           alt: ""
@@ -298,6 +294,8 @@ companyTier:
         - logo: /img/members-page/silver/Sponsor-Logos-Silver_Infomaniak 1.png
           alt: ""
         - logo: /img/members-page/silver/Sponsor-Logos-Silver_inmotionhosting 1.png
+          alt: ""
+        - logo: /img/members-page/silver/sponsor-ivolve 1.png
           alt: ""
         - logo: /img/members-page/silver/Sponsor-Logos-Silver_JuniperNetworks 1.png
           alt: ""

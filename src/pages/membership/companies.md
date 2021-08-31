@@ -111,6 +111,8 @@ companies:
         image: /img/companies/_New/Silver/cloudfiresilver.jpg
       - alt: Component Soft
         image: /img/companies/_New/Silver/componentsoft-silver.jpg
+      - image: /img/coredge188.png
+        alt: Coredge
       - alt: DevStack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_DevStack.png
       - alt: Elastx

@@ -53,17 +53,15 @@ export const CompaniesPageTemplate = ({
                         <div className="companies-s1-1-container">
                           <div className={`company-level-${tier.name}`}>
                             {tier.supporting_companies.sort((a, b) => a.order - b.order).map(({ company }) => {
-                              if (company.display_on_site === true) {
-                                return (
-                                  <Link to={company?.description?.length > 0 ? `/companies/profile/${tier.id}/${kebabCase(company.name)}` : company.url}>
-                                    <img
-                                      src={company.logo}
-                                      alt={company.name}
-                                      key={company.id}
-                                    />
-                                  </Link>
-                                )
-                              }
+                              return (
+                                <Link to={company?.description?.length > 0 ? `/companies/profile/${tier.id}/${kebabCase(company.name)}` : company.url}>
+                                  <img
+                                    src={company.logo}
+                                    alt={company.name}
+                                    key={company.id}
+                                  />
+                                </Link>
+                              )
                             })}
                           </div>
                         </div>

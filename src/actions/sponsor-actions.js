@@ -17,7 +17,8 @@ export const getSponsorhipTypes = () => (dispatch, getState) => {
     dispatch(startLoading());
 
     const params = {
-        expand: 'supporting_companies, supporting_companies.company'
+        expand: 'supporting_companies, supporting_companies.company',
+        per_page: 100,
     }
 
     return getRequest(

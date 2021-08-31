@@ -281,6 +281,8 @@ companyTier:
           alt: ""
         - logo: /img/members-page/silver/elastx-oi 1.png
           alt: ""
+        - alt: Exaion
+          logo: /img/188x101px-exaion.png
         - logo: /img/members-page/silver/Sponsor-Logos-Silver_FreedomFi 1.png
           alt: ""
         - logo: /img/members-page/silver/Sponsor-Logos-Silver_Fujitsu 1.png

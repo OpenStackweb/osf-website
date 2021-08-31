@@ -307,6 +307,8 @@ companyTier:
           alt: ""
         - logo: /img/members-page/silver/Sponsor-Logos-Silver_NTT-TX 1.png
           alt: ""
+        - alt: ORock
+          logo: /img/orock-silver.jpg
         - logo: /img/members-page/silver/Sponsor-Logos-Silver_OVH 1.png
           alt: ""
         - logo: /img/members-page/silver/safespring-silver 1.png

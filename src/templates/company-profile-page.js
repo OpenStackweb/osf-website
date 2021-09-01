@@ -114,12 +114,11 @@ const CompanyProfilePage = ({ isLoggedUser, location, sponsors }) => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const sponsorshipType = parseInt(location.pathname.replace('/companies/profile/', '').split('/')[0]);
-    const companyName = location.pathname.replace('/companies/profile/', '').split('/')[1];
+    const sponsorshipType = parseInt(location.pathname.replace('/a/members/profile/', '').split('/')[0]);
+    const companyName = location.pathname.replace('/a/members/profile/', '').split('/')[1];
     setCompany(sponsors.find(type => type.id === sponsorshipType)?.supporting_companies.find(c => kebabCase(c.company.name) === companyName)?.company || null);
     setLoading(false);
   }, [])
-
 
   return (
     <Layout>

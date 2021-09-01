@@ -268,25 +268,6 @@ collections:
           {label: "Button Text", name: buttonText, widget: string, required: false},
           {label: "Display", name: display, widget: boolean, required: false}
         ]}
-  - name: "companiesProfiles"
-    label: "Companies Profile"
-    folder: "src/pages/membership/profile"
-    create: true
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "companies-page"}
-      - {label: SEO, name: seo, widget: object, fields: [
-          {label: "Title", name: "title", widget: string},
-          {label: "Description", name: "description", widget: string},
-          {label: "Url", name: "url", widget: hidden},
-          {label: "Image", name: "image", widget: hidden, default: '/img/OpenInfra-icon-white.jpg'},
-          {label: "Twitter Username", name: "twitterUsername", widget: hidden, default: '@OpenInfraDev'},
-        ]}
-      - {label: "Name", name: title, widget: string}
-      - {label: "Logo", name: logo, widget: image}
-      - {label: "Description", name: description, widget: markdown}
-      - {label: "Contributions to Openstack", name: contributions, widget: markdown}
-      - {label: "Products & Services", name: productsServices, widget: markdown}
-      - {label: "More information", name: moreInformation, widget: markdown}        
   - name: "custom-about-pages"
     label: "About Custom Pages"
     files:

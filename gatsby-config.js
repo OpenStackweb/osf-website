@@ -135,7 +135,7 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-create-client-paths`,
-      options: { prefixes: [`/auth/*`, `/a/*`, `/companies/profile/*`] },
+      options: { prefixes: [`/auth/*`, `/a/*`, `/members/profile/*`] },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,

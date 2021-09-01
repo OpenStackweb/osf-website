@@ -11,7 +11,6 @@ import HostingPagePreview from './preview-templates/HostingPagePreview'
 import ProjectsPagePreview from './preview-templates/ProjectsPagePreview'
 import ServicesPagePreview from './preview-templates/ServicesPagePreview'
 import StaffPagePreview from './preview-templates/StaffPagePreview'
-import CompanyProfilePagePreview from './preview-templates/CompanyProfilePagePreview'
 import LivePagePreview from './preview-templates/LivePagePreview'
 import JoinPagePreview from './preview-templates/JoinPagePreview'
 import MembersPagePreview from './preview-templates/MembersPagePreview'
@@ -37,4 +36,3 @@ CMS.registerPreviewTemplate('generic-four-open-pages', GenericPagePreview)
 CMS.registerPreviewTemplate('openinfra-live-page', LivePagePreview)
 CMS.registerPreviewTemplate('join', JoinPagePreview)
 CMS.registerPreviewTemplate('members', MembersPagePreview)
-CMS.registerPreviewTemplate('companiesProfiles', CompanyProfilePagePreview)

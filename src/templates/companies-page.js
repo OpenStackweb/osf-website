@@ -54,7 +54,7 @@ export const CompaniesPageTemplate = ({
                           <div className={`company-level-${tier.name}`}>
                             {tier.supporting_companies.sort((a, b) => a.order - b.order).map(({ company }) => {
                               return (
-                                <Link to={company?.description?.length > 0 ? `/companies/profile/${tier.id}/${kebabCase(company.name)}` : company.url}>
+                                <Link to={company?.description?.length > 0 ? `/a/members/profile/${tier.id}/${kebabCase(company.name)}` : company.url}>
                                   <img
                                     src={company.logo}
                                     alt={company.name}

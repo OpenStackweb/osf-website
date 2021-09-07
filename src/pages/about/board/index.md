@@ -131,7 +131,7 @@ members:
     title: Gold Director
     company: Dell Technologies
     name: Erin Bournival
-    picture: /img/image.png
+    picture: /img/erin_b.png
   - name: Gang Chen
     title: Platinum Director
     company: Fiberhome

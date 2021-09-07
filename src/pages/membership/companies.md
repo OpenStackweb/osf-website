@@ -31,6 +31,8 @@ companies:
         image: /img/companies/_New/Platinum/Sponsor-Logos_FiberHome.png
       - alt: Huawei
         image: /img/companies/_New/Platinum/Sponsor-Logos_Huawei.png
+      - alt: Microsoft
+        image: /img/sponsor-logos_microsoft.png
       - alt: Red Hat
         image: /img/companies/_New/Platinum/Sponsor-Logos_RedHat.png
       - alt: Tencent Cloud

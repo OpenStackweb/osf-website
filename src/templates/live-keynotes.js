@@ -52,9 +52,11 @@ export const OpenInfraLiveKeynotesTemplate = ({
           </div>
           <section className="keynotes-intro">
             <div className="container">
-              <p className="fix-h5">
-                {intro.text}
-              </p>
+              <div className="intro-inner">
+                <p className="fix-h5">
+                  {intro.text}
+                </p>
+              </div>
             </div>
           </section>
           <section className="live-section">

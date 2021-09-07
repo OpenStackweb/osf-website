@@ -218,6 +218,7 @@ companyTier:
           alt: Tencent Cloud
         - logo: /img/members-page/platinum/WNDRVR 1.png
           alt: WNDRVR
+        - logo: /img/sponsor-logos_microsoft.png
     - title: OpenInfra foundation GOLD members
       mobileTitle: Gold Members
       companies:

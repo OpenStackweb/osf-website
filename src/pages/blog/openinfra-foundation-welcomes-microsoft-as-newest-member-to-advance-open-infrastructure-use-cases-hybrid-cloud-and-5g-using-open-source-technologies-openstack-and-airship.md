@@ -4,7 +4,7 @@ title: OpenInfra Foundation Welcomes Microsoft as Newest Member to Advance Open
   Infrastructure Use Cases, Hybrid Cloud and 5G, Using Open Source Technologies
   OpenStack and Airship
 author: Jonathan Bryce
-date: 2021-09-08T14:49:35.540Z
+date: 2021-09-07T16:03:51.348Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements

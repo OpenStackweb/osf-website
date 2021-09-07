@@ -59,6 +59,14 @@
       "title": "Events",
       "nav": [
         {
+          "text": "OpenInfra Live",
+          "link": "/live/"
+        },
+        {
+          "text": "OpenInfra Live: Keynotes",
+          "link": "/live/keynotes/"
+        },
+        {
           "text": "OpenInfra Summit",
           "link": "https://www.openstack.org/summit/"
         },

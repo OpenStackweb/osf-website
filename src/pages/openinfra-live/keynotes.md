@@ -11,7 +11,7 @@ hero:
   title: "OpenInfra Live: Keynotes"
   description: "November 17 and 18 at 9am CT / 1500 UTC"
   buttonText: Register Now
-  buttonURL: https://google.com
+  buttonURL: https://openinfralivekeynotes.eventbrite.com
 intro:
   text: "If you miss the OpenInfra Summit, this two day special edition
     of OpenInfra Live is your only opportunity to meet the newest

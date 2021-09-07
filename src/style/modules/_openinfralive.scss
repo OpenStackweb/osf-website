@@ -7,7 +7,8 @@
 .live-hero {
   display: flex;
   text-align: left;
-  padding: 6rem 0;
+  // padding: 6rem 0; Removing for Keynotes promo banner
+  padding: 6rem 0 0 0;
   flex-direction: row;
   @media (max-width: 768px) {
     flex-direction: column;
@@ -321,6 +322,27 @@
     left: 0;
     right: 0;
     width: 100%;
+  }
+  &.keynotes-promo {
+    margin-bottom: 4rem;
+    justify-content: space-between;
+    .dates {
+      font-size: 0.9em;
+    }
+    a.learn-link {
+      border: none;
+      border-radius: 0;
+      color: $gray;
+      display: inline-block;
+      margin-left: 2rem;
+      text-decoration: underline;
+      padding: 0;
+      &:hover,
+      &:focus {
+        background-color: transparent;
+        color: $white;
+      }
+    }
   }
 }
 .all-episode-list {

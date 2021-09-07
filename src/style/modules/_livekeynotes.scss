@@ -112,7 +112,9 @@
   margin: 3rem auto 0;
   width: 80%;
   @media (max-width: 768px) {
-    width: 100%;
+    width: 80%;
+    gap: 10%;
+    flex-flow: wrap;
   }
   .single-stat {
     color: $gray;

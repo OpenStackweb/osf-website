@@ -129,7 +129,7 @@ members:
       Twins, and System Architecture. "
     openStack: https://www.openstack.org/community/members/profile/133884/erin-bournival
     title: Gold Director
-    company: Dell
+    company: Dell Technologies
     name: Erin Bournival
     picture: /img/image.png
   - name: Gang Chen

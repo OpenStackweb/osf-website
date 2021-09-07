@@ -26,17 +26,20 @@ episodes:
     youtubeLink: https://www.youtube.com/watch?v=nUwgBdx0lSw
     youtubeEmbed: https://www.youtube.com/embed/nUwgBdx0lSw
     calendarInvite: /static/invites/myevents-7-.ics
-  - hidden: false
-    date: 2021-09-09T14:00:05.776Z
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4298495370205699/
     episodeDescription: "Are you looking for a job in open source? Curious about
       what companies might be right for you? Join us as we spotlight companies
       with open infrastructure job openings, hear straight from current
       employees about their day-to-day community involvement and hear what their
       organizations are looking for in candidates. "
+    calendarInvite: /static/invites/myevents-6-.ics
+    hidden: false
+    date: 2021-09-09T14:00:05.776Z
+    episodeSpeakers: ""
+    youtubeEmbed: https://www.youtube.com/embed/BPtr_nq3wJQ
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6839301817508225024/
     episodeTitle: Open Source Job Openings (and how to land them) Round Two
     youtubeLink: https://www.youtube.com/watch?v=BPtr_nq3wJQ
-    youtubeEmbed: https://www.youtube.com/embed/BPtr_nq3wJQ
-    calendarInvite: /static/invites/myevents-6-.ics
   - hidden: false
     date: 2021-09-02T14:00:00.000Z
     episodeTitle: "Open Source Training Opportunities "

@@ -68,6 +68,10 @@
           "url": "/live/"
         },
         {
+          "text": "OpenInfra Live: Keynotes",
+          "url": "/live/keynotes"
+        },
+        {
           "text": "OpenInfra Summit ",
           "url": "https://www.openstack.org/summit/"
         },

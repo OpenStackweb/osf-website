@@ -350,7 +350,7 @@ members:
     title: Indvidual Director
     openStack: https://www.openstack.org/community/members/profile/33346/rico-lin
     linkedin: https://www.linkedin.com/in/ricolin
-  - company: Microsoft
+  - company: AT&T
     description: >
       Partner Software Engineering Manager – Microsoft. Ryan van Wyk leads
       Microsoft’s Azure for Operators – Network Cloud Engineering Team. Through
@@ -376,7 +376,7 @@ members:
       Additionally, Ryan has driven several innovations that resulted in nine US patents, he served on the Cloud Native Computing Foundation (CNCF) Board of Directors in 2021 and has served on the board of directors for the OpenStack Foundation (the third largest opensource software project in the world) since 2019.
 
 
-      Ryan has 23+ years of information technology experience. He holds an MBA from Washington University’s Olin Business School and a double major in Management Information Systems and Engineering Management from Saint Louis University.
+      For the remainder of 2021 Ryan is representing AT&T's Platinum Membership.
     linkedin: https://www.linkedin.com/in/ryanvanwyk
     name: Ryan van Wyk
     openStack: https://www.openstack.org/community/members/profile/30484

@@ -213,6 +213,7 @@ companyTier:
         - logo: /img/members-page/platinum/Sponsor-Logos_Huawei 1.png
           alt: Huawei
         - logo: /img/sponsor-logos_microsoft.png
+          alt: Microsoft
         - logo: /img/members-page/platinum/Sponsor-Logos_RedHat 1.png
           alt: Red Had
         - logo: /img/members-page/platinum/Sponsor-Logos_TencentCloud 1.png

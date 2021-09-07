@@ -35,7 +35,11 @@ episodes:
     calendarInvite: /static/invites/myevents-6-.ics
     hidden: false
     date: 2021-09-09T14:00:05.776Z
-    episodeSpeakers: ""
+    episodeSpeakers: |
+      Tytus Kurek (Canonical),  
+      Suresh Srinivas (Intel),  
+      Ken Savich (Red Hat),  
+      Hind Naser (Vexxhost) 
     youtubeEmbed: https://www.youtube.com/embed/BPtr_nq3wJQ
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6839301817508225024/
     episodeTitle: Open Source Job Openings (and how to land them) Round Two

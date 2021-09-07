@@ -44,18 +44,22 @@ episodes:
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6839301817508225024/
     episodeTitle: Open Source Job Openings (and how to land them) Round Two
     youtubeLink: https://www.youtube.com/watch?v=BPtr_nq3wJQ
-  - hidden: false
-    date: 2021-09-02T14:00:00.000Z
-    episodeTitle: "Open Source Training Opportunities "
+  - facebookLink: https://www.facebook.com/watch/live/?v=1116775512183635&ref=watch_permalink
     episodeDescription: "Interested in learning more or improving your open source
       development skills? Looking to learn more about OpenStack and Kubernetes
       administration and prep for the Certified OpenStack Administrator or
       Certified Kubernetes Administrator exams? Join us as OpenInfra
       organizations discuss their training programs and how they can accelerate
       your open source career. "
-    youtubeEmbed: https://www.youtube.com/embed/0bMI1fcrI0A
-    youtubeLink: https://youtu.be/0bMI1fcrI0A
     calendarInvite: /static/invites/myevents-5-.ics
+    hidden: false
+    date: 2021-09-02T14:00:00.000Z
+    episodeSpeakers: ""
+    youtubeEmbed: https://www.youtube.com/embed/0bMI1fcrI0A
+    linkedinLink: https://www.linkedin.com/video/live/urn:li:ugcPost:6837107897214873600/
+    superuserRecap: https://superuser.openstack.org/articles/open-source-training-opportunities-openinfra-live-recap/
+    episodeTitle: "Open Source Training Opportunities "
+    youtubeLink: https://youtu.be/0bMI1fcrI0A
   - facebookLink: https://www.facebook.com/104139126308032/posts/4256168904438346/
     episodeDescription: "When we talk about Large Scale, it usually refers to
       scaling out to hundreds of thousands of commodity nodes. But there is

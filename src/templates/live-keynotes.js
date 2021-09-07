@@ -222,7 +222,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                 <p className="fix-h5">
                   Interested in sponsoring? Email us at <a href="mailto:events@openstack.org">events@openstack.org</a>
                 </p>
-                <p className="sponsor-note">*Sponsorships detailed above are exclusively for OpenInfra Foundation members.</p>
+                <p className="sponsor-note">*Sponsorships detailed above are exclusively for OpenInfra Foundation members. <a href="/join">Join the Foundation now.</a></p>
               </div>
             </div>
           </section>

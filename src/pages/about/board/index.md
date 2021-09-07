@@ -349,19 +349,37 @@ members:
     openStack: https://www.openstack.org/community/members/profile/19791
     picture: /img/board/ruanhe.jpg
     title: Platinum Director
-  - company: AT&T
-    description: Assistant Vice President (AVP) of Network Cloud Engineering. 21
-      years of experience in  Information Technology Management, Software
-      Architecture, Project/Program Management,  Development, Open Source and
-      Systems Integration of Emerging Technologies. Currently leading  the
-      development of world’s largest network function virtualization cloud.
-      Received a Bachelor  of Science in Business Administration in Management
-      Information Systems (M.I.S.) &  Engineering Management from Saint Louis
-      University, and a MBA from Washington University -  Olin Business School.
+  - company: Microsoft
+    description: >
+      Partner Software Engineering Manager – Microsoft. Ryan van Wyk leads
+      Microsoft’s Azure for Operators – Network Cloud Engineering Team. Through
+      collaboration with Telcom Operators around the world, Ryan and team are
+      working to expand Microsoft’s telecom portfolio with a carrier-grade cloud
+      that provides seamless experiences across Microsoft’s cloud and the
+      operator’s network.
+
+
+      Prior to joining Microsoft, Ryan has held a variety of leadership positions within AT&T Communications – primarily driving transformation programs and new technology introduction and engineering.  A few of his many contributions to AT&T include leading technology teams that helped: 
+
+      •	build the world’s largest Network Function Virtualization Private Cloud Infrastructure.
+
+      •	deliver the first virtualized network functions and services on a network cloud, using an open source approach.
+
+      •	create Airship, a declarative container automation platform designed to rapidly deploy and upgrade cloud infrastructure with no SDN workload impact.
+
+      •	transform the network tools, process, and data that support AT&T’s largest managed networking customers.
+
+      •	integrate products from multiple suppliers to deliver Uverse (AT&T’s award-winning IPTV platform).
+
+
+      Additionally, Ryan has driven several innovations that resulted in nine US patents, he served on the Cloud Native Computing Foundation (CNCF) Board of Directors in 2021 and has served on the board of directors for the OpenStack Foundation (the third largest opensource software project in the world) since 2019.
+
+
+      Ryan has 23+ years of information technology experience. He holds an MBA from Washington University’s Olin Business School and a double major in Management Information Systems and Engineering Management from Saint Louis University.
     linkedin: https://www.linkedin.com/in/ryanvanwyk
     name: Ryan van Wyk
     openStack: https://www.openstack.org/community/members/profile/30484
-    picture: /img/board/ryanvanwyk.jpg
+    picture: /img/ryan-van-wyk.jpg
     title: Platinum Director
     twitter: https://twitter.com/@ryanvanwyk
   - company: "Dell EMC "

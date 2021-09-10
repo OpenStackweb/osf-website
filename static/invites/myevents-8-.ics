@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210910T195136Z
+UID:20210910T195136Z-1519081567@marudot.com
+DTSTART;TZID=America/Chicago:20210923T090000
+DTEND;TZID=America/Chicago:20210923T100000
+SUMMARY:OpenInfra Days 2021 Recap
+URL:https://www.youtube.com/watch?v=-s1eJa6u_2A
+DESCRIPTION:Join the volunteer organizers of OpenInfra Days to hear about the happenings at their latest local events\, what they're looking forward to in the future\, and learn what's happening with OpenInfra all over the world.  
+LOCATION:https://www.youtube.com/watch?v=-s1eJa6u_2A
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenInfra Days 2021 Recap
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

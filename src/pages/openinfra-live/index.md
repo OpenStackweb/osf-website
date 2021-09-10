@@ -15,6 +15,16 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-09-23T14:00:42.961Z
+    episodeDescription: "Join the volunteer organizers of OpenInfra Days to hear
+      about the happenings at their latest local events, what they're looking
+      forward to in the future, and learn what's happening with OpenInfra all
+      over the world.  "
+    episodeTitle: OpenInfra Days 2021 Recap
+    youtubeLink: https://www.youtube.com/watch?v=-s1eJa6u_2A
+    youtubeEmbed: https://www.youtube.com/embed/-s1eJa6u_2A
+    calendarInvite: /static/invites/myevents-8-.ics
+  - hidden: false
     date: 2021-09-16T14:00:47.738Z
     episodeTitle: "Superusers: Where are they Now"
     episodeDescription: "Since the Paris Summit in 2014, the OpenInfra Foundation

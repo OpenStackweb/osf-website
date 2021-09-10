@@ -64,7 +64,8 @@ episodes:
     calendarInvite: /static/invites/myevents-5-.ics
     hidden: false
     date: 2021-09-02T14:00:00.000Z
-    episodeSpeakers: ""
+    episodeSpeakers: Huang Chenhao (99 Cloud), Florian Haas (City Network), Erno
+      Erdelyi (Component Soft), Paul Quigley (Mirantis), John Walter (Red Hat)
     youtubeEmbed: https://www.youtube.com/embed/0bMI1fcrI0A
     linkedinLink: https://www.linkedin.com/video/live/urn:li:ugcPost:6837107897214873600/
     superuserRecap: https://superuser.openstack.org/articles/open-source-training-opportunities-openinfra-live-recap/
@@ -86,6 +87,7 @@ episodes:
       Quenette (Monash e-Research Centre), and Jonathan Mills (NASA Goddard)
     youtubeEmbed: https://www.youtube.com/embed/fOJTHanmOFg
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6834150009706037248
+    superuserRecap: https://superuser.openstack.org/articles/large-scale-openstack-discussing-software-defined-supercomputers-openinfra-live-recap/
     episodeTitle: "Large Scale OpenStack: Discussing Software-Defined Supercomputers"
     youtubeLink: https://www.youtube.com/watch?v=fOJTHanmOFg
   - facebookLink: https://www.facebook.com/104139126308032/posts/4229345477120689/

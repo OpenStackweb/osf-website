@@ -194,6 +194,8 @@ companies:
         image: /img/bu.png
       - image: /img/cern.png
         alt: CERN
+      - image: /img/oregonstate.png
+        alt: ORegon State
       - image: /img/osb.png
         alt: OSB
       - image: /img/ow2-member.png

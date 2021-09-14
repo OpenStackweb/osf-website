@@ -811,17 +811,17 @@ collections:
             ]
           }
           - { label: "Intro", name: "intro", widget: "object", fields: [
-              { label: "Text", name: text, widget: text },
+              { label: "Text", name: text, widget: markdown },
             ]
           }
           - { label: "Stat Section", name: "statSection", widget: "object", fields: [
               { label: "Left Column", name: leftColumn, widget: "object", fields: [
                 { label: "Title", name: title, widget: string },
-                { label: "Text", name: text, widget: text },
+                { label: "Text", name: text, widget: markdown },
               ] },
               { label: "Right Column", name: rightColumn, widget: "object", fields: [
                 { label: "Title", name: title, widget: string },
-                { label: "Text", name: text, widget: text },
+                { label: "Text", name: text, widget: markdown },
               ] },
               { label: "Stats", name: stats, widget: "list", fields: [
                 { label: "Number", name: number, widget: string },
@@ -838,12 +838,12 @@ collections:
               { label: "Title", name: title, widget: string },
               { label: "Left Column", name: leftColumn, widget: "object", fields: [
                 { label: "Title", name: title, widget: string },
-                { label: "Body", name: body, widget: text },
+                { label: "Body", name: body, widget: markdown },
                 { label: "Footer", name: footer, widget: string },
               ] },
               { label: "Right Column", name: rightColumn, widget: "object", fields: [
                 { label: "Title", name: title, widget: string },
-                { label: "Body", name: body, widget: text },
+                { label: "Body", name: body, widget: markdown },
                 { label: "Footer", name: footer, widget: string },
               ] },
             ]

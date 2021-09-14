@@ -12,6 +12,7 @@ import ProjectsPagePreview from './preview-templates/ProjectsPagePreview'
 import ServicesPagePreview from './preview-templates/ServicesPagePreview'
 import StaffPagePreview from './preview-templates/StaffPagePreview'
 import LivePagePreview from './preview-templates/LivePagePreview'
+import LiveKeynotesPagePreview from './preview-templates/LiveKeynotesPagePreview'
 import JoinPagePreview from './preview-templates/JoinPagePreview'
 import MembersPagePreview from './preview-templates/MembersPagePreview'
 
@@ -34,5 +35,6 @@ CMS.registerPreviewTemplate('generic-projects-pages', GenericPagePreview)
 CMS.registerPreviewTemplate('generic-membership-pages', GenericPagePreview)
 CMS.registerPreviewTemplate('generic-four-open-pages', GenericPagePreview)
 CMS.registerPreviewTemplate('openinfra-live-page', LivePagePreview)
+CMS.registerPreviewTemplate('openinfra-live-keynotes-page', LiveKeynotesPagePreview)
 CMS.registerPreviewTemplate('join', JoinPagePreview)
 CMS.registerPreviewTemplate('members', MembersPagePreview)

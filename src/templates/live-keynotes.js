@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
@@ -6,7 +6,6 @@ import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
-import Hero from '../components/Hero'
 import ColorBar from '../img/color-bar.png'
 import leftArrow from '../img/svg/arrow-left.svg'
 
@@ -18,9 +17,21 @@ export const OpenInfraLiveKeynotesTemplate = ({
   content,
   hero,
   intro,
-  footer,
+  statSection,
+  sponsorSection,
+  sponsorshipSection,
+  interestedSection,
 }) => {
   const PageContent = contentComponent || Content
+  let sponsorLogo = sponsorSection.logo
+
+  if (['svg', 'gif'].includes(sponsorSection.logo?.extension)) {
+    if(!!sponsorSection.logo?.childImageSharp) {
+      sponsorLogo = sponsorSection.logo?.childImageSharp.fluid.src;
+    } else {
+      sponsorLogo = sponsorSection.logo.publicURL;
+    }
+  }
 
   return (
     <div>
@@ -63,71 +74,30 @@ export const OpenInfraLiveKeynotesTemplate = ({
             <div className="container">
               <section className="keynotes-bullets">
                 <div className="stat-section">
-                  <h3>
-                  What can you expect?
-                  </h3>
-                  <ul>
-                    <li>
-                      Exclusive announcements from the OpenInfra Foundation
-                    </li>
-                    <li>
-                      Users deploying hybrid cloud scenarios in production and
-                      how open source projects like OpenStack and Kubernetes
-                      make them scale
-                    </li>
-                    <li>
-                      OpenInfra production deployments growing by up to 200%
-                    </li>
-                  </ul>
+                  <h3>{statSection.leftColumn.title}</h3>
+                  <p dangerouslySetInnerHTML={{ __html: statSection.leftColumn.text }} />
                 </div>
                 <div className="stat-section">
-                  <h3>
-                  Virtual OpenInfra Summit 2020 Demographics
-                  </h3>
-                  <ul>
-                    <li>
-                      Over 10k attendees from 125+ countries representing
-                      3,200 companies
-                    </li>
-                    <li>
-                      An additional 10k viewed translated China livestream
-                    </li>
-                    <li>
-                      65% attending an OpenInfra event for the first time
-                    </li>
-                  </ul>
+                  <h3>{statSection.rightColumn.title}</h3>
+                  <p dangerouslySetInnerHTML={{ __html: statSection.rightColumn.text }} />
                 </div>
               </section>
               <section className="keynotes-stats">
-                <div className="single-stat">
-                  <strong>31%</strong>
-                  Europe
-                </div>
-                <div className="single-stat">
-                  <strong>28%</strong>
-                  APAC
-                </div>
-                <div className="single-stat">
-                  <strong>28%</strong>
-                  North America
-                </div>
-                <div className="single-stat">
-                  <strong>7%</strong>
-                  Middle East/Africa
-                </div>
-                <div className="single-stat">
-                  <strong>6%</strong>
-                  South/Latin America
-                </div>
+                {statSection.stats.map(stat => (
+                    <div className="single-stat">
+                      <strong>{stat.number}</strong>
+                      {stat.caption}
+                    </div>
+                ))}
               </section>
             </div>
           </section>
           <section className="keynotes-sponsors">
             <div className="container">
               <section className="sponsor-section headline">
-                <h3>Headline Sponsor</h3>
+                <h3>{sponsorSection.title}</h3>
                 <div className="logos">
-                  <img src="/img/live/redhat-logo.svg" />
+                  <img src={sponsorLogo} />
                 </div>
               </section>
             </div>
@@ -135,94 +105,37 @@ export const OpenInfraLiveKeynotesTemplate = ({
           <section className="live-section">
             <div className="container">
               <section className="sponsor-levels">
-                <h3>Sponsorship Levels*</h3>
+                <h3>{sponsorshipSection.title}</h3>
                 <div className="level-listing">
                   <section className="level-single headline">
                     <div className="level-heading">
-                      Headline
+                      {sponsorshipSection.leftColumn.title}
                     </div>
                     <div className="level-bullets">
-                      <ul>
-                        <li>
-                          Minimum of 8 minutes of Keynote speaking time
-                          (content subject to Foundation approval)
-                        </li>
-                        <li>
-                          Verbal and logo recognition during event
-                        </li>
-                        <li>
-                          Pre and post event emails to the attendee list
-                        </li>
-                        <li>
-                          Website logo placement
-                        </li>
-                        <li>
-                          Pre/post event mentions in the OpenInfra community
-                          newsletter/social media posts
-                        </li>
-                        <li>
-                          Brand mention in the abstracts of the videos on social media
-                        </li>
-                        <li>
-                          Mention in Superuser recap post
-                        </li>
-                        <li>
-                          Recognition during OpenInfra Live episodes leading
-                          up to the event
-                        </li>
-                        <li>
-                          Inclusion in any relevant paid promotion
-                        </li>
-                        <li>
-                          Demographic report of registered attendees
-                        </li>
-                      </ul>
+                      <p dangerouslySetInnerHTML={{ __html: sponsorshipSection.leftColumn.body }} />
                     </div>
                     <div className="level-price">
-                      $30,000
+                      {sponsorshipSection.leftColumn.footer}
                     </div>
                   </section>
-                <section className="level-single supporting">
-                  <div className="level-heading">
-                    Supporting
-                  </div>
-                  <div className="level-bullets">
-                    <ul>
-                      <li>
-                        Logo recognition during event
-                      </li>
-                      <li>
-                        Website logo placement
-                      </li>
-                      <li>
-                        Pre/post event mentions in the community newsletter/social media posts
-                      </li>
-                      <li>
-                        Brand mention in the abstracts of the videos on social media
-                      </li>
-                      <li>
-                        Mention in Superuser recap post
-                      </li>
-                      <li>
-                        Recognition during OpenInfra Live episodes leading
-                        up to the event
-                      </li>
-                      <li>
-                        Demographic report of registered attendees
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="level-price">
-                    $2,500
-                  </div>
-                </section>
+                  <section className="level-single supporting">
+                    <div className="level-heading">
+                      {sponsorshipSection.rightColumn.title}
+                    </div>
+                    <div className="level-bullets">
+                      <p dangerouslySetInnerHTML={{ __html: sponsorshipSection.rightColumn.body }} />
+                    </div>
+                    <div className="level-price">
+                      {sponsorshipSection.rightColumn.footer}
+                    </div>
+                  </section>
                 </div>
               </section>
               <div className="sponsor-cta">
                 <p className="fix-h5">
-                  Interested in sponsoring? Email us at <a href="mailto:events@openstack.org">events@openstack.org</a>
+                  {interestedSection.preEmailText} <a href={`mailto:${interestedSection.email}`}>{interestedSection.email}</a>
                 </p>
-                <p className="sponsor-note">*Sponsorships detailed above are exclusively for OpenInfra Foundation members. <a href="/join">Join the Foundation now.</a></p>
+                <p className="sponsor-note">{interestedSection.preJoinText} <a href={interestedSection.joinUrl}>{interestedSection.joinText}</a></p>
               </div>
             </div>
           </section>
@@ -242,11 +155,8 @@ const OpenInfraLiveKeynotesPage = ({ OpenInfraLiveKeynotesPage, data, isLoggedUs
       <OpenInfraLiveKeynotesTemplate
         OpenInfraLiveKeynotesPage={OpenInfraLiveKeynotesPage}
         contentComponent={HTMLContent}
-        hero={post.frontmatter.hero}
-        intro={post.frontmatter.intro}
-        episodes={post.frontmatter.episodes}
+        {...post.frontmatter}
         content={post.html}
-        footer={post.frontmatter.footer}
         isLoggedUser={isLoggedUser}
       />
     </Layout>
@@ -291,25 +201,51 @@ export const OpenInfraLiveKeynotesPageQuery = graphql`
         intro {
           text
         }
-        episodes {
-          date
-          episodeTitle
-          episodeDescription
-          episodeSpeakers
-          youtubeEmbed
-          youtubeLink
-          facebookLink
-          linkedinLink
-          calendarInvite
-          superuserRecap
-          hidden
+        statSection {
+          leftColumn {
+            title
+            text
+          }
+          rightColumn {
+            title
+            text
+          }
+          stats {
+            number
+            caption
+          }
         }
-        footer {
+        sponsorSection {
           title
-          subTitle
-          button
-          buttonText
-          display
+          logo {
+              childImageSharp {
+                  fluid(maxWidth: 640, quality: 64) {
+                    ...GatsbyImageSharpFluid
+                  }
+              }
+              publicURL
+              extension
+          }
+        }
+        sponsorshipSection {
+          title
+          leftColumn {
+            title
+            body
+            footer
+          }
+          rightColumn {
+            title
+            body
+            footer
+          }
+        }
+        interestedSection {
+          preEmailText
+          email
+          preJoinText
+          joinText
+          joinUrl
         }
       }
     }

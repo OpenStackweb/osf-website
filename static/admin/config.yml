@@ -752,107 +752,108 @@ collections:
         ]}
   - name: "openinfra-live-page"
     label: "OpenInfra Live"
-    folder: "src/pages/openinfra-live/"
-    identifier_field: "hero.title"
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "openinfra-live"}
-      - {label: SEO, name: seo, widget: object, fields: [
-          {label: "Title", name: "title", widget: string},
-          {label: "Description", name: "description", widget: string},
-          {label: "Url", name: "url", widget: string},
-          {label: "Image", name: "image", widget: image},
-          {label: "Twitter Username", name: "twitterUsername", widget: string},
-        ]}
-      - {label: "Hero", name: "hero", widget: "object", fields: [
-          {label: "Title", name: title, widget: string},
-          {label: "Description", name: description, widget: text}
-        ]}
-      - {label: "Episodes", name: "episodes", widget: "list", add_to_top: true, fields: [
-          {label: "Title", name: episodeTitle, widget: string, required: false},
-          {label: "Date (UTC)", name: date, widget: datetime, picker_utc: true, time_format: "HH:mm"},
-          {label: "Description", name: episodeDescription, widget: text, required: false},
-          {label: "Speakers", name: episodeSpeakers, widget: text, required: false},
-          {label: "Youtube Embed", name: youtubeEmbed, widget: string, required: false},
-          {label: "Youtube Link", name: youtubeLink, widget: string, required: false},
-          {label: "Facebook Link", name: facebookLink, widget: string, required: false},
-          {label: "LinkedIn Link", name: linkedinLink, widget: string, required: false},
-          {label: "Calendar Invite", name: calendarInvite, widget: file, required: false, media_folder: /static/invites, public_folder: /static/invites, hint: "Create a calendar invite at https://ical.marudot.com"},
-          {label: "Superuser Recap", name: superuserRecap, widget: string, required: false},
-          {label: "Hidden", name: hidden, widget: boolean, default: true, required: false},
-        ]}
-      - {label: "Footer", name: footer, widget: object, required: false, fields: [
-          {label: "Title", name: title, widget: string, required: false },
-          {label: "Sub Title", name: subTitle, widget: string, required: false},
-          {label: "Button Link", name: button, widget: string, required: false},
-          {label: "Button Text", name: buttonText, widget: string, required: false},
-          {label: "Display", name: display, widget: boolean, required: false}
-        ]}
-  - name: "openinfra-live-keynotes-page"
-    label: "OpenInfra Live: Keynotes"
-    folder: "src/pages/openinfra-live/keynotes"
-    identifier_field: "hero.title"
-    fields:
-      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "live-keynotes" }
-      - { label: SEO, name: seo, widget: object, fields: [
-          { label: "Title", name: "title", widget: string },
-          { label: "Description", name: "description", widget: string },
-          { label: "Url", name: "url", widget: string },
-          { label: "Image", name: "image", widget: image },
-          { label: "Twitter Username", name: "twitterUsername", widget: string },
-        ]
-      }
-      - { label: "Hero", name: "hero", widget: "object", fields: [
-          { label: "Title", name: title, widget: string },
-          { label: "Description", name: description, widget: text },
-          { label: "Subtitle", name: subtitle, widget: string },
-          { label: "Button Label", name: buttonText, widget: string },
-          { label: "Button Link", name: buttonURL, widget: string },
-        ]
-      }
-      - { label: "Intro", name: "intro", widget: "object", fields: [
-          { label: "Text", name: text, widget: text },
-        ]
-      }
-      - { label: "Stat Section", name: "statSection", widget: "object", fields: [
-          { label: "Left Column", name: leftColumn, widget: "object", fields: [
-            { label: "Title", name: title, widget: string },
-            { label: "Text", name: text, widget: text },
-          ] },
-          { label: "Right Column", name: rightColumn, widget: "object", fields: [
-            { label: "Title", name: title, widget: string },
-            { label: "Text", name: text, widget: text },
-          ] },
-          { label: "Stats", name: stats, widget: "list", fields: [
-            { label: "Number", name: number, widget: string },
-            { label: "Caption", name: caption, widget: string },
-          ] },
-        ]
-      }
-      - { label: "Sponsor Section", name: "sponsorSection", widget: "object", fields: [
-          { label: "Title", name: title, widget: string },
-          { label: "Logo", name: logo, widget: image },
-        ]
-      }
-      - { label: "Sponsorship Section", name: "sponsorshipSection", widget: "object", fields: [
-          { label: "Title", name: title, widget: string },
-          { label: "Left Column", name: leftColumn, widget: "object", fields: [
-            { label: "Title", name: title, widget: string },
-            { label: "Body", name: body, widget: text },
-            { label: "Footer", name: footer, widget: string },
-          ] },
-          { label: "Right Column", name: rightColumn, widget: "object", fields: [
-            { label: "Title", name: title, widget: string },
-            { label: "Body", name: body, widget: text },
-            { label: "Footer", name: footer, widget: string },
-          ] },
-        ]
-      }
-      - { label: "Interested Section", name: "interestedSection", widget: "object", fields: [
-          { label: "Pre Email", name: preEmailText, widget: string },
-          { label: "Email", name: email, widget: string },
-          { label: "Pre Join", name: preJoinText, widget: string },
-          { label: "Join Text", name: joinText, widget: string },
-          { label: "Join Url", name: joinUrl, widget: string },
-        ]
-      }
+    files:
+      - file: "src/pages/openinfra-live/index.md"
+        label: "OpenInfra Live"
+        name: "openinfra-live-page"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "openinfra-live"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}
+          - {label: "Hero", name: "hero", widget: "object", fields: [
+              {label: "Title", name: title, widget: string},
+              {label: "Description", name: description, widget: text}
+            ]}
+          - {label: "Episodes", name: "episodes", widget: "list", add_to_top: true, fields: [
+              {label: "Title", name: episodeTitle, widget: string, required: false},
+              {label: "Date (UTC)", name: date, widget: datetime, picker_utc: true, time_format: "HH:mm"},
+              {label: "Description", name: episodeDescription, widget: text, required: false},
+              {label: "Speakers", name: episodeSpeakers, widget: text, required: false},
+              {label: "Youtube Embed", name: youtubeEmbed, widget: string, required: false},
+              {label: "Youtube Link", name: youtubeLink, widget: string, required: false},
+              {label: "Facebook Link", name: facebookLink, widget: string, required: false},
+              {label: "LinkedIn Link", name: linkedinLink, widget: string, required: false},
+              {label: "Calendar Invite", name: calendarInvite, widget: file, required: false, media_folder: /static/invites, public_folder: /static/invites, hint: "Create a calendar invite at https://ical.marudot.com"},
+              {label: "Superuser Recap", name: superuserRecap, widget: string, required: false},
+              {label: "Hidden", name: hidden, widget: boolean, default: true, required: false},
+            ]}
+          - {label: "Footer", name: footer, widget: object, required: false, fields: [
+              {label: "Title", name: title, widget: string, required: false },
+              {label: "Sub Title", name: subTitle, widget: string, required: false},
+              {label: "Button Link", name: button, widget: string, required: false},
+              {label: "Button Text", name: buttonText, widget: string, required: false},
+              {label: "Display", name: display, widget: boolean, required: false}
+            ]}
+      - file: "src/pages/openinfra-live/keynotes.md"
+        label: "Keynotes"
+        name: "openinfra-live-keynotes-page"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "live-keynotes" }
+          - { label: SEO, name: seo, widget: object, fields: [
+              { label: "Title", name: "title", widget: string },
+              { label: "Description", name: "description", widget: string },
+              { label: "Url", name: "url", widget: string },
+              { label: "Image", name: "image", widget: image },
+              { label: "Twitter Username", name: "twitterUsername", widget: string },
+            ]
+          }
+          - { label: "Hero", name: "hero", widget: "object", fields: [
+              { label: "Title", name: title, widget: string },
+              { label: "Description", name: description, widget: text },
+              { label: "Subtitle", name: subtitle, widget: string },
+              { label: "Button Label", name: buttonText, widget: string },
+              { label: "Button Link", name: buttonURL, widget: string },
+            ]
+          }
+          - { label: "Intro", name: "intro", widget: "object", fields: [
+              { label: "Text", name: text, widget: text },
+            ]
+          }
+          - { label: "Stat Section", name: "statSection", widget: "object", fields: [
+              { label: "Left Column", name: leftColumn, widget: "object", fields: [
+                { label: "Title", name: title, widget: string },
+                { label: "Text", name: text, widget: text },
+              ] },
+              { label: "Right Column", name: rightColumn, widget: "object", fields: [
+                { label: "Title", name: title, widget: string },
+                { label: "Text", name: text, widget: text },
+              ] },
+              { label: "Stats", name: stats, widget: "list", fields: [
+                { label: "Number", name: number, widget: string },
+                { label: "Caption", name: caption, widget: string },
+              ] },
+            ]
+          }
+          - { label: "Sponsor Section", name: "sponsorSection", widget: "object", fields: [
+              { label: "Title", name: title, widget: string },
+              { label: "Logo", name: logo, widget: image },
+            ]
+          }
+          - { label: "Sponsorship Section", name: "sponsorshipSection", widget: "object", fields: [
+              { label: "Title", name: title, widget: string },
+              { label: "Left Column", name: leftColumn, widget: "object", fields: [
+                { label: "Title", name: title, widget: string },
+                { label: "Body", name: body, widget: text },
+                { label: "Footer", name: footer, widget: string },
+              ] },
+              { label: "Right Column", name: rightColumn, widget: "object", fields: [
+                { label: "Title", name: title, widget: string },
+                { label: "Body", name: body, widget: text },
+                { label: "Footer", name: footer, widget: string },
+              ] },
+            ]
+          }
+          - { label: "Interested Section", name: "interestedSection", widget: "object", fields: [
+              { label: "Pre Email", name: preEmailText, widget: string },
+              { label: "Email", name: email, widget: string },
+              { label: "Pre Join", name: preJoinText, widget: string },
+              { label: "Join Text", name: joinText, widget: string },
+              { label: "Join Url", name: joinUrl, widget: string },
+            ]
+          }
     

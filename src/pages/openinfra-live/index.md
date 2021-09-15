@@ -15,6 +15,17 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-10-07T14:00:53.193Z
+    episodeTitle: "OpenStack Xena: Open Source Integration and Hardware Diversity"
+    episodeDescription: "Come learn more about OpenStack Xena, the 24th release of
+      the open source cloud computing project. Hundreds of developers from over
+      60 organizations delivered OpenStack Xena and this episode of OpenInfra
+      Live will highlight some of the key features, what use cases are impacted
+      and what operators can expect. "
+    youtubeLink: https://www.youtube.com/watch?v=aqilhEmkEBw
+    youtubeEmbed: https://www.youtube.com/embed/aqilhEmkEBw
+    calendarInvite: /static/invites/myevents-9-.ics
+  - hidden: false
     date: 2021-09-23T14:00:42.961Z
     episodeDescription: "Join the volunteer organizers of OpenInfra Days to hear
       about the happenings at their latest local events, what they're looking

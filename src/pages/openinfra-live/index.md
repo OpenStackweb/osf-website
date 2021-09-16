@@ -58,6 +58,11 @@ episodes:
     calendarInvite: /static/invites/myevents-7-.ics
     hidden: false
     date: 2021-09-16T14:00:47.738Z
+    episodeSpeakers: |
+      Jared Baker (The Ontario Institute for Cancer Research (OICR))
+      Belmiro Moreira (CERN)
+      Mohammed Naser (VEXXHOST)
+      Xiaoguang, Zhang and Zhiqiang Yu (China Mobile)
     youtubeEmbed: https://www.youtube.com/embed/nUwgBdx0lSw
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6841804188478009344/
     episodeTitle: "Superusers: Where are they Now"

@@ -15,6 +15,18 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-09-30T14:00:22.173Z
+    episodeTitle: "OpenStack and Ceph "
+    episodeDescription: Ceph is a highly scalable distributed-storage open source
+      solution offering object, block, and file storage. Join us as various
+      Community members discuss the basics, ongoing development and integration
+      of OpenStack with Ceph.
+    youtubeLink: https://www.youtube.com/watch?v=zJVoleSpSOk
+    youtubeEmbed: https://www.youtube.com/embed/zJVoleSpSOk
+    episodeSpeakers: "Tom Barron (Red Hat), John Fulton (Red Hat), Francesco Pantano
+      (Red Hat), Loan Harrouin (Societe Generale), Mohammed Naser (VEXXHOST),
+      and OVH. "
+  - hidden: false
     date: 2021-10-07T14:00:53.193Z
     episodeTitle: "OpenStack Xena: Open Source Integration and Hardware Diversity"
     episodeDescription: "Come learn more about OpenStack Xena, the 24th release of

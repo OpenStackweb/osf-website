@@ -26,6 +26,7 @@ episodes:
     episodeSpeakers: "Tom Barron (Red Hat), John Fulton (Red Hat), Francesco Pantano
       (Red Hat), Loan Harrouin (Societe Generale), Mohammed Naser (VEXXHOST),
       and OVH. "
+    calendarInvite: /static/invites/myevents-10-.ics
   - hidden: false
     date: 2021-10-07T14:00:53.193Z
     episodeTitle: "OpenStack Xena: Open Source Integration and Hardware Diversity"

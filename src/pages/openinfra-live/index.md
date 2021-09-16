@@ -48,6 +48,10 @@ episodes:
     youtubeLink: https://www.youtube.com/watch?v=-s1eJa6u_2A
     youtubeEmbed: https://www.youtube.com/embed/-s1eJa6u_2A
     calendarInvite: /static/invites/myevents-8-.ics
+    episodeSpeakers: >
+      Akihiro Hasegawa (Cloud Operator Days Tokyo Organizer), Rico Lin
+      (OpenInfra Days Asia Organizer), Sartika Lestari (OpenInfra Days Indonesia
+      Organizer)
   - facebookLink: https://www.facebook.com/104139126308032/posts/4319519031436666/
     episodeDescription: "Since the Paris Summit in 2014, the OpenInfra Foundation
       has hosted our annual Superuser Awards to recognize organizations that

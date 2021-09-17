@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: OpenStackweb/osf-website
-  branch: master
+  repo: tomrndom/osf-website
+  branch: feature/ind-join-page
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -407,6 +407,53 @@ collections:
               ]},
             ]}
           - {label: "Body", name: body, widget: markdown, required: false}
+  - name: "join--individual-page"
+    label: "Join Individual Page"
+    files:
+      - file: "src/pages/membership/join-individual.md"    
+        label: "Join Individual"
+        name: join-individual
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "join-individual-page"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}
+          - {label: "Header", name: header, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Title", name: title, widget: string},
+              {label: "Upper Title", name: upperTitle, widget: string},
+              {label: "Description", name: description, widget: text},
+              {label: "Image", name: image, widget: image}
+            ]}
+          - {label: "Individual Member", name: individualMember, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Image", name: image, widget: image},
+              {label: "Upper Title", name: upperTitle, widget: string},
+              {label: "Title", name: title, widget: string},
+              {label: "Sub Title", name: subTitle, widget: string},              
+              {label: "List Items", name: list, widget: list, fields: [                
+                {label: "Text", name: text, widget: string},
+              ]},
+              {label: "Button", name: button, widget: object, fields: [
+                {label: "Text", name: text, widget: string},
+                {label: "Link", name: link, widget: string},
+              ]},
+              {label: "Note", name: note, widget: text},
+            ]}
+          - {label: "Additional", name: additional, widget: object, fields: [
+              {label: "Display", name: display, widget: boolean, required: false},
+              {label: "Title", name: title, widget: string},
+              {label: "Text", name: text, widget: text},              
+              {label: "Button", name: button, widget: object, fields: [
+                {label: "Text", name: text, widget: string},
+                {label: "Link", name: link, widget: string},
+              ]},
+            ]}
+          - {label: "Body", name: body, widget: markdown, required: false}          
   - name: "members-page"
     label: "Members Page"
     files:

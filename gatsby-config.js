@@ -205,15 +205,7 @@ module.exports = {
         whitelistPatterns: [/^carousel/, /^projects-s/, /^company-level-/, /^more-recent-single-/],
         purgeOnly: ['/style'], // applies purging only on the bulma css file
       },
-    }, // must be after other CSS plugins
-    {
-      resolve: 'gatsby-plugin-netlify', // make sure to keep it last in the array,
-      options: {
-        enableIdentityWidget: true,
-        htmlTitle: `Open Infrastructure Foundation | Content Manager`,
-        includeRobots: false,
-      }
-    },
+    }, // must be after other CSS plugins    
     {
       resolve: 'gatsby-plugin-linkedin-insight',
       options: {
@@ -222,6 +214,14 @@ module.exports = {
         // Include LinkedIn Insight in development.
         // Defaults to false meaning LinkedIn Insight will only be loaded in production.
         includeInDevelopment: true
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-netlify', // make sure to keep it last in the array,
+      options: {
+        enableIdentityWidget: true,
+        htmlTitle: `Open Infrastructure Foundation | Content Manager`,
+        includeRobots: false,
       }
     }
   ],

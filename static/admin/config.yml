@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: tomrndom/osf-website
   branch: feature/ind-join-page
   commit_messages:

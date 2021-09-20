@@ -83,7 +83,7 @@ export const JoinIndividualPageTemplate = ({
                                 </span>
                                 <div className="button">
                                     <LinkComponent
-                                        className='button-individual'
+                                        className='button-individual membership_action'
                                         href={individualMember.button.link}>
                                         {individualMember.button.text} <img src={leftArrow} alt="" />
                                     </LinkComponent>
@@ -131,8 +131,7 @@ const JoinIndividualPage = ({ isLoggedUser, data }) => {
     const handleOnClick = useCallback(event => {
         event.preventDefault();
         let origin = window.location.origin;
-        let membershipType = event.currentTarget.dataset.membershipType;
-        let url = `${envVariables.IDP_BASE_URL}/auth/register?client_id=${envVariables.OAUTH2_CLIENT_ID}&redirect_uri=${encodeURI(`${origin}/a/registration?membership_type=${membershipType}`)}`;
+        let url = `${envVariables.IDP_BASE_URL}/auth/register?client_id=${envVariables.OAUTH2_CLIENT_ID}&redirect_uri=${encodeURI(`${origin}/a/registration?membership_type=individual`)}`;
         window.location = url;
     }, []);
 

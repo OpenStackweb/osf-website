@@ -38,7 +38,7 @@ individualMember:
     - text: Participate in Community Events
   button: 
     text: PARTICIPATE AS AN INDIVIDUAL MEMBER
-    link: ''
+    link: '#'
   note: >
     * Individual Members are required to vote regularly in Board elections, or their 
     membership will be transitioned to a Community account (please see below). Note 
@@ -58,5 +58,5 @@ additional:
     Foundation Membership.
   button:
     text: Create a Community Account
-    link: ''
+    link: '#'
 ---

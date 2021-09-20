@@ -22,7 +22,7 @@ header:
     - text: An Organization
       link: /join/members/
     - text: An Individual
-      link: "#"
+      link: "/join/individual/"
   image: /img/join-page/Hero-Image.png
 weAreOpenInfra:
   display: true
@@ -94,5 +94,5 @@ involved:
     - text: An Organization
       link: /join/members/
     - text: An Individual
-      link: "#"
+      link: "/join/individual/"
 ---

@@ -107,7 +107,8 @@
         position: static;
         border: none;
         &:hover {
-          border: none;
+          background-color: #9a0c28;
+          border-color: #9a0c28;
         }
         a {
           font-weight: bold;

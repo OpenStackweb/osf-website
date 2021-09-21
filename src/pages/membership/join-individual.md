@@ -17,9 +17,9 @@ header:
     Join over 110,000 community members from 187 countries to advance the 
     future of open source. Everyone is welcome—the Open Infrastructure community 
     is inclusive and diverse, and all members agree to the Open Infrastructure 
-    Open Infrastructure <a href="">Community Code of Conduct</a>. There are two 
-    types of accounts: Individual Member accounts, which include certain rights 
-    and responsibilities, and Community accounts, which are more limited.
+    <a class="code-conduct" href="#">Community Code of Conduct</a>. 
+    There are two types of accounts: Individual Member accounts, which include 
+    certain rights and responsibilities, and Community accounts, which are more limited.
   image: /img/join-individual/hero-individual.png
 individualMember:
   display: true

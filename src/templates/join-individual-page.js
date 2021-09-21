@@ -26,8 +26,6 @@ export const JoinIndividualPageTemplate = ({
 }) => {
     const PageContent = contentComponent || Content
 
-    console.log('add', additional)
-
     return (
         <div>
             <div className="wrapper project-background">
@@ -107,6 +105,7 @@ export const JoinIndividualPageTemplate = ({
                             </span>
                             <div>
                                 <LinkComponent
+                                    className='membership_action'
                                     href={additional.button.link}>
                                     {additional.button.text} <img src={leftArrow} alt="" />
                                 </LinkComponent>
@@ -131,7 +130,8 @@ const JoinIndividualPage = ({ isLoggedUser, data }) => {
     const handleOnClick = useCallback(event => {
         event.preventDefault();
         let origin = window.location.origin;
-        let url = `${envVariables.IDP_BASE_URL}/auth/register?client_id=${envVariables.OAUTH2_CLIENT_ID}&redirect_uri=${encodeURI(`${origin}/a/registration?membership_type=individual`)}`;
+        let type = event.target.className.includes('button-individual') ? 'foundation' : 'community';        
+        let url = `${envVariables.IDP_BASE_URL}/auth/register?client_id=${envVariables.OAUTH2_CLIENT_ID}&redirect_uri=${encodeURI(`${origin}/a/registration?membership_type=${type}`)}`;
         window.location = url;
     }, []);
 

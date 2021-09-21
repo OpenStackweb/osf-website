@@ -63,9 +63,9 @@ If you believe that the OpenInfra Code of Conduct is being violated, you are bei
 
 The Foundation staff (“Staff”) who manage these issues have the following contact information:
 
-**Jonathan Bryce**, [jonathan@openstack.org](mailto:jonathan@openstack.org), cell # +1-210-317-2438
+**Jonathan Bryce**, [jonathan@openinfra.dev](mailto:jonathan@openinfra.dev), cell # +1-210-317-2438
 
-**Allison Price**, [allison@openstack.org](mailto:allison@openstack.org), cell # +1-214-686-6821
+**Allison Price**, [allison@openinfra.dev](mailto:allison@openinfra.dev), cell # +1-214-686-6821
 
 ### Process to file complaint
 

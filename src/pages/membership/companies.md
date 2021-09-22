@@ -209,8 +209,8 @@ companies:
         image: /img/companies/vexxhost-new-lg.png
       - alt: OVH
         image: /img/companies/ovh-lg.jpg
-      - alt: INAP
-        image: /img/companies/INAP-vertical-color-TM.png
+      - alt: iWeb
+        image: /img/companies/iweb.png
       - alt: Limestone Networks
         image: /img/companies/lsn-sm.png
     text: Infrastructure donors are companies running OpenStack clouds, donating

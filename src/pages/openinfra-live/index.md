@@ -15,6 +15,19 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-09-30T14:00:22.173Z
+    episodeTitle: "OpenStack and Ceph "
+    episodeDescription: Ceph is a highly scalable distributed-storage open source
+      solution offering object, block, and file storage. Join us as various
+      Community members discuss the basics, ongoing development and integration
+      of OpenStack with Ceph.
+    youtubeLink: https://www.youtube.com/watch?v=zJVoleSpSOk
+    youtubeEmbed: https://www.youtube.com/embed/zJVoleSpSOk
+    episodeSpeakers: "Tom Barron (Red Hat), John Fulton (Red Hat), Francesco Pantano
+      (Red Hat), Loan Harrouin (Societe Generale), Mohammed Naser (VEXXHOST),
+      and OVH. "
+    calendarInvite: /static/invites/myevents-10-.ics
+  - hidden: false
     date: 2021-10-07T14:00:53.193Z
     episodeTitle: "OpenStack Xena: Open Source Integration and Hardware Diversity"
     episodeDescription: "Come learn more about OpenStack Xena, the 24th release of
@@ -35,6 +48,10 @@ episodes:
     youtubeLink: https://www.youtube.com/watch?v=-s1eJa6u_2A
     youtubeEmbed: https://www.youtube.com/embed/-s1eJa6u_2A
     calendarInvite: /static/invites/myevents-8-.ics
+    episodeSpeakers: >
+      Akihiro Hasegawa (Cloud Operator Days Tokyo Organizer), Rico Lin
+      (OpenInfra Days Asia Organizer), Sartika Lestari (OpenInfra Days Indonesia
+      Organizer)
   - facebookLink: https://www.facebook.com/104139126308032/posts/4319519031436666/
     episodeDescription: "Since the Paris Summit in 2014, the OpenInfra Foundation
       has hosted our annual Superuser Awards to recognize organizations that
@@ -45,6 +62,11 @@ episodes:
     calendarInvite: /static/invites/myevents-7-.ics
     hidden: false
     date: 2021-09-16T14:00:47.738Z
+    episodeSpeakers: |
+      Jared Baker (The Ontario Institute for Cancer Research (OICR))
+      Belmiro Moreira (CERN)
+      Mohammed Naser (VEXXHOST)
+      Xiaoguang, Zhang and Zhiqiang Yu (China Mobile)
     youtubeEmbed: https://www.youtube.com/embed/nUwgBdx0lSw
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6841804188478009344/
     episodeTitle: "Superusers: Where are they Now"

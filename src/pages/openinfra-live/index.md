@@ -15,6 +15,30 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-09-30T14:00:22.173Z
+    episodeTitle: "OpenStack and Ceph "
+    episodeDescription: Ceph is a highly scalable distributed-storage open source
+      solution offering object, block, and file storage. Join us as various
+      Community members discuss the basics, ongoing development and integration
+      of OpenStack with Ceph.
+    youtubeLink: https://www.youtube.com/watch?v=zJVoleSpSOk
+    youtubeEmbed: https://www.youtube.com/embed/zJVoleSpSOk
+    episodeSpeakers: "Tom Barron (Red Hat), John Fulton (Red Hat), Francesco Pantano
+      (Red Hat), Loan Harrouin (Societe Generale), Mohammed Naser (VEXXHOST),
+      and OVH. "
+    calendarInvite: /static/invites/myevents-10-.ics
+  - hidden: false
+    date: 2021-10-07T14:00:53.193Z
+    episodeTitle: "OpenStack Xena: Open Source Integration and Hardware Diversity"
+    episodeDescription: "Come learn more about OpenStack Xena, the 24th release of
+      the open source cloud computing project. Hundreds of developers from over
+      60 organizations delivered OpenStack Xena and this episode of OpenInfra
+      Live will highlight some of the key features, what use cases are impacted
+      and what operators can expect. "
+    youtubeLink: https://www.youtube.com/watch?v=aqilhEmkEBw
+    youtubeEmbed: https://www.youtube.com/embed/aqilhEmkEBw
+    calendarInvite: /static/invites/myevents-9-.ics
+  - hidden: false
     date: 2021-09-23T14:00:42.961Z
     episodeDescription: "Join the volunteer organizers of OpenInfra Days to hear
       about the happenings at their latest local events, what they're looking
@@ -24,6 +48,10 @@ episodes:
     youtubeLink: https://www.youtube.com/watch?v=-s1eJa6u_2A
     youtubeEmbed: https://www.youtube.com/embed/-s1eJa6u_2A
     calendarInvite: /static/invites/myevents-8-.ics
+    episodeSpeakers: >
+      Akihiro Hasegawa (Cloud Operator Days Tokyo Organizer), Rico Lin
+      (OpenInfra Days Asia Organizer), Sartika Lestari (OpenInfra Days Indonesia
+      Organizer)
   - facebookLink: https://www.facebook.com/104139126308032/posts/4319519031436666/
     episodeDescription: "Since the Paris Summit in 2014, the OpenInfra Foundation
       has hosted our annual Superuser Awards to recognize organizations that
@@ -34,6 +62,11 @@ episodes:
     calendarInvite: /static/invites/myevents-7-.ics
     hidden: false
     date: 2021-09-16T14:00:47.738Z
+    episodeSpeakers: |
+      Jared Baker (The Ontario Institute for Cancer Research (OICR))
+      Belmiro Moreira (CERN)
+      Mohammed Naser (VEXXHOST)
+      Xiaoguang, Zhang and Zhiqiang Yu (China Mobile)
     youtubeEmbed: https://www.youtube.com/embed/nUwgBdx0lSw
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6841804188478009344/
     episodeTitle: "Superusers: Where are they Now"

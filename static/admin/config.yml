@@ -794,66 +794,66 @@ collections:
         name: "openinfra-live-keynotes-page"
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "live-keynotes" }
-          - { label: SEO, name: seo, widget: object, fields: [
-              { label: "Title", name: "title", widget: string },
-              { label: "Description", name: "description", widget: string },
-              { label: "Url", name: "url", widget: string },
-              { label: "Image", name: "image", widget: image },
-              { label: "Twitter Username", name: "twitterUsername", widget: string },
+          - { label: "SEO", name: "seo", widget: "object", fields: [
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Description", name: "description", widget: "string" },
+              { label: "Url", name: "url", widget: "string" },
+              { label: "Image", name: "image", widget: "image" },
+              { label: "Twitter Username", name: "twitterUsername", widget: "string" },
             ]
           }
           - { label: "Hero", name: "hero", widget: "object", fields: [
-              { label: "Title", name: title, widget: string },
-              { label: "Description", name: description, widget: text },
-              { label: "Subtitle", name: subtitle, widget: string },
-              { label: "Button Label", name: buttonText, widget: string },
-              { label: "Button Link", name: buttonURL, widget: string },
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Description", name: "description", widget: "text" },
+              { label: "Subtitle", name: "subtitle", widget: "string" },
+              { label: "Button Label", name: "buttonText", widget: "string" },
+              { label: "Button Link", name: "buttonURL", widget: "string" },
             ]
           }
           - { label: "Intro", name: "intro", widget: "object", fields: [
-              { label: "Text", name: text, widget: markdown },
+              { label: "Text", name: "text", widget: "text" },
             ]
           }
           - { label: "Stat Section", name: "statSection", widget: "object", fields: [
-              { label: "Left Column", name: leftColumn, widget: "object", fields: [
-                { label: "Title", name: title, widget: string },
-                { label: "Text", name: text, widget: markdown },
+              { label: "Left Column", name: "leftColumn", widget: "object", fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Text", name: "text", widget: "text" },
               ] },
-              { label: "Right Column", name: rightColumn, widget: "object", fields: [
-                { label: "Title", name: title, widget: string },
-                { label: "Text", name: text, widget: markdown },
+              { label: "Right Column", name: "rightColumn", widget: "object", fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Text", name: "text", widget: "text" },
               ] },
-              { label: "Stats", name: stats, widget: "list", fields: [
-                { label: "Number", name: number, widget: string },
-                { label: "Caption", name: caption, widget: string },
+              { label: "Stats", name: "stats", widget: "list", fields: [
+                { label: "Number", name: "number", widget: "string" },
+                { label: "Caption", name: "caption", widget: "string" },
               ] },
             ]
           }
           - { label: "Sponsor Section", name: "sponsorSection", widget: "object", fields: [
-              { label: "Title", name: title, widget: string },
-              { label: "Logo", name: logo, widget: image },
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Logo", name: "logo", widget: "image" },
             ]
           }
           - { label: "Sponsorship Section", name: "sponsorshipSection", widget: "object", fields: [
-              { label: "Title", name: title, widget: string },
-              { label: "Left Column", name: leftColumn, widget: "object", fields: [
-                { label: "Title", name: title, widget: string },
-                { label: "Body", name: body, widget: markdown },
-                { label: "Footer", name: footer, widget: string },
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Left Column", name: "leftColumn", widget: "object", fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Body", name: "body", widget: "text" },
+                { label: "Footer", name: "footer", widget: "string" },
               ] },
-              { label: "Right Column", name: rightColumn, widget: "object", fields: [
-                { label: "Title", name: title, widget: string },
-                { label: "Body", name: body, widget: markdown },
-                { label: "Footer", name: footer, widget: string },
+              { label: "Right Column", name: "rightColumn", widget: "object", fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Body", name: "body", widget: "text" },
+                { label: "Footer", name: "footer", widget: "string" },
               ] },
             ]
           }
           - { label: "Interested Section", name: "interestedSection", widget: "object", fields: [
-              { label: "Pre Email", name: preEmailText, widget: string },
-              { label: "Email", name: email, widget: string },
-              { label: "Pre Join", name: preJoinText, widget: string },
-              { label: "Join Text", name: joinText, widget: string },
-              { label: "Join Url", name: joinUrl, widget: string },
+              { label: "Pre Email", name: "preEmailText", widget: "string" },
+              { label: "Email", name: "email", widget: "string" },
+              { label: "Pre Join", name: "preJoinText", widget: "string" },
+              { label: "Join Text", name: "joinText", widget: "string" },
+              { label: "Join Url", name: "joinUrl", widget: "string" },
             ]
           }
     

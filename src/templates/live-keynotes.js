@@ -20,7 +20,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
   statSection,
   sponsorSection,
   sponsorshipSection,
-  interestedSection,
+  interestedSection
 }) => {
   const PageContent = contentComponent || Content
   let sponsorLogo = sponsorSection.logo
@@ -64,9 +64,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
           <section className="keynotes-intro">
             <div className="container">
               <div className="intro-inner">
-                <p className="fix-h5">
-                  {intro.text}
-                </p>
+                <p className="fix-h5" dangerouslySetInnerHTML={{ __html: intro.text }} />
               </div>
             </div>
           </section>
@@ -219,9 +217,9 @@ export const OpenInfraLiveKeynotesPageQuery = graphql`
           title
           logo {
               childImageSharp {
-                  fluid(maxWidth: 640, quality: 64) {
-                    ...GatsbyImageSharpFluid
-                  }
+                fluid(maxWidth: 640, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
               }
               publicURL
               extension

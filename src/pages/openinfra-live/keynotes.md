@@ -56,12 +56,13 @@ sponsorshipSection:
     body: <ul><li>Minimum of 8 minutes of Keynote speaking time (content subject to
       Foundation approval)</li><li>Verbal and logo recognition during
       event</li><li>Pre and post event emails to the attendee
-      list</li><li>Website logo placement</li><li>Pre/post event mentions in the
-      OpenInfra community newsletter/social media posts</li><li>Brand mention in
-      the abstracts of the videos on social media</li><li>Mention in Superuser
-      recap post</li><li>Recognition during OpenInfra Live episodes leading up
-      to the event</li><li>Inclusion in any relevant paid
-      promotion</li><li>Demographic report of registered attendees</li></ul>
+      list</li><li>Website logo placement</li><li>Pre/post event
+      mentions in the OpenInfra community newsletter/social
+      media posts</li><li>Brand mention in the abstracts of the videos on social
+      media</li><li>Mention in Superuser recap post</li><li>Recognition during
+      OpenInfra Live episodes leading up to the event</li><li>Inclusion in any
+      relevant paid promotion</li><li>Demographic report of registered
+      attendees</li></ul>
     footer: $30,000
   rightColumn:
     title: Supporting

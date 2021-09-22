@@ -16,12 +16,12 @@ intro:
   text: If you miss the OpenInfra Summit, this two day special edition of
     OpenInfra Live is your only opportunity to meet the newest players to the
     OpenInfra space, interact with leaders of open source projects like
-    [OpenStack](https://www.openstack.org) and Kubernetes to hear how the
-    projects are supporting OpenInfra use cases like hybrid cloud, gain insight
-    into public cloud economics and the role open source technologies play, and
-    celebrate as we announce this year’s Superuser Awards winner. This will be
-    the one time everyone will be coming together this year. Come interact with
-    the global OpenInfra community—Live!
+    [OpenStack]netlify cms (https://www.openstack.org) and Kubernetes to hear
+    how the projects are supporting OpenInfra use cases like hybrid cloud, gain
+    insight into public cloud economics and the role open source technologies
+    play, and celebrate as we announce this year’s Superuser Awards winner. This
+    will be the one time everyone will be coming together this year. Come
+    interact with the global OpenInfra community—Live!
 statSection:
   leftColumn:
     title: What can you expect?
@@ -56,12 +56,13 @@ sponsorshipSection:
     body: <ul><li>Minimum of 8 minutes of Keynote speaking time (content subject to
       Foundation approval)</li><li>Verbal and logo recognition during
       event</li><li>Pre and post event emails to the attendee
-      list</li><li>Website logo placement</li><li>Pre/post event mentions in the
-      OpenInfra community newsletter/social media posts</li><li>Brand mention in
-      the abstracts of the videos on social media</li><li>Mention in Superuser
-      recap post</li><li>Recognition during OpenInfra Live episodes leading up
-      to the event</li><li>Inclusion in any relevant paid
-      promotion</li><li>Demographic report of registered attendees</li></ul>
+      list</li><li>Website logo placement</li><li>Pre/post event
+      [mentions](www.google.com) in the OpenInfra community newsletter/social
+      media posts</li><li>Brand mention in the abstracts of the videos on social
+      media</li><li>Mention in Superuser recap post</li><li>Recognition during
+      OpenInfra Live episodes leading up to the event</li><li>Inclusion in any
+      relevant paid promotion</li><li>Demographic report of registered
+      attendees</li></ul>
     footer: $30,000
   rightColumn:
     title: Supporting

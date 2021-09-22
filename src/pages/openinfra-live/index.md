@@ -25,7 +25,7 @@ episodes:
     youtubeEmbed: https://www.youtube.com/embed/zJVoleSpSOk
     episodeSpeakers: "Tom Barron (Red Hat), John Fulton (Red Hat), Francesco Pantano
       (Red Hat), Loan Harrouin (Societe Generale), Mohammed Naser (VEXXHOST),
-      and OVH. "
+      Kendall Nelson (OpenInfra Foundation) and OVH. "
     calendarInvite: /static/invites/myevents-10-.ics
   - hidden: false
     date: 2021-10-07T14:00:53.193Z
@@ -49,9 +49,9 @@ episodes:
     youtubeEmbed: https://www.youtube.com/embed/-s1eJa6u_2A
     calendarInvite: /static/invites/myevents-8-.ics
     episodeSpeakers: >
-      Akihiro Hasegawa (Cloud Operator Days Tokyo Organizer), Rico Lin
-      (OpenInfra Days Asia Organizer), Sartika Lestari (OpenInfra Days Indonesia
-      Organizer)
+      Mark Collier (OpenInfra Foundation), Akihiro Hasegawa (Cloud Operator Days
+      Tokyo Organizer), Rico Lin (OpenInfra Days Asia Organizer), Sartika
+      Lestari (OpenInfra Days Indonesia Organizer)
   - facebookLink: https://www.facebook.com/104139126308032/posts/4319519031436666/
     episodeDescription: "Since the Paris Summit in 2014, the OpenInfra Foundation
       has hosted our annual Superuser Awards to recognize organizations that

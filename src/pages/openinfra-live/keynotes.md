@@ -8,7 +8,7 @@ seo:
   twitterUsername: "@OpenInfraDev"
 hero:
   subtitle: Join us for
-  title: "OpenInfra Live: Keynotes S"
+  title: "OpenInfra Live: Keynotes"
   description: November 17 and 18 at 9am CT / 1500 UTC
   buttonText: Register Now
   buttonURL: https://openinfralivekeynotes.eventbrite.com
@@ -16,12 +16,12 @@ intro:
   text: If you miss the OpenInfra Summit, this two day special edition of
     OpenInfra Live is your only opportunity to meet the newest players to the
     OpenInfra space, interact with leaders of open source projects like
-    OpenStack and Kubernetes to hear how the projects are supporting OpenInfra
-    use cases like hybrid cloud, gain insight into public cloud economics and
-    the role open source technologies play, and celebrate as we announce this
-    year’s Superuser Awards winner. This will be the one time everyone will be
-    coming together this year. Come interact with the global OpenInfra
-    community—Live!
+    [OpenStack](https://www.openstack.org) and Kubernetes to hear how the
+    projects are supporting OpenInfra use cases like hybrid cloud, gain insight
+    into public cloud economics and the role open source technologies play, and
+    celebrate as we announce this year’s Superuser Awards winner. This will be
+    the one time everyone will be coming together this year. Come interact with
+    the global OpenInfra community—Live!
 statSection:
   leftColumn:
     title: What can you expect?

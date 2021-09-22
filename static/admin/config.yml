@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: tomrndom/osf-website
-  branch: feature/ind-join-page
+  repo: OpenStackweb/osf-website
+  branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'

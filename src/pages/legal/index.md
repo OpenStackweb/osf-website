@@ -4,7 +4,7 @@ seo:
   description: >-
     OpenInfra Foundation legal documents
   image: /img/OpenInfra-icon-white.jpg
-  title: OpenInfra Foundation LEgal Documents
+  title: OpenInfra Foundation Legal Documents
   twitterUsername: "@OpenInfraDev"
   url: "https://openinfra.dev/legal"
 title: OpenInfra Foundation Legal Documents

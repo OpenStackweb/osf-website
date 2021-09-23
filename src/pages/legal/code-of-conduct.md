@@ -142,4 +142,4 @@ The Foundation staff (“Staff”) who manage these issues have the following co
 
 - Staff will then inform complainant (and other involved persons, to the extent appropriate) of the resolution, and record the outcome.
 
-_Portions of the OpenInfra Code of Conduct are derived from the PyCon Conference Code of Conduct, licensed under Creative Commons Attribution 3.0 Unported License, and the Django Project Code of Conduct._
+_Portions of the OpenInfra Foundation Code of Conduct are derived from the PyCon Conference Code of Conduct, licensed under Creative Commons Attribution 3.0 Unported License, and the Django Project Code of Conduct._

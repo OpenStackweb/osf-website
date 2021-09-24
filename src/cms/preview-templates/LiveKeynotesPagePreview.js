@@ -4,8 +4,12 @@ import { OpenInfraLiveKeynotesTemplate } from '../../templates/live-keynotes'
 
 const LiveKeynotesPagePreview = ({ entry }) => {
     const data = entry.getIn(['data']).toJS()
+    const entrySpeakers = entry.getIn(['data', 'featuredSpeakers', 'speakers'])
+    const entrySponsors = entry.getIn(['data', 'supportingSponsors', 'sponsors'])
     const entryStats = entry.getIn(['data', 'statSection', 'stats'])
     const stats = entryStats ? entryStats.toJS() : []
+    const sponsors = entrySponsors ? entrySponsors.toJS() : []
+    const speakers = entrySpeakers ? entrySpeakers.toJS() : []
 
       if (data) {
         return (
@@ -25,9 +29,17 @@ const LiveKeynotesPagePreview = ({ entry }) => {
                 rightColumn: {title: entry.getIn(['data', 'statSection', 'rightColumn', 'title']), text: entry.getIn(['data', 'statSection', 'rightColumn', 'text'])},
                 stats: stats,
             }}
-            sponsorSection={{
-                title: entry.getIn(['data', 'sponsorSection', 'title']),
-                logo: entry.getIn(['data', 'sponsorSection', 'logo']),
+            headlineSponsor={{
+                title: entry.getIn(['data', 'headlineSponsor', 'title']),
+                logo: entry.getIn(['data', 'headlineSponsor', 'logo']),
+            }}
+            supportingSponsors={{
+                title: entry.getIn(['data', 'supportingSponsors', 'title']),
+                sponsors: sponsors,
+            }}
+            featuredSpeakers={{
+                title: entry.getIn(['data', 'featuredSpeakers', 'title']),
+                speakers: speakers,
             }}
             sponsorshipSection={{
                 leftColumn: {title: entry.getIn(['data', 'sponsorshipSection', 'leftColumn', 'title']), body: entry.getIn(['data', 'sponsorshipSection', 'leftColumn', 'body']), footer: entry.getIn(['data', 'sponsorshipSection', 'leftColumn', 'footer'])},

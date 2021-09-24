@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: OpenStackweb/osf-website
-  branch: master
+  branch: live-keynotes-changes
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -876,10 +876,28 @@ collections:
               ] },
             ]
           }
-          - { label: "Sponsor Section", name: "sponsorSection", widget: "object", fields: [
+          - { label: "Headline Sponsor", name: "headlineSponsor", widget: "object", fields: [
               { label: "Title", name: "title", widget: "string" },
               { label: "Logo", name: "logo", widget: "image" },
             ]
+          }
+          - { label: "Supporting Sponsors", name: "supportingSponsors", widget: "object", fields: [
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Sponsors", name: "sponsors", widget: "list", fields: [
+                { label: "Logo", name: "logo", widget: "image" },
+              ] },
+            ]
+          }
+          - { label: "Featured Speakers", name: "featuredSpeakers", widget: "object", fields: [
+            { label: "Title", name: "title", widget: "string" },
+            { label: "Speakers", name: "speakers", widget: "list", fields: [
+              { label: "Name", name: "name", widget: "string" },
+              { label: "Company", name: "company", widget: "string" },
+              { label: "Presentation Title", name: "presentationTitle", widget: "string" },
+              { label: "Presentation Link", name: "presentationLink", widget: "string" },
+              { label: "Pic", name: "pic", widget: "image" },
+            ] },
+          ]
           }
           - { label: "Sponsorship Section", name: "sponsorshipSection", widget: "object", fields: [
               { label: "Title", name: "title", widget: "string" },

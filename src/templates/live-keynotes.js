@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
+import SpeakerCard from "../components/SpeakerCard";
 import ColorBar from '../img/color-bar.png'
 import leftArrow from '../img/svg/arrow-left.svg'
 
@@ -18,19 +19,27 @@ export const OpenInfraLiveKeynotesTemplate = ({
   hero,
   intro,
   statSection,
-  sponsorSection,
+  headlineSponsor,
+  supportingSponsors,
+  featuredSpeakers,
   sponsorshipSection,
   interestedSection
 }) => {
   const PageContent = contentComponent || Content
-  let sponsorLogo = sponsorSection.logo
 
-  if (['svg', 'gif'].includes(sponsorSection.logo?.extension)) {
-    if(!!sponsorSection.logo?.childImageSharp) {
-      sponsorLogo = sponsorSection.logo?.childImageSharp.fluid.src;
-    } else {
-      sponsorLogo = sponsorSection.logo.publicURL;
+
+  const getImage = (imageObj) => {
+    let image = imageObj;
+
+    if (['svg', 'gif'].includes(imageObj?.extension)) {
+      if(!!imageObj?.childImageSharp) {
+        image = imageObj?.childImageSharp.fluid.src;
+      } else {
+        image = imageObj.publicURL;
+      }
     }
+
+    return image;
   }
 
   return (
@@ -93,11 +102,27 @@ export const OpenInfraLiveKeynotesTemplate = ({
           <section className="keynotes-sponsors">
             <div className="container">
               <section className="sponsor-section headline">
-                <h3>{sponsorSection.title}</h3>
+                <h3>{headlineSponsor.title}</h3>
                 <div className="logos">
-                  <img src={sponsorLogo} />
+                  <img src={getImage(headlineSponsor.logo)} />
                 </div>
               </section>
+              <section className="sponsor-section headline">
+                <h3>{supportingSponsors.title}</h3>
+                <div className="logos">
+                  {supportingSponsors.sponsors.map(sponsor => (
+                      <img src={getImage(sponsor.logo)} />
+                  ))}
+                </div>
+              </section>
+            </div>
+          </section>
+          <section className="featured-speakers">
+            <div className="container">
+              <h3>{featuredSpeakers.title}</h3>
+              {featuredSpeakers.speakers.map(speaker => (
+                  <SpeakerCard speaker={speaker} pic={getImage(speaker.pic)}/>
+              ))}
             </div>
           </section>
           <section className="live-section">
@@ -213,7 +238,7 @@ export const OpenInfraLiveKeynotesPageQuery = graphql`
             caption
           }
         }
-        sponsorSection {
+        headlineSponsor {
           title
           logo {
               childImageSharp {
@@ -223,6 +248,38 @@ export const OpenInfraLiveKeynotesPageQuery = graphql`
               }
               publicURL
               extension
+          }
+        }
+        supportingSponsors {
+          title
+          sponsors {
+            logo {
+                childImageSharp {
+                  fluid(maxWidth: 640, quality: 64) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+                publicURL
+                extension
+            }
+          }
+        }
+        featuredSpeakers {
+          title
+          speakers {
+            name
+            company
+            presentationTitle
+            presentationLink
+            pic {
+                childImageSharp {
+                  fluid(maxWidth: 640, quality: 64) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+                publicURL
+                extension
+            }
           }
         }
         sponsorshipSection {

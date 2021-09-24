@@ -46,9 +46,64 @@ statSection:
       caption: Middle East/Africa
     - number: 6%
       caption: South/Latin America
-sponsorSection:
+headlineSponsor:
   title: HEADLINE SPONSOR
   logo: /img/live/redhat-logo.svg
+supportingSponsors:
+  title: SUPPORTING SPONSORS
+  sponsors:
+    - logo: /img/live/redhat-logo.svg
+    - logo: /img/live/redhat-logo.svg
+    - logo: /img/live/redhat-logo.svg
+    - logo: /img/live/redhat-logo.svg
+featuredSpeakers:
+  title: FEATURED SPEAKERS
+  speakers:
+    - name: Santi
+      pic: /img/live/redhat-logo.svg
+      company: OpenStack
+      presentationTitle: A Presentation
+      presentationLink: www.a-link.com
+    - name: Santi
+      pic: /img/live/redhat-logo.svg
+      company: OpenStack
+      presentationTitle: A Presentation
+      presentationLink: www.a-link.com
+    - name: Santi
+      pic: /img/live/redhat-logo.svg
+      company: OpenStack
+      presentationTitle: A Presentation
+      presentationLink: www.a-link.com
+    - name: Santi
+      pic: /img/live/redhat-logo.svg
+      company: OpenStack
+      presentationTitle: A Presentation
+      presentationLink: www.a-link.com
+    - name: Santi
+      pic: /img/live/redhat-logo.svg
+      company: OpenStack
+      presentationTitle: A Presentation
+      presentationLink: www.a-link.com
+    - name: Santi
+      pic: /img/live/redhat-logo.svg
+      company: OpenStack
+      presentationTitle: A Presentation
+      presentationLink: www.a-link.com
+    - name: Santi
+      pic: /img/live/redhat-logo.svg
+      company: OpenStack
+      presentationTitle: A Presentation
+      presentationLink: www.a-link.com
+    - name: Santi
+      pic: /img/live/redhat-logo.svg
+      company: OpenStack
+      presentationTitle: A Presentation
+      presentationLink: www.a-link.com
+    - name: Santi
+      pic: /img/live/redhat-logo.svg
+      company: OpenStack
+      presentationTitle: A Presentation
+      presentationLink: www.a-link.com
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

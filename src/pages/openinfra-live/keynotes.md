@@ -70,36 +70,16 @@ featuredSpeakers:
       company: OpenStack
       presentationTitle: A Presentation
       presentationLink: www.a-link.com
-    - name: Santi
-      pic: /img/live/redhat-logo.svg
-      company: OpenStack
-      presentationTitle: A Presentation
-      presentationLink: www.a-link.com
-    - name: Santi
-      pic: /img/live/redhat-logo.svg
-      company: OpenStack
-      presentationTitle: A Presentation
-      presentationLink: www.a-link.com
-    - name: Santi
-      pic: /img/live/redhat-logo.svg
-      company: OpenStack
-      presentationTitle: A Presentation
-      presentationLink: www.a-link.com
-    - name: Santi
-      pic: /img/live/redhat-logo.svg
-      company: OpenStack
-      presentationTitle: A Presentation
-      presentationLink: www.a-link.com
-    - name: Santi
-      pic: /img/live/redhat-logo.svg
-      company: OpenStack
-      presentationTitle: A Presentation
-      presentationLink: www.a-link.com
-    - name: Santi
-      pic: /img/live/redhat-logo.svg
-      company: OpenStack
-      presentationTitle: A Presentation
-      presentationLink: www.a-link.com
+    - name: Jonathan Bryce
+      company: OpenInfra Foundation
+      presentationTitle: Predicting The Next Decade of Open Infrastructure
+      pic: /img/t02hnpkj6-u02l26a65-os2682331283-512.jpg
+      presentationLink: "# "
+    - name: Thierry Carrez
+      company: OpenInfra Foundation
+      presentationTitle: "Wine and Cheese: The real heros of cloud"
+      pic: /img/t02hnpkj6-u02jx89lr-os2643318959-512.jpg
+      presentationLink: "# "
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

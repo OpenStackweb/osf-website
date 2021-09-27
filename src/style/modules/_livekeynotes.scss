@@ -131,6 +131,7 @@
 .keynotes-sponsors {
   padding: 6rem 0;
   .sponsor-section {
+
     h3 {
       text-transform: uppercase;
       color: $gray;
@@ -146,11 +147,33 @@
     }
     &.headline {
       .logos {
+        padding: 30px 0 80px;
+
         img {
           width: 460px;
           max-width: 100%;
         }
       }
+    }
+  }
+
+  .supporting-sponsors .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0 0;
+
+    @media (max-width: 1200px) {
+      width: 300px;
+      margin: 0 auto;
+
+      img {
+        margin-bottom: 30px;
+      }
+    }
+
+    img {
+      width: 262px;
     }
   }
 }
@@ -219,4 +242,33 @@
 .sponsor-note {
   font-size: 0.9em;
   color: $dark;
+}
+.featured-speakers {
+  background-color: #161616;
+  padding: 55px 0 60px;
+
+  h3 {
+    text-transform: uppercase;
+    color: $gray;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 2rem;
+  }
+
+  .featured-speakers-wrapper {
+    .first-row, .second-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      @media (max-width: 1200px) {
+        width: 554px;
+        margin: 0 auto;
+      }
+
+      @media (max-width: 554px) {
+        width: 100%;
+      }
+    }
+  }
 }

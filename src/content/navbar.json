@@ -8,6 +8,10 @@
       "display": true,
       "links": [
         {
+          "text": "Overview",
+          "url": "/four-opens/"
+        },
+        {
           "text": "Open Source",
           "url": "/four-opens/open-source/"
         },
@@ -31,6 +35,10 @@
       "url": "/projects/",
       "display": true,
       "links": [
+        {
+          "text": "OpenInfra Projects",
+          "url": "/projects/"
+        },
         {
           "text": "Services ",
           "url": "/projects/services/"
@@ -93,6 +101,10 @@
       "display": true,
       "links": [
         {
+          "text": "About Us",
+          "url": "/about/"
+        },
+        {
           "text": "Foundation Staff ",
           "url": "/about/staff/"
         },
@@ -107,6 +119,10 @@
         {
           "text": "Partnerships",
           "url": "/about/openinfra-partnerships/"
+        },
+        {
+          "text": "Legal",
+          "url": "/legal/"
         }
       ]
     },
@@ -114,7 +130,6 @@
       "title": "News",
       "image": "/img/menu/menu_about.jpg",
       "marginLeft": "-422px",
-      "url": "/blog/",
       "display": true,
       "links": [
         {

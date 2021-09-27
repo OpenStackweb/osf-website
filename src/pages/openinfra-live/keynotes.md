@@ -56,6 +56,7 @@ supportingSponsors:
     - logo: /img/coredgelrg-1.png
     - logo: /img/imh_logo-1.png
     - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
+    - logo: /img/test-sponsor-logos_at-t.png
 featuredSpeakers:
   title: FEATURED SPEAKERS
   speakers:

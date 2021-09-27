@@ -12,9 +12,7 @@ const SpeakerCard = ({speaker, pic}) => {
 
     return (
         <div className={styles.wrapper}>
-            <div className={styles.pic}>
-                <img src={pic} />
-            </div>
+            <div className={styles.pic} style={{backgroundImage: `url(${pic})`}} />
             <div className={styles.body}>
                 <div className={styles.name}>{speaker.name}</div>
                 <div className={styles.company}>{speaker.company}</div>

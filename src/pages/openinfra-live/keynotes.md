@@ -99,11 +99,6 @@ featuredSpeakers:
       company: OpenStack
       presentationTitle: A Presentation
       presentationLink: www.a-link.com
-    - name: Santi
-      pic: /img/live/redhat-logo.svg
-      company: OpenStack
-      presentationTitle: A Presentation
-      presentationLink: www.a-link.com
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

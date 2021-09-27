@@ -56,21 +56,9 @@ supportingSponsors:
     - logo: /img/coredgelrg-1.png
     - logo: /img/imh_logo-1.png
     - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
-    - logo: /img/test-sponsor-logos_at-t.png
-    - logo: /img/test-sponsor-logos_ericsson.png
 featuredSpeakers:
   title: FEATURED SPEAKERS
   speakers:
-    - name: Santi
-      pic: /img/live/redhat-logo.svg
-      company: OpenStack
-      presentationTitle: A Presentation
-      presentationLink: www.a-link.com
-    - name: Santi
-      pic: /img/live/redhat-logo.svg
-      company: OpenStack
-      presentationTitle: A Presentation
-      presentationLink: www.a-link.com
     - name: Jonathan Bryce
       company: OpenInfra Foundation
       presentationTitle: Predicting The Next Decade of Open Infrastructure

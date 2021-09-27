@@ -27,19 +27,8 @@ export const OpenInfraLiveKeynotesTemplate = ({
 }) => {
   const PageContent = contentComponent || Content
 
-
   const getImage = (imageObj) => {
-    let image = imageObj;
-
-    if (['svg', 'gif'].includes(imageObj?.extension)) {
-      if(!!imageObj?.childImageSharp) {
-        image = imageObj?.childImageSharp.fluid.src;
-      } else {
-        image = imageObj.publicURL;
-      }
-    }
-
-    return image;
+    return !!imageObj?.childImageSharp ? imageObj?.childImageSharp.fluid.src: imageObj.publicURL;
   }
 
   return (

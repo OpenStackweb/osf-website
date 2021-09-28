@@ -14,6 +14,9 @@ hero:
     Catch every episode on several streaming platforms, airing <strong>Thursdays
     at 14:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: true
+    date: 2021-10-14T14:00:05.859Z
+    episodeTitle: "Large Scale OpenStack: OpenStack Architecture in Large Scale Deployments"
   - facebookLink: https://www.facebook.com/104139126308032/posts/4364096940312208/
     episodeDescription: Ceph is a highly scalable distributed-storage open source
       solution offering object, block, and file storage. Join us as various

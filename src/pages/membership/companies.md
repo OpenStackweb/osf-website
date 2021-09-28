@@ -169,8 +169,9 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
-    text:
-      Open Infrastructure Foundation Silver Members provide funding and pledge
+      - image: /img/osism-sm.png
+        alt: OSISM
+    text: Open Infrastructure Foundation Silver Members provide funding and pledge
       strategic alignment to the OpenInfra Foundation mission. If your
       organization  is highly involved with  the Open Infrastructure community
       and interested in becoming a Silver Member,  read more about joining
@@ -180,8 +181,7 @@ companies:
     title: SILVER MEMBERS
     level: silver
   - title: ASSOCIATE MEMBERS
-    text:
-      Associate members are other organizations actively supporting the mission
+    text: Associate members are other organizations actively supporting the mission
       of the Open Infrastructure Foundation. They may be partner non-profit
       organizations sustaining the development of open infrastructure, or
       notable academic and research institutions making extensive use of open
@@ -921,8 +921,7 @@ companies:
         image: /img/companies/zenoss-large.jpg
       - alt: Zetta.IO
         image: /img/companies/logo-w500.png
-    text:
-      The resources provided by the OpenInfra Foundation Members are critical to
+    text: The resources provided by the OpenInfra Foundation Members are critical to
       making the Open Infrastructure Foundation successful, but there are many
       ways to support the OpenInfra Foundation mission, whether you're
       contributing  code, building a product or helping build the community.

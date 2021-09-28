@@ -48,6 +48,17 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Category {
       label: String
     }
+    type SpeakerType {
+       name: String
+       company: String
+       presentationTitle: String
+       presentationLink: String!
+       pic: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterFeaturedSpeakers {
+       title: String!
+       speakers: [SpeakerType!]!
+    }
   `
   createTypes(typeDefs)
 }
@@ -172,24 +183,4 @@ exports.onCreateWebpackConfig = ({ actions, plugins, loaders }) => {
       })
     ]
   })
-}
-
-exports.createSchemaCustomization = ({ actions }) => {
-  const { createTypes } = actions
-  const typeDefs = `
-   
-   type SpeakerType implements Node {
-       name: String!
-       company: String!
-       presentationTitle: String!
-       presentationLink: String!
-       pic: File!
-    }
-    
-    type MarkdownRemarkFrontmatterFeaturedSpeakers implements Node {
-       title: String!
-       speakers: [SpeakerType!]!
-    }
-  `
-  createTypes(typeDefs)
 }

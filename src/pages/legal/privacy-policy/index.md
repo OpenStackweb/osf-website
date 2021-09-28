@@ -80,7 +80,7 @@ These words have specific meanings in this Privacy Policy:
 
 [https://zuul-ci.org](https://zuul-ci.org)
 
-http://groups.openstack.org
+[http://groups.openstack.org](http://groups.openstack.org)
 
 [https://openstackid.org](https://openstackid.org)
 
@@ -148,7 +148,7 @@ http://groups.openstack.org
 
 - event technology providers such as vandePoel Productions and FNTECH:
 
-  - event sponsors who host a booth or other facility at an OpenStack event may use a device provided by vandePoel Productions that enables them to scan your event badge. You do not have to permit an event sponsor to scan your event badge, but if you do, the event sponsor will be able to collect the personal data you provided to Eventbrite when you registered for the Summit.
+  - event sponsors who host a booth or other facility at an OpenInfra or OpenStack event may use a device provided by vandePoel Productions that enables them to scan your event badge. You do not have to permit an event sponsor to scan your event badge, but if you do, the event sponsor will be able to collect the personal data you provided to Eventbrite when you registered for the Summit.
 
 - source repository managers, such as Canonical:
 
@@ -197,7 +197,7 @@ You may block cookies using the [cookiebot](#cookiebot) feature available on our
 
 ##### Mobile App Availability Monitoring
 
-We use Crashlytics to monitor the availability of the OpenStack Summit mobile app. Crashlytics collects mobile device unique identifiers and other information. Their collection and user of personal data is described in their privacy policy, which can be found [http://try.crashlytics.com/terms/privacy-policy.pdf](http://try.crashlytics.com/terms/privacy-policy.pdf). If you do not want your personal data shared with Crashlytics you should not use the mobile app.
+We use Crashlytics to monitor the availability of the Open Infrastructure Summit mobile app. Crashlytics collects mobile device unique identifiers and other information. Their collection and user of personal data is described in their privacy policy, which can be found [http://try.crashlytics.com/terms/privacy-policy.pdf](http://try.crashlytics.com/terms/privacy-policy.pdf). If you do not want your personal data shared with Crashlytics you should not use the mobile app.
 
 <section id="part-3"></section>
 
@@ -205,7 +205,7 @@ We use Crashlytics to monitor the availability of the OpenStack Summit mobile ap
 
 We will use your personal data to provide information and services to you as a participant in the OpenInfra community and to manage the community consistent with the Foundation’s goals, at all times balancing the Foundation’s goal against your interest in protecting your personal data. We will strive to use your personal data only to the limited extent necessary to meet our legitimate interest as the manager of the OpenStack Project and community. Specific ways that we use your personal data in this way are as follows:
 
-- to provide you with information that you have requested or that is relevant to the OpenStack community:
+- to provide you with information that you have requested or that is relevant to the OpenInfra community:
 
   - if you elect to be included in our Individual Member Directory, we will publish your member profile on our site;
 
@@ -345,7 +345,7 @@ Our policies for complying with your requests to amend, erase, restrict or take 
 
 If your request under this section is clearly unfounded, repetitive or excessive, we may charge you a fee to comply, or we may refuse to comply with your request, to the extent permitted by applicable law. We may need to request additional information from you to confirm your identity and help us comply with your request. We will try to respond to all legitimate requests within one month. If your request is particularly complex or you have made a number of requests, it may take us longer than a month. In this case, we will notify you and keep you updated. There may be circumstances in which we believe our interest as the community manager requires us to retain your personal data despite your request, but we will disclose this to you at the time of the request. Those circumstances include the following:
 
-- If you ask to have your individual member data removed, we may retain your name, email and OpenStack ID in a separate “deleted members” database. We will use this record only to track our compliance with your deletion request and to respond to any subsequent communications you may have with us;
+- If you ask to have your individual member data removed, we may retain your name, email and OpenStackID in a separate “deleted members” database. We will use this record only to track our compliance with your deletion request and to respond to any subsequent communications you may have with us;
 
 - If you contribute code or documentation to the OpenStack Project we believe our legitimate interest as the manager of the OpenStack Project requires us to retain and publish your name in connection with that contribution indefinitely, even if you ask to you have your name removed.
 

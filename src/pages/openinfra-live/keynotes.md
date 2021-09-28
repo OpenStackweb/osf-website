@@ -52,35 +52,44 @@ headlineSponsor:
 supportingSponsors:
   title: SUPPORTING SPONSORS
   sponsors:
+    - logo: /img/cloudandheat.jpg
     - logo: /img/component-soft-logo_dark-1.png
-    - logo: /img/coredgelrg-1.png
+    - logo: /img/coredge-blue.png
     - logo: /img/imh_logo-1.png
     - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
-    - logo: /img/test-sponsor-logos_at-t.png
-    - logo: /img/test-sponsor-logos_ericsson.png
 featuredSpeakers:
   title: FEATURED SPEAKERS
   speakers:
-    - name: Santi
-      pic: /img/live/redhat-logo.svg
-      company: OpenStack
-      presentationTitle: A Presentation
-      presentationLink: www.a-link.com
-    - name: Santi
-      pic: /img/live/redhat-logo.svg
-      company: OpenStack
-      presentationTitle: A Presentation
-      presentationLink: www.a-link.com
     - name: Jonathan Bryce
       company: OpenInfra Foundation
       presentationTitle: Predicting The Next Decade of Open Infrastructure
       pic: /img/t02hnpkj6-u02l26a65-os2682331283-512.jpg
-      presentationLink: "#"
+      presentationLink: ""
     - name: Thierry Carrez
       company: OpenInfra Foundation
       presentationTitle: "Wine and Cheese: The real heros of cloud"
       pic: /img/t02hnpkj6-u02jx89lr-os2643318959-512.jpg
-      presentationLink: "#"
+      presentationLink: ""
+    - name: Jonathan Bryce
+      company: OpenInfra Foundation
+      presentationTitle: Predicting The Next Decade of Open Infrastructure
+      pic: /img/t02hnpkj6-u02l26a65-os2682331283-512.jpg
+      presentationLink: ""
+    - name: Thierry Carrez
+      company: OpenInfra Foundation
+      presentationTitle: "Wine and Cheese: The real heros of cloud"
+      pic: /img/t02hnpkj6-u02jx89lr-os2643318959-512.jpg
+      presentationLink: ""
+    - name: Jonathan Bryce
+      company: OpenInfra Foundation
+      presentationTitle: Predicting The Next Decade of Open Infrastructure
+      pic: /img/t02hnpkj6-u02l26a65-os2682331283-512.jpg
+      presentationLink: ""
+    - name: Thierry Carrez
+      company: OpenInfra Foundation
+      presentationTitle: "Wine and Cheese: The real heros of cloud"
+      pic: /img/t02hnpkj6-u02jx89lr-os2643318959-512.jpg
+      presentationLink: ""
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

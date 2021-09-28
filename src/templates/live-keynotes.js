@@ -106,23 +106,25 @@ export const OpenInfraLiveKeynotesTemplate = ({
               </section>
             </div>
           </section>
-          <section className="featured-speakers">
-            <div className="container">
-              <h3>{featuredSpeakers.title}</h3>
-              <div className="featured-speakers-wrapper">
-                <div className="first-row">
-                  {featuredSpeakers.speakers.slice(0,4).map(speaker => (
-                      <SpeakerCard speaker={speaker} pic={getImage(speaker.pic)}/>
-                  ))}
-                </div>
-                <div className="second-row">
-                  {featuredSpeakers.speakers.slice(4).map(speaker => (
-                      <SpeakerCard speaker={speaker} pic={getImage(speaker.pic)}/>
-                  ))}
+          {featuredSpeakers?.speakers?.length > 0 &&
+            <section className="featured-speakers">
+              <div className="container">
+                <h3>{featuredSpeakers.title}</h3>
+                <div className="featured-speakers-wrapper">
+                  <div className="first-row">
+                    {featuredSpeakers.speakers.slice(0, 4).map(speaker => (
+                        <SpeakerCard speaker={speaker} pic={getImage(speaker.pic)}/>
+                    ))}
+                  </div>
+                  <div className="second-row">
+                    {featuredSpeakers.speakers.slice(4).map(speaker => (
+                        <SpeakerCard speaker={speaker} pic={getImage(speaker.pic)}/>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
+            </section>
+          }
           <section className="live-section">
             <div className="container">
               <section className="sponsor-levels">

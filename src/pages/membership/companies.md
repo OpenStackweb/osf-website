@@ -921,6 +921,8 @@ companies:
         image: /img/companies/zenoss-large.jpg
       - alt: Zetta.IO
         image: /img/companies/logo-w500.png
+      - image: /img/holling-stenzel-logo-sm.png
+        alt: Holling & Stenzel IT Consulting
     text: The resources provided by the OpenInfra Foundation Members are critical to
       making the Open Infrastructure Foundation successful, but there are many
       ways to support the OpenInfra Foundation mission, whether you're

@@ -14,19 +14,21 @@ hero:
     Catch every episode on several streaming platforms, airing <strong>Thursdays
     at 14:00 UTC (9am CT)</strong>."
 episodes:
-  - hidden: false
-    date: 2021-09-30T14:00:22.173Z
-    episodeTitle: "OpenStack and Ceph "
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4364096940312208/
     episodeDescription: Ceph is a highly scalable distributed-storage open source
       solution offering object, block, and file storage. Join us as various
       Community members discuss the basics, ongoing development and integration
       of OpenStack with Ceph.
-    youtubeLink: https://www.youtube.com/watch?v=zJVoleSpSOk
-    youtubeEmbed: https://www.youtube.com/embed/zJVoleSpSOk
+    calendarInvite: /static/invites/myevents-10-.ics
+    hidden: false
+    date: 2021-09-30T14:00:22.173Z
     episodeSpeakers: "Tom Barron (Red Hat), John Fulton (Red Hat), Francesco Pantano
       (Red Hat), Loan Harrouin (Societe Generale), Mohammed Naser (VEXXHOST),
-      Kendall Nelson (OpenInfra Foundation) and OVH. "
-    calendarInvite: /static/invites/myevents-10-.ics
+      Kendall Nelson (OpenInfra Foundation) and Pawel Sadowski (OVH). "
+    youtubeEmbed: https://www.youtube.com/embed/zJVoleSpSOk
+    linkedinLink: https://www.linkedin.com/video/event/urn:li:ugcPost:6846862917225320448/
+    episodeTitle: "OpenStack and Ceph "
+    youtubeLink: https://www.youtube.com/watch?v=zJVoleSpSOk
   - hidden: false
     date: 2021-10-07T14:00:53.193Z
     episodeTitle: "OpenStack Xena: Open Source Integration and Hardware Diversity"

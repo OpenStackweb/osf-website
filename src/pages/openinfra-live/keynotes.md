@@ -52,8 +52,9 @@ headlineSponsor:
 supportingSponsors:
   title: SUPPORTING SPONSORS
   sponsors:
+    - logo: /img/cloudandheat.jpg
     - logo: /img/component-soft-logo_dark-1.png
-    - logo: /img/coreedge.png
+    - logo: /img/coredge-blue.png
     - logo: /img/imh_logo-1.png
     - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
 featuredSpeakers:

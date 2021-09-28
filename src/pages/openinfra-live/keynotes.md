@@ -53,7 +53,7 @@ supportingSponsors:
   title: SUPPORTING SPONSORS
   sponsors:
     - logo: /img/component-soft-logo_dark-1.png
-    - logo: /img/coredgelrg-1.png
+    - logo: /img/coreedge.png
     - logo: /img/imh_logo-1.png
     - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
 featuredSpeakers:
@@ -93,8 +93,7 @@ sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:
     title: Headline
-    body:
-      <ul><li>Minimum of 8 minutes of Keynote speaking time (content subject to
+    body: <ul><li>Minimum of 8 minutes of Keynote speaking time (content subject to
       Foundation approval)</li><li>Verbal and logo recognition during
       event</li><li>Pre and post event emails to the attendee
       list</li><li>Website logo placement</li><li>Pre/post event mentions in the

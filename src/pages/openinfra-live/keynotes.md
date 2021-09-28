@@ -59,37 +59,7 @@ supportingSponsors:
     - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
 featuredSpeakers:
   title: FEATURED SPEAKERS
-  speakers:
-    - name: Jonathan Bryce
-      company: OpenInfra Foundation
-      presentationTitle: Predicting The Next Decade of Open Infrastructure
-      pic: /img/t02hnpkj6-u02l26a65-os2682331283-512.jpg
-      presentationLink: ""
-    - name: Thierry Carrez
-      company: OpenInfra Foundation
-      presentationTitle: "Wine and Cheese: The real heros of cloud"
-      pic: /img/t02hnpkj6-u02jx89lr-os2643318959-512.jpg
-      presentationLink: ""
-    - name: Jonathan Bryce
-      company: OpenInfra Foundation
-      presentationTitle: Predicting The Next Decade of Open Infrastructure
-      pic: /img/t02hnpkj6-u02l26a65-os2682331283-512.jpg
-      presentationLink: ""
-    - name: Thierry Carrez
-      company: OpenInfra Foundation
-      presentationTitle: "Wine and Cheese: The real heros of cloud"
-      pic: /img/t02hnpkj6-u02jx89lr-os2643318959-512.jpg
-      presentationLink: ""
-    - name: Jonathan Bryce
-      company: OpenInfra Foundation
-      presentationTitle: Predicting The Next Decade of Open Infrastructure
-      pic: /img/t02hnpkj6-u02l26a65-os2682331283-512.jpg
-      presentationLink: ""
-    - name: Thierry Carrez
-      company: OpenInfra Foundation
-      presentationTitle: "Wine and Cheese: The real heros of cloud"
-      pic: /img/t02hnpkj6-u02jx89lr-os2643318959-512.jpg
-      presentationLink: ""
+  speakers: []
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

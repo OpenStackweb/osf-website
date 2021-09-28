@@ -149,6 +149,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT-TX.png
       - alt: ORock
         image: /img/companies/_New/Silver/orock-silver.jpg
+      - image: /img/osism-sm.png
+        alt: OSISM
       - alt: OVH
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_OVH.png
       - alt: Safespring
@@ -169,8 +171,6 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
-      - image: /img/osism-sm.png
-        alt: OSISM
     text: Open Infrastructure Foundation Silver Members provide funding and pledge
       strategic alignment to the OpenInfra Foundation mission. If your
       organization  is highly involved with  the Open Infrastructure community
@@ -527,6 +527,8 @@ companies:
         image: /img/companies/heberfacile-sm.png
       - alt: Hedera
         image: /img/companies/hedera-technology.png
+      - image: /img/holling-stenzel-logo-sm.png
+        alt: Holling & Stenzel IT Consulting
       - alt: Hewlett Packard Enterprise
         image: /img/companies/hpe-lg2.jpg
       - alt: High School Technology Services
@@ -921,8 +923,6 @@ companies:
         image: /img/companies/zenoss-large.jpg
       - alt: Zetta.IO
         image: /img/companies/logo-w500.png
-      - image: /img/holling-stenzel-logo-sm.png
-        alt: Holling & Stenzel IT Consulting
     text: The resources provided by the OpenInfra Foundation Members are critical to
       making the Open Infrastructure Foundation successful, but there are many
       ways to support the OpenInfra Foundation mission, whether you're

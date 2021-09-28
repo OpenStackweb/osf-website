@@ -59,7 +59,12 @@ supportingSponsors:
     - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
 featuredSpeakers:
   title: FEATURED SPEAKERS
-  speakers: []
+  speakers:
+    - name: TBD
+      company: TBD
+      presentationTitle: TBD
+      presentationLink: TBD
+      pic: /img/1528776640793.jpg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

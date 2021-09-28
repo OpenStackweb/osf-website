@@ -28,7 +28,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
   const PageContent = contentComponent || Content
 
   const getImage = (imageObj) => {
-    return !!imageObj?.childImageSharp ? imageObj?.childImageSharp.fluid.src: imageObj.publicURL;
+    return !!imageObj?.childImageSharp ? imageObj?.childImageSharp.fluid.src: imageObj?.publicURL;
   }
 
   return (
@@ -247,7 +247,6 @@ export const OpenInfraLiveKeynotesPageQuery = graphql`
                 }
               }
               publicURL
-              extension
           }
         }
         supportingSponsors {
@@ -260,7 +259,6 @@ export const OpenInfraLiveKeynotesPageQuery = graphql`
                   }
                 }
                 publicURL
-                extension
             }
           }
         }
@@ -278,7 +276,6 @@ export const OpenInfraLiveKeynotesPageQuery = graphql`
                   }
                 }
                 publicURL
-                extension
             }
           }
         }

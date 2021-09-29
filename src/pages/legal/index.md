@@ -18,6 +18,24 @@ footer:
   display: true
 ---
 
+#### Bylaws
+
+[Foundation Bylaws](/legal/bylaws)
+
+---
+
+#### Member Policies
+
+[Individual Member Policy](/legal/individual-member-policy/)
+
+[Platinum Member Policy](/legal/platinum-member-policy/)
+
+[Gold Member Policy](/legal/gold-member-policy/)
+
+[OpenStack Technical Committee Member Policy](/legal/openstack-technical-committee-member-policy)
+
+---
+
 #### Code of Conduct
 
 [Community Code of Conduct](/legal/code-of-conduct)
@@ -25,3 +43,21 @@ footer:
 [Events Code of Conduct](/legal/code-of-conduct/events)
 
 [Company Code of Conduct](/legal/code-of-conduct/company)
+
+---
+
+#### Trademark and Licensing
+
+[Trademark Policy](/legal/trademark-policy)
+
+[Events Code of Conduct](/legal/code-of-conduct/events)
+
+[Company Code of Conduct](/legal/code-of-conduct/company)
+
+---
+
+#### Other Policies
+
+[Transparency Policy](/legal/transparency-policy)
+
+[Antitrust Policy](/legal/antitrust-compliance-policy)

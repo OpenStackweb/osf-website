@@ -104,7 +104,7 @@ We have created specific OpenStack Logos for those who build their solutions or 
 
 In order to qualify to use a Restricted Use Logo and OpenStack Word Mark, you must agree to a separate license agreement with the OpenStack Foundation, which shall, at a minimum, require strict compliance with this Trademark Policy and the Restricted Logo Usage Guidelines.
 
-The Powered by OpenStack" Logo and Wordmark, shown immediately below, for individuals, organizations, and companies that use formally released OpenStack technology in their products and meet certain requirements. Licensees may also use the OpenStack Word Mark as part of the name of their product or service by adding the descriptive phrase "Powered" or "Powered by" based on the requirements listed below.
+The "Powered by OpenStack" Logo and Wordmark, shown immediately below, for individuals, organizations, and companies that use formally released OpenStack technology in their products and meet certain requirements. Licensees may also use the OpenStack Word Mark as part of the name of their product or service by adding the descriptive phrase "Powered" or "Powered by" based on the requirements listed below.
 
 ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
 

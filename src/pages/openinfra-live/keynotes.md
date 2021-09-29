@@ -59,12 +59,7 @@ supportingSponsors:
     - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
 featuredSpeakers:
   title: FEATURED SPEAKERS
-  speakers:
-    - name: Sebastian Marcet
-      company: Pumant
-      presentationTitle: TBD
-      presentationLink: TBD
-      pic: /img/smarcet1.jpeg
+  speakers: []
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

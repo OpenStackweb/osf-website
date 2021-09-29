@@ -34,21 +34,6 @@ members:
     picture: /img/board/allisonrandall.png
     title: Chair
     twitter: https://twitter.com/allisonrandal
-  - name: Michael Cheng
-    company: Facebook
-    openStack: https://www.openstack.org/community/members/profile/135942/michael-cheng
-    picture: /img/headshot-1-.jpg
-    title: Platinum Director
-    description: >-
-      <p>Michael is a product manager at Facebook, currently supporting open
-      source and standards work across the company.</p>
-
-
-      <p>Michael is former network engineer, investment banker, car salesman and M&A attorney. He previously led the Product and IP function on Facebook's M&A legal team.</p>
-
-
-      <p>While at Facebook, Michael has established and/or now actively serving on the boards of 20+ open source foundations, non-profits, standards setting organizations, including: ML Commons, Confidential Computing Consortium, Libra/Diem Association, Urban Computing Foundation, OpenChain, Open Invention Network Technical Advisory Committee, Magma Foundation, and others.</p>
-    linkedin: https://www.linkedin.com/in/priorart/
   - company: Red Hat
     description: Amy Marrich is a Principal Technical Marketing Manager at Red Hat.
       She previously worked at a small Open Source e-assessment company in
@@ -66,28 +51,6 @@ members:
     picture: /img/board/amymarrich.jpg
     title: Individual Director
     twitter: https://twitter.com/spotzz_
-  - company: Dell EMC
-    description: >-
-      Arkady has been a member of OpenStack since Grizzly. He is director of
-      engineering leading a team of  developers responsible for development of
-      DellEMC OpenStack solutions. Arkady has PhD. in CS from UIUC.  He
-      straddled academic, research, architect, developer, and product owner
-      roles. Arkady roles included  but not limited to, research publications
-      and Program committee member for various conferences like  <a
-      href="https://www.usenix.org/legacy/events/fast11/organizers.html">FAST</a>,
-      Chair or board member of several  standard activities, like <a
-      href="http://www.datcollaborative.org">DAT</a>,  <a
-      href="https://www.openfabrics.org/index.php">OpenFabric</a> and <a
-      href="http://www.cse.msstate.edu/~yogi/dandass-mpirt-2004.pdf"
-      target="_blank">MPI-RT</a> to product delivery, like EMC Atmos,  Dell
-      OpenStack solutions among others.</p> 
-
-      <p>Arkady represents Dell Technologies at OpenStack, including Dell EMC, VMware, Pivotal, VirtuStream.</p>
-    name: Arkady Kanevsky
-    openStack: https://www.openstack.org/community/members/profile/7713
-    picture: /img/board/arkady.png
-    title: Gold Director
-    twitter: https://twitter.com/arkady_kanevsky
   - name: ChangBo Guo
     picture: /img/gcb.jpg
     title: Gold Director
@@ -140,15 +103,35 @@ members:
     openStack: https://www.openstack.org/community/members/profile/53350
     picture: /img/board/clemenshardewig.jpeg
     title: Gold Director
-  - company: Red Hat
-    description: Based in Ireland; Daniel leads a global engineering team at Red Hat
-      encompassing Openstack and other adjacent infrastructure and telco
-      initiatives. Prior to joining Red Hat  5 years ago, Daniel held a variety
-      of technology leadership roles for companies over the last 20 years.
-    name: Daniel Becker
-    openStack: https://www.openstack.org/community/members/profile/61513
-    picture: /img/board/generic-profile-photo.png
+  - name: Eoghan Glynn
     title: Platinum Director
+    company: Red Hat
+    picture: /img/profile-pic.png
+    description: "Director of OpenStack Engineering, Red Hat. Eoghan leads the
+      OpenStack engineering team at Red Hat. He has been part of the Red Hat
+      investment in OpenStack for the past decade, first as an individual
+      contributor and upstream project leader, and then later as a manager. He
+      has a long background with open source and with cloud technology, having
+      contributed to the Apache community for many years and also worked on AWS
+      monitoring while at Amazon. Eoghan is based in Dublin, Ireland though he's
+      also part of a highly globalized team at Red Hat. "
+    openStack: https://www.openstack.org/community/members/profile/1341/eoghan-glynn
+  - description: "Ms. Erin Bournival is a Distinguished Engineer at Dell
+      Technologies. She joined Dell EMC in 2003 and leads standardization of IoT
+      and Healthcare. Erin leads several international standardization efforts
+      within ISO, IEC, INCITS, and ANSI. She is the Chair of the Working Group
+      on IoT Architecture, Frameworks, and Vocabulary within ISO/IEC JTC1 SC41
+      “Internet of Things and Digital Twin”, as well as the Vice-Chair and
+      Secretary of the INCITS IoT TAG (Technical Advisory Group).  She chairs
+      groups within the Industrial Internet Consortium and Digital Twin
+      Consortium; and represents Dell Technologies in several other national and
+      international standardization efforts in the domains of IoT, Digital
+      Twins, and System Architecture. "
+    openStack: https://www.openstack.org/community/members/profile/133884/erin-bournival
+    title: Gold Director
+    company: Dell Technologies
+    name: Erin Bournival
+    picture: /img/erin_b.png
   - name: Gang Chen
     title: Platinum Director
     company: Fiberhome
@@ -181,6 +164,18 @@ members:
       Grace's team started to work on OpenStack since 2012. In the past years, her team has contributed significantly to OpenStack upstream development, actively led, participated and promoted many community activities. Intel is also one of the members who started Kata Container project and StarlingX project, and contributed them to Open Infrastructure Foundation.
     linkedin: https://www.linkedin.com/in/gracelian/
     openStack: https://www.openstack.org/community/members/profile/66411/grace-lian
+  - name: Jean-Pierre REN
+    picture: /img/img_0900.jpg
+    title: Platinum Director
+    company: Tencent
+    description: Jean-Pierre REN Zhongping, head of Tencent TStack Architect,
+      General Engineer of Ecole Centrale of Paris, Master of Tsinghua
+      University. He started Private Cloud business since year 2011 and had
+      participated in the cloud architectural design of CNPC. He joined Tencent
+      Cloud TStack (an OpenStack distribution) team in year 2018, and is now in
+      charge of the architectural solution for software and HCI in the TStack
+      product line, an OpenStack distribution.
+    openStack: https://www.openstack.org/community/members/profile/113899/jeanpierre-ren
   - company: City Network International AB, City Network Hosting AB
     description: Johan Christenson is a serial entrepreneur whom has successfully
       exited multiple  companies he founded. After receiving a graduate degree
@@ -221,60 +216,6 @@ members:
     picture: /img/board/MG-5121-1.jpg
     title: Individual Director
     twitter: https://twitter.com/ashinclouds
-  - company: China Mobile Suzhou Software Technology Co., Ltd - China Mobile Suzhou
-      Research Center, China Mobile Research Institute, China Mobile Research
-      Institute
-    description: JunWei Liu serves as Director Of Open Infrastructure Foundation in
-      2017. He works at China Mobile for  eight years and he is the vice General
-      Manager of Cloud Product Deparment,China Mobile SuZhou R&amp;D
-      Center.  Over the last 8+ years,he has worked on developing and building
-      China Mobile's cloud products-"Big Cloud",  which is an fully cloud
-      software stack including computing,storage,network,security and cloud
-      management  platform. As the cheif architect of Big Cloud, Junwei leads a
-      team more than 400 people to construct China  Mobile's public cloud (It‘s
-      one of the biggest public cloud based openstack including 4000 physical
-      nodes)  and private cloud (It's one of the biggest private cloud based
-      openstack including 24000 physical nodes,  20000 baremetal nodes base
-      ironic). So junwei has rich experience in cloud R&amp;D and operation,
-      especially  for openstack. His team won OpenStack SuperUser in 2016 and
-      they give back their experience to OpenStack  Community all the time, for
-      example telecom demand about availability and scalability, real demand
-      for  end-user, deep customization for workload.</p> <p>JunWei Liu is also
-      very active for OpenStack's promotion and landing in China. For example,
-      he is an  organizer of  China OpenStack Hackathon and Meet-up in SuZhou.
-      He always comes up some unique idea for  OpenStack based the demand of
-      China Mobile's customers. He often leads his team to share their
-      experience  for China OpenStack users and make OpenStack more mature
-      cooperating China Mobile's partners.
-    linkedin: https://lnkd.in/d6TpVAu
-    name: Junwei Liu
-    openStack: https://www.openstack.org/community/members/profile/26694
-    picture: /img/board/junweiliu.jpg
-    title: Gold Director
-  - company: Sovereign Cloud Stack OSB Alliance
-    description: >-
-      I'm currently working on a building a European Cloud initiative - this
-      will be my professional focus starting 2020 after leaving SUSE following
-      their change in direction.
-
-
-      Dec 2018 - Dec 2019, I was responsible for the Cloud and Storage Departments in SUSE R&D.
-
-      SUSE builds and maintains the SUSE and Helion OpenStack Cloud Products, is a platinum member of the Foundation and a strong upstream contributor.
-
-
-      Before SUSE, I was leading the architecture, community and consulting teams in Deutsche Telekom's Open Telekom Cloud Team.
-
-
-      DT has been a vocal supporter of OpenStack since I joined in early 2012 -- we have been able to run several OpenStack projects. We have participated in most OpenInfra Summits and are active in a few working groups. I personally support the InterOp Workig Group, a key area for OpenStack's success given the centrifugal forces in such a large project. DT has become gold member of the OpenInfra Foundation in 2016 and has been headline sponsor for a few summits (Barcelona, Boston, Berlin). I was serving in the board in most of 2018 until I handed over to Clemens Hardewig.
-
-
-      Before joining DT end of 2011 I was a long-time contributor to the Linux kernel, which also gave me the privilege of building up and leading SUSE Labs and work with a number of great engineers in- and outside my company, contributing to the success of the Open Source technology.
-    linkedin: https://de.linkedin.com/pub/kurt-garloff/
-    name: Kurt Garloff
-    openStack: https://www.openstack.org/community/members/profile/6804
-    picture: /img/board/11-11-Garloff-Kurt-3b.jpg
-    title: Individual Director
   - company: 99Cloud
     description: I am Kai and am the CSO/Co-founder from 99CLOUD. I had been
       devoting myself for OpenStack for  more than 7 years from 2012. 99CLOUD is
@@ -286,6 +227,21 @@ members:
     openStack: https://www.openstack.org/community/members/profile/72
     picture: /img/board/Me2010.jpg
     title: Gold Director
+  - name: Michael Cheng
+    company: Facebook
+    openStack: https://www.openstack.org/community/members/profile/135942/michael-cheng
+    picture: /img/headshot-1-.jpg
+    title: Platinum Director
+    description: >-
+      <p>Michael is a product manager at Facebook, currently supporting open
+      source and standards work across the company.</p>
+
+
+      <p>Michael is former network engineer, investment banker, car salesman and M&A attorney. He previously led the Product and IP function on Facebook's M&A legal team.</p>
+
+
+      <p>While at Facebook, Michael has established and/or now actively serving on the boards of 20+ open source foundations, non-profits, standards setting organizations, including: ML Commons, Confidential Computing Consortium, Libra/Diem Association, Urban Computing Foundation, OpenChain, Open Invention Network Technical Advisory Committee, Magma Foundation, and others.</p>
+    linkedin: https://www.linkedin.com/in/priorart/
   - company: VEXXHOST, Inc.
     description: >-
       Over the past 10 years, I’m happy to have watched the hosting industry
@@ -340,28 +296,37 @@ members:
     title: Indvidual Director
     openStack: https://www.openstack.org/community/members/profile/33346/rico-lin
     linkedin: https://www.linkedin.com/in/ricolin
-  - company: Tencent
-    description: Dr. Ruan HE is currently chief architect Tencent Cloud TStack and
-      has more than 9 years  working experiences in cloud computing and
-      cybersecurity.
-    linkedin: https://www.openstack.org/community/members/profile/19791
-    name: Ruan HE
-    openStack: https://www.openstack.org/community/members/profile/19791
-    picture: /img/board/ruanhe.jpg
-    title: Platinum Director
   - company: AT&T
-    description: Assistant Vice President (AVP) of Network Cloud Engineering. 21
-      years of experience in  Information Technology Management, Software
-      Architecture, Project/Program Management,  Development, Open Source and
-      Systems Integration of Emerging Technologies. Currently leading  the
-      development of world’s largest network function virtualization cloud.
-      Received a Bachelor  of Science in Business Administration in Management
-      Information Systems (M.I.S.) &  Engineering Management from Saint Louis
-      University, and a MBA from Washington University -  Olin Business School.
+    description: >
+      Partner Software Engineering Manager – Microsoft. Ryan van Wyk leads
+      Microsoft’s Azure for Operators – Network Cloud Engineering Team. Through
+      collaboration with Telcom Operators around the world, Ryan and team are
+      working to expand Microsoft’s telecom portfolio with a carrier-grade cloud
+      that provides seamless experiences across Microsoft’s cloud and the
+      operator’s network.
+
+
+      Prior to joining Microsoft, Ryan has held a variety of leadership positions within AT&T Communications – primarily driving transformation programs and new technology introduction and engineering.  A few of his many contributions to AT&T include leading technology teams that helped: 
+
+      •	build the world’s largest Network Function Virtualization Private Cloud Infrastructure.
+
+      •	deliver the first virtualized network functions and services on a network cloud, using an open source approach.
+
+      •	create Airship, a declarative container automation platform designed to rapidly deploy and upgrade cloud infrastructure with no SDN workload impact.
+
+      •	transform the network tools, process, and data that support AT&T’s largest managed networking customers.
+
+      •	integrate products from multiple suppliers to deliver Uverse (AT&T’s award-winning IPTV platform).
+
+
+      Additionally, Ryan has driven several innovations that resulted in nine US patents, he served on the Cloud Native Computing Foundation (CNCF) Board of Directors in 2021 and has served on the board of directors for the OpenStack Foundation (the third largest opensource software project in the world) since 2019.
+
+
+      For the remainder of 2021 Ryan is representing AT&T's Platinum Membership.
     linkedin: https://www.linkedin.com/in/ryanvanwyk
     name: Ryan van Wyk
     openStack: https://www.openstack.org/community/members/profile/30484
-    picture: /img/board/ryanvanwyk.jpg
+    picture: /img/ryan-van-wyk.jpg
     title: Platinum Director
     twitter: https://twitter.com/@ryanvanwyk
   - company: "Dell EMC "

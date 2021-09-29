@@ -52,7 +52,6 @@ export const JoinPageTemplate = ({
                                 {header.buttons.map((button, index) => {
                                     return (
                                         <LinkComponent
-                                            className={`${index === 1 ? 'membership_action' : null}`}
                                             key={`header-button-${index}`}
                                             href={button.link}>
                                             {button.text} <img src={leftArrow} alt="" />
@@ -146,7 +145,7 @@ export const JoinPageTemplate = ({
                             <div className="buttons-container">
                                 {involved.buttons.map((button, index) => {
                                     return (
-                                        <LinkComponent className={`${index === 1 ? 'membership_action' : null}`} href={button.link} key={`ìnvolved-button-${index}`}>{button.text} <img src={leftArrow} alt="" /> </LinkComponent>
+                                        <LinkComponent href={button.link} key={`ìnvolved-button-${index}`}>{button.text} <img src={leftArrow} alt="" /> </LinkComponent>
                                     )
                                 })}
                             </div>
@@ -169,33 +168,7 @@ JoinPageTemplate.propTypes = {
 }
 
 const JoinPage = ({ isLoggedUser, data }) => {
-    const { markdownRemark: post } = data
-
-    const handleOnClick = useCallback(event => {
-        event.preventDefault();
-        let origin = window.location.origin;
-        let membershipType = event.currentTarget.dataset.membershipType;
-        let url = `${envVariables.IDP_BASE_URL}/auth/register?client_id=${envVariables.OAUTH2_CLIENT_ID}&redirect_uri=${encodeURI(`${origin}/a/registration?membership_type=${membershipType}`)}`;
-        window.location = url;
-    }, []);
-
-    useEffect(() => {
-
-        let Anchors = document.getElementsByClassName("membership_action");
-
-        for (var i = 0; i < Anchors.length; i++) {
-            Anchors[i].addEventListener("click", handleOnClick);
-        }
-
-        return () => {
-            let Anchors = document.getElementsByClassName("membership_action");
-
-            for (var i = 0; i < Anchors.length; i++) {
-                Anchors[i].removeEventListener("click", handleOnClick);
-            }
-
-        };
-    }, [handleOnClick]);
+    const { markdownRemark: post } = data;
 
     return (
         <Layout>

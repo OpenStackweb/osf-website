@@ -2,7 +2,7 @@
 	Base
 \* ------------------------------------------------------------ */
 
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 .title-main.is-primary-dark {
   color: $primary-dark;
@@ -70,13 +70,13 @@ h3 {
     color: $primary-dark;
     align-content: center;
   }
-
 }
 
 h4 {
   margin-bottom: 9px;
   font-size: 18px;
   color: $primary-blue;
+  text-transform: uppercase;
 }
 
 h5 {
@@ -158,14 +158,13 @@ img.feature-icons {
     margin-right: 0;
     padding-bottom: 10px;
   }
-
 }
 
 .preview {
-    width: 100%;
-    height: auto;
-    padding-top: 15px;
-    word-wrap: normal;
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
+  word-wrap: normal;
 }
 
 pre {
@@ -213,10 +212,9 @@ pre {
   left: -15px;
 }
 
-
 .nobullet {
   list-style-type: none;
-  }
+}
 
 ul {
   list-style: none; /* Remove default bullets */
@@ -224,26 +222,25 @@ ul {
 }
 
 ul li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  // content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: $primary-dark; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
 .item-no-bullet::before {
-  content: "";  
+  content: "";
 }
 
 hr {
   background-color: #d5d5d5;
   border: none;
   display: block;
-  height: 2px;
+  height: 1px;
   margin: 1.5rem 0;
 }
-
 
 .column .swag {
   border-width: 1px;
@@ -281,39 +278,35 @@ hr {
   font-weight: 500;
 }
 
-
-
-
 .bottom-content {
-	background-color: $primary-blue;
-	text-align: center;
-	font-size: 50px;
-	font-weight: 300;
+  background-color: $primary-blue;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
   color: $white;
   left: -450px;
   top: 80px;
   width: 200%;
   position: relative;
-  }
+}
 
+.section-padding-top-0 {
+  padding-top: 0px !important;
+}
 
-  .section-padding-top-0 {
-    padding-top: 0px !important;
-  }
-
-  .a-no-underline {
-    color: $primary-dark;
+.a-no-underline {
+  color: $primary-dark;
+  text-decoration: none;
+  &:hover {
     text-decoration: none;
-    &:hover {
-      text-decoration: none;
-    }
   }
-
+}
 
 .animation-content.modal-content > p > a > img {
   height: auto;
 }
 
-.modal-content, .modal-card {
-    width: 800px;
+.modal-content,
+.modal-card {
+  width: 800px;
 }

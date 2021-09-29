@@ -14,41 +14,104 @@ hero:
     Catch every episode on several streaming platforms, airing <strong>Thursdays
     at 14:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: true
+    date: 2021-10-14T14:00:05.859Z
+    episodeTitle: "Large Scale OpenStack: OpenStack Architecture in Large Scale Deployments"
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4364096940312208/
+    episodeDescription: Ceph is a highly scalable distributed-storage open source
+      solution offering object, block, and file storage. Join us as various
+      Community members discuss the basics, ongoing development and integration
+      of OpenStack with Ceph.
+    calendarInvite: /static/invites/myevents-10-.ics
+    hidden: false
+    date: 2021-09-30T14:00:22.173Z
+    episodeSpeakers: "Tom Barron (Red Hat), John Fulton (Red Hat), Francesco Pantano
+      (Red Hat), Loan Harrouin (Societe Generale), Mohammed Naser (VEXXHOST),
+      Kendall Nelson (OpenInfra Foundation) and Pawel Sadowski (OVH). "
+    youtubeEmbed: https://www.youtube.com/embed/zJVoleSpSOk
+    linkedinLink: https://www.linkedin.com/video/event/urn:li:ugcPost:6846862917225320448/
+    episodeTitle: "OpenStack and Ceph "
+    youtubeLink: https://www.youtube.com/watch?v=zJVoleSpSOk
   - hidden: false
-    date: 2021-09-16T14:00:47.738Z
-    episodeTitle: "Superusers: Where are they Now"
+    date: 2021-10-07T14:00:53.193Z
+    episodeTitle: "OpenStack Xena: Open Source Integration and Hardware Diversity"
+    episodeDescription: "Come learn more about OpenStack Xena, the 24th release of
+      the open source cloud computing project. Hundreds of developers from over
+      60 organizations delivered OpenStack Xena and this episode of OpenInfra
+      Live will highlight some of the key features, what use cases are impacted
+      and what operators can expect. "
+    youtubeLink: https://www.youtube.com/watch?v=aqilhEmkEBw
+    youtubeEmbed: https://www.youtube.com/embed/aqilhEmkEBw
+    calendarInvite: /static/invites/myevents-9-.ics
+  - hidden: false
+    date: 2021-09-23T14:00:42.961Z
+    episodeDescription: "Join the volunteer organizers of OpenInfra Days to hear
+      about the happenings at their latest local events, what they're looking
+      forward to in the future, and learn what's happening with OpenInfra all
+      over the world.  "
+    episodeTitle: OpenInfra Days 2021 Recap
+    youtubeLink: https://www.youtube.com/watch?v=-s1eJa6u_2A
+    youtubeEmbed: https://www.youtube.com/embed/-s1eJa6u_2A
+    calendarInvite: /static/invites/myevents-8-.ics
+    episodeSpeakers: >
+      Mark Collier (OpenInfra Foundation), Akihiro Hasegawa (Cloud Operator Days
+      Tokyo Organizer), Rico Lin (OpenInfra Days Asia Organizer), Sartika
+      Lestari (OpenInfra Days Indonesia Organizer)
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4319519031436666/
     episodeDescription: "Since the Paris Summit in 2014, the OpenInfra Foundation
       has hosted our annual Superuser Awards to recognize organizations that
       have used open infrastructure to meaningfully improve their business while
       contributing back to the community. Past winners will join us for this
       episode to discuss where they are now, what is next, and tips for
       organizations applying for this year's awards. "
-    youtubeLink: https://www.youtube.com/watch?v=nUwgBdx0lSw
-    youtubeEmbed: https://www.youtube.com/embed/nUwgBdx0lSw
     calendarInvite: /static/invites/myevents-7-.ics
-  - hidden: false
-    date: 2021-09-09T14:00:05.776Z
+    hidden: false
+    date: 2021-09-16T14:00:47.738Z
+    episodeSpeakers: |
+      Jared Baker (The Ontario Institute for Cancer Research (OICR))
+      Belmiro Moreira (CERN)
+      Mohammed Naser (VEXXHOST)
+      Xiaoguang, Zhang and Zhiqiang Yu (China Mobile)
+    youtubeEmbed: https://www.youtube.com/embed/nUwgBdx0lSw
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6841804188478009344/
+    episodeTitle: "Superusers: Where are they Now"
+    youtubeLink: https://www.youtube.com/watch?v=nUwgBdx0lSw
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4298495370205699/
     episodeDescription: "Are you looking for a job in open source? Curious about
       what companies might be right for you? Join us as we spotlight companies
       with open infrastructure job openings, hear straight from current
       employees about their day-to-day community involvement and hear what their
       organizations are looking for in candidates. "
+    calendarInvite: /static/invites/myevents-6-.ics
+    hidden: false
+    date: 2021-09-09T14:00:05.776Z
+    episodeSpeakers: |
+      Tytus Kurek (Canonical),  
+      Suresh Srinivas (Intel),  
+      Ken Savich (Red Hat),  
+      Hind Naser (Vexxhost) 
+    youtubeEmbed: https://www.youtube.com/embed/BPtr_nq3wJQ
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6839301817508225024/
+    superuserRecap: https://superuser.openstack.org/articles/open-source-job-openings-and-how-to-land-them-round-two-openinfra-live-recap/
     episodeTitle: Open Source Job Openings (and how to land them) Round Two
     youtubeLink: https://www.youtube.com/watch?v=BPtr_nq3wJQ
-    youtubeEmbed: https://www.youtube.com/embed/BPtr_nq3wJQ
-    calendarInvite: /static/invites/myevents-6-.ics
-  - hidden: false
-    date: 2021-09-02T14:00:00.000Z
-    episodeTitle: "Open Source Training Opportunities "
+  - facebookLink: https://www.facebook.com/watch/live/?v=1116775512183635&ref=watch_permalink
     episodeDescription: "Interested in learning more or improving your open source
       development skills? Looking to learn more about OpenStack and Kubernetes
       administration and prep for the Certified OpenStack Administrator or
       Certified Kubernetes Administrator exams? Join us as OpenInfra
       organizations discuss their training programs and how they can accelerate
       your open source career. "
-    youtubeEmbed: https://www.youtube.com/embed/0bMI1fcrI0A
-    youtubeLink: https://youtu.be/0bMI1fcrI0A
     calendarInvite: /static/invites/myevents-5-.ics
+    hidden: false
+    date: 2021-09-02T14:00:00.000Z
+    episodeSpeakers: Huang Chenhao (99 Cloud), Florian Haas (City Network), Erno
+      Erdelyi (Component Soft), Paul Quigley (Mirantis), John Walter (Red Hat)
+    youtubeEmbed: https://www.youtube.com/embed/0bMI1fcrI0A
+    linkedinLink: https://www.linkedin.com/video/live/urn:li:ugcPost:6837107897214873600/
+    superuserRecap: https://superuser.openstack.org/articles/open-source-training-opportunities-openinfra-live-recap/
+    episodeTitle: "Open Source Training Opportunities "
+    youtubeLink: https://youtu.be/0bMI1fcrI0A
   - facebookLink: https://www.facebook.com/104139126308032/posts/4256168904438346/
     episodeDescription: "When we talk about Large Scale, it usually refers to
       scaling out to hundreds of thousands of commodity nodes. But there is
@@ -65,6 +128,7 @@ episodes:
       Quenette (Monash e-Research Centre), and Jonathan Mills (NASA Goddard)
     youtubeEmbed: https://www.youtube.com/embed/fOJTHanmOFg
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6834150009706037248
+    superuserRecap: https://superuser.openstack.org/articles/large-scale-openstack-discussing-software-defined-supercomputers-openinfra-live-recap/
     episodeTitle: "Large Scale OpenStack: Discussing Software-Defined Supercomputers"
     youtubeLink: https://www.youtube.com/watch?v=fOJTHanmOFg
   - facebookLink: https://www.facebook.com/104139126308032/posts/4229345477120689/

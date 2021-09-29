@@ -5,8 +5,8 @@ seo:
     global community of 100,000 individuals to build and operate open
     infrastructure software. "
   image: /img/OpenInfra-icon-white.jpg
-  title: "Open Infrastructure Foundation (OpenInfra Foundation): Open Source
-    Infrastructure Foundation"
+  title: "OpenInfra Foundation: We build communities who write software that runs
+    in production"
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/
 header:
@@ -171,6 +171,8 @@ sponsor:
         image: /img/companies/_New/Platinum/Sponsor-Logos_FiberHome.png
       - alt: Huawei
         image: /img/companies/_New/Platinum/Sponsor-Logos_Huawei.png
+      - image: /img/sponsor-logos_microsoft.png
+        alt: Microsoft
       - alt: Red Hat
         image: /img/companies/_New/Platinum/Sponsor-Logos_RedHat.png
       - alt: Tencent Cloud

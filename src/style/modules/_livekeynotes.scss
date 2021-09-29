@@ -1,0 +1,222 @@
+/* ------------------------------------------------------------ *\
+    OPENINFRA LIVE KEYNOTES
+\* ------------------------------------------------------------ */
+
+// ############ SECTION 1 #################
+
+.dark-hero {
+  background-color: $dark;
+  color: $white;
+  position: relative;
+  .live-hero {
+    padding: 4rem 0;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 90%;
+    margin: 0 auto;
+    .logo {
+      margin-top: 0;
+      img {
+        max-height: 160px;
+      }
+      @media (max-width: 768px) {
+        margin-bottom: 2rem;
+      }
+    }
+    .text {
+      color: $white;
+      margin-left: 0;
+      span {
+        text-transform: uppercase;
+        color: $gray;
+        font-weight: 700;
+      }
+      h1 {
+        text-transform: uppercase;
+        color: $white;
+        margin: 0.2em 0 0.3em;
+        font-size: 3em;
+      }
+      .dates {
+        color: $white;
+      }
+      .cta {
+        background-color: $dark-gray;
+        color: $white;
+        padding: 1rem 3rem;
+        border-radius: 50px;
+        text-align: center;
+        white-space: nowrap;
+        display: inline-block;
+        margin-top: 1rem;
+        &:hover,
+        &:focus {
+          background-color: $dark-gray-hover;
+        }
+        img {
+          margin-left: 0.5rem;
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      max-width: 100%;
+      flex-direction: column-reverse;
+    }
+  }
+  .multi-color-border {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
+.keynotes-intro {
+  padding: 6rem 0;
+  .intro-inner {
+    max-width: 90%;
+    margin: 0 auto;
+    @media (max-width: 768px) {
+      max-width: 100%;
+    }
+  }
+}
+.keynotes-bullets {
+  display: flex;
+  gap: 1rem;
+  ul li {
+    &:before {
+      content: "";
+    }
+  }
+  .stat-section {
+    flex: 1;
+    color: $dark;
+    text-align: left;
+    h3 {
+      margin: 0 0 2rem 1rem;
+      font-weight: 600;
+      font-size: 1.3em;
+    }
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.keynotes-stats {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: 3rem auto 0;
+  width: 80%;
+  @media (max-width: 768px) {
+    width: 80%;
+    gap: 10%;
+    flex-flow: wrap;
+  }
+  .single-stat {
+    color: $gray;
+    text-align: center;
+    font-size: 0.9em;
+    strong {
+      font-size: 2.5rem;
+      font-family: "Jura", "Helvetica", sans-serif;
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+  }
+}
+.keynotes-sponsors {
+  padding: 6rem 0;
+  .sponsor-section {
+    h3 {
+      text-transform: uppercase;
+      color: $gray;
+      text-align: center;
+      font-size: 1em;
+      margin-bottom: 2rem;
+    }
+    .logos {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    &.headline {
+      .logos {
+        img {
+          width: 460px;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+.sponsor-levels {
+  h3 {
+    text-transform: uppercase;
+    color: $gray;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 2rem;
+  }
+}
+.level-listing {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  .level-single {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid $gray;
+    color: $dark;
+    align-items: stretch;
+    .level-bullets {
+      padding: 1rem;
+      flex: 1;
+      ul li {
+        &:before {
+          content: "";
+        }
+      }
+    }
+    .level-heading,
+    .level-price {
+      padding: 1rem;
+      font-size: 1.5em;
+      width: 100%;
+      text-align: center;
+      color: $dark;
+      font-weight: 700;
+    }
+    &.headline {
+      .level-heading,
+      .level-price {
+        background-color: #f7b84a;
+      }
+    }
+    &.supporting {
+      .level-heading,
+      .level-price {
+        background-color: $gray;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+.sponsor-cta {
+  margin-top: 4rem;
+  text-align: center;
+  a {
+    font-weight: 700;
+  }
+}
+.sponsor-note {
+  font-size: 0.9em;
+  color: $dark;
+}

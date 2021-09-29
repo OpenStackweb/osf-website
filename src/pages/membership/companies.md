@@ -31,6 +31,8 @@ companies:
         image: /img/companies/_New/Platinum/Sponsor-Logos_FiberHome.png
       - alt: Huawei
         image: /img/companies/_New/Platinum/Sponsor-Logos_Huawei.png
+      - alt: Microsoft
+        image: /img/sponsor-logos_microsoft.png
       - alt: Red Hat
         image: /img/companies/_New/Platinum/Sponsor-Logos_RedHat.png
       - alt: Tencent Cloud
@@ -147,6 +149,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT-TX.png
       - alt: ORock
         image: /img/companies/_New/Silver/orock-silver.jpg
+      - image: /img/osism-sm.png
+        alt: OSISM
       - alt: OVH
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_OVH.png
       - alt: Safespring
@@ -190,6 +194,10 @@ companies:
         image: /img/bu.png
       - image: /img/cern.png
         alt: CERN
+      - image: /img/oregonstate.png
+        alt: ORegon State
+      - image: /img/osb.png
+        alt: OSB
       - image: /img/ow2-member.png
         alt: OW2
       - image: /img/soda-foundation-member.png
@@ -201,8 +209,8 @@ companies:
         image: /img/companies/vexxhost-new-lg.png
       - alt: OVH
         image: /img/companies/ovh-lg.jpg
-      - alt: INAP
-        image: /img/companies/INAP-vertical-color-TM.png
+      - alt: iWeb
+        image: /img/companies/iweb.png
       - alt: Limestone Networks
         image: /img/companies/lsn-sm.png
     text: Infrastructure donors are companies running OpenStack clouds, donating
@@ -519,6 +527,8 @@ companies:
         image: /img/companies/heberfacile-sm.png
       - alt: Hedera
         image: /img/companies/hedera-technology.png
+      - image: /img/holling-stenzel-logo-sm.png
+        alt: Holling & Stenzel IT Consulting
       - alt: Hewlett Packard Enterprise
         image: /img/companies/hpe-lg2.jpg
       - alt: High School Technology Services

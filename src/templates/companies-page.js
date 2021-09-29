@@ -9,6 +9,7 @@ import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import BecomeSponsor from '../components/BecomeSponsor'
 import SEO from '../components/SEO'
+import LinkComponent from '../components/LinkComponent'
 
 import { connect } from "react-redux";
 
@@ -25,6 +26,8 @@ export const CompaniesPageTemplate = ({
   contentComponent
 }) => {
   const PageContent = contentComponent || Content
+
+  console.log('sponsors', sponsors)
 
   return (
     <div>
@@ -51,16 +54,16 @@ export const CompaniesPageTemplate = ({
                           </div>
                         </div>
                         <div className="companies-s1-1-container">
-                          <div className={`company-level-${tier.name}`}>
-                            {tier.supporting_companies.sort((a, b) => a.order - b.order).map(({ company }) => {
+                          <div className={`company-level-${tier.name.split(' ')[0].toLowerCase()}`}>
+                            {tier.supporting_companies.sort((a, b) => a.company.name.localeCompare(b.company.name)).map(({ company }, companyIndex) => {
                               return (
-                                <Link to={company?.description?.length > 0 ? `/a/members/profile/${tier.id}/${kebabCase(company.name)}` : company.url}>
+                                <LinkComponent href={company?.description?.length > 0 ? `/a/members/profile/${tier.id}/${kebabCase(company.name)}` : company.url} key={companyIndex}>
                                   <img
                                     src={company.logo}
                                     alt={company.name}
                                     key={company.id}
                                   />
-                                </Link>
+                                </LinkComponent>
                               )
                             })}
                           </div>

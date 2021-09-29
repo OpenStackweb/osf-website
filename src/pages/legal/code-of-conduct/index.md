@@ -28,7 +28,7 @@ This OpenInfra Code of Conduct also applies to all spaces managed by the Foundat
 
 We do not tolerate harassment in any form. If you believe someone is violating the OpenInfra Code of Conduct, please see our Reporting Guidelines below.
 
-### OpenInfra Foundation community members strive to
+##### OpenInfra Foundation community members strive to
 
 - **Be friendly, patient and welcoming.** We strive to be a community that welcomes and supports people of all backgrounds and identities. This includes, but is not limited to, members of any race, ethnicity, culture, national origin, colour, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion and mental and physical ability.
 
@@ -42,7 +42,7 @@ We do not tolerate harassment in any form. If you believe someone is violating t
 
 - **When we are unsure, we ask for help.** Nobody knows everything, and nobody is expected to be perfect in the OpenInfra Foundation community. Asking questions avoids many problems down the road, and so questions are encouraged. Those who are asked questions should be responsive and helpful. However, when asking a question, care must be taken to do so in an appropriate forum.
 
-### We take the following very seriously, and any violations may impact your ability to participate in the OpenInfra Foundation community
+##### We take the following very seriously, and any violations may impact your ability to participate in the OpenInfra Foundation community
 
 - **Be careful with your words and actions.** We are a community of professionals, and we conduct ourselves professionally. Do not insult or put down other participants. Harassment and other exclusionary behavior is not acceptable and should be reported. This includes but is not limited to:
 
@@ -57,17 +57,17 @@ We do not tolerate harassment in any form. If you believe someone is violating t
 
 - **Respect the election process.** Members of the OpenInfra Foundation community should not attempt to manipulate election results. Open debate is welcome, but vote trading, ballot stuffing and other forms of abuse are not acceptable.
 
-### Reporting Guidelines
+##### Reporting Guidelines
 
 If you believe that the OpenInfra Code of Conduct is being violated, you are being harassed, or have any other concerns, please contact a member of the Foundation staff immediately via phone or email.
 
 The Foundation staff (“Staff”) who manage these issues have the following contact information:
 
-**Jonathan Bryce**, [jonathan@openinfra.dev](mailto:jonathan@openinfra.dev), cell # +1-210-317-2438
+- **Jonathan Bryce**, [jonathan@openinfra.dev](mailto:jonathan@openinfra.dev), cell # +1-210-317-2438
 
-**Allison Price**, [allison@openinfra.dev](mailto:allison@openinfra.dev), cell # +1-214-686-6821
+- **Allison Price**, [allison@openinfra.dev](mailto:allison@openinfra.dev), cell # +1-214-686-6821
 
-### Process to file complaint
+##### Process to file complaint
 
 - Please report violations of the OpenInfra Code of Conduct at the OpenInfra Venues immediately to Staff.
 
@@ -89,7 +89,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
 
 - Staff will assist you in writing the report/collecting information.
 
-### Staff response procedure
+##### Staff response procedure
 
 - Staff are well-informed of OpenInfra Code of Conduct and response procedures.
 

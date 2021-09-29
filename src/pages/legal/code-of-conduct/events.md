@@ -28,7 +28,7 @@ Of special interest to OpenDev + PTG, exhibitors in the expo hall, evening party
 
 Participants asked to stop any harassing behavior are expected to comply immediately. If a participant or sponsor engages in behavior that violates the community code of conduct, the OpenInfra Foundation staff may take action they deem appropriate, including warning the offender or expulsion from the Summit with no refund.
 
-### What Constitutes Harassment
+##### What Constitutes Harassment
 
 - Violent threats, intimidation or personal insults directed against another person
 - Verbal, graphic or written comments related to gender, sexual orientation, disability, physical appearance, body size, race or religion
@@ -40,17 +40,17 @@ Participants asked to stop any harassing behavior are expected to comply immedia
 - Advocating for, or encouraging, any of the above behavior
 - Repeated harassment of others. In general, if someone asks you to stop, then stop
 
-### Report Harassment
+##### Report Harassment
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please find a member of the Summit staff at the registration desk or wearing Staff t-shirts, or contact the OpenInfra Foundation staff immediately via phone or email.
 
-### OpenInfra Foundation Staff contact information
+##### OpenInfra Foundation Staff contact information
 
-**Jonathan Bryce**, [jonathan@openinfra.dev](mailto:jonathan@openinfra.dev), cell # +1-210-317-2438
+- **Jonathan Bryce**, [jonathan@openinfra.dev](mailto:jonathan@openinfra.dev), cell # +1-210-317-2438
 
-**Allison Price**, [allison@openinfra.dev](mailto:allison@openinfra.dev), cell # +1-214-686-6821
+- **Allison Price**, [allison@openinfra.dev](mailto:allison@openinfra.dev), cell # +1-214-686-6821
 
-### Process to file complaint
+##### Process to file complaint
 
 - Please report offensive behavior or incidents immediately to Event Staff or Foundation staff:
   - Event staff can be found at the registration desk, info booths or identified by wearing Staff shirts, or
@@ -68,7 +68,7 @@ If you are being harassed, notice that someone else is being harassed, or have a
   - If you feel your safety is in jeopardy please do not hesitate to contact local law enforcement.
   - When reporting the event to staff, try to gather as much information as available, but do not interview people about the incident. Staff will assist you in writing the report/collecting information.
 
-### OpenInfra Foundation staff response procedure:
+##### OpenInfra Foundation staff response procedure:
 
 - OpenInfra Foundation and on-site event staff are well-informed of community code of conduct and response procedures.
 - Staff will gather details of the complaint to make an initial report, including:

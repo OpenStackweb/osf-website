@@ -26,17 +26,17 @@ The OpenStack Foundation (the “Foundation”) is committed to being a good cor
 
 This Code should be interpreted in light of the purpose of the Foundation, and composition of its membership. This Code should not be read to restrict any individual covered by this Code from performing his or her fiduciary duties to a Member of the Foundation.
 
-### Conflicts of interest
+##### Conflicts of interest
 
 You should avoid situations in which your personal, family or financial interests conflict or even appear to conflict with those of the Foundation or compromise its interests. You should handle all actual or apparent conflicts of interest between your personal and professional relationships in an honest and ethical manner. Conflicts are not always clear-cut. Examples of actual or potential conflicts of interest are set forth on Appendix A to this Code. A “conflict of interest” exists when a person’s private interest interferes in any way with the interests of the Foundation. A conflict situation can arise when an employee, officer or director takes action or has interests that may make it difficult to perform his or her Foundation work objectively and effectively. Conflicts of interest may also arise when an employee, officer or director, or a member of his or her family, receives improper personal benefits as a result of his or her position in the Foundation. Loans to, or guarantees of obligations of, employees and their family members may create conflicts of interest.
 
 In addition, employees, officers and directors are prohibited from taking for their own benefit any opportunities that are discovered in the course of their employment or service to the Foundation, except with the consent of the Board of Directors. Employees, officers and directors owe a duty to the Foundation to advance its legitimate interests when the opportunity to do so arises. If you become aware of a conflict or potential conflict of interest, contact the Executive Director for further guidance.
 
-### Disclosure
+##### Disclosure
 
 It is of paramount importance to the Foundation that all disclosure in reports and documents filed by the Foundation with any governmental agency or in other public communications made by the Foundation is full, fair, accurate, timely and understandable. All officers, directors, employees and contract workers must take all steps necessary to assist the Foundation in fulfilling these responsibilities, consistent with each person’s role in the Foundation. You should give prompt and accurate answers to all inquiries made to you in connection with the Foundation’s preparation of public disclosures and reports.
 
-### Code of ethics for senior officers
+##### Code of ethics for senior officers
 
 The Foundation’s Executive Director, Secretary and other officers (the “Senior Officers”) each bear a special responsibility for promoting integrity throughout the Foundation. Furthermore, the Senior Officers have a responsibility to foster a culture throughout the Foundation as a whole that ensures the fair and timely reporting of the Foundation’s results of operation and financial condition and other financial information.
 
@@ -48,7 +48,7 @@ Because of this special role, the Senior Officers are bound by the following Sen
 - Take all necessary actions to ensure compliance by such Senior Officers and the Foundation with all applicable laws, rules and regulations of federal, state and local governments.
 - Proactively promote and be an example of ethical behavior in the work environment.
 
-### Reporting and compliance
+##### Reporting and compliance
 
 If you become aware of conduct by an officer, director, member of the Technical Committee, employee or contract worker which you believe in good faith is a potential violation of this Code, you should immediately report such conduct to the Executive Director or, if the report concerns the Executive Director, the Chairman of the Board of Directors. You should also report any complaint or concern regarding the Foundation’s financial disclosure, accounting practices, internal accounting controls, or auditing matters, or any concerns regarding any questionable accounting or auditing matters.
 
@@ -64,7 +64,7 @@ In response to every report made in good faith of conduct potentially in violati
 
 Employees and contract workers are protected by law from retaliation for reporting possible violations of this Code or for participating in procedures connected with an investigation, proceeding or hearing conducted by the Foundation or a government agency with respect to such complaints. The Foundation will take disciplinary action up to and including the termination of any employee or contract worker who retaliates against another employee or contract worker for reporting any of these alleged activities.
 
-### Further information
+##### Further information
 
 Please contact the Executive Director if you have any questions about this Code or require further information.
 
@@ -72,7 +72,7 @@ The most current version of this Code will be posted on the Foundation’s websi
 
 ---
 
-#### Appendix A
+##### Appendix A
 
 The following are examples of conduct that could result in actual or potential conflicts:
 
@@ -88,9 +88,9 @@ The following are examples of conduct that could result in actual or potential c
 
 ---
 
-#### Appendix B
+##### Appendix B
 
-### Compliance Procedures
+##### Compliance Procedures
 
 Compliance Officer. The Foundation’s Compliance Officer is the Executive Director. The Compliance Officer’s responsibility is to ensure communication, training, monitoring, and overall compliance with the Code. The Compliance Officer will, with the assistance and cooperation of the Foundation’s officers, directors and managers, foster an atmosphere where employees are comfortable in communicating and reporting concerns and possible Code violations.
 

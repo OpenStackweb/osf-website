@@ -58,6 +58,8 @@ footer:
 
 #### Other Policies
 
+[Privacy Policy](/privacy-policy)
+
 [Transparency Policy](/legal/transparency-policy)
 
 [Antitrust Policy](/legal/antitrust-compliance-policy)

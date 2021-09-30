@@ -2,9 +2,7 @@
 templateKey: generic-page
 seo:
   description: >-
-    An Open Community balances the roles of open source developers, users and
-    ecosystem, ensuring the community is a cohesive, inclusive, level playing
-    ground.
+    This Privacy Policy describes how the Open Infrastructure Foundation collects personal data from and about website visitors and individual community members, how and why we use that data, and the circumstances under which we share that data with others.
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Foundation Privacy Policy
   twitterUsername: "@OpenInfraDev"

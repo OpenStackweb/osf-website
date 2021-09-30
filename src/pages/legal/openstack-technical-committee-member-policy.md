@@ -2,9 +2,7 @@
 templateKey: generic-page
 seo:
   description: >-
-    An Open Community balances the roles of open source developers, users and
-    ecosystem, ensuring the community is a cohesive, inclusive, level playing
-    ground.
+    OpenStack Technical Committee Member Policy
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Foundation Technical Committee Member Policy
   twitterUsername: "@OpenInfraDev"

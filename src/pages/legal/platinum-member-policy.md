@@ -2,9 +2,7 @@
 templateKey: generic-page
 seo:
   description: >-
-    An Open Community balances the roles of open source developers, users and
-    ecosystem, ensuring the community is a cohesive, inclusive, level playing
-    ground.
+    OpenInfra Foundation Platinum Member Policy
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Foundation Platinum Member Policy
   twitterUsername: "@OpenInfraDev"

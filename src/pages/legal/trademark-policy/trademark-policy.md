@@ -2,9 +2,7 @@
 templateKey: generic-page
 seo:
   description: >-
-    An Open Community balances the roles of open source developers, users and
-    ecosystem, ensuring the community is a cohesive, inclusive, level playing
-    ground.
+    This Trademark Policy (the "Trademark Policy"), prepared by the OpenStack Foundation (hereinafter referred to as "OpenStack Foundation"), sets out rules for proper use of the mark "OpenStack" (hereinafter referred to as "the OpenStack Word Mark") and the "OpenStack Logo" or "OpenStack Logos" (as defined in Section 6 of the Trademark Policy) when referring to the OpenStack project and code base.
   image: /img/OpenInfra-icon-white.jpg
   title: OpenStack® Trademark Policy
   twitterUsername: "@OpenInfraDev"

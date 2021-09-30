@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20210930T184104Z
+UID:20210930T184104Z-1471549800@marudot.com
+DTSTART:20211014T140000Z
+DTEND:20211014T150000Z
+SUMMARY:Large Scale OpenStack: Neutron scaling best practices
+URL:https://www.youtube.com/watch?v=4ZLqILbLIpQ
+DESCRIPTION:Networking is complex\, and Neutron is one of the most difficult parts of OpenStack to scale. In this episode of the Large Scale OpenStack show\, we will explore early architectural choices you can make\, recommended drivers\, features to avoid if your ultimate goal is to scale to a very large deployment. Join OpenStack developers and operators as they share their Neutron scaling best practices.\n\nhttps://www.youtube.com/watch?v=4ZLqILbLIpQ 
+LOCATION:https://www.youtube.com/watch?v=4ZLqILbLIpQ
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Large Scale OpenStack: Neutron scaling best practices
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

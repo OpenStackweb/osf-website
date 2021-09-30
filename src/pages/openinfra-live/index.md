@@ -30,6 +30,9 @@ episodes:
       Lajos Katona (Ericsson, Neutron PTL)
       Michal Nasiadka (StackHPC, Kolla-Ansible PTL)
 
+    youtubeLink: https://www.youtube.com/watch?v=4ZLqILbLIpQ
+    youtubeEmbed: https://www.youtube.com/embed/4ZLqILbLIpQ
+    calendarInvite: /static/invites/myevents.ics
   - facebookLink: https://www.facebook.com/104139126308032/posts/4364096940312208/
     episodeDescription: Ceph is a highly scalable distributed-storage open source
       solution offering object, block, and file storage. Join us as various

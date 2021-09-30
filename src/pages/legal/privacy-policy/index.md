@@ -72,6 +72,8 @@ These words have specific meanings in this Privacy Policy:
 
 **site** means the website at [https://openinfra.dev](https://openinfra.dev) and any other website on which this Privacy Policy is posted, including each of the following:
 
+[http://openstack.org](http://openstack.org)
+
 [http://airshipit.org](http://airshipit.org)
 
 [https://katacontainers.io](https://katacontainers.io)

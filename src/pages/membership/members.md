@@ -259,6 +259,7 @@ companyTier:
           alt: ""
         - logo: /img/members-page/gold/Sponsor-Logos-Gold_ZTE 1.png
           alt: ""
+        - logo: /img/nipa_-sm.png
     - title: OpenInfra foundation Silver members
       mobileTitle: Silver Members
       companies:

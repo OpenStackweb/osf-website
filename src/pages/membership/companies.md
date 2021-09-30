@@ -86,6 +86,8 @@ companies:
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_vmware.png
       - alt: ZTE
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
+      - image: /img/nipa_-lrg.png
+        alt: Nipa Cloud
     text: Open Infrastructure Foundation Gold Members provide funding and pledge
       strategic alignment to the OpenInfra Foundation mission.  There can be up
       to twenty-four Gold Members at any given time, subject to board approval.

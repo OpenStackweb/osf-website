@@ -2,9 +2,7 @@
 templateKey: generic-page
 seo:
   description: >-
-    An Open Community balances the roles of open source developers, users and
-    ecosystem, ensuring the community is a cohesive, inclusive, level playing
-    ground.
+    OpenStack Foundation d/b/a Open Infrastructure Foundation (“Foundation”) was formed to involve interested companies and individuals in a collaborative effort to support a collection of open source technology that provides massively scalable open source cloud computing software.
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Foundation Antitrust Compliance Policy
   twitterUsername: "@OpenInfraDev"
@@ -26,7 +24,7 @@ footer:
 
 ##### I. Introduction.
 
-OpenStack Foundation (“Foundation”) was formed to involve interested companies and individuals in a collaborative effort to support a collection of open source technology that provides massively scalable open source cloud computing software. Because some of the participants (“Members”) will include competitors, these activities are subject to antitrust laws. While coordination among competitors to achieve pro-competitive goals and efficiencies is perfectly legal under the antitrust laws, it is important to identify conduct that raises concerns under the antitrust laws and be sure that antitrust risks are avoided.
+OpenStack Foundation d/b/a Open Infrastructure Foundation (“Foundation”) was formed to involve interested companies and individuals in a collaborative effort to support a collection of open source technology that provides massively scalable open source cloud computing software. Because some of the participants (“Members”) will include competitors, these activities are subject to antitrust laws. While coordination among competitors to achieve pro-competitive goals and efficiencies is perfectly legal under the antitrust laws, it is important to identify conduct that raises concerns under the antitrust laws and be sure that antitrust risks are avoided.
 
 It is the express policy of the Foundation to require that all activities of the Foundation, and any committees organized under its auspices, be conducted strictly in accordance with U.S. federal and state antitrust laws and foreign antitrust laws. The Foundation will not become involved in the competitive business decisions of its Members nor will it take or support any action that would tend to restrain competition in violation of antitrust laws.
 

@@ -2,7 +2,7 @@
 templateKey: generic-page
 seo:
   description: >-
-    OpenInfra Foundation event code of conduct
+    The OpenInfra Foundation is dedicated to providing an inclusive and safe Summit experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, nationality or religion. We do not tolerate harassment of Summit participants in any form.
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Foundation Events Code of Conduct
   twitterUsername: "@OpenInfraDev"

@@ -2,9 +2,7 @@
 templateKey: generic-page
 seo:
   description: >-
-    An Open Community balances the roles of open source developers, users and
-    ecosystem, ensuring the community is a cohesive, inclusive, level playing
-    ground.
+    This Transparency Policy (“Policy”) states OpenStack’s policy towards disclosure of information to the public by members of the Board of Directors (“Board Members”) and the officers and other employees of OpenStack (“Employees”).
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Foundation Transparency Policy
   twitterUsername: "@OpenInfraDev"

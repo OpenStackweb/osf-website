@@ -2,7 +2,7 @@
 templateKey: generic-page
 seo:
   description: >-
-    OpenInfra Foundation company code of conduct.
+    The OpenStack Foundation (the “Foundation”) is committed to being a good corporate citizen. The Foundation’s policy is to conduct its business affairs honestly and in an ethical manner.
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Foundation Company Code of Conduct
   twitterUsername: "@OpenInfraDev"

@@ -2,9 +2,7 @@
 templateKey: generic-page
 seo:
   description: >-
-    An Open Community balances the roles of open source developers, users and
-    ecosystem, ensuring the community is a cohesive, inclusive, level playing
-    ground.
+    The OpenInfra Foundation community is made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the OpenInfra Foundation's mission. We strongly believe diversity is our strength and want to promote an inclusive and safe environment.
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Foundation Community Code of Conduct
   twitterUsername: "@OpenInfraDev"

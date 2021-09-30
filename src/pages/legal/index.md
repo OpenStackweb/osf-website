@@ -50,10 +50,6 @@ footer:
 
 [Trademark Policy](/legal/trademark-policy)
 
-[Events Code of Conduct](/legal/code-of-conduct/events)
-
-[Company Code of Conduct](/legal/code-of-conduct/company)
-
 ---
 
 #### Other Policies

@@ -161,7 +161,7 @@ An electronic transmission consenting to an action to be taken and transmitted b
 
 4.13 OpenStack Technical Committee.
 
-(a) The OpenStack Technical Committee shall be selected as provided in the OpenStack Technical Committee Member Policy in [Appendix 4](/legal/openstack-technical-committee-policy).
+(a) The OpenStack Technical Committee shall be selected as provided in the OpenStack Technical Committee Member Policy in [Appendix 4](/legal/openstack-technical-committee-member-policy).
 
 (b) (i) The OpenStack Technical Committee shall have the authority to manage the OpenStack Project, including the authority to determine the scope of the OpenStack Technical Committee Approved Release subject to the procedures set forth below. No changes to the OpenStack Technical Committee Approved Release which deletes all or part of the then current Trademark Designated OpenStack Software. shall be approved by the OpenStack Technical Committee without approval as provided in the Coordination Procedures. After such approval, the Secretary shall post such description to the Foundation’s website.
 
@@ -197,7 +197,7 @@ A violation of the Director Diversity Requirement may be waived by a vote of two
 
 4.17 Nomination of Individual Director Candidates. Nominations for Individual Directors must be submitted to the Secretary in writing, signed by a minimum of ten (10) Individual Members no later than thirty (30) days prior to the date of the annual meeting or special meeting for election of the Individual Directors. The Secretary shall promptly publish the names of all properly nominated persons to the Foundation website.
 
-4.18 Code of Conduct. The directors, officers, employees, members of the OpenStack Technical Committee, OIP Management Committee Members, OIP Technical Committee Members and contractors shall comply with the Code of Conduct attached as [Appendix 5](legal/code-of-conduct/company). The Members shall comply with the Community Code of Conduct attached as [Appendix 6](/legal/code-of-conduct).
+4.18 Code of Conduct. The directors, officers, employees, members of the OpenStack Technical Committee, OIP Management Committee Members, OIP Technical Committee Members and contractors shall comply with the Code of Conduct attached as [Appendix 5](/legal/code-of-conduct/company). The Members shall comply with the Community Code of Conduct attached as [Appendix 6](/legal/code-of-conduct).
 
 ### Article V. Officers
 
@@ -275,7 +275,7 @@ In the absence of the Secretary or any Assistant Secretary at any meeting of the
 
 7.2 Licenses and Contribution Agreements for Documentation. The Foundation shall only accept contributions of documentation under a contribution agreement approved by the Board of Directors.
 
-7.3 Trademark Policy. The Trademark Policy of the Foundation shall be determined by the Board of Directors and may be modified by the Board of Directors. The OpenStack trademarks shall only be used to promote the Foundation, the OpenStack Project, Open Infrastructure Projects or services or products related to the OpenStack Project or Open Infrastructure Projects as provided in the Trademark Policy set forth in Appendix 8. After approval by the Board of Directors, the Secretary shall post the Trademark Policy to the Foundation website.
+7.3 Trademark Policy. The Trademark Policy of the Foundation shall be determined by the Board of Directors and may be modified by the Board of Directors. The OpenStack trademarks shall only be used to promote the Foundation, the OpenStack Project, Open Infrastructure Projects or services or products related to the OpenStack Project or Open Infrastructure Projects as provided in the Trademark Policy set forth in [Appendix 8](/legal/trademark-policy). After approval by the Board of Directors, the Secretary shall post the Trademark Policy to the Foundation website.
 
 ### Article VIII. Antitrust Policy
 

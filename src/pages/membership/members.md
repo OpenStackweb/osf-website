@@ -249,6 +249,7 @@ companyTier:
           alt: ""
         - logo: /img/members-page/gold/Sponsor-Logos-Gold_NEC 1.png
           alt: ""
+        - logo: /img/nipa_-sm.png
         - logo: /img/members-page/gold/Sponsor-Logos-Gold_T-Systems 1.png
           alt: ""
         - logo: /img/members-page/gold/Sponsor-Logos-Gold_Troila 1.png
@@ -259,7 +260,6 @@ companyTier:
           alt: ""
         - logo: /img/members-page/gold/Sponsor-Logos-Gold_ZTE 1.png
           alt: ""
-        - logo: /img/nipa_-sm.png
     - title: OpenInfra foundation Silver members
       mobileTitle: Silver Members
       companies:

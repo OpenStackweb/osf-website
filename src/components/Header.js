@@ -22,8 +22,8 @@ const Header = class extends React.Component {
                 <div className="hero-actions">
                   {buttons && buttons.map((button, index) => {
                     return (
-                      <React.Fragment>
-                        <LinkComponent href={button.link} className={`button ${index % 2 === 0 ? 'button-white': 'button-red'}`} key={index}>
+                      <React.Fragment key={index}>
+                        <LinkComponent href={button.link} className={`button ${index % 2 === 0 ? 'button-white': 'button-red'}`}>
                           <span>{button.text}</span>
                         </LinkComponent>                        
                         &nbsp;

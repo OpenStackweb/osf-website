@@ -20,6 +20,7 @@ const SEO = ({ seo = {} }) => {
   return (
     <>
       <Helmet title={seo.title ? seo.title : title} titleTemplate={titleTemplate}>
+        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e11e4375-71b9-426d-a76d-61eae3ddc08f" type="text/javascript" async></script>
         <meta charSet="utf-8" />
         <meta name="description" content={seo.description ? seo.description : description} />
         <meta name="image" content={seo.image?.publicURL ? `${url}${seo.image.publicURL.slice(1)}` : `${url}${image.slice(1)}`} />

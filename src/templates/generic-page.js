@@ -64,7 +64,7 @@ const GenericPage = ({ isLoggedUser, data }) => {
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <GenericPageTemplate
         isLoggedUser={isLoggedUser}
-        contentComponent={HTMLContent}        
+        contentComponent={HTMLContent}
         title={post.frontmatter.title}
         subTitle={post.frontmatter.subTitle}
         footer={post.frontmatter.footer}

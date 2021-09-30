@@ -72,21 +72,21 @@ These words have specific meanings in this Privacy Policy:
 
 **site** means the website at [https://openinfra.dev](https://openinfra.dev) and any other website on which this Privacy Policy is posted, including each of the following:
 
-[http://openstack.org](http://openstack.org)
+[https://openstack.org](http://openstack.org)
 
-[http://airshipit.org](http://airshipit.org)
+[https://airshipit.org](http://airshipit.org)
 
 [https://katacontainers.io](https://katacontainers.io)
 
-[http://starlingx.io](http://www.starlingx.io)
+[https://starlingx.io](http://www.starlingx.io)
 
 [https://zuul-ci.org](https://zuul-ci.org)
 
-[http://groups.openstack.org](http://groups.openstack.org)
+[https://groups.openstack.org](http://groups.openstack.org)
 
 [https://openstackid.org](https://openstackid.org)
 
-[http://docs.openstack.org](http://docs.openstack.org)
+[https://docs.openstack.org](http://docs.openstack.org)
 
 [https://wiki.openstack.org](https://wiki.openstack.org)
 

@@ -329,7 +329,7 @@ Appendix 5 [Code of Conduct](/legal/code-of-conduct/company)
 
 Appendix 6 [Community Code of Conduct](/legal/code-of-conduct)
 
-Appendix 7 Contributor License Agreements (Individual, Corporate, US Government Agency)
+Appendix 7 Contributor License Agreements ([Individual](https://review.opendev.org/static/cla.html), [Corporate](https://secure.echosign.com/public/hostedForm?formid=56JUVGT95E78X5), [US Government Agency](https://wiki.openstack.org/wiki/GovernmentCLA))
 
 Appendix 8 [Trademark Policy](/legal/trademark-policy)
 

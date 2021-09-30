@@ -34,6 +34,8 @@ footer:
 
 [OpenStack Technical Committee Member Policy](/legal/openstack-technical-committee-member-policy)
 
+[OpenStack User Committee Member Policy](/legal/openstack-user-committee-member-policy)
+
 ---
 
 #### Code of Conduct

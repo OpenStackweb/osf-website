@@ -2,9 +2,7 @@
 templateKey: generic-page
 seo:
   description: >-
-    An Open Community balances the roles of open source developers, users and
-    ecosystem, ensuring the community is a cohesive, inclusive, level playing
-    ground.
+    The OpenStack Foundation is a nonprofit non-stock Foundation (“Foundation”) whose purpose is to develop, support, protect, and promote open source software projects for building and managing technology infrastructure (“Open Infrastructure Projects”) including the open source cloud computing project which is known as the OpenStack Project as defined in these Bylaws.
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Foundation Bylaws
   twitterUsername: "@OpenInfraDev"
@@ -329,7 +327,7 @@ Appendix 5 [Code of Conduct](/legal/code-of-conduct/company)
 
 Appendix 6 [Community Code of Conduct](/legal/code-of-conduct)
 
-Appendix 7 Contributor License Agreements ([Individual](https://review.opendev.org/static/cla.html), [Corporate](https://secure.echosign.com/public/hostedForm?formid=56JUVGT95E78X5), [US Government Agency](https://wiki.openstack.org/wiki/GovernmentCLA))
+Appendix 7 Contributor License Agreements ([Individual](https://review.opendev.org/static/cla.html), [Corporate](https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCBQN_fJXEt1ieCMhhE2ASjUPBvGv0NpsTiFde_eFrtl_QjHfj4_ze47yqtK9CRezo*), [US Government Agency](https://wiki.openstack.org/wiki/GovernmentCLA))
 
 Appendix 8 [Trademark Policy](/legal/trademark-policy)
 

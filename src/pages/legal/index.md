@@ -59,3 +59,5 @@ footer:
 [Transparency Policy](/legal/transparency-policy)
 
 [Antitrust Policy](/legal/antitrust-compliance-policy)
+
+[Event Policy](/legal/event-policy)

@@ -59,20 +59,21 @@ episodes:
     youtubeLink: https://www.youtube.com/watch?v=aqilhEmkEBw
     youtubeEmbed: https://www.youtube.com/embed/aqilhEmkEBw
     calendarInvite: /static/invites/myevents-9-.ics
-  - hidden: false
-    date: 2021-09-23T14:00:42.961Z
-    episodeDescription: "Join the volunteer organizers of OpenInfra Days to hear
+  - episodeDescription: "Join the volunteer organizers of OpenInfra Days to hear
       about the happenings at their latest local events, what they're looking
       forward to in the future, and learn what's happening with OpenInfra all
       over the world.  "
-    episodeTitle: OpenInfra Days 2021 Recap
-    youtubeLink: https://www.youtube.com/watch?v=-s1eJa6u_2A
-    youtubeEmbed: https://www.youtube.com/embed/-s1eJa6u_2A
     calendarInvite: /static/invites/myevents-8-.ics
+    hidden: false
+    date: 2021-09-23T14:00:42.961Z
     episodeSpeakers: >
       Mark Collier (OpenInfra Foundation), Akihiro Hasegawa (Cloud Operator Days
       Tokyo Organizer), Rico Lin (OpenInfra Days Asia Organizer), Sartika
       Lestari (OpenInfra Days Indonesia Organizer)
+    youtubeEmbed: https://www.youtube.com/embed/-s1eJa6u_2A
+    superuserRecap: https://superuser.openstack.org/articles/openinfra-days-2021-openinfra-live-recap/
+    episodeTitle: OpenInfra Days 2021 Recap
+    youtubeLink: https://www.youtube.com/watch?v=-s1eJa6u_2A
   - facebookLink: https://www.facebook.com/104139126308032/posts/4319519031436666/
     episodeDescription: "Since the Paris Summit in 2014, the OpenInfra Foundation
       has hosted our annual Superuser Awards to recognize organizations that
@@ -90,6 +91,7 @@ episodes:
       Xiaoguang, Zhang and Zhiqiang Yu (China Mobile)
     youtubeEmbed: https://www.youtube.com/embed/nUwgBdx0lSw
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6841804188478009344/
+    superuserRecap: https://superuser.openstack.org/articles/superusers-where-are-they-now-openinfra-live-recap/
     episodeTitle: "Superusers: Where are they Now"
     youtubeLink: https://www.youtube.com/watch?v=nUwgBdx0lSw
   - facebookLink: https://www.facebook.com/104139126308032/posts/4298495370205699/

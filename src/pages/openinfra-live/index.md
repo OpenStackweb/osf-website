@@ -16,7 +16,20 @@ hero:
 episodes:
   - hidden: true
     date: 2021-10-14T14:00:05.859Z
-    episodeTitle: "Large Scale OpenStack: OpenStack Architecture in Large Scale Deployments"
+    episodeTitle: "Large Scale OpenStack: Neutron scaling best practices"
+    episodeDescription: "Networking is complex, and Neutron is one of the most
+      difficult parts of OpenStack to scale. In this episode of the Large Scale
+      OpenStack show, we will explore early architectural choices you can make,
+      recommended drivers, features to avoid if your ultimate goal is to scale
+      to a very large deployment. Join OpenStack developers and operators as
+      they share their Neutron scaling best practices. "
+    episodeSpeakers: |+
+      Thierry Carrez (OpenInfra Foundation)
+      Ibrahim Derraz (Exaion, Operator)
+      Slawek Kaplonski (Red Hat, ex-Neutron PTL)
+      Lajos Katona (Ericsson, Neutron PTL)
+      Michal Nasiadka (StackHPC, Kolla-Ansible PTL)
+
   - facebookLink: https://www.facebook.com/104139126308032/posts/4364096940312208/
     episodeDescription: Ceph is a highly scalable distributed-storage open source
       solution offering object, block, and file storage. Join us as various

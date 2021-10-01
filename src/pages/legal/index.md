@@ -34,6 +34,8 @@ footer:
 
 [Company Code of Conduct](/legal/code-of-conduct/company)
 
+[Individual Member Agreement](/legal/individual-member-agreement)
+
 [Trademark Policy](/legal/trademark-policy)
 
 [Privacy Policy](/privacy-policy)

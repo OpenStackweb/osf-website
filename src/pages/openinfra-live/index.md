@@ -25,10 +25,11 @@ episodes:
       they share their Neutron scaling best practices. "
     episodeSpeakers: |+
       Thierry Carrez (OpenInfra Foundation)
-      Ibrahim Derraz (Exaion, Operator)
-      Slawek Kaplonski (Red Hat, ex-Neutron PTL)
-      Lajos Katona (Ericsson, Neutron PTL)
-      Michal Nasiadka (StackHPC, Kolla-Ansible PTL)
+      David Comay (Bloomberg; Operator)
+      Ibrahim Derraz (Exaion; Operator)
+      Slawek Kaplonski (Red Hat; ex-Neutron PTL)
+      Lajos Katona (Ericsson; Neutron PTL)
+      Michal Nasiadka (StackHPC; Kolla-Ansible PTL)
 
     youtubeLink: https://www.youtube.com/watch?v=4ZLqILbLIpQ
     youtubeEmbed: https://www.youtube.com/embed/4ZLqILbLIpQ

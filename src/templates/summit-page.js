@@ -9,6 +9,10 @@ import SEO from '../components/SEO'
 
 import { connect } from "react-redux";
 
+import LinkComponent from '../components/LinkComponent';
+
+import leftArrow from '../img/svg/arrow-left.svg'
+
 export const SummitPageTemplate = ({
   isLoggedUser,
   header,
@@ -30,33 +34,31 @@ export const SummitPageTemplate = ({
         <div className="content">
           {header && header.display &&
             <section className="summit-header">
-              <div className="columns">
-                <div className="header-left">
-                  <span className="upper-title">
-                    {header.upperTitle}
-                  </span>
-                  <span className="title">
-                    {header.title}
-                  </span>
-                  <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}>
-                  </span>
-                  <span className="date">
-                    <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
-                      header.date.icon.publicURL
-                      :
-                      !!header.date.icon.childImageSharp ? header.date.icon.childImageSharp.fluid.src : header.date.icon} /> {header.date.text}
-                  </span>
-                  <span className="location">
-                    <img src={(header.location.icon.extension === 'svg' || header.location.icon.extension === 'gif') && !header.location.icon.childImageSharp ?
-                      header.location.icon.publicURL
-                      :
-                      !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> {header.location.text}
-                  </span>
-                </div>
-                <div className="header-right">
-                  <div className="picture">
-                    <img src={!!header.image.childImageSharp ? header.image.childImageSharp.fluid.src : header.image} />
-                  </div>
+              <div className="header-left">
+                <span className="upper-title">
+                  {header.upperTitle}
+                </span>
+                <span className="title">
+                  {header.title}
+                </span>
+                <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}>
+                </span>
+                <span className="date">
+                  <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
+                    header.date.icon.publicURL
+                    :
+                    !!header.date.icon.childImageSharp ? header.date.icon.childImageSharp.fluid.src : header.date.icon} /> {header.date.text}
+                </span>
+                <span className="location">
+                  <img src={(header.location.icon.extension === 'svg' || header.location.icon.extension === 'gif') && !header.location.icon.childImageSharp ?
+                    header.location.icon.publicURL
+                    :
+                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> {header.location.text}
+                </span>
+              </div>
+              <div className="header-right">
+                <div className="picture">
+                  <img src={!!header.image.childImageSharp ? header.image.childImageSharp.fluid.src : header.image} />
                 </div>
               </div>
             </section>
@@ -64,12 +66,17 @@ export const SummitPageTemplate = ({
           {form && form.display &&
             <section className="summit-form">
               <div className="summit-form-container">
-                <span className="title">
+                <span className="title-desktop">
                   {form.title}
                 </span>
-                <div className="columns">
+                <div className="form-columns">
                   <div className="form-left">
-                    <img src={!!form.image.childImageSharp ? form.image.childImageSharp.fluid.src : form.image} />
+                    <div className="picture">
+                      <img src={!!form.image.childImageSharp ? form.image.childImageSharp.fluid.src : form.image} />
+                    </div>
+                    <span className="title-mobile">
+                      {form.title}
+                    </span>
                   </div>
                   <div className="form-right">
                     <div>
@@ -80,7 +87,7 @@ export const SummitPageTemplate = ({
                       <input className="form-input" placeholder="Email" />
                     </div>
                     <div>
-                      <a className="form-cta">{form.button.text}</a>
+                      <LinkComponent className="form-cta" href={form.button.link}>{form.button.text} <img src={leftArrow} alt="" /></LinkComponent>
                     </div>
                   </div>
                 </div>
@@ -114,7 +121,7 @@ export const SummitPageTemplate = ({
                       <img src={!!summit.image.childImageSharp ? summit.image.childImageSharp.fluid.src : summit.image} />
                       <span className="location">{summit.location}</span>
                       <span className="date">{summit.date}</span>
-                      <a className="summit-cta" href={summit.button.link} >{summit.button.text}</a>
+                      <LinkComponent className="summit-cta" href={summit.button.link} >{summit.button.text} <img src={leftArrow} alt="" /></LinkComponent>
                     </div>
                   )
                 })}
@@ -123,12 +130,27 @@ export const SummitPageTemplate = ({
           }
           {videoBanner && videoBanner.display &&
             <section className="summit-video">
-
+              <span className="title">{videoBanner.title}</span>
+              <LinkComponent className="video-cta" href={videoBanner.button.link}>{videoBanner.button.text} <img src={leftArrow} alt="" /></LinkComponent>
             </section>
           }
           {sponsorships && sponsorships.display &&
             <section className="summit-sponsorships">
-
+              <span className="title">{sponsorships.title}</span>
+              <span className="text">{sponsorships.text}</span>
+              <LinkComponent className="sponsorship-cta" href={sponsorships.button.link}>{sponsorships.button.text} <img src={leftArrow} alt="" /></LinkComponent>
+              <div className="sponsors-slide">
+                <div className="sponsors-gradient"></div>
+                {sponsorships.sponsorList.map((sponsor, index) => {
+                  return (
+                    <img
+                      src={!!sponsor.image.childImageSharp ? sponsor.image.childImageSharp.fluid.src : sponsor.image}
+                      alt={sponsor.alt}
+                      key={`sponsor-${index}`} />
+                  )
+                })}
+              </div>
+              <LinkComponent className="sponsors-previous" href={sponsorships.previous.link}>{sponsorships.previous.text}</LinkComponent>
             </section>
           }
         </div>
@@ -294,6 +316,10 @@ export const summitPageQuery = graphql`
           title
           text
           button {
+            text
+            link
+          }
+          previous {
             text
             link
           }

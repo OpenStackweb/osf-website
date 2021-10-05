@@ -1,0 +1,108 @@
+---
+templateKey: summit-page
+seo:
+  description: We believe digital infrastructure is core to human progress in
+    every country, company and industry. We also believe that community driven
+    open source is the best way to develop technology that is broadly available
+    for use around the world.
+  image: /img/OpenInfra-icon-white.jpg
+  title: Join The Open Infrastructure Foundation
+  twitterUsername: "@OpenInfraDev"
+  url: https://openinfra.dev/openinfra-summit/
+header:
+  display: true
+  title: OpenInfra Summit Berlin 2022
+  upperTitle: The summit is back!
+  description: >
+    Collaborate directly with the people building and running open source 
+    infrastructure using OpenStack, Kubernetes and 30+ other technologies.
+  date:
+    icon: /img/summit/Vector-calendar.svg
+    text: June 7-9, 2022
+  location: 
+    icon: /img/summit/Vector-world.svg
+    text: Berlin Congress Center
+  image: /img/summit/summit-hero-image.png
+form:
+  display: true
+  title: Subscribe to our newsletter so you’re ready when tickets go on sale.
+  image: /img/summit/EWP-_WP_5140e 1.png
+  button:
+    text: Sign Me Up
+    link: "#"
+topics:
+  display: true
+  title: Topics
+  topicList:
+    - text: AI
+      image: /img/summit/Group 114.png
+    - text: CI/CD
+      image: /img/summit/Group 115.png
+    - text: Containers
+      image: /img/summit/Group 116.png
+    - text: Edge Computing
+      image: /img/summit/Group 117.png
+    - text: Hybrid Cloud
+      image: /img/summit/Group 118.png
+    - text: HPC
+      image: /img/summit/Group 119.png
+    - text: NFV
+      image: /img/summit/Group 120.png
+    - text: Public &  Private Cloud
+      image: /img/summit/Group 121.png
+    - text: Security
+      image: /img/summit/Group 122.png
+previousSummits:
+  display: true
+  title: Previous Summits
+  summitList:
+    - location: Berlin, Germany
+      date: November 13–15, 2018
+      image: /img/summit/florian-wehde-1uWanmgkd5g-unsplash 1.jpg
+      button:
+        text: See Highlights
+        link: "#"
+    - location: Denver, Colorado
+      date: April 29–May 1, 2019
+      image: /img/summit/iStock-995707128_Denver 1.jpg
+      button:
+        text: See Highlights
+        link: "#"
+    - location: Shanghai, China
+      date: November 4–6, 2019
+      image: /img/summit/edward-he-1082124-unsplash 1.jpg
+      button:
+        text: See Highlights
+        link: "#"
+videoBanner:
+  display: true
+  title: We’ve been doing this for a long time! Check out some of the videos.
+  button:
+    text: Watch Videos
+    link: "#"
+sponsorships:
+  display: true
+  title: Sponsorships
+  text: >
+    Interested in sponsoring? Get in touch to learn how you can help 
+    the open source users, IT decision makers and passionate developers, 
+    administrators and operators building the modern open infrastructure stack.
+  button:
+    text: Learn About Sponsorships
+    link: "#"
+  sponsorList:
+    - alt: CISCO
+      image: /img/summit/cisco-logo.png
+    - alt: Dell EMC
+      image: /img/summit/Dell_EMC_logo 1.png
+    - alt: Huawei
+      image: /img/summit/HW_POS_RGB_Horizontal 1.png
+    - alt: Intel
+      image: /img/summit/Intel_logo_(2020,_light_blue) 1.png
+    - alt: Mirantis
+      image: /img/summit/logo-redhat 1.png
+    - alt: Red Hat
+      image: /img/summit/mirantis-logo-2color-horizontal-rgb-1 1.png
+    - alt: Ubuntu
+      image: /img/summit/MT202-Ubuntu 1.png
+---

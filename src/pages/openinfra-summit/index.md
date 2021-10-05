@@ -29,7 +29,7 @@ form:
   image: /img/summit/EWP-_WP_5140e 1.png
   button:
     text: Sign Me Up
-    link: "#"
+    link: "https://signup.e2ma.net/signup/1958435/1771360/"
 topics:
   display: true
   title: Topics
@@ -61,25 +61,25 @@ previousSummits:
       image: /img/summit/florian-wehde-1uWanmgkd5g-unsplash 1.jpg
       button:
         text: See Highlights
-        link: "#"
+        link: "https://www.openstack.org/summit/berlin-2018/"
     - location: Denver, Colorado
       date: April 29–May 1, 2019
       image: /img/summit/iStock-995707128_Denver 1.jpg
       button:
         text: See Highlights
-        link: "#"
+        link: "https://www.openstack.org/summit/denver-2019/"
     - location: Shanghai, China
       date: November 4–6, 2019
       image: /img/summit/edward-he-1082124-unsplash 1.jpg
       button:
         text: See Highlights
-        link: "#"
+        link: "https://www.openstack.org/summit/shanghai-2019/"
 videoBanner:
   display: true
   title: We’ve been doing this for a long time! Check out some of the videos.
   button:
     text: Watch Videos
-    link: "#"
+    link: "https://www.openstack.org/videos/summits/"
 sponsorships:
   display: true
   title: Sponsorships
@@ -89,7 +89,7 @@ sponsorships:
     administrators and operators building the modern open infrastructure stack.  
   button:
     text: Learn About Sponsorships
-    link: "#"
+    link: "mailto:events@openinfra.dev"
   previous:
     text: Previous Summit Sponsors
     link: '#'
@@ -100,8 +100,8 @@ sponsorships:
       image: /img/summit/Dell_EMC_logo 1.png
     - alt: Huawei
       image: /img/summit/HW_POS_RGB_Horizontal 1.png
-    - alt: Intel
-      image: /img/summit/Intel_logo_(2020,_light_blue) 1.png
+    - alt: Ericsson
+      image: /img/summit/Ericsson-logo-blue_horizontal.png
     - alt: Mirantis
       image: /img/summit/logo-redhat 1.png
     - alt: Red Hat

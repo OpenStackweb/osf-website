@@ -66,9 +66,6 @@ export const SummitPageTemplate = ({
           {form && form.display &&
             <section className="summit-form">
               <div className="summit-form-container">
-                <span className="title-desktop">
-                  {form.title}
-                </span>
                 <div className="form-columns">
                   <div className="form-left">
                     <div className="picture">
@@ -79,13 +76,9 @@ export const SummitPageTemplate = ({
                     </span>
                   </div>
                   <div className="form-right">
-                    <div>
-                      <input className="form-input" placeholder="First Name" />
-                      <input className="form-input" placeholder="Last Name" />
-                    </div>
-                    <div>
-                      <input className="form-input" placeholder="Email" />
-                    </div>
+                    <span className="title-desktop">
+                      {form.title}
+                    </span>
                     <div>
                       <LinkComponent className="form-cta" href={form.button.link}>{form.button.text} <img src={leftArrow} alt="" /></LinkComponent>
                     </div>

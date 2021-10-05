@@ -78,7 +78,7 @@
       font-weight: 500;
       font-size: 25px;
       line-height: 36px;
-      text-align: center;
+      text-align: left;
       color: #ffffff;
       margin-bottom: 45px;
     }
@@ -90,6 +90,8 @@
       .form-left {
         width: 50%;
         padding-right: 15px;
+        display: flex;
+        align-items: center;
         img {
           border-radius: 15px;
         }
@@ -151,7 +153,7 @@
           text-align: center;
           letter-spacing: 0.3px;
           color: #ffffff;
-          width: 100%;
+          width: 170px;
           height: 44px;
           &:hover {
             background-color: #9a0c28;
@@ -408,6 +410,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    overflow: hidden;
     .sponsors-gradient {
       position: absolute;
       top: 0;
@@ -422,6 +425,13 @@
       height: 100%;
       width: 100%;
       z-index: 10;
+    }
+    img {
+      max-width: 150px;
+      margin-left: 15px;
+      &:last-of-type {
+        margin-left: 0;
+      }
     }
   }
   .sponsors-previous {

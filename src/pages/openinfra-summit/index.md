@@ -86,10 +86,13 @@ sponsorships:
   text: >
     Interested in sponsoring? Get in touch to learn how you can help 
     the open source users, IT decision makers and passionate developers, 
-    administrators and operators building the modern open infrastructure stack.
+    administrators and operators building the modern open infrastructure stack.  
   button:
     text: Learn About Sponsorships
     link: "#"
+  previous:
+    text: Previous Summit Sponsors
+    link: '#'
   sponsorList:
     - alt: CISCO
       image: /img/summit/cisco-logo.png

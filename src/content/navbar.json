@@ -80,8 +80,8 @@
           "url": "/live/keynotes"
         },
         {
-          "text": "OpenInfra Summit ",
-          "url": "https://www.openstack.org/summit/"
+          "text": "OpenInfra Summit",
+          "url": "/summit/"
         },
         {
           "text": "OpenInfra Days ",

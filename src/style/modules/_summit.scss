@@ -186,15 +186,15 @@
     color: #161616;
   }
   .icons {
-    margin-top: 42px;
+    margin: 42px -15px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     .summit-icon {
       display: flex;
       flex-direction: column;
-      margin-right: 30px;
-      margin-bottom: 30px;
+      padding: 0 15px;
+      margin-bottom: 25px;
       width: 105px;
       &:last-of-type {
         margin-right: 0;
@@ -488,6 +488,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        padding-right: 0px;
         .title-mobile {
           margin-top: 35px;
           display: inline-block;
@@ -503,8 +504,10 @@
       .form-right {
         margin-top: 25px;
         width: 100%;
+        padding-left: 0px;
         div {
           display: flex;
+          align-items: center;
           &:first-of-type {
             flex-direction: column;
             .form-input {

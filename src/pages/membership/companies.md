@@ -114,7 +114,7 @@ companies:
       - alt: Cloudfire
         image: /img/companies/_New/Silver/cloudfiresilver.jpg
       - alt: Component Soft
-        image: /img/companies/_New/Silver/componentsoft-silver.jpg
+        image: /img/companies/_New/Silver/componentsoft-silver2.jpg
       - image: /img/coredge188.png
         alt: Coredge
       - alt: DevStack
@@ -146,7 +146,7 @@ companies:
       - alt: Nokia
         image: /img/companies/_New/Silver/nokiasilver.jpg
       - alt: NTT
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT.png
+        image: /img/companies/_New/Silver/NTT-silver.jpg
       - alt: NTT TechnoCross
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT-TX.png
       - alt: ORock

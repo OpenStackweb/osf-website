@@ -8,7 +8,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: Join The Open Infrastructure Foundation
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/openinfra-summit/
+  url: https://openinfra.dev/summit/
 header:
   display: true
   title: OpenInfra Summit Berlin 2022

@@ -143,7 +143,7 @@ export const SummitPageTemplate = ({
                   )
                 })}
               </div>
-              <LinkComponent className="sponsors-previous" href={sponsorships.previous.link}>{sponsorships.previous.text}</LinkComponent>
+              <div className="sponsors-previous">{sponsorships.previous.text}</div>
             </section>
           }
         </div>

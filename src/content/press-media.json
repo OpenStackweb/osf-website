@@ -145,6 +145,46 @@
       "site": "ZDNet",
       "featured": false,
       "hideArticle": false
+    },
+    {
+      "featured": true,
+      "hideArticle": false,
+      "date": "2021-09-07T22:06:24.343Z",
+      "title": "Microsoft joins Open Infrastructure Foundation",
+      "site": "ZDNet",
+      "link": "https://www.zdnet.com/article/microsoft-joins-open-infrastructure-foundation/"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2021-09-07T22:06:25.107Z",
+      "link": "https://venturebeat.com/2021/09/08/microsoft-joins-openinfra-foundation-to-support-open-source-infrastructure/?utm_campaign=Daily%20Roundup&utm_medium=email&utm_source=Revue%20newsletter",
+      "site": "VentureBeat",
+      "title": "Microsoft joins OpenInfra Foundation to support open source infrastructure"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2021-10-06T22:06:25.450Z",
+      "link": "https://www.servethehome.com/openstack-xena-is-out-after-adding-10m-cores-in-1-year/",
+      "title": "OpenStack Xena is Out After Adding 10M Cores in 1 Year",
+      "site": "ServeTheHome"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2021-10-06T22:06:25.677Z",
+      "title": "OpenStack gains new momentum, as deployments increase during the pandemic",
+      "link": "https://techcrunch.com/2021/10/06/openstack-gains-new-momentum-as-deployments-increase-during-the-pandemic/",
+      "site": "TechCrunch"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2021-10-06T22:06:25.890Z",
+      "link": "https://www.computerweekly.com/news/252507795/Open-Infrastructure-Foundation-hails-surge-in-OpenStack-deployments-as-Microsoft-joins-ranks",
+      "site": "ComputerWeekly",
+      "title": "Open Infrastructure Foundation hails surge in OpenStack deployments as Microsoft joins ranks"
     }
   ],
   "seo": {

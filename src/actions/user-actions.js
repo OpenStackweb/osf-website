@@ -56,7 +56,7 @@ export const getMembers = (keyword, letter, page) => (dispatch, getState) => {
   return getRequest(
     createAction(GET_MEMBERS),
     createAction(GET_MEMBERS_SUCCESS),
-    `${window.IDP_BASE_URL}/api/public/v1/members`,
+    `${window.API_BASE_URL}/api/public/v1/members`,
     customErrorHandler
   )(params)(dispatch)
     .then((members) => {

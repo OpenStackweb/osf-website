@@ -103,10 +103,10 @@ export const JoinPageTemplate = ({
                             })}
                         </div>
                         <div className="communities-icons">
-                            <div class="section-bg-green-logos-container">
+                            <div className="section-bg-green-logos-container">
                                 {communities.logos.map((logo, index) => {
                                     return (
-                                        <div class="section-bg-green-logo" key={`logo-${index}`}>
+                                        <div className="section-bg-green-logo" key={`logo-${index}`}>
                                             <img src={
                                                 (logo.img?.extension === 'svg' || logo.img?.extension === 'gif') && !logo.img?.childImageSharp ?
                                                     logo.img?.publicURL

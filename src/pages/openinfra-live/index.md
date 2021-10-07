@@ -29,6 +29,7 @@ episodes:
       Ibrahim Derraz (Exaion; Operator)
       Slawek Kaplonski (Red Hat; ex-Neutron PTL)
       Lajos Katona (Ericsson; Neutron PTL)
+      Mohammed Naser (CEO at VEXXHOST)
       Michal Nasiadka (StackHPC; Kolla-Ansible PTL)
 
     youtubeLink: https://www.youtube.com/watch?v=4ZLqILbLIpQ

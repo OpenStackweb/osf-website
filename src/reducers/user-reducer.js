@@ -9,7 +9,8 @@ import {
   AFFILIATION_DELETED,
   MEMBERSHIP_TYPE_UPDATED,
   GET_MEMBERS,
-  GET_MEMBERS_SUCCESS
+  GET_MEMBERS_SUCCESS,
+  GET_MEMBERS_ERROR
 } from '../actions/user-actions'
 
 const DEFAULT_STATE = {
@@ -83,6 +84,9 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       const { data, current_page, last_page } = payload.response;
       return { ...state, members: { members_list: data, current_page, last_page, loading_members: false } }
     }
+    case GET_MEMBERS_ERROR: {      
+      return { ...state, members: { loading_members: false } }
+    }    
       break;
     default:
       return state;

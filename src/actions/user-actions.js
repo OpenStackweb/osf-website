@@ -24,6 +24,7 @@ export const AFFILIATION_ADDED = 'AFFILIATION_ADDED';
 export const ORGANIZATION_ADDED = 'ORGANIZATION_ADDED';
 export const GET_MEMBERS = 'GET_MEMBERS';
 export const GET_MEMBERS_SUCCESS = 'GET_MEMBERS_SUCCESS';
+export const GET_MEMBERS_ERROR = 'GET_MEMBERS_ERROR';
 
 export const getIDPProfile = () => (dispatch, getState) => {
 
@@ -60,6 +61,9 @@ export const getMembers = (keyword, letter, page) => (dispatch, getState) => {
   )(params)(dispatch)
     .then((members) => {
       console.log('members', members)
+    }).catch((e) => {
+      console.log(e);
+      dispatch(createAction(GET_MEMBERS_ERROR)())
     });
 }
 

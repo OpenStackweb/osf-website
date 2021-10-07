@@ -22,9 +22,7 @@ export const MemberListPageTemplate = ({
   current_page,
   last_page,
   loading_members
-}) => {
-
-  console.log('asda', loading_members)
+}) => {  
 
   const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',];  
 
@@ -88,9 +86,7 @@ export const MemberListPageTemplate = ({
   )
 }
 
-const MemberListPage = ({ isLoggedUser, getMembers, membersList, current_page, last_page, loading_members }) => {
-
-  console.log('page', loading_members)
+const MemberListPage = ({ isLoggedUser, getMembers, membersList, current_page, last_page, loading_members }) => {  
 
   const [keyword, setKeyword] = useState('');
   const [letter, setLetter] = useState('');

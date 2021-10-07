@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
 
 import { connect } from "react-redux";
-import { getMembers } from '../actions/user-actions';
+import { getMembers } from '../actions/member-actions';
 
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 import { Pagination } from 'react-bootstrap';
@@ -131,8 +131,8 @@ const MemberListPage = ({ isLoggedUser, getMembers, membersList, current_page, l
 
 export default connect(state => ({
   isLoggedUser: state.loggedUserState.isLoggedUser,
-  membersList: state.userState.members.members_list,
-  current_page: state.userState.members.current_page,
-  last_page: state.userState.members.last_page,
-  loading_members: state.userState.members.loading_members,
+  membersList: state.memberState.members_list,
+  current_page: state.memberState.current_page,
+  last_page: state.memberState.last_page,
+  loading_members: state.memberState.loading_members,
 }), { getMembers })(MemberListPage)

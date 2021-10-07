@@ -14,15 +14,16 @@ hero:
     Catch every episode on several streaming platforms, airing <strong>Thursdays
     at 14:00 UTC (9am CT)</strong>."
 episodes:
-  - hidden: true
-    date: 2021-10-14T14:00:05.859Z
-    episodeTitle: "Large Scale OpenStack: Neutron scaling best practices"
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4407685335953368/
     episodeDescription: "Networking is complex, and Neutron is one of the most
       difficult parts of OpenStack to scale. In this episode of the Large Scale
       OpenStack show, we will explore early architectural choices you can make,
       recommended drivers, features to avoid if your ultimate goal is to scale
       to a very large deployment. Join OpenStack developers and operators as
       they share their Neutron scaling best practices. "
+    calendarInvite: /static/invites/myevents.ics
+    hidden: true
+    date: 2021-10-14T14:00:05.859Z
     episodeSpeakers: |+
       Thierry Carrez (OpenInfra Foundation)
       David Comay (Bloomberg; Operator)
@@ -32,9 +33,10 @@ episodes:
       Mohammed Naser (CEO at VEXXHOST)
       Michal Nasiadka (StackHPC; Kolla-Ansible PTL)
 
-    youtubeLink: https://www.youtube.com/watch?v=4ZLqILbLIpQ
     youtubeEmbed: https://www.youtube.com/embed/4ZLqILbLIpQ
-    calendarInvite: /static/invites/myevents.ics
+    linkedinLink: https://www.linkedin.com/video/event/urn:li:ugcPost:6851936962715222016/
+    episodeTitle: "Large Scale OpenStack: Neutron scaling best practices"
+    youtubeLink: https://www.youtube.com/watch?v=4ZLqILbLIpQ
   - facebookLink: https://www.facebook.com/104139126308032/posts/4364096940312208/
     episodeDescription: Ceph is a highly scalable distributed-storage open source
       solution offering object, block, and file storage. Join us as various

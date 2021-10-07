@@ -22,7 +22,7 @@ episodes:
       to a very large deployment. Join OpenStack developers and operators as
       they share their Neutron scaling best practices. "
     calendarInvite: /static/invites/myevents.ics
-    hidden: true
+    hidden: false
     date: 2021-10-14T14:00:05.859Z
     episodeSpeakers: |+
       Thierry Carrez (OpenInfra Foundation)

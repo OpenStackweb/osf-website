@@ -2,7 +2,8 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 import { loggedUserReducer } from 'openstack-uicore-foundation/lib/reducers';
-import userReducer from '../reducers/user-reducer'
+import userReducer from '../reducers/user-reducer';
+import memberReducer from '../reducers/member-reducer';
 
 import thunk from 'redux-thunk';
 import { persistStore, persistCombineReducers } from 'redux-persist'
@@ -22,7 +23,8 @@ const config = {
 
 const persistedReducers = persistCombineReducers(config, {
   loggedUserState: loggedUserReducer,
-  userState: userReducer
+  userState: userReducer,
+  memberState: memberReducer
 });
 
 const composeEnhancers = typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : compose;

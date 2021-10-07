@@ -22,9 +22,6 @@ export const AFFILIATION_SAVED = 'AFFILIATION_SAVED';
 export const AFFILIATION_DELETED = 'AFFILIATION_DELETED';
 export const AFFILIATION_ADDED = 'AFFILIATION_ADDED';
 export const ORGANIZATION_ADDED = 'ORGANIZATION_ADDED';
-export const GET_MEMBERS = 'GET_MEMBERS';
-export const GET_MEMBERS_SUCCESS = 'GET_MEMBERS_SUCCESS';
-export const GET_MEMBERS_ERROR = 'GET_MEMBERS_ERROR';
 
 export const getIDPProfile = () => (dispatch, getState) => {
 
@@ -43,28 +40,6 @@ export const getIDPProfile = () => (dispatch, getState) => {
     customErrorHandler
   )(params)(dispatch)
     .then(() => dispatch(dispatch(createAction(STOP_LOADING_IDP_PROFILE))));
-}
-
-export const getMembers = (keyword, letter, page) => (dispatch, getState) => {
-
-  let params = {
-    filter: `active==1,group_slug==foundation-members${keyword ? `,last_name=@${keyword},first_name=@${keyword},full_name=@${keyword},github_user=@${keyword},irc=@${keyword}` : letter ? `,last_name=@${letter}` : ''}`,
-    per_page: 100,
-    page: page || 1
-  };
-
-  return getRequest(
-    createAction(GET_MEMBERS),
-    createAction(GET_MEMBERS_SUCCESS),
-    `${window.API_BASE_URL}/api/public/v1/members`,
-    customErrorHandler
-  )(params)(dispatch)
-    .then((members) => {
-      console.log('members', members)
-    }).catch((e) => {
-      console.log(e);
-      dispatch(createAction(GET_MEMBERS_ERROR)())
-    });
 }
 
 /******************************  AFFILIATIONS **************************************************/

@@ -77,17 +77,6 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       return { ...state, currentMembershipType: member.membership_type };
     }
       break;
-    case GET_MEMBERS: {      
-      return { ...state, members: { loading_members: true } }
-    }
-    case GET_MEMBERS_SUCCESS: {
-      const { data, current_page, last_page } = payload.response;
-      return { ...state, members: { members_list: data, current_page, last_page, loading_members: false } }
-    }
-    case GET_MEMBERS_ERROR: {      
-      return { ...state, members: { loading_members: false } }
-    }    
-      break;
     default:
       return state;
   }

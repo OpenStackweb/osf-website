@@ -17,8 +17,7 @@ const DEFAULT_STATE = {
   loadingIDP: false,
   idpProfile: null,
   currentMembershipType: null,
-  currentAffiliations: [],
-  members: null,
+  currentAffiliations: []
 }
 
 const userReducer = (state = DEFAULT_STATE, action) => {

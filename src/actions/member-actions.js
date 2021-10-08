@@ -13,7 +13,7 @@ export const getMembers = (keyword, letter, page) => (dispatch, getState) => {
 
   let params = {
     filter: `active==1,group_slug==foundation-members${keyword ? `,last_name=@${keyword},first_name=@${keyword},full_name=@${keyword},github_user=@${keyword},irc=@${keyword}` : letter ? `,last_name=@@${letter}` : ''}`,
-    per_page: 100,
+    per_page: 50,
     page: page || 1
   };
 

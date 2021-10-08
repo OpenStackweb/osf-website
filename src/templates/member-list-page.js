@@ -98,12 +98,12 @@ const MemberListPage = ({ isLoggedUser, getMembers, membersList, current_page, l
     } else {
       setKeyword(() => '');
       setLetter(l);
-      getMembers(null, l, 1);
+      getMembers(null, l);
     }
   }
 
-  const changePage = (ev) => {    
-    getMembers(keyword, letter, ev);
+  const changePage = (page) => {    
+    getMembers(keyword, letter, page);
   }
 
   useEffect(() => {

@@ -1,0 +1,52 @@
+/* ------------------------------------------------------------ *\
+    Keynotes Promo Banner
+\* ------------------------------------------------------------ */
+
+.live-keynotes-promo-v2 {
+  margin-top: 60px;
+  padding: 60px 0 60px 0;
+  width: 100%;
+  background-color: black;
+
+  .live-kp-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+    align-items: center;
+  }
+  
+  .text-area {
+    width: 50%;
+    display: flex;
+    align-content: center;
+  }
+
+  .image-area {
+    width: 50%;
+  }
+
+  .upper-title {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.6;
+    
+  }
+
+  .title {
+    font-family: Jura;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 48px;
+    letter-spacing: -0.6px;
+    margin-top: unset !important; 
+    padding-top: 15px; 
+    color: white;
+  }
+
+}
+

@@ -10,6 +10,7 @@ import SEO from '../components/SEO'
 import Hero from '../components/Hero'
 import ColorBar from '../img/color-bar.png'
 import leftArrow from '../img/svg/arrow-left.svg'
+import IdeasBannerV2 from '../components/IdeasBannerV2'
 
 import { connect } from "react-redux";
 
@@ -253,23 +254,7 @@ export const OpenInfraLiveTemplate = ({
                 })}
                 {/* End single episode */}
               </div>
-              <div className="ideas-banner">
-                <div>
-                  <h2>
-                    <img src="/img/icons/bulb.svg" alt="Share ideas for OpenInfra Live" />
-                    Have an idea for an episode of OpenInfra Live?
-                  </h2>
-                  <p>
-                    If you have any topics you would like to propose for an upcoming episode, please share your ideas with us! If selected, we’ll reach out to you to discuss details. We look forward to hearing your ideas!
-                  </p>
-                </div>
-                <div>
-                  <a href="//openinfrafoundation.formstack.com/forms/openinfralive">
-                    Share now
-                  </a>
-                </div>
-                <img src={ColorBar} className="multi-color-border" alt="Color Bar" />
-              </div>
+                <IdeasBannerV2 />
             </div>
           </section>
           <section className="live-section">

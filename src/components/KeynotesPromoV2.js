@@ -17,6 +17,11 @@ class KeynotesPromoV2 extends React.Component {
                       <img className="cal-icon" src={CalIcon} /> 
                       <p className="promo-dates"> November 17 and 18 at 9am CT/1500 UTC</p>
                     </div>
+                    <div className="buttons-row">
+                      <button className="button med-button-red">Register Now<img className="cta-arrow" src={leftArrow} alt="" /></button>
+                      <button className="button med-button-nobg">Register Now<img className="cta-arrow" src={leftArrow} alt="" /></button>
+                    </div>
+                    
                 </div>
             </div>
           <div className="image-area"><img src={OILiveComp} /></div>

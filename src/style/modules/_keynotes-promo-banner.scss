@@ -4,7 +4,6 @@
 
 .live-keynotes-promo-v2 {
   margin-top: 60px;
-  padding: 60px 0 60px 0;
   width: 100%;
   background-color: black;
 
@@ -13,18 +12,53 @@
     flex-direction: row;
     max-width: 1170px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 60px 15px 60px 15px;
     align-items: center;
+  }
+
+  @media (max-width: 767px) {
+    .live-kp-container {
+      flex-direction: column;
+    }
+  }
+  
+.text {
+  margin: 0 15px;
+}
+
+  @media (max-width: 767px) {
+    .text {
+      margin: 0 15px 0 15px;
+    }
   }
   
   .text-area {
+    order: 1;
     width: 50%;
     display: flex;
     align-content: center;
   }
 
+  @media (max-width: 767px) {
+    .text-area  {
+      text-align: center;
+      order: 2;
+      width: 100%;
+      margin: 0 30px 0 30px;
+    }
+  }
+
   .image-area {
+    order: 2;
     width: 50%;
+  }
+
+  @media (max-width: 767px) {
+    .image-area {
+      order: 1;
+      width: 100%;
+      margin-bottom: 24px;
+    }
   }
 
   .upper-title {
@@ -59,6 +93,12 @@
     align-items: center;
   }
 
+  @media (max-width: 767px) {
+    .dates-row {
+      justify-content: center;
+    }
+  }
+
   .cal-icon {
     margin-right: 10px;
   }
@@ -66,6 +106,12 @@
   .promo-dates {
     font-size: 17px;
     color: #F7B749;
+  }
+
+  @media (max-width: 767px) {
+    .buttons-row {
+      margin-top: 15px;
+    }
   }
 
   .med-button-red {
@@ -79,8 +125,15 @@
     padding: 0 30px 0 30px;
     transition: background 0.3s;
   }
+  
   .med-button-red:hover {
     background-color:#9a0c28
+  }
+
+  @media (max-width: 767px) {
+    .med-button-red {
+      font-size: 17px;
+    }
   }
 
   .med-button-nobg {
@@ -97,6 +150,12 @@
 
   .med-button-nobg:hover {
     opacity: 0.8;
+  }
+
+  @media (max-width: 767px) {
+    .med-button-nobg {
+      font-size: 17px;
+    }
   }
   
 

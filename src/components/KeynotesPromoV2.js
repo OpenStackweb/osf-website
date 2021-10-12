@@ -18,8 +18,8 @@ class KeynotesPromoV2 extends React.Component {
                       <p className="promo-dates"> November 17 and 18 at 9am CT/1500 UTC</p>
                     </div>
                     <div className="buttons-row">
-                      <button className="button med-button-red">Register Now<img className="cta-arrow" src={leftArrow} alt="" /></button>
-                      <button className="button med-button-nobg">Register Now<img className="cta-arrow" src={leftArrow} alt="" /></button>
+                      <a href="https://www.eventbrite.com/e/openinfra-live-keynotes-tickets-169507530587"><button className="button med-button-red">Register Now<img className="cta-arrow" src={leftArrow} alt="" /></button></a>
+                      <a href="/live/keynotes"><button className="button med-button-nobg">Learn More<img className="cta-arrow" src={leftArrow} alt="" /></button></a>
                     </div>
                     
                 </div>

@@ -1,0 +1,71 @@
+.ideas-banner {
+  display: flex;
+  position: relative;
+  background-color: $dark;
+  color: $white;
+  margin-top: 4rem;
+  padding: 2rem 4rem 3rem;
+  border-radius: 4px;
+  align-items: center;
+  column-gap: 20px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
+  h2 {
+    color: $white;
+    font-family: "Jura", "Helvetica", sans-serif;
+    font-weight: 700;
+    vertical-align: middle;
+    img {
+      max-height: 25px;
+      margin-right: 0.75rem;
+      margin-top: -5px;
+    }
+  }
+  a {
+    border: 1px solid $white;
+    color: $white;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    text-align: center;
+    white-space: nowrap;
+    display: block;
+    &:hover,
+    &:focus {
+      background: $white;
+      color: $dark;
+    }
+    @media (max-width: 768px) {
+      margin-top: 2rem;
+    }
+  }
+  .multi-color-border {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  &.keynotes-promo {
+    margin-bottom: 4rem;
+    justify-content: space-between;
+    .dates {
+      font-size: 0.9em;
+    }
+    a.learn-link {
+      border: none;
+      border-radius: 0;
+      color: $gray;
+      display: inline-block;
+      margin-left: 2rem;
+      text-decoration: underline;
+      padding: 0;
+      &:hover,
+      &:focus {
+        background-color: transparent;
+        color: $white;
+      }
+    }
+  }
+}

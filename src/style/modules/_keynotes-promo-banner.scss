@@ -40,13 +40,34 @@
   .title {
     font-family: Jura;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 48px;
     letter-spacing: -0.6px;
     margin-top: unset !important; 
     padding-top: 15px; 
     color: white;
   }
+
+  .promo-para {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .dates-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .cal-icon {
+    margin-right: 10px;
+  }
+
+  .promo-dates {
+    font-size: 17px;
+    color: #F7B749;
+  }
+
 
 }
 

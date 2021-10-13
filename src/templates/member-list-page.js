@@ -40,7 +40,7 @@ export const MemberListPageTemplate = ({
         <div className="content">
           <section className="section about-s1-main">
             <div className="container about-s1-container">
-              {election_status.status === 'NominationsOpen' &&
+              {election_status?.status === 'NominationsOpen' &&
                 <div className="nomination-open">
                   <h3>Happening Now: Individual Board Member Nominations</h3>
                   <p>

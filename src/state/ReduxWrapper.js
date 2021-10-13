@@ -4,6 +4,7 @@ import { createStore, applyMiddleware, compose } from 'redux';
 import { loggedUserReducer } from 'openstack-uicore-foundation/lib/reducers';
 import userReducer from '../reducers/user-reducer';
 import memberReducer from '../reducers/member-reducer';
+import electionReducer from '../reducers/election-reducer';
 
 import thunk from 'redux-thunk';
 import { persistStore, persistCombineReducers } from 'redux-persist'
@@ -24,7 +25,8 @@ const config = {
 const persistedReducers = persistCombineReducers(config, {
   loggedUserState: loggedUserReducer,
   userState: userReducer,
-  memberState: memberReducer
+  memberState: memberReducer,
+  electionState: electionReducer
 });
 
 const composeEnhancers = typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : compose;

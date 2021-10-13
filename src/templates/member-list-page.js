@@ -7,6 +7,7 @@ import SEO from '../components/SEO'
 
 import { connect } from "react-redux";
 import { getMembers } from '../actions/member-actions';
+import { getElectionStatus } from '../actions/election-actions';
 
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 import { Pagination } from 'react-bootstrap';
@@ -21,10 +22,11 @@ export const MemberListPageTemplate = ({
   membersList,
   current_page,
   last_page,
-  loading_members
+  loading_members,
+  election_status
 }) => {
 
-  const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',];  
+  const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',];
 
   return (
     <div>
@@ -33,11 +35,21 @@ export const MemberListPageTemplate = ({
         <Navbar isLoggedUser={isLoggedUser} />
         <Header title='Open Infrastructure Foundation' subTitle='Member Directory' />
       </div>
-      <AjaxLoader show={ loading_members } size={ 120 }/>
+      <AjaxLoader show={loading_members} size={120} />
       <main className="main">
         <div className="content">
           <section className="section about-s1-main">
             <div className="container about-s1-container">
+              {election_status.status === 'NominationsOpen' &&
+                <div className="nomination-open">
+                  <h3>Happening Now: Individual Board Member Nominations</h3>
+                  <p>
+                    The OpenStack community is currently nominating members for the <a href="">{election_status.name} </a>
+                    (as Individual Board Members). To nominate someone search for them using the directory and
+                    click the Nominate button in their profile.
+                  </p>
+                </div>
+              }
               <div className="member-list-search">
                 <form onSubmit={(ev) => { ev.preventDefault(); searchMembers(keyword) }}>
                   <label>Search Member</label>
@@ -86,13 +98,13 @@ export const MemberListPageTemplate = ({
   )
 }
 
-const MemberListPage = ({ isLoggedUser, getMembers, membersList, current_page, last_page, loading_members }) => {  
+const MemberListPage = ({ isLoggedUser, getMembers, getElectionStatus, membersList, current_page, last_page, loading_members, election_status }) => {
 
   const [keyword, setKeyword] = useState('');
   const [letter, setLetter] = useState('');
 
-  const changeParam = (key, l) => {    
-    if(key) {
+  const changeParam = (key, l) => {
+    if (key) {
       setLetter(() => '');
       setKeyword(key)
     } else {
@@ -102,12 +114,13 @@ const MemberListPage = ({ isLoggedUser, getMembers, membersList, current_page, l
     }
   }
 
-  const changePage = (page) => {    
+  const changePage = (page) => {
     getMembers(keyword, letter, page);
   }
 
   useEffect(() => {
     getMembers();
+    getElectionStatus();
   }, [])
 
   return (
@@ -124,6 +137,7 @@ const MemberListPage = ({ isLoggedUser, getMembers, membersList, current_page, l
         current_page={current_page}
         last_page={last_page}
         loading_members={loading_members}
+        election_status={election_status}
       />
     </Layout>
   )
@@ -135,4 +149,5 @@ export default connect(state => ({
   current_page: state.memberState.current_page,
   last_page: state.memberState.last_page,
   loading_members: state.memberState.loading_members,
-}), { getMembers })(MemberListPage)
+  election_status: state.electionState.election_status,
+}), { getMembers, getElectionStatus })(MemberListPage)

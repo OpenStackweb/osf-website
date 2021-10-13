@@ -4,18 +4,19 @@ import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
-
+import NominationModal from '../components/NominationModal';
 
 import { connect } from "react-redux";
 import { getMemberProfile, getElectionMemberProfile } from '../actions/member-actions';
 import { getElectionStatus } from '../actions/election-actions';
 
 import { doLogin, formatEpoch } from 'openstack-uicore-foundation/lib/methods'
-import NominationModal from '../components/NominationModal';
+import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 
 export const MemberProfilePageTemplate = ({
   isLoggedUser,
   member_profile,
+  loading_members,
   nomination_open
 }) => {
 
@@ -37,7 +38,7 @@ export const MemberProfilePageTemplate = ({
         <Navbar isLoggedUser={isLoggedUser} />
         <Header title='Open Infrastructure Foundation' subTitle='Individual Member Profile' />
       </div>
-      {/* <AjaxLoader show={loading_members} size={120} /> */}
+      <AjaxLoader show={loading_members} size={120} />
       {member_profile &&
         <main className="main">
           <div className="content">
@@ -155,7 +156,7 @@ export const MemberProfilePageTemplate = ({
                       <span className="profile-title-election">Election</span>
                       <span className="profile-text">Nominations are open for the <a href="">2021 Board Elections.</a></span>
                       <br />
-                      <button className="profile-nominate-button" onClick={isLoggedUser ? null : onClickLogin}>
+                      <button className="profile-nominate-button" onClick={isLoggedUser ? () => setNominationModal(!nominationModal) : () => onClickLogin}>
                         {isLoggedUser ?
                           `Nominate ${member_profile.first_name} ${member_profile.last_name}`
                           :
@@ -177,7 +178,16 @@ export const MemberProfilePageTemplate = ({
   )
 }
 
-const MemberProfilePage = ({ isLoggedUser, memberId, getMemberProfile, getElectionMemberProfile, member_profile, getElectionStatus, election_status }) => {
+const MemberProfilePage = ({
+  isLoggedUser,
+  memberId,
+  getMemberProfile,
+  getElectionMemberProfile,
+  member_profile,
+  getElectionStatus,
+  election_status,
+  loading_members
+}) => {
 
   const nomination_open = election_status.status === 'NominationsOpen' ? true : false;
 
@@ -198,6 +208,7 @@ const MemberProfilePage = ({ isLoggedUser, memberId, getMemberProfile, getElecti
       <MemberProfilePageTemplate
         isLoggedUser={isLoggedUser}
         member_profile={member_profile}
+        loading_members={loading_members}
         nomination_open={election_status.status === 'NominationsOpen'}
       />
     </Layout>
@@ -207,5 +218,6 @@ const MemberProfilePage = ({ isLoggedUser, memberId, getMemberProfile, getElecti
 export default connect(state => ({
   isLoggedUser: state.loggedUserState.isLoggedUser,
   member_profile: state.memberState.member_profile,
+  loading_members: state.memberState.loading_members,
   election_status: state.electionState.election_status,
 }), { getMemberProfile, getElectionStatus, getElectionMemberProfile })(MemberProfilePage)

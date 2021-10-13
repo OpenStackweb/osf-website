@@ -2,8 +2,6 @@ import React from 'react'
 
 const NominationModal = ({ member_profile, closeModal, nominateMember }) => {
 
-    console.log('member profile', member_profile)
-
     const getModalTitle = () => {
         return member_profile.election_applications?.length > 9 ?
             'This candidate has already received 10 nominations.'
@@ -46,14 +44,14 @@ const NominationModal = ({ member_profile, closeModal, nominateMember }) => {
                         {getModalText()}
                     </span>
                     {getModalButtons()}
-                    <article class="message is-success">
-                        <div class="message-header">
+                    {/* <article className="message is-success">
+                        <div className="message-header">
                             <p>Success</p>
                         </div>
-                        <div class="message-body">
+                        <div className="message-body">
                             You've just nominated {member_profile.first_name} for the Open Infrastructure Foundation Board
                         </div>
-                    </article>
+                    </article> */}
                 </div>
             </div>
             <button className="modal-close is-large" onClick={closeModal} aria-label="close" />

@@ -16,6 +16,7 @@ import LinkComponent from '../components/LinkComponent';
 export const MemberListPageTemplate = ({
   isLoggedUser,
   keyword,
+  letter,
   changeKeyword,
   changeLetter,
   changePage,
@@ -61,7 +62,7 @@ export const MemberListPageTemplate = ({
               <div className="member-list-letters">
                 {letters.map((l, index) => {
                   return (
-                    <span onClick={() => changeLetter(l)} key={`letter-${index}`}>{l}</span>
+                    <span onClick={() => changeLetter(l)} className={letter === l ? 'letter-selected' : ''} key={`letter-${index}`}>{l}</span>
                   )
                 })}
               </div>
@@ -102,7 +103,7 @@ export const MemberListPageTemplate = ({
 const MemberListPage = ({ isLoggedUser, getMembers, getElectionStatus, membersList, current_page, last_page, loading_members, election_status }) => {
 
   const [keyword, setKeyword] = useState('');
-  const [letter, setLetter] = useState('');
+  const [letter, setLetter] = useState('A');
 
   const changeParam = (key, l) => {
     if (key) {
@@ -120,7 +121,7 @@ const MemberListPage = ({ isLoggedUser, getMembers, getElectionStatus, membersLi
   }
 
   useEffect(() => {
-    getMembers();
+    getMembers(null, letter);
     getElectionStatus();
   }, [])
 
@@ -130,6 +131,7 @@ const MemberListPage = ({ isLoggedUser, getMembers, getElectionStatus, membersLi
       <MemberListPageTemplate
         isLoggedUser={isLoggedUser}
         keyword={keyword}
+        letter={letter}
         changeKeyword={(ev) => changeParam(ev, null)}
         changeLetter={(ev) => changeParam(null, ev)}
         changePage={changePage}

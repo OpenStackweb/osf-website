@@ -21,6 +21,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
   hero,
   intro,
   statSection,
+  whatToExpect,
   headlineSponsor,
   supportingSponsors,
   featuredSpeakers,
@@ -80,12 +81,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
               <div className="live-kp-container smaller-container">
                 <div className="text-area">                
                   <div className="text">
-                    <p>OpenInfra Live: Keynotes will cover open source project production use cases, how to get started contributing and the role vendors play in the community.</p>
-                    <ul>
-                      <li>Exclusive announcements from the OpenInfra Foundation</li>
-                      <li>Users deploying hybrid cloud scenarios in production and how open source projects like OpenStack and Kubernetes make them scale</li>
-                      <li>OpenInfra production deployments growing by up to 200%</li>
-                    </ul>
+                    <p dangerouslySetInnerHTML={{ __html: whatToExpect.text }} />
                   </div>
                 </div>
                 <div className="image-area">
@@ -255,6 +251,9 @@ export const OpenInfraLiveKeynotesPageQuery = graphql`
           buttonURL
         }
         intro {
+          text
+        }
+        whatToExpect {
           text
         }
         statSection {

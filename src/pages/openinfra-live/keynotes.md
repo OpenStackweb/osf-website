@@ -23,6 +23,12 @@ intro:
     play, and celebrate as we announce this year’s Superuser Awards winner. This
     will be the one time everyone will be coming together this year. Come
     interact with the global OpenInfra community—Live!
+whatToExpect:
+  text: We will cover open source project production use cases, how to get started contributing and the role vendors play in the community.                    <ul>
+                      <li>Exclusive announcements from the OpenInfra Foundation</li>
+                      <li>Users deploying hybrid cloud scenarios in production and how open source projects like OpenStack and Kubernetes make them scale</li>
+                      <li>OpenInfra production deployments growing by up to 200%</li>
+                    </ul>
 statSection:
   leftColumn:
     title: What can you expect?

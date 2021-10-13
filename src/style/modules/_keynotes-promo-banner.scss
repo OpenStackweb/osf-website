@@ -86,12 +86,6 @@
     color: white;
   }
 
-  .promo-para {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
-  }
-
   @media (max-width: 767px) {
     .buttons-row {
       margin-top: 15px;
@@ -167,6 +161,12 @@
   .live-keynotes-promo-v2 {
     max-height: unset;
   }
+}
+
+.promo-para {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
 }
 
 .dates-row {

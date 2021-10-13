@@ -46,6 +46,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                 <div className="text">
                   <span>{hero.subtitle}</span>
                   <h1>{hero.title}</h1>
+                  <p className="promo-para" dangerouslySetInnerHTML={{ __html: hero.tagline }} />
                   <div className="dates-row">
                       <img className="cal-icon" src={CalIcon} /> 
                       <p className="promo-dates" dangerouslySetInnerHTML={{ __html: hero.description }} />
@@ -221,6 +222,7 @@ export const OpenInfraLiveKeynotesPageQuery = graphql`
         hero {
           subtitle
           title
+          tagline
           description
           buttonText
           buttonURL

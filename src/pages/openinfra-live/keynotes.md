@@ -9,6 +9,7 @@ seo:
 hero:
   subtitle: Join us for
   title: "OpenInfra Live: Keynotes"
+  tagline: "Exclusive Announcements. Live Demos. OpenStack + Kubernetes. Hybrid Cloud Economics."
   description: November 17 and 18 at 9am CT / 1500 UTC
   buttonText: Register Now
   buttonURL: https://openinfralivekeynotes.eventbrite.com

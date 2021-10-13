@@ -92,35 +92,6 @@
     line-height: 28px;
   }
 
-  .dates-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  @media (max-width: 767px) {
-    .dates-row {
-      justify-content: center;
-    }
-  }
-
-  .cal-icon {
-    margin-right: 10px;
-    width: 17px;
-  }
-
-  .promo-dates {
-    font-size: 17px;
-    color: #F7B749;
-  }
-
-  @media (max-width: 767px) {
-    .promo-dates {
-      font-size: 15px;
-    }
-  }
-
-
   @media (max-width: 767px) {
     .buttons-row {
       margin-top: 15px;
@@ -198,3 +169,31 @@
   }
 }
 
+.dates-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #f7b84a;
+}
+
+@media (max-width: 767px) {
+  .dates-row {
+    justify-content: center;
+  }
+}
+
+.cal-icon {
+  margin-right: 10px;
+  width: 17px;
+}
+
+.promo-dates {
+  font-size: 17px;
+  color: #f7b84a !important;
+}
+
+@media (max-width: 767px) {
+  .promo-dates {
+    font-size: 15px;
+  }
+}

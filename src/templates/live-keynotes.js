@@ -9,7 +9,7 @@ import SEO from '../components/SEO'
 import SpeakerCard from "../components/SpeakerCard";
 import ColorBar from '../img/color-bar.png'
 import leftArrow from '../img/svg/arrow-left.svg'
-
+import CalIcon from '../../static/img/calendar-alt1.svg'
 import { connect } from "react-redux";
 
 export const OpenInfraLiveKeynotesTemplate = ({
@@ -46,7 +46,11 @@ export const OpenInfraLiveKeynotesTemplate = ({
                 <div className="text">
                   <span>{hero.subtitle}</span>
                   <h1>{hero.title}</h1>
-                  <p className="dates" dangerouslySetInnerHTML={{ __html: hero.description }} />
+                  <div className="dates-row">
+                      <img className="cal-icon" src={CalIcon} /> 
+                      <p className="promo-dates" dangerouslySetInnerHTML={{ __html: hero.description }} />
+                  </div>
+                  <br />
                   <a href={hero.buttonURL} className="cta">
                     {hero.buttonText}
                     <img src={leftArrow} alt="" />

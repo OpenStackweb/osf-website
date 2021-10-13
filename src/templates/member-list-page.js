@@ -11,6 +11,7 @@ import { getElectionStatus } from '../actions/election-actions';
 
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 import { Pagination } from 'react-bootstrap';
+import LinkComponent from '../components/LinkComponent';
 
 export const MemberListPageTemplate = ({
   isLoggedUser,
@@ -68,7 +69,7 @@ export const MemberListPageTemplate = ({
                 {membersList?.map((member, index) => {
                   return (
                     <span key={`member-${index}`}>
-                      {`${member.first_name} ${member.last_name}`}
+                      <LinkComponent href={`/a/community/members/${member.id}`}>{`${member.first_name} ${member.last_name}`}</LinkComponent>
                     </span>
                   )
                 })}

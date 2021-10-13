@@ -30,7 +30,7 @@ projectList:
     class: projects-s2
     title: AIRSHIP
     subTitle: Making lifecycle management for open infrastructure simple, repeatable
-      & resilent.
+      & resilient.
     links:
       - link: http://lists.airshipit.org/cgi-bin/mailman/listinfo
         text: Mailing Lists
@@ -109,7 +109,7 @@ projectList:
       link: https://starlingx.io/
       text: starlingx.io
     class: projects-s4
-    title: STARLING X
+    title: STARLINGX
     subTitle: Edge cloud computing infrastructure for high performance, ultra-low
       latency applications.
     links:

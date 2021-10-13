@@ -10,6 +10,8 @@ import SpeakerCard from "../components/SpeakerCard";
 import ColorBar from '../img/color-bar.png'
 import leftArrow from '../img/svg/arrow-left.svg'
 import CalIcon from '../../static/img/calendar-alt1.svg'
+import OILiveComp from '../../static/img/oi-live-comp.png'
+import DiagonalBG from '../../static/img/diagonal.svg'
 import { connect } from "react-redux";
 
 export const OpenInfraLiveKeynotesTemplate = ({
@@ -48,7 +50,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                   <h1>{hero.title}</h1>
                   <p className="promo-para" dangerouslySetInnerHTML={{ __html: hero.tagline }} />
                   <div className="dates-row">
-                      <img className="cal-icon" src={CalIcon} /> 
+                      <img className="cal-icon" src={CalIcon} alt="Calendar Icon" /> 
                       <p className="promo-dates" dangerouslySetInnerHTML={{ __html: hero.description }} />
                   </div>
                   <br />
@@ -71,6 +73,31 @@ export const OpenInfraLiveKeynotesTemplate = ({
               </div>
             </div>
           </section>
+
+          <section className="what-to-expect">
+            <div className="live-keynotes-promo-v2 no-top-margin">
+              <h3 className="small-title">What To Expect</h3>
+              <div className="live-kp-container smaller-container">
+                <div className="text-area">                
+                  <div className="text">
+                    <p>OpenInfra Live: Keynotes will cover open source project production use cases, how to get started contributing and the role vendors play in the community.</p>
+                    <ul>
+                      <li>Exclusive announcements from the OpenInfra Foundation</li>
+                      <li>Users deploying hybrid cloud scenarios in production and how open source projects like OpenStack and Kubernetes make them scale</li>
+                      <li>OpenInfra production deployments growing by up to 200%</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="image-area">
+                  <img src={OILiveComp} />
+                </div>
+              </div>
+              <div className="diagonal-bg-container">
+                <img className="diagonal-bg" src={DiagonalBG} />
+              </div>
+            </div>
+          </section>
+
           <section className="live-section">
             <div className="container">
               <section className="keynotes-bullets">

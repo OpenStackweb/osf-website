@@ -43,7 +43,7 @@
   force = true  
 # Deploy Preview context: all deploys generated from a pull/merge request will
 # inherit these settings.
-[context."feature/elections".environment]
+[context.branch-deploy.environment]
   GATSBY_IDP_BASE_URL="https://testopenstackid.openstack.org"
   GATSBY_OAUTH2_CLIENT_ID="h1wVTVm75TJSmVcKtVXtYeqc-NKqMH86.openstack.client"
   GATSBY_API_BASE_URL="https://testresource-server.openstack.org"

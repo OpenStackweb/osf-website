@@ -20,7 +20,8 @@
   }
 
   .smaller-container {
-    max-width: 1080px;
+    width: 90%;
+    max-width: 1060px;
     padding: 40px 15px 60px 15px;
   }
 
@@ -32,7 +33,7 @@
   }
   
 .text {
-  margin: 0 15px;
+  margin: 0 15px 0 0;
 }
 
   @media (max-width: 767px) {

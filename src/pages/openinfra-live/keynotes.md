@@ -59,7 +59,11 @@ supportingSponsors:
     - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
 featuredSpeakers:
   title: FEATURED SPEAKERS
-  speakers: []
+  speakers:
+    - name: Martin Casado
+      company: Andreessen Horowitz
+      pic: /img/martincasado.jpeg
+      presentationTitle: Partner
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

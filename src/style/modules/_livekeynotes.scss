@@ -325,6 +325,7 @@ h3.small-title {
   width: 33%;
   border-radius: 10px;
   margin: 0 15px 30px 15px;
+  transition-duration:.2s;
 
   @media (max-width: 767px) {
       width: 100%;
@@ -335,6 +336,9 @@ h3.small-title {
 
 }
 
+.project-logo:hover {
+  box-shadow:0 0 10px #16161618;
+}
 .project-logo-inner {
   width: 65%;
 }

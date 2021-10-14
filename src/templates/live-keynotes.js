@@ -14,6 +14,11 @@ import OILiveComp from '../../static/img/oi-live-comp.png'
 import DiagonalBG from '../../static/img/diagonal.svg'
 import { connect } from "react-redux";
 import Airship from '../../static/img/live/Airship_Logo_Horizontal_2Color_RGB.svg'
+import Kata from '../../static/img/live/KataContainers_Logo_Horiz_2Color_RGB.svg'
+import OILabs from '../../static/img/live/OpenInfraLabs-Logo-RGB-Horiz.svg'
+import OpenStack from '../../static/img/live/openstack-logo-horizontal.svg'
+import StarlingX from '../../static/img/live/StarlingX_Logo_RGB_Horizontal_2color.svg'
+import Zuul from '../../static/img/live/Zuul_Logo_Full_Horizontal_RGB_DarkBlue.svg'
 
 
 export const OpenInfraLiveKeynotesTemplate = ({
@@ -109,15 +114,15 @@ export const OpenInfraLiveKeynotesTemplate = ({
 
               <div className="project-logos">
                 <div className="project-logo-row">
-                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} /></a>
-                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} /></a>
-                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} /></a>
+                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} alt="Airship" /></a>
+                  <a href="https://katacontainers.io/" className="project-logo"><img className="project-logo-inner" src={Kata} alt="KataContainers" /></a>
+                  <a href="https://openinfralabs.org/" className="project-logo"><img className="project-logo-inner" src={OILabs} alt="OpenInfra Labs"/></a>
                 </div>
 
                 <div className="project-logo-row">
-                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} /></a>
-                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} /></a>
-                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} /></a>
+                  <a href="https://www.openstack.org/" className="project-logo"><img className="project-logo-inner" src={OpenStack} alt="OpenStack" /></a>
+                  <a href="https://www.starlingx.io/" className="project-logo"><img className="project-logo-inner" src={StarlingX} alt="StarlingX" /></a>
+                  <a href="https://zuul-ci.org/" className="project-logo"><img className="project-logo-inner" src={Zuul} alt="Zuul" /></a>
                 </div>
               </div>
               <p dangerouslySetInnerHTML={{ __html: featuredProjects.text }} />

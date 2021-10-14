@@ -30,7 +30,7 @@ export const getMembers = (keyword, letter, page = 1) => (dispatch, getState) =>
   }
 
   let params = {
-    filter,
+    'filter[]': filter;,
     per_page: 50,
     page: page
   };

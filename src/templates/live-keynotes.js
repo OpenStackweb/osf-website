@@ -121,7 +121,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
             </div>
           </section>
 
-          <section className="live-section">
+{/*          <section className="live-section">
             <div className="container">
               <section className="keynotes-bullets">
                 <div className="stat-section">
@@ -142,7 +142,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                 ))}
               </section>
             </div>
-          </section>
+          </section>*/}
           <section className="keynotes-sponsors">
             <div className="container">
               <section className="sponsor-section headline">

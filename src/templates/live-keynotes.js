@@ -13,6 +13,8 @@ import CalIcon from '../../static/img/calendar-alt1.svg'
 import OILiveComp from '../../static/img/oi-live-comp.png'
 import DiagonalBG from '../../static/img/diagonal.svg'
 import { connect } from "react-redux";
+import Airship from '../../static/img/live/Airship_Logo_Horizontal_2Color_RGB.svg'
+
 
 export const OpenInfraLiveKeynotesTemplate = ({
   isLoggedUser,
@@ -106,14 +108,15 @@ export const OpenInfraLiveKeynotesTemplate = ({
 
               <div className="project-logos">
                 <div className="project-logo-row">
-                  <div className="project-logo">Project logo</div>
-                  <div className="project-logo">Project logo</div>
-                  <div className="project-logo">Project logo</div>
+                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} /></a>
+                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} /></a>
+                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} /></a>
                 </div>
+
                 <div className="project-logo-row">
-                  <div className="project-logo">Project logo</div>
-                  <div className="project-logo">Project logo</div>
-                  <div className="project-logo">Project logo</div>
+                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} /></a>
+                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} /></a>
+                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} /></a>
                 </div>
               </div>
 
@@ -143,6 +146,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
               </section>
             </div>
           </section>*/}
+
           <section className="keynotes-sponsors">
             <div className="container">
               <section className="sponsor-section headline">

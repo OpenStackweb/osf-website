@@ -72,6 +72,8 @@
   }
 }
 .keynotes-intro {
+  position: relative;
+  z-index: 5;
   padding: 6rem 0;
   .intro-inner {
     max-width: 90%;
@@ -348,4 +350,14 @@ h3.small-title {
   text-align: center;
   width: 80%;
   line-height: 27px;
+
+  @media (max-width: 767px) {
+    width: 100%;
+}
+
+}
+
+.sponsorshipSection-intro {
+  max-width: 1200px;
+  margin: 30px 30px 60px 30px;
 }

@@ -193,6 +193,11 @@ export const OpenInfraLiveKeynotesTemplate = ({
             <div className="container">
               <section className="sponsor-levels">
                 <h3>{sponsorshipSection.title}</h3>
+                <section className="sponsorshipSection-intro">
+                    <div className="intro-inner">
+                      <p className="fix-h5" dangerouslySetInnerHTML={{ __html: sponsorshipSection.text }} />
+                    </div>
+                </section>
                 <div className="level-listing">
                   <section className="level-single headline">
                     <div className="level-heading">
@@ -357,6 +362,7 @@ export const OpenInfraLiveKeynotesPageQuery = graphql`
         }
         sponsorshipSection {
           title
+          text
           leftColumn {
             title
             body

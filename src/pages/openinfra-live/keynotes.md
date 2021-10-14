@@ -16,8 +16,8 @@ hero:
 intro:
   text: If you miss the OpenInfra Summit, this two day special edition of
     OpenInfra Live is your only opportunity to meet the newest players to the
-    OpenInfra space, interact with leaders of open source projects like <a
-    href="https://www.openstack.org">OpenStack</a> and Kubernetes to hear how
+    OpenInfra space, interact with leaders of open source projects like <strong><a
+    href="https://www.openstack.org">OpenStack</a></strong> and Kubernetes to hear how
     the projects are supporting OpenInfra use cases like hybrid cloud, gain
     insight into public cloud economics and the role open source technologies
     play, and celebrate as we announce this year’s Superuser Awards winner. This
@@ -72,7 +72,8 @@ featuredSpeakers:
   title: FEATURED SPEAKERS
   speakers: []
 sponsorshipSection:
-  title: Sponsorship Levels*
+  title: Sponsorship Opportunities*
+  text: This is your organization’s 2021 opportunity to connect with the global OpenInfra community. Sponsor the event to spotlight your organization’s name and logo in front of over 10,000 open source community members. <strong><a href="/img/live/oi-live-keynotes-prospectus.pdf" download>Download the prospectus</a></strong> to learn more about the types of participants attending the event! 
   leftColumn:
     title: Headline
     body: <ul><li>Minimum of 8 minutes of Keynote speaking time (content subject to

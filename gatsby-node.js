@@ -52,7 +52,7 @@ exports.createSchemaCustomization = ({ actions }) => {
        name: String
        company: String
        presentationTitle: String
-       presentationLink: String!
+       presentationLink: String
        pic: File @fileByRelativePath
     }
     type MarkdownRemarkFrontmatterFeaturedSpeakers {

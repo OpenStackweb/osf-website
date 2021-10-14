@@ -68,6 +68,10 @@ featuredSpeakers:
       company: "Microsoft "
       presentationTitle: Director of Open Source Strategy and Ecosystem
       pic: /img/2018-sarah-novotny-3.jpeg
+    - name: Aeva Black
+      presentationTitle: OSI Board Member and Open Source Hacker
+      company: Azure Office of the CTO
+      pic: /img/aeva_black.jpeg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

@@ -34,6 +34,16 @@
   
 .text {
   margin: 0 15px 0 0;
+
+  p {
+    line-height: 27px;
+  }
+
+  ul,li {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
 }
 
   @media (max-width: 767px) {

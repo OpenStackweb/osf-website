@@ -24,11 +24,11 @@ intro:
     will be the one time everyone will be coming together this year. Come
     interact with the global OpenInfra community—Live!
 whatToExpect:
-  text: We will cover open source project production use cases, how to get started contributing and the role vendors play in the community.                    <ul>
-                      <li>Exclusive announcements from the OpenInfra Foundation</li>
-                      <li>Users deploying hybrid cloud scenarios in production and how open source projects like OpenStack and Kubernetes make them scale</li>
-                      <li>OpenInfra production deployments growing by up to 200%</li>
-                    </ul>
+  text: We will cover open source project production use cases, how to get started contributing and the role vendors play in the community.
+  bullets:
+    - bulletPoint: Exclusive announcements from the OpenInfra Foundation
+    - bulletPoint: Users deploying hybrid cloud scenarios in production and how open source projects like OpenStack and Kubernetes make them scale
+    - bulletPoint: OpenInfra production deployments growing by up to 200%
 statSection:
   leftColumn:
     title: What can you expect?

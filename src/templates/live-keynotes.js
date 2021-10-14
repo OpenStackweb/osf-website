@@ -24,6 +24,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
   intro,
   statSection,
   whatToExpect,
+  featuredProjects,
   headlineSponsor,
   supportingSponsors,
   featuredSpeakers,
@@ -79,7 +80,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
 
           <section className="what-to-expect">
             <div className="live-keynotes-promo-v2 no-top-margin">
-              <h3 className="small-title">What To Expect</h3>
+              <h3 className="small-title">{whatToExpect.title}</h3>
               <div className="live-kp-container smaller-container">
                 <div className="text-area lt-text">                
                   <div className="text">
@@ -101,10 +102,10 @@ export const OpenInfraLiveKeynotesTemplate = ({
             </div>
           </section>
 
-          <section className="project-logos-section">
+          <section className="featured-projects-section">
             <div className="project-logos-wrapper">
 
-              <h3 className="small-title">Featured Open Infrastructure Projects</h3>
+              <h3 className="small-title">{featuredProjects.title}</h3>
 
               <div className="project-logos">
                 <div className="project-logo-row">
@@ -119,8 +120,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                   <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} /></a>
                 </div>
               </div>
-
-              <p>The event will highlight projects at the OpenInfra Foundation including Airship, Kata Containers, OpenStack, OpenInfra Labs, StarlingX, and Zuul as well as other open source projects like like Linux, Kubernetes, Ceph, and Magma.</p>
+              <p dangerouslySetInnerHTML={{ __html: featuredProjects.text }} />
             </div>
           </section>
 
@@ -285,10 +285,15 @@ export const OpenInfraLiveKeynotesPageQuery = graphql`
           text
         }
         whatToExpect {
+          title
           text
           bullets {
             bulletPoint
           }
+        }
+        featuredProjects {
+          title
+          text
         }
         statSection {
           leftColumn {

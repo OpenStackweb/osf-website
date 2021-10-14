@@ -14,6 +14,16 @@ hero:
     Catch every episode on several streaming platforms, airing <strong>Thursdays
     at 14:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: false
+    date: 2021-10-28T14:00:28.872Z
+    episodeTitle: Tackling Sustainability with Eco-friendly, Green Hardware
+    episodeDescription: "Join us as we discuss how chipmakers, hardware vendors, and
+      data center architects are all working in concert to solve this
+      problem.  "
+    episodeSpeakers: "Peter Pouliot (Ampere), Zach Smith (Equinix) "
+    youtubeEmbed: https://www.youtube.com/embed/4Pf1B3vW30E
+    youtubeLink: https://www.youtube.com/watch?v=4Pf1B3vW30E
+    calendarInvite: /static/invites/myevents-11-.ics
   - facebookLink: https://www.facebook.com/104139126308032/posts/4407685335953368/
     episodeDescription: "Networking is complex, and Neutron is one of the most
       difficult parts of OpenStack to scale. In this episode of the Large Scale

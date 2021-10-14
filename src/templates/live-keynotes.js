@@ -99,6 +99,28 @@ export const OpenInfraLiveKeynotesTemplate = ({
             </div>
           </section>
 
+          <section className="project-logos-section">
+            <div className="project-logos-wrapper">
+
+              <h3 className="small-title">Featured Open Infrastructure Projects</h3>
+
+              <div className="project-logos">
+                <div className="project-logo-row">
+                  <div className="project-logo">Project logo</div>
+                  <div className="project-logo">Project logo</div>
+                  <div className="project-logo">Project logo</div>
+                </div>
+                <div className="project-logo-row">
+                  <div className="project-logo">Project logo</div>
+                  <div className="project-logo">Project logo</div>
+                  <div className="project-logo">Project logo</div>
+                </div>
+              </div>
+
+              <p>The event will highlight projects at the OpenInfra Foundation including Airship, Kata Containers, OpenStack, OpenInfra Labs, StarlingX, and Zuul as well as other open source projects like like Linux, Kubernetes, Ceph, and Magma.</p>
+            </div>
+          </section>
+
           <section className="live-section">
             <div className="container">
               <section className="keynotes-bullets">

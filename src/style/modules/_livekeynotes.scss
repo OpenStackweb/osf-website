@@ -285,3 +285,34 @@ h3.small-title {
 .live-section {
   display: none;
 }
+
+.project-logos-section {
+  background-color: #f6f6f6;
+  width: 100%;
+  color: #161616;
+  padding: 0 0 60px 0;
+}
+
+.project-logos-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1170px;
+}
+
+.project-logos {
+  margin: 60px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.project-logo-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-logo {
+  background-color: white;
+  width: 33%;
+}

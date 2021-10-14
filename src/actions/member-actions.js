@@ -26,7 +26,7 @@ export const getMembers = (keyword, letter, page = 1) => (dispatch, getState) =>
   }
 
   if (letter) {
-    filter.push(`last_name=@@${letter}`);
+    filter.push(`last_name@@${letter}`);
   }
 
   let params = {

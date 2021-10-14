@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const NominationModal = ({ member_profile, closeModal, nominateMember }) => {
+const NominationModal = ({ member_profile, closeModal, nominateMember, member_nomination, member_nomination_loading }) => {
+
+    const [nominated, setNominated] = useState(false);
 
     const getModalTitle = () => {
         return member_profile.election_applications?.length > 9 ?
@@ -20,16 +22,47 @@ const NominationModal = ({ member_profile, closeModal, nominateMember }) => {
     }
 
     const getModalButtons = () => {
-        return member_profile.election_applications?.length > 9 ?
-            <div className="nomination-modal-buttons">
-                <button className="nomination-modal-button" onClick={closeModal}>Go Back</button>
-                <button className="nomination-modal-button" onClick={closeModal}>Nominate Someone Else</button>
-            </div>
-            :
-            <div className="nomination-modal-buttons">
-                <button className="nomination-modal-button" onClick={closeModal}>No</button>
-                <button className="nomination-modal-button" onClick={nominateMember}>Yes, Nominate {member_profile.first_name}</button>
-            </div>
+        if (nominated && !member_nomination_loading) {
+            return (
+                <div className="nomination-modal-buttons">
+                    <button className="nomination-modal-button" onClick={closeModal}>Close</button>
+                </div>
+            )
+        } else {
+            return member_profile.election_applications?.length > 9 ?
+                <div className="nomination-modal-buttons">
+                    <button className="nomination-modal-button" onClick={closeModal}>Go Back</button>
+                    <button className="nomination-modal-button" onClick={closeModal}>Nominate Someone Else</button>
+                </div>
+                :
+                <div className="nomination-modal-buttons">
+                    <button className="nomination-modal-button" onClick={closeModal}>No</button>
+                    <button className="nomination-modal-button" onClick={() => { setNominated(!nominated); nominateMember(member_profile.id) }}>Yes, Nominate {member_profile.first_name}</button>
+                </div>
+        }
+    }
+
+    const getNominationMessage = () => {
+        return member_nomination !== null ?
+            member_nomination === true ?
+                <article className="message is-success">
+                    <div className="message-header">
+                        <p>Success</p>
+                    </div>
+                    <div className="message-body">
+                        You've just nominated {member_profile.first_name} for the Open Infrastructure Foundation Board
+                    </div>
+                </article>
+                :
+                <article className="message is-danger">
+                    <div className="message-header">
+                        <p>Error</p>
+                    </div>
+                    <div className="message-body">
+                        {member_nomination}
+                    </div>
+                </article>
+            : null;
     }
 
     return (
@@ -40,18 +73,11 @@ const NominationModal = ({ member_profile, closeModal, nominateMember }) => {
                     <span className="title">
                         {getModalTitle()}
                     </span>
+                    {nominated && !member_nomination_loading && getNominationMessage()}
                     <span>
                         {getModalText()}
                     </span>
                     {getModalButtons()}
-                    {/* <article className="message is-success">
-                        <div className="message-header">
-                            <p>Success</p>
-                        </div>
-                        <div className="message-body">
-                            You've just nominated {member_profile.first_name} for the Open Infrastructure Foundation Board
-                        </div>
-                    </article> */}
                 </div>
             </div>
             <button className="modal-close is-large" onClick={closeModal} aria-label="close" />

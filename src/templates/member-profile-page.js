@@ -8,7 +8,7 @@ import NominationModal from '../components/NominationModal';
 
 import { connect } from "react-redux";
 import { getMemberProfile, getElectionMemberProfile } from '../actions/member-actions';
-import { getElectionStatus } from '../actions/election-actions';
+import { getElectionStatus, nominateMember } from '../actions/election-actions';
 
 import { doLogin, formatEpoch } from 'openstack-uicore-foundation/lib/methods'
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
@@ -17,18 +17,17 @@ export const MemberProfilePageTemplate = ({
   isLoggedUser,
   member_profile,
   loading_members,
-  nomination_open
+  nomination_open,
+  nominateMember,
+  member_nomination,
+  member_nomination_loading
 }) => {
 
   const [nominationModal, setNominationModal] = useState(false);
 
   const onClickLogin = (evt) => {
     evt.preventDefault();
-    doLogin('/a/profile');
-  }
-
-  const nominateMember = () => {
-    console.log('nominate')
+    doLogin(`/a/community/members/${member_profile.id}`);
   }
 
   return (
@@ -156,7 +155,7 @@ export const MemberProfilePageTemplate = ({
                       <span className="profile-title-election">Election</span>
                       <span className="profile-text">Nominations are open for the <a href="">2021 Board Elections.</a></span>
                       <br />
-                      <button className="profile-nominate-button" onClick={isLoggedUser ? () => setNominationModal(!nominationModal) : () => onClickLogin}>
+                      <button className="profile-nominate-button" onClick={isLoggedUser ? () => setNominationModal(!nominationModal) : onClickLogin}>
                         {isLoggedUser ?
                           `Nominate ${member_profile.first_name} ${member_profile.last_name}`
                           :
@@ -172,7 +171,12 @@ export const MemberProfilePageTemplate = ({
         </main>
       }
       {nominationModal &&
-        <NominationModal closeModal={() => setNominationModal(!nominationModal)} member_profile={member_profile} nominateMember={() => nominateMember} />
+        <NominationModal
+          closeModal={() => setNominationModal(!nominationModal)}
+          member_profile={member_profile}
+          member_nomination={member_nomination}
+          nominateMember={nominateMember}
+          member_nomination_loading={member_nomination_loading} />
       }
     </div>
   )
@@ -185,7 +189,10 @@ const MemberProfilePage = ({
   getElectionMemberProfile,
   member_profile,
   getElectionStatus,
+  nominateMember,
   election_status,
+  member_nomination,
+  member_nomination_loading,
   loading_members
 }) => {
 
@@ -209,7 +216,10 @@ const MemberProfilePage = ({
         isLoggedUser={isLoggedUser}
         member_profile={member_profile}
         loading_members={loading_members}
+        nominateMember={nominateMember}
         nomination_open={election_status.status === 'NominationsOpen'}
+        member_nomination={member_nomination}
+        member_nomination_loading={member_nomination_loading}
       />
     </Layout>
   )
@@ -220,4 +230,6 @@ export default connect(state => ({
   member_profile: state.memberState.member_profile,
   loading_members: state.memberState.loading_members,
   election_status: state.electionState.election_status,
-}), { getMemberProfile, getElectionStatus, getElectionMemberProfile })(MemberProfilePage)
+  member_nomination: state.electionState.member_nomination,
+  member_nomination_loading: state.electionState.member_nomination_loading,
+}), { getMemberProfile, getElectionStatus, getElectionMemberProfile, nominateMember })(MemberProfilePage)

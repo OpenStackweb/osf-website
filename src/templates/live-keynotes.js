@@ -125,7 +125,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                   <a href="https://zuul-ci.org/" className="project-logo"><img className="project-logo-inner" src={Zuul} alt="Zuul" /></a>
                 </div>
               </div>
-              <p dangerouslySetInnerHTML={{ __html: featuredProjects.text }} />
+              <p className="inner-text" dangerouslySetInnerHTML={{ __html: featuredProjects.text }} />
             </div>
           </section>
 

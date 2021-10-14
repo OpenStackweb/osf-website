@@ -64,6 +64,10 @@ featuredSpeakers:
       company: Andreessen Horowitz
       pic: /img/martincasado.jpeg
       presentationTitle: Partner
+    - name: "Sarah Novotny "
+      company: "Microsoft "
+      presentationTitle: Director of Open Source Strategy and Ecosystem
+      pic: /img/2018-sarah-novotny-3.jpeg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

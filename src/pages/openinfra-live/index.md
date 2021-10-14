@@ -15,6 +15,22 @@ hero:
     at 14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-11-04T14:00:02.752Z
+    episodeTitle: "OpenInfra in Production: Hybrid Cloud"
+    episodeDescription: >-
+      The hybrid cloud marketing is expected to reach $145 billion USD by 2026
+      and organizations worldwide are deploying a combination of open source and
+      proprietary tools in production for this use case. Join us on OpenInfra
+      Live as we kick off a series of episodes to talk about the organizations
+      deploying hybrid cloud environments, the technologies they’re working with
+      and the vendors who are supporting the production use cases.
+
+
+      #OpenInfraLive
+    youtubeEmbed: https://www.youtube.com/embed/Z9wLCKWe7LE
+    youtubeLink: https://www.youtube.com/watch?v=Z9wLCKWe7LE
+    calendarInvite: /static/invites/myevents-12-.ics
+  - hidden: false
     date: 2021-10-28T14:00:28.872Z
     episodeTitle: Tackling Sustainability with Eco-friendly, Green Hardware
     episodeDescription: "Join us as we discuss how chipmakers, hardware vendors, and

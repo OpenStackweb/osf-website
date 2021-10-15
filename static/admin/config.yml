@@ -851,6 +851,7 @@ collections:
           }
           - { label: "Hero", name: "hero", widget: "object", fields: [
               { label: "Title", name: "title", widget: "string" },
+              { label: "Tagline", name: "tagline", widget: "string" },
               { label: "Description", name: "description", widget: "text" },
               { label: "Subtitle", name: "subtitle", widget: "string" },
               { label: "Button Label", name: "buttonText", widget: "string" },
@@ -859,6 +860,17 @@ collections:
           }
           - { label: "Intro", name: "intro", widget: "object", fields: [
               { label: "Text", name: "text", widget: "text" },
+            ]
+          }
+          - { label: "What To Expect", name: "whatToExpect", widget: "object", fields: [
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Text", name: "text", widget: "string" },
+              { label: "Bullets", name: "bullets", widget: "text" },
+            ]
+          }
+          - { label: "Featured Projects", name: "featuredProjects", widget: "object", fields: [
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Text", name: "text", widget: "string" },
             ]
           }
           - { label: "Stat Section", name: "statSection", widget: "object", fields: [

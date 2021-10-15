@@ -25,6 +25,19 @@ const LiveKeynotesPagePreview = ({ entry }) => {
             intro={{
                 text: entry.getIn(['data', 'intro', 'text']),
             }}
+            whatToExpect={{
+              title: entry.getIn(['data', 'whatToExpect', 'title']),
+              text: entry.getIn(['data', 'whatToExpect', 'text']),
+              bullets: entry.getIn(['data', 'whatToExpect', 'bullets']),
+            }}
+            featuredProjects={{
+              title: entry.getIn(['data', 'featuredProjects', 'title']),
+              text: entry.getIn(['data', 'featuredProjects', 'text']),
+            }}
+            featuredSpeakers={{
+                title: entry.getIn(['data', 'featuredSpeakers', 'title']),
+                speakers: speakers,
+            }}
             statSection={{
                 leftColumn: {title: entry.getIn(['data', 'statSection', 'leftColumn', 'title']), text: entry.getIn(['data', 'statSection', 'leftColumn', 'text'])},
                 rightColumn: {title: entry.getIn(['data', 'statSection', 'rightColumn', 'title']), text: entry.getIn(['data', 'statSection', 'rightColumn', 'text'])},
@@ -37,10 +50,6 @@ const LiveKeynotesPagePreview = ({ entry }) => {
             supportingSponsors={{
                 title: entry.getIn(['data', 'supportingSponsors', 'title']),
                 sponsors: sponsors,
-            }}
-            featuredSpeakers={{
-                title: entry.getIn(['data', 'featuredSpeakers', 'title']),
-                speakers: speakers,
             }}
             sponsorshipSection={{
                 leftColumn: {title: entry.getIn(['data', 'sponsorshipSection', 'leftColumn', 'title']), body: entry.getIn(['data', 'sponsorshipSection', 'leftColumn', 'body']), footer: entry.getIn(['data', 'sponsorshipSection', 'leftColumn', 'footer'])},

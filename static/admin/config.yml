@@ -865,7 +865,7 @@ collections:
           - { label: "What To Expect", name: "whatToExpect", widget: "object", fields: [
               { label: "Title", name: "title", widget: "string" },
               { label: "Text", name: "text", widget: "string" },
-              { label: "Bullets", name: "bullets", widget: "text" },
+              { label: "Bullets", name: "bullets", widget: "string" },
             ]
           }
           - { label: "Featured Projects", name: "featuredProjects", widget: "object", fields: [

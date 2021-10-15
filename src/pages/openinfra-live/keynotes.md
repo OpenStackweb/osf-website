@@ -9,30 +9,19 @@ seo:
 hero:
   subtitle: Join us for
   title: "OpenInfra Live: Keynotes"
-  tagline: "Exclusive Announcements. Live Demos. OpenStack + Kubernetes. Hybrid Cloud Economics."
   description: November 17 and 18 at 9am CT / 1500 UTC
   buttonText: Register Now
   buttonURL: https://openinfralivekeynotes.eventbrite.com
 intro:
   text: If you miss the OpenInfra Summit, this two day special edition of
     OpenInfra Live is your only opportunity to meet the newest players to the
-    OpenInfra space, interact with leaders of open source projects like <strong><a
-    href="https://www.openstack.org">OpenStack</a></strong> and Kubernetes to hear how
+    OpenInfra space, interact with leaders of open source projects like <a
+    href="https://www.openstack.org">OpenStack</a> and Kubernetes to hear how
     the projects are supporting OpenInfra use cases like hybrid cloud, gain
     insight into public cloud economics and the role open source technologies
     play, and celebrate as we announce this year’s Superuser Awards winner. This
     will be the one time everyone will be coming together this year. Come
     interact with the global OpenInfra community—Live!
-whatToExpect:
-  title: What to Expect
-  text: We will cover open source project production use cases, how to get started contributing and the role vendors play in the community.
-  bullets:
-    - bulletPoint: Exclusive announcements from the OpenInfra Foundation
-    - bulletPoint: Users deploying hybrid cloud scenarios in production and how open source projects like OpenStack and Kubernetes make them scale
-    - bulletPoint: OpenInfra production deployments growing by up to 200%
-featuredProjects:
-  title: Featured Open Infrastructure Projects
-  text: The event will highlight projects at the OpenInfra Foundation including Airship, Kata Containers, OpenStack, OpenInfra Labs, StarlingX, and Zuul as well as other open source projects like like Linux, Kubernetes, Ceph, and Magma.
 statSection:
   leftColumn:
     title: What can you expect?
@@ -83,9 +72,40 @@ featuredSpeakers:
       presentationTitle: OSI Board Member and Open Source Hacker
       company: Azure Office of the CTO
       pic: /img/aeva_black.jpeg
+    - name: Charlotte Darth
+      company: "Binero "
+      presentationTitle: "CEO "
+      pic: /img/uo-charlotte.jpeg
+    - name: Johan Christenson
+      company: City Network
+      presentationTitle: "CEO "
+      pic: /img/uo-johan.png
+    - name: Gerald Bothello
+      presentationTitle: Director of Cloud
+      company: Walmart
+      pic: /img/geraldbothello.jpeg
+    - name: Allison Randal
+      company: OpenInfra Foundation
+      presentationTitle: Board Chair
+      pic: /img/allisonrandall7481.web-.jpg
+    - name: Jonathan Bryce
+      company: OpenInfra Foundation
+      presentationTitle: Executive Director
+      pic: /img/jonathanbryce_headshot.jpg
+    - name: Mark Collier
+      company: "OpenInfra Foundation "
+      presentationTitle: COO
+      pic: /img/mark-collier_headshot.jpg
+    - name: Thierry Carrez
+      company: OpenInfra Foundation
+      presentationTitle: Vice President of Engineering
+      pic: /img/thierrycarrez_headshot.jpg
+    - name: Kendall Nelson
+      company: OpenInfra Foundation
+      presentationTitle: Upstream Developer Advocate
+      pic: /img/kendallnelson.png
 sponsorshipSection:
-  title: Sponsorship Opportunities*
-  text: This is your organization’s 2021 opportunity to connect with the global OpenInfra community. Sponsor the event to spotlight your organization’s name and logo in front of over 10,000 open source community members. <strong><a href="/img/live/oi-live-keynotes-prospectus.pdf" download>Download the prospectus</a></strong> to learn more about the types of participants attending the event! 
+  title: Sponsorship Levels*
   leftColumn:
     title: Headline
     body: <ul><li>Minimum of 8 minutes of Keynote speaking time (content subject to

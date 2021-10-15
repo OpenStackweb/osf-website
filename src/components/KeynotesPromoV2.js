@@ -17,7 +17,7 @@ class KeynotesPromoV2 extends React.Component {
                     <h1 className="title">OpenInfra Live: Keynotes</h1>
                     <p className="promo-para">Exclusive Announcements. Live Demos. OpenStack + Kubernetes. Hybrid Cloud Economics.</p>
                     <div className="dates-row">
-                      <img className="cal-icon" src={CalIcon} /> 
+                      <img className="cal-icon" src={CalIcon} alt="Calendar Icon" /> 
                       <p className="promo-dates"> November 17 and 18 at 9am CT/1500 UTC</p>
                     </div>
 

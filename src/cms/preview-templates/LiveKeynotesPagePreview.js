@@ -28,7 +28,7 @@ const LiveKeynotesPagePreview = ({ entry }) => {
             whatToExpect={{
               title: entry.getIn(['data', 'whatToExpect', 'title']),
               text: entry.getIn(['data', 'whatToExpect', 'text']),
-              bullets: bullets,
+              bullets: entry.getIn(['data', 'whatToExpect', 'bullets']),
             }}
             featuredProjects={{
               title: entry.getIn(['data', 'featuredProjects', 'title']),

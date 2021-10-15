@@ -151,25 +151,6 @@ export const OpenInfraLiveKeynotesTemplate = ({
               </section>
             </div>
           </section>*/}
-
-          <section className="keynotes-sponsors">
-            <div className="container">
-              <section className="sponsor-section headline">
-                <h3>{headlineSponsor.title}</h3>
-                <div className="logos">
-                  <img src={getImage(headlineSponsor.logo)} />
-                </div>
-              </section>
-              <section className="sponsor-section supporting-sponsors">
-                <h3>{supportingSponsors.title}</h3>
-                <div className="logos">
-                  {supportingSponsors.sponsors.map(sponsor => (
-                      <img src={getImage(sponsor.logo)} />
-                  ))}
-                </div>
-              </section>
-            </div>
-          </section>
           {featuredSpeakers?.speakers?.length > 0 &&
             <section className="featured-speakers">
               <div className="container">
@@ -189,6 +170,25 @@ export const OpenInfraLiveKeynotesTemplate = ({
               </div>
             </section>
           }
+
+          <section className="keynotes-sponsors">
+            <div className="container">
+              <section className="sponsor-section headline">
+                <h3>{headlineSponsor.title}</h3>
+                <div className="logos">
+                  <img src={getImage(headlineSponsor.logo)} />
+                </div>
+              </section>
+              <section className="sponsor-section supporting-sponsors">
+                <h3>{supportingSponsors.title}</h3>
+                <div className="logos">
+                  {supportingSponsors.sponsors.map(sponsor => (
+                      <img src={getImage(sponsor.logo)} />
+                  ))}
+                </div>
+              </section>
+            </div>
+          </section>
           <section className="live-section">
             <div className="container">
               <section className="sponsor-levels">

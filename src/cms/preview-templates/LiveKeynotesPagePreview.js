@@ -16,6 +16,7 @@ const LiveKeynotesPagePreview = ({ entry }) => {
           <OpenInfraLiveKeynotesTemplate
             hero={{
               title: entry.getIn(['data', 'hero', 'title']),
+              tagline: entry.getIn(['data', 'hero', 'tagline']),
               description: entry.getIn(['data', 'hero', 'description']),
               subtitle: entry.getIn(['data', 'hero', 'subtitle']),
               buttonText: entry.getIn(['data', 'hero', 'buttonText']),

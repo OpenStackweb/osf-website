@@ -26,10 +26,7 @@ intro:
 whatToExpect:
   title: What to Expect
   text: We will cover open source project production use cases, how to get started contributing and the role vendors play in the community.
-  bullets:
-    - bulletPoint: Exclusive announcements from the OpenInfra Foundation
-    - bulletPoint: Users deploying hybrid cloud scenarios in production and how open source projects like OpenStack and Kubernetes make them scale
-    - bulletPoint: OpenInfra production deployments growing by up to 200%
+  bullets: <ul><li>Exclusive announcements from the OpenInfra Foundation</li><li>Users deploying hybrid cloud scenarios in production and how open source projects like OpenStack and Kubernetes make them scale</li><li>OpenInfra production deployments growing by up to 200%</li></ul>
 featuredProjects:
   title: Featured Open Infrastructure Projects
   text: The event will highlight projects at the OpenInfra Foundation including Airship, Kata Containers, OpenStack, OpenInfra Labs, StarlingX, and Zuul as well as other open source projects like like Linux, Kubernetes, Ceph, and Magma.

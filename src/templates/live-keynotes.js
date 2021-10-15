@@ -90,11 +90,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                 <div className="text-area lt-text">                
                   <div className="text">
                     <p dangerouslySetInnerHTML={{ __html: whatToExpect.text }} />
-                    <ul className="bullets">
-                      {whatToExpect.bullets.map(bullet => (
-                        <li>{bullet.bulletPoint}</li>
-                      ))}
-                    </ul>
+                    <p dangerouslySetInnerHTML={{ __html: whatToExpect.bullets }} />
                   </div>
                 </div>
                 <div className="image-area">
@@ -297,9 +293,7 @@ export const OpenInfraLiveKeynotesPageQuery = graphql`
         whatToExpect {
           title
           text
-          bullets {
-            bulletPoint
-          }
+          bullets
         }
         featuredProjects {
           title

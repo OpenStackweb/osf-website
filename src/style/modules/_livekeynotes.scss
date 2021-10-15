@@ -359,5 +359,9 @@ h3.small-title {
 
 .sponsorshipSection-intro {
   max-width: 1200px;
-  margin: 30px 30px 60px 30px;
+  margin: 45px 60px 60px 60px;
+
+  @media (max-width: 767px) {
+    margin: 45px 30px 60px 30px;
+  } 
 }

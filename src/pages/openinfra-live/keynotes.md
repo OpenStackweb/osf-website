@@ -57,17 +57,6 @@ statSection:
       caption: Middle East/Africa
     - number: 6%
       caption: South/Latin America
-headlineSponsor:
-  title: HEADLINE SPONSOR
-  logo: /img/live/redhat-logo.svg
-supportingSponsors:
-  title: SUPPORTING SPONSORS
-  sponsors:
-    - logo: /img/cloudandheat.jpg
-    - logo: /img/component-soft-logo_dark-1.png
-    - logo: /img/coredge-blue.png
-    - logo: /img/imh_logo-1.png
-    - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
 featuredSpeakers:
   title: FEATURED SPEAKERS
   speakers:
@@ -115,6 +104,17 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Upstream Developer Advocate
       pic: /img/kendallnelson.png
+headlineSponsor:
+  title: HEADLINE SPONSOR
+  logo: /img/live/redhat-logo.svg
+supportingSponsors:
+  title: SUPPORTING SPONSORS
+  sponsors:
+    - logo: /img/cloudandheat.jpg
+    - logo: /img/component-soft-logo_dark-1.png
+    - logo: /img/coredge-blue.png
+    - logo: /img/imh_logo-1.png
+    - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
 sponsorshipSection:
   title: Sponsorship Opportunities*
   text: This is your organization’s 2021 opportunity to connect with the global OpenInfra community. Sponsor the event to spotlight your organization’s name and logo in front of over 10,000 open source community members. <strong><a href="/img/live/oi-live-keynotes-prospectus.pdf" download>Download the prospectus</a></strong> to learn more about the types of participants attending the event! 

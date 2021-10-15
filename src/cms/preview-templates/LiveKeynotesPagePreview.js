@@ -28,20 +28,20 @@ const LiveKeynotesPagePreview = ({ entry }) => {
             whatToExpect={{
               title: entry.getIn(['data', 'whatToExpect', 'title']),
               text: entry.getIn(['data', 'whatToExpect', 'text']),
-              bullets: entry.getIn(['data', 'whatToExpect', 'bullets']),
+              bullets: bullets,
             }}
             featuredProjects={{
               title: entry.getIn(['data', 'featuredProjects', 'title']),
               text: entry.getIn(['data', 'featuredProjects', 'text']),
             }}
+            featuredSpeakers={{
+                title: entry.getIn(['data', 'featuredSpeakers', 'title']),
+                speakers: speakers,
+            }}
             statSection={{
                 leftColumn: {title: entry.getIn(['data', 'statSection', 'leftColumn', 'title']), text: entry.getIn(['data', 'statSection', 'leftColumn', 'text'])},
                 rightColumn: {title: entry.getIn(['data', 'statSection', 'rightColumn', 'title']), text: entry.getIn(['data', 'statSection', 'rightColumn', 'text'])},
                 stats: stats,
-            }}
-            featuredSpeakers={{
-                title: entry.getIn(['data', 'featuredSpeakers', 'title']),
-                speakers: speakers,
             }}
             headlineSponsor={{
                 title: entry.getIn(['data', 'headlineSponsor', 'title']),

@@ -134,6 +134,7 @@ const ProfilePage = ({
     isLoggedUser,
     location,
     updateMembershipType,
+    getElectionStatus,
     electionStatus,
     updateCandidateProfile
 }) => {

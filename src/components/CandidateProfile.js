@@ -71,17 +71,17 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
                             <>
                                 <span>
                                     You have been nominated <b>{`${electionProfile?.election_applications.length}`}</b> {`${electionProfile?.election_applications.length > 1 ? 'times' : 'time'}`},
-                                    {electionProfile?.candidate_profile.has_accepted_nomination ?
+                                    {electionProfile?.candidate_profile?.has_accepted_nomination ?
                                         ` and agreed to accept the nomination. You will be listed as a candidate on the ballot when you receive 10 nominations.`
                                         :
                                         ` but you have not accepted the nomination. You must accept the nomination and complete a Candidate Profile to be officially listed as a candidate for this election.`
                                     }
                                 </span>
-                                <button className="" onClick={() => handleAcceptNomination()}>{electionProfile?.candidate_profile.has_accepted_nomination ? 'Edit Candidate Application' : 'Accept Nomination'}</button>
+                                <button className="" onClick={() => handleAcceptNomination()}>{electionProfile?.candidate_profile?.has_accepted_nomination ? 'Edit Candidate Application' : 'Accept Nomination'}</button>
                             </>
                             :
                             <>
-                                {electionProfile?.candidate_profile.has_accepted_nomination ?
+                                {electionProfile?.candidate_profile?.has_accepted_nomination ?
                                     <span>
                                         You have completed your Candidate Application, but have not been nominated yet. You will be listed as a candidate on the ballot when you receive 10 nominations.
                                     </span>
@@ -90,7 +90,7 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
                                         <strong>You don't have any nominations for this election.</strong> To get started, complete your Candidate Application and encourage people to nominate you. Once you have completed the application and have at least 10 nominations, you will be listed on the election ballot.
                                     </span>
                                 }
-                                <button className="" onClick={() => handleAcceptNomination()}>{electionProfile?.candidate_profile.has_accepted_nomination ? 'Edit Candidate Application' : 'Fill Out Application'}</button>
+                                <button className="" onClick={() => handleAcceptNomination()}>{electionProfile?.candidate_profile?.has_accepted_nomination ? 'Edit Candidate Application' : 'Fill Out Application'}</button>
                             </>
                     :
                     <span>

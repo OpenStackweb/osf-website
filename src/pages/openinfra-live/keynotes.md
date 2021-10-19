@@ -9,27 +9,19 @@ seo:
 hero:
   subtitle: Join us for
   title: "OpenInfra Live: Keynotes"
-  tagline: "Exclusive Announcements. Live Demos. OpenStack + Kubernetes. Hybrid Cloud Economics."
   description: November 17 and 18 at 9am CT / 1500 UTC
   buttonText: Register Now
   buttonURL: https://openinfralivekeynotes.eventbrite.com
 intro:
   text: If you miss the OpenInfra Summit, this two day special edition of
     OpenInfra Live is your only opportunity to meet the newest players to the
-    OpenInfra space, interact with leaders of open source projects like <strong><a
-    href="https://www.openstack.org">OpenStack</a></strong> and Kubernetes to hear how
+    OpenInfra space, interact with leaders of open source projects like <a
+    href="https://www.openstack.org">OpenStack</a> and Kubernetes to hear how
     the projects are supporting OpenInfra use cases like hybrid cloud, gain
     insight into public cloud economics and the role open source technologies
     play, and celebrate as we announce this year’s Superuser Awards winner. This
     will be the one time everyone will be coming together this year. Come
     interact with the global OpenInfra community—Live!
-whatToExpect:
-  title: What to Expect
-  text: We will cover open source project production use cases, how to get started contributing and the role vendors play in the community.
-  bullets: <ul><li>Exclusive announcements from the OpenInfra Foundation</li><li>Users deploying hybrid cloud scenarios in production and how open source projects like OpenStack and Kubernetes make them scale</li><li>OpenInfra production deployments growing by up to 200%</li></ul>
-featuredProjects:
-  title: Featured Open Infrastructure Projects
-  text: The event will highlight projects at the OpenInfra Foundation including Airship, Kata Containers, OpenStack, OpenInfra Labs, StarlingX, and Zuul as well as other open source projects like like Linux, Kubernetes, Ceph, and Magma.
 statSection:
   leftColumn:
     title: What can you expect?
@@ -54,6 +46,17 @@ statSection:
       caption: Middle East/Africa
     - number: 6%
       caption: South/Latin America
+headlineSponsor:
+  title: HEADLINE SPONSOR
+  logo: /img/live/redhat-logo.svg
+supportingSponsors:
+  title: SUPPORTING SPONSORS
+  sponsors:
+    - logo: /img/cloudandheat.jpg
+    - logo: /img/component-soft-logo_dark-1.png
+    - logo: /img/coredge-blue.png
+    - logo: /img/imh_logo-1.png
+    - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
 featuredSpeakers:
   title: FEATURED SPEAKERS
   speakers:
@@ -84,7 +87,7 @@ featuredSpeakers:
     - name: Allison Randal
       company: OpenInfra Foundation
       presentationTitle: Board Chair
-      pic: /img/allisonrandall7481.web-.jpg
+      pic: /img/allison_by_pinar_250x300.jpg
     - name: Jonathan Bryce
       company: OpenInfra Foundation
       presentationTitle: Executive Director
@@ -101,20 +104,8 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Upstream Developer Advocate
       pic: /img/kendallnelson.png
-headlineSponsor:
-  title: HEADLINE SPONSOR
-  logo: /img/live/redhat-logo.svg
-supportingSponsors:
-  title: SUPPORTING SPONSORS
-  sponsors:
-    - logo: /img/cloudandheat.jpg
-    - logo: /img/component-soft-logo_dark-1.png
-    - logo: /img/coredge-blue.png
-    - logo: /img/imh_logo-1.png
-    - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
 sponsorshipSection:
-  title: Sponsorship Opportunities*
-  text: This is your organization’s 2021 opportunity to connect with the global OpenInfra community. Sponsor the event to spotlight your organization’s name and logo in front of over 10,000 open source community members. <strong><a href="/img/live/oi-live-keynotes-prospectus.pdf" download>Download the prospectus</a></strong> to learn more about the types of participants attending the event! 
+  title: Sponsorship Levels*
   leftColumn:
     title: Headline
     body: <ul><li>Minimum of 8 minutes of Keynote speaking time (content subject to

@@ -75,7 +75,7 @@ const NominationModal = ({ member_profile, closeModal, nominateMember, member_no
                     </span>
                     {nominated && !member_nomination_loading && getNominationMessage()}
                     <span>
-                        {getModalText()}
+                        {!nominated && getModalText()}
                     </span>
                     {getModalButtons()}
                 </div>

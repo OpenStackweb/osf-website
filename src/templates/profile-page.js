@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { connect } from 'react-redux'
 import { navigate } from "gatsby"
 import Layout from '../components/Layout'
@@ -9,26 +9,32 @@ import SEO from "../components/SEO";
 import MembershipType from "../components/MembershipType";
 import ProfileForm from "../components/ProfileForm"
 import Affiliations from "../components/Affiliations";
+import CandidateProfile from "../components/CandidateProfile"
 import URI from "urijs";
-import {MEMBERSHIP_TYPE_NONE, MEMBERSHIP_TYPE_FOUNDATION} from "../actions/user-actions";
+import { MEMBERSHIP_TYPE_NONE, MEMBERSHIP_TYPE_FOUNDATION } from "../actions/user-actions";
 import 'openstack-uicore-foundation/lib/css/components.css';
-import {addAffiliation, saveAffiliation, deleteAffiliation, addOrganization, updateMembershipType} from "../actions/user-actions"
+import { addAffiliation, saveAffiliation, deleteAffiliation, addOrganization, updateMembershipType } from "../actions/user-actions"
+import { getMemberProfile, getElectionMemberProfile } from '../actions/member-actions';
+import { getElectionStatus, updateCandidateProfile } from "../actions/election-actions";
 
 export const ProfilePageTemplate = ({
-                                        currentMember,
-                                        initialMembershipType,
-                                        currentAffiliations,
-                                        idpProfile,
-                                        isLoggedUser,
-                                        location,
-                                        updateMembershipType
+    currentMember,
+    initialMembershipType,
+    currentAffiliations,
+    idpProfile,
+    isLoggedUser,
+    location,
+    updateMembershipType,
+    updateCandidateProfile,
+    electionStatus,
+    electionProfile
 }) => {
 
     let query = URI.parseQuery(location.search);
 
     let initialCurrentMemberShipType = initialMembershipType;
 
-    if (query.hasOwnProperty("membership_type") && initialMembershipType === MEMBERSHIP_TYPE_NONE ) {
+    if (query.hasOwnProperty("membership_type") && initialMembershipType === MEMBERSHIP_TYPE_NONE) {
         initialCurrentMemberShipType = query["membership_type"];
     }
 
@@ -53,7 +59,7 @@ export const ProfilePageTemplate = ({
     }
 
     const onSubmitApplication = () => {
-        if(currentAffiliations.length === 0){
+        if (currentAffiliations.length === 0) {
             setValidationError('* You need at least one affiliation');
             return;
         }
@@ -61,12 +67,17 @@ export const ProfilePageTemplate = ({
         updateMembershipType(currentMembershipType);
     }
 
+    const onCandidateApplicationSubmit = (application) => {
+        console.log('application to save', application);
+        updateCandidateProfile(application);
+    }
+
     return (
         <div>
             <div className="wrapper project-background">
                 <TopBar />
-                <Navbar isLoggedUser={isLoggedUser}/>
-                <Header title="Profile"/>
+                <Navbar isLoggedUser={isLoggedUser} />
+                <Header title="Profile" />
             </div>
 
             <main className="main">
@@ -76,46 +87,76 @@ export const ProfilePageTemplate = ({
                             <div className="columns">
                                 <div className="column">
                                     <MembershipType currentType={currentMembershipType}
-                                                    userName={`${idpProfile.given_name} ${idpProfile.family_name}`}
-                                                    initialType={initialMembershipType}
-                                                    handleConvertCommunityMember={() => handleConvertCommunityMember()}
-                                                    handleConvertFoundationMember={() => handleConvertFoundationMember()}
-                                                    handleResign={() => handleResign()}
-                                                    onSelectMembershipType={(type)=> onSelectMembershipType(type)}
+                                        userName={`${idpProfile.given_name} ${idpProfile.family_name}`}
+                                        initialType={initialMembershipType}
+                                        handleConvertCommunityMember={() => handleConvertCommunityMember()}
+                                        handleConvertFoundationMember={() => handleConvertFoundationMember()}
+                                        handleResign={() => handleResign()}
+                                        onSelectMembershipType={(type) => onSelectMembershipType(type)}
                                     />
-
+                                    {electionStatus?.status === "NominationsOpen" &&
+                                        <>
+                                            <hr />
+                                            <CandidateProfile electionStatus={electionStatus} electionProfile={electionProfile} saveCandidateProfile={onCandidateApplicationSubmit} />
+                                        </>
+                                    }
                                     {
                                         currentMembershipType !== MEMBERSHIP_TYPE_NONE &&
                                         <React.Fragment>
-                                            <hr/>
-                                            <ProfileForm idpProfile={idpProfile} memberProfile={currentMember}/>
+                                            <hr />
+                                            <ProfileForm idpProfile={idpProfile} memberProfile={currentMember} />
                                         </React.Fragment>
                                     }
                                     {
                                         currentMembershipType !== MEMBERSHIP_TYPE_NONE &&
                                         <React.Fragment>
-                                            <hr/>
-                                            <Affiliations affiliations={currentAffiliations} ownerId={currentMember.id}/>
+                                            <hr />
+                                            <Affiliations affiliations={currentAffiliations} ownerId={currentMember.id} />
                                         </React.Fragment>
                                     }
                                     {validationError &&
-                                    <p className="validation_error">{validationError}</p>
+                                        <p className="validation_error">{validationError}</p>
                                     }
                                     {
                                         currentMembershipType !== MEMBERSHIP_TYPE_NONE && initialMembershipType === MEMBERSHIP_TYPE_NONE &&
-                                        <button role="button" className="btn" onClick={()=> onSubmitApplication()}>Submit my Application</button>
+                                        <button role="button" className="btn" onClick={() => onSubmitApplication()}>Submit my Application</button>
                                     }
                                 </div>
                             </div>
                         </div>
                     </section>
-                 </div>
+                </div>
             </main>
         </div>
     )
 }
 
-const ProfilePage = ({ currentMember, initialMembershipType, currentAffiliations, idpProfile, isLoggedUser, location, updateMembershipType }) => {
+const ProfilePage = ({
+    currentMember,
+    initialMembershipType,
+    currentAffiliations,
+    idpProfile,
+    isLoggedUser,
+    location,
+    updateMembershipType,
+    electionStatus,
+    electionProfile,
+    updateCandidateProfile
+}) => {
+
+    const nomination_open = electionStatus?.status === 'NominationsOpen' ? true : false;
+
+    useEffect(() => {
+        getMemberProfile(currentMember.id);
+        getElectionStatus();
+    }, [])
+
+    useEffect(() => {
+        if (nomination_open) {
+            getElectionMemberProfile(currentMember.id);
+        }
+    }, [electionStatus])
+
     return (
         <Layout>
             <SEO />
@@ -127,6 +168,9 @@ const ProfilePage = ({ currentMember, initialMembershipType, currentAffiliations
                 location={location}
                 isLoggedUser={isLoggedUser}
                 updateMembershipType={updateMembershipType}
+                electionStatus={electionStatus}
+                electionProfile={electionProfile}
+                updateCandidateProfile={updateCandidateProfile}
             />
         </Layout>
     )
@@ -134,9 +178,11 @@ const ProfilePage = ({ currentMember, initialMembershipType, currentAffiliations
 
 export default connect(state => ({
     isLoggedUser: state.loggedUserState.isLoggedUser,
-    currentMember:state.loggedUserState.member,
+    currentMember: state.loggedUserState.member,
     initialMembershipType: state.userState.currentMembershipType,
-    currentAffiliations:state.userState.currentAffiliations,
+    currentAffiliations: state.userState.currentAffiliations,
+    electionProfile: state.memberState.member_profile,
+    electionStatus: state.electionState.election_status,
     idpProfile: state.userState.idpProfile,
 }),
     {
@@ -144,5 +190,8 @@ export default connect(state => ({
         saveAffiliation,
         deleteAffiliation,
         addOrganization,
-        updateMembershipType
-})(ProfilePage)
+        updateMembershipType,
+        updateCandidateProfile,
+        getMemberProfile,
+        getElectionStatus
+    })(ProfilePage)

@@ -18,6 +18,7 @@ export const MemberProfilePageTemplate = ({
   member_profile,
   loading_members,
   nomination_open,
+  election_name,
   nominateMember,
   member_nomination,
   member_nomination_loading
@@ -37,7 +38,7 @@ export const MemberProfilePageTemplate = ({
         <Navbar isLoggedUser={isLoggedUser} />
         <Header title='Open Infrastructure Foundation' subTitle='Individual Member Profile' />
       </div>
-      <AjaxLoader show={loading_members} size={120} />
+      <AjaxLoader show={loading_members || member_nomination_loading} size={120} />
       {member_profile &&
         <main className="main">
           <div className="content">
@@ -105,15 +106,21 @@ export const MemberProfilePageTemplate = ({
                     </>
                   }
                   {nomination_open &&
-                    member_profile.election_applications?.length >= 10 &&
                     <div className="member-profile-group">
-                      <span className="member-candidate">{member_profile.first_name} is a candidate in the January 2021 Board Elections .</span>
+                      <span className="member-candidate">{member_profile.first_name} is a candidate in the {election_name} .</span>
                       <hr />
-                      <span>
-                        {member_profile.first_name} has been nominated enough times to appear on the
-                        election ballot. You can read the answers {member_profile.first_name}
-                        gave to the election questions below.
-                      </span>
+                      {member_profile.election_applications?.length >= 10 ?
+                        <span>
+                          {member_profile.first_name} has been nominated enough times to appear on the
+                          election ballot. You can read the answers {member_profile.first_name} gave to the election questions below.
+                        </span>
+                        :
+                        <span>
+                          <p>Read the Q&A below and see if you want to 
+                            <a onClick={isLoggedUser ? () => setNominationModal(!nominationModal) : onClickLogin}> Nominate {member_profile.first_name}</a> in this election.
+                          </p>
+                        </span>
+                      }
                       <hr />
                       <span className="profile-question">Q</span>
                       <span className="profile-title">{`${member_profile.candidate_profile?.election?.candidate_application_form_relationship_to_openstack_label}`}</span>
@@ -196,7 +203,7 @@ const MemberProfilePage = ({
   loading_members
 }) => {
 
-  const nomination_open = election_status.status === 'NominationsOpen' ? true : false;
+  const nomination_open = election_status?.status === 'NominationsOpen' ? true : false;
 
   useEffect(() => {
     getMemberProfile(memberId);
@@ -217,7 +224,8 @@ const MemberProfilePage = ({
         member_profile={member_profile}
         loading_members={loading_members}
         nominateMember={nominateMember}
-        nomination_open={election_status.status === 'NominationsOpen'}
+        nomination_open={election_status?.status === 'NominationsOpen'}
+        election_name={election_status?.name}
         member_nomination={member_nomination}
         member_nomination_loading={member_nomination_loading}
       />

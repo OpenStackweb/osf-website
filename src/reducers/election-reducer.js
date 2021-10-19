@@ -29,8 +29,7 @@ const electionReducer = (state = DEFAULT_STATE, action) => {
     }
       break;
     case NOMINATE_MEMBER_ERROR: {
-      const errorMessage = payload.err.response.body.error_description;
-      return { ...state, member_nomination: errorMessage, member_nomination_loading: false }
+      return { ...state, member_nomination: payload, member_nomination_loading: false }
     }
       break;
     default:

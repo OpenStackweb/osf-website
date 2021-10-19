@@ -1,12 +1,48 @@
-.profile_form{
-  .info{
+.profile_form {
+  .info {
     margin: 0 !important;
     margin-top: 5px !important;
     margin-bottom: 5px !important;
     padding: 0 !important;
-
   }
-  .warning{
-    color: #FF9800 !important;
+  .warning {
+    color: #ff9800 !important;
+  }
+}
+
+.candidate-profile-wrapper {
+  margin: 5px 0;
+  .candidate-profile-header {
+    display: flex;
+    align-items: center;
+    button {
+      margin-left: 5px;
+    }
+  }
+  .candidate-profile-section {
+    span {
+      display: block;
+    }
+    button {
+      margin: 10px 10px 0 0;
+    }
+  }
+}
+.candidate-profile-form {
+  h2 {
+    margin-bottom: 15px;
+  }
+  .candidate-profile-item {
+    display: flex;
+    flex-direction: column;
+    label {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    textarea {
+      margin-bottom: 15px;
+      padding: 7px;
+      width: 60%;
+    }
   }
 }

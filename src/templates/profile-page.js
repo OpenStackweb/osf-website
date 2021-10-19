@@ -67,11 +67,6 @@ export const ProfilePageTemplate = ({
         updateMembershipType(currentMembershipType);
     }
 
-    const onCandidateApplicationSubmit = (application) => {
-        console.log('application to save', application);
-        updateCandidateProfile(application);
-    }
-
     return (
         <div>
             <div className="wrapper project-background">
@@ -97,7 +92,7 @@ export const ProfilePageTemplate = ({
                                     {electionStatus?.status === "NominationsOpen" &&
                                         <>
                                             <hr />
-                                            <CandidateProfile electionStatus={electionStatus} electionProfile={electionProfile} saveCandidateProfile={onCandidateApplicationSubmit} />
+                                            <CandidateProfile electionStatus={electionStatus} electionProfile={currentMember} />
                                         </>
                                     }
                                     {
@@ -140,22 +135,12 @@ const ProfilePage = ({
     location,
     updateMembershipType,
     electionStatus,
-    electionProfile,
     updateCandidateProfile
 }) => {
 
-    const nomination_open = electionStatus?.status === 'NominationsOpen' ? true : false;
-
     useEffect(() => {
-        getMemberProfile(currentMember.id);
         getElectionStatus();
-    }, [])
-
-    useEffect(() => {
-        if (nomination_open) {
-            getElectionMemberProfile(currentMember.id);
-        }
-    }, [electionStatus])
+    }, [])    
 
     return (
         <Layout>
@@ -169,7 +154,6 @@ const ProfilePage = ({
                 isLoggedUser={isLoggedUser}
                 updateMembershipType={updateMembershipType}
                 electionStatus={electionStatus}
-                electionProfile={electionProfile}
                 updateCandidateProfile={updateCandidateProfile}
             />
         </Layout>
@@ -181,7 +165,6 @@ export default connect(state => ({
     currentMember: state.loggedUserState.member,
     initialMembershipType: state.userState.currentMembershipType,
     currentAffiliations: state.userState.currentAffiliations,
-    electionProfile: state.memberState.member_profile,
     electionStatus: state.electionState.election_status,
     idpProfile: state.userState.idpProfile,
 }),

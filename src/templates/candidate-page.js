@@ -13,6 +13,7 @@ import { updateCandidateProfile } from "../actions/election-actions";
 export const CandidatePageTemplate = ({
     isLoggedUser,
     updateCandidateProfile,
+    currentMember,
     electionStatus
 }) => {
 
@@ -40,7 +41,10 @@ export const CandidatePageTemplate = ({
                                     {electionStatus?.status === "NominationsOpen" &&
                                         <>
                                             <hr />
-                                            <CandidateForm electionStatus={electionStatus} saveCandidateProfile={onCandidateApplicationSubmit} />
+                                            <CandidateForm 
+                                                electionStatus={electionStatus}
+                                                currentMember={currentMember} 
+                                                saveCandidateProfile={onCandidateApplicationSubmit} />
                                         </>
                                     }
                                 </div>
@@ -56,7 +60,8 @@ export const CandidatePageTemplate = ({
 const CandidatePage = ({
     isLoggedUser,
     electionStatus,
-    updateCandidateProfile
+    updateCandidateProfile,
+    currentMember
 }) => {
     return (
         <Layout>
@@ -64,6 +69,7 @@ const CandidatePage = ({
             <CandidatePageTemplate
                 isLoggedUser={isLoggedUser}
                 electionStatus={electionStatus}
+                currentMember={currentMember}
                 updateCandidateProfile={updateCandidateProfile}
             />
         </Layout>
@@ -72,6 +78,7 @@ const CandidatePage = ({
 
 export default connect(state => ({
     isLoggedUser: state.loggedUserState.isLoggedUser,
+    currentMember: state.loggedUserState.member,    
     electionStatus: state.electionState.election_status,
 }),
     {

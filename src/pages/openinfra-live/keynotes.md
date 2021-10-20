@@ -31,11 +31,11 @@ whatToExpect:
   bullets: >-
     <ul>
 
-    <li><strong>Exclusive announcements</strong> from the OpenInfra Foundation</li>
+    <li>Exclusive announcements from the OpenInfra Foundation</li>
 
-    <li>Users deploying hybrid <strong>cloud scenarios in production</strong> and how open source projects like OpenStack and Kubernetes make them scale</li>
+    <li>Users deploying hybrid cloud scenarios in production and how open source projects like OpenStack and Kubernetes make them scale</li>
 
-    <li>OpenInfra production deployments <strong>growing by up to 200%</strong></li>
+    <li>OpenInfra production deployments growing by up to 200%</li>
 
     </ul>
   title: WHAT TO EXPECT

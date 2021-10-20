@@ -149,6 +149,8 @@ companies:
         image: /img/companies/_New/Silver/NTT-silver.jpg
       - alt: NTT TechnoCross
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT-TX.png
+      - image: /img/oneqode_sm.png
+        alt: OneQode
       - alt: ORock
         image: /img/companies/_New/Silver/orock-silver.jpg
       - image: /img/osism-sm.png
@@ -173,8 +175,6 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
-      - image: /img/oneqode_sm.png
-        alt: OneQode
     text: Open Infrastructure Foundation Silver Members provide funding and pledge
       strategic alignment to the OpenInfra Foundation mission. If your
       organization  is highly involved with  the Open Infrastructure community

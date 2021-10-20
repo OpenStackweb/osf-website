@@ -82,48 +82,59 @@ export const OpenInfraLiveKeynotesTemplate = ({
               </div>
             </div>
           </section>
-
-          <section className="what-to-expect">
+          {whatToExpect &&
+            <section className="what-to-expect">
             <div className="live-keynotes-promo-v2 no-top-margin">
               <h3 className="small-title">{whatToExpect.title}</h3>
               <div className="live-kp-container smaller-container">
-                <div className="text-area lt-text">                
+                <div className="text-area lt-text">
                   <div className="text">
-                    <p dangerouslySetInnerHTML={{ __html: whatToExpect.text }} />
-                    <p dangerouslySetInnerHTML={{ __html: whatToExpect.bullets }} />
+                    <p dangerouslySetInnerHTML={{__html: whatToExpect.text}}/>
+                    <p dangerouslySetInnerHTML={{__html: whatToExpect.bullets}}/>
                   </div>
                 </div>
                 <div className="image-area">
-                  <img src={OILiveComp} />
+                  <img src={OILiveComp}/>
                 </div>
               </div>
               <div className="diagonal-bg-container">
-                <img className="diagonal-bg" src={DiagonalBG} />
+                <img className="diagonal-bg" src={DiagonalBG}/>
               </div>
             </div>
           </section>
-
-          <section className="featured-projects-section">
+          }
+          {featuredProjects &&
+            <section className="featured-projects-section">
             <div className="project-logos-wrapper">
 
               <h3 className="small-title">{featuredProjects.title}</h3>
 
               <div className="project-logos">
                 <div className="project-logo-row">
-                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner" src={Airship} alt="Airship" /></a>
-                  <a href="https://katacontainers.io/" className="project-logo"><img className="project-logo-inner" src={Kata} alt="KataContainers" /></a>
-                  <a href="https://openinfralabs.org/" className="project-logo"><img className="project-logo-inner" src={OILabs} alt="OpenInfra Labs"/></a>
+                  <a href="https://www.airshipit.org/" className="project-logo"><img className="project-logo-inner"
+                                                                                     src={Airship} alt="Airship"/></a>
+                  <a href="https://katacontainers.io/" className="project-logo"><img className="project-logo-inner"
+                                                                                     src={Kata}
+                                                                                     alt="KataContainers"/></a>
+                  <a href="https://openinfralabs.org/" className="project-logo"><img className="project-logo-inner"
+                                                                                     src={OILabs} alt="OpenInfra Labs"/></a>
                 </div>
 
                 <div className="project-logo-row">
-                  <a href="https://www.openstack.org/" className="project-logo"><img className="project-logo-inner" src={OpenStack} alt="OpenStack" /></a>
-                  <a href="https://www.starlingx.io/" className="project-logo"><img className="project-logo-inner" src={StarlingX} alt="StarlingX" /></a>
-                  <a href="https://zuul-ci.org/" className="project-logo"><img className="project-logo-inner" src={Zuul} alt="Zuul" /></a>
+                  <a href="https://www.openstack.org/" className="project-logo"><img className="project-logo-inner"
+                                                                                     src={OpenStack}
+                                                                                     alt="OpenStack"/></a>
+                  <a href="https://www.starlingx.io/" className="project-logo"><img className="project-logo-inner"
+                                                                                    src={StarlingX}
+                                                                                    alt="StarlingX"/></a>
+                  <a href="https://zuul-ci.org/" className="project-logo"><img className="project-logo-inner" src={Zuul}
+                                                                               alt="Zuul"/></a>
                 </div>
               </div>
-              <p className="inner-text" dangerouslySetInnerHTML={{ __html: featuredProjects.text }} />
+              <p className="inner-text" dangerouslySetInnerHTML={{__html: featuredProjects.text}}/>
             </div>
           </section>
+          }
 
 {/*          <section className="live-section">
             <div className="container">
@@ -185,14 +196,15 @@ export const OpenInfraLiveKeynotesTemplate = ({
               </section>
             </div>
           </section>
-          <section className="live-section">
+          {sponsorshipSection &&
+            <section className="live-section">
             <div className="container">
               <section className="sponsor-levels">
                 <h3>{sponsorshipSection.title}</h3>
                 <section className="sponsorshipSection-intro">
-                    <div className="intro-inner">
-                      <p className="fix-h5" dangerouslySetInnerHTML={{ __html: sponsorshipSection.text }} />
-                    </div>
+                  <div className="intro-inner">
+                    <p className="fix-h5" dangerouslySetInnerHTML={{__html: sponsorshipSection.text}}/>
+                  </div>
                 </section>
                 <div className="level-listing">
                   <section className="level-single headline">
@@ -200,7 +212,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                       {sponsorshipSection.leftColumn.title}
                     </div>
                     <div className="level-bullets">
-                      <p dangerouslySetInnerHTML={{ __html: sponsorshipSection.leftColumn.body }} />
+                      <p dangerouslySetInnerHTML={{__html: sponsorshipSection.leftColumn.body}}/>
                     </div>
                     <div className="level-price">
                       {sponsorshipSection.leftColumn.footer}
@@ -211,7 +223,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                       {sponsorshipSection.rightColumn.title}
                     </div>
                     <div className="level-bullets">
-                      <p dangerouslySetInnerHTML={{ __html: sponsorshipSection.rightColumn.body }} />
+                      <p dangerouslySetInnerHTML={{__html: sponsorshipSection.rightColumn.body}}/>
                     </div>
                     <div className="level-price">
                       {sponsorshipSection.rightColumn.footer}
@@ -221,12 +233,15 @@ export const OpenInfraLiveKeynotesTemplate = ({
               </section>
               <div className="sponsor-cta">
                 <p className="fix-h5">
-                  {interestedSection.preEmailText} <a href={`mailto:${interestedSection.email}`}>{interestedSection.email}</a>
+                  {interestedSection.preEmailText} <a
+                    href={`mailto:${interestedSection.email}`}>{interestedSection.email}</a>
                 </p>
-                <p className="sponsor-note">{interestedSection.preJoinText} <a href={interestedSection.joinUrl}>{interestedSection.joinText}</a></p>
+                <p className="sponsor-note">{interestedSection.preJoinText} <a
+                    href={interestedSection.joinUrl}>{interestedSection.joinText}</a></p>
               </div>
             </div>
           </section>
+          }
           <PageContent content={content} />
         </div>
       </main>

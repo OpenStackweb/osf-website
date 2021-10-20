@@ -269,6 +269,8 @@ companies:
         image: /img/companies/logo-1-copy.png
       - alt: ArpaWare
         image: /img/companies/new-arpaware-logo-500x500.jpg
+      - alt: ArvanCloud
+        image: /img/companies/Associate/ArvanCloud-Logo.png
       - alt: ASEANLABS, Inc.
         image: /img/companies/aseanlabs-logo.png
       - alt: Asosiasi Cloud Computing Indonesia

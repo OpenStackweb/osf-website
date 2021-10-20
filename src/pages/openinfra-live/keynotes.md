@@ -12,6 +12,8 @@ hero:
   description: November 17 and 18 at 9am CT / 1500 UTC
   buttonText: Register Now
   buttonURL: https://openinfralivekeynotes.eventbrite.com
+  tagline: Exclusive Announcements. Live Demos. OpenStack + Kubernetes. Hybrid
+    Cloud Economics.
 intro:
   text: If you miss the OpenInfra Summit, this two day special edition of
     OpenInfra Live is your only opportunity to meet the newest players to the
@@ -22,6 +24,27 @@ intro:
     play, and celebrate as we announce this year’s Superuser Awards winner. This
     will be the one time everyone will be coming together this year. Come
     interact with the global OpenInfra community—Live!
+whatToExpect:
+  text: "OpenInfra Live: Keynotes will cover open source project production use
+    cases, how to get started contributing and the role vendors play in the
+    community."
+  bullets: >-
+    <ul>
+
+    <li><strong>Exclusive announcements</strong> from the OpenInfra Foundation</li>
+
+    <li>Users deploying hybrid <strong>cloud scenarios in production</strong> and how open source projects like OpenStack and Kubernetes make them scale</li>
+
+    <li>OpenInfra production deployments <strong>growing by up to 200%</strong></li>
+
+    </ul>
+  title: WHAT TO EXPECT
+featuredProjects:
+  title: Featured Open Infrastructure Projects
+  text: The event will highlight projects at the OpenInfra Foundation including
+    Airship, Kata Containers, OpenStack, OpenInfra Labs, StarlingX, and Zuul as
+    well as other open source projects like like Linux, Kubernetes, Ceph, and
+    Magma.
 statSection:
   leftColumn:
     title: What can you expect?

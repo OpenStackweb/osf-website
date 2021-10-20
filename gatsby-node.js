@@ -44,6 +44,10 @@ exports.createSchemaCustomization = ({ actions }) => {
       category: [Category]
       author: String
       date: Date @dateformat
+      featuredProjects: MarkdownRemarkFrontmatterFeaturedProjects
+      hero: MarkdownRemarkFrontmatterHero
+      sponsorshipSection: MarkdownRemarkFrontmatterSponsorshipSection
+      whatToExpect: MarkdownRemarkFrontmatterWhatToExpectNcc
     }
     type Category {
       label: String
@@ -59,7 +63,40 @@ exports.createSchemaCustomization = ({ actions }) => {
        title: String!
        speakers: [SpeakerType!]!
     }
-  `
+    type MarkdownRemarkFrontmatterHero {
+        subtitle: String
+        title: String
+        tagline: String
+        description: String
+        buttonText: String
+        buttonURL: String
+    }
+    type MarkdownRemarkFrontmatterWhatToExpect{
+        title: String
+        text: String
+        bullets: String
+    }
+    type MarkdownRemarkFrontmatterFeaturedProjects{
+        title: String
+        text: String
+    }
+    type SponsorshipSectionLeftColumn{
+        title: String
+        body: String
+        footer: String
+    }
+    type SponsorshipSectionRightColumn{
+        title: String
+        body: String
+        footer: String
+    }
+    type MarkdownRemarkFrontmatterSponsorshipSection{
+       title: String
+       text: String
+       leftColumn: SponsorshipSectionLeftColumn
+       rightColumn: SponsorshipSectionRightColumn
+    }
+    `
   createTypes(typeDefs)
 }
 

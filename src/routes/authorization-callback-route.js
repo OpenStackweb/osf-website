@@ -26,7 +26,7 @@ class AuthorizationCallbackRoute extends AbstractAuthorizationCallbackRoute {
   }
 
   _callback(backUrl) {
-    this.props.getUserInfo('groups, all_affiliations, candidate_profile, election_applications').then(() => this.props.getIDPProfile().then(() => navigate(URI.decode(backUrl))));
+    this.props.getUserInfo('groups, all_affiliations, candidate_profile, election_applications, election_nominations, election_nominations.candidate').then(() => this.props.getIDPProfile().then(() => navigate(URI.decode(backUrl))));
   }
 
   _redirect2Error(error) {

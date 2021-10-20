@@ -36,13 +36,21 @@
     display: flex;
     flex-direction: column;
     label {
-      margin-bottom: 5px;
+      margin-bottom: 10px;
       font-weight: bold;
-    }
-    textarea {
-      margin-bottom: 15px;
-      padding: 7px;
+    }    
+    .candidate-profile-editor {
       width: 60%;
+      min-height: 150px;
+      margin-bottom: 35px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .candidate-profile-form {
+    .candidate-profile-editor {
+      width: 100%;
     }
   }
 }

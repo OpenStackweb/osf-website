@@ -102,21 +102,22 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
             <hr />
             <div className="candidate-profile-section">
                 <h4>Your Candidate Nominations</h4>
-                {/* {electionProfile.election_applications?.length > 0 &&
+                {electionProfile.election_nominations?.length > 0 ?
                     <>
-                        <span className="profile-text">{electionProfile.first_name} has already been nominated by:</span>
+                        <span>These are the open Infrastructure Foundation Individual Members yo have nominated in this election.</span>
                         <ul>
-                            {electionProfile.election_applications.map((application, index) => {
+                            {electionProfile.election_nominations.map((nomination, index) => {
                                 return (
                                     <li key={`aplication-${index}`}>
-                                        {`${application.nominator.first_name} ${application.nominator.last_name}`}
+                                        You nominated <b>{`${nomination.candidate.first_name} ${nomination.candidate.last_name}`}</b> on {moment(nomination.last_edited * 1000).format('MM DD, YYYY')} at {moment(nomination.last_edited * 1000).format('hh:mm A')}
                                     </li>
                                 )
                             })}
                         </ul>
                     </>
-                } */}
-                <span>You have not nominated any candidates for this election.</span>
+                    :
+                    <span>You have not nominated any candidates for this election.</span>
+                }
                 <button className="" onClick={() => handleSeeNominations()}>See The Current Nominations</button>
                 <button className="" onClick={() => handleNominateMember()}>Nominate a Member</button>
             </div>

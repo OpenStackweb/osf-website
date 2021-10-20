@@ -335,6 +335,7 @@ companyTier:
           alt: ""
         - logo: /img/members-page/silver/Sponsor-Logos-Silver_Whitestack 1.png
           alt: ""
+        - logo: /img/oneqode_sm.png
 help:
   display: true
   title: We’re here to help

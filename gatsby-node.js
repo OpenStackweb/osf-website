@@ -47,7 +47,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       featuredProjects: MarkdownRemarkFrontmatterFeaturedProjects
       hero: MarkdownRemarkFrontmatterHero
       sponsorshipSection: MarkdownRemarkFrontmatterSponsorshipSection
-      whatToExpect: MarkdownRemarkFrontmatterWhatToExpectNcc
+      whatToExpect: MarkdownRemarkFrontmatterWhatToExpect
     }
     type Category {
       label: String

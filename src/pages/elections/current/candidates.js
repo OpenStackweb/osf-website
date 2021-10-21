@@ -7,6 +7,7 @@ import TopBar from "../../../components/TopBar";
 import Navbar from "../../../components/Navbar";
 import Header from "../../../components/Header";
 import SEO from "../../../components/SEO";
+import LinkComponent from "../../../components/LinkComponent";
 
 import { getCandidates, getElectionStatus } from "../../../actions/election-actions";
 
@@ -62,9 +63,9 @@ const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today }) =
                                 <b>About {`${candidate.member.first_name} ${candidate.member.last_name}`}</b>
                                 <span dangerouslySetInnerHTML={{ __html: candidate.bio || candidate.member.bio }} />
                               </div>
-                              <a href={`/a/community/members/${candidate.member.id}`}>
+                              <LinkComponent href={`/a/community/members/${candidate.member.id}`}>
                                 {`View  ${candidate.member.first_name} ${candidate.member.last_name}'s full candidate profile and Q&A >>`}
-                              </a>
+                              </LinkComponent>
                               <hr />
                             </div>
                           </>
@@ -101,9 +102,9 @@ const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today }) =
                                     <b>About {`${candidate.member.first_name} ${candidate.member.last_name}`}</b>
                                     <span dangerouslySetInnerHTML={{ __html: candidate.bio || candidate.member.bio }} />
                                   </div>
-                                  <a href={`/a/community/members/${candidate.member.id}`}>
+                                  <LinkComponent href={`/a/community/members/${candidate.member.id}`}>
                                     {`View  ${candidate.member.first_name} ${candidate.member.last_name}'s full candidate profile and Q&A >>`}
-                                  </a>
+                                  </LinkComponent>
                                   {index + 1 < noBallotCandidates.length && <hr />}
                                 </div>
                               </>

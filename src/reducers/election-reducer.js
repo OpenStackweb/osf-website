@@ -5,13 +5,15 @@ import {
   NOMINATE_MEMBER,
   NOMINATE_MEMBER_SUCCESS,
   NOMINATE_MEMBER_ERROR,
-  GET_CANDIDATES
+  GET_CANDIDATES,
+  GET_GOLD_CANDIDATES
 } from '../actions/election-actions'
 
 const DEFAULT_STATE = {
   loading: false,
   election_status: null,
   candidates: [],
+  gold_candidates: [],
   member_nomination: null,
   member_nomination_loading: null,
 }
@@ -31,6 +33,10 @@ const electionReducer = (state = DEFAULT_STATE, action) => {
       break;
     case GET_CANDIDATES: {
       return { ...state, candidates: payload.response.data }
+    }
+      break;
+    case GET_GOLD_CANDIDATES: {
+      return { ...state, gold_candidates: payload.response.data }
     }
       break;
     case NOMINATE_MEMBER: {

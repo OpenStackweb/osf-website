@@ -15,7 +15,7 @@ import { MEMBERSHIP_TYPE_NONE, MEMBERSHIP_TYPE_FOUNDATION } from "../actions/use
 import 'openstack-uicore-foundation/lib/css/components.css';
 import { addAffiliation, saveAffiliation, deleteAffiliation, addOrganization, updateMembershipType } from "../actions/user-actions"
 import { getMemberProfile, getElectionMemberProfile } from '../actions/member-actions';
-import { getElectionStatus, updateCandidateProfile } from "../actions/election-actions";
+import { getElectionStatus } from "../actions/election-actions";
 
 export const ProfilePageTemplate = ({
     currentMember,
@@ -25,7 +25,6 @@ export const ProfilePageTemplate = ({
     isLoggedUser,
     location,
     updateMembershipType,
-    updateCandidateProfile,
     electionStatus,
     electionProfile
 }) => {
@@ -136,7 +135,6 @@ const ProfilePage = ({
     updateMembershipType,
     getElectionStatus,
     electionStatus,
-    updateCandidateProfile
 }) => {
 
     useEffect(() => {
@@ -155,7 +153,6 @@ const ProfilePage = ({
                 isLoggedUser={isLoggedUser}
                 updateMembershipType={updateMembershipType}
                 electionStatus={electionStatus}
-                updateCandidateProfile={updateCandidateProfile}
             />
         </Layout>
     )
@@ -174,8 +171,7 @@ export default connect(state => ({
         saveAffiliation,
         deleteAffiliation,
         addOrganization,
-        updateMembershipType,
-        updateCandidateProfile,
+        updateMembershipType,        
         getMemberProfile,
         getElectionStatus
     })(ProfilePage)

@@ -8,21 +8,21 @@ import Header from "../components/Header";
 import SEO from "../components/SEO";
 import CandidateForm from "../components/CandidateForm";
 import 'openstack-uicore-foundation/lib/css/components.css';
+import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 import { updateCandidateProfile } from "../actions/election-actions";
+
 
 export const CandidatePageTemplate = ({
     isLoggedUser,
+    loading,
     updateCandidateProfile,
     currentMember,
     electionStatus
 }) => {
 
     const onCandidateApplicationSubmit = (application) => {
-        console.log('application to save', application);
         updateCandidateProfile(application);
     }
-
-    console.log('election status', electionStatus)
 
     return (
         <div>
@@ -31,7 +31,7 @@ export const CandidatePageTemplate = ({
                 <Navbar isLoggedUser={isLoggedUser} />
                 <Header title="Accept Nomination" subTitle="To accept nominations and be listed as a candidate for the OpenStack election, please answer the questions below." />
             </div>
-
+            <AjaxLoader show={loading} size={120} />
             <main className="main">
                 <div className="content">
                     <section className="section about-s1-main">
@@ -41,9 +41,9 @@ export const CandidatePageTemplate = ({
                                     {electionStatus?.status === "NominationsOpen" &&
                                         <>
                                             <hr />
-                                            <CandidateForm 
+                                            <CandidateForm
                                                 electionStatus={electionStatus}
-                                                currentMember={currentMember} 
+                                                currentMember={currentMember}
                                                 saveCandidateProfile={onCandidateApplicationSubmit} />
                                         </>
                                     }
@@ -59,6 +59,7 @@ export const CandidatePageTemplate = ({
 
 const CandidatePage = ({
     isLoggedUser,
+    loading,
     electionStatus,
     updateCandidateProfile,
     currentMember
@@ -68,6 +69,7 @@ const CandidatePage = ({
             <SEO />
             <CandidatePageTemplate
                 isLoggedUser={isLoggedUser}
+                loading={loading}
                 electionStatus={electionStatus}
                 currentMember={currentMember}
                 updateCandidateProfile={updateCandidateProfile}
@@ -78,7 +80,8 @@ const CandidatePage = ({
 
 export default connect(state => ({
     isLoggedUser: state.loggedUserState.isLoggedUser,
-    currentMember: state.loggedUserState.member,    
+    currentMember: state.loggedUserState.member,
+    loading: state.electionState.loading,
     electionStatus: state.electionState.election_status,
 }),
     {

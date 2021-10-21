@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react'
+import { navigate } from "gatsby"
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
+import LinkComponent from '../components/LinkComponent';
 import NominationModal from '../components/NominationModal';
 
 import { connect } from "react-redux";
@@ -15,6 +17,7 @@ import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 
 export const MemberProfilePageTemplate = ({
   isLoggedUser,
+  isOwnProfile,
   member_profile,
   loading_members,
   nomination_open,
@@ -29,6 +32,10 @@ export const MemberProfilePageTemplate = ({
   const onClickLogin = (evt) => {
     evt.preventDefault();
     doLogin(`/a/community/members/${member_profile.id}`);
+  }
+
+  const goToProfile = () => {
+    navigate('/a/profile')
   }
 
   return (
@@ -65,7 +72,15 @@ export const MemberProfilePageTemplate = ({
                     <>
                       <span className="profile-title">LinkdIn</span>
                       <span className="profile-text">
-                        <a href={member_profile.linked_in}>{member_profile.linked_in}</a>
+                        <LinkComponent href={member_profile.linked_in}>{member_profile.linked_in}</LinkComponent>
+                      </span>
+                    </>
+                  }
+                  {member_profile.twitter &&
+                    <>
+                      <span className="profile-title">Twitter</span>
+                      <span className="profile-text">
+                        <LinkComponent href={`https://www.twitter.com/${member_profile.twitter}`}>{`@${member_profile.twitter}`}</LinkComponent>
                       </span>
                     </>
                   }
@@ -81,7 +96,7 @@ export const MemberProfilePageTemplate = ({
                     <>
                       <span className="profile-title">Github</span>
                       <span className="profile-text">
-                        {member_profile.github_user}
+                        <LinkComponent href={`https://github.com/${member_profile.github_user}`}>{member_profile.github_user}</LinkComponent>
                       </span>
                     </>
                   }
@@ -116,7 +131,7 @@ export const MemberProfilePageTemplate = ({
                         </span>
                         :
                         <span>
-                          <p>Read the Q&A below and see if you want to 
+                          <p>Read the Q&A below and see if you want to
                             <a onClick={isLoggedUser ? () => setNominationModal(!nominationModal) : onClickLogin}> Nominate {member_profile.first_name}</a> in this election.
                           </p>
                         </span>
@@ -143,7 +158,8 @@ export const MemberProfilePageTemplate = ({
                       <span className="profile-text" dangerouslySetInnerHTML={{ __html: member_profile.candidate_profile?.top_priority }} />
                       <hr />
                     </div>
-                  } {nomination_open &&
+                  }
+                  {nomination_open &&
                     <div className="member-profile-group">
                       {member_profile.election_applications?.length > 0 &&
                         <>
@@ -171,6 +187,17 @@ export const MemberProfilePageTemplate = ({
                       </button>
                     </div>
                   }
+                  {nomination_open && isOwnProfile &&
+                    <>
+                      <hr />
+                      <div className="member-profile-group">
+                        <span className="member-candidate">Your Profile</span>
+                        <button className="profile-nominate-button" onClick={() => goToProfile()}>
+                          Edit Your Profile
+                        </button>
+                      </div>
+                    </>
+                  }
                 </div>
               </div>
             </section>
@@ -191,6 +218,7 @@ export const MemberProfilePageTemplate = ({
 
 const MemberProfilePage = ({
   isLoggedUser,
+  currentMember,
   memberId,
   getMemberProfile,
   getElectionMemberProfile,
@@ -204,6 +232,7 @@ const MemberProfilePage = ({
 }) => {
 
   const nomination_open = election_status?.status === 'NominationsOpen' ? true : false;
+  const isOwnProfile = currentMember.id === parseInt(memberId);
 
   useEffect(() => {
     getMemberProfile(memberId);
@@ -221,6 +250,7 @@ const MemberProfilePage = ({
       <SEO />
       <MemberProfilePageTemplate
         isLoggedUser={isLoggedUser}
+        isOwnProfile={isOwnProfile}
         member_profile={member_profile}
         loading_members={loading_members}
         nominateMember={nominateMember}
@@ -235,6 +265,7 @@ const MemberProfilePage = ({
 
 export default connect(state => ({
   isLoggedUser: state.loggedUserState.isLoggedUser,
+  currentMember: state.loggedUserState.member,
   member_profile: state.memberState.member_profile,
   loading_members: state.memberState.loading_members,
   election_status: state.electionState.election_status,

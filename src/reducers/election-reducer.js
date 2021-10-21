@@ -1,12 +1,17 @@
+import { START_LOADING, STOP_LOADING } from "openstack-uicore-foundation/lib/actions";
+
 import {
   GET_ELECTIONS_STATUS,
   NOMINATE_MEMBER,
   NOMINATE_MEMBER_SUCCESS,
-  NOMINATE_MEMBER_ERROR
+  NOMINATE_MEMBER_ERROR,
+  GET_CANDIDATES
 } from '../actions/election-actions'
 
 const DEFAULT_STATE = {
+  loading: false,
   election_status: null,
+  candidates: [],
   member_nomination: null,
   member_nomination_loading: null,
 }
@@ -16,8 +21,16 @@ const electionReducer = (state = DEFAULT_STATE, action) => {
 
   switch (type) {
 
+    case START_LOADING:
+      return { ...state, loading: true };
+    case STOP_LOADING:
+      return { ...state, loading: false };
     case GET_ELECTIONS_STATUS: {
       return { ...state, election_status: payload.response, member_nomination: null }
+    }
+      break;
+    case GET_CANDIDATES: {
+      return { ...state, candidates: payload.response.data }
     }
       break;
     case NOMINATE_MEMBER: {

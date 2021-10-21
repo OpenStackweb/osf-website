@@ -1,0 +1,38 @@
+.election-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  position: relative;
+  i {
+    position: absolute;
+    right: 15px;
+    color: #f15b3e;
+    top: 50%;
+  }
+}
+
+.candidate-tier {
+  padding-top: 50px;
+}
+
+.candidate-list {
+  margin: 30px 0;
+  .candidate-wrapper {
+    margin-bottom: 30px;
+    > img {
+      margin-bottom: 10px;
+      width: 50px;
+    }
+    .candidate-nominator {
+      border-radius: 3px;
+      display: inline-block;
+      background-color: #ededed;
+      padding: 1px 6px;
+      margin-left: 5px;
+      margin-bottom: 2px;
+    }
+  }
+}

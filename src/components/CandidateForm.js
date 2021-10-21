@@ -61,7 +61,7 @@ const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) 
                 />
             </div>
 
-            <button className="" onClick={() => saveCandidateProfile(currentMember)}>Save Candidate Application</button>
+            <button className="" onClick={() => saveCandidateProfile(candidateForm)}>Save Candidate Application</button>
         </div>
     )
 }

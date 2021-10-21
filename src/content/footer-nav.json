@@ -106,6 +106,10 @@
         {
           "text": "Legal Documents",
           "link": "/legal/"
+        },
+        {
+          "text": "Contact",
+          "link": "/contact/"
         }
       ]
     },

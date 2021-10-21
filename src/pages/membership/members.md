@@ -161,20 +161,17 @@ memberBenefits:
     silver:
       price: $15,000
       button:
-        link: mailto:ecosystem@openinfra.dev?subject=Interested in learning more about
-          Silver membership
+        link: /contact/?silver
         text: Learn More
     gold:
       price: $150,000
       button:
-        link: mailto:ecosystem@openinfra.dev?subject=Interested in learning more about
-          Gold membership
+        link: /contact/?gold
         text: Learn More
     platinum:
       price: $350,000
       button:
-        link: mailto:ecosystem@openinfra.dev?subject=Interested in learning more about
-          Platinum membership
+        link: /contact/?platinum
         text: Learn More
   scheduleCall: Still have questions? <a
     href="https://calendly.com/jimmy-mcarthur">Schedule a phone call</a>.

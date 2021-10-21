@@ -249,7 +249,7 @@ companyTier:
           alt: ""
         - logo: /img/members-page/gold/Sponsor-Logos-Gold_NEC 1.png
           alt: ""
-        - logo: /img/nipa_-sm.png
+        - logo: /img/nipa-gold.jpg
         - logo: /img/members-page/gold/Sponsor-Logos-Gold_T-Systems 1.png
           alt: ""
         - logo: /img/members-page/gold/Sponsor-Logos-Gold_Troila 1.png

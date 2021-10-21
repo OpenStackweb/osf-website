@@ -270,7 +270,7 @@ companies:
       - alt: ArpaWare
         image: /img/companies/new-arpaware-logo-500x500.jpg
       - alt: ArvanCloud
-        image: /img/companies/Associate/ArvanCloud-Logo.png
+        image: /img/companies/ArvanCloud-Logo.png
       - alt: ASEANLABS, Inc.
         image: /img/companies/aseanlabs-logo.png
       - alt: Asosiasi Cloud Computing Indonesia
@@ -441,6 +441,8 @@ companies:
         image: /img/companies/Logo-DEAC-EN-dark-500.jpg
       - alt: Debian
         image: /img/companies/openlogo-nd-100.jpg
+      - alt: Delta.bg
+        image: /img/companies/delta-supporting.jpg
       - alt: DetaCloud
         image: /img/companies/DetaCloudLogoOnly-copy.png
       - alt: DevelopIntelligence

@@ -15,6 +15,7 @@ import { customErrorHandler } from '../utils/customErrorHandler';
 
 export const GET_ELECTIONS_STATUS = 'GET_ELECTIONS_STATUS';
 export const GET_CANDIDATES = 'GET_CANDIDATES';
+export const GET_GOLD_CANDIDATES = 'GET_GOLD_CANDIDATES';
 export const NOMINATE_MEMBER = 'NOMINATE_MEMBER';
 export const NOMINATE_MEMBER_SUCCESS = 'NOMINATE_MEMBER_SUCCESS';
 export const NOMINATE_MEMBER_ERROR = 'NOMINATE_MEMBER_ERROR';
@@ -53,6 +54,29 @@ export const getCandidates = () => (dispatch, getState) => {
     null,
     createAction(GET_CANDIDATES),
     `${window.API_BASE_URL}/api/public/v1/elections/current/candidates`,
+    customErrorHandler
+  )(params)(dispatch)
+    .then((c) => c)
+    .catch((e) => {
+      console.log(e);
+    });
+}
+
+export const getGoldCandidates = () => (dispatch, getState) => {
+
+  dispatch(startLoading());
+
+  const params = {
+    page: 1,
+    per_page: 100,
+    order: '+first_name,+last_name',
+    expand: 'member',    
+  }
+
+  return getRequest(
+    null,
+    createAction(GET_GOLD_CANDIDATES),
+    `${window.API_BASE_URL}/api/public/v1/elections/current/candidates/gold`,
     customErrorHandler
   )(params)(dispatch)
     .then((c) => c)

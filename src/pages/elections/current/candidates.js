@@ -22,7 +22,7 @@ const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today }) =
           <div className="container about-s1-container">
             <div className="columns">
               <div className="column">
-                {electionStatus.status === "NominationsOpen" &&
+                {electionStatus?.status === "NominationsOpen" &&
                   <>
                     <article className="message is-primary">
                       <div className="message-body">
@@ -71,7 +71,7 @@ const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today }) =
                         )
                       })}
                     </div>
-                    {today && today > electionStatus.nomination_opens && today < electionStatus.nomination_closes &&
+                    {today && today > electionStatus?.nomination_opens && today < electionStatus?.nomination_closes &&
                       <>
                         <div className="candidate-tier">
                           <h2>Candidates Not Yet On The Ballot</h2>

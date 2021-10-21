@@ -18,7 +18,7 @@ footer:
   display: true
 ---
 
-In order to clarify the intellectual property license granted with contributions from any person or entity, Open Infrastructure Foundation projects use the Apache-2 license with a Contributor License Agreement (CLA), in a way comparable to Apache Foundation projects.
+In order to clarify the intellectual property license granted with contributions from any person or entity, Open Infrastructure Foundation projects use the Apache License, Version 2.0 with a Contributor License Agreement (CLA), in a way comparable to Apache Foundation projects.
 
 #### Contributing on behalf of a company or organization
 

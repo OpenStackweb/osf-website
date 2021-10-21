@@ -76,7 +76,7 @@ companies:
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Mirantis.png
       - alt: NEC
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_NEC.png
-      - image: /img/nipa_-md.png
+      - image: /img/companies/_New/Gold/nipa-gold.jpg
         alt: Nipa Cloud
       - alt: T-Systems
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_T-Systems.png

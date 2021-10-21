@@ -31,17 +31,8 @@ export const ContactPageTemplate = ({
       </div>
 
       <main className="main">
-        <div className="content">
-          <section className="section about-s1-main">
-            <div className="container about-s1-container">
-              <div className="columns">
-                <div className="column">
-                  <PageContent content={content} />
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
+        <ContactFormVertical />
+        <PageContent content={content} />
       </main>
     </div>
   )
@@ -66,7 +57,6 @@ const ContactPage = ({ isLoggedUser, data }) => {
         subTitle={post.frontmatter.subTitle}
         content={post.html}
       />
-      <ContactFormVertical />
     </Layout>
   )
 }

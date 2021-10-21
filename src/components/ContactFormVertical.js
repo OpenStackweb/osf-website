@@ -55,8 +55,6 @@ class ContactForm extends React.Component {
 
     return(
         <form className="contact-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-        
-            <div className="form-heading">Contact OpenInfra Foundation</div>
             <div id="form-fields">
             <div className="form-wrapper is-vertical">
                 <input type="hidden" name="oid" value="00DG0000000lhAF" />

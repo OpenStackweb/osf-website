@@ -7,7 +7,7 @@ seo:
   title: 'Contact the OpenInfra Foundation'
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/contact/'
-title: Contact
+title: Contact The OpenInfra Foundation
 subTitle:
 footer:
   button: 'https://opendev.org/osf/four-opens/'

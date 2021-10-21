@@ -1,3 +1,4 @@
+import { navigate } from "gatsby-link";
 import {
   postRequest,
   getRequest,
@@ -5,8 +6,10 @@ import {
   createAction,
   stopLoading,
   startLoading,
-  authErrorHandler,
+  authErrorHandler
 } from "openstack-uicore-foundation/lib/methods";
+
+import Swal from "sweetalert2";
 
 import { customErrorHandler } from '../utils/customErrorHandler';
 
@@ -109,6 +112,15 @@ export const updateCandidateProfile = (profile) => (dispatch, getState) => {
   )(params)(dispatch)
     .then((payload) => {
       dispatch(stopLoading());
+      Swal.fire({
+        title: "Success",
+        text: "The changes in the profile has been saved",
+        type: "success",
+      }).then(function (result) {
+        if (result.value) {          
+          navigate('/a/profile')
+        }
+      });
     })
     .catch((err) => {
       console.log('error', err);

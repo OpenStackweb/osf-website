@@ -17,6 +17,8 @@ import { addAffiliation, saveAffiliation, deleteAffiliation, addOrganization, up
 import { getMemberProfile, getElectionMemberProfile } from '../actions/member-actions';
 import { getElectionStatus } from "../actions/election-actions";
 
+import { getUserInfo } from "openstack-uicore-foundation/lib/methods";
+
 export const ProfilePageTemplate = ({
     currentMember,
     initialMembershipType,
@@ -134,12 +136,17 @@ const ProfilePage = ({
     location,
     updateMembershipType,
     getElectionStatus,
-    electionStatus,
+    electionStatus    
 }) => {
 
     useEffect(() => {
         getElectionStatus();
-    }, [])    
+        console.log('t', getUserInfo)
+        getUserInfo(
+            'groups, all_affiliations, candidate_profile, election_applications, election_nominations, election_nominations.candidate',
+            'election_nominations.candidate.first_name, election_nominations.candidate.last_name'
+        );
+    }, [])
 
     return (
         <Layout>
@@ -171,7 +178,7 @@ export default connect(state => ({
         saveAffiliation,
         deleteAffiliation,
         addOrganization,
-        updateMembershipType,        
+        updateMembershipType,
         getMemberProfile,
         getElectionStatus
     })(ProfilePage)

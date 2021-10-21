@@ -46,6 +46,10 @@
         {
           "text": "Host Your Project",
           "url": "/projects/hosting/"
+        },
+        {
+          "text": "CLA",
+          "url": "/cla/"
         }
       ]
     },

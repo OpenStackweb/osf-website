@@ -39,6 +39,10 @@
         {
           "text": "Host at OpenInfra Foundation",
           "link": "/projects/hosting/"
+        },
+        {
+          "text": "CLA",
+          "link": "/cla/"
         }
       ]
     },

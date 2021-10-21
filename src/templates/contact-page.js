@@ -9,6 +9,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
 import ContactFormVertical from '../components/ContactFormVertical'
+import SocialLinks from '../components/SocialLinks'
 
 import { connect } from "react-redux";
 
@@ -32,6 +33,7 @@ export const ContactPageTemplate = ({
 
       <main className="main">
         <ContactFormVertical />
+        <SocialLinks />
         <PageContent content={content} />
       </main>
     </div>

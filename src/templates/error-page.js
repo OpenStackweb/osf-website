@@ -1,11 +1,6 @@
 import { connect } from 'react-redux'
-import { navigate } from "gatsby"
 import Layout from '../components/Layout'
-import envVariables from '../utils/envVariables'
-import React, { useEffect } from "react"
-
-
-import { doLogin } from 'openstack-uicore-foundation/lib/methods'
+import React, from "react"
 import TopBar from '../components/TopBar'
 import Navbar from '../components/Navbar'
 import Header from '../components/Header'

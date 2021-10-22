@@ -3,13 +3,10 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
-import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
-import Hero from '../components/Hero'
 import LinkComponent from '../components/LinkComponent';
 import SEO from '../components/SEO';
-import envVariables from '../utils/envVariables'
 import { connect } from "react-redux";
 
 import leftArrow from '../img/svg/arrow-left.svg'

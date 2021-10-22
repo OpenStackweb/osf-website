@@ -5,48 +5,16 @@ class ContactForm extends React.Component {
         super(props);
 
         this.addQuerystring = this.addQuerystring.bind(this);
-        this.selectMemberLevel = this.selectMemberLevel.bind(this);
-        this.checkForm = this.checkForm.bind(this);
-        this.handleLoad = this.handleLoad.bind(this);
-    }
-
-    componentDidMount() {
-        window.addEventListener('load', this.handleLoad);
-     }
-
-    componentWillUnmount() { 
-        window.removeEventListener('load', this.handleLoad)  
-      }
-
-    selectMemberLevel() {
-        let getUrl = window.location.href;
-        let level = "?level";
-        let newUrl = getUrl + level;
-        let refUrl = document.getElementById('referrerUrl');
-        refUrl.value = newUrl;
-        alert(document.getElementById('referrerUrl').value);
     }
     
     addQuerystring() {
         let getUrl = window.location.href;
         let querystring = "?form-submitted";
+        let refUrl = document.getElementById('referrerUrl');
         let newUrl = getUrl + querystring;
         let returnUrl = document.getElementById('retURL');
+        refUrl.value = newUrl;
         returnUrl.value = newUrl;
-    }
-
-    checkForm() {
-        let querystring = "?form-submitted";
-        let hide = document.getElementById('form-fields');
-        let show = document.getElementById('confirmation-message');
-        if (window.location.toString().indexOf(querystring) !== -1) {
-            hide.style.display = "none";
-            show.style.display = "flex";
-        }
-    }
-
-    handleLoad() {
-        this.checkForm();
     }
 
     render() {
@@ -56,7 +24,7 @@ class ContactForm extends React.Component {
             <div id="form-fields">
             <div className="form-wrapper is-vertical">
                 <input type="hidden" name="oid" value="00DG0000000lhAF" />
-                <input onload={this.checkForm} id="retURL" type="hidden" name="retURL" value="" />
+                <input id="retURL" type="hidden" name="retURL" value="" />
                 <input type="hidden" id="referrerUrl" name="referrerUrl" value="" />
                 {/*
                 <!--  ----------------------------------------------------------------------  -->

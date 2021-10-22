@@ -36,7 +36,6 @@ class ContactForm extends React.Component {
     }
 
     checkForm() {
-        this.addQuerystring();
         let querystring = "?form-submitted";
         let hide = document.getElementById('form-fields');
         let show = document.getElementById('confirmation-message');
@@ -83,7 +82,7 @@ class ContactForm extends React.Component {
                 </div>
                 <div className="field-column is-full-width">
                     <textarea id="00N6f00000FmlhK" className="message-field" name="00N6f00000FmlhK" type="text" placeholder="How can we help?" wrap="soft" required></textarea>
-                    <button className="contact-submit" type="submit" name="submit" onClick={this.checkForm} >SUBMIT</button>
+                    <button className="contact-submit" type="submit" name="submit" onClick={this.addQuerystring} >SUBMIT</button>
                 </div>
                 </div>
             </div>

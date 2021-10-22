@@ -1,6 +1,6 @@
+import React from "react"
 import { connect } from 'react-redux'
 import Layout from '../components/Layout'
-import React, from "react"
 import TopBar from '../components/TopBar'
 import Navbar from '../components/Navbar'
 import Header from '../components/Header'

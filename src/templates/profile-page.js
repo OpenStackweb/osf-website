@@ -141,11 +141,6 @@ const ProfilePage = ({
 
     useEffect(() => {
         getElectionStatus();
-        console.log('t', getUserInfo)
-        getUserInfo(
-            'groups, all_affiliations, candidate_profile, election_applications, election_nominations, election_nominations.candidate',
-            'election_nominations.candidate.first_name, election_nominations.candidate.last_name'
-        );
     }, [])
 
     return (

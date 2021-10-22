@@ -25,17 +25,14 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
     }, [])
 
     const handleElectionDetails = () => {
-        console.log('go to details page')
         navigate('/elections/current')
     }
 
     const handleAcceptNomination = () => {
-        console.log('go to details page')
         navigate('/a/profile/candidate')
     }
 
     const handleSeeNominations = () => {
-        console.log('go to nominations page')
         navigate('/elections/current/candidates')
     }
 
@@ -43,8 +40,6 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
         navigate('/a/community/members')
     }
 
-    console.log('election status', electionStatus);
-    console.log('election profile', electionProfile);
 
     return (
         <div className="candidate-profile-wrapper">

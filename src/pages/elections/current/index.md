@@ -26,8 +26,6 @@ menu:
     link: "#"
 ---
 
-Individual Member Director elections for the 2021 Board of Directors will be held **Monday January 11, 2021 to  Friday January 15, 2021**. Nominations occur between **November 15 and December 15, 2020**.
-
 #### About the Board
 
 The Board of Directors is ultimately legally responsible for the Foundation as a corporate entity. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. With upcoming Bylaws changes, the 2021 Board will be composed of 27 directors elected by the Individual Members (9), directors elected by the Gold Members (9) and directors appointed by the Platinum Members (9).

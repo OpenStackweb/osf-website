@@ -22,7 +22,7 @@ export const getMembers = (keyword, letter, page = 1) => (dispatch, getState) =>
 
   if (keyword) {
     const escapedKeyword = escapeFilterValue(keyword);
-    filter.push(`last_name=@${escapedKeyword},first_name=@${escapedKeyword},full_name=@${escapedKeyword},github_user=@${escapedKeyword},irc=@${escapedKeyword}`)
+    filter.push(`full_name=@${escapedKeyword},last_name=@${escapedKeyword},first_name=@${escapedKeyword},full_name=@${escapedKeyword},github_user=@${escapedKeyword},irc=@${escapedKeyword}`)
   }
 
   if (letter) {

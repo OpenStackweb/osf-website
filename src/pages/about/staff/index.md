@@ -176,14 +176,12 @@ members:
     openStack: https://www.openstack.org/community/members/profile/64085
     picture: /img/about-staff/AFheadshot.png
     title: Community and Event Coordinator
-  - description: In addition to managing the Open Infrastructure Foundation web
-      properties and Summit mobile application  development, Jimmy works
-      extensively with the Zuul community.  Alongside the community, he is
-      actively working on ways to close the feedback loop between
-      OpenStack  operators and developers including his work on the annual User
-      Survey, Ops Meetups, and day-to-day  community management. Outside of
-      wearing many hats at the Open Infrastructure Foundation, he enjoys
-      cooking,  traveling, and having the best award winning chili in Texas.
+  - description: "Jimmy leads the collaboration with OpenInfra Members, including
+      strategy development, goal alignment and new member recruitment. Outside
+      of advocating for current open source trends and distributing his calendar
+      link (which you can find here: https://calendly.com/jimmy-mcarthur), he
+      enjoys cooking,  traveling, and having the best award winning chili in
+      Texas."
     linkedin: https://www.linkedin.com/in/jimmymcarthur/
     name: Jimmy McArthur
     openStack: https://www.openstack.org/community/members/profile/1395

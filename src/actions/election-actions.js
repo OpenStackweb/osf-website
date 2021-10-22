@@ -110,7 +110,7 @@ export const nominateMember = (candidate_id) => async (dispatch, getState) => {
     .then(({ response: nomination }) => {
       dispatch(stopLoading());
       const updatedProfile = { ...member, election_nominations: [...member.election_nominations, nomination] };
-      //dispatch(updateUserInfo(updatedProfile));
+      dispatch(updateUserInfo(updatedProfile));
       console.log('nomination?', nomination);
     })
     .catch((e) => {
@@ -145,11 +145,11 @@ export const updateCandidateProfile = (profile) => (dispatch, getState) => {
         title: "Success",
         text: "The changes in the profile has been saved",
         type: "success",
-      }).then(function (result) {
+      }).then((result) => {
         if (result.value) {
           const updatedProfile = { ...member, candidate_profile: { ...member.candidate_profile, ...profile } };
           console.log('updated nominations', updatedProfile);
-          //dispatch(updateUserInfo(updatedProfile));
+          dispatch(updateUserInfo(updatedProfile));
           navigate('/a/profile')
         }
       });

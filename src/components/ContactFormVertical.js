@@ -8,7 +8,7 @@ export const checkUrl = () => {
     let show = document.getElementById('confirmation-message');
     if (window.location.href.indexOf("contact") > -1) {
       refUrl.value = getUrl;
-      alert(refUrl.value)
+      {/* alert(refUrl.value);*/}
       if (window.location.toString().indexOf(querystring) !== -1) {
         hide.style.display = "none";
         show.style.display = "flex";

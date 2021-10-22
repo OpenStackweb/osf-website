@@ -6,7 +6,8 @@ import {
   createAction,
   stopLoading,
   startLoading,
-  authErrorHandler
+  authErrorHandler,
+  updateUserInfo
 } from "openstack-uicore-foundation/lib/methods";
 
 import Swal from "sweetalert2";
@@ -70,7 +71,7 @@ export const getGoldCandidates = () => (dispatch, getState) => {
     page: 1,
     per_page: 100,
     order: '+first_name,+last_name',
-    expand: 'member',    
+    expand: 'member',
   }
 
   return getRequest(
@@ -87,7 +88,7 @@ export const getGoldCandidates = () => (dispatch, getState) => {
 
 export const nominateMember = (candidate_id) => async (dispatch, getState) => {
 
-  let { loggedUserState: { accessToken } } = getState();
+  let { loggedUserState: { accessToken, member } } = getState();
 
   if (!accessToken) return Promise.resolve();
 
@@ -95,6 +96,8 @@ export const nominateMember = (candidate_id) => async (dispatch, getState) => {
 
   let params = {
     access_token: accessToken,
+    expand: 'candidate',
+    fields: 'candidate.first_name, candidate.last_name'
   };
 
   return postRequest(
@@ -104,8 +107,10 @@ export const nominateMember = (candidate_id) => async (dispatch, getState) => {
     null,
     customErrorHandler
   )(params)(dispatch)
-    .then((nomination) => {
+    .then(({ response: nomination }) => {
       dispatch(stopLoading());
+      const updatedProfile = { ...member, election_nominations: [...member.election_nominations, nomination] };
+      //dispatch(updateUserInfo(updatedProfile));
       console.log('nomination?', nomination);
     })
     .catch((e) => {
@@ -117,7 +122,7 @@ export const nominateMember = (candidate_id) => async (dispatch, getState) => {
 
 export const updateCandidateProfile = (profile) => (dispatch, getState) => {
 
-  let { loggedUserState: { accessToken } } = getState();
+  let { loggedUserState: { accessToken, member } } = getState();
 
   if (!accessToken) return Promise.resolve();
 
@@ -141,7 +146,10 @@ export const updateCandidateProfile = (profile) => (dispatch, getState) => {
         text: "The changes in the profile has been saved",
         type: "success",
       }).then(function (result) {
-        if (result.value) {          
+        if (result.value) {
+          const updatedProfile = { ...member, candidate_profile: { ...member.candidate_profile, ...profile } };
+          console.log('updated nominations', updatedProfile);
+          //dispatch(updateUserInfo(updatedProfile));
           navigate('/a/profile')
         }
       });

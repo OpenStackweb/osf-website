@@ -1,6 +1,7 @@
 import React from "react"
 import { connect } from 'react-redux'
 import { navigate } from "gatsby"
+import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
@@ -11,14 +12,19 @@ import legalDoc from '../content/legal-document.json';
 export const ElectionPageTemplate = ({
     electionStatus,
     isLoggedUser,
+    title,
+    menu,
+    content,
+    contentComponent
 }) => {
+    const PageContent = contentComponent || Content
 
     return (
         <div>
             <div className="wrapper project-background">
                 <TopBar />
                 <Navbar isLoggedUser={isLoggedUser} />
-                <Header title="2021 Board Elections" />
+                <Header title={title} />
             </div>
 
             <main className="main">
@@ -27,45 +33,19 @@ export const ElectionPageTemplate = ({
                         <div className="container about-s1-container">
                             <div className="columns">
                                 <div className="column is-one-third">
-                                    <div className="election-item">
-                                        <a href="">
-                                            ELECTION DETAILS
-                                            <i className="fa fa-chevron-right" />
-                                        </a>
-                                    </div>
-                                    <div className="election-item">
-                                        <a href="">
-                                            SEE THE CANDIDATES
-                                            <i className="fa fa-chevron-right" />
-                                        </a>
-                                    </div>
-                                    <div className="election-item">
-                                        <a href="">
-                                            NOMINATE A MEMBER
-                                            <i className="fa fa-chevron-right" />
-                                        </a>
-                                    </div>
-                                    <div className="election-item">
-                                        <a href="">
-                                            BE A CANDIDATE
-                                            <i className="fa fa-chevron-right" />
-                                        </a>
-                                    </div>
-                                    <div className="election-item">
-                                        <a href="">
-                                            GOLD MEMBER ELECTION CANDIDATES
-                                            <i className="fa fa-chevron-right" />
-                                        </a>
-                                    </div>
-                                    <div className="election-item">
-                                        <a href="">
-                                            CODE OF CONDUCT
-                                            <i className="fa fa-chevron-right" />
-                                        </a>
-                                    </div>
+                                    {menu.map((m, index) => {
+                                        return (
+                                            <div className="election-item" key={index}>
+                                                <a href={m.link}>
+                                                    {m.text}
+                                                    <i className="fa fa-chevron-right" />
+                                                </a>
+                                            </div>
+                                        )
+                                    })}
                                 </div>
                                 <div className="column is-two-thirds">
-                                    <div className="legal_doc_content" dangerouslySetInnerHTML={{ __html: legalDoc.content }} />
+                                    <PageContent content={content} />
                                 </div>
                             </div>
                         </div>
@@ -76,14 +56,20 @@ export const ElectionPageTemplate = ({
     )
 }
 
-const ElectionPage = ({ electionStatus, isLoggedUser, location }) => {
+const ElectionPage = ({ electionStatus, isLoggedUser, location, data }) => {
+    const { markdownRemark: post } = data
+
     return (
         <Layout>
-            <SEO />
+            <SEO seo={post.frontmatter.seo} />
             <ElectionPageTemplate
                 location={location}
                 isLoggedUser={isLoggedUser}
                 electionStatus={electionStatus}
+                title={post.frontmatter.title}
+                menu={post.frontmatter.menu}
+                contentComponent={HTMLContent}
+                content={post.html}
             />
         </Layout>
     )
@@ -96,3 +82,33 @@ export default connect(state => ({
 
 }
 )(ElectionPage)
+
+export const electionPageQuery = graphql`
+  query ElectionPage($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        seo {
+          title
+          description
+          url
+          image {
+            childImageSharp {
+              fluid(maxWidth: 640, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            publicURL
+          }
+          twitterUsername
+        }
+        title
+        subTitle
+        menu {
+            text
+            link
+        }
+      }
+    }
+  }
+`

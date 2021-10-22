@@ -52,7 +52,7 @@
     "moment-timezone": "^0.5.31",
     "netlify-cms-app": "^2.13.3",
     "node-sass": "^4.11.0",
-    "openstack-uicore-foundation": "^2.1.19",
+    "openstack-uicore-foundation": "^2.1.21",
     "prop-types": "^15.6.0",
     "react": "^16.13.1",
     "react-bootstrap": "^0.31.5",

@@ -16,7 +16,8 @@ form.contact-form {
 }
 
 a.form-links {
-    color: var(--text-color);
+    color: var(--link-color);
+    font-weight: bold;
 }
 
 .form-heading {
@@ -206,7 +207,7 @@ button.contact-submit:hover {
     text-align: center;
     padding: 60px 0 60px 0;
     max-width: 700px;
-    color: white;
+    color: var(--text-color);;
     line-height: 1.5;
     opacity: 0.8;
 }

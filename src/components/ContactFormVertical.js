@@ -57,7 +57,7 @@ class ContactForm extends React.Component {
             <div id="form-fields">
             <div className="form-wrapper is-vertical">
                 <input type="hidden" name="oid" value="00DG0000000lhAF" />
-                <input onload={this.handleLoad} id="retURL" type="hidden" name="retURL" value="" />
+                <input onload={this.checkForm} id="retURL" type="hidden" name="retURL" value="" />
                 <input type="hidden" id="referrerUrl" name="referrerUrl" value="" />
                 {/*
                 <!--  ----------------------------------------------------------------------  -->

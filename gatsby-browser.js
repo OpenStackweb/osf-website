@@ -9,11 +9,15 @@ window.SCOPES = process.env.GATSBY_SCOPES;
 window.API_BASE_URL = process.env.GATSBY_API_BASE_URL;
 
 export const onRouteUpdate = ({ location, prevLocation }) => {
+    let getUrl = window.location.href;
     let querystring = "?form-submitted";
+    let refUrl = document.getElementById('referrerUrl');
     let hide = document.getElementById('form-fields');
     let show = document.getElementById('confirmation-message');
     if (window.location.toString().indexOf(querystring) !== -1) {
         hide.style.display = "none";
         show.style.display = "flex";
+        refUrl.value = getUrl;
   }
+  
 }

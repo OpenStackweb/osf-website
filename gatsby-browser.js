@@ -14,10 +14,11 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
     let refUrl = document.getElementById('referrerUrl');
     let hide = document.getElementById('form-fields');
     let show = document.getElementById('confirmation-message');
-    if (window.location.toString().indexOf(querystring) !== -1) {
+    if (window.location.href.indexOf("contact") > -1) {
+      refUrl.value = getUrl;
+      if (window.location.toString().indexOf(querystring) !== -1) {
         hide.style.display = "none";
         show.style.display = "flex";
-        refUrl.value = getUrl;
-  }
-  
+      }
+    }
 }

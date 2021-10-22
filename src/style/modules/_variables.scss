@@ -65,6 +65,9 @@ $dark-invert: findColorInvert($dark);
 $success: #23d160;
 $success-invert: findColorInvert($success);
 
+$warning: #ffdd56;
+$warning-invert: findColorInvert($warning);
+
 $danger: #d91a31;
 $danger-invert: findColorInvert($danger);
 
@@ -93,6 +96,10 @@ $colors: (
   "success": (
     $success,
     $success-invert,
+  ),
+  "warning": (
+    $warning,
+    $warning-invert,
   ),
   "primary": (
     $primary,

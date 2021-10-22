@@ -115,7 +115,7 @@ export const nominateMember = (candidate_id) => async (dispatch, getState) => {
     })
     .catch((e) => {
       dispatch(stopLoading());
-      const errorMessage = JSON.parse(e.res.text).errors[0];
+      const errorMessage = { message: JSON.parse(e.res.text).errors[0] || JSON.parse(e.res.text).errors, status: e.res.statusCode };
       dispatch(createAction(NOMINATE_MEMBER_ERROR)(errorMessage))
     });
 }

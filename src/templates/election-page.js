@@ -7,7 +7,6 @@ import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
-import legalDoc from '../content/legal-document.json';
 
 export const ElectionPageTemplate = ({
     electionStatus,

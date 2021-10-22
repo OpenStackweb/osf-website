@@ -26,7 +26,7 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
 
     const handleElectionDetails = () => {
         console.log('go to details page')
-        //navigate('/a/profile/membership/community')
+        navigate('/elections/current')
     }
 
     const handleAcceptNomination = () => {
@@ -36,7 +36,7 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
 
     const handleSeeNominations = () => {
         console.log('go to nominations page')
-        //navigate('/a/profile/membership/community')
+        navigate('/elections/current/candidates')
     }
 
     const handleNominateMember = () => {

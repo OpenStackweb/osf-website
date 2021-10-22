@@ -207,7 +207,7 @@ export const MemberProfilePageTemplate = ({
       {nominationModal &&
         <NominationModal
           closeModal={() => setNominationModal(!nominationModal)}
-          member_profile={member_profile}
+          candidate_profile={member_profile}
           member_nomination={member_nomination}
           nominateMember={nominateMember}
           member_nomination_loading={member_nomination_loading} />
@@ -232,7 +232,7 @@ const MemberProfilePage = ({
 }) => {
 
   const nomination_open = election_status?.status === 'NominationsOpen' ? true : false;
-  const isOwnProfile = currentMember.id === parseInt(memberId);
+  const isOwnProfile = currentMember?.id === parseInt(memberId);
 
   useEffect(() => {
     getMemberProfile(memberId);

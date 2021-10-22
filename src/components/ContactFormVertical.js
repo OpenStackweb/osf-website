@@ -1,5 +1,21 @@
 import React from "react";
 
+export const checkUrl = () => {
+    let getUrl = window.location.href;
+    let querystring = "?form-submitted";
+    let refUrl = document.getElementById('referrerUrl');
+    let hide = document.getElementById('form-fields');
+    let show = document.getElementById('confirmation-message');
+    if (window.location.href.indexOf("contact") > -1) {
+      refUrl.value = getUrl;
+      alert(refUrl.value)
+      if (window.location.toString().indexOf(querystring) !== -1) {
+        hide.style.display = "none";
+        show.style.display = "flex";
+      }
+    }
+}
+
 class ContactForm extends React.Component {
     constructor(props) {
         super(props);

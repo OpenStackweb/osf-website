@@ -35,7 +35,7 @@ const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today, loa
                           <h3>HOW TO VOTE</h3>
                           <span>
                             If you are an eligible voter, you should have received an email with the subject
-                            <b> "Open Infrastructure Foundation - 2021 Individual Director Election"</b> from
+                            <b> "Open Infrastructure Foundation - {electionStatus?.name}"</b> from
                             secretary@openstack.org. This email includes your unique voting link. If you did
                             not receive an email, please contact <a href="mailto:secretary@openstack.org">
                               secretary@openstack.org</a>.
@@ -45,7 +45,7 @@ const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today, loa
                       <div className="candidate-tier">
                         <h2>Candidates On The Ballot</h2>
                         <span>
-                          The candidates on this list have the 10 nominations required to be on the election ballot and have completed the application.
+                          The candidates on this list have the {electionStatus?.nominations_limit} nominations required to be on the election ballot and have completed the application.
                         </span>
                       </div>
                       <div className="candidate-list">

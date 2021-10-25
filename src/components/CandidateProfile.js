@@ -44,7 +44,7 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
     return (
         <div className="candidate-profile-wrapper">
             <div className="candidate-profile-header">
-                <span>The current election is the <a href="">{electionStatus?.name}</a>. </span>
+                <span>The current election is the <LinkComponent href="/elections/current">{electionStatus?.name}</LinkComponent>. </span>
                 <button className="" onClick={() => handleElectionDetails()}>Election Details</button>
             </div>
             <hr />

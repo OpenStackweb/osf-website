@@ -57,8 +57,9 @@ export const getCandidates = () => (dispatch, getState) => {
     `${window.API_BASE_URL}/api/public/v1/elections/current/candidates`,
     customErrorHandler
   )(params)(dispatch)
-    .then((c) => c)
+    .then(() => dispatch(stopLoading()))
     .catch((e) => {
+      dispatch(stopLoading());
       console.log(e);
     });
 }
@@ -80,8 +81,9 @@ export const getGoldCandidates = () => (dispatch, getState) => {
     `${window.API_BASE_URL}/api/public/v1/elections/current/candidates/gold`,
     customErrorHandler
   )(params)(dispatch)
-    .then((c) => c)
+    .then(() => dispatch(stopLoading()))
     .catch((e) => {
+      dispatch(stopLoading());
       console.log(e);
     });
 }

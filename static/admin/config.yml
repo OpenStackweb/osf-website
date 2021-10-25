@@ -935,4 +935,24 @@ collections:
               { label: "Join Url", name: "joinUrl", widget: "string" },
             ]
           }
-    
+  - name: "election-pages"
+    label: "Election Pages"
+    files:
+      - file: "src/pages/elections/current/index.md"
+        label: "Election Page"
+        name: "electionPage"
+        fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "companies-page"}
+            - {label: SEO, name: seo, widget: object, fields: [
+                {label: "Title", name: "title", widget: string},
+                {label: "Description", name: "description", widget: string},
+                {label: "Url", name: "url", widget: string},
+                {label: "Image", name: "image", widget: image},
+                {label: "Twitter Username", name: "twitterUsername", widget: string},
+              ]}            
+            - {label: "Title", name: title, widget: string}
+            - {label: "Sub Title", name: subTitle, widget: string}
+            - {label: "Menu", name: menu, widget: list, fields: [
+                {label: "Text", name: "text", widget: string},
+                {label: "Link", name: "link", widget: string}
+              ]}

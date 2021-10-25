@@ -7,11 +7,11 @@ const NominationModal = ({ candidate_profile, closeModal, nominateMember, member
   const [nominated, setNominated] = useState(false);
 
   const goToNominations = () => {
-    navigate('/a/community/members');
+    navigate('/elections/current/candidates');
   }
 
   const goToAllMembers = () => {
-    navigate('/elections/current/candidates');
+    navigate('/a/community/members');
   }
 
   const getModalTitle = () => {

@@ -67,7 +67,7 @@ export const MemberListPageTemplate = ({
                 })}
               </div>
               <div className="member-list">
-                {membersList?.map((member, index) => {
+                {!loading_members && membersList?.map((member, index) => {
                   return (
                     <span key={`member-${index}`}>
                       <LinkComponent href={`/a/community/members/${member.id}`}>{`${member.first_name} ${member.last_name}`}</LinkComponent>
@@ -75,23 +75,24 @@ export const MemberListPageTemplate = ({
                   )
                 })}
               </div>
-
-              <div className="member-list-pagination">
-                <Pagination
-                  className="pagination"
-                  bsSize="medium"
-                  prev
-                  next
-                  first
-                  last
-                  ellipsis
-                  boundaryLinks
-                  maxButtons={10}
-                  items={last_page}
-                  activePage={current_page}
-                  onSelect={changePage}
-                />
-              </div>
+              {!loading_members &&
+                <div className="member-list-pagination">
+                  <Pagination
+                    className="pagination"
+                    bsSize="medium"
+                    prev
+                    next
+                    first
+                    last
+                    ellipsis
+                    boundaryLinks
+                    maxButtons={10}
+                    items={last_page}
+                    activePage={current_page}
+                    onSelect={changePage}
+                  />
+                </div>
+              }
             </div>
           </section>
         </div>

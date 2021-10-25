@@ -17,7 +17,7 @@ import { addAffiliation, saveAffiliation, deleteAffiliation, addOrganization, up
 import { getMemberProfile, getElectionMemberProfile } from '../actions/member-actions';
 import { getElectionStatus } from "../actions/election-actions";
 
-import { getUserInfo } from "openstack-uicore-foundation/lib/methods";
+import { doLogin } from "openstack-uicore-foundation/lib/methods";
 
 export const ProfilePageTemplate = ({
     currentMember,
@@ -136,8 +136,8 @@ const ProfilePage = ({
     location,
     updateMembershipType,
     getElectionStatus,
-    electionStatus    
-}) => {
+    electionStatus
+}) => {    
 
     useEffect(() => {
         getElectionStatus();

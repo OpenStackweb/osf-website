@@ -1,3 +1,5 @@
+import { LOGOUT_USER } from "openstack-uicore-foundation/lib/actions";
+
 import {
   GET_MEMBERS,
   GET_MEMBERS_SUCCESS,
@@ -20,7 +22,10 @@ const memberReducer = (state = DEFAULT_STATE, action) => {
   const { type, payload } = action
 
   switch (type) {
-
+    case LOGOUT_USER: {
+      return DEFAULT_STATE;
+    }
+    break;
     case GET_MEMBERS: {
       return { ...state, loading_members: true }
     }

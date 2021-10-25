@@ -107,7 +107,7 @@ export const nominateMember = (candidate_id) => async (dispatch, getState) => {
     createAction(NOMINATE_MEMBER_SUCCESS),
     `${window.API_BASE_URL}/api/v1/elections/current/candidates/${candidate_id}`,
     null,
-    customErrorHandler
+      authErrorHandler
   )(params)(dispatch)
     .then(({ response: nomination }) => {
       dispatch(stopLoading());

@@ -9,8 +9,6 @@ import {
   authErrorHandler
 } from "openstack-uicore-foundation/lib/methods";
 
-import { customErrorHandler } from '../utils/customErrorHandler';
-
 export const START_LOADING_IDP_PROFILE = 'START_LOADING_IDP_PROFILE';
 export const STOP_LOADING_IDP_PROFILE = 'STOP_LOADING_IDP_PROFILE';
 export const GET_IDP_PROFILE = 'GET_IDP_PROFILE';
@@ -37,7 +35,7 @@ export const getIDPProfile = () => (dispatch, getState) => {
     createAction(START_LOADING_IDP_PROFILE),
     createAction(GET_IDP_PROFILE),
     `${window.IDP_BASE_URL}/api/v1/users/me`,
-    customErrorHandler
+      authErrorHandler
   )(params)(dispatch)
     .then(() => dispatch(dispatch(createAction(STOP_LOADING_IDP_PROFILE))));
 }

@@ -27,6 +27,7 @@ export const MemberProfilePageTemplate = ({
   member_nomination_loading
 }) => {
 
+  debugger;
   const [nominationModal, setNominationModal] = useState(false);
 
   const onClickLogin = (evt) => {
@@ -121,7 +122,7 @@ export const MemberProfilePageTemplate = ({
                         </ul>
                       </>
                     }
-                    {nomination_open &&
+                    {nomination_open && member_profile.hasOwnProperty("candidate_profile") &&
                       <div className="member-profile-group">
                         <span className="member-candidate">{member_profile.first_name} is a candidate in the {election_name} .</span>
                         <hr />

@@ -6,17 +6,15 @@ const ElectionPagePreview = ({ entry, widgetFor }) => {
 
   const data = entry.getIn(['data']).toJS()
 
-  console.log('data=?', data);
+  const entryMenu = entry.getIn(['data', 'menu'])
+  const menu = entryMenu ? entryMenu.toJS() : []
 
   if (data) {
     return (
       <ElectionPageTemplate
         title={entry.getIn(['data', 'title'])}
         subTitle={entry.getIn(['data', 'subTitle'])}
-        menu={{
-          text: entry.getIn(['data', 'menu', 'text']),
-          link: entry.getIn(['data', 'menu', 'link']),
-        }}
+        menu={menu}
         content={widgetFor('body')}
       />
     )

@@ -956,3 +956,4 @@ collections:
                 {label: "Text", name: "text", widget: string},
                 {label: "Link", name: "link", widget: string}
               ]}
+            - {label: "Body", name: body, widget: markdown}

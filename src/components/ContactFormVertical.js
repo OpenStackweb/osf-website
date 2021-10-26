@@ -6,14 +6,25 @@ export const checkUrl = () => {
     let refUrl = document.getElementById('referrerUrl');
     let hide = document.getElementById('form-fields');
     let show = document.getElementById('confirmation-message');
-    if (window.location.href.indexOf("contact") > -1) {
+    if (getUrl.indexOf("contact") > -1) {
       refUrl.value = getUrl;
-      {/* alert(refUrl.value);*/}
+      checkLevel();
       if (window.location.toString().indexOf(querystring) !== -1) {
         hide.style.display = "none";
         show.style.display = "flex";
       }
     }
+}
+
+const checkLevel = () => {
+    let messageText = document.getElementById('00N6f00000FmlhK');
+    if (window.location.toString().indexOf("?silver") !== -1) {
+        messageText.value = "Hello, I am interested in the Silver Membership level.";
+    } else if (window.location.toString().indexOf("?gold") !== -1) {
+        messageText.value = "Hello, I am interested in the Gold Membership level.";
+    } else if (window.location.toString().indexOf("?platinum") !== -1) {
+        messageText.value = "Hello, I am interested in the Platinum Membership level.";
+    } 
 }
 
 class ContactForm extends React.Component {
@@ -52,16 +63,16 @@ class ContactForm extends React.Component {
                 */}
                 <div className="field-column is-full-width">
                     <div className="field-row ">
-                        <label for="first_name"></label><input  id="first_name" className="contact-field lt-field" maxlength="40" name="first_name" type="text" placeholder="First Name" required/>
-                        <label for="last_name"></label><input  id="last_name" className="contact-field rt-field" maxlength="80" name="last_name"  type="text" placeholder="Last Name" required/>
+                        <label for="first_name"></label><input id="first_name" className="contact-field lt-field" maxlength="40" name="first_name" type="text" placeholder="First Name" required/>
+                        <label for="last_name"></label><input id="last_name" className="contact-field rt-field" maxlength="80" name="last_name"  type="text" placeholder="Last Name" required/>
                         </div>
                     <div className="field-row ">
                         <label for="company"></label><input id="company" className="contact-field lt-field" maxlength="40" name="company" type="text" placeholder="Company" required/>
                         
-                        <label for="title"></label><input  id="title" className="contact-field rt-field" maxlength="40" name="title" type="text" placeholder="Title" required/>
+                        <label for="title"></label><input id="title" className="contact-field rt-field" maxlength="40" name="title" type="text" placeholder="Title" required/>
                     </div>
                     <div className="field-row ">
-                        <label for="email"></label><input id="email" className="contact-field ct-field" maxlength="80" name="email" type="text"placeholder="Email" required/>
+                        <label for="email"></label><input id="email" className="contact-field ct-field" maxlength="80" name="email" type="text" placeholder="Email" required/>
                     </div>
                 </div>
                 <div className="field-column is-full-width">

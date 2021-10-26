@@ -162,17 +162,17 @@ memberBenefits:
       price: $15,000
       button:
         link: /contact/?silver
-        text: Learn More
+        text: Contact Us
     gold:
       price: $150,000
       button:
         link: /contact/?gold
-        text: Learn More
+        text: Contact Us
     platinum:
       price: $350,000
       button:
         link: /contact/?platinum
-        text: Learn More
+        text: Contact Us
   scheduleCall: Still have questions? <a
     href="https://calendly.com/jimmy-mcarthur">Schedule a phone call</a>.
 quote:

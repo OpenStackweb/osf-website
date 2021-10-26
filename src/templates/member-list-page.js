@@ -46,7 +46,7 @@ export const MemberListPageTemplate = ({
                 <div className="nomination-open">
                   <h3>Happening Now: Individual Board Member Nominations</h3>
                   <p>
-                    The OpenStack community is currently nominating members for the <a href="/elections/current">{election_status.name} </a>
+                    The OpenStack community is currently nominating members for the <LinkComponent href="/elections/current">{election_status.name} </LinkComponent>
                     (as Individual Board Members). To nominate someone search for them using the directory and
                     click the Nominate button in their profile.
                   </p>

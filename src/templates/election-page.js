@@ -9,6 +9,7 @@ import Header from "../components/Header";
 import SEO from "../components/SEO";
 
 import { getElectionStatus } from "../actions/election-actions"
+import LinkComponent from "../components/LinkComponent";
 
 export const ElectionPageTemplate = ({
     electionStatus,
@@ -50,10 +51,10 @@ export const ElectionPageTemplate = ({
                                     {menu.map((m, index) => {
                                         return (
                                             <div className="election-item" key={index}>
-                                                <a href={m.link}>
+                                                <LinkComponent href={m.link}>
                                                     {m.text}
                                                     <i className="fa fa-chevron-right" />
-                                                </a>
+                                                </LinkComponent>
                                             </div>
                                         )
                                     })}

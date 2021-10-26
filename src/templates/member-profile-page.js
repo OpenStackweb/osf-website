@@ -177,7 +177,7 @@ export const MemberProfilePageTemplate = ({
                           </>
                         }
                         <span className="profile-title-election">Election</span>
-                        <span className="profile-text">Nominations are open for the <a href="">2021 Board Elections.</a></span>
+                        <span className="profile-text">Nominations are open for the <LinkComponent href="/elections/current">2021 Board Elections.</LinkComponent></span>
                         <br />
                         <button className="profile-nominate-button" onClick={isLoggedUser ? () => setNominationModal(!nominationModal) : onClickLogin}>
                           {isLoggedUser ?

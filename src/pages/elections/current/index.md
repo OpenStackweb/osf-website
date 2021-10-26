@@ -15,13 +15,13 @@ menu:
   - text: ELECTION DETAILS
     link: "#"
   - text: SEE THE CANDIDATES
-    link: "/elections/current/candidates"
+    link: "https://feature-elections--openinfra-dev.netlify.app/elections/current/candidates/"
   - text: NOMINATE A MEMBER
     link: "/a/community/members"
   - text: BE A CANDIDATE
     link: "/a/profile"
   - text: GOLD MEMBER ELECTION CANDIDATES
-    link: "/elections/current/candidates/gold"
+    link: "https://feature-elections--openinfra-dev.netlify.app/elections/current/candidates/gold"
   - text: CODE OF CONDUCT
     link: "#"
 ---

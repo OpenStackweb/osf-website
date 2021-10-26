@@ -27,7 +27,6 @@ export const MemberProfilePageTemplate = ({
   member_nomination_loading
 }) => {
 
-  debugger;
   const [nominationModal, setNominationModal] = useState(false);
 
   const onClickLogin = (evt) => {

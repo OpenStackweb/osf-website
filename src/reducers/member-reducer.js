@@ -10,6 +10,8 @@ import {
   GET_ELECTION_MEMBER_PROFILE_ERROR,
 } from '../actions/member-actions'
 
+import { NOMINATE_MEMBER_SUCCESS } from "../actions/election-actions";
+
 const DEFAULT_STATE = {
   members_list: [],
   current_page: null,
@@ -26,7 +28,7 @@ const memberReducer = (state = DEFAULT_STATE, action) => {
     case LOGOUT_USER: {
       return DEFAULT_STATE;
     }
-    break;
+      break;
     case GET_MEMBERS: {
       return { ...state, loading_members: true }
     }
@@ -51,6 +53,10 @@ const memberReducer = (state = DEFAULT_STATE, action) => {
     }
     case GET_ELECTION_MEMBER_PROFILE_ERROR: {
       return { ...state, loading_members: false, }
+    }
+    case NOMINATE_MEMBER_SUCCESS: {
+      const newNomination = payload.response;
+      return { ...state, member_profile: { ...state.member_profile, election_applications: [...state.member_profile.election_applications, newNomination] } }
     }
     default:
       return state;

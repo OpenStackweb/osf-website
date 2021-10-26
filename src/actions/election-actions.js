@@ -93,8 +93,8 @@ export const nominateMember = (candidate_id) => async (dispatch, getState) => {
 
   let params = {
     access_token: accessToken,
-    expand: 'candidate',
-    fields: 'candidate.first_name, candidate.last_name'
+    expand: 'candidate, nominator',
+    fields: 'candidate.first_name, candidate.last_name, nominator.first_name, nominator.last_name'
   };
 
   return postRequest(

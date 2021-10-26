@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react"
 import { connect } from 'react-redux'
 import moment from 'moment-timezone';
-import Layout from '../../../components/Layout'
-import TopBar from "../../../components/TopBar";
-import Navbar from "../../../components/Navbar";
-import Header from "../../../components/Header";
-import SEO from "../../../components/SEO";
-import LinkComponent from "../../../components/LinkComponent";
+import Layout from '../../../../components/Layout'
+import TopBar from "../../../../components/TopBar";
+import Navbar from "../../../../components/Navbar";
+import Header from "../../../../components/Header";
+import SEO from "../../../../components/SEO";
+import LinkComponent from "../../../../components/LinkComponent";
 
-import { getCandidates, getElectionStatus } from "../../../actions/election-actions";
+import { getCandidates, getElectionStatus } from "../../../../actions/election-actions";
 
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 

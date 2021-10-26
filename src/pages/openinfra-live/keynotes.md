@@ -127,6 +127,10 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Upstream Developer Advocate
       pic: /img/kendallnelson.png
+    - presentationTitle: Director of Product Management, Hybrid Platforms
+      company: Red Hat
+      name: "Sean Cohen "
+      pic: /img/sean-cohen.jpeg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

@@ -1,4 +1,4 @@
-import { START_LOADING, STOP_LOADING, LOGOUT_USER } from "openstack-uicore-foundation/lib/actions";
+import { START_LOADING, STOP_LOADING, LOGOUT_USER, SET_LOGGED_USER } from "openstack-uicore-foundation/lib/actions";
 
 import {
   GET_ELECTIONS_STATUS,
@@ -15,21 +15,24 @@ const DEFAULT_STATE = {
   candidates: [],
   gold_candidates: [],
   member_nomination: null,
-  member_nomination_loading: null,
+  member_nomination_loading: false,
 }
 
 const electionReducer = (state = DEFAULT_STATE, action) => {
   const { type, payload } = action
 
   switch (type) {
+    case SET_LOGGED_USER:
     case LOGOUT_USER: {
       return DEFAULT_STATE;
     }
-      break;
+    break;
     case START_LOADING:
       return { ...state, loading: true };
+    break;
     case STOP_LOADING:
       return { ...state, loading: false };
+    break;
     case GET_ELECTIONS_STATUS: {
       return { ...state, election_status: payload.response, member_nomination: null }
     }

@@ -1,4 +1,4 @@
-import { LOGOUT_USER } from "openstack-uicore-foundation/lib/actions";
+import { LOGOUT_USER, SET_LOGGED_USER } from "openstack-uicore-foundation/lib/actions";
 
 import {
   GET_MEMBERS,
@@ -22,6 +22,7 @@ const memberReducer = (state = DEFAULT_STATE, action) => {
   const { type, payload } = action
 
   switch (type) {
+    case SET_LOGGED_USER:
     case LOGOUT_USER: {
       return DEFAULT_STATE;
     }

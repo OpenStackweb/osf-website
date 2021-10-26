@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import { connect } from 'react-redux'
-import { navigate } from "gatsby"
 import LinkComponent from "../../../../../components/LinkComponent"
 import Layout from '../../../../../components/Layout'
 import TopBar from "../../../../../components/TopBar";

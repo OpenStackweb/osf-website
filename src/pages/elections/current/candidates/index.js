@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import { connect } from 'react-redux'
-import { navigate } from "gatsby"
 import moment from 'moment-timezone';
 import Layout from '../../../../components/Layout'
 import TopBar from "../../../../components/TopBar";

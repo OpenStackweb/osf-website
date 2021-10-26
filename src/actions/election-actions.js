@@ -12,8 +12,6 @@ import {
 
 import Swal from "sweetalert2";
 
-import { customErrorHandler } from '../utils/customErrorHandler';
-
 export const GET_ELECTIONS_STATUS = 'GET_ELECTIONS_STATUS';
 export const GET_CANDIDATES = 'GET_CANDIDATES';
 export const GET_GOLD_CANDIDATES = 'GET_GOLD_CANDIDATES';
@@ -29,8 +27,7 @@ export const getElectionStatus = () => (dispatch, getState) => {
   return getRequest(
     null,
     createAction(GET_ELECTIONS_STATUS),
-    `${window.API_BASE_URL}/api/public/v1/elections/current`,
-    customErrorHandler
+    `${window.API_BASE_URL}/api/public/v1/elections/current`
   )({})(dispatch)
     .then(() => dispatch(stopLoading()))
     .catch((e) => {
@@ -54,8 +51,7 @@ export const getCandidates = () => (dispatch, getState) => {
   return getRequest(
     null,
     createAction(GET_CANDIDATES),
-    `${window.API_BASE_URL}/api/public/v1/elections/current/candidates`,
-    customErrorHandler
+    `${window.API_BASE_URL}/api/public/v1/elections/current/candidates`
   )(params)(dispatch)
     .then(() => dispatch(stopLoading()))
     .catch((e) => {
@@ -78,8 +74,7 @@ export const getGoldCandidates = () => (dispatch, getState) => {
   return getRequest(
     null,
     createAction(GET_GOLD_CANDIDATES),
-    `${window.API_BASE_URL}/api/public/v1/elections/current/candidates/gold`,
-    customErrorHandler
+    `${window.API_BASE_URL}/api/public/v1/elections/current/candidates/gold`
   )(params)(dispatch)
     .then(() => dispatch(stopLoading()))
     .catch((e) => {
@@ -107,7 +102,7 @@ export const nominateMember = (candidate_id) => async (dispatch, getState) => {
     createAction(NOMINATE_MEMBER_SUCCESS),
     `${window.API_BASE_URL}/api/v1/elections/current/candidates/${candidate_id}`,
     null,
-      authErrorHandler
+    authErrorHandler
   )(params)(dispatch)
     .then(({ response: nomination }) => {
       dispatch(stopLoading());

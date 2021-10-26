@@ -1,6 +1,5 @@
 import React, { useEffect } from "react"
 import { connect } from 'react-redux'
-import { navigate } from "gatsby"
 import moment from 'moment-timezone';
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'

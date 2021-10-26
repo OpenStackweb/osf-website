@@ -4,8 +4,6 @@ import {
   escapeFilterValue
 } from "openstack-uicore-foundation/lib/methods";
 
-import { customErrorHandler } from '../utils/customErrorHandler';
-
 export const GET_MEMBERS = 'GET_MEMBERS';
 export const GET_MEMBERS_SUCCESS = 'GET_MEMBERS_SUCCESS';
 export const GET_MEMBERS_ERROR = 'GET_MEMBERS_ERROR';
@@ -38,8 +36,7 @@ export const getMembers = (keyword, letter, page = 1) => (dispatch, getState) =>
   return getRequest(
     createAction(GET_MEMBERS),
     createAction(GET_MEMBERS_SUCCESS),
-    `${window.API_BASE_URL}/api/public/v1/members`,
-    customErrorHandler
+    `${window.API_BASE_URL}/api/public/v1/members`
   )(params)(dispatch)
     .then().catch((e) => {
       console.log(e);
@@ -52,8 +49,7 @@ export const getMemberProfile = (memberId) => (dispatch, getState) => {
   return getRequest(
     createAction(GET_MEMBER_PROFILE),
     createAction(GET_MEMBER_PROFILE_SUCCESS),
-    `${window.API_BASE_URL}/api/public/v1/members/${memberId}`,
-    customErrorHandler
+    `${window.API_BASE_URL}/api/public/v1/members/${memberId}`
   )({})(dispatch)
     .then().catch((e) => {
       console.log(e);
@@ -72,8 +68,7 @@ export const getElectionMemberProfile = (memberId) => (dispatch, getState) => {
   return getRequest(
     createAction(GET_ELECTION_MEMBER_PROFILE),
     createAction(GET_ELECTION_MEMBER_PROFILE_SUCCESS),
-    `${window.API_BASE_URL}/api/public/v1/members/${memberId}`,
-    customErrorHandler
+    `${window.API_BASE_URL}/api/public/v1/members/${memberId}`
   )(filters)(dispatch)
     .then().catch((e) => {
       console.log(e);

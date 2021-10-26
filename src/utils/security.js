@@ -1,4 +1,3 @@
-
 import {getEnvVariable, IDP_BASE_URL, OAUTH2_CLIENT_ID} from './envVariables'
 
 export const doRegistration = (origin, type) => {

@@ -72,7 +72,7 @@ const NominationModal = ({ candidate_profile, closeModal, nominateMember, member
           <div className="content">
             <h2>
               {candidate_profile.first_name} has {candidate_profile.election_applications.length}
-              {candidate_profile.election_applications.length > 1 ? 'nominations' : 'nomination'}</h2>
+              {candidate_profile.election_applications.length > 1 ? ' nominations' : ' nomination'}</h2>
             <ul>
               {candidate_profile.election_applications.map((application, index) => {
                 return (

@@ -27,7 +27,8 @@ export const getElectionStatus = () => (dispatch, getState) => {
   return getRequest(
     null,
     createAction(GET_ELECTIONS_STATUS),
-    `${window.API_BASE_URL}/api/public/v1/elections/current`
+    `${window.API_BASE_URL}/api/public/v1/elections/current`,
+     null
   )({})(dispatch)
     .then(() => dispatch(stopLoading()))
     .catch((e) => {
@@ -51,7 +52,8 @@ export const getCandidates = () => (dispatch, getState) => {
   return getRequest(
     null,
     createAction(GET_CANDIDATES),
-    `${window.API_BASE_URL}/api/public/v1/elections/current/candidates`
+    `${window.API_BASE_URL}/api/public/v1/elections/current/candidates`,
+     null
   )(params)(dispatch)
     .then(() => dispatch(stopLoading()))
     .catch((e) => {
@@ -74,7 +76,8 @@ export const getGoldCandidates = () => (dispatch, getState) => {
   return getRequest(
     null,
     createAction(GET_GOLD_CANDIDATES),
-    `${window.API_BASE_URL}/api/public/v1/elections/current/candidates/gold`
+    `${window.API_BASE_URL}/api/public/v1/elections/current/candidates/gold`,
+     null
   )(params)(dispatch)
     .then(() => dispatch(stopLoading()))
     .catch((e) => {

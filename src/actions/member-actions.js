@@ -36,7 +36,8 @@ export const getMembers = (keyword, letter, page = 1) => (dispatch, getState) =>
   return getRequest(
     createAction(GET_MEMBERS),
     createAction(GET_MEMBERS_SUCCESS),
-    `${window.API_BASE_URL}/api/public/v1/members`
+    `${window.API_BASE_URL}/api/public/v1/members`,
+     null
   )(params)(dispatch)
     .then().catch((e) => {
       console.log(e);
@@ -49,7 +50,8 @@ export const getMemberProfile = (memberId) => (dispatch, getState) => {
   return getRequest(
     createAction(GET_MEMBER_PROFILE),
     createAction(GET_MEMBER_PROFILE_SUCCESS),
-    `${window.API_BASE_URL}/api/public/v1/members/${memberId}`
+    `${window.API_BASE_URL}/api/public/v1/members/${memberId}`,
+     null 
   )({})(dispatch)
     .then().catch((e) => {
       console.log(e);
@@ -68,7 +70,7 @@ export const getElectionMemberProfile = (memberId) => (dispatch, getState) => {
   return getRequest(
     createAction(GET_ELECTION_MEMBER_PROFILE),
     createAction(GET_ELECTION_MEMBER_PROFILE_SUCCESS),
-    `${window.API_BASE_URL}/api/public/v1/members/${memberId}`
+    `${window.API_BASE_URL}/api/public/v1/members/${memberId}`, null
   )(filters)(dispatch)
     .then().catch((e) => {
       console.log(e);

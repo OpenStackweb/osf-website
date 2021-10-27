@@ -14,8 +14,7 @@ const DEFAULT_STATE = {
   election_status: null,
   candidates: [],
   gold_candidates: [],
-  member_nomination: null,
-  member_nomination_loading: false,
+  member_nomination: null
 }
 
 const electionReducer = (state = DEFAULT_STATE, action) => {
@@ -46,15 +45,15 @@ const electionReducer = (state = DEFAULT_STATE, action) => {
     }
       break;
     case NOMINATE_MEMBER: {
-      return { ...state, member_nomination: true, member_nomination_loading: true }
+      return { ...state, member_nomination: true }
     }
       break;
     case NOMINATE_MEMBER_SUCCESS: {
-      return { ...state, member_nomination: true, member_nomination_loading: false }
+      return { ...state, member_nomination: true }
     }
       break;
     case NOMINATE_MEMBER_ERROR: {
-      return { ...state, member_nomination: payload, member_nomination_loading: false }
+      return { ...state, member_nomination: payload }
     }
       break;
     default:

@@ -108,14 +108,14 @@ export const nominateMember = (candidate_id) => async (dispatch, getState) => {
     authErrorHandler
   )(params)(dispatch)
     .then(({ response: nomination }) => {
-      dispatch(stopLoading());
       const updatedProfile = { ...member, election_nominations: [...member.election_nominations, nomination] };
       dispatch(updateUserInfo(updatedProfile));
+      dispatch(stopLoading());
     })
     .catch((e) => {
-      dispatch(stopLoading());
       const errorMessage = { message: JSON.parse(e.res.text).errors[0] || JSON.parse(e.res.text).errors, status: e.res.statusCode };
       dispatch(createAction(NOMINATE_MEMBER_ERROR)(errorMessage))
+      dispatch(stopLoading());
     });
 }
 

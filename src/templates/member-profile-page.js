@@ -272,5 +272,5 @@ export default connect(state => ({
   loading_members: state.memberState.loading_members,
   election_status: state.electionState.election_status,
   member_nomination: state.electionState.member_nomination,
-  member_nomination_loading: state.electionState.member_nomination_loading,
+  member_nomination_loading: state.electionState.loading,
 }), { getMemberProfile, getElectionStatus, getElectionMemberProfile, nominateMember })(MemberProfilePage)

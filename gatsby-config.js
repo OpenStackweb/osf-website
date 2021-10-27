@@ -216,6 +216,12 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-cookiebot",
+      options: {
+        cookiebotId: "e11e4375-71b9-426d-a76d-61eae3ddc08f", // Required. Site's Cookiebot ID.        
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Open Infrastructure Foundation`,

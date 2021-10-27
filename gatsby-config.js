@@ -214,7 +214,7 @@ module.exports = {
         // Defaults to https://www.googletagmanager.com
         // selfHostedOrigin: "YOUR_SELF_HOSTED_ORIGIN",
       },
-    },    
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

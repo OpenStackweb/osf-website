@@ -49,7 +49,7 @@ export const OpenInfraLiveTemplate = ({
         <section className="up-next-wrapper">
           <div className="video">
             <div className="videoWrapper">
-              <iframe width="560" height="315" src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" data-cookieconsent="marketing" allowFullScreen></iframe>
+              <iframe width="560" height="315" data-src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" data-cookieconsent="marketing" allowFullScreen></iframe>
             </div>
           </div>
           <div className="details">
@@ -167,7 +167,7 @@ export const OpenInfraLiveTemplate = ({
                           <div className="date">{moment.utc(episode.date).format("dddd, MMMM DD, YYYY")}</div>
                           <div className="video">
                             <div className="videoWrapper">
-                              <iframe width="560" height="315" src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" data-cookieconsent="marketing" allowFullScreen></iframe>
+                              <iframe width="560" height="315" data-src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" data-cookieconsent="marketing" allowFullScreen></iframe>
                             </div>
                           </div>
                           <div className="details">
@@ -248,7 +248,7 @@ export const OpenInfraLiveTemplate = ({
                     <div className="all-episode-single" key={`past-${index}`}>
                       <div className="video">
                         <div className="videoWrapper">
-                          <iframe width="560" height="315" src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" data-cookieconsent="marketing" allowFullScreen></iframe>
+                          <iframe width="560" height="315" data-src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" data-cookieconsent="marketing" allowFullScreen></iframe>
                         </div>
                       </div>
                       <div className="details">

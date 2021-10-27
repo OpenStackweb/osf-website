@@ -30,16 +30,20 @@ episodes:
     youtubeEmbed: https://www.youtube.com/embed/Z9wLCKWe7LE
     youtubeLink: https://www.youtube.com/watch?v=Z9wLCKWe7LE
     calendarInvite: /static/invites/myevents-12-.ics
-  - hidden: false
-    date: 2021-10-28T14:00:28.872Z
-    episodeTitle: Tackling Sustainability with Eco-friendly, Green Hardware
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4454849267903641/
     episodeDescription: "Join us as we discuss how chipmakers, hardware vendors, and
       data center architects are all working in concert to solve this
       problem.  "
-    episodeSpeakers: "Peter Pouliot (Ampere), Zach Smith (Equinix) "
-    youtubeEmbed: https://www.youtube.com/embed/4Pf1B3vW30E
-    youtubeLink: https://www.youtube.com/watch?v=4Pf1B3vW30E
     calendarInvite: /static/invites/myevents-11-.ics
+    hidden: false
+    date: 2021-10-28T14:00:28.872Z
+    episodeSpeakers: >
+      Peter Pouliot (Ampere), Laurent Bernou-Mazars (Exaion), Zac Smith
+      (Equinix), and John Miranda (Intel)
+    youtubeEmbed: https://www.youtube.com/embed/4Pf1B3vW30E
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6857452910423494657
+    episodeTitle: Tackling Sustainability with Eco-friendly, Green Hardware
+    youtubeLink: https://www.youtube.com/watch?v=4Pf1B3vW30E
   - facebookLink: https://www.facebook.com/104139126308032/posts/4407685335953368/
     episodeDescription: "Networking is complex, and Neutron is one of the most
       difficult parts of OpenStack to scale. In this episode of the Large Scale

@@ -131,6 +131,18 @@ featuredSpeakers:
       company: Red Hat
       name: "Sean Cohen "
       pic: /img/sean-cohen.jpeg
+    - name: Imtiaz Chowdhury
+      company: Workday
+      presentationTitle: Software Engineer
+      pic: /img/imtiaz.jpg
+    - name: Duan Xiaodong
+      company: "China Mobile "
+      presentationTitle: "VP of Research from China Mobile Research Institute "
+      pic: /img/duanxiaodong.jpg
+    - name: Reg Orton
+      company: BRCK
+      presentationTitle: CTO
+      pic: /img/regorton.jpg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

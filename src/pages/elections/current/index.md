@@ -26,7 +26,7 @@ menu:
 ---
 #### About the Board
 
-The Board of Directors is ultimately legally responsible for the Foundation as a corporate entity. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. With upcoming Bylaws changes, the 2021 Board will be composed of 27 directors elected by the Individual Members (9), directors elected by the Gold Members (9) and directors appointed by the Platinum Members (9).
+The Board of Directors is ultimately legally responsible for the Foundation as a corporate entity. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. The 2022 Board will be composed of 27 directors elected by the Individual Members (9), directors elected by the Gold Members (9) and directors appointed by the Platinum Members (9).
 
 As a true corporate board, Board members are responsible for fiduciary duties and adhering to an expanded code of conduct. All Directors need to attend regular quarterly Board meetings and any special meetings that come up. The meetings will be held in a way that allows for remote participation.
 

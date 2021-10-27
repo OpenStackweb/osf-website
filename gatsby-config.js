@@ -214,13 +214,7 @@ module.exports = {
         // Defaults to https://www.googletagmanager.com
         // selfHostedOrigin: "YOUR_SELF_HOSTED_ORIGIN",
       },
-    },
-    {
-      resolve: "gatsby-plugin-cookiebot",
-      options: {
-        cookiebotId: "e11e4375-71b9-426d-a76d-61eae3ddc08f", // Required. Site's Cookiebot ID.        
-      },
-    },
+    },    
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

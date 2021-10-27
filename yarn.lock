@@ -8601,13 +8601,6 @@ gatsby-page-utils@^0.9.1:
     lodash "^4.17.20"
     micromatch "^4.0.2"
 
-gatsby-plugin-cookiebot@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-cookiebot/-/gatsby-plugin-cookiebot-1.0.1.tgz#f388d3704f89ccfe8c7581da73d65c7549755c4c"
-  integrity sha512-kCi2XzlIc9r7qxlz1uQe03NwrbvL/k415lQ8u4j5wA20jyI3oq+g7FtOUpNB/y6IeNUyA3kMC9BlzS2X2YhCPQ==
-  dependencies:
-    react "^17.0.2"
-
 gatsby-plugin-create-client-paths@^2.3.1:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-create-client-paths/-/gatsby-plugin-create-client-paths-2.8.0.tgz#17b0811c3e5dbb2f940b7bc7212817f37524e366"

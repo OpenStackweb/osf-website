@@ -95,18 +95,10 @@ featuredSpeakers:
       presentationTitle: OSI Board Member and Open Source Hacker
       company: Azure Office of the CTO
       pic: /img/aeva_black.jpeg
-    - name: Charlotte Darth
-      company: "Binero "
-      presentationTitle: "CEO "
-      pic: /img/uo-charlotte.jpeg
     - name: Johan Christenson
       company: City Network
       presentationTitle: "CEO "
       pic: /img/uo-johan.png
-    - name: Gerald Bothello
-      presentationTitle: Director of Cloud
-      company: Walmart
-      pic: /img/geraldbothello.jpeg
     - name: Allison Randal
       company: OpenInfra Foundation
       presentationTitle: Board Chair

@@ -33,16 +33,18 @@ const NominationModal = ({ candidate_profile, closeModal, nominateMember, member
 
   const getModalButtons = () => {
     if (nominated && !member_nomination_loading) {
-      return typeof (member_nomination) === 'boolean' ?
-        <div className="nomination-modal-buttons">
-          <button className="nomination-modal-button" onClick={closeModal}>Done</button>
-          <button className="nomination-modal-button" onClick={() => goToAllMembers()}>Nominate Someone Else</button>
-        </div>
-        :
-        <div className="nomination-modal-buttons">
-          <button className="nomination-modal-button" onClick={() => goToNominations()}>See Nominations</button>
-          <button className="nomination-modal-button" onClick={() => goToAllMembers()}>See All Members</button>
-        </div>
+      if (member_nomination) {
+        return typeof (member_nomination) === 'boolean' ?
+          <div className="nomination-modal-buttons">
+            <button className="nomination-modal-button" onClick={closeModal}>Done</button>
+            <button className="nomination-modal-button" onClick={() => goToAllMembers()}>Nominate Someone Else</button>
+          </div>
+          :
+          <div className="nomination-modal-buttons">
+            <button className="nomination-modal-button" onClick={() => goToNominations()}>See Nominations</button>
+            <button className="nomination-modal-button" onClick={() => goToAllMembers()}>See All Members</button>
+          </div>
+      }
     } else {
       return candidate_profile.election_applications?.length > 9 ?
         <div className="nomination-modal-buttons">
@@ -104,7 +106,7 @@ const NominationModal = ({ candidate_profile, closeModal, nominateMember, member
   return (
     <div className="modal is-active">
       <div className="modal-background" onClick={closeModal} />
-      <div className="modal-content" style={{width: '100%', padding: '5vw'}}>
+      <div className="modal-content" style={{ width: '100%', padding: '5vw' }}>
         <div className="nomination-modal">
           <span className="title">
             {getModalTitle()}

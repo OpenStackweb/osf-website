@@ -28,7 +28,7 @@ export const getElectionStatus = () => (dispatch, getState) => {
     null,
     createAction(GET_ELECTIONS_STATUS),
     `${window.API_BASE_URL}/api/public/v1/elections/current`,
-     null
+    null
   )({})(dispatch)
     .then(() => dispatch(stopLoading()))
     .catch((e) => {
@@ -53,7 +53,7 @@ export const getCandidates = () => (dispatch, getState) => {
     null,
     createAction(GET_CANDIDATES),
     `${window.API_BASE_URL}/api/public/v1/elections/current/candidates`,
-     null
+    null
   )(params)(dispatch)
     .then(() => dispatch(stopLoading()))
     .catch((e) => {
@@ -77,7 +77,7 @@ export const getGoldCandidates = () => (dispatch, getState) => {
     null,
     createAction(GET_GOLD_CANDIDATES),
     `${window.API_BASE_URL}/api/public/v1/elections/current/candidates/gold`,
-     null
+    null
   )(params)(dispatch)
     .then(() => dispatch(stopLoading()))
     .catch((e) => {
@@ -107,13 +107,13 @@ export const nominateMember = (candidate_id) => async (dispatch, getState) => {
     null,
     authErrorHandler
   )(params)(dispatch)
-    .then(({ response: nomination }) => {
-      const updatedProfile = { ...member, election_nominations: [...member.election_nominations, nomination] };
+    .then((response) => {      
+      const updatedProfile = { ...member, election_nominations: [...member.election_nominations, response.nomination] };
       dispatch(updateUserInfo(updatedProfile));
       dispatch(stopLoading());
     })
     .catch((e) => {
-      const errorMessage = { message: JSON.parse(e.res.text).errors[0] || JSON.parse(e.res.text).errors, status: e.res.statusCode };
+      const errorMessage = { message: JSON.parse(e.res.text).errors?.[0] || JSON.parse(e.res.text).error_description, status: e.res.statusCode };
       dispatch(createAction(NOMINATE_MEMBER_ERROR)(errorMessage))
       dispatch(stopLoading());
     });

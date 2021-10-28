@@ -45,7 +45,7 @@ const electionReducer = (state = DEFAULT_STATE, action) => {
     }
       break;
     case NOMINATE_MEMBER: {
-      return { ...state, member_nomination: true }
+      return { ...state, member_nomination: null }
     }
       break;
     case NOMINATE_MEMBER_SUCCESS: {

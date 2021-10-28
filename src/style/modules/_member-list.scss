@@ -54,12 +54,15 @@
 
 .member-list-letters {
   display: flex;
+  flex-wrap: wrap;
   span {
     display: inline-block;
     padding: 4px;
     border: 1px solid #cae1e9;
     margin-right: -1px;
     cursor: pointer;
+    width: 24px;
+    text-align: center;
     &:hover {
       text-decoration: underline;
       color: #23527c;

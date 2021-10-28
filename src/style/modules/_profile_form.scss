@@ -38,7 +38,7 @@
     label {
       margin-bottom: 10px;
       font-weight: bold;
-    }    
+    }
     .candidate-profile-editor {
       width: 60%;
       min-height: 150px;
@@ -49,8 +49,11 @@
 
 @media screen and (max-width: 768px) {
   .candidate-profile-form {
-    .candidate-profile-editor {
-      width: 100%;
+    .candidate-profile-item {
+      .candidate-profile-editor {
+        width: 100%;
+        min-height: 200px;
+      }
     }
   }
 }

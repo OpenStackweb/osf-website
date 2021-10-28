@@ -77,7 +77,7 @@ const NominationModal = ({ candidate_profile, closeModal, nominateMember, member
               {candidate_profile.election_applications.map((application, index) => {
                 return (
                   <li>
-                    Nominated by {`${application.nominator.first_name} ${application.nominator.last_name}`}
+                    Nominated by {`${application.nominator.first_name} ${application.nominator.last_name} `}
                     on {moment(application.last_edited * 1000).format('MM DD, YYYY')}
                   </li>
                 )
@@ -104,7 +104,7 @@ const NominationModal = ({ candidate_profile, closeModal, nominateMember, member
   return (
     <div className="modal is-active">
       <div className="modal-background" onClick={closeModal} />
-      <div className="modal-content">
+      <div className="modal-content" style={{width: '100%', padding: '5vw'}}>
         <div className="nomination-modal">
           <span className="title">
             {getModalTitle()}

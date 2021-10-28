@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect } from "react"
 import { connect } from 'react-redux'
 import { navigate } from "gatsby"
 import Layout from '../components/Layout'
@@ -9,7 +9,8 @@ import SEO from "../components/SEO";
 import CandidateForm from "../components/CandidateForm";
 import 'openstack-uicore-foundation/lib/css/components.css';
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
-import { updateCandidateProfile } from "../actions/election-actions";
+import { updateCandidateProfile, getElectionStatus } from "../actions/election-actions";
+import { getElectionMemberProfile } from "../actions/member-actions";
 
 
 export const CandidatePageTemplate = ({
@@ -60,10 +61,22 @@ export const CandidatePageTemplate = ({
 const CandidatePage = ({
     isLoggedUser,
     loading,
-    electionStatus,
     updateCandidateProfile,
-    currentMember
+    currentMember,
+    getElectionMemberProfile,
+    getElectionStatus,
+    electionStatus,
 }) => {
+
+    useEffect(() => {
+        if (!electionStatus) {
+            getElectionStatus();
+        }
+        if(currentMember?.id) {
+            getElectionMemberProfile(currentMember?.id);
+        }
+    }, [])
+
     return (
         <Layout>
             <SEO />
@@ -85,5 +98,7 @@ export default connect(state => ({
     electionStatus: state.electionState.election_status,
 }),
     {
-        updateCandidateProfile
+        updateCandidateProfile,
+        getElectionStatus,
+        getElectionMemberProfile
     })(CandidatePage)

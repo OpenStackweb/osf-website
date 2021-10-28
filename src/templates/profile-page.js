@@ -135,12 +135,16 @@ const ProfilePage = ({
     isLoggedUser,
     location,
     updateMembershipType,
+    getElectionMemberProfile,
     getElectionStatus,
     electionStatus
-}) => {    
+}) => {
 
     useEffect(() => {
         getElectionStatus();
+        if (currentMember?.id) {
+            getElectionMemberProfile(currentMember?.id);
+        }
     }, [])
 
     return (
@@ -175,5 +179,6 @@ export default connect(state => ({
         addOrganization,
         updateMembershipType,
         getMemberProfile,
+        getElectionMemberProfile,
         getElectionStatus
     })(ProfilePage)

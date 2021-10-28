@@ -3,7 +3,7 @@ templateKey: blog-post
 title: "Open Infrastructure Foundation Welcomes Nipa Cloud of Thailand as Gold
   Member of the Foundation "
 author: Allison Price
-date: 2021-10-06T16:42:57.619Z
+date: 2021-10-28T16:42:57.619Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements

@@ -95,26 +95,26 @@ featuredSpeakers:
       company: "Microsoft "
       presentationTitle: Director of Open Source Strategy and Ecosystem
       pic: /img/2018-sarah-novotny-3.jpeg
-    - name: Aeva Black
-      presentationTitle: OSI Board Member and Open Source Hacker
-      company: Azure Office of the CTO
-      pic: /img/aeva_black.jpeg
-    - presentationTitle: Director of Product Management, Hybrid Platforms
-      company: Red Hat
-      name: "Sean Cohen "
-      pic: /img/sean-cohen.jpeg
-    - name: Johan Christenson
-      company: City Network
-      presentationTitle: "CEO "
-      pic: /img/uo-johan.png
     - name: Allison Randal
       company: OpenInfra Foundation
       presentationTitle: Board Chair
       pic: /img/allison_by_pinar_250x300.jpg
+    - presentationTitle: Director of Product Management, Hybrid Platforms
+      company: Red Hat
+      name: "Sean Cohen "
+      pic: /img/sean-cohen.jpeg
     - name: Duan Xiaodong
       company: "China Mobile "
       presentationTitle: "VP of Research from China Mobile Research Institute "
       pic: /img/duanxiaodong.jpg
+    - name: Aeva Black
+      presentationTitle: OSI Board Member and Open Source Hacker
+      company: Azure Office of the CTO
+      pic: /img/aeva_black.jpeg
+    - name: Johan Christenson
+      company: City Network
+      presentationTitle: "CEO "
+      pic: /img/uo-johan.png
     - name: Imtiaz Chowdhury
       company: Workday
       presentationTitle: Software Engineer

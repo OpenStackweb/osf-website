@@ -135,6 +135,10 @@ featuredSpeakers:
       company: BRCK
       presentationTitle: CTO
       pic: /img/regorton.jpg
+    - name: Jim Blair
+      company: "ACME Gating "
+      presentationTitle: "Founder "
+      pic: /img/headshot.jpeg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

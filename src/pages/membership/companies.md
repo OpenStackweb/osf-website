@@ -219,6 +219,8 @@ companies:
         image: /img/companies/iweb.png
       - alt: Limestone Networks
         image: /img/companies/lsn-sm.png
+      - image: /img/sponsor-logos-silver_inmotionhosting.png
+        alt: Inmotion Hosting
     text: Infrastructure donors are companies running OpenStack clouds, donating
       cloud resources to the OpenStack project infrastructure. Those resources
       are mostly used in our <a href="https://opendev.org">automated  testing

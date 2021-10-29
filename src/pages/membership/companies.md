@@ -217,8 +217,6 @@ companies:
         image: /img/companies/ovh-lg.jpg
       - alt: iWeb
         image: /img/companies/iweb.png
-      - alt: Limestone Networks
-        image: /img/companies/lsn-sm.png
       - image: /img/sponsor-logos-silver_inmotionhosting.png
         alt: Inmotion Hosting
     text: Infrastructure donors are companies running OpenStack clouds, donating

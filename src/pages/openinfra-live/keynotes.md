@@ -80,6 +80,7 @@ supportingSponsors:
     - logo: /img/coredge-blue.png
     - logo: /img/imh_logo-1.png
     - logo: /img/7d79063e-profile_ivolve-pantone-logo_large-1.png
+    - logo: /img/vexxhost.svg
 featuredSpeakers:
   title: FEATURED SPEAKERS
   speakers:

@@ -37,7 +37,7 @@ export const onPreRenderHTML = (args, pluginOptions) => {
     // Headcomponents needs to be assigned to a new
     const newHeadComponents = headComponents.map((component) => {
         if (component.type === "script") {
-            if (component.key === "plugin-google-tagmanager" &&
+            if ((component.key === "plugin-google-tagmanager" || component.key === "gatsby-plugin-linkedin-insight") &&
                 manualMode &&
                 blockGtm &&
                 isProduction // gatsby-plugin-google-tagmanager will thrown an error if the script has not been loaded in development

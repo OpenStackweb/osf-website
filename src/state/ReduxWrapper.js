@@ -1,4 +1,5 @@
 import React from 'react';
+import localforage from 'localforage';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 import { loggedUserReducer } from 'openstack-uicore-foundation/lib/reducers';
@@ -17,7 +18,7 @@ const clientId = typeof window === 'object' ? window.OAUTH2_CLIENT_ID : process.
 
 const config = {
   key: `root_${clientId}`,
-  storage,
+  storage: localforage,
 }
 
 const persistedReducers = persistCombineReducers(config, {

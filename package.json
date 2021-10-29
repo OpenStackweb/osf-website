@@ -46,6 +46,7 @@
     "immutability-helper": "2.9.1",
     "immutable": "^3.7.6",
     "jsdom": "^16.2.2",
+    "localforage": "^1.10.0",
     "lodash": "^4.17.15",
     "lodash-webpack-plugin": "^0.11.4",
     "moment": "^2.24.0",

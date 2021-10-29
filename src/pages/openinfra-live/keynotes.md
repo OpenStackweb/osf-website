@@ -83,6 +83,10 @@ supportingSponsors:
 featuredSpeakers:
   title: FEATURED SPEAKERS
   speakers:
+    - name: Balaji Srinivasan
+      pic: /img/balaji-srinivasan.jpeg
+      presentationTitle: Crypto Expert, Former Partner at a16z and CTO of Coinbase
+      company: Entrepeneur
     - name: Martin Casado
       company: Andreessen Horowitz
       pic: /img/martincasado.jpeg
@@ -95,6 +99,10 @@ featuredSpeakers:
       presentationTitle: OSI Board Member and Open Source Hacker
       company: Azure Office of the CTO
       pic: /img/aeva_black.jpeg
+    - presentationTitle: Director of Product Management, Hybrid Platforms
+      company: Red Hat
+      name: "Sean Cohen "
+      pic: /img/sean-cohen.jpeg
     - name: Johan Christenson
       company: City Network
       presentationTitle: "CEO "
@@ -103,6 +111,22 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Board Chair
       pic: /img/allison_by_pinar_250x300.jpg
+    - name: Duan Xiaodong
+      company: "China Mobile "
+      presentationTitle: "VP of Research from China Mobile Research Institute "
+      pic: /img/duanxiaodong.jpg
+    - name: Imtiaz Chowdhury
+      company: Workday
+      presentationTitle: Software Engineer
+      pic: /img/imtiaz.jpg
+    - name: Reg Orton
+      company: BRCK
+      presentationTitle: CTO
+      pic: /img/regorton.jpg
+    - name: Jim Blair
+      company: "ACME Gating "
+      presentationTitle: "Founder "
+      pic: /img/headshot.jpeg
     - name: Jonathan Bryce
       company: OpenInfra Foundation
       presentationTitle: Executive Director
@@ -119,30 +143,6 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Upstream Developer Advocate
       pic: /img/kendallnelson.png
-    - presentationTitle: Director of Product Management, Hybrid Platforms
-      company: Red Hat
-      name: "Sean Cohen "
-      pic: /img/sean-cohen.jpeg
-    - name: Imtiaz Chowdhury
-      company: Workday
-      presentationTitle: Software Engineer
-      pic: /img/imtiaz.jpg
-    - name: Duan Xiaodong
-      company: "China Mobile "
-      presentationTitle: "VP of Research from China Mobile Research Institute "
-      pic: /img/duanxiaodong.jpg
-    - name: Reg Orton
-      company: BRCK
-      presentationTitle: CTO
-      pic: /img/regorton.jpg
-    - name: Jim Blair
-      company: "ACME Gating "
-      presentationTitle: "Founder "
-      pic: /img/headshot.jpeg
-    - name: Balaji Srinivasan
-      pic: /img/balaji-srinivasan.jpeg
-      presentationTitle: Crypto Expert, Former Partner at a16z and CTO of Coinbase
-      company: Entrepeneur
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

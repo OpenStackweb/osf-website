@@ -139,6 +139,10 @@ featuredSpeakers:
       company: "ACME Gating "
       presentationTitle: "Founder "
       pic: /img/headshot.jpeg
+    - name: Balaji Srinivasan
+      pic: /img/balaji-srinivasan.jpeg
+      presentationTitle: Crypto Expert, Former Partner at a16z and CTO of Coinbase
+      company: Entrepeneur
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

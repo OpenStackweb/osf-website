@@ -14,6 +14,19 @@ hero:
     Catch every episode on several streaming platforms, airing <strong>Thursdays
     at 14:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: true
+    date: 2021-11-11T15:00:00.893Z
+    episodeDescription: "The 2021 User Survey shows that the footprint of OpenStack
+      clouds grew by 66% over the last year, totaling over 25 million cores in
+      production. This increase has been contributed by organizations of all
+      sizes around the world. During this episode of OpenInfra Live, we are
+      going to talk to operators from Kakao, LINE, Schwarz IT, NeCTAR and
+      T-Systems about what’s causing this OpenStack growth at their
+      organization.  "
+    episodeTitle: "OpenStack Is Alive: Explosive Growth Among Production Deployments"
+    youtubeLink: https://www.youtube.com/watch?v=RhMJO82lDxc
+    youtubeEmbed: https://www.youtube.com/embed/RhMJO82lDxc
+    calendarInvite: /static/invites/myevents-13-.ics
   - hidden: false
     date: 2021-11-04T14:00:02.752Z
     episodeTitle: "OpenInfra in Production: Hybrid Cloud"

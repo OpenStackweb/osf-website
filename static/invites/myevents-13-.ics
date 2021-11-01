@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211101T200014Z
+UID:20211101T200014Z-1248317111@marudot.com
+DTSTART;TZID=America/Chicago:20211111T090000
+DTEND;TZID=America/Chicago:20211111T100000
+SUMMARY:OpenInfra Live Ep. 29: OpenStack Is Alive: Explosive Growth Among Production Deployments
+URL:https://www.youtube.com/embed/RhMJO82lDxc
+DESCRIPTION:The 2021 User Survey shows that the footprint of OpenStack clouds grew by 66% over the last year\, totaling over 25 million cores in production. This increase has been contributed by organizations of all sizes around the world. During this episode of OpenInfra Live\, we are going to talk to operators from Kakao\, LINE\, Schwarz IT\, NeCTAR and T-Systems about what’s causing this OpenStack growth at their organization.  \n
+LOCATION:https://www.youtube.com/embed/RhMJO82lDxc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenInfra Live Ep. 29: OpenStack Is Alive: Explosive Growth Among Production Deployments
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

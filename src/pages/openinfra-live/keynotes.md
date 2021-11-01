@@ -69,9 +69,11 @@ statSection:
       caption: Middle East/Africa
     - number: 6%
       caption: South/Latin America
-headlineSponsor:
+headlineSponsors:
   title: HEADLINE SPONSOR
-  logo: /img/live/redhat-logo.svg
+  sponsors:
+    - logo: /img/live/redhat-logo.svg
+    - logo: /img/live/windriver-logo.svg
 supportingSponsors:
   title: SUPPORTING SPONSORS
   sponsors:

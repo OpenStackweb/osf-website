@@ -43,9 +43,9 @@ const LiveKeynotesPagePreview = ({ entry }) => {
                 rightColumn: {title: entry.getIn(['data', 'statSection', 'rightColumn', 'title']), text: entry.getIn(['data', 'statSection', 'rightColumn', 'text'])},
                 stats: stats,
             }}
-            headlineSponsor={{
-                title: entry.getIn(['data', 'headlineSponsor', 'title']),
-                logo: entry.getIn(['data', 'headlineSponsor', 'logo']),
+            headlineSponsors={{
+                title: entry.getIn(['data', 'headlineSponsors', 'title']),
+                sponsors: sponsors,
             }}
             supportingSponsors={{
                 title: entry.getIn(['data', 'supportingSponsors', 'title']),

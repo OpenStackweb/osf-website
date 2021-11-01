@@ -888,9 +888,11 @@ collections:
               ] },
             ]
           }
-          - { label: "Headline Sponsor", name: "headlineSponsor", widget: "object", fields: [
+          - { label: "Headline Sponsors", name: "headlineSponsors", widget: "object", fields: [
               { label: "Title", name: "title", widget: "string" },
-              { label: "Logo", name: "logo", widget: "image" },
+              { label: "Sponsors", name: "sponsors", widget: "list", fields: [
+                { label: "Logo", name: "logo", widget: "image" },
+              ] },
             ]
           }
           - { label: "Supporting Sponsors", name: "supportingSponsors", widget: "object", fields: [

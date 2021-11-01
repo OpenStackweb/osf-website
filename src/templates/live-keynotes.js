@@ -30,7 +30,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
   statSection,
   whatToExpect,
   featuredProjects,
-  headlineSponsor,
+  headlineSponsors,
   supportingSponsors,
   featuredSpeakers,
   sponsorshipSection,
@@ -181,9 +181,12 @@ export const OpenInfraLiveKeynotesTemplate = ({
           <section className="keynotes-sponsors">
             <div className="container">
               <section className="sponsor-section headline">
-                <h3>{headlineSponsor.title}</h3>
+                <h3>{headlineSponsors.title}</h3>
                 <div className="logos">
-                  <img src={getImage(headlineSponsor.logo)} />
+                  {/*<img src={getImage(headlineSponsor.logo)} />*/}
+                  {headlineSponsors.sponsors.map(sponsor => (
+                      <img src={getImage(sponsor.logo)} />
+                  ))}
                 </div>
               </section>
               <section className="sponsor-section supporting-sponsors">
@@ -328,15 +331,17 @@ export const OpenInfraLiveKeynotesPageQuery = graphql`
             caption
           }
         }
-        headlineSponsor {
+        headlineSponsors {
           title
-          logo {
-              childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
-                  ...GatsbyImageSharpFluid
+          sponsors {
+            logo {
+                childImageSharp {
+                  fluid(maxWidth: 640, quality: 64) {
+                    ...GatsbyImageSharpFluid
+                  }
                 }
-              }
-              publicURL
+                publicURL
+            }
           }
         }
         supportingSponsors {

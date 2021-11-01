@@ -69,7 +69,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                   </a>
                 </div>
                 <figure className="logo">
-                  <img src="/img/live/live-logo-white-b.svg" alt="OpenInfra Live" />
+                  <img src="/img/live/oi-live-keynotes-logo-web-dark.svg" alt="OpenInfra Live Keynotes Logo" />
                 </figure>
               </section>
             </div>

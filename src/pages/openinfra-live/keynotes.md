@@ -146,6 +146,10 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Upstream Developer Advocate
       pic: /img/kendallnelson.png
+    - presentationTitle: Senior Manager - OpenRAN RF & Digital Platform Development
+      company: Vodafone Group Networks
+      name: "Andy Dunkin "
+      pic: /img/andydunkin.jpeg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

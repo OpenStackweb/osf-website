@@ -70,7 +70,7 @@ statSection:
     - number: 6%
       caption: South/Latin America
 headlineSponsors:
-  title: HEADLINE SPONSOR
+  title: HEADLINE SPONSORS
   sponsors:
     - logo: /img/live/redhat-logo.svg
     - logo: /img/live/windriver-logo.svg

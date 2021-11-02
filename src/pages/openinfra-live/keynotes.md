@@ -126,6 +126,10 @@ featuredSpeakers:
       company: BRCK
       presentationTitle: CTO
       pic: /img/regorton.jpg
+    - presentationTitle: Senior Manager - OpenRAN RF & Digital Platform Development
+      company: Vodafone Group Networks
+      name: "Andy Dunkin "
+      pic: /img/andydunkin.jpeg
     - name: Jim Blair
       company: "ACME Gating "
       presentationTitle: "Founder "
@@ -146,10 +150,6 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Upstream Developer Advocate
       pic: /img/kendallnelson.png
-    - presentationTitle: Senior Manager - OpenRAN RF & Digital Platform Development
-      company: Vodafone Group Networks
-      name: "Andy Dunkin "
-      pic: /img/andydunkin.jpeg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

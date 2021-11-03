@@ -14,7 +14,7 @@ hero:
     Catch every episode on several streaming platforms, airing <strong>Thursdays
     at 14:00 UTC (9am CT)</strong>."
 episodes:
-  - hidden: true
+  - hidden: false
     date: 2021-11-11T15:00:00.893Z
     episodeDescription: "The 2021 User Survey shows that the footprint of OpenStack
       clouds grew by 66% over the last year, totaling over 25 million cores in
@@ -27,6 +27,15 @@ episodes:
     youtubeLink: https://www.youtube.com/watch?v=RhMJO82lDxc
     youtubeEmbed: https://www.youtube.com/embed/RhMJO82lDxc
     calendarInvite: /static/invites/myevents-13-.ics
+    episodeSpeakers: |-
+      Paul Coddington (ARDC Nectar)
+      Reedip Banerjee (LINE)
+      Yushiro Furukawa (LINE)
+      Andrew Kong (Kakao)
+      Nils Magnus (T-Systems)
+      Adrian Seiffert (Schwarz)
+      Marvin Titus (Schwarz)
+      Carmel Walsh (ARDC Nectar)
   - facebookLink: https://www.facebook.com/104139126308032/posts/4476144952440739/
     episodeDescription: >-
       The hybrid cloud marketing is expected to reach $145 billion USD by 2026

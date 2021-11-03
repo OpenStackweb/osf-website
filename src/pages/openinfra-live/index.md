@@ -27,9 +27,7 @@ episodes:
     youtubeLink: https://www.youtube.com/watch?v=RhMJO82lDxc
     youtubeEmbed: https://www.youtube.com/embed/RhMJO82lDxc
     calendarInvite: /static/invites/myevents-13-.ics
-  - hidden: false
-    date: 2021-11-04T14:00:02.752Z
-    episodeTitle: "OpenInfra in Production: Hybrid Cloud"
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4476144952440739/
     episodeDescription: >-
       The hybrid cloud marketing is expected to reach $145 billion USD by 2026
       and organizations worldwide are deploying a combination of open source and
@@ -40,9 +38,18 @@ episodes:
 
 
       #OpenInfraLive
-    youtubeEmbed: https://www.youtube.com/embed/Z9wLCKWe7LE
-    youtubeLink: https://www.youtube.com/watch?v=Z9wLCKWe7LE
     calendarInvite: /static/invites/myevents-12-.ics
+    hidden: false
+    date: 2021-11-04T14:00:02.752Z
+    episodeSpeakers: |-
+      Dr. Abhisak Chulya (CEO, Nipa)
+      Kob Kanokorn (Nipa) 
+      Muhammad Gill (VP of Industry Solutions, Wind River) 
+      Joshua Cornutt (CTO, ORock)
+    youtubeEmbed: https://www.youtube.com/embed/Z9wLCKWe7LE
+    linkedinLink: https://www.linkedin.com/video/event/urn:li:ugcPost:6859941007103029248/
+    episodeTitle: "OpenInfra in Production: Hybrid Cloud"
+    youtubeLink: https://www.youtube.com/watch?v=Z9wLCKWe7LE
   - facebookLink: https://www.facebook.com/104139126308032/posts/4454849267903641/
     episodeDescription: "Join us as we discuss how chipmakers, hardware vendors, and
       data center architects are all working in concert to solve this

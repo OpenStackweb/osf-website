@@ -106,6 +106,10 @@ featuredSpeakers:
       company: Red Hat
       name: "Sean Cohen "
       pic: /img/sean-cohen.jpeg
+    - name: "Meltem Kocabaş "
+      company: Trendyol
+      presentationTitle: "Product Manager "
+      pic: /img/pp.jpeg
     - name: Duan Xiaodong
       company: "China Mobile "
       presentationTitle: "VP of Research from China Mobile Research Institute "

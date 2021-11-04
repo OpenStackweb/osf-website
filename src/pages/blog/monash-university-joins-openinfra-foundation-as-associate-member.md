@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Monash University Joins OpenInfra Foundation as Associate Member
-author: Allison Price
+author: Thierry Carrez
 date: 2021-11-04T00:54:30.825Z
 category:
   - value: category-A7fnZYrE1

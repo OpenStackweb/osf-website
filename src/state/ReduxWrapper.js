@@ -14,7 +14,7 @@ const onBeforeLift = () => {
   console.log("reading state ...")
 }
 
-const clientId = typeof window === 'object' ? window.OAUTH2_CLIENT_ID : process.env.OAUTH2_CLIENT_ID
+const clientId = process.env.OAUTH2_CLIENT_ID;
 
 const config = {
   key: `root_${clientId}`,

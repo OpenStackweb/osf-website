@@ -253,7 +253,7 @@ members:
       OpenStack.  I've helped  integrate other open infrastructure projects into
       our commercial offering.</p> 
 
-      <p>By fostering OpenStack at it’s early days in 2011, it has helped improve the project and our  service as a whole. I’ve been a contributor to the project since and I have contributed code  to almost every release of OpenStack since then.  I've also served as PTL for Puppet OpenStack,  continue to serve as a PTL for OpenStack-Ansible and serve on the technical commitee,  chairing tthe commitee for a term.
+      <p>By fostering OpenStack at it’s early days in 2011, it has helped improve the project and our  service as a whole. I’ve been a contributor to the project since and I have contributed code  to almost every release of OpenStack since then.  I've also served as PTL for Puppet OpenStack,  continue to serve as a PTL for OpenStack-Ansible and serve on the technical committee,  chairing tthe committee for a term.
     linkedin: https://linkedin.com/in/mdnaser
     name: Mohammed Naser
     openStack: https://www.openstack.org/community/members/profile/8899

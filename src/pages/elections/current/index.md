@@ -8,7 +8,7 @@ seo:
   title: 2022 Board Elections
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/elections/current
-title: 2022 Foundation Board Elections
+title: January 2022 Board Elections
 subTitle: Individual and Gold Member elections
 menu:
   - text: ELECTION DETAILS

@@ -30,7 +30,7 @@ export const CandidatePageTemplate = ({
             <div className="wrapper project-background">
                 <TopBar />
                 <Navbar isLoggedUser={isLoggedUser} />
-                <Header title="Accept Nomination" subTitle="To accept nominations and be listed as a candidate for the OpenStack election, please answer the questions below." />
+                <Header title="Accept Nomination" subTitle="To accept nominations and be listed as a candidate for the OpenInfra election, please answer the questions below." />
             </div>
             <AjaxLoader show={loading} size={120} />
             <main className="main">

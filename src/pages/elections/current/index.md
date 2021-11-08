@@ -49,7 +49,7 @@ Individual Member Director elections for the 2022 Board will be held **Monday Ja
 
 In accordance with the Open Infrastructure Foundation Bylaws, Board elections will take place online using a cumulative voting method. No more than two members of the Board may be affiliated with the same company, which means the candidate receiving the next highest votes would assume the seat if the election results in too many employees from a single company. Individual Member Directors elected in 2022 will serve a one-year term, but they may be nominated and re-elected indefinitely. The next election for Individual Member Directors will take place during January 2023.
 
-If you are an eligible voter, you will receive an email with a link to complete your ballot when the elections open on January 10, 2022. To ensure you receive the ballot, please log on to the website at [openinfra.dev/a/profile](openinfra.dev/a/profile) and make sure your information is current.
+If you are an eligible voter, you will receive an email with a link to complete your ballot when the elections open on January 10, 2022. To ensure you receive the ballot, please log on to the website at [openinfra.dev/a/profile](/a/profile) and make sure your information is current.
 
 #### Nomination Process
 

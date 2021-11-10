@@ -41,4 +41,4 @@ CMS.registerPreviewTemplate('openinfra-live-keynotes-page', LiveKeynotesPagePrev
 CMS.registerPreviewTemplate('join', JoinPagePreview)
 CMS.registerPreviewTemplate('members', MembersPagePreview)
 CMS.registerPreviewTemplate('join-individual', JoinIndividualPagePreview)
-CMS.registerPreviewTemplate('hybrid-cloud', HybridCloudPagePreview)
+CMS.registerPreviewTemplate('hybrid-cloud-page', HybridCloudPagePreview)

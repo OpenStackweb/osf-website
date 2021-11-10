@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { HybridCloudPageTemplate } from '../../templates/hybrid-cloud-page'
 
-const HybridCloudPagePreview = ({ entry, widgetFor }) => {
+const HybridCloudPagePreview = ({ entry }) => {
 
   const data = entry.getIn(['data']).toJS()
 
@@ -19,7 +19,6 @@ const HybridCloudPagePreview = ({ entry, widgetFor }) => {
           buttonText: entry.getIn(['data', 'footer', 'buttonText']),
           display: entry.getIn(['data', 'footer', 'display']),
         }}
-        content={widgetFor('body')}
       />
     )
   } else {
@@ -32,7 +31,6 @@ HybridCloudPagePreview.propTypes = {
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
-  widgetFor: PropTypes.func,
 }
 
 export default HybridCloudPagePreview

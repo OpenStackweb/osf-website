@@ -803,7 +803,7 @@ collections:
       - file: "src/pages/hybrid-cloud/index.md"
         label: "Hybrid Cloud Page"
         name: "hybrid-cloud-page"
-        fields:          
+        fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "hybrid-cloud-page"}
           - {label: SEO, name: seo, widget: object, fields: [
               {label: "Title", name: "title", widget: string},

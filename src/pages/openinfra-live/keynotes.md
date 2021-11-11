@@ -154,6 +154,10 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Upstream Developer Advocate
       pic: /img/kendallnelson.png
+    - name: Amy Marrich
+      company: Red Hat
+      pic: /img/amymarrich.jpeg
+      presentationTitle: Principal Technical Marketing Manager
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

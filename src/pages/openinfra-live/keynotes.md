@@ -138,10 +138,6 @@ featuredSpeakers:
       company: "ACME Gating "
       presentationTitle: "Founder "
       pic: /img/headshot.jpeg
-    - name: Amy Marrich
-      company: Red Hat
-      pic: /img/amymarrich.jpeg
-      presentationTitle: Principal Technical Marketing Manager
     - name: Jonathan Bryce
       company: OpenInfra Foundation
       presentationTitle: Executive Director
@@ -158,10 +154,22 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Upstream Developer Advocate
       pic: /img/kendallnelson.png
-    - name: "Jim Zemlin "
-      company: Executive Director
-      presentationTitle: "Linux Foundation "
-      pic: /img/jim_zemlin_headshot-224x280.jpeg
+    - name: Abhisak Chulya
+      presentationTitle: CEO
+      company: Nipa
+      pic: /img/1627317587425.jpg
+    - pic: /img/allison_headshot.jpg
+      name: Allison Price
+      presentationTitle: Director of Marketing & Community
+      company: OpenInfra Foundation
+    - name: "Hao Wang "
+      presentationTitle: Cloud Architect and Manager of System Department
+      company: Fiberhome
+      pic: /img/wechatimg43.jpeg
+    - name: Jimmy McArthur
+      presentationTitle: "Senior Manager of Community and Business Development "
+      company: OpenInfra Foundation
+      pic: /img/image-from-ios.jpg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

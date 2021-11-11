@@ -198,6 +198,22 @@ featuredSpeakers:
       presentationTitle: Staff Engineer, Member of Kata Containers Architecture Committee
       company: Ant Group
       pic: /img/avatar.jpg
+    - name: Ildiko Vancsa
+      presentationTitle: Senior Manager of Community and Ecosystem
+      company: OpenInfra Foundation
+      pic: /img/ildiko_v_photo.png
+    - name: "Ashlee Ferguson "
+      presentationTitle: Community and Event Coordinator
+      company: "OpenInfra Foundation "
+      pic: /img/ashleeheadshot.png
+    - name: Sunny Cai
+      presentationTitle: "Marketing Coordinator "
+      company: "OpenInfra Foundation  "
+      pic: /img/sunny-cai.png
+    - name: Tom Callaway
+      presentationTitle: Principal Open Source Evangelist
+      company: Amazon Web Services (AWS)
+      pic: /img/1516245039937.jpg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

@@ -158,6 +158,10 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Upstream Developer Advocate
       pic: /img/kendallnelson.png
+    - name: "Jim Zemlin "
+      company: Executive Director
+      presentationTitle: "Linux Foundation "
+      pic: /img/jim_zemlin_headshot-224x280.jpeg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

@@ -138,6 +138,10 @@ featuredSpeakers:
       company: "ACME Gating "
       presentationTitle: "Founder "
       pic: /img/headshot.jpeg
+    - name: Amy Marrich
+      company: Red Hat
+      pic: /img/amymarrich.jpeg
+      presentationTitle: Principal Technical Marketing Manager
     - name: Jonathan Bryce
       company: OpenInfra Foundation
       presentationTitle: Executive Director
@@ -154,10 +158,6 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Upstream Developer Advocate
       pic: /img/kendallnelson.png
-    - name: Amy Marrich
-      company: Red Hat
-      pic: /img/amymarrich.jpeg
-      presentationTitle: Principal Technical Marketing Manager
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

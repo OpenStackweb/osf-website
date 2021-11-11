@@ -186,6 +186,18 @@ featuredSpeakers:
       presentationTitle: VP, Industry Solutions
       company: Wind River
       pic: /img/image-4-.png
+    - name: Shubham Tatvamasi
+      presentationTitle: Research Associate
+      company: University of Delhi
+      pic: /img/14152150.jpg
+    - name: Stefano Maffulli
+      presentationTitle: "Executive Director "
+      company: "Open Source Initiative "
+      pic: /img/1516287313188.jpg
+    - name: "Tao Peng "
+      presentationTitle: Staff Engineer, Member of Kata Containers Architecture Committee
+      company: Ant Group
+      pic: /img/avatar.jpg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

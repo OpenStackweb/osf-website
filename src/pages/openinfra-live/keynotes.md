@@ -170,6 +170,22 @@ featuredSpeakers:
       presentationTitle: "Senior Manager of Community and Business Development "
       company: OpenInfra Foundation
       pic: /img/image-from-ios.jpg
+    - name: John McCready
+      presentationTitle: Director of Product Management, RAN and Private Mobility Solutions
+      company: Dell Technologies
+      pic: /img/johnmccready-2014-2.jpg
+    - name: Kyle Davis
+      company: AWS
+      presentationTitle: "Senior Developer Advocate "
+      pic: /img/image-1-.png
+    - name: Victor Souza
+      presentationTitle: Cloud Specialist
+      company: Binero
+      pic: /img/1551816095093.jpeg
+    - name: "Muhammed Gil "
+      presentationTitle: VP, Industry Solutions
+      company: Wind River
+      pic: /img/image-4-.png
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

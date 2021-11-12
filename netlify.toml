@@ -42,12 +42,20 @@
   status = 301
   force = true
 [[redirects]]
-  from = "/profile/"
-  to = "/a/profile/"
+  from = "/profile"
+  to = "/a/profile"
   status = 301
 [[redirects]]
-  from = "/election/"
+  from = "/election"
   to = "/election/2022-individual-director-election"
+  status = 301
+[[redirects]]
+  from = "/election/candidates"
+  to = "/election/2022-individual-director-election/candidates"
+  status = 301
+[[redirects]]
+  from = "/election/candidates/gold"
+  to = "/election/2022-individual-director-election/candidates/gold"
   status = 301
 force = true
 # Branch Deploy context: all deploys that are not from a pull/merge request or

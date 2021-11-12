@@ -12,13 +12,13 @@ title: January 2022 Board Elections
 subTitle: Individual and Gold Member elections
 menu:
   - text: ELECTION DETAILS
-    link: /elections/current
+    link: /election
   - text: SEE THE CANDIDATES
     link: /election/2022-individual-director-election/candidates    
   - text: NOMINATE A MEMBER
     link: /a/community/members
   - text: BE A CANDIDATE
-    link: /a/profile
+    link: /profile
   - text: GOLD MEMBER ELECTION CANDIDATES
     link: /election/2022-individual-director-election/candidates/gold
   - text: CODE OF CONDUCT

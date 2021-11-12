@@ -25,7 +25,7 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
     }, [])
 
     const handleElectionDetails = () => {
-        navigate('/elections/current')
+        navigate('/election/')
     }
 
     const handleAcceptNomination = () => {
@@ -33,7 +33,7 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
     }
 
     const handleSeeNominations = () => {
-        navigate('/election/2022-individual-director-election/candidates')
+        navigate('/election/candidates')
     }
 
     const handleNominateMember = () => {
@@ -44,7 +44,7 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
     return (
         <div className="candidate-profile-wrapper">
             <div className="candidate-profile-header">
-                <span>The current election is the <LinkComponent href="/elections/current">{electionStatus?.name}</LinkComponent>. </span>
+                <span>The current election is the <LinkComponent href="/election">{electionStatus?.name}</LinkComponent>. </span>
                 <button className="" onClick={() => handleElectionDetails()}>Election Details</button>
             </div>
             <hr />

@@ -35,8 +35,8 @@ const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today, loa
                           <span>
                             If you are an eligible voter, you should have received an email with the subject
                             <b> "Open Infrastructure Foundation - {electionStatus?.name}"</b> from
-                            secretary@openstack.org. This email includes your unique voting link. If you did
-                            not receive an email, please contact <a href="mailto:secretary@openstack.org">
+                            secretary@openinfra.dev. This email includes your unique voting link. If you did
+                            not receive an email, please contact <a href="mailto:secretary@openinfra.dev">
                               secretary@openstack.org</a>.
                           </span>
                         </div>

@@ -45,9 +45,9 @@ Members should review and comply with the the [Community Code of Conduct](/lega
 
 #### Election Overview:
 
-Individual Member Director elections for the 2022 Board will be held **Monday January 10, 2022 to  Friday January 14, 2022**. You must have joined the Open Infrastructure Foundation as an Individual Member by Tuesday, July 20, 2021 to vote in the January 2022 election, per the bylaws. 
+Individual Member Director elections for the 2022 Board will be held **Monday January 10, 2022 to  Friday January 14, 2022**. You must have joined the Open Infrastructure Foundation as an Individual Member by Tuesday, July 18, 2021 to vote in the January 2022 election, per the bylaws. 
 
-In accordance with the Open Infrastructure Foundation Bylaws, Board elections will take place online using a cumulative voting method. No more than two members of the Board may be affiliated with the same company, which means the candidate receiving the next highest votes would assume the seat if the election results in too many employees from a single company. Individual Member Directors elected in 2022 will serve a one-year term, but they may be nominated and re-elected indefinitely. The next election for Individual Member Directors will take place during January 2023.
+In accordance with the Open Infrastructure Foundation Bylaws, Board elections will take place online using a cumulative voting method. No more than three members of the Board may be affiliated with the same company, which means the candidate receiving the next highest votes would assume the seat if the election results in too many employees from a single company. Individual Member Directors elected in 2022 will serve a one-year term, but they may be nominated and re-elected indefinitely. The next election for Individual Member Directors will take place during January 2023.
 
 If you are an eligible voter, you will receive an email with a link to complete your ballot when the elections open on January 10, 2022. To ensure you receive the ballot, please log on to the website at [openinfra.dev/a/profile](/a/profile) and make sure your information is current.
 
@@ -75,7 +75,7 @@ A candidate's responses will appear on their public profile, as well as on [the
 * November 15: Individual Member nominations open, election details live on [openinfra.dev](/elections/current)
 * December 15: Individual Member nominations close
 * December 22: Deadline for Individual Member Nominees to complete application
-* January :5 Gold Member Director Selector Election (1 day)
+* January 5: Gold Member Director Selector Election (1 day)
 * January 10: Individual Member Elections open
 * January 14: Individual Member Elections close
 

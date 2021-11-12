@@ -40,7 +40,16 @@
   from = "/companies/"
   to = "/members/"
   status = 301
-  force = true  
+  force = true
+[[redirects]]
+  from = "/profile/"
+  to = "/a/profile/"
+  status = 301
+[[redirects]]
+  from = "/election/"
+  to = "/election/2022-individual-director-election"
+  status = 301
+force = true
 # Branch Deploy context: all deploys that are not from a pull/merge request or
 # from the Production branch will inherit these settings.
 [context.branch-deploy.environment]

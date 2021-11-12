@@ -150,22 +150,30 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Vice President of Engineering
       pic: /img/thierrycarrez_headshot.jpg
-    - name: Kendall Nelson
-      company: OpenInfra Foundation
-      presentationTitle: Upstream Developer Advocate
-      pic: /img/kendallnelson.png
-    - name: Abhisak Chulya
-      presentationTitle: CEO
-      company: Nipa
-      pic: /img/1627317587425.jpg
     - pic: /img/allison_headshot.jpg
       name: Allison Price
       presentationTitle: Director of Marketing & Community
       company: OpenInfra Foundation
+    - name: Kendall Nelson
+      company: OpenInfra Foundation
+      presentationTitle: Upstream Developer Advocate
+      pic: /img/kendallnelson.png
+    - name: Jim Zemlin
+      company: Linux Foundation
+      presentationTitle: "Executive Director "
+      pic: /img/jim_zemlin_headshot-224x280.jpeg
+    - name: Abhisak Chulya
+      presentationTitle: CEO
+      company: Nipa
+      pic: /img/1627317587425.jpg
     - name: "Hao Wang "
       presentationTitle: Cloud Architect and Manager of System Department
       company: Fiberhome
       pic: /img/wechatimg43.jpeg
+    - name: Ildiko Vancsa
+      presentationTitle: Senior Manager of Community and Ecosystem
+      company: OpenInfra Foundation
+      pic: /img/ildiko_v_photo.png
     - name: Jimmy McArthur
       presentationTitle: "Senior Manager of Community and Business Development "
       company: OpenInfra Foundation
@@ -198,10 +206,6 @@ featuredSpeakers:
       presentationTitle: Staff Engineer, Member of Kata Containers Architecture Committee
       company: Ant Group
       pic: /img/avatar.jpg
-    - name: Ildiko Vancsa
-      presentationTitle: Senior Manager of Community and Ecosystem
-      company: OpenInfra Foundation
-      pic: /img/ildiko_v_photo.png
     - name: "Ashlee Ferguson "
       presentationTitle: Community and Event Coordinator
       company: "OpenInfra Foundation "
@@ -214,10 +218,6 @@ featuredSpeakers:
       presentationTitle: Principal Open Source Evangelist
       company: Amazon Web Services (AWS)
       pic: /img/1516245039937.jpg
-    - name: Jim Zemlin
-      company: Linux Foundation
-      presentationTitle: "Executive Director "
-      pic: /img/jim_zemlin_headshot-224x280.jpeg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

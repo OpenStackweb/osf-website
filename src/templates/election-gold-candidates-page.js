@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react"
 import { connect } from 'react-redux'
-import LinkComponent from "../../../../components/LinkComponent"
-import Layout from '../../../../components/Layout'
-import TopBar from "../../../../components/TopBar";
-import Navbar from "../../../../components/Navbar";
-import Header from "../../../../components/Header";
-import SEO from "../../../../components/SEO";
+import LinkComponent from "../components/LinkComponent"
+import Layout from '../components/Layout'
+import TopBar from "../components/TopBar";
+import Navbar from "../components/Navbar";
+import Header from "../components/Header";
+import SEO from "../components/SEO";
 
-import { getGoldCandidates, getElectionStatus } from "../../../../actions/election-actions";
+import { getGoldCandidates, getElectionStatus } from "../actions/election-actions";
 
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 
@@ -100,3 +100,27 @@ export default connect(state => ({
   getElectionStatus
 }
 )(ElectionGoldCandidatesPage)
+
+export const electionGoldCandidatesPageQuery = graphql`
+  query ElectionGoldCandidatesPages($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        seo {
+          title
+          description
+          url
+          image {
+            childImageSharp {
+              fluid(maxWidth: 640, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            publicURL
+          }
+          twitterUsername
+        }                
+      }
+    }
+  }
+`

@@ -7,7 +7,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: 2022 Board Elections
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/elections/current
+  url: https://openinfra.dev/election/2022-individual-director-election
 title: January 2022 Board Elections
 subTitle: Individual and Gold Member elections
 menu:

@@ -214,6 +214,10 @@ featuredSpeakers:
       presentationTitle: Principal Open Source Evangelist
       company: Amazon Web Services (AWS)
       pic: /img/1516245039937.jpg
+    - name: Jim Zemlin
+      company: Linux Foundation
+      presentationTitle: "Executive Director "
+      pic: /img/jim_zemlin_headshot-224x280.jpeg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

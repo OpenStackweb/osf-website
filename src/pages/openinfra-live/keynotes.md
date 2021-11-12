@@ -106,14 +106,14 @@ featuredSpeakers:
       company: Red Hat
       name: "Sean Cohen "
       pic: /img/sean-cohen.jpeg
-    - name: "Meltem Kocabaş "
-      company: Trendyol
-      presentationTitle: "Product Manager "
-      pic: /img/pp.jpeg
     - name: Duan Xiaodong
       company: "China Mobile "
       presentationTitle: "VP of Research from China Mobile Research Institute "
       pic: /img/duanxiaodong.jpg
+    - name: "Meltem Kocabaş "
+      company: Trendyol
+      presentationTitle: "Product Manager "
+      pic: /img/pp.jpeg
     - name: Aeva Black
       presentationTitle: OSI Board Member and Open Source Hacker
       company: Azure Office of the CTO

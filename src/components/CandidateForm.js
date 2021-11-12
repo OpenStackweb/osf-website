@@ -4,13 +4,19 @@ import { TextEditor } from 'openstack-uicore-foundation/lib/components'
 
 const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) => {
 
+    const candidateProfile = currentMember.candidate_profile;
+
     const [candidateForm, setCandidateForm] = useState({
-        bio: currentMember.candidate_profile.bio || currentMember.bio || "",
-        relationship_to_openstack: currentMember.candidate_profile.relationship_to_openstack || "",
-        experience: currentMember.candidate_profile.experience || "",
-        boards_role: currentMember.candidate_profile.boards_role || "",
-        top_priority: currentMember.candidate_profile.top_priority || "",
+        bio: candidateProfile?.bio || currentMember.bio || "",
+        relationship_to_openstack: candidateProfile?.relationship_to_openstack || "",
+        experience: candidateProfile?.experience || "",
+        boards_role: candidateProfile?.boards_role || "",
+        top_priority: candidateProfile?.top_priority || "",
     });
+
+    if(!electionStatus){
+        return (<p>There is no current election.</p>)
+    }
 
     return (
         <div className="candidate-profile-form">

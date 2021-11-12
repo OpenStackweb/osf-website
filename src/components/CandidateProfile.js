@@ -104,7 +104,7 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
                             {electionProfile.election_nominations.map((nomination, index) => {
                                 return (
                                     <li key={`aplication-${index}`}>
-                                        You nominated <b>{`${nomination.candidate.first_name} ${nomination.candidate.last_name}`}</b> on {moment(nomination.last_edited * 1000).format('MM DD, YYYY')} at {moment(nomination.last_edited * 1000).format('hh:mm A')}
+                                        You nominated <b>{`${nomination.candidate.first_name} ${nomination.candidate.last_name}`}</b> on {moment(nomination.last_edited * 1000).format('MMMM DD, YYYY')} at {moment(nomination.last_edited * 1000).format('hh:mm A')}
                                     </li>
                                 )
                             })}

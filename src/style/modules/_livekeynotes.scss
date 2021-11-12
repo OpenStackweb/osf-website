@@ -73,6 +73,12 @@
 }
 .schedule-promo-link {
   margin-left: 1rem;
+  &.centered {
+    display: block;
+    color: white;
+    margin: 0 0 2rem;
+    text-align: center;
+  }
   &:hover,
   &:focus {
     color: white;

@@ -162,7 +162,8 @@ export const OpenInfraLiveKeynotesTemplate = ({
           {featuredSpeakers?.speakers?.length > 0 &&
             <section className="featured-speakers">
               <div className="container">
-                <h3>{featuredSpeakers.title}</h3>
+              <h3>{featuredSpeakers.title}</h3>
+              <a className="schedule-promo-link centered" href="#schedule">See the Schedule Below</a>
                 <div className="featured-speakers-wrapper">
                   <div className="first-row">
                     {featuredSpeakers.speakers.slice(0, 4).map(speaker => (
@@ -261,7 +262,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                   </tr>
                   <tr>
                     <td>Amy Marrich</td>
-                    <td>Start Contributing to OpenStack</td>
+                    <td>How to Contribute to OpenStack</td>
                   </tr>
                   <tr>
                     <td>Christoph Blecker</td>
@@ -308,7 +309,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                       Johan Christenson<br/>
                       Victor Souza
                     </td>
-                    <td>OpenStack powered public clouds</td>
+                    <td>OpenStack Powered Public Cloud Momentum</td>
                   </tr>
                   <tr>
                     <td>

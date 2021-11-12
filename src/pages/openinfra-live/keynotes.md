@@ -110,6 +110,10 @@ featuredSpeakers:
       company: "China Mobile "
       presentationTitle: "VP of Research from China Mobile Research Institute "
       pic: /img/duanxiaodong.jpg
+    - name: Jim Zemlin
+      company: Linux Foundation
+      presentationTitle: "Executive Director "
+      pic: /img/jim_zemlin_headshot-224x280.jpeg
     - name: "Meltem Kocabaş "
       company: Trendyol
       presentationTitle: "Product Manager "
@@ -158,10 +162,6 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Upstream Developer Advocate
       pic: /img/kendallnelson.png
-    - name: Jim Zemlin
-      company: Linux Foundation
-      presentationTitle: "Executive Director "
-      pic: /img/jim_zemlin_headshot-224x280.jpeg
     - name: Abhisak Chulya
       presentationTitle: CEO
       company: Nipa

@@ -67,6 +67,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                     {hero.buttonText}
                     <img src={leftArrow} alt="" />
                   </a>
+                  <a className="schedule-promo-link" href="#schedule">See the Schedule</a>
                 </div>
                 <figure className="logo">
                   <img src="/img/live/oi-live-keynotes-logo-web-dark.svg" alt="OpenInfra Live Keynotes Logo" />
@@ -178,6 +179,222 @@ export const OpenInfraLiveKeynotesTemplate = ({
             </section>
           }
 
+          <section className="featured-projects-section" id="schedule">
+            <div className="container">
+              <h3 className="small-title">Keynotes Schedule</h3>
+              <h5 className="small-subtitle">Day One</h5>
+              <table className="keynotes-schedule">
+                <thead>
+                  <th>Speaker(s)</th>
+                  <th>Topic</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      Jonathan Bryce<br />
+                      Mark Collier
+                    </td>
+                    <td>One Year into a Decade Long OpenInfra Mission</td>
+                  </tr>
+                  <tr>
+                    <td>Balaji Srinivasan</td>
+                    <td>The Role and Impact of Decentralization</td>
+                  </tr>
+                  <tr>
+                    <td>Aeva Black</td>
+                    <td>Building a Successful Open Source Community with the Four Opens </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Allison Randal<br />
+                      Tom Callaway<br/>
+                      Stefano Maffulli
+                    </td>
+                    <td>Benefits and Impacts of Open Source Licensing</td>
+                  </tr>
+                  <tr>
+                    <td>Sarah Novotny</td>
+                    <td>Why Organizations should Contribute to Open Source</td>
+                  </tr>
+                  <tr>
+                    <td>Sean Cohen</td>
+                    <td>The Hybrid Cloud Foundation</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Hao Wang<br/>
+                      Haoyang Li
+                    </td>
+                    <td>Introducing Taibai, the Newest Addition to OpenInfra Labs</td>
+                  </tr>
+                  <tr>
+                    <td>Kendall Nelson</td>
+                    <td>OpenSnacks: How to Contribute to Open Source Projects</td>
+                  </tr>
+                  <tr>
+                    <td>Michael Daitzman</td>
+                    <td>How to Contribute to OpenInfra Labs</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Jimmy McArthur<br/>
+                      Dr. Abhisak Chulya
+                    </td>
+                    <td>Understanding the OpenStack Momentum in Thailand</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      China Mobile<br/>
+                      LINE<br/>
+                      Walmart Labs<br/>
+                      Workday<br/>
+                      Yahoo
+                    </td>
+                    <td>Celebration of OpenStack Users at Scale</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Allison Price<br/>
+                      Imtiaz Chowdhury
+                    </td>
+                    <td>Explosive OpenStack Growth: Why Workday Doubled their Private Cloud Footprint in a Year</td>
+                  </tr>
+                  <tr>
+                    <td>Amy Marrich</td>
+                    <td>Start Contributing to OpenStack</td>
+                  </tr>
+                  <tr>
+                    <td>Christoph Blecker</td>
+                    <td>How to Contribute to Kubernetes</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 className="small-subtitle">Day two</h5>
+              <table className="keynotes-schedule">
+                <thead>
+                  <th>Speaker(s)</th>
+                  <th>Topic</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      Thierry Carrez
+                    </td>
+                    <td>State of OpenInfra</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Kyle Davis
+                    </td>
+                    <td>A Little about OpenSearch</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Haoyang Li
+                    </td>
+                    <td>State of OpenInfra in China </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Martin Casado<br/>
+                      Jonathan Bryce<br/>
+                      Mark Collier
+                    </td>
+                    <td>Diving into the Cost of Cloud, a Trillion Dollar Paradox</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Jimmy McArthur<br/>
+                      Johan Christenson<br/>
+                      Victor Souza
+                    </td>
+                    <td>OpenStack powered public clouds</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Allison Price<br/>
+                      Meltem Kocabaş
+                    </td>
+                    <td>Hybrid Cloud in Production: Trendyol </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Jim Blair
+                    </td>
+                    <td>Zuul in Hybrid Environments </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Sunny Cai<br/>
+                      Tao Peng
+                    </td>
+                    <td>Kata Containers in Production: Ant Group</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Ashlee Ferguson
+                    </td>
+                    <td>How to Contribute to Airship</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Ildiko Vansca<br/>
+                      Andy Dunkin<br/>
+                      Muhammed Gil<br/>
+                      John McCready
+                    </td>
+                    <td>Deploying vRAN and OpenRAN with StarlingX</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Greg Waines
+                    </td>
+                    <td>How to Contribute to StarlingX</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Reg Orton
+                    </td>
+                    <td>Connecting Africa to the Internet: How BRCK is running Magma in Production</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Shubham Tatvamasi
+                    </td>
+                    <td>How to Contribute to Magma</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Mr. Duan Xiaodong
+                    </td>
+                    <td>China Mobile’s Strategy on the Next Generation Network and Open Source</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Sunny Cai
+                    </td>
+                    <td>Superuser Awards</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Kendall Nelson<br/>
+                      Alex Song
+                    </td>
+                    <td>Hardware Enablement Advancements in OpenStack Cyborg</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Peter Pouliot<br/>
+                      Laurent Bernou-Mazars<br/>
+                      Zac Smith<br/>
+                      John Miranda
+                    </td>
+                    <td>Tackling Sustainability with Eco-friendly, Green Hardware</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
           <section className="keynotes-sponsors">
             <div className="container">
               <section className="sponsor-section headline">

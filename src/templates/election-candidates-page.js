@@ -11,8 +11,9 @@ import LinkComponent from "../components/LinkComponent";
 import { getCandidates, getElectionStatus } from "../actions/election-actions";
 
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
+import {ElectionPageTemplate} from "./election-page";
 
-const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today, loading }) => {
+const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today, loading, menu, howToVote }) => {
 
   const acceptedCandidates = candidates.filter(c => c.member.election_applications.length >= 10);
   const noBallotCandidates = candidates.filter(c => c.member.election_applications.length < 10 && c.member.election_applications.length > 0);
@@ -26,24 +27,31 @@ const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today, loa
             {
 
               <div className="columns">
-                <div className="column">
+                <div className="column is-one-third">
+                  {menu.map((m, index) => {
+                    return (
+                        <div className="election-item" key={index}>
+                          <LinkComponent href={m.link}>
+                            {m.text}
+                            <i className="fa fa-chevron-right" />
+                          </LinkComponent>
+                        </div>
+                    )
+                  })}
+                </div>
+                <div className="column is-two-thirds">
                   {electionStatus?.status === "NominationsOpen" &&
                     <>
                       <article className="message is-primary">
                         <div className="message-body">
-                          <h3>HOW TO VOTE</h3>
-                          <span>
-                            If you are an eligible voter, you should have received an email with the subject
-                            <b> "Open Infrastructure Foundation - {electionStatus?.name}"</b> from
-                            secretary@openinfra.dev. This email includes your unique voting link. If you did
-                            not receive an email, please contact <a href="mailto:secretary@openinfra.dev">
-                              secretary@openstack.org</a>.
-                          </span>
+                          <h3>{howToVote.title}</h3>
+                          <span
+                              dangerouslySetInnerHTML={{ __html: howToVote.description.replace("{$ElectionName}", electionStatus?.name)}}/>
                         </div>
                       </article>
                       <div className="candidate-tier">
                         <h2>Candidates On The Ballot</h2>
-                        <span>
+                        <span >
                           The candidates on this list have the {electionStatus?.nominations_limit} nominations required to be on the election ballot and have completed the application.
                         </span>
                       </div>
@@ -129,7 +137,8 @@ const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today, loa
   )
 }
 
-const ElectionCandidatesPage = ({ isLoggedUser, candidates, location, getCandidates, electionStatus, getElectionStatus, loading }) => {
+const ElectionCandidatesPage = ({ data, isLoggedUser, candidates, location,
+                                  getCandidates, electionStatus, getElectionStatus, loading }) => {
 
   useState(() => {
     getCandidates();
@@ -154,21 +163,25 @@ const ElectionCandidatesPage = ({ isLoggedUser, candidates, location, getCandida
       })
   }, [])
 
+  const { markdownRemark: post } = data;
+
   return (
     <Layout>
-      <SEO />
+      <SEO seo={post.frontmatter.seo} />
       <div>
         <div className="wrapper project-background">
           <TopBar />
           <Navbar isLoggedUser={isLoggedUser} />
-          <Header title="2021 Board Elections" />
+          <Header title={post.frontmatter.title} />
           <ElectionCandidatesPageTemplate
             isLoggedUser={isLoggedUser}
             location={location}
             candidates={candidates}
             electionStatus={electionStatus}
             today={ready ? today : null}
+            menu={post.frontmatter.menu}
             loading={loading}
+            howToVote={post.frontmatter.howToVote}
           />
         </div>
       </div>
@@ -206,7 +219,17 @@ export const electionCandidatesPageQuery = graphql`
             publicURL
           }
           twitterUsername
-        }                
+         
+        }
+        menu {
+          text
+          link
+        }      
+        title 
+        howToVote {   
+          title
+          description
+        }      
       }
     }
   }

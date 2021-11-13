@@ -11,7 +11,7 @@ import { getGoldCandidates, getElectionStatus } from "../actions/election-action
 
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 
-const ElectionGoldCandidatesPageTemplate = ({ goldCandidates, electionStatus, loading }) => {
+const ElectionGoldCandidatesPageTemplate = ({intro, goldCandidates, electionStatus, loading, menu }) => {
 
   return (
     <main className="main">
@@ -21,14 +21,24 @@ const ElectionGoldCandidatesPageTemplate = ({ goldCandidates, electionStatus, lo
           <div className="container about-s1-container" style={{ minHeight: '25vh' }}>
             {!loading && goldCandidates &&
               <div className="columns">
-                <div className="column">
+                <div className="column is-one-third">
+                  {menu.map((m, index) => {
+                    return (
+                        <div className="election-item" key={index}>
+                          <LinkComponent href={m.link}>
+                            {m.text}
+                            <i className="fa fa-chevron-right" />
+                          </LinkComponent>
+                        </div>
+                    )
+                  })}
+                </div>
+                <div className="column is-two-thirds">
                   {electionStatus?.status === "NominationsOpen" &&
                     <>
                       <div className="candidate-tier">
-                        <h2>Gold Director Selector Candidates</h2>
-                        <span>
-                          The candidates on this list are the intended Gold Directors from the Gold Member companies who are running for election as Gold Director Selectors.
-                        </span>
+                        <h2>{intro.title}</h2>
+                        <span dangerouslySetInnerHTML={{ __html: intro.description}}/>
                       </div>
                       <div className="candidate-list">
                         {goldCandidates.map((candidate, index) => {
@@ -63,26 +73,31 @@ const ElectionGoldCandidatesPageTemplate = ({ goldCandidates, electionStatus, lo
   )
 }
 
-const ElectionGoldCandidatesPage = ({ isLoggedUser, goldCandidates, loading, location, getGoldCandidates, electionStatus, getElectionStatus }) => {
+const ElectionGoldCandidatesPage = ({ data, isLoggedUser, goldCandidates, loading, location, getGoldCandidates, electionStatus, getElectionStatus }) => {
 
   useState(() => {
     getGoldCandidates();
     getElectionStatus();
   }, [])
+
+  const { markdownRemark: post } = data;
+
   return (
     <Layout>
-      <SEO />
+      <SEO seo={post.frontmatter.seo} />
       <div>
         <div className="wrapper project-background">
           <TopBar />
           <Navbar isLoggedUser={isLoggedUser} />
-          <Header title="2021 Board Elections: Gold Member Candidate List" />
+          <Header title={post.frontmatter.title} />
           <ElectionGoldCandidatesPageTemplate
             isLoggedUser={isLoggedUser}
             location={location}
             goldCandidates={goldCandidates}
             electionStatus={electionStatus}
             loading={loading}
+            menu={post.frontmatter.menu}
+            intro={post.frontmatter.intro}
           />
         </div>
       </div>
@@ -119,7 +134,16 @@ export const electionGoldCandidatesPageQuery = graphql`
             publicURL
           }
           twitterUsername
-        }                
+        }  
+        menu {
+          text
+          link
+        }      
+        title 
+        intro {   
+          title
+          description
+        }                   
       }
     }
   }

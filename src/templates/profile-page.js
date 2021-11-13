@@ -11,13 +11,12 @@ import ProfileForm from "../components/ProfileForm"
 import Affiliations from "../components/Affiliations";
 import CandidateProfile from "../components/CandidateProfile"
 import URI from "urijs";
-import { MEMBERSHIP_TYPE_NONE, MEMBERSHIP_TYPE_FOUNDATION } from "../actions/user-actions";
+import { MEMBERSHIP_TYPE_NONE } from "../actions/user-actions";
 import 'openstack-uicore-foundation/lib/css/components.css';
 import { addAffiliation, saveAffiliation, deleteAffiliation, addOrganization, updateMembershipType } from "../actions/user-actions"
 import { getMemberProfile, getElectionMemberProfile } from '../actions/member-actions';
 import { getElectionStatus } from "../actions/election-actions";
 
-import { doLogin } from "openstack-uicore-foundation/lib/methods";
 
 export const ProfilePageTemplate = ({
     currentMember,

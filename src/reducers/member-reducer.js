@@ -1,4 +1,4 @@
-import { LOGOUT_USER, SET_LOGGED_USER } from "openstack-uicore-foundation/lib/actions";
+import {LOGOUT_USER, RECEIVE_USER_INFO, SET_LOGGED_USER} from "openstack-uicore-foundation/lib/actions";
 
 import {
   GET_MEMBERS,
@@ -29,6 +29,10 @@ const memberReducer = (state = DEFAULT_STATE, action) => {
       return DEFAULT_STATE;
     }
       break;
+    case RECEIVE_USER_INFO:{
+
+    }
+    break;
     case GET_MEMBERS: {
       return { ...state, loading_members: true }
     }

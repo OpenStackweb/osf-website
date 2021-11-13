@@ -80,7 +80,7 @@ const NominationModal = ({ candidate_profile, closeModal, nominateMember, member
                 return (
                   <li>
                     Nominated by {`${application.nominator.first_name} ${application.nominator.last_name} `}
-                    on {moment(application.last_edited * 1000).format('MM DD, YYYY')}
+                    on {moment(application.last_edited * 1000).format('MMMM DD, YYYY')}
                   </li>
                 )
               })

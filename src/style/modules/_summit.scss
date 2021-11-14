@@ -216,6 +216,11 @@
   padding: 60px 120px 0 120px;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 768px) {
+    padding: 50px 30px 0 30px;
+    }
+
   span {
     display: inline-block;
   }
@@ -227,6 +232,11 @@
     text-align: center;
     letter-spacing: -0.6px;
     color: #161616;
+
+    @media (max-width: 768px) {
+      font-size: 30px;
+      line-height: 36px;
+      }
   }
   .subhead {
     font-family: "Roboto";
@@ -249,16 +259,13 @@
 
 }
 
-@media (max-width: 768px) {
-  .sponsorship-levels {
-    padding: 50px 30px 0 30px;
-  }
-}
-
 table.sponsor-table {
   margin: 48px 0 0 0;
   color: #161616;
   border: 1px solid #dbdbdb;
+  @media (max-width: 768px) {
+    margin: 30px 0 0 0;
+  }
   th {
     text-align: center;
     border: 1px solid #dbdbdb;
@@ -660,13 +667,27 @@ table.sponsor-table {
 .travel-support {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 60px 0 0 0;
   padding: 0 120px 60px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 0 30px 0;
+  }
+
   .text {
     width: 50%;
     margin-right: 30px;
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 768px) {
+      order: 2;
+      width: 100%;
+      margin-right: unset;
+    }
+
     .title {
       font-family: "Jura";
       font-weight: bold;
@@ -674,6 +695,11 @@ table.sponsor-table {
       line-height: 55px;
       letter-spacing: -0.6px;
       color: #161616;
+
+      @media (max-width: 768px) {
+      font-size: 30px;
+      line-height: 36px;
+      }
     }
     .description {
       font-family: "Roboto";
@@ -683,7 +709,7 @@ table.sponsor-table {
       opacity: 0.8;
     }
     .button-cta {
-      width: inherit;
+      width: fit-content;
       margin-top: 30px;
       display: flex;
       flex-direction: row;
@@ -717,5 +743,13 @@ table.sponsor-table {
     height: 386px;
     background-color: #C4C4C4;
     margin-left: 30px;
+    border-radius: 15px;
+    text-align: center;
+
+    @media (max-width: 768px) {
+      order: 1;
+      width: 100%;
+      margin: 0 0 30px 0;
+    }
   }
 }

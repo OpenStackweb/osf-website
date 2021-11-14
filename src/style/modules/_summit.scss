@@ -212,6 +212,24 @@
   }
 }
 
+.sponsorship-levels {
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: column;
+  span {
+    display: inline-block;
+  }
+  .title {
+    font-family: "Jura";
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.6px;
+    color: #161616;
+  }
+}
+
 .summit-previous {
   padding: 60px 120px;
   display: flex;

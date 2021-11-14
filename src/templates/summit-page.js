@@ -117,37 +117,37 @@ export const SummitPageTemplate = ({
                   <th>Headline</th>
                   <td>$110,000</td>
                   <td>$125,000</td>
-                  <td><a>Learn More</a></td>
+                  <td><a href="#contact-form-horizontal">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Premier</th>
                   <td>$75,000</td>
                   <td>$90,000</td>
-                  <td><a>Learn More</a></td>
+                  <td><a href="#contact-form-horizontal">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Spotlight</th>
                   <td>$25,000</td>
                   <td>$35,000</td>
-                  <td><a>Learn More</a></td>
+                  <td><a href="#contact-form-horizontal">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Exhibitor</th>
                   <td>$10,000</td>
                   <td>$15,000</td>
-                  <td><a>Learn More</a></td>
+                  <td><a href="#contact-form-horizontal">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Startup</th>
                   <td>$5,000</td>
                   <td>$10,000</td>
-                  <td><a>Learn More</a></td>
+                  <td><a href="#contact-form-horizontal">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Supporting</th>
                   <td>$2,500</td>
                   <td>$5,000</td>
-                  <td><a>Learn More</a></td>
+                  <td><a href="#contact-form-horizontal">Learn More</a></td>
                 </tr>
               </table>
               <span className="subhead">Interested in Sponsoring?</span>

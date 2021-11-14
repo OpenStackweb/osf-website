@@ -290,6 +290,15 @@ table.sponsor-table {
 
 }
 
+hr.dividing-line {
+  margin: 0 120px;
+
+  @media (max-width: 768px) {
+    margin: 0 30px;
+  }
+
+}
+
 .summit-previous {
   padding: 60px 120px;
   display: flex;

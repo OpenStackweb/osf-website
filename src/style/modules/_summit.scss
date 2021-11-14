@@ -186,10 +186,11 @@
     color: #161616;
   }
   .icons {
-    margin: 42px -15px;
+    margin: 42px -15px 0 -15px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    
     .summit-icon {
       display: flex;
       flex-direction: column;

@@ -1,16 +1,20 @@
+import { element } from "prop-types";
 import React from "react";
 
 export const checkUrlHorizontal = () => {
     let getUrl = window.location.href;
+    var elementExists = document.getElementById("horizontal-contact-form");
     let querystring = "?form-submitted";
     let refUrl = document.getElementById('referrerUrl');
     let hide = document.getElementById('form-fields');
     let show = document.getElementById('confirmation-message');
-      refUrl.value = getUrl;
-      checkLevel();
-      if (window.location.toString().indexOf(querystring) !== -1) {
-        hide.style.display = "none";
-        show.style.display = "flex";
+    if (elementExists) {
+        refUrl.value = getUrl;
+        checkLevel();
+        if (window.location.toString().indexOf(querystring) !== -1) {
+          hide.style.display = "none";
+          show.style.display = "flex";
+        }
       }
 }
 
@@ -38,7 +42,7 @@ class ContactFormHorizontal extends React.Component {
     render() {
 
     return(
-        <form className="contact-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+        <form id="horizontal-contact-form" className="contact-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
             <div id="form-fields">
             <div className="form-wrapper is-horizontal">
                 <input type="hidden" name="oid" value="00DG0000000lhAF" />

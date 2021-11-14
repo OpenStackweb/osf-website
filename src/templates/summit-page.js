@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import ContactFormHorizontal from '../components/ContactFormHorizontal'
 
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
@@ -104,11 +105,9 @@ export const SummitPageTemplate = ({
           }
           <section className="sponsorship-levels">
               <span className="title">Sponsorship Levels</span>
-              <div>
- 
-              </div>
+              <ContactFormHorizontal />
             </section>
-            <hr style={{margin: `60px 120px`}} />
+            <hr style={{margin: `0 120px`}} />
           {previousSummits && previousSummits.display &&
             <section className="summit-previous">
               <span className="title">

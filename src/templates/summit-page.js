@@ -102,6 +102,13 @@ export const SummitPageTemplate = ({
               </div>
             </section>
           }
+          <section className="sponsorship-levels">
+              <span className="title">Sponsorship Levels</span>
+              <div>
+ 
+              </div>
+            </section>
+            <hr style={{margin: `60px 120px`}} />
           {previousSummits && previousSummits.display &&
             <section className="summit-previous">
               <span className="title">

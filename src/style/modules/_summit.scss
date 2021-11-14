@@ -656,3 +656,66 @@ table.sponsor-table {
     }
   }
 }
+
+.travel-support {
+  display: flex;
+  flex-direction: row;
+  margin: 60px 0 0 0;
+  padding: 0 120px 60px;
+  .text {
+    width: 50%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    .title {
+      font-family: "Jura";
+      font-weight: bold;
+      font-size: 45px;
+      line-height: 55px;
+      letter-spacing: -0.6px;
+      color: #161616;
+    }
+    .description {
+      font-family: "Roboto";
+      font-size: 20px;
+      line-height: 30px;
+      color: #161616;
+      opacity: 0.8;
+    }
+    .button-cta {
+      width: inherit;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 30px 13px;
+      height: 44px;
+      background: #e61e24;
+      border-radius: 37px;
+      font-family: "Roboto";
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.3px;
+      color: #ffffff;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      &:hover {
+        background-color: #9a0c28;
+        border-color: #9a0c28;
+      }
+      img {
+        margin-left: 10px;
+      }
+    }
+  }
+  .picture {
+    width: 50%;
+    height: 386px;
+    background-color: #C4C4C4;
+    margin-left: 30px;
+  }
+}

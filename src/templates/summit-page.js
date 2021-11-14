@@ -64,30 +64,6 @@ export const SummitPageTemplate = ({
               </div>
             </section>
           }
-          {form && form.display &&
-            <section className="summit-form">
-              <div className="summit-form-container">
-                <div className="form-columns">
-                  <div className="form-left">
-                    <div className="picture">
-                      <img src={!!form.image.childImageSharp ? form.image.childImageSharp.fluid.src : form.image} />
-                    </div>
-                    <span className="title-mobile">
-                      {form.title}
-                    </span>
-                  </div>
-                  <div className="form-right">
-                    <span className="title-desktop">
-                      {form.title}
-                    </span>
-                    <div>
-                      <LinkComponent className="form-cta" href={form.button.link}>{form.button.text} <img src={leftArrow} alt="" /></LinkComponent>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          }
           {topics && topics.display &&
             <section className="summit-topics">
               <span className="title">{topics.title}</span>
@@ -181,23 +157,37 @@ export const SummitPageTemplate = ({
               <LinkComponent className="video-cta" href={videoBanner.button.link}>{videoBanner.button.text} <img src={leftArrow} alt="" /></LinkComponent>
             </section>
           }
-          {sponsorships && sponsorships.display &&
-            <section className="summit-sponsorships">
-              <span className="title">{sponsorships.title}</span>
-              <span className="text">{sponsorships.text}</span>
-              <LinkComponent className="sponsorship-cta" href={sponsorships.button.link}>{sponsorships.button.text} <img src={leftArrow} alt="" /></LinkComponent>
-              <div className="sponsors-slide">
-                <div className="sponsors-gradient"></div>
-                {sponsorships.sponsorList.map((sponsor, index) => {
-                  return (
-                    <img
-                      src={!!sponsor.image.childImageSharp ? sponsor.image.childImageSharp.fluid.src : sponsor.image}
-                      alt={sponsor.alt}
-                      key={`sponsor-${index}`} />
-                  )
-                })}
+          <section className="travel-support">
+            <div className="text">
+              <span className="title">Travel Support Program</span>
+              <span className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</span>
+              <LinkComponent className="button-cta" href="">Request More Info<img src={leftArrow} alt="" /></LinkComponent>
+            </div>
+            <div className="picture">Photo goes here</div>
+
+          </section>
+          {form && form.display &&
+            <section className="summit-form">
+              <div className="summit-form-container">
+                <div className="form-columns">
+                  <div className="form-left">
+                    <div className="picture">
+                      <img src={!!form.image.childImageSharp ? form.image.childImageSharp.fluid.src : form.image} />
+                    </div>
+                    <span className="title-mobile">
+                      {form.title}
+                    </span>
+                  </div>
+                  <div className="form-right">
+                    <span className="title-desktop">
+                      {form.title}
+                    </span>
+                    <div>
+                      <LinkComponent className="form-cta" href={form.button.link}>{form.button.text} <img src={leftArrow} alt="" /></LinkComponent>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="sponsors-previous">{sponsorships.previous.text}</div>
             </section>
           }
         </div>

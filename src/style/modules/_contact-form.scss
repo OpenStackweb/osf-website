@@ -222,14 +222,32 @@ button.contact-submit:hover {
     padding: 60px 0 60px 0;
 }
 
+@media (max-width: 767px) {
+    .is-horizontal {
+        flex-direction: column;
+    }
+}
+
 .is-full-width-lt {
     width: 100%;
     max-width: 700px;
     margin: 0 10px 0 0;
 }
 
+@media (max-width: 767px) {
+    .is-full-width-lt {
+        margin: 0 auto;
+    }
+}
+
 .is-full-width-rt {
     width: 100%;
     max-width: 700px;
     margin: 0 0 0 10px;
+}
+
+@media (max-width: 767px) {
+    .is-full-width-rt {
+        margin: 0 auto;
+    }
 }

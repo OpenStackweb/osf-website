@@ -103,11 +103,15 @@ export const SummitPageTemplate = ({
               </div>
             </section>
           }
+
           <section className="sponsorship-levels">
               <span className="title">Sponsorship Levels</span>
+              <span className="subhead">Interested in Sponsoring?</span>
+              <span className="description">Get in touch to learn how you can help the open source users, IT decision makers and passionate developers, administrators and operators building the modern open infrastructure stack. The detailed prospectus and contract will be live on December 15, 2021.</span>
               <ContactFormHorizontal />
             </section>
             <hr style={{margin: `0 120px`}} />
+
           {previousSummits && previousSummits.display &&
             <section className="summit-previous">
               <span className="title">

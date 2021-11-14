@@ -106,6 +106,50 @@ export const SummitPageTemplate = ({
 
           <section className="sponsorship-levels">
               <span className="title">Sponsorship Levels</span>
+              <table className="sponsor-table">
+                <tr className="top-row">
+                  <th></th>
+                  <th>Member</th>
+                  <th>Non-Member</th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <th>Headline</th>
+                  <td>$110,000</td>
+                  <td>$125,000</td>
+                  <td><a>Learn More</a></td>
+                </tr>
+                <tr>
+                  <th>Premier</th>
+                  <td>$75,000</td>
+                  <td>$90,000</td>
+                  <td><a>Learn More</a></td>
+                </tr>
+                <tr>
+                  <th>Spotlight</th>
+                  <td>$25,000</td>
+                  <td>$35,000</td>
+                  <td><a>Learn More</a></td>
+                </tr>
+                <tr>
+                  <th>Exhibitor</th>
+                  <td>$10,000</td>
+                  <td>$15,000</td>
+                  <td><a>Learn More</a></td>
+                </tr>
+                <tr>
+                  <th>Startup</th>
+                  <td>$5,000</td>
+                  <td>$10,000</td>
+                  <td><a>Learn More</a></td>
+                </tr>
+                <tr>
+                  <th>Supporting</th>
+                  <td>$2,500</td>
+                  <td>$5,000</td>
+                  <td><a>Learn More</a></td>
+                </tr>
+              </table>
               <span className="subhead">Interested in Sponsoring?</span>
               <span className="description">Get in touch to learn how you can help the open source users, IT decision makers and passionate developers, administrators and operators building the modern open infrastructure stack. The detailed prospectus and contract will be live on December 15, 2021.</span>
               <ContactFormHorizontal />

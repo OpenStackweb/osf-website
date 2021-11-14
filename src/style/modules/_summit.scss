@@ -262,6 +262,11 @@ table.sponsor-table {
   th {
     text-align: center;
     border: 1px solid #dbdbdb;
+    height: 60px;
+    vertical-align: middle;
+    @media (max-width: 768px) {
+      font-size: 11.75px;
+    }
   }
   tr.top-row {
     background-color: #F3F3F3;
@@ -269,6 +274,11 @@ table.sponsor-table {
   td {
     border: 1px solid #dbdbdb;
     text-align: center;
+    height: 60px;
+    vertical-align: middle;
+    @media (max-width: 768px) {
+      font-size: 11.75px;
+    }
   }
 
 }

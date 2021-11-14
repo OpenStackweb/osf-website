@@ -213,7 +213,7 @@
 }
 
 .sponsorship-levels {
-  padding: 60px 120px;
+  padding: 60px 120px 0 120px;
   display: flex;
   flex-direction: column;
   span {
@@ -228,6 +228,7 @@
     letter-spacing: -0.6px;
     color: #161616;
   }
+
 }
 
 .summit-previous {

@@ -429,8 +429,8 @@ hr.dividing-line {
         }
         &:hover {
           color: #fff;
-          background-color: #9a0c28;
-          border-color: #9a0c28;
+          background-color: #848484;
+          border-color: #848484;
           img {
             filter: none;
           }
@@ -779,33 +779,52 @@ hr.dividing-line {
       color: #161616;
       opacity: 0.8;
     }
-    .button-cta {
-      width: fit-content;
-      margin-top: 30px;
+    .links-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .summit-cta {
+      width: 180px;
+      padding: 12px 12px 13px;
+      margin: 30px 15px 0 0;
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      padding: 12px 30px 13px;
-      height: 44px;
-      background: #e61e24;
+      border: 2px solid #848484;
+      box-sizing: border-box;
       border-radius: 37px;
+      height: 40px;
       font-family: "Roboto";
       font-weight: bold;
       font-size: 12px;
       line-height: 19px;
       text-align: center;
       letter-spacing: 0.3px;
-      color: #ffffff;
+      color: #848484;
       flex: none;
       order: 0;
       flex-grow: 0;
-      &:hover {
-        background-color: #9a0c28;
-        border-color: #9a0c28;
-      }
+
+      @media (max-width: 1095px) {
+        width: fit-content;
+        padding: 12px 12px 13px;
+        margin: 30px 10px 0 0;
+        }
+
       img {
         margin-left: 10px;
+        filter: invert(61%) sepia(5%) saturate(90%) hue-rotate(315deg)
+          brightness(84%) contrast(86%);
+      }
+      &:hover {
+        color: #fff;
+        background-color: #848484;
+        border-color: #848484;
+        img {
+          filter: none;
+        }
       }
     }
   }

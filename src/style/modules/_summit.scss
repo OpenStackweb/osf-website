@@ -47,7 +47,7 @@
     }
     .button-cta {
       width: fit-content;
-      margin: 15px 0 60px 0;
+      margin: 15px 0 0 0;
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -73,6 +73,9 @@
       img {
         margin-left: 10px;
       }
+      @media (max-width: 768px) {
+        margin-bottom: 60px;
+        }
     }
   }
   .header-right {
@@ -715,9 +718,6 @@ hr.dividing-line {
     .title {
       margin-bottom: 20px;
       line-height: 30px;
-    }
-    .video-cta {
-      height: 33px;
     }
   }
 

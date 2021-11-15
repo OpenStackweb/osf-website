@@ -72,7 +72,7 @@ class ContactFormHorizontal extends React.Component {
                 </div>
                 <div className="field-column is-full-width-rt">
                     <textarea id="00N6f00000FmlhK" className="message-field" name="00N6f00000FmlhK" type="text" placeholder="How can we help?" wrap="soft" required></textarea>
-                    <button className="contact-submit" type="submit" name="submit" onClick={this.addQuerystring} >SUBMIT</button>
+                    <button className="contact-submit" type="submit" name="submit" onClick={this.addQuerystring} >Submit</button>
                 </div>
                 </div>
             </div>

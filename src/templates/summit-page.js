@@ -135,7 +135,7 @@ export const SummitPageTemplate = ({
                 </tr>
                 <tr>
                   <td colSpan="4" className="join-row">Not a member? Learn how to 
-                    <a onClick={() => summitSponsorLevel(5)} href="/join"> join the Openinfra Foundation</a>.
+                    <a onClick={() => summitSponsorLevel(5)} href="/join"> join the foundation</a>.
                   </td>
                 </tr>
               </table>

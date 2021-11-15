@@ -218,6 +218,10 @@ featuredSpeakers:
       presentationTitle: Principal Open Source Evangelist
       company: Amazon Web Services (AWS)
       pic: /img/1516245039937.jpg
+    - name: "Amy Marrich "
+      company: Red Hat
+      presentationTitle: Principal Technical Marketing Manager
+      pic: /img/profilepic.jpg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

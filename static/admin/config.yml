@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: tomrndom/osf-website
-  branch: feature/hybrid-cloud
+  repo: OpenStackweb/osf-website
+  branch:  master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -996,4 +996,67 @@ collections:
               { label: "Join Url", name: "joinUrl", widget: "string" },
             ]
           }
-    
+  - name: "election-pages"
+    label: "Election Pages"
+    files:
+      - file: "src/pages/elections/current/index.md"
+        label: "Election Page"
+        name: "electionPage"
+        fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "election-page"}
+            - {label: SEO, name: seo, widget: object, fields: [
+                {label: "Title", name: "title", widget: string},
+                {label: "Description", name: "description", widget: string},
+                {label: "Url", name: "url", widget: string},
+                {label: "Image", name: "image", widget: image},
+                {label: "Twitter Username", name: "twitterUsername", widget: string},
+              ]}            
+            - {label: "Title", name: title, widget: string, required: true}
+            - {label: "Sub Title", name: subTitle, widget: string, required: false}
+            - {label: "Menu", name: menu, widget: list, fields: [
+                {label: "Text", name: "text", widget: string, required: true},
+                {label: "Link", name: "link", widget: string, required: true}
+              ]}
+            - {label: "Body", name: body, widget: markdown, required: true}
+      - file: "src/pages/elections/current/candidates/index.md"
+        label: "Election Page - Candidates"
+        name: "electionCandidatesPage"
+        fields:
+            - { label: "Template Key", name: "templateKey", widget: "hidden", default: "election-candidates-page" }
+            - { label: SEO, name: seo, widget: object, fields: [
+              { label: "Title", name: "title", widget: string },
+              { label: "Description", name: "description", widget: string },
+              { label: "Url", name: "url", widget: string },
+              { label: "Image", name: "image", widget: image },
+              { label: "Twitter Username", name: "twitterUsername", widget: string },
+            ] }
+            - { label: "Title", name: title, widget: string, required: true }
+            - { label: "Menu", name: menu, widget: list, fields: [
+              { label: "Text", name: "text", widget: string, required: true },
+              { label: "Link", name: "link", widget: string, required: true }
+            ] }
+            - { label: "How To Vote", name: "howToVote", widget: "object", fields: [
+              { label: "Title", name: title, widget: string, required: true},
+              { label: "Description", name: description, widget: text, required: true }
+            ] }
+      - file: "src/pages/elections/current/candidates/gold.md"
+        label: "Election Page - Candidates Gold"
+        name: "electionGoldCandidatesPage"
+        fields:
+            - { label: "Template Key", name: "templateKey", widget: "hidden", default: "election-gold-candidates-page" }
+            - { label: SEO, name: seo, widget: object, fields: [
+              { label: "Title", name: "title", widget: string },
+              { label: "Description", name: "description", widget: string },
+              { label: "Url", name: "url", widget: string },
+              { label: "Image", name: "image", widget: image },
+              { label: "Twitter Username", name: "twitterUsername", widget: string },
+            ] }
+            - { label: "Title", name: title, widget: string , required: true}
+            - { label: "Intro", name: "intro", widget: "object", fields: [
+              { label: "Title", name: title, widget: string, required: true },
+              { label: "Description", name: description, widget: text, required: true }
+            ] }
+            - { label: "Menu", name: menu, widget: list, fields: [
+              { label: "Text", name: "text", widget: string, required: true },
+              { label: "Link", name: "link", widget: string, required: true }
+            ] }

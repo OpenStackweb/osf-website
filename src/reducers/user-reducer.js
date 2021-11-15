@@ -13,8 +13,8 @@ import {
 const DEFAULT_STATE = {
   loadingIDP: false,
   idpProfile: null,
-  currentMembershipType:null,
-  currentAffiliations:[],
+  currentMembershipType: null,
+  currentAffiliations: []
 }
 
 const userReducer = (state = DEFAULT_STATE, action) => {
@@ -32,24 +32,24 @@ const userReducer = (state = DEFAULT_STATE, action) => {
     case RECEIVE_USER_INFO:
       let { response } = action.payload;
       let affiliations = response.affiliations.map((a) => {
-        return {...a};
+        return { ...a };
       });
-      return {...state, currentMembershipType: response.membership_type, currentAffiliations: affiliations };
+      return { ...state, currentMembershipType: response.membership_type, currentAffiliations: affiliations };
     case AFFILIATION_ADDED: {
-      let affiliation = {...payload.response};
+      let affiliation = { ...payload.response };
 
-        return {
-          ...state,
-          currentAffiliations: [...state.currentAffiliations, affiliation]
-        };
+      return {
+        ...state,
+        currentAffiliations: [...state.currentAffiliations, affiliation]
+      };
     }
-    break;
-    case AFFILIATION_SAVED:{
-      let affiliation = {...payload.response};
+      break;
+    case AFFILIATION_SAVED: {
+      let affiliation = { ...payload.response };
       return {
         ...state,
         currentAffiliations: state.currentAffiliations.map(a => {
-          if(a.id !== affiliation.id) return a;
+          if (a.id !== affiliation.id) return a;
           // Otherwise, this is the one we want - return an updated value
           return {
             ...a,
@@ -58,21 +58,21 @@ const userReducer = (state = DEFAULT_STATE, action) => {
         })
       };
     }
-    break;
+      break;
     case AFFILIATION_DELETED: {
-      let {affiliationId} = payload;
-        let affiliations = state.currentAffiliations.filter(a => a.id !== affiliationId);
-        return {
-          ...state,
-          currentAffiliations: affiliations
-        };
+      let { affiliationId } = payload;
+      let affiliations = state.currentAffiliations.filter(a => a.id !== affiliationId);
+      return {
+        ...state,
+        currentAffiliations: affiliations
+      };
     }
       break;
-    case MEMBERSHIP_TYPE_UPDATED:{
-      let member = {...payload.response};
-      return {...state, currentMembershipType: member.membership_type };
+    case MEMBERSHIP_TYPE_UPDATED: {
+      let member = { ...payload.response };
+      return { ...state, currentMembershipType: member.membership_type };
     }
-    break;
+      break;
     default:
       return state;
   }

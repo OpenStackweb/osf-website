@@ -3,13 +3,11 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
-import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
-import Hero from '../components/Hero'
 import LinkComponent from '../components/LinkComponent';
 import SEO from '../components/SEO';
-import envVariables from '../utils/envVariables'
+import {doRegistration} from '../utils/security'
 import { connect } from "react-redux";
 
 import leftArrow from '../img/svg/arrow-left.svg'
@@ -131,8 +129,7 @@ const JoinIndividualPage = ({ isLoggedUser, data }) => {
         event.preventDefault();
         let origin = window.location.origin;
         let type = event.target.className.includes('button-individual') ? 'foundation' : 'community';        
-        let url = `${envVariables.IDP_BASE_URL}/auth/register?client_id=${envVariables.OAUTH2_CLIENT_ID}&redirect_uri=${encodeURI(`${origin}/a/registration?membership_type=${type}`)}`;
-        window.location = url;
+        doRegistration(origin, type);
     }, []);
 
     useEffect(() => {

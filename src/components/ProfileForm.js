@@ -1,7 +1,5 @@
 import React from 'react'
 import PropTypes from "prop-types";
-import {DateTimePicker} from "openstack-uicore-foundation/lib/components";
-import {epochToMoment} from "openstack-uicore-foundation/lib/methods";
 
 const ProfileForm = class extends React.Component {
 

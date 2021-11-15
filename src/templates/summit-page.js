@@ -13,6 +13,7 @@ import { connect } from "react-redux";
 import LinkComponent from '../components/LinkComponent';
 
 import leftArrow from '../img/svg/arrow-left.svg'
+import TravelSupportPic from '../../static/img/summit/Tokyo-travel-support-pic.jpg'
 
 export const SummitPageTemplate = ({
   isLoggedUser,
@@ -170,7 +171,9 @@ export const SummitPageTemplate = ({
               <span className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</span>
               <LinkComponent className="button-cta" href="">Request More Info<img src={leftArrow} alt="" /></LinkComponent>
             </div>
-            <div className="picture">Photo goes here</div>
+            <div className="picture">
+              <img src={TravelSupportPic} />
+            </div>
 
           </section>
           {form && form.display &&

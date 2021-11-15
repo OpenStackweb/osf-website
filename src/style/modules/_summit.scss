@@ -734,7 +734,6 @@ hr.dividing-line {
 .travel-support {
   display: flex;
   flex-direction: row;
-  align-items: center;
   margin: 60px 0 0 0;
   padding: 0 120px 60px;
 
@@ -807,16 +806,16 @@ hr.dividing-line {
   }
   .picture {
     width: 50%;
-    height: 386px;
-    background-color: #C4C4C4;
     margin-left: 30px;
     border-radius: 15px;
-    text-align: center;
 
     @media (max-width: 768px) {
       order: 1;
       width: 100%;
       margin: 0 0 30px 0;
+    }
+    img {
+      border-radius: 15px;
     }
   }
 }

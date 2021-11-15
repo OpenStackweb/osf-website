@@ -56,6 +56,7 @@ export const SummitPageTemplate = ({
                     :
                     !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> {header.location.text}
                 </span>
+                <LinkComponent className="button-cta" href="">Register Now<img src={leftArrow} alt="" /></LinkComponent>
               </div>
               <div className="header-right">
               <div className="hero-video">

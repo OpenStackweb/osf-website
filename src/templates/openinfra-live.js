@@ -27,6 +27,11 @@ export const OpenInfraLiveTemplate = ({
   const [today, setToday] = useState(moment().utc().unix())
   const [ready, setReady] = useState(false)
 
+  const noCookieYoutube = (url) => {
+    const regex = /youtube/;
+    return url.replace(regex, 'youtube-nocookie');
+  }
+
   useEffect(() => {
     fetch(`https://timeintervalsince1970.appspot.com/`)
       .then(response => response.json())
@@ -49,7 +54,8 @@ export const OpenInfraLiveTemplate = ({
         <section className="up-next-wrapper">
           <div className="video">
             <div className="videoWrapper">
-              <iframe width="560" height="315" src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe className="cookieconsent-optin-marketing" width="560" height="315" data-src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" data-cookieconsent="marketing" allowFullScreen></iframe>
+              <iframe className="cookieconsent-optout-marketing" width="560" height="315" src={noCookieYoutube(episode.youtubeEmbed)} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
           <div className="details">
@@ -142,7 +148,7 @@ export const OpenInfraLiveTemplate = ({
               </div>
             </section>
           </div>
-          
+
           <KeynotesPromoV2 />
 
           <section className="live-section">
@@ -167,7 +173,8 @@ export const OpenInfraLiveTemplate = ({
                           <div className="date">{moment.utc(episode.date).format("dddd, MMMM DD, YYYY")}</div>
                           <div className="video">
                             <div className="videoWrapper">
-                              <iframe width="560" height="315" src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                              <iframe className="cookieconsent-optin-marketing" width="560" height="315" data-src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" data-cookieconsent="marketing" allowFullScreen></iframe>
+                              <iframe className="cookieconsent-optout-marketing" width="560" height="315" src={noCookieYoutube(episode.youtubeEmbed)} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </div>
                           </div>
                           <div className="details">
@@ -235,7 +242,7 @@ export const OpenInfraLiveTemplate = ({
                 })}
                 {/* End single episode */}
               </div>
-                <IdeasBanner />
+              <IdeasBanner />
             </div>
           </section>
           <section className="live-section">
@@ -248,7 +255,8 @@ export const OpenInfraLiveTemplate = ({
                     <div className="all-episode-single" key={`past-${index}`}>
                       <div className="video">
                         <div className="videoWrapper">
-                          <iframe width="560" height="315" src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                          <iframe className="cookieconsent-optin-marketing" width="560" height="315" data-src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" data-cookieconsent="marketing" allowFullScreen></iframe>
+                          <iframe className="cookieconsent-optout-marketing" width="560" height="315" src={noCookieYoutube(episode.youtubeEmbed)} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                       </div>
                       <div className="details">

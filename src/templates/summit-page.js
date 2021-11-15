@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import ContactFormHorizontal from '../components/ContactFormHorizontal'
+import { summitSponsorLevel } from '../components/SummitSponsorLevel'
 
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
@@ -100,37 +101,37 @@ export const SummitPageTemplate = ({
                   <th>Headline</th>
                   <td>$110,000</td>
                   <td>$125,000</td>
-                  <td><a href="#sponsorship-contact">Learn More</a></td>
+                  <td><a onClick={() => summitSponsorLevel(0)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Premier</th>
                   <td>$75,000</td>
                   <td>$90,000</td>
-                  <td><a href="#sponsorship-contact">Learn More</a></td>
+                  <td><a onClick={() => summitSponsorLevel(1)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Spotlight</th>
                   <td>$25,000</td>
                   <td>$35,000</td>
-                  <td><a href="#sponsorship-contact">Learn More</a></td>
+                  <td><a onClick={() => summitSponsorLevel(2)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Exhibitor</th>
                   <td>$10,000</td>
                   <td>$15,000</td>
-                  <td><a href="#sponsorship-contact">Learn More</a></td>
+                  <td><a onClick={() => summitSponsorLevel(3)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Startup</th>
                   <td>$5,000</td>
                   <td>$10,000</td>
-                  <td><a href="#sponsorship-contact">Learn More</a></td>
+                  <td><a onClick={() => summitSponsorLevel(4)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Supporting</th>
                   <td>$2,500</td>
                   <td>$5,000</td>
-                  <td><a href="#sponsorship-contact">Learn More</a></td>
+                  <td><a onClick={() => summitSponsorLevel(5)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
               </table>
               <span id="sponsorship-contact" className="subhead">Interested in Sponsoring?</span>

@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: OpenStackweb/osf-website
-  branch: master
+  repo: tomrndom/osf-website
+  branch: feature/user-survey
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -935,4 +935,36 @@ collections:
               { label: "Join Url", name: "joinUrl", widget: "string" },
             ]
           }
-    
+  - name: "user-survey-pages"
+    label: "User Survey Pages"
+    files:
+      - file: "src/pages/user-survey/index.md"
+        label: "User Survey"
+        name: "user-survey"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "generic-page"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sub Title", name: subTitle, widget: string}
+          - {label: "Body", name: body, widget: markdown}
+          - {label: "About", name: about, widget: object, fields: [
+              {label: Display, name: display, widget: boolean, required: false},
+              {label: Title, name: title, widget: string},
+              {label: Description, name: description, widget: text},
+              {label: Image, name: image, widget: image}
+            ]}
+          - {label: Survey Types, name: surveyTypes, widget: list, fields: [
+              {label: Logo, name: logo, widget: image, required: false},
+              {label: Title, name: title, widget: string, required: false},
+              {label: CTA Button, name: button, widget: object, fields: [
+                {label: Text, name: text, widget: string, required: false},
+                {label: Link, name: link, widget: string, required: false}
+              ]},
+              {label: Abstract, name: abstract, widget: markdown}
+            ]}

@@ -58,6 +58,9 @@
 @import "./modules/keynotes-promo-banner";
 @import "./modules/contact-form-vertical";
 @import "./modules/social-links";
+@import "./modules/user-survey";
+
+@import "./font-awesome/css/font-awesome.min.css";
 /*
 * {
   padding: 0;
@@ -95,6 +98,51 @@ section {
     }
     &::marker {
       content: "";
+    }
+  }
+}
+
+.navigator-wrapper {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 0 11vw;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .navigator-section {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: bold;
+    i {
+      margin-left: 10px;
+    }
+  }
+  .navigator-icons {
+    font-size: 14px;
+    line-height: 30px;
+    i {
+      cursor: pointer;
+      &:first-of-type {
+        margin-right: 30px;
+      }
+    }
+  }
+}
+.navigator-dropdown {
+  background: #121212;
+  opacity: 0.94;
+  padding: 0 11vw;
+  height: 44px;
+  div {
+    cursor: pointer;
+    padding: 4px 0;
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom: 1px solid #303030;
+    &:hover {
+      font-weight: bold;
     }
   }
 }

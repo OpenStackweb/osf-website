@@ -10,9 +10,13 @@ seo:
   url: https://openinfra.dev/hybrid-cloud/
 title: Hybrid Cloud
 subTitle: Subhead goes "here"
-introduction: Open infrastructure companies choosing multicloud or hybrid
-  systems cannot rely on proprietary tools from a single vendor but instead must
-  run standard software everywhere—and OSS best meets these requirements
+introduction: "Organizations have turned to the cloud to increase operational
+  efficiency while decreasing costs. Recent studies have shown that these same
+  organizations are turning to hybrid cloud infrastructure powered by a mixture
+  of open source technologies for additional flexibility around workload
+  repatriation. Within production hybrid clouds, OpenInfra technologies provide
+  container security, edge nodes, CI/CD, secure private clouds and the largest
+  footprint of public cloud data centers in the world.  "
 useCases:
   display: true
   title: Hybrid Cloud Use Case Powered by Open Infrastructure

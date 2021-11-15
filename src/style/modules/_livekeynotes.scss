@@ -391,6 +391,7 @@ table.keynotes-schedule {
   margin-top: 1rem;
   min-width: 100%;
   grid-template-columns:
+    minmax(120px, 0.3fr)
     minmax(150px, 0.6fr)
     minmax(150px, 1.67fr);
   thead,

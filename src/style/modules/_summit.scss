@@ -45,6 +45,35 @@
       color: #161616;
       margin-bottom: 14px;
     }
+    .button-cta {
+      width: fit-content;
+      margin-top: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 30px 13px;
+      height: 44px;
+      background: #e61e24;
+      border-radius: 37px;
+      font-family: "Roboto";
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.3px;
+      color: #ffffff;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      &:hover {
+        background-color: #9a0c28;
+        border-color: #9a0c28;
+      }
+      img {
+        margin-left: 10px;
+      }
+    }
   }
   .header-right {
     width: 50%;

@@ -58,9 +58,14 @@ export const SummitPageTemplate = ({
                 </span>
               </div>
               <div className="header-right">
+              <div className="hero-video">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/RhMJO82lDxc" frameborder="0" allowfullscreen></iframe>
+                </div>
+              {/*}
                 <div className="picture">
                   <img src={!!header.image.childImageSharp ? header.image.childImageSharp.fluid.src : header.image} />
                 </div>
+                */}
               </div>
             </section>
           }

@@ -385,6 +385,12 @@ h5.small-subtitle {
   overflow: hidden;
 }
 
+.schedule-section {
+  background-color: #f6f6f6;
+  width: 100%;
+  color: #161616;
+}
+
 table.keynotes-schedule {
   display: grid;
   border-collapse: collapse;
@@ -438,5 +444,16 @@ table.keynotes-schedule {
 
   tr:nth-child(even) td {
     background: #eeeeee;
+  }
+  @media (max-width: 767px) {
+    overflow-x: scroll;
+    font-size: 0.8em;
+    grid-template-columns:
+      minmax(90px, 0.1fr)
+      minmax(120px, 0.3fr)
+      minmax(150px, 1.67fr);
+    th {
+      font-size: 0.8em;
+    }
   }
 }

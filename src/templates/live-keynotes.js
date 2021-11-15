@@ -180,7 +180,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
             </section>
           }
 
-          <section className="featured-projects-section" id="schedule">
+          <section className="schedule-section" id="schedule">
             <div className="container">
               <h3 className="small-title">Keynotes Schedule</h3>
               <h5 className="small-subtitle">November 17, Day One</h5>
@@ -288,7 +288,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                     <td>
                       China Mobile<br/>
                       LINE<br/>
-                      Walmart Labs<br/>
+                      Walmart Global Tech<br/>
                       Workday<br/>
                       Yahoo
                     </td>

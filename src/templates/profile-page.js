@@ -66,7 +66,7 @@ export const ProfilePageTemplate = ({
         setValidationError(null);
         updateMembershipType(currentMembershipType);
     }
-
+    
     return (
         <div>
             <div className="wrapper project-background">

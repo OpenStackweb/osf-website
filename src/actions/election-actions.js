@@ -107,8 +107,9 @@ export const nominateMember = (candidate_id) => async (dispatch, getState) => {
     null,
     authErrorHandler
   )(params)(dispatch)
-    .then((response) => {      
-      const updatedProfile = { ...member, election_nominations: [...member.election_nominations, response.nomination] };
+    .then((payload) => {
+      let {response} = payload
+      const updatedProfile = { ...member, election_nominations: [...member.election_nominations, response] };
       dispatch(updateUserInfo(updatedProfile));
       dispatch(stopLoading());
     })

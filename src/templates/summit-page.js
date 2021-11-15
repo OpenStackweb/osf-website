@@ -168,9 +168,12 @@ export const SummitPageTemplate = ({
           }
           <section className="travel-support">
             <div className="text">
-              <span className="title">Travel Support Program</span>
-              <span className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</span>
-              <LinkComponent className="button-cta" href="">Request More Info<img src={leftArrow} alt="" /></LinkComponent>
+              <span className="title">Travel Support Program & Visa Letters</span>
+              <span className="description">Need assistance getting to the Berlin Summit? We can help! If you are a key contributor to open infrastructure and your company does not cover the costs of your travel and accommodation, you can apply for the Travel Support Program. We can also provide you with a visa invitation letter from the Foundation to meet travel requirements.</span>
+              <div className="links-row">
+                <LinkComponent className="summit-cta" href="" >Apply For Support<img src={leftArrow} alt="" /></LinkComponent>
+                <LinkComponent className="summit-cta" href="" >Get Visa Letter<img src={leftArrow} alt="" /></LinkComponent>
+              </div>
             </div>
             <div className="picture">
               <img src={TravelSupportPic} />

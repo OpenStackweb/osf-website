@@ -25,7 +25,7 @@ header:
   image: /img/summit/summit-hero-image.png
 form:
   display: true
-  title: Subscribe to our newsletter so you’re ready when tickets go on sale.
+  title: Subscribe to our newsletter for the latest from the OpenInfra Foundation.
   image: /img/summit/EWP-_WP_5140e 1.png
   button:
     text: Sign Me Up

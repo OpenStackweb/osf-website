@@ -183,7 +183,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
           <section className="featured-projects-section" id="schedule">
             <div className="container">
               <h3 className="small-title">Keynotes Schedule</h3>
-              <h5 className="small-subtitle">Day One</h5>
+              <h5 className="small-subtitle">November 17, Day One</h5>
               <table className="keynotes-schedule">
                 <thead>
                   <th>Speaker(s)</th>
@@ -237,6 +237,10 @@ export const OpenInfraLiveKeynotesTemplate = ({
                     <td>How to Contribute to OpenInfra Labs</td>
                   </tr>
                   <tr>
+                    <td>Jim Zemlin</td>
+                    <td>Celebrating 30 Years of Linux: The Open Source Operating System Standard </td>
+                  </tr>
+                  <tr>
                     <td>
                       Jimmy McArthur<br/>
                       Dr. Abhisak Chulya
@@ -268,9 +272,16 @@ export const OpenInfraLiveKeynotesTemplate = ({
                     <td>Christoph Blecker</td>
                     <td>How to Contribute to Kubernetes</td>
                   </tr>
+                  <tr>
+                    <td>
+                      Jonathan Bryce<br />
+                      Mark Collier
+                    </td>
+                    <td>Day One Wrap up</td>
+                  </tr>
                 </tbody>
               </table>
-              <h5 className="small-subtitle">Day two</h5>
+              <h5 className="small-subtitle">November 18, Day Two</h5>
               <table className="keynotes-schedule">
                 <thead>
                   <th>Speaker(s)</th>
@@ -391,6 +402,13 @@ export const OpenInfraLiveKeynotesTemplate = ({
                       John Miranda
                     </td>
                     <td>Tackling Sustainability with Eco-friendly, Green Hardware</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Jonathan Bryce<br />
+                      Mark Collier
+                    </td>
+                    <td>Day Two Wrap up</td>
                   </tr>
                 </tbody>
               </table>

@@ -81,9 +81,14 @@
     margin-right: -30px;
 
       .hero-video {
+        top: 58px;
         position: relative;
         padding-bottom: 56.25%; /* 16:9 */
         height: 0;
+
+        @media (max-width: 768px) {
+          top: unset;
+          }
       }
       .hero-video iframe {
         position: absolute;

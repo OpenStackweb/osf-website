@@ -133,6 +133,11 @@ export const SummitPageTemplate = ({
                   <td>$5,000</td>
                   <td><a onClick={() => summitSponsorLevel(5)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
+                <tr>
+                  <td colSpan="4" className="join-row">Not a member? Learn how to 
+                    <a onClick={() => summitSponsorLevel(5)} href="/join"> join the Openinfra Foundation</a>.
+                  </td>
+                </tr>
               </table>
               <span id="sponsorship-contact" className="subhead">Interested in Sponsoring?</span>
               <span className="description">Get in touch to learn how you can help the open source users, IT decision makers and passionate developers, administrators and operators building the modern open infrastructure stack. The detailed prospectus and contract will be live on December 15, 2021.</span>

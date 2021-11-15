@@ -312,6 +312,7 @@
 }
 
 table.sponsor-table {
+  width: 100%;
   margin: 48px 0 0 0;
   color: #161616;
   border: 1px solid #dbdbdb;
@@ -339,7 +340,11 @@ table.sponsor-table {
       font-size: 11.75px;
     }
   }
-
+  td.join-row {
+    height: 60px;
+    background-color: #F3F3F3;
+    color: #161616;
+  }
 }
 
 hr.dividing-line {

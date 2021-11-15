@@ -43,7 +43,6 @@ const Affiliations = class extends React.Component {
     }
 
     onHandleSave(entity) {
-        debugger;
         this.setState({...this.state, showModal: false, selectedAffiliation: null});
         if(entity.id){
             this.props.saveAffiliation(entity)

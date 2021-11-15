@@ -17,16 +17,19 @@ import { navigate } from '@reach/router'
 import { connect } from 'react-redux';
 import { AbstractAuthorizationCallbackRoute } from "openstack-uicore-foundation/lib/components";
 import { getIDPProfile } from '../actions/user-actions'
-import envVariables from '../utils/envVariables'
+import {IDP_BASE_URL, OAUTH2_CLIENT_ID, getEnvVariable} from '../utils/envVariables'
 
 class AuthorizationCallbackRoute extends AbstractAuthorizationCallbackRoute {
 
   constructor(props) {
-    super(envVariables.IDP_BASE_URL, envVariables.OAUTH2_CLIENT_ID, props);
+    super(getEnvVariable(IDP_BASE_URL), getEnvVariable(OAUTH2_CLIENT_ID), props);
   }
 
   _callback(backUrl) {
-    this.props.getUserInfo('groups, all_affiliations').then(() => this.props.getIDPProfile().then(() => navigate(URI.decode(backUrl))));
+    this.props.getUserInfo(
+      'groups, all_affiliations, candidate_profile, election_applications, election_nominations, election_nominations.candidate',
+      'election_nominations.candidate.first_name, election_nominations.candidate.last_name'
+    ).then(() => this.props.getIDPProfile().then(() => navigate(URI.decode(backUrl))));
   }
 
   _redirect2Error(error) {

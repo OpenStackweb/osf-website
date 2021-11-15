@@ -3,13 +3,10 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
-import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
-import Hero from '../components/Hero'
 import LinkComponent from '../components/LinkComponent';
 import SEO from '../components/SEO';
-import envVariables from '../utils/envVariables'
 import { connect } from "react-redux";
 
 import leftArrow from '../img/svg/arrow-left.svg'
@@ -103,10 +100,10 @@ export const JoinPageTemplate = ({
                             })}
                         </div>
                         <div className="communities-icons">
-                            <div class="section-bg-green-logos-container">
+                            <div className="section-bg-green-logos-container">
                                 {communities.logos.map((logo, index) => {
                                     return (
-                                        <div class="section-bg-green-logo" key={`logo-${index}`}>
+                                        <div className="section-bg-green-logo" key={`logo-${index}`}>
                                             <img src={
                                                 (logo.img?.extension === 'svg' || logo.img?.extension === 'gif') && !logo.img?.childImageSharp ?
                                                     logo.img?.publicURL

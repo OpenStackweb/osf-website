@@ -3,13 +3,11 @@ import { connect } from 'react-redux'
 import { navigate } from "gatsby"
 import { isAuthorizedUser } from '../utils/authorizedGroups';
 
+import { doLogin } from 'openstack-uicore-foundation/lib/methods'
+
 const PrivateRoute = ({ component: Component, isLoggedIn, location, user, ...rest }) => {
   if (!isLoggedIn) {
-    navigate('/', {
-      state: {
-        backUrl: `${location.pathname}`
-      }
-    })
+    doLogin(`${location.pathname}`);
     return null
   }
 

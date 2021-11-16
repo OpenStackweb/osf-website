@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, navigate } from 'gatsby'
 import { kebabCase, debounce } from 'lodash'
 import { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
@@ -84,7 +84,7 @@ export const UserSurveyPageTemplate = ({
           <div className="user-survey-abstract" id={kebabCase(s.frontmatter.title)} ref={el => sectionsRef.current[index] = el} key={`user-survey-${index}`}>
             <img className="survey-image" src={!!s.frontmatter.logo.childImageSharp ? s.frontmatter.logo.childImageSharp.fluid.src : s.frontmatter.logo} />
             <HTMLContent className="survey-text" content={s.html} />
-            <button className="survey-button">
+            <button className="survey-button" onClick={() => navigate(s.frontmatter.button.link)}>
               {s.frontmatter.button.text}
               <img src={leftArrow} alt="" />
             </button>

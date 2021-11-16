@@ -17,6 +17,7 @@ import JoinPagePreview from './preview-templates/JoinPagePreview'
 import MembersPagePreview from './preview-templates/MembersPagePreview'
 import JoinIndividualPagePreview from './preview-templates/JoinIndividualPagePreview'
 import UserSurveyPagePreview from './preview-templates/UserSurveyPagePreview'
+import SurveyTypePreview from './preview-templates/SurveyTypePreview'
 
 CMS.registerPreviewStyle('style/styles.scss');
 
@@ -42,3 +43,4 @@ CMS.registerPreviewTemplate('join', JoinPagePreview)
 CMS.registerPreviewTemplate('members', MembersPagePreview)
 CMS.registerPreviewTemplate('join-individual', JoinIndividualPagePreview)
 CMS.registerPreviewTemplate('user-survey', UserSurveyPagePreview)
+CMS.registerPreviewTemplate('survey-types-pages', SurveyTypePreview)

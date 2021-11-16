@@ -41,6 +41,14 @@
           "link": "/projects/hosting/"
         },
         {
+          "text": "Hybrid Cloud",
+          "link": "/hybrid-cloud/"
+        },
+        {
+          "text": "User Survey",
+          "link": "/user-survey/"
+        },
+        {
           "text": "CLA",
           "link": "/cla/"
         }

@@ -4,9 +4,9 @@ import Footer from '../components/Footer'
 import '../style/style.scss'
 import { withPrefix } from 'gatsby'
 
-const TemplateWrapper = ({ children }) => {
+const TemplateWrapper = ({ children, style }) => {  
   return (
-    <div className="wrapper">
+    <div className="wrapper" style={style}>
       <Helmet>
         <html lang="en" />
 

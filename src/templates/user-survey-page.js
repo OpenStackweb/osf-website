@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Content, { HTMLContent } from '../components/Content'
+import { kebabCase } from 'lodash'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
@@ -31,6 +31,10 @@ export const UserSurveyPageTemplate = ({
     typographer: true,
   });
 
+  const scrollToSection = (section) => {
+    console.log('moving to', kebabCase(section))
+  }
+
   return (
     <div>
       <div className="wrapper project-background">
@@ -49,11 +53,11 @@ export const UserSurveyPageTemplate = ({
           </div>
         }
       </div>
-      <Navigator optionsList={surveyTypes.map(s => s.title)} changeOption={(ev) => console.log('cambio a: ', ev)} />
+      <Navigator optionsList={surveyTypes.map(s => s.title)} changeOption={(ev) => scrollToSection(ev)} />
 
       {surveyTypes.map((s, index) => {
         return (
-          <div className="user-survey-abstract" key={`user-survey-${index}`}>
+          <div className="user-survey-abstract" id={kebabCase(s.title)} key={`user-survey-${index}`}>
             <img className="survey-image" src={!!s.logo.childImageSharp ? s.logo.childImageSharp.fluid.src : s.logo} />
             <div className="survey-text" dangerouslySetInnerHTML={{ __html: parser.render(s.abstract) }} />
             <button className="survey-button">
@@ -78,7 +82,7 @@ const UserSurveyPage = ({ isLoggedUser, data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Layout style={{ overflow: 'visible' }}>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <UserSurveyPageTemplate
         isLoggedUser={isLoggedUser}

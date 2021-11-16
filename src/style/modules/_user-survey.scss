@@ -26,6 +26,9 @@
     padding: 0px 11vw;
     display: flex;
     flex-direction: column;
+    ul {
+      list-style-type: revert;
+    }
     .survey-image {
       margin: 60px 0 55px;
       align-self: center;

@@ -27,8 +27,8 @@ const Navigator = ({ optionsList, changeOption }) => {
   }
 
   return (
-    <>
-      <section className="navigator-wrapper">
+    <div className="navigator-wrapper">
+      <section className="navigator-bar">
         <div className="navigator-section" onClick={() => setIsOpen(!isOpen)}>
           <span>{selected !== null ? optionsList[selected] : 'Navigate To Section'}</span>
           <i className={`fa ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`} />
@@ -40,7 +40,7 @@ const Navigator = ({ optionsList, changeOption }) => {
       </section>
       {isOpen &&
         <section className="navigator-dropdown">
-          {optionsList.map((o, index) => {            
+          {optionsList.map((o, index) => {
             return (
               <div key={`navigator-${index}`} onClick={() => selectOption(index)}>
                 {o}
@@ -49,7 +49,7 @@ const Navigator = ({ optionsList, changeOption }) => {
           })}
         </section>
       }
-    </>
+    </div>
   )
 }
 

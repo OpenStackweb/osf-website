@@ -58,11 +58,11 @@ export const SummitPageTemplate = ({
                     :
                     !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> {header.location.text}
                 </span>
-                <LinkComponent className="button-cta" href="">Register Now<img src={leftArrow} alt="" /></LinkComponent>
+                <LinkComponent className="button-cta" href="https://openinfrasummitberlin.eventbrite.com">Register Now<img src={leftArrow} alt="" /></LinkComponent>
               </div>
               <div className="header-right">
               <div className="hero-video">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/RhMJO82lDxc" frameborder="0" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/gitMjvPnUG0" frameborder="0" allowfullscreen></iframe>
                 </div>
               {/*}
                 <div className="picture">
@@ -123,7 +123,7 @@ export const SummitPageTemplate = ({
                 </tr>
                 <tr>
                   <th>Startup</th>
-                  <td>$5,000</td>
+                  <td>$7,500</td>
                   <td>$10,000</td>
                   <td><a onClick={() => summitSponsorLevel(4)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
@@ -176,8 +176,8 @@ export const SummitPageTemplate = ({
               <span className="title">Travel Support Program & Visa Letters</span>
               <span className="description">Need assistance getting to the Berlin Summit? We can help! If you are a key contributor to open infrastructure and your company does not cover the costs of your travel and accommodation, you can apply for the Travel Support Program. We can also provide you with a visa invitation letter from the Foundation to meet travel requirements.</span>
               <div className="links-row">
-                <LinkComponent className="summit-cta" href="" >Apply For Support<img src={leftArrow} alt="" /></LinkComponent>
-                <LinkComponent className="summit-cta" href="" >Get Visa Letter<img src={leftArrow} alt="" /></LinkComponent>
+                <LinkComponent className="summit-cta" href="https://openinfrafoundation.formstack.com/forms/TSP_Berlin2022" >Apply For Support<img src={leftArrow} alt="" /></LinkComponent>
+                <LinkComponent className="summit-cta" href="https://openinfrafoundation.formstack.com/forms/visa_berlin2022" >Get Visa Letter<img src={leftArrow} alt="" /></LinkComponent>
               </div>
             </div>
             <div className="picture">

@@ -54,17 +54,22 @@ export const getMemberProfile = (memberId) => (dispatch, getState) => {
      null 
   )({})(dispatch)
     .then().catch((e) => {
-      console.log(e);
       dispatch(createAction(GET_MEMBER_PROFILE_ERROR)())
     });
 }
 
-export const getElectionMemberProfile = (memberId) => (dispatch, getState) => {
+export const getElectionMemberProfile =
+    (
+        memberId,
+        expand = 'candidate_profile,candidate_profile.election,election_applications,election_applications.nominator',
+        fields = 'election_applications.nominator.first_name,election_applications.nominator.last_name',
+        relations = 'election_applications.nominator.none'
+    ) => (dispatch, getState) => {
 
   const filters = {
-    expand: 'candidate_profile,candidate_profile.election,election_applications,election_applications.nominator',
-    fields: 'election_applications.nominator.first_name,election_applications.nominator.last_name',
-    relations: 'election_applications.nominator.none'
+    expand: expand,
+    fields: fields,
+    relations: relations
   }
 
   return getRequest(
@@ -72,7 +77,10 @@ export const getElectionMemberProfile = (memberId) => (dispatch, getState) => {
     createAction(GET_ELECTION_MEMBER_PROFILE_SUCCESS),
     `${window.API_BASE_URL}/api/public/v1/members/${memberId}`, null
   )(filters)(dispatch)
-    .then().catch((e) => {
+    .then((payload) => {
+      let{response:profile} = payload;
+      return profile;
+    }).catch((e) => {
       console.log(e);
       dispatch(createAction(GET_ELECTION_MEMBER_PROFILE_ERROR)())
     });

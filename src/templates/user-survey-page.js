@@ -46,17 +46,17 @@ export const UserSurveyPageTemplate = ({
     })
   }
 
-  const scrollToSection = (section) => {
+  const scrollToSection = (section, fromDropdown) => {
     sectionsRef.current.map((e, i) => {
       if (e.id === kebabCase(section)) {
-        sectionsRef.current[i].scrollIntoView({ behavior: "smooth" });
+        window.scrollTo({ top: fromDropdown ? sectionsRef.current[i].offsetTop - 234 : sectionsRef.current[i].offsetTop, behavior: "smooth" });
         setCurrentSection(kebabCase(section))
       }
     });
   }
 
   const scrollTop = () => {
-    sectionsRef.current[0].scrollIntoView({ behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   return (
@@ -77,7 +77,7 @@ export const UserSurveyPageTemplate = ({
           </div>
         }
       </div>
-      <Navigator optionsList={surveyTypes.map(s => s.frontmatter.title)} currentSection={currentSection} changeOption={(ev) => scrollToSection(ev)} />
+      <Navigator optionsList={surveyTypes.map(s => s.frontmatter.title)} currentSection={currentSection} changeOption={(ev, from) => scrollToSection(ev, from)} />
 
       {surveyTypes.map((s, index) => {
         return (

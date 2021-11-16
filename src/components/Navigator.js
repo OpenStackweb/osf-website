@@ -12,7 +12,7 @@ const Navigator = ({ currentSection, optionsList, changeOption }) => {
   }, [currentSection])
 
   const selectOption = (option) => {
-    changeOption(optionsList[option])
+    changeOption(optionsList[option], true)
     setIsOpen(!isOpen)
   }
 

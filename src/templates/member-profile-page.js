@@ -121,7 +121,9 @@ export const MemberProfilePageTemplate = ({
                         </ul>
                       </>
                     }
-                    {nomination_open && member_profile.hasOwnProperty("candidate_profile") &&
+                    { nomination_open &&
+                      member_profile.hasOwnProperty("candidate_profile") &&
+                      member_profile.candidate_profile.has_accepted_nomination &&
                       <div className="member-profile-group">
                         <span className="member-candidate">{member_profile.first_name} is a candidate in the {election_name} .</span>
                         <hr />
@@ -158,24 +160,25 @@ export const MemberProfilePageTemplate = ({
                         <span className="profile-answer">A</span>
                         <span className="profile-text" dangerouslySetInnerHTML={{ __html: member_profile.candidate_profile?.top_priority }} />
                         <hr />
+                        {member_profile.election_applications?.length > 0 &&
+                        <>
+                          <span className="profile-text">{member_profile.first_name} has already been nominated by:</span>
+                          <ul>
+                            {member_profile.election_applications.map((application, index) => {
+                              return (
+                                  <li key={`aplication-${index}`}>
+                                    {`${application.nominator.first_name} ${application.nominator.last_name}`}
+                                  </li>
+                              )
+                            })}
+                          </ul>
+                        </>
+                        }
                       </div>
                     }
                     {nomination_open &&
                       <div className="member-profile-group">
-                        {member_profile.election_applications?.length > 0 &&
-                          <>
-                            <span className="profile-text">{member_profile.first_name} has already been nominated by:</span>
-                            <ul>
-                              {member_profile.election_applications.map((application, index) => {
-                                return (
-                                  <li key={`aplication-${index}`}>
-                                    {`${application.nominator.first_name} ${application.nominator.last_name}`}
-                                  </li>
-                                )
-                              })}
-                            </ul>
-                          </>
-                        }
+
                         <span className="profile-title-election">Election</span>
                         <span className="profile-text">Nominations are open for the <LinkComponent href="/election">{election_name}.</LinkComponent></span>
                         <br />

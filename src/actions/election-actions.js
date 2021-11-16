@@ -130,6 +130,7 @@ export const updateCandidateProfile = (profile) => (dispatch, getState) => {
 
   let params = {
     access_token: accessToken,
+    expand:'candidate_profile',
   };
 
   putRequest(
@@ -140,6 +141,8 @@ export const updateCandidateProfile = (profile) => (dispatch, getState) => {
     authErrorHandler
   )(params)(dispatch)
     .then((payload) => {
+      const {response: updatedMember} = payload;
+      const {candidate_profile:updatedCandidateProfile} = updatedMember;
       dispatch(stopLoading());
       Swal.fire({
         title: "Success",
@@ -147,7 +150,7 @@ export const updateCandidateProfile = (profile) => (dispatch, getState) => {
         type: "success",
       }).then((result) => {
         if (result.value) {
-          const updatedProfile = { ...member, candidate_profile: { ...member.candidate_profile, ...profile } };
+          const updatedProfile = { ...member, candidate_profile: { ...member.candidate_profile, ...updatedCandidateProfile } };
           dispatch(updateUserInfo(updatedProfile));
           navigate('/a/profile')
         }

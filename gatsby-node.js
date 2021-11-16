@@ -15,9 +15,9 @@ exports.onPreBootstrap = async () => {
   try {
 
     const legalDocument = await axios.get(
-        `${process.env.GATSBY_API_BASE_URL}/api/public/v1/legal-documents/422`,
-        {}).then((response) => response.data)
-        .catch(e => console.log('ERROR: ', e));
+      `${process.env.GATSBY_API_BASE_URL}/api/public/v1/legal-documents/422`,
+      {}).then((response) => response.data)
+      .catch(e => console.log('ERROR: ', e));
 
     if (legalDocument) {
 
@@ -27,7 +27,7 @@ exports.onPreBootstrap = async () => {
       });
     }
   }
-  catch (e){
+  catch (e) {
     console.log(e);
   }
 }
@@ -136,20 +136,22 @@ exports.createPages = ({ actions, graphql }) => {
     const pages = result.data.allMarkdownRemark.edges
 
     pages.forEach(edge => {
-      const id = edge.node.id
-      const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;
-      const slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug;
-      createPage({
-        path: slug,
-        category: edge.node.frontmatter.category,
-        component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-        ),
-        // additional data can be passed via context
-        context: {
-          id,
-        },
-      })
+      if (edge.node.frontmatter.templateKey) {
+        const id = edge.node.id
+        const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;
+        const slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug;
+        createPage({
+          path: slug,
+          category: edge.node.frontmatter.category,
+          component: path.resolve(
+            `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          ),
+          // additional data can be passed via context
+          context: {
+            id,
+          },
+        })
+      }
     })
 
     // category pages:  

@@ -1,15 +1,15 @@
-import React from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import { kebabCase } from 'lodash'
+import { kebabCase, debounce } from 'lodash'
+import { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
+import GoTopButton from '../components/GoTopButton'
 import SEO from '../components/SEO'
 import Navigator from '../components/Navigator'
-
-import MarkdownIt from "markdown-it";
 
 import { connect } from "react-redux";
 
@@ -23,16 +23,40 @@ export const UserSurveyPageTemplate = ({
   surveyTypes
 }) => {
 
-  const parser = new MarkdownIt({
-    html: true,
-    breaks: true,
-    linkify: true,
-    xhtmlOut: true,
-    typographer: true,
-  });
+  const [currentSection, setCurrentSection] = useState('');
+  const [showGoTop, setShowGoTop] = useState(false);
+
+  const sectionsRef = useRef([]);
+
+  useEffect(() => {
+    window.addEventListener('scroll', debounce(scrollHandler, 150), { passive: true });
+    return () => window.removeEventListener('scroll', scrollHandler);
+  }, []);
+
+  const scrollHandler = () => {
+    sectionsRef.current.map(s => {
+      if (window.pageYOffset + 44 >= s.offsetTop && window.pageYOffset + 44 < s.offsetTop + s.offsetHeight) {
+        setCurrentSection(s.id)
+      }
+      if (window.pageYOffset > 700 && window.pageYOffset < document.documentElement.scrollHeight - 1400) {
+        setShowGoTop(true)
+      } else {
+        setShowGoTop(false)
+      }
+    })
+  }
 
   const scrollToSection = (section) => {
-    console.log('moving to', kebabCase(section))
+    sectionsRef.current.map((e, i) => {
+      if (e.id === kebabCase(section)) {
+        sectionsRef.current[i].scrollIntoView({ behavior: "smooth" });
+        setCurrentSection(kebabCase(section))
+      }
+    });
+  }
+
+  const scrollTop = () => {
+    sectionsRef.current[0].scrollIntoView({ behavior: "smooth" });
   }
 
   return (
@@ -53,21 +77,22 @@ export const UserSurveyPageTemplate = ({
           </div>
         }
       </div>
-      <Navigator optionsList={surveyTypes.map(s => s.title)} changeOption={(ev) => scrollToSection(ev)} />
+      <Navigator optionsList={surveyTypes.map(s => s.frontmatter.title)} currentSection={currentSection} changeOption={(ev) => scrollToSection(ev)} />
 
       {surveyTypes.map((s, index) => {
         return (
-          <div className="user-survey-abstract" id={kebabCase(s.title)} key={`user-survey-${index}`}>
-            <img className="survey-image" src={!!s.logo.childImageSharp ? s.logo.childImageSharp.fluid.src : s.logo} />
-            <div className="survey-text" dangerouslySetInnerHTML={{ __html: parser.render(s.abstract) }} />
+          <div className="user-survey-abstract" id={kebabCase(s.frontmatter.title)} ref={el => sectionsRef.current[index] = el} key={`user-survey-${index}`}>
+            <img className="survey-image" src={!!s.frontmatter.logo.childImageSharp ? s.frontmatter.logo.childImageSharp.fluid.src : s.frontmatter.logo} />
+            <HTMLContent className="survey-text" content={s.html} />
             <button className="survey-button">
-              {s.button.text}
+              {s.frontmatter.button.text}
               <img src={leftArrow} alt="" />
             </button>
             {surveyTypes.length > index + 1 && <hr />}
           </div>
         )
       })}
+      {showGoTop && <GoTopButton onClick={() => scrollTop()} />}
     </div>
   )
 }
@@ -79,7 +104,7 @@ UserSurveyPageTemplate.propTypes = {
 }
 
 const UserSurveyPage = ({ isLoggedUser, data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post, allMarkdownRemark: { nodes } } = data
 
   return (
     <Layout style={{ overflow: 'visible' }}>
@@ -89,7 +114,7 @@ const UserSurveyPage = ({ isLoggedUser, data }) => {
         title={post.frontmatter.title}
         subTitle={post.frontmatter.subTitle}
         about={post.frontmatter.about}
-        surveyTypes={post.frontmatter.surveyTypes}
+        surveyTypes={nodes.sort((a, b) => a.frontmatter.order - b.frontmatter.order)}
       />
     </Layout>
   )
@@ -137,7 +162,13 @@ export const userSurveyPageQuery = graphql`
             publicURL
           }
         }
-        surveyTypes {
+      }
+    }
+    allMarkdownRemark(filter: {frontmatter: {userSurvey: {eq: true}}}) {
+      nodes {
+        html
+        frontmatter {
+          order
           title
           logo {
             childImageSharp {
@@ -147,12 +178,10 @@ export const userSurveyPageQuery = graphql`
             }
             publicURL
           }
-          title
           button {
             text
             link
           }
-          abstract
         }
       }
     }

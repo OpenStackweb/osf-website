@@ -1,19 +1,23 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
+import { kebabCase } from "lodash-es";
 
-const Navigator = ({ optionsList, changeOption }) => {
+const Navigator = ({ currentSection, optionsList, changeOption }) => {
 
   const [isOpen, setIsOpen] = useState(false);
-  const [selected, setSelected] = useState(null)
+  const [selected, setSelected] = useState(null);
+
+  useEffect(() => {
+    const newSelected = optionsList.findIndex(e => kebabCase(e) === currentSection);    
+    setSelected(newSelected);
+  }, [currentSection])
 
   const selectOption = (option) => {
-    setSelected(option)
     changeOption(optionsList[option])
     setIsOpen(!isOpen)
   }
 
   const prevOption = () => {
     if (selected !== 0) {
-      setSelected(selected - 1)
       changeOption(optionsList[selected - 1])
       setIsOpen(false)
     }
@@ -30,7 +34,7 @@ const Navigator = ({ optionsList, changeOption }) => {
     <div className="navigator-wrapper">
       <section className="navigator-bar">
         <div className="navigator-section" onClick={() => setIsOpen(!isOpen)}>
-          <span>{selected !== null ? optionsList[selected] : 'Navigate To Section'}</span>
+          <span>{selected !== -1 ? optionsList[selected] : 'Navigate To Section'}</span>
           <i className={`fa ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`} />
         </div>
         <div className="navigator-icons">

@@ -939,7 +939,7 @@ collections:
     label: "User Survey Pages"
     files:
       - file: "src/pages/user-survey/index.md"
-        label: "User Survey"
+        label: "User Survey Template"
         name: "user-survey"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "generic-page"}
@@ -951,20 +951,76 @@ collections:
               {label: "Twitter Username", name: "twitterUsername", widget: string},
             ]}
           - {label: "Title", name: title, widget: string}
-          - {label: "Sub Title", name: subTitle, widget: string}
-          - {label: "Body", name: body, widget: markdown}
+          - {label: "Sub Title", name: subTitle, widget: string}          
           - {label: "About", name: about, widget: object, fields: [
               {label: Display, name: display, widget: boolean, required: false},
               {label: Title, name: title, widget: string},
               {label: Description, name: description, widget: text},
               {label: Image, name: image, widget: image}
-            ]}
-          - {label: Survey Types, name: surveyTypes, widget: list, fields: [
-              {label: Logo, name: logo, widget: image, required: false},
-              {label: Title, name: title, widget: string, required: false},
-              {label: CTA Button, name: button, widget: object, fields: [
-                {label: Text, name: text, widget: string, required: false},
-                {label: Link, name: link, widget: string, required: false}
-              ]},
-              {label: Abstract, name: abstract, widget: markdown}
-            ]}
+            ]}          
+      - file: "src/pages/user-survey/surveys/openstack.md"
+        label: "OpenStack Survey"
+        name: "openstack-survey"
+        fields:                 
+          - {label: "User Survey", name: "userSurvey", widget: "hidden", default: true}   
+          - {label: "Title", name: title, widget: string}
+          - {label: Logo, name: logo, widget: image}
+          - {label: Order, name: order, widget: number}
+          - {label: "Button", name: button, widget: object, fields: [              
+              {label: Text, name: text, widget: string},
+              {label: Link, name: link, widget: string},
+            ]}          
+          - {label: "Body", name: body, widget: markdown}
+      - file: "src/pages/user-survey/surveys/airship.md"
+        label: "Airship Survey"
+        name: "airship-survey"
+        fields:                 
+          - {label: "User Survey", name: "userSurvey", widget: "hidden", default: true}   
+          - {label: "Title", name: title, widget: string}
+          - {label: Logo, name: logo, widget: image}
+          - {label: Order, name: order, widget: number}
+          - {label: "Button", name: button, widget: object, fields: [              
+              {label: Text, name: text, widget: string},
+              {label: Link, name: link, widget: string},
+            ]}          
+          - {label: "Body", name: body, widget: markdown}
+      - file: "src/pages/user-survey/surveys/kata.md"
+        label: "Kata Container Survey"
+        name: "kata-survey"
+        fields:                 
+          - {label: "User Survey", name: "userSurvey", widget: "hidden", default: true}   
+          - {label: "Title", name: title, widget: string}
+          - {label: Logo, name: logo, widget: image}
+          - {label: Order, name: order, widget: number}
+          - {label: "Button", name: button, widget: object, fields: [              
+              {label: Text, name: text, widget: string},
+              {label: Link, name: link, widget: string},
+            ]}          
+          - {label: "Body", name: body, widget: markdown}
+      - file: "src/pages/user-survey/surveys/starlingx.md"
+        label: "StarlingX Survey"
+        name: "starling-survey"
+        fields:                 
+          - {label: "User Survey", name: "userSurvey", widget: "hidden", default: true}   
+          - {label: "Title", name: title, widget: string}
+          - {label: Logo, name: logo, widget: image}
+          - {label: Order, name: order, widget: number}
+          - {label: "Button", name: button, widget: object, fields: [              
+              {label: Text, name: text, widget: string},
+              {label: Link, name: link, widget: string},              
+            ]}          
+          - {label: "Body", name: body, widget: markdown}
+      - file: "src/pages/user-survey/surveys/zuul.md"
+        label: "Zuul Survey"
+        name: "zuul-survey"
+        fields:                 
+          - {label: "User Survey", name: "userSurvey", widget: "hidden", default: true}   
+          - {label: "Title", name: title, widget: string}
+          - {label: Logo, name: logo, widget: image}
+          - {label: Order, name: order, widget: number}
+          - {label: "Button", name: button, widget: object, fields: [              
+              {label: Text, name: text, widget: string},
+              {label: Link, name: link, widget: string},
+            ]}          
+          - {label: "Body", name: body, widget: markdown}
+        

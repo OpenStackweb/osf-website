@@ -16,6 +16,7 @@ import LiveKeynotesPagePreview from './preview-templates/LiveKeynotesPagePreview
 import JoinPagePreview from './preview-templates/JoinPagePreview'
 import MembersPagePreview from './preview-templates/MembersPagePreview'
 import JoinIndividualPagePreview from './preview-templates/JoinIndividualPagePreview'
+import UserSurveyPagePreview from './preview-templates/UserSurveyPagePreview'
 
 CMS.registerPreviewStyle('style/styles.scss');
 
@@ -40,3 +41,4 @@ CMS.registerPreviewTemplate('openinfra-live-keynotes-page', LiveKeynotesPagePrev
 CMS.registerPreviewTemplate('join', JoinPagePreview)
 CMS.registerPreviewTemplate('members', MembersPagePreview)
 CMS.registerPreviewTemplate('join-individual', JoinIndividualPagePreview)
+CMS.registerPreviewTemplate('user-survey', UserSurveyPagePreview)

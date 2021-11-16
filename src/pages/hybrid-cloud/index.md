@@ -9,7 +9,7 @@ seo:
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/hybrid-cloud/
 title: Hybrid Cloud
-subTitle: Subhead goes "here"
+subTitle: 
 introduction: "Organizations have turned to the cloud to increase operational
   efficiency while decreasing costs. Recent studies have shown that these same
   organizations are turning to hybrid cloud infrastructure powered by a mixture
@@ -58,7 +58,7 @@ projects:
             across every industry.
         - bullet: The OpenStack-powered public cloud footprint has grown to 175 global
             data centers.
-        - bullet: <a href="#">Case study links to come</a>
+        - bullet: <a href="https://www.openstack.org/use-cases/#search=Hybrid%20Cloud">Check out how organizations around the world are deploying OpenStack in production for hybrid cloud infrastructure.</a>
     - image: /img/hybrid-cloud/Logo-KataContainers.png
       bullets:
         - bullet: Confidential Computing has the potential to accelerate the adoption of
@@ -67,7 +67,7 @@ projects:
             migration of data and workloads to the public cloud.
         - bullet: "IBM integrated Kata Containers as a Kubernetes runtime class used for
             pods where they  need stronger guarantees for running arbitrary
-            untrusted workloads. : <a
+            untrusted workloads. Read more at <a
             href='https://www.ibm.com/blogs/research/2020/11/amd-sev-ibm-hybrid\
             -cloud/'>
             https://www.ibm.com/blogs/research/2020/11/amd-sev-ibm-hybrid-cloud\
@@ -89,7 +89,6 @@ projects:
         - bullet: Zuul schedules jobs in any arbitrary cloud it can login to, and the
             community has recently integrated drivers for AWS, Azure, GCE, and
             OpenStack cloud environments.
-        - bullet: <a href='#'>Link coming soon </a>
 organizations:
   display: true
   title: Organizations

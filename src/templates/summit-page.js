@@ -88,7 +88,7 @@ export const SummitPageTemplate = ({
             </section>
           }
 
-          <section className="sponsorship-levels">
+          <section id="sponsor" className="sponsorship-levels">
               <span className="title">Sponsorship Levels</span>
               <table className="sponsor-table">
                 <tr className="top-row">

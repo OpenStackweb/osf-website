@@ -9,7 +9,7 @@ seo:
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/hybrid-cloud/
 title: Hybrid Cloud
-subTitle: 
+subTitle: Use Cases And More
 introduction: "Organizations have turned to the cloud to increase operational
   efficiency while decreasing costs. Recent studies have shown that these same
   organizations are turning to hybrid cloud infrastructure powered by a mixture
@@ -58,20 +58,21 @@ projects:
             across every industry.
         - bullet: The OpenStack-powered public cloud footprint has grown to 175 global
             data centers.
-        - bullet: <a href="https://www.openstack.org/use-cases/#search=Hybrid%20Cloud">Check out how organizations around the world are deploying OpenStack in production for hybrid cloud infrastructure.</a>
+        - bullet: <a
+            href="https://www.openstack.org/use-cases/#search=Hybrid%20Cloud">Check
+            out how organizations around the world are deploying OpenStack in
+            production for hybrid cloud infrastructure.</a>
     - image: /img/hybrid-cloud/Logo-KataContainers.png
       bullets:
         - bullet: Confidential Computing has the potential to accelerate the adoption of
             hybrid cloud computing for the highly-sensitive industries of
             finance, healthcare, insurance, or any business concerned with the
             migration of data and workloads to the public cloud.
-        - bullet: "IBM integrated Kata Containers as a Kubernetes runtime class used for
+        - bullet: IBM integrated Kata Containers as a Kubernetes runtime class used for
             pods where they  need stronger guarantees for running arbitrary
             untrusted workloads. Read more at <a
-            href='https://www.ibm.com/blogs/research/2020/11/amd-sev-ibm-hybrid\
-            -cloud/'>
-            https://www.ibm.com/blogs/research/2020/11/amd-sev-ibm-hybrid-cloud\
-            /</a>"
+            href='https://www.ibm.com/blogs/research/2020/11/amd-sev-ibm-hybrid-cloud/'>
+            https://www.ibm.com/blogs/research/2020/11/amd-sev-ibm-hybrid-cloud/</a>
     - image: /img/hybrid-cloud/Logo-Airship.png
       bullets:
         - bullet: In the Airship 2.0 release, the project moved to a hybrid and
@@ -154,7 +155,7 @@ organizations:
     - image: /img/hybrid-cloud/org-vmware.png
       link: "#"
 footer:
-  button: "#"
+  button: /contact
   buttonText: Contact Us
   display: true
   title: Is your organization building an OpenInfra hybrid cloud strategy?

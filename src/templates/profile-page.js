@@ -16,7 +16,9 @@ import 'openstack-uicore-foundation/lib/css/components.css';
 import { addAffiliation, saveAffiliation, deleteAffiliation, addOrganization, updateMembershipType } from "../actions/user-actions"
 import { getMemberProfile, getElectionMemberProfile } from '../actions/member-actions';
 import { getElectionStatus } from "../actions/election-actions";
-
+import {
+    updateUserInfo
+} from "openstack-uicore-foundation/lib/methods";
 
 export const ProfilePageTemplate = ({
     currentMember,
@@ -136,13 +138,27 @@ const ProfilePage = ({
     updateMembershipType,
     getElectionMemberProfile,
     getElectionStatus,
-    electionStatus
+    electionStatus,
+    updateUserInfo,
 }) => {
 
     useEffect(() => {
         getElectionStatus();
         if (currentMember?.id) {
-            getElectionMemberProfile(currentMember?.id);
+            getElectionMemberProfile
+            (
+                currentMember?.id,
+                'groups,all_affiliations,candidate_profile,election_applications,election_nominations,election_nominations.candidate',
+                'election_nominations.candidate.first_name,election_nominations.candidate.last_name',
+                'election_applications.nominator.none,election_nominations.candidate.none'
+            ).then((profile) => {
+
+                const updatedProfile = { ...currentMember,
+                    election_applications: [...profile.election_applications],
+                    election_nominations:[...profile.election_nominations],
+                };
+                updateUserInfo(updatedProfile);
+            });
         }
     }, [])
 
@@ -179,5 +195,6 @@ export default connect(state => ({
         updateMembershipType,
         getMemberProfile,
         getElectionMemberProfile,
-        getElectionStatus
+        getElectionStatus,
+        updateUserInfo,
     })(ProfilePage)

@@ -5,7 +5,7 @@ title: OpenStack
 order: 1
 button:
   text: "Take the OpenStack User Survey"
-  link: "#"
+  link: "https://openstack.org/usersurvey"
 ---
 
 The OpenStack User Survey has been fielded since 2013, and the OpenInfra Foundation does annual analysis (August to August) to identify new users, uncover trends and better understand the architectural choices made by OpenStack users. Due to the customization opportunities, this User Survey is the most detailed of all OpenInfra project user surveys.

@@ -5,7 +5,7 @@ title: Kata Containers
 order: 3
 button:
   text: "Take the Kata Containers User Survey"
-  link: "#"
+  link: "https://www.surveymonkey.com/r/KataContainers "
 ---
 
 The Kata Containers User Survey opened in April 2020 and has recently undergone an update by the Architecture Committee.

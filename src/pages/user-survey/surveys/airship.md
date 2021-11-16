@@ -5,7 +5,7 @@ title: Airship
 order: 2
 button:
   text: "Take the Airship User Survey"
-  link: "#"
+  link: "https://www.surveymonkey.com/r/AirshipUserSurvey"
 ---
 
 Since the launch of the Airship User Survey in May 2020, ten organizations have completed it, spanning industries such as telecommunications, Information Technology, Academic / Research, Government / Defense, and Retail / Ecommerce. Of those organizations, half are running Airship in production, while 30% are actively evaluating Airship and 20% are considering it.

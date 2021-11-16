@@ -5,7 +5,7 @@ title: StarlingX
 order: 4
 button:
   text: "Take the StarlingX User Survey"
-  link: "#"
+  link: "https://www.surveymonkey.com/r/StarlingX "
 ---
 
 The StarlingX User Survey launched in March 2019 and has received over 30 responses. Of those organizations, 34% are interested in StarlingX, 46% are running a proof of concept, 15% are testing, and 4% are running StarlingX in production.

@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: OpenStackweb/osf-website
-  branch:  feature/elections
+  branch:  master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -797,6 +797,67 @@ collections:
           {label: "Button Text", name: buttonText, widget: string, required: false},
           {label: "Display", name: display, widget: boolean, required: false}
         ]}
+  - name: "hybrid-cloud-page"
+    label: "Hybrid Cloud"
+    files:
+      - file: "src/pages/hybrid-cloud/index.md"
+        label: "Hybrid Cloud Page"
+        name: "hybrid-cloud-page"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "hybrid-cloud-page"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sub Title", name: subTitle, widget: string}
+          - {label: "Introduction", name: introduction, widget: text}
+          - {label: "Use Cases", name: useCases, widget: object, fields: [
+              {label: Display, name: display, widget: boolean, required: false},
+              {label: Title, name: title, widget: string},
+              {label: Cases, name: cases, widget: list, fields: [
+                {label: Image, name: image, widget: image},
+                {label: Background Color, name: backgroundColor, widget: string},
+                {label: Title, name: text, widget: string},
+                {label: Source, name: source, widgeT: string}
+              ]}
+            ]}
+          - {label: "Benefits", name: benefits, widget: object, fields: [
+              {label: Display, name: display, widget: boolean, required: false},
+              {label: Title, name: title, widget: string},
+              {label: Items, name: items, widget: list, fields: [
+                {label: Image, name: image, widget: image},
+                {label: Title, name: title, widget: string},
+              ]}
+            ]}
+          - {label: "Projects", name: projects, widget: object, fields: [
+              {label: Display, name: display, widget: boolean, required: false},
+              {label: Title, name: title, widget: string},
+              {label: List, name: list, widget: list, fields: [
+                {label: Image, name: image, widget: image},
+                {label: Bullets, name: bullets, widget: list, fields: [
+                  {label: Bullet, name: bullet, widget: text}
+                ]}
+              ]}
+            ]}
+          - {label: "Organizations", name: organizations, widget: object, fields: [
+              {label: Display, name: display, widget: boolean, required: false},
+              {label: Title, name: title, widget: string},
+              {label: List, name: list, widget: list, fields: [
+                {label: Image, name: image, widget: image},
+                {label: Link, name: link, widget: string, required: false},
+              ]}
+            ]}
+          - {label: "Footer", name: footer, widget: object, required: false, fields: [
+              {label: "Title", name: title, widget: string, required: false },
+              {label: "Sub Title", name: subTitle, widget: string, required: false},
+              {label: "Button Link", name: button, widget: string, required: false},
+              {label: "Button Text", name: buttonText, widget: string, required: false},
+              {label: "Display", name: display, widget: boolean, required: false}
+            ]}
   - name: "openinfra-live-page"
     label: "OpenInfra Live"
     files:

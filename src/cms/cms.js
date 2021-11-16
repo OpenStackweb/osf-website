@@ -16,6 +16,7 @@ import LiveKeynotesPagePreview from './preview-templates/LiveKeynotesPagePreview
 import JoinPagePreview from './preview-templates/JoinPagePreview'
 import MembersPagePreview from './preview-templates/MembersPagePreview'
 import JoinIndividualPagePreview from './preview-templates/JoinIndividualPagePreview'
+import HybridCloudPagePreview from './preview-templates/HybridCloudPagePreview'
 import ElectionPagePreview from './preview-templates/ElectionPagePreview'
 
 CMS.registerPreviewStyle('style/styles.scss');
@@ -41,4 +42,5 @@ CMS.registerPreviewTemplate('openinfra-live-keynotes-page', LiveKeynotesPagePrev
 CMS.registerPreviewTemplate('join', JoinPagePreview)
 CMS.registerPreviewTemplate('members', MembersPagePreview)
 CMS.registerPreviewTemplate('join-individual', JoinIndividualPagePreview)
+CMS.registerPreviewTemplate('hybrid-cloud-page', HybridCloudPagePreview)
 CMS.registerPreviewTemplate('electionPage', ElectionPagePreview)

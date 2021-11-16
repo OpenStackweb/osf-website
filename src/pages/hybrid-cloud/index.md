@@ -1,11 +1,13 @@
 ---
 templateKey: hybrid-cloud-page
 seo:
-  description: "An Open Community balances the roles of open source developers,
-    users and ecosystem, ensuring the community is a cohesive, inclusive, level
-    playing ground. "
+  description: Organizations have turned to the cloud to increase operational
+    efficiency while decreasing costs. Recent studies have shown that these same
+    organizations are turning to hybrid cloud infrastructure powered by a
+    mixture of open source technologies for additional flexibility around
+    workload repatriation.
   image: /img/OpenInfra-icon-white.jpg
-  title: Open Source Project Community
+  title: OpenInfra Hybrid Cloud Use Cases and More
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/hybrid-cloud/
 title: Hybrid Cloud
@@ -95,65 +97,65 @@ organizations:
   title: Organizations
   list:
     - image: /img/hybrid-cloud/org-99cloud.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-awcloud.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-binero.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-bluvalt.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-cdac.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-china-mobile.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-china-telecom.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-citynetwork.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-cloudfire.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-DeutscheTelekom.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-devstack.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-easystack.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-elastx.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-exaion.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-ibm.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-infomaniak.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-inmotion.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-mirantis.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-nipa-cloud.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-orock.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-osism.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-ovhcloud.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-rackspace.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-sardina.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-stackhpc.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-stc.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-tencent-cloud.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-ubuntu.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-vexxhost.png
-      link: "#"
+      link: ""
     - image: /img/hybrid-cloud/org-vmware.png
-      link: "#"
+      link: ""
 footer:
   button: /contact
   buttonText: Contact Us

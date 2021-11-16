@@ -103,4 +103,22 @@ If you are being harassed, notice that someone else is being harassed, or have a
 - Staff will then inform the accused of what action, if any, will be taken against them.
 - Staff will then inform complainant (and any witnesses if appropriate) of the resolution, and record the outcome.
 
+##### COVID Update
+
+_All COVID guidelines are subject to change based on updated circumstances._
+
+The Open Infrastructure Foundation continues to work hard to ensure a safe environment for everyone during our in-person events. During these times, we acknowledge that no event can be completely risk-free, and we’re counting on you to do your part to help us present as safe of an event as we can by following the health guidance issued by the Open Infrastructure Foundation for each event. If you do not comply with our health guidance, we may require you to leave our event without a refund.
+
+Please visit the CDC’s website for more information on how to protect yourself from COVID-19.
+
+CDC guidelines for fully vaccinated individuals: [https://www.cdc.gov/coronavirus/2019-ncov/vaccines/fully-vaccinated.html](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/fully-vaccinated.html)
+
+CDC guidelines for non-vaccinated individuals: [https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html)
+
+COVID-19 is an extremely contagious virus that can lead to severe illness and even death. An inherent risk of exposure to COVID-19 exists in any public place regardless of precautions that may be taken. By attending our events, you voluntarily assume all risks, hazards and dangers related to exposure, contracting and/or transmitting COVID-19, and voluntarily waive all claims and suits against the Open Infrastructure Foundation.
+
+_All information is subject to change. We will continue to monitor the situation and communicate updates as needed._
+
+---
+
 _The OpenInfra Foundation Events Code of Conduct is derived from the [PyCon Conference Code of Conduct](https://us.pycon.org/2013/about/code-of-conduct/), licensed under [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/)._

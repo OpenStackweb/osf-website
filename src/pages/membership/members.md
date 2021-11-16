@@ -198,140 +198,141 @@ companyTier:
     - title: OpenInfra foundation platinum members
       mobileTitle: Platinum Members
       companies:
-        - logo: /img/members-page/platinum/Sponsor-Logos_AntGroup 1.png
+        - logo: /img/members-page/platinum-tier/Sponsor-Logos_AntGroup 1.png
           alt: Ant Group
         - logo: /img/sponsor-logos_at-t.png
-        - logo: /img/members-page/platinum/Sponsor-Logos_Ericsson 1.png
+        - logo: /img/members-page/platinum-tier/Sponsor-Logos_Ericsson 1.png
           alt: Ericsson
-        - logo: /img/members-page/platinum/Sponsor-Logos_FBC-new 1.png
+        - logo: /img/members-page/platinum-tier/Sponsor-Logos_FBC-new 1.png
           alt: Facebook
-        - logo: /img/members-page/platinum/Sponsor-Logos_FiberHome 1.png
+        - logo: /img/members-page/platinum-tier/Sponsor-Logos_FiberHome 1.png
           alt: FiberHome
-        - logo: /img/members-page/platinum/Sponsor-Logos_Huawei 1.png
+        - logo: /img/members-page/platinum-tier/Sponsor-Logos_Huawei 1.png
           alt: Huawei
         - logo: /img/sponsor-logos_microsoft.png
           alt: Microsoft
-        - logo: /img/members-page/platinum/Sponsor-Logos_RedHat 1.png
+        - logo: /img/members-page/platinum-tier/Sponsor-Logos_RedHat 1.png
           alt: Red Had
-        - logo: /img/members-page/platinum/Sponsor-Logos_TencentCloud 1.png
+        - logo: /img/members-page/platinum-tier/Sponsor-Logos_TencentCloud 1.png
           alt: Tencent Cloud
-        - logo: /img/members-page/platinum/WNDRVR 1.png
+        - logo: /img/members-page/platinum-tier/WNDRVR 1.png
           alt: WNDRVR
     - title: OpenInfra foundation GOLD members
       mobileTitle: Gold Members
       companies:
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_99Cloud 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_99Cloud 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_ChinaMobile 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_ChinaMobile 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_ChinaTelecom 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_ChinaTelecom 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_ChinaUnicom 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_ChinaUnicom 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_Cisco 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_Cisco 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_CityNetwork 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_CityNetwork 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_DellTechnologies 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_DellTechnologies 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_EasyStack 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_EasyStack 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_H3C 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_H3C 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_Inspur 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_Inspur 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_Intel 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_Intel 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_Mirantis 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_Mirantis 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_NEC 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_NEC 1.png
           alt: ""
         - logo: /img/nipa-gold.jpg
+          alt: ""
         - logo: /img/members-page/gold/Sponsor-Logos-Gold_T-Systems 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_Troila 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_Troila 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_Ubuntu 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_Ubuntu 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_vmware 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_vmware 1.png
           alt: ""
-        - logo: /img/members-page/gold/Sponsor-Logos-Gold_ZTE 1.png
+        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_ZTE 1.png
           alt: ""
     - title: OpenInfra foundation Silver members
       mobileTitle: Silver Members
       companies:
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_Ampere 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Ampere 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_AWCloud 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_AWCloud 1.png
           alt: ""
-        - logo: /img/members-page/silver/binero-silver 1.png
+        - logo: /img/members-page/silver-tier/binero-silver 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_CDAC 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_CDAC 1.png
           alt: ""
-        - logo: /img/members-page/silver/cloudandheat-sponsor 1.png
+        - logo: /img/members-page/silver-tier/cloudandheat-sponsor 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_CloudbaseSolutions 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_CloudbaseSolutions 1.png
           alt: ""
-        - logo: /img/members-page/silver/cloudfiresilver 1.png
+        - logo: /img/members-page/silver-tier/cloudfiresilver 1.png
           alt: ""
-        - logo: /img/members-page/silver/componentsoft-silver 1.png
+        - logo: /img/members-page/silver-tier/componentsoft-silver 1.png
           alt: ""
         - logo: /img/coredge188.png
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_DevStack 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_DevStack 1.png
           alt: ""
-        - logo: /img/members-page/silver/elastx-oi 1.png
+        - logo: /img/members-page/silver-tier/elastx-oi 1.png
           alt: ""
         - alt: Exaion
           logo: /img/188x101px-exaion.png
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_FreedomFi 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_FreedomFi 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_Fujitsu 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Fujitsu 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_GResearch 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_GResearch 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_Hitachi 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Hitachi 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_IBM 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_IBM 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_Infomaniak 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Infomaniak 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_inmotionhosting 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_inmotionhosting 1.png
           alt: ""
-        - logo: /img/members-page/silver/sponsor-ivolve 1.png
+        - logo: /img/members-page/silver-tier/sponsor-ivolve 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_JuniperNetworks 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_JuniperNetworks 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_NetApp 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_NetApp 1.png
           alt: ""
-        - logo: /img/members-page/silver/nokiasilver 1.png
+        - logo: /img/members-page/silver-tier/nokiasilver 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_NTT 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_NTT 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_NTT-TX 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_NTT-TX 1.png
           alt: ""
         - logo: /img/oneqode_sm.png
         - alt: ORock
           logo: /img/orock-silver.jpg
         - logo: /img/osism-sm.png
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_OVH 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_OVH 1.png
           alt: ""
-        - logo: /img/members-page/silver/safespring-silver 1.png
+        - logo: /img/members-page/silver-tier/safespring-silver 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_Samsung 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Samsung 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_Sardina 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Sardina 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_secustack 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_secustack 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_SocieteGenerale 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_SocieteGenerale 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_StackHPC 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_StackHPC 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_UltimumTechnologies 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_UltimumTechnologies 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_Vexxhost 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Vexxhost 1.png
           alt: ""
-        - logo: /img/members-page/silver/Sponsor-Logos-Silver_Whitestack 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Whitestack 1.png
           alt: ""
 help:
   display: true

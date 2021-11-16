@@ -67,6 +67,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                     {hero.buttonText}
                     <img src={leftArrow} alt="" />
                   </a>
+                  <a className="schedule-promo-link" href="#schedule">See the Schedule</a>
                 </div>
                 <figure className="logo">
                   <img src="/img/live/oi-live-keynotes-logo-web-dark.svg" alt="OpenInfra Live Keynotes Logo" />
@@ -161,7 +162,8 @@ export const OpenInfraLiveKeynotesTemplate = ({
           {featuredSpeakers?.speakers?.length > 0 &&
             <section className="featured-speakers">
               <div className="container">
-                <h3>{featuredSpeakers.title}</h3>
+              <h3>{featuredSpeakers.title}</h3>
+              <a className="schedule-promo-link centered" href="#schedule">See the Schedule Below</a>
                 <div className="featured-speakers-wrapper">
                   <div className="first-row">
                     {featuredSpeakers.speakers.slice(0, 4).map(speaker => (
@@ -178,6 +180,354 @@ export const OpenInfraLiveKeynotesTemplate = ({
             </section>
           }
 
+          <section className="schedule-section" id="schedule">
+            <div className="container">
+              <h3 className="small-title">Keynotes Schedule</h3>
+              <h5 className="small-subtitle">November 17, Day One</h5>
+              <table className="keynotes-schedule">
+                <thead>
+                  <th>Time (CST)</th>
+                  <th>Speaker(s)</th>
+                  <th>Topic</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      9:00 AM
+                    </td>
+                    <td>
+                      Jonathan Bryce<br />
+                      Mark Collier
+                    </td>
+                    <td>One Year into a Decade Long OpenInfra Mission</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      9:17 AM
+                    </td>
+                    <td>Balaji Srinivasan</td>
+                    <td>The Role and Impact of Decentralization</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      9:32 AM
+                    </td>
+                    <td>Aeva Black</td>
+                    <td>Building a Successful Open Source Community with the Four Opens </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      9:38 AM
+                    </td>
+                    <td>
+                      Allison Randal<br />
+                      Tom Callaway<br/>
+                      Stefano Maffulli
+                    </td>
+                    <td>Benefits and Impacts of Open Source Licensing</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      9:52 AM
+                    </td>
+                    <td>Sarah Novotny</td>
+                    <td>Why Organizations should Contribute to Open Source</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:00 AM
+                    </td>
+                    <td>Sean Cohen</td>
+                    <td>The Hybrid Cloud Foundation</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:09 AM
+                    </td>
+                    <td>
+                      Hao Wang<br/>
+                      Haoyang Li
+                    </td>
+                    <td>Introducing Taibai, the Newest Addition to OpenInfra Labs</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:16 AM
+                    </td>
+                    <td>Kendall Nelson</td>
+                    <td>OpenSnacks: How to Contribute to Open Source Projects</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:17 AM
+                    </td>
+                    <td>Michael Daitzman</td>
+                    <td>How to Contribute to OpenInfra Labs</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:30 AM
+                    </td>
+                    <td>Jim Zemlin</td>
+                    <td>Celebrating 30 Years of Linux: The Open Source Operating System Standard </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:33 AM
+                    </td>
+                    <td>
+                      Jimmy McArthur<br/>
+                      Dr. Abhisak Chulya
+                    </td>
+                    <td>Understanding the OpenStack Momentum in Thailand</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:40 AM
+                    </td>
+                    <td>
+                      China Mobile<br/>
+                      LINE<br/>
+                      Walmart Global Tech<br/>
+                      Workday<br/>
+                      Yahoo
+                    </td>
+                    <td>Celebration of OpenStack Users at Scale</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:47 AM
+                    </td>
+                    <td>
+                      Allison Price<br/>
+                      Imtiaz Chowdhury
+                    </td>
+                    <td>Explosive OpenStack Growth: Why Workday Doubled their Private Cloud Footprint in a Year</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:57 AM
+                    </td>
+                    <td>Amy Marrich</td>
+                    <td>How to Contribute to OpenStack</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      11:01 AM
+                    </td>
+                    <td>Christoph Blecker</td>
+                    <td>How to Contribute to Kubernetes</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      11:03 AM
+                    </td>
+                    <td>
+                      Jonathan Bryce<br />
+                      Mark Collier
+                    </td>
+                    <td>Day One Wrap up</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 className="small-subtitle">November 18, Day Two</h5>
+              <table className="keynotes-schedule">
+                <thead>
+                  <th>Time (CST)</th>
+                  <th>Speaker(s)</th>
+                  <th>Topic</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      9:00 AM
+                    </td>
+                    <td>
+                      Jonathan Bryce<br />
+                      Mark Collier
+                    </td>
+                    <td>Day Two Kick Off</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      9:03 AM
+                    </td>
+                    <td>
+                      Thierry Carrez
+                    </td>
+                    <td>State of OpenInfra</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      9:11 AM
+                    </td>
+                    <td>
+                      Kyle Davis
+                    </td>
+                    <td>A Little about OpenSearch</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      9:17 AM
+                    </td>
+                    <td>
+                      Haoyang Li
+                    </td>
+                    <td>State of OpenInfra in China </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      9:29 AM
+                    </td>
+                    <td>
+                      Martin Casado<br/>
+                      Jonathan Bryce<br/>
+                      Mark Collier
+                    </td>
+                    <td>Diving into the Cost of Cloud, a Trillion Dollar Paradox</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      9:44 AM
+                    </td>
+                    <td>
+                      Jimmy McArthur<br/>
+                      Johan Christenson<br/>
+                      Victor Souza
+                    </td>
+                    <td>OpenStack Powered Public Cloud Momentum</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      9:59 AM
+                    </td>
+                    <td>
+                      Allison Price<br/>
+                      Meltem Kocabaş
+                    </td>
+                    <td>Hybrid Cloud in Production: Trendyol </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:07 AM
+                    </td>
+                    <td>
+                      Jim Blair
+                    </td>
+                    <td>Zuul in Hybrid Environments </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:13 AM
+                    </td>
+                    <td>
+                      Sunny Cai<br/>
+                      Tao Peng
+                    </td>
+                    <td>Kata Containers in Production: Ant Group</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:30 AM
+                    </td>
+                    <td>
+                      Ashlee Ferguson
+                    </td>
+                    <td>How to Contribute to Airship</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:33 AM
+                    </td>
+                    <td>
+                      Ildiko Vansca<br/>
+                      Andy Dunkin<br/>
+                      Muhammed Gil<br/>
+                      John McCready
+                    </td>
+                    <td>Deploying vRAN and OpenRAN with StarlingX</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:52 AM
+                    </td>
+                    <td>
+                      Greg Waines
+                    </td>
+                    <td>How to Contribute to StarlingX</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      10:56 AM
+                    </td>
+                    <td>
+                      Reg Orton
+                    </td>
+                    <td>Connecting Africa to the Internet: How BRCK is running Magma in Production</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      11:01 AM
+                    </td>
+                    <td>
+                      Shubham Tatvamasi
+                    </td>
+                    <td>How to Contribute to Magma</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      11:04 AM
+                    </td>
+                    <td>
+                      Mr. Duan Xiaodong
+                    </td>
+                    <td>China Mobile’s Strategy on the Next Generation Network and Open Source</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      11:13 AM
+                    </td>
+                    <td>
+                      Sunny Cai
+                    </td>
+                    <td>Superuser Awards</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      11:18 AM
+                    </td>
+                    <td>
+                      Kendall Nelson<br/>
+                      Alex Song
+                    </td>
+                    <td>Hardware Enablement Advancements in OpenStack Cyborg</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      11:26 AM
+                    </td>
+                    <td>
+                      Peter Pouliot<br/>
+                      Laurent Bernou-Mazars<br/>
+                      Zac Smith<br/>
+                      John Miranda
+                    </td>
+                    <td>Tackling Sustainability with Eco-friendly, Green Hardware</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      11:33 AM
+                    </td>
+                    <td>
+                      Jonathan Bryce<br />
+                      Mark Collier
+                    </td>
+                    <td>Day Two Wrap up</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
           <section className="keynotes-sponsors">
             <div className="container">
               <section className="sponsor-section headline">

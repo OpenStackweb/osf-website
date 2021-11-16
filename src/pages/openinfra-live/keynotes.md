@@ -106,14 +106,18 @@ featuredSpeakers:
       company: Red Hat
       name: "Sean Cohen "
       pic: /img/sean-cohen.jpeg
-    - name: "Meltem Kocabaş "
-      company: Trendyol
-      presentationTitle: "Product Manager "
-      pic: /img/pp.jpeg
     - name: Duan Xiaodong
       company: "China Mobile "
       presentationTitle: "VP of Research from China Mobile Research Institute "
       pic: /img/duanxiaodong.jpg
+    - name: Jim Zemlin
+      company: Linux Foundation
+      presentationTitle: "Executive Director "
+      pic: /img/jim_zemlin_headshot-224x280.jpeg
+    - name: "Meltem Kocabaş "
+      company: Trendyol
+      presentationTitle: "Product Manager "
+      pic: /img/pp.jpeg
     - name: Aeva Black
       presentationTitle: OSI Board Member and Open Source Hacker
       company: Azure Office of the CTO
@@ -134,6 +138,10 @@ featuredSpeakers:
       company: Vodafone Group Networks
       name: "Andy Dunkin "
       pic: /img/andydunkin.jpeg
+    - name: "Amy Marrich "
+      company: Red Hat
+      presentationTitle: Principal Technical Marketing Manager
+      pic: /img/profilepic.jpg
     - name: Jim Blair
       company: "ACME Gating "
       presentationTitle: "Founder "
@@ -150,10 +158,70 @@ featuredSpeakers:
       company: OpenInfra Foundation
       presentationTitle: Vice President of Engineering
       pic: /img/thierrycarrez_headshot.jpg
+    - pic: /img/allison_headshot.jpg
+      name: Allison Price
+      presentationTitle: Director of Marketing & Community
+      company: OpenInfra Foundation
     - name: Kendall Nelson
       company: OpenInfra Foundation
       presentationTitle: Upstream Developer Advocate
       pic: /img/kendallnelson.png
+    - name: Abhisak Chulya
+      presentationTitle: CEO
+      company: Nipa
+      pic: /img/1627317587425.jpg
+    - name: "Hao Wang "
+      presentationTitle: Cloud Architect and Manager of System Department
+      company: Fiberhome
+      pic: /img/wechatimg43.jpeg
+    - name: Ildiko Vancsa
+      presentationTitle: Senior Manager of Community and Ecosystem
+      company: OpenInfra Foundation
+      pic: /img/ildiko_v_photo.png
+    - name: Jimmy McArthur
+      presentationTitle: "Senior Manager of Community and Business Development "
+      company: OpenInfra Foundation
+      pic: /img/image-from-ios.jpg
+    - name: John McCready
+      presentationTitle: Director of Product Management, RAN and Private Mobility Solutions
+      company: Dell Technologies
+      pic: /img/johnmccready-2014-2.jpg
+    - name: Kyle Davis
+      company: AWS
+      presentationTitle: "Senior Developer Advocate "
+      pic: /img/image-1-.png
+    - name: Victor Souza
+      presentationTitle: Cloud Specialist
+      company: Binero
+      pic: /img/1551816095093.jpeg
+    - name: "Muhammed Gil "
+      presentationTitle: VP, Industry Solutions
+      company: Wind River
+      pic: /img/image-4-.png
+    - name: Shubham Tatvamasi
+      presentationTitle: Research Associate
+      company: University of Delhi
+      pic: /img/14152150.jpg
+    - name: Stefano Maffulli
+      presentationTitle: "Executive Director "
+      company: "Open Source Initiative "
+      pic: /img/1516287313188.jpg
+    - name: "Tao Peng "
+      presentationTitle: Staff Engineer, Member of Kata Containers Architecture Committee
+      company: Ant Group
+      pic: /img/avatar.jpg
+    - name: "Ashlee Ferguson "
+      presentationTitle: Community and Event Coordinator
+      company: "OpenInfra Foundation "
+      pic: /img/ashleeheadshot.png
+    - name: Sunny Cai
+      presentationTitle: "Marketing Coordinator "
+      company: "OpenInfra Foundation  "
+      pic: /img/sunny-cai.png
+    - name: Tom Callaway
+      presentationTitle: Principal Open Source Evangelist
+      company: Amazon Web Services (AWS)
+      pic: /img/1516245039937.jpg
 sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:

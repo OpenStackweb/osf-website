@@ -152,6 +152,7 @@ textarea {
     color: var(--text-color);
     padding: 10px 0 0 10px;
     margin: 0 0 15px 0;
+    line-height: 20px;
 }
 
 @media (max-width: 767px) {
@@ -170,6 +171,7 @@ button.contact-submit {
     background-color: var(--cta-color);
     color: var(--cta-text-color);
     border: 0.5px solid var(--theme-color);
+    border-radius: 21px;
     margin: 0 0 15px 0;
     font-size: 14px;
     font-weight: 600;
@@ -210,4 +212,76 @@ button.contact-submit:hover {
     color: var(--text-color);;
     line-height: 1.5;
     opacity: 0.8;
+}
+
+/* ------------------------------------------------------------ *\
+    Contact Form Horizontal
+\* ------------------------------------------------------------ */
+
+.is-horizontal {
+    flex-direction: row;
+    padding: 60px 0 60px 0;
+
+    button.contact-submit {
+        max-width: 100%;
+        height: 42px;
+        background-color: var(--cta-color);
+        color: var(--cta-text-color);
+        border: 0.5px solid var(--theme-color);
+        border-radius: 21px;
+        margin: 0 0 15px 0;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+
+        @media (max-width: 767px) {
+            align-self: center;
+            height: 42px;
+            width: 100%;
+            margin: 15px -1px 0 0;
+            padding: 0 100px 0 100px;
+        }
+        
+        @media (max-width: 600px) {
+            margin: 15px 0 0 0;
+            padding: unset;
+            width: 100.75%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .is-horizontal {
+        flex-direction: column;
+        padding: 30px 0 60px 0;
+    }
+}
+
+.form-wrapper {
+    max-width: 100%;
+    
+}
+
+.is-full-width-lt {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 10px 0 0;
+}
+
+@media (max-width: 767px) {
+    .is-full-width-lt {
+        margin: 0 auto;
+    }
+}
+
+.is-full-width-rt {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 0 10px;
+}
+
+@media (max-width: 767px) {
+    .is-full-width-rt {
+        margin: 0 auto;
+    }
 }

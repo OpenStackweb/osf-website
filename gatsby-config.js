@@ -240,7 +240,7 @@ module.exports = {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
         develop: true, // Activates purging in npm run develop        
-        whitelistPatterns: [/^carousel/, /^projects-s/, /^company-level-/, /^more-recent-single-/],
+        whitelistPatterns: [/^carousel/, /^projects-s/, /^company-level-/, /^more-recent-single-/, /^fa/],
         purgeOnly: ['/style'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins    

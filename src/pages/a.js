@@ -9,6 +9,9 @@ import ErrorPage from "../templates/error-page";
 import MembershipResignPage from "../templates/membership-resign";
 import MembershipCommunityPage from "../templates/membership-community";
 import MembershipFoundationPage from "../templates/membership-foundation";
+import MemberListPage from "../templates/member-list-page"
+import MemberProfilePage from "../templates/member-profile-page"
+import CandidatePage from "../templates/candidate-page"
 import NotFoundPage from "./404"
 
 const App = ({ isLoggedUser, user }) => {
@@ -17,10 +20,13 @@ const App = ({ isLoggedUser, user }) => {
       {({ location }) => (
           <Router basepath="/a" >
             <PrivateRoute path="/profile" component={ProfilePage} isLoggedIn={isLoggedUser} user={user} location={location} />
+            <PrivateRoute path="/profile/candidate" component={CandidatePage} isLoggedIn={isLoggedUser} user={user} location={location} />
             <PrivateRoute path="/profile/membership/resign" component={MembershipResignPage} isLoggedIn={isLoggedUser} user={user} location={location}/>
             <PrivateRoute path="/profile/membership/community" component={MembershipCommunityPage} isLoggedIn={isLoggedUser} user={user} location={location}/>
             <PrivateRoute path="/profile/membership/foundation" component={MembershipFoundationPage} isLoggedIn={isLoggedUser} user={user} location={location}/>
             <RegistrationPage path="/registration" location={location} isLoggedIn={isLoggedUser} />
+            <MemberListPage path="/community/members" location={location} isLoggedIn={isLoggedUser} />
+            <MemberProfilePage path="/community/members/:memberId" location={location} isLoggedIn={isLoggedUser} />
             <ErrorPage path="/error" location={location} isLoggedIn={isLoggedUser}/>
             <NotFoundPage default />
           </Router>

@@ -3,13 +3,12 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
-import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO';
 import LinkComponent from '../components/LinkComponent';
-import envVariables from '../utils/envVariables'
+import {doRegistration} from '../utils/security'
 import { connect } from "react-redux";
 
 import leftArrow from '../img/svg/arrow-left.svg'
@@ -317,9 +316,8 @@ const MembersPage = ({ isLoggedUser, data }) => {
     const handleOnClick = useCallback(event => {
         event.preventDefault();
         let origin = window.location.origin;
-        let membershipType = event.currentTarget.dataset.membershipType;
-        let url = `${envVariables.IDP_BASE_URL}/auth/register?client_id=${envVariables.OAUTH2_CLIENT_ID}&redirect_uri=${encodeURI(`${origin}/a/registration?membership_type=${membershipType}`)}`;
-        window.location = url;
+        let type = event.currentTarget.dataset.membershipType;
+        doRegistration(origin, type);
     }, []);
 
     useEffect(() => {

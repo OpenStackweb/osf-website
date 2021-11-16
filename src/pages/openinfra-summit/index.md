@@ -25,7 +25,7 @@ header:
   image: /img/summit/summit-hero-image.png
 form:
   display: true
-  title: Subscribe to our newsletter so you’re ready when tickets go on sale.
+  title: Subscribe to our newsletter for the latest from the OpenInfra Foundation.
   image: /img/summit/EWP-_WP_5140e 1.png
   button:
     text: Sign Me Up
@@ -35,23 +35,23 @@ topics:
   title: Topics
   topicList:
     - text: AI
-      image: /img/summit/Group 114.png
+      image: /img/summit/AI.png
     - text: CI/CD
-      image: /img/summit/Group 115.png
+      image: /img/summit/CICD.png
     - text: Containers
-      image: /img/summit/Group 116.png
+      image: /img/summit/Containers.png
     - text: Edge Computing
-      image: /img/summit/Group 117.png
+      image: /img/summit/Edge.png
     - text: Hybrid Cloud
-      image: /img/summit/Group 118.png
+      image: /img/summit/HybridCloud.png
     - text: HPC
-      image: /img/summit/Group 119.png
+      image: /img/summit/HPC.png
     - text: NFV
-      image: /img/summit/Group 120.png
-    - text: Public &  Private Cloud
-      image: /img/summit/Group 121.png
+      image: /img/summit/NFV.png
+    - text: Public & Private Cloud
+      image: /img/summit/PublicPrivateCloud.png
     - text: Security
-      image: /img/summit/Group 122.png
+      image: /img/summit/Security.png
 previousSummits:
   display: true
   title: Previous Summits

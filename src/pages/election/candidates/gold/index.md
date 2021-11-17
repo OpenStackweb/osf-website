@@ -13,7 +13,7 @@ menu:
     - text: ELECTION DETAILS
       link: /election
     - text: SEE THE CANDIDATES
-      link: /election/candidates    
+      link: /election/candidates
     - text: NOMINATE A MEMBER
       link: /a/community/members
     - text: BE A CANDIDATE
@@ -21,7 +21,7 @@ menu:
     - text: GOLD MEMBER ELECTION CANDIDATES
       link: /election/candidates/gold
     - text: CODE OF CONDUCT
-      link: /legal/code-of-conduct
+      link: ../../../../legal/code-of-conduct
 intro:
   title: Gold Director Selector Candidates
   description: "The candidates on this list are the intended Gold Directors from the Gold Member companies who are 

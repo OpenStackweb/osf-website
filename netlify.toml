@@ -57,7 +57,12 @@
   from = "/election/candidates/gold"
   to = "/election/2022-individual-director-election/candidates/gold"
   status = 301
-force = true
+  force = true
+[[redirects]]
+  from = "/usersurvey"
+  to = "/user-survey"
+  status = 301
+  force = true
 # Branch Deploy context: all deploys that are not from a pull/merge request or
 # from the Production branch will inherit these settings.
 [context.branch-deploy.environment]

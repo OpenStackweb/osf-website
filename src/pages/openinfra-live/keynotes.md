@@ -10,8 +10,8 @@ hero:
   subtitle: Join us for
   title: "OpenInfra Live: Keynotes"
   description: November 17 and 18 at 9am CT / 1500 UTC
-  buttonText: Register Now
-  buttonURL: https://openinfralivekeynotes.eventbrite.com
+  buttonText: Watch Now
+  buttonURL: https://youtu.be/sXkpjvX54ug
   tagline: Exclusive Announcements. Live Demos. OpenStack + Kubernetes. Hybrid
     Cloud Economics.
 intro:
@@ -226,7 +226,8 @@ sponsorshipSection:
   title: Sponsorship Levels*
   leftColumn:
     title: Headline
-    body: <ul><li>Minimum of 8 minutes of Keynote speaking time (content subject to
+    body:
+      <ul><li>Minimum of 8 minutes of Keynote speaking time (content subject to
       Foundation approval)</li><li>Verbal and logo recognition during
       event</li><li>Pre and post event emails to the attendee
       list</li><li>Website logo placement</li><li>Pre/post event mentions in the

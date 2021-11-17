@@ -13,7 +13,7 @@ seo:
     and there are more open source technologies than ever before. At the
     intersection of infrastructure and open source, you have open
     infrastructure. "
-  url: https://openinfra.dev/blog/loki-openinfra-standard-linu-openstack-kubernetes
+  url: https://openinfra.dev/blog/loki-openinfra-standard-linux-openstack-kubernetes
   twitterUsername: "@OpenInfraDev"
 ---
 We are at a time when we need more infrastructure than ever before and there are more open source technologies than ever before. At the intersection of infrastructure and open source, you have open infrastructure. 

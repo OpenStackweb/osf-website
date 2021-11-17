@@ -22,7 +22,7 @@ menu:
   - text: GOLD MEMBER ELECTION CANDIDATES
     link: /election/candidates/gold
   - text: CODE OF CONDUCT
-    link: /legal/code-of-conduct
+    link: ../../legal/code-of-conduct
 ---
 #### About the Board
 

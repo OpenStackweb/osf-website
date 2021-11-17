@@ -21,7 +21,7 @@ menu:
   - text: GOLD MEMBER ELECTION CANDIDATES
     link: /election/candidates/gold
   - text: CODE OF CONDUCT
-    link: /legal/code-of-conduct 
+    link: ../../../legal/code-of-conduct
 howToVote:
   title: HOW TO VOTE
   description: "If you are an eligible voter, you should have received an email with the subject

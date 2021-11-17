@@ -10,7 +10,7 @@ class KeynotesPromoV2 extends React.Component {
     return (
       <div className="live-keynotes-promo-v2">
         <div className="live-kp-container">
-          <div className="text-area">                
+          <div className="text-area">
                   <div className="text">
 
                     <span className="upper-title">JOIN US FOR</span>
@@ -22,7 +22,7 @@ class KeynotesPromoV2 extends React.Component {
                     </div>
 
                     <div className="buttons-row">
-                      <a href="https://www.eventbrite.com/e/openinfra-live-keynotes-tickets-169507530587"><button className="button med-button-red">Register Now<img className="cta-arrow" src={leftArrow} alt="" /></button></a>
+                      <a href="https://youtu.be/sXkpjvX54ug"><button className="button med-button-red">Watch Now<img className="cta-arrow" src={leftArrow} alt="" /></button></a>
                       <a href="/live/keynotes"><button className="button med-button-nobg">Learn More<img className="cta-arrow" src={leftArrow} alt="" /></button></a>
                     </div>
                     

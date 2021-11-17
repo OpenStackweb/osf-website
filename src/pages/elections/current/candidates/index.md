@@ -13,13 +13,13 @@ menu:
   - text: ELECTION DETAILS
     link: /election
   - text: SEE THE CANDIDATES
-    link: /election/2022-individual-director-election/candidates    
+    link: /election/candidates
   - text: NOMINATE A MEMBER
     link: /a/community/members
   - text: BE A CANDIDATE
     link: /profile
   - text: GOLD MEMBER ELECTION CANDIDATES
-    link: /election/2022-individual-director-election/candidates/gold
+    link: /election/candidates/gold
   - text: CODE OF CONDUCT
     link: /legal/code-of-conduct 
 howToVote:

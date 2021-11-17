@@ -7,7 +7,7 @@ const NominationModal = ({ candidate_profile, closeModal, nominateMember, member
   const [nominated, setNominated] = useState(false);
 
   const goToNominations = () => {
-    navigate('/election/2022-individual-director-election/candidates');
+    navigate('/election/candidates');
   }
 
   const goToAllMembers = () => {

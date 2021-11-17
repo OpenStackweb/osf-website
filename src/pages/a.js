@@ -18,18 +18,18 @@ const App = ({ isLoggedUser, user }) => {
   return (
     <Location>
       {({ location }) => (
-          <Router basepath="/a" >
-            <PrivateRoute path="/profile" component={ProfilePage} isLoggedIn={isLoggedUser} user={user} location={location} />
-            <PrivateRoute path="/profile/candidate" component={CandidatePage} isLoggedIn={isLoggedUser} user={user} location={location} />
-            <PrivateRoute path="/profile/membership/resign" component={MembershipResignPage} isLoggedIn={isLoggedUser} user={user} location={location}/>
-            <PrivateRoute path="/profile/membership/community" component={MembershipCommunityPage} isLoggedIn={isLoggedUser} user={user} location={location}/>
-            <PrivateRoute path="/profile/membership/foundation" component={MembershipFoundationPage} isLoggedIn={isLoggedUser} user={user} location={location}/>
-            <RegistrationPage path="/registration" location={location} isLoggedIn={isLoggedUser} />
-            <MemberListPage path="/community/members" location={location} isLoggedIn={isLoggedUser} />
-            <MemberProfilePage path="/community/members/:memberId" location={location} isLoggedIn={isLoggedUser} />
-            <ErrorPage path="/error" location={location} isLoggedIn={isLoggedUser}/>
-            <NotFoundPage default />
-          </Router>
+        <Router basepath="/a" >
+          <PrivateRoute path="/profile" component={ProfilePage} isLoggedIn={isLoggedUser} user={user} location={location} />
+          <PrivateRoute path="/profile/candidate" component={CandidatePage} isLoggedIn={isLoggedUser} user={user} location={location} />
+          <PrivateRoute path="/profile/membership/resign" component={MembershipResignPage} isLoggedIn={isLoggedUser} user={user} location={location} />
+          <PrivateRoute path="/profile/membership/community" component={MembershipCommunityPage} isLoggedIn={isLoggedUser} user={user} location={location} />
+          <PrivateRoute path="/profile/membership/foundation" component={MembershipFoundationPage} isLoggedIn={isLoggedUser} user={user} location={location} />
+          <RegistrationPage path="/registration" location={location} isLoggedIn={isLoggedUser} />
+          <MemberListPage path="/community/members" location={location} isLoggedIn={isLoggedUser} />
+          <MemberProfilePage path="/community/members/:memberId" location={location} isLoggedIn={isLoggedUser} />
+          <ErrorPage path="/error" location={location} isLoggedIn={isLoggedUser} />
+          <NotFoundPage default />
+        </Router>
       )}
     </Location>
   )

@@ -33,7 +33,7 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
     }
 
     const handleSeeNominations = () => {
-        navigate('/election/2022-individual-director-election/candidates')
+        navigate('/election/candidates')
     }
 
     const handleNominateMember = () => {

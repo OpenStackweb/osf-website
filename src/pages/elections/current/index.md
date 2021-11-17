@@ -14,13 +14,13 @@ menu:
   - text: ELECTION DETAILS
     link: /election
   - text: SEE THE CANDIDATES
-    link: /election/candidates    
+    link: /election/2022-individual-director-election/candidates
   - text: NOMINATE A MEMBER
     link: /a/community/members
   - text: BE A CANDIDATE
     link: /profile
   - text: GOLD MEMBER ELECTION CANDIDATES
-    link: /election/candidates/gold
+    link: /election/2022-individual-director-election/candidates/gold
   - text: CODE OF CONDUCT
     link: /legal/code-of-conduct
 ---
@@ -35,7 +35,7 @@ As a true corporate board, Board members are responsible for fiduciary duties an
 * Individual Member Directors are there to represent the Individual Members of the Foundation
 * These Directors act as the link between the thousands of members of the Foundation and the Board, and are not representing the companies for which they work
 
-When considering which candidates are best equipped to serve in this capacity, voters can review each candidate's application on the [candidate](/election/candidates) page prior to the start of the election.
+When considering which candidates are best equipped to serve in this capacity, voters can review each candidate's application on the [candidate](/election/2022-individual-director-election/candidates) page prior to the start of the election.
 
 We ask that you give every candidate on the ballot careful consideration, and not base your vote **solely** on the fact that a particular candidate works for your employer.
 
@@ -68,7 +68,7 @@ All candidates must complete the application by December 15 in order to appear o
 4. What do you see as the Board's role in OpenInfra's success?
 5. What do you think the top priority of the Board should be in 2022?
 
-A candidate's responses will appear on their public profile, as well as on [the candidates page](/election/candidates).
+A candidate's responses will appear on their public profile, as well as on [the candidates page](/election/2022-individual-director-election/candidates).
 
 #### Election Timeline Summary:
 

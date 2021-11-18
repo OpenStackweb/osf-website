@@ -11,7 +11,7 @@ hero:
   title: "OpenInfra Live: Keynotes"
   description: November 17 and 18 at 9am CT / 1500 UTC
   buttonText: Watch Now
-  buttonURL: https://youtu.be/sXkpjvX54ug
+  buttonURL: https://youtu.be/e-SMtkZu3co
   tagline: Exclusive Announcements. Live Demos. OpenStack + Kubernetes. Hybrid
     Cloud Economics.
 intro:

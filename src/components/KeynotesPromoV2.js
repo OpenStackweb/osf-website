@@ -22,7 +22,7 @@ class KeynotesPromoV2 extends React.Component {
                     </div>
 
                     <div className="buttons-row">
-                      <a href="https://youtu.be/sXkpjvX54ug"><button className="button med-button-red">Watch Now<img className="cta-arrow" src={leftArrow} alt="" /></button></a>
+                      <a href="https://youtu.be/e-SMtkZu3co"><button className="button med-button-red">Watch Now<img className="cta-arrow" src={leftArrow} alt="" /></button></a>
                       <a href="/live/keynotes"><button className="button med-button-nobg">Learn More<img className="cta-arrow" src={leftArrow} alt="" /></button></a>
                     </div>
                     

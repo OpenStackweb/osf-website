@@ -6,7 +6,8 @@ import { JSDOM } from 'jsdom'
 import { Blob } from 'blob-polyfill';
 import { XMLHttpRequest } from 'xmlhttprequest';
 
-global.dom = new JSDOM(`...`)
+// see https://github.com/jsdom/jsdom/issues/2308
+global.dom = new JSDOM(`...`,{ url: "http://localhost"});
 global.window = dom.window
 global.document = dom.window.document
 global.navigator = global.window.navigator

@@ -18,6 +18,7 @@ import { connect } from 'react-redux';
 import { AbstractAuthorizationCallbackRoute } from "openstack-uicore-foundation/lib/components";
 import { getIDPProfile } from '../actions/user-actions'
 import {IDP_BASE_URL, OAUTH2_CLIENT_ID, getEnvVariable} from '../utils/envVariables'
+import HeroComponent from "../components/HeroComponent";
 
 class AuthorizationCallbackRoute extends AbstractAuthorizationCallbackRoute {
 
@@ -38,6 +39,9 @@ class AuthorizationCallbackRoute extends AbstractAuthorizationCallbackRoute {
     return null
   }
 
+  _render(){
+    return <HeroComponent title={'Checking Credentials ...'}/>
+  }
 }
 
 const mapStateToProps = ({ loggedUserState }) => ({

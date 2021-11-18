@@ -16,22 +16,24 @@ import NotFoundPage from "./404"
 
 const App = ({ isLoggedUser, user }) => {
   return (
-    <Location>
-      {({ location }) => (
-        <Router basepath="/a" >
-          <PrivateRoute path="/profile" component={ProfilePage} isLoggedIn={isLoggedUser} user={user} location={location} />
-          <PrivateRoute path="/profile/candidate" component={CandidatePage} isLoggedIn={isLoggedUser} user={user} location={location} />
-          <PrivateRoute path="/profile/membership/resign" component={MembershipResignPage} isLoggedIn={isLoggedUser} user={user} location={location} />
-          <PrivateRoute path="/profile/membership/community" component={MembershipCommunityPage} isLoggedIn={isLoggedUser} user={user} location={location} />
-          <PrivateRoute path="/profile/membership/foundation" component={MembershipFoundationPage} isLoggedIn={isLoggedUser} user={user} location={location} />
-          <RegistrationPage path="/registration" location={location} isLoggedIn={isLoggedUser} />
-          <MemberListPage path="/community/members" location={location} isLoggedIn={isLoggedUser} />
-          <MemberProfilePage path="/community/members/:memberId" location={location} isLoggedIn={isLoggedUser} />
-          <ErrorPage path="/error" location={location} isLoggedIn={isLoggedUser} />
-          <NotFoundPage default />
-        </Router>
-      )}
-    </Location>
+      <Location>
+        {({ location }) => (
+            <Router basepath="/a" >
+              <PrivateRoute path="/" location={location}>
+                <ProfilePage path="/profile" isLoggedIn={isLoggedUser} user={user} location={location}/>
+                <CandidatePage path="/profile/candidate" isLoggedIn={isLoggedUser} user={user} location={location} />
+                <MembershipResignPage path="/profile/membership/resign" isLoggedIn={isLoggedUser} user={user} location={location}/>
+                <MembershipCommunityPage path="/profile/membership/community" isLoggedIn={isLoggedUser} user={user} location={location}/>
+                <MembershipFoundationPage path="/profile/membership/foundation" isLoggedIn={isLoggedUser} user={user} location={location}/>
+              </PrivateRoute>
+              <RegistrationPage path="/registration" location={location} isLoggedIn={isLoggedUser} />
+              <MemberListPage path="/community/members" location={location} isLoggedIn={isLoggedUser} />
+              <MemberProfilePage path="/community/members/:memberId" location={location} isLoggedIn={isLoggedUser} />
+              <ErrorPage path="/error" location={location} isLoggedIn={isLoggedUser} />
+              <NotFoundPage default />
+            </Router>
+        )}
+      </Location>
   )
 }
 

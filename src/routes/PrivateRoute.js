@@ -6,14 +6,17 @@ import { doLogin, isIdTokenAlive } from 'openstack-uicore-foundation/lib/methods
 import HeroComponent from "../components/HeroComponent";
 
 
-const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive}) => {
+const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive }) => {
+  
+  // Check if it's building to not access the state of the reducer on openstack-uicore
+  const isProduction = process.env.NODE_ENV
 
-  if (!isLoggedUser) {
+  if (!isProduction && !isLoggedUser) {
     doLogin(`${location.pathname}`);
     return null
   }
 
-  if (!isAuthorizedUser(user)) {
+  if (!isProduction && !isAuthorizedUser(user)) {
     navigate('/', {
       state: {
         error: 'no-authz'
@@ -22,16 +25,18 @@ const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive})
     return null
   }
 
-  try {
-    if (!isIdTokenAlive()) {
-      doLogin(`${location.pathname}`);
-      return <HeroComponent title={'Checking Credentials ...'}/>
+  if (!isProduction) {
+    try {      
+      if (!isIdTokenAlive()) {        
+        doLogin(`${location.pathname}`);
+        return <HeroComponent title={'Checking Credentials ...'} />
+      }      
     }
-  }
-  catch (e) {
-    console.log(e)
-    doLogin(`${location.pathname}`);
-    return <HeroComponent title={'Checking Credentials ...'}/>
+    catch (e) {      
+      console.log('catch error', e)
+      doLogin(`${location.pathname}`);
+      return <HeroComponent title={'Checking Credentials ...'} />
+    }
   }
 
   return children;
@@ -42,4 +47,4 @@ const mapStateToProps = ({ loggedUserState, userState }) => ({
   user: loggedUserState.member
 })
 
-export default connect(mapStateToProps, {isIdTokenAlive})(PrivateRoute)
+export default connect(mapStateToProps, { isIdTokenAlive })(PrivateRoute)

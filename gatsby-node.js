@@ -6,9 +6,8 @@ const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 const myEnv = require("dotenv").config({
-  path: `.env`,
-  expand: true
-})
+  path: `.env.${process.env.NODE_ENV}`,
+});
 
 exports.onPreBootstrap = async () => {
 

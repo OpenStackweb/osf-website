@@ -7,11 +7,11 @@ seo:
   image: /img/oificon-social.png
   twitterUsername: "@OpenInfraDev"
 hero:
-  subtitle: Join us for
+  subtitle: WATCH THE SPECIAL EVENT AGAIN!
   title: "OpenInfra Live: Keynotes"
-  description: November 17 and 18 at 9am CT / 1500 UTC
+  description: The biggest OpenInfra users, developers and operators from around the world!
   buttonText: Watch Now
-  buttonURL: https://youtu.be/e-SMtkZu3co
+  buttonURL: https://youtube.com/playlist?list=PLKqaoAnDyfgqUEj-Yb36T51uAOKYD08Eb
   tagline: Exclusive Announcements. Live Demos. OpenStack + Kubernetes. Hybrid
     Cloud Economics.
 intro:

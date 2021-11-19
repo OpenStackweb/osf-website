@@ -13,17 +13,16 @@ class KeynotesPromoV2 extends React.Component {
           <div className="text-area">
                   <div className="text">
 
-                    <span className="upper-title">JOIN US FOR</span>
+                    <span className="upper-title">WATCH THE SPECIAL EVENT AGAIN!</span>
                     <h1 className="title">OpenInfra Live: Keynotes</h1>
                     <p className="promo-para">Exclusive Announcements. Live Demos. OpenStack + Kubernetes. Hybrid Cloud Economics.</p>
                     <div className="dates-row">
-                      <img className="cal-icon" src={CalIcon} alt="Calendar Icon" /> 
-                      <p className="promo-dates"> November 17 and 18 at 9am CT/1500 UTC</p>
+                      <p className="promo-dates">The biggest OpenInfra users, developers and operators from around the world!</p>
                     </div>
 
                     <div className="buttons-row">
-                      <a href="https://youtu.be/e-SMtkZu3co"><button className="button med-button-red">Watch Now<img className="cta-arrow" src={leftArrow} alt="" /></button></a>
-                      <a href="/live/keynotes"><button className="button med-button-nobg">Learn More<img className="cta-arrow" src={leftArrow} alt="" /></button></a>
+                      <a href="https://youtube.com/playlist?list=PLKqaoAnDyfgqUEj-Yb36T51uAOKYD08Eb"><button className="button med-button-red">Watch Here<img className="cta-arrow" src={leftArrow} alt="" /></button></a>
+                      {/* <a href="/live/keynotes"><button className="button med-button-nobg">Learn More<img className="cta-arrow" src={leftArrow} alt="" /></button></a> */}
                     </div>
                     
                 </div>

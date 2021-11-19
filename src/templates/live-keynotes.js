@@ -59,7 +59,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                   <h1>{hero.title}</h1>
                   <p className="promo-para" dangerouslySetInnerHTML={{ __html: hero.tagline }} />
                   <div className="dates-row">
-                      <img className="cal-icon" src={CalIcon} alt="Calendar Icon" /> 
+                      {/* <img className="cal-icon" src={CalIcon} alt="Calendar Icon" />  */}
                       <p className="promo-dates" dangerouslySetInnerHTML={{ __html: hero.description }} />
                   </div>
                   <br />

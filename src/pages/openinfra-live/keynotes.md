@@ -10,9 +10,10 @@ hero:
   subtitle: WATCH THE SPECIAL EVENT AGAIN!
   title: "OpenInfra Live: Keynotes"
   description: The biggest OpenInfra users, developers and operators from around the world!
-  buttonText: Watch Now
+  buttonText: Watch Here
   buttonURL: https://youtube.com/playlist?list=PLKqaoAnDyfgqUEj-Yb36T51uAOKYD08Eb
-  tagline: Exclusive Announcements. Live Demos. OpenStack + Kubernetes. Hybrid
+  tagline:
+    Rewatch the global event! Exclusive Announcements. Live Demos. OpenStack + Kubernetes. Hybrid
     Cloud Economics.
 intro:
   text: If you miss the OpenInfra Summit, this two day special edition of

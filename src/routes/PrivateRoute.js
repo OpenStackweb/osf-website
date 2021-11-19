@@ -1,14 +1,12 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { connect } from 'react-redux'
 import { navigate } from "gatsby"
 import { isAuthorizedUser } from '../utils/authorizedGroups';
-import { doLogin, isIdTokenAlive } from 'openstack-uicore-foundation/lib/methods'
-import HeroComponent from "../components/HeroComponent";
 
+import { doLogin } from 'openstack-uicore-foundation/lib/methods'
 
-const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive}) => {
-
-  if (!isLoggedUser) {
+const PrivateRoute = ({ component: Component, isLoggedIn, location, user, ...rest }) => {
+  if (!isLoggedIn) {
     doLogin(`${location.pathname}`);
     return null
   }
@@ -22,24 +20,7 @@ const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive})
     return null
   }
 
-  try {
-    if (!isIdTokenAlive()) {
-      doLogin(`${location.pathname}`);
-      return <HeroComponent title={'Checking Credentials ...'}/>
-    }
-  }
-  catch (e) {
-    console.log(e)
-    doLogin(`${location.pathname}`);
-    return <HeroComponent title={'Checking Credentials ...'}/>
-  }
-
-  return children;
+  return (<Component location={location} {...rest} />);
 }
 
-const mapStateToProps = ({ loggedUserState, userState }) => ({
-  isLoggedUser: loggedUserState.isLoggedUser,
-  user: loggedUserState.member
-})
-
-export default connect(mapStateToProps, {isIdTokenAlive})(PrivateRoute)
+export default connect(null, {})(PrivateRoute)

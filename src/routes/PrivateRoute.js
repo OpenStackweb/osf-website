@@ -8,15 +8,16 @@ import HeroComponent from "../components/HeroComponent";
 
 const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive }) => {
   
-  // Check if it's building to not access the state of the reducer on openstack-uicore
-  const isProduction = process.env.NODE_ENV
+  // Check if it's building to not access the state of the reducer on openstack-uicore  
+  const isBrowser = typeof window !== 'undefined';  
+  console.log('is isBrowser', isBrowser, typeof window);  
 
-  if (!isProduction && !isLoggedUser) {
+  if (isBrowser && !isLoggedUser) {
     doLogin(`${location.pathname}`);
     return null
   }
 
-  if (!isProduction && !isAuthorizedUser(user)) {
+  if (isBrowser && !isAuthorizedUser(user)) {
     navigate('/', {
       state: {
         error: 'no-authz'
@@ -25,7 +26,7 @@ const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive }
     return null
   }
 
-  if (!isProduction) {
+  if (isBrowser) {
     try {      
       if (!isIdTokenAlive()) {        
         doLogin(`${location.pathname}`);

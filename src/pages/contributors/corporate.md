@@ -10,12 +10,14 @@ seo:
 title: Corporate Contributors
 subTitle:
 
-companyDetails: 
+companyDetails:
+  leftColHeading: Left Col Heading
+  rightColHeading: Right Col Heading  
   companies:
-    - name: A name
-      date: A date
-    - name: Another name
-      date: Another date
+    - name: 100 Percent IT Ltd 
+      date: '2016-05-04'
+    - name: 6WIND 
+      date: '2014-11-20'
 
 ---
 

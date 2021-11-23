@@ -37,8 +37,8 @@ export const ContributorsPageTemplate = ({
                   {companyDetails &&
                     <table>
                       <tr>
-                        <th>Company Name</th>
-                        <th>Date CCLA</th>
+                        <th>{companyDetails.leftColHeading}</th>
+                        <th>{companyDetails.rightColHeading}</th>
                       </tr>
                       {companyDetails.companies.map((c, index) => {
                         return (
@@ -114,6 +114,8 @@ export const contributorsPageQuery = graphql`
         title
         subTitle
         companyDetails {
+          leftColHeading
+          rightColHeading
           companies {
             name
             date

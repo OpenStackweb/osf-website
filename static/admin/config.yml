@@ -1113,5 +1113,9 @@ collections:
       - {label: "Title", name: title, widget: string}
       - {label: "Sub Title", name: subTitle, widget: string}
       - {label: "Body", name: body, widget: markdown}
-      - {label: "Company Name", name: companyName, widget: string}
-      - {label: "Company Date", name: companyDate, widget: string}
+      - {label: "Companies", name: companyDetails, widget: object, fields: [
+          {label: Companies, name: companies, widget: list, fields: [
+            {label: Name, name: name, widget: string},
+            {label: Date, name: date, widgeT: string}
+          ]}
+        ]}

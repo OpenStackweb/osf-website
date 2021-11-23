@@ -16,8 +16,7 @@ export const ContributorsPageTemplate = ({
   subTitle,
   content,
   contentComponent,
-  companyName,
-  companyDate
+  companyDetails
 }) => {
   const PageContent = contentComponent || Content
 
@@ -35,20 +34,22 @@ export const ContributorsPageTemplate = ({
               <div className="columns">
                 <div className="column">
                   <PageContent content={content} />
-
-                    <section className="contributor-table">
-                      <table>
-                        <tr>
-                          <th>Company Name</th>
-                          <th>Date CCLA</th>
-                        </tr>
-                        <tr>
-                          <th>{companyName}</th>
-                          <th>{companyDate}</th>
-                        </tr>
-                      </table>
-                    </section>
-
+                  {companyDetails &&
+                    <table>
+                      <tr>
+                        <th>Company Name</th>
+                        <th>Date CCLA</th>
+                      </tr>
+                      {companyDetails.companies.map((c, index) => {
+                        return (
+                      <tr key={`companyDetail-${index}`}>
+                        <td >{c.name}</td>
+                        <td >{c.date}</td> 
+                      </tr>
+                        )
+                      })}
+                    </table>
+                  }
                 </div>
               </div>
             </div>
@@ -77,6 +78,7 @@ const ContributorsPage = ({ isLoggedUser, data }) => {
         title={post.frontmatter.title}
         subTitle={post.frontmatter.subTitle}
         content={post.html}
+        companyDetails={post.frontmatter.companyDetails}
       />
     </Layout>
   )
@@ -111,8 +113,12 @@ export const contributorsPageQuery = graphql`
         }
         title
         subTitle
-        companyName
-        companyDate
+        companyDetails {
+          companies {
+            name
+            date
+          }
+        }
       }
       
     }

@@ -6,14 +6,18 @@ const ContributorsPagePreview = ({ entry, widgetFor }) => {
 
   const data = entry.getIn(['data']).toJS()
 
+  const entryCases = entry.getIn(['data', 'companyDetails', 'companies'])
+  const companies = entryCases ? entryCases.toJS() : []
+
   if (data) {
     return (
       <ContributorsPageTemplate
         title={entry.getIn(['data', 'title'])}
         subTitle={entry.getIn(['data', 'subTitle'])}
         content={widgetFor('body')}
-        companyName={entry.getIn(['data', 'companyName'])}
-        companyDate={entry.getIn(['data', 'companyDate'])}
+        companyDetails={{
+            companies: companies,
+        }}
       />
     )
   } else {

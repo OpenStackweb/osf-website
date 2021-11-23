@@ -20,6 +20,7 @@ import UserSurveyPagePreview from './preview-templates/UserSurveyPagePreview'
 import SurveyTypePreview from './preview-templates/SurveyTypePreview'
 import HybridCloudPagePreview from './preview-templates/HybridCloudPagePreview'
 import ElectionPagePreview from './preview-templates/ElectionPagePreview'
+import ContributorsPagePreview from './preview-templates/ContributorsPagePreview'
 
 CMS.registerPreviewStyle('style/styles.scss');
 
@@ -48,3 +49,4 @@ CMS.registerPreviewTemplate('user-survey', UserSurveyPagePreview)
 CMS.registerPreviewTemplate('survey-types-pages', SurveyTypePreview)
 CMS.registerPreviewTemplate('hybrid-cloud-page', HybridCloudPagePreview)
 CMS.registerPreviewTemplate('electionPage', ElectionPagePreview)
+CMS.registerPreviewTemplate('contributors-pages', ContributorsPagePreview)

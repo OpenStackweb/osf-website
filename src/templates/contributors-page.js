@@ -14,7 +14,6 @@ export const ContributorsPageTemplate = ({
   isLoggedUser,
   title,
   subTitle,
-  footer,
   content,
   contentComponent
 }) => {
@@ -34,6 +33,16 @@ export const ContributorsPageTemplate = ({
               <div className="columns">
                 <div className="column">
                   <PageContent content={content} />
+                  <table>
+                    <tr>
+                      <th>Company Name</th>
+                      <th>Date CCLA</th>
+                    </tr>
+                    <tr>
+                      <td>Company 1</td>
+                      <td>YYYY-MM-DD</td>
+                    </tr>
+                  </table>
                 </div>
               </div>
             </div>

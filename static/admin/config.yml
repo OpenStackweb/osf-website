@@ -1097,3 +1097,19 @@ collections:
               { label: "Text", name: "text", widget: string, required: true },
               { label: "Link", name: "link", widget: string, required: true }
             ] }
+  - name: "contributors-pages"
+    label: "Contributors Pages"
+    folder: "src/pages/contributors/"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contributors-page"}
+      - {label: SEO, name: seo, widget: object, fields: [
+          {label: "Title", name: "title", widget: string},
+          {label: "Description", name: "description", widget: string},
+          {label: "Url", name: "url", widget: string},
+          {label: "Image", name: "image", widget: image},
+          {label: "Twitter Username", name: "twitterUsername", widget: string},
+        ]}
+      - {label: "Title", name: title, widget: string}
+      - {label: "Sub Title", name: subTitle, widget: string}
+      - {label: "Body", name: body, widget: markdown}

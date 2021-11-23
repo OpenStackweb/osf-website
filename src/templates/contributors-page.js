@@ -7,7 +7,7 @@ import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
-import { sortTableAlpha, sortTableNumber } from '../components/SortTable'
+import { sortTable } from '../components/SortTable'
 
 import { connect } from "react-redux";
 
@@ -41,11 +41,11 @@ export const ContributorsPageTemplate = ({
                       <tr>
                         <th className="with-icon">
                           {companyDetails.leftColHeading}
-                          <i onClick={() => sortTableAlpha(0)} className="fa fa-chevron-up" />
+                          <i onClick={() => sortTable(0)} className="fa fa-chevron-up sort-icon" />
                         </th>
                         <th className="with-icon">
                           {companyDetails.rightColHeading}
-                          <i onClick={() => sortTableAlpha(0)} className="fa fa-chevron-up" />
+                          <i onClick={() => sortTable(1)} className="fa fa-chevron-up sort-icon" />
                         </th>
                       </tr>
                       </thead>

@@ -11,8 +11,8 @@ title: Corporate Contributors
 subTitle:
 
 companyDetails:
-  leftColHeading: Left Col Heading
-  rightColHeading: Right Col Heading  
+  leftColHeading: Company Name
+  rightColHeading: Date CCLA
   companies:
     - name: 100 Percent IT Ltd 
       date: '2016-05-04'

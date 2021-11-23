@@ -12,6 +12,8 @@ const ContributorsPagePreview = ({ entry, widgetFor }) => {
         title={entry.getIn(['data', 'title'])}
         subTitle={entry.getIn(['data', 'subTitle'])}
         content={widgetFor('body')}
+        companyName={entry.getIn(['data', 'companyName'])}
+        companyDate={entry.getIn(['data', 'companyDate'])}
       />
     )
   } else {

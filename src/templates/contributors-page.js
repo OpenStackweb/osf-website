@@ -15,7 +15,9 @@ export const ContributorsPageTemplate = ({
   title,
   subTitle,
   content,
-  contentComponent
+  contentComponent,
+  companyName,
+  companyDate
 }) => {
   const PageContent = contentComponent || Content
 
@@ -33,16 +35,20 @@ export const ContributorsPageTemplate = ({
               <div className="columns">
                 <div className="column">
                   <PageContent content={content} />
-                  <table>
-                    <tr>
-                      <th>Company Name</th>
-                      <th>Date CCLA</th>
-                    </tr>
-                    <tr>
-                      <td>Company 1</td>
-                      <td>YYYY-MM-DD</td>
-                    </tr>
-                  </table>
+
+                    <section className="contributor-table">
+                      <table>
+                        <tr>
+                          <th>Company Name</th>
+                          <th>Date CCLA</th>
+                        </tr>
+                        <tr>
+                          <th>{companyName}</th>
+                          <th>{companyDate}</th>
+                        </tr>
+                      </table>
+                    </section>
+
                 </div>
               </div>
             </div>
@@ -54,9 +60,9 @@ export const ContributorsPageTemplate = ({
 }
 
 ContributorsPageTemplate.propTypes = {
-  companies: PropTypes.object,
   title: PropTypes.string,
   subTitle: PropTypes.string,
+  
 }
 
 const ContributorsPage = ({ isLoggedUser, data }) => {
@@ -105,7 +111,10 @@ export const contributorsPageQuery = graphql`
         }
         title
         subTitle
+        companyName
+        companyDate
       }
+      
     }
   }
 `

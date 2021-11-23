@@ -1,0 +1,13 @@
+table.corpTable {
+    border: 1px solid #e0e0df;
+    td {
+        border: 1px solid #e0e0df;  
+    }
+    th.with-icon {
+        background-color: #f3f3f3;
+        border: 1px solid #e0e0df;
+        .fa.sort-icon {
+            float: right;
+        }
+    }
+}

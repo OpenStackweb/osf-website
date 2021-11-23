@@ -14,10 +14,14 @@ companyDetails:
   leftColHeading: Company Name
   rightColHeading: Date CCLA
   companies:
-    - name: 100 Percent IT Ltd 
-      date: '2016-05-04'
-    - name: 6WIND 
-      date: '2014-11-20'
+    - name: Accenture
+      date: '2017-03-30'
+    - name: Cloud.com
+      date: '2010-07-27'
+    - name: HP Enterprise
+      date: '2015-09-23'
+    - name: NEC Corporation
+      date: '2011-08-09'
 
 ---
 

@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
+import { sortTableAlpha, sortTableNumber } from '../components/SortTable'
 
 import { connect } from "react-redux";
 
@@ -35,11 +36,20 @@ export const ContributorsPageTemplate = ({
                 <div className="column">
                   <PageContent content={content} />
                   {companyDetails &&
-                    <table>
+                    <table id="corpTable" className="corpTable">
+                    <thead>
                       <tr>
-                        <th>{companyDetails.leftColHeading}</th>
-                        <th>{companyDetails.rightColHeading}</th>
+                        <th className="with-icon">
+                          {companyDetails.leftColHeading}
+                          <i onClick={() => sortTableAlpha(0)} className="fa fa-chevron-up" />
+                        </th>
+                        <th className="with-icon">
+                          {companyDetails.rightColHeading}
+                          <i onClick={() => sortTableAlpha(0)} className="fa fa-chevron-up" />
+                        </th>
                       </tr>
+                      </thead>
+                      <tbody>
                       {companyDetails.companies.map((c, index) => {
                         return (
                       <tr key={`companyDetail-${index}`}>
@@ -48,6 +58,7 @@ export const ContributorsPageTemplate = ({
                       </tr>
                         )
                       })}
+                    </tbody>
                     </table>
                   }
                 </div>

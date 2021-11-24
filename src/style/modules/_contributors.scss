@@ -6,8 +6,17 @@ table.corpTable {
     th.with-icon {
         background-color: #f3f3f3;
         border: 1px solid #e0e0df;
+
         .fa.sort-icon {
+            opacity: 0.4;
             float: right;
+        }
+        .sort-icon {
+            border: none;
+            text-align: center;
+            font-style: normal;
+            float: right;
+            font-size: 16px;
         }
     }
 }

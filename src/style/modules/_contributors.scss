@@ -1,12 +1,16 @@
+
 table.corpTable {
     border: 1px solid #e0e0df;
+    font-size: 17px;
     td {
         border: 1px solid #e0e0df;  
     }
     th.with-icon {
         background-color: #f3f3f3;
         border: 1px solid #e0e0df;
-
+        span {
+            text-align: center;
+        }
         .fa.sort-icon {
             opacity: 0.4;
             float: right;
@@ -17,6 +21,20 @@ table.corpTable {
             font-style: normal;
             float: right;
             font-size: 16px;
+            max-height: 20px;
         }
+    }
+    th.with-icon.leftCol {
+        width: 65%;
+        @media (max-width: 767px) {
+            width: 50%;
+          }
+    }
+
+    th.with-iconrightCol {
+        width: 35%;
+        @media (max-width: 767px) {
+            width: 50%;
+          }
     }
 }

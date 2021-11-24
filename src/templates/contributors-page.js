@@ -40,13 +40,13 @@ export const ContributorsPageTemplate = ({
                     <table id="corpTable" className="corpTable">
                     <thead>
                       <tr>
-                        <th className="with-icon">
+                        <th className="with-icon leftCol">
                           {companyDetails.leftColHeading}
                           <span onClick={() => sortTable(0)}>
                           <SortButton id="left-button" />
                           </span>
                         </th>
-                        <th className="with-icon">
+                        <th className="with-icon rightCol">
                           {companyDetails.rightColHeading}
                           <span onClick={() => sortTable(1)}>
                           <SortButton id="right-button" />

@@ -19,7 +19,6 @@ class SortButton extends React.Component {
     event.preventDefault();
     const id = event.target.id;
     this.setState({ id: id });
-    console.log(this.state.id);
     let icon = document.getElementById(id);
     let iconUp = "fa fa-chevron-up sort-icon";
     let iconDown = "fa fa-chevron-down sort-icon";
@@ -29,7 +28,6 @@ class SortButton extends React.Component {
 
     this.setState(prevState => ({ direction: !prevState.direction }));
     this.setState(prevState => ({ selected: !prevState.selected }));
-    console.log(this.state.selected);
 
     if (id === "left-button") {
 

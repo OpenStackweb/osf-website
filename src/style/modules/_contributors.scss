@@ -10,11 +10,16 @@ table.corpTable {
         span {
             text-align: center;
         }
+        i:hover {
+            opacity: 1 !important;
+            cursor: pointer;
+        }
         .fa.sort-icon {
             opacity: 0.4;
             float: right;
         }
         .sort-icon {
+            opacity: 0.4;
             border: none;
             text-align: center;
             font-style: normal;
@@ -23,6 +28,7 @@ table.corpTable {
             max-height: 20px;
         }
     }
+
     th.with-icon.leftCol {
         width: 65%;
         @media (max-width: 767px) {

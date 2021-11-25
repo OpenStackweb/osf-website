@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from "react-helmet"
 
 class SortButton extends React.Component {
   
@@ -22,7 +23,7 @@ class SortButton extends React.Component {
     let icon = document.getElementById(id);
     let iconUp = "fa fa-chevron-up sort-icon";
     let iconDown = "fa fa-chevron-down sort-icon";
-    let iconDefault = "&#xf0dc;";
+    let iconDefault = "fas fa-sort sort-icon";
     let rightButton = document.getElementById("right-button");
     let leftButton = document.getElementById("left-button");
 
@@ -31,18 +32,16 @@ class SortButton extends React.Component {
     console.log(this.state.selected);
 
     if (id === "left-button") {
-      document.getElementById(id).innerHTML = ""; 
+
       icon.style.opacity = "1";
       rightButton.style.opacity = ".4";
-      rightButton.innerHTML = iconDefault; 
-      rightButton.className = "sort-icon";
+      rightButton.className = iconDefault;
       
-    } else if (id === "" || "right-button") {
-      document.getElementById(id).innerHTML = ""; 
+    } else if (id === "right-button") {
+
       icon.style.opacity = "1";
       leftButton.style.opacity = ".4";
-      leftButton.innerHTML = iconDefault; 
-      leftButton.className = "sort-icon";
+      leftButton.className = iconDefault;
     }
 
     if (this.state.direction === true) {
@@ -55,7 +54,12 @@ class SortButton extends React.Component {
   render() {
     
     return (
-      <i id={this.props.id} onClick={this.handleClick} className="sort-icon">&#xf0dc;</i>
+      <>
+        <Helmet>
+          <script src="https://kit.fontawesome.com/9438df25f9.js" crossorigin="anonymous"></script>
+        </Helmet>
+        <i id={this.props.id} onClick={this.handleClick} className="fas fa-sort sort-icon" />
+      </>
     )
   }
 }

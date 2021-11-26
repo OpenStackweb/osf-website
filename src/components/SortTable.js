@@ -54,5 +54,6 @@ export function sortTable(n) {
           switching = true;
         }
       }
+      return dir;
     }
 }

@@ -1,12 +1,19 @@
 table.corpTable {
     border: 1px solid #e0e0df;
     font-size: 17px;
+    vertical-align: middle;
+    @media (max-width: 767px) {
+        font-size: 14px;
+      }
     td {
         border: 1px solid #e0e0df;  
     }
     th.with-icon {
         background-color: #f3f3f3;
         border: 1px solid #e0e0df;
+        @media (max-width: 767px) {
+            padding-top: 10px;
+          }
         span {
             text-align: center;
         }
@@ -26,6 +33,10 @@ table.corpTable {
             float: right;
             font-size: 16px;
             max-height: 20px;
+            @media (max-width: 767px) {
+                font-size: 14px;
+                padding-top: 1.5px;
+              }
         }
     }
 
@@ -34,9 +45,10 @@ table.corpTable {
         @media (max-width: 767px) {
             width: 50%;
           }
+
     }
 
-    th.with-iconrightCol {
+    th.with-icon.rightCol {
         width: 35%;
         @media (max-width: 767px) {
             width: 50%;

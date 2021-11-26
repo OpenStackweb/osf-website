@@ -1,18 +1,95 @@
 import React from 'react'
 import { Helmet } from "react-helmet"
+// import { sortTable } from './SortTable'
+
+export const setInitialState = () => {
+  let elementExists = document.getElementById("corpTable");
+  if (elementExists) {
+    console.log("it's working");
+    
+  }
+}
 
 class SortButton extends React.Component {
   
   constructor(props) {
     super(props);
+    this.sortTable = this.sortTable.bind(this);
     this.handleClick = this.handleClick.bind(this);
 
     this.state = {
       id: "",
-      direction: true,
-      selected: true
+      dir: ""
     };
   }
+
+  sortTable(n) {
+    let table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    table = document.getElementById("corpTable");
+    switching = true;
+    this.setState({ dir: "asc" });
+    // Set the sorting direction to ascending:
+    dir = "asc";
+    
+    /* Make a loop that will continue until
+    no switching has been done: */
+    while (switching) {
+
+      // Start by saying: no switching is done:
+      switching = false;
+      rows = table.rows;
+      /* Loop through all table rows (except the
+      first, which contains table headers): */
+      for (i = 1; i < (rows.length - 1); i++) {
+        // Start by saying there should be no switching:
+        shouldSwitch = false;
+        /* Get the two elements you want to compare,
+        one from current row and one from the next: */
+        x = rows[i].getElementsByTagName("TD")[n];
+        y = rows[i + 1].getElementsByTagName("TD")[n];
+        /* Check if the two rows should switch place,
+        based on the direction, asc or desc: */
+        if (dir === "asc") {
+          this.setState({ dir: "desc" });
+          console.log('state change', this.state.dir);
+          if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+            // If so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+
+        } else if (dir === "desc") {
+          this.setState({ dir: "asc" });
+          console.log('state change', this.state.dir);
+          if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+            // If so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+
+        }
+      }
+      if (shouldSwitch) {
+        /* If a switch has been marked, make the switch
+        and mark that a switch has been done: */
+        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+        switching = true;
+        // Each time a switch is done, increase this count by 1:
+        switchcount ++;
+
+        console.log('swap');
+      } else {
+        /* If no switching has been done AND the direction is "asc",
+        set the direction to "desc" and run the while loop again. */
+        if (switchcount === 0 && dir === "asc") {
+          dir = "desc";
+          switching = true;
+        }
+      }
+    }
+
+    console.log('4', this.state.dir);
+}
   
   handleClick(event) {
     
@@ -26,26 +103,30 @@ class SortButton extends React.Component {
     let rightButton = document.getElementById("right-button");
     let leftButton = document.getElementById("left-button");
 
-    this.setState(prevState => ({ direction: !prevState.direction }));
-    this.setState(prevState => ({ selected: !prevState.selected }));
+    console.log('state', this.state);
 
+    // Check if button is in left column or right column, change buttons
     if (id === "left-button") {
-
+      this.sortTable(0);
+      console.log('2', this.state.dir);
       icon.style.opacity = "1";
       rightButton.style.opacity = ".4";
       rightButton.className = iconDefault;
       
     } else if (id === "right-button") {
-
+      this.sortTable(1);
+      console.log('3', this.state.dir);
       icon.style.opacity = "1";
       leftButton.style.opacity = ".4";
       leftButton.className = iconDefault;
     }
 
-    if (this.state.direction === true) {
-      icon.className = iconDown;
-    } else if (this.state.direction === false) {
+  // Check if button should be up or down arrow
+    console.log('1', this.state.dir);
+    if (this.state.dir === "asc") {
       icon.className = iconUp;
+    } else if (this.state.dir === "desc") {
+      icon.className = iconDown;
     }
   }
 

@@ -7,7 +7,6 @@ import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
-import { sortTable } from '../components/SortTable'
 import SortButton from '../components/SortButton'
 
 import { connect } from "react-redux";
@@ -42,15 +41,15 @@ export const ContributorsPageTemplate = ({
                       <tr>
                         <th className="with-icon leftCol">
                           {companyDetails.leftColHeading}
-                          <span onClick={() => sortTable(0)}>
+
                           <SortButton id="left-button" />
-                          </span>
+                          
                         </th>
                         <th className="with-icon rightCol">
                           {companyDetails.rightColHeading}
-                          <span onClick={() => sortTable(1)}>
+
                           <SortButton id="right-button" />
-                          </span>
+                          
                         </th>
                       </tr>
                       </thead>

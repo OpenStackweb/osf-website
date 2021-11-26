@@ -1,14 +1,5 @@
 import React from 'react'
 import { Helmet } from "react-helmet"
-// import { sortTable } from './SortTable'
-
-export const setInitialState = () => {
-  let elementExists = document.getElementById("corpTable");
-  if (elementExists) {
-    console.log("it's working");
-    
-  }
-}
 
 class SortButton extends React.Component {
   
@@ -16,18 +7,22 @@ class SortButton extends React.Component {
     super(props);
     this.sortTable = this.sortTable.bind(this);
     this.handleClick = this.handleClick.bind(this);
-
     this.state = {
       id: "",
       dir: ""
     };
   }
 
+  componentDidMount() {
+    console.log("this is firing");
+    this.sortTable(1);
+    this.sortTable(0);
+  }
+
   sortTable(n) {
     let table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
     table = document.getElementById("corpTable");
     switching = true;
-    this.setState({ dir: "asc" });
     // Set the sorting direction to ascending:
     dir = "asc";
     
@@ -51,7 +46,6 @@ class SortButton extends React.Component {
         based on the direction, asc or desc: */
         if (dir === "asc") {
           this.setState({ dir: "desc" });
-          console.log('state change', this.state.dir);
           if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
             // If so, mark as a switch and break the loop:
             shouldSwitch = true;
@@ -60,7 +54,6 @@ class SortButton extends React.Component {
 
         } else if (dir === "desc") {
           this.setState({ dir: "asc" });
-          console.log('state change', this.state.dir);
           if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
             // If so, mark as a switch and break the loop:
             shouldSwitch = true;
@@ -75,9 +68,9 @@ class SortButton extends React.Component {
         rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
         switching = true;
         // Each time a switch is done, increase this count by 1:
+        console.log(switchcount);
         switchcount ++;
-
-        console.log('swap');
+        
       } else {
         /* If no switching has been done AND the direction is "asc",
         set the direction to "desc" and run the while loop again. */
@@ -87,8 +80,6 @@ class SortButton extends React.Component {
         }
       }
     }
-
-    console.log('4', this.state.dir);
 }
   
   handleClick(event) {
@@ -108,26 +99,25 @@ class SortButton extends React.Component {
     // Check if button is in left column or right column, change buttons
     if (id === "left-button") {
       this.sortTable(0);
-      console.log('2', this.state.dir);
       icon.style.opacity = "1";
       rightButton.style.opacity = ".4";
       rightButton.className = iconDefault;
       
     } else if (id === "right-button") {
       this.sortTable(1);
-      console.log('3', this.state.dir);
       icon.style.opacity = "1";
       leftButton.style.opacity = ".4";
       leftButton.className = iconDefault;
     }
 
   // Check if button should be up or down arrow
-    console.log('1', this.state.dir);
+    
     if (this.state.dir === "asc") {
       icon.className = iconUp;
     } else if (this.state.dir === "desc") {
       icon.className = iconDown;
     }
+    console.log(this.state.dir);
   }
 
   render() {
@@ -137,7 +127,7 @@ class SortButton extends React.Component {
         <Helmet>
           <script src="https://kit.fontawesome.com/9438df25f9.js" crossorigin="anonymous"></script>
         </Helmet>
-        <i id={this.props.id} onClick={this.handleClick} className="fas fa-sort sort-icon" />
+        <i clicks={this.props.clicks} id={this.props.id} onClick={this.handleClick} className="fas fa-sort sort-icon" />
       </>
     )
   }

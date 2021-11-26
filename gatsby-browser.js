@@ -2,7 +2,6 @@
 import { browserWrapper } from "./src/state/ReduxWrapper"
 import { checkUrl } from "./src/components/ContactFormVertical";
 import { checkUrlHorizontal } from "./src/components/ContactFormHorizontal";
-import { setInitialState } from "./src/components/SortButton"
 
 // @see wrapRootElement
 export const wrapRootElement = browserWrapper;
@@ -15,5 +14,4 @@ window.API_BASE_URL = process.env.GATSBY_API_BASE_URL;
 export const onRouteUpdate = ({ location, prevLocation }) => {
   checkUrl();
   checkUrlHorizontal();
-  setInitialState();
 }

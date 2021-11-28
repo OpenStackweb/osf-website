@@ -42,13 +42,13 @@ export const ContributorsPageTemplate = ({
                         <th className="with-icon leftCol">
                           {companyDetails.leftColHeading}
 
-                          <SortButton clicks={0} id="left-button" />
+                          <SortButton id="left-button" direction="asc" />
                           
                         </th>
                         <th className="with-icon rightCol">
                           {companyDetails.rightColHeading}
 
-                          <SortButton clicks={0} id="right-button" />
+                          <SortButton id="right-button" direction="asc" />
                           
                         </th>
                       </tr>

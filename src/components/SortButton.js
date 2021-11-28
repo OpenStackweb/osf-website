@@ -7,20 +7,23 @@ class SortButton extends React.Component {
     super(props);
     this.sortTable = this.sortTable.bind(this);
     this.handleClick = this.handleClick.bind(this);
-    this.state = {
-      id: "",
-      dir: ""
-    };
+    this.iconUp = "fa fa-chevron-up sort-icon";
+    this.iconDown = "fa fa-chevron-down sort-icon";
+    this.iconDefault = "fas fa-sort sort-icon";
   }
 
   componentDidMount() {
-    console.log("this is firing");
-    this.sortTable(1);
     this.sortTable(0);
+    document.getElementById("right-button").className = this.iconDefault;
+    document.getElementById("left-button").className = this.iconDefault;
   }
+
+   // Sorts table and toggles arrows
 
   sortTable(n) {
     let table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    let icon = document.getElementById(this.props.id);
+
     table = document.getElementById("corpTable");
     switching = true;
     // Set the sorting direction to ascending:
@@ -45,7 +48,7 @@ class SortButton extends React.Component {
         /* Check if the two rows should switch place,
         based on the direction, asc or desc: */
         if (dir === "asc") {
-          this.setState({ dir: "desc" });
+          icon.className = this.iconUp;
           if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
             // If so, mark as a switch and break the loop:
             shouldSwitch = true;
@@ -53,7 +56,7 @@ class SortButton extends React.Component {
           }
 
         } else if (dir === "desc") {
-          this.setState({ dir: "asc" });
+          icon.className = this.iconDown;
           if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
             // If so, mark as a switch and break the loop:
             shouldSwitch = true;
@@ -68,7 +71,6 @@ class SortButton extends React.Component {
         rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
         switching = true;
         // Each time a switch is done, increase this count by 1:
-        console.log(switchcount);
         switchcount ++;
         
       } else {
@@ -79,45 +81,35 @@ class SortButton extends React.Component {
           switching = true;
         }
       }
+
     }
 }
-  
+
+// Sorts table and toggles arrows
+
   handleClick(event) {
     
     event.preventDefault();
-    const id = event.target.id;
-    this.setState({ id: id });
-    let icon = document.getElementById(id);
-    let iconUp = "fa fa-chevron-up sort-icon";
-    let iconDown = "fa fa-chevron-down sort-icon";
-    let iconDefault = "fas fa-sort sort-icon";
+    let icon = document.getElementById(this.props.id);
     let rightButton = document.getElementById("right-button");
     let leftButton = document.getElementById("left-button");
+    let oppositeButton;
 
-    console.log('state', this.state);
+    // Check if button is in left or right column, change buttons
 
-    // Check if button is in left column or right column, change buttons
-    if (id === "left-button") {
+    if (this.props.id === "left-button") {
       this.sortTable(0);
       icon.style.opacity = "1";
-      rightButton.style.opacity = ".4";
-      rightButton.className = iconDefault;
-      
-    } else if (id === "right-button") {
+      oppositeButton = rightButton;
+      oppositeButton.style.opacity = ".4";
+      oppositeButton.className = this.iconDefault;
+    } else if (this.props.id === "right-button") {
       this.sortTable(1);
       icon.style.opacity = "1";
-      leftButton.style.opacity = ".4";
-      leftButton.className = iconDefault;
+      oppositeButton = leftButton;
+      oppositeButton.style.opacity = ".4";
+      oppositeButton.className = this.iconDefault;
     }
-
-  // Check if button should be up or down arrow
-    
-    if (this.state.dir === "asc") {
-      icon.className = iconUp;
-    } else if (this.state.dir === "desc") {
-      icon.className = iconDown;
-    }
-    console.log(this.state.dir);
   }
 
   render() {
@@ -127,7 +119,7 @@ class SortButton extends React.Component {
         <Helmet>
           <script src="https://kit.fontawesome.com/9438df25f9.js" crossorigin="anonymous"></script>
         </Helmet>
-        <i clicks={this.props.clicks} id={this.props.id} onClick={this.handleClick} className="fas fa-sort sort-icon" />
+        <i id={this.props.id} onClick={this.handleClick} className="fas fa-sort sort-icon" />
       </>
     )
   }

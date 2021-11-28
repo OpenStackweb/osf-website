@@ -12,6 +12,8 @@ class SortButton extends React.Component {
     this.iconDefault = "fas fa-sort sort-icon";
   }
 
+// Sets default sort to ascending by company name and adds default icons
+
   componentDidMount() {
     this.sortTable(0);
     document.getElementById("right-button").className = this.iconDefault;

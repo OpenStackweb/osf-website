@@ -119,7 +119,7 @@ class SortButton extends React.Component {
         <Helmet>
           <script src="https://kit.fontawesome.com/9438df25f9.js" crossorigin="anonymous"></script>
         </Helmet>
-        <i id={this.props.id} onClick={this.handleClick} className="fas fa-sort sort-icon" />
+        <i id={this.props.id} onClick={this.handleClick} className="" />
       </>
     )
   }

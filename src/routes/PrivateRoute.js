@@ -33,7 +33,7 @@ const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive, 
     return <HeroComponent title={'Checking Credentials ...'}/>
   }
 
-  return ({children})
+  return children;
 }
 
 const mapStateToProps = ({ loggedUserState }) => ({

@@ -265,13 +265,15 @@ companyTier:
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_AWCloud 1.png
           alt: ""
+        - logo: /img/b1systems_md.jpeg
         - logo: /img/members-page/silver-tier/binero-silver 1.png
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_CDAC 1.png
           alt: ""
         - logo: /img/members-page/silver-tier/cloudandheat-sponsor 1.png
           alt: ""
-        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_CloudbaseSolutions 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_CloudbaseSolutions
+            1.png
           alt: ""
         - logo: /img/members-page/silver-tier/cloudfiresilver 1.png
           alt: ""
@@ -328,7 +330,8 @@ companyTier:
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_StackHPC 1.png
           alt: ""
-        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_UltimumTechnologies 1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_UltimumTechnologies
+            1.png
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Vexxhost 1.png
           alt: ""

@@ -58,7 +58,7 @@ export const ContributorsPageTemplate = ({
                         return (
                       <tr key={`companyDetail-${index}`}>
                         <td >{c.name}</td>
-                        <td >{c.date}</td> 
+                        <td dangerouslySetInnerHTML={{__html: c.date}}></td> 
                       </tr>
                         )
                       })}

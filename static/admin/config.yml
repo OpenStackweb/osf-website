@@ -1099,25 +1099,27 @@ collections:
             ] }
   - name: "contributors-pages"
     label: "Contributors Pages"
-    folder: "src/pages/contributors/"
-    create: true
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contributors-page"}
-      - {label: SEO, name: seo, widget: object, fields: [
-          {label: "Title", name: "title", widget: string},
-          {label: "Description", name: "description", widget: string},
-          {label: "Url", name: "url", widget: string},
-          {label: "Image", name: "image", widget: image},
-          {label: "Twitter Username", name: "twitterUsername", widget: string},
-        ]}
-      - {label: "Title", name: title, widget: string}
-      - {label: "Sub Title", name: subTitle, widget: string, required: false }
-      - {label: "Body", name: body, widget: markdown}
-      - {label: "Companies Table", name: companyDetails, widget: object, fields: [
-          {label: "Left Column Heading", name: leftColHeading, widget: string},
-          {label: "Right Column Heading", name: rightColHeading, widget: string},
-          {label: Companies, name: companies, widget: list, fields: [
-            {label: Name, name: name, widget: string},
-            {label: Date, name: date, widgeT: string}
-          ]}
-        ]}
+    files:
+      - file: "src/pages/contributors/corporate.md"
+        label: "Contributors - Corporate"
+        name: "contributors-pages"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contributors-page"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sub Title", name: subTitle, widget: string, required: false }
+          - {label: "Body", name: body, widget: markdown}
+          - {label: "Companies Table", name: companyDetails, widget: object, fields: [
+              {label: "Left Column Heading", name: leftColHeading, widget: string},
+              {label: "Right Column Heading", name: rightColHeading, widget: string},
+              {label: Companies, name: companies, widget: list, fields: [
+                {label: Name, name: name, widget: string},
+                {label: Date, name: date, widgeT: string}
+              ]}
+            ]}

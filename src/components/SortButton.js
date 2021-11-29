@@ -10,6 +10,7 @@ class SortButton extends React.Component {
     this.iconUp = "fa fa-chevron-up sort-icon";
     this.iconDown = "fa fa-chevron-down sort-icon";
     this.iconDefault = "fas fa-sort sort-icon";
+    this.table = "corpTable";
   }
 
 // Sets default sort to ascending by company name and adds default icons
@@ -23,10 +24,10 @@ class SortButton extends React.Component {
    // Sorts table and toggles arrows
 
   sortTable(n) {
-    let table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    let table = document.getElementById(this.table);
     let icon = document.getElementById(this.props.id);
+    let rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
 
-    table = document.getElementById("corpTable");
     switching = true;
     // Set the sorting direction to ascending:
     dir = "asc";

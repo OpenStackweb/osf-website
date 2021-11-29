@@ -22,9 +22,12 @@ menu:
     link: /election/candidates/gold
   - text: CODE OF CONDUCT
     link: ../../../legal/code-of-conduct
+  - text: REPORT A BUG
+    link: mailto:info@openinfra.dev
 howToVote:
   title: HOW TO VOTE
-  description: "If you are an eligible voter, you should have received an email with the subject
+  description:
+    "If you are an eligible voter, you should have received an email with the subject
     <b>Open Infrastructure Foundation - {$ElectionName}</b> from
     secretary@openinfra.dev. This email includes your unique voting link. If you did
     not receive an email, please contact <a href='mailto:secretary@openinfra.dev'>

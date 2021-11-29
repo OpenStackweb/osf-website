@@ -15,6 +15,17 @@ hero:
     at 15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-12-16T15:00:08.589Z
+    youtubeLink: https://youtu.be/sU_4ibfgvAo
+    youtubeEmbed: https://www.youtube.com/embed/sU_4ibfgvAo
+    episodeDescription: >
+      Launched by the OpenInfra Foundation in April of this year, OpenInfra Live
+      has assembled the global community weekly to hear the latest trends and
+      updates straight from the community itself. Join us as we go through our
+      OpenInfra Live highlights reel.
+    episodeTitle: "#BestOf OpenInfra Live"
+    calendarInvite: /static/invites/myevents-15-.ics
+  - hidden: false
     date: 2021-12-09T14:00:54.214Z
     episodeTitle: "Large Scale OpenStack: Operators’ Tricks and Tools"
     episodeDescription: This new episode of the “Large Scale OpenStack” show will

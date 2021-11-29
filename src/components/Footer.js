@@ -27,10 +27,15 @@ const Footer = class extends React.Component {
                           </li>
                         )
                       })}                                            
-                    </ul>                            
+                    </ul>
                   </div>
                 )
-              })}              
+              })}
+              <div>
+                  <p className="footer-bug">
+                    Find an issue with anything on this site? <a href="mailto:info@openinfra.dev" className="footer-list">Report a bug</a>
+                </p>
+              </div>  
             </div>
           </div> 
           <div className="footer-container-child1 footer-container1-child-right">
@@ -39,7 +44,7 @@ const Footer = class extends React.Component {
                 <div className="logo-containter">
                   <div className="logo-containter-child logo-containter-child-img">
                     <img src={logo} alt="Open Infrastructure Foundation" />
-                  </div>
+                    </div>
                 </div>
               </LinkComponent>
             </div>
@@ -53,8 +58,8 @@ const Footer = class extends React.Component {
             <div className="bar-footer-entry">
               <LinkComponent href={footerBar.privacy.url}>{footerBar.privacy.text}</LinkComponent> | <LinkComponent href={footerBar.legal.url}>{footerBar.legal.text}</LinkComponent>
             </div> 
-            <div className="bar-footer-entry bar-footer-entry-right">
-              {footerBar.text}
+              <div className="bar-footer-entry bar-footer-entry-right">
+                {footerBar.text}
             </div>
           </div>
         </div>

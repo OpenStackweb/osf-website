@@ -15,6 +15,17 @@ hero:
     at 15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2022-01-06T15:00:28.256Z
+    youtubeLink: https://www.youtube.com/watch?v=MhAK2efrl9I
+    youtubeEmbed: https://www.youtube.com/embed/MhAK2efrl9I
+    episodeDescription: It's been one year since the formation of the OpenInfra
+      Foundation and the global community has produced more software, more
+      production use cases, more collaboration than ever before. Join us as we
+      look back at 2021, the software milestones, production growth, and
+      momentum across the OpenInfra landscape.
+    episodeTitle: "A Year in Review: OpenInfra Highlights from 2021"
+    calendarInvite: /static/invites/myevents-18-.ics
+  - hidden: false
     date: 2021-12-16T15:00:08.589Z
     youtubeLink: https://youtu.be/sU_4ibfgvAo
     youtubeEmbed: https://www.youtube.com/embed/sU_4ibfgvAo

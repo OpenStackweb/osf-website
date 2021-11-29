@@ -26,7 +26,7 @@ episodes:
     episodeTitle: "#BestOf OpenInfra Live"
     calendarInvite: /static/invites/myevents-15-.ics
   - hidden: false
-    date: 2021-12-09T14:00:54.214Z
+    date: 2021-12-09T15:00:54.214Z
     episodeTitle: "Large Scale OpenStack: Operators’ Tricks and Tools"
     episodeDescription: This new episode of the “Large Scale OpenStack” show will
       discuss operators' tricks and tools. In a live and direct discussion, our

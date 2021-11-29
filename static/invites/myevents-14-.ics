@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211129T201220Z
+UID:1638216526931-21242@ical.marudot.com
+DTSTART;TZID=America/Chicago:20211209T090000
+DTEND;TZID=America/Chicago:20211209T100000
+SUMMARY:OpenInfra Live Ep. 30: Large Scale OpenStack: Operators’ Tricks and Tools
+URL:https://www.youtube.com/watch?v=F_9KKAQE4fc
+DESCRIPTION:This new episode of the “Large Scale OpenStack” show will discuss operators' tricks and tools. In a live and direct discussion\, our guests will reveal tricks and homegrown tools that they use in the trenches to keep their OpenStack clusters ticking like clockwork.
+LOCATION:https://www.youtube.com/watch?v=F_9KKAQE4fc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenInfra Live Ep. 30: Large Scale OpenStack: Operators’ Tricks and Tools
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

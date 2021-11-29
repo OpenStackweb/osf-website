@@ -15,6 +15,20 @@ hero:
     at 15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2021-12-09T14:00:54.214Z
+    episodeTitle: "Large Scale OpenStack: Operators’ Tricks and Tools"
+    episodeDescription: This new episode of the “Large Scale OpenStack” show will
+      discuss operators' tricks and tools. In a live and direct discussion, our
+      guests will reveal tricks and homegrown tools that they use in the
+      trenches to keep their OpenStack clusters ticking like clockwork.
+    episodeSpeakers: >-
+      Belmiro Moreira(CERN), Arnaud Morin(OVHCloud), Gene Kuo (LINE), 
+
+      Shatadru Bandyopadhyay (Workday), Axel Jacquet (Infomaniak), Thomas Goirand (Infomaniak)
+    youtubeLink: https://www.youtube.com/watch?v=F_9KKAQE4fc
+    youtubeEmbed: https://www.youtube.com/embed/F_9KKAQE4fc
+    calendarInvite: /static/invites/myevents-14-.ics
+  - hidden: false
     date: 2021-11-11T15:00:00.893Z
     episodeDescription: "The 2021 User Survey shows that the footprint of OpenStack
       clouds grew by 66% over the last year, totaling over 25 million cores in

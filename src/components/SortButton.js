@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { Helmet } from "react-helmet"
 
@@ -122,7 +123,7 @@ class SortButton extends React.Component {
         <Helmet>
           <script src="https://kit.fontawesome.com/9438df25f9.js" crossorigin="anonymous"></script>
         </Helmet>
-        <i id={this.props.id} onClick={this.handleClick} className="" />
+        <i id={this.props.id} onClick={this.handleClick} className={this.iconDefault} />
       </>
     )
   }

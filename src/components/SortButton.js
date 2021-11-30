@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { Helmet } from "react-helmet"
 
@@ -10,6 +11,7 @@ class SortButton extends React.Component {
     this.iconUp = "fa fa-chevron-up sort-icon";
     this.iconDown = "fa fa-chevron-down sort-icon";
     this.iconDefault = "fas fa-sort sort-icon";
+    this.table = "corpTable";
   }
 
 // Sets default sort to ascending by company name and adds default icons
@@ -23,10 +25,10 @@ class SortButton extends React.Component {
    // Sorts table and toggles arrows
 
   sortTable(n) {
-    let table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    let table = document.getElementById(this.table);
     let icon = document.getElementById(this.props.id);
+    let rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
 
-    table = document.getElementById("corpTable");
     switching = true;
     // Set the sorting direction to ascending:
     dir = "asc";
@@ -121,7 +123,7 @@ class SortButton extends React.Component {
         <Helmet>
           <script src="https://kit.fontawesome.com/9438df25f9.js" crossorigin="anonymous"></script>
         </Helmet>
-        <i id={this.props.id} onClick={this.handleClick} className="" />
+        <i id={this.props.id} onClick={this.handleClick} className={this.iconDefault} />
       </>
     )
   }

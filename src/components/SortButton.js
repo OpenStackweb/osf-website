@@ -14,14 +14,6 @@ class SortButton extends React.Component {
     this.table = "corpTable";
   }
 
-// Sets default sort to ascending by company name and adds default icons
-
-  componentDidMount() {
-    this.sortTable(0);
-    document.getElementById("right-button").className = this.iconDefault;
-    document.getElementById("left-button").className = this.iconDefault;
-  }
-
    // Sorts table and toggles arrows
 
   sortTable(n) {
@@ -31,8 +23,8 @@ class SortButton extends React.Component {
 
     switching = true;
     // Set the sorting direction to ascending:
-    dir = "asc";
-    
+    dir = "desc";
+    console.log(dir);
     /* Make a loop that will continue until
     no switching has been done: */
     while (switching) {
@@ -80,8 +72,8 @@ class SortButton extends React.Component {
       } else {
         /* If no switching has been done AND the direction is "asc",
         set the direction to "desc" and run the while loop again. */
-        if (switchcount === 0 && dir === "asc") {
-          dir = "desc";
+        if (switchcount === 0 && dir === "desc") {
+          dir = "asc";
           switching = true;
         }
       }

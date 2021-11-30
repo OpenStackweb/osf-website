@@ -12,16 +12,18 @@ companyDetails:
   leftColHeading: Company Name
   rightColHeading: Date CCLA
   companies:
-    - name: "100 Percent IT Ltd "
-      date: '"2016-05-04"'
-    - name: "6WIND "
-      date: '"2014-11-20"'
+    - name: "100 Percent IT Ltd"
+      date: '2016-05-04'
+    - name: "6WIND"
+      date: '2014-11-20'
     - name: 99Cloud
-      date: '"2016-3-25"'
+      date: '2016-3-25'
     - name: ABT Limitel
-      date: '"2013-09-28" '
+      date: '2013-09-28'
     - name: Accenture
-      date: '"2017-03-30"'
+      date: '2017-03-30'
+    - name: Acelio
+      date: '2015-01-08 '
 ---
 
 The list of Corporate CLAs allowed to contribute to OpenStack projects. (Individual developers still need to fill out the Individual [Contributors License Agreement](https://wiki.openstack.org/wiki/How_To_Contribute#Contributors_License_Agreement)). If you need to update the list of employees authorized to commit code to OpenStack, please read [How To Update Corporate CLA](/cla). 

@@ -144,6 +144,106 @@ companyDetails:
       date: '2011-08-02'
     - name: Cloud Central Pty Ltd
       date: '2010-07-19'
+    - name: Cloud Conjure LLC
+      date: '2013-04-23'
+    - name: Cloud Technology Partners - cloudTP
+      date: '2012-06-14'
+    - name: Cloud&Heat Technologies
+      date: '2021-07-16'
+    - name: Cloud.com
+      date: '2010-07-27'
+    - name: Cloudbase Srl
+      date: '2013-06-10'
+    - name: CLOUDDON LLC
+      date: '2014-07-03'
+    - name: CloudFlow, Inc
+      date: '2010-10-26'
+    - name: CloudFounders
+      date: '2014-10-20'
+    - name: Cloudian Inc.
+      date: '2013-09-25'
+    - name: CloudNucleus
+      date: '2010-07-22'
+    - name: CloudScaling
+      date: '2010-07-22'
+    - name: cloudsigma.com
+      date: '2014-06-27'
+    - name: CloudSoft
+      date: '2010-09-23'
+    - name: Cloudwatt
+      date: '2013-09-11'
+    - name: Codethink Ltd
+      date: '2014-09-10'
+    - name: CodiLime, Inc.
+      date: '2014-09-10'
+    - name: Coditation Systems Pvt. Ltd.
+      date: '2016-02-26'
+    - name: Cognizant Technology Solution
+      date: '2016-11-10'
+    - name: Coho Data
+      date: '2015-11-17'
+    - name: Colloquium
+      date: '2010-08-20'
+    - name: Comcast
+      date: '2012-09-25'
+    - name: Commvault Systems, Inc.
+      date: '2017-02-14'
+    - name: Consultorpc
+      date: '2010-08-26'
+    - name: Coraid Inc.
+      date: '2013-03-14'
+    - name: Corsa Technology
+      date: '2019-09-20'
+    - name: CoudConjure LLC
+      date: '2013-04-23'
+    - name: cPanel, Inc.
+      date: '2014-10-01'
+    - name: Cray Inc.
+      date: '2014-03-25'
+    - name: CREATE-NET
+      date: '2014-08-08'
+    - name: Creationline, Inc
+      date: '2010-11-01'
+    - name: Cybera, Inc
+      date: '2011-08-25'
+    - name: CyberAgent
+      date: '2016-07-06'
+    - name: Cybercom Finland Oy
+      date: '2015-08-10'
+    - name: CYSO
+      date: '2014-04-29'
+    - name: Daocloud
+      date: '2014-02-13'
+    - name: Daowoo
+      date: '2015-05-22'
+    - name: DataCentred 
+      date: '2016-04-18'
+    - name: DataCore Software
+      date: '2016-07-19'
+    - name: Datang Gohighsec Information Tech Co. Ltd.
+      date: '2016-06-16'
+    - name: Datera, Inc.
+      date: '2014-03-18'
+    - name: DEK Technologies
+      date: '2014-09-20'
+    - name: Dell, Inc
+      date: '2011-11-27'
+    - name: Delta Electronics
+      date: '2011-08-29'
+    - name: DeNA Co., Ltd
+      date: '2016-04-21'
+    - name:  Deutsche Telekom AG
+      date: '2018-10-11'
+    - name:  DigiCert, Inc.
+      date: '2014-10-03'
+    - name:  Digital River
+      date: '2017-04-18'
+    - name:  Docker, Inc.
+      date: '2013-12-16'
+    - name:  Dot Hill
+      date: '2015-04-28'
+    - name:  DreamHost
+      date: '2011-06-21'
 
 
 

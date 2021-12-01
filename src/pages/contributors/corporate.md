@@ -384,12 +384,101 @@ companyDetails:
       date: '2010-10-26'
     - name:  Intracom S.A. Telecom Solutions
       date: '2016-04-19'
+    - name:  Intridea
+      date: '2011-06-21'
     - name:  InWin Inc.
       date: '2014-08-11'
     - name:  inwinSTACK
       date: '2015-04-10'
     - name:  IOData Centers LLC
       date: '2013-10-14'
+    - name:  iPlant Collaborative
+      date: '2013-05-01'
+    - name:  Iron.io
+      date: '2016-12-15'
+    - name:  it-novum GmbH
+      date: '2014-07-14'
+    - name:  ITConcepts Automotive GmbH
+      date: '2018-08-02'
+    - name:  IVO Networks, Inc
+      date: '2011-07-27'
+    - name:  iWeb Technologies Inc.
+      date: '2013-04-16'
+    - name:  Izel Technologies
+      date: '2014-01-01'
+    - name:  Izel Technologies
+      date: '2014-04-09'
+    - name:  Jawa Talent
+      date: '2014-04-12'
+    - name:  Just Eat Takeaway
+      date: '2021-08-10'
+    - name:  Just One Data, Inc.
+      date: '2014-03-17'
+    - name:  Kaminario Technologies Ltd
+      date: '2016-03-21'
+    - name:  KEMP TECHNOLOGIES, INC
+      date: '2015-01-27'
+    - name:  Kili.io, Inc.
+      date: '2014-03-11'
+    - name:  King's College
+      date: '2017-07-02'
+    - name:  Kioxia Corporation
+      date: '2021-01-14'
+    - name:  Komola GmbH
+      date: '2013-05-10'
+    - name:  Kumulus Technologies
+      date: '2015-08-16'
+    - name:  KVH Co., Ltd.
+      date: '2014-08-18'
+    - name:  Kylinos
+      date: '2013-09-10'
+    - name:  LC9
+      date: '2010-08-11'
+    - name:  Leafcloud B.V.
+      date: '2021-01-05'
+    - name:  LeaseWeb BV
+      date: '2010-09-09'
+    - name:  LENOVO
+      date: '2015-03-20'
+    - name:  Letv Cloud Computing
+      date: '2014-08-14'
+    - name:  LGCNS
+      date: '2017-09-17'
+    - name:  LGNCS
+      date: '2017-09-17'
+    - name:  Limelight Networks, Inc.
+      date: '2016-07-27'
+    - name:  Linagora
+      date: '2012-09-06'
+    - name:  LINARO LIMITED
+      date: '2014-10-17'
+    - name:  LINBIT HA-Solutions GmbH
+      date: '2015-01-12'
+    - name:  Line Corporation
+      date: '2019-08-21'
+    - name:  Line Fukuoka Corporation
+      date: '2019-08-21'
+    - name:  Linkbynet
+      date: '2021-10-05'
+    - name:  LinMin Corp
+      date: '2010-07-21'
+    - name:  Linux Academy, Inc.
+      date: '2017-08-04'
+    - name:  Linux Foundation
+      date: '2014-11-18'
+    - name:  Locaweb
+      date: '2012-06-13'
+    - name:  Logic Surge, Inc
+      date: '2010-07-19'
+    - name:  LuuCompany
+      date: '2019-04-02'
+
+
+
+
+
+
+
 
 
 ---

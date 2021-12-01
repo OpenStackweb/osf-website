@@ -618,6 +618,58 @@ companyDetails:
       date: '2013-11-20'
     - name: OVH
       date: '2014-10-28'
+    - name: Parallels International GmbH
+      date: '2014-09-10'
+    - name: Parelastic
+      date: '2013-12-20'
+    - name: Pawsey Supercomputing Centre
+      date: '2020-01-23'
+    - name: PDF Complete
+      date: '2013-05-20'
+    - name: Peartree Media Limited
+      date: '2010-07-19'
+    - name: Percona LLC
+      date: '2014-11-12'
+    - name: Perform Air International, Inc.
+      date: '2021-06-25'
+    - name: Persistent Systems Ltd
+      date: '2011-05-12'
+    - name: Philips Technology
+      date: '2011-04-19'
+    - name: Piston Cloud Computing, Inc
+      date: '2011-01-21'
+    - name: Plumgrid
+      date: '2013-01-16'
+    - name: Pluribus Networks
+      date: '2015-01-30'
+    - name: PowerTech Information Systems AS
+      date: '2015-03-30'
+    - name: Qihoo 360 Technology Co. Ltd
+      date: '2013-01-08'
+    - name: Qinnova Technology Egypt
+      date: '2010-08-06'
+    - name: Qualcomm
+      date: '2021-07-08'
+    - name: Quantcast Corp.
+      date: '2013-05-01'
+    - name: Quantomic, LLC 
+      date: '2015-05-22'
+    - name: Quobyte Inc.
+      date: '2014-05-19'
+    - name: 
+      date: ''
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 

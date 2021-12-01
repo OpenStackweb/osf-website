@@ -778,19 +778,140 @@ companyDetails:
       date: '2010-07-28'
     - name: SysEleven GmbH
       date: '2014-08-08'
-    - name: 
-      date: ''
-    - name: 
-      date: ''
-    - name: 
-      date: ''
-    - name: 
-      date: ''
-    - name: 
-      date: ''
-    - name: 
-      date: ''
-
+    - name: T2Cloud
+      date: '2016-06-15'
+    - name: Tata Consultancy Services
+      date: '2013-07-28'
+    - name: Technical Analyst
+      date: '2013-03-05'
+    - name: Tegile Inc
+      date: '2015-10-07'
+    - name:  Tektronix Communications
+      date: '2013-04-07'
+    - name: TeXalute Inc
+      date: '2011-03-22'
+    - name: Thales
+      date: '2013-07-15'
+    - name: The BBC
+      date: '2017-01-19'
+    - name: The Johns Hopkins University Applied Physics Laboratory LLC
+      date: '2015-02-24'
+    - name: The Mode Group
+      date: '2020-07-17'
+    - name: Third Eye Consulting Services and Solutions LLC
+      date: '2011-05-23'
+    - name: ThoughtWorks, Inc
+      date: '2014-06-26'
+    - name: THSTACK
+      date: '2014-03-21'
+    - name: Time Warner Cable
+      date: '2014-07-21'
+    - name: Tintri, Inc.
+      date: '2015-04-20'
+    - name: TISSAT
+      date: '2011-07-25'
+    - name: TrendySource Corporation
+      date: '2017-08-26'
+    - name: Twitter
+      date: '2014-12-12'
+    - name: UKCloud
+      date: '2016-06-01'
+    - name: Ultra Serve Internet Pty Ltd
+      date: '2010-08-09'
+    - name: Uniontech
+      date: '2021-08-05'
+    - name: Unitedstack Inc.
+      date: '2013-05-22'
+    - name: University of Chicago
+      date: '2015-03-30'
+    - name: University of Oregon
+      date: '2012-04-30'
+    - name: University of South China
+      date: '2012-07-19'
+    - name: University of Western Ontario
+      date: '2014-04-15'
+    - name: UT-Battelle, LLC
+      date: '2015-03-03'
+    - name: VA Linux
+      date: '2011-04-01'
+    - name: Vedams, Inc.
+      date: '2016-01-08'
+    - name: Veritas Technologies, LLC
+      date: '2015-11-08'
+    - name: Verizon Media Group
+      date: '2020-11-13'
+    - name: Versa Networks
+      date: '2014-05-07'
+    - name: Vertex Software Pvt Ltd
+      date: '2011-05-03'
+    - name: Vertical GmbH
+      date: '2019-06-18'
+    - name: Vexata Inc.
+      date: '2019-07-25'
+    - name: Viettel
+      date: '2019-03-15'
+    - name: Vimeo LLC
+      date: '2014-04-08'
+    - name: VINDATA
+      date: '2019-02-22'
+    - name: Violin Memory Inc.
+      date: '2013-06-06'
+    - name: Virima Technologies
+      date: '2010-08-27'
+    - name: Virtual Bridges Inc.
+      date: '2013-09-06'
+    - name: Virtustream
+      date: '2015-04-01'
+    - name: VMTurbo
+      date: '2015-01-03'
+    - name: VmWare
+      date: '2013-08-31'
+    - name: Walmart
+      date: '2015-07-07'
+    - name: Warsaw Data Center
+      date: '2010-10-26'
+    - name: Webzilla
+      date: '2014-05-13'
+    - name: Whitestack LLC 
+      date: '2017-11-17'
+    - name: Wikimedia Foundation, Inc.
+      date: '2014-09-18'
+    - name: WinHong
+      date: '2016-10-08'
+    - name: WINK Streaming
+      date: '2010-07-19'
+    - name: Wipro Ltd.
+      date: '2014-01-14'
+    - name: Wolfram Research Inc
+      date: '2011-02-11'
+    - name: Workday, Inc.
+      date: '2014-03-26'
+    - name: x-ion GmbH
+      date: '2014-11-14'
+    - name: xFlow Research Inc.
+      date: '2014-11-18'
+    - name: Yahele LLC
+      date: '2013-09-05'
+    - name: Yahoo Japan Corporation
+      date: '2016-10-19'
+    - name: Yahoo! Inc.
+      date: '2011-11-01'
+    - name: Ysance
+      date: '2013-06-28'
+    - name: Zadara Storage
+      date: '2011-06-17'
+    - name: Zelin.io 
+      date: '2013-05-13 '
+    - name: Zenlin.io
+      date: '2013-05-13'
+    - name: Zentific LLC
+      date: '2011-06-11'
+    - name: Zergsoft
+      date: '2011-06-07'
+    - name: Zetta.IO Technology AS
+      date: '2014-08-05'
+    - name: ZTE Corporation
+      date: '2017-02-08'
 
 ---
 

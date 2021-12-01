@@ -103,7 +103,7 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Ampere.png
       - alt: AW Cloud
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_AWCloud.png
-      - image: /img/b1systems_lg.jpeg
+      - image: /img/b1systems_lg.png
         alt: B1 Systems
       - alt: Bluvalt
         image: /img/companies/_New/Silver/binero-silver.jpg

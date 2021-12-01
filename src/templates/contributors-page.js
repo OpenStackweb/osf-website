@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useRef, useEffect } from 'react'
+import { kebabCase, debounce } from 'lodash'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
@@ -8,6 +9,7 @@ import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
 import SortButton from '../components/SortButton'
+import GoTopButton from '../components/GoTopButton'
 
 import { connect } from "react-redux";
 
@@ -20,6 +22,25 @@ export const ContributorsPageTemplate = ({
   companyDetails
 }) => {
   const PageContent = contentComponent || Content
+
+  const [showGoTop, setShowGoTop] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', debounce(scrollHandler, 150), { passive: true });
+    return () => window.removeEventListener('scroll', scrollHandler);
+  }, []);
+
+  const scrollHandler = () => {
+    if (window.pageYOffset > 700 && window.pageYOffset < document.documentElement.scrollHeight - 1400) {
+      setShowGoTop(true)
+    } else {
+      setShowGoTop(false)
+    }
+  }
+
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
 
   return (
     <div>
@@ -70,6 +91,7 @@ export const ContributorsPageTemplate = ({
             </div>
           </section>
         </div>
+        {showGoTop && <GoTopButton onClick={() => scrollTop()} />} 
       </main>
     </div>
   )

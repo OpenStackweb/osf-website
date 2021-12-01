@@ -656,19 +656,140 @@ companyDetails:
       date: '2015-05-22'
     - name: Quobyte Inc.
       date: '2014-05-19'
+    - name: Rabbit Inc
+      date: '2015-04-03'
+    - name: Rackspace
+      date: '2010-07-15'
+    - name: Radon Systems
+      date: '2010-09-02'
+    - name: Radware Ltd.
+      date: '2011-10-23'
+    - name: Ramya Co.
+      date: '2015-11-17'
+    - name: Red Hat, Inc.
+      date: '2014-05-21'
+    - name: Reduxio
+      date: '2016-06-20'
+    - name: Reliance Jio Infocom
+      date: '2014-01-19'
+    - name: Risk Management Solutions, Inc.
+      date: '2014-06-20'
+    - name: Riverbed Technology
+      date: '2011-08-15'
+    - name: RJIL 
+      date: '2013-10-26'
+    - name: Ryussi Technologies
+      date: '2014-02-14'
+    - name: Saba Software, Inc
+      date: '2010-10-28'
+    - name: Safenet Inc.
+      date: '2013-04-23'
+    - name: Salesforce
+      date: '2016-10-20'
+    - name: Samsung Electronics
+      date: '2010-08-25'
+    - name: Samsung SDS
+      date: '2011-12-13'
+    - name: SAP
+      date: '2014-07-03'
+    - name: SAS Institute Inc.
+      date: '2015-02-25'
+    - name: ScaleUp Technologies GmbH & Co. KG
+      date: '2021-08-11'
+    - name: SCALITY SA
+      date: '2014-06-05'
+    - name: Scalr Inc
+      date: '2011-06-07'
+    - name: Schwarz IT KG
+      date: '2020-12-16'
+    - name: Seagate Technologies
+      date: '2021-08-01'
+    - name: SecuStack
+      date: '2019-02-07'
+    - name: Semihalf
+      date: '2013-11-07'
+    - name: Server Corps, LLC
+      date: '2010-07-24'
+    - name: SGI
+      date: '2010-08-29'
+    - name: Siaras Inc.
+      date: '2015-06-05'
+    - name: Siemens AG
+      date: '2019-06-17'
+    - name: Sihua Technologies
+      date: '2017-03-20'
+    - name: Silicom, Ltd.
+      date: '2013-12-25'
+    - name: SilverKey Technologies, LCC
+      date: '2010-07-26'
+    - name: SINA Corporation
+      date: '2012-01-17'
+    - name: SIOS Technology Corporation
+      date: '2010-08-18'
+    - name: Skydera Inc
+      date: '2011-08-09'
+    - name: Skyscrape Cloud Services Ltd
+      date: '2016-06-01'
+    - name: Societe Generale
+      date: '2019-07-05'
+    - name: Sohonet Ltd. 
+      date: '2013-10-31'
+    - name: Sony Mobile Communications AB
+      date: '2014-03-07'
+    - name: SpclOps, Inc.
+      date: '2014-01-08'
+    - name: StackHPC Ltd
+      date: '2018-07-03'
+    - name: Stackinsider Technology
+      date: '2013-08-22'
+    - name: StackMasters LLC
+      date: '2015-08-04'
+    - name: StackOps Technologies S.L.
+      date: '2012-09-19'
+    - name: StackStorm Inc.
+      date: '2014-01-24'
+    - name: State Farm Insurance Companies
+      date: '2017-03-14'
+    - name: StorPool Bulgaria OOD
+      date: '2014-08-13'
+    - name: Stratoscale Ltd.
+      date: '2014-08-25'
+    - name: Sungard Availability Services
+      date: '2015-10-07'
+    - name: SurCloud Corp.
+      date: '2016-07-12'
+    - name: SUSE
+      date: '2011-09-30'
+    - name: SUSE Linux Products GmbH
+      date: '2014-01-14'
+    - name: SVA Gmbh
+      date: '2015-02-27'
+    - name: SwiftStack, Inc
+      date: '2012-02-16'
+    - name: Swisscom
+      date: '2015-03-23'
+    - name: SWITCH
+      date: '2013-05-06'
+    - name: Symantec
+      date: '2013-10-10'
+    - name: Symantec
+      date: '2014-03-29'
+    - name: Symplified, Inc
+      date: '2010-07-28'
+    - name: SysEleven GmbH
+      date: '2014-08-08'
     - name: 
       date: ''
-
-
-
-
-
-
-
-
-
-
-
+    - name: 
+      date: ''
+    - name: 
+      date: ''
+    - name: 
+      date: ''
+    - name: 
+      date: ''
+    - name: 
+      date: ''
 
 
 ---

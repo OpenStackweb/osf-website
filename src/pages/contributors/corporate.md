@@ -96,8 +96,6 @@ companyDetails:
       date: '2016-08-17'
     - name: Blockbridge Networks LLC
       date: '2015-05-15'
-    - name: Blockbridge Networks LLC
-      date: '2015-05-15'
     - name: Bloomberg Finance LP
       date: '2014-07-25'
     - name: BMW Car IT GmbH
@@ -244,8 +242,154 @@ companyDetails:
       date: '2015-04-28'
     - name:  DreamHost
       date: '2011-06-21'
-
-
+    - name:  EasyStack, Inc.
+      date: '2015-06-25'
+    - name:  Ebay Software Foundation
+      date: '2012-03-04'
+    - name:  Egon Technologies, LLC
+      date: '2010-07-19'
+    - name:  Embrane
+      date: '2013-03-23'
+    - name:  EMC Corp.
+      date: '2012-11-12'
+    - name:  Emulex Corporation
+      date: '2014-12-01'
+    - name:  Endurance International Group
+      date: '2015-06-09'
+    - name:  Enovance
+      date: '2011-12-29'
+    - name:  Enterprise DB
+      date: '2010-11-16'
+    - name:  Ericsson
+      date: '2012-02-07'
+    - name:  Esprit
+      date: '2010-11-29'
+    - name:  Eucalyptus Systems, Inc
+      date: '2015-02-04'
+    - name:  Eurogiciel Ingenierie
+      date: '2014-02-26'
+    - name:  Evault
+      date: '2013-04-09'
+    - name:  Extreme Networks
+      date: '2016-04-29'
+    - name:  F5 Networks
+      date: '2016-01-25'
+    - name:  Fiberhome Telecommunications Technologies CO., LTD
+      date: '2015-08-06'
+    - name:  FLEIO
+      date: '2021-10-19'
+    - name:  Fleio SRL
+      date: '2020-12-09'
+    - name:  Forgerock Inc.
+      date: '2013-04-01'
+    - name:  ForLinux
+      date: '2010-08-31'
+    - name:  Fourth Paradigm Development
+      date: '2011-06-17'
+    - name:  Fujitsu Limited
+      date: '2012-08-06'
+    - name:  Fujitsu Limited
+      date: '2014-03-04'
+    - name:  Fujitsu Limited
+      date: '2014-11-14'
+    - name:  Fusion.io
+      date: '2014-05-05'
+    - name:  FusionStack Co, Ltd.
+      date: '2017-05-17'
+    - name:  German Cloud
+      date: '2011-03-19'
+    - name:  Gigaspaces
+      date: '2014-05-01'
+    - name:  Global Logic Inc.
+      date: '2013-08-05'
+    - name:  GoDaddy
+      date: '2016-05-16'
+    - name:  GoodData
+      date: '2014-10-20'
+    - name:  Great Software Laboratory Private Limited
+      date: '2017-06-05'
+    - name:  Green and Secure IT Ltd.
+      date: '2013-04-03'
+    - name:  Grid Dynamics
+      date: '2011-07-05'
+    - name:  GridCentric, Inc
+      date: '2010-08-03'
+    - name:  GridGain Systems
+      date: '2011-06-22'
+    - name:  Guardian News and Media Ltd.
+      date: '2012-11-28'
+    - name:  H3C
+      date: '2014-07-23'
+    - name:  Happiest Minds Technologies Private Limited
+      date: '2017-12-06'
+    - name:  hastexo
+      date: '2012-05-24'
+    - name:  Hetzner Pty Ltd.
+      date: '2013-10-23'
+    - name:  Hewlett-Packard
+      date: '2011-08-03'
+    - name:  HGST Inc.
+      date: '2013-11-20'
+    - name:  HGST, Inc
+      date: '2015-05-06'
+    - name:  Hitachi America, Ltd.
+      date: '2014-06-04'
+    - name:  Hitachi Data Systems
+      date: '2013-05-03'
+    - name:  Hitachi India Ltd.
+      date: '2014-10-24'
+    - name:  Hitachi India Pvt. Ltd.
+      date: '2014-10-22'
+    - name:  Hometrainserge
+      date: '2016-02-28'
+    - name:  HoneycombData
+      date: '2020-02-12'
+    - name:  HP Enterprise
+      date: '2015-09-23'
+    - name:  HPE
+      date: '2016-07-20'
+    - name:  Huawei
+      date: '2015-05-26'
+    - name:  Huawei Technologies Co. Ltd
+      date: '2014-11-25'
+    - name:  Hugh Hollbrook
+      date: '2021-09-09'
+    - name:  Huron Technologies
+      date: '2015-05-09'
+    - name:  Hyperglance Limited
+      date: '2016-03-30'
+    - name:  IBM
+      date: '2012-02-02'
+    - name:  IDNT Europe GmbH
+      date: '2018-01-19'
+    - name:  IMDEA Software Institute
+      date: '2015-10-22'
+    - name:  Infoblox
+      date: '2014-06-04'
+    - name:  InfraStacks LLC
+      date: '2011-07-26'
+    - name:  Inktank.com
+      date: '2013-05-13'
+    - name:  Inocybe Technologies
+      date: '2015-05-12'
+    - name:  Inocybe Technologies Inc.
+      date: '2014-02-26'
+    - name:  Institute for System Programming Russian Academy of Science (ISP-RAS)
+      date: '2013-04-22'
+    - name:  Intalio, Inc
+      date: '2010-08-10'
+    - name:  Intel Corp.
+      date: '2011-09-20'
+    - name:  Internap
+      date: '2010-10-26'
+    - name:  Intracom S.A. Telecom Solutions
+      date: '2016-04-19'
+    - name:  InWin Inc.
+      date: '2014-08-11'
+    - name:  inwinSTACK
+      date: '2015-04-10'
+    - name:  IOData Centers LLC
+      date: '2013-10-14'
 
 
 ---

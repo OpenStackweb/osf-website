@@ -12,9 +12,9 @@ companyDetails:
   leftColHeading: Company Name
   rightColHeading: Date CCLA
   companies:
-    - name: "100 Percent IT Ltd"
+    - name: 100 Percent IT Ltd
       date: '2016-05-04'
-    - name: "6WIND"
+    - name: 6WIND
       date: '2014-11-20'
     - name: 99Cloud
       date: '2016-03-25'
@@ -94,8 +94,6 @@ companyDetails:
       date: '2015-06-09'
     - name: Blizzard Entertainment, Inc
       date: '2016-08-17'
-    - name: Blockbridge Networks LLC
-      date: '2015-05-15'
     - name: Blockbridge Networks LLC
       date: '2015-05-15'
     - name: Bloomberg Finance LP
@@ -232,21 +230,688 @@ companyDetails:
       date: '2011-08-29'
     - name: DeNA Co., Ltd
       date: '2016-04-21'
-    - name:  Deutsche Telekom AG
+    - name: Deutsche Telekom AG
       date: '2018-10-11'
-    - name:  DigiCert, Inc.
+    - name: DigiCert, Inc.
       date: '2014-10-03'
-    - name:  Digital River
+    - name: Digital River
       date: '2017-04-18'
-    - name:  Docker, Inc.
+    - name: Docker, Inc.
       date: '2013-12-16'
-    - name:  Dot Hill
+    - name: Dot Hill
       date: '2015-04-28'
-    - name:  DreamHost
+    - name: DreamHost
       date: '2011-06-21'
-
-
-
+    - name: EasyStack, Inc.
+      date: '2015-06-25'
+    - name: Ebay Software Foundation
+      date: '2012-03-04'
+    - name: Egon Technologies, LLC
+      date: '2010-07-19'
+    - name: Embrane
+      date: '2013-03-23'
+    - name: EMC Corp.
+      date: '2012-11-12'
+    - name: Emulex Corporation
+      date: '2014-12-01'
+    - name: Endurance International Group
+      date: '2015-06-09'
+    - name: Enovance
+      date: '2011-12-29'
+    - name: Enterprise DB
+      date: '2010-11-16'
+    - name: Ericsson
+      date: '2012-02-07'
+    - name: Esprit
+      date: '2010-11-29'
+    - name: Eucalyptus Systems, Inc
+      date: '2015-02-04'
+    - name: Eurogiciel Ingenierie
+      date: '2014-02-26'
+    - name: Evault
+      date: '2013-04-09'
+    - name: Extreme Networks
+      date: '2016-04-29'
+    - name: F5 Networks
+      date: '2016-01-25'
+    - name: Fiberhome Telecommunications Technologies CO., LTD
+      date: '2015-08-06'
+    - name: FLEIO
+      date: '2021-10-19'
+    - name: Fleio SRL
+      date: '2020-12-09'
+    - name: Forgerock Inc.
+      date: '2013-04-01'
+    - name: ForLinux
+      date: '2010-08-31'
+    - name: Fourth Paradigm Development
+      date: '2011-06-17'
+    - name: Fujitsu Limited
+      date: '2012-08-06'
+    - name: Fujitsu Limited
+      date: '2014-03-04'
+    - name: Fujitsu Limited
+      date: '2014-11-14'
+    - name: Fusion.io
+      date: '2014-05-05'
+    - name: FusionStack Co, Ltd.
+      date: '2017-05-17'
+    - name: German Cloud
+      date: '2011-03-19'
+    - name: Gigaspaces
+      date: '2014-05-01'
+    - name: Global Logic Inc.
+      date: '2013-08-05'
+    - name: GoDaddy
+      date: '2016-05-16'
+    - name: GoodData
+      date: '2014-10-20'
+    - name: Great Software Laboratory Private Limited
+      date: '2017-06-05'
+    - name: Green and Secure IT Ltd.
+      date: '2013-04-03'
+    - name: Grid Dynamics
+      date: '2011-07-05'
+    - name: GridCentric, Inc
+      date: '2010-08-03'
+    - name: GridGain Systems
+      date: '2011-06-22'
+    - name: Guardian News and Media Ltd.
+      date: '2012-11-28'
+    - name: H3C
+      date: '2014-07-23'
+    - name: Happiest Minds Technologies Private Limited
+      date: '2017-12-06'
+    - name: hastexo
+      date: '2012-05-24'
+    - name: Hetzner Pty Ltd.
+      date: '2013-10-23'
+    - name: Hewlett-Packard
+      date: '2011-08-03'
+    - name: HGST Inc.
+      date: '2013-11-20'
+    - name: HGST, Inc
+      date: '2015-05-06'
+    - name: Hitachi America, Ltd.
+      date: '2014-06-04'
+    - name: Hitachi Data Systems
+      date: '2013-05-03'
+    - name: Hitachi India Ltd.
+      date: '2014-10-24'
+    - name: Hitachi India Pvt. Ltd.
+      date: '2014-10-22'
+    - name: Hometrainserge
+      date: '2016-02-28'
+    - name: HoneycombData
+      date: '2020-02-12'
+    - name: HP Enterprise
+      date: '2015-09-23'
+    - name: HPE
+      date: '2016-07-20'
+    - name: Huawei
+      date: '2015-05-26'
+    - name: Huawei Technologies Co. Ltd
+      date: '2014-11-25'
+    - name: Hugh Hollbrook
+      date: '2021-09-09'
+    - name: Huron Technologies
+      date: '2015-05-09'
+    - name: Hyperglance Limited
+      date: '2016-03-30'
+    - name: IBM
+      date: '2012-02-02'
+    - name: IDNT Europe GmbH
+      date: '2018-01-19'
+    - name: IMDEA Software Institute
+      date: '2015-10-22'
+    - name: Infoblox
+      date: '2014-06-04'
+    - name: InfraStacks LLC
+      date: '2011-07-26'
+    - name: Inktank.com
+      date: '2013-05-13'
+    - name: Inocybe Technologies
+      date: '2015-05-12'
+    - name: Inocybe Technologies Inc.
+      date: '2014-02-26'
+    - name: Institute for System Programming Russian Academy of Science (ISP-RAS)
+      date: '2013-04-22'
+    - name: Intalio, Inc
+      date: '2010-08-10'
+    - name: Intel Corp.
+      date: '2011-09-20'
+    - name: Internap
+      date: '2010-10-26'
+    - name: Intracom S.A. Telecom Solutions
+      date: '2016-04-19'
+    - name: Intridea
+      date: '2011-06-21'
+    - name: InWin Inc.
+      date: '2014-08-11'
+    - name: inwinSTACK
+      date: '2015-04-10'
+    - name: IOData Centers LLC
+      date: '2013-10-14'
+    - name: iPlant Collaborative
+      date: '2013-05-01'
+    - name: Iron.io
+      date: '2016-12-15'
+    - name: it-novum GmbH
+      date: '2014-07-14'
+    - name: ITConcepts Automotive GmbH
+      date: '2018-08-02'
+    - name: IVO Networks, Inc
+      date: '2011-07-27'
+    - name: iWeb Technologies Inc.
+      date: '2013-04-16'
+    - name: Izel Technologies
+      date: '2014-01-01'
+    - name: Izel Technologies
+      date: '2014-04-09'
+    - name: Jawa Talent
+      date: '2014-04-12'
+    - name: Just Eat Takeaway
+      date: '2021-08-10'
+    - name: Just One Data, Inc.
+      date: '2014-03-17'
+    - name: Kaminario Technologies Ltd
+      date: '2016-03-21'
+    - name: KEMP TECHNOLOGIES, INC
+      date: '2015-01-27'
+    - name: Kili.io, Inc.
+      date: '2014-03-11'
+    - name: King's College
+      date: '2017-07-02'
+    - name: Kioxia Corporation
+      date: '2021-01-14'
+    - name: Komola GmbH
+      date: '2013-05-10'
+    - name: Kumulus Technologies
+      date: '2015-08-16'
+    - name: KVH Co., Ltd.
+      date: '2014-08-18'
+    - name: Kylinos
+      date: '2013-09-10'
+    - name: LC9
+      date: '2010-08-11'
+    - name: Leafcloud B.V.
+      date: '2021-01-05'
+    - name: LeaseWeb BV
+      date: '2010-09-09'
+    - name: LENOVO
+      date: '2015-03-20'
+    - name: Letv Cloud Computing
+      date: '2014-08-14'
+    - name: LGCNS
+      date: '2017-09-17'
+    - name: LGNCS
+      date: '2017-09-17'
+    - name: Limelight Networks, Inc.
+      date: '2016-07-27'
+    - name: Linagora
+      date: '2012-09-06'
+    - name: LINARO LIMITED
+      date: '2014-10-17'
+    - name: LINBIT HA-Solutions GmbH
+      date: '2015-01-12'
+    - name: Line Corporation
+      date: '2019-08-21'
+    - name: Line Fukuoka Corporation
+      date: '2019-08-21'
+    - name: Linkbynet
+      date: '2021-10-05'
+    - name: LinMin Corp
+      date: '2010-07-21'
+    - name: Linux Academy, Inc.
+      date: '2017-08-04'
+    - name: Linux Foundation
+      date: '2014-11-18'
+    - name: Locaweb
+      date: '2012-06-13'
+    - name: Logic Surge, Inc
+      date: '2010-07-19'
+    - name: LuuCompany
+      date: '2019-04-02'
+    - name: Make a Byte, Inc
+      date: '2010-08-16'
+    - name: MapR Technologies
+      date: '2014-08-08'
+    - name: Master I2L
+      date: '2014-01-02'
+    - name: Media Temple Inc
+      date: '2010-08-16'
+    - name: Mediasift Ltd.
+      date: '2013-04-16'
+    - name: Memset Ltd
+      date: '2011-01-21'
+    - name: Metacloud, Inc.
+      date: '2012-04-17'
+    - name: Metaswitch Networks Ltd
+      date: '2014-10-06'
+    - name: Metsi Technologies Ltd
+      date: '2015-11-09'
+    - name: Microchild Technologies
+      date: '2013-07-16'
+    - name: Midokura Co., Ltd.
+      date: '2010-07-30'
+    - name: Mirantis
+      date: '2011-06-15'
+    - name: MIT Lincoln Laboratory
+      date: '2014-12-14'
+    - name: Mittwald Cm Service GmbH
+      date: '2020-02-08'
+    - name: Morphlabs K.K.
+      date: '2010-11-01'
+    - name: Morphlabs, Inc.
+      date: '2010-07-22'
+    - name: MOVE-IT
+      date: '2010-09-20'
+    - name:  N5 Tech, Inc
+      date: '2015-02-08'
+    - name: National Institute of Informatics
+      date: '2010-12-21'
+    - name: National Institute of Standards and Technology
+      date: '2016-05-23'
+    - name: NEC Corporation
+      date: '2011-08-09'
+    - name: Nestlé Nespresso
+      date: '2015-05-22'
+    - name: Nestlé Nespresso SA
+      date: '2015-05-22'
+    - name: NetApp, Inc
+      date: '2011-04-25'
+    - name: Netease
+      date: '2013-05-30'
+    - name: Netmagic Solutions Pvt. Ltd.
+      date: '2012-05-04'
+    - name: Netronome Systems, Inc.
+      date: '2016-12-06'
+    - name: Netronome Systems, Inc.
+      date: '2017-07-13'
+    - name: NetScout Systems, Inc.
+      date: '2017-06-15'
+    - name: Nexenta Systems
+      date: '2011-08-24'
+    - name: Nexus IS
+      date: '2014-03-10'
+    - name: Nicira Networks, Inc
+      date: '2010-10-28'
+    - name: NIH/NLM/NCBI
+      date: '2014-05-15'
+    - name: Nimbis Services, Inc.
+      date: '2011-29-11'
+    - name: Nimbula, Inc.
+      date: '2012-10-01'
+    - name: Nimbus Data
+      date: '2014-05-15'
+    - name: Nine Internet Solutions AG
+      date: '2014-05-16'
+    - name: Nokia Solutions and Networks Oy
+      date: '2014-11-19'
+    - name: NovoTel Ltd.
+      date: '2014-03-05'
+    - name: NS Tech, Inc
+      date: '2015-02-08'
+    - name: NSA
+      date: '2013-06-19'
+    - name: NTT Comware Corporation
+      date: '2019-01-09'
+    - name: NTT Cyber Space Laboratories
+      date: '2010-11-16'
+    - name: NTT Data AgileNet
+      date: '2010-11-07'
+    - name: NTT Data Corporation
+      date: '2010-11-18'
+    - name: NTT DOCOMO, Inc
+      date: '2012-06-13'
+    - name: NTT PF Labs
+      date: '2010-12-21'
+    - name: NTT Software Corporation
+      date: '2013-06-27'
+    - name: NTT Software Innovation Center
+      date: '2013-05-20'
+    - name: Nubeliu
+      date: '2015-10-01'
+    - name: Nuenn
+      date: '2017-07-07'
+    - name: Numergy
+      date: '2014-01-14'
+    - name: Nutanix
+      date: '2018-04-20'
+    - name: NVIDIA
+      date: '2021-05-27'
+    - name: Oath Inc
+      date: '2019-07-17'
+    - name: Objectif Libre
+      date: '2013-03-11'
+    - name: Objectif Libre
+      date: '2016-08-25'
+    - name: OlinData
+      date: '2014-07-16'
+    - name: OneCloud Consulting
+      date: '2015-02-21'
+    - name: OneCloud Consulting, Inc.
+      date: '2014-02-13'
+    - name: Oodrive
+      date: '2014-10-09'
+    - name: Open Solutions
+      date: '2011-07-13'
+    - name: Open-V
+      date: '2011-08-20'
+    - name: Openfiler
+      date: '2010-07-19'
+    - name: Opscode, Inc
+      date: '2010-07-15'
+    - name: Oracle
+      date: '2013-12-08'
+    - name: Orange
+      date: '2013-08-01'
+    - name: Orange Application for business
+      date: '2019-04-02'
+    - name: Orange Polska S.A
+      date: '2017-06-30'
+    - name: OSISM GmbH
+      date: '2021-10-04'
+    - name: OSNEXUS
+      date: '2014-04-09'
+    - name: Osones
+      date: '2013-11-20'
+    - name: OVH
+      date: '2014-10-28'
+    - name: Parallels International GmbH
+      date: '2014-09-10'
+    - name: Parelastic
+      date: '2013-12-20'
+    - name: Pawsey Supercomputing Centre
+      date: '2020-01-23'
+    - name: PDF Complete
+      date: '2013-05-20'
+    - name: Peartree Media Limited
+      date: '2010-07-19'
+    - name: Percona LLC
+      date: '2014-11-12'
+    - name: Perform Air International, Inc.
+      date: '2021-06-25'
+    - name: Persistent Systems Ltd
+      date: '2011-05-12'
+    - name: Philips Technology
+      date: '2011-04-19'
+    - name: Piston Cloud Computing, Inc
+      date: '2011-01-21'
+    - name: Plumgrid
+      date: '2013-01-16'
+    - name: Pluribus Networks
+      date: '2015-01-30'
+    - name: PowerTech Information Systems AS
+      date: '2015-03-30'
+    - name: Qihoo 360 Technology Co. Ltd
+      date: '2013-01-08'
+    - name: Qinnova Technology Egypt
+      date: '2010-08-06'
+    - name: Qualcomm
+      date: '2021-07-08'
+    - name: Quantcast Corp.
+      date: '2013-05-01'
+    - name: Quantomic, LLC 
+      date: '2015-05-22'
+    - name: Quobyte Inc.
+      date: '2014-05-19'
+    - name: Rabbit Inc
+      date: '2015-04-03'
+    - name: Rackspace
+      date: '2010-07-15'
+    - name: Radon Systems
+      date: '2010-09-02'
+    - name: Radware Ltd.
+      date: '2011-10-23'
+    - name: Ramya Co.
+      date: '2015-11-17'
+    - name: Red Hat, Inc.
+      date: '2014-05-21'
+    - name: Reduxio
+      date: '2016-06-20'
+    - name: Reliance Jio Infocom
+      date: '2014-01-19'
+    - name: Risk Management Solutions, Inc.
+      date: '2014-06-20'
+    - name: Riverbed Technology
+      date: '2011-08-15'
+    - name: RJIL 
+      date: '2013-10-26'
+    - name: Ryussi Technologies
+      date: '2014-02-14'
+    - name: Saba Software, Inc
+      date: '2010-10-28'
+    - name: Safenet Inc.
+      date: '2013-04-23'
+    - name: Salesforce
+      date: '2016-10-20'
+    - name: Samsung Electronics
+      date: '2010-08-25'
+    - name: Samsung SDS
+      date: '2011-12-13'
+    - name: SAP
+      date: '2014-07-03'
+    - name: SAS Institute Inc.
+      date: '2015-02-25'
+    - name: ScaleUp Technologies GmbH & Co. KG
+      date: '2021-08-11'
+    - name: SCALITY SA
+      date: '2014-06-05'
+    - name: Scalr Inc
+      date: '2011-06-07'
+    - name: Schwarz IT KG
+      date: '2020-12-16'
+    - name: Seagate Technologies
+      date: '2021-08-01'
+    - name: SecuStack
+      date: '2019-02-07'
+    - name: Semihalf
+      date: '2013-11-07'
+    - name: Server Corps, LLC
+      date: '2010-07-24'
+    - name: SGI
+      date: '2010-08-29'
+    - name: Siaras Inc.
+      date: '2015-06-05'
+    - name: Siemens AG
+      date: '2019-06-17'
+    - name: Sihua Technologies
+      date: '2017-03-20'
+    - name: Silicom, Ltd.
+      date: '2013-12-25'
+    - name: SilverKey Technologies, LCC
+      date: '2010-07-26'
+    - name: SINA Corporation
+      date: '2012-01-17'
+    - name: SIOS Technology Corporation
+      date: '2010-08-18'
+    - name: Skydera Inc
+      date: '2011-08-09'
+    - name: Skyscrape Cloud Services Ltd
+      date: '2016-06-01'
+    - name: Societe Generale
+      date: '2019-07-05'
+    - name: Sohonet Ltd. 
+      date: '2013-10-31'
+    - name: Sony Mobile Communications AB
+      date: '2014-03-07'
+    - name: SpclOps, Inc.
+      date: '2014-01-08'
+    - name: StackHPC Ltd
+      date: '2018-07-03'
+    - name: Stackinsider Technology
+      date: '2013-08-22'
+    - name: StackMasters LLC
+      date: '2015-08-04'
+    - name: StackOps Technologies S.L.
+      date: '2012-09-19'
+    - name: StackStorm Inc.
+      date: '2014-01-24'
+    - name: State Farm Insurance Companies
+      date: '2017-03-14'
+    - name: StorPool Bulgaria OOD
+      date: '2014-08-13'
+    - name: Stratoscale Ltd.
+      date: '2014-08-25'
+    - name: Sungard Availability Services
+      date: '2015-10-07'
+    - name: SurCloud Corp.
+      date: '2016-07-12'
+    - name: SUSE
+      date: '2011-09-30'
+    - name: SUSE Linux Products GmbH
+      date: '2014-01-14'
+    - name: SVA Gmbh
+      date: '2015-02-27'
+    - name: SwiftStack, Inc
+      date: '2012-02-16'
+    - name: Swisscom
+      date: '2015-03-23'
+    - name: SWITCH
+      date: '2013-05-06'
+    - name: Symantec
+      date: '2013-10-10'
+    - name: Symantec
+      date: '2014-03-29'
+    - name: Symplified, Inc
+      date: '2010-07-28'
+    - name: SysEleven GmbH
+      date: '2014-08-08'
+    - name: T2Cloud
+      date: '2016-06-15'
+    - name: Tata Consultancy Services
+      date: '2013-07-28'
+    - name: Technical Analyst
+      date: '2013-03-05'
+    - name: Tegile Inc
+      date: '2015-10-07'
+    - name:  Tektronix Communications
+      date: '2013-04-07'
+    - name: TeXalute Inc
+      date: '2011-03-22'
+    - name: Thales
+      date: '2013-07-15'
+    - name: The BBC
+      date: '2017-01-19'
+    - name: The Johns Hopkins University Applied Physics Laboratory LLC
+      date: '2015-02-24'
+    - name: The Mode Group
+      date: '2020-07-17'
+    - name: Third Eye Consulting Services and Solutions LLC
+      date: '2011-05-23'
+    - name: ThoughtWorks, Inc
+      date: '2014-06-26'
+    - name: THSTACK
+      date: '2014-03-21'
+    - name: Time Warner Cable
+      date: '2014-07-21'
+    - name: Tintri, Inc.
+      date: '2015-04-20'
+    - name: TISSAT
+      date: '2011-07-25'
+    - name: TrendySource Corporation
+      date: '2017-08-26'
+    - name: Twitter
+      date: '2014-12-12'
+    - name: UKCloud
+      date: '2016-06-01'
+    - name: Ultra Serve Internet Pty Ltd
+      date: '2010-08-09'
+    - name: Uniontech
+      date: '2021-08-05'
+    - name: Unitedstack Inc.
+      date: '2013-05-22'
+    - name: University of Chicago
+      date: '2015-03-30'
+    - name: University of Oregon
+      date: '2012-04-30'
+    - name: University of South China
+      date: '2012-07-19'
+    - name: University of Western Ontario
+      date: '2014-04-15'
+    - name: UT-Battelle, LLC
+      date: '2015-03-03'
+    - name: VA Linux
+      date: '2011-04-01'
+    - name: Vedams, Inc.
+      date: '2016-01-08'
+    - name: Veritas Technologies, LLC
+      date: '2015-11-08'
+    - name: Verizon Media Group
+      date: '2020-11-13'
+    - name: Versa Networks
+      date: '2014-05-07'
+    - name: Vertex Software Pvt Ltd
+      date: '2011-05-03'
+    - name: Vertical GmbH
+      date: '2019-06-18'
+    - name: Vexata Inc.
+      date: '2019-07-25'
+    - name: Viettel
+      date: '2019-03-15'
+    - name: Vimeo LLC
+      date: '2014-04-08'
+    - name: VINDATA
+      date: '2019-02-22'
+    - name: Violin Memory Inc.
+      date: '2013-06-06'
+    - name: Virima Technologies
+      date: '2010-08-27'
+    - name: Virtual Bridges Inc.
+      date: '2013-09-06'
+    - name: Virtustream
+      date: '2015-04-01'
+    - name: VMTurbo
+      date: '2015-01-03'
+    - name: VmWare
+      date: '2013-08-31'
+    - name: Walmart
+      date: '2015-07-07'
+    - name: Warsaw Data Center
+      date: '2010-10-26'
+    - name: Webzilla
+      date: '2014-05-13'
+    - name: Whitestack LLC 
+      date: '2017-11-17'
+    - name: Wikimedia Foundation, Inc.
+      date: '2014-09-18'
+    - name: WinHong
+      date: '2016-10-08'
+    - name: WINK Streaming
+      date: '2010-07-19'
+    - name: Wipro Ltd.
+      date: '2014-01-14'
+    - name: Wolfram Research Inc
+      date: '2011-02-11'
+    - name: Workday, Inc.
+      date: '2014-03-26'
+    - name: x-ion GmbH
+      date: '2014-11-14'
+    - name: xFlow Research Inc.
+      date: '2014-11-18'
+    - name: Yahele LLC
+      date: '2013-09-05'
+    - name: Yahoo Japan Corporation
+      date: '2016-10-19'
+    - name: Yahoo! Inc.
+      date: '2011-11-01'
+    - name: Ysance
+      date: '2013-06-28'
+    - name: Zadara Storage
+      date: '2011-06-17'
+    - name: Zelin.io 
+      date: '2013-05-13 '
+    - name: Zenlin.io
+      date: '2013-05-13'
+    - name: Zentific LLC
+      date: '2011-06-11'
+    - name: Zergsoft
+      date: '2011-06-07'
+    - name: Zetta.IO Technology AS
+      date: '2014-08-05'
+    - name: ZTE Corporation
+      date: '2017-02-08'
 
 ---
 

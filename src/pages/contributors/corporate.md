@@ -472,9 +472,40 @@ companyDetails:
       date: '2010-07-19'
     - name:  LuuCompany
       date: '2019-04-02'
-
-
-
+    - name:  Make a Byte, Inc
+      date: '2010-08-16'
+    - name:  MapR Technologies
+      date: '2014-08-08'
+    - name:  Master I2L
+      date: '2014-01-02'
+    - name:  Media Temple Inc
+      date: '2010-08-16'
+    - name:  Mediasift Ltd.
+      date: '2013-04-16'
+    - name:  Memset Ltd
+      date: '2011-01-21'
+    - name:  Metacloud, Inc.
+      date: '2012-04-17'
+    - name:  Metaswitch Networks Ltd
+      date: '2014-10-06'
+    - name:  Metsi Technologies Ltd
+      date: '2015-11-09'
+    - name:  Microchild Technologies
+      date: '2013-07-16'
+    - name:  Midokura Co., Ltd.
+      date: '2010-07-30'
+    - name:  Mirantis
+      date: '2011-06-15'
+    - name:  MIT Lincoln Laboratory
+      date: '2014-12-14'
+    - name:  Mittwald Cm Service GmbH
+      date: '2020-02-08'
+    - name:  Morphlabs K.K.
+      date: '2010-11-01'
+    - name:  Morphlabs, Inc.
+      date: '2010-07-22'
+    - name:  MOVE-IT
+      date: '2010-09-20'
 
 
 

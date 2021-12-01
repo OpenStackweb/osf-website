@@ -12,9 +12,9 @@ companyDetails:
   leftColHeading: Company Name
   rightColHeading: Date CCLA
   companies:
-    - name: "100 Percent IT Ltd"
+    - name: 100 Percent IT Ltd
       date: '2016-05-04'
-    - name: "6WIND"
+    - name: 6WIND
       date: '2014-11-20'
     - name: 99Cloud
       date: '2016-03-25'
@@ -230,287 +230,394 @@ companyDetails:
       date: '2011-08-29'
     - name: DeNA Co., Ltd
       date: '2016-04-21'
-    - name:  Deutsche Telekom AG
+    - name: Deutsche Telekom AG
       date: '2018-10-11'
-    - name:  DigiCert, Inc.
+    - name: DigiCert, Inc.
       date: '2014-10-03'
-    - name:  Digital River
+    - name: Digital River
       date: '2017-04-18'
-    - name:  Docker, Inc.
+    - name: Docker, Inc.
       date: '2013-12-16'
-    - name:  Dot Hill
+    - name: Dot Hill
       date: '2015-04-28'
-    - name:  DreamHost
+    - name: DreamHost
       date: '2011-06-21'
-    - name:  EasyStack, Inc.
+    - name: EasyStack, Inc.
       date: '2015-06-25'
-    - name:  Ebay Software Foundation
+    - name: Ebay Software Foundation
       date: '2012-03-04'
-    - name:  Egon Technologies, LLC
+    - name: Egon Technologies, LLC
       date: '2010-07-19'
-    - name:  Embrane
+    - name: Embrane
       date: '2013-03-23'
-    - name:  EMC Corp.
+    - name: EMC Corp.
       date: '2012-11-12'
-    - name:  Emulex Corporation
+    - name: Emulex Corporation
       date: '2014-12-01'
-    - name:  Endurance International Group
+    - name: Endurance International Group
       date: '2015-06-09'
-    - name:  Enovance
+    - name: Enovance
       date: '2011-12-29'
-    - name:  Enterprise DB
+    - name: Enterprise DB
       date: '2010-11-16'
-    - name:  Ericsson
+    - name: Ericsson
       date: '2012-02-07'
-    - name:  Esprit
+    - name: Esprit
       date: '2010-11-29'
-    - name:  Eucalyptus Systems, Inc
+    - name: Eucalyptus Systems, Inc
       date: '2015-02-04'
-    - name:  Eurogiciel Ingenierie
+    - name: Eurogiciel Ingenierie
       date: '2014-02-26'
-    - name:  Evault
+    - name: Evault
       date: '2013-04-09'
-    - name:  Extreme Networks
+    - name: Extreme Networks
       date: '2016-04-29'
-    - name:  F5 Networks
+    - name: F5 Networks
       date: '2016-01-25'
-    - name:  Fiberhome Telecommunications Technologies CO., LTD
+    - name: Fiberhome Telecommunications Technologies CO., LTD
       date: '2015-08-06'
-    - name:  FLEIO
+    - name: FLEIO
       date: '2021-10-19'
-    - name:  Fleio SRL
+    - name: Fleio SRL
       date: '2020-12-09'
-    - name:  Forgerock Inc.
+    - name: Forgerock Inc.
       date: '2013-04-01'
-    - name:  ForLinux
+    - name: ForLinux
       date: '2010-08-31'
-    - name:  Fourth Paradigm Development
+    - name: Fourth Paradigm Development
       date: '2011-06-17'
-    - name:  Fujitsu Limited
+    - name: Fujitsu Limited
       date: '2012-08-06'
-    - name:  Fujitsu Limited
+    - name: Fujitsu Limited
       date: '2014-03-04'
-    - name:  Fujitsu Limited
+    - name: Fujitsu Limited
       date: '2014-11-14'
-    - name:  Fusion.io
+    - name: Fusion.io
       date: '2014-05-05'
-    - name:  FusionStack Co, Ltd.
+    - name: FusionStack Co, Ltd.
       date: '2017-05-17'
-    - name:  German Cloud
+    - name: German Cloud
       date: '2011-03-19'
-    - name:  Gigaspaces
+    - name: Gigaspaces
       date: '2014-05-01'
-    - name:  Global Logic Inc.
+    - name: Global Logic Inc.
       date: '2013-08-05'
-    - name:  GoDaddy
+    - name: GoDaddy
       date: '2016-05-16'
-    - name:  GoodData
+    - name: GoodData
       date: '2014-10-20'
-    - name:  Great Software Laboratory Private Limited
+    - name: Great Software Laboratory Private Limited
       date: '2017-06-05'
-    - name:  Green and Secure IT Ltd.
+    - name: Green and Secure IT Ltd.
       date: '2013-04-03'
-    - name:  Grid Dynamics
+    - name: Grid Dynamics
       date: '2011-07-05'
-    - name:  GridCentric, Inc
+    - name: GridCentric, Inc
       date: '2010-08-03'
-    - name:  GridGain Systems
+    - name: GridGain Systems
       date: '2011-06-22'
-    - name:  Guardian News and Media Ltd.
+    - name: Guardian News and Media Ltd.
       date: '2012-11-28'
-    - name:  H3C
+    - name: H3C
       date: '2014-07-23'
-    - name:  Happiest Minds Technologies Private Limited
+    - name: Happiest Minds Technologies Private Limited
       date: '2017-12-06'
-    - name:  hastexo
+    - name: hastexo
       date: '2012-05-24'
-    - name:  Hetzner Pty Ltd.
+    - name: Hetzner Pty Ltd.
       date: '2013-10-23'
-    - name:  Hewlett-Packard
+    - name: Hewlett-Packard
       date: '2011-08-03'
-    - name:  HGST Inc.
+    - name: HGST Inc.
       date: '2013-11-20'
-    - name:  HGST, Inc
+    - name: HGST, Inc
       date: '2015-05-06'
-    - name:  Hitachi America, Ltd.
+    - name: Hitachi America, Ltd.
       date: '2014-06-04'
-    - name:  Hitachi Data Systems
+    - name: Hitachi Data Systems
       date: '2013-05-03'
-    - name:  Hitachi India Ltd.
+    - name: Hitachi India Ltd.
       date: '2014-10-24'
-    - name:  Hitachi India Pvt. Ltd.
+    - name: Hitachi India Pvt. Ltd.
       date: '2014-10-22'
-    - name:  Hometrainserge
+    - name: Hometrainserge
       date: '2016-02-28'
-    - name:  HoneycombData
+    - name: HoneycombData
       date: '2020-02-12'
-    - name:  HP Enterprise
+    - name: HP Enterprise
       date: '2015-09-23'
-    - name:  HPE
+    - name: HPE
       date: '2016-07-20'
-    - name:  Huawei
+    - name: Huawei
       date: '2015-05-26'
-    - name:  Huawei Technologies Co. Ltd
+    - name: Huawei Technologies Co. Ltd
       date: '2014-11-25'
-    - name:  Hugh Hollbrook
+    - name: Hugh Hollbrook
       date: '2021-09-09'
-    - name:  Huron Technologies
+    - name: Huron Technologies
       date: '2015-05-09'
-    - name:  Hyperglance Limited
+    - name: Hyperglance Limited
       date: '2016-03-30'
-    - name:  IBM
+    - name: IBM
       date: '2012-02-02'
-    - name:  IDNT Europe GmbH
+    - name: IDNT Europe GmbH
       date: '2018-01-19'
-    - name:  IMDEA Software Institute
+    - name: IMDEA Software Institute
       date: '2015-10-22'
-    - name:  Infoblox
+    - name: Infoblox
       date: '2014-06-04'
-    - name:  InfraStacks LLC
+    - name: InfraStacks LLC
       date: '2011-07-26'
-    - name:  Inktank.com
+    - name: Inktank.com
       date: '2013-05-13'
-    - name:  Inocybe Technologies
+    - name: Inocybe Technologies
       date: '2015-05-12'
-    - name:  Inocybe Technologies Inc.
+    - name: Inocybe Technologies Inc.
       date: '2014-02-26'
-    - name:  Institute for System Programming Russian Academy of Science (ISP-RAS)
+    - name: Institute for System Programming Russian Academy of Science (ISP-RAS)
       date: '2013-04-22'
-    - name:  Intalio, Inc
+    - name: Intalio, Inc
       date: '2010-08-10'
-    - name:  Intel Corp.
+    - name: Intel Corp.
       date: '2011-09-20'
-    - name:  Internap
+    - name: Internap
       date: '2010-10-26'
-    - name:  Intracom S.A. Telecom Solutions
+    - name: Intracom S.A. Telecom Solutions
       date: '2016-04-19'
-    - name:  Intridea
+    - name: Intridea
       date: '2011-06-21'
-    - name:  InWin Inc.
+    - name: InWin Inc.
       date: '2014-08-11'
-    - name:  inwinSTACK
+    - name: inwinSTACK
       date: '2015-04-10'
-    - name:  IOData Centers LLC
+    - name: IOData Centers LLC
       date: '2013-10-14'
-    - name:  iPlant Collaborative
+    - name: iPlant Collaborative
       date: '2013-05-01'
-    - name:  Iron.io
+    - name: Iron.io
       date: '2016-12-15'
-    - name:  it-novum GmbH
+    - name: it-novum GmbH
       date: '2014-07-14'
-    - name:  ITConcepts Automotive GmbH
+    - name: ITConcepts Automotive GmbH
       date: '2018-08-02'
-    - name:  IVO Networks, Inc
+    - name: IVO Networks, Inc
       date: '2011-07-27'
-    - name:  iWeb Technologies Inc.
+    - name: iWeb Technologies Inc.
       date: '2013-04-16'
-    - name:  Izel Technologies
+    - name: Izel Technologies
       date: '2014-01-01'
-    - name:  Izel Technologies
+    - name: Izel Technologies
       date: '2014-04-09'
-    - name:  Jawa Talent
+    - name: Jawa Talent
       date: '2014-04-12'
-    - name:  Just Eat Takeaway
+    - name: Just Eat Takeaway
       date: '2021-08-10'
-    - name:  Just One Data, Inc.
+    - name: Just One Data, Inc.
       date: '2014-03-17'
-    - name:  Kaminario Technologies Ltd
+    - name: Kaminario Technologies Ltd
       date: '2016-03-21'
-    - name:  KEMP TECHNOLOGIES, INC
+    - name: KEMP TECHNOLOGIES, INC
       date: '2015-01-27'
-    - name:  Kili.io, Inc.
+    - name: Kili.io, Inc.
       date: '2014-03-11'
-    - name:  King's College
+    - name: King's College
       date: '2017-07-02'
-    - name:  Kioxia Corporation
+    - name: Kioxia Corporation
       date: '2021-01-14'
-    - name:  Komola GmbH
+    - name: Komola GmbH
       date: '2013-05-10'
-    - name:  Kumulus Technologies
+    - name: Kumulus Technologies
       date: '2015-08-16'
-    - name:  KVH Co., Ltd.
+    - name: KVH Co., Ltd.
       date: '2014-08-18'
-    - name:  Kylinos
+    - name: Kylinos
       date: '2013-09-10'
-    - name:  LC9
+    - name: LC9
       date: '2010-08-11'
-    - name:  Leafcloud B.V.
+    - name: Leafcloud B.V.
       date: '2021-01-05'
-    - name:  LeaseWeb BV
+    - name: LeaseWeb BV
       date: '2010-09-09'
-    - name:  LENOVO
+    - name: LENOVO
       date: '2015-03-20'
-    - name:  Letv Cloud Computing
+    - name: Letv Cloud Computing
       date: '2014-08-14'
-    - name:  LGCNS
+    - name: LGCNS
       date: '2017-09-17'
-    - name:  LGNCS
+    - name: LGNCS
       date: '2017-09-17'
-    - name:  Limelight Networks, Inc.
+    - name: Limelight Networks, Inc.
       date: '2016-07-27'
-    - name:  Linagora
+    - name: Linagora
       date: '2012-09-06'
-    - name:  LINARO LIMITED
+    - name: LINARO LIMITED
       date: '2014-10-17'
-    - name:  LINBIT HA-Solutions GmbH
+    - name: LINBIT HA-Solutions GmbH
       date: '2015-01-12'
-    - name:  Line Corporation
+    - name: Line Corporation
       date: '2019-08-21'
-    - name:  Line Fukuoka Corporation
+    - name: Line Fukuoka Corporation
       date: '2019-08-21'
-    - name:  Linkbynet
+    - name: Linkbynet
       date: '2021-10-05'
-    - name:  LinMin Corp
+    - name: LinMin Corp
       date: '2010-07-21'
-    - name:  Linux Academy, Inc.
+    - name: Linux Academy, Inc.
       date: '2017-08-04'
-    - name:  Linux Foundation
+    - name: Linux Foundation
       date: '2014-11-18'
-    - name:  Locaweb
+    - name: Locaweb
       date: '2012-06-13'
-    - name:  Logic Surge, Inc
+    - name: Logic Surge, Inc
       date: '2010-07-19'
-    - name:  LuuCompany
+    - name: LuuCompany
       date: '2019-04-02'
-    - name:  Make a Byte, Inc
+    - name: Make a Byte, Inc
       date: '2010-08-16'
-    - name:  MapR Technologies
+    - name: MapR Technologies
       date: '2014-08-08'
-    - name:  Master I2L
+    - name: Master I2L
       date: '2014-01-02'
-    - name:  Media Temple Inc
+    - name: Media Temple Inc
       date: '2010-08-16'
-    - name:  Mediasift Ltd.
+    - name: Mediasift Ltd.
       date: '2013-04-16'
-    - name:  Memset Ltd
+    - name: Memset Ltd
       date: '2011-01-21'
-    - name:  Metacloud, Inc.
+    - name: Metacloud, Inc.
       date: '2012-04-17'
-    - name:  Metaswitch Networks Ltd
+    - name: Metaswitch Networks Ltd
       date: '2014-10-06'
-    - name:  Metsi Technologies Ltd
+    - name: Metsi Technologies Ltd
       date: '2015-11-09'
-    - name:  Microchild Technologies
+    - name: Microchild Technologies
       date: '2013-07-16'
-    - name:  Midokura Co., Ltd.
+    - name: Midokura Co., Ltd.
       date: '2010-07-30'
-    - name:  Mirantis
+    - name: Mirantis
       date: '2011-06-15'
-    - name:  MIT Lincoln Laboratory
+    - name: MIT Lincoln Laboratory
       date: '2014-12-14'
-    - name:  Mittwald Cm Service GmbH
+    - name: Mittwald Cm Service GmbH
       date: '2020-02-08'
-    - name:  Morphlabs K.K.
+    - name: Morphlabs K.K.
       date: '2010-11-01'
-    - name:  Morphlabs, Inc.
+    - name: Morphlabs, Inc.
       date: '2010-07-22'
-    - name:  MOVE-IT
+    - name: MOVE-IT
       date: '2010-09-20'
-
-
-
-
-
+    - name:  N5 Tech, Inc
+      date: '2015-02-08'
+    - name: National Institute of Informatics
+      date: '2010-12-21'
+    - name: National Institute of Standards and Technology
+      date: '2016-05-23'
+    - name: NEC Corporation
+      date: '2011-08-09'
+    - name: Nestlé Nespresso
+      date: '2015-05-22'
+    - name: Nestlé Nespresso SA
+      date: '2015-05-22'
+    - name: NetApp, Inc
+      date: '2011-04-25'
+    - name: Netease
+      date: '2013-05-30'
+    - name: Netmagic Solutions Pvt. Ltd.
+      date: '2012-05-04'
+    - name: Netronome Systems, Inc.
+      date: '2016-12-06'
+    - name: Netronome Systems, Inc.
+      date: '2017-07-13'
+    - name: NetScout Systems, Inc.
+      date: '2017-06-15'
+    - name: Nexenta Systems
+      date: '2011-08-24'
+    - name: Nexus IS
+      date: '2014-03-10'
+    - name: Nicira Networks, Inc
+      date: '2010-10-28'
+    - name: NIH/NLM/NCBI
+      date: '2014-05-15'
+    - name: Nimbis Services, Inc.
+      date: '2011-29-11'
+    - name: Nimbula, Inc.
+      date: '2012-10-01'
+    - name: Nimbus Data
+      date: '2014-05-15'
+    - name: Nine Internet Solutions AG
+      date: '2014-05-16'
+    - name: Nokia Solutions and Networks Oy
+      date: '2014-11-19'
+    - name: NovoTel Ltd.
+      date: '2014-03-05'
+    - name: NS Tech, Inc
+      date: '2015-02-08'
+    - name: NSA
+      date: '2013-06-19'
+    - name: NTT Comware Corporation
+      date: '2019-01-09'
+    - name: NTT Cyber Space Laboratories
+      date: '2010-11-16'
+    - name: NTT Data AgileNet
+      date: '2010-11-07'
+    - name: NTT Data Corporation
+      date: '2010-11-18'
+    - name: NTT DOCOMO, Inc
+      date: '2012-06-13'
+    - name: NTT PF Labs
+      date: '2010-12-21'
+    - name: NTT Software Corporation
+      date: '2013-06-27'
+    - name: NTT Software Innovation Center
+      date: '2013-05-20'
+    - name: Nubeliu
+      date: '2015-10-01'
+    - name: Nuenn
+      date: '2017-07-07'
+    - name: Numergy
+      date: '2014-01-14'
+    - name: Nutanix
+      date: '2018-04-20'
+    - name: NVIDIA
+      date: '2021-05-27'
+    - name: Oath Inc
+      date: '2019-07-17'
+    - name: Objectif Libre
+      date: '2013-03-11'
+    - name: Objectif Libre
+      date: '2016-08-25'
+    - name: OlinData
+      date: '2014-07-16'
+    - name: OneCloud Consulting
+      date: '2015-02-21'
+    - name: OneCloud Consulting, Inc.
+      date: '2014-02-13'
+    - name: Oodrive
+      date: '2014-10-09'
+    - name: Open Solutions
+      date: '2011-07-13'
+    - name: Open-V
+      date: '2011-08-20'
+    - name: Openfiler
+      date: '2010-07-19'
+    - name: Opscode, Inc
+      date: '2010-07-15'
+    - name: Oracle
+      date: '2013-12-08'
+    - name: Orange
+      date: '2013-08-01'
+    - name: Orange Application for business
+      date: '2019-04-02'
+    - name: Orange Polska S.A
+      date: '2017-06-30'
+    - name: OSISM GmbH
+      date: '2021-10-04'
+    - name: OSNEXUS
+      date: '2014-04-09'
+    - name: Osones
+      date: '2013-11-20'
+    - name: OVH
+      date: '2014-10-28'
 
 ---
 

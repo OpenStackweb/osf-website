@@ -60,10 +60,9 @@ projects:
             across every industry.
         - bullet: The OpenStack-powered public cloud footprint has grown to 175 global
             data centers.
-        - bullet: <a
-            href="https://www.openstack.org/use-cases/#search=Hybrid%20Cloud">Check
-            out how organizations around the world are deploying OpenStack in
-            production for hybrid cloud infrastructure.</a>
+        - bullet: <a href="https://www.openstack.org/use-cases">Check out how
+            organizations around the world are deploying OpenStack in production
+            for hybrid cloud infrastructure.</a>
     - image: /img/hybrid-cloud/Logo-KataContainers.png
       bullets:
         - bullet: Confidential Computing has the potential to accelerate the adoption of

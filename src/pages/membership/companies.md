@@ -145,6 +145,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_JuniperNetworks.png
       - alt: NetApp
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NetApp.png
+      - image: /img/nhn-cloud_sm.png
+        alt: NHN
       - alt: Nokia
         image: /img/companies/_New/Silver/nokiasilver.jpg
       - alt: NTT

@@ -306,7 +306,7 @@ companyTier:
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_NetApp 1.png
           alt: ""
-        - logo: /img/nhn-cloud_sm.png
+        - logo: /img/nhn.jpeg
         - logo: /img/members-page/silver-tier/nokiasilver 1.png
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_NTT 1.png

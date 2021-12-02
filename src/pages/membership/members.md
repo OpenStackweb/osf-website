@@ -265,7 +265,7 @@ companyTier:
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_AWCloud 1.png
           alt: ""
-        - logo: /img/b1systems_md.png
+        - logo: /img/b1systems_sm.jpg
         - logo: /img/members-page/silver-tier/binero-silver 1.png
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_CDAC 1.png

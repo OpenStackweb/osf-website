@@ -44,7 +44,7 @@ companies:
       empowering and promoting the Open Infrastructure community and open source
       software projects. Each Platinum Member's company strategy aligns with the
       OpenInfra Foundation mission and is responsible for committing full-time
-      resources toward the project. Thank you to the following Platinum Members
+      resources toward OpenInfra projects. Thank you to the following Platinum Members
       who are committed to the Open Infrastructure community's success. <a
       href="/join/members">Learn more about becoming a member.</a>
     level: platinum
@@ -89,9 +89,7 @@ companies:
       - alt: ZTE
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
     text: Open Infrastructure Foundation Gold Members provide funding and pledge
-      strategic alignment to the OpenInfra Foundation mission.  There can be up
-      to twenty-four Gold Members at any given time, subject to board approval.
-      If your organization  is highly involved with the Open Infrastructure
+      strategic alignment to the OpenInfra Foundation mission. If your organization is highly involved with the Open Infrastructure
       community and interested in becoming a Gold Member, read more about
       joining the  Foundation. Thank you to the following Gold Members who are
       critical to the global community's success.  <a href="/join/members">Learn
@@ -179,7 +177,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
-    text: Open Infrastructure Foundation Silver Members provide funding and pledge
+    text:
+      Open Infrastructure Foundation Silver Members provide funding and pledge
       strategic alignment to the OpenInfra Foundation mission. If your
       organization  is highly involved with  the Open Infrastructure community
       and interested in becoming a Silver Member,  read more about joining
@@ -189,7 +188,8 @@ companies:
     title: SILVER MEMBERS
     level: silver
   - title: ASSOCIATE MEMBERS
-    text: Associate members are other organizations actively supporting the mission
+    text:
+      Associate members are other organizations actively supporting the mission
       of the Open Infrastructure Foundation. They may be partner non-profit
       organizations sustaining the development of open infrastructure, or
       notable academic and research institutions making extensive use of open
@@ -937,7 +937,8 @@ companies:
         image: /img/companies/zenoss-large.jpg
       - alt: Zetta.IO
         image: /img/companies/logo-w500.png
-    text: The resources provided by the OpenInfra Foundation Members are critical to
+    text:
+      The resources provided by the OpenInfra Foundation Members are critical to
       making the Open Infrastructure Foundation successful, but there are many
       ways to support the OpenInfra Foundation mission, whether you're
       contributing  code, building a product or helping build the community.

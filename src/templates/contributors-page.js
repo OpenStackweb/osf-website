@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react'
-import { kebabCase, debounce } from 'lodash'
+import React, { useState, useEffect, useMemo } from 'react'
+import { debounce } from 'lodash'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
@@ -8,9 +8,8 @@ import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
-import SortButton from '../components/SortButton'
-import GoTopButton from '../components/GoTopButton'
-
+import { useTable, useSortBy } from 'react-table'
+import { Helmet } from "react-helmet"
 import { connect } from "react-redux";
 
 export const ContributorsPageTemplate = ({
@@ -23,27 +22,86 @@ export const ContributorsPageTemplate = ({
 }) => {
   const PageContent = contentComponent || Content
 
-  const [showGoTop, setShowGoTop] = useState(false);
+  const companyDetailsArr = React.useMemo(() => companyDetails.companies, []);
 
-  useEffect(() => {
-    window.addEventListener('scroll', debounce(scrollHandler, 150), { passive: true });
-    return () => window.removeEventListener('scroll', scrollHandler);
-  }, []);
+  const columns = React.useMemo(() => [
+      {
+        Header: companyDetails.leftColHeading,
+        accessor: 'col1', // accessor is the "key" in the data
+      },
+      {
+        Header: companyDetails.rightColHeading,
+        accessor: 'col2',
+      },
+    ],[]
+  )
 
-  const scrollHandler = () => {
-    if (window.pageYOffset > 700 && window.pageYOffset < document.documentElement.scrollHeight - 1400) {
-      setShowGoTop(true)
-    } else {
-      setShowGoTop(false)
-    }
-  }
-
-  const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+  function Table({ columns, data }) {
+    // Use the state and functions returned from useTable to build your UI
+    const {
+      getTableProps,
+      getTableBodyProps,
+      headerGroups,
+      rows,
+      prepareRow,
+    } = useTable(
+      {
+      columns,
+      data,
+      },
+      useSortBy
+    )
+  
+    // Render the UI for your table
+    return (
+      
+      <table className="corpTable" {...getTableProps()}>
+        <thead>
+          {headerGroups.map(headerGroup => (
+            <tr {...headerGroup.getHeaderGroupProps()}>
+              {headerGroup.headers.map(column => (
+                <th {...column.getHeaderProps(column.getSortByToggleProps())}>{column.render('Header')}
+                 {/* Add a sort direction indicator */}
+                  <span>
+                    {column.isSorted
+                      ? column.isSortedDesc
+                      ? <i className="fa fa-chevron-down sort-icon" />
+                      : <i className="fa fa-chevron-up sort-icon" />
+                      : <i className="fas fa-sort sort-icon" />
+                      }
+                  </span>
+                </th>
+              ))}
+            </tr>
+          ))}
+        </thead>
+        <tbody {...getTableBodyProps()}>
+          {rows.map((row, index) => {
+            prepareRow(row)
+            return (
+              <tr {...row.getRowProps()} key={`companyDetail-${index}`}>
+                {row.cells.map(cell => {
+                  return (
+                    <td
+                      {...cell.getCellProps()}
+                    >
+                      {cell.render('Cell')}
+                    </td>
+                  )
+                })}
+              </tr>
+            )
+          })}
+        </tbody>
+      </table>
+    )
   }
 
   return (
     <div>
+        <Helmet>
+          <script src="https://kit.fontawesome.com/9438df25f9.js" crossorigin="anonymous"></script>
+        </Helmet>
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
@@ -56,42 +114,14 @@ export const ContributorsPageTemplate = ({
               <div className="columns">
                 <div className="column">
                   <PageContent content={content} />
-                  {companyDetails &&
-                    <table id="corpTable" className="corpTable">
-                    <thead>
-                      <tr>
-                        <th className="with-icon leftCol">
-                          {companyDetails.leftColHeading}
-
-                          <SortButton id="left-button" />
-                          
-                        </th>
-                        <th className="with-icon rightCol">
-                          {companyDetails.rightColHeading}
-
-                          <SortButton id="right-button" />
-                          
-                        </th>
-                      </tr>
-                      </thead>
-                      <tbody>
-                      {companyDetails.companies.map((c, index) => {
-                        return (
-                      <tr key={`companyDetail-${index}`}>
-                        <td >{c.name}</td>
-                        <td >{c.date}</td> 
-                      </tr>
-                        )
-                      })}
-                    </tbody>
-                    </table>
-                  }
+                  <div id="arrayinfo"></div>
+                  <div id="theObjects"></div>
+                  <Table columns={columns} data={companyDetailsArr} />
                 </div>
               </div>
             </div>
           </section>
         </div>
-        {showGoTop && <GoTopButton onClick={() => scrollTop()} />} 
       </main>
     </div>
   )
@@ -100,7 +130,6 @@ export const ContributorsPageTemplate = ({
 ContributorsPageTemplate.propTypes = {
   title: PropTypes.string,
   subTitle: PropTypes.string,
-  
 }
 
 const ContributorsPage = ({ isLoggedUser, data }) => {
@@ -154,8 +183,8 @@ export const contributorsPageQuery = graphql`
           leftColHeading
           rightColHeading
           companies {
-            name
-            date
+            col1
+            col2
           }
         }
       }

@@ -6,8 +6,8 @@ const ContributorsPagePreview = ({ entry, widgetFor }) => {
 
   const data = entry.getIn(['data']).toJS()
 
-  const entryCases = entry.getIn(['data', 'companyDetails', 'companies'])
-  const companies = entryCases ? entryCases.toJS() : []
+  const entryCompanies = entry.getIn(['data', 'companyDetails', 'companies'])
+  const companies = entryCompanies ? entryCompanies.toJS() : []
 
   if (data) {
     return (
@@ -17,7 +17,7 @@ const ContributorsPagePreview = ({ entry, widgetFor }) => {
         content={widgetFor('body')}
         companyDetails={{
             leftColHeading: entry.getIn(['data', 'companyDetails', 'leftColHeading' ]),
-            rightColHeading: entry.getIn(['data', 'companyDetails', 'leftColHeading' ]),
+            rightColHeading: entry.getIn(['data', 'companyDetails', 'rightColHeading' ]),
             companies: companies,
         }}
       />

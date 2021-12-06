@@ -2,29 +2,22 @@
 import React from 'react'
 import { Helmet } from "react-helmet"
 
-class SortButton extends React.Component {
+function SortButton(props) {
   
-  constructor(props) {
-    super(props);
-    this.sortTable = this.sortTable.bind(this);
-    this.handleClick = this.handleClick.bind(this);
-    this.iconUp = "fa fa-chevron-up sort-icon";
-    this.iconDown = "fa fa-chevron-down sort-icon";
-    this.iconDefault = "fas fa-sort sort-icon";
-    this.table = "corpTable";
-  }
+    let iconUp = "fa fa-chevron-up sort-icon";
+    let iconDown = "fa fa-chevron-down sort-icon";
+    let iconDefault = "fas fa-sort sort-icon";
 
    // Sorts table and toggles arrows
 
-  sortTable(n) {
-    let table = document.getElementById(this.table);
-    let icon = document.getElementById(this.props.id);
+   const sortTable = (n) => {
+    let table = document.getElementById("corpTable");
+    let icon = document.getElementById(props.id);
     let rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
 
     switching = true;
     // Set the sorting direction to ascending:
     dir = "desc";
-    console.log(dir);
     /* Make a loop that will continue until
     no switching has been done: */
     while (switching) {
@@ -44,7 +37,7 @@ class SortButton extends React.Component {
         /* Check if the two rows should switch place,
         based on the direction, asc or desc: */
         if (dir === "asc") {
-          icon.className = this.iconUp;
+          icon.className = iconUp;
           if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
             // If so, mark as a switch and break the loop:
             shouldSwitch = true;
@@ -52,7 +45,7 @@ class SortButton extends React.Component {
           }
 
         } else if (dir === "desc") {
-          icon.className = this.iconDown;
+          icon.className = iconDown;
           if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
             // If so, mark as a switch and break the loop:
             shouldSwitch = true;
@@ -83,42 +76,39 @@ class SortButton extends React.Component {
 
 // Sorts table and toggles arrows
 
-  handleClick(event) {
+  const handleClick = (event) => {
     
     event.preventDefault();
-    let icon = document.getElementById(this.props.id);
+    let icon = document.getElementById(props.id);
     let rightButton = document.getElementById("right-button");
     let leftButton = document.getElementById("left-button");
     let oppositeButton;
 
     // Check if button is in left or right column, change buttons
 
-    if (this.props.id === "left-button") {
-      this.sortTable(0);
+    if (props.id === "left-button") {
+      sortTable(0);
       icon.style.opacity = "1";
       oppositeButton = rightButton;
       oppositeButton.style.opacity = ".4";
-      oppositeButton.className = this.iconDefault;
-    } else if (this.props.id === "right-button") {
-      this.sortTable(1);
+      oppositeButton.className = iconDefault;
+    } else if (props.id === "right-button") {
       icon.style.opacity = "1";
       oppositeButton = leftButton;
       oppositeButton.style.opacity = ".4";
-      oppositeButton.className = this.iconDefault;
+      oppositeButton.className = iconDefault;
+      sortTable(1);
     }
   }
 
-  render() {
-    
     return (
       <>
         <Helmet>
           <script src="https://kit.fontawesome.com/9438df25f9.js" crossorigin="anonymous"></script>
         </Helmet>
-        <i id={this.props.id} onClick={this.handleClick} className={this.iconDefault} />
+        <i id={props.id} onClick={handleClick} className={iconDefault} />
       </>
     )
-  }
 }
 
 export default SortButton

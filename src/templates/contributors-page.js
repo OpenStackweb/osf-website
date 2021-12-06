@@ -8,10 +8,8 @@ import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
-
 import { useTable, useSortBy } from 'react-table'
 import { Helmet } from "react-helmet"
-
 import { connect } from "react-redux";
 
 export const ContributorsPageTemplate = ({
@@ -78,10 +76,10 @@ export const ContributorsPageTemplate = ({
           ))}
         </thead>
         <tbody {...getTableBodyProps()}>
-          {rows.map(row => {
+          {rows.map((row, index) => {
             prepareRow(row)
             return (
-              <tr {...row.getRowProps()}>
+              <tr {...row.getRowProps()} key={`companyDetail-${index}`}>
                 {row.cells.map(cell => {
                   return (
                     <td

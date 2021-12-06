@@ -17,7 +17,7 @@ const ContributorsPagePreview = ({ entry, widgetFor }) => {
         content={widgetFor('body')}
         companyDetails={{
             leftColHeading: entry.getIn(['data', 'companyDetails', 'leftColHeading' ]),
-            rightColHeading: entry.getIn(['data', 'companyDetails', 'leftColHeading' ]),
+            rightColHeading: entry.getIn(['data', 'companyDetails', 'rightColHeading' ]),
             companies: companies,
         }}
       />

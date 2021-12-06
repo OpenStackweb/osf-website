@@ -1119,7 +1119,7 @@ collections:
               {label: "Left Column Heading", name: leftColHeading, widget: string},
               {label: "Right Column Heading", name: rightColHeading, widget: string},
               {label: Companies, name: companies, widget: list, fields: [
-                {label: Name, name: name, widget: string},
-                {label: Date, name: date, widgeT: string}
+                {label: Name, name: col1, widget: string},
+                {label: Date, name: col2, widget: string}
               ]}
             ]}

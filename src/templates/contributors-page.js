@@ -8,9 +8,9 @@ import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
-import SortButton from '../components/SortButton'
-import GoTopButton from '../components/GoTopButton'
+
 import { useTable, useSortBy } from 'react-table'
+import { Helmet } from "react-helmet"
 
 import { connect } from "react-redux";
 
@@ -23,25 +23,6 @@ export const ContributorsPageTemplate = ({
   companyDetails
 }) => {
   const PageContent = contentComponent || Content
-
-  const [showGoTop, setShowGoTop] = useState(false); 
-
-  useEffect(() => {
-    window.addEventListener('scroll', debounce(scrollHandler, 150), { passive: true });
-    return () => window.removeEventListener('scroll', scrollHandler);
-  }, []);
-
-  const scrollHandler = () => {
-    if (window.pageYOffset > 700 && window.pageYOffset < document.documentElement.scrollHeight - 1400) {
-      setShowGoTop(true)
-    } else {
-      setShowGoTop(false)
-    }
-  }
-
-  const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
 
   const companyDetailsArr = React.useMemo(() => companyDetails.companies, []);
 
@@ -75,7 +56,8 @@ export const ContributorsPageTemplate = ({
   
     // Render the UI for your table
     return (
-      <table {...getTableProps()}>
+      
+      <table className="corpTable" {...getTableProps()}>
         <thead>
           {headerGroups.map(headerGroup => (
             <tr {...headerGroup.getHeaderGroupProps()}>
@@ -85,9 +67,10 @@ export const ContributorsPageTemplate = ({
                   <span>
                     {column.isSorted
                       ? column.isSortedDesc
-                      ? ' 🔽'
-                      : ' 🔼'
-                      : ''}
+                      ? <i className="fa fa-chevron-down sort-icon" />
+                      : <i className="fa fa-chevron-up sort-icon" />
+                      : <i className="fas fa-sort sort-icon" />
+                      }
                   </span>
                 </th>
               ))}
@@ -118,6 +101,9 @@ export const ContributorsPageTemplate = ({
 
   return (
     <div>
+        <Helmet>
+          <script src="https://kit.fontawesome.com/9438df25f9.js" crossorigin="anonymous"></script>
+        </Helmet>
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
@@ -138,7 +124,6 @@ export const ContributorsPageTemplate = ({
             </div>
           </section>
         </div>
-        {showGoTop && <GoTopButton onClick={() => scrollTop()} />} 
       </main>
     </div>
   )

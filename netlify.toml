@@ -63,6 +63,11 @@
   to = "/user-survey"
   status = 301
   force = true
+[[redirects]]
+  from = "/ptg/"
+  to = "https://openstack.org/ptg/"
+  status = 302
+  force = true
 # Branch Deploy context: all deploys that are not from a pull/merge request or
 # from the Production branch will inherit these settings.
 [context.branch-deploy.environment]

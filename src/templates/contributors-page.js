@@ -130,6 +130,7 @@ export const ContributorsPageTemplate = ({
 ContributorsPageTemplate.propTypes = {
   title: PropTypes.string,
   subTitle: PropTypes.string,
+  companyDetails: PropTypes.string,
 }
 
 const ContributorsPage = ({ isLoggedUser, data }) => {

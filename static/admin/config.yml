@@ -1120,6 +1120,6 @@ collections:
               {label: "Right Column Heading", name: "rightColHeading", widget: string},
               {label: "Companies", name: "companies", widget: list, fields: [
                 {label: "Name", name: "col1", widget: string},
-                {label: "Date", name: "col2", widget: datetime, default: "", date_format: "DD.MM.YYYY", time_format: false, format: "", picker_utc: true}, 
+                {label: "Date", name: "col2", widget: datetime, default: "", format: "LL", date_format: "MM-DD-YYYY", time_format: false, picker_utc: true}, 
               ]}
             ]}

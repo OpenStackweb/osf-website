@@ -114,8 +114,6 @@ export const ContributorsPageTemplate = ({
               <div className="columns">
                 <div className="column">
                   <PageContent content={content} />
-                  <div id="arrayinfo"></div>
-                  <div id="theObjects"></div>
                   <Table columns={columns} data={companyDetailsArr} />
                 </div>
               </div>
@@ -189,7 +187,6 @@ export const contributorsPageQuery = graphql`
           }
         }
       }
-      
     }
   }
 `

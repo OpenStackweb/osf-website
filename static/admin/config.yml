@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: tomrndom/osf-website
-  branch:  hotfix/date-corporate-table
+  repo: OpenStackweb/osf-website
+  branch:  master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'

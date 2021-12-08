@@ -96,6 +96,10 @@ exports.createSchemaCustomization = ({ actions }) => {
        leftColumn: SponsorshipSectionLeftColumn
        rightColumn: SponsorshipSectionRightColumn
     }
+    type MarkdownRemarkFrontmatterCompanyDetailsCompanies{
+      col1: String
+      col2: Date @dateformat
+    }
     `
   createTypes(typeDefs)
 }

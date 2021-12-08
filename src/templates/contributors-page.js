@@ -183,7 +183,7 @@ export const contributorsPageQuery = graphql`
           rightColHeading
           companies {
             col1
-            col2
+            col2 (formatString: "YYYY-MM-DD", locale: "en_us")
           }
         }
       }

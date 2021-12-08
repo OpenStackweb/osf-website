@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: OpenStackweb/osf-website
-  branch:  master
+  repo: tomrndom/osf-website
+  branch:  hotfix/date-corporate-table
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -1120,6 +1120,6 @@ collections:
               {label: "Right Column Heading", name: "rightColHeading", widget: string},
               {label: "Companies", name: "companies", widget: list, fields: [
                 {label: "Name", name: "col1", widget: string},
-                {label: "Date", name: "col2", widget: datetime, default: "", format: "LL", date_format: "MM-DD-YYYY", time_format: false, picker_utc: true}, 
+                {label: "Date", name: "col2", widget: datetime, default: "", format: "YYYY-MM-DD", date_format: "MM-DD-YYYY", time_format: false, picker_utc: true}, 
               ]}
             ]}

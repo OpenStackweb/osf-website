@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useMemo } from 'react'
-import { debounce } from 'lodash'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
@@ -51,10 +50,9 @@ export const ContributorsPageTemplate = ({
       },
       useSortBy
     )
-  
+
     // Render the UI for your table
     return (
-      
       <table className="corpTable" {...getTableProps()}>
         <thead>
           {headerGroups.map(headerGroup => (

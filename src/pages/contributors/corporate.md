@@ -901,7 +901,7 @@ companyDetails:
     - col1: Zadara Storage
       col2: 2011-06-17
     - col1: Zelin.io
-      col2: "2013-05-13 "
+      col2: 2013-05-13
     - col1: Zenlin.io
       col2: 2013-05-13
     - col1: Zentific LLC

@@ -13,7 +13,7 @@ companyDetails:
   rightColHeading: Date CCLA
   companies:
     - col1: 100 Percent IT Ltd
-      col2: January 21, 2016
+      col2: 2016-05-04
     - col1: 6WIND
       col2: 2014-11-20
     - col1: 99Cloud

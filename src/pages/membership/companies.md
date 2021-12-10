@@ -178,6 +178,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_UltimumTechnologies.png
       - alt: Vexxhost
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
+      - image: /img/silverhorizontal_sm-copy.png
+        alt: Virtuozzo
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
     text: Open Infrastructure Foundation Silver Members provide funding and pledge

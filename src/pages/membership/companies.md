@@ -172,6 +172,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SocieteGenerale.png
       - alt: StackHPC
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_StackHPC.png
+      - image: /img/silverhorizontal_sm.png
+        alt: TransIP
       - alt: Ultimum Technologies
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_UltimumTechnologies.png
       - alt: Vexxhost

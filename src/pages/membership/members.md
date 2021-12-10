@@ -331,6 +331,7 @@ companyTier:
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_StackHPC 1.png
           alt: ""
+        - logo: /img/silverhorizontal_sm.png
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_UltimumTechnologies
             1.png
           alt: ""

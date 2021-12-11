@@ -93,7 +93,11 @@ export const SummitPageTemplate = ({
 
           <section id="sponsor" className="sponsorship-levels">
             <span className="title">Sponsorships Are Live!</span>
-              <span className="description">Becoming a sponsor is as easy as 1, 2, 3!</span>
+            <span className="description">
+              <p>Having a presence at the Summit is a great way to get your company in front of the OpenInfra community. You can read about the various options in the Sponsorship Prospectus.</p>
+              <p>Whichever level you choose to participate, you'll want to act quickly — we've already seen a lot of interest from potential sponsors.</p>
+              <p><strong>Becoming a sponsor is as easy as 1, 2, 3!</strong></p>
+            </span>
             <section className="sponsor-steps">
               <div className="step-single">
                 <h3>Step 1: Prospectus</h3>

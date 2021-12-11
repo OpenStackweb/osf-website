@@ -6,7 +6,7 @@ seo:
     open source is the best way to develop technology that is broadly available
     for use around the world.
   image: /img/OpenInfra-icon-white.jpg
-  title: Join The Open Infrastructure Foundation
+  title: OpenInfra Summit Berlin, June 7-9, 2022
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/summit/
 header:
@@ -19,7 +19,7 @@ header:
   date:
     icon: /img/summit/Vector-calendar.svg
     text: June 7-9, 2022
-  location: 
+  location:
     icon: /img/summit/Vector-world.svg
     text: Berlin Congress Center
   image: /img/summit/summit-hero-image.png
@@ -86,13 +86,13 @@ sponsorships:
   text: >
     Interested in sponsoring? Get in touch to learn how you can help 
     the open source users, IT decision makers and passionate developers, 
-    administrators and operators building the modern open infrastructure stack.  
+    administrators and operators building the modern open infrastructure stack.
   button:
     text: Learn About Sponsorships
     link: "mailto:events@openinfra.dev"
   previous:
     text: Previous Summit Sponsors
-    link: '#'
+    link: "#"
   sponsorList:
     - alt: CISCO
       image: /img/summit/cisco-logo.png

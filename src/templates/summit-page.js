@@ -58,7 +58,10 @@ export const SummitPageTemplate = ({
                     :
                     !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> {header.location.text}
                 </span>
-                <LinkComponent className="button-cta" href="https://openinfrasummitberlin.eventbrite.com">Register Now<img src={leftArrow} alt="" /></LinkComponent>
+                <section className="cta-wrapper">
+                  <LinkComponent className="button-cta" href="https://openinfrasummitberlin.eventbrite.com">Register Now<img src={leftArrow} alt="" /></LinkComponent>
+                  <LinkComponent className="button-cta outline" href="#sponsor">Become a Sponsor</LinkComponent>
+                </section>
               </div>
               <div className="header-right">
               <div className="hero-video">
@@ -89,7 +92,32 @@ export const SummitPageTemplate = ({
           }
 
           <section id="sponsor" className="sponsorship-levels">
-              <span className="title">Sponsorship Levels</span>
+            <span className="title">Sponsorships Are Live!</span>
+              <span className="description">Becoming a sponsor is as easy as 1, 2, 3!</span>
+            <section className="sponsor-steps">
+              <div className="step-single">
+                <h3>Step 1: Prospectus</h3>
+                <p><strong>Review the Prospectus</strong> and decide which sponsorship levels and add-ons you are interested in.</p>
+                <a href="#" className="button-cta outline">Review the Prospectus</a>
+              </div>
+              <div className="step-single">
+                <h3>Step 2: Master Sponsor Agreement (New Sponsors Only)</h3>
+                <p>If you have never previously sponsored an OpenInfra Summit, you will need to sign the <strong>Master Sponsorship Agreement</strong> prior to signing the Berlin Sponsorship Contract.</p>
+                <a href="#" className="button-cta outline">Master Sponsor Agreement</a>
+              </div>
+              <div className="step-single">
+                <h3>Step 3: Berlin Sponsor Contract</h3>
+                <p>
+                  If you have sponsored an OpenInfra Summit before, then you will need to know the date when you signed the Master Sponsorship Agreement previously, as this information will be required in the first field of the Berlin Summit sponsor contract. If you do not know the date when you previously signed the Master Sponsorship Agreement please check <a href="https://docs.google.com/spreadsheets/d/1rxn2AXqG0uwwdbmNMd6R0QhAzoM_5vJXzTj6UIzMZ6I/edit?usp=sharing">this document</a> or email <a href="mailto:summit@openinfra.org">summit@openinfra.org</a>.
+                </p>
+                <p>After signing the agreement, please check your email to make sure you confirm submission via Echosign.</p>
+                <a href="#" className="button-cta">Berlin Sponsor Contract <img src={leftArrow} alt="" /></a>
+              </div>
+              <p>
+                Have any questions about sponsoring the Summit? <a href="#sponsorship-contact">Contact us</a>
+              </p>
+            </section>
+            <span className="subhead">Sponsorship Levels</span>
               <table className="sponsor-table">
                 <tr className="top-row">
                   <th></th>
@@ -139,12 +167,10 @@ export const SummitPageTemplate = ({
                   </td>
                 </tr>
               </table>
-              <span id="sponsorship-contact" className="subhead">Interested in Sponsoring?</span>
-              <span className="description">Get in touch to learn how you can help the open source users, IT decision makers and passionate developers, administrators and operators building the modern open infrastructure stack. The detailed prospectus and contract will be live on December 15, 2021.</span>
+            <span id="sponsorship-contact" className="subhead">Have Questions About Sponsoring?</span>
+            <span className="description">Contact us with any questions about sponsoring the Berlin Summit.</span>
               <ContactFormHorizontal />
             </section>
-
-            <hr className="dividing-line" />
 
           {previousSummits && previousSummits.display &&
             <section className="summit-previous">

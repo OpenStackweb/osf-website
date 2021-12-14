@@ -1,10 +1,7 @@
 ---
 templateKey: summit-page
 seo:
-  description: We believe digital infrastructure is core to human progress in
-    every country, company and industry. We also believe that community driven
-    open source is the best way to develop technology that is broadly available
-    for use around the world.
+  description: The OpenInfra Summit is back in Berlin! June 7-9, 2022. Collaborate directly with the people building and running open source infrastructure using OpenStack, Kubernetes and 30+ other technologies.
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Summit Berlin, June 7-9, 2022
   twitterUsername: "@OpenInfraDev"

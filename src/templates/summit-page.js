@@ -101,13 +101,13 @@ export const SummitPageTemplate = ({
             <section className="sponsor-steps">
               <div className="step-single">
                 <h3>Step 1: Prospectus</h3>
-                <p><strong>Review the Prospectus</strong> and decide which sponsorship levels and add-ons you are interested in.</p>
-                <a href="#" className="button-cta outline">Review the Prospectus</a>
+                <p><a href="/files/OpenInfra-Summit-Berlin-2022_prospectus.pdf">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>
+                <a href="/files/OpenInfra-Summit-Berlin-2022_prospectus.pdf" className="button-cta outline">Review the Prospectus</a>
               </div>
               <div className="step-single">
                 <h3>Step 2: Master Sponsor Agreement (New Sponsors Only)</h3>
-                <p>If you have never previously sponsored an OpenInfra Summit, you will need to sign the <strong>Master Sponsorship Agreement</strong> prior to signing the Berlin Sponsorship Contract.</p>
-                <a href="#" className="button-cta outline">Master Sponsor Agreement</a>
+                <p>If you have never previously sponsored an OpenInfra Summit, you will need to sign the <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDh53oVYqMPudorYaywDlwyEnhPEo57rDjieE_XpCDXXuwgD-3MeQC5JKrTDu4cl7I*">Master Sponsorship Agreement</a> prior to signing the Berlin Sponsorship Contract.</p>
+                <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDh53oVYqMPudorYaywDlwyEnhPEo57rDjieE_XpCDXXuwgD-3MeQC5JKrTDu4cl7I*" className="button-cta outline">Master Sponsor Agreement</a>
               </div>
               <div className="step-single">
                 <h3>Step 3: Berlin Sponsor Contract</h3>
@@ -127,46 +127,39 @@ export const SummitPageTemplate = ({
                   <th></th>
                   <th>Member</th>
                   <th>Non-Member</th>
-                  <th></th>
                 </tr>
                 <tr>
                   <th>Headline</th>
                   <td>$110,000</td>
                   <td>$125,000</td>
-                  <td><a onClick={() => summitSponsorLevel(0)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Premier</th>
                   <td>$75,000</td>
                   <td>$90,000</td>
-                  <td><a onClick={() => summitSponsorLevel(1)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Spotlight</th>
                   <td>$25,000</td>
                   <td>$35,000</td>
-                  <td><a onClick={() => summitSponsorLevel(2)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Exhibitor</th>
                   <td>$10,000</td>
                   <td>$15,000</td>
-                  <td><a onClick={() => summitSponsorLevel(3)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
                 <tr>
-                  <th>Startup</th>
+                  <th>Exhibitor (Startup*)</th>
                   <td>$7,500</td>
                   <td>$10,000</td>
-                  <td><a onClick={() => summitSponsorLevel(4)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
                 <tr>
                   <th>Supporting</th>
                   <td>$2,500</td>
                   <td>$5,000</td>
-                  <td><a onClick={() => summitSponsorLevel(5)} href="#sponsorship-contact">Learn More</a></td>
                 </tr>
                 <tr>
-                  <td colSpan="4" className="join-row">Not a member? Learn how to 
+                  <td colSpan="3" className="join-row">Not a member? Learn how to 
                     <a onClick={() => summitSponsorLevel(5)} href="/join"> join the foundation</a>.
                   </td>
                 </tr>

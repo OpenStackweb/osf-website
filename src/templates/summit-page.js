@@ -112,7 +112,7 @@ export const SummitPageTemplate = ({
               <div className="step-single">
                 <h3>Step 3: Berlin Sponsor Contract</h3>
                 <p>
-                  If you have sponsored an OpenInfra Summit before, then you will need to know the date when you signed the Master Sponsorship Agreement previously, as this information will be required in the first field of the Berlin Summit sponsor contract. If you do not know the date when you previously signed the Master Sponsorship Agreement please check <a href="https://docs.google.com/spreadsheets/d/1rxn2AXqG0uwwdbmNMd6R0QhAzoM_5vJXzTj6UIzMZ6I/edit?usp=sharing">this document</a> or email <a href="mailto:summit@openinfra.org">summit@openinfra.org</a>.
+                  If you have sponsored an OpenInfra Summit before, then you will need to know the date when you signed the Master Sponsorship Agreement previously, as this information will be required in the first field of the Berlin Summit sponsor contract. If you do not know the date when you previously signed the Master Sponsorship Agreement please check <a href="https://docs.google.com/spreadsheets/d/1rxn2AXqG0uwwdbmNMd6R0QhAzoM_5vJXzTj6UIzMZ6I/edit?usp=sharing">this document</a> or email <a href="mailto:summit@openinfra.dev">summit@openinfra.dev</a>.
                 </p>
                 <p>After signing the agreement, please check your email to make sure you confirm submission via Echosign.</p>
                 <a href="#" className="button-cta">Berlin Sponsor Contract <img src={leftArrow} alt="" /></a>

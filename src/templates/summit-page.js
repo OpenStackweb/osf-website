@@ -101,8 +101,8 @@ export const SummitPageTemplate = ({
             <section className="sponsor-steps">
               <div className="step-single">
                 <h3>Step 1: Prospectus</h3>
-                <p><a href="/files/OpenInfra-Summit-Berlin-2022_prospectus.pdf">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>
-                <a href="/files/OpenInfra-Summit-Berlin-2022_prospectus.pdf" className="button-cta outline">Review the Prospectus</a>
+                <p><a href="/files/OpenInfra-Summit-Berlin2022-Prospectus.pdf">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>
+                <a href="/files/OpenInfra-Summit-Berlin2022-Prospectus.pdf" className="button-cta outline">Review the Prospectus</a>
               </div>
               <div className="step-single">
                 <h3>Step 2: Master Sponsor Agreement (New Sponsors Only)</h3>

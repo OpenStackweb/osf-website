@@ -215,6 +215,8 @@ companies:
         alt: OW2
       - image: /img/soda-foundation-member.png
         alt: SODA Foundation
+      - image: /img/ardc.png
+        alt: ARDC
   - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg

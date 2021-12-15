@@ -3,7 +3,7 @@ templateKey: election-page
 seo:
   description: Individual Member Director elections for the 2022 Board of
     Directors will be held *Monday January 10, 2022 to * *Friday January 18,
-    2022*. Nominations  occur between *November 15 and December 15, 2020*.
+    2022*. Nominations  occur between *November 15 and December 17, 2020*.
   image: /img/OpenInfra-icon-white.jpg
   title: 2022 Board Elections
   twitterUsername: "@OpenInfraDev"
@@ -56,14 +56,14 @@ If you are an eligible voter, you will receive an email with a link to complete 
 
 #### Nomination Process
 
-- Between November 15 and December 15, members can visit [this page](/a/community/members) and nominate candidates.
+- Between November 15 and December 17, members can visit [this page](/a/community/members) and nominate candidates.
 - Whenever a member is nominated, they will receive a notification (via the email listed in their member profile)
 - Nominees must then log in and 1) accept the initial nomination, and 2) fill out the application
-- Members who have received 10 nominations by December 15 must also complete the candidate application by December 15 in order to appear on the ballot
+- Members who have received 10 nominations by December 17 must also complete the candidate application by December 17 in order to appear on the ballot
 
 #### Candidate Application
 
-All candidates must complete the application by December 15 in order to appear on the ballot. Questions:
+All candidates must complete the application by December 17 in order to appear on the ballot. Questions:
 
 1. Bio
 2. What is your relationship to OpenInfra, and why is its success important to you? What would you say is your biggest contribution to OpenInfra and/or OpenStack's success to date?
@@ -76,7 +76,7 @@ A candidate's responses will appear on their public profile, as well as on [the
 #### Election Timeline Summary:
 
 - November 15: Individual Member nominations open, election details live on [openinfra.dev](/elections/current)
-- December 15: Individual Member nominations close
+- December 17: Individual Member nominations close
 - December 22: Deadline for Individual Member Nominees to complete application
 - January 5: Gold Member Director Selector Election (1 day)
 - January 10: Individual Member Elections open

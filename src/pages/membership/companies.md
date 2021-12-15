@@ -217,6 +217,8 @@ companies:
         alt: SODA Foundation
       - image: /img/ardc.png
         alt: ARDC
+      - image: /img/ceph.png
+        alt: Ceph
   - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg

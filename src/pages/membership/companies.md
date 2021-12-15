@@ -201,10 +201,16 @@ companies:
       Associate Member">Interested in having your logo listed as an Associate
       Member? Contact us</a>
     companyList:
+      - image: /img/ardc.png
+        alt: ARDC
       - alt: Boston University
         image: /img/bu.png
+      - image: /img/ceph.png
+        alt: Ceph
       - image: /img/cern.png
         alt: CERN
+      - image: /img/imt.png
+        alt: IMT Atlantique
       - image: /img/companies/_New/Associate/monash.png
         alt: Monash
       - image: /img/oregonstate.png
@@ -215,10 +221,8 @@ companies:
         alt: OW2
       - image: /img/soda-foundation-member.png
         alt: SODA Foundation
-      - image: /img/ardc.png
-        alt: ARDC
-      - image: /img/ceph.png
-        alt: Ceph
+      - image: /img/umass.png
+        alt: UMass Amherst
   - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg

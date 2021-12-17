@@ -860,7 +860,7 @@ hr.dividing-line {
   }
 }
 .sponsor-steps {
-  margin: 4rem 0;
+  margin: 5px 0;
   p {
     font-family: "Roboto";
     font-size: 16px;
@@ -874,10 +874,10 @@ hr.dividing-line {
   }
   .step-single {
     margin-bottom: 3rem;
-    h3 {
-      font-size: 1.2em;
+    h5 {
+      font-size: 20px;
       color: black;
-      text-transform: uppercase;
+      text-transform: none;
     }
     p {
       font-family: "Roboto";
@@ -929,5 +929,18 @@ hr.dividing-line {
   }
   @media (max-width: 768px) {
     margin-bottom: 60px;
+  }
+}
+
+.sponsor-logos {
+  .logos {
+    display: flex;
+    justify-content: center;
+    img.headline {
+      text-align: center;
+      margin-top: 15px;
+      width: 65%;
+      max-width: 400px;
+    }
   }
 }

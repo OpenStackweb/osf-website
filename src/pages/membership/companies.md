@@ -754,6 +754,8 @@ companies:
         image: /img/companies/OutworXLogoHighRessmall.png
       - alt: OW2
         image: /img/companies/ow2-lg.jpg
+      - alt: ownCloud
+        image: /img/companies/owncloud-lg.png
       - alt: Ozgur Yazilim AS
         image: /img/companies/Ozgur-Yazilim-AS-Logo2.png
       - alt: Palo Alto Networks

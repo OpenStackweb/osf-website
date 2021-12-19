@@ -144,8 +144,8 @@ export const SummitPageTemplate = ({
               <table className="sponsor-table">
                 <tr className="top-row">
                   <th>Sponsorship Levels</th>
-                  <th>Member</th>
-                  <th>Non-Member</th>
+                  <th>Member Price</th>
+                  <th>Non-Member Price</th>
                 </tr>
                 <tr>
                   <td><strong>Headline</strong></td>

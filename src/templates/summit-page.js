@@ -135,32 +135,32 @@ export const SummitPageTemplate = ({
                   <th>Non-Member</th>
                 </tr>
                 <tr>
-                  <th>Headline</th>
+                  <td><strong>Headline</strong></td>
                   <td>$110,000</td>
                   <td>$125,000</td>
                 </tr>
                 <tr>
-                  <th>Premier</th>
+                  <td><strong>Premier</strong></td>
                   <td>$75,000</td>
                   <td>$90,000</td>
                 </tr>
                 <tr>
-                  <th>Spotlight</th>
+                  <td><strong>Spotlight</strong></td>
                   <td>$25,000</td>
                   <td>$35,000</td>
                 </tr>
                 <tr>
-                  <th>Exhibitor</th>
+                  <td><strong>Exhibitor</strong></td>
                   <td>$10,000</td>
                   <td>$15,000</td>
                 </tr>
                 <tr>
-                  <th>Exhibitor (Startup*)</th>
+                  <td><strong>Exhibitor (Startup*)</strong></td>
                   <td>$7,500</td>
                   <td>$10,000</td>
                 </tr>
                 <tr>
-                  <th>Supporting</th>
+                  <td><strong>Supporting</strong></td>
                   <td>$2,500</td>
                   <td>$5,000</td>
                 </tr>

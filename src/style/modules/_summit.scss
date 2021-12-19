@@ -92,6 +92,7 @@
       }
       @media (max-width: 768px) {
         margin-bottom: 60px;
+        padding: 12px 22px 13px;
       }
     }
   }
@@ -334,7 +335,7 @@ table.sponsor-table {
   color: #161616;
   border: 1px solid #E0E0DF;
   @media (max-width: 768px) {
-    margin: 30px 0 0 0;
+    margin:50px 0 0 0;
   }
   th {
     text-align: center;
@@ -1010,7 +1011,7 @@ hr.dividing-line {
     margin-left: 10px;
   }
   @media (max-width: 768px) {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 }
 

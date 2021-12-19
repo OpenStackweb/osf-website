@@ -183,7 +183,7 @@ export const SummitPageTemplate = ({
                   </td>
                 </tr>
               </table>
-            <h5 className="sponsorship-contact">Have Questions About Sponsoring?</h5>
+            <h5 id="sponsorship-contact" className="sponsorship-contact">Have Questions About Sponsoring?</h5>
             <span className="contact-description">Contact us with any questions about sponsoring the Berlin Summit.</span>
               <ContactFormHorizontal style={{backgroundColor: "#f3f3f3"}}/>
             </section>

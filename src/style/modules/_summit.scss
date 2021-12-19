@@ -74,8 +74,13 @@
       flex-grow: 0;
       &.outline {
         background-color: transparent;
-        color: #e61e24;
-        border: 1px solid #e61e24;
+        color: #888888;;
+        border: 2px solid #888888;;
+        &:hover {
+          background-color: #888888;;
+          border-color: #888888;;
+          color: white;
+        }
       }
       &:hover {
         background-color: #9a0c28;
@@ -431,11 +436,11 @@ hr.dividing-line {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 12px 30px 13px;
         border: 2px solid #848484;
         box-sizing: border-box;
         border-radius: 37px;
-        height: 40px;
+        padding: 12px 30px 13px;
+        height: 44px;
         font-family: "Roboto";
         font-weight: bold;
         font-size: 12px;
@@ -798,10 +803,9 @@ hr.dividing-line {
     }
     .description {
       font-family: "Roboto";
-      font-size: 20px;
-      line-height: 30px;
+      font-size: 16px;
+      line-height: 23px;
       color: #161616;
-      opacity: 0.8;
     }
     .links-row {
       display: flex;
@@ -819,7 +823,7 @@ hr.dividing-line {
       border: 2px solid #848484;
       box-sizing: border-box;
       border-radius: 37px;
-      height: 40px;
+      height: 44px;
       font-family: "Roboto";
       font-weight: bold;
       font-size: 12px;
@@ -939,7 +943,6 @@ hr.dividing-line {
     font-size: 16px;
     line-height: 23px;
     color: #161616;
-    opacity: 0.8;
     margin-bottom: 24px;
     strong {
       color: black;

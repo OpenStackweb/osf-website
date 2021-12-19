@@ -860,7 +860,9 @@ hr.dividing-line {
   }
 }
 .sponsor-steps {
-  margin: 5px 0;
+  margin: 60px 0;
+  padding: 60px 120px 60px 120px;
+  background-color: #f3f3f3;
   p {
     font-family: "Roboto";
     font-size: 16px;
@@ -943,4 +945,28 @@ hr.dividing-line {
       max-width: 400px;
     }
   }
+}
+
+
+h5.sponsorship-contact {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  text-transform: none;
+  }
+
+.contact-description {
+  color: #161616;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+h3.small-title-summit {
+  padding: 60px 0 15px 0;
+  text-transform: uppercase;
+  color: $gray;
+  text-align: center;
+  font-size: 1em;
 }

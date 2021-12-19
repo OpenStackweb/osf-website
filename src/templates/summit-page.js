@@ -95,19 +95,18 @@ export const SummitPageTemplate = ({
           <section id="sponsor" className="sponsorship-levels">
             <span className="title">Sponsors</span>
             <span className="description">
-              <p>Having a presence at the Summit is a great way to get your company in front of the OpenInfra community. You can read about the various options in the Sponsorship Prospectus.</p>
-              <p>Whichever level you choose to participate, you'll want to act quickly — we've already seen a lot of interest from potential sponsors.</p>
+              <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
             </span>
-            <section className="sponsor-logos">
-              <h3 style={{textAlign: "center", marginTop: "60px", color: "black"}}>Headline Sponsor</h3>
-              <hr style={{marginTop: "34px"}}/>
+            <div className="sponsor-logos">
+              <h3 className="small-title-summit">Headline Sponsor</h3>
               <div className="logos">
                 <img className="headline" src={Cannonical} />
               </div>
+            </div>
             </section>
-            <section className="sponsor-steps">
-            <h3 style={{textAlign: "center", marginTop: "60px", color: "black"}}>How to Sponsor</h3>
-            <hr style={{marginTop: "34px"}}/>
+            <section id="howToSponsor" className="sponsor-steps">
+            <p>Having a presence at the Summit is a great way to get your company in front of the OpenInfra community. You can read about the various options in the Sponsorship Prospectus.</p>
+              <p>Whichever level you choose to participate, you'll want to act quickly — we've already seen a lot of interest from potential sponsors.</p>
               <div className="step-single">
                 <h5>Step 1: Prospectus</h5>
                 <p><a href="/files/OpenInfra-Summit-Berlin2022-Prospectus.pdf">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>
@@ -129,12 +128,9 @@ export const SummitPageTemplate = ({
               <p>
                 Have any questions about sponsoring the Summit? <a href="#sponsorship-contact">Contact us</a>
               </p>
-            </section>
-            <hr style={{marginBottom: "0px"}}/>
-            <span className="subhead">Sponsorship Levels</span>
               <table className="sponsor-table">
                 <tr className="top-row">
-                  <th></th>
+                  <th>Sponsorship Levels</th>
                   <th>Member</th>
                   <th>Non-Member</th>
                 </tr>
@@ -174,10 +170,9 @@ export const SummitPageTemplate = ({
                   </td>
                 </tr>
               </table>
-            <span id="sponsorship-contact" className="subhead">Have Questions About Sponsoring?</span>
-            <span className="description">Contact us with any questions about sponsoring the Berlin Summit.</span>
-              <ContactFormHorizontal />
-              <hr style={{margin: "60px 0 0 0"}}/>
+            <h5 className="sponsorship-contact">Have Questions About Sponsoring?</h5>
+            <span className="contact-description">Contact us with any questions about sponsoring the Berlin Summit.</span>
+              <ContactFormHorizontal style={{backgroundColor: "#f3f3f3"}}/>
             </section>
 
           {previousSummits && previousSummits.display &&

@@ -221,7 +221,12 @@ button.contact-submit:hover {
 .is-horizontal {
     flex-direction: row;
     padding: 60px 0 0 0;
-
+    input {
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+    textarea {
+        background-color: rgba(255, 255, 255, 0.75);
+    }
     button.contact-submit {
         max-width: 100%;
         height: 42px;

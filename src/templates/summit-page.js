@@ -15,7 +15,8 @@ import LinkComponent from '../components/LinkComponent';
 
 import leftArrow from '../img/svg/arrow-left.svg'
 import TravelSupportPic from '../../static/img/summit/Tokyo-travel-support-pic.jpg'
-import Cannonical from '../../static/img/summit/ubuntu-cannonical.svg' 
+import Cannonical from '../../static/img/summit/ubuntu-cannonical.svg'
+import SponsorBooths from '../../static/img/summit/marketamfull-105s.jpg'
 
 export const SummitPageTemplate = ({
   isLoggedUser,
@@ -105,8 +106,20 @@ export const SummitPageTemplate = ({
             </div>
             </section>
             <section id="howToSponsor" className="sponsor-steps">
-            <p>Having a presence at the Summit is a great way to get your company in front of the OpenInfra community. You can read about the various options in the Sponsorship Prospectus.</p>
-              <p>Whichever level you choose to participate, you'll want to act quickly — we've already seen a lot of interest from potential sponsors.</p>
+            <div className="how-to-intro">
+            <div className="text">
+              <span className="title">How to Sponsor the Summit</span>
+              <span className="description">
+                <p>Having a presence at the Summit is a great way to get your company in front of the OpenInfra community. You can read about the various options in the Sponsorship Prospectus.</p>
+                <p>Whichever level you choose to participate, you'll want to act quickly — we've already seen a lot of interest from potential sponsors.</p>
+              </span>
+            </div>
+            <div className="picture">
+              <img src={SponsorBooths} />
+            </div>
+
+          </div>
+
               <div className="step-single">
                 <h5>Step 1: Prospectus</h5>
                 <p><a href="/files/OpenInfra-Summit-Berlin2022-Prospectus.pdf">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>

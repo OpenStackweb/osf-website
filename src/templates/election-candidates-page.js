@@ -11,7 +11,6 @@ import LinkComponent from "../components/LinkComponent";
 import { getCandidates, getElectionStatus } from "../actions/election-actions";
 
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
-import {ElectionPageTemplate} from "./election-page";
 
 const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today, loading, menu, howToVote }) => {
 
@@ -30,43 +29,80 @@ const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today, loa
                 <div className="column is-one-third">
                   {menu.map((m, index) => {
                     return (
-                        <div className="election-item" key={index}>
-                          <LinkComponent href={m.link}>
-                            {m.text}
-                            <i className="fa fa-chevron-right" />
-                          </LinkComponent>
-                        </div>
+                      <div className="election-item" key={index}>
+                        <LinkComponent href={m.link}>
+                          {m.text}
+                          <i className="fa fa-chevron-right" />
+                        </LinkComponent>
+                      </div>
                     )
                   })}
                 </div>
                 <div className="column is-two-thirds">
-                  {electionStatus?.status === "NominationsOpen" &&
+                  <article className="message is-primary">
+                    <div className="message-body">
+                      <h3>{howToVote.title}</h3>
+                      <span
+                        dangerouslySetInnerHTML={{ __html: howToVote.description.replace("{$ElectionName}", electionStatus?.name) }} />
+                    </div>
+                  </article>
+                  <div className="candidate-tier">
+                    <h2>Candidates On The Ballot</h2>
+                    <span >
+                      The candidates on this list have the {electionStatus?.nominations_limit} nominations required to be on the election ballot and have completed the application.
+                    </span>
+                  </div>
+                  <div className="candidate-list">
+                    {acceptedCandidates.map((candidate, index) => {
+                      return (
+                        <>
+                          <div className="candidate-wrapper" key={`candidate-ballot-${index}`}>
+                            {candidate.member.pic && <img src={candidate.member.pic} alt={`${candidate.member.first_name} ${candidate.member.last_name}`} />}
+                            <h4>{`${candidate.member.first_name} ${candidate.member.last_name}`}</h4>
+                            <div>
+                              <b>Nominated by:</b>
+                              {candidate.member.election_applications.map(({ nominator }, i) => {
+                                return (
+                                  <span className="candidate-nominator" key={`nominator-ballot-${i}-${index}`}>{`${nominator.first_name} ${nominator.last_name}`}</span>
+                                )
+                              })}
+                            </div>
+                            <br />
+                            <div>
+                              <b>About {`${candidate.member.first_name} ${candidate.member.last_name}`}</b>
+                              <span dangerouslySetInnerHTML={{ __html: candidate.bio || candidate.member.bio }} />
+                            </div>
+                            <LinkComponent href={`/a/community/members/${candidate.member.id}`}>
+                              {`View  ${candidate.member.first_name} ${candidate.member.last_name}'s full candidate profile and Q&A >>`}
+                            </LinkComponent>
+                            <hr />
+                          </div>
+                        </>
+                      )
+                    })}
+                  </div>
+                  {today && today > electionStatus?.nomination_opens && today < electionStatus?.nomination_closes &&
                     <>
-                      <article className="message is-primary">
-                        <div className="message-body">
-                          <h3>{howToVote.title}</h3>
-                          <span
-                              dangerouslySetInnerHTML={{ __html: howToVote.description.replace("{$ElectionName}", electionStatus?.name)}}/>
-                        </div>
-                      </article>
                       <div className="candidate-tier">
-                        <h2>Candidates On The Ballot</h2>
-                        <span >
-                          The candidates on this list have the {electionStatus?.nominations_limit} nominations required to be on the election ballot and have completed the application.
+                        <h2>Candidates Not Yet On The Ballot</h2>
+                        <span>
+                          The candidates on this list have been nominated but do not yet have the 10 nominations required to appear on
+                          the ballot. If you don't see a member you nominated, they may still need to complete the application and accept
+                          the nomination.
                         </span>
                       </div>
                       <div className="candidate-list">
-                        {acceptedCandidates.map((candidate, index) => {
+                        {noBallotCandidates.map((candidate, index) => {
                           return (
                             <>
-                              <div className="candidate-wrapper" key={`candidate-ballot-${index}`}>
+                              <div className="candidate-wrapper" key={`candidate-${index}`}>
                                 {candidate.member.pic && <img src={candidate.member.pic} alt={`${candidate.member.first_name} ${candidate.member.last_name}`} />}
                                 <h4>{`${candidate.member.first_name} ${candidate.member.last_name}`}</h4>
                                 <div>
                                   <b>Nominated by:</b>
                                   {candidate.member.election_applications.map(({ nominator }, i) => {
                                     return (
-                                      <span className="candidate-nominator" key={`nominator-ballot-${i}-${index}`}>{`${nominator.first_name} ${nominator.last_name}`}</span>
+                                      <span className="candidate-nominator" key={`nominator-${i}-${index}`}>{`${nominator.first_name} ${nominator.last_name}`}</span>
                                     )
                                   })}
                                 </div>
@@ -78,53 +114,12 @@ const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today, loa
                                 <LinkComponent href={`/a/community/members/${candidate.member.id}`}>
                                   {`View  ${candidate.member.first_name} ${candidate.member.last_name}'s full candidate profile and Q&A >>`}
                                 </LinkComponent>
-                                <hr />
+                                {index + 1 < noBallotCandidates.length && <hr />}
                               </div>
                             </>
                           )
                         })}
                       </div>
-                      {today && today > electionStatus?.nomination_opens && today < electionStatus?.nomination_closes &&
-                        <>
-                          <div className="candidate-tier">
-                            <h2>Candidates Not Yet On The Ballot</h2>
-                            <span>
-                              The candidates on this list have been nominated but do not yet have the 10 nominations required to appear on
-                              the ballot. If you don't see a member you nominated, they may still need to complete the application and accept
-                              the nomination.
-                            </span>
-                          </div>
-                          <div className="candidate-list">
-                            {noBallotCandidates.map((candidate, index) => {
-                              return (
-                                <>
-                                  <div className="candidate-wrapper" key={`candidate-${index}`}>
-                                    {candidate.member.pic && <img src={candidate.member.pic} alt={`${candidate.member.first_name} ${candidate.member.last_name}`} />}
-                                    <h4>{`${candidate.member.first_name} ${candidate.member.last_name}`}</h4>
-                                    <div>
-                                      <b>Nominated by:</b>
-                                      {candidate.member.election_applications.map(({ nominator }, i) => {
-                                        return (
-                                          <span className="candidate-nominator" key={`nominator-${i}-${index}`}>{`${nominator.first_name} ${nominator.last_name}`}</span>
-                                        )
-                                      })}
-                                    </div>
-                                    <br />
-                                    <div>
-                                      <b>About {`${candidate.member.first_name} ${candidate.member.last_name}`}</b>
-                                      <span dangerouslySetInnerHTML={{ __html: candidate.bio || candidate.member.bio }} />
-                                    </div>
-                                    <LinkComponent href={`/a/community/members/${candidate.member.id}`}>
-                                      {`View  ${candidate.member.first_name} ${candidate.member.last_name}'s full candidate profile and Q&A >>`}
-                                    </LinkComponent>
-                                    {index + 1 < noBallotCandidates.length && <hr />}
-                                  </div>
-                                </>
-                              )
-                            })}
-                          </div>
-                        </>
-                      }
                     </>
                   }
                 </div>
@@ -138,7 +133,7 @@ const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today, loa
 }
 
 const ElectionCandidatesPage = ({ data, isLoggedUser, candidates, location,
-                                  getCandidates, electionStatus, getElectionStatus, loading }) => {
+  getCandidates, electionStatus, getElectionStatus, loading }) => {
 
   useState(() => {
     getCandidates();

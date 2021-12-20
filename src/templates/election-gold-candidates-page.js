@@ -11,7 +11,7 @@ import { getGoldCandidates, getElectionStatus } from "../actions/election-action
 
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 
-const ElectionGoldCandidatesPageTemplate = ({intro, goldCandidates, electionStatus, loading, menu }) => {
+const ElectionGoldCandidatesPageTemplate = ({ intro, goldCandidates, loading, menu }) => {
 
   return (
     <main className="main">
@@ -24,45 +24,41 @@ const ElectionGoldCandidatesPageTemplate = ({intro, goldCandidates, electionStat
                 <div className="column is-one-third">
                   {menu.map((m, index) => {
                     return (
-                        <div className="election-item" key={index}>
-                          <LinkComponent href={m.link}>
-                            {m.text}
-                            <i className="fa fa-chevron-right" />
-                          </LinkComponent>
-                        </div>
+                      <div className="election-item" key={index}>
+                        <LinkComponent href={m.link}>
+                          {m.text}
+                          <i className="fa fa-chevron-right" />
+                        </LinkComponent>
+                      </div>
                     )
                   })}
                 </div>
                 <div className="column is-two-thirds">
-                  {electionStatus?.status === "NominationsOpen" &&
-                    <>
-                      <div className="candidate-tier">
-                        <h2>{intro.title}</h2>
-                        <span dangerouslySetInnerHTML={{ __html: intro.description}}/>
-                      </div>
-                      <div className="candidate-list">
-                        {goldCandidates.map((candidate, index) => {
-                          return (
-                            <>
-                              <div className="candidate-wrapper" key={`gold-candidate-${index}`}>
-                                {candidate.member.pic && <img src={candidate.member.pic} alt={`${candidate.member.first_name} ${candidate.member.last_name}`} />}
-                                <h4>{`${candidate.member.first_name} ${candidate.member.last_name}`}</h4>
-                                <br />
-                                <div>
-                                  <b>About {`${candidate.member.first_name} ${candidate.member.last_name}`}</b>
-                                  <span dangerouslySetInnerHTML={{ __html: candidate.bio || candidate.member.bio }} />
-                                </div>
-                                <LinkComponent href={`/a/community/members/${candidate.member.id}`}>
-                                  {`View  ${candidate.member.first_name} ${candidate.member.last_name}'s full candidate profile and Q&A >>`}
-                                </LinkComponent>
-                                {index + 1 < goldCandidates.length && <hr />}
-                              </div>
-                            </>
-                          )
-                        })}
-                      </div>
-                    </>
-                  }
+                  <div className="candidate-tier">
+                    <h2>{intro.title}</h2>
+                    <span dangerouslySetInnerHTML={{ __html: intro.description }} />
+                  </div>
+                  <div className="candidate-list">
+                    {goldCandidates.map((candidate, index) => {
+                      return (
+                        <>
+                          <div className="candidate-wrapper" key={`gold-candidate-${index}`}>
+                            {candidate.member.pic && <img src={candidate.member.pic} alt={`${candidate.member.first_name} ${candidate.member.last_name}`} />}
+                            <h4>{`${candidate.member.first_name} ${candidate.member.last_name}`}</h4>
+                            <br />
+                            <div>
+                              <b>About {`${candidate.member.first_name} ${candidate.member.last_name}`}</b>
+                              <span dangerouslySetInnerHTML={{ __html: candidate.bio || candidate.member.bio }} />
+                            </div>
+                            <LinkComponent href={`/a/community/members/${candidate.member.id}`}>
+                              {`View  ${candidate.member.first_name} ${candidate.member.last_name}'s full candidate profile and Q&A >>`}
+                            </LinkComponent>
+                            {index + 1 < goldCandidates.length && <hr />}
+                          </div>
+                        </>
+                      )
+                    })}
+                  </div>
                 </div>
               </div>
             }

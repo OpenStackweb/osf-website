@@ -92,6 +92,7 @@ projects:
         - bullet: Zuul schedules jobs in any arbitrary cloud it can login to, and the
             community has recently integrated drivers for AWS, Azure, GCE, and
             OpenStack cloud environments.
+        - bullet: Learn more about how Zuul is used in hybrid environments on <a href="https://www.youtube.com/watch?v=oyx3KzgT1EE">OpenInfra Live&#58; Keynotes</a>.
 organizations:
   display: true
   title: Organizations

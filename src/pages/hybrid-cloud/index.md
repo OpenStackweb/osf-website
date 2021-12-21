@@ -60,6 +60,7 @@ projects:
             across every industry.
         - bullet: The OpenStack-powered public cloud footprint has grown to 175 global
             data centers.
+        - bullet: Sean Cohen, Director of Product Management, Hybrid Platforms, Red Hat, dives into the importance of having OpenStack as the foundation for hybrid cloud in the emerging 5G landscape and its impact on creating a more open ecosystem, particularly in the telco industry on <a href="https://youtu.be/2fjtwg6TSbg">OpenInfra Live&#58; Keynotes.</a>
         - bullet: <a href="https://www.openstack.org/use-cases">Check out how
             organizations around the world are deploying OpenStack in production
             for hybrid cloud infrastructure.</a>
@@ -91,6 +92,7 @@ projects:
         - bullet: Zuul schedules jobs in any arbitrary cloud it can login to, and the
             community has recently integrated drivers for AWS, Azure, GCE, and
             OpenStack cloud environments.
+        - bullet: Learn more about how Zuul is used in hybrid environments on <a href="https://www.youtube.com/watch?v=oyx3KzgT1EE">OpenInfra Live&#58; Keynotes</a>.
 organizations:
   display: true
   title: Organizations

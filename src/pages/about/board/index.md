@@ -440,4 +440,21 @@ members:
     picture: /img/billren.jpg
     title: Platinum Director
     twitter: ""
+  - name: Kurt Garloff
+    description: Being a long time member of various open source communities (Linux
+      kernel, openSUSE and others), I have a personal interest in seeing
+      OpenStack becoming a leading cloud infrastructure. In my professional
+      life, I ran an engineering organizations that are in charge of developing,
+      building and running cloud infrastructure. (See the keynote at the Folsom
+      Design Summit at http://vimeo.com/41449373 and
+      http://de.slideshare.net/laurabeckcahoon/deutsche-telekom-12607469 for
+      some details.) I built the OpenStack platform behind DT's Business
+      Marketplace, worked with Huawei to build and run an OpenStack engineering
+      team in Europe, built Open Telekom Cloud, ran the Cloud &amp; Storage
+      Engineering departments at SUSE.
+    picture: /img/kurtgarloff.jpg
+    company: Sovereign Cloud Stack OSB Alliance
+    title: Individual Director
+    openStack: https://www.openstack.org/community/members/profile/6804/kurt-garloff
+    linkedin: https://www.linkedin.com/in/kurt-garloff/
 ---

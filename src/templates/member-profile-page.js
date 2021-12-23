@@ -121,23 +121,27 @@ export const MemberProfilePageTemplate = ({
                         </ul>
                       </>
                     }
-                    { nomination_open &&
+                    {
                       member_profile.hasOwnProperty("candidate_profile") &&
                       member_profile.candidate_profile.has_accepted_nomination &&
                       <div className="member-profile-group">
                         <span className="member-candidate">{member_profile.first_name} is a candidate in the {election_name} .</span>
-                        <hr />
-                        {member_profile.election_applications?.length >= 10 ?
-                          <span>
+                        { nomination_open &&
+                          <>
+                            <hr />
+                            {member_profile.election_applications?.length >= 10 ?
+                                <span>
                             {member_profile.first_name} has been nominated enough times to appear on the
                             election ballot. You can read the answers {member_profile.first_name} gave to the election questions below.
                           </span>
-                          :
-                          <span>
+                                :
+                                <span>
                             <p>Read the Q&A below and see if you want to
                               <a onClick={isLoggedUser ? () => setNominationModal(!nominationModal) : onClickLogin}> Nominate {member_profile.first_name}</a> in this election.
                             </p>
                           </span>
+                            }
+                          </>
                         }
                         <hr />
                         <span className="profile-question">Q</span>

@@ -244,16 +244,9 @@ const MemberProfilePage = ({
   const isOwnProfile = currentMember?.id === parseInt(memberId);
 
   useEffect(() => {
-    getMemberProfile(memberId);
+    getMemberProfile(memberId).then(getElectionMemberProfile(memberId))
     getElectionStatus();
   }, [])
-
-  useEffect(() => {
-    if (nomination_open) {
-      getElectionMemberProfile(memberId);
-    }
-  }, [election_status])
-
   return (
     <Layout>
       <SEO />

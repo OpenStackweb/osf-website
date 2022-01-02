@@ -152,6 +152,8 @@ companies:
         image: /img/companies/_New/Silver/NTT-silver.jpg
       - alt: NTT TechnoCross
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT-TX.png
+      - image: /img/okestro-sm.png
+        alt: Okestro
       - image: /img/oneqode_sm.png
         alt: OneQode
       - alt: ORock

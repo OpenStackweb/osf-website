@@ -200,7 +200,6 @@ companyTier:
       companies:
         - logo: /img/members-page/platinum-tier/Sponsor-Logos_AntGroup 1.png
           alt: Ant Group
-        - logo: /img/sponsor-logos_at-t.png
         - logo: /img/members-page/platinum-tier/Sponsor-Logos_Ericsson 1.png
           alt: Ericsson
         - logo: /img/members-page/platinum-tier/Sponsor-Logos_FBC-new 1.png
@@ -298,11 +297,7 @@ companyTier:
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Infomaniak 1.png
           alt: ""
-        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_inmotionhosting 1.png
-          alt: ""
         - logo: /img/members-page/silver-tier/sponsor-ivolve 1.png
-          alt: ""
-        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_JuniperNetworks 1.png
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_NetApp 1.png
           alt: ""
@@ -313,6 +308,8 @@ companyTier:
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_NTT-TX 1.png
           alt: ""
+        - logo: /img/okestro-sm.png
+          alt: Okestro
         - logo: /img/oneqode_sm.png
         - alt: ORock
           logo: /img/orock-silver.jpg

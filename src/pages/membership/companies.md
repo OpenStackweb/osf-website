@@ -134,12 +134,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_IBM.png
       - alt: Infomaniak
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Infomaniak.jpg
-      - alt: InMotion Hosting
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_inmotionhosting.png
       - alt: iVolve
         image: /img/companies/_New/Silver/sponsor-ivolve.png
-      - alt: Juniper Networks
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_JuniperNetworks.png
       - alt: NetApp
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NetApp.png
       - image: /img/nhn-cloud_sm.png

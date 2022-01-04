@@ -337,6 +337,7 @@ companyTier:
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Whitestack 1.png
           alt: ""
         - logo: /img/silverhorizontal_sm-copy.png
+        - logo: /img/acmegatingsm.png
 help:
   display: true
   title: We’re here to help

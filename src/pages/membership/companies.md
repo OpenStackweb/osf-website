@@ -96,6 +96,8 @@ companies:
     title: GOLD MEMBERS
     level: gold
   - companyList:
+      - image: /img/acmegatingsm.png
+        alt: Acme Gating
       - alt: Ampere
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Ampere.png
       - alt: AW Cloud
@@ -178,8 +180,6 @@ companies:
         alt: Virtuozzo
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
-      - image: /img/acmegatingsm.png
-        alt: Acme Gating
     text: Open Infrastructure Foundation Silver Members provide funding and pledge
       strategic alignment to the OpenInfra Foundation mission. If your
       organization  is highly involved with  the Open Infrastructure community

@@ -260,6 +260,7 @@ companyTier:
     - title: OpenInfra foundation Silver members
       mobileTitle: Silver Members
       companies:
+        - logo: /img/acmegatingsm.png
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Ampere 1.png
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_AWCloud 1.png
@@ -337,7 +338,6 @@ companyTier:
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Whitestack 1.png
           alt: ""
         - logo: /img/silverhorizontal_sm-copy.png
-        - logo: /img/acmegatingsm.png
 help:
   display: true
   title: We’re here to help

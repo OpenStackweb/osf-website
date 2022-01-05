@@ -180,6 +180,8 @@ companies:
         alt: Virtuozzo
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
+      - image: /img/arvancloudsm.png
+        alt: ArvanCloud
     text: Open Infrastructure Foundation Silver Members provide funding and pledge
       strategic alignment to the OpenInfra Foundation mission. If your
       organization  is highly involved with  the Open Infrastructure community

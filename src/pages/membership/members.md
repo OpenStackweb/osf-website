@@ -263,6 +263,7 @@ companyTier:
         - logo: /img/acmegatingsm.png
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Ampere 1.png
           alt: ""
+        - logo: /img/arvancloudsm.png
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_AWCloud 1.png
           alt: ""
         - logo: /img/b1.jpeg

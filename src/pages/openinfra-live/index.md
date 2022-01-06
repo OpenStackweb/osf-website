@@ -36,6 +36,7 @@ episodes:
       momentum across the OpenInfra landscape.
     episodeTitle: "A Year in Review: OpenInfra Highlights from 2021"
     calendarInvite: /static/invites/myevents-18-.ics
+    superuserRecap: https://superuser.openstack.org/articles/a-year-in-review-openinfra-highlights-from-2021-openinfra-live-recap/
   - hidden: false
     date: 2021-12-16T15:00:08.589Z
     youtubeLink: https://youtu.be/sU_4ibfgvAo

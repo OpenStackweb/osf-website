@@ -15,7 +15,7 @@ hero:
     at 15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2022-01-06T14:45:40.227Z
+    date: 2022-01-20T15:00:40.227Z
     episodeDescription: "As we approach the launch of the CFP (call for papers) for
       the upcoming OpenInfra Summit in Berlin (June 7-9), join members of the
       2022 Programming Committee as they share their top tips and tricks for

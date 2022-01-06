@@ -8,11 +8,11 @@ seo:
   twitterUsername: "@OpenInfraDev"
 hero:
   title: Conversations around all things open infrastructure
-  description: "Introducing: OpenInfra Live—a weekly hour-long series sharing
-    production case studies, open source demos, industry conversations, and the
-    latest updates from the global open infrastructure community! <br /> <br />
-    Catch every episode on several streaming platforms, airing <strong>Thursdays
-    at 15:00 UTC (9am CT)</strong>."
+  description: "Introducing: OpenInfra Live—an hour-long series sharing production
+    case studies, open source demos, industry conversations, and the latest
+    updates from the global open infrastructure community! <br /> <br /> Catch
+    every episode on several streaming platforms, airing <strong>Thursdays at
+    15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
     date: 2022-01-20T15:00:40.227Z

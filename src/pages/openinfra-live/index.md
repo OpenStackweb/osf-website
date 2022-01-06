@@ -15,6 +15,17 @@ hero:
     at 15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2022-01-06T14:45:40.227Z
+    episodeDescription: "As we approach the launch of the CFP (call for papers) for
+      the upcoming OpenInfra Summit in Berlin (June 7-9), join members of the
+      2022 Programming Committee as they share their top tips and tricks for
+      writing a winning submission and answer your questions on what they look
+      for in talks. "
+    episodeTitle: Berlin Summit 2022 CFP 101
+    youtubeLink: https://www.youtube.com/watch?v=9s1VPCyuJXI
+    youtubeEmbed: https://www.youtube.com/embed/9s1VPCyuJXI" title="YouTube video player
+    calendarInvite: /static/invites/myevents-19-.ics
+  - hidden: false
     date: 2022-01-06T15:00:28.256Z
     youtubeLink: https://www.youtube.com/watch?v=MhAK2efrl9I
     youtubeEmbed: https://www.youtube.com/embed/MhAK2efrl9I

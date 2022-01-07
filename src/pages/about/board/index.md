@@ -51,28 +51,6 @@ members:
     picture: /img/board/amymarrich.jpg
     title: Individual Director
     twitter: https://twitter.com/spotzz_
-  - name: ChangBo Guo
-    picture: /img/gcb.jpg
-    title: Gold Director
-    company: EasyStack
-    description: >
-      ChangBo Guo serves as Individual Director of OpenInfra Foundation in 2017-
-      2019 and Oslo PTL for Pike and Queens. He worked on Linux and AIX for
-      several years. He is one of the earliest OpenStack contributors in China.
-      He has been working on the OpenStack since 2012, when he worked on the
-      PowerVM driver under Nova to support IBM Power Systems. He is Oslo core
-      reviewer and have been contributing several projects like Nova, Neutron,
-      Ironic, Oslo, etc. He is one of top contributors in China, has submitted
-      1000+ commits, with more than 45000 LOCs.  As founding engineer of
-      EasyStack, he attended the earliest of large-scale OpenStack adoptions in
-      China, such as Lenovo, Postal Savings Bank of China, China Telecom, State
-      Grid, etc. He was involved in the whole adoption, including platform
-      design,  implementation and solving key issues for these customers.
-
-
-      He is also an active OpenStack evangelists in China. He is organizer of China OpenStack user group, and promote OpenStack technologies in several meet-ups in China including Beijing, Xi'an, Chengdu, Shenzhen, etc. He is honored to be the host of Beijing OpenStack meet-up from November 2016 and on. He is also keen to help others learn how to contribute in upstream and delivered presentation about upstream contribution for several companies. He leads a upstream team to make OpenStack better and more popular. He attended several design summits and delivered presentations. He served as track chair of upstream development in Barcelona, Boston and Sydney design summit.
-    linkedin: https://www.linkedin.com/in/changbo-guo-90123285
-    openStack: https://www.openstack.org/community/members/profile/14945/changbo-guo
   - company: Ericsson AB, Ericsson Software Technology
     description: >-
       I am focused on, and passionate about, open source technologies for next
@@ -103,6 +81,27 @@ members:
     openStack: https://www.openstack.org/community/members/profile/53350
     picture: /img/board/clemenshardewig.jpeg
     title: Gold Director
+  - name: Edward Lee
+    description: I am Edward Lee, I have nearly 15 years of R&D Product and open
+      source experience in multiple fields, such as cloud, storage, big data and
+      so on. Currently I am the head of open source team in EasyStack inc, my
+      major job is leading team members work in community including OpenInfra,
+      CNCF, Linux as well as product development. I am going to setup the OSPO
+      following the todogroup’s guides and willing to make much more efforts on
+      communities. Prior to that, I have two work experiences, the one is as the
+      leader of development team for more than five years in Huawei. I was in
+      charge of open source strategy making and leading a team with full-time
+      engineers working in several projects e.g. Cinder, Manila, Swift,
+      Kubernetes and so on, we made much effort on contribution and got some
+      core members/maintainers. And also I was the founder and infrastructure
+      architect of several new open source projects related Huawei, such as
+      openEuler, openGauss. The another one is as developer with several years
+      of experience in storage system, big data product development and design.
+    company: EasyStack
+    title: Gold Director
+    picture: /img/background-shapes-white.svg
+    openStack: https://www.openstack.org/community/members/profile/124668/edward-lee
+    twitter: https://www.twitter.com/EdwardL0086
   - name: Eoghan Glynn
     title: Platinum Director
     company: Red Hat
@@ -116,22 +115,6 @@ members:
       monitoring while at Amazon. Eoghan is based in Dublin, Ireland though he's
       also part of a highly globalized team at Red Hat. "
     openStack: https://www.openstack.org/community/members/profile/1341/eoghan-glynn
-  - description: "Ms. Erin Bournival is a Distinguished Engineer at Dell
-      Technologies. She joined Dell EMC in 2003 and leads standardization of IoT
-      and Healthcare. Erin leads several international standardization efforts
-      within ISO, IEC, INCITS, and ANSI. She is the Chair of the Working Group
-      on IoT Architecture, Frameworks, and Vocabulary within ISO/IEC JTC1 SC41
-      “Internet of Things and Digital Twin”, as well as the Vice-Chair and
-      Secretary of the INCITS IoT TAG (Technical Advisory Group).  She chairs
-      groups within the Industrial Internet Consortium and Digital Twin
-      Consortium; and represents Dell Technologies in several other national and
-      international standardization efforts in the domains of IoT, Digital
-      Twins, and System Architecture. "
-    openStack: https://www.openstack.org/community/members/profile/133884/erin-bournival
-    title: Gold Director
-    company: Dell Technologies
-    name: Erin Bournival
-    picture: /img/erin_b.png
   - name: Gang Chen
     title: Platinum Director
     company: Fiberhome
@@ -291,6 +274,30 @@ members:
     openStack: https://www.openstack.org/community/members/profile/128770
     picture: /img/paulmiller.jpg
     title: Platinum Director
+  - name: Pengju Jiao
+    title: Gold Director
+    company: China Mobile
+    description: >-
+      Pengju Jiao comes from China Mobile SuZhou R&D Center and he has been
+      working here for 7 years. He currently serves as the leader of the
+      Computing Product Group of the IaaS product department, taking
+      responsibility for the R&D of the OpenStack team. ECloud has become the
+      fastest-growing public cloud in China with the highest revenue growth rate
+      in the past two years. As a member of the China Mobile Public Cloud
+      architecture team, he participated in multi-phase projects of the ECloud
+      and could be considered as the main contributor for guiding ECloud to join
+      the Million Core Club. Pengju Jiao has considerable rich work experience
+      in the development and operation of hyperscale public clouds. In these
+      years, he led the OpenStack R&D team to achieve multiple great
+      achievements, implementing the scheduling and concurrency optimization for
+      hyperscale clusters carrying more than 100,000 servers. With this
+      optimization, the delivery of 5 thousand cloud hosts could be completed in
+      several minutes. 
+
+
+      Pengju Jiao is also very active to join community events. He once deeply joins many core community projects and make contributions as the Core and PTL for the Karbor. In addition, he is a frequenter in OpenStack Summit, China Day and Meet-up activities. His team has published dozens of speeches in OpenStack-related community activities based on his lead, sharing China Mobile’s practical and innovation experience in OpenStack.
+    openStack: https://www.openstack.org/community/members/profile/78062/pengju-jiao
+    picture: /img/jiao-peng-ju-.jpg
   - name: Rico Lin
     picture: /img/ricolin.jpg
     company: EasyStack
@@ -424,6 +431,21 @@ members:
     picture: /img/tytuskurek.jpg
     title: Gold Director
     twitter: ""
+  - company: China Unicom
+    name: Xin Zhong
+    description: Xin Zhong got his Master Degree from Tsinghua University in 2003.
+      He has nearly 20 years of open source related experience. He is an expert
+      in Linux OS, distributed storage and cloud computing. He has been involved
+      in development and operation of several large-scale internet and
+      enterprise cloud platform as technical director or chief architect.
+      Currently, he is the Senior Architect of China Unicom Cloud (new brand of
+      Wo Cloud). He represents China Unicom in all the foundation events. He and
+      his team are very active in open source projects like openstack, ceph,
+      etc. He has been Board Director in 2020.
+    picture: /img/xinzhongli.jpg
+    title: Gold Director
+    openStack: https://www.openstack.org/community/members/profile/119260/xin-zhong
+    linkedin: https://www.linkedin.com/in/xin-zhong-5a73b82/
   - company: "Ant Financial, Kata Containers "
     description: >-
       Xu Wang is a senior staff engineer at Ant Financial and an initial member

@@ -32,25 +32,25 @@ topics:
   title: Topics
   topicList:
     - text: AI
-      image: /img/summit/AI.png
+      image: /img/summit/icons/AI-v2.png
     - text: CI/CD
-      image: /img/summit/CICD.png
+      image: /img/summit/icons/CICD-v2.png
     - text: Containers
-      image: /img/summit/Containers.png
+      image: /img/summit/icons/Containers-v2.png
     - text: Edge Computing
-      image: /img/summit/Edge.png
+      image: /img/summit/icons/Edge-v2.png
     - text: Hardware Enablement
       image: /img/summit/icons/Hardware-Enablement.png
-    - text: Hybrid Cloud
-      image: /img/summit/HybridCloud.png
     - text: HPC
-      image: /img/summit/HPC.png
+      image: /img/summit/icons/HPC-v2.png
+    - text: Hybrid Cloud
+      image: /img/summit/icons/Hybrid-Cloud-v2.png
     - text: NFV
-      image: /img/summit/NFV.png
+      image: /img/summit/icons/NFV-v2.png
     - text: Public & Private Cloud
-      image: /img/summit/PublicPrivateCloud.png
+      image: /img/summit/icons/Cloud-v2.png
     - text: Security
-      image: /img/summit/Security.png
+      image: /img/summit/icons/Security-v2.png
 previousSummits:
   display: true
   title: Previous Summits

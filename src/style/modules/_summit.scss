@@ -277,9 +277,19 @@
       &:last-of-type {
         margin-right: 0;
       }
+      @media (max-width: 768px) {
+        width: 50%;
+        flex-direction: row;
+        align-items: center;
+      }
       img {
         max-width: 92px;
         margin: 0 auto;
+        @media (max-width: 768px) {
+          max-width: 60px;
+          margin: 0;
+        }
+
       }
       span {
         margin-top: 8px;
@@ -289,6 +299,10 @@
         line-height: 20px;
         text-align: center;
         color: #161616;
+        @media (max-width: 768px) {
+          text-align: left;
+          margin-left: 5px;
+        }
       }
     }
   }
@@ -734,7 +748,7 @@ hr.dividing-line {
     }
   }
   .summit-topics {
-    padding: 50px 30px 0;
+    padding: 50px 30px;
     .title {
       font-size: 30px;
       line-height: 36px;

@@ -39,6 +39,8 @@ topics:
       image: /img/summit/Containers.png
     - text: Edge Computing
       image: /img/summit/Edge.png
+    - text: Hardware Enablement
+      image: /img/summit/icons/Hardware-Enablement.png
     - text: Hybrid Cloud
       image: /img/summit/HybridCloud.png
     - text: HPC

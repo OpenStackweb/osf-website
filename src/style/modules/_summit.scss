@@ -254,9 +254,16 @@
     text-align: center;
     letter-spacing: -0.6px;
     color: #161616;
+    margin-bottom: 50px;
+  }
+  a.text-link {
+    color: #161616; 
+    text-align: center; 
+    margin-top: 30px;
+    font-size: 14px;
+    text-decoration: underline;
   }
   .icons {
-    margin: 42px -15px 0 -15px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -266,9 +273,13 @@
       flex-direction: column;
       padding: 0 15px;
       margin-bottom: 25px;
-      width: 105px;
+      width: 20%;
       &:last-of-type {
         margin-right: 0;
+      }
+      img {
+        max-width: 92px;
+        margin: 0 auto;
       }
       span {
         margin-top: 8px;

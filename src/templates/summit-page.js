@@ -62,7 +62,7 @@ export const SummitPageTemplate = ({
                 </span>
                 <section className="cta-wrapper">
                   <LinkComponent className="button-cta" href="https://openinfrasummitberlin.eventbrite.com">Register Now<img src={leftArrow} alt="" /></LinkComponent>
-                  <LinkComponent className="button-cta outline" href="#sponsor">Become a Sponsor</LinkComponent>
+                  <LinkComponent className="button-cta outline" href="/summit-sponsor">Become a Sponsor</LinkComponent>
                 </section>
               </div>
               <div className="header-right">
@@ -90,8 +90,10 @@ export const SummitPageTemplate = ({
                   )
                 })}
               </div>
+              <LinkComponent className="button-cta" style={{margin: "0 auto", marginTop: "30px"}} href="https://openinfrasummitberlin.eventbrite.com">Learn More about Summit Tracks<img src={leftArrow} alt="" /></LinkComponent>
+              <a className="text-link" href="/summit-tracks">Join Programming Committee</a> 
             </section>
-          }
+          } 
 
           <section id="sponsor" className="sponsorship-levels">
             <span className="title">Sponsors</span>

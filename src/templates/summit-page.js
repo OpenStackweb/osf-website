@@ -8,7 +8,7 @@ import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
-
+import LogoBanner from '../components/LogoBanner'
 import { connect } from "react-redux";
 
 import LinkComponent from '../components/LinkComponent';
@@ -95,6 +95,8 @@ export const SummitPageTemplate = ({
             </section>
           } 
 
+            <LogoBanner title="The Call for Presentations is now open until February 9" cta="Submit to CFP" href="" />
+
           <section id="sponsor" className="sponsorship-levels">
             <span className="title">Sponsors</span>
             <span className="description">
@@ -131,7 +133,7 @@ export const SummitPageTemplate = ({
             <section className="summit-video">
               <span className="title">{videoBanner.title}</span>
               <LinkComponent className="video-cta" href={videoBanner.button.link}>{videoBanner.button.text} <img src={leftArrow} alt="" /></LinkComponent>
-            </section>
+            </section> 
           }
           <section className="travel-support">
             <div className="text">

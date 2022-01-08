@@ -29,7 +29,7 @@ form:
     link: "https://signup.e2ma.net/signup/1958435/1771360/"
 topics:
   display: true
-  title: Topics
+  title: Tracks
   topicList:
     - text: AI
       image: /img/summit/icons/AI-v2.png

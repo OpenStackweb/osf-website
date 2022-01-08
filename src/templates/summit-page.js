@@ -90,7 +90,7 @@ export const SummitPageTemplate = ({
                   )
                 })}
               </div>
-              <LinkComponent className="button-cta" style={{margin: "0 auto", marginTop: "30px"}} href="https://openinfrasummitberlin.eventbrite.com">Learn More about Summit Tracks<img src={leftArrow} alt="" /></LinkComponent>
+              <LinkComponent className="button-cta" style={{margin: "0 auto", marginTop: "30px"}} href="/summit-tracks">Learn More about Summit Tracks<img src={leftArrow} alt="" /></LinkComponent>
               <a className="text-link" href="/summit-tracks">Join Programming Committee</a> 
             </section>
           } 

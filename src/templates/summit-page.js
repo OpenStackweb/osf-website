@@ -10,7 +10,7 @@ import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
 import LogoBanner from '../components/LogoBanner'
 import { connect } from "react-redux";
-
+import SubNav from '../components/SubNav'
 import LinkComponent from '../components/LinkComponent';
 
 import leftArrow from '../img/svg/arrow-left.svg'
@@ -33,6 +33,7 @@ export const SummitPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
+        <SubNav />
       </div>
 
       <main className="main">

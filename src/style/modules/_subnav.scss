@@ -1,0 +1,56 @@
+.subnav-bar {
+  width: 100%;
+  background-color: #f3f3f3;
+  color: #161616;
+  .btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Style the active class (and buttons on mouse-over) */
+  .active, .link:hover {
+    color: #888888;
+    opacity: 1;
+  }
+  .container {
+    max-width: 1170px;
+    width: auto;
+    padding: 13.6px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      margin: 0 30px;
+      padding: 13.6px 0;
+    }
+    .location {
+      font-size: 14px;
+      font-weight: normal;
+      color: #888888;
+    }
+    .links-list {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 0;
+      li {
+        font-weight: 400;
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-left: 30px;
+        a {
+          color: #888888;
+          opacity: .6;
+        }
+        a.active, .link:hover {
+          color: #888888;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

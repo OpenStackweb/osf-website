@@ -1,5 +1,5 @@
 ---
-templateKey: generic-page
+templateKey: summit-tracks-page
 seo:
   description: >-
     The Four Opens are guiding principles to successfully grow an open source

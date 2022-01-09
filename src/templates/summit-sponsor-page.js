@@ -8,7 +8,7 @@ import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
-
+import SubNav from '../components/SubNav'
 import { connect } from "react-redux";
 
 import LinkComponent from '../components/LinkComponent';
@@ -33,6 +33,7 @@ export const SummitSponsorPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
+        <SubNav />
       </div>
 
       <main className="main">

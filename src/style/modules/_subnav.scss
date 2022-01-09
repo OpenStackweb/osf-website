@@ -9,8 +9,6 @@
     background-color: #f1f1f1;
     cursor: pointer;
   }
-  
-  /* Style the active class (and buttons on mouse-over) */
   .active, .link:hover {
     color: #888888;
     opacity: 1;
@@ -45,6 +43,7 @@
         a {
           color: #888888;
           opacity: .6;
+          font-size: 13px;
         }
         a.active, .link:hover {
           color: #888888;

@@ -1,9 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import ContactFormHorizontal from '../components/ContactFormHorizontal'
-import { summitSponsorLevel } from '../components/SummitSponsorLevel'
-
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
@@ -12,11 +9,9 @@ import LogoBanner from '../components/LogoBanner'
 import { connect } from "react-redux";
 import SubNav from '../components/SubNav'
 import LinkComponent from '../components/LinkComponent';
-
 import leftArrow from '../img/svg/arrow-left.svg'
 import TravelSupportPic from '../../static/img/summit/Tokyo-travel-support-pic.jpg'
 import Cannonical from '../../static/img/summit/ubuntu-cannonical.svg'
-import SponsorBooths from '../../static/img/summit/marketamfull-105s.jpg'
 
 export const SummitPageTemplate = ({
   isLoggedUser,
@@ -33,7 +28,7 @@ export const SummitPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav />
+        <SubNav active="summit-home"/>
       </div>
 
       <main className="main">

@@ -33,7 +33,7 @@ export const SummitSponsorPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav />
+        <SubNav active="summit-sponsor"/>
       </div>
 
       <main className="main">

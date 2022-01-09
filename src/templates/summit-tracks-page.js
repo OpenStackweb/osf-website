@@ -27,7 +27,7 @@ export const SummitTracksPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav />
+        <SubNav active="summit-tracks"/>
         <Header title={title} subTitle={subTitle} />
       </div>
 

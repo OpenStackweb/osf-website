@@ -11,7 +11,7 @@ header:
   title: How to Sponsor the Summit
   description: >
     Having a presence at the Summit is a great way to get your company in front of the OpenInfra community. Learn how to sponsor the Summit in just 3 steps.
-  image: /img/summit/marketamfull-105s.jpg
+  image: /img/summit/Sponsors-Hero.jpg
 form:
   display: true
   title: Subscribe to our newsletter for the latest from the OpenInfra Foundation.

@@ -49,6 +49,9 @@ export const SummitSponsorPageTemplate = ({
                 </span>
                 <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}>
                 </span>
+                <section className="cta-wrapper">
+                  <LinkComponent className="button-cta" href="/summit-sponsor/#howToSponsor">Steps to Sponsor<img src={leftArrow} alt="" /></LinkComponent>
+                </section>
               </div>
               <div className="header-right" style={{marginBottom: "0px"}}>
                 <div className="picture">

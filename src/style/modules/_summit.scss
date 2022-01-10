@@ -121,8 +121,13 @@
     }
 
     .picture {
-      height: 100%;
+      position: relative;
+      top: 30px;
       width: 100%;
+      @media (max-width: 768px) {
+        top: unset;
+        position: unset;
+      }
       img {
         height: 100%;
         width: 100%;

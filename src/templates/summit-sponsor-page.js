@@ -8,7 +8,7 @@ import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
-import SubNav from '../components/SubNav'
+import SubNav from '../components/SummitSubNav'
 import { connect } from "react-redux";
 
 import LinkComponent from '../components/LinkComponent';

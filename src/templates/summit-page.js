@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
 import LogoBanner from '../components/LogoBanner'
 import { connect } from "react-redux";
-import SubNav from '../components/SubNav'
+import SubNav from '../components/SummitSubNav'
 import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
 import TravelSupportPic from '../../static/img/summit/Tokyo-travel-support-pic.jpg'

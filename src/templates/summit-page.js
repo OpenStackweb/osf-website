@@ -87,12 +87,12 @@ export const SummitPageTemplate = ({
                 })}
               </div>
               <LinkComponent className="button-cta" style={{margin: "0 auto", marginTop: "30px"}} href="/summit-tracks">Learn More about Summit Tracks<img src={leftArrow} alt="" /></LinkComponent>
-              <a className="text-link" href="/summit-tracks">Join Programming Committee</a> 
+              <a className="text-link" href="https://openinfrafoundation.formstack.com/forms/programmingcommittee2022">Join Programming Committee</a> 
             </section>
           } 
 
-            <LogoBanner title="The Call for Presentations is now open until February 9" cta="Submit to CFP" href="" />
-
+            <LogoBanner title="The Call for Presentations is now open until February 9" cta="Submit to CFP" href="https://cfp.openinfra.dev" />
+          {/*
           <section id="sponsor" className="sponsorship-levels">
             <span className="title">Sponsors</span>
             <span className="description">
@@ -105,8 +105,9 @@ export const SummitPageTemplate = ({
               </div>
             </div>
             </section>
+            */}
 
-            <section className="travel-support">
+            <section style={{backgroundColor: "white", marginTop: "unset"}} className="travel-support">
             <div className="text">
               <span className="title">Travel Support Program & Visa Letters</span>
               <span className="description">Need assistance getting to the Berlin Summit? We can help! If you are a key contributor to open infrastructure and your company does not cover the costs of your travel and accommodation, you can apply for the Travel Support Program. We can also provide you with a visa invitation letter from the Foundation to meet travel requirements.</span>
@@ -119,7 +120,7 @@ export const SummitPageTemplate = ({
               <img src={TravelSupportPic} />
             </div>
           </section>
-          
+          <hr className="dividing-line"/>
           {previousSummits && previousSummits.display &&
             <section className="summit-previous" style={{marginTop: "60px"}}>
               <span className="title">

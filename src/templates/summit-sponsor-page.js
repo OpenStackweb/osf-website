@@ -127,7 +127,7 @@ export const SummitSponsorPageTemplate = ({
                 </tr>
               </table>
             </section>
-
+            {/*
             <section id="sponsor" className="sponsorship-levels">
               <span className="title">Sponsors</span>
               <span className="description">
@@ -140,11 +140,11 @@ export const SummitSponsorPageTemplate = ({
                 </div>
               </div>
             </section>
-
+            */}
             <section id="sponsorship-contact" className="sponsor-contact">
               <h5 className="sponsorship-contact">Have Questions About Sponsoring?</h5>
               <span className="contact-description">Contact us with any questions about sponsoring the Berlin Summit.</span>
-                <ContactFormHorizontal style={{backgroundColor: "#f3f3f3"}}/>
+                <ContactFormHorizontal style={{backgroundColor: "white"}}/>
             </section>
 
         </div>

@@ -15,6 +15,19 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: true
+    date: 2022-02-17T15:00:00.000Z
+    episodeTitle: "Linux OpenStack Kubernetes Infrastructure: The OpenInfra Standard"
+    episodeDescription: "Organizations like AT&T, CERN, China Mobile, China Telecom,
+      Verizon, Vodafone, and Yahoo have adopted the OpenInfra Standard and run
+      it in production today. Similar to how LAMP stack became the standard for
+      deploying web applications, LOKI helps operators identify successful
+      patterns and combinations of technologies to build production
+      infrastructure. This OpenInfra Live episode will discuss this emerging
+      standard and why organizations have adopted these open source technologies
+      together. "
+    episodeSpeakers: ""
+    youtubeLink: https://www.youtube.com/watch?v=pnYB7eYYiPg&ab_channel=OpenInfrastructureFoundation
+  - hidden: true
     date: 2022-02-03T15:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: OVHCloud"
     episodeDescription: In this new format of the “Large Scale OpenStack” show, a

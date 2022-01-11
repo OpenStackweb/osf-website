@@ -14,6 +14,19 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     15:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: true
+    date: 2022-02-03T15:00:00.000Z
+    episodeTitle: "Large Scale Ops Deep Dive: OVHCloud"
+    episodeDescription: In this new format of the “Large Scale OpenStack” show, a
+      panel of operators invites a special guest to talk about their deployment
+      and discuss their operations. For this episode, our guest will be Arnaud
+      Morin from OVHCloud, a large OpenStack public cloud currently deployed on
+      36 different regions across the world.
+    episodeSpeakers: |-
+      Arnaud Morin
+      Belmiro Moreira 
+    youtubeEmbed: ""
+    youtubeLink: https://www.youtube.com/watch?v=XV-L7b8lSXw&ab_channel=OpenInfrastructureFoundation
   - hidden: false
     date: 2022-01-20T15:00:40.227Z
     episodeDescription: "As we approach the launch of the CFP (call for papers) for

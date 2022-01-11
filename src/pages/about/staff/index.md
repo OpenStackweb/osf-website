@@ -108,7 +108,8 @@ members:
       OpenInfra Foundation (previously the OpenStack Foundation). Her mission is
       to continue the storytelling of the global community by building
       relationships with the developers, operators and ecosystem around global
-      open source communities. "
+      open source communities. In her free time, she likes to listen to Celine
+      Dion, rank local margaritas, and travel. "
     linkedin: https://www.linkedin.com/in/allisonmarieprice
     name: Allison Price
     openStack: https://www.openstack.org/community/members/profile/17777

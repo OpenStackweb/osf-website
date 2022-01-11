@@ -14,7 +14,7 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     15:00 UTC (9am CT)</strong>."
 episodes:
-  - hidden: true
+  - hidden: false
     date: 2022-02-17T15:00:00.000Z
     episodeTitle: "Linux OpenStack Kubernetes Infrastructure: The OpenInfra Standard"
     episodeDescription: "Organizations like AT&T, CERN, China Mobile, China Telecom,
@@ -27,7 +27,7 @@ episodes:
       together. "
     episodeSpeakers: ""
     youtubeLink: https://www.youtube.com/watch?v=pnYB7eYYiPg&ab_channel=OpenInfrastructureFoundation
-  - hidden: true
+  - hidden: false
     date: 2022-02-03T15:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: OVHCloud"
     episodeDescription: In this new format of the “Large Scale OpenStack” show, a

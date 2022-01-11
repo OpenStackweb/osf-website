@@ -104,13 +104,11 @@ members:
     picture: /img/about-staff/Wes-headshot.jpg
     title: Director of Product & Engineering
     twitter: https://twitter.com/iamweswilson
-  - description: Allison manages Marketing Content initiatives including case study
-      development, advertising  campaigns, the Superuser online publication and
-      OpenStack User Survey. Her past roles have  specialized in social strategy
-      and execution for both B2B and B2C global companies in the  technology and
-      consumer industries. In her spare time, she enjoys finding new hiking
-      trails and  sharing her love with Celine Dion with anyone and everyone who
-      will listen.
+  - description: "Allison manages the Marketing & Community programs at the
+      OpenInfra Foundation (previously the OpenStack Foundation). Her mission is
+      to continue the storytelling of the global community by building
+      relationships with the developers, operators and ecosystem around global
+      open source communities. "
     linkedin: https://www.linkedin.com/in/allisonmarieprice
     name: Allison Price
     openStack: https://www.openstack.org/community/members/profile/17777

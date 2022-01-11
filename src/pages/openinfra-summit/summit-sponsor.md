@@ -1,25 +1,17 @@
 ---
-templateKey: summit-page
+templateKey: summit-sponsor-page
 seo:
   description: The OpenInfra Summit is back in Berlin! June 7-9, 2022. Collaborate directly with the people building and running open source infrastructure using OpenStack, Kubernetes and 30+ other technologies.
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Summit Berlin, June 7-9, 2022
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/summit/
+  url: https://openinfra.dev/summit-sponsor/
 header:
   display: true
-  title: OpenInfra Summit Berlin 2022
-  upperTitle: The summit is back!
+  title: How to Sponsor the Summit
   description: >
-    Collaborate directly with the people building and running open source 
-    infrastructure using OpenStack, Kubernetes and 30+ other technologies. <a href="https://cfp.openinfra.dev">Now accepting talk submissions</a>.
-  date:
-    icon: /img/summit/Vector-calendar.svg
-    text: June 7-9, 2022
-  location:
-    icon: /img/summit/Vector-world.svg
-    text: Berlin Congress Center
-  image: /img/summit/summit-hero-image.png
+    Having a presence at the Summit is a great way to get your company in front of the OpenInfra community. Learn how to sponsor the Summit in just 3 steps.
+  image: /img/summit/Sponsors-Hero.jpg
 form:
   display: true
   title: Subscribe to our newsletter for the latest from the OpenInfra Foundation.
@@ -29,28 +21,26 @@ form:
     link: "https://signup.e2ma.net/signup/1958435/1771360/"
 topics:
   display: true
-  title: Tracks
+  title: Topics
   topicList:
     - text: AI
-      image: /img/summit/icons/AI-v2.png
+      image: /img/summit/AI.png
     - text: CI/CD
-      image: /img/summit/icons/CICD-v2.png
+      image: /img/summit/CICD.png
     - text: Containers
-      image: /img/summit/icons/Containers-v2.png
+      image: /img/summit/Containers.png
     - text: Edge Computing
-      image: /img/summit/icons/Edge-v2.png
-    - text: Hardware Enablement
-      image: /img/summit/icons/Hardware-Enablement.png
-    - text: HPC
-      image: /img/summit/icons/HPC-v2.png
+      image: /img/summit/Edge.png
     - text: Hybrid Cloud
-      image: /img/summit/icons/Hybrid-Cloud-v2.png
+      image: /img/summit/HybridCloud.png
+    - text: HPC
+      image: /img/summit/HPC.png
     - text: NFV
-      image: /img/summit/icons/NFV-v2.png
+      image: /img/summit/NFV.png
     - text: Public & Private Cloud
-      image: /img/summit/icons/Cloud-v2.png
+      image: /img/summit/PublicPrivateCloud.png
     - text: Security
-      image: /img/summit/icons/Security-v2.png
+      image: /img/summit/Security.png
 previousSummits:
   display: true
   title: Previous Summits

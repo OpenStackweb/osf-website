@@ -1,20 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import ContactFormHorizontal from '../components/ContactFormHorizontal'
-import { summitSponsorLevel } from '../components/SummitSponsorLevel'
-
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
-
+import LogoBanner from '../components/LogoBanner'
 import { connect } from "react-redux";
-
+import SubNav from '../components/SummitSubNav'
 import LinkComponent from '../components/LinkComponent';
-
 import leftArrow from '../img/svg/arrow-left.svg'
 import TravelSupportPic from '../../static/img/summit/Tokyo-travel-support-pic.jpg'
+import Cannonical from '../../static/img/summit/ubuntu-cannonical.svg'
 
 export const SummitPageTemplate = ({
   isLoggedUser,
@@ -31,6 +28,7 @@ export const SummitPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
+        <SubNav active="summit" pageName="Home"/>
       </div>
 
       <main className="main">
@@ -60,7 +58,7 @@ export const SummitPageTemplate = ({
                 </span>
                 <section className="cta-wrapper">
                   <LinkComponent className="button-cta" href="https://openinfrasummitberlin.eventbrite.com">Register Now<img src={leftArrow} alt="" /></LinkComponent>
-                  <LinkComponent className="button-cta outline" href="#sponsor">Become a Sponsor</LinkComponent>
+                  <LinkComponent className="button-cta outline" href="/summit-sponsor">Become a Sponsor</LinkComponent>
                 </section>
               </div>
               <div className="header-right">
@@ -88,89 +86,43 @@ export const SummitPageTemplate = ({
                   )
                 })}
               </div>
+              <LinkComponent className="button-cta" style={{margin: "0 auto", marginTop: "30px"}} href="/summit-tracks">Learn More about Summit Tracks<img src={leftArrow} alt="" /></LinkComponent>
+              <a className="text-link" href="https://openinfrafoundation.formstack.com/forms/programmingcommittee2022">Join Programming Committee</a> 
             </section>
-          }
+          } 
 
+            <LogoBanner title="The Call for Presentations is now open until February 9" cta="Submit to CFP" href="https://cfp.openinfra.dev" />
+          {/*
           <section id="sponsor" className="sponsorship-levels">
-            <span className="title">Sponsorships Are Live!</span>
+            <span className="title">Sponsors</span>
             <span className="description">
-              <p>Having a presence at the Summit is a great way to get your company in front of the OpenInfra community. You can read about the various options in the Sponsorship Prospectus.</p>
-              <p>Whichever level you choose to participate, you'll want to act quickly — we've already seen a lot of interest from potential sponsors.</p>
-              <p><strong>Becoming a sponsor is as easy as 1, 2, 3!</strong></p>
+              <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
             </span>
-            <section className="sponsor-steps">
-              <div className="step-single">
-                <h3>Step 1: Prospectus</h3>
-                <p><a href="/files/OpenInfra-Summit-Berlin2022-Prospectus.pdf">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>
-                <a href="/files/OpenInfra-Summit-Berlin2022-Prospectus.pdf" className="button-cta outline">Review the Prospectus</a>
+            <div className="sponsor-logos">
+              <h3 className="small-title-summit">Headline Sponsor</h3>
+              <div className="logos">
+                <img className="headline" src={Cannonical} />
               </div>
-              <div className="step-single">
-                <h3>Step 2: Master Sponsor Agreement (New Sponsors Only)</h3>
-                <p>If you have never previously sponsored an OpenInfra Summit, you will need to sign the <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDh53oVYqMPudorYaywDlwyEnhPEo57rDjieE_XpCDXXuwgD-3MeQC5JKrTDu4cl7I*">Master Sponsorship Agreement</a> prior to signing the Berlin Sponsorship Contract.</p>
-                <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDh53oVYqMPudorYaywDlwyEnhPEo57rDjieE_XpCDXXuwgD-3MeQC5JKrTDu4cl7I*" className="button-cta outline">Master Sponsor Agreement</a>
-              </div>
-              <div className="step-single">
-                <h3>Step 3: Berlin Sponsor Contract</h3>
-                <p>
-                  If you have sponsored an OpenInfra Summit before, then you will need to know the date when you signed the Master Sponsorship Agreement previously, as this information will be required in the first field of the Berlin Summit sponsor contract. If you do not know the date when you previously signed the Master Sponsorship Agreement please check <a href="https://docs.google.com/spreadsheets/d/1rxn2AXqG0uwwdbmNMd6R0QhAzoM_5vJXzTj6UIzMZ6I/edit?usp=sharing">this document</a> or email <a href="mailto:summit@openinfra.dev">summit@openinfra.dev</a>.
-                </p>
-                <p>After signing the <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAtBzgBWHsfPkCNzzeV-fOf_bB3wZyW7cfhhLkniWjXR578ygqHOD2ZO87uXGi3-Yc*">Berlin Sponsor Agreement</a>, please check your email to make sure you confirm submission via Echosign.</p>
-                <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAtBzgBWHsfPkCNzzeV-fOf_bB3wZyW7cfhhLkniWjXR578ygqHOD2ZO87uXGi3-Yc*" className="button-cta">Berlin Sponsor Contract <img src={leftArrow} alt="Berlin Sponsor Agreement" /></a>
-              </div>
-              <p>
-                Have any questions about sponsoring the Summit? <a href="#sponsorship-contact">Contact us</a>
-              </p>
+            </div>
             </section>
-            <span className="subhead">Sponsorship Levels</span>
-              <table className="sponsor-table">
-                <tr className="top-row">
-                  <th></th>
-                  <th>Member</th>
-                  <th>Non-Member</th>
-                </tr>
-                <tr>
-                  <th>Headline</th>
-                  <td>$110,000</td>
-                  <td>$125,000</td>
-                </tr>
-                <tr>
-                  <th>Premier</th>
-                  <td>$75,000</td>
-                  <td>$90,000</td>
-                </tr>
-                <tr>
-                  <th>Spotlight</th>
-                  <td>$25,000</td>
-                  <td>$35,000</td>
-                </tr>
-                <tr>
-                  <th>Exhibitor</th>
-                  <td>$10,000</td>
-                  <td>$15,000</td>
-                </tr>
-                <tr>
-                  <th>Exhibitor (Startup*)</th>
-                  <td>$7,500</td>
-                  <td>$10,000</td>
-                </tr>
-                <tr>
-                  <th>Supporting</th>
-                  <td>$2,500</td>
-                  <td>$5,000</td>
-                </tr>
-                <tr>
-                  <td colSpan="3" className="join-row">Not a member? Learn how to 
-                    <a onClick={() => summitSponsorLevel(5)} href="/join"> join the foundation</a>.
-                  </td>
-                </tr>
-              </table>
-            <span id="sponsorship-contact" className="subhead">Have Questions About Sponsoring?</span>
-            <span className="description">Contact us with any questions about sponsoring the Berlin Summit.</span>
-              <ContactFormHorizontal />
-            </section>
+            */}
 
+            <section style={{backgroundColor: "white", marginTop: "unset"}} className="travel-support">
+            <div className="text">
+              <span className="title">Travel Support Program & Visa Letters</span>
+              <span className="description">Need assistance getting to the Berlin Summit? We can help! If you are a key contributor to open infrastructure and your company does not cover the costs of your travel and accommodation, you can apply for the Travel Support Program. We can also provide you with a visa invitation letter from the Foundation to meet travel requirements.</span>
+              <div className="links-row">
+                <LinkComponent className="summit-cta" href="https://openinfrafoundation.formstack.com/forms/TSP_Berlin2022" >Apply For Support<img src={leftArrow} alt="" /></LinkComponent>
+                <LinkComponent className="summit-cta" href="https://openinfrafoundation.formstack.com/forms/visa_berlin2022" >Get Visa Letter<img src={leftArrow} alt="" /></LinkComponent>
+              </div>
+            </div>
+            <div className="picture">
+              <img src={TravelSupportPic} />
+            </div>
+          </section>
+          <hr className="dividing-line"/>
           {previousSummits && previousSummits.display &&
-            <section className="summit-previous">
+            <section className="summit-previous" style={{marginTop: "60px"}}>
               <span className="title">
                 {previousSummits.title}
               </span>
@@ -192,22 +144,9 @@ export const SummitPageTemplate = ({
             <section className="summit-video">
               <span className="title">{videoBanner.title}</span>
               <LinkComponent className="video-cta" href={videoBanner.button.link}>{videoBanner.button.text} <img src={leftArrow} alt="" /></LinkComponent>
-            </section>
+            </section> 
           }
-          <section className="travel-support">
-            <div className="text">
-              <span className="title">Travel Support Program & Visa Letters</span>
-              <span className="description">Need assistance getting to the Berlin Summit? We can help! If you are a key contributor to open infrastructure and your company does not cover the costs of your travel and accommodation, you can apply for the Travel Support Program. We can also provide you with a visa invitation letter from the Foundation to meet travel requirements.</span>
-              <div className="links-row">
-                <LinkComponent className="summit-cta" href="https://openinfrafoundation.formstack.com/forms/TSP_Berlin2022" >Apply For Support<img src={leftArrow} alt="" /></LinkComponent>
-                <LinkComponent className="summit-cta" href="https://openinfrafoundation.formstack.com/forms/visa_berlin2022" >Get Visa Letter<img src={leftArrow} alt="" /></LinkComponent>
-              </div>
-            </div>
-            <div className="picture">
-              <img src={TravelSupportPic} />
-            </div>
 
-          </section>
           {form && form.display &&
             <section className="summit-form">
               <div className="summit-form-container">

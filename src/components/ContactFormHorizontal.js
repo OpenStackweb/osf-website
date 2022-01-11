@@ -43,7 +43,7 @@ class ContactFormHorizontal extends React.Component {
 
     return(
         <form id="horizontal-contact-form" className="contact-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-            <div id="form-fields">
+            <div id="form-fields" style={this.props.style}>
             <div className="form-wrapper is-horizontal">
                 <input type="hidden" name="oid" value="00DG0000000lhAF" />
                 <input id="retURL" type="hidden" name="retURL" value="" />

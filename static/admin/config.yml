@@ -1123,3 +1123,22 @@ collections:
                 {label: "Date", name: "col2", widget: datetime, default: "", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, picker_utc: true}, 
               ]}
             ]}
+  - name: "annual-report-pages"
+    label: "Annual Report Pages"
+    create: true
+    files:
+      - file: "src/pages/annual-report/2021.md"
+        label: "Annual Report - 2021"
+        name: "annual-report-pages"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "annual-report-page"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sub Title", name: subTitle, widget: string}
+          - {label: "Body", name: body, widget: markdown}

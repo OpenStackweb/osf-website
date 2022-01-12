@@ -588,6 +588,8 @@ companies:
         image: /img/companies/Screen-Shot-2014-11-18-at-23.png
       - alt: Innova
         image: /img/companies/InnovaSolutions-Logo-copy.png
+      - image: /img/invox.jpg
+        alt: inovex
       - alt: Innovate IT Ltd.
         image: /img/companies/scalecloud-logo-v4-registered-trademark-with-slogan-495x223.jpg
       - alt: Instituto de Telecomunicações

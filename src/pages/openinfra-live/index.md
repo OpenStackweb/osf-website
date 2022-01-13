@@ -49,6 +49,8 @@ episodes:
     youtubeLink: https://www.youtube.com/watch?v=9s1VPCyuJXI
     youtubeEmbed: https://www.youtube.com/embed/9s1VPCyuJXI" title="YouTube video player
     calendarInvite: /static/invites/myevents-19-.ics
+    episodeSpeakers: "Amy Marrich (Getting Started), Shuquan Huang (5G, NFV, and
+      Edge), Arne Wiebalck (Private and Hybrid Cloud) "
   - hidden: false
     date: 2022-01-06T15:00:28.256Z
     youtubeLink: https://www.youtube.com/watch?v=MhAK2efrl9I

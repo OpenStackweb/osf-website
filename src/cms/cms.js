@@ -23,8 +23,7 @@ import ElectionPagePreview from './preview-templates/ElectionPagePreview'
 import ContributorsPagePreview from './preview-templates/ContributorsPagePreview'
 import AnnualReportPagePreview from './preview-templates/AnnualReportPagePreview'
 
-CMS.registerPreviewStyle('style/styles.scss');
-
+{/*CMS.registerPreviewStyle('style/styles.scss');*/}
 CMS.registerPreviewStyle('style/previews.css');
 
 CMS.registerWidget(IdWidget)

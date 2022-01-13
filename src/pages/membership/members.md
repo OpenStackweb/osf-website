@@ -291,7 +291,7 @@ companyTier:
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Fujitsu 1.png
           alt: ""
-        - logo: /img/fungible_sm.png
+        - logo: /img/fungible_sm2.png
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_GResearch 1.png
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Hitachi 1.png

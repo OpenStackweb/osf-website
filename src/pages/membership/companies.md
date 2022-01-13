@@ -130,6 +130,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_FreedomFi.png
       - alt: Fujitsu
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Fujitsu.png
+      - image: /img/fungible_sm.png
+        alt: Fungible
       - alt: G-Research
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_GResearch.png
       - alt: Hitachi

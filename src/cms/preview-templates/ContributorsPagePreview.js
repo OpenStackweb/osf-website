@@ -35,4 +35,5 @@ ContributorsPagePreview.propTypes = {
   widgetFor: PropTypes.func,
 }
 
-export default ContributorsPagePreview
+export default ContributorsPagePreview 
+ 

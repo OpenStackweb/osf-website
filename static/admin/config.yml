@@ -1125,7 +1125,6 @@ collections:
             ]}
   - name: "annual-report-pages"
     label: "Annual Report Pages"
-    create: true
     files:
       - file: "src/pages/annual-report/2021.md"
         label: "Annual Report - 2021"

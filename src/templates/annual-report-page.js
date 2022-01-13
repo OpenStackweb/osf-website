@@ -15,7 +15,6 @@ export const AnnualReportPageTemplate = ({
   isLoggedUser,
   title,
   subTitle,
-  footer,
   content,
   contentComponent
 }) => {
@@ -40,9 +39,6 @@ export const AnnualReportPageTemplate = ({
               </div>
             </div>
           </section>
-          {footer &&
-            <Hero content={footer} />
-          }
         </div>
       </main>
     </div>
@@ -53,7 +49,6 @@ AnnualReportPageTemplate.propTypes = {
   companies: PropTypes.object,
   title: PropTypes.string,
   subTitle: PropTypes.string,
-  footer: PropTypes.object,
 }
 
 const AnnualReportPage = ({ isLoggedUser, data }) => {
@@ -67,7 +62,6 @@ const AnnualReportPage = ({ isLoggedUser, data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         subTitle={post.frontmatter.subTitle}
-        footer={post.frontmatter.footer}
         content={post.html}
       />
     </Layout>
@@ -103,13 +97,6 @@ export const annualReportPageQuery = graphql`
         }
         title
         subTitle
-        footer {
-          title
-          subTitle
-          button
-          buttonText
-          display
-        }
       }
     }
   }

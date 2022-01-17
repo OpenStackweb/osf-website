@@ -51,7 +51,9 @@ episodes:
     calendarInvite: /static/invites/myevents-19-.ics
     episodeSpeakers: "Amy Marrich (Getting Started), Shuquan Huang (5G, NFV, and
       Edge), Arne Wiebalck (Private and Hybrid Cloud), Arkady Kanevsky (Hardware
-      Enablement)  "
+      Enablement), Armstrong Foundjem (AI, Machine Learning & HPC)
+
+      \  "
   - hidden: false
     date: 2022-01-06T15:00:28.256Z
     youtubeLink: https://www.youtube.com/watch?v=MhAK2efrl9I

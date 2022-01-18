@@ -163,18 +163,6 @@ members:
     picture: /img/about-staff/erin-disney.jpg
     title: Senior Event Marketing Manager
     twitter: https://twitter.com/erindisney
-  - description: Ashlee Ferguson joined the Open Infrastructure Foundation as a
-      Marketing Associate after interning with the  Marketing Team for a year.
-      She graduated from the University of Texas at Austin with a
-      Bachelor's  degree in Corporate Communication and a Business Minor. Prior
-      to joining the OpenStack Foundation,  she worked in event coordination for
-      SXSW Interactive. Outside of work, Ashlee enjoys Austin’s  live music
-      scene, coffee shops, and breakfast taco joints.
-    linkedin: https://www.linkedin.com/in/ashleeferguson/
-    name: Ashlee Ferguson
-    openStack: https://www.openstack.org/community/members/profile/64085
-    picture: /img/about-staff/AFheadshot.png
-    title: Community and Event Coordinator
   - description: "Jimmy leads the collaboration with OpenInfra Members, including
       strategy development, goal alignment and new member recruitment. Outside
       of advocating for current open source trends and distributing his calendar

@@ -163,7 +163,7 @@ companies:
       - alt: OVH
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_OVH.png
       - alt: Safespring
-        image: /img/companies/_New/Silver/safespring-silver.jpg
+        image: /img/safespring_sm.png
       - alt: Samsung
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Samsung.png
       - alt: Sardina

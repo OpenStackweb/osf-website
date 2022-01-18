@@ -319,7 +319,7 @@ companyTier:
         - logo: /img/osism-sm.png
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_OVH 1.png
           alt: ""
-        - logo: /img/members-page/silver-tier/safespring-silver 1.png
+        - logo: /img/safespring_sm.png
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Samsung 1.png
           alt: ""

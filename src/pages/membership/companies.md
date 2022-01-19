@@ -223,6 +223,8 @@ companies:
         alt: OW2
       - image: /img/soda-foundation-member.png
         alt: SODA Foundation
+      - image: /img/telecomparis.png
+        alt: Telecom Paris
       - image: /img/umass.png
         alt: UMass Amherst
   - companyList:

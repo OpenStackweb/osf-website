@@ -49,9 +49,9 @@ episodes:
     youtubeLink: https://www.youtube.com/watch?v=9s1VPCyuJXI
     youtubeEmbed: https://www.youtube.com/embed/9s1VPCyuJXI" title="YouTube video player
     calendarInvite: /static/invites/myevents-19-.ics
-    episodeSpeakers: "Amy Marrich (Getting Started), Shuquan Huang (5G, NFV, and
-      Edge), Arne Wiebalck (Private and Hybrid Cloud), Arkady Kanevsky (Hardware
-      Enablement), Armstrong Foundjem (AI, Machine Learning & HPC)
+    episodeSpeakers: "Amy Marrich (Getting Started), Arne Wiebalck (Private and
+      Hybrid Cloud), Arkady Kanevsky (Hardware Enablement), Armstrong Foundjem
+      (AI, Machine Learning & HPC)
 
       \  "
   - hidden: false

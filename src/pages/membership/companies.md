@@ -288,8 +288,6 @@ companies:
         image: /img/companies/logo-1-copy.png
       - alt: ArpaWare
         image: /img/companies/new-arpaware-logo-500x500.jpg
-      - alt: ArvanCloud
-        image: /img/companies/ArvanCloud-Logo.png
       - alt: ASEANLABS, Inc.
         image: /img/companies/aseanlabs-logo.png
       - alt: Asosiasi Cloud Computing Indonesia
@@ -308,8 +306,6 @@ companies:
         image: /img/companies/avi-lg.jpg
       - alt: Awnix Inc.
         image: /img/companies/Awnix-logo-hi-res-1.png
-      - alt: B1 Systems
-        image: /img/companies/BSystems.jpg
       - alt: Beijing Tenling Technology Co
         image: /img/companies/tenling-sm.png
       - alt: Beyond Hosting

@@ -38,22 +38,23 @@ episodes:
     episodeSpeakers: "Arnaud Morin, Belmiro Moreira "
     youtubeEmbed: ""
     youtubeLink: https://www.youtube.com/watch?v=XV-L7b8lSXw&ab_channel=OpenInfrastructureFoundation
-  - hidden: false
-    date: 2022-01-20T15:00:40.227Z
-    episodeDescription: "As we approach the launch of the CFP (call for papers) for
+  - episodeDescription: "As we approach the launch of the CFP (call for papers) for
       the upcoming OpenInfra Summit in Berlin (June 7-9), join members of the
       2022 Programming Committee as they share their top tips and tricks for
       writing a winning submission and answer your questions on what they look
       for in talks. "
-    episodeTitle: Berlin Summit 2022 CFP 101
-    youtubeLink: https://www.youtube.com/watch?v=9s1VPCyuJXI
-    youtubeEmbed: https://www.youtube.com/embed/9s1VPCyuJXI" title="YouTube video player
     calendarInvite: /static/invites/myevents-19-.ics
+    hidden: false
+    date: 2022-01-20T15:00:40.227Z
     episodeSpeakers: "Amy Marrich (Getting Started), Arne Wiebalck (Private and
       Hybrid Cloud), Arkady Kanevsky (Hardware Enablement), Armstrong Foundjem
       (AI, Machine Learning & HPC)
 
       \  "
+    youtubeEmbed: https://www.youtube.com/embed/9s1VPCyuJXI" title="YouTube video player
+    superuserRecap: https://superuser.openstack.org/articles/berlin-openinfra-summit-2022-cfp-101-openinfra-live-recap/
+    episodeTitle: Berlin Summit 2022 CFP 101
+    youtubeLink: https://www.youtube.com/watch?v=9s1VPCyuJXI
   - hidden: false
     date: 2022-01-06T15:00:28.256Z
     youtubeLink: https://www.youtube.com/watch?v=MhAK2efrl9I

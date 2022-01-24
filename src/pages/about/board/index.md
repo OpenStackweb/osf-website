@@ -105,7 +105,7 @@ members:
       of experience in storage system, big data product development and design.
     company: EasyStack
     title: Gold Director
-    picture: /img/background-shapes-white.svg
+    picture: /img/generic-profile.png
     openStack: https://www.openstack.org/community/members/profile/124668/edward-lee
     twitter: https://www.twitter.com/EdwardL0086
   - name: Eoghan Glynn
@@ -301,7 +301,7 @@ members:
   - name: Phil Robb
     company: Ericsson AB, Ericsson Software Technology
     description: >-
-
+      With over 30 years in Software Engineering and 20 years in open source communities, my passion is bringing developers and companies together to leverage the significant strengths of open collaborative development while avoiding the pitfalls. These communities are often driven by competing forces of technical excellence, customer desire, and individual corporate agendas. When done right they create a rich set of digital assets that can be widely leveraged. When done wrong, it is often a waste of the participant’s time, effort, and resources. Mastering how to best navigate this new form of software development has been an overarching theme of my career.
     openStack:
     picture: /img/board/philrobb.jpeg
     title: Platinum Director

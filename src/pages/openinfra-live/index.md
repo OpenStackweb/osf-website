@@ -35,7 +35,7 @@ episodes:
       and discuss their operations. For this episode, our guest will be Arnaud
       Morin from OVHCloud, a large OpenStack public cloud currently deployed on
       36 different regions across the world.
-    episodeSpeakers: "Arnaud Morin, Belmiro Moreira "
+    episodeSpeakers: Arnaud Morin, Xavier Nicolle, Belmiro Moreira, Mohammed Naser, Gene Kuo
     youtubeEmbed: ""
     youtubeLink: https://www.youtube.com/watch?v=XV-L7b8lSXw&ab_channel=OpenInfrastructureFoundation
   - episodeDescription: "As we approach the launch of the CFP (call for papers) for

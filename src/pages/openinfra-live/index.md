@@ -27,6 +27,7 @@ episodes:
       together. "
     episodeSpeakers: ""
     youtubeLink: https://www.youtube.com/watch?v=pnYB7eYYiPg&ab_channel=OpenInfrastructureFoundation
+    youtubeEmbed: https://www.youtube.com/embed/pnYB7eYYiPg
   - hidden: false
     date: 2022-02-03T15:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: OVHCloud"
@@ -36,7 +37,7 @@ episodes:
       Morin from OVHCloud, a large OpenStack public cloud currently deployed on
       36 different regions across the world.
     episodeSpeakers: Arnaud Morin, Xavier Nicolle, Belmiro Moreira, Mohammed Naser, Gene Kuo
-    youtubeEmbed: ""
+    youtubeEmbed: https://www.youtube.com/embed/XV-L7b8lSXw
     youtubeLink: https://www.youtube.com/watch?v=XV-L7b8lSXw&ab_channel=OpenInfrastructureFoundation
   - episodeDescription: "As we approach the launch of the CFP (call for papers) for
       the upcoming OpenInfra Summit in Berlin (June 7-9), join members of the

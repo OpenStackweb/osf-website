@@ -780,6 +780,8 @@ companies:
         image: /img/companies/sdnindo-logo-big.jpg
       - alt: Puppet Labs
         image: /img/companies/puppetlabs.jpg
+      - image: /img/purestorage.png
+        alt: Pure Storage
       - alt: QuorumLabs
         image: /img/companies/quorumlabs.jpg
       - alt: RackN

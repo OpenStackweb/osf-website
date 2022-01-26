@@ -258,8 +258,8 @@ collections:
           {label: "Image", name: "image", widget: image},
           {label: "Twitter Username", name: "twitterUsername", widget: string},
         ]}
-      - {label: "Title", name: title, widget: string}
-      - {label: "Sub Title", name: subTitle, widget: string}
+      - {label: "Title", name: title, widget: string, required: false}
+      - {label: "Sub Title", name: subTitle, widget: string, required: false}
       - {label: "Body", name: body, widget: markdown}
       - {label: "Footer", name: footer, widget: object, required: false, fields: [
           {label: "Title", name: title, widget: string, required: false },

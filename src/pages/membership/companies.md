@@ -219,6 +219,8 @@ companies:
         alt: Oregon State
       - image: /img/osb.png
         alt: OSB
+      - image: /img/osi_sm.png
+        alt: Open Source Initiative (OSI)
       - image: /img/ow2-member.png
         alt: OW2
       - image: /img/soda-foundation-member.png

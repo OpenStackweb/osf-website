@@ -122,7 +122,7 @@ members:
       of experience in storage system, big data product development and design.
     company: EasyStack
     title: Gold Director
-    picture: /img/generic-profile.png
+    picture: /img/edward-lee.jpg
     openStack: https://www.openstack.org/community/members/profile/124668/edward-lee
     twitter: https://www.twitter.com/EdwardL0086
   - name: Eoghan Glynn

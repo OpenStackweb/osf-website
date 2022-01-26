@@ -24,3 +24,5 @@ After launching as the [Open Infrastructure (OpenInfra) Foundation](https://ope
 Successful open source isn't automatic or trivial; it requires strategic focus, a dedication to best practices in community governance, open collaboration, and technical excellence, and active engagement from all involved. Like most worthwhile endeavors, successful open source takes persistence and hard work. It is awe-inspiring to look back on what we've accomplished in open infrastructure over the past decade, through shared effort for shared benefit, and I can't wait to see what we'll do in the next decade.
 
 It has been an honor to serve the OpenInfra community as Board Chair in 2021. My personal thanks go out to every person in our staff, board, project leaders, and participants, for all you contribute to open infrastructure and open source.
+
+You can read the full [2021 OpenInfra Annual Report here](https://openinfra.dev/annual-report/2021)!

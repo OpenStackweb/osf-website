@@ -282,6 +282,8 @@ companies:
         image: /img/companies/apalia-hd.png
       - alt: Apriorit
         image: /img/companies/logo250-100.png
+      - image: /img/aptira-lg-2.jpeg
+        alt: Aptira
       - alt: AQORN
         image: /img/companies/aqorn.jpg
       - alt: Aricent

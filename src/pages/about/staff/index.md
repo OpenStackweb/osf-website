@@ -71,17 +71,17 @@ members:
     picture: /img/about-staff/markcollier.jpg
     title: Chief Operating Officer
     twitter: https://twitter.com/sparkycollier
-  - description: <p>Thierry Carrez is the General Manager at the Open Infrastructure
-      Foundation, in charge of the  long-term health of the open source projects
-      under the Foundation. A long-time elected member of  the OpenStack
-      Technical Committee, he has been a Release Manager for the OpenStack
-      project since  its inception, coordinating the effort and facilitating
-      collaboration between contributors.</p>  <p>Thierry spoke about OpenStack,
-      open innovation and open source project management at various  conferences
-      around the world, including OSCON, LinuxCon, and FOSDEM. A Python Software
-      Foundation  fellow, he was previously the Technical lead for Ubuntu Server
-      at Canonical, an operational manager  for the Gentoo Linux Security Team,
-      and an IT manager in various companies.</p>
+  - description: <p>Thierry Carrez is the General Manager of the Open Infrastructure
+      Foundation. A systems engineer by trade, he was involved in the inception
+      of the OpenStack project, and still contributes to its governance and
+      release management.</p>  <p>With a personal interest in the intersection
+      of sociology and technology, Thierry spoke about open innovation and open
+      source at various conferences around the world, including OSCON, LinuxCon,
+      and FOSDEM. He currently serves as Secretary and Director for the Open
+      Source Initiative. He was recognized as a Python Software Foundation
+      fellow in 2012, and previously worked as the Technical lead for Ubuntu
+      Server at Canonical, an operational manager for the Gentoo Linux Security
+      Team, and an IT manager in various companies.</p>
     linkedin: https://www.linkedin.com/in/thierry-carrez-652662a
     name: Thierry Carrez
     openStack: https://www.openstack.org/community/members/profile/154

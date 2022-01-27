@@ -103,9 +103,9 @@ members:
     picture: /img/about-staff/Wes-headshot.jpg
     title: Director of Product & Engineering
     twitter: https://twitter.com/iamweswilson
-  - description: "Allison manages the Marketing & Community programs at the
-      OpenInfra Foundation (previously the OpenStack Foundation). Her mission is
-      to continue the storytelling of the global community by building
+  - description: "Allison is the Director of Marketing & Community at the OpenInfra
+      Foundation (previously the OpenStack Foundation). Her mission is to
+      continue the storytelling of the global community by building
       relationships with the developers, operators and ecosystem around global
       open source communities. In her free time, she likes to listen to Celine
       Dion, rank local margaritas, and travel. "

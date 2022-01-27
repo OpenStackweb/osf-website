@@ -1072,13 +1072,14 @@ hr.dividing-line {
   .logos {
     display: flex;
     justify-content: center;
-    img.headline {
+    align-items: center;
+    .headline {
       text-align: center;
       margin: 15px 15px 0 15px;
       width: 50%;
       max-width: 340px;
     }
-    img.premier {
+    .premier {
       text-align: center;
       margin-top: 15px;
       width: 40%;
@@ -1087,7 +1088,7 @@ hr.dividing-line {
         width: 50%;
       }
     }
-    img.exhibitor {
+    .exhibitor {
       text-align: center;
       margin: 15px 15px 0 15px;
       width: 25%;

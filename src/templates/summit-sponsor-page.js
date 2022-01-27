@@ -137,16 +137,24 @@ export const SummitSponsorPageTemplate = ({
               <div className="sponsor-logos">
                 <h3 className="small-title-summit">Headline Sponsor</h3>
                 <div className="logos">
-                  <img className="headline" src={Cannonical} alt="Cannonical Logo"/>
+                  <a className="headline" href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer">
+                    <img src={Cannonical} alt="Cannonical Logo"/>
+                  </a>
                 </div>
                 <h3 className="small-title-summit">Premier Sponsor</h3>
                 <div className="logos">
-                  <img className="premier" src={Mirantis} alt="Mirantis Logo"/>
+                  <a className="premier" href="https://www.mirantis.com/" target="_blank" rel="noopener noreferrer">
+                    <img src={Mirantis} alt="Mirantis Logo"/>
+                  </a>
                 </div>
                 <h3 className="small-title-summit">Exhibitor Sponsors</h3>
                 <div className="logos">
-                  <img className="exhibitor" src={ComponentSoft} alt="Component Soft Logo"/>
-                  <img className="exhibitor" src={SysEleven} alt="SysEleven Logo"/>
+                  <a className="exhibitor" href="https://www.componentsoft.io/" target="_blank" rel="noopener noreferrer">
+                    <img src={ComponentSoft} alt="Component Soft Logo"/>
+                  </a>
+                  <a className="exhibitor" href="https://www.syseleven.de/en/" target="_blank" rel="noopener noreferrer">
+                    <img src={SysEleven} alt="SysEleven Logo"/>
+                  </a>
                 </div>
               </div>
             </section>

@@ -1072,19 +1072,38 @@ hr.dividing-line {
   .logos {
     display: flex;
     justify-content: center;
-    img.headline {
+    align-items: center;
+    .headline {
+      text-align: center;
+      margin: 15px 15px 0 15px;
+      width: 50%;
+      max-width: 340px;
+    }
+    .premier {
       text-align: center;
       margin-top: 15px;
-      width: 65%;
-      max-width: 400px;
+      width: 40%;
+      max-width: 300px;
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
+    .exhibitor {
+      text-align: center;
+      margin: 15px 15px 0 15px;
+      width: 25%;
+      max-width: 240px;
+      @media (max-width: 768px) {
+        width: 50%;
+      }
     }
   }
 }
 
 .sponsor-contact {
-  margin: 0 0 0 0;
+  margin: 60px 0 0 0;
   padding: 60px 120px 60px 120px;
-  background-color: white;
+  background-color: #f3f3f3;
   @media (max-width: 768px) {
     padding: 60px 30px 0 30px;
   }

@@ -10,13 +10,14 @@ import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
 import SubNav from '../components/SummitSubNav'
 import { connect } from "react-redux";
-
 import LinkComponent from '../components/LinkComponent';
-
 import leftArrow from '../img/svg/arrow-left.svg'
-import TravelSupportPic from '../../static/img/summit/Tokyo-travel-support-pic.jpg'
+
 import Cannonical from '../../static/img/summit/ubuntu-cannonical.svg'
-import SponsorBooths from '../../static/img/summit/marketamfull-105s.jpg'
+import Mirantis from '../../static/img/summit/mirantis-logo-horizontal.svg'
+import ComponentSoft from '../../static/img/summit/component-soft-logo.svg'
+import SysEleven from '../../static/img/summit/SysEleven_Logo.svg'
+
 
 export const SummitSponsorPageTemplate = ({
   isLoggedUser,
@@ -127,7 +128,7 @@ export const SummitSponsorPageTemplate = ({
                 </tr>
               </table>
             </section>
-            {/*
+
             <section id="sponsor" className="sponsorship-levels">
               <span className="title">Sponsors</span>
               <span className="description">
@@ -136,15 +137,32 @@ export const SummitSponsorPageTemplate = ({
               <div className="sponsor-logos">
                 <h3 className="small-title-summit">Headline Sponsor</h3>
                 <div className="logos">
-                  <img className="headline" src={Cannonical} />
+                  <a className="headline" href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer">
+                    <img src={Cannonical} alt="Cannonical Logo"/>
+                  </a>
+                </div>
+                <h3 className="small-title-summit">Premier Sponsor</h3>
+                <div className="logos">
+                  <a className="premier" href="https://www.mirantis.com/" target="_blank" rel="noopener noreferrer">
+                    <img src={Mirantis} alt="Mirantis Logo"/>
+                  </a>
+                </div>
+                <h3 className="small-title-summit">Exhibitor Sponsors</h3>
+                <div className="logos">
+                  <a className="exhibitor" href="https://www.componentsoft.io/" target="_blank" rel="noopener noreferrer">
+                    <img src={ComponentSoft} alt="Component Soft Logo"/>
+                  </a>
+                  <a className="exhibitor" href="https://www.syseleven.de/en/" target="_blank" rel="noopener noreferrer">
+                    <img src={SysEleven} alt="SysEleven Logo"/>
+                  </a>
                 </div>
               </div>
             </section>
-            */}
+
             <section id="sponsorship-contact" className="sponsor-contact">
               <h5 className="sponsorship-contact">Have Questions About Sponsoring?</h5>
               <span className="contact-description">Contact us with any questions about sponsoring the Berlin Summit.</span>
-                <ContactFormHorizontal style={{backgroundColor: "white"}}/>
+                <ContactFormHorizontal style={{backgroundColor: "#f3f3f3"}}/>
             </section>
 
         </div>

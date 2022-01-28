@@ -156,6 +156,8 @@ companies:
         alt: Okestro
       - image: /img/oneqode_sm.png
         alt: OneQode
+      - image: /img/openmetal_sm-copy.png
+        alt: OpenMetal
       - alt: ORock
         image: /img/companies/_New/Silver/orock-silver.jpg
       - image: /img/osism-sm.png

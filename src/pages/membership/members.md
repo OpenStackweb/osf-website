@@ -314,7 +314,7 @@ companyTier:
         - logo: /img/okestro-sm.png
           alt: Okestro
         - logo: /img/oneqode_sm.png
-        - logo: /img/openmetal_sm-copy.png
+        - logo: /img/openmetal2.png
         - alt: ORock
           logo: /img/orock-silver.jpg
         - logo: /img/osism-sm.png

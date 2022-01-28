@@ -313,6 +313,7 @@ companyTier:
           alt: ""
         - logo: /img/okestro-sm.png
           alt: Okestro
+        - logo: /img/openmetal_sm-copy.png
         - logo: /img/oneqode_sm.png
         - alt: ORock
           logo: /img/orock-silver.jpg

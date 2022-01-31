@@ -204,7 +204,7 @@ const SummitSponsorPage = ({ isLoggedUser, summit, getCurrentSummit, data }) => 
         previousSummits={post.frontmatter.previousSummits}
         videoBanner={post.frontmatter.videoBanner}
         sponsorships={post.frontmatter.sponsorships}
-        summit_sponsors={summit.summit_sponsors}
+        summit_sponsors={summit?.summit_sponsors}
       />
     </Layout>
   )

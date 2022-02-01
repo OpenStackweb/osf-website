@@ -137,7 +137,7 @@ export const SummitSponsorPageTemplate = ({
                 </td>
               </tr>
             </table>
-          </section>          
+          </section>
 
           <section id="sponsor" className="sponsorship-levels">
             <span className="title">Sponsors</span>
@@ -150,18 +150,18 @@ export const SummitSponsorPageTemplate = ({
                   <>
                     <h3 className="small-title-summit">{tier.label}</h3>
                     <div className="logos">
-                      {summit_sponsors.filter(sponsor => sponsor.sponsorship.id === tier.id).sort((a, b) => a.order - b.order).map(sponsor => {                        
+                      {summit_sponsors?.filter(sponsor => sponsor.sponsorship.id === tier.id).sort((a, b) => a.order - b.order).map(sponsor => {
                         return (
-                          <a className={tier.size === 'Big' ? 'headline' : tier.size === 'Medium' ? 'premier' : 'exhibitor' } href={sponsor.company.url} 
+                          <a className={tier.size === 'Big' ? 'headline' : tier.size === 'Medium' ? 'premier' : 'exhibitor'} href={sponsor.company.url}
                             target="_blank" rel="noopener noreferrer">
-                            <img src={sponsor.company.logo} alt={sponsor.company.name} />
+                            <img src={sponsor.company.big_logo ? sponsor.company.big_logo : sponsor.company.logo} alt={sponsor.company.name} />
                           </a>
                         )
                       })}
                     </div>
                   </>
                 )
-              })}              
+              })}
             </div>
           </section>
 
@@ -204,7 +204,7 @@ const SummitSponsorPage = ({ isLoggedUser, summit, getCurrentSummit, data }) => 
         previousSummits={post.frontmatter.previousSummits}
         videoBanner={post.frontmatter.videoBanner}
         sponsorships={post.frontmatter.sponsorships}
-        summit_sponsors={summit?.summit_sponsors}
+        summit_sponsors={summit?.summit_sponsors || []}
       />
     </Layout>
   )

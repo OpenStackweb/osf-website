@@ -213,6 +213,8 @@ companies:
         alt: CERN
       - image: /img/imt.png
         alt: IMT Atlantique
+      - image: /img/inria.png
+        alt: Inria
       - image: /img/companies/_New/Associate/monash.png
         alt: Monash
       - image: /img/oregonstate.png

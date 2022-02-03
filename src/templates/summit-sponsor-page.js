@@ -152,7 +152,7 @@ export const SummitSponsorPageTemplate = ({
                     <div className="logos">
                       {summit_sponsors?.filter(sponsor => sponsor.sponsorship.id === tier.id).sort((a, b) => a.order - b.order).map(sponsor => {
                         return (
-                          <a className={tier.size === 'Big' ? 'headline' : tier.size === 'Medium' ? 'premier' : 'exhibitor'} href={sponsor.company.url}
+                          <a className={tier.name.toLowerCase()} href={sponsor.company.url}
                             target="_blank" rel="noopener noreferrer">
                             <img src={sponsor.company.big_logo ? sponsor.company.big_logo : sponsor.company.logo} alt={sponsor.company.name} />
                           </a>

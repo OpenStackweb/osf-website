@@ -1,0 +1,29 @@
+.career-single {
+  margin: 3rem 0;
+  .career-title {
+    display: block;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+}
+
+.career-btn {
+  display: inline-block;
+  background: $dark-gray;
+  font-size: 0.9em;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: white;
+  &:hover,
+  &:focus {
+    background: $dark-gray-hover;
+    color: white;
+  }
+}
+
+.career-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 1rem;
+}

@@ -229,6 +229,8 @@ companies:
         alt: Telecom Paris
       - image: /img/umass.png
         alt: UMass Amherst
+      - image: /img/inria.png
+        alt: Inria
   - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg

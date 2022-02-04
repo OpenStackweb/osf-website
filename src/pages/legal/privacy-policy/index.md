@@ -361,6 +361,8 @@ In some circumstances we may use or disclose de-identified data about our commun
 
 The Open Infrastructure Foundation participates in the EU-US and Swiss Privacy Shield frameworks regarding the collection, use, and retention of personal information from European Union member countries and Switzerland. We have certified with the Department of Commerce that we adhere to the Privacy Shield Principles. To learn more about the Privacy Shield Principles, visit here. Our certification appears here.
 
+Please note that the Open Infrastructure Foundation has elected to continue its participation in the EU-US and Swiss Privacy Shield frameworks even though Privacy Shield is no longer recognized by the EU as a permitted transfer mechanism. If you have relied on our Privacy Shield certification as a transfer mechanism please let us know and we will work with you to sign Standard Contractual Clauses.
+
 ![Prvacy Trust](/static/img/privacy-trust.gif)
 
 In compliance with the Privacy Shield Principles, The Open Infrastructure Foundation commits to resolve complaints about our collection or use of your personal information. EU individuals with inquiries or complaints regarding our Privacy Shield policy should first contact The Open Infrastructure Foundation at [legalnotice@openinfra.dev](mailto:legalnotice@openinfra.dev) and give us the opportunity to resolve your complaint. We will respond to your complaint promptly.

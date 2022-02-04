@@ -213,6 +213,8 @@ companies:
         alt: CERN
       - image: /img/imt.png
         alt: IMT Atlantique
+      - image: /img/inria.png
+        alt: Inria
       - image: /img/companies/_New/Associate/monash.png
         alt: Monash
       - image: /img/oregonstate.png
@@ -229,8 +231,6 @@ companies:
         alt: Telecom Paris
       - image: /img/umass.png
         alt: UMass Amherst
-      - image: /img/inria.png
-        alt: Inria
   - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg

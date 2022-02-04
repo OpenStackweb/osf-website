@@ -126,10 +126,6 @@
     z-index: 100;
     margin-bottom: 60px;
 
-    @media screen and (max-width: 1024px) {
-      margin-left: 20%;
-    }
-
     @media screen and (max-width: $screen-md-min) {
       margin-left: 0;
     }

@@ -7,7 +7,8 @@ import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
-import LinkComponent from '../components/LinkComponent'
+import LinkComponent from '../components/LinkComponent';
+import leftArrow from '../img/svg/arrow-left.svg'
 
 import { connect } from "react-redux";
 
@@ -46,7 +47,7 @@ export const CareersPageTemplate = ({
                   <h3 className="fix-h3">{row1.title1}</h3>
                   <p>{row1.text1}</p>
                   <p>
-                    <a href="#openings" class="career-btn">See Current Openings</a>
+                  <LinkComponent className="button-cta" href="#openings">See Current Openings<img src={leftArrow} alt="Left Arrow" /></LinkComponent> 
                   </p>
                 </div>
               </div>

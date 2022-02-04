@@ -38,13 +38,24 @@
 		}
 	}
 	.menu-back {
-		&:before {
-			content: "\2190";
-			-webkit-transform: rotate(180deg);
-			transform: rotate(180deg);
+		display: flex;
+		flex-direction: row;
+		.title-arrow {
 			margin-right: 5px;
+			max-width: 20px;
+			svg {
+				color: #f15b3e;
+			}
+		}
+		&:hover {
+			color: #161616;
+			svg {
+				color: #161616;
+			}
 		}
 	}
+
+
 
 	@media (max-width: 1023px) {
 		margin-left: 50px;

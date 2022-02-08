@@ -62,6 +62,7 @@ export const SummitSponsorPageTemplate = ({
                 </span>
                 <section className="cta-wrapper">
                   <LinkComponent className="button-cta" href="/summit-sponsor/#howToSponsor">Steps to Sponsor<img src={leftArrow} alt="" /></LinkComponent>
+                  <LinkComponent className="button-cta outline" href="/summit-sponsor/#sponsor">Current Sponsors</LinkComponent>
                 </section>
               </div>
               <div className="header-right" style={{ marginBottom: "0px" }}>

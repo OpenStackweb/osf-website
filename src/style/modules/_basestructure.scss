@@ -155,20 +155,12 @@ i {
 }
 footer {
   .logo-containter-child-img {
-    width: 170px;
+    width: 220px;
     @media (max-width: $screen-md-min) {
-      margin-right: 1em;
-      width: 120px;
-    }
-    @media (max-width: $screen-sm-min) {
-      margin-right: 0em;
-      width: 120px;
-    }
-    @media (max-width: 320px) {
-      margin-right: 0em;
-      width: 120px;
-      position: absolute;
-      left: 1.2em;
+      margin-right: 0;
+      width: 220px;
+      margin-top: 4rem;
+      text-align: left;
     }
   }
 }
@@ -272,8 +264,9 @@ footer {
   // align-content: space-around;
   // width: 700px;
   margin-left: 30px;
-  @media (max-width: 320px) {
-    align-items: flex-end;
+  @media (max-width: $screen-md-min) {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 
@@ -286,6 +279,9 @@ footer {
 .footer-container1-child-right {
   margin-right: 30px;
   margin-left: auto;
+  @media (max-width: $screen-md-min) {
+    margin-left: 0;
+  }
 }
 
 div.content.custom > main > section > div > div > div > h3 {

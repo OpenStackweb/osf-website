@@ -100,7 +100,7 @@ export const SummitSponsorPageTemplate = ({
           </section>
 
           <section id="howToSponsor" className="sponsor-steps">
-
+          <div className="title">How to Sponsor</div>
             <div className="step-single">
               <h5>Step 1: Prospectus</h5>
               <p><a href="/files/OpenInfraSummitBerlin2022-prospectusV2.pdf">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>

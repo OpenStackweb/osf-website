@@ -992,6 +992,21 @@ hr.dividing-line {
   @media (max-width: 768px) {
     padding: 60px 30px 60px 30px;;
   }
+  .title {
+    font-family: "Jura";
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 35px;
+    margin-bottom: 60px;
+    text-align: left;
+    letter-spacing: -0.6px;
+    color: #161616;
+
+    @media (max-width: 768px) {
+      font-size: 30px;
+      line-height: 36px;
+    }
+  }
   p {
     font-family: "Roboto";
     font-size: 16px;

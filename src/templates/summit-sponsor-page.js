@@ -71,8 +71,34 @@ export const SummitSponsorPageTemplate = ({
               </div>
             </section>
           }
+          <hr className="dividing-line"/>
+          <section id="sponsor" className="sponsorship-levels">
+            <span className="title">Sponsors</span>
+            <span className="description">
+              <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
+            </span>
+            <div className="sponsor-logos">
+              {getSponsorTiers().map(tier => {
+                return (
+                  <>
+                    <h3 className="small-title-summit">{tier.label}</h3>
+                    <div className="logos">
+                      {summit_sponsors?.filter(sponsor => sponsor.sponsorship.id === tier.id).sort((a, b) => a.order - b.order).map(sponsor => {
+                        return (
+                          <a className={`logo-${tier.name.toLowerCase()}`} href={sponsor.company.url}
+                            target="_blank" rel="noopener noreferrer">
+                            <img src={sponsor.company.big_logo ? sponsor.company.big_logo : sponsor.company.logo} alt={sponsor.company.name} />
+                          </a>
+                        )
+                      })}
+                    </div>
+                  </>
+                )
+              })}
+            </div>
+          </section>
 
-          <section id="howToSponsor" className="sponsor-steps" style={{ marginTop: "0px" }}>
+          <section id="howToSponsor" className="sponsor-steps">
 
             <div className="step-single">
               <h5>Step 1: Prospectus</h5>
@@ -139,36 +165,12 @@ export const SummitSponsorPageTemplate = ({
             </table>
           </section>
 
-          <section id="sponsor" className="sponsorship-levels">
-            <span className="title">Sponsors</span>
-            <span className="description">
-              <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
-            </span>
-            <div className="sponsor-logos">
-              {getSponsorTiers().map(tier => {
-                return (
-                  <>
-                    <h3 className="small-title-summit">{tier.label}</h3>
-                    <div className="logos">
-                      {summit_sponsors?.filter(sponsor => sponsor.sponsorship.id === tier.id).sort((a, b) => a.order - b.order).map(sponsor => {
-                        return (
-                          <a className={`logo-${tier.name.toLowerCase()}`} href={sponsor.company.url}
-                            target="_blank" rel="noopener noreferrer">
-                            <img src={sponsor.company.big_logo ? sponsor.company.big_logo : sponsor.company.logo} alt={sponsor.company.name} />
-                          </a>
-                        )
-                      })}
-                    </div>
-                  </>
-                )
-              })}
-            </div>
-          </section>
+
 
           <section id="sponsorship-contact" className="sponsor-contact">
             <h5 className="sponsorship-contact">Have Questions About Sponsoring?</h5>
             <span className="contact-description">Contact us with any questions about sponsoring the Berlin Summit.</span>
-            <ContactFormHorizontal style={{ backgroundColor: "#f3f3f3" }} />
+            <ContactFormHorizontal />
           </section>
 
         </div>

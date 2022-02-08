@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import ContactFormHorizontal from '../components/ContactFormHorizontal'
@@ -18,6 +18,7 @@ import Mirantis from '../../static/img/summit/mirantis-logo-horizontal.svg'
 import ComponentSoft from '../../static/img/summit/component-soft-logo.svg'
 import SysEleven from '../../static/img/summit/SysEleven_Logo.svg'
 
+import { getCurrentSummit } from '../actions/summit-actions'
 
 export const SummitSponsorPageTemplate = ({
   isLoggedUser,
@@ -27,14 +28,23 @@ export const SummitSponsorPageTemplate = ({
   previousSummits,
   videoBanner,
   sponsorships,
+  summit_sponsors
 }) => {
+
+  const getSponsorTiers = () => {
+    let sponsorTiers = []
+    summit_sponsors.map(s => {
+      return sponsorTiers.some(t => t.id === s.sponsorship.id) ? null : sponsorTiers.push(s.sponsorship);
+    });
+    return sponsorTiers.sort((a, b) => a.order - b.order);
+  };
 
   return (
     <div>
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav active="summit-sponsor" pageName="Sponsors"/>
+        <SubNav active="summit-sponsor" pageName="Sponsors" />
       </div>
 
       <main className="main">
@@ -54,7 +64,7 @@ export const SummitSponsorPageTemplate = ({
                   <LinkComponent className="button-cta" href="/summit-sponsor/#howToSponsor">Steps to Sponsor<img src={leftArrow} alt="" /></LinkComponent>
                 </section>
               </div>
-              <div className="header-right" style={{marginBottom: "0px"}}>
+              <div className="header-right" style={{ marginBottom: "0px" }}>
                 <div className="picture">
                   <img src={!!header.image.childImageSharp ? header.image.childImageSharp.fluid.src : header.image} />
                 </div>
@@ -62,108 +72,104 @@ export const SummitSponsorPageTemplate = ({
             </section>
           }
 
-            <section id="howToSponsor" className="sponsor-steps" style={{marginTop: "0px"}}>
+          <section id="howToSponsor" className="sponsor-steps" style={{ marginTop: "0px" }}>
 
-              <div className="step-single">
-                <h5>Step 1: Prospectus</h5>
-                <p><a href="/files/OpenInfraSummitBerlin2022-prospectusV2.pdf">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>
-                <a href="/files/OpenInfraSummitBerlin2022-prospectusV2.pdf" className="button-cta outline">Review the Prospectus</a>
-              </div>
-              <div className="step-single">
-                <h5>Step 2: Master Sponsor Agreement (New Sponsors Only)</h5>
-                <p>If you have never previously sponsored an OpenInfra Summit, you will need to sign the <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDh53oVYqMPudorYaywDlwyEnhPEo57rDjieE_XpCDXXuwgD-3MeQC5JKrTDu4cl7I*">Master Sponsorship Agreement</a> prior to signing the Berlin Sponsorship Contract.</p>
-                <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDh53oVYqMPudorYaywDlwyEnhPEo57rDjieE_XpCDXXuwgD-3MeQC5JKrTDu4cl7I*" className="button-cta outline">Master Sponsor Agreement</a>
-              </div>
-              <div className="step-single">
-                <h5>Step 3: Berlin Sponsor Contract</h5>
-                <p>
-                  If you have sponsored an OpenInfra Summit before, then you will need to know the date when you signed the Master Sponsorship Agreement previously, as this information will be required in the first field of the Berlin Summit sponsor contract. If you do not know the date when you previously signed the Master Sponsorship Agreement please check <a href="https://docs.google.com/spreadsheets/d/1rxn2AXqG0uwwdbmNMd6R0QhAzoM_5vJXzTj6UIzMZ6I/edit?usp=sharing">this document</a> or email <a href="mailto:summit@openinfra.dev">summit@openinfra.dev</a>.
-                </p>
-                <p>After signing the <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAtBzgBWHsfPkCNzzeV-fOf_bB3wZyW7cfhhLkniWjXR578ygqHOD2ZO87uXGi3-Yc*">Berlin Sponsor Agreement</a>, please check your email to make sure you confirm submission via Echosign.</p>
-                <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAtBzgBWHsfPkCNzzeV-fOf_bB3wZyW7cfhhLkniWjXR578ygqHOD2ZO87uXGi3-Yc*" className="button-cta">Berlin Sponsor Contract <img src={leftArrow} alt="Berlin Sponsor Agreement" /></a>
-              </div>
+            <div className="step-single">
+              <h5>Step 1: Prospectus</h5>
+              <p><a href="/files/OpenInfraSummitBerlin2022-prospectusV2.pdf">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>
+              <a href="/files/OpenInfraSummitBerlin2022-prospectusV2.pdf" className="button-cta outline">Review the Prospectus</a>
+            </div>
+            <div className="step-single">
+              <h5>Step 2: Master Sponsor Agreement (New Sponsors Only)</h5>
+              <p>If you have never previously sponsored an OpenInfra Summit, you will need to sign the <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDh53oVYqMPudorYaywDlwyEnhPEo57rDjieE_XpCDXXuwgD-3MeQC5JKrTDu4cl7I*">Master Sponsorship Agreement</a> prior to signing the Berlin Sponsorship Contract.</p>
+              <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDh53oVYqMPudorYaywDlwyEnhPEo57rDjieE_XpCDXXuwgD-3MeQC5JKrTDu4cl7I*" className="button-cta outline">Master Sponsor Agreement</a>
+            </div>
+            <div className="step-single">
+              <h5>Step 3: Berlin Sponsor Contract</h5>
               <p>
-                Have any questions about sponsoring the Summit? <a href="#sponsorship-contact">Contact us</a>
+                If you have sponsored an OpenInfra Summit before, then you will need to know the date when you signed the Master Sponsorship Agreement previously, as this information will be required in the first field of the Berlin Summit sponsor contract. If you do not know the date when you previously signed the Master Sponsorship Agreement please check <a href="https://docs.google.com/spreadsheets/d/1rxn2AXqG0uwwdbmNMd6R0QhAzoM_5vJXzTj6UIzMZ6I/edit?usp=sharing">this document</a> or email <a href="mailto:summit@openinfra.dev">summit@openinfra.dev</a>.
               </p>
-              <table className="sponsor-table">
-                <tr className="top-row">
-                  <th>Sponsorship Levels</th>
-                  <th>Member Price</th>
-                  <th>Non-Member Price</th>
-                </tr>
-                <tr>
-                  <td><strong>Headline</strong></td>
-                  <td>$110,000</td>
-                  <td>$125,000</td>
-                </tr>
-                <tr>
-                  <td><strong>Premier</strong></td>
-                  <td>$75,000</td>
-                  <td>$90,000</td>
-                </tr>
-                <tr>
-                  <td><strong>Spotlight</strong></td>
-                  <td>$25,000</td>
-                  <td>$35,000</td>
-                </tr>
-                <tr>
-                  <td><strong>Exhibitor</strong></td>
-                  <td>$10,000</td>
-                  <td>$15,000</td>
-                </tr>
-                <tr>
-                  <td><strong>Exhibitor (Startup*)</strong></td>
-                  <td>$7,500</td>
-                  <td>$10,000</td>
-                </tr>
-                <tr>
-                  <td><strong>Supporting</strong></td>
-                  <td>$2,500</td>
-                  <td>$5,000</td>
-                </tr>
-                <tr>
-                  <td colSpan="3" className="join-row">Not a member? Learn how to 
-                    <a onClick={() => summitSponsorLevel(5)} href="/join"> join the foundation</a>.
-                  </td>
-                </tr>
-              </table>
-            </section>
+              <p>After signing the <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAtBzgBWHsfPkCNzzeV-fOf_bB3wZyW7cfhhLkniWjXR578ygqHOD2ZO87uXGi3-Yc*">Berlin Sponsor Agreement</a>, please check your email to make sure you confirm submission via Echosign.</p>
+              <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAtBzgBWHsfPkCNzzeV-fOf_bB3wZyW7cfhhLkniWjXR578ygqHOD2ZO87uXGi3-Yc*" className="button-cta">Berlin Sponsor Contract <img src={leftArrow} alt="Berlin Sponsor Agreement" /></a>
+            </div>
+            <p>
+              Have any questions about sponsoring the Summit? <a href="#sponsorship-contact">Contact us</a>
+            </p>
+            <table className="sponsor-table">
+              <tr className="top-row">
+                <th>Sponsorship Levels</th>
+                <th>Member Price</th>
+                <th>Non-Member Price</th>
+              </tr>
+              <tr>
+                <td><strong>Headline</strong></td>
+                <td>$110,000</td>
+                <td>$125,000</td>
+              </tr>
+              <tr>
+                <td><strong>Premier</strong></td>
+                <td>$75,000</td>
+                <td>$90,000</td>
+              </tr>
+              <tr>
+                <td><strong>Spotlight</strong></td>
+                <td>$25,000</td>
+                <td>$35,000</td>
+              </tr>
+              <tr>
+                <td><strong>Exhibitor</strong></td>
+                <td>$10,000</td>
+                <td>$15,000</td>
+              </tr>
+              <tr>
+                <td><strong>Exhibitor (Startup*)</strong></td>
+                <td>$7,500</td>
+                <td>$10,000</td>
+              </tr>
+              <tr>
+                <td><strong>Supporting</strong></td>
+                <td>$2,500</td>
+                <td>$5,000</td>
+              </tr>
+              <tr>
+                <td colSpan="3" className="join-row">Not a member? Learn how to
+                  <a onClick={() => summitSponsorLevel(5)} href="/join"> join the foundation</a>.
+                </td>
+              </tr>
+            </table>
+          </section>
 
-            <section id="sponsor" className="sponsorship-levels">
-              <span className="title">Sponsors</span>
-              <span className="description">
-                <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
-              </span>
-              <div className="sponsor-logos">
-                <h3 className="small-title-summit">Headline Sponsor</h3>
-                <div className="logos">
-                  <a className="headline" href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer">
-                    <img src={Cannonical} alt="Cannonical Logo"/>
-                  </a>
-                </div>
-                <h3 className="small-title-summit">Premier Sponsor</h3>
-                <div className="logos">
-                  <a className="premier" href="https://www.mirantis.com/" target="_blank" rel="noopener noreferrer">
-                    <img src={Mirantis} alt="Mirantis Logo"/>
-                  </a>
-                </div>
-                <h3 className="small-title-summit">Exhibitor Sponsors</h3>
-                <div className="logos">
-                  <a className="exhibitor" href="https://www.componentsoft.io/" target="_blank" rel="noopener noreferrer">
-                    <img src={ComponentSoft} alt="Component Soft Logo"/>
-                  </a>
-                  <a className="exhibitor" href="https://www.syseleven.de/en/" target="_blank" rel="noopener noreferrer">
-                    <img src={SysEleven} alt="SysEleven Logo"/>
-                  </a>
-                </div>
-              </div>
-            </section>
+          <section id="sponsor" className="sponsorship-levels">
+            <span className="title">Sponsors</span>
+            <span className="description">
+              <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
+            </span>
+            <div className="sponsor-logos">
+              {getSponsorTiers().map(tier => {
+                return (
+                  <>
+                    <h3 className="small-title-summit">{tier.label}</h3>
+                    <div className="logos">
+                      {summit_sponsors?.filter(sponsor => sponsor.sponsorship.id === tier.id).sort((a, b) => a.order - b.order).map(sponsor => {
+                        return (
+                          <a className={`logo-${tier.name.toLowerCase()}`} href={sponsor.company.url}
+                            target="_blank" rel="noopener noreferrer">
+                            <img src={sponsor.company.big_logo ? sponsor.company.big_logo : sponsor.company.logo} alt={sponsor.company.name} />
+                          </a>
+                        )
+                      })}
+                    </div>
+                  </>
+                )
+              })}
+            </div>
+          </section>
 
-            <section id="sponsorship-contact" className="sponsor-contact">
-              <h5 className="sponsorship-contact">Have Questions About Sponsoring?</h5>
-              <span className="contact-description">Contact us with any questions about sponsoring the Berlin Summit.</span>
-                <ContactFormHorizontal style={{backgroundColor: "#f3f3f3"}}/>
-            </section>
+          <section id="sponsorship-contact" className="sponsor-contact">
+            <h5 className="sponsorship-contact">Have Questions About Sponsoring?</h5>
+            <span className="contact-description">Contact us with any questions about sponsoring the Berlin Summit.</span>
+            <ContactFormHorizontal style={{ backgroundColor: "#f3f3f3" }} />
+          </section>
 
         </div>
       </main>
@@ -180,8 +186,12 @@ SummitSponsorPageTemplate.propTypes = {
   sponsorships: PropTypes.object,
 }
 
-const SummitSponsorPage = ({ isLoggedUser, data }) => {
+const SummitSponsorPage = ({ isLoggedUser, summit, getCurrentSummit, data }) => {
   const { markdownRemark: post } = data
+
+  useEffect(() => {
+    getCurrentSummit();
+  }, [])
 
   return (
     <Layout>
@@ -194,6 +204,7 @@ const SummitSponsorPage = ({ isLoggedUser, data }) => {
         previousSummits={post.frontmatter.previousSummits}
         videoBanner={post.frontmatter.videoBanner}
         sponsorships={post.frontmatter.sponsorships}
+        summit_sponsors={summit?.summit_sponsors || []}
       />
     </Layout>
   )
@@ -204,8 +215,9 @@ SummitSponsorPage.propTypes = {
 }
 
 export default connect(state => ({
-  isLoggedUser: state.loggedUserState.isLoggedUser
-}), null)(SummitSponsorPage)
+  isLoggedUser: state.loggedUserState.isLoggedUser,
+  summit: state.summitState.current_summit
+}), { getCurrentSummit })(SummitSponsorPage)
 
 export const summitSponsorPageQuery = graphql`
   query SummitSponsorPage($id: String!) {

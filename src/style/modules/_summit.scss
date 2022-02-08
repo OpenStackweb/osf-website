@@ -1073,26 +1073,35 @@ hr.dividing-line {
     display: flex;
     justify-content: center;
     align-items: center;
-    .headline {
+    .logo-headline {
       text-align: center;
       margin: 15px 15px 0 15px;
       width: 50%;
       max-width: 340px;
+      img {
+        width: 340px;
+      }
     }
-    .premier {
+    .logo-premier {
       text-align: center;
       margin-top: 15px;
       width: 40%;
       max-width: 300px;
+      img {
+        width: 300px;
+      }
       @media (max-width: 768px) {
         width: 50%;
       }
     }
-    .exhibitor {
+    .logo-exhibitor {
       text-align: center;
       margin: 15px 15px 0 15px;
       width: 25%;
       max-width: 240px;
+      img {
+        width: 240px;
+      }
       @media (max-width: 768px) {
         width: 50%;
       }

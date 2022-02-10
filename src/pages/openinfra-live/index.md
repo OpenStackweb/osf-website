@@ -8,15 +8,173 @@ seo:
   twitterUsername: "@OpenInfraDev"
 hero:
   title: Conversations around all things open infrastructure
-  description: "Introducing: OpenInfra Live—a weekly hour-long series sharing
-    production case studies, open source demos, industry conversations, and the
-    latest updates from the global open infrastructure community! <br /> <br />
-    Catch every episode on several streaming platforms, airing <strong>Thursdays
-    at 14:00 UTC (9am CT)</strong>."
+  description: "Introducing: OpenInfra Live—an hour-long series sharing production
+    case studies, open source demos, industry conversations, and the latest
+    updates from the global open infrastructure community! <br /> <br /> Catch
+    every episode on several streaming platforms, airing <strong>Thursdays at
+    15:00 UTC (9am CT)</strong>."
 episodes:
-  - hidden: true
+  - hidden: false
+    date: 2022-02-17T15:00:00.000Z
+    episodeTitle: "Linux OpenStack Kubernetes Infrastructure: The OpenInfra Standard"
+    episodeDescription: "Organizations like AT&T, CERN, China Mobile, China Telecom,
+      Verizon, Vodafone, and Yahoo have adopted the OpenInfra Standard and run
+      it in production today. Similar to how LAMP stack became the standard for
+      deploying web applications, LOKI helps operators identify successful
+      patterns and combinations of technologies to build production
+      infrastructure. This OpenInfra Live episode will discuss this emerging
+      standard and why organizations have adopted these open source technologies
+      together. "
+    episodeSpeakers: ""
+    youtubeLink: https://www.youtube.com/watch?v=pnYB7eYYiPg&ab_channel=OpenInfrastructureFoundation
+    youtubeEmbed: https://www.youtube.com/embed/pnYB7eYYiPg
+  - hidden: false
+    date: 2022-02-03T15:00:00.000Z
+    episodeTitle: "Large Scale Ops Deep Dive: OVHCloud"
+    episodeDescription: In this new format of the “Large Scale OpenStack” show, a
+      panel of operators invites a special guest to talk about their deployment
+      and discuss their operations. For this episode, our guest will be Arnaud
+      Morin from OVHCloud, a large OpenStack public cloud currently deployed on
+      36 different regions across the world.
+    episodeSpeakers: Arnaud Morin, Xavier Nicolle, Belmiro Moreira, Mohammed Naser, Gene Kuo
+    youtubeEmbed: https://www.youtube.com/embed/XV-L7b8lSXw
+    youtubeLink: https://www.youtube.com/watch?v=XV-L7b8lSXw&ab_channel=OpenInfrastructureFoundation
+  - episodeDescription: "As we approach the launch of the CFP (call for papers) for
+      the upcoming OpenInfra Summit in Berlin (June 7-9), join members of the
+      2022 Programming Committee as they share their top tips and tricks for
+      writing a winning submission and answer your questions on what they look
+      for in talks. "
+    calendarInvite: /static/invites/myevents-19-.ics
+    hidden: false
+    date: 2022-01-20T15:00:40.227Z
+    episodeSpeakers: "Amy Marrich (Getting Started), Arne Wiebalck (Private and
+      Hybrid Cloud), Arkady Kanevsky (Hardware Enablement), Armstrong Foundjem
+      (AI, Machine Learning & HPC)
+
+      \  "
+    youtubeEmbed: https://www.youtube.com/embed/9s1VPCyuJXI" title="YouTube video player
+    superuserRecap: https://superuser.openstack.org/articles/berlin-openinfra-summit-2022-cfp-101-openinfra-live-recap/
+    episodeTitle: Berlin Summit 2022 CFP 101
+    youtubeLink: https://www.youtube.com/watch?v=9s1VPCyuJXI
+  - hidden: false
+    date: 2022-01-06T15:00:28.256Z
+    youtubeLink: https://www.youtube.com/watch?v=MhAK2efrl9I
+    youtubeEmbed: https://www.youtube.com/embed/MhAK2efrl9I
+    episodeDescription: It's been one year since the formation of the OpenInfra
+      Foundation and the global community has produced more software, more
+      production use cases, more collaboration than ever before. Join us as we
+      look back at 2021, the software milestones, production growth, and
+      momentum across the OpenInfra landscape.
+    episodeTitle: "A Year in Review: OpenInfra Highlights from 2021"
+    calendarInvite: /static/invites/myevents-18-.ics
+    superuserRecap: https://superuser.openstack.org/articles/a-year-in-review-openinfra-highlights-from-2021-openinfra-live-recap/
+  - hidden: false
+    date: 2021-12-16T15:00:08.589Z
+    youtubeLink: https://youtu.be/sU_4ibfgvAo
+    youtubeEmbed: https://www.youtube.com/embed/sU_4ibfgvAo
+    episodeDescription: >
+      Launched by the OpenInfra Foundation in April of this year, OpenInfra Live
+      has assembled the global community weekly to hear the latest trends and
+      updates straight from the community itself. Join us as we go through our
+      OpenInfra Live highlights reel.
+    episodeTitle: "#BestOf OpenInfra Live"
+    calendarInvite: /static/invites/myevents-15-.ics
+  - hidden: false
+    date: 2021-12-09T15:00:54.214Z
+    episodeTitle: "Large Scale OpenStack: Operators’ Tricks and Tools"
+    episodeDescription: This new episode of the “Large Scale OpenStack” show will
+      discuss operators' tricks and tools. In a live and direct discussion, our
+      guests will reveal tricks and homegrown tools that they use in the
+      trenches to keep their OpenStack clusters ticking like clockwork.
+    episodeSpeakers: >-
+      Belmiro Moreira(CERN), Arnaud Morin(OVHCloud), Gene Kuo (LINE), 
+
+      Shatadru Bandyopadhyay (Workday), Axel Jacquet (Infomaniak), Thomas Goirand (Infomaniak)
+    youtubeLink: https://www.youtube.com/watch?v=F_9KKAQE4fc
+    youtubeEmbed: https://www.youtube.com/embed/F_9KKAQE4fc
+    calendarInvite: /static/invites/myevents-14-.ics
+  - hidden: false
+    date: 2021-11-11T15:00:00.893Z
+    episodeDescription: "The 2021 User Survey shows that the footprint of OpenStack
+      clouds grew by 66% over the last year, totaling over 25 million cores in
+      production. This increase has been contributed by organizations of all
+      sizes around the world. During this episode of OpenInfra Live, we are
+      going to talk to operators from Kakao, LINE, Schwarz IT, NeCTAR and
+      T-Systems about what’s causing this OpenStack growth at their
+      organization.  "
+    episodeTitle: "OpenStack Is Alive: Explosive Growth Among Production Deployments"
+    youtubeLink: https://www.youtube.com/watch?v=RhMJO82lDxc
+    youtubeEmbed: https://www.youtube.com/embed/RhMJO82lDxc
+    calendarInvite: /static/invites/myevents-13-.ics
+    episodeSpeakers: |-
+      Paul Coddington (ARDC Nectar)
+      Reedip Banerjee (LINE)
+      Yushiro Furukawa (LINE)
+      Andrew Kong (Kakao)
+      Nils Magnus (T-Systems)
+      Adrian Seiffert (Schwarz)
+      Marvin Titus (Schwarz)
+      Carmel Walsh (ARDC Nectar)
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4476144952440739/
+    episodeDescription: >-
+      The hybrid cloud marketing is expected to reach $145 billion USD by 2026
+      and organizations worldwide are deploying a combination of open source and
+      proprietary tools in production for this use case. Join us on OpenInfra
+      Live as we kick off a series of episodes to talk about the organizations
+      deploying hybrid cloud environments, the technologies they’re working with
+      and the vendors who are supporting the production use cases.
+
+
+      #OpenInfraLive
+    calendarInvite: /static/invites/myevents-12-.ics
+    hidden: false
+    date: 2021-11-04T14:00:02.752Z
+    episodeSpeakers: |-
+      Dr. Abhisak Chulya (CEO, Nipa)
+      Kob Kanokorn (Nipa) 
+      Muhammad Gill (VP of Industry Solutions, Wind River) 
+      Joshua Cornutt (CTO, ORock)
+    youtubeEmbed: https://www.youtube.com/embed/Z9wLCKWe7LE
+    linkedinLink: https://www.linkedin.com/video/event/urn:li:ugcPost:6859941007103029248/
+    episodeTitle: "OpenInfra in Production: Hybrid Cloud"
+    youtubeLink: https://www.youtube.com/watch?v=Z9wLCKWe7LE
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4454849267903641/
+    episodeDescription: "Join us as we discuss how chipmakers, hardware vendors, and
+      data center architects are all working in concert to solve this
+      problem.  "
+    calendarInvite: /static/invites/myevents-11-.ics
+    hidden: false
+    date: 2021-10-28T14:00:28.872Z
+    episodeSpeakers: >
+      Peter Pouliot (Ampere), Laurent Bernou-Mazars (Exaion), Zac Smith
+      (Equinix), and John Miranda (Intel)
+    youtubeEmbed: https://www.youtube.com/embed/4Pf1B3vW30E
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6857452910423494657
+    episodeTitle: Tackling Sustainability with Eco-friendly, Green Hardware
+    youtubeLink: https://www.youtube.com/watch?v=4Pf1B3vW30E
+  - facebookLink: https://www.facebook.com/104139126308032/posts/4407685335953368/
+    episodeDescription: "Networking is complex, and Neutron is one of the most
+      difficult parts of OpenStack to scale. In this episode of the Large Scale
+      OpenStack show, we will explore early architectural choices you can make,
+      recommended drivers, features to avoid if your ultimate goal is to scale
+      to a very large deployment. Join OpenStack developers and operators as
+      they share their Neutron scaling best practices. "
+    calendarInvite: /static/invites/myevents.ics
+    hidden: false
     date: 2021-10-14T14:00:05.859Z
-    episodeTitle: "Large Scale OpenStack: OpenStack Architecture in Large Scale Deployments"
+    episodeSpeakers: |+
+      Thierry Carrez (OpenInfra Foundation)
+      David Comay (Bloomberg; Operator)
+      Ibrahim Derraz (Exaion; Operator)
+      Slawek Kaplonski (Red Hat; ex-Neutron PTL)
+      Lajos Katona (Ericsson; Neutron PTL)
+      Mohammed Naser (CEO at VEXXHOST)
+      Michal Nasiadka (StackHPC; Kolla-Ansible PTL)
+
+    youtubeEmbed: https://www.youtube.com/embed/4ZLqILbLIpQ
+    linkedinLink: https://www.linkedin.com/video/event/urn:li:ugcPost:6851936962715222016/
+    episodeTitle: "Large Scale OpenStack: Neutron scaling best practices"
+    youtubeLink: https://www.youtube.com/watch?v=4ZLqILbLIpQ
   - facebookLink: https://www.facebook.com/104139126308032/posts/4364096940312208/
     episodeDescription: Ceph is a highly scalable distributed-storage open source
       solution offering object, block, and file storage. Join us as various
@@ -43,20 +201,21 @@ episodes:
     youtubeLink: https://www.youtube.com/watch?v=aqilhEmkEBw
     youtubeEmbed: https://www.youtube.com/embed/aqilhEmkEBw
     calendarInvite: /static/invites/myevents-9-.ics
-  - hidden: false
-    date: 2021-09-23T14:00:42.961Z
-    episodeDescription: "Join the volunteer organizers of OpenInfra Days to hear
+  - episodeDescription: "Join the volunteer organizers of OpenInfra Days to hear
       about the happenings at their latest local events, what they're looking
       forward to in the future, and learn what's happening with OpenInfra all
       over the world.  "
-    episodeTitle: OpenInfra Days 2021 Recap
-    youtubeLink: https://www.youtube.com/watch?v=-s1eJa6u_2A
-    youtubeEmbed: https://www.youtube.com/embed/-s1eJa6u_2A
     calendarInvite: /static/invites/myevents-8-.ics
+    hidden: false
+    date: 2021-09-23T14:00:42.961Z
     episodeSpeakers: >
       Mark Collier (OpenInfra Foundation), Akihiro Hasegawa (Cloud Operator Days
       Tokyo Organizer), Rico Lin (OpenInfra Days Asia Organizer), Sartika
       Lestari (OpenInfra Days Indonesia Organizer)
+    youtubeEmbed: https://www.youtube.com/embed/-s1eJa6u_2A
+    superuserRecap: https://superuser.openstack.org/articles/openinfra-days-2021-openinfra-live-recap/
+    episodeTitle: OpenInfra Days 2021 Recap
+    youtubeLink: https://www.youtube.com/watch?v=-s1eJa6u_2A
   - facebookLink: https://www.facebook.com/104139126308032/posts/4319519031436666/
     episodeDescription: "Since the Paris Summit in 2014, the OpenInfra Foundation
       has hosted our annual Superuser Awards to recognize organizations that
@@ -74,6 +233,7 @@ episodes:
       Xiaoguang, Zhang and Zhiqiang Yu (China Mobile)
     youtubeEmbed: https://www.youtube.com/embed/nUwgBdx0lSw
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6841804188478009344/
+    superuserRecap: https://superuser.openstack.org/articles/superusers-where-are-they-now-openinfra-live-recap/
     episodeTitle: "Superusers: Where are they Now"
     youtubeLink: https://www.youtube.com/watch?v=nUwgBdx0lSw
   - facebookLink: https://www.facebook.com/104139126308032/posts/4298495370205699/

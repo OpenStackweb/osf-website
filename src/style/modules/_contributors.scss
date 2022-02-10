@@ -1,0 +1,50 @@
+table.corpTable {
+    border: 1px solid #e0e0df;
+    font-size: 17px;
+    vertical-align: middle;
+    @media (max-width: 767px) {
+        font-size: 14px;
+      }
+    tr {
+        :first-child {
+            width: 65%;
+            @media (max-width: 767px) {
+                width: 50%;
+              }
+          }
+        th {
+            background-color: #f3f3f3;
+            border: 1px solid #e0e0df !important;
+            @media (max-width: 767px) {
+                padding-top: 10px;
+                width: 50%;
+            }
+            i:hover {
+                opacity: 1 !important;
+                cursor: pointer;
+            }
+            .fa.sort-icon {
+                opacity: 0.4;
+                float: right;
+            }
+            .sort-icon {
+                opacity: 0.4;
+                border: none;
+                text-align: center;
+                width: unset;
+                font-style: normal;
+                float: right;
+                font-size: 16px;
+                max-height: 20px;
+                @media (max-width: 767px) {
+                    font-size: 14px;
+                    padding-top: 1.5px;
+                }
+            }
+        }
+        td {
+            border-left: 1px solid #e0e0df !important;
+        }
+    }
+}
+

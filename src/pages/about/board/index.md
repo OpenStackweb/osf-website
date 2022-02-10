@@ -12,6 +12,25 @@ header:
     OpenInfra Foundation resources and staff.
   title: BOARD OF DIRECTORS
 members:
+  - company: Red Hat
+    description: >-
+      I started my working career in technology close to twenty years ago. It
+      has surely not  been an average career, but a career where I've
+      continually learned and evolved to fulfill the need. In  a sense, it all
+      started with Linux and answering some questions about installing Linux.
+      This started a  journey into computer networking and eventually shifted to
+      a systems engineering focus with a stop-over  in data center
+      operations.</p> 
+
+      <p>The DevOps movement lead me more into software development and the operationalization of software due  to the need to automate large scale systems deployments. This required bringing an operational perspective  while bridging to the requirements, and often required digging deep into the underlying code to solve the  problem of the day.</p> 
+
+      <p>In a sense, I found a home in OpenStack in 2014 and the Ironic project in 2015 because of many years  spent working with physical hardware in data centers.</p> <p>I presently work for Red Hat as a Principal Software Engineer, where my upstream focus has been Ironic  for the past few years, and my downstream focus has been on helping lead adoption and use of Ironic.
+    linkedin: https://www.linkedin.com/in/juliaashleykreger
+    name: Julia Kreger
+    openStack: https://www.openstack.org/community/members/profile/19088
+    picture: /img/board/MG-5121-1.jpg
+    title: Chair | Individual Director
+    twitter: https://twitter.com/ashinclouds
   - company: "Open Usage Commons, Software Freedom Conservancy, Eigenstate Ltd,
       Ericsson Software Technology, The Perl Foundation, Onyx Neon, Inc. "
     description: Allison is a software developer and open source strategist. She is
@@ -32,7 +51,7 @@ members:
     name: Allison Randal
     openStack: https://www.openstack.org/community/members/profile/2813
     picture: /img/board/allisonrandall.png
-    title: Chair
+    title: Vice Chair | Individual Director
     twitter: https://twitter.com/allisonrandal
   - company: Red Hat
     description: Amy Marrich is a Principal Technical Marketing Manager at Red Hat.
@@ -51,42 +70,24 @@ members:
     picture: /img/board/amymarrich.jpg
     title: Individual Director
     twitter: https://twitter.com/spotzz_
-  - name: ChangBo Guo
-    picture: /img/gcb.jpg
-    title: Gold Director
-    company: EasyStack
-    description: >
-      ChangBo Guo serves as Individual Director of OpenInfra Foundation in 2017-
-      2019 and Oslo PTL for Pike and Queens. He worked on Linux and AIX for
-      several years. He is one of the earliest OpenStack contributors in China.
-      He has been working on the OpenStack since 2012, when he worked on the
-      PowerVM driver under Nova to support IBM Power Systems. He is Oslo core
-      reviewer and have been contributing several projects like Nova, Neutron,
-      Ironic, Oslo, etc. He is one of top contributors in China, has submitted
-      1000+ commits, with more than 45000 LOCs.  As founding engineer of
-      EasyStack, he attended the earliest of large-scale OpenStack adoptions in
-      China, such as Lenovo, Postal Savings Bank of China, China Telecom, State
-      Grid, etc. He was involved in the whole adoption, including platform
-      design,  implementation and solving key issues for these customers.
-
-
-      He is also an active OpenStack evangelists in China. He is organizer of China OpenStack user group, and promote OpenStack technologies in several meet-ups in China including Beijing, Xi'an, Chengdu, Shenzhen, etc. He is honored to be the host of Beijing OpenStack meet-up from November 2016 and on. He is also keen to help others learn how to contribute in upstream and delivered presentation about upstream contribution for several companies. He leads a upstream team to make OpenStack better and more popular. He attended several design summits and delivered presentations. He served as track chair of upstream development in Barcelona, Boston and Sydney design summit.
-    linkedin: https://www.linkedin.com/in/changbo-guo-90123285
-    openStack: https://www.openstack.org/community/members/profile/14945/changbo-guo
-  - company: Ericsson AB, Ericsson Software Technology
+  - name: Belmiro Moreira
+    company: CERN
     description: >-
-      I am focused on, and passionate about, open source technologies for next
-      generation networks.  Primarily a developer my career has been focused on
-      building and deploying networking technologies  for global and carrier
-      networks, more recently my attention has turned to open source
-      community  and technology advancement.</p>
+      <p>Belmiro Moreira is an enthusiastic mathematician and computer engineer
+      passionate about the challenges and complexities of architecting and
+      deploying large scale open Cloud Infrastructures.</p>
 
-      <p>A strong believer in collaborative development and open technology ecosystem enablement I am  fully invested in exposing technology through open source for global adoption and advancement.
-    name: Christopher Price
-    openStack: https://www.openstack.org/community/members/profile/18901
-    picture: /img/board/christopherprice.jpg
-    title: Platinum Director
-    twitter: https://twitter.com/ChrisPriceAB
+      <p>Belmiro works at CERN and during the last 10 years he has been responsible for the design, deployment and maintenance of the CERN Cloud Infrastructure based on Openstack. Previously he worked in different virtualization projects to improve the efficiency of the large Batch farm at CERN.</p>
+
+      <p>Belmiro is from the beginning an active member of the OpenStack community.  Currently, he is a member of the OpenStack TC (Technical Committee) and the co-chair of the OpenStack Large Scale SIG.Previously, he was also a member of the OpenStack UC (User Committee).</p>
+
+      <p>Belmiro is particularly interested in the challenges that cloud operators face when maintaining large scale open infrastructures. He talks regularly about his experience in several conferences and events, (OpenStack Summits, OpenStack User Groups, OpenInfra Live, CentOS Dojo, ...) and helps in the organization of many other events.</p>
+
+      <p>Belmiro is committed to continue to support the OpenInfra community.</p>
+    openStack: https://openinfra.dev/a/community/members/9745
+    picture: /img/board/belmiromoreira.jpg
+    title: Individual Director
+    linkedin: https://www.linkedin.com/in/belmiromoreira/
   - company: Deutsche Telekom T-Systems
     description: >-
       Clemens is born in Germany and married with three kids, I have a PhD in
@@ -103,6 +104,27 @@ members:
     openStack: https://www.openstack.org/community/members/profile/53350
     picture: /img/board/clemenshardewig.jpeg
     title: Gold Director
+  - name: Edward Lee
+    description: I am Edward Lee, I have nearly 15 years of R&D Product and open
+      source experience in multiple fields, such as cloud, storage, big data and
+      so on. Currently I am the head of open source team in EasyStack inc, my
+      major job is leading team members work in community including OpenInfra,
+      CNCF, Linux as well as product development. I am going to setup the OSPO
+      following the todogroup’s guides and willing to make much more efforts on
+      communities. Prior to that, I have two work experiences, the one is as the
+      leader of development team for more than five years in Huawei. I was in
+      charge of open source strategy making and leading a team with full-time
+      engineers working in several projects e.g. Cinder, Manila, Swift,
+      Kubernetes and so on, we made much effort on contribution and got some
+      core members/maintainers. And also I was the founder and infrastructure
+      architect of several new open source projects related Huawei, such as
+      openEuler, openGauss. The another one is as developer with several years
+      of experience in storage system, big data product development and design.
+    company: EasyStack
+    title: Gold Director
+    picture: /img/edward-lee.jpg
+    openStack: https://www.openstack.org/community/members/profile/124668/edward-lee
+    twitter: https://www.twitter.com/EdwardL0086
   - name: Eoghan Glynn
     title: Platinum Director
     company: Red Hat
@@ -116,22 +138,6 @@ members:
       monitoring while at Amazon. Eoghan is based in Dublin, Ireland though he's
       also part of a highly globalized team at Red Hat. "
     openStack: https://www.openstack.org/community/members/profile/1341/eoghan-glynn
-  - description: "Ms. Erin Bournival is a Distinguished Engineer at Dell
-      Technologies. She joined Dell EMC in 2003 and leads standardization of IoT
-      and Healthcare. Erin leads several international standardization efforts
-      within ISO, IEC, INCITS, and ANSI. She is the Chair of the Working Group
-      on IoT Architecture, Frameworks, and Vocabulary within ISO/IEC JTC1 SC41
-      “Internet of Things and Digital Twin”, as well as the Vice-Chair and
-      Secretary of the INCITS IoT TAG (Technical Advisory Group).  She chairs
-      groups within the Industrial Internet Consortium and Digital Twin
-      Consortium; and represents Dell Technologies in several other national and
-      international standardization efforts in the domains of IoT, Digital
-      Twins, and System Architecture. "
-    openStack: https://www.openstack.org/community/members/profile/133884/erin-bournival
-    title: Gold Director
-    company: Dell Technologies
-    name: Erin Bournival
-    picture: /img/erin_b.png
   - name: Gang Chen
     title: Platinum Director
     company: Fiberhome
@@ -146,6 +152,28 @@ members:
       Prior to joining FiberHome, Chen taught at Huazhong University of Science and Technology and served as a senior consultant and chief IT architect of China HP.
     openStack: https://www.openstack.org/community/members/profile/131481
     picture: /img/gangchen-lg.jpg
+  - name: Ghanshyam Mann
+    description: >-
+      <p>Ghanshyam is currently serving as a Chair of the OpenStack Technical
+      Committee and Core developer in various OpenStack projects (Nova, QA and a
+      few more) and served as PTL of the OpenStack QA. project. He started
+      working in OpenStack with NEC in 2012 as a cloud support engineer, and
+      since 2014 he has been involved in upstream development. His main upstream
+      focus is on Nova, QA, API stability, and CI/CD. In addition, he is
+      passionate about bringing more contributors to the Open Infra family and
+      helping them in onboarding in the community via different programs like
+      First Contact SIG, Upstream Institute Trainings, mentorship. Before
+      OpenStack Upstream, he worked in different domains like Avionics, Storage,
+      Cloud, and Virtualization. Ghanshyam started his career in technology as a
+      software developer in the Avionic domain with the C++ language.</p>
+
+      <p>He has also been a frequent speaker in various Open Source events such as OpenStack, Open Infra, Open source summit, Open Infra Days and LinuxCon on various topics like RESTful API, QA, Cloud Backup, Open Source Community Building, Open Source Governance. In addition, he has been actively involved in various PoC and solutions designs around Cloud OSS and currently serving as Cloud Consultant in NEC.</p>
+    openStack: https://openinfra.dev/a/community/members/6461
+    picture: /img/board/ghanshyammann.jpeg
+    title: Individual Director
+    twitter: https://twitter.com/GmannInCloud
+    linkedin: https://www.linkedin.com/in/gmann1/
+    company: NEC
   - name: Grace Lian
     title: Gold Director
     picture: /img/grace-lian-02-web-3.jpg
@@ -197,25 +225,23 @@ members:
     picture: /img/board/johan.png
     title: Gold Director
     twitter: https://twitter.com/@citynetworkjc
-  - company: Red Hat
-    description: >-
-      I started my working career in technology close to twenty years ago. It
-      has surely not  been an average career, but a career where I've
-      continually learned and evolved to fulfill the need. In  a sense, it all
-      started with Linux and answering some questions about installing Linux.
-      This started a  journey into computer networking and eventually shifted to
-      a systems engineering focus with a stop-over  in data center
-      operations.</p> 
-
-      <p>The DevOps movement lead me more into software development and the operationalization of software due  to the need to automate large scale systems deployments. This required bringing an operational perspective  while bridging to the requirements, and often required digging deep into the underlying code to solve the  problem of the day.</p> 
-
-      <p>In a sense, I found a home in OpenStack in 2014 and the Ironic project in 2015 because of many years  spent working with physical hardware in data centers.</p> <p>I presently work for Red Hat as a Principal Software Engineer, where my upstream focus has been Ironic  for the past few years, and my downstream focus has been on helping lead adoption and use of Ironic. 
-    linkedin: https://www.linkedin.com/in/juliaashleykreger
-    name: Julia Kreger
-    openStack: https://www.openstack.org/community/members/profile/19088
-    picture: /img/board/MG-5121-1.jpg
+  - name: Kurt Garloff
+    description: Being a long time member of various open source communities (Linux
+      kernel, openSUSE and others), I have a personal interest in seeing
+      OpenStack becoming a leading cloud infrastructure. In my professional
+      life, I ran an engineering organizations that are in charge of developing,
+      building and running cloud infrastructure. (See the keynote at the Folsom
+      Design Summit at http://vimeo.com/41449373 and
+      http://de.slideshare.net/laurabeckcahoon/deutsche-telekom-12607469 for
+      some details.) I built the OpenStack platform behind DT's Business
+      Marketplace, worked with Huawei to build and run an OpenStack engineering
+      team in Europe, built Open Telekom Cloud, ran the Cloud &amp; Storage
+      Engineering departments at SUSE.
+    picture: /img/kurtgarloff.jpg
+    company: Sovereign Cloud Stack OSB Alliance
     title: Individual Director
-    twitter: https://twitter.com/ashinclouds
+    openStack: https://www.openstack.org/community/members/profile/6804/kurt-garloff
+    linkedin: https://www.linkedin.com/in/kurt-garloff/
   - company: 99Cloud
     description: I am Kai and am the CSO/Co-founder from 99CLOUD. I had been
       devoting myself for OpenStack for  more than 7 years from 2012. 99CLOUD is
@@ -242,24 +268,6 @@ members:
 
       <p>While at Facebook, Michael has established and/or now actively serving on the boards of 20+ open source foundations, non-profits, standards setting organizations, including: ML Commons, Confidential Computing Consortium, Libra/Diem Association, Urban Computing Foundation, OpenChain, Open Invention Network Technical Advisory Committee, Magma Foundation, and others.</p>
     linkedin: https://www.linkedin.com/in/priorart/
-  - company: VEXXHOST, Inc.
-    description: >-
-      Over the past 10 years, I’m happy to have watched the hosting industry
-      transform  and be part of the transformation process as it evolved from
-      traditional physical hardware to  cloud-native infrastructure, powered by
-      OpenStack.  Since the creation of VEXXHOST, I have had  the chance to work
-      with different sorts of customers, ranging from growing small businesses
-      to  helping architect solutions for large Fortune 500 companies, based on
-      OpenStack.  I've helped  integrate other open infrastructure projects into
-      our commercial offering.</p> 
-
-      <p>By fostering OpenStack at it’s early days in 2011, it has helped improve the project and our  service as a whole. I’ve been a contributor to the project since and I have contributed code  to almost every release of OpenStack since then.  I've also served as PTL for Puppet OpenStack,  continue to serve as a PTL for OpenStack-Ansible and serve on the technical commitee,  chairing tthe commitee for a term.
-    linkedin: https://linkedin.com/in/mdnaser
-    name: Mohammed Naser
-    openStack: https://www.openstack.org/community/members/profile/8899
-    picture: /img/board/mnaser.jpg
-    title: Individual Director
-    twitter: https://twitter.com/_mnaser
   - company: Wind River
     description: "A technology executive with extensive experience in leading
       complex high technology solutions development, product management,
@@ -274,6 +282,46 @@ members:
     openStack: https://www.openstack.org/community/members/profile/128770
     picture: /img/paulmiller.jpg
     title: Platinum Director
+  - name: Pengju Jiao
+    title: Gold Director
+    company: China Mobile
+    description: >-
+      Pengju Jiao comes from China Mobile SuZhou R&D Center and he has been
+      working here for 7 years. He currently serves as the leader of the
+      Computing Product Group of the IaaS product department, taking
+      responsibility for the R&D of the OpenStack team. ECloud has become the
+      fastest-growing public cloud in China with the highest revenue growth rate
+      in the past two years. As a member of the China Mobile Public Cloud
+      architecture team, he participated in multi-phase projects of the ECloud
+      and could be considered as the main contributor for guiding ECloud to join
+      the Million Core Club. Pengju Jiao has considerable rich work experience
+      in the development and operation of hyperscale public clouds. In these
+      years, he led the OpenStack R&D team to achieve multiple great
+      achievements, implementing the scheduling and concurrency optimization for
+      hyperscale clusters carrying more than 100,000 servers. With this
+      optimization, the delivery of 5 thousand cloud hosts could be completed in
+      several minutes. 
+
+
+      Pengju Jiao is also very active to join community events. He once deeply joins many core community projects and make contributions as the Core and PTL for the Karbor. In addition, he is a frequenter in OpenStack Summit, China Day and Meet-up activities. His team has published dozens of speeches in OpenStack-related community activities based on his lead, sharing China Mobile’s practical and innovation experience in OpenStack.
+    openStack: https://www.openstack.org/community/members/profile/78062/pengju-jiao
+    picture: /img/jiao-peng-ju-.jpg
+  - name: Phil Robb
+    company: Ericsson AB, Ericsson Software Technology
+    description: With over 30 years in Software Engineering and 20 years in open
+      source communities, my passion is bringing developers and companies
+      together to leverage the significant strengths of open collaborative
+      development while avoiding the pitfalls. These communities are often
+      driven by competing forces of technical excellence, customer desire, and
+      individual corporate agendas. When done right they create a rich set of
+      digital assets that can be widely leveraged. When done wrong, it is often
+      a waste of the participant’s time, effort, and resources. Mastering how to
+      best navigate this new form of software development has been an
+      overarching theme of my career.
+    openStack: https://openinfra.dev/a/community/members/114583
+    picture: /img/board/philrobb.jpeg
+    title: Platinum Director
+    twitter: null
   - name: Rico Lin
     picture: /img/ricolin.jpg
     company: EasyStack
@@ -329,18 +377,6 @@ members:
     picture: /img/ryan-van-wyk.jpg
     title: Platinum Director
     twitter: https://twitter.com/@ryanvanwyk
-  - company: "Dell EMC "
-    description: >-
-      Sean is a Distinguished Engineer in the Dell Technologies Office of the
-      CTO, focusing on programs to support open source usage and involvement
-      across the company.
-
-
-      Sean is currently a community representative on the OpenInfra Foundation Board of Directors. He has served on the OpenStack Technical Committee (TC), was the Project Team Lead (PTL) for the Cinder block storage project and the Release Management team, and is currently a core reviewer in a number of OpenStack projects.
-    name: Sean McGinnis
-    openStack: https://www.openstack.org/community/members/profile/4843
-    picture: /img/sean-mcginnis3-square.jpg
-    title: Individual Director
   - name: Shane Wang
     title: "Individual Director "
     company: Intel
@@ -376,24 +412,6 @@ members:
     picture: /img/shannonmcfarland.jpg
     title: Gold Director
     twitter: https://twitter.com/@eyepv6
-  - company: CERN
-    description: >-
-      Tim is responsible for the group at CERN, the European Laboratory for
-      Particle Physics,  which manages the compute infrastructure for 13,000
-      physicists around the world to support  fundamental research. He
-      previously worked as a Unix kernel developer at IBM along with  managing
-      large scale Unix production deployments and services for Deutsche Bank in
-      Europe.</p>
-
-      <p>His team is running the CERN OpenStack cloud which has been in production since July 2013  and is currently around 320,000 cores. This cloud provides processing power to analyse the  data from the Large Hadron Collider and other experiments which produce around 60PB a year.  The practical experiences are shared on the blog at <a href="http://techblog.web.cern.ch"> http://techblog.web.cern.ch</a>.</p> 
-
-      <p>Tim has been an elected individual director of the OpenStack management board since 2012  and was a member of the OpenStack user committee from 2013-2015.
-    linkedin: https://www.linkedin.com/in/timbell143
-    name: Tim Bell
-    openStack: https://www.openstack.org/community/members/profile/88
-    picture: /img/board/timbell.jpg
-    title: Individual Director
-    twitter: https://twitter.com/noggin143
   - company: Canonical
     description: As a Product Manager at Canonical, Tytus drives the evolution of
       Canonical’s products and services in the data centre space. Tytus received
@@ -407,6 +425,36 @@ members:
     picture: /img/tytuskurek.jpg
     title: Gold Director
     twitter: ""
+  - name: Vipin Rathi
+    description: Vipin Rathi is an Assistant Professor at the University of Delhi.
+      He is Chairperson of Linux Foundation Hyperledger Telecom SIG. He has
+      board level experience as VP at Emerging Open Tech Foundation. He is the
+      organizer of Openstack India, Magma India, CNCF Delhi, Open Edge
+      Computing, Open Source Networking, Hyperledger Meetups. His research
+      interest focus on 5G, Multi-Domain Orchestration. He is guiding a Research
+      team to develop a Kubernetes-based Cloud-Native OpenStack named as
+      KupenStack. He is an active member of Anuket, Magma Core. He attended and
+      delivered presentations at various Open Source summits.
+    openStack: https://openinfra.dev/a/community/members/27619
+    picture: /img/board/vipinrathi.png
+    title: Vice Chair | Individual Director
+    twitter: https://twitter.com/vipratos
+    company: University of Delhi
+  - company: China Unicom
+    name: Xin Zhong
+    description: Xin Zhong got his Master Degree from Tsinghua University in 2003.
+      He has nearly 20 years of open source related experience. He is an expert
+      in Linux OS, distributed storage and cloud computing. He has been involved
+      in development and operation of several large-scale internet and
+      enterprise cloud platform as technical director or chief architect.
+      Currently, he is the Senior Architect of China Unicom Cloud (new brand of
+      Wo Cloud). He represents China Unicom in all the foundation events. He and
+      his team are very active in open source projects like openstack, ceph,
+      etc. He has been Board Director in 2020.
+    picture: /img/xinzhongli.jpg
+    title: Gold Director
+    openStack: https://www.openstack.org/community/members/profile/119260/xin-zhong
+    linkedin: https://www.linkedin.com/in/xin-zhong-5a73b82/
   - company: "Ant Financial, Kata Containers "
     description: >-
       Xu Wang is a senior staff engineer at Ant Financial and an initial member
@@ -434,10 +482,10 @@ members:
       OSS Strategy and MKT, Vice President of Solution MKTG, etc. We have
       accumulated rich experience in R&D, marketing and product management.</p>
 
-      <p>Mr. Ren Xudong（Bill Ren）serves as the General Manager of ICT Infrastructure Open Source Business at Huawei Technologies Co. Ltd, and as the chief liaison officer of Huawei. In this role，he is fully responsible for responsible for the implementation of open source solutions for operators/enterprises in the network automation industry, using open source means to build industrial ecology, expand industrial space, build a healthy and harmonious industrial environment, and support the success of the company's business.
+      <p>Mr. Ren Xudong（Bill Ren）serves as the General Manager of ICT Infrastructure Open Source Business at Huawei Technologies Co. Ltd, and as the chief liaison officer of Huawei. In this role，he is fully responsible for the implementation of open source solutions for operators/enterprises in the network automation industry, using open source means to build industrial ecology, expand industrial space, build a healthy and harmonious industrial environment, and support the success of the company's business.
     name: Xudong Ren
     openStack: https://www.openstack.org/community/members/profile/124742
     picture: /img/billren.jpg
-    title: Platinum Director
+    title: Vice Chair | Platinum Director
     twitter: ""
 ---

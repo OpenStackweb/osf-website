@@ -53,6 +53,22 @@
 @import "./modules/join-individual";
 @import "./modules/members";
 @import "./modules/livekeynotes";
+@import "./modules/summit";
+@import "./modules/ideas-banner";
+@import "./modules/keynotes-promo-banner";
+@import "./modules/contact-form";
+@import "./modules/social-links";
+@import "./modules/user-survey";
+@import "./modules/hybrid-cloud";
+@import "./modules/member-list";
+@import "./modules/member-profile";
+@import "./modules/election";
+@import "./modules/contributors";
+@import "./modules/logo-banner";
+@import "./modules/subnav";
+
+@import "./font-awesome/css/font-awesome.min.css";
+
 /*
 * {
   padding: 0;
@@ -109,5 +125,84 @@ section {
     &::marker {
       content: "";
     }
+  }
+}
+
+.navigator-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  .navigator-bar {
+    background-color: #121212;
+    color: #ffffff;
+    padding: 0 11vw;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navigator-section {
+      cursor: pointer;
+      font-size: 14px;
+      line-height: 30px;
+      font-weight: bold;
+      i {
+        margin-left: 10px;
+      }
+    }
+    .navigator-icons {
+      font-size: 14px;
+      line-height: 30px;
+      i {
+        cursor: pointer;
+        &:first-of-type {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+  .navigator-dropdown {
+    background: #121212;
+    opacity: 0.94;
+    padding: 0 11vw;
+    div {
+      cursor: pointer;
+      padding: 4px 0;
+      font-size: 14px;
+      line-height: 30px;
+      border-bottom: 1px solid #303030;
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.go-top-button {
+  background: #121212;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.3));
+  z-index: 100;
+  cursor: pointer;
+  i {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  &:hover {
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.4));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .go-top-button {
+    bottom: 30px;
+    right: 30px;
   }
 }

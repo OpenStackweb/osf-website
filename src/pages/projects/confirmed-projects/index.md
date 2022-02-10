@@ -11,7 +11,7 @@ seo:
 header:
   subTitle: Projects that call OpenInfra Foundation their home each value open
     collaboration and exemplify the Four  Opens (source, design, development,
-    community). All of our project have a strategic focus,  vision & scope that
+    community). All of our projects have a strategic focus,  vision & scope that
     furthers the OpenInfra Foundation mission of supporting the development and
     adoption  of production infrastructure with open source components.
   title: Projects & Communities at OpenInfra Foundation
@@ -30,7 +30,7 @@ projectList:
     class: projects-s2
     title: AIRSHIP
     subTitle: Making lifecycle management for open infrastructure simple, repeatable
-      & resilent.
+      & resilient.
     links:
       - link: http://lists.airshipit.org/cgi-bin/mailman/listinfo
         text: Mailing Lists
@@ -109,7 +109,7 @@ projectList:
       link: https://starlingx.io/
       text: starlingx.io
     class: projects-s4
-    title: STARLING X
+    title: STARLINGX
     subTitle: Edge cloud computing infrastructure for high performance, ultra-low
       latency applications.
     links:

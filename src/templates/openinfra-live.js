@@ -8,8 +8,9 @@ import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
 import Hero from '../components/Hero'
-import ColorBar from '../img/color-bar.png'
-import leftArrow from '../img/svg/arrow-left.svg'
+
+import IdeasBanner from '../components/IdeasBanner'
+import KeynotesPromoV2 from '../components/KeynotesPromoV2';
 
 import { connect } from "react-redux";
 
@@ -140,29 +141,10 @@ export const OpenInfraLiveTemplate = ({
                 </div>
               </div>
             </section>
-            <div className="ideas-banner keynotes-promo">
-              <div>
-                <h2>
-                  Join us for OpenInfra Live: Keynotes!
-                </h2>
-                <p>
-                  Exclusive Announcements. Live Demos. OpenStack + Kubernetes. Hybrid Cloud Economics.
-                </p>
-                <p className="dates">
-                  November 17 and 18 at 9am CT/1500 UTC
-                  <a className="learn-link" href="/live/keynotes">
-                    Learn More
-                  </a>
-                </p>
-              </div>
-              <div>
-                <a href="https://openinfralivekeynotes.eventbrite.com/">
-                  Register Now <img src={leftArrow} alt="" />
-                </a>
-              </div>
-              <img src={ColorBar} className="multi-color-border" alt="Color Bar" />
-            </div>
           </div>
+          
+          <KeynotesPromoV2 />
+
           <section className="live-section">
             <div className="container">
               {ready ? futureEpisodes.length > 0 &&
@@ -253,23 +235,7 @@ export const OpenInfraLiveTemplate = ({
                 })}
                 {/* End single episode */}
               </div>
-              <div className="ideas-banner">
-                <div>
-                  <h2>
-                    <img src="/img/icons/bulb.svg" alt="Share ideas for OpenInfra Live" />
-                    Have an idea for an episode of OpenInfra Live?
-                  </h2>
-                  <p>
-                    If you have any topics you would like to propose for an upcoming episode, please share your ideas with us! If selected, we’ll reach out to you to discuss details. We look forward to hearing your ideas!
-                  </p>
-                </div>
-                <div>
-                  <a href="//openinfrafoundation.formstack.com/forms/openinfralive">
-                    Share now
-                  </a>
-                </div>
-                <img src={ColorBar} className="multi-color-border" alt="Color Bar" />
-              </div>
+                <IdeasBanner />
             </div>
           </section>
           <section className="live-section">

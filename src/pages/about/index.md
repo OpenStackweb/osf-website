@@ -1,5 +1,5 @@
 ---
-templateKey: generic-page
+templateKey: about-page
 seo:
   description: "The OpenInfra Foundation is an open source foundation supporting a
     global community of 100,000 individuals to build and operate open
@@ -8,8 +8,6 @@ seo:
   title: About
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/about/
-title: About
-subTitle: About the OpenInfra Foundation
 footer:
   button: ""
   buttonText: ""
@@ -17,7 +15,7 @@ footer:
   title: ""
   subTitle: ""
 ---
-When the OpenInfra Foundation formed to govern the OpenStack project in 2012, clouds mainly offered virtual machines in a datacenter. The Foundation evolved as datacenter composition evolved into a mix of bare metal, VMs, and containers. While the OpenStack project is seen as the de facto open source platform for operating cloud infrastructure around the world, the Foundation realized more technology is needed to meet all of the diverse use cases, and we want to make sure it’s developed in the open, using the same proven approach to open source.
+When the OpenStack Foundation formed to govern the OpenStack project in 2012, clouds mainly offered virtual machines in a datacenter. The Foundation evolved as datacenter composition evolved into a mix of bare metal, VMs, and containers. While the OpenStack project is seen as the de facto open source platform for operating cloud infrastructure around the world, the Foundation realized more technology is needed to meet all of the diverse use cases, and we want to make sure it’s developed in the open, using the same proven approach to open source.
 
 For this reason, we expanded our focus as a foundation and are helping to establish new open source communities to advance areas where technology can successfully contribute to the development of open infrastructure: AI/Machine Learning, CI/CD, Container Infrastructure, Edge Computing and of course, Public, Private and Hybrid Clouds.
 
@@ -27,8 +25,9 @@ Staying true to its mission of helping people build and operate open infrastruct
 
 [Individual membership of the Open Infrastructure Foundation](/join/) is free for anyone with an interest in open infrastructure. Individual Members are expected to participate in the community through technical contributions or community building efforts, and vote in an annual election for the Board of Directors.
 
-For more insight into Open Infrastructure Foundation activities and progress, please read the annual reports:
+For more insight into Open Infrastructure Foundation activities and progress, please read the annual reports: 
 
+* [2021 annual report](/annual-report/2021)
 * [2020 annual report](https://www.openstack.org/annual-reports/2020-openstack-foundation-annual-report)
 * [2019 annual report](https://www.openstack.org/annual-reports/2019-openstack-foundation-annual-report)
 * [2018 annual report](https://www.openstack.org/annual-reports/2018-openstack-foundation-annual-report)

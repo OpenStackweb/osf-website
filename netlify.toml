@@ -8,7 +8,7 @@
 [[headers]]
   for = "/*"
 [headers.values]
-  Cache-Control = "public, max-age=360000" 
+  Cache-Control = "public, max-age=0, must-revalidate"
 [[redirects]]
   from = "/cloud-typography/fonts.css"
   to = "https://cloud.typography.com/7369076/7111412/css/fonts.css"
@@ -40,5 +40,39 @@
   from = "/companies/"
   to = "/members/"
   status = 301
-  force = true  
- 
+  force = true
+[[redirects]]
+  from = "/profile"
+  to = "/a/profile"
+  status = 301
+[[redirects]]
+  from = "/election"
+  to = "/election/2022-individual-director-election"
+  status = 301
+[[redirects]]
+  from = "/election/candidates"
+  to = "/election/2022-individual-director-election/candidates"
+  status = 301
+[[redirects]]
+  from = "/election/candidates/gold"
+  to = "/election/2022-individual-director-election/candidates/gold"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/usersurvey"
+  to = "/user-survey"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/ptg/"
+  to = "https://openstack.org/ptg/"
+  status = 302
+  force = true
+# Branch Deploy context: all deploys that are not from a pull/merge request or
+# from the Production branch will inherit these settings.
+[context.branch-deploy.environment]
+  GATSBY_IDP_BASE_URL = "https://testopenstackid.openstack.org"
+  GATSBY_OAUTH2_CLIENT_ID = "h1wVTVm75TJSmVcKtVXtYeqc-NKqMH86.openstack.client"
+  GATSBY_API_BASE_URL = "https://testresource-server.openstack.org"
+  GATSBY_SCOPES = "openid profile email address https://testresource-server.openstack.org/members/write/me https://testresource-server.openstack.org/members/read/me https://testresource-server.openstack.org/organizations/read https://testresource-server.openstack.org/organizations/write elections/candidates/nominate elections/candidates/write/me"
+  GATSBY_SPONSORED_PROJECT_ID = "1"

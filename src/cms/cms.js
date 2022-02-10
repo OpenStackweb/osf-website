@@ -16,9 +16,14 @@ import LiveKeynotesPagePreview from './preview-templates/LiveKeynotesPagePreview
 import JoinPagePreview from './preview-templates/JoinPagePreview'
 import MembersPagePreview from './preview-templates/MembersPagePreview'
 import JoinIndividualPagePreview from './preview-templates/JoinIndividualPagePreview'
+import UserSurveyPagePreview from './preview-templates/UserSurveyPagePreview'
+import SurveyTypePreview from './preview-templates/SurveyTypePreview'
+import HybridCloudPagePreview from './preview-templates/HybridCloudPagePreview'
+import ElectionPagePreview from './preview-templates/ElectionPagePreview'
+import ContributorsPagePreview from './preview-templates/ContributorsPagePreview'
+import AnnualReportPagePreview from './preview-templates/AnnualReportPagePreview'
 
 CMS.registerPreviewStyle('style/styles.scss');
-
 CMS.registerPreviewStyle('style/previews.css');
 
 CMS.registerWidget(IdWidget)
@@ -40,3 +45,9 @@ CMS.registerPreviewTemplate('openinfra-live-keynotes-page', LiveKeynotesPagePrev
 CMS.registerPreviewTemplate('join', JoinPagePreview)
 CMS.registerPreviewTemplate('members', MembersPagePreview)
 CMS.registerPreviewTemplate('join-individual', JoinIndividualPagePreview)
+CMS.registerPreviewTemplate('user-survey', UserSurveyPagePreview)
+CMS.registerPreviewTemplate('survey-types-pages', SurveyTypePreview)
+CMS.registerPreviewTemplate('hybrid-cloud-page', HybridCloudPagePreview)
+CMS.registerPreviewTemplate('electionPage', ElectionPagePreview)
+CMS.registerPreviewTemplate('contributors-pages', ContributorsPagePreview)
+CMS.registerPreviewTemplate('annual-report-pages', AnnualReportPagePreview)

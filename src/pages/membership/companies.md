@@ -21,8 +21,6 @@ companies:
   - companyList:
       - alt: Ant Group
         image: /img/companies/_New/Platinum/Sponsor-Logos_AntGroup.png
-      - alt: AT&T
-        image: /img/companies/_New/Platinum/Sponsor-Logos_AT&T.png
       - alt: Ericsson
         image: /img/companies/_New/Platinum/Sponsor-Logos_Ericsson.png
       - alt: Facebook
@@ -44,9 +42,9 @@ companies:
       empowering and promoting the Open Infrastructure community and open source
       software projects. Each Platinum Member's company strategy aligns with the
       OpenInfra Foundation mission and is responsible for committing full-time
-      resources toward the project. Thank you to the following Platinum Members
-      who are committed to the Open Infrastructure community's success. <a
-      href="/join/members">Learn more about becoming a member.</a>
+      resources toward OpenInfra projects. Thank you to the following Platinum
+      Members who are committed to the Open Infrastructure community's success.
+      <a href="/join/members">Learn more about becoming a member.</a>
     level: platinum
     title: PLATINUM MEMBERS
   - companyList:
@@ -76,6 +74,8 @@ companies:
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Mirantis.png
       - alt: NEC
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_NEC.png
+      - image: /img/companies/_New/Gold/nipa-gold.jpg
+        alt: Nipa Cloud
       - alt: T-Systems
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_T-Systems.png
       - alt: Troila
@@ -87,20 +87,25 @@ companies:
       - alt: ZTE
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
     text: Open Infrastructure Foundation Gold Members provide funding and pledge
-      strategic alignment to the OpenInfra Foundation mission.  There can be up
-      to twenty-four Gold Members at any given time, subject to board approval.
-      If your organization  is highly involved with the Open Infrastructure
-      community and interested in becoming a Gold Member, read more about
-      joining the  Foundation. Thank you to the following Gold Members who are
-      critical to the global community's success.  <a href="/join/members">Learn
-      more about becoming a member.</a>
+      strategic alignment to the OpenInfra Foundation mission. If your
+      organization is highly involved with the Open Infrastructure community and
+      interested in becoming a Gold Member, read more about joining
+      the  Foundation. Thank you to the following Gold Members who are critical
+      to the global community's success.  <a href="/join/members">Learn more
+      about becoming a member.</a>
     title: GOLD MEMBERS
     level: gold
   - companyList:
+      - image: /img/acmegatingsm.png
+        alt: Acme Gating
       - alt: Ampere
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Ampere.png
+      - image: /img/arvancloudsm.png
+        alt: ArvanCloud
       - alt: AW Cloud
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_AWCloud.png
+      - image: /img/b1systems_sm.jpg
+        alt: B1 Systems
       - alt: Bluvalt
         image: /img/companies/_New/Silver/binero-silver.jpg
       - alt: CDAC
@@ -112,7 +117,7 @@ companies:
       - alt: Cloudfire
         image: /img/companies/_New/Silver/cloudfiresilver.jpg
       - alt: Component Soft
-        image: /img/companies/_New/Silver/componentsoft-silver.jpg
+        image: /img/companies/_New/Silver/componentsoft-silver2.jpg
       - image: /img/coredge188.png
         alt: Coredge
       - alt: DevStack
@@ -125,6 +130,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_FreedomFi.png
       - alt: Fujitsu
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Fujitsu.png
+      - image: /img/fungible_sm2.png
+        alt: Fungible
       - alt: G-Research
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_GResearch.png
       - alt: Hitachi
@@ -133,20 +140,22 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_IBM.png
       - alt: Infomaniak
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Infomaniak.jpg
-      - alt: InMotion Hosting
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_inmotionhosting.png
       - alt: iVolve
         image: /img/companies/_New/Silver/sponsor-ivolve.png
-      - alt: Juniper Networks
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_JuniperNetworks.png
       - alt: NetApp
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NetApp.png
+      - image: /img/nhn-cloud_sm.png
+        alt: NHN
       - alt: Nokia
         image: /img/companies/_New/Silver/nokiasilver.jpg
       - alt: NTT
-        image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT.png
+        image: /img/companies/_New/Silver/NTT-silver.jpg
       - alt: NTT TechnoCross
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_NTT-TX.png
+      - image: /img/okestro-sm.png
+        alt: Okestro
+      - image: /img/oneqode_sm.png
+        alt: OneQode
       - alt: ORock
         image: /img/companies/_New/Silver/orock-silver.jpg
       - image: /img/osism-sm.png
@@ -154,7 +163,7 @@ companies:
       - alt: OVH
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_OVH.png
       - alt: Safespring
-        image: /img/companies/_New/Silver/safespring-silver.jpg
+        image: /img/safespring_sm.png
       - alt: Samsung
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Samsung.png
       - alt: Sardina
@@ -165,10 +174,14 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_SocieteGenerale.png
       - alt: StackHPC
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_StackHPC.png
+      - image: /img/silverhorizontal_sm.png
+        alt: TransIP
       - alt: Ultimum Technologies
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_UltimumTechnologies.png
       - alt: Vexxhost
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
+      - image: /img/silverhorizontal_sm-copy.png
+        alt: Virtuozzo
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
     text: Open Infrastructure Foundation Silver Members provide funding and pledge
@@ -190,18 +203,32 @@ companies:
       Associate Member">Interested in having your logo listed as an Associate
       Member? Contact us</a>
     companyList:
+      - image: /img/ardc.png
+        alt: ARDC
       - alt: Boston University
         image: /img/bu.png
+      - image: /img/ceph.png
+        alt: Ceph
       - image: /img/cern.png
         alt: CERN
+      - image: /img/imt.png
+        alt: IMT Atlantique
+      - image: /img/companies/_New/Associate/monash.png
+        alt: Monash
       - image: /img/oregonstate.png
-        alt: ORegon State
+        alt: Oregon State
       - image: /img/osb.png
         alt: OSB
+      - image: /img/osi_sm.png
+        alt: Open Source Initiative (OSI)
       - image: /img/ow2-member.png
         alt: OW2
       - image: /img/soda-foundation-member.png
         alt: SODA Foundation
+      - image: /img/telecomparis.png
+        alt: Telecom Paris
+      - image: /img/umass.png
+        alt: UMass Amherst
   - companyList:
       - alt: Rackspace
         image: /img/companies/rackspace-lg-2016.jpg
@@ -211,8 +238,8 @@ companies:
         image: /img/companies/ovh-lg.jpg
       - alt: iWeb
         image: /img/companies/iweb.png
-      - alt: Limestone Networks
-        image: /img/companies/lsn-sm.png
+      - image: /img/sponsor-logos-silver_inmotionhosting.png
+        alt: Inmotion Hosting
     text: Infrastructure donors are companies running OpenStack clouds, donating
       cloud resources to the OpenStack project infrastructure. Those resources
       are mostly used in our <a href="https://opendev.org">automated  testing
@@ -255,6 +282,8 @@ companies:
         image: /img/companies/apalia-hd.png
       - alt: Apriorit
         image: /img/companies/logo250-100.png
+      - image: /img/aptira-lg-2.jpeg
+        alt: Aptira
       - alt: AQORN
         image: /img/companies/aqorn.jpg
       - alt: Aricent
@@ -281,8 +310,6 @@ companies:
         image: /img/companies/avi-lg.jpg
       - alt: Awnix Inc.
         image: /img/companies/Awnix-logo-hi-res-1.png
-      - alt: B1 Systems
-        image: /img/companies/BSystems.jpg
       - alt: Beijing Tenling Technology Co
         image: /img/companies/tenling-sm.png
       - alt: Beyond Hosting
@@ -433,6 +460,8 @@ companies:
         image: /img/companies/Logo-DEAC-EN-dark-500.jpg
       - alt: Debian
         image: /img/companies/openlogo-nd-100.jpg
+      - alt: Delta.bg
+        image: /img/companies/delta-supporting.jpg
       - alt: DetaCloud
         image: /img/companies/DetaCloudLogoOnly-copy.png
       - alt: DevelopIntelligence
@@ -563,6 +592,8 @@ companies:
         image: /img/companies/Screen-Shot-2014-11-18-at-23.png
       - alt: Innova
         image: /img/companies/InnovaSolutions-Logo-copy.png
+      - image: /img/invox.jpg
+        alt: inovex
       - alt: Innovate IT Ltd.
         image: /img/companies/scalecloud-logo-v4-registered-trademark-with-slogan-495x223.jpg
       - alt: Instituto de Telecomunicações
@@ -685,8 +716,6 @@ companies:
         image: /img/companies/nextiva-logo.jpg
       - alt: NGX Storage
         image: /img/companies/ngx.jpg
-      - alt: NHN Entertainment
-        image: /img/companies/nhn-toast-sm.png
       - alt: Nimag Networks Sàrl
         image: /img/companies/logonimag-copy.png
       - alt: Nimbis
@@ -731,6 +760,8 @@ companies:
         image: /img/companies/OutworXLogoHighRessmall.png
       - alt: OW2
         image: /img/companies/ow2-lg.jpg
+      - alt: ownCloud
+        image: /img/companies/owncloud-lg.png
       - alt: Ozgur Yazilim AS
         image: /img/companies/Ozgur-Yazilim-AS-Logo2.png
       - alt: Palo Alto Networks
@@ -753,6 +784,8 @@ companies:
         image: /img/companies/sdnindo-logo-big.jpg
       - alt: Puppet Labs
         image: /img/companies/puppetlabs.jpg
+      - image: /img/purestorage.png
+        alt: Pure Storage
       - alt: QuorumLabs
         image: /img/companies/quorumlabs.jpg
       - alt: RackN

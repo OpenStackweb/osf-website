@@ -161,8 +161,6 @@ sponsor:
     companyList:
       - alt: Ant Group
         image: /img/companies/_New/Platinum/Sponsor-Logos_AntGroup.png
-      - alt: AT&T
-        image: /img/companies/_New/Platinum/Sponsor-Logos_AT&T.png
       - alt: Ericsson
         image: /img/companies/_New/Platinum/Sponsor-Logos_Ericsson.png
       - alt: Facebook Connectivity

@@ -71,39 +71,23 @@ members:
     picture: /img/about-staff/markcollier.jpg
     title: Chief Operating Officer
     twitter: https://twitter.com/sparkycollier
-  - description: <p>Thierry Carrez is the Vice-President of Engineering at the Open
-      Infrastructure Foundation, in charge of the  long-term health of the open
-      source projects under the Foundation. A long-time elected member of  the
-      OpenStack Technical Committee, he has been a Release Manager for the
-      OpenStack project since  its inception, coordinating the effort and
-      facilitating collaboration between contributors.</p>  <p>Thierry spoke
-      about OpenStack, open innovation and open source project management at
-      various  conferences around the world, including OSCON, LinuxCon, and
-      FOSDEM. A Python Software Foundation  fellow, he was previously the
-      Technical lead for Ubuntu Server at Canonical, an operational manager  for
-      the Gentoo Linux Security Team, and an IT manager in various
-      companies.</p>
+  - description: <p>Thierry Carrez is the General Manager of the Open Infrastructure
+      Foundation. A systems engineer by trade, he was involved in the inception
+      of the OpenStack project, and still contributes to its governance and
+      release management.</p>  <p>With a personal interest in the intersection
+      of sociology and technology, Thierry spoke about open innovation and open
+      source at various conferences around the world, including OSCON, LinuxCon,
+      and FOSDEM. He currently serves as Secretary and Director for the Open
+      Source Initiative. He was recognized as a Python Software Foundation
+      fellow in 2012, and previously worked as the Technical lead for Ubuntu
+      Server at Canonical, an operational manager for the Gentoo Linux Security
+      Team, and an IT manager in various companies.</p>
     linkedin: https://www.linkedin.com/in/thierry-carrez-652662a
     name: Thierry Carrez
     openStack: https://www.openstack.org/community/members/profile/154
     picture: /img/about-staff/thierry.jpeg
-    title: Vice President of Engineering
+    title: General Manager
     twitter: https://twitter.com/tcarrez
-  - description: Claire is the Director of Strategic Partnerships for the Open
-      Infrastructure Foundation. She is primarily  responsible for stewarding
-      relationships with stakeholders at organizations across the global  open
-      source ecosystem to engage investors and bring open infrastructure
-      technologies to new markets.  Claire is also responsible for establishing
-      and onboarding new strategic projects and building  out programs. In past
-      endeavors, she has managed OpenStack Summits, OpenStack Days,
-      hackathons,  technical events, the Foundation's presence at industry
-      events and marketing communications activities.
-    linkedin: https://www.linkedin.com/in/clairemassey
-    name: Claire Massey
-    openStack: https://www.openstack.org/community/members/profile/6997
-    picture: /img/about-staff/ClaireMassey.jpg
-    title: Director of Strategic Partnerships
-    twitter: https://twitter.com/Massey
   - description: Wes Wilson is Director of Marketing for the Open Infrastructure
       Foundation. He has spent the past two decades  in startups including
       founding Brandstack a graphic design marketplace that was acquired in
@@ -119,13 +103,12 @@ members:
     picture: /img/about-staff/Wes-headshot.jpg
     title: Director of Product & Engineering
     twitter: https://twitter.com/iamweswilson
-  - description: Allison manages Marketing Content initiatives including case study
-      development, advertising  campaigns, the Superuser online publication and
-      OpenStack User Survey. Her past roles have  specialized in social strategy
-      and execution for both B2B and B2C global companies in the  technology and
-      consumer industries. In her spare time, she enjoys finding new hiking
-      trails and  sharing her love with Celine Dion with anyone and everyone who
-      will listen.
+  - description: "Allison is the Director of Marketing & Community at the OpenInfra
+      Foundation (previously the OpenStack Foundation). Her mission is to
+      continue the storytelling of the global community by building
+      relationships with the developers, operators and ecosystem around global
+      open source communities. In her free time, she likes to listen to Celine
+      Dion, rank local margaritas, and travel. "
     linkedin: https://www.linkedin.com/in/allisonmarieprice
     name: Allison Price
     openStack: https://www.openstack.org/community/members/profile/17777
@@ -164,7 +147,7 @@ members:
     name: James Cole
     openStack: https://www.openstack.org/community/members/profile/96706
     picture: /img/about-staff/jamescole.jpg
-    title: Design Lead
+    title: Senior Design Technologist
     twitter: https://twitter.com/JamesColeDesign
   - description: Erin Disney works as a Marketing Manager for the Open
       Infrastructure Foundation. Prior to joining, Erin ran  events for W2O
@@ -179,26 +162,12 @@ members:
     picture: /img/about-staff/erin-disney.jpg
     title: Senior Event Marketing Manager
     twitter: https://twitter.com/erindisney
-  - description: Ashlee Ferguson joined the Open Infrastructure Foundation as a
-      Marketing Associate after interning with the  Marketing Team for a year.
-      She graduated from the University of Texas at Austin with a
-      Bachelor's  degree in Corporate Communication and a Business Minor. Prior
-      to joining the OpenStack Foundation,  she worked in event coordination for
-      SXSW Interactive. Outside of work, Ashlee enjoys Austin’s  live music
-      scene, coffee shops, and breakfast taco joints.
-    linkedin: https://www.linkedin.com/in/ashleeferguson/
-    name: Ashlee Ferguson
-    openStack: https://www.openstack.org/community/members/profile/64085
-    picture: /img/about-staff/AFheadshot.png
-    title: Community and Event Coordinator
-  - description: In addition to managing the Open Infrastructure Foundation web
-      properties and Summit mobile application  development, Jimmy works
-      extensively with the Zuul community.  Alongside the community, he is
-      actively working on ways to close the feedback loop between
-      OpenStack  operators and developers including his work on the annual User
-      Survey, Ops Meetups, and day-to-day  community management. Outside of
-      wearing many hats at the Open Infrastructure Foundation, he enjoys
-      cooking,  traveling, and having the best award winning chili in Texas.
+  - description: "Jimmy leads the collaboration with OpenInfra Members, including
+      strategy development, goal alignment and new member recruitment. Outside
+      of advocating for current open source trends and distributing his calendar
+      link (which you can find here: https://calendly.com/jimmy-mcarthur), he
+      enjoys cooking,  traveling, and having the best award winning chili in
+      Texas."
     linkedin: https://www.linkedin.com/in/jimmymcarthur/
     name: Jimmy McArthur
     openStack: https://www.openstack.org/community/members/profile/1395

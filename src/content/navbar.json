@@ -46,6 +46,18 @@
         {
           "text": "Host Your Project",
           "url": "/projects/hosting/"
+        },
+        {
+          "text": "Hybrid Cloud",
+          "url": "/hybrid-cloud/"
+        },
+        {
+          "text": "User Survey",
+          "url": "/user-survey/"
+        },
+        {
+          "text": "CLA",
+          "url": "/cla/"
         }
       ]
     },
@@ -62,6 +74,10 @@
         {
           "text": "Join OpenInfra Foundation ",
           "url": "/join/"
+        },
+        {
+          "text": "Community Members",
+          "url": "/a/community/members"
         }
       ]
     },
@@ -80,8 +96,8 @@
           "url": "/live/keynotes"
         },
         {
-          "text": "OpenInfra Summit ",
-          "url": "https://www.openstack.org/summit/"
+          "text": "OpenInfra Summit",
+          "url": "/summit/"
         },
         {
           "text": "OpenInfra Days ",
@@ -139,6 +155,10 @@
         {
           "text": "Press & Media",
           "url": "/press/"
+        },
+        {
+          "text": "Newsletter",
+          "url": "https://signup.e2ma.net/signup/1958430/1771360/"
         }
       ]
     },

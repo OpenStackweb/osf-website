@@ -44,16 +44,63 @@ exports.createSchemaCustomization = ({ actions }) => {
       category: [Category]
       author: String
       date: Date @dateformat
+      featuredProjects: MarkdownRemarkFrontmatterFeaturedProjects
+      hero: MarkdownRemarkFrontmatterHero
+      sponsorshipSection: MarkdownRemarkFrontmatterSponsorshipSection
+      whatToExpect: MarkdownRemarkFrontmatterWhatToExpect
     }
     type Category {
       label: String
     }
-    type CompanyList {
-      alt: String
-      image: String
-      profileLink: String
+    type SpeakerType {
+       name: String
+       company: String
+       presentationTitle: String
+       presentationLink: String
+       pic: File @fileByRelativePath
     }
-  `
+    type MarkdownRemarkFrontmatterFeaturedSpeakers {
+       title: String!
+       speakers: [SpeakerType!]!
+    }
+    type MarkdownRemarkFrontmatterHero {
+        subtitle: String
+        title: String
+        tagline: String
+        description: String
+        buttonText: String
+        buttonURL: String
+    }
+    type MarkdownRemarkFrontmatterWhatToExpect{
+        title: String
+        text: String
+        bullets: String
+    }
+    type MarkdownRemarkFrontmatterFeaturedProjects{
+        title: String
+        text: String
+    }
+    type SponsorshipSectionLeftColumn{
+        title: String
+        body: String
+        footer: String
+    }
+    type SponsorshipSectionRightColumn{
+        title: String
+        body: String
+        footer: String
+    }
+    type MarkdownRemarkFrontmatterSponsorshipSection{
+       title: String
+       text: String
+       leftColumn: SponsorshipSectionLeftColumn
+       rightColumn: SponsorshipSectionRightColumn
+    }
+    type MarkdownRemarkFrontmatterCompanyDetailsCompanies{
+      col1: String
+      col2: Date @dateformat
+    }
+    `
   createTypes(typeDefs)
 }
 
@@ -94,20 +141,22 @@ exports.createPages = ({ actions, graphql }) => {
     const pages = result.data.allMarkdownRemark.edges
 
     pages.forEach(edge => {
-      const id = edge.node.id
-      const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;
-      let slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug      
-      createPage({
-        path: slug,
-        category: edge.node.frontmatter.category,
-        component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-        ),
-        // additional data can be passed via context
-        context: {
-          id,
-        },
-      })
+      if (edge.node.frontmatter.templateKey) {
+        const id = edge.node.id
+        const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;
+        const slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug;
+        createPage({
+          path: slug,
+          category: edge.node.frontmatter.category,
+          component: path.resolve(
+            `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          ),
+          // additional data can be passed via context
+          context: {
+            id,
+          },
+        })
+      }
     })
 
     // category pages:  

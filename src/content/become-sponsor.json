@@ -1,6 +1,6 @@
 {
   "title": "BECOME A MEMBER",
   "subTitle": "The resources provided by the OpenInfra Foundation Members and Sponsors are critical to making the Open Infrastructure community successful, and there are many ways to support this mission, whether you're contributing code, building an OpenStack product or helping build the community.",
-  "email": "mailto:ecosystem@openstack.org",
-  "emailText": "Contact us"
+  "link": "/join/members",
+  "linkText": "Join us"
 }

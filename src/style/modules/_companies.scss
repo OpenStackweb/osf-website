@@ -57,18 +57,40 @@
       margin: 20px 10px;
     }
     // Adjusting logo imgs based on membership level
+    div[class^="company-level"] {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+    }
     .company-level-platinum {
+      img {
+        width: 180px;
+      }
     }
     .company-level-gold {
+      img {
+        width: 140px;
+      }
     }
     .company-level-silver {
       img {
-        max-width: 120px;
+        width: 120px;
+      }
+    }
+    .company-level-associate {
+      img {
+        width: 120px;
+      }
+    }
+    .company-level-infrastructure {
+      img {
+        width: 120px;
       }
     }
     .company-level-supporting {
       img {
-        max-width: 80px;
+        width: 80px;
       }
     }
   }

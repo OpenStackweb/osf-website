@@ -93,6 +93,24 @@ section {
   height: 42px;
 }
 
+.company-profile-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  img {
+    width: 300px;
+  }
+}
+
+.company-profile-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  a {
+    color: $primary;
+  }
+}
+
 .validation_error {
   color: red !important;
   font-size: smaller !important;

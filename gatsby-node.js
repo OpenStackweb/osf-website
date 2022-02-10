@@ -120,6 +120,7 @@ exports.createPages = ({ actions, graphql }) => {
               category {
                 label
               }
+              title
               author
               templateKey
               seo {

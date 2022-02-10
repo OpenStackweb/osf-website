@@ -110,8 +110,8 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: string}
           - {label: "Sub Title", name: "subTitle", widget: text}
-          - {label: "Email Button Text", name: "emailText", widget: string}
-          - {label: "Email", name: "email", widget: string}
+          - {label: "Button Text", name: "linkText", widget: string}
+          - {label: "Link", name: "link", widget: string}
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
@@ -341,6 +341,29 @@ collections:
                   {label: OpenStack Profile, name: openStack, widget: string, required: false},
                 ]}
               ]}
+  - name: "generic-membership-pages"
+    label: "Membership Pages"
+    folder: "src/pages/membership/"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "generic-page"}
+      - {label: SEO, name: seo, widget: object, fields: [
+          {label: "Title", name: "title", widget: string},
+          {label: "Description", name: "description", widget: string},
+          {label: "Url", name: "url", widget: string},
+          {label: "Image", name: "image", widget: image},
+          {label: "Twitter Username", name: "twitterUsername", widget: string},
+        ]}
+      - {label: "Title", name: title, widget: string}
+      - {label: "Sub Title", name: subTitle, widget: string}
+      - {label: "Body", name: body, widget: markdown}
+      - {label: "Footer", name: footer, widget: object, required: false, fields: [
+          {label: "Title", name: title, widget: string, required: false },
+          {label: "Sub Title", name: subTitle, widget: string, required: false},
+          {label: "Button Link", name: button, widget: string, required: false},
+          {label: "Button Text", name: buttonText, widget: string, required: false},
+          {label: "Display", name: display, widget: boolean, required: false}
+        ]}
   - name: "join-page"
     label: "Join Page"
     files:
@@ -587,9 +610,18 @@ collections:
                 {label: Company List, name: companyList, widget: list, fields: [
                   {label: Logo, name: image, widget: image},
                   {label: Name, name: alt, widget: string},
+                  {
+                    label: Profile Link, 
+                    name: profileLink, 
+                    widget: relation, 
+                    collection: companiesProfiles, 
+                    searchFields: ["title"],
+                    valueField: "title",
+                    required: false
+                  },
                   {label: Width, name: width, widget: hidden, required: false}
                 ]}
-              ]}
+              ]}  
   - name: "generic-projects-pages"
     label: "Projects Pages"
     folder: "src/pages/projects/"

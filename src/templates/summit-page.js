@@ -87,11 +87,10 @@ export const SummitPageTemplate = ({
                 })}
               </div>
               <LinkComponent className="button-cta" style={{margin: "0 auto", marginTop: "30px"}} href="/summit-tracks">Learn More about Summit Tracks<img src={leftArrow} alt="" /></LinkComponent>
-              <a className="text-link" href="https://openinfrafoundation.formstack.com/forms/programmingcommittee2022">Join Programming Committee</a> 
             </section>
           } 
 
-            <LogoBanner title="The Call for Presentations is now open until February 9" cta="Submit to CFP" href="https://cfp.openinfra.dev" />
+            <LogoBanner title="Register before prices increase on March 16!" cta="Register Now" href="https://openinfrasummitberlin.eventbrite.com/" />
           {/*
           <section id="sponsor" className="sponsorship-levels">
             <span className="title">Sponsors</span>

@@ -12,7 +12,7 @@ header:
   upperTitle: The summit is back!
   description: >
     Collaborate directly with the people building and running open source 
-    infrastructure using OpenStack, Kubernetes and 30+ other technologies. <a href="https://cfp.openinfra.dev">Now accepting talk submissions</a>.
+    infrastructure using OpenStack, Kubernetes and 30+ other technologies.
   date:
     icon: /img/summit/Vector-calendar.svg
     text: June 7-9, 2022

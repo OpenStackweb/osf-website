@@ -15,6 +15,33 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2022-03-17T15:00:00.000Z
+    episodeTitle: What to Expect at the OpenInfra Summit Berlin
+    episodeDescription: The OpenInfra Summit is a global event for open source IT
+      infrastructure professionals to collaborate on software development, share
+      best practices about designing and running infrastructure in production,
+      and make partnership and purchase decisions. This year, we are bringing
+      the OpenInfra Summit back and headed to Berlin, Germany on June 7-9, 2022!
+      Tune into this episode and learn about the sessions that you shouldn't
+      miss and what to expect at the first in-person Summit since 2019.
+    youtubeEmbed: https://www.youtube.com/watch?v=6TMqw_0HFqU
+    youtubeLink: https://www.youtube.com/watch?v=6TMqw_0HFqU
+  - hidden: false
+    date: 2022-03-03T15:00:00.000Z
+    episodeTitle: How OpenStack is Used in Academia
+    episodeDescription: Open source cloud computing has gained a lot of adoption
+      momentum due to the advantages low cost, flexibility, scalability, and
+      more. Since the early days of OpenStack with NASA’s direct involvement,
+      OpenStack has been deployed in various notable academic institutions all
+      over the world for their infrastructure needs. For this episode, we have
+      invited experts from Oregon State University, Monash University and more
+      to talk about how they use OpenStack in academia.
+    episodeSpeakers: |-
+      Lance Albertson (Oregon State University)
+      Steve Quenette (Monash University)
+    youtubeEmbed: https://www.youtube.com/watch?v=xqGvMn0B7jc
+    youtubeLink: https://www.youtube.com/watch?v=xqGvMn0B7jc
+  - hidden: false
     date: 2022-02-17T15:00:00.000Z
     episodeTitle: "Linux OpenStack Kubernetes Infrastructure: The OpenInfra Standard"
     episodeDescription: "Organizations like AT&T, CERN, China Mobile, China Telecom,

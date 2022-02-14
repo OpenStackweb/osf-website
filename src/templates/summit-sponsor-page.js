@@ -19,6 +19,8 @@ import ComponentSoft from '../../static/img/summit/component-soft-logo.svg'
 import SysEleven from '../../static/img/summit/SysEleven_Logo.svg'
 
 import { getCurrentSummit } from '../actions/summit-actions'
+import SummitSponsors from '../components/SummitSponsors'
+import SummitSponsorSlider from '../components/SummitSponsorSlider'
 
 export const SummitSponsorPageTemplate = ({
   isLoggedUser,
@@ -30,14 +32,6 @@ export const SummitSponsorPageTemplate = ({
   sponsorships,
   summit_sponsors
 }) => {
-
-  const getSponsorTiers = () => {
-    let sponsorTiers = []
-    summit_sponsors.map(s => {
-      return sponsorTiers.some(t => t.id === s.sponsorship.id) ? null : sponsorTiers.push(s.sponsorship);
-    });
-    return sponsorTiers.sort((a, b) => a.order - b.order);
-  };
 
   return (
     <div>
@@ -79,25 +73,8 @@ export const SummitSponsorPageTemplate = ({
             <span className="description">
               <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
             </span>
-            <div className="sponsor-logos">
-              {getSponsorTiers().map(tier => {
-                return (
-                  <>
-                    <h3 className="small-title-summit">{tier.label}</h3>
-                    <div className="logos">
-                      {summit_sponsors?.filter(sponsor => sponsor.sponsorship.id === tier.id).sort((a, b) => a.order - b.order).map(sponsor => {
-                        return (
-                          <a className={`logo-${tier.name.toLowerCase()}`} href={sponsor.company.url}
-                            target="_blank" rel="noopener noreferrer">
-                            <img src={sponsor.company.big_logo ? sponsor.company.big_logo : sponsor.company.logo} alt={sponsor.company.name} />
-                          </a>
-                        )
-                      })}
-                    </div>
-                  </>
-                )
-              })}
-            </div>
+            <SummitSponsors summit_sponsors={summit_sponsors} />
+            <SummitSponsorSlider summit_sponsors={summit_sponsors} />
           </section>
 
           <section id="howToSponsor" className="sponsor-steps">

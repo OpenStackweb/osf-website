@@ -42,7 +42,3 @@ OpenInfra Foundation is seeking someone who is business-minded and data-driven t
 **Additional Information**
 
 OpenInfra Foundation is committed to a diverse and inclusive workplace. OpenInfra Foundation is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status.
-
-**Apply**
-
-Send your resume to [careers@openinfra.dev](mailto:careers@openinfra.dev) signifying the position you're applying for in the subject line.

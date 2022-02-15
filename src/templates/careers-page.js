@@ -56,18 +56,18 @@ export const CareersPageTemplate = ({
                   <hr id="openings"/>
                   <h3>Current Openings</h3>
                     <div className="career-single">
-                      <a href="/careers/developer-advocate" className="career-title">Developer Advocate</a>
+                      <a href="/careers/technical-community-manager" className="career-title">Technical Community Manager</a>
                       <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                      We are looking for an individual with a strong technical background who is passionate about infrastructure software challenges and solutions as well as open source to help us build and support a growing number of open source communities. This position plays a key role by ensuring that the OpenInfra communities are well balanced, sustainable and successful ecosystems in any lifecycle stage they might be in from creation to maturity. The role oversees the daily life of the supported communities to assist with their needs while performing crucial tasks and activities, such as creating content and demos and interacting with potential users and organizations wanting to commercialize, to increase visibility and adoption of the projects.
                       </p>
                       <p>
-                        <LinkComponent style={{marginTop: "20px"}} className="button-cta" href="/careers/developer-advocate">Learn More<img src={leftArrow} alt="Left Arrow" /></LinkComponent> 
+                        <LinkComponent style={{marginTop: "20px"}} className="button-cta" href="/careers/technical-community-manager">Learn More<img src={leftArrow} alt="Left Arrow" /></LinkComponent> 
                       </p>
                   </div>
                     <div className="career-single">
                       <a href="/careers/accounting-operations-intern" className="career-title">Accounting & Operations Intern</a>
                       <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        OpenInfra Foundation is seeking someone who is business-minded and data-driven to fill the role of Accounting & Operations Intern. You should be detail-oriented, organized, punctual, and comfortable working in fast-paced environments. You will be interacting across various business units, handling a variety of tasks including accounting, AP/AR, operational efficiencies, event support and customer relations. You will be entrusted with highly sensitive information on a regular basis relating to core functions of the business and strategic partnerships. Being organized, responsive and flexible is crucial in this role.
                       </p>
                       <p>
                         <LinkComponent style={{marginTop: "20px"}} className="button-cta" href="/careers/accounting-operations-intern">Learn More<img src={leftArrow} alt="Left Arrow" /></LinkComponent> 

@@ -11,7 +11,7 @@ seo:
 title: Technical Community Manager
 location: Remote
 roleType: Full Time
-department: Marketing
+department: Marketing & Community
 applyLink: https://coda.io/form/Apply-for-the-developer-advocate-role_dduNkhAfXzi
 ---
 The OpenInfra Foundation strives to nurture open source communities who are developing solutions to address requirements, pain points and fill in the gaps in today’s highly demanding software infrastructure landscape, in a fast paced, highly innovative environment. We are looking for an individual with a strong technical background who is passionate about infrastructure software challenges and solutions as well as open source to help us build and support a growing number of open source communities. This position plays a key role by ensuring that the OpenInfra communities are well balanced, sustainable and successful ecosystems in any lifecycle stage they might be in from creation to maturity. The role oversees the daily life of the supported communities to assist with their needs while performing crucial tasks and activities, such as creating content and demos and interacting with potential users and organizations wanting to commercialize, to increase visibility and adoption of the projects.

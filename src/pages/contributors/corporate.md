@@ -578,8 +578,6 @@ companyDetails:
       col2: 2019-07-17
     - col1: Objectif Libre
       col2: 2013-03-11
-    - col1: Objectif Libre
-      col2: 2016-08-25
     - col1: OlinData
       col2: 2014-07-16
     - col1: OneCloud Consulting

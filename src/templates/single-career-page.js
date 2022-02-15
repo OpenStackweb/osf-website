@@ -19,6 +19,7 @@ export const SingleCareerPageTemplate = ({
   location,
   roleType,
   department,
+  applyLink,
   content,
   contentComponent
 }) => {
@@ -37,7 +38,7 @@ export const SingleCareerPageTemplate = ({
           <section className="section about-s1-main">
             <div className="container about-s1-container">
               <div className="columns">
-                <CareerSidebar location={location} roleType={roleType} department={department} />
+                <CareerSidebar location={location} roleType={roleType} department={department} applyLink={applyLink} />
                 <div className="column">
                   <PageContent content={content} />
                 </div>
@@ -60,6 +61,7 @@ SingleCareerPageTemplate.propTypes = {
   location: PropTypes.string,
   roleType: PropTypes.string,
   department: PropTypes.string,
+  applyLink: PropTypes.string,
   footer: PropTypes.object,
 }
 
@@ -77,6 +79,7 @@ const SingleCareerPage = ({ isLoggedUser, data }) => {
         location={post.frontmatter.location}
         roleType={post.frontmatter.roleType}
         department={post.frontmatter.department}
+        applyLink={post.frontmatter.applyLink}
         footer={post.frontmatter.footer}
         content={post.html}
       />
@@ -116,6 +119,7 @@ export const SingleCareerPageQuery = graphql`
         location
         roleType
         department
+        applyLink
         footer {
           title
           button

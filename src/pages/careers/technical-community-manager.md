@@ -14,9 +14,17 @@ roleType: Full Time
 department: Marketing & Community
 applyLink: https://coda.io/form/Apply-for-the-developer-advocate-role_dduNkhAfXzi
 ---
+
+**About Us**
+
+OpenInfra Foundation helps communities build and operate open infrastructure. We support the development and adoption of open infrastructure globally, across a community of over 100,000 individuals in 187 countries, by hosting open source projects and communities of practice. Recently relaunched from the OpenStack Foundation, we currently support 6 open source projects including OpenStack, which has become the de facto open source cloud platform in the world used by organizations such as Walmart, CERN, Blizzard and many more. We are a small, diverse, fully remote team with employees spanning the globe.
+
+**Technical Community Manager**
+
 The OpenInfra Foundation strives to nurture open source communities who are developing solutions to address requirements, pain points and fill in the gaps in today’s highly demanding software infrastructure landscape, in a fast paced, highly innovative environment. We are looking for an individual with a strong technical background who is passionate about infrastructure software challenges and solutions as well as open source to help us build and support a growing number of open source communities. This position plays a key role by ensuring that the OpenInfra communities are well balanced, sustainable and successful ecosystems in any lifecycle stage they might be in from creation to maturity. The role oversees the daily life of the supported communities to assist with their needs while performing crucial tasks and activities, such as creating content and demos and interacting with potential users and organizations wanting to commercialize, to increase visibility and adoption of the projects.
 
 **Responsibilities**
+
 - Monitor open source and IT infrastructure trends, reporting to internal stakeholders on opportunities for resource investment, community involvement or market potential 
 - Support the growth and operation of OpenInfra communities on a daily basis to ensure long term success and sustainability of the project
 - Support communities with building and maintaining governance structure and processes
@@ -33,6 +41,7 @@ The OpenInfra Foundation strives to nurture open source communities who are deve
 - Engage with fellow community managers to continuously evaluate and improve the tasks and services the OpenInfra Foundation provides to its communities
 
 **Experience**
+
 - Solid experience working within an open source community 
 - Hands-on experience with deploying and integrating software components, as well as creating and executing demos 
 - Familiarity with leading open source projects like Linux, OpenStack, Kubernetes is a strong plus

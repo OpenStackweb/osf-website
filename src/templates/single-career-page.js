@@ -9,6 +9,8 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
 import CareerSidebar from '../components/CareerSidebar'
+import LinkComponent from '../components/LinkComponent';
+import leftArrow from '../img/svg/arrow-left.svg'
 
 import { connect } from "react-redux";
 
@@ -41,6 +43,11 @@ export const SingleCareerPageTemplate = ({
                 <CareerSidebar location={location} roleType={roleType} department={department} applyLink={applyLink} />
                 <div className="column">
                   <PageContent content={content} />
+                  <section>
+                  <p>
+                    <a href={applyLink} style={{marginTop: "20px", width: "100%", maxWidth: "227px"}} className="button-cta">Apply Now<img src={leftArrow} alt="Left Arrow" /></a> 
+                  </p>
+                  </section>
                 </div>
               </div>
             </div>

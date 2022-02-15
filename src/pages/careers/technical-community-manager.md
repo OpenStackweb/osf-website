@@ -47,7 +47,3 @@ The OpenInfra Foundation strives to nurture open source communities who are deve
 **Additional Information**
 
 OpenInfra Foundation is committed to a diverse and inclusive workplace. OpenInfra Foundation is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status.
-
-**Apply**
-
-Apply for this position using the following link: [Apply Here](//coda.io/form/Apply-for-the-developer-advocate-role_dduNkhAfXzi)

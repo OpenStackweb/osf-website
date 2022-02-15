@@ -287,11 +287,7 @@ companyDetails:
     - col1: Fourth Paradigm Development
       col2: 2011-06-17
     - col1: Fujitsu Limited
-      col2: 2012-08-06
-    - col1: Fujitsu Limited
       col2: 2014-03-04
-    - col1: Fujitsu Limited
-      col2: 2014-11-14
     - col1: Fusion.io
       col2: 2014-05-05
     - col1: FusionStack Co, Ltd.

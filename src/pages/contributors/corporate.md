@@ -522,8 +522,6 @@ companyDetails:
       col2: 2012-05-04
     - col1: Netronome Systems, Inc.
       col2: 2016-12-06
-    - col1: Netronome Systems, Inc.
-      col2: 2017-07-13
     - col1: NetScout Systems, Inc.
       col2: 2017-06-15
     - col1: Nexenta Systems
@@ -768,8 +766,6 @@ companyDetails:
       col2: 2013-05-06
     - col1: Symantec
       col2: 2013-10-10
-    - col1: Symantec
-      col2: 2014-03-29
     - col1: Symplified, Inc
       col2: 2010-07-28
     - col1: SysEleven GmbH
@@ -910,8 +906,6 @@ companyDetails:
       col2: 2017-02-08
     - col2: 2022-01-12
       col1: Inovex GmbH
-    - col2: 2021-10-05
-      col1: Linkbynet
 ---
 
 The list of Corporate CLAs allowed to contribute to OpenStack projects. (Individual developers still need to fill out the Individual [Contributors License Agreement](https://wiki.openstack.org/wiki/How_To_Contribute#Contributors_License_Agreement)). If you need to update the list of employees authorized to commit code to OpenStack, please read [How To Update Corporate CLA](/cla). 

@@ -334,10 +334,10 @@ companyTier:
           alt: ""
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Vexxhost 1.png
           alt: ""
-        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Whitestack 1.png
-          alt: ""
         - logo: /img/silverhorizontal_sm-copy.png
         - logo: /img/sponsor-logos-gold_vmware-1.png
+        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Whitestack 1.png
+          alt: ""
 help:
   display: true
   title: We’re here to help

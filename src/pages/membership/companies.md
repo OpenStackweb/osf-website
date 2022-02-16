@@ -60,8 +60,6 @@ companies:
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Cisco.png
       - alt: City Network
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_CityNetwork.png
-      - alt: Dell Technologies
-        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_DellTechnologies.png
       - alt: EasyStack
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_EasyStack.png
       - alt: H3C
@@ -82,8 +80,6 @@ companies:
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Troila.png
       - alt: Ubuntu
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Ubuntu.png
-      - alt: vmware
-        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_vmware.png
       - alt: ZTE
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
     text: Open Infrastructure Foundation Gold Members provide funding and pledge
@@ -120,6 +116,8 @@ companies:
         image: /img/companies/_New/Silver/componentsoft-silver2.jpg
       - image: /img/coredge188.png
         alt: Coredge
+      - image: /img/sponsor-logos-gold_delltechnologies-1.png
+        alt: Dell Technologies
       - alt: DevStack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_DevStack.png
       - alt: Elastx
@@ -182,6 +180,8 @@ companies:
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Vexxhost.png
       - image: /img/silverhorizontal_sm-copy.png
         alt: Virtuozzo
+      - image: /img/sponsor-logos-gold_vmware-1.png
+        alt: VMware
       - alt: Whitestack
         image: /img/companies/_New/Silver/Sponsor-Logos-Silver_Whitestack.png
     text: Open Infrastructure Foundation Silver Members provide funding and pledge

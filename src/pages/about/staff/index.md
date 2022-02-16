@@ -10,17 +10,17 @@ seo:
   url: https://openinfra.dev/about/staff/
 header:
   subTitle: >
-    The Open Infrastructure Foundation (OpenInfra Foundation) staff supports the
-    development and adoption of Open Infrastructure globally by hosting open
+    The OpenInfra Foundation staff supports the
+    development and adoption of open infrastructure globally by hosting open
     source projects and communities of practice, including datacenter cloud,
     edge computing, NFV, CI/CD and container infrastructure. 
-  title: Open Infrastructure Foundation
+  title: OpenInfra Foundation Staff
 banner:
   button:
     text: Job Openings
     url: /careers
   image: /img/crew-100.jpg
-  subTitle: "The Open Infrastructure community includes over 100,000 individuals
+  subTitle: "The OpenInfra community includes over 100,000 individuals
     across 187 countries and over 600 organizations. Developers, users, and the
     entire ecosystem all contribute to the success of OpenInfra Foundation's
     open source projects and initiatives. "
@@ -88,15 +88,10 @@ members:
     picture: /img/about-staff/thierry.jpeg
     title: General Manager
     twitter: https://twitter.com/tcarrez
-  - description: Wes Wilson is Director of Marketing for the Open Infrastructure
-      Foundation. He has spent the past two decades  in startups including
-      founding Brandstack a graphic design marketplace that was acquired in
-      2011.  Wes’ endeavors have always hinged around entrepreneurship, whether
-      it be working in his family’s  construction business, manufacturing custom
-      speed skating boots in college, lending capital as a  VP in commercial
-      banking or as a mentor in Techstars Cloud. In his free time, he enjoys
-      mountain  biking, traveling and spending time with his wife and three
-      kids.
+  - description: "Wes Wilson is Director of Product & Engineering for the OpenInfra
+      Foundation. He has spent two decades in startups including
+      founding Brandstack, a graphic design marketplace that was acquired in
+      2011.  He focuses on product development and strategy, helping to align the foundation's efforts with the communities it serves. In his free time, he enjoys traveling, rooting for the San Antonio Spurs, and spending time with his wife and three kids."
     linkedin: https://www.linkedin.com/in/iamweswilson
     name: Wes Wilson
     openStack: https://www.openstack.org/community/members/profile/20997

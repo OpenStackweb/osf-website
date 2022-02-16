@@ -231,8 +231,6 @@ companyTier:
           alt: ""
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_CityNetwork 1.png
           alt: ""
-        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_DellTechnologies 1.png
-          alt: ""
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_EasyStack 1.png
           alt: ""
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_H3C 1.png
@@ -252,8 +250,6 @@ companyTier:
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_Troila 1.png
           alt: ""
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_Ubuntu 1.png
-          alt: ""
-        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_vmware 1.png
           alt: ""
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_ZTE 1.png
           alt: ""
@@ -281,6 +277,7 @@ companyTier:
         - logo: /img/members-page/silver-tier/componentsoft-silver 1.png
           alt: ""
         - logo: /img/coredge188.png
+        - logo: /img/sponsor-logos-gold_delltechnologies-1.png
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_DevStack 1.png
           alt: ""
         - logo: /img/members-page/silver-tier/elastx-oi 1.png
@@ -340,6 +337,7 @@ companyTier:
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Whitestack 1.png
           alt: ""
         - logo: /img/silverhorizontal_sm-copy.png
+        - logo: /img/sponsor-logos-gold_vmware-1.png
 help:
   display: true
   title: We’re here to help

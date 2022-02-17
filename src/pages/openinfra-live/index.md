@@ -55,6 +55,7 @@ episodes:
     episodeSpeakers: ""
     youtubeLink: https://www.youtube.com/watch?v=pnYB7eYYiPg&ab_channel=OpenInfrastructureFoundation
     youtubeEmbed: https://www.youtube.com/embed/pnYB7eYYiPg
+    superuserRecap: https://superuser.openstack.org/articles/linux-openstack-kubernetes-infrastructure-the-openinfra-standard-openinfra-live-recap/
   - hidden: false
     date: 2022-02-03T15:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: OVHCloud"

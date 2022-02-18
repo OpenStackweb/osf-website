@@ -74,7 +74,6 @@ export const SummitSponsorPageTemplate = ({
               <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
             </span>
             <SummitSponsors summit_sponsors={summit_sponsors} />
-            <SummitSponsorSlider summit_sponsors={summit_sponsors} />
           </section>
 
           <section id="howToSponsor" className="sponsor-steps">

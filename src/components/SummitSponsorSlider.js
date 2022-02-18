@@ -23,7 +23,7 @@ const SummitSponsorSlider = ({ summit_sponsors }) => {
     function SamplePrevArrow(props) {
         const { style, onClick } = props;
         return (
-          <a role="button" data-slide="prev" className="carousel-control-prev" style={{ ...style, display: 'flex' }} onClick={onClick}>
+          <a role="button" data-slide="prev" className="carousel-control-prev" style={{ ...style, paddingLeft: 80, display: 'flex' }} onClick={onClick}>
             <span aria-hidden="true" className="carousel-control-prev-icon"></span>
             <img src="/img/symbols/logo-arrow-left.svg" alt="Previous" className="home-s8-container-child" />
           </a>
@@ -33,7 +33,7 @@ const SummitSponsorSlider = ({ summit_sponsors }) => {
       function SampleNextArrow(props) {
         const { style, onClick } = props;
         return (
-          <a role="button" data-slide="next" className="carousel-control-next" style={{ ...style, display: 'flex' }} onClick={onClick}>
+          <a role="button" data-slide="next" className="carousel-control-next" style={{ ...style, paddingRight: 80, display: 'flex' }} onClick={onClick}>
             <span aria-hidden="true" className="carousel-control-next-icon"></span>
             <img src="/img/symbols/logo-arrow-right.svg" alt="Next" className="home-s8-container-child" />
           </a>

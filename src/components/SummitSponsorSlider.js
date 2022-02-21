@@ -44,6 +44,7 @@ const SummitSponsorSlider = ({ summit_sponsors }) => {
         dots: false,
         infinite: true,
         autoplay: false,
+        adaptiveHeight: true,
         autoplaySpeed: 5000,
         speed: 600,
         slidesToShow: 1,

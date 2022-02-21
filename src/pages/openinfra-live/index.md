@@ -24,6 +24,8 @@ episodes:
       episode of OpenInfra Live will highlight some of the key features, what
       use cases are impacted and what operators can expect. "
     episodeSpeakers: "Host: Ghanshyam Mann, Chair of the OpenStack TC for the Yoga cycle"
+    youtubeLink: https://youtu.be/hwPfjvshxOM
+    youtubeEmbed: https://youtu.be/hwPfjvshxOM
   - hidden: false
     date: 2022-03-17T15:00:00.000Z
     episodeTitle: What to Expect at the OpenInfra Summit Berlin

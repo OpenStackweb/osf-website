@@ -50,7 +50,15 @@ const SummitSponsorSlider = ({ summit_sponsors }) => {
         slidesToShow: 1,
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              dots: true
+            }
+          }
+        ]
       };
 
     return (

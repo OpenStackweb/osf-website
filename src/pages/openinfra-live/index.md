@@ -15,6 +15,16 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2022-03-31T09:00:00.000Z
+    episodeTitle: "OpenStack Yoga: New Features Straight from the Contributors"
+    episodeDescription: "OpenStack continues to be one of the most active open
+      source projects in the world. Come learn more about OpenStack Yoga, the
+      25th release of the open source cloud computing project. Hundreds of
+      developers from over 60 organizations delivered OpenStack Yoga and this
+      episode of OpenInfra Live will highlight some of the key features, what
+      use cases are impacted and what operators can expect. "
+    episodeSpeakers: "Host: Ghanshyam Mann, Chair of the OpenStack TC for the Yoga cycle"
+  - hidden: false
     date: 2022-03-17T15:00:00.000Z
     episodeTitle: What to Expect at the OpenInfra Summit Berlin
     episodeDescription: The OpenInfra Summit is a global event for open source IT

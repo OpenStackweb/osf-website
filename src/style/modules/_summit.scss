@@ -1188,6 +1188,59 @@ hr.dividing-line {
   }
 }
 
+.sponsor-logos-slider {
+  margin-bottom: 60px;
+  h3.small-title-summit {
+    padding: 25px 0 15px 0;
+    text-transform: uppercase;
+    color: $gray;
+    text-align: center;
+    font-size: 1em;
+  }
+  a.carousel-control-prev, a.carousel-control-next {
+    align-items: baseline;
+  }
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .logo-headline {
+      text-align: center;
+      margin: 15px 15px 0 15px;
+      width: 50%;
+      max-width: 340px;
+      img {
+        width: 340px;
+      }
+    }
+    .logo-premier {
+      text-align: center;
+      margin-top: 15px;
+      width: 40%;
+      max-width: 300px;
+      img {
+        width: 300px;
+      }
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
+    .logo-exhibitor {
+      text-align: center;
+      margin: 15px 15px 0 15px;
+      width: 25%;
+      max-width: 240px;
+      img {
+        width: 240px;
+      }
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
+  }
+}
+
 .sponsor-contact {
   margin: 0;
   padding: 60px 120px 60px 120px;

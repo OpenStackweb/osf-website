@@ -15,7 +15,7 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2022-03-31T15:00:00.000Z
+    date: 2022-03-31T14:00:00.000Z
     episodeTitle: "OpenStack Yoga: New Features Straight from the Contributors"
     episodeDescription: "OpenStack continues to be one of the most active open
       source projects in the world. Come learn more about OpenStack Yoga, the
@@ -27,7 +27,7 @@ episodes:
     youtubeLink: https://youtu.be/hwPfjvshxOM
     youtubeEmbed: https://youtu.be/hwPfjvshxOM
   - hidden: false
-    date: 2022-03-17T15:00:00.000Z
+    date: 2022-03-17T14:00:00.000Z
     episodeTitle: What to Expect at the OpenInfra Summit Berlin
     episodeDescription: The OpenInfra Summit is a global event for open source IT
       infrastructure professionals to collaborate on software development, share

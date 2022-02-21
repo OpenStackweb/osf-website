@@ -15,7 +15,7 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2022-03-31T09:00:00.000Z
+    date: 2022-03-31T15:00:00.000Z
     episodeTitle: "OpenStack Yoga: New Features Straight from the Contributors"
     episodeDescription: "OpenStack continues to be one of the most active open
       source projects in the world. Come learn more about OpenStack Yoga, the

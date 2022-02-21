@@ -163,6 +163,21 @@
       ]
     },
     {
+      "title": "Schedules",
+      "marginLeft": "-422px",
+      "display": true,
+      "links": [
+        {
+          "text": "Full Schedule",
+          "url": "/schedule/"
+        },
+        {
+          "text": "My Schedule",
+          "url": "/my-schedule/"
+        }
+      ]
+    },
+    {
       "title": "Jobs",
       "url": "https://openstack.org/jobs",
       "image": "/img/background-shapes1.svg"

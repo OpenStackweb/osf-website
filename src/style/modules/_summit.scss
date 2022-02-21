@@ -1152,6 +1152,10 @@ hr.dividing-line {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 0 20%;
+    @media (max-width: 768px) {
+      margin: unset;
+    }
     .logo-headline {
       text-align: center;
       margin: 15px 15px 0 15px;

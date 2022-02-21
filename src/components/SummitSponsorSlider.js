@@ -43,7 +43,7 @@ const SummitSponsorSlider = ({ summit_sponsors }) => {
       let slideSettings = {
         dots: false,
         infinite: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 5000,
         speed: 600,
         slidesToShow: 1,

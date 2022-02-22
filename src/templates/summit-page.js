@@ -78,7 +78,7 @@ export const SummitPageTemplate = ({
               </div>
             </section>
           }
-          <SummitSponsorSlider summit_sponsors={summit_sponsors} />
+
           {topics && topics.display &&
             <section className="summit-topics">
               <span className="title">{topics.title}</span>
@@ -95,6 +95,12 @@ export const SummitPageTemplate = ({
               <LinkComponent className="button-cta" style={{ margin: "0 auto", marginTop: "30px" }} href="/summit-tracks">Learn More about Summit Tracks<img src={leftArrow} alt="" /></LinkComponent>
             </section>
           }
+          
+          <section className="logo-slider-section">
+            <span className="title">Sponsors</span>
+            <SummitSponsorSlider summit_sponsors={summit_sponsors} />
+            <LinkComponent className="button-cta" style={{ margin: "0 auto", marginTop: "30px" }} href="/summit-sponsor">Become a Sponsor<img src={leftArrow} alt="" /></LinkComponent>
+          </section>
 
           <LogoBanner title="Register before prices increase on March 16!" cta="Register Now" href="https://openinfrasummitberlin.eventbrite.com/" />
           {/*

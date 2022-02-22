@@ -250,6 +250,9 @@
   padding: 60px 120px;
   display: flex;
   flex-direction: column;
+  @media (max-width: 768px) {
+    padding: 50px 30px;
+  }
   span {
     display: inline-block;
   }
@@ -262,6 +265,10 @@
     letter-spacing: -0.6px;
     color: #161616;
     margin-bottom: 50px;
+    @media (max-width: 768px) {
+      font-size: 30px;
+      line-height: 36px;
+    }
   }
 }
 
@@ -572,6 +579,9 @@ hr.dividing-line {
     flex: none;
     order: 0;
     flex-grow: 0;
+    @media (max-width: 768px) {
+      margin-left: unset;
+    }
     &:hover {
       background-color: white;
       color: #28A4DB;

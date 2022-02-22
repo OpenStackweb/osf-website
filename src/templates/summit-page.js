@@ -68,7 +68,7 @@ export const SummitPageTemplate = ({
               </div>
               <div className="header-right">
                 <div className="hero-video">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/gitMjvPnUG0" frameborder="0" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/gitMjvPnUG0" frameBorder={"0"} allowFullScreen></iframe>
                 </div>
                 {/*}
                 <div className="picture">

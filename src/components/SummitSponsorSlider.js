@@ -8,17 +8,16 @@ const SummitSponsorSlider = ({ summit_sponsors }) => {
 
     const [sponsorTiers, setSponsorTiers] = useState([])
 
-    const getSponsorTiers = () => {
+    useEffect(() => {
+      const getSponsorTiers = () => {
         let tempTiers = []
         summit_sponsors.map(s => {
             return tempTiers.some(t => t.id === s.sponsorship.id) ? null : tempTiers.push(s.sponsorship);
         });
         setSponsorTiers(tempTiers.sort((a, b) => a.order - b.order));
     };
-
-    useEffect(() => {
         getSponsorTiers();
-    }, summit_sponsors)
+    }, [summit_sponsors])
 
     function SamplePrevArrow(props) {
         const { style, onClick } = props;

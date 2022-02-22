@@ -1,17 +1,26 @@
 import {
+  getAccessToken,
   getRequest,
   putRequest,
   postRequest,
   deleteRequest,
   createAction,
+  putFile,
   stopLoading,
   startLoading,
   authErrorHandler
 } from "openstack-uicore-foundation/lib/methods";
 
+import Swal from 'sweetalert2';
+
+import { customErrorHandler } from "../utils/customErrorHandler";
+
 export const START_LOADING_IDP_PROFILE = 'START_LOADING_IDP_PROFILE';
 export const STOP_LOADING_IDP_PROFILE = 'STOP_LOADING_IDP_PROFILE';
 export const GET_IDP_PROFILE = 'GET_IDP_PROFILE';
+export const UPDATE_PASSWORD = 'UPDATE_PASSWORD';
+export const UPDATE_PROFILE_PIC = 'UPDATE_PROFILE_PIC';
+export const UPDATE_IDP_PROFILE = 'UPDATE_IDP_PROFILE';
 export const MEMBERSHIP_TYPE_UPDATED = 'MEMBERSHIP_TYPE_UPDATED';
 export const MEMBERSHIP_TYPE_COMMUNITY = 'Community';
 export const MEMBERSHIP_TYPE_FOUNDATION = 'Foundation';
@@ -38,6 +47,80 @@ export const getIDPProfile = () => (dispatch, getState) => {
       authErrorHandler
   )(params)(dispatch)
     .then(() => dispatch(dispatch(createAction(STOP_LOADING_IDP_PROFILE))));
+}
+
+export const updatePassword = (password) => async (dispatch) => {
+
+  const accessToken = await getAccessToken();
+
+  if (!accessToken) return Promise.resolve();
+
+  let params = {
+    access_token: accessToken,
+  };
+
+  dispatch(createAction(START_LOADING_IDP_PROFILE)());
+
+  putRequest(
+    null,
+    createAction(UPDATE_PASSWORD),
+    `${window.IDP_BASE_URL}/api/v1/users/me`,
+    password,
+    customErrorHandler
+  )(params)(dispatch)
+    .then(() => {
+      dispatch(createAction(STOP_LOADING_IDP_PROFILE)());
+      let msg = 'Password Updated';
+      Swal.fire("Success", msg, "success");
+    })
+    .catch(() => dispatch(createAction(STOP_LOADING_IDP_PROFILE)()));
+}
+
+export const updateProfilePicture = (pic) => async (dispatch) => {
+
+  const accessToken = await getAccessToken();
+
+  if (!accessToken) return Promise.resolve();
+
+  let params = {
+    access_token: accessToken,
+  };
+
+  dispatch(createAction(START_LOADING_IDP_PROFILE)());
+
+  putFile(
+    null,
+    createAction(UPDATE_PROFILE_PIC),
+    `${window.IDP_BASE_URL}/api/v1/users/me/pic`,
+    pic,
+    {},
+    customErrorHandler,
+  )(params)(dispatch)
+    .then(() => dispatch(getIDPProfile()))
+    .catch(() => dispatch(createAction(STOP_LOADING_IDP_PROFILE)()));
+}
+
+export const updateProfile = (profile) => async (dispatch) => {
+
+  const accessToken = await getAccessToken();
+
+  if (!accessToken) return Promise.resolve();
+
+  let params = {
+    access_token: accessToken,
+  };
+
+  dispatch(createAction(START_LOADING_IDP_PROFILE)());
+
+  putRequest(
+    null,
+    createAction(UPDATE_IDP_PROFILE),
+    `${window.IDP_BASE_URL}/api/v1/users/me`,
+    profile,
+    customErrorHandler
+  )(params)(dispatch)
+    .then(() => dispatch(getIDPProfile()))
+    .catch(() => dispatch(createAction(STOP_LOADING_IDP_PROFILE)()));
 }
 
 /******************************  AFFILIATIONS **************************************************/

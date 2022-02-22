@@ -1,0 +1,198 @@
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/elements/button.sass";
+@import "bulma/sass/components/modal.sass";
+@import "bulma/sass/form/_all.sass";
+
+@import "../modules/variables";
+
+.fullProfile {
+  align-items: flex-start;
+
+  > div {
+    &:nth-of-type(2) {
+      padding: 0;
+    }
+
+    &:not(:first-of-type) {
+      margin-left: 20px;
+    }
+  }
+
+  .pictureContainer {
+    border: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px;
+    button {
+      border: none;
+      background: none;
+    }
+    span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: inline-block;
+      margin: 15px 0;
+      font-weight: bold;
+    }
+  }
+
+  .profilePicture {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    img {
+      cursor: pointer;
+      height: 100%;
+      width: 100%;
+      max-height: 200px;
+      max-width: 200px;
+      border-radius: 10px;
+      object-fit: contain;
+    }
+  }
+
+  .imageUpload {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    .picture-icon {
+      color: #ffffff;
+      z-index: 10;
+      cursor: pointer;
+    }
+  }
+
+  .formContainer {
+    border: 1px solid #d3d3d3;
+    padding: 10px 20px;
+
+    &:not(:first-of-type) {
+      margin-top: 20px;
+    }
+
+    .header {
+      font-size: 18px;
+      line-height: 22px;
+      color: $primary-blue;
+      font-weight: bold;
+      margin: 0 -20px;
+      padding: 0 15px 10px;
+      width: calc(100% + 40px);
+      border-bottom: 1px solid #d3d3d3;
+    }
+
+    .form {
+      .inputRow {
+        margin: 15px 0;
+
+        .inputField {
+          display: flex;
+          flex-direction: column;
+
+          b {
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 5px;
+          }
+
+          .textarea {
+            font-size: 16px;
+          }
+
+          .select {
+            display: flex;
+
+            select {
+              width: 100%;
+            }
+          }
+
+          .dropdown {
+            > div {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    .checkbox {
+      input[type="checkbox"] {
+        margin: -3px 8px 0px;
+        vertical-align: middle;
+      }
+    }
+
+    .buttons {
+      margin: 15px 0;
+
+      div {
+        button {
+          width: 100%;
+          height: 5.5rem;
+        }
+
+        &:last-of-type {
+          button {
+            color: #ffffff;
+            border-color: #ffffff;
+            background-color: $primary;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .fullProfile {
+    align-items: flex-start;
+
+    > div {
+      &:not(:nth-of-type(2)) {
+        border: 1px solid #d3d3d3;
+        padding: 10px 20px;
+      }
+
+      &:nth-of-type(2) {
+        padding: 0;
+      }
+
+      &:not(:first-of-type) {
+        margin-top: 20px;
+        margin-left: 0px;
+      }
+    }
+
+    .imageUpload {
+      position: absolute;
+      top: 9.3%;
+      left: 47%;
+    }
+
+    .formContainer {
+      .form {
+        .inputRow {
+          margin: 15px 0;
+          flex-direction: column;
+
+          .inputField {
+            width: 100%;
+          }
+        }
+      }
+      .buttons {
+        flex-direction: column;
+        div {
+          width: 100% !important;
+          button {
+              width: 80%;
+              min-width: 180px;
+          }
+        }
+      }
+    }
+  }
+}

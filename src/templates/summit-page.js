@@ -98,6 +98,9 @@ export const SummitPageTemplate = ({
           
           <section className="logo-slider-section">
             <span className="title">Sponsors</span>
+            <span className="description">
+              <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
+            </span>
             <SummitSponsorSlider summit_sponsors={summit_sponsors} />
             <LinkComponent className="button-cta" href="/summit-sponsor">Become a Sponsor<img src={leftArrow} alt="" /></LinkComponent>
           </section>

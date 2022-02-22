@@ -68,6 +68,16 @@
   to = "https://openstack.org/ptg/"
   status = 302
   force = true
+[[redirects]]
+  from = "/files/OpenInfraSummitBerlin2022-prospectusV2.pdf"
+  to = "/files/OpenInfra-Berlin-SUMMIT-2022-prospectus022222.pdf"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/files/OpenInfra-Berlin-SUMMIT-2022-prospectus_021622.pdf"
+  to = "/files/OpenInfra-Berlin-SUMMIT-2022-prospectus022222.pdf"
+  status = 301
+  force = true
 # Branch Deploy context: all deploys that are not from a pull/merge request or
 # from the Production branch will inherit these settings.
 [context.branch-deploy.environment]

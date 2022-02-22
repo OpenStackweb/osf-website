@@ -15,6 +15,7 @@ import MemberProfilePage from "../templates/member-profile-page"
 import CompanyProfilePage from "../templates/company-profile-page"
 import CandidatePage from "../templates/candidate-page"
 import SchedulePage from "../templates/schedule-page"
+import EditProfilePage from "../templates/edit-profile-page"
 import NotFoundPage from "./404"
 
 const App = ({ isLoggedUser, user }) => {
@@ -26,6 +27,7 @@ const App = ({ isLoggedUser, user }) => {
           <PrivateRoute path="/" location={location}>
             <SchedulePage path="/summit-my-schedule" schedKey="my-schedule-main" location={location} headerTitle="My Schedule" />
             <ProfilePage path="/profile" isLoggedIn={isLoggedUser} user={user} location={location} />
+            <EditProfilePage path="/profile/edit" isLoggedIn={isLoggedUser} user={user} location={location} />
             <CandidatePage path="/profile/candidate" isLoggedIn={isLoggedUser} user={user} location={location} />
             <MembershipResignPage path="/profile/membership/resign" isLoggedIn={isLoggedUser} user={user} location={location} />
             <MembershipCommunityPage path="/profile/membership/community" isLoggedIn={isLoggedUser} user={user} location={location} />

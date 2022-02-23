@@ -777,6 +777,17 @@
     margin-right: 0;
   }
 }
+.home-s8-container-child-logo {
+  display: inline-block !important;
+  margin-top: 2em;
+  @media (max-width: $screen-md-min){
+    margin-top: 1em;
+    margin-right: 0;
+  }
+  &:last-child{
+    margin-right: 0;
+  }
+}
 #gold-carousel .carousel-item img {
   margin-right: 1em;
 }

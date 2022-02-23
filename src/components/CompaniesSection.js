@@ -76,7 +76,7 @@ const CompaniesSection = class extends React.Component {
                           company.image.publicURL
                           :
                           !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                      } alt={company.alt} className="home-s8-container-child" key={index} />
+                      } alt={company.alt} className="home-s8-container-child-logo" key={index} />
                     )
                   }
                 })}
@@ -97,7 +97,7 @@ const CompaniesSection = class extends React.Component {
                             company.image.publicURL
                             :
                             !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                        } alt={company.alt} style={{ marginRight: '1em' }} className="home-s8-container-child" key={index} />
+                        } alt={company.alt} style={{ marginRight: '1em' }} className="home-s8-container-child-logo" key={index} />
                       )
                     }
                   })}

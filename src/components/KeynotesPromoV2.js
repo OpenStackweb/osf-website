@@ -1,7 +1,6 @@
 import React from 'react'
 import leftArrow from '../img/svg/arrow-left.svg'
 import OILiveComp from '../../static/img/oi-live-comp.png'
-import CalIcon from '../../static/img/calendar-alt1.svg'
 import DiagonalBG from '../../static/img/diagonal.svg'
 
 

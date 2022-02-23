@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import ContactFormHorizontal from '../components/ContactFormHorizontal'
@@ -12,24 +12,11 @@ import SubNav from '../components/SummitSubNav'
 import { connect } from "react-redux";
 import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
-
-import Cannonical from '../../static/img/summit/ubuntu-cannonical.svg'
-import Mirantis from '../../static/img/summit/mirantis-logo-horizontal.svg'
-import ComponentSoft from '../../static/img/summit/component-soft-logo.svg'
-import SysEleven from '../../static/img/summit/SysEleven_Logo.svg'
-
-import { getCurrentSummit } from '../actions/summit-actions'
 import SummitSponsors from '../components/SummitSponsors'
-import SummitSponsorSlider from '../components/SummitSponsorSlider'
 
 export const SummitSponsorPageTemplate = ({
   isLoggedUser,
   header,
-  form,
-  topics,
-  previousSummits,
-  videoBanner,
-  sponsorships,
   summit_sponsors
 }) => {
 
@@ -166,12 +153,8 @@ SummitSponsorPageTemplate.propTypes = {
   sponsorships: PropTypes.object,
 }
 
-const SummitSponsorPage = ({ isLoggedUser, summit, getCurrentSummit, data }) => {
+const SummitSponsorPage = ({ isLoggedUser, summit, data }) => {
   const { markdownRemark: post } = data
-
-  useEffect(() => {
-    getCurrentSummit();
-  }, [])
 
   return (
     <Layout>
@@ -194,10 +177,10 @@ SummitSponsorPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default connect(state => ({
-  isLoggedUser: state.loggedUserState.isLoggedUser,
-  summit: state.summitState.current_summit
-}), { getCurrentSummit })(SummitSponsorPage)
+export default connect(({loggedUserState, summitState}) => ({
+  isLoggedUser: loggedUserState.isLoggedUser,
+  summit: summitState.current_summit
+}))(SummitSponsorPage)
 
 export const summitSponsorPageQuery = graphql`
   query SummitSponsorPage($id: String!) {

@@ -1,103 +1,89 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Content, { HTMLContent } from '../components/Content'
-import Layout from '../components/Layout'
-import Header from '../components/Header'
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero'
-import SEO from '../components/SEO'
-
+import React, {useEffect, useState} from "react";
+import PropTypes from "prop-types";
+import { pickBy } from "lodash";
+import { navigate } from "gatsby";
 import { connect } from "react-redux";
+import { updateFiltersFromHash, updateFilter } from "../actions/schedule-actions";
+import Layout from "../components/Layout";
+import FullSchedule from "../components/FullSchedule";
+import ScheduleFilters from "../components/ScheduleFilters";
+import FilterButton from "../components/FilterButton";
+import NotFoundPage from "../pages/404";
+import styles from "../style/full-schedule.module.scss";
 
-export const SchedulePageTemplate = ({
-  isLoggedUser,
-  footer,
-}) => {
+const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, updateFiltersFromHash, scheduleProps, schedKey }) => {
+    const [showFilters, setShowfilters] = useState(false);
+    const scheduleState = schedules.find( s => s.key === schedKey);
+    const {events, allEvents, filters, view, timezone, colorSource} = scheduleState || {};
 
-  return (
-    <div>
-      <div className="wrapper project-background">
-        <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
-      </div>
+    useEffect(() => {
+        updateFiltersFromHash(schedKey, filters, view);
+    }, [schedKey, filters, view, updateFiltersFromHash]);
 
-      <main className="main">
-        <div className="content">
-          <section className="section no-top-padding">
+    if (!summit || schedules.length === 0) return null;
+
+    // if we don't have a state, it probably means the schedule was disabled from admin.
+    if (!scheduleState) {
+        return <NotFoundPage />;
+    }
+
+    const filterProps = {
+        summit,
+        events,
+        allEvents,
+        filters: pickBy(filters, (value) => value.enabled),
+        triggerAction: (action, payload) => {
+            updateFilter(schedKey, payload);
+        },
+        colorSource,
+    };
+
+    let schedProps = {
+        summit,
+        events,
+        filters,
+        view,
+        timezone,
+        colorSource,
+        schedKey,
+        ...scheduleProps
+    };
+
+    if (isLoggedUser) {
+        schedProps = {
+            ...schedProps,
+            onEventClick: (ev) => navigate(`/a/event/${ev.id}`, { state: { previousUrl: location.pathname }}),
+            onStartChat: null,
+        };
+    }
+
+    return (
+        <Layout location={location}>
             <div className="container">
-              FULL SCHEDULE
+                <div className={`${styles.wrapper} ${showFilters ? styles.showFilters : ""}`}>
+                    <div className={styles.scheduleWrapper}>
+                        <FullSchedule {...schedProps} />
+                    </div>
+                    <div className={styles.filterWrapper}>
+                        <ScheduleFilters {...filterProps} />
+                    </div>
+                    <FilterButton open={showFilters} onClick={() => setShowfilters(!showFilters)} />
+                </div>
             </div>
-          </section>
-          {footer &&
-            <Hero content={footer} />
-          }
-        </div>
-      </main>
-    </div>
-  )
-}
-
-SchedulePageTemplate.propTypes = {
-  companies: PropTypes.object,
-  title: PropTypes.string,
-  subTitle: PropTypes.string,
-  footer: PropTypes.object,
-}
-
-const SchedulePage = ({ isLoggedUser, data }) => {
-  const { markdownRemark: post } = data
-
-  return (
-    <Layout>
-      <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
-      <SchedulePageTemplate
-        isLoggedUser={isLoggedUser}
-        title={post.frontmatter.title}
-        subTitle={post.frontmatter.subTitle}
-        footer={post.frontmatter.footer}
-      />
-    </Layout>
-  )
-}
+        </Layout>
+    );
+};
 
 SchedulePage.propTypes = {
-  data: PropTypes.object.isRequired,
-}
+    schedKey: PropTypes.string.isRequired,
+    summitPhase: PropTypes.number,
+    isLoggedUser: PropTypes.bool,
+};
 
-export default connect(state => ({
-  isLoggedUser: state.loggedUserState.isLoggedUser
-}), null)(SchedulePage)
+const mapStateToProps = ({ summitState, loggedUserState, allSchedulesState }) => ({
+    summit: summitState.summit,
+    isLoggedUser: loggedUserState.isLoggedUser,
+    schedules: allSchedulesState.schedules,
+});
 
-export const schedulePageQuery = graphql`
-  query SchedulePage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        seo {
-          title
-          description
-          url
-          image {
-            childImageSharp {
-              fluid(maxWidth: 640, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-            publicURL
-          }
-        }
-        title
-        subTitle
-        footer {
-          title
-          subTitle
-          button
-          buttonText
-          display
-        }
-      }
-    }
-  }
-`
+export default connect(mapStateToProps, { updateFiltersFromHash, updateFilter })(SchedulePage);

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -9,7 +9,6 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
 import CareerSidebar from '../components/CareerSidebar'
-import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
 
 import { connect } from "react-redux";

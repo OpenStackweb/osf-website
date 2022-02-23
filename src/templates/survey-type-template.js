@@ -1,7 +1,7 @@
 import { navigate } from 'gatsby-link'
 import { kebabCase } from 'lodash-es'
 import React from 'react'
-import Content, { HTMLContent } from '../components/Content'
+import Content from '../components/Content'
 
 import leftArrow from '../img/svg/arrow-left.svg'
 

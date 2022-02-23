@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import PropTypes from "prop-types";
 import { TextEditor } from 'openstack-uicore-foundation/lib/components'
 
 const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) => {

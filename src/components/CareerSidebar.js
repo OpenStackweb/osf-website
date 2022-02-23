@@ -1,5 +1,4 @@
 import React from 'react'
-import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
 
 const CareerSidebar = class extends React.Component {

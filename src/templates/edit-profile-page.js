@@ -28,6 +28,8 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
     lastName: '',
     identifier: '',
     email: '',
+    secondEmail: '',
+    thirdEmail: '',
     company: '',
     jobTitle: '',
     birthday: null,
@@ -37,6 +39,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
     irc: '',
     linkedin: '',
     twitter: '',
+    wechatUser: '',
     language: ''
   });
 
@@ -71,6 +74,8 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
         lastName: user.idpProfile.family_name || '',
         identifier: user.idpProfile.nickname || '',
         email: user.idpProfile.email || '',
+        secondEmail: user.idpProfile.second_email || '',
+        thirdEmail: user.idpProfile.third_email || '',
         company: user.idpProfile.company || '',
         jobTitle: user.idpProfile.job_title || '',
         birthday: birthdate,
@@ -80,6 +85,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
         github: user.idpProfile.github_user || '',
         twitter: user.idpProfile.twitter_name || '',
         linkedin: user.idpProfile.linked_in_profile || '',
+        weChatUser: user.idpProfile.wechat_user || '',
         language: user.idpProfile.locale || ''
       });
       setShowFullName(user.idpProfile.public_profile_show_fullname);
@@ -123,6 +129,8 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
           last_name: personalProfile.lastName,
           identifier: personalProfile.identifier,
           email: personalProfile.email,
+          second_email: personalProfile.secondEmail,
+          third_email: personalProfile.thirdEmail,
           company: personalProfile.company,
           job_title: personalProfile.jobTitle,
           birthday: personalProfile.birthday?.unix(),
@@ -131,6 +139,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
           github_user: personalProfile.github,
           irc: personalProfile.irc,
           linked_in_profile: personalProfile.linkedin,
+          wechat_user: personalProfile.wechatUser,
           twitter_name: personalProfile.twitter,
           language: personalProfile.language,
           public_profile_show_fullname: showFullName,
@@ -149,15 +158,6 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
         updateProfile(newProfile);
       }
     }
-  };
-
-  const handlePasswordUpdate = (current_password, password, password_confirmation) => {
-    const passwordObject = {
-      current_password,
-      password,
-      password_confirmation
-    };
-    updatePassword(passwordObject);
   };
 
   const handleTogglePopup = (profile) => {
@@ -179,6 +179,8 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
           lastName: user.idpProfile.family_name,
           identifier: user.idpProfile.nickname || '',
           email: user.idpProfile.email || '',
+          secondEmail: user.idpProfile.second_email || '',
+          thirdEmail: user.idpProfile.third_email || '',
           company: user.idpProfile.company || '',
           jobTitle: user.idpProfile.job_title || '',
           birthday: birthdate,
@@ -187,6 +189,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
           github: user.idpProfile.github_user || '',
           irc: user.idpProfile.irc || '',
           linkedin: user.idpProfile.linked_in_profile || '',
+          wechatUser: user.idpProfile.wechat_user || '',
           twitter: user.idpProfile.twitter_user || '',
           language: user.idpProfile.locale || ''
         });
@@ -256,7 +259,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half is-mobile ${styles.inputField}`}>
                             <b>First Name *</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge} ${!personalProfile.firstName ? styles.isDanger : ''}`}
+                              className={`${styles.input} ${!personalProfile.firstName ? styles.isDanger : ''}`}
                               type="text"
                               placeholder="First Name"
                               onChange={e => setPersonalProfile({ ...personalProfile, firstName: e.target.value })}
@@ -266,7 +269,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>Last Name *</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge} ${!personalProfile.lastName ? styles.isDanger : ''}`}
+                              className={`${styles.input} ${!personalProfile.lastName ? styles.isDanger : ''}`}
                               type="text"
                               placeholder="Last Name"
                               onChange={e => setPersonalProfile({ ...personalProfile, lastName: e.target.value })}
@@ -278,7 +281,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>Identifier *</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge} ${!personalProfile.identifier ? styles.isDanger : ''}`}
+                              className={`${styles.input} ${!personalProfile.identifier ? styles.isDanger : ''}`}
                               type="text"
                               placeholder="Identifier"
                               onChange={e => setPersonalProfile({ ...personalProfile, identifier: e.target.value })}
@@ -288,7 +291,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>Email *</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge} ${!personalProfile.email ? styles.isDanger : ''}`}
+                              className={`${styles.input} ${!personalProfile.email ? styles.isDanger : ''}`}
                               type="text"
                               placeholder="Email"
                               onChange={e => setPersonalProfile({ ...personalProfile, email: e.target.value })}
@@ -298,9 +301,31 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                         </div>
                         <div className={`columns is-mobile ${styles.inputRow}`}>
                           <div className={`column is-half ${styles.inputField}`}>
+                            <b>Second Email</b>
+                            <input
+                              className={`${styles.input}`}
+                              type="text"
+                              placeholder="Second Email"
+                              onChange={e => setPersonalProfile({ ...personalProfile, secondEmail: e.target.value })}
+                              value={personalProfile.secondEmail}
+                            />
+                          </div>
+                          <div className={`column is-half ${styles.inputField}`}>
+                            <b>Third Email</b>
+                            <input
+                              className={`${styles.input}`}
+                              type="text"
+                              placeholder="Third Email"
+                              onChange={e => setPersonalProfile({ ...personalProfile, thirdEmail: e.target.value })}
+                              value={personalProfile.thirdEmail}
+                            />
+                          </div>
+                        </div>
+                        <div className={`columns is-mobile ${styles.inputRow}`}>
+                          <div className={`column is-half ${styles.inputField}`}>
                             <b>Company</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge}`}
+                              className={`${styles.input}`}
                               type="text"
                               placeholder="Company"
                               onChange={e => setPersonalProfile({ ...personalProfile, company: e.target.value })}
@@ -310,7 +335,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>Job Title</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge}`}
+                              className={`${styles.input}`}
                               type="text"
                               placeholder="Job Title"
                               onChange={e => setPersonalProfile({ ...personalProfile, jobTitle: e.target.value })}
@@ -326,6 +351,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                                 <DateTimePicker
                                   onChange={e => setPersonalProfile({ ...personalProfile, birthday: e.target.value })}
                                   format={{ date: 'MM/DD/YYYY', time: '' }}
+                                  className={styles.datepicker}
                                   value={personalProfile.birthday}
                                 />
                               </div>
@@ -334,7 +360,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>Gender</b>
                             <div className={styles.control}>
-                              <div className={`${styles.select} ${styles.isLarge}`}>
+                              <div className={`${styles.select}`}>
                                 {/* eslint-disable-next-line jsx-a11y/no-onchange */}
                                 <select
                                   onChange={e => setPersonalProfile({ ...personalProfile, gender: e.target.value })}
@@ -357,7 +383,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                               <div className={`column is-half ${styles.inputField}`}>
                                 <b>Specify gender</b>
                                 <input
-                                  className={`${styles.input} ${styles.isLarge}`}
+                                  className={`${styles.input}`}
                                   type="text"
                                   placeholder="Specify your gender"
                                   onChange={e => setPersonalProfile({ ...personalProfile, specifyGender: e.target.value })}
@@ -371,7 +397,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>Github</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge}`}
+                              className={`${styles.input}`}
                               type="text"
                               placeholder="Github"
                               onChange={e => setPersonalProfile({ ...personalProfile, github: e.target.value })}
@@ -381,7 +407,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>IRC</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge}`}
+                              className={`${styles.input}`}
                               type="text"
                               placeholder="IRC"
                               onChange={e => setPersonalProfile({ ...personalProfile, irc: e.target.value })}
@@ -393,7 +419,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>LinkedIn</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge}`}
+                              className={`${styles.input}`}
                               type="text"
                               placeholder="LinkedIn"
                               onChange={e => setPersonalProfile({ ...personalProfile, linkedin: e.target.value })}
@@ -403,7 +429,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>Twitter</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge}`}
+                              className={`${styles.input}`}
                               type="text"
                               placeholder="Twitter"
                               onChange={e => setPersonalProfile({ ...personalProfile, twitter: e.target.value })}
@@ -412,6 +438,16 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           </div>
                         </div>
                         <div className={`columns is-mobile ${styles.inputRow}`}>
+                        <div className={`column is-half ${styles.inputField}`}>
+                            <b>Wechat User</b>
+                            <input
+                              className={`${styles.input}`}
+                              type="text"
+                              placeholder="Wechat User"
+                              onChange={e => setPersonalProfile({ ...personalProfile, wechatUser: e.target.value })}
+                              value={personalProfile.wechatUser}
+                            />
+                          </div>
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>Language</b>
                             <LanguageInput
@@ -491,7 +527,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>Address 1</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge}`}
+                              className={`${styles.input}`}
                               type="text"
                               placeholder="Complete your address"
                               onChange={e => setAddress({ ...address, street: e.target.value })}
@@ -501,7 +537,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>Address 2</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge}`}
+                              className={`${styles.input}`}
                               type="text"
                               placeholder="Complete your address"
                               onChange={e => setAddress({ ...address, floor: e.target.value })}
@@ -513,7 +549,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>City</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge}`}
+                              className={`${styles.input}`}
                               type="text"
                               placeholder="Complete your city"
                               onChange={e => setAddress({ ...address, city: e.target.value })}
@@ -523,7 +559,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>State</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge}`}
+                              className={`${styles.input}`}
                               type="text"
                               placeholder="Complete your state"
                               onChange={e => setAddress({ ...address, state: e.target.value })}
@@ -535,7 +571,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>Zip Code</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge}`}
+                              className={`${styles.input}`}
                               type="text"
                               placeholder="Complete your zip code"
                               onChange={e => setAddress({ ...address, zipCode: e.target.value })}
@@ -555,7 +591,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>Phone</b>
                             <input
-                              className={`${styles.input} ${styles.isLarge}`}
+                              className={`${styles.input}`}
                               type="text"
                               placeholder="Complete your phone"
                               onChange={e => setAddress({ ...address, phone: e.target.value })}

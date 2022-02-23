@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import { kebabCase } from 'lodash'
-import Content, { HTMLContent } from '../components/Content'
+import Content from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';

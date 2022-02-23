@@ -7,6 +7,8 @@ import sponsorReducer from '../reducers/sponsor-reducer';
 import memberReducer from '../reducers/member-reducer';
 import electionReducer from '../reducers/election-reducer';
 import summitReducer from '../reducers/summit-reducer';
+import allSchedulesReducer from "../reducers/all-schedules-reducer";
+import settingReducer from "../reducers/setting-reducer";
 
 import thunk from 'redux-thunk';
 import { persistStore, persistCombineReducers } from 'redux-persist'
@@ -31,7 +33,9 @@ const persistedReducers = persistCombineReducers(config, {
   sponsorState: sponsorReducer,
   memberState: memberReducer,
   electionState: electionReducer,
-  summitState: summitReducer
+  summitState: summitReducer,
+  allSchedulesState: allSchedulesReducer,
+  settingsState: settingReducer
 });
 
 const composeEnhancers = typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : compose;

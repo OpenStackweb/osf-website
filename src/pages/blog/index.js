@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { kebabCase } from 'lodash'
-import { Link, withPrefix } from 'gatsby'
+import { Link } from 'gatsby'
 
 import Layout from '../../components/Layout'
 import Header from '../../components/Header'
@@ -10,7 +10,6 @@ import Navbar from '../../components/Navbar';
 import BlogRoll from '../../components/BlogRoll'
 
 import blogConfig from '../../content/blog-config.json'
-import metadata from '../../content/site-metadata.json'
 
 export default class BlogIndexPage extends React.Component {
 

@@ -169,11 +169,11 @@
       "links": [
         {
           "text": "Full Schedule",
-          "url": "/schedule/"
+          "url": "/a/schedule/"
         },
         {
           "text": "My Schedule",
-          "url": "/my-schedule/"
+          "url": "/a/my-schedule/"
         }
       ]
     },

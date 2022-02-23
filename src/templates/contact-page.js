@@ -6,7 +6,6 @@ import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
-import Hero from '../components/Hero'
 import SEO from '../components/SEO'
 import ContactFormVertical from '../components/ContactFormVertical'
 import SocialLinks from '../components/SocialLinks'

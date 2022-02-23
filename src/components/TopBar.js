@@ -1,8 +1,6 @@
 import React from 'react'
-
 import LinkComponent from './LinkComponent'
 import content from '../content/top-bar.json'
-import barLogo from '../img/svg/bar-logo.svg'
 
 const TopBar = class extends React.Component {
 

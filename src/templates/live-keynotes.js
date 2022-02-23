@@ -9,7 +9,6 @@ import SEO from '../components/SEO'
 import SpeakerCard from "../components/SpeakerCard";
 import ColorBar from '../img/color-bar.png'
 import leftArrow from '../img/svg/arrow-left.svg'
-import CalIcon from '../../static/img/calendar-alt1.svg'
 import OILiveComp from '../../static/img/oi-live-comp.png'
 import DiagonalBG from '../../static/img/diagonal.svg'
 import { connect } from "react-redux";

@@ -29,7 +29,6 @@ export const ProfilePageTemplate = ({
     location,
     updateMembershipType,
     electionStatus,
-    electionProfile
 }) => {
 
     let query = URI.parseQuery(location.search);

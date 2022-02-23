@@ -11,7 +11,6 @@ import SubNav from '../components/SummitSubNav'
 import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
 import TravelSupportPic from '../../static/img/summit/Tokyo-travel-support-pic.jpg'
-import Cannonical from '../../static/img/summit/ubuntu-cannonical.svg'
 
 import { getCurrentSummit } from '../actions/summit-actions'
 import SummitSponsorSlider from '../components/SummitSponsorSlider'
@@ -24,7 +23,6 @@ export const SummitPageTemplate = ({
   topics,
   previousSummits,
   videoBanner,
-  sponsorships,
   summit_sponsors
 }) => {
 

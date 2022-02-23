@@ -1,8 +1,12 @@
-import React from "react"
+import React, {useEffect} from "react"
 import { Router, Location } from "@reach/router"
 import { connect } from 'react-redux'
+import { syncData } from '../actions/base-actions';
+import settings from '../content/settings';
+
 import PrivateRoute from '../routes/PrivateRoute'
 import withSessionChecker from "../utils/withSessionChecker"
+import SchedulePage from "../templates/schedule-page";
 import ProfilePage from "../templates/profile-page";
 import RegistrationPage from "../templates/registration-page";
 import ErrorPage from "../templates/error-page";
@@ -14,14 +18,21 @@ import MemberProfilePage from "../templates/member-profile-page"
 import CompanyProfilePage from "../templates/company-profile-page"
 import CandidatePage from "../templates/candidate-page"
 import NotFoundPage from "./404"
-import PublicRoute from "../routes/PublicRoute"
 
-const App = ({ isLoggedUser, user }) => {
+const App = ({ isLoggedUser, user, lastBuild, syncData }) => {
+
+  useEffect(() => {
+    if (!lastBuild || settings.lastBuild > lastBuild) {
+      syncData();
+    }
+  }, [lastBuild, syncData]);
+
   return (
     <Location>
       {({ location }) => (
         <Router basepath="/a" >
           <PrivateRoute path="/" location={location}>
+            <SchedulePage path="/schedule" schedKey="schedule-main" location={location} />
             <ProfilePage path="/profile" isLoggedIn={isLoggedUser} user={user} location={location} />
             <CandidatePage path="/profile/candidate" isLoggedIn={isLoggedUser} user={user} location={location} />
             <MembershipResignPage path="/profile/membership/resign" isLoggedIn={isLoggedUser} user={user} location={location} />
@@ -40,9 +51,10 @@ const App = ({ isLoggedUser, user }) => {
   )
 }
 
-const mapStateToProps = ({ loggedUserState, userState }) => ({
+const mapStateToProps = ({ loggedUserState, userState, settingsState }) => ({
   isLoggedUser: loggedUserState.isLoggedUser,
-  user: loggedUserState.member
+  user: userState,
+  lastBuild: settingsState.lastBuild
 })
 
-export default connect(mapStateToProps)(withSessionChecker(App))
+export default connect(mapStateToProps, { syncData })(withSessionChecker(App))

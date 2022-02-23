@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'

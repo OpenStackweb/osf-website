@@ -43,7 +43,6 @@ const userReducer = (state = DEFAULT_STATE, action) => {
         currentAffiliations: [...state.currentAffiliations, affiliation]
       };
     }
-      break;
     case AFFILIATION_SAVED: {
       let affiliation = { ...payload.response };
       return {
@@ -58,7 +57,6 @@ const userReducer = (state = DEFAULT_STATE, action) => {
         })
       };
     }
-      break;
     case AFFILIATION_DELETED: {
       let { affiliationId } = payload;
       let affiliations = state.currentAffiliations.filter(a => a.id !== affiliationId);
@@ -67,12 +65,10 @@ const userReducer = (state = DEFAULT_STATE, action) => {
         currentAffiliations: affiliations
       };
     }
-      break;
     case MEMBERSHIP_TYPE_UPDATED: {
       let member = { ...payload.response };
       return { ...state, currentMembershipType: member.membership_type };
     }
-      break;
     default:
       return state;
   }

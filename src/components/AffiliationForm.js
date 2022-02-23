@@ -69,11 +69,10 @@ const AffiliationForm = class extends React.Component {
     }
 
     render() {
-        console.log("AffiliationForm::render")
         return (
             <div className="affiliation-form">
                 <div className="field">
-                    <label className="label">Job title</label>
+                    <label className="label" htmlFor="job_title" >Job title</label>
                     <div className="control">
                         <input type="text" id="job_title" name="job_title" value={this.state.job_title}
                                onChange={this.onHandleChangeCell}/>
@@ -83,7 +82,7 @@ const AffiliationForm = class extends React.Component {
                     }
                 </div>
                 <div className="field">
-                    <label className="label">Organization</label>
+                    <label className="label" htmlFor="organization">Organization</label>
                     <div className="control">
                         <OrganizationInput
                             id="organization"
@@ -99,7 +98,7 @@ const AffiliationForm = class extends React.Component {
                     }
                 </div>
                 <div className="field">
-                    <label className="label">Start date</label>
+                    <label className="label" htmlFor="start_date">Start date</label>
                     <div className="control">
                         <DateTimePicker
                             wrapperClassName="datepicker"
@@ -115,7 +114,7 @@ const AffiliationForm = class extends React.Component {
                     }
                 </div>
                 <div className="field">
-                    <label className="label">End date</label>
+                    <label className="label" htmlFor="end_date">End date</label>
                     <div className="control">
                         <DateTimePicker
                             wrapperClassName="datepicker"
@@ -132,7 +131,7 @@ const AffiliationForm = class extends React.Component {
                 </div>
                 <div className="field">
                     <div className="control">
-                        <label className="checkbox">
+                        <label className="checkbox" htmlFor="is_current">
                             <input id="is_current" type="checkbox" checked={this.state.is_current}
                                    onChange={this.onHandleChangeCell}/> Is Current?
                             {this.state.validationErrors.hasOwnProperty('is_current') &&

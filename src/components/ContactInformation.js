@@ -12,7 +12,7 @@ const ContactInformation = class extends React.Component {
             <div className="column">
               {content.images.map((img, index) => {
                 return (
-                  <img src={img.image} width={img.width} height={img.height} id={index < 1 ? 'aboutstaff-s3-id-pic2': 'aboutstaff-s3-id-pic3'} alt="" key={index} /> 
+                  <img src={img.image} width={img.width} height={img.height} id={index < 1 ? 'aboutstaff-s3-id-pic2': 'aboutstaff-s3-id-pic3'} alt="about" key={index} />
                 )
               })}
             </div> 

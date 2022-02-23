@@ -31,7 +31,7 @@ export const AboutPageTemplate = ({
             <div className="container about-s1-container">
               <div className="columns">
                 <div className="column">
-                  <img class="about-full-logo" src="/img/OpenInfrastructureFoundation-logo-RGB-horiz2.png" />
+                  <img className="about-full-logo" alt="about-full-logo" src="/img/OpenInfrastructureFoundation-logo-RGB-horiz2.png" />
                   <PageContent content={content} />
                 </div>
               </div>

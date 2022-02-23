@@ -57,7 +57,7 @@ const Affiliations = class extends React.Component {
         return (
             <div className="affiliations">
                 <h2>Affiliations</h2>
-                <button role="button" onClick={this.onAddHandle}>Add new Affiliation</button>
+                <button onClick={this.onAddHandle}>Add new Affiliation</button>
                 { this.state.showModal &&
                 <div className="modal is-active">
                     <div className="modal-background"/>
@@ -90,10 +90,9 @@ const Affiliations = class extends React.Component {
                                     <td key="end_date">{formatEpoch(a.end_date, "YYYY-MM-DD")}</td>
                                     <td key="is_current">{a.is_current ? 'Yes' : 'No'}</td>
                                     <td>
-                                        <button role="button" data-id={a.id} onClick={this.onHandleEdit}>Edit</button>
+                                        <button data-id={a.id} onClick={this.onHandleEdit}>Edit</button>
                                         &nbsp;
-                                        <button role="button" data-id={a.id} onClick={this.onHandleDelete}>Delete
-                                        </button>
+                                        <button data-id={a.id} onClick={this.onHandleDelete}>Delete</button>
                                     </td>
                                 </tr>
                             )

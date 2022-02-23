@@ -22,7 +22,7 @@ class KeynotesPromo extends React.Component {
       </div>
       <div>
         <a href="https://openinfralivekeynotes.eventbrite.com/">
-          Register Now <img src={leftArrow} alt="" />
+          Register Now <img src={leftArrow} alt="left arrow" />
         </a>
       </div>
       <img src={ColorBar} className="multi-color-border" alt="Color Bar" />

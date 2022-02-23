@@ -55,7 +55,7 @@ const FeaturedRoll = ({ news }) => {
               <div className="article-excerpt-featured" key={index}>
                 <div className="column is-one-quarter">
                   <div className="article-excerpt-image">
-                    <img src={post.image} />
+                    <img src={post.image} alt="post image" />
                   </div>
                 </div>
                 <div className="column is-three-quarters">

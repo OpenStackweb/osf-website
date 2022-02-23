@@ -768,6 +768,7 @@
 .home-s8-container-child {
   display: inline-block !important;
   margin-top: 2em;
+  width: 20px;
   @media (max-width: $screen-md-min){
     margin-top: 1em;
     margin-right: 0;
@@ -789,5 +790,26 @@
 .carousel-control-next{
   @media (max-width: $screen-md-min){
     width: 4%;
+  } 
+}
+
+ul.slick-dots {
+  margin-left: unset;
+  margin-top: unset;
+  bottom: -30px;
+  li {
+    bottom: unset;
+    margin-top: 15px;
   }
+}
+
+.slick-slider {
+  margin-bottom: 60px;
+  @media (max-width: $screen-md-min){
+    margin-bottom: 100px;
+  }
+}
+
+.content ul {
+  margin-left: unset;
 }

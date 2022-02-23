@@ -38,7 +38,7 @@ export const CareersPageTemplate = ({
                   {row1.images.map((image, index) => {
                     if (image.image) {
                       return (
-                        <img src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} id={index < 1 ? 'about-s1-id-pic4' : 'about-s1-id-pic5'} alt="" key={index} />
+                        <img src={!!image.image.childImageSharp ? image.image.childImageSharp.fluid.src : image.image} id={index < 1 ? 'about-s1-id-pic4' : 'about-s1-id-pic5'} alt="img" key={index} />
                       )
                     }
                   })}

@@ -28,20 +28,16 @@ const memberReducer = (state = DEFAULT_STATE, action) => {
     case LOGOUT_USER: {
       return DEFAULT_STATE;
     }
-    break;
     case GET_MEMBERS: {
       return { ...state, loading_members: true }
     }
-      break;
     case GET_MEMBERS_SUCCESS: {
       const { data, current_page, last_page } = payload.response;
       return { ...state, members_list: data, current_page, last_page, loading_members: false }
     }
-      break;
     case GET_MEMBERS_ERROR: {
       return { ...state, loading_members: false }
     }
-      break;
     case GET_MEMBER_PROFILE_SUCCESS: {
       return { ...state, member_profile: payload.response }
     }

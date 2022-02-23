@@ -8,7 +8,7 @@ const DEFAULT_STATE = {
 }
 
 const summitReducer = (state = DEFAULT_STATE, action) => {
-    const { type, payload } = action
+    const { type } = action
 
     switch (type) {
         case SET_LOGGED_USER:

@@ -21,14 +21,14 @@ const MembershipType = class extends React.Component {
             return(<div className="membership-type-container">
                 <div>You are logged in as <b>{this.props.userName}</b></div>
                 <div>Current Member Level: <b>{this.props.currentType}</b></div>
-                <button role="button" id="resign" onClick={handleResign}>Resign Membership</button>&nbsp;<button role="button" id="foundation" onClick={handleConvertFoundationMember}>Make Me a Foundation Member</button>
+                <button id="resign" onClick={handleResign}>Resign Membership</button>&nbsp;<button id="foundation" onClick={handleConvertFoundationMember}>Make Me a Foundation Member</button>
             </div>);
         }
         if(initialType === MEMBERSHIP_TYPE_FOUNDATION){
             return(<div className="membership-type-container">
                 <div>You are logged in as <b>{this.props.userName}</b></div>
                 <div>Current Member Level: <b>{this.props.currentType}</b></div>
-                <button role="button" id="resign" onClick={handleResign}>Resign Membership</button>&nbsp;<button role="button" id="community" onClick={handleConvertCommunityMember}>Change to Community Member</button>
+                <button id="resign" onClick={handleResign}>Resign Membership</button>&nbsp;<button id="community" onClick={handleConvertCommunityMember}>Change to Community Member</button>
             </div>);
         }
         if(initialType === MEMBERSHIP_TYPE_NONE){
@@ -37,10 +37,10 @@ const MembershipType = class extends React.Component {
                {currentType === MEMBERSHIP_TYPE_NONE &&
                    <p>** Please select a Membership Type</p>
                }
-               <button role="button" className={'btn btn-select-membership-type'+(currentType === 'foundation'?" active":"")} id="foundation"
+               <button className={'btn btn-select-membership-type'+(currentType === 'foundation'?" active":"")} id="foundation"
                        data-membership-type="foundation"
-                       onClick={this.onSelectMembershipType}>Make Me a Foundation Member</button>&nbsp;<button
-               role="button" id="community"
+                       onClick={this.onSelectMembershipType}>Make Me a Foundation Member</button>&nbsp;
+               <button id="community"
                className={'btn btn-select-membership-type'+(currentType === 'community'?" active":"")}
                data-membership-type="community"
                onClick={this.onSelectMembershipType}>Make Me a Community Member</button>

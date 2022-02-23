@@ -43,7 +43,7 @@ export const JoinIndividualPageTemplate = ({
                         </div>
                         <div className="header-right">
                             <div className="picture">
-                                <img src={!!header.image.childImageSharp ? header.image.childImageSharp.fluid.src : header.image} />
+                                <img alt="img" src={!!header.image.childImageSharp ? header.image.childImageSharp.fluid.src : header.image} />
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ export const JoinIndividualPageTemplate = ({
                         <div className="member-row">
                             <div className="member-left">
                                 <div className="picture">
-                                    <img src={!!individualMember.image.childImageSharp ? individualMember.image.childImageSharp.fluid.src : individualMember.image} />
+                                    <img alt="img" src={!!individualMember.image.childImageSharp ? individualMember.image.childImageSharp.fluid.src : individualMember.image} />
                                 </div>
                             </div>
                             <div className="member-right">
@@ -81,7 +81,7 @@ export const JoinIndividualPageTemplate = ({
                                     <LinkComponent
                                         className='button-individual membership_action'
                                         href={individualMember.button.link}>
-                                        {individualMember.button.text} <img src={leftArrow} alt="" />
+                                        {individualMember.button.text} <img src={leftArrow} alt="left arrow" />
                                     </LinkComponent>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@ export const JoinIndividualPageTemplate = ({
                                 <LinkComponent
                                     className='membership_action'
                                     href={additional.button.link}>
-                                    {additional.button.text} <img src={leftArrow} alt="" />
+                                    {additional.button.text} <img src={leftArrow} alt="left arrow" />
                                 </LinkComponent>
                             </div>
                         </div>

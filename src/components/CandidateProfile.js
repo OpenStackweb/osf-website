@@ -54,7 +54,7 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
                 {ready && electionStatus.status === 'NominationsOpen' ?
                     today > electionStatus.nomination_opens * 1000 && today < electionStatus.nomination_application_deadline * 1000 ?
                         <span>
-                            <p>Nominations are currently closed. Elections start {moment(electionStatus.nomination_opens * 1000).format('dddd, MMMM DD, YYYY')}. See the <a href="">Election Details</a>.</p>
+                            <p>Nominations are currently closed. Elections start {moment(electionStatus.nomination_opens * 1000).format('dddd, MMMM DD, YYYY')}. See the <a href="#">Election Details</a>.</p>
                             {electionProfile?.candidate_profile?.is_gold_member &&
                                 <span>
                                     If you are a Gold Member Candidate, you can still edit your <LinkComponent href="/a/profile/candidate">Candidate Profile</LinkComponent>.

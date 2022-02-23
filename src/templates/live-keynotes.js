@@ -64,7 +64,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
                   <br />
                   <a href={hero.buttonURL} className="cta">
                     {hero.buttonText}
-                    <img src={leftArrow} alt="" />
+                    <img src={leftArrow} alt="left arrow" />
                   </a>
                   <a className="schedule-promo-link" href="#schedule">See the Schedule</a>
                 </div>

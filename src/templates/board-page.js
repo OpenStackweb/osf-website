@@ -40,17 +40,17 @@ export const BoardPageTemplate = ({
                       <div className="card-social-container-icons">
                         {member.openStack &&
                           <LinkComponent href={member.openStack}>
-                            <img src="/img/symbols/icon-1.svg" alt="icon" className="card-social-icons" />
+                            <img src="/img/symbols/icon-1.svg" alt="icon" className="card-social-icons" alt="card-social-icons" />
                           </LinkComponent>
                         }
                         {member.twitter &&
                           <LinkComponent href={member.twitter}>
-                            <img src="/img/symbols/icon-3.svg" alt="icon" className="card-social-icons" />
+                            <img src="/img/symbols/icon-3.svg" alt="icon" className="card-social-icons" alt="card-social-icons" />
                           </LinkComponent>
                         }
                         {member.linkedin &&
                           <LinkComponent href={member.linkedin}>
-                            <img src="/img/symbols/icon-4.svg" alt="icon" className="card-social-icons" />
+                            <img src="/img/symbols/icon-4.svg" alt="icon" className="card-social-icons" alt="card-social-icons" />
                           </LinkComponent>
                         }
                       </div>
@@ -60,7 +60,7 @@ export const BoardPageTemplate = ({
                             <div className="media-left">
                               <figure className="image is-128x128">
                                 {member.picture ?
-                                  <img src={!!member.picture.childImageSharp ? member.picture.childImageSharp.fluid.src : member.picture} alt="" />
+                                  <img src={!!member.picture.childImageSharp ? member.picture.childImageSharp.fluid.src : member.picture} alt="img" />
                                   :
                                   null
                                 }

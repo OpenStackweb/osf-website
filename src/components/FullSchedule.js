@@ -12,23 +12,21 @@ const FullSchedule = ({
   summit,
   className,
   userProfile,
-  colorSettings,
-  homeSettings,
+  marketingSettings,
   addToSchedule,
   removeFromSchedule,
   callAction,
   filters,
   view,
-    schedKey,
+  schedKey,
   ...rest
 }) => {
   const componentProps = {
     title: "Schedule",
     summit,
-    marketingSettings: colorSettings,
+    marketingSettings,
     userProfile,
     withThumbs: false,
-    defaultImage: homeSettings.schedule_default_image,
     showSendEmail: false,
     onStartChat: null,
     shareLink: getShareLink(filters, view),
@@ -58,10 +56,8 @@ const FullSchedule = ({
   );
 };
 
-const mapStateToProps = ({ userState, settingState }) => ({
+const mapStateToProps = ({ userState }) => ({
   userProfile: userState.userProfile,
-  colorSettings: settingState.colorSettings,
-  homeSettings: settingState.homeSettings,
 });
 
 export default connect(mapStateToProps, {

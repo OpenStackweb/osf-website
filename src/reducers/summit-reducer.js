@@ -4,7 +4,7 @@ import {RESET_STATE, SYNC_DATA} from "../actions/base-actions";
 
 const DEFAULT_STATE = {
     loading: false,
-    current_summit: summit,
+    summit,
 }
 
 const summitReducer = (state = DEFAULT_STATE, action) => {

@@ -179,7 +179,7 @@ SummitSponsorPage.propTypes = {
 
 export default connect(({loggedUserState, summitState}) => ({
   isLoggedUser: loggedUserState.isLoggedUser,
-  summit: summitState.current_summit
+  summit: summitState.summit
 }))(SummitSponsorPage)
 
 export const summitSponsorPageQuery = graphql`

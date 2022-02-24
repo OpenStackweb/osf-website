@@ -11,6 +11,15 @@ import FilterButton from "../components/FilterButton";
 import NotFoundPage from "../pages/404";
 import styles from "../style/full-schedule.module.scss";
 
+const dummyMarketingSettings = {
+    "colors": {
+        "color_primary": "#5e5f62",
+        "color_secondary": "#262673",
+        "color_text_dark": "#5e5f62",
+        "color_text_light": "#ffffff"
+    }
+};
+
 const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, updateFiltersFromHash, scheduleProps, schedKey }) => {
     const [showFilters, setShowfilters] = useState(false);
     const scheduleState = schedules.find( s => s.key === schedKey);
@@ -36,6 +45,7 @@ const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, 
             updateFilter(schedKey, payload);
         },
         colorSource,
+        marketingSettings: dummyMarketingSettings
     };
 
     let schedProps = {
@@ -46,6 +56,7 @@ const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, 
         timezone,
         colorSource,
         schedKey,
+        marketingSettings: dummyMarketingSettings,
         ...scheduleProps
     };
 

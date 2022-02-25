@@ -9,7 +9,12 @@ import FullSchedule from "../components/FullSchedule";
 import ScheduleFilters from "../components/ScheduleFilters";
 import FilterButton from "../components/FilterButton";
 import NotFoundPage from "../pages/404";
+import SEO from "../components/SEO";
+import TopBar from "../components/TopBar";
+import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 import styles from "../style/full-schedule.module.scss";
+
 
 const dummyMarketingSettings = {
     "colors": {
@@ -20,7 +25,7 @@ const dummyMarketingSettings = {
     }
 };
 
-const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, updateFiltersFromHash, scheduleProps, schedKey }) => {
+const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, updateFiltersFromHash, scheduleProps, schedKey, headerTitle }) => {
     const [showFilters, setShowfilters] = useState(false);
     const scheduleState = schedules.find( s => s.key === schedKey);
     const {events, allEvents, filters, view, timezone, colorSource} = scheduleState || {};
@@ -45,7 +50,7 @@ const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, 
             updateFilter(schedKey, payload);
         },
         colorSource,
-        marketingSettings: dummyMarketingSettings
+        marketingSettings: dummyMarketingSettings,
     };
 
     let schedProps = {
@@ -57,6 +62,7 @@ const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, 
         colorSource,
         schedKey,
         marketingSettings: dummyMarketingSettings,
+        title: null,
         ...scheduleProps
     };
 
@@ -70,23 +76,34 @@ const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, 
 
     return (
         <Layout location={location}>
-            <div className="container">
-                <div className={`${styles.wrapper} ${showFilters ? styles.showFilters : ""}`}>
-                    <div className={styles.scheduleWrapper}>
-                        <FullSchedule {...schedProps} />
-                    </div>
-                    <div className={styles.filterWrapper}>
-                        <ScheduleFilters {...filterProps} />
-                    </div>
-                    <FilterButton open={showFilters} onClick={() => setShowfilters(!showFilters)} />
-                </div>
+            <SEO />
+            <div className="wrapper project-background">
+                <TopBar />
+                <Navbar isLoggedUser={isLoggedUser} />
+                <Header title={headerTitle} />
             </div>
+            <main className="main">
+                <div className="content">
+                    <div className="container">
+                        <div className={`${styles.wrapper} ${showFilters ? styles.showFilters : ""}`}>
+                            <div className={styles.scheduleWrapper}>
+                                <FullSchedule {...schedProps} />
+                            </div>
+                            <div className={styles.filterWrapper}>
+                                <ScheduleFilters {...filterProps} />
+                            </div>
+                            <FilterButton open={showFilters} onClick={() => setShowfilters(!showFilters)} />
+                        </div>
+                    </div>
+                </div>
+            </main>
         </Layout>
     );
 };
 
 SchedulePage.propTypes = {
     schedKey: PropTypes.string.isRequired,
+    headerTitle: PropTypes.string.isRequired,
     summitPhase: PropTypes.number,
     isLoggedUser: PropTypes.bool,
 };

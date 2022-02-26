@@ -63,13 +63,14 @@ const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, 
         schedKey,
         marketingSettings: dummyMarketingSettings,
         title: null,
-        ...scheduleProps
+        ...scheduleProps,
     };
 
     if (isLoggedUser) {
         schedProps = {
             ...schedProps,
-            onEventClick: (ev) => navigate(`/a/event/${ev.id}`, { state: { previousUrl: location.pathname }}),
+            // @todo implement
+            //onEventClick: (ev) => navigate(`/a/event/${ev.id}`, { state: { previousUrl: location.pathname }}),
             onStartChat: null,
         };
     }

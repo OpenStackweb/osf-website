@@ -2,7 +2,7 @@ import moment from "moment-timezone";
 import { epochToMomentTimeZone } from "openstack-uicore-foundation/lib/methods";
 import { isString } from "lodash";
 import { getEnvVariable, SCHEDULE_EXCLUDING_TAGS } from "./envVariables";
-import {getUserAccessLevelIds} from './authorizedGroups';
+import {getUserAccessLevelIds, isAuthorizedUser} from './authorizedGroups';
 
 const groupByDay = (events) => {
   let groupedEvents = [];
@@ -37,8 +37,10 @@ const userHasAccessToEvent = (event, userAccessLevels) => {
   return false;
 }
 
-export const filterEventsByAccessLevel = (events, summitTickets) => {
-  const userAccessLevels = getUserAccessLevelIds(summitTickets);
+export const filterEventsByAccessLevel = (events, userProfile) => {
+  // if user is on auth groups... dont filter
+  if(isAuthorizedUser(userProfile?.groups ?? [])) return events;
+  const userAccessLevels = getUserAccessLevelIds(userProfile?.summit_tickets ?? []);
 
   // if user has no access levels we can't show any event.
   if (userAccessLevels.length === 0) return [];
@@ -61,7 +63,7 @@ const filterMyEvents = (myEvents, events) => {
 };
 
 export const preFilterEvents = (events, filters, summitTimezone, userProfile, filterByAccessLevel, filterByMySchedule) => {
-  const {summit_tickets = [], schedule_summit_events = []} = userProfile || {};
+  const {schedule_summit_events = []} = userProfile || {};
   let result = [...events];
 
   if (filterByMySchedule) {
@@ -69,7 +71,7 @@ export const preFilterEvents = (events, filters, summitTimezone, userProfile, fi
   }
 
   if (filterByAccessLevel) {
-    result = filterEventsByAccessLevel(result, summit_tickets);
+    result = filterEventsByAccessLevel(result, userProfile);
   }
 
   return getFilteredEvents(result, filters, summitTimezone);

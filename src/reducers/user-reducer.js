@@ -42,10 +42,8 @@ const userReducer = (state = DEFAULT_STATE, action) => {
     case STOP_LOADING_IDP_PROFILE:
       return { ...state, loadingIDP: false };
     case GET_IDP_PROFILE:
-      debugger;
       return { ...state, idpProfile: payload.response }
     case GET_USER_PROFILE:
-      debugger;
       const { response: userProfile } = payload;
       return { ...state,
         userProfile: userProfile,
@@ -53,7 +51,6 @@ const userReducer = (state = DEFAULT_STATE, action) => {
      //   hasTicket: userProfile.summit_tickets?.length > 0
       }
     case RECEIVE_USER_INFO:
-      debugger;
       let { response } = action.payload;
       let affiliations = response.affiliations.map((a) => {
         return { ...a };

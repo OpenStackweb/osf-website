@@ -15,14 +15,12 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import styles from "../style/full-schedule.module.scss";
 
-
+//@todo: connect to marketing api
 const dummyMarketingSettings = {
-    "colors": {
-        "color_primary": "#5e5f62",
-        "color_secondary": "#262673",
-        "color_text_dark": "#5e5f62",
-        "color_text_light": "#ffffff"
-    }
+    "color_primary": "#5e5f62",
+    "color_secondary": "#262673",
+    "color_text_dark": "#5e5f62",
+    "color_text_light": "#ffffff"
 };
 
 const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, updateFiltersFromHash, scheduleProps, schedKey, headerTitle }) => {

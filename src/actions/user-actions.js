@@ -9,6 +9,7 @@ import {
   authErrorHandler
 } from "openstack-uicore-foundation/lib/methods";
 import axios from "axios";
+import {syncData} from "./base-actions";
 
 export const START_LOADING_IDP_PROFILE = 'START_LOADING_IDP_PROFILE';
 export const STOP_LOADING_IDP_PROFILE = 'STOP_LOADING_IDP_PROFILE';
@@ -253,6 +254,8 @@ export const addToSchedule = (event) => (dispatch, getState) => {
       url, { access_token: accessToken }
   ).then(() => {
     dispatch(createAction(ADD_TO_SCHEDULE)(event));
+    // to resynch all event data
+    dispatch(syncData());
     return event;
   }).catch(e => {
     console.log('ERROR: ', e);
@@ -270,6 +273,8 @@ export const removeFromSchedule = (event) => (dispatch, getState) => {
       url, { data: { access_token: accessToken } }
   ).then(() => {
     dispatch(createAction(REMOVE_FROM_SCHEDULE)(event));
+    // to resynch all event data
+    dispatch(syncData());
     return event;
   }).catch(e => {
     console.log('ERROR: ', e);

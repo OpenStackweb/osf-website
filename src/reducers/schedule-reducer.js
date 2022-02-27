@@ -22,6 +22,7 @@ const scheduleReducer = (state = INITIAL_STATE, action) => {
             return {...state, events: filteredEvents, allEvents: allFilteredEvents};
         }
         case `SCHED_SYNC_DATA`: {
+
             const {
                 color_source,
                 pre_filters,

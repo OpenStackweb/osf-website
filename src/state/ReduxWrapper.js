@@ -24,7 +24,11 @@ const clientId = typeof window === 'object' ? window.OAUTH2_CLIENT_ID : process.
 const config = {
   key: `root_${clientId}`,
   storage,
-  blacklist: ['sponsorState']
+  whitelist:
+      [
+          'loggedUserState',
+          'userState',
+      ]
 }
 
 const persistedReducers = persistCombineReducers(config, {

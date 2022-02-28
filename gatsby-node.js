@@ -7,7 +7,7 @@ const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 const { ClientCredentials } = require('simple-oauth2');
 
 const myEnv = require("dotenv").config({
-  path: `.env`,
+  path: `.env.${process.env.NODE_ENV}`,
   expand: true
 });
 

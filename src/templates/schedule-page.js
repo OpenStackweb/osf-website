@@ -1,19 +1,23 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { pickBy } from "lodash";
 import { navigate } from "gatsby";
 import { connect } from "react-redux";
 import { updateFiltersFromHash, updateFilter } from "../actions/schedule-actions";
+import { syncData } from "../actions/base-actions";
 import Layout from "../components/Layout";
 import FullSchedule from "../components/FullSchedule";
 import ScheduleFilters from "../components/ScheduleFilters";
 import FilterButton from "../components/FilterButton";
+import SubNav from '../components/SummitSubNav'
 import NotFoundPage from "../pages/404";
 import SEO from "../components/SEO";
 import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import styles from "../style/full-schedule.module.scss";
+import ScheduleBanner from "../components/ScheduleBanner";
+import PrivateRoute from "../routes/PrivateRoute";
 
 //@todo: connect to marketing api
 const dummyMarketingSettings = {
@@ -23,10 +27,10 @@ const dummyMarketingSettings = {
     "color_text_light": "#ffffff"
 };
 
-const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, updateFiltersFromHash, scheduleProps, schedKey, headerTitle }) => {
+const SchedulePageTemplate = ({ summit, schedules, isLoggedUser, updateFilter, updateFiltersFromHash, scheduleProps, schedKey, headerTitle }) => {
     const [showFilters, setShowfilters] = useState(false);
-    const scheduleState = schedules.find( s => s.key === schedKey);
-    const {events, allEvents, filters, view, timezone, colorSource} = scheduleState || {};
+    const scheduleState = schedules.find(s => s.key === schedKey);
+    const { events, allEvents, filters, view, timezone, colorSource } = scheduleState || {};
 
     useEffect(() => {
         updateFiltersFromHash(schedKey, filters, view);
@@ -74,11 +78,11 @@ const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, 
     }
 
     return (
-        <Layout location={location}>
-            <SEO />
+        <div>
             <div className="wrapper project-background">
                 <TopBar />
                 <Navbar isLoggedUser={isLoggedUser} />
+                <SubNav active="summit-schedule" pageName="Schedule" />
                 <Header title={headerTitle} />
             </div>
             <main className="main">
@@ -90,22 +94,67 @@ const SchedulePage = ({summit, schedules, isLoggedUser, location, updateFilter, 
                             </div>
                             <div className={styles.filterWrapper}>
                                 <ScheduleFilters {...filterProps} />
+                                <ScheduleBanner />
                             </div>
                             <FilterButton open={showFilters} onClick={() => setShowfilters(!showFilters)} />
                         </div>
                     </div>
                 </div>
             </main>
-        </Layout>
+        </div>
     );
 };
 
-SchedulePage.propTypes = {
+SchedulePageTemplate.propTypes = {
     schedKey: PropTypes.string.isRequired,
     headerTitle: PropTypes.string.isRequired,
     summitPhase: PropTypes.number,
     isLoggedUser: PropTypes.bool,
 };
+
+const SchedulePage = ({ location, isLoggedUser, summit, schedules, updateFiltersFromHash, updateFilter, syncData, data }) => {
+
+    useEffect(() => {
+        syncData();
+    }, [])
+
+    const { markdownRemark: post } = data
+
+    if (post.frontmatter.schedKey === 'my-schedule-main') {
+        return (
+            <PrivateRoute location={location}>
+                <Layout location={location}>
+                    <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
+                    <SchedulePageTemplate
+                        summit={summit}
+                        schedules={schedules}
+                        isLoggedUser={isLoggedUser}
+                        updateFilter={updateFilter}
+                        updateFiltersFromHash={updateFiltersFromHash}
+                        schedKey={post.frontmatter.schedKey}
+                        headerTitle={post.frontmatter.headerTitle}
+                    />
+                </Layout>
+            </PrivateRoute>
+        )
+    }
+
+    return (
+        <Layout location={location}>
+            <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
+            <SchedulePageTemplate
+                summit={summit}
+                schedules={schedules}
+                isLoggedUser={isLoggedUser}
+                updateFilter={updateFilter}
+                updateFiltersFromHash={updateFiltersFromHash}
+                schedKey={post.frontmatter.schedKey}
+                headerTitle={post.frontmatter.headerTitle}
+            />
+        </Layout>
+    )
+
+}
 
 const mapStateToProps = ({ summitState, loggedUserState, allSchedulesState }) => ({
     summit: summitState.summit,
@@ -113,4 +162,30 @@ const mapStateToProps = ({ summitState, loggedUserState, allSchedulesState }) =>
     schedules: allSchedulesState.schedules,
 });
 
-export default connect(mapStateToProps, { updateFiltersFromHash, updateFilter })(SchedulePage);
+export default connect(mapStateToProps, { updateFiltersFromHash, updateFilter, syncData })(SchedulePage);
+
+export const summitScheduleQuery = graphql`
+  query SummitSchedule($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        seo {
+          title
+          description
+          url
+          image {
+            childImageSharp {
+              fluid(maxWidth: 640, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            publicURL
+          }
+          twitterUsername
+        }
+        headerTitle
+        schedKey  
+      }
+    }
+  }
+`

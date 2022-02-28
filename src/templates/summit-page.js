@@ -31,7 +31,7 @@ export const SummitPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav active="summit" pageName="Home" />
+        <SubNav active="summit" pageName="Home" isLoggedUser={isLoggedUser} />
       </div>
 
       <main className="main">

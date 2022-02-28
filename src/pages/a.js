@@ -32,7 +32,7 @@ const App = ({ isLoggedUser, user, lastBuild, syncData }) => {
       {({ location }) => (
         <Router basepath="/a" >
           <PrivateRoute path="/" location={location}>
-            <SchedulePage path="/summit/my-schedule" schedKey="my-schedule-main" location={location} headerTitle="My Schedule" />
+            <SchedulePage path="/summit-my-schedule" schedKey="my-schedule-main" location={location} headerTitle="My Schedule" />
             <ProfilePage path="/profile" isLoggedIn={isLoggedUser} user={user} location={location} />
             <CandidatePage path="/profile/candidate" isLoggedIn={isLoggedUser} user={user} location={location} />
             <MembershipResignPage path="/profile/membership/resign" isLoggedIn={isLoggedUser} user={user} location={location} />

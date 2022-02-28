@@ -7,7 +7,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: 'Our Philosophy: The Four Opens'
   twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/summit/schedule'
+  url: 'https://openinfra.dev/summit-schedule'
 headerTitle: Summit Schedule
 schedKey: schedule-main
 ---

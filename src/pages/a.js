@@ -6,7 +6,6 @@ import settings from '../content/settings';
 
 import PrivateRoute from '../routes/PrivateRoute'
 import withSessionChecker from "../utils/withSessionChecker"
-import SchedulePage from "../templates/schedule-page";
 import ProfilePage from "../templates/profile-page";
 import RegistrationPage from "../templates/registration-page";
 import ErrorPage from "../templates/error-page";
@@ -32,8 +31,6 @@ const App = ({ isLoggedUser, user, lastBuild, syncData }) => {
       {({ location }) => (
         <Router basepath="/a" >
           <PrivateRoute path="/" location={location}>
-            <SchedulePage path="/schedule" schedKey="schedule-main" location={location} headerTitle="Summit Schedule" />
-            <SchedulePage path="/my-schedule" schedKey="my-schedule-main" location={location} headerTitle="My Schedule" />
             <ProfilePage path="/profile" isLoggedIn={isLoggedUser} user={user} location={location} />
             <CandidatePage path="/profile/candidate" isLoggedIn={isLoggedUser} user={user} location={location} />
             <MembershipResignPage path="/profile/membership/resign" isLoggedIn={isLoggedUser} user={user} location={location} />

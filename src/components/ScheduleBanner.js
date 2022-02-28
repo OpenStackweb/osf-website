@@ -11,10 +11,10 @@ const ScheduleBanner = () => {
                 <b>The Summit Schedule has been released!</b>
             </span>
             <span>
-                Register before prices increase on Marth 16!
+                Register before prices increase on March 16!
             </span>
             <button>
-                <LinkComponent href="#">Register Now<img src={leftArrow} alt="" /></LinkComponent>
+                <LinkComponent href="/summit">Register Now<img src={leftArrow} alt="left arrow" /></LinkComponent>
             </button>
         </div>
     )

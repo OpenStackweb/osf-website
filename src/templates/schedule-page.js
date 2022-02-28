@@ -112,44 +112,27 @@ SchedulePageTemplate.propTypes = {
     isLoggedUser: PropTypes.bool,
 };
 
-const SchedulePage = ({ location, isLoggedUser, summit, schedules, updateFiltersFromHash, updateFilter, syncData, data }) => {
+const SchedulePage = ({ location, isLoggedUser, summit, schedules, updateFiltersFromHash, updateFilter, syncData, schedKey, headerTitle, data }) => {
 
     useEffect(() => {
         syncData();
     }, [])
 
-    const { markdownRemark: post } = data
+    let post;
 
-    if (post.frontmatter.schedKey === 'my-schedule-main') {
-        return (
-            <PrivateRoute location={location}>
-                <Layout location={location}>
-                    <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
-                    <SchedulePageTemplate
-                        summit={summit}
-                        schedules={schedules}
-                        isLoggedUser={isLoggedUser}
-                        updateFilter={updateFilter}
-                        updateFiltersFromHash={updateFiltersFromHash}
-                        schedKey={post.frontmatter.schedKey}
-                        headerTitle={post.frontmatter.headerTitle}
-                    />
-                </Layout>
-            </PrivateRoute>
-        )
-    }
+    post = data?.markdownRemark ? data.markdownRemark : null;
 
     return (
         <Layout location={location}>
-            <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
+            <SEO seo={post?.frontmatter.seo ? post.frontmatter.seo : undefined} />
             <SchedulePageTemplate
                 summit={summit}
                 schedules={schedules}
                 isLoggedUser={isLoggedUser}
                 updateFilter={updateFilter}
                 updateFiltersFromHash={updateFiltersFromHash}
-                schedKey={post.frontmatter.schedKey}
-                headerTitle={post.frontmatter.headerTitle}
+                schedKey={post?.frontmatter.schedKey || schedKey}
+                headerTitle={post?.frontmatter.headerTitle || headerTitle}
             />
         </Layout>
     )

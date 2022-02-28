@@ -25,7 +25,7 @@ export const SummitSponsorPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav active="summit-sponsor" pageName="Sponsors" />
+        <SubNav active="summit-sponsor" pageName="Sponsors" isLoggedUser={isLoggedUser} />
       </div>
 
       <main className="main">

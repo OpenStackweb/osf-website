@@ -82,7 +82,7 @@ const SchedulePageTemplate = ({ summit, schedules, isLoggedUser, updateFilter, u
             <div className="wrapper project-background">
                 <TopBar />
                 <Navbar isLoggedUser={isLoggedUser} />
-                <SubNav active="summit-schedule" pageName="Schedule" />
+                <SubNav active="summit-schedule" pageName="Schedule" isLoggedUser={isLoggedUser} />
                 <Header title={headerTitle} />
             </div>
             <main className="main">

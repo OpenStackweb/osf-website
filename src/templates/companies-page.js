@@ -40,7 +40,6 @@ export const CompaniesPageTemplate = ({
         <div className="content">
           <div className="container">
             <section className="companies-s1-main">
-
               {sponsors.map((tier, index) => {
                 if (tier.is_active === true) {
                   return (

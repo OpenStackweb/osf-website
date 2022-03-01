@@ -51,7 +51,7 @@ export const getIDPProfile = () => (dispatch, getState) => {
 
 export const updatePassword = (password) => async (dispatch) => {
 
-  const accessToken = await getAccessToken();
+  let { loggedUserState: { accessToken } } = getState();
 
   if (!accessToken) return Promise.resolve();
 
@@ -78,7 +78,7 @@ export const updatePassword = (password) => async (dispatch) => {
 
 export const updateProfilePicture = (pic) => async (dispatch) => {
 
-  const accessToken = await getAccessToken();
+  let { loggedUserState: { accessToken } } = getState();
 
   if (!accessToken) return Promise.resolve();
 
@@ -102,7 +102,7 @@ export const updateProfilePicture = (pic) => async (dispatch) => {
 
 export const updateProfile = (profile) => async (dispatch) => {
 
-  const accessToken = await getAccessToken();
+  let { loggedUserState: { accessToken } } = getState();
 
   if (!accessToken) return Promise.resolve();
 

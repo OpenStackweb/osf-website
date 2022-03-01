@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { CompaniesPageTemplate } from '../../templates/companies-page'
 
+import sponsorMock from '../../content/sponsor-mock.json'
+
 const CompaniesPagePreview = ({ entry, widgetFor }) => {
 
   const data = entry.getIn(['data']).toJS()
@@ -20,6 +22,7 @@ const CompaniesPagePreview = ({ entry, widgetFor }) => {
             url: entry.getIn(['data', 'header', 'link', 'url']),
           }
         }}
+        sponsors={sponsorMock}
         sponsorsLevel={sponsors}
       />
     )

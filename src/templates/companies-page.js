@@ -41,7 +41,7 @@ export const CompaniesPageTemplate = ({
         <div className="content">
           <div className="container">
             <section className="companies-s1-main">
-              {sponsors.map((tier, index) => {
+              {sponsors?.map((tier, index) => {
                 const customWidth = sponsorsLevel.find(e => e.id === tier.id)?.width;
                 if (tier.is_active === true) {
                   return (

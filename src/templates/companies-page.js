@@ -21,6 +21,7 @@ export const CompaniesPageTemplate = ({
   isLoggedUser,
   header,
   sponsors,
+  sponsorsLevel,
   loading,
   content,
   contentComponent
@@ -41,6 +42,7 @@ export const CompaniesPageTemplate = ({
           <div className="container">
             <section className="companies-s1-main">
               {sponsors.map((tier, index) => {
+                const customWidth = sponsorsLevel.find(e => e.id === tier.id)?.width;
                 if (tier.is_active === true) {
                   return (
                     <div className="companies-s1-container" key={index}>
@@ -56,7 +58,7 @@ export const CompaniesPageTemplate = ({
                               return (
                                 <LinkComponent href={company?.description?.length > 0 ? `/a/members/profile/${tier.id}/${kebabCase(company.name)}` : company.url} key={companyIndex}>
                                   <img
-                                    src={`https://openinfra.dev/cdn-cgi/image/quality=75/${company.logo}`}
+                                    src={`https://openinfra.dev/cdn-cgi/image/quality=75${customWidth ? `,width=${customWidth}` : ''}/${company.logo}`}
                                     alt={company.name}
                                     key={company.id}
                                   />
@@ -99,6 +101,7 @@ const CompaniesPage = ({ isLoggedUser, data, getSponsorhipTypes, sponsors, loadi
         isLoggedUser={isLoggedUser}
         header={post.frontmatter.header}
         sponsors={sponsors.sort((a, b) => a.order - b.order)}
+        sponsorsLevel={post.frontmatter.sponsorsLevel}
         loading={loading}
       />
     </Layout>
@@ -143,7 +146,11 @@ export const companiesPageQuery = graphql`
             url
             text
           }
-        }        
+        }
+        sponsorsLevel {
+          id
+          width
+        }
       }
     }
   }

@@ -161,6 +161,13 @@
           opacity: 1;
         }
       }
+      .link-dropdown {
+        display: flex;
+        flex-direction: column;
+        a:not(:first-child) {
+          margin-top: 30px;
+        }
+      }
     }
     @media (max-width: 768px) {
       display: unset;

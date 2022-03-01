@@ -27,9 +27,10 @@ function SubNav(props) {
           <li><LinkComponent id="summit" href="/summit" className="link">Home</LinkComponent></li>
           <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" className="link">Sponsors</LinkComponent></li>
           <li><LinkComponent id="summit-tracks" href="/summit-tracks" className="link">Tracks</LinkComponent></li>
-          <li><a id="summit-faq" href="/summit-faq" className="link">FAQs</a></li>
-          <li><a id="summit-covid" href="/summit-covid" className="link">COVID-19</a></li>
-          {props.isLoggedUser ?
+          <li><LinkComponent id="summit-faq" href="/summit-faq" className="link">FAQs</LinkComponent></li>
+          <li><LinkComponent id="summit-covid" href="/summit-covid" className="link">COVID-19</LinkComponent></li>
+
+            {props.isLoggedUser ?
             <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)}>
               <LinkComponent id="summit-schedule" href="/summit-schedule" className="link" style={{ padding: 10, width: '120%', display: 'inline-flex' }}>
                 Schedule
@@ -57,11 +58,26 @@ function SubNav(props) {
       {isOpen &&
         <div className="subnav-dropdown">
           <ul id="links-list-mobile" className="links-list">
-            <li><a id="summit" href="/summit" className="link">Home</a></li>
-            <li><a id="summit-sponsor" href="/summit-sponsor" className="link">Sponsors</a></li>
-            <li><a id="summit-tracks" href="/summit-tracks" className="link">Tracks</a></li>
-            <li><a id="summit-faq" href="/summit-faq" className="link">FAQs</a></li>
-            <li><a id="summit-covid" href="/summit-covid" className="link">COVID-19</a></li>
+            <li><LinkComponent id="summit" href="/summit" className="link">Home</LinkComponent></li>
+            <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" className="link">Sponsors</LinkComponent></li>
+            <li><LinkComponent id="summit-tracks" href="/summit-tracks" className="link">Tracks</LinkComponent></li>
+            <li><LinkComponent id="summit-faq" href="/summit-faq" className="link">FAQs</LinkComponent></li>
+            <li><LinkComponent id="summit-covid" href="/summit-covid" className="link">COVID-19</LinkComponent></li>
+              {props.isLoggedUser ?
+              <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} className="link-dropdown">
+                <LinkComponent id="summit-schedule" href="/summit-schedule" className="link" >
+                  Schedule
+                  <i style={{ marginLeft: 5 }} className={`fa fa-chevron-down`} />
+                </LinkComponent>
+                {scheduleDropdown &&
+                  <LinkComponent id="summit-my-schedule" href="/a/summit-my-schedule" className="link">
+                    <span>My Schedule</span>
+                  </LinkComponent>
+                }
+              </li>
+              :
+              <li><LinkComponent id="summit-schedule" href="/summit-schedule" className="link">Schedule</LinkComponent></li>
+            }
           </ul>
         </div>
       }

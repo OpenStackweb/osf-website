@@ -60,8 +60,8 @@ const SSR_getEvents = async (baseUrl, summitId, accessToken, page = 1, results =
           expand: 'slides, links, videos, media_uploads, type, track, track.allowed_access_levels, location, location.venue, location.floor, speakers, moderator, sponsors, current_attendance, groups, rsvp_template, tags',
         }
       }).then(({data}) => {
-    if (data.page < data.last_page) {
-      return SSR_getEvents(baseUrl, summitId, accessToken, data.page + 1, data.data);
+    if (data.current_page < data.last_page) {
+      return SSR_getEvents(baseUrl, summitId, accessToken, data.current_page + 1, [...results, ...data.data]);
     }
 
     return [...results, ...data.data];
@@ -107,7 +107,6 @@ exports.onPreBootstrap = async () => {
   writeToJson('src/content/events.json', events);
 
 }
-
 
 // explicit Frontmatter declaration to make category, author and date, optionals. 
 exports.createSchemaCustomization = ({ actions }) => {

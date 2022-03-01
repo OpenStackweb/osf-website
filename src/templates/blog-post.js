@@ -83,7 +83,7 @@ const BlogPost = ({ isLoggedUser, data }) => {
         contentComponent={HTMLContent}
         helmet={
           <Helmet titleTemplate="%s | Blog">
-            {/* <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e11e4375-71b9-426d-a76d-61eae3ddc08f" type="text/javascript" async></script> */}
+            <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e11e4375-71b9-426d-a76d-61eae3ddc08f" type="text/javascript" async></script>
             <title>{`${post.frontmatter.seo.title ? post.frontmatter.seo.title : post.frontmatter.title}`}</title>
             <meta name="description" content={`${post.frontmatter.seo.description}`} />
             <meta property="og:type" content="article" />

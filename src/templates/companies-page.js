@@ -27,8 +27,6 @@ export const CompaniesPageTemplate = ({
 }) => {
   const PageContent = contentComponent || Content
 
-  console.log('sponsors', sponsors)
-
   return (
     <div>
       <AjaxLoader relative={true} color={'#ffffff'} show={loading} size={120} />
@@ -59,7 +57,7 @@ export const CompaniesPageTemplate = ({
                               return (
                                 <LinkComponent href={company?.description?.length > 0 ? `/a/members/profile/${tier.id}/${kebabCase(company.name)}` : company.url} key={companyIndex}>
                                   <img
-                                    src={company.logo}
+                                    src={`https://openinfra.dev/cdn-cgi/image/quality=75/${company.logo}`}
                                     alt={company.name}
                                     key={company.id}
                                   />

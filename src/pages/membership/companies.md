@@ -18,22 +18,22 @@ header:
     support our mission.
   title: Organizations supporting the OpenInfra Foundation
 sponsorsLevel:
-  - name: "PLATINUM MEMBERS"
+  - name: PLATINUM MEMBERS
     id: 1
-    width: ''
-  - name: "GOLD MEMBERS"
+    width: "70"
+  - name: GOLD MEMBERS
     id: 2
-    width: ''
-  - name: "SILVER MEMBERS"
+    width: ""
+  - name: SILVER MEMBERS
     id: 3
-    width: ''
-  - name: "ASSOCIATE MEMBERS"
+    width: ""
+  - name: ASSOCIATE MEMBERS
     id: 4
-    width: ''
-  - name: "INFRASTRUCTURE DONORS"
+    width: ""
+  - name: INFRASTRUCTURE DONORS
     id: 5
-    width: ''
-  - name: "SUPPORTING ORGANIZATIONS"
+    width: ""
+  - name: SUPPORTING ORGANIZATIONS
     id: 6
-    width: ''
+    width: ""
 ---

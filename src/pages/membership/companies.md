@@ -20,20 +20,20 @@ header:
 sponsorsLevel:
   - name: PLATINUM MEMBERS
     id: 1
-    width: "70"
+    width: "180"
   - name: GOLD MEMBERS
     id: 2
-    width: ""
+    width: "140"
   - name: SILVER MEMBERS
     id: 3
-    width: ""
+    width: "120"
   - name: ASSOCIATE MEMBERS
     id: 4
-    width: ""
+    width: "120"
   - name: INFRASTRUCTURE DONORS
     id: 5
-    width: ""
+    width: "120"
   - name: SUPPORTING ORGANIZATIONS
     id: 6
-    width: ""
+    width: "80"
 ---

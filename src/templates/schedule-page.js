@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { pickBy } from "lodash";
-import { navigate } from "gatsby";
 import { connect } from "react-redux";
 import { updateFiltersFromHash, updateFilter } from "../actions/schedule-actions";
 import { syncData } from "../actions/base-actions";
@@ -17,7 +16,7 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import styles from "../style/full-schedule.module.scss";
 import ScheduleBanner from "../components/ScheduleBanner";
-import PrivateRoute from "../routes/PrivateRoute";
+import settings from "../content/settings.json";
 
 //@todo: connect to marketing api
 const dummyMarketingSettings = {
@@ -112,19 +111,19 @@ SchedulePageTemplate.propTypes = {
     isLoggedUser: PropTypes.bool,
 };
 
-const SchedulePage = ({ location, isLoggedUser, summit, schedules, updateFiltersFromHash, updateFilter, syncData, schedKey, headerTitle, data }) => {
+const SchedulePage = ({ location, isLoggedUser, summit, schedules, updateFiltersFromHash, updateFilter, syncData, schedKey, headerTitle, data, lastBuild }) => {
+    const post = data?.markdownRemark ? data.markdownRemark : null;
+    const seo = post?.frontmatter.seo ? post.frontmatter.seo : undefined;
 
     useEffect(() => {
-        syncData();
-    }, [])
-
-    let post;
-
-    post = data?.markdownRemark ? data.markdownRemark : null;
+        if (!lastBuild || settings.lastBuild > lastBuild) {
+            syncData();
+        }
+    }, [lastBuild, syncData]);
 
     return (
         <Layout location={location}>
-            <SEO seo={post?.frontmatter.seo ? post.frontmatter.seo : undefined} />
+            <SEO seo={seo} />
             <SchedulePageTemplate
                 summit={summit}
                 schedules={schedules}
@@ -139,9 +138,10 @@ const SchedulePage = ({ location, isLoggedUser, summit, schedules, updateFilters
 
 }
 
-const mapStateToProps = ({ summitState, loggedUserState, allSchedulesState }) => ({
+const mapStateToProps = ({ summitState, settingsState, loggedUserState, allSchedulesState }) => ({
     summit: summitState.summit,
     isLoggedUser: loggedUserState.isLoggedUser,
+    lastBuild: settingsState.lastBuild,
     schedules: allSchedulesState.schedules,
 });
 

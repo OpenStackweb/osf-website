@@ -6,7 +6,7 @@ import {LOGOUT_USER} from "openstack-uicore-foundation/lib/actions";
 import {UPDATE_FILTER, UPDATE_FILTERS, CHANGE_VIEW, CHANGE_TIMEZONE} from '../actions/schedule-actions'
 import {RESET_STATE, SYNC_DATA} from '../actions/base-actions';
 import {GET_EVENT_DATA} from '../actions/event-actions';
-import {GET_USER_PROFILE} from "../actions/user-actions";
+import {ADD_TO_SCHEDULE, REMOVE_FROM_SCHEDULE, GET_USER_PROFILE} from "../actions/user-actions";
 
 const scheduleEvents = filterEventsByTags(eventsData);
 
@@ -95,6 +95,20 @@ const allSchedulesReducer = (state = DEFAULT_STATE, action) => {
 
             const newSchedules = schedules.map(sched => {
                 if (sched.key === key) {
+                    return scheduleReducer(sched, {...action, type: `SCHED_${type}`});
+                }
+                return sched;
+            })
+
+            return {...state, schedules: newSchedules};
+        }
+        case REMOVE_FROM_SCHEDULE:
+        case ADD_TO_SCHEDULE: {
+            const {schedules, allEvents} = state;
+            const event = allEvents.find(ev => ev.id === payload.id);
+
+            const newSchedules = schedules.map(sched => {
+                if (sched.is_my_schedule) {
                     return scheduleReducer(sched, {...action, type: `SCHED_${type}`});
                 }
                 return sched;

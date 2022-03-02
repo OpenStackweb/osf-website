@@ -57,7 +57,7 @@ export const filterEventsByTags = (events) => {
       : events;
 };
 
-const filterMyEvents = (myEvents, events) => {
+export const filterMyEvents = (myEvents, events) => {
   const myEventsIds = myEvents?.map(ev => ev.id) || [];
   return events.filter(ev =>  myEventsIds.includes(ev.id));
 };

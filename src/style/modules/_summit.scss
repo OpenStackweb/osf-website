@@ -1169,6 +1169,18 @@ hr.dividing-line {
         width: 50%;
       }
     }
+    .logo-spotlight {
+      text-align: center;
+      margin-top: 15px;
+      width: 33%;
+      max-width: 280px;
+      img {
+        width: 280px;
+      }
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
     .logo-exhibitor {
       text-align: center;
       margin: 15px 15px;
@@ -1176,6 +1188,29 @@ hr.dividing-line {
       max-width: 240px;
       img {
         width: 240px;
+      }
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
+    .logo-supporting {
+      text-align: center;
+      margin: 15px 15px;
+      width: 20%;
+      max-width: 140px;
+      img {
+        width: 140px;
+      }
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
+    .logo-media {
+      text-align: center;
+      margin: 18%;
+      max-width: 120px;
+      img {
+        width: 120px;
       }
       @media (max-width: 768px) {
         width: 50%;

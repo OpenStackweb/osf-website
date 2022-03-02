@@ -9,7 +9,8 @@ import {
   authErrorHandler
 } from "openstack-uicore-foundation/lib/methods";
 import axios from "axios";
-import {syncData} from "./base-actions";
+import {handleApiError} from "../utils/security";
+
 
 export const START_LOADING_IDP_PROFILE = 'START_LOADING_IDP_PROFILE';
 export const STOP_LOADING_IDP_PROFILE = 'STOP_LOADING_IDP_PROFILE';
@@ -245,39 +246,29 @@ export const resignMembershipType = () => (dispatch, getState) => {
 /*********************** MY SCHEDULE ***************************************/
 
 export const addToSchedule = (event) => (dispatch, getState) => {
-  const { loggedUserState } = getState();
-  const { accessToken } = loggedUserState;
+  const {loggedUserState } = getState();
+  const {accessToken} = loggedUserState;
 
   const url = `${window.API_BASE_URL}/api/v1/summits/current/members/me/schedule/${event.id}`;
 
   return axios.post(
       url, { access_token: accessToken }
-  ).then(() => {
-    dispatch(createAction(ADD_TO_SCHEDULE)(event));
-    // to resynch all event data
-    dispatch(syncData());
+  ).then(async () => {
+    await dispatch(createAction(ADD_TO_SCHEDULE)({event}));
     return event;
-  }).catch(e => {
-    console.log('ERROR: ', e);
-    return e;
-  });
+  }).catch(handleApiError);
 };
 
 export const removeFromSchedule = (event) => (dispatch, getState) => {
-  const { loggedUserState } = getState();
-  const { accessToken } = loggedUserState;
+  const {loggedUserState } = getState();
+  const {accessToken} = loggedUserState;
 
   const url = `${window.API_BASE_URL}/api/v1/summits/current/members/me/schedule/${event.id}`;
 
   return axios.delete(
       url, { data: { access_token: accessToken } }
-  ).then(() => {
-    dispatch(createAction(REMOVE_FROM_SCHEDULE)(event));
-    // to resynch all event data
-    dispatch(syncData());
+  ).then(async () => {
+    dispatch(createAction(REMOVE_FROM_SCHEDULE)({event}));
     return event;
-  }).catch(e => {
-    console.log('ERROR: ', e);
-    return e;
-  });
+  }).catch(handleApiError);
 };

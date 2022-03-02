@@ -8,8 +8,6 @@ export const UPDATE_FILTERS     = 'UPDATE_FILTERS';
 export const CHANGE_VIEW        = 'CHANGE_VIEW';
 export const CHANGE_TIMEZONE    = 'CHANGE_TIMEZONE';
 
-export const MY_SCHEDULE_UPDATE_FILTER      = 'MY_SCHEDULE_UPDATE_FILTER';
-export const MY_SCHEDULE_UPDATE_FILTERS     = 'MY_SCHEDULE_UPDATE_FILTERS';
 
 const fragmentParser = new FragmentParser();
 

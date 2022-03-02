@@ -2,8 +2,6 @@ import React, {useEffect} from "react"
 import { Router, Location } from "@reach/router"
 import { connect } from 'react-redux'
 import { syncData } from '../actions/base-actions';
-import settings from '../content/settings';
-
 import PrivateRoute from '../routes/PrivateRoute'
 import withSessionChecker from "../utils/withSessionChecker"
 import ProfilePage from "../templates/profile-page";
@@ -19,13 +17,7 @@ import CandidatePage from "../templates/candidate-page"
 import SchedulePage from "../templates/schedule-page"
 import NotFoundPage from "./404"
 
-const App = ({ isLoggedUser, user, lastBuild, syncData }) => {
-
-  useEffect(() => {
-    if (!lastBuild || settings.lastBuild > lastBuild) {
-      syncData();
-    }
-  }, [lastBuild, syncData]);
+const App = ({ isLoggedUser, user }) => {
 
   return (
     <Location>
@@ -51,10 +43,9 @@ const App = ({ isLoggedUser, user, lastBuild, syncData }) => {
   )
 }
 
-const mapStateToProps = ({ loggedUserState, userState, settingsState }) => ({
+const mapStateToProps = ({ loggedUserState, userState }) => ({
   isLoggedUser: loggedUserState.isLoggedUser,
   user: userState,
-  lastBuild: settingsState.lastBuild
 })
 
 export default connect(mapStateToProps, { syncData })(withSessionChecker(App))

@@ -94,13 +94,17 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       const {link} = payload.response;
       return { ...state, userProfile: {...state.userProfile, schedule_shareable_link: link} };
     case ADD_TO_SCHEDULE: {
-      return { ...state, userProfile: { ...state.userProfile, schedule_summit_events: [...state.userProfile.schedule_summit_events, payload] } }
+      const {event} = payload;
+      const schedule_summit_events = [...state.userProfile.schedule_summit_events, event];
+      return { ...state, userProfile: { ...state.userProfile, schedule_summit_events } }
+    }
+    case REMOVE_FROM_SCHEDULE: {
+      const {event} = payload;
+      const schedule_summit_events = state.userProfile.schedule_summit_events.filter(ev => ev.id !== event.id);
+      return { ...state, userProfile: { ...state.userProfile, schedule_summit_events } }
     }
     default:
       return state;
-    case REMOVE_FROM_SCHEDULE: {
-      return { ...state, userProfile: { ...state.userProfile, schedule_summit_events: [...state.userProfile.schedule_summit_events.filter(ev => ev.id !== payload.id)] } }
-    }
   }
 }
 

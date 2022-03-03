@@ -1,5 +1,5 @@
 ---
-templateKey: summit-tracks-page
+templateKey: summit-covid-page
 seo:
   description: >-
     Frequently asked questions addressing COVID-19 and the OpenInfra Summit

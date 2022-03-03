@@ -25,6 +25,7 @@ function SubNav(props) {
           <li><a id="summit" href="/summit" className="link">Home</a></li>
           <li><a id="summit-sponsor" href="/summit-sponsor" className="link">Sponsors</a></li>
           <li><a id="summit-tracks" href="/summit-tracks" className="link">Tracks</a></li>
+          <li><a id="summit-covid" href="/summit-covid" className="link">COVID-19</a></li>
         </ul>
 
         <div className={`${isOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleMenu}>
@@ -40,6 +41,7 @@ function SubNav(props) {
           <li><a id="summit" href="/summit" className="link">Home</a></li>
           <li><a id="summit-sponsor" href="/summit-sponsor" className="link">Sponsors</a></li>
           <li><a id="summit-tracks" href="/summit-tracks" className="link">Tracks</a></li>
+          <li><a id="summit-covid" href="/summit-covid" className="link">COVID-19</a></li>
         </ul>
       </div>
       }

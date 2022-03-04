@@ -6,7 +6,7 @@ date: 2022-03-04T14:33:25.752Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   twitterUsername: sparkycollier
   url: https://openinfra.dev/blog/ukraine

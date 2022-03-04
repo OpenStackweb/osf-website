@@ -2,10 +2,10 @@
 templateKey: schedule-page
 seo:
   description: >-
-    The Four Opens are guiding principles to successfully grow an open source
-    community: open source, open design, open community, and open development. 
+    Collaborate directly with the people building and running open source 
+    infrastructure using OpenStack, Kubernetes and 30+ other technologies. 
   image: /img/OpenInfra-icon-white.jpg
-  title: 'Our Philosophy: The Four Opens'
+  title: 'OpenInfra Summit Berlin Schedule'
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/summit-schedule'
 headerTitle: Summit Schedule

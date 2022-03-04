@@ -168,6 +168,16 @@
           margin-top: 30px;
         }
       }
+      .registration {
+        background-color: #161616;
+        opacity: 1;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 5px 15px;
+        &:hover {
+          color: #ffffff;
+        }
+      }
     }
     @media (max-width: 768px) {
       display: unset;

@@ -9,7 +9,7 @@ category:
 hidePost: true
 seo:
   twitterUsername: sparkycollier
-  url: https://openinfra.dev/blog/Ukraine
+  url: https://openinfra.dev/blog/ukraine
   title: Ukraine
   description: Ukraine and open source community
 ---

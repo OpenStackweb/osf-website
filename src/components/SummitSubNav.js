@@ -45,7 +45,7 @@ function SubNav(props) {
             :
             <li><LinkComponent id="summit-schedule" href="/summit-schedule" className="link">Schedule</LinkComponent></li>
           }
-          <li><LinkComponent id="registration" href="/#" className="link registration">Registration</LinkComponent></li>
+          <li><LinkComponent id="registration" href="/#" className="link registration">Register</LinkComponent></li>
         </ul>
 
         <div className={`${isOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleMenu}>
@@ -78,6 +78,7 @@ function SubNav(props) {
               :
               <li><LinkComponent id="summit-schedule" href="/summit-schedule" className="link">Schedule</LinkComponent></li>
             }
+            <li><LinkComponent id="registration" href="/#" className="link registration">Register</LinkComponent></li>
           </ul>
         </div>
       }

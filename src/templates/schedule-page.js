@@ -32,7 +32,9 @@ const SchedulePageTemplate = ({ summit, schedules, isLoggedUser, updateFilter, u
     const { events, allEvents, filters, view, timezone, colorSource } = scheduleState || {};
 
     useEffect(() => {
-        updateFiltersFromHash(schedKey, filters, view);
+        if (scheduleState) {
+            updateFiltersFromHash(schedKey, filters, view);
+        }
     }, [schedKey, filters, view, updateFiltersFromHash]);
 
     if (!summit || schedules.length === 0) return null;

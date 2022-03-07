@@ -23,7 +23,7 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 33px;
-    
+
   @media screen and(max-width: $screen-md-min) {
     font-size: 26px;
     line-height: 32px;
@@ -68,7 +68,7 @@
   margin-bottom: 15px;
 }
 
-p.fix-h5{
+p.fix-h5 {
   color: #161616;
 }
 
@@ -124,7 +124,6 @@ i {
   @media (max-width: $screen-md) {
     justify-content: center;
   }
-
 }
 
 .nav .nav-menu a {
@@ -172,14 +171,21 @@ footer {
 }
 
 .hero-background {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), 35%, rgba(0, 0, 0, 0)) 10%, url("/img/home/hero-image.jpg");
+  background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.8),
+        35%,
+        rgba(0, 0, 0, 0)
+      )
+      10%,
+    url("/img/home/hero-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  
+
   @media (max-width: $screen-sm-min) {
     background-size: cover;
     background-position-x: 50%;
-  }   
+  }
   @media (max-width: 320px) {
     background-position-y: 13.5em;
     background-size: 114%;
@@ -189,7 +195,7 @@ footer {
     background-position-y: initial;
     background-size: cover;
     background-position-x: 50%;
-  }  
+  }
 }
 
 .hero.is-primary {
@@ -398,12 +404,11 @@ div.content.custom > main > section > div > div > div > h3 {
     background-color: $white;
     color: #161616;
     border-radius: 0px;
-    box-shadow: 0 2px 3px rgba(34, 34, 34, 0.1), 0 0 0 1px rgba(34, 34, 34, 0.1);
+    box-shadow: none;
     margin-top: 22px;
     @media (min-width: 769px) {
       height: 267px;
       padding-bottom: 0.5rem;
-      padding-top: 2.5rem;
     }
     left: 50%;
     @media (max-width: 769px) {
@@ -449,8 +454,8 @@ div.content.custom > main > section > div > div > div > h3 {
       width: 0;
       position: absolute;
       pointer-events: none;
-      border-color: rgba(255, 255, 255, 0);
-      border-bottom-color: $white;
+      border-color: transparent;
+      border-bottom-color: transparent;
       border-width: 20px;
       margin-left: -30px;
     }
@@ -464,7 +469,7 @@ div.content.custom > main > section > div > div > div > h3 {
     margin-left: -428px;
     height: 268px;
     max-width: unset;
-    margin-top: -35px;
+    margin-top: -20px;
   }
 }
 
@@ -493,4 +498,3 @@ ul {
 .column {
   color: #161616;
 }
-

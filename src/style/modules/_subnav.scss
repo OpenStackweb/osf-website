@@ -76,20 +76,26 @@
             color: #ffffff;
           }
         }
-        .dropdown {
+        .dropdown-options {
           position: absolute;
-          top: 30px;
-          left: 0;
-          padding: 10px;
+          top: 52px;
+          left: -50px;
+          padding: 20px;
           background-color: #f1f1f1;
           opacity: 1;
           z-index: 100000;
-          width: 120%;
-          span {
+          width: 200px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          border: 1px solid #c9c9c9;
+          a {
             opacity: 0.6;
+            margin: 10px 0;
+            text-align: center;
           }
           &:hover {
-            span {
+            a {
               color: #888888;
               opacity: 1;
               text-decoration: none;
@@ -124,6 +130,7 @@
   .active-page {
     display: none;
     @media (max-width: 768px) {
+      text-transform: capitalize;
       opacity: 1;
       display: flex;
       flex-direction: row;
@@ -137,13 +144,12 @@
     text-align: center;
     background-color: #f3f3f3;
     border-top: 1px solid #c9c9c9;
-    border-bottom: 1px solid #c9c9c9;
     .links-list {
       display: flex;
       flex-direction: column;
       align-items: center;
       margin: 0;
-      padding: 15px 0 15px 0;
+      padding: 15px 0 0 0;
       margin: 0 30px;
       li {
         width: 100%;
@@ -164,9 +170,17 @@
       .link-dropdown {
         display: flex;
         flex-direction: column;
-        a:not(:first-child) {
-          margin-top: 30px;
-        }
+        padding-bottom: 0;
+      }
+      a.link-dropdown-parent {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #c9c9c9;
+        margin: 0 -30px 0;
+      }
+      a.link-dropdown-option {
+        background-color: #ffffff;
+        padding: 15px 0;
+        margin: 0 -30px 0;
       }
       .registration {
         background-color: #161616;

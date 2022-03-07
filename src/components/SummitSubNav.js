@@ -32,14 +32,19 @@ function SubNav(props) {
 
             {props.isLoggedUser ?
             <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)}>
-              <LinkComponent id="summit-schedule" href="/summit-schedule" className="link" style={{ padding: 10, width: '120%', display: 'inline-flex' }}>
+              <LinkComponent id="summit-schedule" href="#" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
                 Schedule
                 <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
               </LinkComponent>
               {scheduleDropdown &&
-                <LinkComponent id="summit-my-schedule" href="/a/summit-my-schedule" className="link dropdown">
-                  <span>My Schedule</span>
-                </LinkComponent>
+                <div className='dropdown-options'>
+                  <LinkComponent id="summit-schedule" href="/summit-schedule" className="link dropdown">
+                    Full Schedule
+                  </LinkComponent>
+                  <LinkComponent id="summit-my-schedule" href="/a/summit-my-schedule" className="link dropdown">
+                    <span>My Schedule</span>
+                  </LinkComponent>
+                </div>
               }
             </li>
             :
@@ -65,20 +70,24 @@ function SubNav(props) {
             <li><LinkComponent id="summit-covid" href="/summit-covid" className="link">COVID-19</LinkComponent></li>
               {props.isLoggedUser ?
               <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} className="link-dropdown">
-                <LinkComponent id="summit-schedule" href="/summit-schedule" className="link" >
+                <LinkComponent id="summit-schedule" href="#" className="link link-dropdown-parent" >
                   Schedule
                   <i style={{ marginLeft: 5 }} className={`fa fa-chevron-down`} />
                 </LinkComponent>
                 {scheduleDropdown &&
-                  <LinkComponent id="summit-my-schedule" href="/a/summit-my-schedule" className="link">
-                    <span>My Schedule</span>
-                  </LinkComponent>
+                  <>
+                    <LinkComponent id="summit-schedule" href="/summit-schedule" className="link-dropdown-option" >
+                      Full Schedule
+                    </LinkComponent>
+                    <LinkComponent id="summit-my-schedule" href="/a/summit-my-schedule" className="link-dropdown-option">
+                      <span>My Schedule</span>
+                    </LinkComponent>
+                  </>
                 }
               </li>
               :
               <li><LinkComponent id="summit-schedule" href="/summit-schedule" className="link">Schedule</LinkComponent></li>
             }
-            <li><LinkComponent id="registration" href="https://openinfrasummitberlin.eventbrite.com/" className="link registration">Register</LinkComponent></li>
           </ul>
         </div>
       }

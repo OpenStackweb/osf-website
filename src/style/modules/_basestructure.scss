@@ -405,10 +405,13 @@ div.content.custom > main > section > div > div > div > h3 {
     color: #161616;
     border-radius: 0px;
     box-shadow: none;
+    box-shadow: 0 2px 3px rgba(34, 34, 34, 0.1), 0 0 0 1px rgba(34, 34, 34, 0.1);
     margin-top: 22px;
+    font-size: 17px;
     @media (min-width: 769px) {
       height: 267px;
-      padding-bottom: 0.5rem;
+      padding-bottom: 7px;
+      padding-top: 35px;
     }
     left: 50%;
     @media (max-width: 769px) {
@@ -454,8 +457,8 @@ div.content.custom > main > section > div > div > div > h3 {
       width: 0;
       position: absolute;
       pointer-events: none;
-      border-color: transparent;
-      border-bottom-color: transparent;
+      border-color: rgba(255, 255, 255, 0);
+      border-bottom-color: $white;
       border-width: 20px;
       margin-left: -30px;
     }
@@ -469,7 +472,7 @@ div.content.custom > main > section > div > div > div > h3 {
     margin-left: -428px;
     height: 268px;
     max-width: unset;
-    margin-top: -20px;
+    margin-top: -35px;
   }
 }
 
@@ -478,6 +481,7 @@ div.content.custom > main > section > div > div > div > h3 {
   display: block;
   left: calc(50% - 110px);
   width: 240px;
+  border-radius: 0;
   .nested-menu-image {
     display: block;
     @media (max-width: 1024px) {
@@ -486,6 +490,16 @@ div.content.custom > main > section > div > div > div > h3 {
     }
   }
 }
+
+// overwrite bootstrap styles from schedule
+.dropdown-menu {
+  background-color: transparent !important;
+  min-width: 12rem !important;
+  padding: 4px 0 0 0 !important;
+  margin: 0 !important;
+  border: none !important;
+}
+
 /*list bullets*/
 ul {
   li {

@@ -112,7 +112,7 @@
     {
       "title": "About",
       "image": "/img/menu/menu_about.jpg",
-      "marginLeft": "-422px",
+      "marginLeft": "-424px",
       "url": "/about/",
       "display": true,
       "links": [
@@ -145,7 +145,7 @@
     {
       "title": "News",
       "image": "/img/menu/menu_about.jpg",
-      "marginLeft": "-422px",
+      "marginLeft": "-423px",
       "display": true,
       "links": [
         {

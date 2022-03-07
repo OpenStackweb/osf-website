@@ -4,6 +4,7 @@ import Menu from "../content/navbar.json"
 import LinkComponent from './LinkComponent'
 import {doLogin, initLogOut} from 'openstack-uicore-foundation/lib/methods'
 import PropTypes from "prop-types";
+import URI from "urijs"
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -15,11 +16,17 @@ const Navbar = class extends React.Component {
 
     this.onClickLogin = this.onClickLogin.bind(this);
     this.onClickLogout = this.onClickLogout.bind(this);
+    this.getBackURL = this.getBackURL.bind(this);
+  }
+
+  getBackURL() {
+    let backUrl = window?.location?.href ?? '/a/profile';
+    return URI.encode(backUrl);
   }
 
   onClickLogin(evt){
     evt.preventDefault();
-    doLogin('/a/profile');
+    doLogin(this.getBackURL());
   }
 
   onClickLogout(evt){

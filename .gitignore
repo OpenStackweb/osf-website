@@ -11,3 +11,5 @@ static/admin/*.bundle.*
 .idea/
 .env
 .env.development
+src/content/events.json
+src/content/summit.json

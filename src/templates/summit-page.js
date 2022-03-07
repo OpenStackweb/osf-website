@@ -47,8 +47,7 @@ export const SummitPageTemplate = ({
                 <span className="title">
                   {header.title}
                 </span>
-                <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}>
-                </span>
+                <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}></span><span className="description">Learn about our <a href="/summit-covid">COVID safety measures</a>.</span>
                 <span className="date">
                   <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
                     header.date.icon.publicURL

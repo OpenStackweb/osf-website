@@ -29,9 +29,8 @@ function SubNav(props) {
           <li><LinkComponent id="summit-tracks" href="/summit-tracks" className="link">Tracks</LinkComponent></li>
           <li><LinkComponent id="summit-faq" href="/summit-faq" className="link">FAQs</LinkComponent></li>
           <li><LinkComponent id="summit-covid" href="/summit-covid" className="link">COVID-19</LinkComponent></li>
-
-            {props.isLoggedUser ?
-            <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)}>
+          {props.isLoggedUser ?
+            <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
               <LinkComponent id="summit-schedule" href="#" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
                 Schedule
                 <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
@@ -68,7 +67,7 @@ function SubNav(props) {
             <li><LinkComponent id="summit-tracks" href="/summit-tracks" className="link">Tracks</LinkComponent></li>
             <li><LinkComponent id="summit-faq" href="/summit-faq" className="link">FAQs</LinkComponent></li>
             <li><LinkComponent id="summit-covid" href="/summit-covid" className="link">COVID-19</LinkComponent></li>
-              {props.isLoggedUser ?
+            {props.isLoggedUser ?
               <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} className="link-dropdown">
                 <LinkComponent id="summit-schedule" href="#" className="link link-dropdown-parent" >
                   Schedule

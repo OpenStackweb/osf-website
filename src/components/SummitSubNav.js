@@ -31,7 +31,7 @@ function SubNav(props) {
           <li><LinkComponent id="summit-covid" href="/summit-covid" className="link">COVID-19</LinkComponent></li>
           {props.isLoggedUser ?
             <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
-              <LinkComponent id="summit-schedule" href="#" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
+              <LinkComponent id="summit-schedule" href="/summit-schedule" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
                 Schedule
                 <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
               </LinkComponent>
@@ -69,7 +69,7 @@ function SubNav(props) {
             <li><LinkComponent id="summit-covid" href="/summit-covid" className="link">COVID-19</LinkComponent></li>
             {props.isLoggedUser ?
               <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} className="link-dropdown">
-                <LinkComponent id="summit-schedule" href="#" className="link link-dropdown-parent" >
+                <LinkComponent id="summit-schedule" href="/summit-schedule" className="link link-dropdown-parent" >
                   Schedule
                   <i style={{ marginLeft: 5 }} className={`fa fa-chevron-down`} />
                 </LinkComponent>

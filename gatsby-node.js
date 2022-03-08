@@ -37,7 +37,7 @@ const SSR_getLegals = async (baseUrl) => {
 
 const SSR_getSummit = async (baseUrl) => {
   const params = {
-    expand: 'event_types,tracks,track_groups,presentation_levels,locations.rooms,locations.floors,order_extra_questions.values,schedule_settings,schedule_settings.filters,schedule_settings.pre_filters',
+    expand: 'event_types,tracks,track_groups,presentation_levels,locations.rooms,locations.floors,order_extra_questions.values,schedule_settings,schedule_settings.filters,schedule_settings.pre_filters,summit_sponsors,summit_sponsors.company,summit_sponsors.sponsorship',
     t: Date.now()
   };
 

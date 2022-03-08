@@ -52,6 +52,7 @@ const SchedulePageTemplate = ({ summit, schedules, isLoggedUser, updateFilter, u
         triggerAction: (action, payload) => {
             updateFilter(schedKey, payload);
         },
+        expandedByDefault: false,
         colorSource,
         marketingSettings: dummyMarketingSettings,
     };

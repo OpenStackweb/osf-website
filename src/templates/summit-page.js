@@ -89,7 +89,7 @@ export const SummitPageTemplate = ({
                   )
                 })}
               </div>
-              <LinkComponent className="button-cta" style={{ margin: "0 auto", marginTop: "30px" }} href="/summit-tracks">Learn More about Summit Tracks<img src={leftArrow} alt="" /></LinkComponent>
+              <LinkComponent className="button-cta" style={{ margin: "0 auto", marginTop: "30px" }} href="/summit-schedule">View the Summit Schedule<img src={leftArrow} alt="" /></LinkComponent>
             </section>
           }
           

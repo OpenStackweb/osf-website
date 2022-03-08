@@ -15,21 +15,50 @@ export const updateFilter = (key, filter, action = UPDATE_FILTER) => (dispatch) 
     dispatch(createAction(action)({...filter, key}))
 };
 
-export const updateFiltersFromHash = (key, filters, view, actionCallback = UPDATE_FILTERS) => (dispatch) => {
+export const deepLinkToEvent = (lastEvent) => {
+    const windowExists = typeof window !== "undefined";
+    const lastEventEl = lastEvent && document?.getElementById(`event-${lastEvent.id}`);
+    if (!lastEventEl || !windowExists) return null;
+
+    // reset scroll
+    window.scrollTo(0,0);
+
+    const eventHash = fragmentParser.getParam("event");
+
+    if (eventHash) {
+        const eventId = eventHash === "live" ? "live-line" : `event-${eventHash}`;
+        const eventEl = document.getElementById(eventId);
+
+        if (eventEl) {
+            setTimeout(() => {
+                eventEl.scrollIntoView({ behavior: "smooth", block: "center" });
+            }, 800);
+
+            setTimeout(() => {
+                const openInfoBtns = eventEl.getElementsByClassName("open-info-btn");
+                if (openInfoBtns.length > 0) {
+                    openInfoBtns[0].click();
+                }
+            }, 1200);
+        }
+    }
+};
+
+export const updateFiltersFromHash = (key, filters, view, actionCallback = UPDATE_FILTERS) => async (dispatch) => {
     const qsFilters = fragmentParser.getParams();
+    const windowExists = typeof window !== "undefined";
+    const filterKeys = Object.keys(filters);
+    const newFilters = {};
 
-    // clear hash
-    fragmentParser.clearParams();
+    // clear hash that match filters
+    fragmentParser.deleteParams(filterKeys);
 
-    if (typeof window !== 'undefined') {
+    if (windowExists) {
         window.history.replaceState(null, null, ' ');
     }
 
     // escape if no hash
-    if (isEmpty(qsFilters)) return null;
-
-    const filterKeys = Object.keys(filters);
-    const newFilters = {};
+    if (isEmpty(qsFilters)) return Promise.resolve();
 
     // remove any query vars that are not filters
     const normalizedFilters =  pickBy(qsFilters, (value, key) => filterKeys.includes(key));
@@ -51,8 +80,12 @@ export const updateFiltersFromHash = (key, filters, view, actionCallback = UPDAT
 
     // only update if filters have changed
     if (!isEqual(newFilters, filters) || view !== qsFilters.view) {
-        dispatch(createAction(actionCallback)({filters: newFilters, view: qsFilters.view, key}));
+        await dispatch(createAction(actionCallback)({filters: newFilters, view: qsFilters.view, key}));
+        return Promise.resolve();
+    } else {
+        return Promise.resolve();
     }
+
 };
 
 export const getShareLink = (filters, view) => {

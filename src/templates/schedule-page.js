@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { pickBy } from "lodash";
 import { connect } from "react-redux";
-import { updateFiltersFromHash, updateFilter } from "../actions/schedule-actions";
+import { updateFiltersFromHash, updateFilter, deepLinkToEvent } from "../actions/schedule-actions";
 import { syncData } from "../actions/base-actions";
 import Layout from "../components/Layout";
 import FullSchedule from "../components/FullSchedule";
@@ -29,13 +29,16 @@ const dummyMarketingSettings = {
 const SchedulePageTemplate = ({ summit, schedules, isLoggedUser, updateFilter, updateFiltersFromHash, scheduleProps, schedKey, headerTitle }) => {
     const [showFilters, setShowfilters] = useState(false);
     const scheduleState = schedules.find(s => s.key === schedKey);
-    const { events, allEvents, filters, view, timezone, colorSource } = scheduleState || {};
+    const { key, events, allEvents, filters, view, timezone, colorSource } = scheduleState || {};
 
     useEffect(() => {
         if (scheduleState) {
-            updateFiltersFromHash(schedKey, filters, view);
+            updateFiltersFromHash(schedKey, filters, view).then(() => {
+                const lastEvent = events && events[events.length - 1];
+                deepLinkToEvent(lastEvent);
+            });
         }
-    }, [schedKey, filters, view, updateFiltersFromHash]);
+    }, [key, updateFiltersFromHash]);
 
     if (!summit || schedules.length === 0) return null;
 

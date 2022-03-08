@@ -56,13 +56,13 @@
         margin-left: 30px;
         position: relative;
         a {
-          color: #888888;
+          color: #222;
           opacity: 0.6;
           font-size: 13px;
         }
         a.active,
         .link:hover {
-          color: #888888;
+          color: #222;
           opacity: 1;
           text-decoration: none;
         }
@@ -95,7 +95,7 @@
             margin: 10px 0;
             text-align: center;
             &:hover {
-              color: #888888;
+              color: #222;
               opacity: 1;
               text-decoration: none;
             }

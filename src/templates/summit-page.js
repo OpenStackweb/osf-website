@@ -102,7 +102,7 @@ export const SummitPageTemplate = ({
             <LinkComponent className="button-cta" href="/summit-sponsor">Become a Sponsor<img src={leftArrow} alt="" /></LinkComponent>
           </section>
 
-          <LogoBanner title="Register before prices increase on March 16!" cta="Register Now" href="https://openinfrasummitberlin.eventbrite.com/" />
+          <LogoBanner title="Register before prices increase on March 18!" cta="Register Now" href="https://openinfrasummitberlin.eventbrite.com/" />
           {/*
           <section id="sponsor" className="sponsorship-levels">
             <span className="title">Sponsors</span>

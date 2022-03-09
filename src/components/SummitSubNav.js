@@ -87,6 +87,7 @@ function SubNav(props) {
               :
               <li><LinkComponent id="summit-schedule" href="/summit-schedule" className="link">Schedule</LinkComponent></li>
             }
+            <li><LinkComponent id="registration" href="https://openinfrasummitberlin.eventbrite.com/" className="link registration">Register</LinkComponent></li>
           </ul>
         </div>
       }

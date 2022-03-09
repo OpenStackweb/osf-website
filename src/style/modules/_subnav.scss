@@ -143,6 +143,7 @@
     text-align: center;
     background-color: #f3f3f3;
     border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
     .links-list {
       display: flex;
       flex-direction: column;
@@ -172,9 +173,7 @@
         padding-bottom: 0;
       }
       a.link-dropdown-parent {
-        padding-bottom: 30px;
-        border-bottom: 1px solid #c9c9c9;
-        margin: 0 -30px 0;
+        padding-bottom: 15px;
       }
       a.link-dropdown-option {
         background-color: #ffffff;

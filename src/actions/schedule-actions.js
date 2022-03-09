@@ -7,7 +7,19 @@ export const UPDATE_FILTER      = 'UPDATE_FILTER';
 export const UPDATE_FILTERS     = 'UPDATE_FILTERS';
 export const CHANGE_VIEW        = 'CHANGE_VIEW';
 export const CHANGE_TIMEZONE    = 'CHANGE_TIMEZONE';
-
+/**
+ * This action is defined to just reinitialize the allScheduleReducer state
+ * (allSchedulesReducer.state.schedules) without trigerring the side effects of
+ * SYNC_DATA that reloads all the reducers to its initial state
+ * @type {string}
+ */
+export const RELOAD_SCHED_DATA = 'RELOAD_SCHED_DATA';
+/**
+ * this action is defined to reload the user schedules after the schedule data is
+ * initialized (allSchedulesReducer.state.schedules.length > 0 )
+ * @type {string}
+ */
+export const RELOAD_USER_PROFILE = 'RELOAD_USER_PROFILE';
 
 const fragmentParser = new FragmentParser();
 
@@ -80,4 +92,12 @@ export const getShareLink = (filters, view) => {
 
 export const callAction = (key, action, payload) => (dispatch) => {
     return dispatch(createAction(action)({...payload, key}));
+};
+
+export const reloadScheduleData = () => (dispatch, getState) => {
+    const {userState, loggedUserState} = getState();
+    const {isLoggedUser} = loggedUserState;
+    const {userProfile} = userState;
+    dispatch(createAction(RELOAD_SCHED_DATA)({isLoggedUser, userProfile }));
+    dispatch(createAction(RELOAD_USER_PROFILE)({isLoggedUser, userProfile }));
 };

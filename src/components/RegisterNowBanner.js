@@ -5,7 +5,7 @@ import LinkComponent from './LinkComponent';
 
 const RegisterNowBanner = () => {
     return (
-        <LinkComponent className='register-now-banner' href='/summit'>
+        <LinkComponent className='register-now-banner' href='https://openinfrasummitberlin.eventbrite.com/'>
             <img className='logo' alt='OpenInfra Logo' src='/img/summit/oif-icon.svg' />
             <div>
                 <span>

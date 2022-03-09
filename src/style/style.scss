@@ -278,6 +278,7 @@ section {
     height: 35px;
     width: 35px;
   }
+
   .arrow {
     height: 30px;
     width: 30px;
@@ -291,6 +292,25 @@ section {
       font-size: 15px;
       b {
         font-size: 17px;
+      }
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    padding: 9px 16px;
+    .logo {
+      height: 28px;
+      width: 28px;
+    }
+    .arrow {
+      height: 24px;
+      width: 24px;
+    }
+    > div {
+      span {
+        font-size: 13px;
+        b {
+          font-size: 15px;
+        }
       }
     }
   }

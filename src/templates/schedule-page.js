@@ -15,7 +15,7 @@ import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import styles from "../style/full-schedule.module.scss";
-import ScheduleBanner from "../components/ScheduleBanner";
+import RegisterNowBanner from "../components/RegisterNowBanner";
 import { PageScrollInspector, SCROLL_DIRECTION } from "../components/PageScrollInspector";
 import settings from "../content/settings.json";
 
@@ -107,8 +107,8 @@ const SchedulePageTemplate = ({ summit, schedules, isLoggedUser, updateFilter, u
                                 <FullSchedule {...schedProps} />
                             </div>
                             <div ref={filtersWrapperRef} className={styles.filterWrapper}>
+                                <RegisterNowBanner />
                                 <ScheduleFilters {...filterProps} />
-                                <ScheduleBanner />
                             </div>
                             <FilterButton open={showFilters} onClick={() => setShowfilters(!showFilters)} />
                         </div>

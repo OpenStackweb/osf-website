@@ -4,6 +4,10 @@ import Footer from '../components/Footer'
 import '../style/style.scss'
 import { withPrefix } from 'gatsby'
 
+import smoothscroll from 'smoothscroll-polyfill'
+// smooth scroll polyfill needed for Safari
+smoothscroll.polyfill()
+
 const TemplateWrapper = ({ children, style }) => {  
     return (
     <div className="wrapper" style={style}>

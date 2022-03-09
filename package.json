@@ -80,6 +80,7 @@
     "schedule-filter-widget": "^1.2.8",
     "simple-oauth2": "4.2.0",
     "slick-carousel": "^1.8.1",
+    "smoothscroll-polyfill": "^0.4.4",
     "superagent": "6.1.0",
     "sweetalert2": "^8.19.0",
     "urijs": "^1.19.2",

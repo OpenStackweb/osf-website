@@ -260,6 +260,45 @@ section {
   }
 }
 
+.register-now-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  background-color: #121212;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  &:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .logo {
+    height: 35px;
+    width: 35px;
+  }
+  .arrow {
+    height: 30px;
+    width: 30px;
+  }
+  > div {
+    display: flex;
+    flex-direction: column;
+    span {
+      display: inline-block;
+      text-align: left;
+      font-size: 15px;
+      b {
+        font-size: 17px;
+      }
+    }
+  }
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .go-top-button {
     bottom: 30px;

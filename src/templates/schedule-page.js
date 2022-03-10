@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback, useRef } from "react";
 import PropTypes from "prop-types";
 import { pickBy } from "lodash";
 import { connect } from "react-redux";
@@ -15,7 +15,8 @@ import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import styles from "../style/full-schedule.module.scss";
-import ScheduleBanner from "../components/ScheduleBanner";
+import RegisterNowBanner from "../components/RegisterNowBanner";
+import { PageScrollInspector, SCROLL_DIRECTION } from "../components/PageScrollInspector";
 import settings from "../content/settings.json";
 
 //@todo: connect to marketing api
@@ -27,9 +28,20 @@ const dummyMarketingSettings = {
 };
 
 const SchedulePageTemplate = ({ summit, schedules, isLoggedUser, updateFilter, updateFiltersFromHash, scheduleProps, schedKey, headerTitle }) => {
+    const filtersWrapperRef = useRef(null);
     const [showFilters, setShowfilters] = useState(false);
     const scheduleState = schedules.find(s => s.key === schedKey);
     const { events, allEvents, filters, view, timezone, colorSource } = scheduleState || {};
+
+    const onScrollDirectionChange = useCallback(direction => {
+        if (direction === SCROLL_DIRECTION.UP)
+            filtersWrapperRef.current.scroll({ top: 0, behavior: 'smooth' });
+    }, [filtersWrapperRef]);
+
+    const onPageBottomReached = useCallback(pageBottomReached => {
+        if (pageBottomReached)
+            filtersWrapperRef.current.scroll({ top: filtersWrapperRef.current.scrollHeight, behavior: 'smooth' });
+    }, [filtersWrapperRef]);
 
     useEffect(() => {
         if (scheduleState) {
@@ -94,14 +106,15 @@ const SchedulePageTemplate = ({ summit, schedules, isLoggedUser, updateFilter, u
                             <div className={styles.scheduleWrapper}>
                                 <FullSchedule {...schedProps} />
                             </div>
-                            <div className={styles.filterWrapper}>
+                            <div ref={filtersWrapperRef} className={styles.filterWrapper}>
+                                <RegisterNowBanner />
                                 <ScheduleFilters {...filterProps} />
-                                <ScheduleBanner />
                             </div>
                             <FilterButton open={showFilters} onClick={() => setShowfilters(!showFilters)} />
                         </div>
                     </div>
                 </div>
+                <PageScrollInspector threshold={700} scrollDirectionChanged={onScrollDirectionChange} bottomReached={onPageBottomReached} />
             </main>
         </div>
     );

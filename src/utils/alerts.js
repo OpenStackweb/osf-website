@@ -1,5 +1,9 @@
 import Swal from "sweetalert2";
 
+import { doLogin } from 'openstack-uicore-foundation/lib/methods'
+import URI from "urijs"
+
+
 export const alertPopup = (title, html, confirmLabel, confirmAction, cancelLabel = 'Dismiss') => {
     Swal.fire({
             title,
@@ -20,7 +24,7 @@ export const alertPopup = (title, html, confirmLabel, confirmAction, cancelLabel
             }
         }
     ).then((result) => {
-        if (result.isConfirmed) {
+        if (result.value) {
             confirmAction();
         } else if (result.isDenied) {
             // maybe add a handler here?
@@ -31,5 +35,11 @@ export const alertPopup = (title, html, confirmLabel, confirmAction, cancelLabel
 export const needsLogin = (msg = null) => {
     const defaultMessage = "Please login in order to build your schedule and add activities during the event";
 
-    alertPopup('Login', msg || defaultMessage, 'Login', console.log );
+    const login = () => {
+        let backUrl = window?.location?.href ?? '/a/profile';
+        let encodedBackUrl = URI.encode(backUrl);
+        return doLogin(encodedBackUrl);
+    }
+
+    alertPopup('Login', msg || defaultMessage, 'Login', login);
 };

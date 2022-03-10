@@ -27,7 +27,6 @@ export const updateFilter = (key, filter, action = UPDATE_FILTER) => (dispatch) 
     dispatch(createAction(action)({...filter, key}))
 };
 
-
 export const deepLinkToEvent = () => {
     if (typeof window === "undefined") return null;
 
@@ -131,8 +130,6 @@ export const callAction = (key, action, payload) => (dispatch) => {
 
 export const reloadScheduleData = () => (dispatch, getState) => {
     const { userState: { userProfile }, loggedUserState: { isLoggedUser } } = getState();
-    const {isLoggedUser} = loggedUserState;
-    const {userProfile} = userState;
     dispatch(createAction(RELOAD_SCHED_DATA)({isLoggedUser, userProfile }));
-    dispatch(createAction(RELOAD_USER_PROFILE)({isLoggedUser, userProfile }));
+    dispatch(createAction(RELOAD_USER_PROFILE)({userProfile }));
 };

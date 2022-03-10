@@ -130,7 +130,7 @@ export const callAction = (key, action, payload) => (dispatch) => {
 };
 
 export const reloadScheduleData = () => (dispatch, getState) => {
-    const {userState, loggedUserState} = getState();
+    const { userState: { userProfile }, loggedUserState: { isLoggedUser } } = getState();
     const {isLoggedUser} = loggedUserState;
     const {userProfile} = userState;
     dispatch(createAction(RELOAD_SCHED_DATA)({isLoggedUser, userProfile }));

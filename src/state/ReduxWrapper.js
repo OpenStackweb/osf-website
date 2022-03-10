@@ -28,6 +28,7 @@ const config = {
       [
           'loggedUserState',
           'userState',
+          'settingsState',
       ]
 }
 

@@ -37,7 +37,7 @@ episodes:
       Tune into this episode and learn about the 5G / Edge Computing / NFV
       sessions that you shouldn't miss and what to expect at the first in-person
       Summit since 2019.
-    youtubeEmbed: https://www.youtube.com/watch?v=6TMqw_0HFqU
+    youtubeEmbed: https://www.youtube.com/embed/6TMqw_0HFqU
     youtubeLink: https://www.youtube.com/watch?v=6TMqw_0HFqU
   - hidden: false
     date: 2022-03-03T15:00:00.000Z

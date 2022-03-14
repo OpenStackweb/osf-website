@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import ContactFormHorizontal from '../components/ContactFormHorizontal'
@@ -12,39 +12,20 @@ import SubNav from '../components/SummitSubNav'
 import { connect } from "react-redux";
 import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
-
-import Cannonical from '../../static/img/summit/ubuntu-cannonical.svg'
-import Mirantis from '../../static/img/summit/mirantis-logo-horizontal.svg'
-import ComponentSoft from '../../static/img/summit/component-soft-logo.svg'
-import SysEleven from '../../static/img/summit/SysEleven_Logo.svg'
-
-import { getCurrentSummit } from '../actions/summit-actions'
+import SummitSponsors from '../components/SummitSponsors'
 
 export const SummitSponsorPageTemplate = ({
   isLoggedUser,
   header,
-  form,
-  topics,
-  previousSummits,
-  videoBanner,
-  sponsorships,
   summit_sponsors
 }) => {
-
-  const getSponsorTiers = () => {
-    let sponsorTiers = []
-    summit_sponsors.map(s => {
-      return sponsorTiers.some(t => t.id === s.sponsorship.id) ? null : sponsorTiers.push(s.sponsorship);
-    });
-    return sponsorTiers.sort((a, b) => a.order - b.order);
-  };
 
   return (
     <div>
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav active="summit-sponsor" pageName="Sponsors" />
+        <SubNav active="summit-sponsor" pageName="Sponsors" isLoggedUser={isLoggedUser} />
       </div>
 
       <main className="main">
@@ -79,33 +60,15 @@ export const SummitSponsorPageTemplate = ({
             <span className="description">
               <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
             </span>
-            <div className="sponsor-logos">
-              {getSponsorTiers().map(tier => {
-                return (
-                  <>
-                    <h3 className="small-title-summit">{tier.label}</h3>
-                    <div className="logos">
-                      {summit_sponsors?.filter(sponsor => sponsor.sponsorship.id === tier.id).sort((a, b) => a.order - b.order).map(sponsor => {
-                        return (
-                          <a className={`logo-${tier.name.toLowerCase()}`} href={sponsor.company.url}
-                            target="_blank" rel="noopener noreferrer">
-                            <img src={sponsor.company.big_logo ? sponsor.company.big_logo : sponsor.company.logo} alt={sponsor.company.name} />
-                          </a>
-                        )
-                      })}
-                    </div>
-                  </>
-                )
-              })}
-            </div>
+            <SummitSponsors summit_sponsors={summit_sponsors} />
           </section>
 
           <section id="howToSponsor" className="sponsor-steps">
           <div className="title">How to Sponsor</div>
             <div className="step-single">
               <h5>Step 1: Prospectus</h5>
-              <p><a href="/files/OpenInfra-Berlin-SUMMIT-2022-prospectus_021622.pdf">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>
-              <a href="/files/OpenInfra-Berlin-SUMMIT-2022-prospectus_021622.pdf" className="button-cta outline">Review the Prospectus</a>
+              <p><a href="/files/OpenInfra-Berlin-SUMMIT-2022-prospectus022222.pdf">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>
+              <a href="/files/OpenInfra-Berlin-SUMMIT-2022-prospectus022222.pdf" className="button-cta outline">Review the Prospectus</a>
             </div>
             <div className="step-single">
               <h5>Step 2: Master Sponsor Agreement (New Sponsors Only)</h5>
@@ -190,12 +153,8 @@ SummitSponsorPageTemplate.propTypes = {
   sponsorships: PropTypes.object,
 }
 
-const SummitSponsorPage = ({ isLoggedUser, summit, getCurrentSummit, data }) => {
+const SummitSponsorPage = ({ isLoggedUser, summit, data }) => {
   const { markdownRemark: post } = data
-
-  useEffect(() => {
-    getCurrentSummit();
-  }, [])
 
   return (
     <Layout>
@@ -218,10 +177,10 @@ SummitSponsorPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default connect(state => ({
-  isLoggedUser: state.loggedUserState.isLoggedUser,
-  summit: state.summitState.current_summit
-}), { getCurrentSummit })(SummitSponsorPage)
+export default connect(({loggedUserState, summitState}) => ({
+  isLoggedUser: loggedUserState.isLoggedUser,
+  summit: summitState.summit
+}))(SummitSponsorPage)
 
 export const summitSponsorPageQuery = graphql`
   query SummitSponsorPage($id: String!) {

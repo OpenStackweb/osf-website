@@ -4,34 +4,109 @@ const fs = require("fs")
 const axios = require('axios')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+const { ClientCredentials } = require('simple-oauth2');
 
 const myEnv = require("dotenv").config({
   path: `.env`,
   expand: true
-})
+});
 
-exports.onPreBootstrap = async () => {
+const getAccessToken = async (config, scope) => {
+  const client = new ClientCredentials(config);
 
   try {
+    return await client.getToken({scope});
+  } catch (error) {
+    console.log('Access Token error', error);
+  }
+};
 
-    const legalDocument = await axios.get(
+const writeToJson = (filePath, data) => {
+  fs.writeFileSync(filePath, JSON.stringify(data), 'utf8', function (err) {
+    if (err) throw err;
+    console.log(`wrote ${filePath}`);
+  });
+};
+
+const SSR_getLegals = async (baseUrl) => {
+  return await axios.get(
       `${process.env.GATSBY_API_BASE_URL}/api/public/v1/legal-documents/422`,
       {}).then((response) => response.data)
       .catch(e => console.log('ERROR: ', e));
+};
 
-    if (legalDocument) {
+const SSR_getSummit = async (baseUrl) => {
+  const params = {
+    expand: 'event_types,tracks,track_groups,presentation_levels,locations.rooms,locations.floors,order_extra_questions.values,schedule_settings,schedule_settings.filters,schedule_settings.pre_filters,summit_sponsors,summit_sponsors.company,summit_sponsors.sponsorship',
+    t: Date.now()
+  };
 
-      fs.writeFileSync('src/content/legal-document.json', JSON.stringify(legalDocument), 'utf8', function (err) {
-        if (err) throw err;
-        console.log(`wrote legal document 422`);
-      });
+  return await axios.get(
+      `${baseUrl}/api/public/v1/summits/current`,
+      { params }
+  )
+      .then(({data}) => data)
+      .catch(e => console.log('ERROR: ', e));
+};
+
+const SSR_getEvents = async (baseUrl, summitId, accessToken, page = 1, results = []) => {
+  return await axios.get(
+      `${baseUrl}/api/v1/summits/${summitId}/events/published`,
+      {
+        params: {
+          access_token: accessToken,
+          per_page: 50,
+          page: page,
+          expand: 'slides, links, videos, media_uploads, type, track, track.allowed_access_levels, location, location.venue, location.floor, speakers, moderator, sponsors, current_attendance, groups, rsvp_template, tags',
+        }
+      }).then(({data}) => {
+    if (data.current_page < data.last_page) {
+      return SSR_getEvents(baseUrl, summitId, accessToken, data.current_page + 1, [...results, ...data.data]);
     }
-  }
-  catch (e) {
-    console.log(e);
-  }
-}
 
+    return [...results, ...data.data];
+  })
+      .catch(e => console.log('ERROR: ', e));
+};
+
+exports.onPreBootstrap = async () => {
+  const apiBaseUrl = process.env.GATSBY_API_BASE_URL;
+  const buildScopes = process.env.GATSBY_BUILD_SCOPES;
+  const globalSettings = { lastBuild: Date.now() };
+  const config = {
+    client: {
+      id: process.env.GATSBY_OAUTH2_CLIENT_ID_BUILD,
+      secret: process.env.GATSBY_OAUTH2_CLIENT_SECRET_BUILD
+    },
+    auth: {
+      tokenHost: process.env.GATSBY_IDP_BASE_URL,
+      tokenPath: process.env.GATSBY_OAUTH_TOKEN_PATH
+    },
+    options: {
+      authorizationMethod: 'header'
+    }
+  };
+
+  const accessToken = await getAccessToken(config, buildScopes).then(({token}) => token.access_token);
+
+  // settings
+  writeToJson('src/content/settings.json', globalSettings);
+
+  // pull legals
+  const legalDocument = await SSR_getLegals(apiBaseUrl);
+  if (legalDocument) {
+    writeToJson('src/content/legal-document.json', legalDocument);
+  }
+
+  // pull summit
+  const summit = await SSR_getSummit(apiBaseUrl);
+  writeToJson('src/content/summit.json', summit);
+
+  // pull events
+  const events = await SSR_getEvents(apiBaseUrl, summit.id, accessToken, );
+  writeToJson('src/content/events.json', events);
+
+}
 
 // explicit Frontmatter declaration to make category, author and date, optionals. 
 exports.createSchemaCustomization = ({ actions }) => {

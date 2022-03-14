@@ -9,5 +9,7 @@ node_modules
 public/
 static/admin/*.bundle.*
 .idea/
+.env.*
 .env
-.env.development
+src/content/events.json
+src/content/summit.json

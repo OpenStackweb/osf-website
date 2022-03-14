@@ -904,6 +904,8 @@ companyDetails:
       col2: 2017-02-08
     - col2: 2022-01-12
       col1: Inovex GmbH
+    - col2: 2022-02-28
+      col1: DataCore Software
 ---
 
 The list of Corporate CLAs allowed to contribute to OpenStack projects. (Individual developers still need to fill out the Individual [Contributors License Agreement](https://wiki.openstack.org/wiki/How_To_Contribute#Contributors_License_Agreement)). If you need to update the list of employees authorized to commit code to OpenStack, please read [How To Update Corporate CLA](/cla). 

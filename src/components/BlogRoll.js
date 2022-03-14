@@ -63,8 +63,8 @@ class BlogRoll extends React.Component {
               )
             }
           }
-        }
-        )
+          return null;
+        })
     )
   }
 }

@@ -132,8 +132,6 @@ sponsor:
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Cisco.png
       - alt: City Network
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_CityNetwork.png
-      - alt: Dell Technologies
-        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_DellTechnologies.png
       - alt: EasyStack
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_EasyStack.png
       - alt: H3C
@@ -152,8 +150,6 @@ sponsor:
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Troila.png
       - alt: Ubuntu
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Ubuntu.png
-      - alt: vmware
-        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_vmware.png
       - alt: ZTE
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
     title: Gold Members

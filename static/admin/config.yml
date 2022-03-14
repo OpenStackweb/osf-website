@@ -586,7 +586,7 @@ collections:
     files:
       - file: "src/pages/membership/companies.md"
         label: "Members"
-        name: "members"
+        name: "member-companies"
         fields:
             - {label: "Template Key", name: "templateKey", widget: "hidden", default: "companies-page"}
             - {label: SEO, name: seo, widget: object, fields: [
@@ -596,7 +596,7 @@ collections:
                 {label: "Image", name: "image", widget: image},
                 {label: "Twitter Username", name: "twitterUsername", widget: string},
               ]}
-            - {label: Header, name: header, widget: object, fields: [
+            - {label: Header, name: header, widget: object, hint: "The sponsors on the CMS preview are part of a mock object to customize the width of each sponsor level", fields: [
                 {label: "Title", name: title, widget: string},
                 {label: "Sub Title", name: subTitle, widget: string},
                 {label: Link, name: link, widget: object, fields: [
@@ -604,23 +604,10 @@ collections:
                   {label: Url, name: url, widget: string}
                 ]}
               ]}
-            - {label: "Companies", name: companies, widget: list, fields: [
-                {label: Title, name: title, widget: string},
-                {label: Text, name: text, widget: text},
-                {label: Company List, name: companyList, widget: list, fields: [
-                  {label: Logo, name: image, widget: image},
-                  {label: Name, name: alt, widget: string},
-                  {
-                    label: Profile Link, 
-                    name: profileLink, 
-                    widget: relation, 
-                    collection: companiesProfiles, 
-                    searchFields: ["title"],
-                    valueField: "title",
-                    required: false
-                  },
-                  {label: Width, name: width, widget: hidden, required: false}
-                ]}
+            - {label: "Sponsor Levels", name: sponsorsLevel, widget: list, fields: [
+                {label: Name, name: name, widget: string},
+                {label: Id, name: id, widget: hidden},
+                {label: Custom Width, name: width, widget: string, required: false},
               ]}  
   - name: "generic-projects-pages"
     label: "Projects Pages"

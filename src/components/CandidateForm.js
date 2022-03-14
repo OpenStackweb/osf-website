@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import PropTypes from "prop-types";
 import { TextEditor } from 'openstack-uicore-foundation/lib/components'
 
 const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) => {
@@ -22,7 +21,7 @@ const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) 
         <div className="candidate-profile-form">
             <h2>Candidate Application Form</h2>
             <div className="candidate-profile-item">
-                <label>Provide a brief biography of yourself.</label>
+                <label htmlFor="bio">Provide a brief biography of yourself.</label>
                 <TextEditor
                     id="bio"
                     className="candidate-profile-editor"
@@ -31,7 +30,7 @@ const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) 
                 />
             </div>
             <div className="candidate-profile-item">
-                <label dangerouslySetInnerHTML={{ __html: electionStatus?.candidate_application_form_relationship_to_openstack_label }} />
+                <label htmlFor="relationship_to_openstack" dangerouslySetInnerHTML={{ __html: electionStatus?.candidate_application_form_relationship_to_openstack_label }} />
                 <TextEditor
                     id="relationship_to_openstack"
                     className="candidate-profile-editor"
@@ -40,7 +39,7 @@ const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) 
                 />
             </div>
             <div className="candidate-profile-item">
-                <label dangerouslySetInnerHTML={{ __html: electionStatus?.candidate_application_form_experience_label }} />
+                <label htmlFor="experience" dangerouslySetInnerHTML={{ __html: electionStatus?.candidate_application_form_experience_label }} />
                 <TextEditor
                     id="experience"
                     className="candidate-profile-editor"
@@ -49,7 +48,7 @@ const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) 
                 />
             </div>
             <div className="candidate-profile-item">
-                <label dangerouslySetInnerHTML={{ __html: electionStatus?.candidate_application_form_boards_role_label }} />
+                <label htmlFor="boards_role" dangerouslySetInnerHTML={{ __html: electionStatus?.candidate_application_form_boards_role_label }} />
                 <TextEditor
                     id="boards_role"
                     className="candidate-profile-editor"
@@ -58,7 +57,7 @@ const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) 
                 />
             </div>
             <div className="candidate-profile-item">
-                <label dangerouslySetInnerHTML={{ __html: electionStatus?.candidate_application_form_top_priority_label }} />
+                <label htmlFor="top_priority" dangerouslySetInnerHTML={{ __html: electionStatus?.candidate_application_form_top_priority_label }} />
                 <TextEditor
                     id="top_priority"
                     className="candidate-profile-editor"

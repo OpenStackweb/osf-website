@@ -76,7 +76,7 @@ const CompaniesSection = class extends React.Component {
                           company.image.publicURL
                           :
                           !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                      } alt={company.alt} className="home-s8-container-child" key={index} />
+                      } alt={company.alt} className="home-s8-container-child-logo" key={index} />
                     )
                   }
                 })}
@@ -97,7 +97,7 @@ const CompaniesSection = class extends React.Component {
                             company.image.publicURL
                             :
                             !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                        } alt={company.alt} style={{ marginRight: '1em' }} className="home-s8-container-child" key={index} />
+                        } alt={company.alt} style={{ marginRight: '1em' }} className="home-s8-container-child-logo" key={index} />
                       )
                     }
                   })}
@@ -107,7 +107,7 @@ const CompaniesSection = class extends React.Component {
           </Slider>
 
           <LinkComponent href="/members/" className="button button-red">
-            <span>View all Member Companies <img src="/img/symbols/arrow-left.svg" alt="" /></span>
+            <span>View all Member Companies <img src="/img/symbols/arrow-left.svg" alt="left arrow" /></span>
           </LinkComponent>
         </div>
       </section>

@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
@@ -51,7 +51,7 @@ export const JoinPageTemplate = ({
                                         <LinkComponent
                                             key={`header-button-${index}`}
                                             href={button.link}>
-                                            {button.text} <img src={leftArrow} alt="" />
+                                            {button.text} <img src={leftArrow} alt="left" />
                                         </LinkComponent>
                                     )
                                 })}
@@ -59,7 +59,7 @@ export const JoinPageTemplate = ({
                         </div>
                         <div className="header-left">
                             <div className="picture">
-                                <img src={!!header.image.childImageSharp ? header.image.childImageSharp.fluid.src : header.image} />
+                                <img alt="img" src={!!header.image.childImageSharp ? header.image.childImageSharp.fluid.src : header.image} />
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ export const JoinPageTemplate = ({
                 }
                 {contact && contact.display &&
                     <div className="contact">
-                        <img src="/img/apple-touch-icon.png" alt="" />
+                        <img src="/img/apple-touch-icon.png" alt="img" />
                         <span>{contact.text}</span>
                         <LinkComponent href={contact.button.link}>{contact.button.text}</LinkComponent>
                     </div>
@@ -133,7 +133,7 @@ export const JoinPageTemplate = ({
                             <div className="gradient" />
                             {involved.slide.map((pic, index) => {
                                 return (
-                                    <img key={`involved-slide-${index}`} src={!!pic.picture?.childImageSharp ? pic.picture?.childImageSharp.fluid.src : pic.picture} />
+                                    <img alt="img" key={`involved-slide-${index}`} src={!!pic.picture?.childImageSharp ? pic.picture?.childImageSharp.fluid.src : pic.picture} />
                                 )
                             })}
                         </div>

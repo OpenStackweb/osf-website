@@ -15,10 +15,10 @@ const ProfileForm = class extends React.Component {
                 <p className="info"><strong>If you're an active developer on the OpenStack project, please list any
                     email addresses you use to commit code.</strong> (This will really help us avoid duplicates!) If you
                     contributed code ONLY using gerrit, all email addresses you used will be listed on the <a
-                        href="https://review.openstack.org/#/settings/web-identities" target="_blank">web identities
+                        href="https://review.openstack.org/#/settings/web-identities" rel="noreferrer" target="_blank">web identities
                         page</a>. If you have contributed also <em>before</em> gerrit was put in place, please make an
                     effort to remember other email addresses you may have used. Interested in how to <a
-                        href="http://wiki.openstack.org/HowToContribute" target="_blank">become a contributor</a>?</p>
+                        href="http://wiki.openstack.org/HowToContribute" rel="noreferrer" target="_blank">become a contributor</a>?</p>
                 <div className="field">
                     <label className="label">Primary Email Address</label>
                     <div className="control">

@@ -8,13 +8,23 @@ import {
   AFFILIATION_SAVED,
   AFFILIATION_DELETED,
   MEMBERSHIP_TYPE_UPDATED,
+  SCHEDULE_SYNC_LINK_RECEIVED,
+  START_LOADING_PROFILE,
+  STOP_LOADING_PROFILE,
+  GET_USER_PROFILE,
+  REMOVE_FROM_SCHEDULE,
+  ADD_TO_SCHEDULE
 } from '../actions/user-actions'
 
 const DEFAULT_STATE = {
   loadingIDP: false,
   idpProfile: null,
+  userProfile: null,
   currentMembershipType: null,
-  currentAffiliations: []
+  currentAffiliations: [],
+  isAuthorized: false,
+  hasTicket: false,
+  attendee: null
 }
 
 const userReducer = (state = DEFAULT_STATE, action) => {
@@ -23,12 +33,23 @@ const userReducer = (state = DEFAULT_STATE, action) => {
   switch (type) {
     case LOGOUT_USER:
       return DEFAULT_STATE;
+    case START_LOADING_PROFILE:
+      return { ...state, loading: true };
+    case STOP_LOADING_PROFILE:
+      return { ...state, loading: false };
     case START_LOADING_IDP_PROFILE:
       return { ...state, loadingIDP: true };
     case STOP_LOADING_IDP_PROFILE:
       return { ...state, loadingIDP: false };
     case GET_IDP_PROFILE:
       return { ...state, idpProfile: payload.response }
+    case GET_USER_PROFILE:
+      const { response: userProfile } = payload;
+      return { ...state,
+        userProfile: userProfile,
+     //   isAuthorized: isAuthorizedUser(userProfile.groups),
+     //   hasTicket: userProfile.summit_tickets?.length > 0
+      }
     case RECEIVE_USER_INFO:
       let { response } = action.payload;
       let affiliations = response.affiliations.map((a) => {
@@ -43,7 +64,6 @@ const userReducer = (state = DEFAULT_STATE, action) => {
         currentAffiliations: [...state.currentAffiliations, affiliation]
       };
     }
-      break;
     case AFFILIATION_SAVED: {
       let affiliation = { ...payload.response };
       return {
@@ -58,7 +78,6 @@ const userReducer = (state = DEFAULT_STATE, action) => {
         })
       };
     }
-      break;
     case AFFILIATION_DELETED: {
       let { affiliationId } = payload;
       let affiliations = state.currentAffiliations.filter(a => a.id !== affiliationId);
@@ -67,12 +86,23 @@ const userReducer = (state = DEFAULT_STATE, action) => {
         currentAffiliations: affiliations
       };
     }
-      break;
     case MEMBERSHIP_TYPE_UPDATED: {
       let member = { ...payload.response };
       return { ...state, currentMembershipType: member.membership_type };
     }
-      break;
+    case SCHEDULE_SYNC_LINK_RECEIVED:
+      const {link} = payload.response;
+      return { ...state, userProfile: {...state.userProfile, schedule_shareable_link: link} };
+    case ADD_TO_SCHEDULE: {
+      const {event} = payload;
+      const schedule_summit_events = [...state.userProfile.schedule_summit_events, event];
+      return { ...state, userProfile: { ...state.userProfile, schedule_summit_events } }
+    }
+    case REMOVE_FROM_SCHEDULE: {
+      const {event} = payload;
+      const schedule_summit_events = state.userProfile.schedule_summit_events.filter(ev => ev.id !== event.id);
+      return { ...state, userProfile: { ...state.userProfile, schedule_summit_events } }
+    }
     default:
       return state;
   }

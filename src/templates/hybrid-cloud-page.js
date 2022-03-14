@@ -5,7 +5,6 @@ import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
-import Hero from '../components/Hero'
 import SEO from '../components/SEO'
 
 import { connect } from "react-redux";
@@ -47,7 +46,7 @@ export const HybridCloudPageTemplate = ({
                 return (
                   <div className="case-wrapper" key={`useCase-${index}`}>
                     <div className="case-image" style={{ backgroundColor: c.backgroundColor }}>
-                      <img src={
+                      <img alt="img" src={
                         (c.image?.extension === 'svg' || c.image?.extension === 'gif') && !c.image?.childImageSharp ?
                           c.image?.publicURL
                           :
@@ -72,7 +71,7 @@ export const HybridCloudPageTemplate = ({
                 {benefits.items.map((benefit, index) => {
                   return (
                     <div key={`benefit-${index}`}>
-                      <img src={
+                      <img alt="img" src={
                         (benefit.image?.extension === 'svg' || benefit.image?.extension === 'gif') && !benefit.image?.childImageSharp ?
                           benefit.image?.publicURL
                           :
@@ -93,7 +92,7 @@ export const HybridCloudPageTemplate = ({
               {projects.list.map((project, index) => {
                 return (
                   <div className="project-wrapper" key={`project-${index}`}>
-                    <img src={
+                    <img alt="img" src={
                       (project.image.extension === 'svg' || project.image.extension === 'gif') && !project.image.childImageSharp ?
                         project.image.publicURL
                         :
@@ -122,7 +121,7 @@ export const HybridCloudPageTemplate = ({
                   return (
                     <div className="organization-wrapper" key={`organization-${index}`}>
                       <LinkComponent href={organization.link}>
-                        <img src={
+                        <img alt="img" src={
                           (organization.image?.extension === 'svg' || organization.image?.extension === 'gif') && !organization.image?.childImageSharp ?
                             organization.image?.publicURL
                             :
@@ -143,7 +142,7 @@ export const HybridCloudPageTemplate = ({
               </div>
               <LinkComponent href={footer.button} className="footer-button">
                 <span>{footer.buttonText}</span>
-                <img src={leftArrow} alt="" />
+                <img src={leftArrow} alt="img" />
               </LinkComponent>
             </section>
           }

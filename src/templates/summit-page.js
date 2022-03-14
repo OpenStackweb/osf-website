@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
@@ -11,7 +11,10 @@ import SubNav from '../components/SummitSubNav'
 import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
 import TravelSupportPic from '../../static/img/summit/Tokyo-travel-support-pic.jpg'
-import Cannonical from '../../static/img/summit/ubuntu-cannonical.svg'
+
+import { getCurrentSummit } from '../actions/summit-actions'
+import SummitSponsorSlider from '../components/SummitSponsorSlider'
+
 
 export const SummitPageTemplate = ({
   isLoggedUser,
@@ -20,7 +23,7 @@ export const SummitPageTemplate = ({
   topics,
   previousSummits,
   videoBanner,
-  sponsorships,
+  summit_sponsors
 }) => {
 
   return (
@@ -28,7 +31,7 @@ export const SummitPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav active="summit" pageName="Home"/>
+        <SubNav active="summit" pageName="Home" isLoggedUser={isLoggedUser} />
       </div>
 
       <main className="main">
@@ -42,8 +45,7 @@ export const SummitPageTemplate = ({
                 <span className="title">
                   {header.title}
                 </span>
-                <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}>
-                </span>
+                <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}></span><span className="description">Learn about our <a href="/summit-covid">COVID safety measures</a>.</span>
                 <span className="date">
                   <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
                     header.date.icon.publicURL
@@ -62,10 +64,10 @@ export const SummitPageTemplate = ({
                 </section>
               </div>
               <div className="header-right">
-              <div className="hero-video">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/gitMjvPnUG0" frameborder="0" allowfullscreen></iframe>
+                <div className="hero-video">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/gitMjvPnUG0" frameBorder={"0"} allowFullScreen></iframe>
                 </div>
-              {/*}
+                {/*}
                 <div className="picture">
                   <img src={!!header.image.childImageSharp ? header.image.childImageSharp.fluid.src : header.image} />
                 </div>
@@ -73,6 +75,7 @@ export const SummitPageTemplate = ({
               </div>
             </section>
           }
+
           {topics && topics.display &&
             <section className="summit-topics">
               <span className="title">{topics.title}</span>
@@ -86,11 +89,20 @@ export const SummitPageTemplate = ({
                   )
                 })}
               </div>
-              <LinkComponent className="button-cta" style={{margin: "0 auto", marginTop: "30px"}} href="/summit-tracks">Learn More about Summit Tracks<img src={leftArrow} alt="" /></LinkComponent>
+              <LinkComponent className="button-cta" style={{ margin: "0 auto", marginTop: "30px" }} href="/summit-schedule">View the Summit Schedule<img src={leftArrow} alt="" /></LinkComponent>
             </section>
-          } 
+          }
+          
+          <section className="logo-slider-section">
+            <span className="title">Sponsors</span>
+            <span className="description">
+              <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
+            </span>
+            <SummitSponsorSlider summit_sponsors={summit_sponsors} />
+            <LinkComponent className="button-cta" href="/summit-sponsor">Become a Sponsor<img src={leftArrow} alt="" /></LinkComponent>
+          </section>
 
-            <LogoBanner title="Register before prices increase on March 16!" cta="Register Now" href="https://openinfrasummitberlin.eventbrite.com/" />
+          <LogoBanner title="Register before prices increase on March 18!" cta="Register Now" href="https://openinfrasummitberlin.eventbrite.com/" />
           {/*
           <section id="sponsor" className="sponsorship-levels">
             <span className="title">Sponsors</span>
@@ -106,7 +118,7 @@ export const SummitPageTemplate = ({
             </section>
             */}
 
-            <section style={{backgroundColor: "white", marginTop: "unset"}} className="travel-support">
+          <section style={{ backgroundColor: "white", marginTop: "unset" }} className="travel-support">
             <div className="text">
               <span className="title">Travel Support Program & Visa Letters</span>
               <span className="description">Need assistance getting to the Berlin Summit? We can help! If you are a key contributor to open infrastructure and your company does not cover the costs of your travel and accommodation, you can apply for the Travel Support Program. We can also provide you with a visa invitation letter from the Foundation to meet travel requirements.</span>
@@ -119,9 +131,9 @@ export const SummitPageTemplate = ({
               <img src={TravelSupportPic} />
             </div>
           </section>
-          <hr className="dividing-line"/>
+          <hr className="dividing-line" />
           {previousSummits && previousSummits.display &&
-            <section className="summit-previous" style={{marginTop: "60px"}}>
+            <section className="summit-previous" style={{ marginTop: "60px" }}>
               <span className="title">
                 {previousSummits.title}
               </span>
@@ -143,7 +155,7 @@ export const SummitPageTemplate = ({
             <section className="summit-video">
               <span className="title">{videoBanner.title}</span>
               <LinkComponent className="video-cta" href={videoBanner.button.link}>{videoBanner.button.text} <img src={leftArrow} alt="" /></LinkComponent>
-            </section> 
+            </section>
           }
 
           {form && form.display &&
@@ -183,10 +195,15 @@ SummitPageTemplate.propTypes = {
   previousSummits: PropTypes.object,
   videoBanner: PropTypes.object,
   sponsorships: PropTypes.object,
+  summit_sponsors: PropTypes.array,
 }
 
-const SummitPage = ({ isLoggedUser, data }) => {
+const SummitPage = ({ isLoggedUser, summit, getCurrentSummit, data }) => {
   const { markdownRemark: post } = data
+
+  useEffect(() => {
+    getCurrentSummit();
+  }, [])
 
   return (
     <Layout>
@@ -199,6 +216,7 @@ const SummitPage = ({ isLoggedUser, data }) => {
         previousSummits={post.frontmatter.previousSummits}
         videoBanner={post.frontmatter.videoBanner}
         sponsorships={post.frontmatter.sponsorships}
+        summit_sponsors={summit?.summit_sponsors || []}
       />
     </Layout>
   )
@@ -209,8 +227,9 @@ SummitPage.propTypes = {
 }
 
 export default connect(state => ({
-  isLoggedUser: state.loggedUserState.isLoggedUser
-}), null)(SummitPage)
+  isLoggedUser: state.loggedUserState.isLoggedUser,
+  summit: state.summitState.current_summit
+}), { getCurrentSummit })(SummitPage)
 
 export const summitPageQuery = graphql`
   query SummitPage($id: String!) {

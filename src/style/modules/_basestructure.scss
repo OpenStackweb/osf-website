@@ -23,7 +23,7 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 33px;
-    
+
   @media screen and(max-width: $screen-md-min) {
     font-size: 26px;
     line-height: 32px;
@@ -68,7 +68,7 @@
   margin-bottom: 15px;
 }
 
-p.fix-h5{
+p.fix-h5 {
   color: #161616;
 }
 
@@ -124,7 +124,6 @@ i {
   @media (max-width: $screen-md) {
     justify-content: center;
   }
-
 }
 
 .nav .nav-menu a {
@@ -172,14 +171,21 @@ footer {
 }
 
 .hero-background {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), 35%, rgba(0, 0, 0, 0)) 10%, url("/img/home/hero-image.jpg");
+  background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.8),
+        35%,
+        rgba(0, 0, 0, 0)
+      )
+      10%,
+    url("/img/home/hero-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  
+
   @media (max-width: $screen-sm-min) {
     background-size: cover;
     background-position-x: 50%;
-  }   
+  }
   @media (max-width: 320px) {
     background-position-y: 13.5em;
     background-size: 114%;
@@ -189,7 +195,7 @@ footer {
     background-position-y: initial;
     background-size: cover;
     background-position-x: 50%;
-  }  
+  }
 }
 
 .hero.is-primary {
@@ -398,12 +404,14 @@ div.content.custom > main > section > div > div > div > h3 {
     background-color: $white;
     color: #161616;
     border-radius: 0px;
+    box-shadow: none;
     box-shadow: 0 2px 3px rgba(34, 34, 34, 0.1), 0 0 0 1px rgba(34, 34, 34, 0.1);
     margin-top: 22px;
+    font-size: 17px;
     @media (min-width: 769px) {
       height: 267px;
-      padding-bottom: 0.5rem;
-      padding-top: 2.5rem;
+      padding-bottom: 7px;
+      padding-top: 35px;
     }
     left: 50%;
     @media (max-width: 769px) {
@@ -473,6 +481,7 @@ div.content.custom > main > section > div > div > div > h3 {
   display: block;
   left: calc(50% - 110px);
   width: 240px;
+  border-radius: 0;
   .nested-menu-image {
     display: block;
     @media (max-width: 1024px) {
@@ -481,6 +490,16 @@ div.content.custom > main > section > div > div > div > h3 {
     }
   }
 }
+
+// overwrite bootstrap styles from schedule
+.dropdown-menu {
+  background-color: transparent !important;
+  min-width: 12rem !important;
+  padding: 4px 0 0 0 !important;
+  margin: 0 !important;
+  border: none !important;
+}
+
 /*list bullets*/
 ul {
   li {
@@ -493,4 +512,3 @@ ul {
 .column {
   color: #161616;
 }
-

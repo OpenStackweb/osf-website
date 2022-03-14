@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { graphql, Link, withPrefix } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import { kebabCase } from 'lodash'
 import Layout from '../components/Layout'
 import Header from '../components/Header'

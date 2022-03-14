@@ -15,15 +15,28 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2022-03-17T15:00:00.000Z
-    episodeTitle: What to Expect at the OpenInfra Summit Berlin
+    date: 2022-03-31T14:00:00.000Z
+    episodeTitle: "OpenStack Yoga: New Features Straight from the Contributors"
+    episodeDescription: "OpenStack continues to be one of the most active open
+      source projects in the world. Come learn more about OpenStack Yoga, the
+      25th release of the open source cloud computing project. Hundreds of
+      developers from over 60 organizations delivered OpenStack Yoga and this
+      episode of OpenInfra Live will highlight some of the key features, what
+      use cases are impacted and what operators can expect. "
+    episodeSpeakers: "Host: Ghanshyam Mann, Chair of the OpenStack TC for the Yoga cycle"
+    youtubeLink: https://youtu.be/hwPfjvshxOM
+    youtubeEmbed: https://youtu.be/hwPfjvshxOM
+  - hidden: false
+    date: 2022-03-17T14:00:00.000Z
+    episodeTitle: "What to Expect at the OpenInfra Summit Berlin: 5G / Edge Computing / NFV"
     episodeDescription: The OpenInfra Summit is a global event for open source IT
       infrastructure professionals to collaborate on software development, share
       best practices about designing and running infrastructure in production,
       and make partnership and purchase decisions. This year, we are bringing
       the OpenInfra Summit back and headed to Berlin, Germany on June 7-9, 2022!
-      Tune into this episode and learn about the sessions that you shouldn't
-      miss and what to expect at the first in-person Summit since 2019.
+      Tune into this episode and learn about the 5G / Edge Computing / NFV
+      sessions that you shouldn't miss and what to expect at the first in-person
+      Summit since 2019.
     youtubeEmbed: https://www.youtube.com/watch?v=6TMqw_0HFqU
     youtubeLink: https://www.youtube.com/watch?v=6TMqw_0HFqU
   - hidden: false

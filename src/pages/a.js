@@ -1,6 +1,7 @@
-import React from "react"
+import React, {useEffect} from "react"
 import { Router, Location } from "@reach/router"
 import { connect } from 'react-redux'
+import { syncData } from '../actions/base-actions';
 import PrivateRoute from '../routes/PrivateRoute'
 import withSessionChecker from "../utils/withSessionChecker"
 import ProfilePage from "../templates/profile-page";
@@ -14,15 +15,17 @@ import MemberProfilePage from "../templates/member-profile-page"
 import CompanyProfilePage from "../templates/company-profile-page"
 import CandidatePage from "../templates/candidate-page"
 import EditProfilePage from "../templates/edit-profile-page"
+import SchedulePage from "../templates/schedule-page"
 import NotFoundPage from "./404"
-import PublicRoute from "../routes/PublicRoute"
 
 const App = ({ isLoggedUser, user }) => {
+
   return (
     <Location>
       {({ location }) => (
         <Router basepath="/a" >
           <PrivateRoute path="/" location={location}>
+            <SchedulePage path="/summit-my-schedule" schedKey="my-schedule-main" location={location} headerTitle="My Schedule" />
             <ProfilePage path="/profile" isLoggedIn={isLoggedUser} user={user} location={location} />
             <EditProfilePage path="/profile/edit" isLoggedIn={isLoggedUser} user={user} location={location} />
             <CandidatePage path="/profile/candidate" isLoggedIn={isLoggedUser} user={user} location={location} />
@@ -44,7 +47,7 @@ const App = ({ isLoggedUser, user }) => {
 
 const mapStateToProps = ({ loggedUserState, userState }) => ({
   isLoggedUser: loggedUserState.isLoggedUser,
-  user: userState.member
+  user: userState,
 })
 
-export default connect(mapStateToProps)(withSessionChecker(App))
+export default connect(mapStateToProps, { syncData })(withSessionChecker(App))

@@ -16,7 +16,7 @@ import URI from "urijs"
 import { navigate } from '@reach/router'
 import { connect } from 'react-redux';
 import { AbstractAuthorizationCallbackRoute } from "openstack-uicore-foundation/lib/components";
-import { getIDPProfile } from '../actions/user-actions'
+import { getUserProfile} from '../actions/user-actions'
 import {IDP_BASE_URL, OAUTH2_CLIENT_ID, getEnvVariable} from '../utils/envVariables'
 import HeroComponent from "../components/HeroComponent";
 
@@ -30,7 +30,7 @@ class AuthorizationCallbackRoute extends AbstractAuthorizationCallbackRoute {
     this.props.getUserInfo(
       'groups, all_affiliations, candidate_profile, election_applications, election_nominations, election_nominations.candidate',
       'election_nominations.candidate.first_name, election_nominations.candidate.last_name'
-    ).then(() => this.props.getIDPProfile().then(() => navigate(URI.decode(backUrl))));
+    ).then(() => this.props.getUserProfile().then(() => navigate(URI.decode(backUrl))));
   }
 
   _redirect2Error(error) {
@@ -51,5 +51,5 @@ const mapStateToProps = ({ loggedUserState }) => ({
 })
 
 export default connect(mapStateToProps, {
-  getIDPProfile
+  getUserProfile
 })(AuthorizationCallbackRoute)

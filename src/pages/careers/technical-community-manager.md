@@ -46,6 +46,7 @@ The OpenInfra Foundation strives to nurture open source communities who are deve
 - Hands-on experience with deploying and integrating software components, as well as creating and executing demos 
 - Familiarity with leading open source projects like Linux, OpenStack, Kubernetes is a strong plus
 - Strong technical writing skills
+- Good verbal and written communication skills (English)
 - Ability to engage in conversations with people in various job roles including developers, architects, business oriented roles and executive management
 - Architectural understanding of how open source infrastructure technologies integrate and ability to discuss the benefits or shortcomings of specific technologies
 - Community management experience (open source community preferred) 

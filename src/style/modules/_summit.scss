@@ -245,6 +245,52 @@
   }
 }
 
+.logo-slider-section {
+  background: #ffffff;
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 768px) {
+    padding: 50px 30px;
+  }
+  span {
+    display: inline-block;
+  }
+  .title {
+    font-family: "Jura";
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.6px;
+    color: #161616;
+    margin-bottom: 50px;
+    @media (max-width: 768px) {
+      font-size: 30px;
+      line-height: 36px;
+    }
+  }
+  .description {
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+    opacity: 0.8;
+    text-align: center;
+    margin-bottom: 60px;
+    @media (max-width: 768px) {
+      margin-top: 0;
+      margin-bottom: 35px;
+    }
+  }
+  .button-cta {
+    margin: 0 auto;
+    @media (max-width: 768px) {
+      margin-top: 30px;
+    }
+  }
+}
+
 .summit-topics {
   background: #f3f3f3;
   padding: 60px 120px;
@@ -552,6 +598,9 @@ hr.dividing-line {
     flex: none;
     order: 0;
     flex-grow: 0;
+    @media (max-width: 768px) {
+      margin-left: unset;
+    }
     &:hover {
       background-color: white;
       color: #28A4DB;
@@ -1120,6 +1169,18 @@ hr.dividing-line {
         width: 50%;
       }
     }
+    .logo-spotlight {
+      text-align: center;
+      margin-top: 15px;
+      width: 33%;
+      max-width: 280px;
+      img {
+        width: 280px;
+      }
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
     .logo-exhibitor {
       text-align: center;
       margin: 15px 15px;
@@ -1127,6 +1188,123 @@ hr.dividing-line {
       max-width: 240px;
       img {
         width: 240px;
+      }
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
+    .logo-supporting {
+      text-align: center;
+      margin: 15px 15px;
+      width: 20%;
+      max-width: 140px;
+      img {
+        width: 140px;
+      }
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
+    .logo-media {
+      text-align: center;
+      margin: 15px 15px;
+      width: 18%;
+      max-width: 120px;
+      img {
+        width: 120px;
+      }
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
+  }
+}
+
+.sponsor-logos-slider {
+  margin-bottom: 60px;
+  h3.small-title-summit {
+    padding: 25px 0 15px 0;
+    text-transform: uppercase;
+    color: $gray;
+    text-align: center;
+    font-size: 1em;
+  }
+  a.carousel-control-prev, a.carousel-control-next {
+    align-items: baseline;
+  }
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 20%;
+    @media (max-width: 768px) {
+      margin: unset;
+    }
+    .logo-headline {
+      text-align: center;
+      margin: 15px 15px 0 15px;
+      width: 50%;
+      max-width: 340px;
+      img {
+        width: 340px;
+      }
+    }
+    .logo-premier {
+      text-align: center;
+      margin-top: 15px;
+      width: 40%;
+      max-width: 300px;
+      img {
+        width: 300px;
+      }
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
+    .logo-spotlight {
+      text-align: center;
+      margin-top: 15px;
+      width: 33%;
+      max-width: 280px;
+      img {
+        width: 280px;
+      }
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
+    .logo-exhibitor {
+      text-align: center;
+      margin: 15px 15px 0 15px;
+      width: 25%;
+      max-width: 240px;
+      img {
+        width: 240px;
+      }
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
+    .logo-supporting {
+      text-align: center;
+      margin: 15px 15px 0 15px;
+      width: 20%;
+      max-width: 140px;
+      img {
+        width: 140px;
+      }
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
+    .logo-media {
+      text-align: center;
+      margin: 15px 15px 0 15px;
+      width: 18%;
+      max-width: 140px;
+      img {
+        width: 140px;
       }
       @media (max-width: 768px) {
         width: 50%;

@@ -19,7 +19,7 @@ const HeaderStaff = class extends React.Component {
                 </LinkComponent>
               </div> 
               <div className="column aboutstaff-s1-1-container">
-                <img src={!!image.childImageSharp? image.childImageSharp.fluid.src: image} id="aboutstaff-s1-id-pic1" alt="" />                
+                <img src={!!image.childImageSharp? image.childImageSharp.fluid.src: image} id="aboutstaff-s1-id-pic1" alt="staff" />
               </div>
             </div>
           </div>

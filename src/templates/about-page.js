@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
-import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
@@ -32,7 +31,7 @@ export const AboutPageTemplate = ({
             <div className="container about-s1-container">
               <div className="columns">
                 <div className="column">
-                  <img class="about-full-logo" src="/img/OpenInfrastructureFoundation-logo-RGB-horiz2.png" />
+                  <img className="about-full-logo" alt="about-full-logo" src="/img/OpenInfrastructureFoundation-logo-RGB-horiz2.png" />
                   <PageContent content={content} />
                 </div>
               </div>

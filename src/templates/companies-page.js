@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import { kebabCase } from 'lodash'
-import Content, { HTMLContent } from '../components/Content'
+import Content from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
@@ -21,13 +21,12 @@ export const CompaniesPageTemplate = ({
   isLoggedUser,
   header,
   sponsors,
+  sponsorsLevel,
   loading,
   content,
   contentComponent
 }) => {
   const PageContent = contentComponent || Content
-
-  console.log('sponsors', sponsors)
 
   return (
     <div>
@@ -42,8 +41,8 @@ export const CompaniesPageTemplate = ({
         <div className="content">
           <div className="container">
             <section className="companies-s1-main">
-
-              {sponsors.map((tier, index) => {
+              {sponsors?.map((tier, index) => {
+                const customWidth = sponsorsLevel.find(e => e.id === tier.id)?.width;
                 if (tier.is_active === true) {
                   return (
                     <div className="companies-s1-container" key={index}>
@@ -59,7 +58,7 @@ export const CompaniesPageTemplate = ({
                               return (
                                 <LinkComponent href={company?.description?.length > 0 ? `/a/members/profile/${tier.id}/${kebabCase(company.name)}` : company.url} key={companyIndex}>
                                   <img
-                                    src={company.logo}
+                                    src={`https://openinfra.dev/cdn-cgi/image/quality=75${customWidth ? `,width=${customWidth}` : ''}/${company.logo}`}
                                     alt={company.name}
                                     key={company.id}
                                   />
@@ -102,6 +101,7 @@ const CompaniesPage = ({ isLoggedUser, data, getSponsorhipTypes, sponsors, loadi
         isLoggedUser={isLoggedUser}
         header={post.frontmatter.header}
         sponsors={sponsors.sort((a, b) => a.order - b.order)}
+        sponsorsLevel={post.frontmatter.sponsorsLevel}
         loading={loading}
       />
     </Layout>
@@ -146,7 +146,11 @@ export const companiesPageQuery = graphql`
             url
             text
           }
-        }        
+        }
+        sponsorsLevel {
+          id
+          width
+        }
       }
     }
   }

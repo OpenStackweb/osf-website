@@ -25,37 +25,28 @@ const electionReducer = (state = DEFAULT_STATE, action) => {
     case LOGOUT_USER: {
       return DEFAULT_STATE;
     }
-    break;
     case START_LOADING:
       return { ...state, loading: true };
-    break;
     case STOP_LOADING:
       return { ...state, loading: false };
-    break;
     case GET_ELECTIONS_STATUS: {
       return { ...state, election_status: payload.response, member_nomination: null }
     }
-      break;
     case GET_CANDIDATES: {
       return { ...state, candidates: payload.response.data }
     }
-      break;
     case GET_GOLD_CANDIDATES: {
       return { ...state, gold_candidates: payload.response.data }
     }
-      break;
     case NOMINATE_MEMBER: {
       return { ...state, member_nomination: null }
     }
-      break;
     case NOMINATE_MEMBER_SUCCESS: {
       return { ...state, member_nomination: true }
     }
-      break;
     case NOMINATE_MEMBER_ERROR: {
       return { ...state, member_nomination: payload }
     }
-      break;
     default:
       return state;
   }

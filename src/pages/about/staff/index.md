@@ -10,20 +10,20 @@ seo:
   url: https://openinfra.dev/about/staff/
 header:
   subTitle: >
-    The OpenInfra Foundation staff supports the
-    development and adoption of open infrastructure globally by hosting open
-    source projects and communities of practice, including datacenter cloud,
-    edge computing, NFV, CI/CD and container infrastructure. 
+    The OpenInfra Foundation staff supports the development and adoption of open
+    infrastructure globally by hosting open source projects and communities of
+    practice, including datacenter cloud, edge computing, NFV, CI/CD and
+    container infrastructure. 
   title: OpenInfra Foundation Staff
 banner:
   button:
     text: Job Openings
     url: /careers
   image: /img/crew-100.jpg
-  subTitle: "The OpenInfra community includes over 100,000 individuals
-    across 187 countries and over 600 organizations. Developers, users, and the
-    entire ecosystem all contribute to the success of OpenInfra Foundation's
-    open source projects and initiatives. "
+  subTitle: "The OpenInfra community includes over 100,000 individuals across 187
+    countries and over 600 organizations. Developers, users, and the entire
+    ecosystem all contribute to the success of OpenInfra Foundation's open
+    source projects and initiatives. "
   title: COMMUNITY ENGAGEMENT AND DEVELOPMENT
 members:
   - description: Jonathan Bryce, who has spent his career building the cloud, is
@@ -88,10 +88,13 @@ members:
     picture: /img/about-staff/thierry.jpeg
     title: General Manager
     twitter: https://twitter.com/tcarrez
-  - description: "Wes Wilson is Director of Product & Engineering for the OpenInfra
-      Foundation. He has spent two decades in startups including
-      founding Brandstack, a graphic design marketplace that was acquired in
-      2011.  He focuses on product development and strategy, helping to align the foundation's efforts with the communities it serves. In his free time, he enjoys traveling, rooting for the San Antonio Spurs, and spending time with his wife and three kids."
+  - description: Wes Wilson is Director of Product & Engineering for the OpenInfra
+      Foundation. He has spent two decades in startups including founding
+      Brandstack, a graphic design marketplace that was acquired in 2011.  He
+      focuses on product development and strategy, helping to align the
+      foundation's efforts with the communities it serves. In his free time, he
+      enjoys traveling, rooting for the San Antonio Spurs, and spending time
+      with his wife and three kids.
     linkedin: https://www.linkedin.com/in/iamweswilson
     name: Wes Wilson
     openStack: https://www.openstack.org/community/members/profile/20997
@@ -132,18 +135,6 @@ members:
     openStack: https://www.openstack.org/community/members/profile/101709
     picture: /img/about-staff/SunnyCai.jpg
     title: Marketing Coordinator
-  - description: James works closely alongside Wes Wilson to communicate the
-      Foundation’s visual identity  through print and web design. As a
-      multifaceted designer with a strong production background, he
-      has  delivered work for boutique ad agencies launching new brands, massive
-      agencies promoting established  international businesses, freelance
-      clients, and in-house teams.
-    linkedin: https://www.linkedin.com/in/jcoledesign
-    name: James Cole
-    openStack: https://www.openstack.org/community/members/profile/96706
-    picture: /img/about-staff/jamescole.jpg
-    title: Senior Design Technologist
-    twitter: https://twitter.com/JamesColeDesign
   - description: Erin Disney works as a Marketing Manager for the Open
       Infrastructure Foundation. Prior to joining, Erin ran  events for W2O
       Group including CES, JPMorgan Healthcare, SXSW, and Social Media Week

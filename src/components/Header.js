@@ -1,6 +1,4 @@
 import React from 'react'
-
-import leftArrow from '../img/svg/arrow-left.svg'
 import LinkComponent from './LinkComponent';
 
 const Header = class extends React.Component {

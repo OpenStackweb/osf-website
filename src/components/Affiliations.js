@@ -61,7 +61,7 @@ const Affiliations = class extends React.Component {
                 { this.state.showModal &&
                 <div className="modal is-active">
                     <div className="modal-background"/>
-                    <div className="modal-content">
+                    <div className="modal-content" style={{width: 800}}>
                         <AffiliationForm onSave={this.onHandleSave} currentAffiliation={this.state.selectedAffiliation} onAddOrganization={this.props.addOrganization}/>
                     </div>
                     <button className="modal-close is-large" onClick={this.onHandleClose} aria-label="close"/>

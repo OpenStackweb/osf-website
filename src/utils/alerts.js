@@ -26,8 +26,6 @@ export const alertPopup = (title, html, confirmLabel, confirmAction, cancelLabel
     ).then((result) => {
         if (result.value) {
             confirmAction();
-        } else if (result.isDenied) {
-            // maybe add a handler here?
         }
     })
 };

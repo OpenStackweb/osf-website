@@ -52,7 +52,7 @@ episodes:
     episodeSpeakers: |-
       Lance Albertson (Oregon State University)
       Steve Quenette (Monash University)
-    youtubeEmbed: https://www.youtube.com/watch?v=xqGvMn0B7jc
+    youtubeEmbed: https://www.youtube.com/embed/xqGvMn0B7jc
     youtubeLink: https://www.youtube.com/watch?v=xqGvMn0B7jc
   - hidden: false
     date: 2022-02-17T15:00:00.000Z

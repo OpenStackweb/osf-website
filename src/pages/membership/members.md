@@ -229,7 +229,7 @@ companyTier:
           alt: ""
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_Cisco 1.png
           alt: ""
-        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_CityNetwork 1.png
+        - logo: /img/citynetwork-lg-new.jpg
           alt: ""
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_EasyStack 1.png
           alt: ""

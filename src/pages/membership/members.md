@@ -253,6 +253,8 @@ companyTier:
           alt: ""
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_ZTE 1.png
           alt: ""
+        - alt: Vexxhost
+          logo: /img/vexxhost-sm-copy.jpg
     - title: OpenInfra foundation Silver members
       mobileTitle: Silver Members
       companies:
@@ -331,8 +333,6 @@ companyTier:
         - logo: /img/silverhorizontal_sm.png
         - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_UltimumTechnologies
             1.png
-          alt: ""
-        - logo: /img/members-page/silver-tier/Sponsor-Logos-Silver_Vexxhost 1.png
           alt: ""
         - logo: /img/silverhorizontal_sm-copy.png
         - logo: /img/sponsor-logos-gold_vmware-1.png

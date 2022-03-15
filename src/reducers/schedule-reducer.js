@@ -1,6 +1,6 @@
 import summitData from '../content/summit.json';
 import {filterEventsByAccessLevel, getFilteredEvents, preFilterEvents, syncFilters, filterMyEvents} from '../utils/schedule';
-import {UPDATE_FILTER, UPDATE_FILTERS, CHANGE_VIEW, CHANGE_TIMEZONE} from '../actions/schedule-actions';
+import {UPDATE_FILTER, UPDATE_FILTERS, CHANGE_VIEW, CHANGE_TIMEZONE, RELOAD_SCHED_DATA , RELOAD_USER_PROFILE} from '../actions/schedule-actions';
 import {ADD_TO_SCHEDULE, GET_USER_PROFILE, REMOVE_FROM_SCHEDULE} from "../actions/user-actions";
 import {SYNC_DATA} from '../actions/base-actions';
 
@@ -20,14 +20,15 @@ const scheduleReducer = (state = INITIAL_STATE, action) => {
     const {type, payload} = action;
 
     switch (type) {
+        case `SCHED_${RELOAD_USER_PROFILE}`:
         case `SCHED_${GET_USER_PROFILE}`: {
             const {allEvents, events} = state;
             const allFilteredEvents = filterEventsByAccessLevel(allEvents, payload);
             const filteredEvents = filterEventsByAccessLevel(events, payload);
             return {...state, events: filteredEvents, allEvents: allFilteredEvents};
         }
+        case `SCHED_${RELOAD_SCHED_DATA}`:
         case `SCHED_${SYNC_DATA}`: {
-
             const {
                 color_source,
                 pre_filters,

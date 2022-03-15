@@ -14,7 +14,7 @@
     "dotenv": "8.6.0",
     "dropzone": "^5.7.2",
     "font-awesome": "^4.7.0",
-    "full-schedule-widget": "^1.1.38",
+    "full-schedule-widget": "^1.1.40",
     "gatsby": "^2.32.13",
     "gatsby-cli": "^2.11.5",
     "gatsby-image": "^2.3.1",

@@ -1,9 +1,6 @@
 import React, { useEffect, useState, useCallback, useRef } from "react";
 import PropTypes from "prop-types";
 import { pickBy } from "lodash";
-import { connect } from "react-redux";
-import { updateFiltersFromHash, updateFilter } from "../actions/schedule-actions";
-import { syncData } from "../actions/base-actions";
 import Layout from "../components/Layout";
 import FullSchedule from "../components/FullSchedule";
 import ScheduleFilters from "../components/ScheduleFilters";
@@ -17,7 +14,9 @@ import Header from "../components/Header";
 import styles from "../style/full-schedule.module.scss";
 import RegisterNowBanner from "../components/RegisterNowBanner";
 import { PageScrollInspector, SCROLL_DIRECTION } from "../components/PageScrollInspector";
-import settings from "../content/settings.json";
+import withScheduleData from "../utils/withScheduleData";
+import {deepLinkToEvent} from '../actions/schedule-actions'
+
 
 //@todo: connect to marketing api
 const dummyMarketingSettings = {
@@ -27,11 +26,12 @@ const dummyMarketingSettings = {
     "color_text_light": "#ffffff"
 };
 
-const SchedulePageTemplate = ({ summit, schedules, isLoggedUser, updateFilter, updateFiltersFromHash, scheduleProps, schedKey, headerTitle }) => {
+const SchedulePageTemplate = ({ summit, scheduleState, isLoggedUser, updateFilter, scheduleProps, schedKey, headerTitle}) => {
+
     const filtersWrapperRef = useRef(null);
+
     const [showFilters, setShowfilters] = useState(false);
-    const scheduleState = schedules.find(s => s.key === schedKey);
-    const { events, allEvents, filters, view, timezone, colorSource } = scheduleState || {};
+    const { key, events, allEvents, filters, view, timezone, colorSource } = scheduleState || {};
 
     const onScrollDirectionChange = useCallback(direction => {
         if (direction === SCROLL_DIRECTION.UP)
@@ -44,12 +44,12 @@ const SchedulePageTemplate = ({ summit, schedules, isLoggedUser, updateFilter, u
     }, [filtersWrapperRef]);
 
     useEffect(() => {
-        if (scheduleState) {
-            updateFiltersFromHash(schedKey, filters, view);
+        if (scheduleState && !!events?.length) {
+            deepLinkToEvent();
         }
-    }, [schedKey, filters, view, updateFiltersFromHash]);
+    }, [key, events]);
 
-    if (!summit || schedules.length === 0) return null;
+    if (!summit) return null;
 
     // if we don't have a state, it probably means the schedule was disabled from admin.
     if (!scheduleState) {
@@ -127,41 +127,26 @@ SchedulePageTemplate.propTypes = {
     isLoggedUser: PropTypes.bool,
 };
 
-const SchedulePage = ({ location, isLoggedUser, summit, schedules, updateFiltersFromHash, updateFilter, syncData, schedKey, headerTitle, data, lastBuild }) => {
+const ConnectedSchedTemplate = withScheduleData(SchedulePageTemplate);
+
+const SchedulePage = ({ location, schedKey, headerTitle, data, ...rest }) => {
     const post = data?.markdownRemark ? data.markdownRemark : null;
     const seo = post?.frontmatter.seo ? post.frontmatter.seo : undefined;
-
-    useEffect(() => {
-        if (!lastBuild || settings.lastBuild > lastBuild) {
-            syncData();
-        }
-    }, [lastBuild, syncData]);
 
     return (
         <Layout location={location}>
             <SEO seo={seo} />
-            <SchedulePageTemplate
-                summit={summit}
-                schedules={schedules}
-                isLoggedUser={isLoggedUser}
-                updateFilter={updateFilter}
-                updateFiltersFromHash={updateFiltersFromHash}
+            <ConnectedSchedTemplate
                 schedKey={post?.frontmatter.schedKey || schedKey}
                 headerTitle={post?.frontmatter.headerTitle || headerTitle}
+                {...rest}
             />
         </Layout>
     )
 
 }
 
-const mapStateToProps = ({ summitState, settingsState, loggedUserState, allSchedulesState }) => ({
-    summit: summitState.summit,
-    isLoggedUser: loggedUserState.isLoggedUser,
-    lastBuild: settingsState.lastBuild,
-    schedules: allSchedulesState.schedules,
-});
-
-export default connect(mapStateToProps, { updateFiltersFromHash, updateFilter, syncData })(SchedulePage);
+export default SchedulePage;
 
 export const summitScheduleQuery = graphql`
   query SummitSchedule($id: String!) {

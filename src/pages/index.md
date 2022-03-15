@@ -135,7 +135,7 @@ sponsor:
       - alt: EasyStack
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_EasyStack.png
       - alt: H3C
-        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_H3C.png
+        image: /img/h3c-lg.png
       - alt: Inspur
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Inspur.png
       - alt: Intel

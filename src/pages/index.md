@@ -152,6 +152,8 @@ sponsor:
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Ubuntu.png
       - alt: ZTE
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ZTE.png
+      - image: /img/vexxhost-lg.jpg
+        alt: Vexxhost
     title: Gold Members
   platinum:
     companyList:

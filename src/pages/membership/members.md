@@ -233,7 +233,7 @@ companyTier:
           alt: ""
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_EasyStack 1.png
           alt: ""
-        - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_H3C 1.png
+        - logo: /img/h3c-lg.png
           alt: ""
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_Inspur 1.png
           alt: ""

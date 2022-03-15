@@ -11,10 +11,7 @@ import SubNav from '../components/SummitSubNav'
 import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
 import TravelSupportPic from '../../static/img/summit/Tokyo-travel-support-pic.jpg'
-
-import { getCurrentSummit } from '../actions/summit-actions'
 import SummitSponsorSlider from '../components/SummitSponsorSlider'
-
 
 export const SummitPageTemplate = ({
   isLoggedUser,
@@ -128,7 +125,7 @@ export const SummitPageTemplate = ({
               </div>
             </div>
             <div className="picture">
-              <img src={TravelSupportPic} />
+              <img alt="travel pic support" src={TravelSupportPic} />
             </div>
           </section>
           <hr className="dividing-line" />
@@ -141,7 +138,7 @@ export const SummitPageTemplate = ({
                 {previousSummits.summitList.map((summit, index) => {
                   return (
                     <div className="summit-wrapper" key={`summit-${index}`}>
-                      <img src={!!summit.image.childImageSharp ? summit.image.childImageSharp.fluid.src : summit.image} />
+                      <img alt="summit image" src={!!summit.image.childImageSharp ? summit.image.childImageSharp.fluid.src : summit.image} />
                       <span className="location">{summit.location}</span>
                       <span className="date">{summit.date}</span>
                       <LinkComponent className="summit-cta" href={summit.button.link} >{summit.button.text} <img src={leftArrow} alt="" /></LinkComponent>
@@ -164,7 +161,7 @@ export const SummitPageTemplate = ({
                 <div className="form-columns">
                   <div className="form-left">
                     <div className="picture">
-                      <img src={!!form.image.childImageSharp ? form.image.childImageSharp.fluid.src : form.image} />
+                      <img alt="form image" src={!!form.image.childImageSharp ? form.image.childImageSharp.fluid.src : form.image} />
                     </div>
                     <span className="title-mobile">
                       {form.title}
@@ -198,12 +195,8 @@ SummitPageTemplate.propTypes = {
   summit_sponsors: PropTypes.array,
 }
 
-const SummitPage = ({ isLoggedUser, summit, getCurrentSummit, data }) => {
+const SummitPage = ({ isLoggedUser, summit, data }) => {
   const { markdownRemark: post } = data
-
-  useEffect(() => {
-    getCurrentSummit();
-  }, [])
 
   return (
     <Layout>
@@ -228,8 +221,8 @@ SummitPage.propTypes = {
 
 export default connect(state => ({
   isLoggedUser: state.loggedUserState.isLoggedUser,
-  summit: state.summitState.current_summit
-}), { getCurrentSummit })(SummitPage)
+  summit: state.summitState.summit
+}),{})(SummitPage)
 
 export const summitPageQuery = graphql`
   query SummitPage($id: String!) {

@@ -99,7 +99,7 @@ export const getIDPProfile = () => (dispatch, getState) => {
     .then(() => dispatch(dispatch(createAction(STOP_LOADING_IDP_PROFILE))));
 }
 
-export const updatePassword = (password) => async (dispatch) => {
+export const updatePassword = (password) => async (dispatch, getState) => {
 
   let { loggedUserState: { accessToken } } = getState();
 
@@ -126,7 +126,7 @@ export const updatePassword = (password) => async (dispatch) => {
     .catch(() => dispatch(createAction(STOP_LOADING_IDP_PROFILE)()));
 }
 
-export const updateProfilePicture = (pic) => async (dispatch) => {
+export const updateProfilePicture = (pic) => async (dispatch, getState) => {
 
   let { loggedUserState: { accessToken } } = getState();
 
@@ -150,7 +150,7 @@ export const updateProfilePicture = (pic) => async (dispatch) => {
     .catch(() => dispatch(createAction(STOP_LOADING_IDP_PROFILE)()));
 }
 
-export const updateProfile = (profile) => async (dispatch) => {
+export const updateProfile = (profile) => async (dispatch, getState) => {
 
   let { loggedUserState: { accessToken } } = getState();
 

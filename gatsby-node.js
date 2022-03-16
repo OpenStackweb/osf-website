@@ -15,7 +15,7 @@ const getAccessToken = async (config, scope) => {
   const client = new ClientCredentials(config);
 
   try {
-    return await client.getToken({scope});
+    return await client.getToken({ scope });
   } catch (error) {
     console.log('Access Token error', error);
   }
@@ -30,9 +30,9 @@ const writeToJson = (filePath, data) => {
 
 const SSR_getLegals = async (baseUrl) => {
   return await axios.get(
-      `${process.env.GATSBY_API_BASE_URL}/api/public/v1/legal-documents/422`,
-      {}).then((response) => response.data)
-      .catch(e => console.log('ERROR: ', e));
+    `${process.env.GATSBY_API_BASE_URL}/api/public/v1/legal-documents/422`,
+    {}).then((response) => response.data)
+    .catch(e => console.log('ERROR: ', e));
 };
 
 const SSR_getSummit = async (baseUrl) => {
@@ -42,31 +42,50 @@ const SSR_getSummit = async (baseUrl) => {
   };
 
   return await axios.get(
-      `${baseUrl}/api/public/v1/summits/current`,
-      { params }
+    `${baseUrl}/api/public/v1/summits/current`,
+    { params }
   )
-      .then(({data}) => data)
-      .catch(e => console.log('ERROR: ', e));
+    .then(({ data }) => data)
+    .catch(e => console.log('ERROR: ', e));
 };
 
 const SSR_getEvents = async (baseUrl, summitId, accessToken, page = 1, results = []) => {
   return await axios.get(
-      `${baseUrl}/api/v1/summits/${summitId}/events/published`,
-      {
-        params: {
-          access_token: accessToken,
-          per_page: 50,
-          page: page,
-          expand: 'slides, links, videos, media_uploads, type, track, track.allowed_access_levels, location, location.venue, location.floor, speakers, moderator, sponsors, current_attendance, groups, rsvp_template, tags',
-        }
-      }).then(({data}) => {
-    if (data.current_page < data.last_page) {
-      return SSR_getEvents(baseUrl, summitId, accessToken, data.current_page + 1, [...results, ...data.data]);
-    }
+    `${baseUrl}/api/v1/summits/${summitId}/events/published`,
+    {
+      params: {
+        access_token: accessToken,
+        per_page: 50,
+        page: page,
+        expand: 'slides, links, videos, media_uploads, type, track, track.allowed_access_levels, location, location.venue, location.floor, speakers, moderator, sponsors, current_attendance, groups, rsvp_template, tags',
+      }
+    }).then(({ data }) => {
+      if (data.current_page < data.last_page) {
+        return SSR_getEvents(baseUrl, summitId, accessToken, data.current_page + 1, [...results, ...data.data]);
+      }
 
-    return [...results, ...data.data];
-  })
-      .catch(e => console.log('ERROR: ', e));
+      return [...results, ...data.data];
+    })
+    .catch(e => console.log('ERROR: ', e));
+};
+
+const SSR_getProfileSettings = async (baseUrl, page = 1, results = {}) => {
+  return await axios.get(
+    `${baseUrl}/api/public/v1/releases/current`,
+    {
+      params: {
+        per_page: 50,
+        page: page,
+        expand: 'components, components.component'
+      }
+    }).then((data) => {
+      console.log('data?', data)
+      if (data.current_page < data.last_page) {
+        return SSR_getEvents(baseUrl, summitId, accessToken, data.current_page + 1, {...results, ...data.data});
+      }
+      return {...results, ...data.data};
+    })
+    .catch(e => console.log('ERROR: ', e));
 };
 
 exports.onPreBootstrap = async () => {
@@ -87,7 +106,7 @@ exports.onPreBootstrap = async () => {
     }
   };
 
-  const accessToken = await getAccessToken(config, buildScopes).then(({token}) => token.access_token);
+  const accessToken = await getAccessToken(config, buildScopes).then(({ token }) => token.access_token);
 
   // settings
   writeToJson('src/content/settings.json', globalSettings);
@@ -103,8 +122,12 @@ exports.onPreBootstrap = async () => {
   writeToJson('src/content/summit.json', summit);
 
   // pull events
-  const events = await SSR_getEvents(apiBaseUrl, summit.id, accessToken, );
+  const events = await SSR_getEvents(apiBaseUrl, summit.id, accessToken,);
   writeToJson('src/content/events.json', events);
+
+  // pull summit
+  const profile = await SSR_getProfileSettings(apiBaseUrl);
+  writeToJson('src/content/profile_settings.json', profile);
 
 }
 

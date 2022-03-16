@@ -55,9 +55,9 @@
   .imageUpload {
     position: absolute;
     bottom: 10px;
-    right: 10px;
+    right: 30px;
 
-    .picture-icon {
+    .pictureIcon {
       color: #ffffff;
       z-index: 10;
       cursor: pointer;
@@ -173,6 +173,28 @@
           }
         }
       }
+    }
+  }
+}
+
+.progamList {
+  list-style: none !important;
+  columns: 200px 3;
+  li {
+    padding-left: 20px;
+    margin: 10px 0;
+    display: block;
+    input {
+      position: absolute;
+      margin-top: 4px\9;
+      margin-left: -20px;
+    }
+    label {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      padding-left: 5px;
+      cursor: pointer;
     }
   }
 }

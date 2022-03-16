@@ -14,6 +14,8 @@ import Header from "../components/Header";
 import SEO from '../components/SEO';
 
 import ProfilePopupComponent from '../components/ProfilePopupComponent'
+import ProfilePrograms from '../components/ProfilePrograms'
+import ProfileFoodPreferences from '../components/ProfileFoodPreference'
 import ChangePasswordComponent from '../components/ChangePasswordComponent';
 
 import { updateProfilePicture, updateProfile, getIDPProfile, updatePassword } from '../actions/user-actions'
@@ -33,30 +35,36 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
     company: '',
     jobTitle: '',
     birthday: null,
-    gender: '',
-    specifyGender: '',
     github: '',
     irc: '',
     linkedin: '',
     twitter: '',
     wechatUser: '',
-    language: ''
+    language: '',
+    bio: '',
+    statementOfInterest: '',
+    projects: [],
+    otherProject: '',
   });
 
   const [showFullName, setShowFullName] = useState(false);
   const [allowChatWithMe, setAllowChatWithMe] = useState(false)
   const [showEmail, setShowEmail] = useState(false);
-  const [bio, setBio] = useState('');
-  const [statementOfInterest, setStatementOfInterest] = useState('');
 
-  const [address, setAddress] = useState({
+  const [privateInformation, setPrivateInformation] = useState({
+    gender: '',
+    specifyGender: '',
+    foodPreference: '',
+    otherFoodPreference: '',
+    shirtSize: '',
+    displayOnSite: null,
+    subscribedToNewsletter: null,
     street: '',
     floor: '',
     city: '',
     state: '',
     zipCode: '',
     country: '',
-    phone: ''
   });
 
   const [image, setImage] = useState(null);
@@ -86,14 +94,23 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
         twitter: user.idpProfile.twitter_name || '',
         linkedin: user.idpProfile.linked_in_profile || '',
         weChatUser: user.idpProfile.wechat_user || '',
-        language: user.idpProfile.locale || ''
+        language: user.idpProfile.locale || '',
+        bio: user.idpProfile.bio || '',
+        statementOfInterest: user.idpProfile.statement_of_interest || '',
+        projects: user.userProfile.projects || [],
+        otherProject: user.userProfile.other_project || '',
       });
       setShowFullName(user.idpProfile.public_profile_show_fullname);
       setAllowChatWithMe(user.idpProfile.public_profile_allow_chat_with_me);
       setShowEmail(user.idpProfile.public_profile_show_email);
-      setBio(user.idpProfile.bio || '');
-      setStatementOfInterest(user.idpProfile.statement_of_interest || '');
-      setAddress({
+      setPrivateInformation({
+        gender: user.idpProfile.gender || '',
+        specifyGender: user.idpProfile.gender_specify || '',
+        foodPreference: user.userProfile.food_preference || '',
+        otherFood_preference: user.userProfile.other_food_preference || '',
+        shirtSize: user.userProfile.shirt_size || '',
+        displayOnSite: user.userProfile.display_on_site || false,
+        subscribedToNewsletter: user.userProfile.subscribed_to_newsletter || false,
         street: user.idpProfile.address1 || '',
         floor: user.idpProfile.address2 || '',
         city: user.idpProfile.locality || '',
@@ -134,8 +151,6 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
           company: personalProfile.company,
           job_title: personalProfile.jobTitle,
           birthday: personalProfile.birthday?.unix(),
-          gender: personalProfile.gender,
-          gender_specify: personalProfile.gender === 'Specify' ? personalProfile.specifyGender : null,
           github_user: personalProfile.github,
           irc: personalProfile.irc,
           linked_in_profile: personalProfile.linkedin,
@@ -145,20 +160,29 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
           public_profile_show_fullname: showFullName,
           public_profile_allow_chat_with_me: allowChatWithMe,
           public_profile_show_email: showEmail,
-          bio: bio,
-          statement_of_interest: statementOfInterest,
-          address1: address.street,
-          address2: address.floor,
-          city: address.city,
-          state: address.state,
-          post_code: address.zipCode,
-          country_iso_code: address.country,
-          phone_number: address.phone,
+          bio: personalProfile.bio,
+          statement_of_interest: personalProfile.statementOfInterest,
+          gender: privateInformation.gender,
+          gender_specify: privateInformation.gender === 'Specify' ? privateInformation.specifyGender : null,
+          food_preference: privateInformation.food_preference,
+          other_food_preference: privateInformation.otherFoodPreference,
+          shirt_size: privateInformation.shirtSize,
+          display_on_site: privateInformation.displayOnSite,
+          subscribed_to_newsletter: privateInformation.subscribedToNewsletter,
+          address1: privateInformation.street,
+          address2: privateInformation.floor,
+          city: privateInformation.city,
+          state: privateInformation.state,
+          post_code: privateInformation.zipCode,
+          country_iso_code: privateInformation.country,
+          phone_number: privateInformation.phone,
         };
         updateProfile(newProfile);
       }
     }
   };
+
+  console.log('personal info', personalProfile)
 
   const handleTogglePopup = (profile) => {
     if (profile) {
@@ -191,20 +215,18 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
           linkedin: user.idpProfile.linked_in_profile || '',
           wechatUser: user.idpProfile.wechat_user || '',
           twitter: user.idpProfile.twitter_user || '',
-          language: user.idpProfile.locale || ''
+          language: user.idpProfile.locale || '',
+          bio: user.idpProfile.bio || '',
+          statementOfInterest: user.idpProfile.statement_of_interest || '',
+          projects: user.userProfile.projects || [],
+          otherProject: user.userProfile.other_project || '',
         });
         setShowFullName(user.idpProfile.public_profile_show_fullname);
         setAllowChatWithMe(user.idpProfile.public_profile_allow_chat_with_me);
         setShowEmail(user.idpProfile.public_profile_show_email);
         break;
-      case 'bio':
-        setBio(user.idpProfile.bio || '');
-        break;
-      case 'statementOfInterest':
-        setStatementOfInterest(user.idpProfile.statement_of_interest || '');
-        break;
-      case 'address':
-        setAddress({
+      case 'private-information':
+        setPrivateInformation({
           street: user.idpProfile.street_address || '',
           floor: user.idpProfile.street_address2 || '',
           city: user.idpProfile.locality || '',
@@ -357,42 +379,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                               </div>
                             </div>
                           </div>
-                          <div className={`column is-half ${styles.inputField}`}>
-                            <b>Gender</b>
-                            <div className={styles.control}>
-                              <div className={`${styles.select}`}>
-                                {/* eslint-disable-next-line jsx-a11y/no-onchange */}
-                                <select
-                                  onChange={e => setPersonalProfile({ ...personalProfile, gender: e.target.value })}
-                                  value={personalProfile.gender}
-                                >
-                                  <option>Gender</option>
-                                  <option value="Male">Male</option>
-                                  <option value="Female">Female</option>
-                                  <option value="Prefer not to say">Prefer not to say</option>
-                                  <option value="Specify">Let me specify</option>
-                                </select>
-                              </div>
-                            </div>
-                          </div>
                         </div>
-                        {personalProfile.gender === 'Specify' &&
-                          <>
-                            <div className={`columns is-mobile ${styles.inputRow}`}>
-                              <div className={`column is-half ${styles.inputField}`}></div>
-                              <div className={`column is-half ${styles.inputField}`}>
-                                <b>Specify gender</b>
-                                <input
-                                  className={`${styles.input}`}
-                                  type="text"
-                                  placeholder="Specify your gender"
-                                  onChange={e => setPersonalProfile({ ...personalProfile, specifyGender: e.target.value })}
-                                  value={personalProfile.specifyGender}
-                                />
-                              </div>
-                            </div>
-                          </>
-                        }
                         <div className={`columns is-mobile ${styles.inputRow}`}>
                           <div className={`column is-half ${styles.inputField}`}>
                             <b>Github</b>
@@ -438,7 +425,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                           </div>
                         </div>
                         <div className={`columns is-mobile ${styles.inputRow}`}>
-                        <div className={`column is-half ${styles.inputField}`}>
+                          <div className={`column is-half ${styles.inputField}`}>
                             <b>Wechat User</b>
                             <input
                               className={`${styles.input}`}
@@ -456,6 +443,46 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                               value={personalProfile.language}
                             />
                           </div>
+                        </div>
+                      </div>
+                      <div className={`columns is-mobile ${styles.inputRow}`}>
+                        <div className={`column is-full ${styles.inputField}`}>
+                          <b>Bio</b>
+                          <textarea
+                            className={`textarea ${styles.textarea}`}
+                            placeholder=''
+                            rows="6"
+                            onChange={e => setPersonalProfile({ ...personalProfile, bio: e.target.value })}
+                            value={personalProfile.bio}
+                          >
+                          </textarea>
+                        </div>
+                      </div>
+                      <div className={`columns is-mobile ${styles.inputRow}`}>
+                        <div className={`column is-full ${styles.inputField}`}>
+                          <b>Statement of Interest</b>
+                          <textarea
+                            className={`textarea ${styles.textarea}`}
+                            placeholder=''
+                            rows="6"
+                            onChange={e => setPersonalProfile({ ...personalProfile, statementOfInterest: e.target.value })}
+                            value={personalProfile.statementOfInterest}
+                          >
+                          </textarea>
+                        </div>
+                      </div>
+                      <ProfilePrograms
+                        userPrograms={personalProfile.projects}
+                        onProgramChanges={(e) => setPersonalProfile({ ...personalProfile, projects: e })} />
+                      <div className={`columns is-mobile ${styles.inputRow}`}>
+                        <div className={`column is-full ${styles.inputField}`}>
+                          <b>Other Project (if one above does not match)</b>
+                          <input
+                            className={`${styles.input}`}
+                            type="text"
+                            onChange={e => setPersonalProfile({ ...personalProfile, otherProject: e.target.value })}
+                            value={personalProfile.otherProject}
+                          />
                         </div>
                       </div>
                       <label className={styles.checkbox}>
@@ -482,127 +509,164 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
                       </div>
                     </div>
                     <div className={styles.formContainer}>
-                      <div className={styles.header}>Bio</div>
+                      <div className={styles.header}>Private Information</div>
                       <div className={styles.form}>
                         <div className={`columns is-mobile ${styles.inputRow}`}>
+                          <div className={`column is-half ${styles.inputField}`}>
+                            <b>Gender</b>
+                            <div className={styles.control}>
+                              <div className={`${styles.select}`}>
+                                {/* eslint-disable-next-line jsx-a11y/no-onchange */}
+                                <select
+                                  onChange={e => setPrivateInformation({ ...privateInformation, gender: e.target.value })}
+                                  value={privateInformation.gender}
+                                >
+                                  <option>Gender</option>
+                                  <option value="Male">Male</option>
+                                  <option value="Female">Female</option>
+                                  <option value="Prefer not to say">Prefer not to say</option>
+                                  <option value="Specify">Let me specify</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          {privateInformation.gender === 'Specify' &&
+                            <div className={`column is-half ${styles.inputField}`}>
+                              <b>Specify gender</b>
+                              <input
+                                className={`${styles.input}`}
+                                type="text"
+                                placeholder="Specify your gender"
+                                onChange={e => setPrivateInformation({ ...privateInformation, specifyGender: e.target.value })}
+                                value={privateInformation.specifyGender}
+                              />
+                            </div>
+                          }
+                        </div>
+                        <ProfileFoodPreferences
+                          foodPreferences={privateInformation.foodPreference}
+                          onPreferencesChange={(e) => setPrivateInformation({ ...privateInformation, foodPreference: e })}
+                        />
+                        <div className={`columns is-mobile ${styles.inputRow}`}>
                           <div className={`column is-full ${styles.inputField}`}>
-                            <b>Bio</b>
-                            <textarea
-                              className={`textarea ${styles.textarea}`}
-                              placeholder=''
-                              rows="6"
-                              onChange={e => setBio(e.target.value)}
-                              value={bio}
-                            >
-                            </textarea>
+                            <b>Other Food Considerations</b>
+                            <input
+                              className={`${styles.input}`}
+                              type="text"
+                              placeholder=""
+                              onChange={e => setPrivateInformation({ ...privateInformation, otherFoodPreference: e.target.value })}
+                              value={privateInformation.otherFoodPreference}
+                            />
                           </div>
                         </div>
                         <div className={`columns is-mobile ${styles.inputRow}`}>
                           <div className={`column is-full ${styles.inputField}`}>
-                            <b>Statement of Interest</b>
-                            <textarea
-                              className={`textarea ${styles.textarea}`}
-                              placeholder=''
-                              rows="6"
-                              onChange={e => setStatementOfInterest(e.target.value)}
-                              value={statementOfInterest}
-                            >
-                            </textarea>
+                            <b> Choose A Shirt Size </b>
+                            <div className={styles.control}>
+
+                              <div className={`${styles.select}`}>
+                                <select
+                                  name="ShirtSize"
+                                  value={privateInformation.shirtSize}
+                                  onChange={(e) => setPrivateInformation({ ...privateInformation, shirtSize: e.target.value })}>
+                                  <option value="Small">Men's Small</option>
+                                  <option value="Medium">Men's Medium</option>
+                                  <option value="Large">Men's Large</option>
+                                  <option value="XL">Men's XL</option>
+                                  <option value="XXL">Men's XXL</option>
+                                  <option value="WS">Womens Small</option>
+                                  <option value="WM">Womens Medium</option>
+                                  <option value="WL">Womens Large</option>
+                                  <option value="WXL">Womens XL</option>
+                                  <option value="WXXL">Womens XXL</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className={styles.header}>Address</div>
+                        <div className={styles.form}>
+                          <div className={`columns is-mobile ${styles.inputRow}`}>
+                            <div className={`column is-half ${styles.inputField}`}>
+                              <b>Address 1</b>
+                              <input
+                                className={`${styles.input}`}
+                                type="text"
+                                placeholder="Complete your address"
+                                onChange={e => setPrivateInformation({ ...privateInformation, street: e.target.value })}
+                                value={privateInformation.street}
+                              />
+                            </div>
+                            <div className={`column is-half ${styles.inputField}`}>
+                              <b>Address 2</b>
+                              <input
+                                className={`${styles.input}`}
+                                type="text"
+                                placeholder="Complete your address"
+                                onChange={e => setPrivateInformation({ ...privateInformation, floor: e.target.value })}
+                                value={privateInformation.floor}
+                              />
+                            </div>
+                          </div>
+                          <div className={`columns is-mobile ${styles.inputRow}`}>
+                            <div className={`column is-half ${styles.inputField}`}>
+                              <b>City</b>
+                              <input
+                                className={`${styles.input}`}
+                                type="text"
+                                placeholder="Complete your city"
+                                onChange={e => setPrivateInformation({ ...privateInformation, city: e.target.value })}
+                                value={privateInformation.city}
+                              />
+                            </div>
+                            <div className={`column is-half ${styles.inputField}`}>
+                              <b>State</b>
+                              <input
+                                className={`${styles.input}`}
+                                type="text"
+                                placeholder="Complete your state"
+                                onChange={e => setPrivateInformation({ ...privateInformation, state: e.target.value })}
+                                value={privateInformation.state}
+                              />
+                            </div>
+                          </div>
+                          <div className={`columns is-mobile ${styles.inputRow}`}>
+                            <div className={`column is-half ${styles.inputField}`}>
+                              <b>Zip Code</b>
+                              <input
+                                className={`${styles.input}`}
+                                type="text"
+                                placeholder="Complete your zip code"
+                                onChange={e => setPrivateInformation({ ...privateInformation, zipCode: e.target.value })}
+                                value={privateInformation.zipCode}
+                              />
+                            </div>
+                            <div className={`column is-half ${styles.inputField}`}>
+                              <b>Country</b>
+                              <CountryInput
+                                onChange={e => setPrivateInformation({ ...privateInformation, country: e.target.value })}
+                                className={styles.dropdown}
+                                value={privateInformation.country}
+                              />
+                            </div>
+                          </div>
+                          <div className={`columns is-mobile ${styles.inputRow}`}>
+                            <div className={`column is-half ${styles.inputField}`}>
+                              <b>Phone</b>
+                              <input
+                                className={`${styles.input}`}
+                                type="text"
+                                placeholder="Complete your phone"
+                                onChange={e => setPrivateInformation({ ...privateInformation, phone: e.target.value })}
+                                value={privateInformation.phone}
+                              />
+                            </div>
                           </div>
                         </div>
                       </div>
                       <div className={`columns is-mobile ${styles.buttons}`}>
                         <div className={`column is-half`}>
-                          <button className={`button is-large ${styles.profileButton}`} onClick={() => discardChanges('bio')}>Discard</button>
-                        </div>
-                        <div className={`column is-half`}>
-                          <button className="button is-large" onClick={() => handleProfileUpdate()}>Update</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div className={styles.formContainer}>
-                      <div className={styles.header}>Address</div>
-                      <div className={styles.form}>
-                        <div className={`columns is-mobile ${styles.inputRow}`}>
-                          <div className={`column is-half ${styles.inputField}`}>
-                            <b>Address 1</b>
-                            <input
-                              className={`${styles.input}`}
-                              type="text"
-                              placeholder="Complete your address"
-                              onChange={e => setAddress({ ...address, street: e.target.value })}
-                              value={address.street}
-                            />
-                          </div>
-                          <div className={`column is-half ${styles.inputField}`}>
-                            <b>Address 2</b>
-                            <input
-                              className={`${styles.input}`}
-                              type="text"
-                              placeholder="Complete your address"
-                              onChange={e => setAddress({ ...address, floor: e.target.value })}
-                              value={address.floor}
-                            />
-                          </div>
-                        </div>
-                        <div className={`columns is-mobile ${styles.inputRow}`}>
-                          <div className={`column is-half ${styles.inputField}`}>
-                            <b>City</b>
-                            <input
-                              className={`${styles.input}`}
-                              type="text"
-                              placeholder="Complete your city"
-                              onChange={e => setAddress({ ...address, city: e.target.value })}
-                              value={address.city}
-                            />
-                          </div>
-                          <div className={`column is-half ${styles.inputField}`}>
-                            <b>State</b>
-                            <input
-                              className={`${styles.input}`}
-                              type="text"
-                              placeholder="Complete your state"
-                              onChange={e => setAddress({ ...address, state: e.target.value })}
-                              value={address.state}
-                            />
-                          </div>
-                        </div>
-                        <div className={`columns is-mobile ${styles.inputRow}`}>
-                          <div className={`column is-half ${styles.inputField}`}>
-                            <b>Zip Code</b>
-                            <input
-                              className={`${styles.input}`}
-                              type="text"
-                              placeholder="Complete your zip code"
-                              onChange={e => setAddress({ ...address, zipCode: e.target.value })}
-                              value={address.zipCode}
-                            />
-                          </div>
-                          <div className={`column is-half ${styles.inputField}`}>
-                            <b>Country</b>
-                            <CountryInput
-                              onChange={e => setAddress({ ...address, country: e.target.value })}
-                              className={styles.dropdown}
-                              value={address.country}
-                            />
-                          </div>
-                        </div>
-                        <div className={`columns is-mobile ${styles.inputRow}`}>
-                          <div className={`column is-half ${styles.inputField}`}>
-                            <b>Phone</b>
-                            <input
-                              className={`${styles.input}`}
-                              type="text"
-                              placeholder="Complete your phone"
-                              onChange={e => setAddress({ ...address, phone: e.target.value })}
-                              value={address.phone}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div className={`columns is-mobile ${styles.buttons}`}>
-                        <div className={`column is-half`}>
-                          <button className={`button is-large ${styles.profileButton}`} onClick={() => discardChanges('address')}>Discard</button>
+                          <button className={`button is-large ${styles.profileButton}`} onClick={() => discardChanges('private-information')}>Discard</button>
                         </div>
                         <div className={`column is-half`}>
                           <button className="button is-large" onClick={() => handleProfileUpdate()}>Update</button>

@@ -150,7 +150,7 @@ export const updateProfilePicture = (pic) => async (dispatch, getState) => {
     .catch(() => dispatch(createAction(STOP_LOADING_IDP_PROFILE)()));
 }
 
-export const updateProfile = (profile) => async (dispatch, getState) => {
+export const updateIDPProfile = (profile) => async (dispatch, getState) => {
 
   let { loggedUserState: { accessToken } } = getState();
 
@@ -170,6 +170,29 @@ export const updateProfile = (profile) => async (dispatch, getState) => {
     customErrorHandler
   )(params)(dispatch)
     .then(() => dispatch(getIDPProfile()))
+    .catch(() => dispatch(createAction(STOP_LOADING_IDP_PROFILE)()));
+}
+
+export const updateProfile = (profile) => async (dispatch, getState) => {
+
+  let { loggedUserState: { accessToken } } = getState();
+
+  if (!accessToken) return Promise.resolve();
+
+  let params = {
+    access_token: accessToken,
+  };
+
+  dispatch(createAction(START_LOADING_IDP_PROFILE)());
+
+  putRequest(
+    null,
+    createAction(UPDATE_IDP_PROFILE),
+    `${window.API_BASE_URL}/api/v1/members/me`,
+    profile,
+    customErrorHandler
+  )(params)(dispatch)
+    .then(() => dispatch(getUserProfile()))
     .catch(() => dispatch(createAction(STOP_LOADING_IDP_PROFILE)()));
 }
 

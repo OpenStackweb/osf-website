@@ -18,11 +18,11 @@ import ProfilePrograms from '../components/ProfilePrograms'
 import ProfileFoodPreferences from '../components/ProfileFoodPreference'
 import ChangePasswordComponent from '../components/ChangePasswordComponent';
 
-import { updateProfilePicture, updateProfile, getIDPProfile, updatePassword } from '../actions/user-actions'
+import { updateProfilePicture, updateIDPProfile, updateProfile, getIDPProfile, updatePassword, getUserProfile } from '../actions/user-actions'
 
 import styles from '../style/modules/edit-profile.module.scss'
 
-export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, updateProfile, updateProfilePicture, updatePassword }) => {
+export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, getUserProfile, updateIDPProfile, updateProfile, updateProfilePicture, updatePassword }) => {
 
   const [showProfile, setShowProfile] = useState(false);
   const [personalProfile, setPersonalProfile] = useState({
@@ -71,55 +71,55 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
 
   useEffect(() => {
     handleTogglePopup();
-    if (!user.idpProfile) {
-      getIDPProfile();
-    } else {
-      setImage(user.idpProfile.picture);
-      let birthdate = user.idpProfile.birthdate ?
-        moment.tz(user.idpProfile.birthdate.date, user.idpProfile.birthdate.timezone || 'UTC') : null;
-      setPersonalProfile({
-        firstName: user.idpProfile.given_name || '',
-        lastName: user.idpProfile.family_name || '',
-        identifier: user.idpProfile.nickname || '',
-        email: user.idpProfile.email || '',
-        secondEmail: user.idpProfile.second_email || '',
-        thirdEmail: user.idpProfile.third_email || '',
-        company: user.idpProfile.company || '',
-        jobTitle: user.idpProfile.job_title || '',
-        birthday: birthdate,
-        gender: user.idpProfile.gender || '',
-        specifyGender: user.idpProfile.gender_specify,
-        irc: user.idpProfile.irc || '',
-        github: user.idpProfile.github_user || '',
-        twitter: user.idpProfile.twitter_name || '',
-        linkedin: user.idpProfile.linked_in_profile || '',
-        weChatUser: user.idpProfile.wechat_user || '',
-        language: user.idpProfile.locale || '',
-        bio: user.idpProfile.bio || '',
-        statementOfInterest: user.idpProfile.statement_of_interest || '',
-        projects: user.userProfile.projects || [],
-        otherProject: user.userProfile.other_project || '',
-      });
-      setShowFullName(user.idpProfile.public_profile_show_fullname);
-      setAllowChatWithMe(user.idpProfile.public_profile_allow_chat_with_me);
-      setShowEmail(user.idpProfile.public_profile_show_email);
-      setPrivateInformation({
-        gender: user.idpProfile.gender || '',
-        specifyGender: user.idpProfile.gender_specify || '',
-        foodPreference: user.userProfile.food_preference || '',
-        otherFood_preference: user.userProfile.other_food_preference || '',
-        shirtSize: user.userProfile.shirt_size || '',
-        displayOnSite: user.userProfile.display_on_site || false,
-        subscribedToNewsletter: user.userProfile.subscribed_to_newsletter || false,
-        street: user.idpProfile.address1 || '',
-        floor: user.idpProfile.address2 || '',
-        city: user.idpProfile.locality || '',
-        state: user.idpProfile.region || '',
-        zipCode: user.idpProfile.postal_code || '',
-        country: user.idpProfile.country || '',
-        phone: user.idpProfile.phone_number || ''
-      });
-    }
+    if (!user.idpProfile) getIDPProfile();
+    if (!user.userProfile) getUserProfile();
+
+    setImage(user.idpProfile?.picture);
+    let birthdate = user.idpProfile?.birthdate ?
+      moment.tz(user.idpProfile?.birthdate.date, user.idpProfile?.birthdate.timezone || 'UTC') : null;
+    setPersonalProfile({
+      firstName: user.idpProfile?.given_name || '',
+      lastName: user.idpProfile?.family_name || '',
+      identifier: user.idpProfile?.nickname || '',
+      email: user.idpProfile?.email || '',
+      secondEmail: user.idpProfile?.second_email || '',
+      thirdEmail: user.idpProfile?.third_email || '',
+      company: user.idpProfile?.company || '',
+      jobTitle: user.idpProfile?.job_title || '',
+      birthday: birthdate,
+      gender: user.idpProfile?.gender || '',
+      specifyGender: user.idpProfile?.gender_specify,
+      irc: user.idpProfile?.irc || '',
+      github: user.idpProfile?.github_user || '',
+      twitter: user.idpProfile?.twitter_name || '',
+      linkedin: user.idpProfile?.linked_in_profile || '',
+      weChatUser: user.idpProfile?.wechat_user || '',
+      language: user.idpProfile?.locale || '',
+      bio: user.idpProfile?.bio || '',
+      statementOfInterest: user.idpProfile?.statement_of_interest || '',
+      projects: user.userProfile?.projects || [],
+      otherProject: user.userProfile?.other_project || '',
+    });
+    setShowFullName(user.idpProfile?.public_profile_show_fullname);
+    setAllowChatWithMe(user.idpProfile?.public_profile_allow_chat_with_me);
+    setShowEmail(user.idpProfile?.public_profile_show_email);
+    setPrivateInformation({
+      gender: user.idpProfile?.gender || '',
+      specifyGender: user.idpProfile?.gender_specify || '',
+      foodPreference: user.userProfile?.food_preference || '',
+      otherFoodPreference: user.userProfile?.other_food_preference || '',
+      shirtSize: user.userProfile?.shirt_size || '',
+      displayOnSite: user.userProfile?.display_on_site || false,
+      subscribedToNewsletter: user.userProfile?.subscribed_to_newsletter || false,
+      street: user.idpProfile?.address1 || '',
+      floor: user.idpProfile?.address2 || '',
+      city: user.idpProfile?.locality || '',
+      state: user.idpProfile?.region || '',
+      zipCode: user.idpProfile?.postal_code || '',
+      country: user.idpProfile?.country || '',
+      phone: user.idpProfile?.phone_number || ''
+    });
+
     return () => {
       setPersonalProfile({
         firstName: '',
@@ -127,21 +127,23 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
         company: ''
       });
     };
-  }, [user.idpProfile, getIDPProfile]);
+  }, [user]);
 
   const handlePictureUpdate = (picture) => {
     updateProfilePicture(picture);
   };
 
+  console.log('private information, ', privateInformation)
+
   const handleProfileUpdate = (fromPopup) => {
     if (fromPopup) {
-      updateProfile(fromPopup)
+      updateIDPProfile(fromPopup)
     } else {
       if (!personalProfile.firstName || !personalProfile.lastName || !personalProfile.identifier || !personalProfile.email) {
         const msg = `Required field missing`;
         Swal.fire("Validation error", msg, "warning");
       } else {
-        const newProfile = {
+        const newIDPProfile = {
           first_name: personalProfile.firstName,
           last_name: personalProfile.lastName,
           identifier: personalProfile.identifier,
@@ -164,11 +166,6 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
           statement_of_interest: personalProfile.statementOfInterest,
           gender: privateInformation.gender,
           gender_specify: privateInformation.gender === 'Specify' ? privateInformation.specifyGender : null,
-          food_preference: privateInformation.food_preference,
-          other_food_preference: privateInformation.otherFoodPreference,
-          shirt_size: privateInformation.shirtSize,
-          display_on_site: privateInformation.displayOnSite,
-          subscribed_to_newsletter: privateInformation.subscribedToNewsletter,
           address1: privateInformation.street,
           address2: privateInformation.floor,
           city: privateInformation.city,
@@ -177,12 +174,20 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, upd
           country_iso_code: privateInformation.country,
           phone_number: privateInformation.phone,
         };
+        const newProfile = {
+          projects: personalProfile.projects,
+          other_project: personalProfile.otherProject,
+          food_preference: privateInformation.foodPreference,
+          other_food_preference: privateInformation.otherFoodPreference,
+          shirt_size: privateInformation.shirtSize,
+          display_on_site: privateInformation.displayOnSite,
+          subscribed_to_newsletter: privateInformation.subscribedToNewsletter,
+        };
+        updateIDPProfile(newIDPProfile);
         updateProfile(newProfile);
       }
     }
   };
-
-  console.log('personal info', personalProfile)
 
   const handleTogglePopup = (profile) => {
     if (profile) {
@@ -704,6 +709,8 @@ const EditProfilePage = (
     user,
     isLoggedIn,
     getIDPProfile,
+    getUserProfile,
+    updateIDPProfile,
     updateProfile,
     updateProfilePicture,
     updatePassword,
@@ -716,6 +723,8 @@ const EditProfilePage = (
         user={user}
         isLoggedUser={isLoggedIn}
         getIDPProfile={getIDPProfile}
+        getUserProfile={getUserProfile}
+        updateIDPProfile={updateIDPProfile}
         updateProfile={updateProfile}
         updateProfilePicture={updateProfilePicture}
         updatePassword={updatePassword} />
@@ -726,6 +735,8 @@ const EditProfilePage = (
 EditProfilePage.propTypes = {
   user: PropTypes.object,
   getIDPProfile: PropTypes.func,
+  getUserProfile: PropTypes.func,
+  updateIDPProfile: PropTypes.func,
   updateProfile: PropTypes.func,
   updateProfilePicture: PropTypes.func,
   updatePassword: PropTypes.func
@@ -734,6 +745,8 @@ EditProfilePage.propTypes = {
 EditProfilePageTemplate.propTypes = {
   user: PropTypes.object,
   getIDPProfile: PropTypes.func,
+  getUserProfile: PropTypes.func,
+  updateIDPProfile: PropTypes.func,
   updateProfile: PropTypes.func,
   updateProfilePicture: PropTypes.func,
   updatePassword: PropTypes.func
@@ -746,6 +759,8 @@ const mapStateToProps = ({ userState }) => ({
 export default connect(mapStateToProps,
   {
     getIDPProfile,
+    getUserProfile,
+    updateIDPProfile,
     updateProfile,
     updateProfilePicture,
     updatePassword

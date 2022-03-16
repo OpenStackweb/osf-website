@@ -9,6 +9,10 @@ const ProfilePrograms = ({ userPrograms, onProgramChanges }) => {
     const [selectedPrograms, setSelectedPrograms] = useState(userPrograms);
 
     useEffect(() => {
+        setSelectedPrograms(userPrograms);
+    }, [userPrograms])
+
+    useEffect(() => {
         onProgramChanges(selectedPrograms);
     }, [selectedPrograms])
 
@@ -27,7 +31,9 @@ const ProfilePrograms = ({ userPrograms, onProgramChanges }) => {
                 {release.components.map((program, index) => {
                     return (
                         <li key={`program-${index}`}>
-                            <input type='checkbox' id={`program-${program.id}`} onChange={(e) => onProgramCheck(program, e.target.checked)} />
+                            <input type='checkbox' id={`program-${program.id}`}
+                                checked={selectedPrograms.some(e => e === program.component.code_name)}
+                                onChange={(e) => onProgramCheck(program, e.target.checked)} />
                             <label htmlFor={`program-${program.id}`}>{program.component.name} ({program.component.code_name})</label>
                         </li>
                     )

@@ -589,6 +589,17 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, get
                             </div>
                           </div>
                         </div>
+                        <label className={styles.checkbox} htmlFor="subscribedToNewsletter">
+                          <input type="checkbox" id="subscribedToNewsletter" checked={privateInformation.subscribedToNewsletter}
+                            onChange={e => setPrivateInformation({ ...privateInformation, subscribedToNewsletter: !privateInformation.subscribedToNewsletter })} />
+                          I don't mind occasionally receiving updates and communications from the Open Infrastructure Foundation.
+                        </label>
+                        <label className={styles.checkbox} htmlFor="displayOnSite">
+                          <input type="checkbox" id="displayOnSite" checked={privateInformation.displayOnSite}
+                            onChange={e => setPrivateInformation({ ...privateInformation, displayOnSite: !privateInformation.displayOnSite })} />
+                          Include this bio on openstack.org.
+                        </label>
+                        <br /> <br />
                         <div className={styles.header}>Address</div>
                         <div className={styles.form}>
                           <div className={`columns is-mobile ${styles.inputRow}`}>

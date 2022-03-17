@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import release from '../content/profile_settings.json';
+import release from '../content/current-release.json';
 
 import styles from '../style/modules/edit-profile.module.scss'
 

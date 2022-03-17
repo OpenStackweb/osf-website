@@ -84,7 +84,7 @@ export const getIDPProfile = () => (dispatch, getState) => {
 
   let { loggedUserState: { accessToken } } = getState();
 
-  if (!accessToken) return Promise.resolve();
+  if (!accessToken) return Promise.reject();
 
   let params = {
     access_token: accessToken,
@@ -103,7 +103,7 @@ export const updatePassword = (password) => async (dispatch, getState) => {
 
   let { loggedUserState: { accessToken } } = getState();
 
-  if (!accessToken) return Promise.resolve();
+  if (!accessToken) return Promise.reject();
 
   let params = {
     access_token: accessToken,
@@ -130,7 +130,7 @@ export const updateProfilePicture = (pic) => async (dispatch, getState) => {
 
   let { loggedUserState: { accessToken } } = getState();
 
-  if (!accessToken) return Promise.resolve();
+  if (!accessToken) return Promise.reject();
 
   let params = {
     access_token: accessToken,
@@ -154,7 +154,7 @@ export const updateIDPProfile = (profile) => async (dispatch, getState) => {
 
   let { loggedUserState: { accessToken } } = getState();
 
-  if (!accessToken) return Promise.resolve();
+  if (!accessToken) return Promise.reject();
 
   let params = {
     access_token: accessToken,
@@ -177,7 +177,7 @@ export const updateProfile = (profile) => async (dispatch, getState) => {
 
   let { loggedUserState: { accessToken } } = getState();
 
-  if (!accessToken) return Promise.resolve();
+  if (!accessToken) return Promise.reject();
 
   let params = {
     access_token: accessToken,

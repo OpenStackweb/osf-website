@@ -69,7 +69,7 @@ const SSR_getEvents = async (baseUrl, summitId, accessToken, page = 1, results =
     .catch(e => console.log('ERROR: ', e));
 };
 
-const SSR_getProfileSettings = async (baseUrl, page = 1, results = {}) => {
+const SSR_getCurrentReleaseComponents = async (baseUrl, page = 1, results = {}) => {
   return await axios.get(
     `${baseUrl}/api/public/v1/releases/current`,
     {
@@ -126,8 +126,8 @@ exports.onPreBootstrap = async () => {
   writeToJson('src/content/events.json', events);
 
   // pull summit
-  const profile = await SSR_getProfileSettings(apiBaseUrl);
-  writeToJson('src/content/profile_settings.json', profile);
+  const profile = await SSR_getCurrentReleaseComponents(apiBaseUrl);
+  writeToJson('src/content/current-release.json', profile);
 
 }
 

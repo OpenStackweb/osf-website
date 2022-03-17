@@ -54,8 +54,8 @@
 
   .imageUpload {
     position: absolute;
-    bottom: 10px;
-    right: 30px;
+    bottom: 5px;
+    right: 39%;
 
     .pictureIcon {
       color: #ffffff;
@@ -208,27 +208,17 @@
 @media (max-width: 768px) {
   .fullProfile {
     align-items: flex-start;
+    padding: 0 0.5em;
 
     > div {
-      &:not(:nth-of-type(2)) {
-        border: 1px solid #d3d3d3;
-        padding: 10px 20px;
-      }
-
-      &:nth-of-type(2) {
-        padding: 0;
-      }
-
-      &:not(:first-of-type) {
-        margin-top: 20px;
-        margin-left: 0px;
-      }
+      padding: 0;
+      margin-top: 20px;
     }
 
     .imageUpload {
       position: absolute;
-      top: 9.3%;
-      left: 47%;
+      bottom: 5%;
+      left: 77%;
     }
 
     .formContainer {

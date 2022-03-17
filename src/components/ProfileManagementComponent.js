@@ -236,7 +236,7 @@ export const ProfileManagement = ({ user, isLoggedUser, getIDPProfile, getUserPr
   return (
     <>
       <AjaxLoader relative={false} color={'#ffffff'} show={user.loadingIDP} size={120} />
-      <div className="container about-s1-container">
+      <div>
         <div className="px-6 py-6 mb-6">
           <div className={`columns ${styles.fullProfile}`} >
             <div className="column">

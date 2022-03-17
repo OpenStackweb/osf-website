@@ -39,6 +39,7 @@ episodes:
       Summit since 2019.
     youtubeEmbed: https://www.youtube.com/embed/6TMqw_0HFqU
     youtubeLink: https://www.youtube.com/watch?v=6TMqw_0HFqU
+    superuserRecap: https://superuser.openstack.org/articles/what-to-expect-at-the-openinfra-summit-berlin-5g-edge-computing-nfv-openinfra-live-recap/
   - hidden: false
     date: 2022-03-03T15:00:00.000Z
     episodeTitle: How OpenStack is Used in Academia

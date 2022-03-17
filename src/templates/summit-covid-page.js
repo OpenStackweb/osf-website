@@ -27,7 +27,7 @@ export const SummitCovidPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav active="summit-covid" pageName="Tracks"/>
+        <SubNav active="summit-covid" pageName="Covid-19"/>
         <Header title={title} subTitle={subTitle} />
       </div>
 

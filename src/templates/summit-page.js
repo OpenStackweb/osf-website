@@ -11,6 +11,7 @@ import SubNav from '../components/SummitSubNav'
 import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
 import TravelSupportPic from '../../static/img/summit/Tokyo-travel-support-pic.jpg'
+import CodeOfConductPic from '../../static/img/summit/inclusive 2.jpeg'
 import SummitSponsorSlider from '../components/SummitSponsorSlider'
 
 export const SummitPageTemplate = ({
@@ -126,6 +127,18 @@ export const SummitPageTemplate = ({
             </div>
             <div className="picture">
               <img alt="travel pic support" src={TravelSupportPic} />
+            </div>
+          </section>
+          <section style={{marginTop: "unset" }} className="code-of-conduct">
+            <div className="text">
+              <span className="title">Inclusive. Diverse. Open.</span>
+              <span className="description">
+                We are a diverse community of professionals, and the OpenInfra Foundation is 
+                dedicated to providing an inclusive and safe Summit experience for everyone. 
+                View the <LinkComponent href="/legal/code-of-conduct/events" >Summit Code of Conduct</LinkComponent> for more information.</span>              
+            </div>
+            <div className="picture">
+              <img alt="travel pic support" src={CodeOfConductPic} />
             </div>
           </section>
           <hr className="dividing-line" />

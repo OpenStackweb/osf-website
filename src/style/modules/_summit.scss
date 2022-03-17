@@ -74,11 +74,11 @@
       flex-grow: 0;
       &.outline {
         background-color: transparent;
-        color: #888888;;
-        border: 2px solid #888888;;
+        color: #888888;
+        border: 2px solid #888888;
         &:hover {
-          background-color: #888888;;
-          border-color: #888888;;
+          background-color: #888888;
+          border-color: #888888;
           color: white;
         }
       }
@@ -310,8 +310,8 @@
     margin-bottom: 50px;
   }
   a.text-link {
-    color: #161616; 
-    text-align: center; 
+    color: #161616;
+    text-align: center;
     margin-top: 30px;
     font-size: 14px;
     text-decoration: underline;
@@ -418,13 +418,13 @@ table.sponsor-table {
   width: 100%;
   margin: 48px 0 0 0;
   color: #161616;
-  border: 1px solid #E0E0DF;
+  border: 1px solid #e0e0df;
   @media (max-width: 768px) {
-    margin:50px 0 0 0;
+    margin: 50px 0 0 0;
   }
   th {
     text-align: center;
-    border: 1px solid #E0E0DF;
+    border: 1px solid #e0e0df;
     height: 60px;
     vertical-align: middle;
     color: white;
@@ -436,7 +436,7 @@ table.sponsor-table {
     background-color: white;
   }
   tr.top-row {
-    background-color: #28A4DB;
+    background-color: #28a4db;
   }
   td {
     border: 1px solid #c7c7c7;
@@ -449,7 +449,7 @@ table.sponsor-table {
   }
   td.join-row {
     height: 60px;
-    background-color: #28A4DB;
+    background-color: #28a4db;
     color: white;
     a {
       color: white;
@@ -560,7 +560,7 @@ hr.dividing-line {
   padding: 60px 60px;
   display: flex;
   justify-content: center;
-  background-color: #28A4DB;
+  background-color: #28a4db;
   align-items: center;
   margin-bottom: 60px;
   @media (max-width: 768px) {
@@ -603,20 +603,20 @@ hr.dividing-line {
     }
     &:hover {
       background-color: white;
-      color: #28A4DB;
+      color: #28a4db;
     }
     img {
       margin-left: 10px;
-      filter: invert(0%) sepia(0%) saturate(7487%) hue-rotate(56deg) 
-      brightness(111%) contrast(100%);
+      filter: invert(0%) sepia(0%) saturate(7487%) hue-rotate(56deg)
+        brightness(111%) contrast(100%);
     }
     &:hover {
-      color: #28A4DB;
+      color: #28a4db;
       background-color: #ffffff;
       border-color: #ffffff;
       img {
-        filter: invert(54%) sepia(96%) saturate(1085%) hue-rotate(165deg) 
-        brightness(91%) contrast(87%);
+        filter: invert(54%) sepia(96%) saturate(1085%) hue-rotate(165deg)
+          brightness(91%) contrast(87%);
       }
     }
   }
@@ -985,6 +985,73 @@ hr.dividing-line {
   }
 }
 
+.code-of-conduct {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 60px 0 0 0;
+  padding: 60px 120px 60px;
+  background-color: #f3f3f3;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 30px 30px;
+  }
+
+  .text {
+    width: 50%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 768px) {
+      order: 2;
+      width: 100%;
+      margin-right: unset;
+    }
+
+    .title {
+      font-family: "Jura";
+      font-weight: bold;
+      font-size: 45px;
+      line-height: 55px;
+      letter-spacing: -0.6px;
+      color: #161616;
+
+      @media (max-width: 768px) {
+        font-size: 30px;
+        line-height: 36px;
+      }
+    }
+    .description {
+      font-family: "Roboto";
+      font-size: 20px;
+      line-height: 30px;
+      color: #161616;
+      a {
+        color: #161616;
+        text-decoration: underline;
+        font-weight: bold;
+        &:hover {          
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+  .picture {
+    width: 50%;
+    margin-right: 45px;
+    border-radius: 15px;
+
+    @media (max-width: 768px) {
+      order: 1;
+      width: 100%;
+      margin: 0 0 30px 0;
+    }
+    img {
+      border-radius: 15px;
+    }
+  }
+}
+
 .how-to-intro {
   display: flex;
   flex-direction: row;
@@ -1049,7 +1116,7 @@ hr.dividing-line {
   padding: 60px 120px 60px 120px;
   background-color: #f3f3f3;
   @media (max-width: 768px) {
-    padding: 60px 30px 60px 30px;;
+    padding: 60px 30px 60px 30px;
   }
   .title {
     font-family: "Jura";
@@ -1121,11 +1188,11 @@ hr.dividing-line {
   margin-top: auto;
   &.outline {
     background-color: transparent;
-    color: #888888;;
-    border: 2px solid #888888;;
+    color: #888888;
+    border: 2px solid #888888;
     &:hover {
-      background-color: #888888;;
-      border-color: #888888;;
+      background-color: #888888;
+      border-color: #888888;
       color: white;
     }
   }
@@ -1229,7 +1296,8 @@ hr.dividing-line {
     text-align: center;
     font-size: 1em;
   }
-  a.carousel-control-prev, a.carousel-control-next {
+  a.carousel-control-prev,
+  a.carousel-control-next {
     align-items: baseline;
   }
   .logos {
@@ -1326,14 +1394,14 @@ hr.dividing-line {
     color: black;
     text-transform: none;
     margin-top: 0;
-    }
+  }
   .contact-description {
     color: #161616;
     text-align: center;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-}
+  }
 }
 
 h3.small-title-summit {

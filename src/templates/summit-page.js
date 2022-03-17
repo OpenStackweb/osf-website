@@ -135,7 +135,7 @@ export const SummitPageTemplate = ({
               <span className="description">
                 We are a diverse community of professionals, and the OpenInfra Foundation is 
                 dedicated to providing an inclusive and safe Summit experience for everyone. 
-                View the <LinkComponent href="/legal/code-of-conduct/events" >Summit Code of Conduct</LinkComponent>for more information.</span>              
+                View the <LinkComponent href="/legal/code-of-conduct/events" >Summit Code of Conduct</LinkComponent> for more information.</span>              
             </div>
             <div className="picture">
               <img alt="travel pic support" src={CodeOfConductPic} />

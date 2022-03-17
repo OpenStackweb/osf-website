@@ -54,7 +54,7 @@ Late Registration: $599
 Ticket prices are tiered so the earlier you use your discount code, the cheaper the ticket will be. To qualify for this discount, you will need to have contributed at least one commit which merged to an official governed OpenInfra project in the last 6 months as of September 1, 2021. 
 
 **Is discounted registration available for students, nonprofit or government employees?** <br>
-Yes, if you are a student or work for a government/nonprofit entity you may apply to receive a discounted pass to the Berlin Summit by filling out this application.
+Yes, if you are a student or work for a government/nonprofit entity you may apply to receive a discounted pass to the Berlin Summit by [filling out this application](https://openinfrafoundation.formstack.com/forms/berlin2022_summit_discounted_registration).
 
 **I received a discount registration code, how do I use it?** <br>
 In Eventbrite, there is a blue "Enter Promo Code" option above the ticket options where you may redeem the code for a free registration pass. Please reference this image for clarity.

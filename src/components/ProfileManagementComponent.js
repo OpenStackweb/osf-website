@@ -44,7 +44,7 @@ export const ProfileManagement = ({ user, isLoggedUser, getIDPProfile, getUserPr
   const [privateInformation, setPrivateInformation] = useState({
     gender: '',
     specifyGender: '',
-    foodPreference: '',
+    foodPreference: [],
     otherFoodPreference: '',
     shirtSize: '',
     displayOnSite: null,
@@ -96,7 +96,7 @@ export const ProfileManagement = ({ user, isLoggedUser, getIDPProfile, getUserPr
     setPrivateInformation({
       gender: user.idpProfile?.gender || '',
       specifyGender: user.idpProfile?.gender_specify || '',
-      foodPreference: user.userProfile?.food_preference || '',
+      foodPreference: user.userProfile?.food_preference || [],
       otherFoodPreference: user.userProfile?.other_food_preference || '',
       shirtSize: user.userProfile?.shirt_size || '',
       displayOnSite: user.userProfile?.display_on_site || false,

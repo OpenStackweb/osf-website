@@ -183,13 +183,15 @@ export const updateProfile = (profile) => async (dispatch, getState) => {
     access_token: accessToken,
   };
 
+  const normalizedEntity = normalizeEntity(profile);
+
   dispatch(createAction(START_LOADING_IDP_PROFILE)());
 
   putRequest(
     null,
     createAction(UPDATE_IDP_PROFILE),
     `${window.API_BASE_URL}/api/v1/members/me`,
-    profile,
+    normalizedEntity,
     customErrorHandler
   )(params)(dispatch)
     .then(() => dispatch(getUserProfile()))
@@ -297,6 +299,8 @@ const normalizeEntity = (entity) => {
   const normalizedEntity = { ...entity };
 
   if (!normalizedEntity.end_date) delete (normalizedEntity['end_date']);
+
+  if (!normalizedEntity.shirt_size) delete (normalizedEntity['shirt_size']);
 
   normalizedEntity.organization_id = (normalizedEntity.organization != null) ? normalizedEntity.organization.id : 0;
   delete (normalizedEntity['organization']);

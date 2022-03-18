@@ -4,17 +4,14 @@ import styles from '../style/modules/edit-profile.module.scss'
 
 const ProfileFoodPreferences = ({ foodPreferences, onPreferencesChange }) => {
 
-    const [selectedPreferences, setSelectedPreferences] = useState([]);
+    const [selectedPreferences, setSelectedPreferences] = useState(foodPreferences);
 
     useEffect(() => {
-        // Checking if there's a value to avoid creating an array like this [''] 
-        if (foodPreferences) {
-            setSelectedPreferences(foodPreferences.split(','));
-        }
+        setSelectedPreferences(foodPreferences);
     }, [foodPreferences])
 
     useEffect(() => {
-        onPreferencesChange(selectedPreferences.join(','));
+        onPreferencesChange(selectedPreferences);
     }, [selectedPreferences])
 
     const onPreferenceCheck = (food, value) => {

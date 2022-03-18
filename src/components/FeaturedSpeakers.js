@@ -1,7 +1,6 @@
 import React from 'react'
 
 const FeaturedSpeakers = ({ featured_speakers }) => {
-    console.log('featured', featured_speakers)
     return (
         <div className='featured-speakers-component'>
             <span className='title'>Featured Speakers</span>

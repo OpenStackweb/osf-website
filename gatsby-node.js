@@ -79,7 +79,6 @@ const SSR_getCurrentReleaseComponents = async (baseUrl, page = 1, results = {}) 
         expand: 'components, components.component'
       }
     }).then((data) => {
-      console.log('data?', data)
       if (data.current_page < data.last_page) {
         return SSR_getEvents(baseUrl, summitId, accessToken, data.current_page + 1, {...results, ...data.data});
       }

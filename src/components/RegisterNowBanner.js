@@ -12,7 +12,7 @@ const RegisterNowBanner = () => {
                     <b>Register Now</b>
                 </span>
                 <span>
-                    Prices increase March 18!
+                    Before tickets sell out!
                 </span>
             </div>
             <img className='arrow' src={leftArrow} alt="left arrow" />

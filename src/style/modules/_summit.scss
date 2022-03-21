@@ -366,6 +366,8 @@
   padding: 60px 120px;
   display: flex;
   flex-direction: column;
+  border-bottom: 1px solid #d3d3d3;
+  align-items: center;
   @media (max-width: 768px) {
     padding: 50px 30px;
   }
@@ -387,6 +389,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 2em;
     justify-content: space-between;
+    margin-bottom: 50px;
     @media (max-width: 1300px) {
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -403,7 +406,11 @@
       .featured-speaker-image {
         margin-bottom: 1em;
         img {
-          border-radius: 50px;
+          border-radius: 50%;
+          height: 125px;
+          min-height: 125px;
+          width: 125px;
+          min-width: 125px;
           object-fit: cover;
         }
       }

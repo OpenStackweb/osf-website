@@ -1,4 +1,6 @@
 import React from 'react'
+import LinkComponent from './LinkComponent';
+import leftArrow from '../img/svg/arrow-left.svg'
 
 const FeaturedSpeakers = ({ featured_speakers }) => {
     return (
@@ -19,6 +21,7 @@ const FeaturedSpeakers = ({ featured_speakers }) => {
                     )
                 })}
             </div>
+            <LinkComponent className="button-cta" href="/summit-schedule">See All Summit Speakers<img src={leftArrow} alt="" /></LinkComponent>
         </div>
     )
 }

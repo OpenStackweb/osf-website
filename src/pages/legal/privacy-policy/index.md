@@ -18,7 +18,7 @@ footer:
   display: true
 ---
 
-The Open Infrastructure Foundation, d/b/a Open Infrastructure Foundation is a Delaware non-stock, non-profit corporation under the jurisdiction of the FTC with its principal office in Austin, Texas. The goal of the Open Infrastructure Foundation is to serve developers, users, and other participants in the open infrastructure ecosystem by providing a set of shared resources to build community, facilitate collaboration, and support integration of open source technologies.
+The OpenStack Foundation, d/b/a Open Infrastructure Foundation is a Delaware non-stock, non-profit corporation under the jurisdiction of the FTC with its principal office in Austin, Texas. The goal of the Open Infrastructure Foundation is to serve developers, users, and other participants in the open infrastructure ecosystem by providing a set of shared resources to build community, facilitate collaboration, and support integration of open source technologies.
 
 This Privacy Policy describes how the Open Infrastructure Foundation collects personal data from and about website visitors and individual community members, how and why we use that data, and the circumstances under which we share that data with others. The Privacy Policy covers the following Open Infrastructure Foundation web properties: [openstack.org](openstack.org), [airshipit.org](airshipit.org), [starlingx.io](starlingx.io), [zuulci.org](zuulci.org), [katacontainers.io](katacontainers.io), [opendev.org](opendev.org), and [openinfralabs.org](openinfralabs.org).
 

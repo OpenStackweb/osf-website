@@ -42,7 +42,7 @@ export const NewsletterPageTemplate = ({
               </div>
               <div className="header-right">
                 <div className="picture">
-                  {/* <img src={!!header.image.childImageSharp ? header.image.childImageSharp.fluid.src : header.image} /> */}
+                  <img src={!!header.image.childImageSharp ? header.image.childImageSharp.fluid.src : header.image} />
                 </div>
               </div>
             </section>

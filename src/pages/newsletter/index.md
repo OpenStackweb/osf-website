@@ -19,6 +19,7 @@ header:
     target='_blank' rel='noopener noreferrer'>OpenInfra community newsletter</a> brings the latest 
     developments and activities across OpenInfra projects, events, and users from the OpenInfra 
     community to your inbox."
+  image: ''
 signup:
   title: Sign up now!
   description: >-

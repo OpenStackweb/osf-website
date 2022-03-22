@@ -50,26 +50,8 @@
   .header-right {
     width: 50%;
     max-width: 637px;
-    padding-left: 20px;
-    margin: 0 0 60px 0;
-
-    .hero-video {
-      top: 58px;
-      position: relative;
-      padding-bottom: 56.25%; /* 16:9 */
-      height: 0;
-
-      @media (max-width: 768px) {
-        top: unset;
-      }
-    }
-    .hero-video iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
+    padding-left: 40px;
+    margin: 0 0 60px 0;    
 
     .picture {
       position: relative;

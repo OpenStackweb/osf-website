@@ -383,6 +383,10 @@
     letter-spacing: -0.6px;
     color: #161616;
     margin-bottom: 70px;
+    @media (max-width: 768px) {
+      font-size: 30px;
+      line-height: 36px;
+    }
   }
   .featured-speakers-list {
     display: grid;
@@ -424,7 +428,7 @@
         }
         .featured-speaker-company {
           font-size: 1em;
-          color: #848484;          
+          color: #848484;
         }
       }
     }

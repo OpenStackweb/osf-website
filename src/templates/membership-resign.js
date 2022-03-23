@@ -43,7 +43,7 @@ export const MembershipResignPageTemplate = ({
                                         Foundation? This action will completely remove your account and cannot be
                                         undone.
                                     </p>
-                                    <button role="button" onClick={() => resign()}>Yes, i want to resign</button>
+                                    <button role="button" onClick={() => resign()}>Yes, I want to resign</button>
                                     &nbsp;
                                     <button role="button" onClick={() => cancel()}>Cancel</button>
                                 </div>

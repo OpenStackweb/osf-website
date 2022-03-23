@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { AjaxLoader, CountryInput, LanguageInput, DateTimePicker } from 'openstack-uicore-foundation/lib/components'
+import { AjaxLoader, CountryInput } from 'openstack-uicore-foundation/lib/components'
 import moment from "moment-timezone";
 
 import Swal from 'sweetalert2';
@@ -8,11 +8,22 @@ import Swal from 'sweetalert2';
 import ProfilePopupComponent from './ProfilePopupComponent'
 import ProfilePrograms from './ProfilePrograms'
 import ProfileFoodPreferences from './ProfileFoodPreference'
-import ChangePasswordComponent from './ChangePasswordComponent';
+// import ChangePasswordComponent from './ChangePasswordComponent';
+import Affiliations from './Affiliations';
 
 import styles from '../style/modules/edit-profile.module.scss'
 
-export const ProfileManagement = ({ user, isLoggedUser, getIDPProfile, getUserProfile, updateIDPProfile, updateProfile, updateProfilePicture, updatePassword }) => {
+export const ProfileManagement = ({
+  user,
+  affiliations,
+  ownerId,
+  isLoggedUser,
+  getIDPProfile,
+  getUserProfile,
+  updateIDPProfile,
+  updateProfile,
+  updateProfilePicture,
+  updatePassword }) => {
 
   const [showProfile, setShowProfile] = useState(false);
   const [publicInformation, setPublicInformation] = useState({
@@ -186,45 +197,7 @@ export const ProfileManagement = ({ user, isLoggedUser, getIDPProfile, getUserPr
     setShowProfile(profile)
   };
 
-  const discardChanges = () => {
-    let birthdate = user.idpProfile.birthdate ?
-      moment.tz(user.idpProfile.birthdate.date, user.idpProfile.birthdate.timezone || 'UTC') : null;
-    setPublicInformation({
-      firstName: user.idpProfile.given_name,
-      lastName: user.idpProfile.family_name,
-      identifier: user.idpProfile.nickname || '',
-      email: user.idpProfile.email || '',
-      secondEmail: user.idpProfile.second_email || '',
-      thirdEmail: user.idpProfile.third_email || '',
-      company: user.idpProfile.company || '',
-      jobTitle: user.idpProfile.job_title || '',
-      birthday: birthdate,
-      gender: user.idpProfile.gender || '',
-      specifyGender: user.idpProfile.gender_specify,
-      github: user.idpProfile.github_user || '',
-      irc: user.idpProfile.irc || '',
-      linkedin: user.idpProfile.linked_in_profile || '',
-      wechatUser: user.idpProfile.wechat_user || '',
-      twitter: user.idpProfile.twitter_user || '',
-      language: user.idpProfile.locale || '',
-      bio: user.idpProfile.bio || '',
-      statementOfInterest: user.idpProfile.statement_of_interest || '',
-      projects: user.userProfile.projects || [],
-      otherProject: user.userProfile.other_project || '',
-    });
-    setShowFullName(user.idpProfile.public_profile_show_fullname);
-    setAllowChatWithMe(user.idpProfile.public_profile_allow_chat_with_me);
-    setShowEmail(user.idpProfile.public_profile_show_email);
-    setPrivateInformation({
-      street: user.idpProfile.street_address || '',
-      floor: user.idpProfile.street_address2 || '',
-      city: user.idpProfile.locality || '',
-      state: user.idpProfile.region || '',
-      zipCode: user.idpProfile.postal_code || '',
-      country: user.idpProfile.country || '',
-      phone: user.idpProfile.phone_number || ''
-    });
-  };
+
   return (
     <>
       <AjaxLoader relative={false} color={'#ffffff'} show={user.loadingIDP} size={120} />
@@ -593,13 +566,20 @@ export const ProfileManagement = ({ user, isLoggedUser, getIDPProfile, getUserPr
                     </div>
                   </div>
                 </div>
-                <div className={`columns is-mobile ${styles.buttons}`}>
-                  <div className={`column is-half`}>
-                    <button className={`button is-large ${styles.profileButton}`} onClick={() => discardChanges()}>Discard</button>
+              </div>
+              <div className={styles.formContainer}>
+                <div className={styles.header}>Affiliations</div>
+                <div className={styles.form}>
+                  <div className={`columns is-mobile ${styles.inputRow}`}>
+                    <div className={`column is-full ${styles.inputField}`}>
+                      <Affiliations affiliations={affiliations} ownerId={ownerId} />
+                    </div>
                   </div>
-                  <div className={`column is-half`}>
-                    <button className="button is-large" onClick={() => handleProfileUpdate()}>Update</button>
-                  </div>
+                </div>
+              </div>
+              <div className={`columns is-mobile ${styles.buttons}`}>
+                <div className={`column is-half`}>
+                  <button className="button is-large" onClick={() => handleProfileUpdate()}>Update</button>
                 </div>
               </div>
             </div>

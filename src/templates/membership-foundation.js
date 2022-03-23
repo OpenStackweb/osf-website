@@ -41,7 +41,7 @@ export const MembershipFoundationPageTemplate = ({
                                     <h2>Read Over the terms off becoming an Open Infrastructure Foundation Individual Member</h2>
                                     <div className="legal_doc_content" dangerouslySetInnerHTML={{ __html: legalDoc.content }}>
                                     </div>
-                                    <button role="button" onClick={() => resign()}>Yes, i agree</button>
+                                    <button role="button" onClick={() => resign()}>Yes, I agree</button>
                                     &nbsp;
                                     <button role="button" onClick={() => cancel()}>Cancel</button>
                                 </div>

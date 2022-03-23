@@ -122,6 +122,8 @@ export const ProfilePageTemplate = ({
                                             <hr />                                            
                                             <ProfileManagement
                                                 user={user}
+                                                affiliations={currentAffiliations}
+                                                ownerId={currentMember.id}
                                                 updateProfilePicture={updateProfilePicture}
                                                 updateIDPProfile={updateIDPProfile}
                                                 updateProfile={updateProfile}
@@ -129,14 +131,7 @@ export const ProfilePageTemplate = ({
                                                 updatePassword={updatePassword}
                                                 getUserProfile={getUserProfile} />
                                         </React.Fragment>
-                                    }
-                                    {
-                                        currentMembershipType !== MEMBERSHIP_TYPE_NONE &&
-                                        <React.Fragment>
-                                            <hr />
-                                            <Affiliations affiliations={currentAffiliations} ownerId={currentMember.id} />
-                                        </React.Fragment>
-                                    }
+                                    }                                    
                                     {validationError &&
                                         <p className="validation_error">{validationError}</p>
                                     }

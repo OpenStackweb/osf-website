@@ -13,6 +13,7 @@ import leftArrow from '../img/svg/arrow-left.svg'
 import TravelSupportPic from '../../static/img/summit/Tokyo-travel-support-pic.jpg'
 import CodeOfConductPic from '../../static/img/summit/inclusive 2.jpeg'
 import SummitSponsorSlider from '../components/SummitSponsorSlider'
+import FeaturedSpeakers from '../components/FeaturedSpeakers';
 
 export const SummitPageTemplate = ({
   isLoggedUser,
@@ -21,6 +22,7 @@ export const SummitPageTemplate = ({
   topics,
   previousSummits,
   videoBanner,
+  featured_speakers,
   summit_sponsors
 }) => {
 
@@ -90,7 +92,9 @@ export const SummitPageTemplate = ({
               <LinkComponent className="button-cta" style={{ margin: "0 auto", marginTop: "30px" }} href="/summit-schedule">View the Summit Schedule<img src={leftArrow} alt="" /></LinkComponent>
             </section>
           }
-          
+
+          <FeaturedSpeakers featured_speakers={featured_speakers} />
+
           <section className="logo-slider-section">
             <span className="title">Sponsors</span>
             <span className="description">
@@ -129,13 +133,13 @@ export const SummitPageTemplate = ({
               <img alt="travel pic support" src={TravelSupportPic} />
             </div>
           </section>
-          <section style={{marginTop: "unset" }} className="code-of-conduct">
+          <section style={{ marginTop: "unset" }} className="code-of-conduct">
             <div className="text">
               <span className="title">Inclusive. Diverse. Open.</span>
               <span className="description">
-                We are a diverse community of professionals, and the OpenInfra Foundation is 
-                dedicated to providing an inclusive and safe Summit experience for everyone. 
-                View the <LinkComponent href="/legal/code-of-conduct/events" >Summit Code of Conduct</LinkComponent> for more information.</span>              
+                We are a diverse community of professionals, and the OpenInfra Foundation is
+                dedicated to providing an inclusive and safe Summit experience for everyone.
+                View the <LinkComponent href="/legal/code-of-conduct/events" >Summit Code of Conduct</LinkComponent> for more information.</span>
             </div>
             <div className="picture">
               <img alt="travel pic support" src={CodeOfConductPic} />
@@ -206,6 +210,7 @@ SummitPageTemplate.propTypes = {
   videoBanner: PropTypes.object,
   sponsorships: PropTypes.object,
   summit_sponsors: PropTypes.array,
+  featured_speakers: PropTypes.array
 }
 
 const SummitPage = ({ isLoggedUser, summit, data }) => {
@@ -222,6 +227,7 @@ const SummitPage = ({ isLoggedUser, summit, data }) => {
         previousSummits={post.frontmatter.previousSummits}
         videoBanner={post.frontmatter.videoBanner}
         sponsorships={post.frontmatter.sponsorships}
+        featured_speakers={summit?.featured_speakers || []}
         summit_sponsors={summit?.summit_sponsors || []}
       />
     </Layout>
@@ -235,7 +241,7 @@ SummitPage.propTypes = {
 export default connect(state => ({
   isLoggedUser: state.loggedUserState.isLoggedUser,
   summit: state.summitState.summit
-}),{})(SummitPage)
+}), {})(SummitPage)
 
 export const summitPageQuery = graphql`
   query SummitPage($id: String!) {

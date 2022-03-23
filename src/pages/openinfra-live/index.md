@@ -15,6 +15,15 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2022-04-14T14:00:00.000Z
+    episodeTitle: "Ops Deep Dive: Yahoo"
+    episodeDescription: "In this new format of the “Large Scale OpenStack” show, a
+      panel of operators invites a special guest to talk about their deployment
+      and discuss their operations. For this episode, our guest will be Brendan
+      Conlan from Yahoo, one of the founding members of the OpenStack Million
+      Cores Club. "
+    episodeSpeakers: Brendan Conlan, Yahoo
+  - hidden: false
     date: 2022-03-31T14:00:00.000Z
     episodeTitle: "OpenStack Yoga: New Features Straight from the Contributors"
     episodeDescription: "OpenStack continues to be one of the most active open

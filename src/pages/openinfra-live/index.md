@@ -26,7 +26,7 @@ episodes:
     episodeSpeakers: >-
       Host: Ghanshyam Mann, Chair of the OpenStack TC for the Yoga cycle
 
-      Participants: Brian Rosmaita (Cinder), Mark Goddard (Kolla), Maysa Macedo (Kuryr), Lajos Katona (Neutron), Iury Gregory (Ironic), Goutham Pacha Ravi (Manila), Gregory Thiemonge (Octavia)
+      Participants: Brian Rosmaita (Cinder), Mark Goddard (Kolla), Maysa Macedo (Kuryr), Lajos Katona (Neutron), Iury Gregory (Ironic), Goutham Pacha Ravi (Manila), Gregory Thiemonge (Octavia), Sylvain Bauza (Nova)
     youtubeLink: https://youtu.be/hwPfjvshxOM
     youtubeEmbed: https://youtu.be/hwPfjvshxOM
   - hidden: false

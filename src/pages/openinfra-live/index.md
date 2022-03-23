@@ -23,7 +23,10 @@ episodes:
       developers from over 60 organizations delivered OpenStack Yoga and this
       episode of OpenInfra Live will highlight some of the key features, what
       use cases are impacted and what operators can expect. "
-    episodeSpeakers: "Host: Ghanshyam Mann, Chair of the OpenStack TC for the Yoga cycle"
+    episodeSpeakers: >-
+      Host: Ghanshyam Mann, Chair of the OpenStack TC for the Yoga cycle
+
+      Participants: Brian Rosmaita (Cinder), Mark Goddard (Kolla), Maysa Macedo (Kuryr), Lajos Katona (Neutron), Iury Gregory (Ironic), Goutham Pacha Ravi (Manila), Gregory Thiemonge (Octavia)
     youtubeLink: https://youtu.be/hwPfjvshxOM
     youtubeEmbed: https://youtu.be/hwPfjvshxOM
   - hidden: false

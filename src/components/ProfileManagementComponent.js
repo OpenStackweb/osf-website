@@ -247,7 +247,7 @@ export const ProfileManagement = ({ user, isLoggedUser, getIDPProfile, getUserPr
                       <div className={`column is-half ${styles.inputField}`}>
                         <b>Primary Email Address</b>
                         <input
-                          className={`${styles.input} ${styles.disabled}`}
+                          className={`${styles.input}`}
                           type="text"
                           placeholder="Primary Email Address"
                           value={publicInformation.email}
@@ -386,49 +386,49 @@ export const ProfileManagement = ({ user, isLoggedUser, getIDPProfile, getUserPr
                       />
                     </div>
                   </div>
-                </div>
-                <div className={`columns is-mobile ${styles.inputRow}`}>
-                  <div className={`column is-full ${styles.inputField}`}>
-                    <b>Bio</b>
-                    <textarea
-                      className={`textarea ${styles.textarea}`}
-                      placeholder=''
-                      rows="6"
-                      onChange={e => setPublicInformation({ ...publicInformation, bio: e.target.value })}
-                      value={publicInformation.bio}
-                    >
-                    </textarea>
-                  </div>
-                </div>
-                <div className={`columns is-mobile ${styles.inputRow}`}>
-                  <div className={`column is-full ${styles.inputField}`}>
-                    <b>Photo <i>(Optional)</i></b>
-                    <div className={`${styles.pictureContainer}`}>
-                      <button className="link" onClick={() => handleTogglePopup(!showProfile)}>
-                        <div className={styles.profilePicture}>
-                          <img alt="profile pic" src={image} />
-                          <div className={styles.imageUpload}>
-                            <i className={`${styles.pictureIcon} fa fa-2x fa-pencil icon is-large`} />
-                          </div>
-                        </div>
-                      </button>
+                  <div className={`columns is-mobile ${styles.inputRow}`}>
+                    <div className={`column is-full ${styles.inputField}`}>
+                      <b>Bio</b>
+                      <textarea
+                        className={`textarea ${styles.textarea}`}
+                        placeholder=''
+                        rows="6"
+                        onChange={e => setPublicInformation({ ...publicInformation, bio: e.target.value })}
+                        value={publicInformation.bio}
+                      >
+                      </textarea>
                     </div>
                   </div>
-                </div>
-                <hr />
-                <ProfilePrograms
-                  userPrograms={publicInformation.projects}
-                  onProgramChanges={(e) => setPublicInformation({ ...publicInformation, projects: e })} />
-                <br />
-                <div className={`columns is-mobile ${styles.inputRow}`}>
-                  <div className={`column is-full ${styles.inputField}`}>
-                    <b>Other Project (if one above does not match)</b>
-                    <input
-                      className={`${styles.input}`}
-                      type="text"
-                      onChange={e => setPublicInformation({ ...publicInformation, otherProject: e.target.value })}
-                      value={publicInformation.otherProject}
-                    />
+                  <div className={`columns is-mobile ${styles.inputRow}`}>
+                    <div className={`column is-full ${styles.inputField}`}>
+                      <b>Photo <i>(Optional)</i></b>
+                      <div className={`${styles.pictureContainer}`}>
+                        <button className="link" onClick={() => handleTogglePopup(!showProfile)}>
+                          <div className={styles.profilePicture}>
+                            <img alt="profile pic" src={image} />
+                            <div className={styles.imageUpload}>
+                              <i className={`${styles.pictureIcon} fa fa-2x fa-pencil icon is-large`} />
+                            </div>
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <ProfilePrograms
+                    userPrograms={publicInformation.projects}
+                    onProgramChanges={(e) => setPublicInformation({ ...publicInformation, projects: e })} />
+                  <br />
+                  <div className={`columns is-mobile ${styles.inputRow}`}>
+                    <div className={`column is-full ${styles.inputField}`}>
+                      <b>Other Project (if one above does not match)</b>
+                      <input
+                        className={`${styles.input}`}
+                        type="text"
+                        onChange={e => setPublicInformation({ ...publicInformation, otherProject: e.target.value })}
+                        value={publicInformation.otherProject}
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -508,17 +508,23 @@ export const ProfileManagement = ({ user, isLoggedUser, getIDPProfile, getUserPr
                       </div>
                     </div>
                   </div>
-                  <label className={styles.checkbox} htmlFor="subscribedToNewsletter">
-                    <input type="checkbox" id="subscribedToNewsletter" checked={privateInformation.subscribedToNewsletter}
-                      onChange={e => setPrivateInformation({ ...privateInformation, subscribedToNewsletter: !privateInformation.subscribedToNewsletter })} />
-                    I don't mind occasionally receiving updates and communications from the Open Infrastructure Foundation.
-                  </label>
-                  <label className={styles.checkbox} htmlFor="displayOnSite">
-                    <input type="checkbox" id="displayOnSite" checked={privateInformation.displayOnSite}
-                      onChange={e => setPrivateInformation({ ...privateInformation, displayOnSite: !privateInformation.displayOnSite })} />
-                    Include this bio on openstack.org.
-                  </label>
                   <br />
+                  <div className={`columns is-mobile ${styles.inputRow}`} style={{ flexDirection: 'column' }}>
+                    <div className={`column is-full ${styles.inputField}`}>
+                      <label className={styles.checkbox} htmlFor="subscribedToNewsletter">
+                        <input type="checkbox" id="subscribedToNewsletter" checked={privateInformation.subscribedToNewsletter}
+                          onChange={e => setPrivateInformation({ ...privateInformation, subscribedToNewsletter: !privateInformation.subscribedToNewsletter })} />
+                        I don't mind occasionally receiving updates and communications from the Open Infrastructure Foundation.
+                      </label>
+                    </div>
+                    <div className={`column is-full ${styles.inputField}`}>
+                      <label className={styles.checkbox} htmlFor="displayOnSite">
+                        <input type="checkbox" id="displayOnSite" checked={privateInformation.displayOnSite}
+                          onChange={e => setPrivateInformation({ ...privateInformation, displayOnSite: !privateInformation.displayOnSite })} />
+                        Include this bio on openstack.org.
+                      </label>
+                    </div>
+                  </div>
                   <hr />
                   <div className={styles.form}>
                     <div className={`columns is-mobile ${styles.inputRow}`}>

@@ -25,9 +25,9 @@ const ProfilePrograms = ({ userPrograms, onProgramChanges }) => {
     }
 
     return (
-        <div>
+        <div className={styles.programWrapper}>
             <b>What programs are you involved with? (Optional) </b>
-            <ul className={styles.progamList}>
+            <ul className={styles.programList}>
                 {release.components.map((program, index) => {
                     return (
                         <li key={`program-${index}`}>

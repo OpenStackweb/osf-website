@@ -79,7 +79,6 @@
   align-items: center;
   justify-content: center;
   background-color: #f3f3f3;
-  border-bottom: 1px solid #d3d3d3;
   .title {
     font-family: "Jura";
     font-weight: bold;
@@ -103,11 +102,6 @@
     text-align: center;
     margin-bottom: 50px;
   }
-}
-
-.newsletter-iframe {
-  background-color: #f3f3f3;
-  padding: 55px 120px;
   iframe {
     width: 100%;
     height: 1720px;
@@ -192,12 +186,14 @@
     }
   }
   .newsletter-signup {
-    padding: 30px 30px 0;
-  }
-  .newsletter-iframe {
     padding: 30px;
     iframe {
       height: 2020px;
     }
+  }  
+  .newsletter-footer {
+    height: auto;
+    flex-direction: column;
+    gap: 2em;
   }
 }

@@ -53,10 +53,8 @@ export const NewsletterPageTemplate = ({
               {signup.title}
             </span>
             <span className="description" dangerouslySetInnerHTML={{ __html: signup.description }}></span>
-          </section>
-          <div className='newsletter-iframe'>
             <iframe src="https://app.e2ma.net/app2/audience/signup/1958430/1771360/" scrolling='no' width={'100%'} height={'100%'} frameborder="0"></iframe>
-          </div>
+          </section>
 
           <div className='newsletter-line'>
             <div /><div /><div /><div />

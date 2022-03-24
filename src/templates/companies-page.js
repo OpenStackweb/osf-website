@@ -58,7 +58,7 @@ export const CompaniesPageTemplate = ({
                               return (
                                 <LinkComponent href={company?.description?.length > 0 ? `/a/members/profile/${tier.id}/${kebabCase(company.name)}` : company.url} key={companyIndex}>
                                   <img
-                                    src={`https://openinfra.dev/cdn-cgi/image/quality=75${customWidth ? `,width=${customWidth}` : ''}/${company.logo}`}
+                                    src={`https://openinfra.dev/cdn-cgi/image/quality=75${customWidth ? `,width=${customWidth}` : ''}/${company.logo || company.big_logo}`}
                                     alt={company.name}
                                     key={company.id}
                                   />

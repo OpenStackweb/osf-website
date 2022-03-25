@@ -16,13 +16,14 @@ hero:
 episodes:
   - hidden: false
     date: 2022-04-14T14:00:00.000Z
-    episodeTitle: "Ops Deep Dive: Yahoo"
+    episodeTitle: "Large Scale Ops Deep Dive: Yahoo"
     episodeDescription: "In this new format of the “Large Scale OpenStack” show, a
       panel of operators invites a special guest to talk about their deployment
-      and discuss their operations. For this episode, our guest will be Brendan
-      Conlan from Yahoo, one of the founding members of the OpenStack Million
-      Cores Club. "
-    episodeSpeakers: Brendan Conlan, Yahoo
+      and discuss their operations. For this episode, our guests will be Brendan
+      Conlan and Adam Harwell from Yahoo, one of the founding members of the
+      OpenStack Million Cores Club. "
+    episodeSpeakers: Adam Harwell (Yahoo), Arnaud Morin (OVHCloud), Belmiro Moreira
+      (CERN), Brendan Conlan (Yahoo), Mohammed Naser (Vexxhost)
   - hidden: false
     date: 2022-03-31T14:00:00.000Z
     episodeTitle: "OpenStack Yoga: New Features Straight from the Contributors"

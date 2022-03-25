@@ -135,9 +135,9 @@ sponsor:
       - alt: EasyStack
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_EasyStack.png
       - alt: H3C
-        image: /img/h3c-lg.png
+        image: /img/h3c-lg-10.png
       - alt: Inspur
-        image: /img/image-from-ios-9-.jpg
+        image: /img/inspurdata-lg.jpg
       - alt: Intel
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Intel.png
       - alt: Mirantis

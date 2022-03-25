@@ -235,7 +235,7 @@ companyTier:
           alt: ""
         - logo: /img/h3c-lg.png
           alt: ""
-        - logo: /img/image-from-ios-9-.jpg
+        - logo: /img/inspurdata-lg.jpg
           alt: ""
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_Intel 1.png
           alt: ""

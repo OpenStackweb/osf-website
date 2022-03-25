@@ -137,7 +137,7 @@ sponsor:
       - alt: H3C
         image: /img/h3c-lg.png
       - alt: Inspur
-        image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Inspur.png
+        image: /img/image-from-ios-9-.jpg
       - alt: Intel
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Intel.png
       - alt: Mirantis

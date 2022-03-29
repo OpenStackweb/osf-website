@@ -15,7 +15,7 @@ import styles from "../style/full-schedule.module.scss";
 import RegisterNowBanner from "../components/RegisterNowBanner";
 import { PageScrollInspector, SCROLL_DIRECTION } from "../components/PageScrollInspector";
 import withScheduleData from "../utils/withScheduleData";
-import {deepLinkToEvent} from '../actions/schedule-actions'
+import { deepLinkToEvent } from '../actions/schedule-actions'
 
 
 //@todo: connect to marketing api
@@ -26,7 +26,7 @@ const dummyMarketingSettings = {
     "color_text_light": "#ffffff"
 };
 
-const SchedulePageTemplate = ({ summit, scheduleState, isLoggedUser, updateFilter, scheduleProps, schedKey, headerTitle}) => {
+const SchedulePageTemplate = ({ summit, scheduleState, isLoggedUser, updateFilter, scheduleProps, schedKey, headerTitle }) => {
 
     const filtersWrapperRef = useRef(null);
 
@@ -102,6 +102,7 @@ const SchedulePageTemplate = ({ summit, scheduleState, isLoggedUser, updateFilte
             <main className="main">
                 <div className="content">
                     <div className="container">
+                        <RegisterNowBanner mobile={true} />
                         <div className={`${styles.wrapper} ${showFilters ? styles.showFilters : ""}`}>
                             <div className={styles.scheduleWrapper}>
                                 <FullSchedule {...schedProps} />

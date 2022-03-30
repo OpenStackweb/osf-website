@@ -1,0 +1,1015 @@
+{
+    "id": 36,
+    "created": 1633469504,
+    "last_edited": 1633469569,
+    "name": "Xena",
+    "release_number": "2021.10",
+    "release_date": 1633478400,
+    "status": "Current",
+    "components": [{
+        "id": 957,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 3,
+            "created": 1398781975,
+            "last_edited": 1647316805,
+            "name": "Networking",
+            "code_name": "Neutron"
+        }
+    }, {
+        "id": 1013,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 69,
+            "created": 1536811204,
+            "last_edited": 1647316806,
+            "name": "Official Python SDK for OpenStack APIs",
+            "code_name": "Openstacksdk"
+        }
+    }, {
+        "id": 958,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 4,
+            "created": 1398781975,
+            "last_edited": 1647316805,
+            "name": "Object store",
+            "code_name": "Swift"
+        }
+    }, {
+        "id": 966,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 12,
+            "created": 1444332639,
+            "last_edited": 1647316805,
+            "name": "Bare Metal Provisioning Service",
+            "code_name": "Ironic"
+        }
+    }, {
+        "id": 974,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 21,
+            "created": 1489418692,
+            "last_edited": 1647316806,
+            "name": "Computable object storage",
+            "code_name": "Storlets"
+        }
+    }, {
+        "id": 982,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 29,
+            "created": 1489419431,
+            "last_edited": 1647316804,
+            "name": "Deploys OpenStack using OpenStack itself",
+            "code_name": "Tripleo"
+        }
+    }, {
+        "id": 990,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 39,
+            "created": 1489420131,
+            "last_edited": 1647316806,
+            "name": "Optimization Service",
+            "code_name": "Watcher"
+        }
+    }, {
+        "id": 1014,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 71,
+            "created": 1543381202,
+            "last_edited": 1647316806,
+            "name": "Operations processes automation",
+            "code_name": "Adjutant"
+        }
+    }, {
+        "id": 991,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 40,
+            "created": 1489420442,
+            "last_edited": 1624248211,
+            "name": "Distributed SDN controller",
+            "code_name": "Dragonflow"
+        }
+    }, {
+        "id": 960,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 6,
+            "created": 1398781975,
+            "last_edited": 1647316805,
+            "name": "Identity service",
+            "code_name": "Keystone"
+        }
+    }, {
+        "id": 992,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 41,
+            "created": 1489420494,
+            "last_edited": 1647316806,
+            "name": "OpenStack Networking integration for containers",
+            "code_name": "Kuryr"
+        }
+    }, {
+        "id": 985,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 33,
+            "created": 1489419667,
+            "last_edited": 1647316806,
+            "name": "Benchmarking tool",
+            "code_name": "Rally"
+        }
+    }, {
+        "id": 962,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 8,
+            "created": 1398781976,
+            "last_edited": 1647316806,
+            "name": "Metering & Data Collection Service",
+            "code_name": "Ceilometer"
+        }
+    }, {
+        "id": 994,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 43,
+            "created": 1489420580,
+            "last_edited": 1647316806,
+            "name": "NFV Orchestration",
+            "code_name": "Tacker"
+        }
+    }, {
+        "id": 1002,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 58,
+            "created": 1530892679,
+            "last_edited": 1647316806,
+            "name": "Command-line interface for all OpenStack services",
+            "code_name": "Openstackclient"
+        }
+    }, {
+        "id": 955,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 1,
+            "created": 1398781974,
+            "last_edited": 1647316806,
+            "name": "Dashboard",
+            "code_name": "Horizon"
+        }
+    }, {
+        "id": 963,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 9,
+            "created": 1398781976,
+            "last_edited": 1647316805,
+            "name": "Orchestration",
+            "code_name": "Heat"
+        }
+    }, {
+        "id": 971,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 17,
+            "created": 1449632680,
+            "last_edited": 1647316805,
+            "name": "Container Orchestration Engine Provisioning",
+            "code_name": "Magnum"
+        }
+    }, {
+        "id": 1003,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 59,
+            "created": 1532623004,
+            "last_edited": 1647316806,
+            "name": "Instances High Availability Service",
+            "code_name": "Masakari"
+        }
+    }, {
+        "id": 956,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 2,
+            "created": 1398781975,
+            "last_edited": 1647316805,
+            "name": "Compute Service",
+            "code_name": "Nova"
+        }
+    }, {
+        "id": 1012,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 68,
+            "created": 1536811203,
+            "last_edited": 1647316806,
+            "name": "EC2 API proxy",
+            "code_name": "EC2API"
+        }
+    }, {
+        "id": 965,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 11,
+            "created": 1421242033,
+            "last_edited": 1647316805,
+            "name": "Big Data Processing Framework Provisioning",
+            "code_name": "Sahara"
+        }
+    }, {
+        "id": 989,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 38,
+            "created": 1489420094,
+            "last_edited": 1647316806,
+            "name": "Root Cause Analysis service",
+            "code_name": "Vitrage"
+        }
+    }, {
+        "id": 1021,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 87,
+            "created": 1640322005,
+            "last_edited": 1647316806,
+            "name": "Next generation dashboard (tech preview)",
+            "code_name": "Skyline"
+        }
+    }, {
+        "id": 998,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 50,
+            "created": 1525796733,
+            "last_edited": 1647316805,
+            "name": "Lifecycle management of accelerators",
+            "code_name": "Cyborg"
+        }
+    }, {
+        "id": 959,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 5,
+            "created": 1398781975,
+            "last_edited": 1647316805,
+            "name": "Block Storage",
+            "code_name": "Cinder"
+        }
+    }, {
+        "id": 975,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 22,
+            "created": 1489418741,
+            "last_edited": 1647316805,
+            "name": "Containers Service",
+            "code_name": "Zun"
+        }
+    }, {
+        "id": 983,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 31,
+            "created": 1489419545,
+            "last_edited": 1647316806,
+            "name": "Billing and chargebacks",
+            "code_name": "Cloudkitty"
+        }
+    }, {
+        "id": 999,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 51,
+            "created": 1525796784,
+            "last_edited": 1647316804,
+            "name": "Deploys OpenStack in containers using Helm",
+            "code_name": "Openstack-helm"
+        }
+    }, {
+        "id": 1007,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 63,
+            "created": 1534795263,
+            "last_edited": 1540267203,
+            "name": "OpenStack Storage integration for containers",
+            "code_name": "Fuxi"
+        }
+    }, {
+        "id": 1008,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 64,
+            "created": 1534796848,
+            "last_edited": 1547223219,
+            "name": "Client library for interacting with OpenStack clouds",
+            "code_name": "Shade"
+        }
+    }, {
+        "id": 1016,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 82,
+            "created": 1560225605,
+            "last_edited": 1647316805,
+            "name": "Placement service",
+            "code_name": "Placement"
+        }
+    }, {
+        "id": 993,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 42,
+            "created": 1489420558,
+            "last_edited": 1647316805,
+            "name": "Load balancer",
+            "code_name": "Octavia"
+        }
+    }, {
+        "id": 986,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 34,
+            "created": 1489419694,
+            "last_edited": 1647316805,
+            "name": "Clustering service",
+            "code_name": "Senlin"
+        }
+    }, {
+        "id": 1010,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 66,
+            "created": 1536592273,
+            "last_edited": 1647316805,
+            "name": "Lightweight OCI containers",
+            "code_name": "LOCI"
+        }
+    }, {
+        "id": 1019,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 85,
+            "created": 1593057607,
+            "last_edited": 1647316806,
+            "name": "The OpenStack Integration Test Suite",
+            "code_name": "Tempest"
+        }
+    }, {
+        "id": 972,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 18,
+            "created": 1449632891,
+            "last_edited": 1647316806,
+            "name": "Application Catalog",
+            "code_name": "Murano"
+        }
+    }, {
+        "id": 988,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 36,
+            "created": 1489420012,
+            "last_edited": 1647316806,
+            "name": "Event, Metadata Indexing Service",
+            "code_name": "Panko"
+        }
+    }, {
+        "id": 973,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 20,
+            "created": 1489418270,
+            "last_edited": 1647316806,
+            "name": "Software Development Lifecycle Automation",
+            "code_name": "Solum"
+        }
+    }, {
+        "id": 981,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 28,
+            "created": 1489419395,
+            "last_edited": 1647316805,
+            "name": "Puppet modules to deploy OpenStack",
+            "code_name": "Puppet-openstack"
+        }
+    }, {
+        "id": 968,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 14,
+            "created": 1444332793,
+            "last_edited": 1647316805,
+            "name": "Shared filesystems",
+            "code_name": "Manila"
+        }
+    }, {
+        "id": 984,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 32,
+            "created": 1489419617,
+            "last_edited": 1647316806,
+            "name": "Monitoring",
+            "code_name": "Monasca"
+        }
+    }, {
+        "id": 1000,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 55,
+            "created": 1525803752,
+            "last_edited": 1609390806,
+            "name": "Functions Service",
+            "code_name": "Qinling"
+        }
+    }, {
+        "id": 961,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 7,
+            "created": 1398781975,
+            "last_edited": 1647316805,
+            "name": "Image service",
+            "code_name": "Glance"
+        }
+    }, {
+        "id": 969,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 15,
+            "created": 1444332829,
+            "last_edited": 1647316805,
+            "name": "DNS service",
+            "code_name": "Designate"
+        }
+    }, {
+        "id": 978,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 25,
+            "created": 1489419258,
+            "last_edited": 1647316804,
+            "name": "Deploys OpenStack in containers using Ansible",
+            "code_name": "Kolla-ansible"
+        }
+    }, {
+        "id": 995,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 45,
+            "created": 1489420647,
+            "last_edited": 1647316805,
+            "name": "Workflow service",
+            "code_name": "Mistral"
+        }
+    }, {
+        "id": 964,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 10,
+            "created": 1421241877,
+            "last_edited": 1647316806,
+            "name": "Database as a Service",
+            "code_name": "Trove"
+        }
+    }, {
+        "id": 1020,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 86,
+            "created": 1593057607,
+            "last_edited": 1647316806,
+            "name": "The OpenStack RBAC Integration Test Suite",
+            "code_name": "Patrole"
+        }
+    }, {
+        "id": 997,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 47,
+            "created": 1489420826,
+            "last_edited": 1647316806,
+            "name": "Backup, Restore, and Disaster Recovery",
+            "code_name": "Freezer"
+        }
+    }, {
+        "id": 1005,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 61,
+            "created": 1534794629,
+            "last_edited": 1547223495,
+            "name": "Packaging-rpm",
+            "code_name": "Packaging-rpm"
+        }
+    }, {
+        "id": 967,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 13,
+            "created": 1444332776,
+            "last_edited": 1647316805,
+            "name": "Messaging Service",
+            "code_name": "Zaqar"
+        }
+    }, {
+        "id": 970,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 16,
+            "created": 1444332863,
+            "last_edited": 1647316805,
+            "name": "Key management",
+            "code_name": "Barbican"
+        }
+    }, {
+        "id": 1018,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 84,
+            "created": 1569556804,
+            "last_edited": 1647316804,
+            "name": "Deployment of containerised OpenStack to bare metal",
+            "code_name": "Kayobe"
+        }
+    }, {
+        "id": 1011,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 67,
+            "created": 1536811203,
+            "last_edited": 1647316805,
+            "name": "RPM package specs to deploy OpenStack",
+            "code_name": "RPM-packaging"
+        }
+    }, {
+        "id": 1001,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 56,
+            "created": 1530800981,
+            "last_edited": 1647316805,
+            "name": "Resource reservation service",
+            "code_name": "Blazar"
+        }
+    }, {
+        "id": 980,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 27,
+            "created": 1489419365,
+            "last_edited": 1647316804,
+            "name": "Ansible playbooks to deploy OpenStack",
+            "code_name": "Openstack-ansible"
+        }
+    }, {
+        "id": 996,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 46,
+            "created": 1489420741,
+            "last_edited": 1624248178,
+            "name": "Application Data Protection as a Service",
+            "code_name": "Karbor"
+        }
+    }, {
+        "id": 976,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 23,
+            "created": 1489418966,
+            "last_edited": 1609390806,
+            "name": "Indexing and Search",
+            "code_name": "Searchlight"
+        }
+    }, {
+        "id": 979,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 26,
+            "created": 1489419300,
+            "last_edited": 1647316804,
+            "name": "Deploys OpenStack in containers using Charms and Juju",
+            "code_name": "Openstack-charms"
+        }
+    }, {
+        "id": 987,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 35,
+            "created": 1489419924,
+            "last_edited": 1647316805,
+            "name": "Alarming Service",
+            "code_name": "Aodh"
+        }
+    }, {
+        "id": 1006,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 62,
+            "created": 1534794991,
+            "last_edited": 1647316804,
+            "name": "Ansible playbooks using ironic",
+            "code_name": "Bifrost"
+        }
+    }, {
+        "id": 977,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 24,
+            "created": 1489419077,
+            "last_edited": 1565355565,
+            "name": "Chef cookbooks to deploy OpenStack",
+            "code_name": "Chef-openstack"
+        }
+    }, {
+        "id": 1017,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 83,
+            "created": 1564804804,
+            "last_edited": 1647316804,
+            "name": "Chef cookbooks to build, operate and consume OpenStack",
+            "code_name": "Openstack-chef"
+        }
+    }, {
+        "id": 1004,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 60,
+            "created": 1532978303,
+            "last_edited": 1547224552,
+            "name": "EC2 API compatibility layer for OpenStack",
+            "code_name": "Ec2-api"
+        }
+    }, {
+        "id": 1009,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 65,
+            "created": 1534796924,
+            "last_edited": 1547223692,
+            "name": "Python Software Development Kit",
+            "code_name": "Python SDK"
+        }
+    }, {
+        "id": 1015,
+        "created": null,
+        "last_edited": null,
+        "adoption": 0,
+        "maturity_points": 0,
+        "has_installation_guide": false,
+        "release_id": 36,
+        "component": {
+            "id": 75,
+            "created": 1543381203,
+            "last_edited": 1547223862,
+            "name": "Ansible playbooks and roles for deployment",
+            "code_name": "OpenStackAnsible"
+        }
+    }]
+}

@@ -91,6 +91,7 @@ const AffiliationForm = class extends React.Component {
                             onChange={this.onHandleChangeCell}
                             allowCreate
                             onCreate={this.props.onAddOrganization}
+                            className={'dropdown-affiliation'}
                         />
                     </div>
                     {this.state.validationErrors.hasOwnProperty('organization') &&
@@ -130,7 +131,7 @@ const AffiliationForm = class extends React.Component {
                     }
                 </div>
                 <div className="field">
-                    <div className="control">
+                    <div className="control checkbox-affiliation">
                         <label htmlFor="is_current">
                             <input id="is_current" type="checkbox" checked={this.state.is_current}
                                    onChange={this.onHandleChangeCell}/> Is Current?

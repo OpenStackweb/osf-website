@@ -56,7 +56,7 @@ const Affiliations = class extends React.Component {
         let {affiliations} = this.props;
         return (
             <div className="affiliations">
-                <h2>Affiliations</h2>
+                {/* <h2>Affiliations</h2> */}
                 <button onClick={this.onAddHandle}>Add new Affiliation</button>
                 { this.state.showModal &&
                 <div className="modal is-active">

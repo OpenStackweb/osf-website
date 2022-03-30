@@ -2,10 +2,9 @@
 templateKey: summit-tracks-page
 seo:
   description: >-
-    The Four Opens are guiding principles to successfully grow an open source
-    community: open source, open design, open community, and open development. 
+    The OpenInfra Summit includes keynotes, presentations, panels, hands-on workshops, and collaborative working sessions covering over 30 open source projects.
   image: /img/OpenInfra-icon-white.jpg
-  title: 'Our Philosophy: The Four Opens'
+  title: 'OpenInfra Summit Tracks'
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/summit-tracks/'
 title: Summit Tracks
@@ -46,7 +45,7 @@ Beginner-level track to learn the basics about all open infrastructure-related t
 
 Hands-on Workshops offer a window into training for operators and application developers across different projects. Sessions are typically 90 minutes and require an RSVP and some prep work. Bring your laptop and walk away with the skills you need to become an open source contributor.
  
-#### NEW: Hardware Enablement 
+#### Hardware Enablement 
 
 Topics include: Software components needed to enable hardware in cloud or edge environments, GPUS, DPUs, FPGAs, sustainability, data center operations, hardware standards (Open19, OCP), data center efficiency, server design, SmartNICs, testing and certification  
  

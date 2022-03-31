@@ -37,8 +37,8 @@ episodes:
       Host: Ghanshyam Mann, Chair of the OpenStack TC for the Yoga cycle
 
       Participants: Brian Rosmaita (Cinder), Mark Goddard (Kolla), Maysa Macedo (Kuryr), Lajos Katona (Neutron), Iury Gregory (Ironic), Goutham Pacha Ravi (Manila), Gregory Thiemonge (Octavia), Sylvain Bauza (Nova)
-    youtubeLink: https://youtu.be/hwPfjvshxOM
-    youtubeEmbed: https://youtu.be/hwPfjvshxOM
+    youtubeLink: https://www.youtube.com/watch?v=hwPfjvshxOM
+    youtubeEmbed: https://www.youtube.com/embed/hwPfjvshxOM
   - hidden: false
     date: 2022-03-17T14:00:00.000Z
     episodeTitle: "What to Expect at the OpenInfra Summit Berlin: 5G / Edge Computing / NFV"

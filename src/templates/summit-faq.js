@@ -27,7 +27,7 @@ export const SummitFAQPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav active="summit-faq" pageName="FAQs"/>
+        <SubNav active="summit-faq" pageName="FAQs" isLoggedUser={isLoggedUser}/>
         <Header title={title} subTitle={subTitle} />
       </div>
 

@@ -14,7 +14,7 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     14:00 UTC (9am CT)</strong>."
 episodes:
-  - hidden: true
+  - hidden: false
     date: 2022-04-07T14:00:00.000Z
     episodeTitle: What to Expect at the OpenInfra Summit Berlin - Hybrid & Private
       Cloud Track

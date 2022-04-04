@@ -31,7 +31,9 @@ export const CompaniesPageTemplate = ({
 
   const goToTier = () => {
     if (location.hash) {
-      navigate(location.hash)
+      setTimeout(() => {
+        navigate(location.hash)
+      }, 400)
     }
   }
 

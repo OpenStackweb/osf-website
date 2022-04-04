@@ -24,6 +24,8 @@ episodes:
       OpenStack Million Cores Club. "
     episodeSpeakers: Adam Harwell (Yahoo), Arnaud Morin (OVHCloud), Belmiro Moreira
       (CERN), Brendan Conlan (Yahoo), Mohammed Naser (Vexxhost)
+    youtubeEmbed: https://www.youtube.com/embed/YgB9GF1E1aU
+    youtubeLink: https://www.youtube.com/watch?v=YgB9GF1E1aU
   - hidden: false
     date: 2022-03-31T14:00:00.000Z
     episodeTitle: "OpenStack Yoga: New Features Straight from the Contributors"

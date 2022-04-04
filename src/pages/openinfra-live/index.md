@@ -14,6 +14,25 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     14:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: true
+    date: 2022-04-07T14:00:00.000Z
+    episodeTitle: What to Expect at the OpenInfra Summit Berlin - Hybrid & Private
+      Cloud Track
+    episodeDescription: >
+      Organizations have turned to the cloud to increase operational efficiency
+      while decreasing costs. Recent studies have shown that these same
+      organizations are turning to hybrid cloud infrastructure powered by a
+      mixture of open source technologies for additional flexibility around
+      workload repatriation. 
+
+
+      Within production hybrid clouds, OpenInfra technologies provide container security, edge nodes, CI/CD, secure private clouds and the largest footprint of public cloud data centers in the world. Tune into this episode and learn about what private & hybrid cloud sessions will be featured at the OpenInfra Summit Berlin, Germany on June 7-9, 2022! 
+    episodeSpeakers: >
+      Scott Solkhon (G-Research), Ross Martyn (G-Research), Tyler Stachecki
+      (Bloomberg LP), Reedip Banerjee (LINE Corp), Yushiro Furukawa(LINE Corp)
+    youtubeEmbed: https://www.youtube.com/embed/sIyAxZom5Hg
+    youtubeLink: https://www.youtube.com/watch?v=sIyAxZom5Hg
+    linkedinLink: ""
   - hidden: false
     date: 2022-04-14T14:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: Yahoo"
@@ -41,6 +60,7 @@ episodes:
       Participants: Brian Rosmaita (Cinder), Mark Goddard (Kolla), Maysa Macedo (Kuryr), Lajos Katona (Neutron), Iury Gregory (Ironic), Goutham Pacha Ravi (Manila), Gregory Thiemonge (Octavia), Sylvain Bauza (Nova)
     youtubeLink: https://www.youtube.com/watch?v=hwPfjvshxOM
     youtubeEmbed: https://www.youtube.com/embed/hwPfjvshxOM
+    superuserRecap: https://superuser.openstack.org/articles/openstack-yoga-new-features-straight-from-the-contributors-openinfra-live-recap/
   - hidden: false
     date: 2022-03-17T14:00:00.000Z
     episodeTitle: "What to Expect at the OpenInfra Summit Berlin: 5G / Edge Computing / NFV"

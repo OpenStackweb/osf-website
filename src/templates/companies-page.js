@@ -33,7 +33,7 @@ export const CompaniesPageTemplate = ({
     if (location.hash) {
       setTimeout(() => {
         navigate(location.hash)
-      }, 400)
+      }, 750)
     }
   }
 

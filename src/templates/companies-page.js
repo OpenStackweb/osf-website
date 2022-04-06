@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, navigate } from 'gatsby'
 import { kebabCase } from 'lodash'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
@@ -23,10 +23,23 @@ export const CompaniesPageTemplate = ({
   sponsors,
   sponsorsLevel,
   loading,
+  location,
   content,
   contentComponent
 }) => {
   const PageContent = contentComponent || Content
+
+  const goToTier = () => {
+    if (location.hash) {
+      setTimeout(() => {
+        navigate(location.hash)
+      }, 750)
+    }
+  }
+
+  useEffect(() => {
+    if (sponsors.length > 0) goToTier()
+  }, [sponsors])
 
   return (
     <div>
@@ -43,9 +56,10 @@ export const CompaniesPageTemplate = ({
             <section className="companies-s1-main">
               {sponsors?.map((tier, index) => {
                 const customWidth = sponsorsLevel.find(e => e.id === tier.id)?.width;
+                const tierId = tier.name.split(' ')[0].toLowerCase();
                 if (tier.is_active === true) {
                   return (
-                    <div className="companies-s1-container" key={index}>
+                    <div className="companies-s1-container" key={index} id={tierId}>
                       <div className="companies-s1-columns">
                         <div className="companies-s1-column1">
                           <div className="fix-h3">{tier.name}</div>
@@ -87,7 +101,7 @@ CompaniesPageTemplate.propTypes = {
   sponsors: PropTypes.array,
 }
 
-const CompaniesPage = ({ isLoggedUser, data, getSponsorhipTypes, sponsors, loading }) => {
+const CompaniesPage = ({ isLoggedUser, data, getSponsorhipTypes, sponsors, location, loading }) => {
   const { markdownRemark: post } = data
 
   useEffect(() => {
@@ -102,6 +116,7 @@ const CompaniesPage = ({ isLoggedUser, data, getSponsorhipTypes, sponsors, loadi
         header={post.frontmatter.header}
         sponsors={sponsors.sort((a, b) => a.order - b.order)}
         sponsorsLevel={post.frontmatter.sponsorsLevel}
+        location={location}
         loading={loading}
       />
     </Layout>

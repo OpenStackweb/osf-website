@@ -12,6 +12,12 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: 50
+      }
+    },
+    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `

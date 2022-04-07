@@ -100,10 +100,10 @@ function SubNav(props) {
                   <LinkComponent id="summit-faq" href="/summit-faq" onClick={() => shouldCloseMenu("summit-faq")} className="link-dropdown-option" >
                     FAQs
                   </LinkComponent>
-                  <LinkComponent id="summit-faq-travel" href="/summit-faq-travel" onClick={() => shouldCloseMenu("summit-faq-travel")} className="link-dropdown-option">
+                  <LinkComponent id="summit-faq-travel" href="/summit-faq#travel" onClick={() => shouldCloseMenu("summit-faq-travel")} className="link-dropdown-option">
                     <span>Travel Support</span>
                   </LinkComponent>
-                  <LinkComponent id="summit-faq-speakers" href="/summit-faq-speakers" onClick={() => shouldCloseMenu("summit-faq-speakers")} className="link-dropdown-option">
+                  <LinkComponent id="summit-faq-speakers" href="/summit-faq#speakers" onClick={() => shouldCloseMenu("summit-faq-speakers")} className="link-dropdown-option">
                     <span>Speaker Support</span>
                   </LinkComponent>
                 </>

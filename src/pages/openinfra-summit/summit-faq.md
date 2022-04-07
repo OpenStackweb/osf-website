@@ -76,7 +76,7 @@ There is a mandatory indoor mask mandate for all attendees except while eating a
 **What on-site safety precautions are being taken to protect attendees from COVID-19?** <br>
 Our attendees’ health and safety remain our top priority as we continue to monitor COVID-19. We will follow all venue, local, and WHO guidelines to make the best and most informed decisions around onsite safety and requirements. Please continue to [monitor this page](https://openinfra.dev/summit-covid/) for up-to-date information on the safety precautions for the OpenInfra Summit Berlin.
 
-#### BERLIN TRAVEL
+<h4 id="travel">BERLIN TRAVEL</h4>
 
 **Is there any financial support available for travel/accommodation?** <br>
 Yes, if you are a key contributor to an open infrastructure project and your company does not cover the costs of your Berlin travel and accommodations, you may apply for the Travel Support Program.

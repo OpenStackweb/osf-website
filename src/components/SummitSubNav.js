@@ -5,6 +5,7 @@ function SubNav(props) {
 
   const [isOpen, setIsOpen] = useState(false);
   const [scheduleDropdown, setScheduleDropdown] = useState(false);
+  const [supportDropdown, setSupportDropdown] = useState(false);
 
   useEffect(() => {
     let active = document.getElementById(props.active);
@@ -32,9 +33,7 @@ function SubNav(props) {
           <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" className="link">Sponsors</LinkComponent></li>
           <li><LinkComponent id="summit-tracks" href="/summit-tracks" className="link">Tracks</LinkComponent></li>
           <li><LinkComponent id="summit-faq" href="/summit-faq" className="link">FAQs</LinkComponent></li>
-          <li><LinkComponent id="summit-covid" href="/summit-covid" className="link">COVID-19</LinkComponent></li>
-          {props.isLoggedUser ?
-            <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
+          <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
               <LinkComponent id="summit-schedule" href="/summit-schedule" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
                 Schedule
                 <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
@@ -46,6 +45,27 @@ function SubNav(props) {
                   </LinkComponent>
                   <LinkComponent id="summit-my-schedule" href="/a/summit-my-schedule" className="link dropdown">
                     <span>My Schedule</span>
+                  </LinkComponent>
+                </div>
+              }
+            </li>
+          <li><LinkComponent id="summit-covid" href="/summit-covid" className="link">COVID-19</LinkComponent></li>
+          {props.isLoggedUser ?
+            <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
+              <LinkComponent id="summit-faq" href="/summit-faq" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
+                Support
+                <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
+              </LinkComponent>
+              {supportDropdown &&
+                <div className='dropdown-options'>
+                  <LinkComponent id="summit-faq" href="/summit-faq" className="link dropdown">
+                    FAQs
+                  </LinkComponent>
+                  <LinkComponent id="summit-faq-travel" href="/summit-faq#travel" className="link dropdown">
+                    <span>Travel</span>
+                  </LinkComponent>
+                  <LinkComponent id="summit-faq-speakers" href="/summit-faq#speakers" className="link dropdown">
+                    <span>Speakers</span>
                   </LinkComponent>
                 </div>
               }

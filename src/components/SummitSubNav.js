@@ -33,25 +33,25 @@ function SubNav(props) {
           <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" className="link">Sponsors</LinkComponent></li>
           <li><LinkComponent id="summit-tracks" href="/summit-tracks" className="link">Tracks</LinkComponent></li>
 
-            <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
-              <LinkComponent id="summit-support" href="/summit-faq" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
-                Support
-                <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
-              </LinkComponent>
-              {supportDropdown &&
-                <div className='dropdown-options'>
-                  <LinkComponent id="summit-faq" href="/summit-faq" className="link dropdown">
-                    FAQs
-                  </LinkComponent>
-                  <LinkComponent id="summit-faq-travel" href="/summit-faq#travel" className="link dropdown">
-                    <span>Travel Support</span>
-                  </LinkComponent>
-                  <LinkComponent id="summit-faq-speaker" href="/summit-faq#speakers" className="link dropdown">
-                    <span>Speaker Support</span>
-                  </LinkComponent>
-                </div>
-              }
-            </li>
+          <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
+            <LinkComponent id="summit-faq" href="/summit-faq" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
+              Support
+              <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
+            </LinkComponent>
+            {supportDropdown &&
+              <div className='dropdown-options'>
+                <LinkComponent id="summit-faq" href="/summit-faq" className="link dropdown">
+                  FAQs
+                </LinkComponent>
+                <LinkComponent id="summit-faq-travel" href="/summit-faq#travel" className="link dropdown">
+                  <span>Travel Support</span>
+                </LinkComponent>
+                <LinkComponent id="summit-faq-speaker" href="/summit-faq#speakers" className="link dropdown">
+                  <span>Speaker Support</span>
+                </LinkComponent>
+              </div>
+            }
+          </li>
           <li><LinkComponent id="summit-covid" href="/summit-covid" className="link">COVID-19</LinkComponent></li>
           {props.isLoggedUser ?
             <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
@@ -97,7 +97,7 @@ function SubNav(props) {
               </LinkComponent>
               {supportDropdown &&
                 <>
-                  <LinkComponent id="summit-support" href="/summit-faq" onClick={() => shouldCloseMenu("summit-support")} className="link-dropdown-option" >
+                  <LinkComponent id="summit-faq" href="/summit-faq" onClick={() => shouldCloseMenu("summit-faq")} className="link-dropdown-option" >
                     FAQs
                   </LinkComponent>
                   <LinkComponent id="summit-faq-travel" href="/summit-faq-travel" onClick={() => shouldCloseMenu("summit-faq-travel")} className="link-dropdown-option">

@@ -1,0 +1,51 @@
+.embedYoutube {
+    display: block;
+    background-color: #000;
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.embedYoutube img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+.embedYoutube img,
+.embedYoutube .embedYoutubePlay {
+    cursor: pointer;
+}
+.embedYoutube img,
+.embedYoutube iframe,
+.embedYoutube .embedYoutubePlay,
+.embedYoutube .embedYoutubePlay:before {
+    position: absolute;
+}
+
+.embedYoutube iframe {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.embedYoutube .embedYoutubePlay,
+.embedYoutube .embedYoutubePlay:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20%;
+    filter: saturate(0);
+    opacity: .8;
+    transform: translate3d( -50%, -50%, 0 );
+    z-index: 10;
+}
+
+.embedYoutube .embedYoutubePlay:hover {
+    filter: saturate(100%);
+    opacity: 1;
+}

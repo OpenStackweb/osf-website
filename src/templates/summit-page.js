@@ -125,7 +125,7 @@ export const SummitPageTemplate = ({
               <span className="title">Travel Support Program & Visa Letters</span>
               <span className="description">Need assistance getting to the Berlin Summit? We can help! If you are a key contributor to open infrastructure and your company does not cover the costs of your travel and accommodation, you can apply for the Travel Support Program. We can also provide you with a visa invitation letter from the Foundation to meet travel requirements.</span>
               <div className="links-row">
-                <LinkComponent className="summit-cta" href="https://openinfrafoundation.formstack.com/forms/TSP_Berlin2022" >Apply For Support<img src={leftArrow} alt="" /></LinkComponent>
+                <LinkComponent className="summit-cta disabled" href="#" >Deadline Passed</LinkComponent>
                 <LinkComponent className="summit-cta" href="https://openinfrafoundation.formstack.com/forms/visa_berlin2022" >Get Visa Letter<img src={leftArrow} alt="" /></LinkComponent>
               </div>
             </div>

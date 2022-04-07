@@ -626,10 +626,6 @@ hr.dividing-line {
             filter: none;
           }
         }
-        &.disabled {
-          opacity: 0.3;
-          cursor: not-allowed;
-        }
       }
     }
   }
@@ -1045,6 +1041,10 @@ hr.dividing-line {
         img {
           filter: none;
         }
+      }
+      &.disabled {
+        opacity: 0.3;
+        cursor: not-allowed;
       }
     }
   }

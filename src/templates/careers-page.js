@@ -64,15 +64,6 @@ export const CareersPageTemplate = ({
                         <LinkComponent style={{marginTop: "20px"}} className="button-cta" href="/careers/technical-community-manager">Learn More<img src={leftArrow} alt="Left Arrow" /></LinkComponent> 
                       </p>
                   </div>
-                    <div className="career-single">
-                      <a href="/careers/accounting-operations-intern" className="career-title">Accounting & Operations Intern</a>
-                      <p>
-                        OpenInfra Foundation is seeking someone who is business-minded and data-driven to fill the role of Accounting & Operations Intern. You should be detail-oriented, organized, punctual, and comfortable working in fast-paced environments. You will be interacting across various business units, handling a variety of tasks including accounting, AP/AR, operational efficiencies, event support and customer relations. You will be entrusted with highly sensitive information on a regular basis relating to core functions of the business and strategic partnerships. Being organized, responsive and flexible is crucial in this role.
-                      </p>
-                      <p>
-                        <LinkComponent style={{marginTop: "20px"}} className="button-cta" href="/careers/accounting-operations-intern">Learn More<img src={leftArrow} alt="Left Arrow" /></LinkComponent> 
-                      </p>
-                    </div>
                     <hr />
                 </column>
               </columns>

@@ -76,7 +76,7 @@ There is a mandatory indoor mask mandate for all attendees except while eating a
 **What on-site safety precautions are being taken to protect attendees from COVID-19?** <br>
 Our attendees’ health and safety remain our top priority as we continue to monitor COVID-19. We will follow all venue, local, and WHO guidelines to make the best and most informed decisions around onsite safety and requirements. Please continue to [monitor this page](https://openinfra.dev/summit-covid/) for up-to-date information on the safety precautions for the OpenInfra Summit Berlin.
 
-#### BERLIN TRAVEL
+<h4 id="travel">BERLIN TRAVEL</h4>
 
 **Is there any financial support available for travel/accommodation?** <br>
 Yes, if you are a key contributor to an open infrastructure project and your company does not cover the costs of your Berlin travel and accommodations, you may apply for the Travel Support Program.
@@ -107,7 +107,7 @@ Note: If your visa is declined, email your registration refund request to [summi
 **How long does it take to get a visa?** <br>
 We recommend you give yourself at least 60 days to complete the visa process.
 
-**What hotels are near the OpenInfra Summit venue?**
+**What hotels are near the OpenInfra Summit venue?** <br>
 - [Park Inn by Radisson Berlin Alexanderplatz](https://www.radissonhotels.com/en-us/hotels/park-inn-berlin-alexanderplatz?cid=a:se+b:gmb+c:emea+i:local+e:pii+d:cese+h:DEBERALX)
 - [Hampton by Hilton Berlin City Centre Alexanderplatz](https://www.hilton.com/en/hotels/berhxhx-hampton-berlin-city-centre-alexanderplatz/?SEO_id=GMB-EMEA-HX-BERHXHX)
 - [H4 Hotel Berlin Alexanderplatz](https://www.h-hotels.com/de/h4/hotels/h4-hotel-berlin-alexanderplatz?utm_source=yext&utm_medium=listing)
@@ -115,6 +115,15 @@ We recommend you give yourself at least 60 days to complete the visa process.
 - [Motel One Berlin- Hackescher Markt](https://www.google.com/travel/hotels/Berlin/entity/ChcIkoW7-aXHse84GgsvZy8xdGRmYjQxNxAB?g2lb=2503771%2C4704212%2C4401769%2C4669146%2C4306835%2C4429192%2C4726607%2C2503781%2C4723331%2C4640247%2C4649665%2C2502548%2C4716129%2C4258168%2C4734964%2C4647135%2C4270442%2C4597339%2C4722900%2C4518327%2C4733769%2C4284970%2C4291517&hl=en-US&gl=us&ssta=1&ap=SAFoAYABAA&q=hotels%20near%20bcc%20berlin&rp=EKGPsurfv5e1rQEQkYvWsJm1ifWIARD07d2cucuWiH4Qs57a75i1-Z8pOAFAAEgCogEfQmNjIEJlcmxpbiBDb25ncmVzcyBDZW50ZXIgR21iaA&ictx=1&utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAESCgoCCAMKAggDEAAaQwolEiE6H0JjYyBCZXJsaW4gQ29uZ3Jlc3MgQ2VudGVyIEdtYmgaABIaEhQKBwjmDxADGAYSBwjmDxADGAcYATICEAAqCwoHKAE6A1VTRBoA)
 - [Holiday Inn Express Berlin-Alexanderplatz](https://www.ihg.com/holidayinnexpress/hotels/gb/en/berlin/berax/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-DE-_-BERAX)
 - [Ibis Budget Berlin Alexanderplatz](https://all.accor.com/hotel/5513/index.en.shtml?utm_campaign=seo+maps&utm_medium=seo+maps&utm_source=google+Maps)
+
+
+<h4 id="speakers">SPEAKER SUPPORT</h4>
+
+**How can I get support as a speaker?** <br>
+For speaker support, please email [speakersupport@openinfra.dev](speakersupport@openinfra.dev)
+
+
+#### Projects at the Summit
 
 **What open source projects are represented at the Summit?** <br>
 Speakers are encouraged to submit presentations covering a variety of projects in the open infrastructure community. Below is a list of projects represented at previous Summits. 

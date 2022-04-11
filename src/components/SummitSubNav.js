@@ -5,6 +5,7 @@ function SubNav(props) {
 
   const [isOpen, setIsOpen] = useState(false);
   const [scheduleDropdown, setScheduleDropdown] = useState(false);
+  const [supportDropdown, setSupportDropdown] = useState(false);
 
   useEffect(() => {
     let active = document.getElementById(props.active);
@@ -31,7 +32,26 @@ function SubNav(props) {
           <li><LinkComponent id="summit" href="/summit" className="link">Home</LinkComponent></li>
           <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" className="link">Sponsors</LinkComponent></li>
           <li><LinkComponent id="summit-tracks" href="/summit-tracks" className="link">Tracks</LinkComponent></li>
-          <li><LinkComponent id="summit-faq" href="/summit-faq" className="link">FAQs</LinkComponent></li>
+
+          <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
+            <LinkComponent id="summit-faq" href="/summit-faq" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
+              Support
+              <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
+            </LinkComponent>
+            {supportDropdown &&
+              <div className='dropdown-options'>
+                <LinkComponent id="summit-faq" href="/summit-faq" className="link dropdown">
+                  FAQs
+                </LinkComponent>
+                <LinkComponent id="summit-faq-travel" href="/summit-faq#travel" className="link dropdown">
+                  <span>Travel Support</span>
+                </LinkComponent>
+                <LinkComponent id="summit-faq-speaker" href="/summit-faq#speakers" className="link dropdown">
+                  <span>Speaker Support</span>
+                </LinkComponent>
+              </div>
+            }
+          </li>
           <li><LinkComponent id="summit-covid" href="/summit-covid" className="link">COVID-19</LinkComponent></li>
           {props.isLoggedUser ?
             <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
@@ -69,7 +89,26 @@ function SubNav(props) {
             <li><LinkComponent id="summit" href="/summit" onClick={() => shouldCloseMenu("summit")} className="link">Home</LinkComponent></li>
             <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" onClick={() => shouldCloseMenu("summit-sponsor")} className="link">Sponsors</LinkComponent></li>
             <li><LinkComponent id="summit-tracks" href="/summit-tracks" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Tracks</LinkComponent></li>
-            <li><LinkComponent id="summit-faq" href="/summit-faq" onClick={() => shouldCloseMenu("summit-faq")} className="link">FAQs</LinkComponent></li>
+
+            <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} className="link-dropdown">
+              <LinkComponent id="summit-faq" href="#" className="link link-dropdown-parent" >
+                Support
+                <i style={{ marginLeft: 5 }} className={`fa fa-chevron-down`} />
+              </LinkComponent>
+              {supportDropdown &&
+                <>
+                  <LinkComponent id="summit-faq" href="/summit-faq" onClick={() => shouldCloseMenu("summit-faq")} className="link-dropdown-option" >
+                    FAQs
+                  </LinkComponent>
+                  <LinkComponent id="summit-faq-travel" href="/summit-faq#travel" onClick={() => shouldCloseMenu("summit-faq-travel")} className="link-dropdown-option">
+                    <span>Travel Support</span>
+                  </LinkComponent>
+                  <LinkComponent id="summit-faq-speakers" href="/summit-faq#speakers" onClick={() => shouldCloseMenu("summit-faq-speakers")} className="link-dropdown-option">
+                    <span>Speaker Support</span>
+                  </LinkComponent>
+                </>
+              }
+            </li>
             <li><LinkComponent id="summit-covid" href="/summit-covid" onClick={() => shouldCloseMenu("summit-covid")} className="link">COVID-19</LinkComponent></li>
             {props.isLoggedUser ?
               <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} className="link-dropdown">

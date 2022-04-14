@@ -411,21 +411,6 @@ export const ProfileManagement = ({
                       </textarea>
                     </div>
                   </div>
-                  <div className={`columns is-mobile ${styles.inputRow}`}>
-                    <div className={`column is-full ${styles.inputField}`}>
-                      <b>Photo <i>(Optional)</i></b>
-                      <div className={`${styles.pictureContainer}`} style={{ paddingBottom: 25 }}>
-                        <button className="link" onClick={() => handleTogglePopup(!showProfile)}>
-                          <div className={styles.profilePicture}>
-                            <img alt="profile pic" src={image} style={{ borderRadius: 0 }} />
-                            <div className={styles.imageUpload} style={{ left: '49%' }}>
-                              <i className={`${styles.pictureIcon} fa fa-2x fa-pencil icon is-large`} />
-                            </div>
-                          </div>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
                   <hr />
                   <ProfilePrograms
                     userPrograms={publicInformation.projects}

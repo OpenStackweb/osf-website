@@ -11,7 +11,7 @@ import {
   authErrorHandler
 } from "openstack-uicore-foundation/lib/methods";
 import axios from "axios";
-import {handleApiError} from "../utils/security";
+import { handleApiError } from "../utils/security";
 
 
 import Swal from 'sweetalert2';
@@ -36,26 +36,27 @@ export const START_LOADING_PROFILE = 'START_LOADING_PROFILE';
 export const STOP_LOADING_PROFILE = 'STOP_LOADING_PROFILE';
 export const GET_USER_PROFILE = 'GET_USER_PROFILE';
 export const SCHEDULE_SYNC_LINK_RECEIVED = 'SCHEDULE_SYNC_LINK_RECEIVED';
-export const ADD_TO_SCHEDULE                   = 'ADD_TO_SCHEDULE';
-export const REMOVE_FROM_SCHEDULE              = 'REMOVE_FROM_SCHEDULE';
+export const ADD_TO_SCHEDULE = 'ADD_TO_SCHEDULE';
+export const REMOVE_FROM_SCHEDULE = 'REMOVE_FROM_SCHEDULE';
+export const GET_SPEAKER_PROFILE = 'GET_SPEAKER_PROFILE';
 
 /******************* PROFILE *******************************************************************/
-export const getUserProfile = () =>  (dispatch, getState) => {
+export const getUserProfile = () => (dispatch, getState) => {
 
   let { loggedUserState: { accessToken } } = getState();
 
   let params = {
     access_token: accessToken,
-    expand: 'groups,summit_tickets,summit_tickets,summit_tickets.owner,summit_tickets.owner.presentation_votes,summit_tickets.owner.extra_questions,summit_tickets.badge,summit_tickets.badge.features,summit_tickets.badge.type, summit_tickets.badge.type.access_levels,summit_tickets.badge.type.features,favorite_summit_events,feedback,schedule_summit_events,rsvp,rsvp.answers'
+    expand: 'groups,summit_tickets,summit_tickets,summit_tickets.owner,summit_tickets.owner.presentation_votes,summit_tickets.owner.extra_questions,summit_tickets.badge,summit_tickets.badge.features,summit_tickets.badge.type, summit_tickets.badge.type.access_levels,summit_tickets.badge.type.features,favorite_summit_events,feedback,schedule_summit_events,rsvp,rsvp.answers,legal_agreements,legal_agreements.document'
   };
 
   dispatch(startLoading());
   dispatch(createAction(START_LOADING_PROFILE)());
   return getRequest(
-      null,
-      createAction(GET_USER_PROFILE),
-      `${window.API_BASE_URL}/api/v1/summits/current/members/me`,
-      authErrorHandler
+    null,
+    createAction(GET_USER_PROFILE),
+    `${window.API_BASE_URL}/api/v1/summits/current/members/me`,
+    authErrorHandler
   )(params)(dispatch).then(() => {
     return dispatch(getIDPProfile()).then(() => {
       return dispatch(getScheduleSyncLink()).then(() => dispatch(createAction(STOP_LOADING_PROFILE)()))
@@ -72,11 +73,11 @@ export const getScheduleSyncLink = () => (dispatch, getState) => {
   };
 
   return postRequest(
-      null,
-      createAction(SCHEDULE_SYNC_LINK_RECEIVED),
-      `${window.API_BASE_URL}/api/v1/summits/current/members/me/schedule/shareable-link`,
-      null,
-      authErrorHandler,
+    null,
+    createAction(SCHEDULE_SYNC_LINK_RECEIVED),
+    `${window.API_BASE_URL}/api/v1/summits/current/members/me/schedule/shareable-link`,
+    null,
+    authErrorHandler,
   )(params)(dispatch);
 };
 
@@ -94,7 +95,7 @@ export const getIDPProfile = () => (dispatch, getState) => {
     createAction(START_LOADING_IDP_PROFILE),
     createAction(GET_IDP_PROFILE),
     `${window.IDP_BASE_URL}/api/v1/users/me`,
-      authErrorHandler
+    authErrorHandler
   )(params)(dispatch)
     .then(() => dispatch(dispatch(createAction(STOP_LOADING_IDP_PROFILE))));
 }
@@ -356,29 +357,54 @@ export const resignMembershipType = () => (dispatch, getState) => {
 /*********************** MY SCHEDULE ***************************************/
 
 export const addToSchedule = (event) => (dispatch, getState) => {
-  const {loggedUserState } = getState();
-  const {accessToken} = loggedUserState;
+  const { loggedUserState } = getState();
+  const { accessToken } = loggedUserState;
 
   const url = `${window.API_BASE_URL}/api/v1/summits/current/members/me/schedule/${event.id}`;
 
   return axios.post(
-      url, { access_token: accessToken }
+    url, { access_token: accessToken }
   ).then(async () => {
-    await dispatch(createAction(ADD_TO_SCHEDULE)({event}));
+    await dispatch(createAction(ADD_TO_SCHEDULE)({ event }));
     return event;
   }).catch(handleApiError);
 };
 
 export const removeFromSchedule = (event) => (dispatch, getState) => {
-  const {loggedUserState } = getState();
-  const {accessToken} = loggedUserState;
+  const { loggedUserState } = getState();
+  const { accessToken } = loggedUserState;
 
   const url = `${window.API_BASE_URL}/api/v1/summits/current/members/me/schedule/${event.id}`;
 
   return axios.delete(
-      url, { data: { access_token: accessToken } }
+    url, { data: { access_token: accessToken } }
   ).then(async () => {
-    dispatch(createAction(REMOVE_FROM_SCHEDULE)({event}));
+    dispatch(createAction(REMOVE_FROM_SCHEDULE)({ event }));
     return event;
   }).catch(handleApiError);
+};
+
+/*********************** SPEAKER PROFILE ***************************************/
+
+export const getSpeakerProfile = (speakerId) => (dispatch, getState) => {
+
+  const { loggedUserState } = getState();
+  const { accessToken } = loggedUserState;
+
+  dispatch(startLoading());
+
+  let params = {
+    access_token: accessToken,
+    expand: 'member,presentations'
+  };
+
+  return getRequest(
+    null,
+    createAction(GET_SPEAKER_PROFILE),
+    `${window.API_BASE_URL}/api/v1/speakers/${speakerId}`,
+    authErrorHandler
+  )(params)(dispatch).then(() => {
+    dispatch(stopLoading());
+  }
+  );
 };

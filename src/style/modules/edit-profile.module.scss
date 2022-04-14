@@ -119,7 +119,7 @@
             background-color: unset;
             color: black;
             padding: 0 0 0 10px;
-            border-radius: 0;
+            border-radius: 5px;
             &.disabled {
               background-color: #eee;
             }
@@ -164,7 +164,13 @@
             background-color: unset;
             color: black;
             padding: 10px;
-            border-radius: 0;
+            border-radius: 5px;
+          }
+
+          .textEditor {
+            min-height: 200px;
+            border: 0.5px solid black;  
+            border-radius: 5px;
           }
 
           .datepicker {
@@ -189,6 +195,7 @@
             width: 100%;
             background-color: unset;
             color: black;
+            border-radius: 5px;
             &:active {
               border: none;
             }
@@ -248,6 +255,7 @@
   .programList {
     list-style: none !important;
     columns: 200px 3;
+    padding: 20px 10px;
     li {
       padding-left: 20px;
       margin: 10px 0;

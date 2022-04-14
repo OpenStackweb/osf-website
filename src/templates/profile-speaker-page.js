@@ -6,24 +6,13 @@ import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
-import MembershipType from "../components/MembershipType";
-import ProfileForm from "../components/ProfileForm"
-import Affiliations from "../components/Affiliations";
-import CandidateProfile from "../components/CandidateProfile"
-import URI from "urijs";
-import { MEMBERSHIP_TYPE_NONE } from "../actions/user-actions";
+import { getSpeakerProfile } from "../actions/user-actions";
 import 'openstack-uicore-foundation/lib/css/components.css';
 import {
-    addAffiliation,
-    saveAffiliation,
-    deleteAffiliation,
-    addOrganization,
-    updateMembershipType,
     updateProfilePicture,
     updateIDPProfile,
     updateProfile,
     getIDPProfile,
-    updatePassword,
     getUserProfile
 } from "../actions/user-actions"
 import { getMemberProfile, getElectionMemberProfile } from '../actions/member-actions';
@@ -31,19 +20,13 @@ import { getElectionStatus } from "../actions/election-actions";
 import {
     updateUserInfo
 } from "openstack-uicore-foundation/lib/methods";
-import { ProfileManagement } from "../components/ProfileManagementComponent";
 import ProfileSubNav from "../components/ProfileSubNav";
 import { ProfileSpeaker } from "../components/ProfileSpeaker";
 
 export const ProfileSpeakerPageTemplate = ({
-    currentMember,
-    initialMembershipType,
-    currentAffiliations,
-    idpProfile,
     isLoggedUser,
     location,
-    updateMembershipType,
-    electionStatus,
+    speakerProfile,
     user,
     updateProfilePicture,
     updateIDPProfile,
@@ -52,43 +35,6 @@ export const ProfileSpeakerPageTemplate = ({
     updatePassword,
     getUserProfile,
 }) => {
-
-    let query = URI.parseQuery(location.search);
-
-    let initialCurrentMemberShipType = initialMembershipType;
-
-    if (query.hasOwnProperty("membership_type") && initialMembershipType === MEMBERSHIP_TYPE_NONE) {
-        initialCurrentMemberShipType = query["membership_type"];
-    }
-
-    const [currentMembershipType, setCurrentMembershipType] = useState(initialCurrentMemberShipType);
-    const [validationError, setValidationError] = useState(null);
-
-    const handleConvertCommunityMember = () => {
-        navigate('/a/profile/membership/community')
-    };
-
-    const handleConvertFoundationMember = () => {
-        navigate('/a/profile/membership/foundation')
-    }
-
-    const handleResign = () => {
-        navigate('/a/profile/membership/resign')
-    }
-
-    const onSelectMembershipType = (type) => {
-        console.log(`selected type ${type}`);
-        setCurrentMembershipType(type);
-    }
-
-    const onSubmitApplication = () => {
-        if (currentAffiliations.length === 0) {
-            setValidationError('* You need at least one affiliation');
-            return;
-        }
-        setValidationError(null);
-        updateMembershipType(currentMembershipType);
-    }
 
     return (
         <div>
@@ -108,9 +54,7 @@ export const ProfileSpeakerPageTemplate = ({
 
                                     <ProfileSpeaker
                                         user={user}
-                                        currentMembershipType={currentMembershipType}
-                                        affiliations={currentAffiliations}
-                                        ownerId={currentMember.id}
+                                        speaker={speakerProfile}
                                         updateProfilePicture={updateProfilePicture}
                                         updateIDPProfile={updateIDPProfile}
                                         updateProfile={updateProfile}
@@ -129,44 +73,19 @@ export const ProfileSpeakerPageTemplate = ({
 
 const ProfileSpeakerPage = ({
     currentMember,
-    initialMembershipType,
-    currentAffiliations,
     idpProfile,
     isLoggedUser,
     location,
-    updateMembershipType,
-    getElectionMemberProfile,
-    getElectionStatus,
-    electionStatus,
-    updateUserInfo,
+    speakerProfile,
     user,
     updateProfilePicture,
-    updateIDPProfile,
     updateProfile,
-    getIDPProfile,
-    updatePassword,
     getUserProfile,
+    getSpeakerProfile,
 }) => {
 
     useEffect(() => {
-        getElectionStatus();
-        if (currentMember?.id) {
-            getElectionMemberProfile
-                (
-                    currentMember?.id,
-                    'groups,all_affiliations,candidate_profile,election_applications,election_nominations,election_nominations.candidate',
-                    'election_nominations.candidate.first_name,election_nominations.candidate.last_name',
-                    'election_applications.nominator.none,election_nominations.candidate.none'
-                ).then((profile) => {
-
-                    const updatedProfile = {
-                        ...currentMember,
-                        election_applications: [...profile.election_applications],
-                        election_nominations: [...profile.election_nominations],
-                    };
-                    updateUserInfo(updatedProfile);
-                });
-        }
+        // getSpeakerProfile();
     }, [])
 
     return (
@@ -174,19 +93,13 @@ const ProfileSpeakerPage = ({
             <SEO />
             <ProfileSpeakerPageTemplate
                 currentMember={currentMember}
-                initialMembershipType={initialMembershipType}
-                currentAffiliations={currentAffiliations}
                 idpProfile={idpProfile}
                 location={location}
                 isLoggedUser={isLoggedUser}
-                updateMembershipType={updateMembershipType}
-                electionStatus={electionStatus}
                 user={user}
+                speakerProfile={speakerProfile}
                 updateProfilePicture={updateProfilePicture}
-                updateIDPProfile={updateIDPProfile}
                 updateProfile={updateProfile}
-                getIDPProfile={getIDPProfile}
-                updatePassword={updatePassword}
                 getUserProfile={getUserProfile}
             />
         </Layout>
@@ -196,26 +109,18 @@ const ProfileSpeakerPage = ({
 export default connect(state => ({
     isLoggedUser: state.loggedUserState.isLoggedUser,
     currentMember: state.loggedUserState.member,
-    initialMembershipType: state.userState.currentMembershipType,
-    currentAffiliations: state.userState.currentAffiliations,
-    electionStatus: state.electionState.election_status,
     idpProfile: state.userState.idpProfile,
+    speakerProfile: state.userState.speakerProfile,
     user: state.userState,
 }),
     {
-        addAffiliation,
-        saveAffiliation,
-        deleteAffiliation,
-        addOrganization,
-        updateMembershipType,
         getMemberProfile,
         getElectionMemberProfile,
         getElectionStatus,
-        updateUserInfo,
         getIDPProfile,
         getUserProfile,
+        getSpeakerProfile,
         updateIDPProfile,
         updateProfile,
         updateProfilePicture,
-        updatePassword
     })(ProfileSpeakerPage)

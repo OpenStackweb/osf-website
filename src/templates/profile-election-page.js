@@ -94,7 +94,7 @@ export const ProfileElectionPageTemplate = ({
             <div className="wrapper project-background">
                 <TopBar />
                 <Navbar isLoggedUser={isLoggedUser} />
-                <ProfileSubNav activePage='profile-election' pageName='Elections'/>
+                <ProfileSubNav activePage='profile-election' pageName='Elections' />
                 <Header title="Profile" subTitle="Elections" />
             </div>
 
@@ -104,44 +104,7 @@ export const ProfileElectionPageTemplate = ({
                         <div className="container about-s1-container">
                             <div className="columns">
                                 <div className="column">
-                                    <MembershipType currentType={currentMembershipType}
-                                        userName={`${idpProfile.given_name} ${idpProfile.family_name}`}
-                                        initialType={initialMembershipType}
-                                        handleConvertCommunityMember={() => handleConvertCommunityMember()}
-                                        handleConvertFoundationMember={() => handleConvertFoundationMember()}
-                                        handleResign={() => handleResign()}
-                                        onSelectMembershipType={(type) => onSelectMembershipType(type)}
-                                    />
-                                    {electionStatus?.status === "NominationsOpen" &&
-                                        <>
-                                            <hr />
-                                            <CandidateProfile electionStatus={electionStatus} electionProfile={currentMember} />
-                                        </>
-                                    }
-                                    {
-                                        currentMembershipType !== MEMBERSHIP_TYPE_NONE &&
-                                        <React.Fragment>
-                                            <hr />                                            
-                                            <ProfileManagement
-                                                user={user}
-                                                currentMembershipType={currentMembershipType}
-                                                affiliations={currentAffiliations}
-                                                ownerId={currentMember.id}
-                                                updateProfilePicture={updateProfilePicture}
-                                                updateIDPProfile={updateIDPProfile}
-                                                updateProfile={updateProfile}
-                                                getIDPProfile={getIDPProfile}
-                                                updatePassword={updatePassword}
-                                                getUserProfile={getUserProfile} />
-                                        </React.Fragment>
-                                    }                                    
-                                    {validationError &&
-                                        <p className="validation_error">{validationError}</p>
-                                    }
-                                    {
-                                        currentMembershipType !== MEMBERSHIP_TYPE_NONE && initialMembershipType === MEMBERSHIP_TYPE_NONE &&
-                                        <button role="button" className="btn" onClick={() => onSubmitApplication()}>Submit my Application</button>
-                                    }
+                                    <CandidateProfile electionStatus={electionStatus} electionProfile={currentMember} />
                                 </div>
                             </div>
                         </div>

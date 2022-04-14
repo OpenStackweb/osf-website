@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { AjaxLoader, CountryInput, LanguageInput } from 'openstack-uicore-foundation/lib/components'
-import moment from "moment-timezone";
+import { AjaxLoader, CountryInput, LanguageInput, FreeMultiTextInput, TextEditor } from 'openstack-uicore-foundation/lib/components'
 
 import Swal from 'sweetalert2';
 
@@ -13,14 +12,7 @@ import { navigate } from 'gatsby';
 
 export const ProfileSpeaker = ({
   user,
-  affiliations,
-  ownerId,
-  isLoggedUser,
-  currentMembershipType,
-  getIDPProfile,
-  getUserProfile,
-  updateIDPProfile,
-  updateProfile,
+  speaker,
   updateProfilePicture,
   updatePassword }) => {
 
@@ -47,6 +39,8 @@ export const ProfileSpeaker = ({
     previousPresentations5: {},
     notes: ''
   });
+
+  console.log('profile speaker', speakerProfile)
 
   const [image, setImage] = useState(null);
 
@@ -128,14 +122,10 @@ export const ProfileSpeaker = ({
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-full ${styles.inputField}`}>
                       <b>Bio</b>
-                      <textarea
-                        className={`textarea ${styles.textarea}`}
-                        placeholder=''
-                        rows="6"
+                      <TextEditor id="bio"
+                        className={styles.textEditor}
                         onChange={e => setSpeakerProfile({ ...speakerProfile, bio: e.target.value })}
-                        value={speakerProfile.bio}
-                      >
-                      </textarea>
+                        value={speakerProfile.bio} />
                     </div>
                   </div>
                   <div className={`columns is-mobile ${styles.inputRow}`}>
@@ -163,7 +153,7 @@ export const ProfileSpeaker = ({
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-full ${styles.inputField}`}>
                       <b>Upload a speaker photo</b>
-                      <div className={`${styles.pictureContainer}`} style={{ paddingBottom: 25 }}>
+                      <div className={`${styles.pictureContainer}`} style={{ paddingBottom: 25, border: '0.5px solid black' }}>
                         <button className="link" onClick={() => handleTogglePopup(!showProfile)}>
                           <div className={styles.profilePicture}>
                             <img alt="profile pic" src={image} />
@@ -199,8 +189,6 @@ export const ProfileSpeaker = ({
                       </label>
                     </div>
                     <div className={`column is-full ${styles.inputField}`}>
-                    </div>
-                    <div className={`column is-full ${styles.inputField}`}>
                       <label className={styles.checkbox} htmlFor="willingToTravel">
                         <input type='checkbox' id="willingToTravel" checked={speakerProfile.willingToTravel}
                           onChange={e => setSpeakerProfile({ ...speakerProfile, willingToTravel: !speakerProfile.willingToTravel })} />
@@ -233,11 +221,11 @@ export const ProfileSpeaker = ({
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-full ${styles.inputField}`}>
                       <b>Area Of Expertise (up to 5)</b>
-                      <LanguageInput
-                        onChange={e => setSpeakerProfile({ ...speakerProfile, languages: e.target.value })}
-                        className={styles.dropdown}
-                        value={speakerProfile.languages}
-                      />
+                      <FreeMultiTextInput
+                        id="areas_of_expertise"
+                        limit={5}
+                        value={speakerProfile.expertise}
+                        onChange={e => setSpeakerProfile({ ...speakerProfile, expertise: e.target.value })} />
                     </div>
                   </div>
                   <div className={`columns is-mobile ${styles.inputRow}`}>
@@ -303,14 +291,10 @@ export const ProfileSpeaker = ({
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-full ${styles.inputField}`}>
                       <b>Notes</b>
-                      <textarea
-                        className={`textarea ${styles.textarea}`}
-                        placeholder=''
-                        rows="6"
+                      <TextEditor id="notes"
+                        className={styles.textEditor}
                         onChange={e => setSpeakerProfile({ ...speakerProfile, notes: e.target.value })}
-                        value={speakerProfile.notes}
-                      >
-                      </textarea>
+                        value={speakerProfile.notes} />
                     </div>
                   </div>
                   <div className={`columns is-mobile ${styles.inputRow}`}>

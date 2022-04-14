@@ -131,7 +131,7 @@ sponsor:
       - alt: Cisco
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Cisco.png
       - alt: Cleura
-        image: /img/cleura-lg.jpg
+        image: /img/cleura-sm.jpg
       - alt: EasyStack
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_EasyStack.png
       - alt: H3C

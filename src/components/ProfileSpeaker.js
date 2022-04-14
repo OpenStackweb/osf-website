@@ -163,7 +163,7 @@ export const ProfileSpeaker = ({
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-full ${styles.inputField}`}>
                       <b>Upload a speaker photo</b>
-                      <div className={`${styles.pictureContainer}`}>
+                      <div className={`${styles.pictureContainer}`} style={{ paddingBottom: 25 }}>
                         <button className="link" onClick={() => handleTogglePopup(!showProfile)}>
                           <div className={styles.profilePicture}>
                             <img alt="profile pic" src={image} />

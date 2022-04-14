@@ -20,66 +20,66 @@
 
   .pictureWrapper {
     padding: 0;
-    .pictureContainer {
-      border: 1px solid #d3d3d3;
-      border-radius: 5px;
-      display: flex;
-      flex-direction: column;
-      padding: 25px 15px 0px;
-      text-align: center;
-      button {
-        border: none;
-        background: none;
-      }
-      span {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: inline-block;
-        margin: 15px 0;
-        b {
-          text-transform: capitalize;
-        }
-      }
-      a {
-        font-weight: bold;
+  }
+  .pictureContainer {
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px 0px;
+    text-align: center;
+    button {
+      border: none;
+      background: none;
+    }
+    span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: inline-block;
+      margin: 15px 0;
+      b {
+        text-transform: capitalize;
       }
     }
-
-    .profilePicture {
-      display: flex;
-      justify-content: center;
-      position: relative;
-
-      img {
-        cursor: pointer;
-        height: 100%;
-        width: 100%;
-        max-height: 200px;
-        max-width: 200px;
-        border-radius: 50%;
-        object-fit: contain;
-      }
+    a {
+      font-weight: bold;
     }
+  }
 
-    .imageUpload {
-      position: absolute;
-      bottom: 10px;
-      left: 45%;
+  .profilePicture {
+    display: flex;
+    justify-content: center;
+    position: relative;
 
-      .pictureIcon {
-        color: #ffffff;
-        z-index: 10;
-        cursor: pointer;
-      }
+    img {
+      cursor: pointer;
+      height: 100%;
+      width: 100%;
+      max-height: 200px;
+      max-width: 200px;
+      border-radius: 50%;
+      object-fit: contain;
     }
-    .resignWrapper {
-      border-top: 1px solid #d3d3d3;
-      margin: 20px -15px 0;
-      padding: 15px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  }
+
+  .imageUpload {
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+
+    .pictureIcon {
+      color: #ffffff;
+      z-index: 10;
+      cursor: pointer;
     }
+  }
+  .resignWrapper {
+    border-top: 1px solid #d3d3d3;
+    margin: 20px -15px 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .formContainer {

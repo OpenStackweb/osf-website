@@ -130,8 +130,8 @@ sponsor:
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaUnicom.png
       - alt: Cisco
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_Cisco.png
-      - alt: City Network
-        image: /img/citynetwork-sm-new.jpg
+      - alt: Cleura
+        image: /img/cleura-lg.jpg
       - alt: EasyStack
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_EasyStack.png
       - alt: H3C

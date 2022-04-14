@@ -229,8 +229,8 @@ companyTier:
           alt: ""
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_Cisco 1.png
           alt: ""
-        - logo: /img/citynetwork-lg-new.jpg
-          alt: ""
+        - logo: /img/cleura-lg.jpg
+          alt: Cleura
         - logo: /img/members-page/gold-tier/Sponsor-Logos-Gold_EasyStack 1.png
           alt: ""
         - logo: /img/h3c-lg.png

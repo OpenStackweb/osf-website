@@ -12,12 +12,15 @@ import ProfileFoodPreferences from './ProfileFoodPreference'
 import Affiliations from './Affiliations';
 
 import styles from '../style/modules/edit-profile.module.scss'
+import LinkComponent from './LinkComponent';
+import { navigate } from 'gatsby';
 
 export const ProfileManagement = ({
   user,
   affiliations,
   ownerId,
   isLoggedUser,
+  currentMembershipType,
   getIDPProfile,
   getUserProfile,
   updateIDPProfile,
@@ -197,6 +200,18 @@ export const ProfileManagement = ({
     setShowProfile(profile)
   };
 
+  const handleConvertCommunityMember = () => {
+    navigate('/a/profile/membership/community')
+  };
+
+  const handleConvertFoundationMember = () => {
+    navigate('/a/profile/membership/foundation')
+  }
+
+  const handleResign = () => {
+    navigate('/a/profile/membership/resign')
+  }
+
 
   return (
     <>
@@ -204,6 +219,30 @@ export const ProfileManagement = ({
       <div>
         <div className="px-6 py-6 mb-6">
           <div className={`columns ${styles.fullProfile}`} >
+            <div className={`column is-3 ${styles.pictureWrapper}`}>
+              <div className={styles.pictureContainer}>
+                <div className={styles.profilePicture} onClick={() => handleTogglePopup(!showProfile)}>
+                  <img alt="profile pic" src={image} />
+                  <div className={styles.imageUpload}>
+                    <i className={`${styles.pictureIcon} fa fa-2x fa-pencil icon is-large`} />
+                  </div>
+                </div>
+
+                <h3>
+                  {user.idpProfile.given_name} {user.idpProfile.family_name}
+                </h3>
+                <span>
+                  Current Member Level <br />
+                  <b>{currentMembershipType}</b>
+                </span>
+                <a onClick={() => currentMembershipType === 'community' ? handleConvertFoundationMember() : handleConvertCommunityMember()}>
+                  Change to {currentMembershipType === 'community' ? 'Foundation' : 'Community'} Member
+                </a>
+                <div className={styles.resignWrapper}>
+                  <a onClick={() => handleResign()}>Resign Membership</a>
+                </div>
+              </div>
+            </div>
             <div className="column">
               <div className={styles.formContainer}>
                 <div className={styles.header}>Email Addresses</div>
@@ -387,7 +426,7 @@ export const ProfileManagement = ({
                       </div>
                     </div>
                   </div>
-                  <hr />
+                  <hr />                  
                   <ProfilePrograms
                     userPrograms={publicInformation.projects}
                     onProgramChanges={(e) => setPublicInformation({ ...publicInformation, projects: e })} />

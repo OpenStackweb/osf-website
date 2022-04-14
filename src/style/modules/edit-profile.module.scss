@@ -18,57 +18,74 @@
     }
   }
 
-  .pictureContainer {
-    border: 0.5px solid #000;
-    display: flex;
-    flex-direction: column;
-    padding: 25px 15px;
-    button {
-      border: none;
-      background: none;
+  .pictureWrapper {
+    padding: 0;
+    .pictureContainer {
+      border: 1px solid #d3d3d3;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      padding: 25px 15px 0px;
+      text-align: center;
+      button {
+        border: none;
+        background: none;
+      }
+      span {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+        margin: 15px 0;
+        b {
+          text-transform: capitalize;
+        }
+      }
+      a {
+        font-weight: bold;
+      }
     }
-    span {
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: inline-block;
-      margin: 15px 0;
-      font-weight: bold;
+
+    .profilePicture {
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+      img {
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+        max-height: 200px;
+        max-width: 200px;
+        border-radius: 50%;
+        object-fit: contain;
+      }
     }
-  }
 
-  .profilePicture {
-    display: flex;
-    justify-content: center;
-    position: relative;
+    .imageUpload {
+      position: absolute;
+      bottom: 10px;
+      left: 45%;
 
-    img {
-      cursor: pointer;
-      height: 100%;
-      width: 100%;
-      max-height: 200px;
-      max-width: 200px;
-      border-radius: 10px;
-      object-fit: contain;
+      .pictureIcon {
+        color: #ffffff;
+        z-index: 10;
+        cursor: pointer;
+      }
     }
-  }
-
-  .imageUpload {
-    position: absolute;
-    bottom: 5px;
-    left: 56%;
-
-    .pictureIcon {
-      color: #ffffff;
-      z-index: 10;
-      cursor: pointer;
+    .resignWrapper {
+      border-top: 1px solid #d3d3d3;
+      margin: 20px -15px 0;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 
   .formContainer {
-    border-left: 1px solid #d3d3d3;
-    border-right: 1px solid #d3d3d3;
-    border-bottom: 1px solid #d3d3d3;
+    border: 1px solid #d3d3d3;
     padding: 0px 20px 10px;
+    border-radius: 5px;
 
     &:not(:first-of-type) {
       margin-top: 20px;
@@ -83,7 +100,6 @@
       padding: 10px 15px;
       width: calc(100% + 40px);
       border-bottom: 1px solid #d3d3d3;
-      border-top: 1px solid #d3d3d3;
     }
 
     .form {
@@ -136,6 +152,9 @@
               height: 18px;
               margin-right: 5px;
               vertical-align: middle;
+            }
+            input[type="text"] {
+              margin-left: 10px;
             }
           }
 

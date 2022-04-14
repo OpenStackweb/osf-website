@@ -33,8 +33,9 @@ import {
 } from "openstack-uicore-foundation/lib/methods";
 import { ProfileManagement } from "../components/ProfileManagementComponent";
 import ProfileSubNav from "../components/ProfileSubNav";
+import { ProfileSpeaker } from "../components/ProfileSpeaker";
 
-export const ProfilePageTemplate = ({
+export const ProfileSpeakerPageTemplate = ({
     currentMember,
     initialMembershipType,
     currentAffiliations,
@@ -94,8 +95,8 @@ export const ProfilePageTemplate = ({
             <div className="wrapper project-background">
                 <TopBar />
                 <Navbar isLoggedUser={isLoggedUser} />
-                <ProfileSubNav activePage='profile-details' pageName='Your Details'/>
-                <Header title="Profile" subTitle="My Details" />
+                <ProfileSubNav activePage='profile-speaker' pageName='Speaker Details' />
+                <Header title="Profile" subTitle="Speaker Details" />
             </div>
 
             <main className="main">
@@ -104,44 +105,18 @@ export const ProfilePageTemplate = ({
                         <div className="container about-s1-container">
                             <div className="columns">
                                 <div className="column">
-                                    <MembershipType currentType={currentMembershipType}
-                                        userName={`${idpProfile.given_name} ${idpProfile.family_name}`}
-                                        initialType={initialMembershipType}
-                                        handleConvertCommunityMember={() => handleConvertCommunityMember()}
-                                        handleConvertFoundationMember={() => handleConvertFoundationMember()}
-                                        handleResign={() => handleResign()}
-                                        onSelectMembershipType={(type) => onSelectMembershipType(type)}
-                                    />
-                                    {electionStatus?.status === "NominationsOpen" &&
-                                        <>
-                                            <hr />
-                                            <CandidateProfile electionStatus={electionStatus} electionProfile={currentMember} />
-                                        </>
-                                    }
-                                    {
-                                        currentMembershipType !== MEMBERSHIP_TYPE_NONE &&
-                                        <React.Fragment>
-                                            <hr />                                            
-                                            <ProfileManagement
-                                                user={user}
-                                                currentMembershipType={currentMembershipType}
-                                                affiliations={currentAffiliations}
-                                                ownerId={currentMember.id}
-                                                updateProfilePicture={updateProfilePicture}
-                                                updateIDPProfile={updateIDPProfile}
-                                                updateProfile={updateProfile}
-                                                getIDPProfile={getIDPProfile}
-                                                updatePassword={updatePassword}
-                                                getUserProfile={getUserProfile} />
-                                        </React.Fragment>
-                                    }                                    
-                                    {validationError &&
-                                        <p className="validation_error">{validationError}</p>
-                                    }
-                                    {
-                                        currentMembershipType !== MEMBERSHIP_TYPE_NONE && initialMembershipType === MEMBERSHIP_TYPE_NONE &&
-                                        <button role="button" className="btn" onClick={() => onSubmitApplication()}>Submit my Application</button>
-                                    }
+
+                                    <ProfileSpeaker
+                                        user={user}
+                                        currentMembershipType={currentMembershipType}
+                                        affiliations={currentAffiliations}
+                                        ownerId={currentMember.id}
+                                        updateProfilePicture={updateProfilePicture}
+                                        updateIDPProfile={updateIDPProfile}
+                                        updateProfile={updateProfile}
+                                        getIDPProfile={getIDPProfile}
+                                        updatePassword={updatePassword}
+                                        getUserProfile={getUserProfile} />
                                 </div>
                             </div>
                         </div>
@@ -152,7 +127,7 @@ export const ProfilePageTemplate = ({
     )
 }
 
-const ProfilePage = ({
+const ProfileSpeakerPage = ({
     currentMember,
     initialMembershipType,
     currentAffiliations,
@@ -197,7 +172,7 @@ const ProfilePage = ({
     return (
         <Layout>
             <SEO />
-            <ProfilePageTemplate
+            <ProfileSpeakerPageTemplate
                 currentMember={currentMember}
                 initialMembershipType={initialMembershipType}
                 currentAffiliations={currentAffiliations}
@@ -243,4 +218,4 @@ export default connect(state => ({
         updateProfile,
         updateProfilePicture,
         updatePassword
-    })(ProfilePage)
+    })(ProfileSpeakerPage)

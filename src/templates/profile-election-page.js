@@ -34,7 +34,7 @@ import {
 import { ProfileManagement } from "../components/ProfileManagementComponent";
 import ProfileSubNav from "../components/ProfileSubNav";
 
-export const ProfilePageTemplate = ({
+export const ProfileElectionPageTemplate = ({
     currentMember,
     initialMembershipType,
     currentAffiliations,
@@ -94,8 +94,8 @@ export const ProfilePageTemplate = ({
             <div className="wrapper project-background">
                 <TopBar />
                 <Navbar isLoggedUser={isLoggedUser} />
-                <ProfileSubNav activePage='profile-details' pageName='Your Details'/>
-                <Header title="Profile" subTitle="My Details" />
+                <ProfileSubNav activePage='profile-election' pageName='Elections'/>
+                <Header title="Profile" subTitle="Elections" />
             </div>
 
             <main className="main">
@@ -152,7 +152,7 @@ export const ProfilePageTemplate = ({
     )
 }
 
-const ProfilePage = ({
+const ProfileElectionPage = ({
     currentMember,
     initialMembershipType,
     currentAffiliations,
@@ -197,7 +197,7 @@ const ProfilePage = ({
     return (
         <Layout>
             <SEO />
-            <ProfilePageTemplate
+            <ProfileElectionPageTemplate
                 currentMember={currentMember}
                 initialMembershipType={initialMembershipType}
                 currentAffiliations={currentAffiliations}
@@ -243,4 +243,4 @@ export default connect(state => ({
         updateProfile,
         updateProfilePicture,
         updatePassword
-    })(ProfilePage)
+    })(ProfileElectionPage)

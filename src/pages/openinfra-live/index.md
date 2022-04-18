@@ -15,6 +15,19 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2022-04-28T14:00:31.084Z
+    episodeTitle: Composable Infrastructure and the Future of Data Centers
+    episodeDescription: "The advent of composable hardware introduces complexity and
+      choice that heretofore hasn’t existed in the data center.  How does
+      today’s open infrastructure software adapt and what does the future of the
+      data center look like in this new world? Join us to talk about the
+      intersection of software defined DPUs, IPUs, GPUs, SmartNICs and all of
+      the open infrastructure software that sits on top. "
+    episodeSpeakers: "Jonathan Bryce (Host), Pradeep Sindhu (Fungible), Dan Daly
+      (Intel), Dmitrii Shcherbakov (Canonical) "
+    youtubeLink: https://www.youtube.com/watch?v=CwudpYeQHj0
+    youtubeEmbed: https://www.youtube.com/embed/CwudpYeQHj0
+  - hidden: false
     date: 2022-04-07T14:00:00.000Z
     episodeTitle: What to Expect at the OpenInfra Summit Berlin - Hybrid & Private
       Cloud Track

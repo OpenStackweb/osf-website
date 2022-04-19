@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { AjaxLoader, CountryInput } from 'openstack-uicore-foundation/lib/components'
+import { AjaxLoader, CountryInput, TextEditor } from 'openstack-uicore-foundation/lib/components'
 import moment from "moment-timezone";
 
 import Swal from 'sweetalert2';
@@ -401,14 +401,10 @@ export const ProfileManagement = ({
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-full ${styles.inputField}`}>
                       <b>Bio</b>
-                      <textarea
-                        className={`textarea ${styles.textarea}`}
-                        placeholder=''
-                        rows="6"
+                      <TextEditor id="bio"
+                        className={styles.textEditor}
                         onChange={e => setPublicInformation({ ...publicInformation, bio: e.target.value })}
-                        value={publicInformation.bio}
-                      >
-                      </textarea>
+                        value={publicInformation.bio} />
                     </div>
                   </div>
                   <hr />

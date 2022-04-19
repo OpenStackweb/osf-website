@@ -8,7 +8,8 @@ import {
   putFile,
   stopLoading,
   startLoading,
-  authErrorHandler
+  authErrorHandler,
+  showMessage,
 } from "openstack-uicore-foundation/lib/methods";
 import axios from "axios";
 import { handleApiError } from "../utils/security";
@@ -39,6 +40,10 @@ export const SCHEDULE_SYNC_LINK_RECEIVED = 'SCHEDULE_SYNC_LINK_RECEIVED';
 export const ADD_TO_SCHEDULE = 'ADD_TO_SCHEDULE';
 export const REMOVE_FROM_SCHEDULE = 'REMOVE_FROM_SCHEDULE';
 export const GET_SPEAKER_PROFILE = 'GET_SPEAKER_PROFILE';
+export const UPDATE_SPEAKER_PROFILE = 'UPDATE_SPEAKER_PROFILE';
+export const SPEAKER_PROFILE_SAVED = 'SPEAKER_PROFILE_SAVED';
+export const PROFILE_PIC_ATTACHED = 'PROFILE_PIC_ATTACHED';
+export const BIG_PIC_ATTACHED = 'BIG_PIC_ATTACHED';
 
 /******************* PROFILE *******************************************************************/
 export const getUserProfile = () => (dispatch, getState) => {
@@ -386,7 +391,7 @@ export const removeFromSchedule = (event) => (dispatch, getState) => {
 
 /*********************** SPEAKER PROFILE ***************************************/
 
-export const getSpeakerProfile = (speakerId) => (dispatch, getState) => {
+export const getSpeakerProfile = () => (dispatch, getState) => {
 
   const { loggedUserState } = getState();
   const { accessToken } = loggedUserState;
@@ -401,10 +406,137 @@ export const getSpeakerProfile = (speakerId) => (dispatch, getState) => {
   return getRequest(
     null,
     createAction(GET_SPEAKER_PROFILE),
-    `${window.API_BASE_URL}/api/v1/speakers/${speakerId}`,
-    authErrorHandler
+    `${window.API_BASE_URL}/api/v1/speakers/me`,
+    customErrorHandler
   )(params)(dispatch).then(() => {
     dispatch(stopLoading());
   }
   );
 };
+
+export const saveSpeakerProfile = (entity) => (dispatch, getState) => {
+  let { loggedUserState } = getState();
+  let { accessToken } = loggedUserState;
+
+  dispatch(startLoading());
+
+  let params = {
+    access_token: accessToken,
+  };
+
+  let pic_file = entity.pic_file;
+  let big_pic_file = entity.big_pic_file;
+  let normalizedEntity = normalizeEntityProfile(entity);
+
+  let success_message = {
+    title: 'Done!',
+    html: '',
+    type: 'success'
+  };
+
+  if (entity.id) {
+
+    return putRequest(
+      createAction(UPDATE_SPEAKER_PROFILE),
+      createAction(SPEAKER_PROFILE_SAVED),
+      `${window.API_BASE_URL}/api/v1/speakers/${entity.id}`,
+      normalizedEntity,
+      authErrorHandler,
+      entity
+    )(params)(dispatch)
+      .then((payload) => {
+        if (pic_file) {
+          dispatch(uploadFileProfile(payload.response, pic_file));
+        }
+        if (big_pic_file) {
+          dispatch(uploadFileBigPhoto(payload.response, big_pic_file));
+        }
+      })
+      .then((payload) => {
+        success_message.html = "Profile saved successfully!"
+        dispatch(showMessage(success_message));
+      });
+  }
+
+  return postRequest(
+    createAction(UPDATE_SPEAKER_PROFILE),
+    createAction(SPEAKER_PROFILE_SAVED),
+    `${window.API_BASE_URL}/api/v1/speakers/me`,
+    normalizedEntity,
+    authErrorHandler,
+    entity
+  )(params)(dispatch)
+    .then((payload) => {
+      if (pic_file) {
+        dispatch(uploadFileProfile(payload.response, pic_file));
+      }
+      if (big_pic_file) {
+        dispatch(uploadFileBigPhoto(payload.response, big_pic_file));
+      }
+    })
+    .then((payload) => {
+      // we need to call this because we need the expanded member in the speaker payload
+      dispatch(getSpeakerProfile());
+    })
+    .then((payload) => {
+      success_message.html = "Profile saved successfully!"
+      dispatch(showMessage(success_message));
+    });
+}
+
+const uploadFileProfile = (entity, file) => (dispatch, getState) => {
+  let { loggedUserState } = getState();
+  let { accessToken } = loggedUserState;
+
+  let formData = new FormData();
+  formData.append('file', file);
+
+  let params = {
+    access_token: accessToken,
+  };
+
+  postRequest(
+    null,
+    createAction(PROFILE_PIC_ATTACHED),
+    `${window.API_BASE_URL}/api/v1/speakers/me/photo`,
+    formData,
+    authErrorHandler,
+    { pic: entity.pic }
+  )(params)(dispatch)
+}
+
+const uploadFileBigPhoto = (entity, file) => (dispatch, getState) => {
+  let { loggedUserState } = getState();
+  let { accessToken } = loggedUserState;
+
+  let formData = new FormData();
+  formData.append('file', file);
+
+  let params = {
+    access_token: accessToken,
+  };
+
+  postRequest(
+    null,
+    createAction(BIG_PIC_ATTACHED),
+    `${window.API_BASE_URL}/api/v1/speakers/me/big-photo`,
+    formData,
+    authErrorHandler,
+    { pic: entity.pic }
+  )(params)(dispatch)
+}
+
+const normalizeEntityProfile = (entity) => {
+  let normalizedEntity = { ...entity };
+
+  // normalizedEntity.areas_of_expertise = entity.areas_of_expertise.map(a => a.label);
+  // normalizedEntity.other_presentation_links = entity.other_presentation_links.filter(l => l.link);
+
+  delete normalizedEntity['affiliations'];
+  delete normalizedEntity['pic'];
+  delete normalizedEntity['pic_file'];
+  delete normalizedEntity['member'];
+  delete normalizedEntity['member_id'];
+
+  return normalizedEntity;
+}

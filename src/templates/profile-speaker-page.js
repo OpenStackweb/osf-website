@@ -6,20 +6,13 @@ import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
-import { getSpeakerProfile } from "../actions/user-actions";
 import 'openstack-uicore-foundation/lib/css/components.css';
 import {
-    updateProfilePicture,
-    updateIDPProfile,
-    updateProfile,
-    getIDPProfile,
-    getUserProfile
+    uploadFileProfile,
+    uploadFileBigPhoto,
+    getSpeakerProfile,
+    saveSpeakerProfile,
 } from "../actions/user-actions"
-import { getMemberProfile, getElectionMemberProfile } from '../actions/member-actions';
-import { getElectionStatus } from "../actions/election-actions";
-import {
-    updateUserInfo
-} from "openstack-uicore-foundation/lib/methods";
 import ProfileSubNav from "../components/ProfileSubNav";
 import { ProfileSpeaker } from "../components/ProfileSpeaker";
 
@@ -27,13 +20,9 @@ export const ProfileSpeakerPageTemplate = ({
     isLoggedUser,
     location,
     speakerProfile,
-    user,
-    updateProfilePicture,
-    updateIDPProfile,
-    updateProfile,
-    getIDPProfile,
-    updatePassword,
-    getUserProfile,
+    uploadFileProfile,
+    uploadFileBigPhoto,
+    saveSpeakerProfile
 }) => {
 
     return (
@@ -51,16 +40,11 @@ export const ProfileSpeakerPageTemplate = ({
                         <div className="container about-s1-container">
                             <div className="columns">
                                 <div className="column">
-
                                     <ProfileSpeaker
-                                        user={user}
                                         speaker={speakerProfile}
-                                        updateProfilePicture={updateProfilePicture}
-                                        updateIDPProfile={updateIDPProfile}
-                                        updateProfile={updateProfile}
-                                        getIDPProfile={getIDPProfile}
-                                        updatePassword={updatePassword}
-                                        getUserProfile={getUserProfile} />
+                                        saveSpeakerProfile={saveSpeakerProfile}
+                                        uploadFileProfile={uploadFileProfile}
+                                        uploadFileBigPhoto={uploadFileBigPhoto} />
                                 </div>
                             </div>
                         </div>
@@ -77,15 +61,15 @@ const ProfileSpeakerPage = ({
     isLoggedUser,
     location,
     speakerProfile,
-    user,
-    updateProfilePicture,
-    updateProfile,
-    getUserProfile,
     getSpeakerProfile,
+    saveSpeakerProfile,
+    uploadFileProfile,
+    uploadFileBigPhoto,
 }) => {
 
     useEffect(() => {
-        // getSpeakerProfile();
+        console.log('use effect')
+        getSpeakerProfile();
     }, [])
 
     return (
@@ -96,11 +80,10 @@ const ProfileSpeakerPage = ({
                 idpProfile={idpProfile}
                 location={location}
                 isLoggedUser={isLoggedUser}
-                user={user}
                 speakerProfile={speakerProfile}
-                updateProfilePicture={updateProfilePicture}
-                updateProfile={updateProfile}
-                getUserProfile={getUserProfile}
+                saveSpeakerProfile={saveSpeakerProfile}
+                uploadFileProfile={uploadFileProfile}
+                uploadFileBigPhoto={uploadFileBigPhoto}
             />
         </Layout>
     )
@@ -114,13 +97,8 @@ export default connect(state => ({
     user: state.userState,
 }),
     {
-        getMemberProfile,
-        getElectionMemberProfile,
-        getElectionStatus,
-        getIDPProfile,
-        getUserProfile,
         getSpeakerProfile,
-        updateIDPProfile,
-        updateProfile,
-        updateProfilePicture,
+        saveSpeakerProfile,
+        uploadFileProfile,
+        uploadFileBigPhoto,
     })(ProfileSpeakerPage)

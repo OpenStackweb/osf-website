@@ -13,14 +13,17 @@ import { navigate } from 'gatsby';
 export const ProfileSpeaker = ({
   user,
   speaker,
-  updateProfilePicture,
-  updatePassword }) => {
+  uploadFileProfile,
+  uploadFileBigPhoto,
+  saveSpeakerProfile }) => {
 
   const [showProfile, setShowProfile] = useState(false);
   const [speakerProfile, setSpeakerProfile] = useState({
     firstName: '',
     lastName: '',
     title: '',
+    company: '',
+    phoneNumber: '',
     country: '',
     bio: '',
     irc: '',
@@ -32,45 +35,122 @@ export const ProfileSpeaker = ({
     countriesToTravel: [],
     languages: [],
     expertise: [],
-    previousPresentations1: {},
-    previousPresentations2: {},
-    previousPresentations3: {},
-    previousPresentations4: {},
-    previousPresentations5: {},
+    previousPresentations: new Array(5),
     notes: ''
   });
 
-  console.log('profile speaker', speakerProfile)
-
   const [image, setImage] = useState(null);
+  const [bigImage, setBigImage] = useState(null);
+  const [editingPicture, setEditingPicture] = useState('');
 
   useEffect(() => {
-
-
+    if (speaker) {
+      setImage(speaker.pic);
+      setBigImage(speaker.big_pic);
+      setSpeakerProfile({
+        firstName: speaker.first_name || '',
+        lastName: speaker.last_name || '',
+        title: speaker.title || '',
+        company: speaker.company || '',
+        phoneNumber: speaker.phone_number || '',
+        country: speaker.country || '',
+        bio: speaker.bio || '',
+        irc: speaker.irc || '',
+        twitter: speaker.twitter || '',
+        availableForBureau: speaker.available_for_bureau || false,
+        willingToPresentVideo: speaker.willing_to_present_video || false,
+        fundedTravel: speaker.funded_travel || false,
+        willingToTravel: speaker.willing_to_travel || false,
+        countriesToTravel: speaker.travel_preferences || [],
+        languages: speaker.languages || [],
+        expertise: speaker.areas_of_expertise || [],
+        previousPresentations: speaker.other_presentation_links || new Array(5),
+        notes: speaker.notes || ''
+      })
+    }
     return () => {
     };
-  }, [user]);
+  }, [speaker]);
 
-  const handlePictureUpdate = (picture) => {
-    updateProfilePicture(picture);
+  const handlePictureUpdate = (image, name) => {
+    if(name === 'pic') {
+      uploadFileProfile(speakerProfile, image);
+    } else {
+      uploadFileBigPhoto(speakerProfile, image);
+    }
   };
 
-  const handleTogglePopup = (profile) => {
+  const handleTogglePopup = (profile, image) => {
     if (profile) {
       document.body.classList.add('is-clipped');
     } else {
       document.body.classList.remove('is-clipped');
     }
+    setEditingPicture(image);
     setShowProfile(profile)
   };
 
   const handleProfileUpdate = (fromPopup) => {
+    if (validateSpeakerForm) {
+      const newProfile = {
+        title: speakerProfile.title,
+        first_name: speakerProfile.firstName,
+        last_name: speakerProfile.lastName,
+        company: speakerProfile.company,
+        phone_number: speakerProfile.phoneNumber,
+        country: speakerProfile.country,
+        bio: speakerProfile.bio,
+        irc: speakerProfile.irc,
+        twitter: speakerProfile.twitter,
+        pic: image,
+        big_pic: bigImage,
+        available_for_bureau: speakerProfile.availableForBureau,
+        willing_to_present_video: speakerProfile.willingToPresentVideo,
+        funded_travel: speakerProfile.fundedTravel,
+        willing_to_travel: speakerProfile.willingToTravel,
+        travel_preferences: speakerProfile.countriesToTravel,
+        languages: speakerProfile.languages,
+        areas_of_expertise: speakerProfile.expertise,
+        notes: speakerProfile.notes,
+
+      };
+      saveSpeakerProfile(newProfile);
+    }
   };
+
+  const updatePresentations = (field, index) => (event) => {
+    let presentations = [...speakerProfile.previousPresentations];
+    presentations[index] = { ...presentations[index], [field]: event.target.value };
+    setSpeakerProfile({ ...speakerProfile, previousPresentations: presentations })
+  }
+
+  const validateSpeakerForm = () => {
+    if (
+      !speakerProfile.firstName || !speakerProfile.lastName || !speakerProfile.title || !speakerProfile.country ||
+      !speakerProfile.bio) {
+      const msg = `Required field missing`;
+      Swal.fire("Validation error", msg, "warning");
+      return false
+    }
+    return true
+  }
+
+  //   let rules = {
+  //     title: {required: 'Title is required.'},
+  //     first_name: {required: 'First name is required.'},
+  //     email: {required: 'Email is required.', email: 'This is not a valid email address.'},
+  //     last_name: {required: 'Last name is required.'},
+  //     country: { required: 'Please select a Country.'},
+  //     bio: { required: 'Please tell us about yourself.', maxLength: {value: 1000, msg: 'Value exeeded max limit of 1000 characters'}},
+  //     other_presentation_links: {title_link: 'Links must start with http or https', title: 'Each link must have title'},
+  //     company: {required: 'Company is required.'},
+  //     phone_number: {required: 'Phone # is required.'},
+  // };
 
 
   return (
     <>
-      <AjaxLoader relative={false} color={'#ffffff'} show={user.loadingIDP} size={120} />
+      {/* <AjaxLoader relative={false} color={'#ffffff'} show={user.loadingIDP} size={120} /> */}
       <div>
         <div className="px-6 py-6 mb-6">
           <div className={`columns ${styles.fullProfile}`} >
@@ -83,7 +163,7 @@ export const ProfileSpeaker = ({
                       <input
                         className={`${styles.input} ${!speakerProfile.title ? styles.isDanger : ''}`}
                         type="text"
-                        placeholder="First Name"
+                        placeholder="Title"
                         onChange={e => setSpeakerProfile({ ...speakerProfile, title: e.target.value })}
                         value={speakerProfile.title}
                       />
@@ -106,6 +186,28 @@ export const ProfileSpeaker = ({
                         placeholder="Last Name"
                         onChange={e => setSpeakerProfile({ ...speakerProfile, lastName: e.target.value })}
                         value={speakerProfile.lastName}
+                      />
+                    </div>
+                  </div>
+                  <div className={`columns is-mobile ${styles.inputRow}`}>
+                    <div className={`column is-half is-mobile ${styles.inputField}`}>
+                      <b>Company</b>
+                      <input
+                        className={`${styles.input} ${!speakerProfile.company ? styles.isDanger : ''}`}
+                        type="text"
+                        placeholder="Company"
+                        onChange={e => setSpeakerProfile({ ...speakerProfile, company: e.target.value })}
+                        value={speakerProfile.company}
+                      />
+                    </div>
+                    <div className={`column is-half is-mobile ${styles.inputField}`}>
+                      <b>Phone Number</b>
+                      <input
+                        className={`${styles.input} ${!speakerProfile.phoneNumber ? styles.isDanger : ''}`}
+                        type="text"
+                        placeholder="Phone Number"
+                        onChange={e => setSpeakerProfile({ ...speakerProfile, phoneNumber: e.target.value })}
+                        value={speakerProfile.phoneNumber}
                       />
                     </div>
                   </div>
@@ -151,17 +253,51 @@ export const ProfileSpeaker = ({
                     </div>
                   </div>
                   <div className={`columns is-mobile ${styles.inputRow}`}>
-                    <div className={`column is-full ${styles.inputField}`}>
+                    <div className={`column is-full ${styles.inputField} ${styles.speakerPictures}`}>
                       <b>Upload a speaker photo</b>
                       <div className={`${styles.pictureContainer}`} style={{ paddingBottom: 25, border: '0.5px solid black' }}>
-                        <button className="link" onClick={() => handleTogglePopup(!showProfile)}>
-                          <div className={styles.profilePicture}>
-                            <img alt="profile pic" src={image} />
-                            <div className={styles.imageUpload}>
-                              <i className={`${styles.pictureIcon} fa fa-2x fa-pencil icon is-large`} />
+                        <div>
+                          <button className="link" onClick={() => handleTogglePopup(!showProfile, 'pic')}>
+                            <b>Profile Pic</b>
+                            <div className={styles.profilePicture}>
+                              {image ?
+                                <>
+                                  <img alt="profile pic" src={image} />
+                                  <div className={styles.imageUpload}>
+                                    <span>Upload a new picture</span>
+                                    <i className={`${styles.pictureIcon} fa fa-2x fa-pencil icon is-large`} />
+                                  </div>
+                                </>
+                                :
+                                <div className={styles.uploadPicture}>
+                                  <span>Upload a picture</span>
+                                  <i className={`${styles.pictureIcon} fa fa-2x fa-upload icon is-large`} />
+                                </div>
+                              }
                             </div>
-                          </div>
-                        </button>
+                          </button>
+                        </div>
+                        <div>
+                          <button className="link" onClick={() => handleTogglePopup(!showProfile, 'big_pic')}>
+                            <b>Large Pic</b>
+                            <div className={styles.profilePicture}>
+                              {bigImage ?
+                                <>
+                                  <img alt="profile pic" src={bigImage} />
+                                  <div className={styles.imageUpload}>
+                                    <span>Upload a new picture</span>
+                                    <i className={`${styles.pictureIcon} fa fa-2x fa-pencil icon is-large`} />
+                                  </div>
+                                </>
+                                :
+                                <div className={styles.uploadPicture}>
+                                  <span>Upload a picture</span>
+                                  <i className={`${styles.pictureIcon} fa fa-2x fa-upload icon is-large`} />
+                                </div>
+                              }
+                            </div>
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -231,61 +367,21 @@ export const ProfileSpeaker = ({
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-full ${styles.inputField}`}>
                       <b>Links To Previous Presentations</b>
-                      <div className={`column is-full ${styles.inputField}`}>
-                        #1 <br />
-                        <label className={styles.checkbox} style={{ fontWeight: 'normal' }}>
-                          Link: <input type='text' value={speakerProfile.previousPresentations1.link}
-                            onChange={e => setShowProfile({ ...speakerProfile, previousPresentations1: { ...speakerProfile.previousPresentations1, link: e.target.value } })} />
-                        </label>
-                        <label className={styles.checkbox} style={{ fontWeight: 'normal' }}>
-                          Title: <input type='text' value={speakerProfile.previousPresentations1.title}
-                            onChange={e => setShowProfile({ ...speakerProfile, previousPresentations1: { ...speakerProfile.previousPresentations1, title: e.target.value } })} />
-                        </label>
-                      </div>
-                      <div className={`column is-full ${styles.inputField}`}>
-                        #2 <br />
-                        <label className={styles.checkbox} style={{ fontWeight: 'normal' }}>
-                          Link: <input type='text' value={speakerProfile.previousPresentations2.link}
-                            onChange={e => setShowProfile({ ...speakerProfile, previousPresentations2: { ...speakerProfile.previousPresentations2, link: e.target.value } })} />
-                        </label>
-                        <label className={styles.checkbox} style={{ fontWeight: 'normal' }}>
-                          Title: <input type='text' value={speakerProfile.previousPresentations2.title}
-                            onChange={e => setShowProfile({ ...speakerProfile, previousPresentations2: { ...speakerProfile.previousPresentations2, title: e.target.value } })} />
-                        </label>
-                      </div>
-                      <div className={`column is-full ${styles.inputField}`}>
-                        #3 <br />
-                        <label className={styles.checkbox} style={{ fontWeight: 'normal' }}>
-                          Link: <input type='text' value={speakerProfile.previousPresentations3.link}
-                            onChange={e => setShowProfile({ ...speakerProfile, previousPresentations3: { ...speakerProfile.previousPresentations3, link: e.target.value } })} />
-                        </label>
-                        <label className={styles.checkbox} style={{ fontWeight: 'normal' }}>
-                          Title: <input type='text' value={speakerProfile.previousPresentations3.title}
-                            onChange={e => setShowProfile({ ...speakerProfile, previousPresentations3: { ...speakerProfile.previousPresentations3, title: e.target.value } })} />
-                        </label>
-                      </div>
-                      <div className={`column is-full ${styles.inputField}`}>
-                        #4 <br />
-                        <label className={styles.checkbox} style={{ fontWeight: 'normal' }}>
-                          Link: <input type='text' value={speakerProfile.previousPresentations4.link}
-                            onChange={e => setShowProfile({ ...speakerProfile, previousPresentations4: { ...speakerProfile.previousPresentations4, link: e.target.value } })} />
-                        </label>
-                        <label className={styles.checkbox} style={{ fontWeight: 'normal' }}>
-                          Title: <input type='text' value={speakerProfile.previousPresentations4.title}
-                            onChange={e => setShowProfile({ ...speakerProfile, previousPresentations4: { ...speakerProfile.previousPresentations4, title: e.target.value } })} />
-                        </label>
-                      </div>
-                      <div className={`column is-full ${styles.inputField}`}>
-                        #5 <br />
-                        <label className={styles.checkbox} style={{ fontWeight: 'normal' }}>
-                          Link: <input type='text' value={speakerProfile.previousPresentations5.link}
-                            onChange={e => setShowProfile({ ...speakerProfile, previousPresentations5: { ...speakerProfile.previousPresentations5, link: e.target.value } })} />
-                        </label>
-                        <label className={styles.checkbox} style={{ fontWeight: 'normal' }}>
-                          Title: <input type='text' value={speakerProfile.previousPresentations5.title}
-                            onChange={e => setShowProfile({ ...speakerProfile, previousPresentations5: { ...speakerProfile.previousPresentations5, title: e.target.value } })} />
-                        </label>
-                      </div>
+                      {speakerProfile.previousPresentations.map((presentation, index) => {
+                        return (
+                          <div className={`column is-full ${styles.inputField}`} key={`presentation-${index}`}>
+                            #{index + 1} <br />
+                            <label className={styles.checkbox} style={{ fontWeight: 'normal' }}>
+                              Link: <input type='text' value={speakerProfile.previousPresentations[index].link}
+                                onChange={updatePresentations('link', index)} />
+                            </label>
+                            <label className={styles.checkbox} style={{ fontWeight: 'normal' }}>
+                              Title: <input type='text' value={speakerProfile.previousPresentations[index].title}
+                                onChange={updatePresentations('title', index)} />
+                            </label>
+                          </div>
+                        )
+                      })}
                     </div>
                   </div>
                   <div className={`columns is-mobile ${styles.inputRow}`}>
@@ -317,12 +413,12 @@ export const ProfileSpeaker = ({
             </div>
             {showProfile &&
               <ProfilePopupComponent
-                userProfile={user.idpProfile}
+                userProfile={speaker}
+                picture={editingPicture}
                 showProfile={showProfile}
-                idpLoading={user.loadingIDP}
                 fromFullProfile={true}
-                changePicture={(pic) => handlePictureUpdate(pic)}
-                changeProfile={(profile) => handleProfileUpdate(profile)}
+                title={'Speaker profile picture'}
+                changePicture={(pic, name) => handlePictureUpdate(pic, name)}
                 closePopup={() => handleTogglePopup(!showProfile)}
               />
             }
@@ -341,4 +437,4 @@ ProfileSpeaker.propTypes = {
   updateProfile: PropTypes.func,
   updateProfilePicture: PropTypes.func,
   updatePassword: PropTypes.func
-};
+}

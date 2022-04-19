@@ -27,7 +27,7 @@ const ProfilePopupComponent = ({ profile, idpLoading, closePopup, showProfile, c
     setFirstName(profile.given_name);
     setLastName(profile.family_name);
     setCompany(profile.company);
-    setImage(profile[picture]);
+    setImage(picture ? profile[picture] : profile.picture);
     return () => {
       setFirstName('');
       setLastName('');

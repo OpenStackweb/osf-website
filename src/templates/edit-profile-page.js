@@ -694,7 +694,7 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, get
               </div>
               {showProfile &&
                 <ProfilePopupComponent
-                  userProfile={user.idpProfile}
+                  profile={user.idpProfile}
                   showProfile={showProfile}
                   idpLoading={user.loadingIDP}
                   fromFullProfile={true}

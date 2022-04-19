@@ -607,7 +607,7 @@ export const ProfileManagement = ({
         </div>
         {showProfile &&
           <ProfilePopupComponent
-            userProfile={user.idpProfile}
+            profile={user.idpProfile}
             showProfile={showProfile}
             idpLoading={user.loadingIDP}
             fromFullProfile={true}

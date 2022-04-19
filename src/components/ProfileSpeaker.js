@@ -413,7 +413,7 @@ export const ProfileSpeaker = ({
             </div>
             {showProfile &&
               <ProfilePopupComponent
-                userProfile={speaker}
+                profile={speaker}
                 picture={editingPicture}
                 showProfile={showProfile}
                 fromFullProfile={true}

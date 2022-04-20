@@ -1,0 +1,64 @@
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/elements/button.sass";
+@import "../bulma/sass/components/modal.sass";
+@import "bulma/sass/form/_all.sass";
+
+@import "../modules/variables";
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modalCard {
+  color: #363636;
+  margin: 5rem;
+  width: 80%;
+
+  .modalCardHead {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d3d3d3;
+
+    .modalCardTitle {
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    button {
+      border: none;
+      background: none;
+      .closeIcon {
+        color: $primary-blue;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .modalCardBody {
+    background-color: #ffffff;
+    padding: 20px 20px 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal {
+    top: 7.5rem;
+
+    .modalBackground {
+      background-color: transparent;
+    }
+
+    .modalCard {
+      overflow: auto;
+
+      .modalCardBody {
+        overflow: none;
+      }
+    }
+  }
+}

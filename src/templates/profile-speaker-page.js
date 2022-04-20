@@ -19,6 +19,7 @@ import { ProfileSpeaker } from "../components/ProfileSpeaker";
 export const ProfileSpeakerPageTemplate = ({
     isLoggedUser,
     location,
+    loading,
     speakerProfile,
     uploadFileProfile,
     uploadFileBigPhoto,
@@ -42,6 +43,7 @@ export const ProfileSpeakerPageTemplate = ({
                                 <div className="column">
                                     <ProfileSpeaker
                                         speaker={speakerProfile}
+                                        loading={loading}
                                         saveSpeakerProfile={saveSpeakerProfile}
                                         uploadFileProfile={uploadFileProfile}
                                         uploadFileBigPhoto={uploadFileBigPhoto} />
@@ -56,10 +58,9 @@ export const ProfileSpeakerPageTemplate = ({
 }
 
 const ProfileSpeakerPage = ({
-    currentMember,
-    idpProfile,
     isLoggedUser,
     location,
+    loading,
     speakerProfile,
     getSpeakerProfile,
     saveSpeakerProfile,
@@ -68,7 +69,6 @@ const ProfileSpeakerPage = ({
 }) => {
 
     useEffect(() => {
-        console.log('use effect')
         getSpeakerProfile();
     }, [])
 
@@ -76,9 +76,8 @@ const ProfileSpeakerPage = ({
         <Layout>
             <SEO />
             <ProfileSpeakerPageTemplate
-                currentMember={currentMember}
-                idpProfile={idpProfile}
                 location={location}
+                loading={loading}
                 isLoggedUser={isLoggedUser}
                 speakerProfile={speakerProfile}
                 saveSpeakerProfile={saveSpeakerProfile}
@@ -91,8 +90,7 @@ const ProfileSpeakerPage = ({
 
 export default connect(state => ({
     isLoggedUser: state.loggedUserState.isLoggedUser,
-    currentMember: state.loggedUserState.member,
-    idpProfile: state.userState.idpProfile,
+    loading: state.userState.loadingSpeaker,
     speakerProfile: state.userState.speakerProfile,
     user: state.userState,
 }),

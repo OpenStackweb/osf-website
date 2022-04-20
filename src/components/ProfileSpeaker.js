@@ -11,8 +11,8 @@ import LinkComponent from './LinkComponent';
 import { navigate } from 'gatsby';
 
 export const ProfileSpeaker = ({
-  user,
   speaker,
+  loading,
   uploadFileProfile,
   uploadFileBigPhoto,
   saveSpeakerProfile }) => {
@@ -73,7 +73,7 @@ export const ProfileSpeaker = ({
   }, [speaker]);
 
   const handlePictureUpdate = (image, name) => {
-    if(name === 'pic') {
+    if (name === 'pic') {
       uploadFileProfile(speakerProfile, image);
     } else {
       uploadFileBigPhoto(speakerProfile, image);
@@ -150,7 +150,7 @@ export const ProfileSpeaker = ({
 
   return (
     <>
-      {/* <AjaxLoader relative={false} color={'#ffffff'} show={user.loadingIDP} size={120} /> */}
+      <AjaxLoader relative={false} color={'#ffffff'} show={loading} size={120} />
       <div>
         <div className="px-6 py-6 mb-6">
           <div className={`columns ${styles.fullProfile}`} >

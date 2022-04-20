@@ -196,7 +196,7 @@ const ProfilePopupComponent = ({ profile, idpLoading, closePopup, showProfile, c
           }
         </section>
         <footer className={`${styles.modalCardFoot}`}>
-          <button onClick={() => closePopup()} className="button">Discard</button>
+          <button onClick={() => closePopup()} className="button">Close</button>
           <button onClick={() => onClickSave()} className="button">Update</button>
         </footer>
       </div>

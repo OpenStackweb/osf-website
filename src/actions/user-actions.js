@@ -39,6 +39,8 @@ export const GET_USER_PROFILE = 'GET_USER_PROFILE';
 export const SCHEDULE_SYNC_LINK_RECEIVED = 'SCHEDULE_SYNC_LINK_RECEIVED';
 export const ADD_TO_SCHEDULE = 'ADD_TO_SCHEDULE';
 export const REMOVE_FROM_SCHEDULE = 'REMOVE_FROM_SCHEDULE';
+export const START_LOADING_SPEAKER_PROFILE = 'START_LOADING_SPEAKER_PROFILE';
+export const STOP_LOADING_SPEAKER_PROFILE = 'STOP_LOADING_SPEAKER_PROFILE';
 export const GET_SPEAKER_PROFILE = 'GET_SPEAKER_PROFILE';
 export const UPDATE_SPEAKER_PROFILE = 'UPDATE_SPEAKER_PROFILE';
 export const SPEAKER_PROFILE_SAVED = 'SPEAKER_PROFILE_SAVED';
@@ -410,6 +412,7 @@ export const getSpeakerProfile = () => (dispatch, getState) => {
     customErrorHandler
   )(params)(dispatch).then(() => {
     dispatch(stopLoading());
+    dispatch(createAction(STOP_LOADING_SPEAKER_PROFILE)());
   }
   );
 };
@@ -484,7 +487,7 @@ export const saveSpeakerProfile = (entity) => (dispatch, getState) => {
     });
 }
 
-const uploadFileProfile = (entity, file) => (dispatch, getState) => {
+export const uploadFileProfile = (entity, file) => (dispatch, getState) => {
   let { loggedUserState } = getState();
   let { accessToken } = loggedUserState;
 
@@ -494,6 +497,8 @@ const uploadFileProfile = (entity, file) => (dispatch, getState) => {
   let params = {
     access_token: accessToken,
   };
+
+  dispatch(createAction(START_LOADING_SPEAKER_PROFILE)());
 
   postRequest(
     null,
@@ -502,10 +507,12 @@ const uploadFileProfile = (entity, file) => (dispatch, getState) => {
     formData,
     authErrorHandler,
     { pic: entity.pic }
-  )(params)(dispatch)
+  )(params)(dispatch).then(() => {
+    dispatch(getSpeakerProfile());
+  })
 }
 
-const uploadFileBigPhoto = (entity, file) => (dispatch, getState) => {
+export const uploadFileBigPhoto = (entity, file) => (dispatch, getState) => {
   let { loggedUserState } = getState();
   let { accessToken } = loggedUserState;
 
@@ -516,6 +523,8 @@ const uploadFileBigPhoto = (entity, file) => (dispatch, getState) => {
     access_token: accessToken,
   };
 
+  dispatch(createAction(START_LOADING_SPEAKER_PROFILE)());
+
   postRequest(
     null,
     createAction(BIG_PIC_ATTACHED),
@@ -523,7 +532,9 @@ const uploadFileBigPhoto = (entity, file) => (dispatch, getState) => {
     formData,
     authErrorHandler,
     { pic: entity.pic }
-  )(params)(dispatch)
+  )(params)(dispatch).then(() => {
+    dispatch(getSpeakerProfile());
+  })
 }
 
 const normalizeEntityProfile = (entity) => {

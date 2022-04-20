@@ -317,9 +317,10 @@ const normalizeEntity = (entity) => {
 
 }
 
-export const updateMembershipType = (type) => (dispatch, getState) => {
-  const { loggedUserState } = getState();
+export const updateMembershipType = (type, profile, idpProfile) => (dispatch, getState) => {
+  const { loggedUserState, userState } = getState();
   const { accessToken } = loggedUserState;
+  const { currentMembershipType } = userState
 
   dispatch(startLoading());
 
@@ -335,6 +336,10 @@ export const updateMembershipType = (type) => (dispatch, getState) => {
     authErrorHandler
   )(params)(dispatch)
     .then((payload) => {
+      if (currentMembershipType === MEMBERSHIP_TYPE_NONE) {
+        dispatch(updateProfile(profile));
+        dispatch(updateIDPProfile(idpProfile));
+      }
       dispatch(stopLoading());
     });
 }

@@ -75,13 +75,13 @@ export const ProfilePageTemplate = ({
         setCurrentMembershipType(type);
     }
 
-    const onSubmitApplication = () => {
+    const onSubmitApplication = (profile = null, idpProfile = null) => {
         if (currentAffiliations.length === 0) {
             setValidationError('* You need at least one affiliation');
             return;
         }
         setValidationError(null);
-        updateMembershipType(currentMembershipType);
+        updateMembershipType(currentMembershipType, profile, idpProfile);
     }
 
     return (
@@ -114,6 +114,8 @@ export const ProfilePageTemplate = ({
                                             <ProfileManagement
                                                 user={user}
                                                 currentMembershipType={currentMembershipType}
+                                                initialMembershipType={initialMembershipType}
+                                                submitApplication={() => onSubmitApplication()}
                                                 affiliations={currentAffiliations}
                                                 ownerId={currentMember.id}
                                                 updateProfilePicture={updateProfilePicture}
@@ -126,10 +128,6 @@ export const ProfilePageTemplate = ({
                                     }
                                     {validationError &&
                                         <p className="validation_error">{validationError}</p>
-                                    }
-                                    {
-                                        currentMembershipType !== MEMBERSHIP_TYPE_NONE && initialMembershipType === MEMBERSHIP_TYPE_NONE &&
-                                        <button role="button" className="btn" onClick={() => onSubmitApplication()}>Submit my Application</button>
                                     }
                                 </div>
                             </div>

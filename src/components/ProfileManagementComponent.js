@@ -12,7 +12,7 @@ import ProfileFoodPreferences from './ProfileFoodPreference'
 import Affiliations from './Affiliations';
 
 import styles from '../style/modules/edit-profile.module.scss'
-import LinkComponent from './LinkComponent';
+import { MEMBERSHIP_TYPE_NONE } from "../actions/user-actions";
 import { navigate } from 'gatsby';
 
 export const ProfileManagement = ({
@@ -21,12 +21,14 @@ export const ProfileManagement = ({
   ownerId,
   isLoggedUser,
   currentMembershipType,
+  initialMembershipType,
   getIDPProfile,
   getUserProfile,
   updateIDPProfile,
   updateProfile,
   updateProfilePicture,
-  updatePassword }) => {
+  updatePassword,
+  submitApplication }) => {
 
   const [showProfile, setShowProfile] = useState(false);
   const [publicInformation, setPublicInformation] = useState({
@@ -190,6 +192,55 @@ export const ProfileManagement = ({
       }
     }
   };
+
+  const handleSubmitApplication = () => {
+    if (!publicInformation.firstName || !publicInformation.lastName || !publicInformation.identifier || !publicInformation.email) {
+      const msg = `Required field missing`;
+      Swal.fire("Validation error", msg, "warning");
+    } else {
+      const newIDPProfile = {
+        first_name: publicInformation.firstName,
+        last_name: publicInformation.lastName,
+        identifier: publicInformation.identifier,
+        email: publicInformation.email,
+        second_email: publicInformation.secondEmail,
+        third_email: publicInformation.thirdEmail,
+        company: publicInformation.company,
+        job_title: publicInformation.jobTitle,
+        birthday: publicInformation.birthday?.unix(),
+        github_user: publicInformation.github,
+        irc: publicInformation.irc,
+        linked_in_profile: publicInformation.linkedin,
+        wechat_user: publicInformation.wechatUser,
+        twitter_name: publicInformation.twitter,
+        language: publicInformation.language,
+        public_profile_show_fullname: showFullName,
+        public_profile_allow_chat_with_me: allowChatWithMe,
+        public_profile_show_email: showEmail,
+        bio: publicInformation.bio,
+        statement_of_interest: publicInformation.statementOfInterest,
+        gender: privateInformation.gender,
+        gender_specify: privateInformation.gender === 'Specify' ? privateInformation.specifyGender : null,
+        address1: privateInformation.street,
+        address2: privateInformation.floor,
+        city: privateInformation.city,
+        state: privateInformation.state,
+        post_code: privateInformation.zipCode,
+        country_iso_code: privateInformation.country,
+        phone_number: privateInformation.phone,
+      };
+      const newProfile = {
+        projects: publicInformation.projects,
+        other_project: publicInformation.otherProject,
+        food_preference: privateInformation.foodPreference,
+        other_food_preference: privateInformation.otherFoodPreference,
+        shirt_size: privateInformation.shirtSize,
+        display_on_site: privateInformation.displayOnSite,
+        subscribed_to_newsletter: privateInformation.subscribedToNewsletter,
+      };
+      submitApplication(newProfile, newIDPProfile)
+    }
+  }
 
   const handleTogglePopup = (profile) => {
     if (profile) {
@@ -599,7 +650,12 @@ export const ProfileManagement = ({
               </div>
               <div className={`columns is-mobile ${styles.buttons}`}>
                 <div className={`column is-half`}>
-                  <button className="button is-large" onClick={() => handleProfileUpdate()}>Update</button>
+                  {
+                    currentMembershipType !== MEMBERSHIP_TYPE_NONE && initialMembershipType === MEMBERSHIP_TYPE_NONE ?
+                      <button role="button" className="button is-large" onClick={() => handleSubmitApplication()}>Submit my Application</button>
+                      :
+                      <button className="button is-large" onClick={() => handleProfileUpdate()}>Update</button>
+                  }
                 </div>
               </div>
             </div>

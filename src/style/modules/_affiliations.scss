@@ -36,6 +36,9 @@
         }
         > div {
           height: 100%;
+          &:first-of-type > div:first-of-type {
+            margin-top: 18px;
+          }
         }
       }
     }

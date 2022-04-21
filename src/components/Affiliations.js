@@ -23,14 +23,14 @@ const Affiliations = class extends React.Component {
     }
 
     onHandleEdit(ev){
-        let id = parseInt(ev.target.dataset.id);
+        let id = parseInt(ev.currentTarget.dataset.id);
         let selectedAffiliation = this.props.affiliations.find(a => a.id === id);
         if(!selectedAffiliation) return;
         this.setState({...this.state, showModal : true, selectedAffiliation: selectedAffiliation});
     }
 
     onHandleDelete(ev){
-        let id = parseInt(ev.target.dataset.id);
+        let id = parseInt(ev.currentTarget.dataset.id);
         this.props.deleteAffiliation(id);
     }
 

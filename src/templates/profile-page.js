@@ -75,13 +75,13 @@ export const ProfilePageTemplate = ({
         setCurrentMembershipType(type);
     }
 
-    const onSubmitApplication = (profile = null, idpProfile = null) => {
+    const onSubmitApplication = () => {
         if (currentAffiliations.length === 0) {
             setValidationError('* You need at least one affiliation');
             return;
         }
         setValidationError(null);
-        updateMembershipType(currentMembershipType, profile, idpProfile);
+        return updateMembershipType(currentMembershipType);
     }
 
     return (

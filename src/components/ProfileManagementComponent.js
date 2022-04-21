@@ -193,11 +193,20 @@ export const ProfileManagement = ({
     }
   };
 
+  const showSuccessMessage = (message) => {
+    Swal.fire("Success", message, "success");
+  }
+
   const handleSubmitApplication = () => {
     if (!publicInformation.firstName || !publicInformation.lastName || !publicInformation.identifier || !publicInformation.email) {
       const msg = `Required field missing`;
       Swal.fire("Validation error", msg, "warning");
-      return false
+      return;
+    }
+    if(affiliations.length === 0) {
+      const msg = `You need at least one affiliation`;
+      Swal.fire("Validation error", msg, "warning");
+      return;
     }
     const newIDPProfile = {
       first_name: publicInformation.firstName,
@@ -239,7 +248,11 @@ export const ProfileManagement = ({
       display_on_site: privateInformation.displayOnSite,
       subscribed_to_newsletter: privateInformation.subscribedToNewsletter,
     };
-    submitApplication(newProfile, newIDPProfile)
+
+    submitApplication()
+      .then(() => updateIDPProfile(newIDPProfile))
+      .then(() => updateProfile(newProfile))
+      .then(() => showSuccessMessage('Membership Updated'))
   }
 
   const handleTogglePopup = (profile) => {

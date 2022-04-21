@@ -317,10 +317,9 @@ const normalizeEntity = (entity) => {
 
 }
 
-export const updateMembershipType = (type, profile, idpProfile) => (dispatch, getState) => {
-  const { loggedUserState, userState } = getState();
+export const updateMembershipType = (type) => async (dispatch, getState) => {
+  const { loggedUserState } = getState();
   const { accessToken } = loggedUserState;
-  const { currentMembershipType } = userState
 
   dispatch(startLoading());
 
@@ -336,12 +335,6 @@ export const updateMembershipType = (type, profile, idpProfile) => (dispatch, ge
     authErrorHandler
   )(params)(dispatch)
     .then((payload) => {
-      let msg = 'Membership Updated';
-      Swal.fire("Success", msg, "success");
-      if (currentMembershipType === MEMBERSHIP_TYPE_NONE) {
-        dispatch(updateProfile(profile));
-        dispatch(updateIDPProfile(idpProfile));
-      }
       dispatch(stopLoading());
     });
 }

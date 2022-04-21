@@ -142,7 +142,7 @@ export const updateIDPProfile = (profile) => async (dispatch, getState) => {
 
   dispatch(createAction(START_LOADING_IDP_PROFILE)());
 
-  putRequest(
+  return putRequest(
     null,
     createAction(UPDATE_IDP_PROFILE),
     `${window.IDP_BASE_URL}/api/v1/users/me`,
@@ -167,7 +167,7 @@ export const updateProfile = (profile) => async (dispatch, getState) => {
 
   dispatch(createAction(START_LOADING_IDP_PROFILE)());
 
-  putRequest(
+  return putRequest(
     null,
     createAction(UPDATE_IDP_PROFILE),
     `${window.API_BASE_URL}/api/v1/members/me`,

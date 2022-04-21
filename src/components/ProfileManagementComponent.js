@@ -18,7 +18,6 @@ export const ProfileManagement = ({
   user,
   affiliations,
   ownerId,
-  isLoggedUser,
   currentMembershipType,
   initialMembershipType,
   getIDPProfile,
@@ -143,6 +142,11 @@ export const ProfileManagement = ({
       Swal.fire("Validation error", msg, "warning");
       return;
     }
+    if (affiliations.length === 0) {
+      const msg = `You need at least one affiliation`;
+      Swal.fire("Validation error", msg, "warning");
+      return;
+    }
     const newIDPProfile = {
       first_name: publicInformation.firstName,
       last_name: publicInformation.lastName,
@@ -184,8 +188,7 @@ export const ProfileManagement = ({
       subscribed_to_newsletter: privateInformation.subscribedToNewsletter,
     };
     updateIDPProfile(newIDPProfile)
-    .then(() => updateProfile(newProfile))
-    .then(() => showSuccessMessage('Profile Updated'));
+    .then(() => updateProfile(newProfile).then( () => showSuccessMessage('Profile Updated')))
   }
 
   const showSuccessMessage = (message) => {
@@ -245,9 +248,7 @@ export const ProfileManagement = ({
     };
 
     submitApplication()
-      .then(() => updateIDPProfile(newIDPProfile))
-      .then(() => updateProfile(newProfile))
-      .then(() => showSuccessMessage('Membership Updated'))
+      .then(() => updateIDPProfile(newIDPProfile).then( () => updateProfile(newProfile).then(() => showSuccessMessage('Membership Updated') )));
   }
 
   const handleTogglePopup = (profile) => {

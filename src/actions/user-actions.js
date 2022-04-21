@@ -336,6 +336,8 @@ export const updateMembershipType = (type, profile, idpProfile) => (dispatch, ge
     authErrorHandler
   )(params)(dispatch)
     .then((payload) => {
+      let msg = 'Membership Updated';
+      Swal.fire("Success", msg, "success");
       if (currentMembershipType === MEMBERSHIP_TYPE_NONE) {
         dispatch(updateProfile(profile));
         dispatch(updateIDPProfile(idpProfile));

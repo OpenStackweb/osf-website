@@ -7,7 +7,7 @@ import Link from "./LinkComponent";
 import styles from '../style/modules/profile-popup.module.scss';
 
 
-const ProfilePopupComponent = ({ profile, idpLoading, closePopup, showProfile, changePicture, changeProfile, fromFullProfile, title = 'Profile picture', picture }) => {
+const ProfilePopupComponent = ({ profile, idpLoading, closePopup, showProfile, changePicture, fromFullProfile, title = 'Profile picture', picture }) => {
 
   const editorRef = useRef(null);
 
@@ -77,16 +77,6 @@ const ProfilePopupComponent = ({ profile, idpLoading, closePopup, showProfile, c
       const canvas = editorRef.current.getImage().toDataURL();
       urltoFile(canvas, image.name)
         .then(file => changePicture(file, picture));
-    }
-    if (profile.given_name !== firstName ||
-      profile.family_name !== lastName ||
-      profile.company !== company) {
-      const newProfile = {
-        first_name: firstName,
-        last_name: lastName,
-        company: company
-      };
-      changeProfile(newProfile);
     }
   };
 

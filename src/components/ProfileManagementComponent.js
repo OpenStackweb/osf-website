@@ -137,59 +137,56 @@ export const ProfileManagement = ({
     updateProfilePicture(picture);
   };
 
-  const handleProfileUpdate = (fromPopup) => {
-    if (fromPopup) {
-      updateIDPProfile(fromPopup)
-    } else {
-      if (!publicInformation.firstName || !publicInformation.lastName || !publicInformation.identifier || !publicInformation.email) {
-        const msg = `Required field missing`;
-        Swal.fire("Validation error", msg, "warning");
-      } else {
-        const newIDPProfile = {
-          first_name: publicInformation.firstName,
-          last_name: publicInformation.lastName,
-          identifier: publicInformation.identifier,
-          email: publicInformation.email,
-          second_email: publicInformation.secondEmail,
-          third_email: publicInformation.thirdEmail,
-          company: publicInformation.company,
-          job_title: publicInformation.jobTitle,
-          birthday: publicInformation.birthday?.unix(),
-          github_user: publicInformation.github,
-          irc: publicInformation.irc,
-          linked_in_profile: publicInformation.linkedin,
-          wechat_user: publicInformation.wechatUser,
-          twitter_name: publicInformation.twitter,
-          language: publicInformation.language,
-          public_profile_show_fullname: showFullName,
-          public_profile_allow_chat_with_me: allowChatWithMe,
-          public_profile_show_email: showEmail,
-          bio: publicInformation.bio,
-          statement_of_interest: publicInformation.statementOfInterest,
-          gender: privateInformation.gender,
-          gender_specify: privateInformation.gender === 'Specify' ? privateInformation.specifyGender : null,
-          address1: privateInformation.street,
-          address2: privateInformation.floor,
-          city: privateInformation.city,
-          state: privateInformation.state,
-          post_code: privateInformation.zipCode,
-          country_iso_code: privateInformation.country,
-          phone_number: privateInformation.phone,
-        };
-        const newProfile = {
-          projects: publicInformation.projects,
-          other_project: publicInformation.otherProject,
-          food_preference: privateInformation.foodPreference,
-          other_food_preference: privateInformation.otherFoodPreference,
-          shirt_size: privateInformation.shirtSize,
-          display_on_site: privateInformation.displayOnSite,
-          subscribed_to_newsletter: privateInformation.subscribedToNewsletter,
-        };
-        updateIDPProfile(newIDPProfile);
-        updateProfile(newProfile);
-      }
+  const handleProfileUpdate = () => {
+    if (!publicInformation.firstName || !publicInformation.lastName || !publicInformation.identifier || !publicInformation.email) {
+      const msg = `Required field missing`;
+      Swal.fire("Validation error", msg, "warning");
+      return;
     }
-  };
+    const newIDPProfile = {
+      first_name: publicInformation.firstName,
+      last_name: publicInformation.lastName,
+      identifier: publicInformation.identifier,
+      email: publicInformation.email,
+      second_email: publicInformation.secondEmail,
+      third_email: publicInformation.thirdEmail,
+      company: publicInformation.company,
+      job_title: publicInformation.jobTitle,
+      birthday: publicInformation.birthday?.unix(),
+      github_user: publicInformation.github,
+      irc: publicInformation.irc,
+      linked_in_profile: publicInformation.linkedin,
+      wechat_user: publicInformation.wechatUser,
+      twitter_name: publicInformation.twitter,
+      language: publicInformation.language,
+      public_profile_show_fullname: showFullName,
+      public_profile_allow_chat_with_me: allowChatWithMe,
+      public_profile_show_email: showEmail,
+      bio: publicInformation.bio,
+      statement_of_interest: publicInformation.statementOfInterest,
+      gender: privateInformation.gender,
+      gender_specify: privateInformation.gender === 'Specify' ? privateInformation.specifyGender : null,
+      address1: privateInformation.street,
+      address2: privateInformation.floor,
+      city: privateInformation.city,
+      state: privateInformation.state,
+      post_code: privateInformation.zipCode,
+      country_iso_code: privateInformation.country,
+      phone_number: privateInformation.phone,
+    };
+    const newProfile = {
+      projects: publicInformation.projects,
+      other_project: publicInformation.otherProject,
+      food_preference: privateInformation.foodPreference,
+      other_food_preference: privateInformation.otherFoodPreference,
+      shirt_size: privateInformation.shirtSize,
+      display_on_site: privateInformation.displayOnSite,
+      subscribed_to_newsletter: privateInformation.subscribedToNewsletter,
+    };
+    updateIDPProfile(newIDPProfile)
+    .then(() => updateProfile(newProfile))
+    .then(() => showSuccessMessage('Profile Updated'));
+  }
 
   const showSuccessMessage = (message) => {
     Swal.fire("Success", message, "success");
@@ -201,7 +198,7 @@ export const ProfileManagement = ({
       Swal.fire("Validation error", msg, "warning");
       return;
     }
-    if(affiliations.length === 0) {
+    if (affiliations.length === 0) {
       const msg = `You need at least one affiliation`;
       Swal.fire("Validation error", msg, "warning");
       return;
@@ -679,7 +676,6 @@ export const ProfileManagement = ({
             idpLoading={user.loadingIDP}
             fromFullProfile={true}
             changePicture={(pic) => handlePictureUpdate(pic)}
-            changeProfile={(profile) => handleProfileUpdate(profile)}
             closePopup={() => handleTogglePopup(!showProfile)}
           />
         }

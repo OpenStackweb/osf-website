@@ -20,7 +20,6 @@ import {
     updateIDPProfile,
     updateProfile,
     getIDPProfile,
-    updatePassword,
     getUserProfile
 } from "../actions/user-actions"
 import { getMemberProfile } from '../actions/member-actions';
@@ -43,7 +42,6 @@ export const ProfilePageTemplate = ({
     updateIDPProfile,
     updateProfile,
     getIDPProfile,
-    updatePassword,
     getUserProfile,
 }) => {
 
@@ -122,7 +120,6 @@ export const ProfilePageTemplate = ({
                                                 updateIDPProfile={updateIDPProfile}
                                                 updateProfile={updateProfile}
                                                 getIDPProfile={getIDPProfile}
-                                                updatePassword={updatePassword}
                                                 getUserProfile={getUserProfile} />
                                         </React.Fragment>
                                     }
@@ -153,9 +150,13 @@ const ProfilePage = ({
     updateIDPProfile,
     updateProfile,
     getIDPProfile,
-    updatePassword,
     getUserProfile,
 }) => {
+
+    useEffect(() => {
+        getUserProfile();
+        getIDPProfile();
+    }, [])
 
     return (
         <Layout>
@@ -173,7 +174,6 @@ const ProfilePage = ({
                 updateIDPProfile={updateIDPProfile}
                 updateProfile={updateProfile}
                 getIDPProfile={getIDPProfile}
-                updatePassword={updatePassword}
                 getUserProfile={getUserProfile}
             />
         </Layout>
@@ -201,5 +201,4 @@ export default connect(state => ({
         updateIDPProfile,
         updateProfile,
         updateProfilePicture,
-        updatePassword
     })(ProfilePage)

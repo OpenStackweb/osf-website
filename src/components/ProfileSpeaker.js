@@ -436,5 +436,4 @@ ProfileSpeaker.propTypes = {
   updateIDPProfile: PropTypes.func,
   updateProfile: PropTypes.func,
   updateProfilePicture: PropTypes.func,
-  updatePassword: PropTypes.func
 }

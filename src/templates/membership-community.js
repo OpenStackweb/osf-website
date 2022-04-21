@@ -1,18 +1,19 @@
 import React from "react"
-import {connect} from 'react-redux'
-import {navigate} from "gatsby"
+import { connect } from 'react-redux'
+import { navigate } from "gatsby"
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
-import {updateMembershipType, MEMBERSHIP_TYPE_COMMUNITY} from "../actions/user-actions"
+import { updateMembershipType, MEMBERSHIP_TYPE_COMMUNITY } from "../actions/user-actions"
+import Swal from "sweetalert2";
 
 export const MembershipCommunityPageTemplate = ({
-                                                 updateMembershipType,
-                                                 isLoggedUser,
-                                                 location
-                                             }) => {
+    updateMembershipType,
+    isLoggedUser,
+    location
+}) => {
 
 
     const cancel = () => {
@@ -20,15 +21,16 @@ export const MembershipCommunityPageTemplate = ({
     }
 
     const resign = () => {
-        updateMembershipType(MEMBERSHIP_TYPE_COMMUNITY).then(() => navigate('/a/profile'))
+        const message = 'Membership Updated';
+        updateMembershipType(MEMBERSHIP_TYPE_COMMUNITY).then(() => Swal.fire("Success", message, "success").then(() => navigate('/a/profile')))
     }
 
     return (
         <div>
             <div className="wrapper project-background">
-                <TopBar/>
-                <Navbar isLoggedUser={isLoggedUser}/>
-                <Header title="Downgrade To Community Member"/>
+                <TopBar />
+                <Navbar isLoggedUser={isLoggedUser} />
+                <Header title="Downgrade To Community Member" />
             </div>
 
             <main className="main">
@@ -53,7 +55,7 @@ export const MembershipCommunityPageTemplate = ({
     )
 }
 
-const MembershipCommunityPage = ({updateMembershipType, isLoggedUser, location}) => {
+const MembershipCommunityPage = ({ updateMembershipType, isLoggedUser, location }) => {
     return (
         <Layout>
             <SEO />
@@ -67,8 +69,8 @@ const MembershipCommunityPage = ({updateMembershipType, isLoggedUser, location})
 }
 
 export default connect(state => ({
-        isLoggedUser: state.loggedUserState.isLoggedUser,
-    }), {
+    isLoggedUser: state.loggedUserState.isLoggedUser,
+}), {
     updateMembershipType
-    }
+}
 )(MembershipCommunityPage)

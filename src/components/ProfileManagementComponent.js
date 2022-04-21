@@ -8,7 +8,6 @@ import Swal from 'sweetalert2';
 import ProfilePopupComponent from './ProfilePopupComponent'
 import ProfilePrograms from './ProfilePrograms'
 import ProfileFoodPreferences from './ProfileFoodPreference'
-// import ChangePasswordComponent from './ChangePasswordComponent';
 import Affiliations from './Affiliations';
 
 import styles from '../style/modules/edit-profile.module.scss'
@@ -27,7 +26,6 @@ export const ProfileManagement = ({
   updateIDPProfile,
   updateProfile,
   updateProfilePicture,
-  updatePassword,
   submitApplication }) => {
 
   const [showProfile, setShowProfile] = useState(false);
@@ -299,8 +297,8 @@ export const ProfileManagement = ({
                   Current Member Level <br />
                   <b>{currentMembershipType}</b>
                 </span>
-                <a onClick={() => currentMembershipType === 'community' ? handleConvertFoundationMember() : handleConvertCommunityMember()}>
-                  Change to {currentMembershipType === 'community' ? 'Foundation' : 'Community'} Member
+                <a onClick={() => currentMembershipType.toLowerCase() === 'community' ? handleConvertFoundationMember() : handleConvertCommunityMember()}>
+                  Change to {currentMembershipType.toLowerCase() === 'community' ? 'Foundation' : 'Community'} Member
                 </a>
                 <div className={styles.resignWrapper}>
                   <a onClick={() => handleResign()}>Resign Membership</a>
@@ -697,5 +695,4 @@ ProfileManagement.propTypes = {
   updateIDPProfile: PropTypes.func,
   updateProfile: PropTypes.func,
   updateProfilePicture: PropTypes.func,
-  updatePassword: PropTypes.func
 };

@@ -16,13 +16,12 @@ import SEO from '../components/SEO';
 import ProfilePopupComponent from '../components/ProfilePopupComponent'
 import ProfilePrograms from '../components/ProfilePrograms'
 import ProfileFoodPreferences from '../components/ProfileFoodPreference'
-import ChangePasswordComponent from '../components/ChangePasswordComponent';
 
-import { updateProfilePicture, updateIDPProfile, updateProfile, getIDPProfile, updatePassword, getUserProfile } from '../actions/user-actions'
+import { updateProfilePicture, updateIDPProfile, updateProfile, getIDPProfile, getUserProfile } from '../actions/user-actions'
 
 import styles from '../style/modules/edit-profile.module.scss'
 
-export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, getUserProfile, updateIDPProfile, updateProfile, updateProfilePicture, updatePassword }) => {
+export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, getUserProfile, updateIDPProfile, updateProfile, updateProfilePicture }) => {
 
   const [showProfile, setShowProfile] = useState(false);
   const [personalProfile, setPersonalProfile] = useState({
@@ -276,7 +275,6 @@ export const EditProfilePageTemplate = ({ user, isLoggedUser, getIDPProfile, get
                     <span>
                       @{user.idpProfile?.nickname}
                     </span>
-                    {/* <ChangePasswordComponent updatePassword={handlePasswordUpdate} /> */}
                   </div>
                   <div className="column">
                     <div className={styles.formContainer}>
@@ -724,7 +722,6 @@ const EditProfilePage = (
     updateIDPProfile,
     updateProfile,
     updateProfilePicture,
-    updatePassword,
   }
 ) => {
   return (
@@ -737,8 +734,7 @@ const EditProfilePage = (
         getUserProfile={getUserProfile}
         updateIDPProfile={updateIDPProfile}
         updateProfile={updateProfile}
-        updateProfilePicture={updateProfilePicture}
-        updatePassword={updatePassword} />
+        updateProfilePicture={updateProfilePicture} />
     </Layout>
   )
 };
@@ -750,7 +746,6 @@ EditProfilePage.propTypes = {
   updateIDPProfile: PropTypes.func,
   updateProfile: PropTypes.func,
   updateProfilePicture: PropTypes.func,
-  updatePassword: PropTypes.func
 };
 
 EditProfilePageTemplate.propTypes = {
@@ -760,7 +755,6 @@ EditProfilePageTemplate.propTypes = {
   updateIDPProfile: PropTypes.func,
   updateProfile: PropTypes.func,
   updateProfilePicture: PropTypes.func,
-  updatePassword: PropTypes.func
 };
 
 const mapStateToProps = ({ userState }) => ({
@@ -774,6 +768,5 @@ export default connect(mapStateToProps,
     updateIDPProfile,
     updateProfile,
     updateProfilePicture,
-    updatePassword
   }
 )(EditProfilePage);

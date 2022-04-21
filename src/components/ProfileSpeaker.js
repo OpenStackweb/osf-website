@@ -19,6 +19,7 @@ export const ProfileSpeaker = ({
 
   const [showProfile, setShowProfile] = useState(false);
   const [speakerProfile, setSpeakerProfile] = useState({
+    speakerId: null,
     firstName: '',
     lastName: '',
     title: '',
@@ -48,6 +49,7 @@ export const ProfileSpeaker = ({
       setImage(speaker.pic);
       setBigImage(speaker.big_pic);
       setSpeakerProfile({
+        speakerId: speaker.id || null,
         firstName: speaker.first_name || '',
         lastName: speaker.last_name || '',
         title: speaker.title || '',
@@ -72,6 +74,30 @@ export const ProfileSpeaker = ({
     };
   }, [speaker]);
 
+  const validateSpeakerForm = () => {
+    if (
+      !speakerProfile.firstName || !speakerProfile.lastName || !speakerProfile.title || !speakerProfile.country ||
+      !speakerProfile.bio) {
+      const msg = `Required field missing`;
+      Swal.fire("Validation error", msg, "warning");
+      return false
+    }
+    if (speakerProfile.previousPresentations.filter(p => p.link).some(presentation => {
+      const httpRegex = new RegExp(/^http(s)?\:\/\//i)
+      return !httpRegex.test(presentation.link);
+    })) {
+      const msg = `Links must start with http or https`;
+      Swal.fire("Validation error", msg, "warning");
+      return false
+    }
+    if (speakerProfile.previousPresentations.filter(p => p.link).some(presentation => !presentation.title)) {
+      const msg = `Each link must have title`;
+      Swal.fire("Validation error", msg, "warning");
+      return false
+    }
+    return true;
+  }
+
   const handlePictureUpdate = (image, name) => {
     if (name === 'pic') {
       uploadFileProfile(speakerProfile, image);
@@ -90,9 +116,11 @@ export const ProfileSpeaker = ({
     setShowProfile(profile)
   };
 
-  const handleProfileUpdate = (fromPopup) => {
-    if (validateSpeakerForm) {
+  const handleProfileUpdate = () => {
+    const formIsValid = validateSpeakerForm();
+    if (formIsValid) {
       const newProfile = {
+        id: speakerProfile.speakerId,
         title: speakerProfile.title,
         first_name: speakerProfile.firstName,
         last_name: speakerProfile.lastName,
@@ -112,7 +140,7 @@ export const ProfileSpeaker = ({
         languages: speakerProfile.languages,
         areas_of_expertise: speakerProfile.expertise,
         notes: speakerProfile.notes,
-
+        other_presentation_links: speakerProfile.previousPresentations
       };
       saveSpeakerProfile(newProfile);
     }
@@ -124,28 +152,6 @@ export const ProfileSpeaker = ({
     setSpeakerProfile({ ...speakerProfile, previousPresentations: presentations })
   }
 
-  const validateSpeakerForm = () => {
-    if (
-      !speakerProfile.firstName || !speakerProfile.lastName || !speakerProfile.title || !speakerProfile.country ||
-      !speakerProfile.bio) {
-      const msg = `Required field missing`;
-      Swal.fire("Validation error", msg, "warning");
-      return false
-    }
-    return true
-  }
-
-  //   let rules = {
-  //     title: {required: 'Title is required.'},
-  //     first_name: {required: 'First name is required.'},
-  //     email: {required: 'Email is required.', email: 'This is not a valid email address.'},
-  //     last_name: {required: 'Last name is required.'},
-  //     country: { required: 'Please select a Country.'},
-  //     bio: { required: 'Please tell us about yourself.', maxLength: {value: 1000, msg: 'Value exeeded max limit of 1000 characters'}},
-  //     other_presentation_links: {title_link: 'Links must start with http or https', title: 'Each link must have title'},
-  //     company: {required: 'Company is required.'},
-  //     phone_number: {required: 'Phone # is required.'},
-  // };
 
 
   return (
@@ -159,7 +165,7 @@ export const ProfileSpeaker = ({
                 <div className={styles.form}>
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-one-third is-mobile ${styles.inputField}`}>
-                      <b>Title</b>
+                      <b>Title *</b>
                       <input
                         className={`${styles.input} ${!speakerProfile.title ? styles.isDanger : ''}`}
                         type="text"
@@ -169,7 +175,7 @@ export const ProfileSpeaker = ({
                       />
                     </div>
                     <div className={`column is-one-third is-mobile ${styles.inputField}`}>
-                      <b>First Name</b>
+                      <b>First Name *</b>
                       <input
                         className={`${styles.input} ${!speakerProfile.firstName ? styles.isDanger : ''}`}
                         type="text"
@@ -179,7 +185,7 @@ export const ProfileSpeaker = ({
                       />
                     </div>
                     <div className={`column is-one-third ${styles.inputField}`}>
-                      <b>Last Name</b>
+                      <b>Last Name *</b>
                       <input
                         className={`${styles.input} ${!speakerProfile.lastName ? styles.isDanger : ''}`}
                         type="text"
@@ -191,7 +197,7 @@ export const ProfileSpeaker = ({
                   </div>
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-half is-mobile ${styles.inputField}`}>
-                      <b>Company</b>
+                      <b>Company *</b>
                       <input
                         className={`${styles.input} ${!speakerProfile.company ? styles.isDanger : ''}`}
                         type="text"
@@ -201,7 +207,7 @@ export const ProfileSpeaker = ({
                       />
                     </div>
                     <div className={`column is-half is-mobile ${styles.inputField}`}>
-                      <b>Phone Number</b>
+                      <b>Phone Number *</b>
                       <input
                         className={`${styles.input} ${!speakerProfile.phoneNumber ? styles.isDanger : ''}`}
                         type="text"
@@ -213,7 +219,7 @@ export const ProfileSpeaker = ({
                   </div>
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-full ${styles.inputField}`}>
-                      <b>Country of Residence</b>
+                      <b>Country of Residence *</b>
                       <CountryInput
                         onChange={e => setSpeakerProfile({ ...speakerProfile, country: e.target.value })}
                         className={styles.dropdown}
@@ -223,7 +229,7 @@ export const ProfileSpeaker = ({
                   </div>
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-full ${styles.inputField}`}>
-                      <b>Bio</b>
+                      <b>Bio *</b>
                       <TextEditor id="bio"
                         className={styles.textEditor}
                         onChange={e => setSpeakerProfile({ ...speakerProfile, bio: e.target.value })}
@@ -351,6 +357,7 @@ export const ProfileSpeaker = ({
                         className={styles.dropdown}
                         multi={true}
                         value={speakerProfile.languages}
+                        shouldUseId={true}
                       />
                     </div>
                   </div>

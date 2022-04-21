@@ -414,7 +414,7 @@ export const saveSpeakerProfile = (entity) => (dispatch, getState) => {
     return putRequest(
       createAction(UPDATE_SPEAKER_PROFILE),
       createAction(SPEAKER_PROFILE_SAVED),
-      `${window.API_BASE_URL}/api/v1/speakers/${entity.id}`,
+      `${window.API_BASE_URL}/api/v1/speakers/me`,
       normalizedEntity,
       authErrorHandler,
       entity
@@ -512,8 +512,8 @@ export const uploadFileBigPhoto = (entity, file) => (dispatch, getState) => {
 const normalizeEntityProfile = (entity) => {
   let normalizedEntity = { ...entity };
 
-  // normalizedEntity.areas_of_expertise = entity.areas_of_expertise.map(a => a.label);
-  // normalizedEntity.other_presentation_links = entity.other_presentation_links.filter(l => l.link);
+  normalizedEntity.areas_of_expertise = entity.areas_of_expertise.map(a => a.label);
+  normalizedEntity.other_presentation_links = entity.other_presentation_links.filter(l => l.link);
 
   delete normalizedEntity['affiliations'];
   delete normalizedEntity['pic'];

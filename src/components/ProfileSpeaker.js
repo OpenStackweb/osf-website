@@ -7,11 +7,10 @@ import Swal from 'sweetalert2';
 import ProfilePopupComponent from './ProfilePopupComponent'
 
 import styles from '../style/modules/edit-profile.module.scss'
-import LinkComponent from './LinkComponent';
-import { navigate } from 'gatsby';
 
 export const ProfileSpeaker = ({
   speaker,
+  idpProfile,
   loading,
   uploadFileProfile,
   uploadFileBigPhoto,
@@ -50,15 +49,15 @@ export const ProfileSpeaker = ({
       setBigImage(speaker.big_pic);
       setSpeakerProfile({
         speakerId: speaker.id || null,
-        firstName: speaker.first_name || '',
-        lastName: speaker.last_name || '',
+        firstName: speaker.id ? speaker.first_name || '' : idpProfile.given_name || '',
+        lastName: speaker.id ? speaker.last_name || '' : idpProfile.family_name || '',
         title: speaker.title || '',
         company: speaker.company || '',
         phoneNumber: speaker.phone_number || '',
-        country: speaker.country || '',
-        bio: speaker.bio || '',
-        irc: speaker.irc || '',
-        twitter: speaker.twitter || '',
+        country: speaker.id ? speaker.country || '' : idpProfile.country || '',
+        bio: speaker.id ? speaker.bio || '' : idpProfile.bio || '',
+        irc: speaker.id ? speaker.irc || '' : idpProfile.irc || '',
+        twitter: speaker.id ? speaker.twitter || '' : idpProfile.twitter || '',
         availableForBureau: speaker.available_for_bureau || false,
         willingToPresentVideo: speaker.willing_to_present_video || false,
         fundedTravel: speaker.funded_travel || false,
@@ -412,7 +411,7 @@ export const ProfileSpeaker = ({
                   </div>
                   <div className={`columns is-mobile ${styles.buttons}`}>
                     <div className={`column is-half`}>
-                      <button className="button is-large" onClick={() => handleProfileUpdate()}>Update</button>
+                      <button className="button is-large" onClick={() => handleProfileUpdate()}>{speakerProfile.speakerId ? 'Update' : 'Save'}</button>
                     </div>
                   </div>
                 </div>
@@ -437,10 +436,7 @@ export const ProfileSpeaker = ({
 };
 
 ProfileSpeaker.propTypes = {
-  user: PropTypes.object,
-  getIDPProfile: PropTypes.func,
-  getUserProfile: PropTypes.func,
-  updateIDPProfile: PropTypes.func,
+  user: PropTypes.object,  
   updateProfile: PropTypes.func,
   updateProfilePicture: PropTypes.func,
 }

@@ -20,6 +20,7 @@ export const ProfileSpeakerPageTemplate = ({
     isLoggedUser,
     location,
     loading,
+    idpProfile,
     speakerProfile,
     uploadFileProfile,
     uploadFileBigPhoto,
@@ -43,6 +44,7 @@ export const ProfileSpeakerPageTemplate = ({
                                 <div className="column">
                                     <ProfileSpeaker
                                         speaker={speakerProfile}
+                                        idpProfile={idpProfile}
                                         loading={loading}
                                         saveSpeakerProfile={saveSpeakerProfile}
                                         uploadFileProfile={uploadFileProfile}
@@ -61,6 +63,7 @@ const ProfileSpeakerPage = ({
     isLoggedUser,
     location,
     loading,
+    idpProfile,
     speakerProfile,
     getSpeakerProfile,
     saveSpeakerProfile,
@@ -79,6 +82,7 @@ const ProfileSpeakerPage = ({
                 location={location}
                 loading={loading}
                 isLoggedUser={isLoggedUser}
+                idpProfile={idpProfile}
                 speakerProfile={speakerProfile}
                 saveSpeakerProfile={saveSpeakerProfile}
                 uploadFileProfile={uploadFileProfile}
@@ -91,6 +95,7 @@ const ProfileSpeakerPage = ({
 export default connect(state => ({
     isLoggedUser: state.loggedUserState.isLoggedUser,
     loading: state.userState.loadingSpeaker,
+    idpProfile: state.userState.idpProfile,
     speakerProfile: state.userState.speakerProfile,
     user: state.userState,
 }),

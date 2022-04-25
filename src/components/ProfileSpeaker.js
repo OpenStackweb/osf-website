@@ -44,31 +44,29 @@ export const ProfileSpeaker = ({
   const [editingPicture, setEditingPicture] = useState('');
 
   useEffect(() => {
-    if (speaker) {
-      setImage(speaker.pic);
-      setBigImage(speaker.big_pic);
-      setSpeakerProfile({
-        speakerId: speaker.id || null,
-        firstName: speaker.id ? speaker.first_name || '' : idpProfile.given_name || '',
-        lastName: speaker.id ? speaker.last_name || '' : idpProfile.family_name || '',
-        title: speaker.title || '',
-        company: speaker.company || '',
-        phoneNumber: speaker.phone_number || '',
-        country: speaker.id ? speaker.country || '' : idpProfile.country || '',
-        bio: speaker.id ? speaker.bio || '' : idpProfile.bio || '',
-        irc: speaker.id ? speaker.irc || '' : idpProfile.irc || '',
-        twitter: speaker.id ? speaker.twitter || '' : idpProfile.twitter || '',
-        availableForBureau: speaker.available_for_bureau || false,
-        willingToPresentVideo: speaker.willing_to_present_video || false,
-        fundedTravel: speaker.funded_travel || false,
-        willingToTravel: speaker.willing_to_travel || false,
-        countriesToTravel: speaker.travel_preferences || [],
-        languages: speaker.languages || [],
-        expertise: speaker.areas_of_expertise || [],
-        previousPresentations: speaker.other_presentation_links || new Array(5),
-        notes: speaker.notes || ''
-      })
-    }
+    setImage(speaker?.pic);
+    setBigImage(speaker?.big_pic);
+    setSpeakerProfile({
+      speakerId: speaker?.id || null,
+      firstName: speaker?.id && speaker.first_name !== '' ? speaker.first_name : idpProfile.given_name || '',
+      lastName: speaker?.id && speaker.last_name !== '' ? speaker.last_name : idpProfile.family_name || '',
+      title: speaker?.title || '',
+      company: speaker?.company || '',
+      phoneNumber: speaker?.phone_number || '',
+      country: speaker?.id && speaker.country !== '' ? speaker.country : idpProfile.country || '',
+      bio: speaker?.id && speaker.bio !== '' ? speaker.bio : idpProfile.bio || '',
+      irc: speaker?.id && speaker.irc !== '' ? speaker.irc : idpProfile.irc || '',
+      twitter: speaker?.id && speaker.twitter !== '' ? speaker.twitter : idpProfile.twitter || '',
+      availableForBureau: speaker?.available_for_bureau || false,
+      willingToPresentVideo: speaker?.willing_to_present_video || false,
+      fundedTravel: speaker?.funded_travel || false,
+      willingToTravel: speaker?.willing_to_travel || false,
+      countriesToTravel: speaker?.travel_preferences || [],
+      languages: speaker?.languages || [],
+      expertise: speaker?.areas_of_expertise || [],
+      previousPresentations: speaker?.other_presentation_links || new Array(5),
+      notes: speaker?.notes || ''
+    })
     return () => {
     };
   }, [speaker]);

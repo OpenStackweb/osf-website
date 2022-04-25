@@ -56,12 +56,12 @@ export const CareersPageTemplate = ({
                   <hr id="openings"/>
                   <h3>Current Openings</h3>
                     <div className="career-single">
-                      <a href="/careers/technical-community-manager" className="career-title">Technical Community Manager</a>
+                      <a href="/careers/technical-community-manager" className="career-title">Your Dream Job</a>
                       <p>
-                      We are looking for an individual with a strong technical background who is passionate about infrastructure software challenges and solutions as well as open source to help us build and support a growing number of open source communities. This position plays a key role by ensuring that the OpenInfra communities are well balanced, sustainable and successful ecosystems in any lifecycle stage they might be in from creation to maturity. The role oversees the daily life of the supported communities to assist with their needs while performing crucial tasks and activities, such as creating content and demos and interacting with potential users and organizations wanting to commercialize, to increase visibility and adoption of the projects.
+                      Don't see a position that you're a fit for? No worries! If you are a hard working, friendly, lover of open source, please say "hi" and send us your resume. We are always looking for potential fits for future positions.
                       </p>
                       <p>
-                        <LinkComponent style={{marginTop: "20px"}} className="button-cta" href="/careers/technical-community-manager">Learn More<img src={leftArrow} alt="Left Arrow" /></LinkComponent> 
+                        <LinkComponent style={{marginTop: "20px"}} className="button-cta" href="mailto:info@openinfra.dev">Email Resume<img src={leftArrow} alt="Left Arrow" /></LinkComponent> 
                       </p>
                   </div>
                     <hr />

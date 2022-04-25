@@ -87,7 +87,9 @@ export const ProfilePageTemplate = ({
             <div className="wrapper project-background">
                 <TopBar />
                 <Navbar isLoggedUser={isLoggedUser} />
-                <ProfileSubNav activePage='profile-details' pageName='Your Details' />
+                {initialMembershipType !== MEMBERSHIP_TYPE_NONE &&
+                    <ProfileSubNav activePage='profile-details' pageName='Your Details' />
+                }
                 <Header title="Profile" subTitle="My Details" />
             </div>
 

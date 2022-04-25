@@ -11,6 +11,8 @@ import 'openstack-uicore-foundation/lib/css/components.css';
 import ProfileSubNav from "../components/ProfileSubNav";
 import ProfileLegals from "../components/ProfileLegals";
 
+import { MEMBERSHIP_TYPE_NONE } from "../actions/user-actions";
+
 export const ProfileLegalPageTemplate = ({
     isLoggedUser,
     legalAgreements,
@@ -31,7 +33,7 @@ export const ProfileLegalPageTemplate = ({
                     <section className="section about-s1-main">
                         <div className="container about-s1-container">
                             <div className="columns">
-                                <div className="column" style={{border: '1px solid #d3d3d3', padding: 15}}>
+                                <div className="column" style={{ border: '1px solid #d3d3d3', padding: 15 }}>
                                     <ProfileLegals legalAgreements={legalAgreements} />
                                 </div>
                             </div>
@@ -45,9 +47,16 @@ export const ProfileLegalPageTemplate = ({
 
 const ProfileLegalPage = ({
     isLoggedUser,
+    initialMembershipType,
     location,
     user,
 }) => {
+
+    useEffect(() => {
+        if (initialMembershipType === MEMBERSHIP_TYPE_NONE) {
+            return navigate('/a/profile?membership_type=foundation')
+        }
+    }, [])
 
     return (
         <Layout>
@@ -63,6 +72,7 @@ const ProfileLegalPage = ({
 
 export default connect(state => ({
     isLoggedUser: state.loggedUserState.isLoggedUser,
+    initialMembershipType: state.userState.currentMembershipType,
     user: state.userState.userProfile,
 }),
     {

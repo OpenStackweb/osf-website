@@ -337,17 +337,19 @@ export const ProfileSpeaker = ({
                       </label>
                     </div>
                   </div>
-                  <div className={`columns is-mobile ${styles.inputRow}`}>
-                    <div className={`column is-full ${styles.inputField}`}>
-                      <b>Select individual countries that you are willing to travel to. If you do not check the box above AND do not select any countries, it will be assumed you are not willing to travel.</b>
-                      <CountryInput
-                        onChange={e => setSpeakerProfile({ ...speakerProfile, countriesToTravel: e.target.value })}
-                        className={styles.dropdown}
-                        multi={true}
-                        value={speakerProfile.countriesToTravel}
-                      />
+                  {!speakerProfile.willingToTravel &&
+                    <div className={`columns is-mobile ${styles.inputRow}`}>
+                      <div className={`column is-full ${styles.inputField}`}>
+                        <b>Select individual countries that you are willing to travel to. If you do not check the box above AND do not select any countries, it will be assumed you are not willing to travel.</b>
+                        <CountryInput
+                          onChange={e => setSpeakerProfile({ ...speakerProfile, countriesToTravel: e.target.value })}
+                          className={styles.dropdown}
+                          multi={true}
+                          value={speakerProfile.countriesToTravel}
+                        />
+                      </div>
                     </div>
-                  </div>
+                  }
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-full ${styles.inputField}`}>
                       <b>Spoken Languages (up to 5)</b>
@@ -436,7 +438,7 @@ export const ProfileSpeaker = ({
 };
 
 ProfileSpeaker.propTypes = {
-  user: PropTypes.object,  
+  user: PropTypes.object,
   updateProfile: PropTypes.func,
   updateProfilePicture: PropTypes.func,
 }

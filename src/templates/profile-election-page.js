@@ -14,6 +14,7 @@ import {
     updateUserInfo
 } from "openstack-uicore-foundation/lib/methods";
 import ProfileSubNav from "../components/ProfileSubNav";
+import { MEMBERSHIP_TYPE_NONE } from "../actions/user-actions";
 
 export const ProfileElectionPageTemplate = ({
     currentMember,
@@ -52,6 +53,7 @@ const ProfileElectionPage = ({
     currentMember,
     isLoggedUser,
     location,
+    initialMembershipType,
     getElectionMemberProfile,
     getElectionStatus,
     electionStatus,
@@ -59,6 +61,9 @@ const ProfileElectionPage = ({
 }) => {
 
     useEffect(() => {
+        if (initialMembershipType === MEMBERSHIP_TYPE_NONE) {
+            return navigate('/a/profile?membership_type=foundation')
+        }
         getElectionStatus();
         if (currentMember?.id) {
             getElectionMemberProfile
@@ -94,6 +99,7 @@ const ProfileElectionPage = ({
 
 export default connect(state => ({
     isLoggedUser: state.loggedUserState.isLoggedUser,
+    initialMembershipType: state.userState.currentMembershipType,
     currentMember: state.loggedUserState.member,
     electionStatus: state.electionState.election_status,
 }),

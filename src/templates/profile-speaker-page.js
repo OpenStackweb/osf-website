@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { connect } from 'react-redux'
-import { navigate } from "gatsby"
+import { navigate } from "gatsby";
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
@@ -12,6 +12,7 @@ import {
     uploadFileBigPhoto,
     getSpeakerProfile,
     saveSpeakerProfile,
+    MEMBERSHIP_TYPE_NONE,
 } from "../actions/user-actions"
 import ProfileSubNav from "../components/ProfileSubNav";
 import { ProfileSpeaker } from "../components/ProfileSpeaker";
@@ -64,6 +65,7 @@ const ProfileSpeakerPage = ({
     location,
     loading,
     idpProfile,
+    initialMembershipType,
     speakerProfile,
     getSpeakerProfile,
     saveSpeakerProfile,
@@ -72,6 +74,9 @@ const ProfileSpeakerPage = ({
 }) => {
 
     useEffect(() => {
+        if (initialMembershipType === MEMBERSHIP_TYPE_NONE) {
+            return navigate('/a/profile?membership_type=foundation')
+        }
         getSpeakerProfile();
     }, [])
 
@@ -96,6 +101,7 @@ export default connect(state => ({
     isLoggedUser: state.loggedUserState.isLoggedUser,
     loading: state.userState.loadingSpeaker,
     idpProfile: state.userState.idpProfile,
+    initialMembershipType: state.userState.currentMembershipType,
     speakerProfile: state.userState.speakerProfile,
     user: state.userState,
 }),

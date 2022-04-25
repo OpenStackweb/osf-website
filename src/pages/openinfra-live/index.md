@@ -23,8 +23,9 @@ episodes:
       data center look like in this new world? Join us to talk about the
       intersection of software defined DPUs, IPUs, GPUs, SmartNICs and all of
       the open infrastructure software that sits on top. "
-    episodeSpeakers: "Jonathan Bryce (Host), Pradeep Sindhu (Fungible), Dan Daly
-      (Intel), Dmitrii Shcherbakov (Canonical) "
+    episodeSpeakers: Jonathan Bryce (Host), Pradeep Sindhu (Fungible), Dan Daly
+      (Intel), Dmitrii Shcherbakov (Canonical), George Tchaparian (Open Compute
+      Project Foundation)
     youtubeLink: https://www.youtube.com/watch?v=CwudpYeQHj0
     youtubeEmbed: https://www.youtube.com/embed/CwudpYeQHj0
   - hidden: false

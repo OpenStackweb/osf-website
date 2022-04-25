@@ -55,8 +55,18 @@ export const CareersPageTemplate = ({
                 <column>
                   <hr id="openings"/>
                   <h3>Current Openings</h3>
+                  <div className="career-single">
+                      <a href="/careers/web-manager" className="career-title">Web Manager</a>
+                      <p>
+                      We are looking for a web manager who will be responsible for the organization’s web properties, including the Foundation’s primary marketing site (openinfra.dev), Superuser (superuser.openstack.org), and the open source project sites that the Foundation hosts including openstack.org. Combined, these web properties reach more than 4 million users each year. This person should have an analytical mind, the ability to tie website projects to business needs, and outstanding problem solving skills.
+                      </p>
+                      <p>
+                        <LinkComponent style={{marginTop: "20px"}} className="button-cta" href="/careers/web-manager">Learn More<img src={leftArrow} alt="Left Arrow" /></LinkComponent> 
+                      </p>
+                  </div>
+                    <hr />
                     <div className="career-single">
-                      <a href="/careers/technical-community-manager" className="career-title">Your Dream Job</a>
+                      <a href="mailto:info@openinfra.dev" className="career-title">Your Dream Job</a>
                       <p>
                       Don't see a position that you're a fit for? No worries! If you are a hard working, friendly, lover of open source, please say "hi" and send us your resume. We are always looking for potential fits for future positions.
                       </p>

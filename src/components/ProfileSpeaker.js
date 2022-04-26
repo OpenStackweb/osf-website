@@ -402,10 +402,10 @@ export const ProfileSpeaker = ({
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-full`}>
                       <span>
-                        Speakers agree that Open Infrastructure Foundation may record and publish any talks presented
-                        during the OpenStack Summit. If you submit a proposal on behalf of a speaker, you represent
-                        to Open Infrastructure Foundation that you have the authority to submit the proposal on the
-                        speaker's behalf and agree to the recording and publication of their presentation.
+                        Speakers agree that OpenInfra Foundation may record and publish any talks presented
+                        during the OpenInfra Summit. If you submit a proposal on behalf of a speaker, you
+                        represent to OpenInfra Foundation that you have the authority to submit the proposal
+                        on the speaker's behalf and agree to the recording and publication of their presentation.
                       </span>
                     </div>
                   </div>

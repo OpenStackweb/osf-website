@@ -122,7 +122,8 @@
         max-height: 200px;
         max-width: 200px;
         border-radius: 50%;
-        object-fit: contain;
+        object-fit: cover;
+        object-position: center;
         @media (max-width: 768px) {
           max-height: 100px;
           max-width: 100px;

@@ -15,7 +15,7 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2022-04-26T20:02:06.270Z
+    date: 2022-05-05T14:00:00.000Z
     youtubeEmbed: https://www.youtube.com/embed/7MIH6sCbvmc
     youtubeLink: https://www.youtube.com/watch?v=7MIH6sCbvmc
     episodeTitle: OpenInfra Summit Features Linux OpenStack Kubernetes

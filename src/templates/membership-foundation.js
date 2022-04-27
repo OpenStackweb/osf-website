@@ -1,19 +1,20 @@
 import React from "react"
-import {connect} from 'react-redux'
-import {navigate} from "gatsby"
+import { connect } from 'react-redux'
+import { navigate } from "gatsby"
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
-import {updateMembershipType, MEMBERSHIP_TYPE_FOUNDATION} from "../actions/user-actions"
+import { updateMembershipType, MEMBERSHIP_TYPE_FOUNDATION } from "../actions/user-actions"
 import legalDoc from '../content/legal-document.json';
+import Swal from "sweetalert2";
 
 export const MembershipFoundationPageTemplate = ({
-                                                    updateMembershipType,
-                                                    isLoggedUser,
-                                                    location
-                                                }) => {
+    updateMembershipType,
+    isLoggedUser,
+    location
+}) => {
 
 
     const cancel = () => {
@@ -21,15 +22,16 @@ export const MembershipFoundationPageTemplate = ({
     }
 
     const resign = () => {
-        updateMembershipType(MEMBERSHIP_TYPE_FOUNDATION).then(() => navigate('/a/profile'))
+        const message = 'Membership Updated';
+        updateMembershipType(MEMBERSHIP_TYPE_FOUNDATION).then(() => Swal.fire("Success", message, "success").then(() => navigate('/a/profile')))
     }
 
     return (
         <div>
             <div className="wrapper project-background">
-                <TopBar/>
-                <Navbar isLoggedUser={isLoggedUser}/>
-                <Header title="Upgrade To Foundation Member"/>
+                <TopBar />
+                <Navbar isLoggedUser={isLoggedUser} />
+                <Header title="Upgrade To Foundation Member" />
             </div>
 
             <main className="main">
@@ -54,7 +56,7 @@ export const MembershipFoundationPageTemplate = ({
     )
 }
 
-const MembershipFoundationPage = ({updateMembershipType, isLoggedUser, location}) => {
+const MembershipFoundationPage = ({ updateMembershipType, isLoggedUser, location }) => {
     return (
         <Layout>
             <SEO />
@@ -68,8 +70,8 @@ const MembershipFoundationPage = ({updateMembershipType, isLoggedUser, location}
 }
 
 export default connect(state => ({
-        isLoggedUser: state.loggedUserState.isLoggedUser,
-    }), {
-        updateMembershipType
-    }
+    isLoggedUser: state.loggedUserState.isLoggedUser,
+}), {
+    updateMembershipType
+}
 )(MembershipFoundationPage)

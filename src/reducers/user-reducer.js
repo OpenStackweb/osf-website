@@ -12,6 +12,9 @@ import {
   START_LOADING_PROFILE,
   STOP_LOADING_PROFILE,
   GET_USER_PROFILE,
+  START_LOADING_SPEAKER_PROFILE,
+  STOP_LOADING_SPEAKER_PROFILE,
+  GET_SPEAKER_PROFILE,
   REMOVE_FROM_SCHEDULE,
   ADD_TO_SCHEDULE
 } from '../actions/user-actions'
@@ -20,6 +23,8 @@ const DEFAULT_STATE = {
   loadingIDP: false,
   idpProfile: null,
   userProfile: null,
+  loadingSpeaker: false,
+  speakerProfile: null,
   currentMembershipType: null,
   currentAffiliations: [],
   isAuthorized: false,
@@ -41,17 +46,23 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       return { ...state, loadingIDP: true };
     case STOP_LOADING_IDP_PROFILE:
       return { ...state, loadingIDP: false };
+    case START_LOADING_SPEAKER_PROFILE:
+      return { ...state, loadingSpeaker: true };
+    case STOP_LOADING_SPEAKER_PROFILE:
+      return { ...state, loadingSpeaker: false };
     case GET_IDP_PROFILE:
       return { ...state, idpProfile: payload.response }
     case GET_USER_PROFILE:
       const { response: userProfile } = payload;
-      return { ...state,
+      return {
+        ...state,
         userProfile: userProfile,
-     //   isAuthorized: isAuthorizedUser(userProfile.groups),
-     //   hasTicket: userProfile.summit_tickets?.length > 0
+        //   isAuthorized: isAuthorizedUser(userProfile.groups),
+        //   hasTicket: userProfile.summit_tickets?.length > 0
       }
     case RECEIVE_USER_INFO:
       let { response } = action.payload;
+      console.log('response', response)
       let affiliations = response.affiliations.map((a) => {
         return { ...a };
       });
@@ -91,17 +102,48 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       return { ...state, currentMembershipType: member.membership_type };
     }
     case SCHEDULE_SYNC_LINK_RECEIVED:
-      const {link} = payload.response;
-      return { ...state, userProfile: {...state.userProfile, schedule_shareable_link: link} };
+      const { link } = payload.response;
+      return { ...state, userProfile: { ...state.userProfile, schedule_shareable_link: link } };
     case ADD_TO_SCHEDULE: {
-      const {event} = payload;
+      const { event } = payload;
       const schedule_summit_events = [...state.userProfile.schedule_summit_events, event];
       return { ...state, userProfile: { ...state.userProfile, schedule_summit_events } }
     }
     case REMOVE_FROM_SCHEDULE: {
-      const {event} = payload;
+      const { event } = payload;
       const schedule_summit_events = state.userProfile.schedule_summit_events.filter(ev => ev.id !== event.id);
       return { ...state, userProfile: { ...state.userProfile, schedule_summit_events } }
+    }
+    case GET_SPEAKER_PROFILE: {
+      let entity = { ...payload.response };
+
+      for (var key in entity) {
+        if (entity.hasOwnProperty(key)) {
+          entity[key] = (entity[key] == null) ? '' : entity[key];
+        }
+      }
+
+      let areasOfExpertise = entity.areas_of_expertise.map(aoe => ({ label: aoe.expertise, value: aoe.id }));
+      entity.areas_of_expertise = areasOfExpertise;
+
+      let orgRoles = entity.organizational_roles.map(or => or.id);
+      entity.organizational_roles = orgRoles;
+
+      let languages = entity.languages.map(l => l.id);
+      entity.languages = languages;
+
+      let travel_preferences = entity.travel_preferences.map(c => c.country_iso_code);
+      entity.travel_preferences = travel_preferences;
+
+      if (entity.other_presentation_links.length < 5) {
+        let link = { title: '', link: '' };
+        let missing = 5 - entity.other_presentation_links.length;
+        let presentation_links = [...entity.other_presentation_links];
+        presentation_links.length += missing;
+        presentation_links.fill(Object.assign({}, link), entity.other_presentation_links.length);
+        entity.other_presentation_links = presentation_links;
+      }
+      return { ...state, speakerProfile: { ...state.speakerProfile, ...entity } };
     }
     default:
       return state;

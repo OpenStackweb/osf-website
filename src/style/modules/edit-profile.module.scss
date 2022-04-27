@@ -7,22 +7,24 @@
 
 .fullProfile {
   align-items: flex-start;
+  gap: 20px;
 
   > div {
     &:nth-of-type(2) {
       padding: 0;
     }
-
-    &:not(:first-of-type) {
-      margin-left: 20px;
-    }
   }
 
+  .pictureWrapper {
+    padding: 0;
+  }
   .pictureContainer {
-    border: 0.5px solid #000;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    padding: 25px 15px;
+    padding: 25px 15px 0px;
+    text-align: center;
     button {
       border: none;
       background: none;
@@ -32,6 +34,11 @@
       text-overflow: ellipsis;
       display: inline-block;
       margin: 15px 0;
+      b {
+        text-transform: capitalize;
+      }
+    }
+    a {
       font-weight: bold;
     }
   }
@@ -47,15 +54,23 @@
       width: 100%;
       max-height: 200px;
       max-width: 200px;
-      border-radius: 10px;
+      border-radius: 50%;
       object-fit: contain;
+    }
+  }
+
+  .uploadPicture {
+    display: flex;
+    align-items: baseline;
+    i {
+      margin-left: 10px;
     }
   }
 
   .imageUpload {
     position: absolute;
-    bottom: 5px;
-    left: 56%;
+    bottom: 10px;
+    left: 45%;
 
     .pictureIcon {
       color: #ffffff;
@@ -64,11 +79,98 @@
     }
   }
 
+  .speakerPictures {
+    .pictureContainer {
+      flex-direction: row;
+      text-align: start;
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+      > div {
+        width: 50%;
+        @media (max-width: 768px) {
+          width: 100%;
+          &:last-of-type {
+            margin-top: 30px;
+          }
+        }
+      }
+      button {
+        text-align: start;
+      }
+      b {
+        text-transform: initial;
+      }
+      a {
+        font-weight: bold;
+      }
+    }
+    .profilePicture {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      height: 200px;
+      margin-top: 20px;
+      @media (max-width: 768px) {
+        height: 100px;
+      }
+
+      img {
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+        max-height: 200px;
+        max-width: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        @media (max-width: 768px) {
+          max-height: 100px;
+          max-width: 100px;
+        }
+      }
+    }
+
+    .uploadPicture {
+      display: flex;
+      align-items: baseline;
+      i {
+        margin-left: 10px;
+      }
+    }
+
+    .imageUpload {
+      position: relative;
+      bottom: auto;
+      left: auto;
+      display: flex;
+      align-items: baseline;
+      padding-left: 10px;
+      span {
+        text-transform: none;
+      }
+      .pictureIcon {
+        color: #000;
+        z-index: 10;
+        cursor: pointer;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .resignWrapper {
+    border-top: 1px solid #d3d3d3;
+    margin: 20px -15px 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .formContainer {
-    border-left: 1px solid #d3d3d3;
-    border-right: 1px solid #d3d3d3;
-    border-bottom: 1px solid #d3d3d3;
+    border: 1px solid #d3d3d3;
     padding: 0px 20px 10px;
+    border-radius: 5px;
 
     &:not(:first-of-type) {
       margin-top: 20px;
@@ -83,7 +185,6 @@
       padding: 10px 15px;
       width: calc(100% + 40px);
       border-bottom: 1px solid #d3d3d3;
-      border-top: 1px solid #d3d3d3;
     }
 
     .form {
@@ -103,7 +204,7 @@
             background-color: unset;
             color: black;
             padding: 0 0 0 10px;
-            border-radius: 0;
+            border-radius: 5px;
             &.disabled {
               background-color: #eee;
             }
@@ -137,6 +238,9 @@
               margin-right: 5px;
               vertical-align: middle;
             }
+            input[type="text"] {
+              margin-left: 10px;
+            }
           }
 
           .textarea {
@@ -145,7 +249,13 @@
             background-color: unset;
             color: black;
             padding: 10px;
-            border-radius: 0;
+            border-radius: 5px;
+          }
+
+          .textEditor {
+            min-height: 200px;
+            border: 0.5px solid black;
+            border-radius: 5px;
           }
 
           .datepicker {
@@ -170,6 +280,7 @@
             width: 100%;
             background-color: unset;
             color: black;
+            border-radius: 5px;
             &:active {
               border: none;
             }
@@ -180,6 +291,7 @@
               border: none;
               &:nth-child(3) {
                 height: 250px;
+                z-index: 1000;
               }
               > div {
                 height: 100%;
@@ -228,7 +340,8 @@
   padding: 0.75rem;
   .programList {
     list-style: none !important;
-    columns: 200px 3;
+    columns: 200px 2;
+    padding: 20px 10px;
     li {
       padding-left: 20px;
       margin: 10px 0;

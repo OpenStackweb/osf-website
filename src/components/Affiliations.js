@@ -23,14 +23,14 @@ const Affiliations = class extends React.Component {
     }
 
     onHandleEdit(ev){
-        let id = parseInt(ev.target.dataset.id);
+        let id = parseInt(ev.currentTarget.dataset.id);
         let selectedAffiliation = this.props.affiliations.find(a => a.id === id);
         if(!selectedAffiliation) return;
         this.setState({...this.state, showModal : true, selectedAffiliation: selectedAffiliation});
     }
 
     onHandleDelete(ev){
-        let id = parseInt(ev.target.dataset.id);
+        let id = parseInt(ev.currentTarget.dataset.id);
         this.props.deleteAffiliation(id);
     }
 
@@ -89,10 +89,14 @@ const Affiliations = class extends React.Component {
                                     <td key="start_date">{formatEpoch(a.start_date, "YYYY-MM-DD")}</td>
                                     <td key="end_date">{formatEpoch(a.end_date, "YYYY-MM-DD")}</td>
                                     <td key="is_current">{a.is_current ? 'Yes' : 'No'}</td>
-                                    <td>
-                                        <button data-id={a.id} onClick={this.onHandleEdit}>Edit</button>
+                                    <td style={{display: 'flex'}}>
+                                        <button data-id={a.id} onClick={this.onHandleEdit}>
+                                            <i className={`fa fa-pencil`} />
+                                        </button>
                                         &nbsp;
-                                        <button data-id={a.id} onClick={this.onHandleDelete}>Delete</button>
+                                        <button data-id={a.id} onClick={this.onHandleDelete}>
+                                            <i className={`fa fa-trash`} />
+                                        </button>
                                     </td>
                                 </tr>
                             )

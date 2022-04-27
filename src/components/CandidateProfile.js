@@ -114,7 +114,9 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
                     <span>You have not nominated any candidates for this election.</span>
                 }
                 <button className="" onClick={() => handleSeeNominations()}>See The Current Nominations</button>
-                <button className="" onClick={() => handleNominateMember()}>Nominate a Member</button>
+                {ready && electionStatus.status === 'NominationsOpen' &&
+                    <button className="" onClick={() => handleNominateMember()}>Nominate a Member</button>
+                }
             </div>
         </div>
     )

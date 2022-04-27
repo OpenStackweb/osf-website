@@ -7,9 +7,6 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
 import MembershipType from "../components/MembershipType";
-import ProfileForm from "../components/ProfileForm"
-import Affiliations from "../components/Affiliations";
-import CandidateProfile from "../components/CandidateProfile"
 import URI from "urijs";
 import { MEMBERSHIP_TYPE_NONE } from "../actions/user-actions";
 import 'openstack-uicore-foundation/lib/css/components.css';
@@ -23,15 +20,14 @@ import {
     updateIDPProfile,
     updateProfile,
     getIDPProfile,
-    updatePassword,
     getUserProfile
 } from "../actions/user-actions"
-import { getMemberProfile, getElectionMemberProfile } from '../actions/member-actions';
-import { getElectionStatus } from "../actions/election-actions";
+import { getMemberProfile } from '../actions/member-actions';
 import {
     updateUserInfo
 } from "openstack-uicore-foundation/lib/methods";
 import { ProfileManagement } from "../components/ProfileManagementComponent";
+import ProfileSubNav from "../components/ProfileSubNav";
 
 export const ProfilePageTemplate = ({
     currentMember,
@@ -41,13 +37,11 @@ export const ProfilePageTemplate = ({
     isLoggedUser,
     location,
     updateMembershipType,
-    electionStatus,
     user,
     updateProfilePicture,
     updateIDPProfile,
     updateProfile,
     getIDPProfile,
-    updatePassword,
     getUserProfile,
 }) => {
 
@@ -85,7 +79,7 @@ export const ProfilePageTemplate = ({
             return;
         }
         setValidationError(null);
-        updateMembershipType(currentMembershipType);
+        return updateMembershipType(currentMembershipType);
     }
 
     return (
@@ -93,7 +87,10 @@ export const ProfilePageTemplate = ({
             <div className="wrapper project-background">
                 <TopBar />
                 <Navbar isLoggedUser={isLoggedUser} />
-                <Header title="Profile" />
+                {initialMembershipType !== MEMBERSHIP_TYPE_NONE &&
+                    <ProfileSubNav activePage='profile-details' pageName='Your Details' />
+                }
+                <Header title="Profile" subTitle="My Details" />
             </div>
 
             <main className="main">
@@ -110,34 +107,26 @@ export const ProfilePageTemplate = ({
                                         handleResign={() => handleResign()}
                                         onSelectMembershipType={(type) => onSelectMembershipType(type)}
                                     />
-                                    {electionStatus?.status === "NominationsOpen" &&
-                                        <>
-                                            <hr />
-                                            <CandidateProfile electionStatus={electionStatus} electionProfile={currentMember} />
-                                        </>
-                                    }
                                     {
                                         currentMembershipType !== MEMBERSHIP_TYPE_NONE &&
                                         <React.Fragment>
-                                            <hr />                                            
+                                            <hr />
                                             <ProfileManagement
                                                 user={user}
+                                                currentMembershipType={currentMembershipType}
+                                                initialMembershipType={initialMembershipType}
+                                                submitApplication={() => onSubmitApplication()}
                                                 affiliations={currentAffiliations}
                                                 ownerId={currentMember.id}
                                                 updateProfilePicture={updateProfilePicture}
                                                 updateIDPProfile={updateIDPProfile}
                                                 updateProfile={updateProfile}
                                                 getIDPProfile={getIDPProfile}
-                                                updatePassword={updatePassword}
                                                 getUserProfile={getUserProfile} />
                                         </React.Fragment>
-                                    }                                    
+                                    }
                                     {validationError &&
                                         <p className="validation_error">{validationError}</p>
-                                    }
-                                    {
-                                        currentMembershipType !== MEMBERSHIP_TYPE_NONE && initialMembershipType === MEMBERSHIP_TYPE_NONE &&
-                                        <button role="button" className="btn" onClick={() => onSubmitApplication()}>Submit my Application</button>
                                     }
                                 </div>
                             </div>
@@ -157,38 +146,18 @@ const ProfilePage = ({
     isLoggedUser,
     location,
     updateMembershipType,
-    getElectionMemberProfile,
-    getElectionStatus,
-    electionStatus,
     updateUserInfo,
     user,
     updateProfilePicture,
     updateIDPProfile,
     updateProfile,
     getIDPProfile,
-    updatePassword,
     getUserProfile,
 }) => {
 
     useEffect(() => {
-        getElectionStatus();
-        if (currentMember?.id) {
-            getElectionMemberProfile
-                (
-                    currentMember?.id,
-                    'groups,all_affiliations,candidate_profile,election_applications,election_nominations,election_nominations.candidate',
-                    'election_nominations.candidate.first_name,election_nominations.candidate.last_name',
-                    'election_applications.nominator.none,election_nominations.candidate.none'
-                ).then((profile) => {
-
-                    const updatedProfile = {
-                        ...currentMember,
-                        election_applications: [...profile.election_applications],
-                        election_nominations: [...profile.election_nominations],
-                    };
-                    updateUserInfo(updatedProfile);
-                });
-        }
+        getUserProfile();
+        getIDPProfile();
     }, [])
 
     return (
@@ -202,13 +171,11 @@ const ProfilePage = ({
                 location={location}
                 isLoggedUser={isLoggedUser}
                 updateMembershipType={updateMembershipType}
-                electionStatus={electionStatus}
                 user={user}
                 updateProfilePicture={updateProfilePicture}
                 updateIDPProfile={updateIDPProfile}
                 updateProfile={updateProfile}
                 getIDPProfile={getIDPProfile}
-                updatePassword={updatePassword}
                 getUserProfile={getUserProfile}
             />
         </Layout>
@@ -220,7 +187,6 @@ export default connect(state => ({
     currentMember: state.loggedUserState.member,
     initialMembershipType: state.userState.currentMembershipType,
     currentAffiliations: state.userState.currentAffiliations,
-    electionStatus: state.electionState.election_status,
     idpProfile: state.userState.idpProfile,
     user: state.userState,
 }),
@@ -231,13 +197,10 @@ export default connect(state => ({
         addOrganization,
         updateMembershipType,
         getMemberProfile,
-        getElectionMemberProfile,
-        getElectionStatus,
         updateUserInfo,
         getIDPProfile,
         getUserProfile,
         updateIDPProfile,
         updateProfile,
         updateProfilePicture,
-        updatePassword
     })(ProfilePage)

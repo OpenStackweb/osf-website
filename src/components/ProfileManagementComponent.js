@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { AjaxLoader, CountryInput } from 'openstack-uicore-foundation/lib/components'
+import { AjaxLoader, CountryInput, TextEditor } from 'openstack-uicore-foundation/lib/components'
 import moment from "moment-timezone";
 
 import Swal from 'sweetalert2';
@@ -8,22 +8,24 @@ import Swal from 'sweetalert2';
 import ProfilePopupComponent from './ProfilePopupComponent'
 import ProfilePrograms from './ProfilePrograms'
 import ProfileFoodPreferences from './ProfileFoodPreference'
-// import ChangePasswordComponent from './ChangePasswordComponent';
 import Affiliations from './Affiliations';
 
 import styles from '../style/modules/edit-profile.module.scss'
+import { MEMBERSHIP_TYPE_NONE } from "../actions/user-actions";
+import { navigate } from 'gatsby';
 
 export const ProfileManagement = ({
   user,
   affiliations,
   ownerId,
-  isLoggedUser,
+  currentMembershipType,
+  initialMembershipType,
   getIDPProfile,
   getUserProfile,
   updateIDPProfile,
   updateProfile,
   updateProfilePicture,
-  updatePassword }) => {
+  submitApplication }) => {
 
   const [showProfile, setShowProfile] = useState(false);
   const [publicInformation, setPublicInformation] = useState({
@@ -134,59 +136,120 @@ export const ProfileManagement = ({
     updateProfilePicture(picture);
   };
 
-  const handleProfileUpdate = (fromPopup) => {
-    if (fromPopup) {
-      updateIDPProfile(fromPopup)
-    } else {
-      if (!publicInformation.firstName || !publicInformation.lastName || !publicInformation.identifier || !publicInformation.email) {
-        const msg = `Required field missing`;
-        Swal.fire("Validation error", msg, "warning");
-      } else {
-        const newIDPProfile = {
-          first_name: publicInformation.firstName,
-          last_name: publicInformation.lastName,
-          identifier: publicInformation.identifier,
-          email: publicInformation.email,
-          second_email: publicInformation.secondEmail,
-          third_email: publicInformation.thirdEmail,
-          company: publicInformation.company,
-          job_title: publicInformation.jobTitle,
-          birthday: publicInformation.birthday?.unix(),
-          github_user: publicInformation.github,
-          irc: publicInformation.irc,
-          linked_in_profile: publicInformation.linkedin,
-          wechat_user: publicInformation.wechatUser,
-          twitter_name: publicInformation.twitter,
-          language: publicInformation.language,
-          public_profile_show_fullname: showFullName,
-          public_profile_allow_chat_with_me: allowChatWithMe,
-          public_profile_show_email: showEmail,
-          bio: publicInformation.bio,
-          statement_of_interest: publicInformation.statementOfInterest,
-          gender: privateInformation.gender,
-          gender_specify: privateInformation.gender === 'Specify' ? privateInformation.specifyGender : null,
-          address1: privateInformation.street,
-          address2: privateInformation.floor,
-          city: privateInformation.city,
-          state: privateInformation.state,
-          post_code: privateInformation.zipCode,
-          country_iso_code: privateInformation.country,
-          phone_number: privateInformation.phone,
-        };
-        const newProfile = {
-          projects: publicInformation.projects,
-          other_project: publicInformation.otherProject,
-          food_preference: privateInformation.foodPreference,
-          other_food_preference: privateInformation.otherFoodPreference,
-          shirt_size: privateInformation.shirtSize,
-          display_on_site: privateInformation.displayOnSite,
-          subscribed_to_newsletter: privateInformation.subscribedToNewsletter,
-        };
-        updateIDPProfile(newIDPProfile);
-        updateProfile(newProfile);
-      }
+  const handleProfileUpdate = () => {
+    if (!publicInformation.firstName || !publicInformation.lastName || !publicInformation.identifier || !publicInformation.email) {
+      const msg = `Required field missing`;
+      Swal.fire("Validation error", msg, "warning");
+      return;
     }
-  };
+    if (affiliations.length === 0) {
+      const msg = `You need at least one affiliation`;
+      Swal.fire("Validation error", msg, "warning");
+      return;
+    }
+    const newIDPProfile = {
+      first_name: publicInformation.firstName,
+      last_name: publicInformation.lastName,
+      identifier: publicInformation.identifier,
+      email: publicInformation.email,
+      second_email: publicInformation.secondEmail,
+      third_email: publicInformation.thirdEmail,
+      company: publicInformation.company,
+      job_title: publicInformation.jobTitle,
+      birthday: publicInformation.birthday?.unix(),
+      github_user: publicInformation.github,
+      irc: publicInformation.irc,
+      linked_in_profile: publicInformation.linkedin,
+      wechat_user: publicInformation.wechatUser,
+      twitter_name: publicInformation.twitter,
+      language: publicInformation.language,
+      public_profile_show_fullname: showFullName,
+      public_profile_allow_chat_with_me: allowChatWithMe,
+      public_profile_show_email: showEmail,
+      bio: publicInformation.bio,
+      statement_of_interest: publicInformation.statementOfInterest,
+      gender: privateInformation.gender,
+      gender_specify: privateInformation.gender === 'Specify' ? privateInformation.specifyGender : null,
+      address1: privateInformation.street,
+      address2: privateInformation.floor,
+      city: privateInformation.city,
+      state: privateInformation.state,
+      post_code: privateInformation.zipCode,
+      country_iso_code: privateInformation.country,
+      phone_number: privateInformation.phone,
+    };
+    const newProfile = {
+      projects: publicInformation.projects,
+      other_project: publicInformation.otherProject,
+      food_preference: privateInformation.foodPreference,
+      other_food_preference: privateInformation.otherFoodPreference,
+      shirt_size: privateInformation.shirtSize,
+      display_on_site: privateInformation.displayOnSite,
+      subscribed_to_newsletter: privateInformation.subscribedToNewsletter,
+    };
+    updateIDPProfile(newIDPProfile)
+    .then(() => updateProfile(newProfile).then( () => showSuccessMessage('Profile Updated')))
+  }
+
+  const showSuccessMessage = (message) => {
+    Swal.fire("Success", message, "success");
+  }
+
+  const handleSubmitApplication = () => {
+    if (!publicInformation.firstName || !publicInformation.lastName || !publicInformation.identifier || !publicInformation.email) {
+      const msg = `Required field missing`;
+      Swal.fire("Validation error", msg, "warning");
+      return;
+    }
+    if (affiliations.length === 0) {
+      const msg = `You need at least one affiliation`;
+      Swal.fire("Validation error", msg, "warning");
+      return;
+    }
+    const newIDPProfile = {
+      first_name: publicInformation.firstName,
+      last_name: publicInformation.lastName,
+      identifier: publicInformation.identifier,
+      email: publicInformation.email,
+      second_email: publicInformation.secondEmail,
+      third_email: publicInformation.thirdEmail,
+      company: publicInformation.company,
+      job_title: publicInformation.jobTitle,
+      birthday: publicInformation.birthday?.unix(),
+      github_user: publicInformation.github,
+      irc: publicInformation.irc,
+      linked_in_profile: publicInformation.linkedin,
+      wechat_user: publicInformation.wechatUser,
+      twitter_name: publicInformation.twitter,
+      language: publicInformation.language,
+      public_profile_show_fullname: showFullName,
+      public_profile_allow_chat_with_me: allowChatWithMe,
+      public_profile_show_email: showEmail,
+      bio: publicInformation.bio,
+      statement_of_interest: publicInformation.statementOfInterest,
+      gender: privateInformation.gender,
+      gender_specify: privateInformation.gender === 'Specify' ? privateInformation.specifyGender : null,
+      address1: privateInformation.street,
+      address2: privateInformation.floor,
+      city: privateInformation.city,
+      state: privateInformation.state,
+      post_code: privateInformation.zipCode,
+      country_iso_code: privateInformation.country,
+      phone_number: privateInformation.phone,
+    };
+    const newProfile = {
+      projects: publicInformation.projects,
+      other_project: publicInformation.otherProject,
+      food_preference: privateInformation.foodPreference,
+      other_food_preference: privateInformation.otherFoodPreference,
+      shirt_size: privateInformation.shirtSize,
+      display_on_site: privateInformation.displayOnSite,
+      subscribed_to_newsletter: privateInformation.subscribedToNewsletter,
+    };
+
+    submitApplication()
+      .then(() => updateIDPProfile(newIDPProfile).then( () => updateProfile(newProfile).then(() => showSuccessMessage('Membership Updated') )));
+  }
 
   const handleTogglePopup = (profile) => {
     if (profile) {
@@ -197,6 +260,18 @@ export const ProfileManagement = ({
     setShowProfile(profile)
   };
 
+  const handleConvertCommunityMember = () => {
+    navigate('/a/profile/membership/community')
+  };
+
+  const handleConvertFoundationMember = () => {
+    navigate('/a/profile/membership/foundation')
+  }
+
+  const handleResign = () => {
+    navigate('/a/profile/membership/resign')
+  }
+
 
   return (
     <>
@@ -204,6 +279,30 @@ export const ProfileManagement = ({
       <div>
         <div className="px-6 py-6 mb-6">
           <div className={`columns ${styles.fullProfile}`} >
+            <div className={`column is-3 ${styles.pictureWrapper}`}>
+              <div className={styles.pictureContainer}>
+                <div className={styles.profilePicture} onClick={() => handleTogglePopup(!showProfile)}>
+                  <img alt="profile pic" src={image} />
+                  <div className={styles.imageUpload}>
+                    <i className={`${styles.pictureIcon} fa fa-2x fa-pencil icon is-large`} />
+                  </div>
+                </div>
+
+                <h3>
+                  {user.idpProfile.given_name} {user.idpProfile.family_name}
+                </h3>
+                <span>
+                  Current Member Level <br />
+                  <b>{currentMembershipType}</b>
+                </span>
+                <a onClick={() => currentMembershipType.toLowerCase() === 'community' ? handleConvertFoundationMember() : handleConvertCommunityMember()}>
+                  Change to {currentMembershipType.toLowerCase() === 'community' ? 'Foundation' : 'Community'} Member
+                </a>
+                <div className={styles.resignWrapper}>
+                  <a onClick={() => handleResign()}>Resign Membership</a>
+                </div>
+              </div>
+            </div>
             <div className="column">
               <div className={styles.formContainer}>
                 <div className={styles.header}>Email Addresses</div>
@@ -362,29 +461,10 @@ export const ProfileManagement = ({
                   <div className={`columns is-mobile ${styles.inputRow}`}>
                     <div className={`column is-full ${styles.inputField}`}>
                       <b>Bio</b>
-                      <textarea
-                        className={`textarea ${styles.textarea}`}
-                        placeholder=''
-                        rows="6"
+                      <TextEditor id="bio"
+                        className={styles.textEditor}
                         onChange={e => setPublicInformation({ ...publicInformation, bio: e.target.value })}
-                        value={publicInformation.bio}
-                      >
-                      </textarea>
-                    </div>
-                  </div>
-                  <div className={`columns is-mobile ${styles.inputRow}`}>
-                    <div className={`column is-full ${styles.inputField}`}>
-                      <b>Photo <i>(Optional)</i></b>
-                      <div className={`${styles.pictureContainer}`}>
-                        <button className="link" onClick={() => handleTogglePopup(!showProfile)}>
-                          <div className={styles.profilePicture}>
-                            <img alt="profile pic" src={image} />
-                            <div className={styles.imageUpload}>
-                              <i className={`${styles.pictureIcon} fa fa-2x fa-pencil icon is-large`} />
-                            </div>
-                          </div>
-                        </button>
-                      </div>
+                        value={publicInformation.bio} />
                     </div>
                   </div>
                   <hr />
@@ -579,7 +659,12 @@ export const ProfileManagement = ({
               </div>
               <div className={`columns is-mobile ${styles.buttons}`}>
                 <div className={`column is-half`}>
-                  <button className="button is-large" onClick={() => handleProfileUpdate()}>Update</button>
+                  {
+                    currentMembershipType !== MEMBERSHIP_TYPE_NONE && initialMembershipType === MEMBERSHIP_TYPE_NONE ?
+                      <button role="button" className="button is-large" onClick={() => handleSubmitApplication()}>Submit my Application</button>
+                      :
+                      <button className="button is-large" onClick={() => handleProfileUpdate()}>Update</button>
+                  }
                 </div>
               </div>
             </div>
@@ -587,12 +672,11 @@ export const ProfileManagement = ({
         </div>
         {showProfile &&
           <ProfilePopupComponent
-            userProfile={user.idpProfile}
+            profile={user.idpProfile}
             showProfile={showProfile}
             idpLoading={user.loadingIDP}
             fromFullProfile={true}
             changePicture={(pic) => handlePictureUpdate(pic)}
-            changeProfile={(profile) => handleProfileUpdate(profile)}
             closePopup={() => handleTogglePopup(!showProfile)}
           />
         }
@@ -608,5 +692,4 @@ ProfileManagement.propTypes = {
   updateIDPProfile: PropTypes.func,
   updateProfile: PropTypes.func,
   updateProfilePicture: PropTypes.func,
-  updatePassword: PropTypes.func
 };

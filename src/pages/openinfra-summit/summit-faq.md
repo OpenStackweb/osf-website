@@ -61,6 +61,9 @@ In Eventbrite, there is a blue "Enter Promo Code" option above the ticket option
 
 If you have questions about registration, please email [summit@openinfra.dev](mailto:summit@openinfra.dev)
 
+**Do you offer registration refunds or ticket transfers?** <br>
+Yes, refunds and ticket transfers will be processed until May 27th, 2022 at 11:59 PT.
+
 #### ONSITE SAFETY PRECAUTIONS
 
 Our attendees’ health and safety remain our top priority as we continue to monitor COVID-19. We will follow all venue, local, and WHO guidelines to make the best and most informed decisions around onsite safety and requirements. 

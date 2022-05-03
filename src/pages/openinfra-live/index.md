@@ -15,20 +15,6 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2022-05-05T14:00:00.000Z
-    youtubeEmbed: https://www.youtube.com/embed/7MIH6sCbvmc
-    youtubeLink: https://www.youtube.com/watch?v=7MIH6sCbvmc
-    episodeTitle: OpenInfra Summit Features Linux OpenStack Kubernetes
-      Infrastructure Use Cases
-    episodeDescription: >-
-      LOKI (Linux, OpenStack, Kubernetes, Infrastructure), the OpenInfra
-      Standard defines the ubiquitous way these technologies are integrated
-      together in production. LOKI helps operators identify successful patterns
-      and combinations of technologies to build production infrastructure. 
-
-
-      The schedule for the OpenInfra Summit Berlin (June 7-9) features sessions around all these technologies! Check out a sneak peek of a few of the sessions about Linux, OpenStack and Kubernetes infrastructure you can expect at the Summit.
-  - hidden: false
     date: 2022-04-28T14:00:31.084Z
     episodeTitle: Composable Infrastructure and the Future of Data Centers
     episodeDescription: "The advent of composable hardware introduces complexity and

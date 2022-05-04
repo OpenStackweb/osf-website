@@ -60,7 +60,6 @@ export const SummitPageTemplate = ({
                 </span>
                 <section className="cta-wrapper">
                   <LinkComponent className="button-cta" href="https://openinfrasummitberlin.eventbrite.com">Register Now<img src={leftArrow} alt="" /></LinkComponent>
-                  <LinkComponent className="button-cta outline" href="/summit-sponsor">Become a Sponsor</LinkComponent>
                 </section>
               </div>
               <div className="header-right">
@@ -101,7 +100,7 @@ export const SummitPageTemplate = ({
               <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
             </span>
             <SummitSponsorSlider summit_sponsors={summit_sponsors} />
-            <LinkComponent className="button-cta" href="/summit-sponsor">Become a Sponsor<img src={leftArrow} alt="" /></LinkComponent>
+            <LinkComponent className="button-cta" href="/summit-sponsor">View all Sponsors<img src={leftArrow} alt="" /></LinkComponent>
           </section>
 
           <LogoBanner title="Register before tickets sell out!" cta="Register Now" href="https://openinfrasummitberlin.eventbrite.com/" />

@@ -8,9 +8,9 @@ seo:
   url: https://openinfra.dev/summit-sponsor/
 header:
   display: true
-  title: Sponsor the OpenInfra Summit Berlin 2022
+  title: Thank you OpenInfra Summit Berlin Sponsors!
   description: >
-    Having a presence at the Summit is a great way to get your company in front of the OpenInfra community. Learn how to sponsor the Summit in just 3 steps.
+    The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure.
   image: /img/summit/Sponsors-Hero.jpg
 form:
   display: true

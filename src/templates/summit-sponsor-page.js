@@ -57,7 +57,7 @@ export const SummitSponsorPageTemplate = ({
           <hr className="dividing-line"/>
             <span className="title">Sponsors</span>
             <span className="description">
-              <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
+              <p> A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
             </span>
             <SummitSponsors summit_sponsors={summit_sponsors} />
           </section>

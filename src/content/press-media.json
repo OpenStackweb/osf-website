@@ -1,12 +1,13 @@
 {
   "articles": [
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2022-05-05T22:05:22.164Z",
       "site": "PRWeb",
       "title": "Newly Announced Speakers to Address 5G, DPUs, Confidential Computing, Sustainability and Other Hot Topics at Open Infrastructure Summit Berlin",
-      "link": "https://www.prweb.com/releases/newly_announced_speakers_to_address_5g_dpus_confidential_computing_sustainability_and_other_hot_topics_at_open_infrastructure_summit_berlin/prweb18660662.htm"
+      "link": "https://www.prweb.com/releases/newly_announced_speakers_to_address_5g_dpus_confidential_computing_sustainability_and_other_hot_topics_at_open_infrastructure_summit_berlin/prweb18660662.htm",
+      "image": "/img/https___cdn.evbuc.com_images_187231769_3486280322_1_original.jpg"
     },
     {
       "featured": false,

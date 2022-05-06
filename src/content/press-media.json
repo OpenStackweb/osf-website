@@ -10,12 +10,13 @@
       "image": "/img/https___cdn.evbuc.com_images_187231769_3486280322_1_original.jpg"
     },
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2022-03-30T22:05:00.000Z",
       "site": "PRWeb",
       "title": "OpenStack Demonstrates Harmony of Stability and Innovation with 25th Release, Yoga",
-      "link": "https://www.prweb.com/releases/openstack_demonstrates_harmony_of_stability_and_innovation_with_25th_release_yoga/prweb18580847.htm"
+      "link": "https://www.prweb.com/releases/openstack_demonstrates_harmony_of_stability_and_innovation_with_25th_release_yoga/prweb18580847.htm",
+      "image": "/img/tn_159531_yoga-release-logo-web.png"
     },
     {
       "featured": false,
@@ -34,20 +35,22 @@
       "link": "https://www.prweb.com/releases/open_infrastructure_foundation_welcomes_six_new_associate_members/prweb18500663.htm"
     },
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2022-02-01T23:00:00.000Z",
       "site": "PRWeb",
       "title": "Enhanced Security, Streamlined Automation and Deployment Features Shine in Release 6.0 of StarlingX, the Open Source Platform for Edge",
-      "link": "https://www.prweb.com/releases/enhanced_security_streamlined_automation_and_deployment_features_shine_in_release_6_0_of_starlingx_the_open_source_platform_for_edge/prweb18469465.htm"
+      "link": "https://www.prweb.com/releases/enhanced_security_streamlined_automation_and_deployment_features_shine_in_release_6_0_of_starlingx_the_open_source_platform_for_edge/prweb18469465.htm",
+      "image": "/img/gi_159393_newsimage_vcsprasset_1585367_159393_85e20df7-c13e-4777-ad57-ac1704ce2328_0.png"
     },
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2022-02-01T23:00:00.000Z",
       "site": "PRWeb",
       "title": "Zuul 5.0 Release Advances High Availability, Scalability and Ease of Use of Popular Open Source Project Gating Software",
-      "link": "https://www.prweb.com/releases/zuul_5_0_release_advances_high_availability_scalability_and_ease_of_use_of_popular_open_source_project_gating_software/prweb18469501.htm"
+      "link": "https://www.prweb.com/releases/zuul_5_0_release_advances_high_availability_scalability_and_ease_of_use_of_popular_open_source_project_gating_software/prweb18469501.htm",
+      "image": "/img/gi_159392_newsimage_vcsprasset_1585367_159392_d32cf6ed-f13d-4b36-a4cb-aed6db8c6e85_0.png"
     },
     {
       "featured": false,
@@ -66,20 +69,22 @@
       "link": "https://www.prweb.com/releases/open_infrastructure_foundation_seats_a_diverse_board_leadership_group_appoints_gm_to_support_next_ten_years_of_openinfra_growth/prweb18463061.htm"
     },
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2021-10-06T22:06:25.677Z",
       "title": "OpenStack gains new momentum, as deployments increase during the pandemic",
       "link": "https://techcrunch.com/2021/10/06/openstack-gains-new-momentum-as-deployments-increase-during-the-pandemic/",
-      "site": "TechCrunch"
+      "site": "TechCrunch",
+      "image": "/img/mvimg_20171108_120128.webp"
     },
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2021-11-18T00:00:00.000Z",
       "site": "PRWeb",
       "link": "https://www.prweb.com/releases/openinfra_software_adoption_surges_spurred_by_growth_in_openstack_deployments_which_now_exceed_25_million_cores/prweb18341197.htm",
-      "title": "OpenInfra Software Adoption Surges, Spurred by Growth in OpenStack Deployments, Which Now Exceed 25 Million Cores"
+      "title": "OpenInfra Software Adoption Surges, Spurred by Growth in OpenStack Deployments, Which Now Exceed 25 Million Cores",
+      "image": "/img/gi_159199_newsimage_vcsprasset_1585367_159199_158f2940-9997-4ec3-8432-26aaa33d214c_0.png"
     },
     {
       "featured": false,
@@ -280,8 +285,9 @@
       "title": "The OpenStack Foundation becomes the Open Infrastructure Foundation",
       "link": "https://techcrunch.com/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/",
       "site": "TechCrunch",
-      "featured": false,
-      "hideArticle": false
+      "featured": true,
+      "hideArticle": false,
+      "image": "/img/img_20180522_125817.webp"
     }
   ],
   "seo": {

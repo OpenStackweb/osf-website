@@ -3,10 +3,66 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2022-05-05T22:05:22.164Z",
+      "site": "PRWeb",
+      "title": "Newly Announced Speakers to Address 5G, DPUs, Confidential Computing, Sustainability and Other Hot Topics at Open Infrastructure Summit Berlin",
+      "link": "https://www.prweb.com/releases/newly_announced_speakers_to_address_5g_dpus_confidential_computing_sustainability_and_other_hot_topics_at_open_infrastructure_summit_berlin/prweb18660662.htm"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2022-03-30T22:05:00.000Z",
+      "site": "PRWeb",
+      "title": "OpenStack Demonstrates Harmony of Stability and Innovation with 25th Release, Yoga",
+      "link": "https://www.prweb.com/releases/openstack_demonstrates_harmony_of_stability_and_innovation_with_25th_release_yoga/prweb18580847.htm"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2022-03-08T23:04:00.000Z",
+      "site": "PRWeb",
+      "title": "Speakers from Bloomberg, Volvo, Adobe and More Announced for Open Infrastructure Summit in June",
+      "link": "https://www.prweb.com/releases/speakers_from_bloomberg_volvo_adobe_and_more_announced_for_open_infrastructure_summit_in_june/prweb18543152.htm"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2022-02-16T23:04:00.000Z",
+      "site": "PRWeb",
+      "title": "Open Infrastructure Foundation Welcomes Six New Associate Members",
+      "link": "https://www.prweb.com/releases/open_infrastructure_foundation_welcomes_six_new_associate_members/prweb18500663.htm"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2022-02-01T23:00:00.000Z",
+      "site": "PRWeb",
+      "title": "Enhanced Security, Streamlined Automation and Deployment Features Shine in Release 6.0 of StarlingX, the Open Source Platform for Edge",
+      "link": "https://www.prweb.com/releases/enhanced_security_streamlined_automation_and_deployment_features_shine_in_release_6_0_of_starlingx_the_open_source_platform_for_edge/prweb18469465.htm"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2022-02-01T23:00:00.000Z",
+      "site": "PRWeb",
+      "title": "Zuul 5.0 Release Advances High Availability, Scalability and Ease of Use of Popular Open Source Project Gating Software",
+      "link": "https://www.prweb.com/releases/zuul_5_0_release_advances_high_availability_scalability_and_ease_of_use_of_popular_open_source_project_gating_software/prweb18469501.htm"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2021-10-06T22:06:25.890Z",
       "link": "https://www.computerweekly.com/news/252507795/Open-Infrastructure-Foundation-hails-surge-in-OpenStack-deployments-as-Microsoft-joins-ranks",
       "site": "ComputerWeekly",
       "title": "Open Infrastructure Foundation hails surge in OpenStack deployments as Microsoft joins ranks"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2022-01-27T23:00:00.000Z",
+      "site": "PRWeb",
+      "title": "Open Infrastructure Foundation Seats A Diverse Board Leadership Group, Appoints GM to Support Next Ten Years of OpenInfra Growth",
+      "link": "https://www.prweb.com/releases/open_infrastructure_foundation_seats_a_diverse_board_leadership_group_appoints_gm_to_support_next_ten_years_of_openinfra_growth/prweb18463061.htm"
     },
     {
       "featured": false,
@@ -19,6 +75,14 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2021-11-18T00:00:00.000Z",
+      "site": "PRWeb",
+      "link": "https://www.prweb.com/releases/openinfra_software_adoption_surges_spurred_by_growth_in_openstack_deployments_which_now_exceed_25_million_cores/prweb18341197.htm",
+      "title": "OpenInfra Software Adoption Surges, Spurred by Growth in OpenStack Deployments, Which Now Exceed 25 Million Cores"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2021-10-06T22:06:25.450Z",
       "link": "https://www.servethehome.com/openstack-xena-is-out-after-adding-10m-cores-in-1-year/",
       "title": "OpenStack Xena is Out After Adding 10M Cores in 1 Year",
@@ -27,10 +91,34 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2021-11-17T23:00:00.000Z",
+      "title": "OpenInfra Foundation Welcomes ‘Taibai’ Multi-Cloud Management Project to OpenInfra Labs",
+      "site": "PRWeb",
+      "link": "https://www.prweb.com/releases/openinfra_foundation_welcomes_taibai_multi_cloud_management_project_to_openinfra_labs/prweb18341130.htm"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2021-11-17T23:00:00.000Z",
+      "site": "PRWeb",
+      "title": "OpenInfra Software Adoption Surges, Spurred by Growth in OpenStack Deployments, Which Now Exceed 25 Million Cores",
+      "link": "https://www.prweb.com/releases/openinfra_software_adoption_surges_spurred_by_growth_in_openstack_deployments_which_now_exceed_25_million_cores/prweb18341197.htm"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2021-10-06T23:41:14.165Z",
       "link": "https://www.itopstimes.com/cloud/openstack-xena-release-takes-aim-at-reducing-technical-debt/",
       "site": "ITOpsTimes",
       "title": "OpenStack Xena release takes aim at reducing technical debt"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2021-10-27T21:59:00.000Z",
+      "title": "Open Infrastructure Foundation Welcomes Nipa Cloud of Thailand as Gold Member of the Foundation",
+      "site": "PRWeb",
+      "link": "https://www.prweb.com/releases/open_infrastructure_foundation_welcomes_nipa_cloud_of_thailand_as_gold_member_of_the_foundation/prweb18291612.htm"
     },
     {
       "featured": false,
@@ -155,6 +243,14 @@
       "hideArticle": false
     },
     {
+      "date": "2021-02-08T18:58:00.000Z",
+      "link": "https://www.zdnet.com/article/top-open-source-tech-smart-board-ready-women-executives/",
+      "title": "Top open source, tech-smart, board-ready women executives",
+      "site": "ZDNet",
+      "featured": false,
+      "hideArticle": false
+    },
+    {
       "date": "2021-02-02T14:30:00.000Z",
       "link": "https://blocksandfiles.com/2021/02/02/veritas-netbackup-9-openstack-trilio/",
       "title": "Veritas stirs Trilio OpenStack into NetBackup 9.0 mix",
@@ -185,102 +281,6 @@
       "site": "TechCrunch",
       "featured": false,
       "hideArticle": false
-    },
-    {
-      "date": "2021-02-08T18:58:00.000Z",
-      "link": "https://www.zdnet.com/article/top-open-source-tech-smart-board-ready-women-executives/",
-      "title": "Top open source, tech-smart, board-ready women executives",
-      "site": "ZDNet",
-      "featured": false,
-      "hideArticle": false
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2021-10-27T21:59:00.000Z",
-      "title": "Open Infrastructure Foundation Welcomes Nipa Cloud of Thailand as Gold Member of the Foundation",
-      "site": "PRWeb",
-      "link": "https://www.prweb.com/releases/open_infrastructure_foundation_welcomes_nipa_cloud_of_thailand_as_gold_member_of_the_foundation/prweb18291612.htm"
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2021-11-17T23:00:00.000Z",
-      "title": "OpenInfra Foundation Welcomes ‘Taibai’ Multi-Cloud Management Project to OpenInfra Labs",
-      "site": "PRWeb",
-      "link": "https://www.prweb.com/releases/openinfra_foundation_welcomes_taibai_multi_cloud_management_project_to_openinfra_labs/prweb18341130.htm"
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2022-11-18T00:00:00.000Z",
-      "site": "PRWeb",
-      "link": "https://www.prweb.com/releases/openinfra_software_adoption_surges_spurred_by_growth_in_openstack_deployments_which_now_exceed_25_million_cores/prweb18341197.htm",
-      "title": "OpenInfra Software Adoption Surges, Spurred by Growth in OpenStack Deployments, Which Now Exceed 25 Million Cores"
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2021-11-17T23:00:00.000Z",
-      "site": "PRWeb",
-      "title": "OpenInfra Software Adoption Surges, Spurred by Growth in OpenStack Deployments, Which Now Exceed 25 Million Cores",
-      "link": "https://www.prweb.com/releases/openinfra_software_adoption_surges_spurred_by_growth_in_openstack_deployments_which_now_exceed_25_million_cores/prweb18341197.htm"
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2022-01-27T23:00:00.000Z",
-      "site": "PRWeb",
-      "title": "Open Infrastructure Foundation Seats A Diverse Board Leadership Group, Appoints GM to Support Next Ten Years of OpenInfra Growth",
-      "link": "https://www.prweb.com/releases/open_infrastructure_foundation_seats_a_diverse_board_leadership_group_appoints_gm_to_support_next_ten_years_of_openinfra_growth/prweb18463061.htm"
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2022-02-01T23:00:00.000Z",
-      "site": "PRWeb",
-      "title": "Enhanced Security, Streamlined Automation and Deployment Features Shine in Release 6.0 of StarlingX, the Open Source Platform for Edge",
-      "link": "https://www.prweb.com/releases/enhanced_security_streamlined_automation_and_deployment_features_shine_in_release_6_0_of_starlingx_the_open_source_platform_for_edge/prweb18469465.htm"
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2022-02-01T23:00:00.000Z",
-      "site": "PRWeb",
-      "title": "Zuul 5.0 Release Advances High Availability, Scalability and Ease of Use of Popular Open Source Project Gating Software",
-      "link": "https://www.prweb.com/releases/zuul_5_0_release_advances_high_availability_scalability_and_ease_of_use_of_popular_open_source_project_gating_software/prweb18469501.htm"
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2022-02-16T23:04:00.000Z",
-      "site": "PRWeb",
-      "title": "Open Infrastructure Foundation Welcomes Six New Associate Members",
-      "link": "https://www.prweb.com/releases/open_infrastructure_foundation_welcomes_six_new_associate_members/prweb18500663.htm"
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2022-03-08T23:04:00.000Z",
-      "site": "PRWeb",
-      "title": "Speakers from Bloomberg, Volvo, Adobe and More Announced for Open Infrastructure Summit in June",
-      "link": "https://www.prweb.com/releases/speakers_from_bloomberg_volvo_adobe_and_more_announced_for_open_infrastructure_summit_in_june/prweb18543152.htm"
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2022-03-30T22:05:00.000Z",
-      "site": "PRWeb",
-      "title": "OpenStack Demonstrates Harmony of Stability and Innovation with 25th Release, Yoga",
-      "link": "https://www.prweb.com/releases/openstack_demonstrates_harmony_of_stability_and_innovation_with_25th_release_yoga/prweb18580847.htm"
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2022-05-05T22:05:22.164Z",
-      "site": "PRWeb",
-      "title": "Newly Announced Speakers to Address 5G, DPUs, Confidential Computing, Sustainability and Other Hot Topics at Open Infrastructure Summit Berlin",
-      "link": "https://www.prweb.com/releases/newly_announced_speakers_to_address_5g_dpus_confidential_computing_sustainability_and_other_hot_topics_at_open_infrastructure_summit_berlin/prweb18660662.htm"
     }
   ],
   "seo": {

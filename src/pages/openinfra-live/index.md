@@ -25,6 +25,8 @@ episodes:
       OpenStack, Kubernetes and Canonical as they position this industry for a
       more sustainable future.
     episodeSpeakers: Tytus Kurek, Tim Rosenfield, Jon Thor Kristinsson
+    youtubeEmbed: https://www.youtube.com/embed/2hdNHOUY9x4
+    youtubeLink: https://www.youtube.com/watch?v=2hdNHOUY9x4
   - hidden: false
     date: 2022-04-28T14:00:31.084Z
     episodeTitle: Composable Infrastructure and the Future of Data Centers
@@ -39,11 +41,8 @@ episodes:
       Project Foundation)
     youtubeLink: https://www.youtube.com/watch?v=CwudpYeQHj0
     youtubeEmbed: https://www.youtube.com/embed/CwudpYeQHj0
-  - hidden: false
-    date: 2022-04-07T14:00:00.000Z
-    episodeTitle: What to Expect at the OpenInfra Summit Berlin - Hybrid & Private
-      Cloud Track
-    episodeDescription: >
+    superuserRecap: https://superuser.openstack.org/articles/composable-infrastructure-and-the-future-of-data-centers-openinfra-live-recap/
+  - episodeDescription: >
       Organizations have turned to the cloud to increase operational efficiency
       while decreasing costs. Recent studies have shown that these same
       organizations are turning to hybrid cloud infrastructure powered by a
@@ -52,12 +51,17 @@ episodes:
 
 
       Within production hybrid clouds, OpenInfra technologies provide container security, edge nodes, CI/CD, secure private clouds and the largest footprint of public cloud data centers in the world. Tune into this episode and learn about what private & hybrid cloud sessions will be featured at the OpenInfra Summit Berlin, Germany on June 7-9, 2022! 
+    hidden: false
+    date: 2022-04-07T14:00:00.000Z
     episodeSpeakers: >
       Scott Solkhon (G-Research), Ross Martyn (G-Research), Tyler Stachecki
       (Bloomberg LP), Reedip Banerjee (LINE Corp), Yushiro Furukawa(LINE Corp)
     youtubeEmbed: https://www.youtube.com/embed/sIyAxZom5Hg
-    youtubeLink: https://www.youtube.com/watch?v=sIyAxZom5Hg
     linkedinLink: ""
+    superuserRecap: https://superuser.openstack.org/articles/what-to-expect-at-the-openinfra-summit-berlin-hybrid-private-cloud-track-openinfra-live-recap/
+    episodeTitle: What to Expect at the OpenInfra Summit Berlin - Hybrid & Private
+      Cloud Track
+    youtubeLink: https://www.youtube.com/watch?v=sIyAxZom5Hg
   - hidden: false
     date: 2022-04-14T14:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: Yahoo"
@@ -70,6 +74,7 @@ episodes:
       (CERN), Brendan Conlan (Yahoo), Mohammed Naser (Vexxhost)
     youtubeEmbed: https://www.youtube.com/embed/YgB9GF1E1aU
     youtubeLink: https://www.youtube.com/watch?v=YgB9GF1E1aU
+    superuserRecap: https://superuser.openstack.org/articles/large-scale-ops-deep-dive-yahoo-openinfra-live-recap/
   - hidden: false
     date: 2022-03-31T14:00:00.000Z
     episodeTitle: "OpenStack Yoga: New Features Straight from the Contributors"

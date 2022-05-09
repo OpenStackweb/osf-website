@@ -15,6 +15,17 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2022-05-12T14:00:55.890Z
+    episodeTitle: Creating a Sustainable Future for Data Centers with OpenStack and
+      Kubernetes
+    episodeDescription: Join this week’s OpenInfra Live episode to meet Firmus, a
+      LOKI user by way of Charmed OpenStack and Charmed Kubernetes. Together
+      with Canonical, they are searching for a way to more responsibly and
+      efficiently run data centers. Learn more about their journey with
+      OpenStack, Kubernetes and Canonical as they position this industry for a
+      more sustainable future.
+    episodeSpeakers: Tytus Kurek, Tim Rosenfield, Jon Thor Kristinsson
+  - hidden: false
     date: 2022-04-28T14:00:31.084Z
     episodeTitle: Composable Infrastructure and the Future of Data Centers
     episodeDescription: "The advent of composable hardware introduces complexity and

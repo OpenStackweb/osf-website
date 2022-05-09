@@ -154,7 +154,7 @@ episodes:
       (AI, Machine Learning & HPC)
 
       \  "
-    youtubeEmbed: https://www.youtube.com/embed/9s1VPCyuJXI" title="YouTube video player
+    youtubeEmbed: https://www.youtube.com/embed/9s1VPCyuJXI
     superuserRecap: https://superuser.openstack.org/articles/berlin-openinfra-summit-2022-cfp-101-openinfra-live-recap/
     episodeTitle: Berlin Summit 2022 CFP 101
     youtubeLink: https://www.youtube.com/watch?v=9s1VPCyuJXI

@@ -5,14 +5,13 @@ import ReactDOM from 'react-dom'
 import styles from './index.module.scss'
 
 function LazyLoadVideo({ videoUrl }) {
-
     const videoRef = useRef(null);
-
     const [videoId, setVideoId] = useState(null);
     const [videoLoaded, setVideoLoaded] = useState(false);
 
     useEffect(() => {
-        setVideoId(getVideoId(videoUrl));
+        if(videoUrl)
+            setVideoId(getVideoId(videoUrl));
     }, []);
 
     const getVideoId = (url) => {
@@ -35,6 +34,10 @@ function LazyLoadVideo({ videoUrl }) {
             setVideoLoaded(true);
             return ReactDOM.render(embedIframe, videoRef.current);
         }
+    }
+
+    if(!videoUrl){
+        return null;
     }
 
     return (

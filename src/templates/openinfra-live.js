@@ -51,7 +51,7 @@ export const OpenInfraLiveTemplate = ({
           <div className="video">
             <div className="videoWrapper">
               {/* <iframe width="560" height="315" src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
-              <LazyLoadVideo videoUrl={episode.youtubeEmbed} />
+              { episode.youtubeEmbed && <LazyLoadVideo videoUrl={episode.youtubeEmbed} />}
             </div>
           </div>
           <div className="details">
@@ -170,7 +170,7 @@ export const OpenInfraLiveTemplate = ({
                           <div className="video">
                             <div className="videoWrapper">
                               {/* <iframe width="560" height="315" src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
-                              <LazyLoadVideo videoUrl={episode.youtubeEmbed} />
+                              { episode.youtubeEmbed && <LazyLoadVideo videoUrl={episode.youtubeEmbed} /> }
                             </div>
                           </div>
                           <div className="details">
@@ -252,7 +252,7 @@ export const OpenInfraLiveTemplate = ({
                       <div className="video">
                         <div className="videoWrapper">
                           {/* <iframe width="560" height="315" src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
-                          <LazyLoadVideo videoUrl={episode.youtubeEmbed} />
+                          { episode.youtubeEmbed && <LazyLoadVideo videoUrl={episode.youtubeEmbed} /> }
                         </div>
                       </div>
                       <div className="details">

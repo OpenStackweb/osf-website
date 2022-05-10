@@ -24,7 +24,7 @@ episodes:
       efficiently run data centers. Learn more about their journey with
       OpenStack, Kubernetes and Canonical as they position this industry for a
       more sustainable future.
-    episodeSpeakers: Tytus Kurek, Tim Rosenfield, Jon Thor Kristinsson
+    episodeSpeakers: Thierry Carrez, Tytus Kurek, Tim Rosenfield, Jon Thor Kristinsson
     youtubeEmbed: https://www.youtube.com/embed/2hdNHOUY9x4
     youtubeLink: https://www.youtube.com/watch?v=2hdNHOUY9x4
   - hidden: false

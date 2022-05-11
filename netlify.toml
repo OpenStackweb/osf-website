@@ -1,6 +1,8 @@
 [build]
   publish = "public"
   command = "npm run build"
+  functions = "netlify/functions"
+
 [build.environment]
   NODE_VERSION = "12.20.1"
   YARN_VERSION = "1.13.0"
@@ -117,3 +119,4 @@
   GATSBY_OAUTH2_CLIENT_ID_BUILD = "_fJKILOprSj4MYY6~6rhoPJeRT7_5616.openstack.client"
   GATSBY_OAUTH2_CLIENT_SECRET_BUILD = "PFssJ_QNT_YjW9Uuk_dLqK9kx9ke.ndH4zAY-FBc59PzotI.0J18jPYXZ1snTkr4"
   GATSBY_OAUTH_TOKEN_PATH = "/oauth2/token"
+

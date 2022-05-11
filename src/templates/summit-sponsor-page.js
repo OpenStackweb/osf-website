@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import ContactFormHorizontal from '../components/ContactFormHorizontal'
-import { summitSponsorLevel } from '../components/SummitSponsorLevel'
 
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';

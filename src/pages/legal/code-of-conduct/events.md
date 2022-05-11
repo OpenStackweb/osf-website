@@ -44,7 +44,7 @@ Participants asked to stop any harassing behavior are expected to comply immedia
 All event attendees must adhere to Health & Safety protocols outlined by the event organizer (specific to each event). To report violations, please find a member of the Summit staff at the registration desk or wearing Staff t-shirts, or contact the OpenInfra Foundation staff immediately via phone or email.
 
 Upcoming OpenInfra Event Health & Safety Information:
-- OpenInfra Summit Berlin
+- [OpenInfra Summit Berlin](/summit-covid)
 
 ##### Report Harassment
 

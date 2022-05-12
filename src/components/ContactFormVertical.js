@@ -48,15 +48,17 @@ const ContactForm = () => {
                 },
                 method: "POST",
                 body: formBody,
-            }).then(() => {
-                setSuccess(true);
+            }).then((response) => {
+                if(response.ok){
+                    setSuccess(true);
+                }
+                if(response.status === 412){
+                    Swal.fire("Validation Error", e.message, "warning");
+                }
+                setSuccess(false);
             }).catch(e => {
                 setSuccess(false);
                 console.log(e);
-                if(e.status === 412){
-                    Swal.fire("Validation Error", e.message, "warning");
-                    return;
-                }
                 Swal.fire("Error", 'Oops! Something went wrong.', "warning");
             });
         evt.preventDefault();

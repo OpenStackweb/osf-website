@@ -52,6 +52,7 @@ const ContactForm = () => {
                 console.log(response);
                 if(response.ok){
                     setSuccess(true);
+                    return;
                 }
                 if(response.status === 412){
                     response.text().then(function (text) {

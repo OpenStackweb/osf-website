@@ -54,7 +54,9 @@ const ContactForm = () => {
                     setSuccess(true);
                 }
                 if(response.status === 412){
-                    Swal.fire("Validation Error", response.statusText, "warning");
+                    response.text().then(function (text) {
+                        Swal.fire("Validation Error", text, "warning");
+                    });
                 }
                 setSuccess(false);
             }).catch(e => {

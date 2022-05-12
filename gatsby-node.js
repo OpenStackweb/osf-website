@@ -69,21 +69,14 @@ const SSR_getEvents = async (baseUrl, summitId, accessToken, page = 1, results =
     .catch(e => console.log('ERROR: ', e));
 };
 
-const SSR_getCurrentReleaseComponents = async (baseUrl, page = 1, results = {}) => {
+const SSR_getCurrentReleaseComponents = async (baseUrl) => {
   return await axios.get(
     `${baseUrl}/api/public/v1/releases/current`,
     {
       params: {
-        per_page: 50,
-        page: page,
         expand: 'components, components.component'
       }
-    }).then((data) => {
-      if (data.current_page < data.last_page) {
-        return SSR_getEvents(baseUrl, summitId, accessToken, data.current_page + 1, {...results, ...data.data});
-      }
-      return {...results, ...data.data};
-    })
+    }).then((response) => response.data)
     .catch(e => console.log('ERROR: ', e));
 };
 
@@ -110,7 +103,7 @@ exports.onPreBootstrap = async () => {
   // settings
   writeToJson('src/content/settings.json', globalSettings);
 
-  // pull legals
+  // pull legal doc
   const legalDocument = await SSR_getLegals(apiBaseUrl);
   if (legalDocument) {
     writeToJson('src/content/legal-document.json', legalDocument);
@@ -118,15 +111,21 @@ exports.onPreBootstrap = async () => {
 
   // pull summit
   const summit = await SSR_getSummit(apiBaseUrl);
-  writeToJson('src/content/summit.json', summit);
+  if(summit) {
+    writeToJson('src/content/summit.json', summit);
 
-  // pull events
-  const events = await SSR_getEvents(apiBaseUrl, summit.id, accessToken,);
-  writeToJson('src/content/events.json', events);
+    // pull events
+    const events = await SSR_getEvents(apiBaseUrl, summit.id, accessToken);
+    if(events) {
+      writeToJson('src/content/events.json', events);
+    }
+  }
 
-  // pull summit
-  const profile = await SSR_getCurrentReleaseComponents(apiBaseUrl);
-  writeToJson('src/content/current-release.json', profile);
+  // pull current release
+  const currentRelease = await SSR_getCurrentReleaseComponents(apiBaseUrl);
+  if(currentRelease) {
+    writeToJson('src/content/current-release.json', currentRelease);
+  }
 
 }
 

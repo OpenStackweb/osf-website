@@ -4,6 +4,11 @@ const emailValidator = require("email-validator");
 
 exports.handler = async function (event, context) {
 
+    // Only allow POST
+    if (event.httpMethod !== "POST") {
+        return { statusCode: 405, body: "Method Not Allowed" };
+    }
+
     const requiredParams = ['email', 'first_name', 'last_name', 'company', 'title']
 
     let formData = event.body;
@@ -37,14 +42,14 @@ exports.handler = async function (event, context) {
         method: "POST",
         body: params.toString(),
     })
-        .then(() => {
+        .then((res) => {
             return {
                 statusCode: 200,
-                body: 'ok',
+                body: 'OK',
             };
         })
         .catch((error) => ({
             statusCode: 422,
-            body: `Oops! Something went wrong. ${error}`,
+            body: error,
         }));
 }

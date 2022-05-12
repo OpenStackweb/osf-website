@@ -49,11 +49,12 @@ const ContactForm = () => {
                 method: "POST",
                 body: formBody,
             }).then((response) => {
+                console.log(response);
                 if(response.ok){
                     setSuccess(true);
                 }
                 if(response.status === 412){
-                    Swal.fire("Validation Error", e.message, "warning");
+                    Swal.fire("Validation Error", response.statusText, "warning");
                 }
                 setSuccess(false);
             }).catch(e => {

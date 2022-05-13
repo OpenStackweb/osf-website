@@ -3,6 +3,9 @@
   command = "npm run build"
   functions = "netlify/functions"
 
+[dev]
+  functionsPort = 8888
+
 [build.environment]
   NODE_VERSION = "12.22.0"
   YARN_VERSION = "1.13.0"

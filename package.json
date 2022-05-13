@@ -15,6 +15,7 @@
     "dropzone": "^5.7.2",
     "email-validator": "^2.0.4",
     "font-awesome": "^4.7.0",
+    "friendly-challenge": "^0.9.2",
     "full-schedule-widget": "^1.1.45",
     "gatsby": "^2.32.13",
     "gatsby-cli": "^2.11.5",
@@ -101,7 +102,7 @@
   "scripts": {
     "clean": "gatsby clean",
     "start": "npm run develop",
-    "debug": "NODE_OPTIONS=--inspect netlify dev --port 8001",
+    "debug": "NODE_OPTIONS=--inspect NODE_ENV=dev netlify dev --port 8001",
     "serve": "netlify functions:serve",
     "build": "npm run clean && gatsby build",
     "develop": "npm run clean && gatsby develop --open --https",

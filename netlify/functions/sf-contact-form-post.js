@@ -1,15 +1,16 @@
 const fetch = require("node-fetch");
-const { GATSBY_SF_OID } = process.env;
+const {GATSBY_SF_OID, GATSBY_FRIENDLY_CAPTCHA_API_KEY, GATSBY_FRIENDLY_CAPTCHA_SITE_KEY} = process.env;
 const emailValidator = require("email-validator");
+const friendlyCaptchaFieldName = 'frc-captcha-solution';
 
 exports.handler = async function (event, context) {
 
     // Only allow POST
     if (event.httpMethod !== "POST") {
-        return { statusCode: 405, body: "Method Not Allowed" };
+        return {statusCode: 405, body: "Method Not Allowed"};
     }
 
-    const requiredParams = ['email', 'first_name', 'last_name', 'company', 'title']
+    const requiredParams = ['email', 'first_name', 'last_name', 'company', 'title', friendlyCaptchaFieldName]
 
     let formData = event.body;
     const decodedData = decodeURIComponent(formData);
@@ -17,7 +18,7 @@ exports.handler = async function (event, context) {
     // add sale force account id
     params.append('oid', GATSBY_SF_OID);
 
-    for(let p of requiredParams) {
+    for (let p of requiredParams) {
         if (!params.has(p)) {
             return {
                 statusCode: 412,
@@ -28,28 +29,63 @@ exports.handler = async function (event, context) {
 
     // validate email
     const email = params.get('email');
-    if(!emailValidator.validate(email)){
+    if (!emailValidator.validate(email)) {
         return {
             statusCode: 412,
             body: 'email param is invalid',
         }
     }
 
-    return fetch('https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8', {
+    // first validate captcha solution
+    const friendlyCaptchaRequest = {
+        solution: params.get(friendlyCaptchaFieldName),
+        secret: GATSBY_FRIENDLY_CAPTCHA_API_KEY,
+        sitekey: GATSBY_FRIENDLY_CAPTCHA_SITE_KEY,
+    }
+
+    return fetch('https://api.friendlycaptcha.com/api/v1/siteverify', {
         headers: {
-            'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+            "content-type": "application/json",
         },
         method: "POST",
-        body: params.toString(),
-    })
-        .then((res) => {
+        body: JSON.stringify(friendlyCaptchaRequest),
+    }).then((response) => {
+        if (!response.ok)
             return {
-                statusCode: 200,
-                body: 'OK',
+                statusCode: 400,
+                body: 'Invalid captcha response',
             };
+
+        return response.text().then(function (text) {
+            const jsonResponse = JSON.parse(text);
+            if(!jsonResponse.success){
+                return {
+                    statusCode: 412,
+                    body: 'Invalid captcha solution',
+                };
+            }
+
+            return fetch('https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8', {
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+                },
+                method: "POST",
+                body: params.toString(),
+            })
+            .then((response) => {
+                    return {
+                        statusCode: 200,
+                        body: 'OK',
+                    };
+            })
+            .catch((error) => ({
+                statusCode: 422,
+                body: error,
+            }));
         })
-        .catch((error) => ({
-            statusCode: 422,
-            body: error,
-        }));
-}
+    })
+    .catch((error) => ({
+        statusCode: 422,
+        body: error,
+    }));
+};

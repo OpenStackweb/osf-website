@@ -30,10 +30,7 @@ Here are the current health and safety plans for onsite at the Summit:
 ### Health & Safety FAQs
 
 **Do I need to be vaccinated to attend the OpenInfra Summit?**<br>
-Onsite attendees will be required to be fully vaccinated against the COVID-19 virus. Fully vaccinated is defined as two weeks (14 full days) after the required initial dose(s) of a [WHO-approved vaccine](https://covid19.trackvaccines.org/agency/who/). Proof of full vaccination will be required at badge pickup. Boosters are not required.
-
-**Are COVID-19 boosters required to attend the OpenInfra Summit?**<br>
-No, COVID-19 boosters are not required to attend.
+Onsite attendees will be required to be fully vaccinated against the COVID-19 virus. Fully vaccinated is defined as two weeks (14 full days) after the required initial dose(s) of a [WHO-approved vaccine](https://covid19.trackvaccines.org/agency/who/). Proof of full vaccination will be required at badge pickup.
 
 **What COVID-19 test and vaccination requirements are there to enter Germany?**<br>
 Since entry requirements vary by country, please check with your local embassy for current guidelines. *Please note: negative PCR tests may be required in addition to proof of COVID-19 recovery and / or vaccination status* in order to enter Germany.

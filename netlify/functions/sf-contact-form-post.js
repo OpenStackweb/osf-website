@@ -61,7 +61,7 @@ exports.handler = async function (event, context) {
             if(!jsonResponse.success){
                 return {
                     statusCode: 412,
-                    body: 'Invalid captcha solution',
+                    body: `Invalid captcha solution (${text})`,
                 };
             }
 

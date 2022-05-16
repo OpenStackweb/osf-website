@@ -136,11 +136,12 @@ const ContactForm = () => {
                             <textarea id="00N6f00000FmlhK" className="message-field" name="00N6f00000FmlhK" type="text"
                                       placeholder="How can we help?" wrap="soft" required
                                       value={inputs['00N6f00000FmlhK'] || ""} onChange={handleChange}></textarea>
+                            <div className="field-column is-full-width">
+                                <div ref={container} className="frc-captcha" data-sitekey={getEnvVariable(FRIENDLY_CAPTCHA_SITE_KEY)} />
+                            </div>
                             <button className="contact-submit" type="submit" name="submit">SUBMIT</button>
                         </div>
-                        <div className="field-column is-full-width">
-                            <div ref={container} className="frc-captcha" data-sitekey={getEnvVariable(FRIENDLY_CAPTCHA_SITE_KEY)} />
-                        </div>
+
                     </div>
                 </div>
             }

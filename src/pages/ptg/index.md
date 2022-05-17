@@ -1,11 +1,9 @@
 ---
 templateKey: ptg-page
 seo:
-  description: "The OpenInfra Foundation is an open source foundation supporting a
-    global community of 100,000 individuals to build and operate open
-    infrastructure software. "
+  description: "Where contributors gather to get work done in person within OpenInfra Foundation-supported open source projects."
   image: /img/OpenInfra-icon-white.jpg
-  title: PTG
+  title: Project Teams Gathering (PTG)
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/ptg/
 header:

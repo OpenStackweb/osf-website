@@ -179,9 +179,6 @@ export const SummitPageTemplate = ({
                     <div className="picture">
                       <img alt="form image" src={!!form.image.childImageSharp ? form.image.childImageSharp.fluid.src : form.image} />
                     </div>
-                    <span className="title-mobile">
-                      {form.title}
-                    </span>
                   </div>
                   <div className="form-right">
                     <span className="title-desktop">

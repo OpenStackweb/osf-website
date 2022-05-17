@@ -158,9 +158,9 @@
       text-align: left;
       color: #ffffff;
       margin-bottom: 45px;
-    }
-    .title-mobile {
-      display: none;
+      @media (max-width: 768px) {
+        text-align: center;
+      }
     }
     .form-columns {
       display: flex;
@@ -843,9 +843,6 @@ hr.dividing-line {
     .summit-form-container {
       padding: 30px;
     }
-    .title-desktop {
-      display: none;
-    }
     .form-columns {
       flex-direction: column;
       .form-left {
@@ -853,17 +850,6 @@ hr.dividing-line {
         flex-direction: column;
         width: 100%;
         padding-right: 0px;
-        .title-mobile {
-          margin-top: 35px;
-          display: inline-block;
-          font-family: "Roboto";
-          font-style: normal;
-          font-weight: 500;
-          font-size: 22px;
-          line-height: 26px;
-          text-align: center;
-          color: #ffffff;
-        }
       }
       .form-right {
         margin-top: 25px;

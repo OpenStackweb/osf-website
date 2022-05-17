@@ -3,7 +3,7 @@ module.exports = {
     DEV_SSR: false
   },  
   siteMetadata: {
-    title: 'Open Infrastructure Foundation',
+    title: 'OpenInfra Foundation',
     description:
       'The Home of Open Infrastructure',
     url: 'https://openinfra.dev/'
@@ -67,7 +67,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Open Infrastructure Foundation RSS Feed",
+            title: "OpenInfra Foundation RSS Feed",
             // optional configuration to insert feed reference in pages:
             // if `string` is used, it will be used to create RegExp and then test if pathname of
             // current page satisfied this regular expression;
@@ -264,7 +264,7 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify', // make sure to keep it last in the array,
       options: {
         enableIdentityWidget: true,
-        htmlTitle: `Open Infrastructure Foundation | Content Manager`,
+        htmlTitle: `OpenInfra Foundation | Content Manager`,
         includeRobots: false,
       }
     }

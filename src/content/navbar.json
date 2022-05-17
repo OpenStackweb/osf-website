@@ -96,6 +96,10 @@
           "url": "/live/"
         },
         {
+          "text": "PTG",
+          "url": "/ptg/"
+        },
+        {
           "text": "OpenInfra Live: Keynotes",
           "url": "/live/keynotes"
         },

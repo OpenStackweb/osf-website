@@ -410,8 +410,8 @@ div.content.custom > main > section > div > div > div > h3 {
     font-size: 17px;
     @media (min-width: 769px) {
       height: 267px;
-      padding-bottom: 7px;
-      padding-top: 35px;
+      padding-bottom: 10%;
+      padding-top: 10%;
     }
     left: 50%;
     @media (max-width: 769px) {
@@ -461,6 +461,9 @@ div.content.custom > main > section > div > div > div > h3 {
       border-bottom-color: $white;
       border-width: 20px;
       margin-left: -30px;
+      @media (max-width: 768px) {
+        display: none;
+      }
     }
   }
 }
@@ -472,7 +475,7 @@ div.content.custom > main > section > div > div > div > h3 {
     margin-left: -428px;
     height: 268px;
     max-width: unset;
-    margin-top: -35px;
+    margin-top: -10%;
   }
 }
 

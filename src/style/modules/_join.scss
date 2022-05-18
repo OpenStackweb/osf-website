@@ -61,16 +61,6 @@
         img {
           margin-left: 10px;
         }
-        &:first-of-type {
-          color: #fff;
-          background: #e61e24;
-          border-color: #e61e24;
-          margin-right: 20px;
-          &:hover {
-            background-color: #9a0c28;
-            border-color: #9a0c28;
-          }
-        }
         &:last-of-type {
           width: 163px;
           color: #848484;
@@ -87,6 +77,16 @@
             img {
               filter: none;
             }
+          }
+        }
+        &:first-of-type {
+          color: #fff;
+          background: #e61e24;
+          border-color: #e61e24;
+          margin-right: 20px;
+          &:hover {
+            background-color: #9a0c28;
+            border-color: #9a0c28;
           }
         }
       }

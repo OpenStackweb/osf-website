@@ -1,0 +1,134 @@
+.ptg-header {
+  .header-right {
+    .ptg-logo {
+      max-width: 70%;
+      margin: 2rem 0;
+      img {
+        max-width: 100%;
+      }
+    }
+    .description {
+      font-size: 18px;
+      line-height: 20px;
+    }
+    .date {
+      margin-top: 14px;
+    }
+    .date,
+    .location {
+      font-family: "Roboto";
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 30px;
+      color: #161616;
+      margin-bottom: 14px;
+    }
+    .buttons {
+      margin-top: 14px;
+      a:last-of-type {
+        img {
+          filter: none;
+        }
+      }
+    }
+  }
+  .header-left {
+    .picture {
+      img {
+        max-height: 450px;
+        width: auto;
+        z-index: 1;
+        @media (max-width: 767px) {
+          max-height: 300px;
+        }
+      }
+    }
+  }
+}
+.ptg-who {
+  background: #F3F3F3;
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  gap: 3rem;
+  position: relative;
+  @media (max-width: 767px) {
+    padding: 3rem 20px;
+    flex-direction: column;
+    flex: 1 1 auto;
+  }
+  .should, .shouldnot {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex: 1 0 50%;
+    background: white;
+    padding: 3rem;
+    border-radius: 8px;
+    .top {
+      border-bottom: 3px solid black;
+      margin: 0 0 3rem;
+      padding-bottom: 2rem;
+      h4 {
+        margin-top: 0;
+        font-size: 28px;
+        font-weight: 800;
+        font-family: "Jura", "Roboto", sans-serif;
+        text-transform: none;
+        img {
+          height: 25px;
+          margin-right: 2rem;
+        }
+      }
+    }
+    h5 {
+      margin-top: 0;
+    }
+  }
+  .should {
+    .top {
+      border-color: #45B65C;
+      h4 {
+        color: #45B65C;
+      }
+    }
+  }
+  .shouldnot {
+    .top {
+      border-color: #EC3830;
+      h4 {
+        color: #EC3830;
+      }
+    }
+  }
+  .multi-color-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+.summit-form-container.ptg {
+  .title-desktop {
+    margin-bottom: 1rem;
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+  .description {
+    margin-bottom: 2rem;
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+  @media (min-width: 768px) {
+    .description-mobile {
+      display: none;
+    }
+  }
+}

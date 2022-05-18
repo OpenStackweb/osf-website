@@ -12,6 +12,7 @@ import HostingProject from '../components/HostingProject'
 import leftArrow from '../img/svg/arrow-left.svg'
 import LinkComponent from '../components/LinkComponent'
 import { connect } from "react-redux";
+import ProjectsSubNav from "../components/ProjectsSubNav";
 
 export const ProjectsPageTemplate = ({
   isLoggedUser,
@@ -28,6 +29,7 @@ export const ProjectsPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
+        <ProjectsSubNav active="projects" />
         <Header title={header.title} subTitle={header.subTitle} />
       </div>
 

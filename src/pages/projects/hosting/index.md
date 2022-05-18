@@ -1,5 +1,5 @@
 ---
-templateKey: hosting-page
+templateKey: hosting-page-v2
 seo:
   description: "As an open source software host, the OpenInfra Foundation
     dedicates resources towards advancing the project community's goals and

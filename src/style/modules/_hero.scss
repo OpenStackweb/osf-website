@@ -189,3 +189,110 @@
   max-width: 350px;
   margin-top: 20px;
 }
+
+/* ------------------------------------------------------------ *\
+	Hero V2
+\* ------------------------------------------------------------ */
+
+.hero-main-v2 {
+  padding-bottom: 64px;
+
+  .title {
+    font-family: "Jura", "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 48px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 65px;
+  }
+
+  .subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    opacity: 0.8;
+    margin-top: 24px !important;
+  }
+
+  .sublabel {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 24px;
+  }
+
+  .actions {
+    display: flex;
+    margin-top: 10px;
+
+    .button-red {
+      align-items: center;
+      padding: 12px 30px 13px;
+      gap: 10px;
+      width: 160px;
+      height: 40px;
+      background: #E61E24;
+      border-radius: 37px;
+      margin-right: 20px;
+      margin-top:0;
+
+      span {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.3px;
+        color: #FFFFFF;
+      }
+    }
+
+    .button-white {
+      padding: 12px 30px 13px;
+      gap: 10px;
+      width: 157px;
+      height: 40px;
+      border: 2px solid #848484;
+      border-radius: 37px;
+      margin-top:0;
+
+      &:hover{
+        text-decoration: underline;
+        text-decoration-color: #848484;
+        background-color: white;
+      }
+
+      span {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.3px;
+        color: #848484;
+      }
+    }
+  }
+
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .image {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+}

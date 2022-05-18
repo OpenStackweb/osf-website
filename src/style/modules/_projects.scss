@@ -268,7 +268,7 @@
 
 .projects-s2-main,
 .companies-s2-main {
-  margin-top: 0px;
+  margin-top: 0;
   padding-top: 70px;
   padding-bottom: 70px;
   color: $white;
@@ -281,6 +281,20 @@
 
   .container {
     max-width: 850px;
+  }
+
+  p.overview {
+    font-family: "Jura", "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.6;
+    max-width: unset;
   }
 
   h3.itemtitle {
@@ -304,10 +318,82 @@
 
   .fix-h5 {
     color: white;
+    color: black;
   }
 
   p {
     max-width: 500px;
+  }
+}
+
+.projects-s2-main-v2 {
+  margin-top: 0;
+  padding-top: 82px;
+  padding-bottom: 110px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .container {
+    max-width: 930px;
+  }
+
+  p.overview {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+    opacity: 0.6;
+  }
+
+  h4.itemtitle {
+    font-family: "Jura", "Roboto", sans-serif;
+    color: black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    margin-top: 16px;
+  }
+
+  div.fix-h5 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+    opacity: 0.8;
+  }
+
+  .projects-btn {
+    margin: 46px auto 0;
+    padding: 12px 30px 13px;
+    gap: 10px;
+    background: #E61E24;
+    border-radius: 37px;
+    width: 230px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: white;
   }
 }
 

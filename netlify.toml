@@ -88,7 +88,7 @@
   to="https://openinfra.dev/summit"
   status=301
   force=true  
-[redirects]]
+[[redirects]]
   from = "/summit-onsite"
   to = "/summit-schedule"
   status = 301

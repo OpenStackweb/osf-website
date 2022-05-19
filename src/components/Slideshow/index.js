@@ -4,6 +4,7 @@ import './styles.scss';
 const Slideshow = ({children}) => {
     return (
       <div className="slideshow">
+        <div className="overlay" />
         <div className="images">
           {children}
         </div>

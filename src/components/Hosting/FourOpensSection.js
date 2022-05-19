@@ -9,7 +9,9 @@ import LinkComponent from "../LinkComponent";
 const OpenIcon = ({icon, label}) => {
   return (
     <div className="open-icon-wrapper">
-      <img src={icon} alt={label}/>
+      <div className="icon">
+        <img src={icon} alt={label}/>
+      </div>
       <p className="label">{label}</p>
     </div>
   );
@@ -17,7 +19,7 @@ const OpenIcon = ({icon, label}) => {
 
 const FourOpensSection = () => {
   return (
-    <section className="section four-opens">
+    <section className="section four-opens" id="four-opens">
       <div className="container">
         <div className="columns">
           <div className="column">

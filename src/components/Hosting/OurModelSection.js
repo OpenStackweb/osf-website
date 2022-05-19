@@ -5,7 +5,7 @@ import LinkComponent from "../LinkComponent";
 
 const OurModelSection = () => {
   return (
-    <section className="section our-model">
+    <section className="section our-model" id="our-model">
       <div className="container">
         <p className="overview">our model</p>
         <h2 className="title">

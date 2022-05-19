@@ -7,7 +7,7 @@ import Slideshow from "../Slideshow";
 
 const OurNetworkSection = ({sponsors}) => {
   return (
-    <section className="section our-network">
+    <section className="section our-network" id="our-network">
       <div className="container">
         <p className="overview">our network</p>
         <div className="columns">

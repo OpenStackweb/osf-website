@@ -248,6 +248,20 @@ export const SummitOnsitePageTemplate = ({
                   </p>
                 </div>
                 <div className='help-item'>
+                  <img src="/img/summit/berlin/terminal.svg" />
+                  <h3 className='fix-h3'>Contributors' Corner</h3>
+                  <p>A place for OpenInfra project teams to collaborate together in-person, located on Level A near the OpenInfra Theater.</p>
+                  <p>
+                    <a href="https://ptg.opendev.org/ptg.html">Reserve your space</a> during the Summit
+                  </p>
+                </div>
+                <div className='help-item'>
+                  <img src="/img/summit/berlin/heart.svg" />
+                  <h3 className='fix-h3'>Code of Conduct</h3>
+                  <p>We are a diverse community of professionals, and the OpenInfra Foundation is dedicated to providing an inclusive and safe Summit experience for everyone. View the <a href="/legal/code-of-conduct/events">Summit Code of Conduct</a> for more information.
+                  </p>
+                </div>
+                <div className='help-item'>
                   <img src="/img/summit/berlin/social.svg" />
                   <h3 className='fix-h3'>Social Media</h3>
                   <p>Share these hashtags in your posts on social media!</p>
@@ -257,10 +271,9 @@ export const SummitOnsitePageTemplate = ({
                   </p>
                 </div>
                 <div className='help-item'>
-                  <img src="/img/summit/berlin/heart.svg" />
-                  <h3 className='fix-h3'>Code of Conduct</h3>
-                  <p>We are a diverse community of professionals, and the OpenInfra Foundation is dedicated to providing an inclusive and safe Summit experience for everyone. View the <a href="/legal/code-of-conduct/events">Summit Code of Conduct</a> for more information.
-                  </p>
+                  <img src="/img/summit/berlin/star.svg" />
+                  <h3 className='fix-h3'>Rate the Summit</h3>
+                  <p>Your feedback is important! Let us know how we're doing by sharing your feedback in the <a href="#">attendee survey</a>.</p>
                 </div>
               </div>
             </div>

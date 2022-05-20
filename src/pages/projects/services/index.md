@@ -1,5 +1,5 @@
 ---
-templateKey: services-page
+templateKey: services-page-v2
 seo:
   description: >-
     Open source project communities require these common services in order to

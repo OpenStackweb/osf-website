@@ -10,7 +10,6 @@ import SEO from '../components/SEO';
 import HostingProjectV2 from '../components/HostingProjectV2';
 import heroFront from '../img/hosting-hero-img.png';
 import BuildSection from "../components/Hosting/BuildSection";
-import '../style/modules/_hosting.scss';
 import OurModelSection from "../components/Hosting/OurModelSection";
 import FourOpensSection from "../components/Hosting/FourOpensSection";
 import OurNetworkSection from "../components/Hosting/OurNetworkSection";
@@ -20,6 +19,8 @@ import OurFocusSection from "../components/Hosting/OurFocusSection";
 import OurServicesSection from "../components/Hosting/OurServicesSection";
 import JourneySection from "../components/Hosting/JourneySection";
 import ProjectsSubNav from "../components/ProjectsSubNav";
+
+import '../style/modules/_hosting.scss';
 
 
 export const HostingPageV2Template = ({sponsors = []}) => {

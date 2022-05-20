@@ -78,7 +78,54 @@ export const SummitOnsitePageTemplate = ({
               <div className='schedule-summary'>
                 <div className='schedule-left'>
                   <div className='schedule-top'>
-                    Tuesday & Wednesday
+                    Tuesday
+                  </div>
+                  <div className='schedule-rows'>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
+                        8:15 - 16:00
+                      </div>
+                      <div className='list-right'>
+                      <a href="/summit-sponsor">Marketplace</a> <em>(closed during keynotes)</em>
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
+                      9:00 - 11:00
+                      </div>
+                      <div className='list-right'>
+                        Keynotes
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
+                        11:00 - 18:00
+                      </div>
+                      <div className='list-right'>
+                        <a href="/summit-schedule">Breakouts / Forum / Workshops / Demos / Lightning Talks</a>
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
+                        12:30 - 13:30
+                      </div>
+                      <div className='list-right'>
+                        Lunch
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
+                        15:20 - 16:00
+                      </div>
+                      <div className='list-right'>
+                        Midday Mixer
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className='schedule-mid'>
+                  <div className='schedule-top'>
+                    Wednesday
                   </div>
                   <div className='schedule-rows'>
                     <div className='schedule-row'>

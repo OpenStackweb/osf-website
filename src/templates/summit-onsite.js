@@ -28,7 +28,7 @@ export const SummitOnsitePageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav active="summit-covid" pageName="Covid-19" isLoggedUser={isLoggedUser}/>
+        <SubNav active="summit-onsite" pageName="Onsite Info" isLoggedUser={isLoggedUser}/>
         
         <main className="main">
         <section className="hero-main summit">

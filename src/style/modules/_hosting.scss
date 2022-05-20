@@ -163,12 +163,23 @@
     .opens-wrapper {
       display: flex;
       justify-content: space-between;
+      flex-direction: row;
       margin: 50px auto;
       max-width: 705px;
+      @media (max-width: 767px) {
+        flex-wrap: wrap;
+        max-width: 70%;
+        row-gap: 1rem;
+        justify-content: center;
+      }
 
       .open-icon-wrapper {
         text-align: center;
-
+        display: flex;
+        flex-direction: column;
+        @media (max-width: 767px) {
+          width: 50%;
+        }
         .icon {
           height: 115px;
           width: auto;
@@ -188,6 +199,9 @@
           letter-spacing: 0.3px;
           color: #FFFFFF;
           text-transform: uppercase;
+          @media (max-width: 767px) {
+            white-space: wrap;
+          }
         }
       }
     }

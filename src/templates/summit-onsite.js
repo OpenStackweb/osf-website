@@ -66,7 +66,7 @@ export const SummitOnsitePageTemplate = ({
           <section className='summit-map' id="maps">
             <div className='container'>
               <h3 className='fix-h3'>Venue Map</h3>
-              <img className='venue-map' src="img/summit/berlin/placeholder-map.png" />
+              <img className='venue-map' src="/img/summit/berlin/placeholder-map.png" />
             </div>
           </section>
           <div className='container'>

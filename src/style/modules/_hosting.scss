@@ -46,9 +46,8 @@
         height: 40px;
         background: #E61E24;
         border-radius: 37px;
-        margin-right: 20px;
         margin-top: 12px;
-
+        max-width: auto;
         span {
           font-family: 'Roboto', sans-serif;
           font-style: normal;
@@ -105,12 +104,19 @@
     .overview {
       color: #000000;
       opacity: 0.6;
+      @media (max-width: 767px) {
+        text-align: center;
+      }
     }
 
     .title {
       color: #000000;
       align-self: center;
       margin: 24px 0;
+      text-align: left;
+      @media (max-width: 767px) {
+        text-align: center;
+      }
     }
 
     .body {
@@ -132,7 +138,6 @@
 
     .actions {
       .button-red {
-        margin-right: 20px;
         margin-top: 12px;
       }
     }
@@ -252,7 +257,7 @@
     }
 
     .network-image {
-      margin: 30px;
+      max-width: 100%;
 
       @media(max-width: 767px) {
         max-width: 400px;
@@ -377,6 +382,11 @@
 
           .investment {
             width: 185px;
+            @media (max-width: 767px) {
+              width: 165px;
+              left: 8px;
+              position: relative;
+            }
           }
         }
         td {
@@ -394,6 +404,9 @@
             position: absolute;
             right: 10px;
             bottom: 18px;
+            @media (max-width: 767px) {
+              width: 150px;
+            }
           }
 
           .openstack {
@@ -401,6 +414,9 @@
             top: 16px;
             left: 34px;
             position: relative;
+            @media (max-width: 767px) {
+              left: 8px;
+            }
           }
         }
 
@@ -414,6 +430,10 @@
         width: 58px;
         top: 56%;
         position: relative;
+        @media (max-width: 767px) {
+          margin: 5rem auto;
+          transform: rotate(90deg);
+        }
       }
     }
 
@@ -426,7 +446,10 @@
       height: 234px;
 
       @media(max-width: 767px) {
-        width: 90%
+        width: 96%;
+        margin: 0 auto;
+        padding: 10px 2%;
+        height: auto;
       }
 
       .info-table {
@@ -446,6 +469,9 @@
         td {
           padding: 20px;
           border-bottom: none;
+          @media (max-width: 767px) {
+            padding: 10px;
+          }
 
           i {
             font-size: 15px;
@@ -637,7 +663,6 @@
           height: 35px;
           background: #45B65C;
           border-radius: 37px;
-          margin-right: 20px;
           margin-top: 12px;
 
           &:hover{

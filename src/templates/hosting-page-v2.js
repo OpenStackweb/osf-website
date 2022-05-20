@@ -8,8 +8,7 @@ import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO';
 import HostingProjectV2 from '../components/HostingProjectV2';
-import heroBgrd from '../img/svg/hero-bgrd-1.svg';
-import heroFront from '../img/hero-front-1.png';
+import heroFront from '../img/hosting-hero-img.png';
 import BuildSection from "../components/Hosting/BuildSection";
 import '../style/modules/_hosting.scss';
 import OurModelSection from "../components/Hosting/OurModelSection";
@@ -39,7 +38,6 @@ export const HostingPageV2Template = ({sponsors = []}) => {
         <Navbar/>
         <ProjectsSubNav active="hosting" />
         <HeaderV2
-          backgroundImage={heroBgrd}
           frontImage={heroFront}
           title="host a project with openinfra foundation"
           subtitle="We build communities who write infrastructure software that runs in production. Let us build a strong open source community around your project. "

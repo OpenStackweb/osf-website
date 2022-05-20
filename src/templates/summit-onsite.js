@@ -91,6 +91,14 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
+                        8:15 - 16:00
+                      </div>
+                      <div className='list-right'>
+                      Mirantis Biergarten <em>(closed during keynotes)</em>
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
                       9:00 - 11:00
                       </div>
                       <div className='list-right'>
@@ -138,6 +146,14 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
+                        8:15 - 16:00
+                      </div>
+                      <div className='list-right'>
+                      Mirantis Biergarten <em>(closed during keynotes)</em>
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
                       9:00 - 11:00
                       </div>
                       <div className='list-right'>
@@ -181,6 +197,14 @@ export const SummitOnsitePageTemplate = ({
                       </div>
                       <div className='list-right'>
                         <a href="/summit-sponsor">Marketplace</a>
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
+                      9:00 - 16:10
+                      </div>
+                      <div className='list-right'>
+                      Mirantis Biergarten
                       </div>
                     </div>
                     <div className='schedule-row'>

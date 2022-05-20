@@ -25,7 +25,7 @@ const OurTrackRecordSection = () => {
               </LinkComponent>
             </div>
           </div>
-          <div className="column is-one-third">
+          <div className="column is-one-third relative">
             <img src={iconsImg} alt="os-icons" className="icons-img" />
           </div>
         </div>

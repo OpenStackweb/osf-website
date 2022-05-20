@@ -258,10 +258,6 @@
 
     .network-image {
       max-width: 100%;
-
-      @media(max-width: 767px) {
-        max-width: 400px;
-      }
     }
 
     .second-section {
@@ -322,7 +318,7 @@
     .link-all-projects {
       color: black;
       opacity: 0.8;
-      margin-top: 30px;
+      margin: 30px 0 50px;
 
       a span {
         font-family: 'Roboto', sans-serif;
@@ -334,6 +330,16 @@
         color: #848484;
         margin-right: 20px;
         text-align: center;
+      }
+    }
+    .icons-img {
+      position: absolute;
+      bottom: 0;
+      @media (max-width: 767px) {
+        width: 60%;
+        margin: 3rem auto 0;
+        display: flex;
+        position: relative;
       }
     }
   }
@@ -641,10 +647,17 @@
         font-size: 18px;
         line-height: 21px;
         color: #FFFFFF;
+        @media (max-width: 991px) and (min-width: 768px) {
+          padding: 15px 23px;
+          font-size: 16px;
+        }
       }
 
       .checklist-box-body {
         padding: 22px 30px;
+        @media (max-width: 991px) and (min-width: 768px) {
+          padding: 20px;
+        }
 
         .checklist-box-subtitle {
           font-family: 'Roboto', sans-serif;
@@ -654,6 +667,9 @@
           line-height: 21px;
           color: #000000;
           opacity: 0.8;
+          @media (max-width: 991px) and (min-width: 768px) {
+            font-size: 14px;
+          }
         }
 
         .check-item {
@@ -671,6 +687,9 @@
             line-height: 19px;
             letter-spacing: 0.3px;
             color: #000000;
+            @media (max-width: 991px) and (min-width: 768px) {
+              font-size: 11px;
+            }
           }
         }
 

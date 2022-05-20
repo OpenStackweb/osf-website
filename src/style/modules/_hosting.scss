@@ -365,6 +365,9 @@
             width: 185px;
           }
         }
+        td {
+          vertical-align: middle;
+        }
       }
 
       .right-table {
@@ -389,6 +392,7 @@
 
         td {
           width: 50%;
+          vertical-align: middle;
         }
       }
 

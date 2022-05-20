@@ -69,7 +69,7 @@ const JourneySection = () => {
             </h2>
             <p className="body">
               Initially developed in 2010 by Rackspace and NASA, OpenStack’s success was not guaranteed.
-              We brought together hundreds of companies to collabroate on the software through upstream contributions
+              We brought together hundreds of companies to collaborate on the software through upstream contributions
               and financial investment, producing one of the most successful and important open source projects in history.
             </p>
             <div className="tables-wrapper">

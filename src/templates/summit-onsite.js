@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
-import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
@@ -39,7 +38,7 @@ export const SummitOnsitePageTemplate = ({
                 <div className="upper-title">{upperTitle}</div>
                 <h3 className="hero-project-title">{title}</h3> 
                 <div className="hero-project-entry">
-                This is where you’ll find almost anything you need while being on site at the OpenInfra Summit, including <a href="#maps">venue maps</a>, <a href="#wifi">Wifi credentials</a>, <a href="#schedule">schedule</a>, where to <a href="#help">get help</a>, <a href="#help">health & safety protocols</a>, and <a href="#help">code of conduct</a>.
+                This is where you’ll find almost anything you need while on site at the OpenInfra Summit, including <a href="#maps">venue maps</a>, <a href="#wifi">Wifi credentials</a>, <a href="#schedule">schedule</a>, where to <a href="#help">get help</a>, <a href="#help">health & safety protocols</a>, and the <a href="#help">code of conduct</a>.
                 </div>
               </div>
             </div>
@@ -237,7 +236,7 @@ export const SummitOnsitePageTemplate = ({
                 <div className='help-item'>
                   <img src="/img/summit/berlin/help.svg" />
                   <h3 className='fix-h3'>Where to Get Help</h3>
-                  <p>Registration is located outside on the OpenInfra Plaza. This area will always be staffed and can provide updates on lost items, as well as venue and Summit questions.</p>
+                  <p>Registration is located outside in the OpenInfra Plaza. This area will always be staffed and can provide updates on lost items, as well as answers to venue and Summit questions.</p>
                   <p>
                   Have questions? Email <a href="mailto:summit@openinfra.dev">summit@openinfra.dev</a>
                   </p>
@@ -251,7 +250,7 @@ export const SummitOnsitePageTemplate = ({
                 <div className='help-item'>
                   <img src="/img/summit/berlin/social.svg" />
                   <h3 className='fix-h3'>Social Media</h3>
-                  <p>Share these Hashtags in your posts on social media!</p>
+                  <p>Share these hashtags in your posts on social media!</p>
                   <p>
                   <strong>#OpenInfraSummit<br/>
                   #WeAreOpenInfra</strong>

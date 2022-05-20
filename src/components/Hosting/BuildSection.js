@@ -14,8 +14,8 @@ const BuildSection = () => {
               OpenInfra Foundation is a neutral, collaborative home for open source infrastructure projects,
               providing a clear path to success and sustainability. This path to success is driven by our{' '}
               <LinkComponent href="#our-model">sustainability model (3 Forces)</LinkComponent>,
-              our <LinkComponent href="#our-model">collaboration principles (4 Opens)</LinkComponent>, and{' '}
-              <LinkComponent href="#our-model">our network</LinkComponent> of developers, companies and operators
+              our <LinkComponent href="#four-opens">collaboration principles (4 Opens)</LinkComponent>, and{' '}
+              <LinkComponent href="#our-network">our network</LinkComponent> of developers, companies and operators
               around open infrastructure.
             </p>
           </div>

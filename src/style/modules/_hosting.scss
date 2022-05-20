@@ -528,6 +528,11 @@
       display: flex;
       justify-content: space-between;
       margin: 50px auto;
+      @media (max-width: 767px) {
+        flex-wrap: wrap;
+        gap: 4rem 3%;
+        justify-content: center;
+      }
 
       .separator {
         width: 135px;
@@ -537,10 +542,16 @@
         transform: rotate(90deg);
         top: 60px;
         position: relative;
+        @media (max-width: 767px) {
+          display: none;
+        }
       }
 
       .infra-icon-wrapper {
         max-width: 200px;
+        @media (max-width: 767px) {
+          max-width: 44%;
+        }
 
         .label {
           font-family: 'Roboto', sans-serif;

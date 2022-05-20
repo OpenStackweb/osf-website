@@ -373,13 +373,17 @@
       display: flex;
       justify-content: space-between;
       margin-top: 80px;
-      flex-wrap: wrap;
+      @media (max-width: 1200px) {
+        flex-wrap: wrap;
+      }
 
       .left-table {
+        @media (max-width: 1200px) {
+          width: 100%;
+        }
         .table-header {
           position: relative;
           height: 68px;
-
           .investment {
             width: 185px;
             @media (max-width: 767px) {
@@ -395,10 +399,12 @@
       }
 
       .right-table {
+        @media (max-width: 1200px) {
+          width: 100%;
+        }
         .table-header {
           position: relative;
           height: 68px;
-
           .return {
             width: 170px;
             position: absolute;
@@ -430,9 +436,10 @@
         width: 58px;
         top: 56%;
         position: relative;
-        @media (max-width: 767px) {
+        @media (max-width: 1200px) {
           margin: 5rem auto;
           transform: rotate(90deg);
+          top: 3%;
         }
       }
     }
@@ -445,7 +452,7 @@
       width: 532px;
       height: 234px;
 
-      @media(max-width: 767px) {
+      @media(max-width: 1200px) {
         width: 96%;
         margin: 0 auto;
         padding: 10px 2%;

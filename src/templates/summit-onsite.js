@@ -252,7 +252,7 @@ export const SummitOnsitePageTemplate = ({
                   <h3 className='fix-h3'>Contributors' Corner</h3>
                   <p>A place for OpenInfra project teams to collaborate together in-person, located on Level A near the OpenInfra Theater.</p>
                   <p>
-                    <a href="https://ptg.opendev.org/ptg.html">Reserve your space</a> during the Summit
+                    <a href="https://ptg.opendev.org/ptg.html">Reserve your space using PTGbot</a>
                   </p>
                 </div>
                 <div className='help-item'>

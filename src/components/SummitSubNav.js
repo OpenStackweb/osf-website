@@ -29,7 +29,7 @@ function SubNav(props) {
         </div>
 
         <ul id="links-list" className="links-list">
-          <li><LinkComponent id="summit" href="/summit" className="link">Home</LinkComponent></li>
+          <li><LinkComponent id="summit-onsite" href="/summit-onsite" className="link">Onsite Info</LinkComponent></li>
           <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" className="link">Sponsors</LinkComponent></li>
 
           <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
@@ -72,7 +72,7 @@ function SubNav(props) {
             :
             <li><LinkComponent id="summit-schedule" href="/summit-schedule" className="link">Schedule</LinkComponent></li>
           }
-          <li><LinkComponent id="registration" href="/summit-onsite" className="link registration">OnSite Info</LinkComponent></li>
+          <li><LinkComponent id="registration" href="https://openinfrasummitberlin.eventbrite.com/" className="link registration">Register</LinkComponent></li>
         </ul>
 
         <div className={`${isOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleMenu}>
@@ -85,7 +85,7 @@ function SubNav(props) {
       {isOpen &&
         <div className="subnav-dropdown">
           <ul id="links-list-mobile" className="links-list">
-            <li><LinkComponent id="summit" href="/summit" onClick={() => shouldCloseMenu("summit")} className="link">Home</LinkComponent></li>
+            <li><LinkComponent id="summit-onsite" href="/summit-onsite" onClick={() => shouldCloseMenu("summit")} className="link">Onsite Info</LinkComponent></li>
             <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" onClick={() => shouldCloseMenu("summit-sponsor")} className="link">Sponsors</LinkComponent></li>
 
             <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} className="link-dropdown">
@@ -128,7 +128,7 @@ function SubNav(props) {
               :
               <li><LinkComponent id="summit-schedule" href="/summit-schedule" onClick={() => shouldCloseMenu("summit-schedule")} className="link">Schedule</LinkComponent></li>
             }
-            <li><LinkComponent id="registration" href="/summit-onsite" className="link registration">Onsite Info</LinkComponent></li>
+            <li><LinkComponent id="registration" href="https://openinfrasummitberlin.eventbrite.com/" className="link registration">Register</LinkComponent></li>
           </ul>
         </div>
       }

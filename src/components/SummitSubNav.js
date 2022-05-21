@@ -25,7 +25,7 @@ function SubNav(props) {
     <nav className="subnav-bar">
       <div className="container">
         <div className="location">
-          <LinkComponent href="/summit" >OpenInfra Summit</LinkComponent>
+          <LinkComponent id="summit" href="/summit" >OpenInfra Summit</LinkComponent>
         </div>
 
         <ul id="links-list" className="links-list">

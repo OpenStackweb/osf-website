@@ -30,6 +30,7 @@ export const ServicesPageTemplate = ({isLoggedUser}) => {
           sublabel="Interested in Hosting your project with the OpenInfra Foundation? "
           contactLink="/projects/contact"
           moreLink="/projects/hosting"
+          rightArrowLearnMore
         />
       </div>
 

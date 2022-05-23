@@ -2,8 +2,9 @@ import React from 'react'
 import LinkComponent from './LinkComponent';
 import arrow from "../img/svg/arrow-left.svg";
 import downArrow from "../img/svg/arrow-down.svg";
+import rightArrow from "../img/svg/arrow-left-gray.svg";
 
-const HeaderV2 = ({backgroundImage, frontImage, title, subtitle, sublabel, contactLink, moreLink}) => {
+const HeaderV2 = ({backgroundImage, frontImage, title, subtitle, sublabel, contactLink, moreLink, rightArrowLearnMore = false}) => {
     return (
         <main className="main">
             <section className="hero-main-v2">
@@ -18,7 +19,7 @@ const HeaderV2 = ({backgroundImage, frontImage, title, subtitle, sublabel, conta
                                     <span>Contact Us</span><img src={arrow} alt="arrow" />
                                 </LinkComponent>
                                 <LinkComponent href={moreLink} className="button button-white">
-                                    <span>Learn more</span><img src={downArrow} alt="arrow" />
+                                    <span>Learn more</span><img src={rightArrowLearnMore? rightArrow : downArrow} alt="arrow" />
                                 </LinkComponent>
                             </div>
                         </div>

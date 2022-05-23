@@ -36,6 +36,10 @@
       color: #161616;
       opacity: 0.8;
       margin-bottom: 24px;
+      a {
+        color: #E61E24;
+        text-decoration: underline;
+      }
     }
     .date,
     .location {
@@ -45,6 +49,13 @@
       line-height: 30px;
       color: #161616;
       margin-bottom: 14px;
+      a {
+        color: #E61E24;
+        font-size: 0.6em;
+        text-decoration: underline;
+        text-transform: uppercase;
+        margin-left: 20px;
+      }
     }
     .cta-wrapper {
       display: flex;
@@ -746,6 +757,9 @@ hr.dividing-line {
     order: 0;
     flex-grow: 0;
     margin: 0px 10px 45px;
+    &.link-below {
+      margin-bottom: 15px;
+    }
     &:hover {
       background-color: #9a0c28;
       border-color: #9a0c28;
@@ -753,6 +767,11 @@ hr.dividing-line {
     img {
       margin-left: 10px;
     }
+  }
+  .sponsorship-calendar {
+    color: #E61E24;
+    margin-bottom: 5rem;
+    text-decoration: underline;
   }
   .sponsors-slide {
     display: flex;
@@ -777,17 +796,15 @@ hr.dividing-line {
       z-index: 10;
     }
     img {
-      max-width: 150px;
-      margin-left: 15px;
-      &:last-of-type {
-        margin-left: 0;
-      }
+      max-width: 130px;
+      margin-left: 45px;
     }
   }
   .sponsors-previous {
     font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
+    font-style: italic;
     font-size: 14px;
     line-height: 20px;
     text-align: center;

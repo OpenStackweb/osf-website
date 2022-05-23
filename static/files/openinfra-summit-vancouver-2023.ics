@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220523T184324Z
+UID:1653331366549-71865@ical.marudot.com
+DTSTART;VALUE=DATE:20230613
+DTEND;VALUE=DATE:20230616
+SUMMARY:OpenInfra Summit Vancouver
+URL:https://openinfra.dev/summit/vancouver-2023
+DESCRIPTION:Join the community at the OpenInfra Summit! Collaborate directly with the people building and running open source infrastructure using OpenStack\, Kubernetes and 30+ other technologies. More details coming soon!
+LOCATION:Vancouver Convention Centre
+END:VEVENT
+END:VCALENDAR

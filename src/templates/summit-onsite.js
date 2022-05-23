@@ -245,7 +245,7 @@ export const SummitOnsitePageTemplate = ({
                   <img src="/img/summit/berlin/mask.svg" />
                   <h3 className='fix-h3'>Health & Safety</h3>
                   <p>
-                  Masks are required (over nose and mouth) for all attendees except while eating drinking or when delivering a conference talk. Please consult the <a href="/summit-covid"></a>Summit Health & Safety protocol</a> for all onsite guidelines.
+                  Masks are required (over nose and mouth) for all attendees except while eating drinking or when delivering a conference talk. Please consult the <a href="/summit-covid">Summit Health & Safety protocol</a> for all onsite guidelines.
                   </p>
                 </div>
                 <div className='help-item'>
@@ -267,8 +267,8 @@ export const SummitOnsitePageTemplate = ({
                   <h3 className='fix-h3'>Social Media</h3>
                   <p>Post your favorite OpenInfra Summit moments on social media and use our event hashtags!</p>
                   <p>
-                  <strong>#OpenInfraSummit<br/>
-                  #WeAreOpenInfra</strong>
+                    <strong>#OpenInfraSummit<br/>
+                    #WeAreOpenInfra</strong>
                   </p>
                 </div>
                 <div className='help-item'>

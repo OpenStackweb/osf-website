@@ -82,7 +82,7 @@ export const SummitOnsitePageTemplate = ({
                   <div className='schedule-rows'>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:15 - 16:00
+                        8:15am - 4:00pm
                       </div>
                       <div className='list-right'>
                       <a href="/summit-sponsor">Marketplace</a> <em>(closed during keynotes)</em>
@@ -90,7 +90,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:15 - 16:00
+                        8:15am - 4:00pm
                       </div>
                       <div className='list-right'>
                       Mirantis Biergarten <em>(closed during keynotes)</em>
@@ -98,7 +98,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                      9:00 - 11:00
+                      9:00am - 11:00am
                       </div>
                       <div className='list-right'>
                         Keynotes
@@ -106,7 +106,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        11:00 - 18:00
+                        11:00am - 6:00pm
                       </div>
                       <div className='list-right'>
                         <a href="/summit-schedule">Breakouts / Forum / Workshops / Demos / Lightning Talks</a>
@@ -114,7 +114,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        12:30 - 13:30
+                        12:30pm - 1:30pm
                       </div>
                       <div className='list-right'>
                         Lunch
@@ -122,7 +122,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        15:20 - 16:00
+                        3:20pm - 4:00pm
                       </div>
                       <div className='list-right'>
                         Midday Mixer
@@ -137,7 +137,7 @@ export const SummitOnsitePageTemplate = ({
                   <div className='schedule-rows'>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:15 - 16:00
+                        8:15am - 4:00pm
                       </div>
                       <div className='list-right'>
                       <a href="/summit-sponsor">Marketplace</a> <em>(closed during keynotes)</em>
@@ -145,7 +145,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:15 - 16:00
+                        8:15am - 4:00pm
                       </div>
                       <div className='list-right'>
                       Mirantis Biergarten <em>(closed during keynotes)</em>
@@ -153,7 +153,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                      9:00 - 11:00
+                      9:00am - 11:00am
                       </div>
                       <div className='list-right'>
                         Keynotes
@@ -161,7 +161,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        11:00 - 18:00
+                        11:00am - 6:00pm
                       </div>
                       <div className='list-right'>
                         <a href="/summit-schedule">Breakouts / Forum / Workshops / Demos / Lightning Talks</a>
@@ -169,7 +169,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        12:30 - 13:30
+                        12:30pm - 1:30pm
                       </div>
                       <div className='list-right'>
                         Lunch <em>(Diversity & Inclusion Lunch sponsored by Red Hat in A02)</em>
@@ -177,7 +177,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        15:20 - 16:00
+                        3:20pm - 4:00pm
                       </div>
                       <div className='list-right'>
                         Midday Mixer
@@ -192,7 +192,7 @@ export const SummitOnsitePageTemplate = ({
                   <div className='schedule-rows'>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        9:00 - 16:10
+                        9:00am - 4:10pm
                       </div>
                       <div className='list-right'>
                         <a href="/summit-sponsor">Marketplace</a>
@@ -200,7 +200,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                      9:00 - 16:10
+                      9:00am - 4:10pm
                       </div>
                       <div className='list-right'>
                       Mirantis Biergarten
@@ -208,7 +208,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                      9:00 - 18:00
+                      9:00am - 6:00pm
                       </div>
                       <div className='list-right'>
                       <a href="/summit-schedule">Breakouts / Forum / Workshops / Demos / Lightning Talks</a>
@@ -216,7 +216,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        12:20 - 13:20
+                        12:20pm - 1:20pm
                       </div>
                       <div className='list-right'>
                         Lunch
@@ -244,7 +244,8 @@ export const SummitOnsitePageTemplate = ({
                 <div className='help-item'>
                   <img src="/img/summit/berlin/mask.svg" />
                   <h3 className='fix-h3'>Health & Safety</h3>
-                  <p>Masks are required throughout the Summit venue. Please consult the <a href="/summit-covid">Summit Health & Safety protocol</a> for more information. 
+                  <p>
+                  Masks are required (over nose and mouth) for all attendees except while eating drinking or when delivering a conference talk. Please consult the <a href="/summit-covid"></a>Summit Health & Safety protocol</a> for all onsite guidelines.
                   </p>
                 </div>
                 <div className='help-item'>
@@ -264,7 +265,7 @@ export const SummitOnsitePageTemplate = ({
                 <div className='help-item'>
                   <img src="/img/summit/berlin/social.svg" />
                   <h3 className='fix-h3'>Social Media</h3>
-                  <p>Share these hashtags in your posts on social media!</p>
+                  <p>Post your favorite OpenInfra Summit moments on social media and use our event hashtags!</p>
                   <p>
                   <strong>#OpenInfraSummit<br/>
                   #WeAreOpenInfra</strong>
@@ -273,7 +274,9 @@ export const SummitOnsitePageTemplate = ({
                 <div className='help-item'>
                   <img src="/img/summit/berlin/star.svg" />
                   <h3 className='fix-h3'>Rate the Summit</h3>
-                  <p>Your feedback is important! Let us know how we're doing by sharing your feedback in the <a href="#">attendee survey</a>.</p>
+                  <p>
+                  Your feedback is important and helps us shape future OpenInfra events! Let us know how we're doing by sharing your feedback in the <a href="#">attendee survey</a>.
+                  </p>
                 </div>
               </div>
             </div>

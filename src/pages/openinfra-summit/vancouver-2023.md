@@ -59,24 +59,24 @@ sponsorships:
     administrators and operators building the modern open infrastructure stack.
   button:
     text: Email for Sponsorship Info
-    link: "mailto:events@openinfra.dev"
+    link: "mailto:summit@openinfra.dev"
   calendar:
-    text: Or book a time to discuss
+    text: Or Book a Time to Discuss
     link: "https://calendly.com/jimmy-mcarthur"
   previous:
-    text: Previous Summit sponsors
+    text: Previous Summit Sponsors
     link: '#'
   sponsorList:
-    - alt: Windriver
-      image: /img/summit/logo-windriver.png
+    - alt: Mirantis
+      image: /img/summit/mirantis-logo-2color-horizontal-rgb-1 1.png
+    - alt: Red Hat
+      image: /img/summit/logo-redhat 1.png
+    - alt: T-Systems
+      image: /img/summit/logo-tsystems.png
     - alt: Ubuntu
       image: /img/summit/MT202-Ubuntu 1.png
     - alt: Vexxhost
       image: /img/summit/logo-vexxhost.png
-    - alt: Red Hat
-      image: /img/summit/logo-redhat 1.png
-    - alt: Mirantis
-      image: /img/summit/mirantis-logo-2color-horizontal-rgb-1 1.png
-    - alt: T-Systems
-      image: /img/summit/logo-tsystems.png
+    - alt: Windriver
+      image: /img/summit/logo-windriver.png
 ---

@@ -172,7 +172,7 @@ export const SummitOnsitePageTemplate = ({
                         12:30 - 13:30
                       </div>
                       <div className='list-right'>
-                        Lunch <em>(Diversity & Inclusion Lunch sponsored by Red Hat in A02 on Wednesday)</em>
+                        Lunch <em>(Diversity & Inclusion Lunch sponsored by Red Hat in A02)</em>
                       </div>
                     </div>
                     <div className='schedule-row'>

@@ -1,12 +1,9 @@
 ---
 templateKey: summit-coming-soon-page
 seo:
-  description: We believe digital infrastructure is core to human progress in
-    every country, company and industry. We also believe that community driven
-    open source is the best way to develop technology that is broadly available
-    for use around the world.
+  description: Collaborate directly with the people building and running open source infrastructure using OpenStack, Kubernetes and 30+ other technologies.
   image: /img/OpenInfra-icon-white.jpg
-  title: Join The Open Infrastructure Foundation
+  title: OpenInfra Summit Vancouver 2023, coming soon!
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/summit/vancouver-2023
 header:

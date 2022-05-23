@@ -17,7 +17,7 @@ applyLink: https://coda.io/form/Apply-Web-Manager_d_R9mI3E9PH
 
 **About Us**
 
-The Open Infrastructure Foundation (OpenInfra) is a non-profit organization that helps communities build and operate open infrastructure. We support the development and adoption of open infrastructure globally, across a community of over 100,000 individuals in 187 countries, by hosting open source projects and communities of practice. Recently relaunched from the OpenStack Foundation, we currently support 6 open source projects including OpenStack, which has become the de facto open source cloud platform in the world used by organizations such as Walmart, CERN, Blizzard and many more. We are a small, diverse, fully remote team with employees spanning the globe.
+The Open Infrastructure Foundation (OpenInfra) is a non-profit organization that helps communities build and operate open infrastructure. We support the development and adoption of open infrastructure globally, across a community of over 110,000 individuals in 187 countries, by hosting open source projects and communities of practice. Recently relaunched from the OpenStack Foundation, we currently support 6 open source projects including OpenStack, which has become the de facto open source cloud platform in the world used by organizations such as Walmart, CERN, Blizzard and many more. We are a small, diverse, fully remote team with employees spanning the globe.
 
 **Web Manager**
 

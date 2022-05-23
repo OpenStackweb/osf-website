@@ -2,7 +2,7 @@
 templateKey: index-page
 seo:
   description: "The OpenInfra Foundation is an open source foundation supporting a
-    global community of 100,000 individuals to build and operate open
+    global community of 110,000 individuals to build and operate open
     infrastructure software. "
   image: /img/OpenInfra-icon-white.jpg
   title: "OpenInfra Foundation: We build communities who write software that runs
@@ -15,7 +15,7 @@ header:
       text: Projects
     - link: /join/
       text: Join Us
-  subTitle: "With over 100,000 members in 187 countries, the OpenInfra Foundation
+  subTitle: "With over 110,000 members in 187 countries, the OpenInfra Foundation
     helps open source communities build the  tools infrastructure operators need
     for Data Center Clouds, 5G, Edge, Containers, CI/CD and beyond.  "
   title: Open Infrastructure
@@ -36,7 +36,7 @@ mainpitch:
       source technologies enabling everyone to provide infrastructure for
       others  to build solutions on.
 
-      OpenInfra Foundation and its 100,000 members from 187 countries exist to ensure each open source component is  built and tested together, collaboratively, with a radical approach to openness we call the  Four Opens: Open Source, Development, Design and Community.
+      OpenInfra Foundation and its 110,000 members from 187 countries exist to ensure each open source component is  built and tested together, collaboratively, with a radical approach to openness we call the  Four Opens: Open Source, Development, Design and Community.
 
       From Community, where anyone is welcome to contribute; to Design, where diverse ideas are shared  before the coding begins; to Development, when every patch is visible and tested before it lands;  to the Source code itself, which is shared with the world: each is critical to how we deliver  open source.
     title: BUILT BY THE FOUR OPENS, BUILT BY THE COMMUNITY

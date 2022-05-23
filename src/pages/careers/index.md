@@ -10,7 +10,7 @@ seo:
 header:
   title: OpenInfra Foundation Careers
   subTitle: >-
-    Help us build our community of 100,000+ members who write software that runs in production across 187 countries.
+    Help us build our community of 110,000+ members who write software that runs in production across 187 countries.
 row1:
   images:
     - image: /img/crew-100.jpg

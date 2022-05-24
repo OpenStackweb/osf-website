@@ -1554,8 +1554,16 @@ h3.small-title-summit {
   }
 }
 .venue-map {
-  width: 100%;
-  height: auto;
+  width: auto;
+  max-height: 700px;
+  margin: 0 auto;
+}
+.map-link {
+  display: block;
+  color: #FF5E32;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 2rem;
 }
 .summit-schedule {
   padding: 60px 0;

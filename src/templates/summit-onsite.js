@@ -38,7 +38,7 @@ export const SummitOnsitePageTemplate = ({
                 <div className="upper-title">{upperTitle}</div>
                 <h3 className="hero-project-title">{title}</h3> 
                 <div className="hero-project-entry">
-                This is where you’ll find almost anything you need while on site at the OpenInfra Summit, including <a href="#maps">venue maps</a>, <a href="#wifi">Wifi credentials</a>, <a href="#schedule">schedule</a>, where to <a href="#help">get help</a>, <a href="#help">health & safety protocols</a>, and the <a href="#help">code of conduct</a>.
+                This is where you’ll find almost anything you need while on site at the OpenInfra Summit, including the <a href="#maps">venue map</a>, <a href="#wifi">Wifi credentials</a>, the <a href="#schedule">schedule</a>, where to <a href="#help">get help</a>, <a href="#help">health & safety protocols</a>, and the <a href="#help">code of conduct</a>.
                 </div>
               </div>
             </div>
@@ -65,7 +65,10 @@ export const SummitOnsitePageTemplate = ({
           <section className='summit-map' id="maps">
             <div className='container'>
               <h3 className='fix-h3'>Venue Map</h3>
-              <img className='venue-map' src="/img/summit/berlin/placeholder-map.png" />
+              <a href="/files/OpenInfraSummit-BCC-Map.pdf">
+                <img className='venue-map' src="/img/summit/berlin/OpenInfraSummit-BCC-Map.jpg" />
+              </a>
+              <a href="/files/OpenInfraSummit-BCC-Map.pdf" class="map-link">Download the Full Map</a>
             </div>
           </section>
           <div className='container'>

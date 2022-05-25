@@ -25,13 +25,12 @@ function SubNav(props) {
     <nav className="subnav-bar">
       <div className="container">
         <div className="location">
-          <LinkComponent href="/summit" >OpenInfra Summit</LinkComponent>
+          <LinkComponent id="summit" href="/summit" >OpenInfra Summit</LinkComponent>
         </div>
 
         <ul id="links-list" className="links-list">
-          <li><LinkComponent id="summit" href="/summit" className="link">Home</LinkComponent></li>
+          <li><LinkComponent id="summit-onsite" href="/summit-onsite" className="link">Onsite Info</LinkComponent></li>
           <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" className="link">Sponsors</LinkComponent></li>
-          <li><LinkComponent id="summit-tracks" href="/summit-tracks" className="link">Tracks</LinkComponent></li>
 
           <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
             <LinkComponent id="summit-faq" href="/summit-faq" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
@@ -86,9 +85,8 @@ function SubNav(props) {
       {isOpen &&
         <div className="subnav-dropdown">
           <ul id="links-list-mobile" className="links-list">
-            <li><LinkComponent id="summit" href="/summit" onClick={() => shouldCloseMenu("summit")} className="link">Home</LinkComponent></li>
+            <li><LinkComponent id="summit-onsite" href="/summit-onsite" onClick={() => shouldCloseMenu("summit")} className="link">Onsite Info</LinkComponent></li>
             <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" onClick={() => shouldCloseMenu("summit-sponsor")} className="link">Sponsors</LinkComponent></li>
-            <li><LinkComponent id="summit-tracks" href="/summit-tracks" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Tracks</LinkComponent></li>
 
             <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} className="link-dropdown">
               <LinkComponent id="summit-faq" href="#" className="link link-dropdown-parent" >

@@ -1,0 +1,39 @@
+.funding-page {
+  section.funding {
+    margin-top: -64px;
+    padding: 80px 0 80px;
+    border-bottom: 1px solid #C4C4C4;
+    border-top: 1px solid #EEEEEE;
+
+    .container .text-box {
+      margin-bottom: 40px;
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+        opacity: 0.8;
+      }
+
+      .title {
+        font-weight: 700;
+        margin-bottom: 0;
+      }
+    }
+
+    .tables {
+      display: flex;
+      gap: 10px;
+
+      @media(max-width: 767px) {
+        flex-direction: column;
+      }
+
+      .ct-wrapper {
+        flex: 1;
+      }
+    }
+  }
+}

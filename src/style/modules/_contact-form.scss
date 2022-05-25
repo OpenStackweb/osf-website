@@ -200,18 +200,24 @@ button.contact-submit:hover {
 }
 
 #confirmation-message {
-    display: none;
     justify-content: center;
 }
 
 .confirmation-text {
-    margin: 0 60px 0 60px;
+    margin:auto auto;
     text-align: center;
     padding: 60px 0 60px 0;
     max-width: 700px;
     color: var(--text-color);;
     line-height: 1.5;
     opacity: 0.8;
+}
+
+
+
+.frc-captcha {
+    max-width: 100% !important;
+    margin-bottom:1em;
 }
 
 /* ------------------------------------------------------------ *\

@@ -3,7 +3,7 @@
   background-color: #f3f3f3;
   color: #161616;
   padding: 0;
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     padding: unset;
   }
   .btn {
@@ -30,7 +30,7 @@
     &::after {
       display: none !important;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       margin: 0 30px;
       padding: 13.6px 0;
     }
@@ -51,11 +51,11 @@
       flex-direction: row;
       align-items: center;
       margin: 0;
-      @media (max-width: 768px) {
+      @media (max-width: 900px) {
         display: none;
       }
       &.location {
-        @media (max-width: 768px) {
+        @media (max-width: 900px) {
           display: block;
         }
       }
@@ -69,7 +69,7 @@
         &:first-of-type {
           margin-left: 0;
         }
-        @media (min-width: 769px) and (max-width: 1200px) {
+        @media (min-width: 901px) and (max-width: 1200px) {
           margin-left: 10px;
         }
         a {
@@ -126,7 +126,7 @@
   .mobile-subnav-menu {
     display: none;
 
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -147,7 +147,7 @@
   }
   .active-page {
     display: none;
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       text-transform: uppercase;
       opacity: 1;
       display: flex;
@@ -167,8 +167,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin: 0;
-      padding: 15px 0 0 0;
+      padding: 15px 0;
       margin: 0 30px;
       li {
         width: 100%;
@@ -210,7 +209,7 @@
         }
       }
     }
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       display: unset;
     }
   }

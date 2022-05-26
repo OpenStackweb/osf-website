@@ -30,11 +30,11 @@ function SubNavYvr(props) {
             </div>
             {summitDropdown &&
               <div className='dropdown-options'>
-                <LinkComponent id="summit" href="/summit/" className="link">
-                  <span>Berlin, Germany 2022</span>
-                </LinkComponent>
                 <LinkComponent id="vancouver-2023" href="/summit/vancouver-2023" className="link">
                   <span>Vancouver, BC 2023</span>
+                </LinkComponent>
+                <LinkComponent id="summit" href="/summit/" className="link">
+                  <span>Berlin, Germany 2022</span>
                 </LinkComponent>
               </div>
             }
@@ -50,8 +50,8 @@ function SubNavYvr(props) {
       {isSummitOpen &&
         <div className="subnav-dropdown location">
           <ul id="links-list-mobile" className="links-list">
-            <li><LinkComponent id="summit" href="/summit" onClick={() => shouldCloseSummitMenu("summit")} className="link">Berlin, Germany 2022</LinkComponent></li>
             <li><LinkComponent id="vancouver-2023" href="/summit/vancouver-2023" onClick={() => shouldCloseSummitMenu("vancouver-2023")} className="link">Vancouver, BC 2023</LinkComponent></li>
+            <li><LinkComponent id="summit" href="/summit" onClick={() => shouldCloseSummitMenu("summit")} className="link">Berlin, Germany 2022</LinkComponent></li>
           </ul>
         </div>
       }

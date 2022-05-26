@@ -93,6 +93,24 @@ a.form-links {
   display: flex;
   flex-direction: row;
   height: 100%;
+  &-dropdown {
+    > div {
+      width: 100%;
+      .contact-field-dropdown {
+        width: 100%;
+        font-size: 14px;
+        height: 42px;
+        border: 0.5px solid var(--text-color);
+        background-color: unset;
+        color: var(--text-color);
+        > div:first-of-type {
+            width: 100%;
+            border: none;
+            box-shadow: 0 0 0 1px hsla(0,0%,0%,0.1),0 4px 11px hsla(0,0%,0%,0.1);
+        }
+      }
+    }
+  }
 }
 
 .field-label {

@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Dropdown } from 'openstack-uicore-foundation/lib/components'
 import Swal from "sweetalert2";
 import { WidgetInstance } from 'friendly-challenge';
 import { getServerFunctionUrl } from '../utils/functionsUtils';
@@ -13,6 +14,8 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
     const container = useRef();
     const widget = useRef();
 
+    const [platinumDropdown, setPlatinumDropdown] = useState([])
+
     const doneCallback = (solution) => {
         setInputs(values => ({ ...values, [friendlyCaptchaFieldName]: solution }))
     }
@@ -24,6 +27,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
     const handleChange = (event) => {
         const name = event.target.name;
         const value = event.target.value;
+        console.log('name', name, value)
         setInputs(values => ({ ...values, [name]: value }))
     }
 
@@ -40,6 +44,19 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
             if (widget.current !== undefined) widget.current.destroy();
         }
     }, [container]);
+
+    useEffect(() => {
+        const formattedMembers = platinumMembers?.map(p => {
+            return { label: p.company.name, value: p.company.name }
+        })
+        if (formattedMembers) setPlatinumDropdown(formattedMembers)
+    }, [platinumMembers])
+
+    const handleDropdownChange = (ev) => {
+        setInputs({...inputs, project_platinum_member: ev.target.value})    
+    }
+
+    console.log('inputs', inputs);
 
     const handleSubmit = (evt) => {
         evt.preventDefault();
@@ -225,18 +242,16 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
                                     <label className="field-label" htmlFor="project_platinum_member">
                                         Which OpenInfra Foundation Platinum member is involved in this project?
                                     </label>
-                                    <div className="field-row">
-                                        <select id="project_platinum_member" className="contact-field ct-field"
-                                            maxLength="400" name="project_platinum_member" value={inputs.project_platinum_member || ""}
-                                            onChange={handleChange} placeholder="" wrap="soft"
-                                            required>
-                                            <option value={null}></option>
-                                            {platinumMembers?.map((s, index) => {
-                                                return (
-                                                    <option key={index} value={s.company.name}>{s.company.name}</option>
-                                                )
-                                            })}
-                                        </select>
+                                    <div className="field-row-dropdown">
+                                        {platinumDropdown.length > 0 &&
+                                            <Dropdown
+                                                className="contact-field-dropdown"
+                                                name="project_platinum_member"                                                
+                                                isMulti
+                                                value={inputs.project_platinum_member || []}
+                                                options={platinumDropdown}
+                                                onChange={handleDropdownChange} />
+                                        }
                                     </div>
                                 </div>
                             </div>

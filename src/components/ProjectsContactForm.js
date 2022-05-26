@@ -61,6 +61,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
     const handleSubmit = (evt) => {
         evt.preventDefault();
         const uri = new URI();
+        uri.addQuery("form-name", evt.target.getAttribute("name"));
         uri.addQuery(inputs);
         if (!uri.hasQuery(friendlyCaptchaFieldName)) {
             Swal.fire("Validation Error", 'Captcha solution is invalid!.', "warning");
@@ -94,7 +95,12 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
     }
 
     return (
-        <form className="contact-form top-line" name="projects-contact" onSubmit={handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
+        <form className="contact-form top-line" 
+            name="projects-contact" 
+            onSubmit={handleSubmit}
+            method="post"
+            data-netlify="true" 
+            data-netlify-honeypot="bot-field">
             {!success &&
                 <div id="form-fields">
                     <div className="form-wrapper is-vertical" style={{ paddingTop: 0 }}>

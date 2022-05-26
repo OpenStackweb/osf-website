@@ -2,11 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Dropdown } from 'openstack-uicore-foundation/lib/components'
 import Swal from "sweetalert2";
 import { WidgetInstance } from 'friendly-challenge';
-import { getServerFunctionUrl } from '../utils/functionsUtils';
 import { getEnvVariable, FRIENDLY_CAPTCHA_SITE_KEY } from '../utils/envVariables'
 import URI from 'urijs';
 
-const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
+const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumMembers }) => {
 
     const friendlyCaptchaFieldName = 'frc-captcha-solution';
     const [inputs, setInputs] = useState({});
@@ -53,7 +52,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
     }, [platinumMembers])
 
     const handleDropdownChange = (ev) => {
-        setInputs({...inputs, project_platinum_member: ev.target.value})    
+        setInputs({ ...inputs, project_platinum_member: ev.target.value })
     }
 
     console.log('inputs', inputs);
@@ -95,11 +94,11 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
     }
 
     return (
-        <form className="contact-form top-line" 
-            name="projects-contact" 
+        <form className="contact-form top-line"
+            name="projects-contact"
             onSubmit={handleSubmit}
             method="post"
-            data-netlify="true" 
+            data-netlify="true"
             data-netlify-honeypot="bot-field">
             {!success &&
                 <div id="form-fields">
@@ -252,7 +251,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
                                         {platinumDropdown.length > 0 &&
                                             <Dropdown
                                                 className="contact-field-dropdown"
-                                                name="project_platinum_member"                                                
+                                                name="project_platinum_member"
                                                 isMulti
                                                 value={inputs.project_platinum_member || []}
                                                 options={platinumDropdown}
@@ -287,13 +286,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
             }
             {success &&
                 <div id="confirmation-message">
-                    <div className="confirmation-text">Thank you for contacting the Open Infrastructure Foundation. Someone
-                        from the Foundation will follow up with you as soon as possible. If you’d like to set up a meeting
-                        directly with our business development team, go ahead and <a className="form-links"
-                            href="https://calendly.com/jimmy-mcarthur"
-                            target="_blank">grab some time on our
-                            calendar</a>.
-                    </div>
+                    <div className="confirmation-text" dangerouslySetInnerHTML={{ __html: successMessage }} />
                 </div>
             }
 

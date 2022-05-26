@@ -11,5 +11,7 @@ title: Learn more about Hosting a Project with OpenInfra Foundation
 subTitle: Think you have a project that could be a good fit and interested in hearing more? We’re here to help!
 privacyPolicyAgreement: >-
     * by submitting this form, I acknowledge and agree to the OpenInfra Foundation's <a href="/privacy-policy">Privacy Policy</a>
+successMessage: >-
+    Thank you for contacting the Open Infrastructure Foundation. Someone from the Foundation will follow up with you as soon as possible.
 ---
 

@@ -17,6 +17,7 @@ export const ProjectsContactPageTemplate = ({
     title,
     subTitle,
     privacyPolicyAgreement,
+    successMessage,
     platinumMembers,
     content,
     contentComponent
@@ -33,7 +34,7 @@ export const ProjectsContactPageTemplate = ({
             </div>
 
             <main className="main">
-                <ProjectsContactForm privacyPolicyAgreement={privacyPolicyAgreement} platinumMembers={platinumMembers} />
+                <ProjectsContactForm privacyPolicyAgreement={privacyPolicyAgreement} successMessage={successMessage} platinumMembers={platinumMembers} />
                 <PageContent content={content} />
             </main>
         </div>
@@ -66,6 +67,7 @@ const ProjectsContactPage = ({ isLoggedUser, getSponsorhipType, sponsorships, da
                 title={post.frontmatter.title}
                 subTitle={post.frontmatter.subTitle}
                 privacyPolicyAgreement={post.frontmatter.privacyPolicyAgreement}
+                successMessage={post.frontmatter.successMessage}
                 platinumMembers={sponsorships?.filter(t => t.name === 'PLATINUM MEMBERS')[0]?.supporting_companies}
                 content={post.html}
             />
@@ -106,6 +108,7 @@ export const projectsContactPageQuery = graphql`
         title
         subTitle
         privacyPolicyAgreement
+        successMessage
       }
     }
   }

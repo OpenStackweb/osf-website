@@ -70,7 +70,6 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                 method: "POST",
                 body: uri.query(),
             }).then((response) => {
-                console.log(response);
                 if (response.ok) {
                     setSuccess(true);
                     return;

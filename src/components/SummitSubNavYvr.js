@@ -16,7 +16,7 @@ function SubNavYvr(props) {
         <ul className="links-list location">
           <li onMouseEnter={() => setSummitDropdown(true)} onMouseLeave={() => setSummitDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
             <div id="summit" className="link" style={{ padding: 10, width: '102%', display: 'inline-flex' }}>
-            OpenInfra Summit Vancouver
+            Vancouver, BC 2023
               <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
             </div>
             {summitDropdown &&

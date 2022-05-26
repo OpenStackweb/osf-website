@@ -6,6 +6,7 @@ function SubNav(props) {
   const [isOpen, setIsOpen] = useState(false);
   const [scheduleDropdown, setScheduleDropdown] = useState(false);
   const [supportDropdown, setSupportDropdown] = useState(false);
+  const [summitDropdown, setSummitDropdown] = useState(false);
 
   useEffect(() => {
     let active = document.getElementById(props.active);
@@ -24,16 +25,31 @@ function SubNav(props) {
 
     <nav className="subnav-bar">
       <div className="container">
-        <div className="location">
-          <LinkComponent href="/summit" >OpenInfra Summit</LinkComponent>
-        </div>
+        <ul className="links-list location">
+          <li onMouseEnter={() => setSummitDropdown(true)} onMouseLeave={() => setSummitDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
+            <LinkComponent id="summit" href="/summit" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
+            OpenInfra Summit Berlin
+              <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
+            </LinkComponent>
+            {summitDropdown &&
+              <div className='dropdown-options'>
+                <LinkComponent id="summit" href="/summit/" className="link">
+                  <span>Berlin, Germany 2022</span>
+                </LinkComponent>
+                <LinkComponent id="vancouver-2023" href="/summit/vancouver-2023" className="link">
+                  <span>Vancouver, BC 2023</span>
+                </LinkComponent>
+              </div>
+            }
+          </li>
+        </ul>
 
         <ul id="links-list" className="links-list">
           <li><LinkComponent id="summit" href="/summit" className="link">Home</LinkComponent></li>
           <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" className="link">Sponsors</LinkComponent></li>
           <li><LinkComponent id="summit-tracks" href="/summit-tracks" className="link">Tracks</LinkComponent></li>
 
-          <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
+          <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
             <LinkComponent id="summit-faq" href="/summit-faq" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
               Support
               <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
@@ -54,7 +70,7 @@ function SubNav(props) {
           </li>
           <li><LinkComponent id="summit-covid" href="/summit-covid" className="link">COVID-19</LinkComponent></li>
           {props.isLoggedUser ?
-            <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
+            <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
               <LinkComponent id="summit-schedule" href="/summit-schedule" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
                 Schedule
                 <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />

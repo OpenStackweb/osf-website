@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
+import SubNavYvr from '../components/SummitSubNavYvr'
 
 import { connect } from "react-redux";
 
@@ -28,6 +29,7 @@ export const SummitSoonPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
+        <SubNavYvr active="summit" pageName="vancouver-2023" isLoggedUser={isLoggedUser}/>
       </div>
 
       <main className="main">

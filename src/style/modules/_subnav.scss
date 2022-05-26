@@ -148,7 +148,7 @@
   .active-page {
     display: none;
     @media (max-width: 768px) {
-      text-transform: capitalize;
+      text-transform: uppercase;
       opacity: 1;
       display: flex;
       flex-direction: row;

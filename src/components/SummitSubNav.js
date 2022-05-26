@@ -4,6 +4,7 @@ import LinkComponent from './LinkComponent';
 function SubNav(props) {
 
   const [isOpen, setIsOpen] = useState(false);
+  const [isSummitOpen, setIsSummitOpen] = useState(false);
   const [scheduleDropdown, setScheduleDropdown] = useState(false);
   const [supportDropdown, setSupportDropdown] = useState(false);
   const [summitDropdown, setSummitDropdown] = useState(false);
@@ -17,15 +18,23 @@ function SubNav(props) {
     setIsOpen(!isOpen);
   }
 
+  function toggleSummitMenu() {
+    setIsSummitOpen(!isSummitOpen);
+  }
+
   const shouldCloseMenu = (option) => {
     if (window.location.pathname.includes(option)) setIsOpen(false);
+  }
+
+  const shouldCloseSummitMenu = (option) => {
+    if (window.location.pathname.includes(option)) setIsSummitOpen(false);
   }
 
   return (
 
     <nav className="subnav-bar">
       <div className="container">
-        <ul className="links-list location">
+        <ul className="links-list">
           <li onMouseEnter={() => setSummitDropdown(true)} onMouseLeave={() => setSummitDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
             <div id="summit" className="link summit-selector" style={{ padding: 10, width: '102%', display: 'inline-flex' }}>
             Berlin, Germany 2022
@@ -92,12 +101,26 @@ function SubNav(props) {
           <li><LinkComponent id="registration" href="https://openinfrasummitberlin.eventbrite.com/" className="link registration">Register</LinkComponent></li>
         </ul>
 
+        <div className={`${isSummitOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleSummitMenu}>
+          <div className="page-name">Berlin, Germany 2022</div>
+          <i style={{ marginLeft: "5px" }} className={`fa ${isSummitOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`} />
+        </div>
+
         <div className={`${isOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleMenu}>
           <div className="page-name">{props.pageName}</div>
           <i style={{ marginLeft: "5px" }} className={`fa ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`} />
         </div>
 
       </div>
+
+      {isSummitOpen &&
+        <div className="subnav-dropdown location">
+          <ul id="links-list-mobile" className="links-list">
+            <li><LinkComponent id="summit" href="/summit" onClick={() => shouldCloseSummitMenu("summit")} className="link">Berlin, Germany 2022</LinkComponent></li>
+            <li><LinkComponent id="vancouver-2023" href="/summit/vancouver-2023" onClick={() => shouldCloseMenu("vancouver-2023")} className="link">Vancouver, BC 2023</LinkComponent></li>
+          </ul>
+        </div>
+      }
 
       {isOpen &&
         <div className="subnav-dropdown">

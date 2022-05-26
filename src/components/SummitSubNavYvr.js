@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import LinkComponent from './LinkComponent';
 
 function SubNavYvr(props) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isSummitOpen, setIsSummitOpen] = useState(false);
   const [summitDropdown, setSummitDropdown] = useState(false);
 
   useEffect(() => {
@@ -10,12 +10,12 @@ function SubNavYvr(props) {
     active.className += " active";
   }, []);
 
-  function toggleMenu() {
-    setIsOpen(!isOpen);
+  function toggleSummitMenu() {
+    setIsSummitOpen(!isSummitOpen);
   }
 
-  const shouldCloseMenu = (option) => {
-    if (window.location.pathname.includes(option)) setIsOpen(false);
+  const shouldCloseSummitMenu = (option) => {
+    if (window.location.pathname.includes(option)) setIsSummitOpen(false);
   }
 
   return (
@@ -41,18 +41,17 @@ function SubNavYvr(props) {
           </li>
         </ul>
 
-        <div className={`${isOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleMenu}>
-          <div className="page-name">{props.pageName}</div>
-          <i style={{ marginLeft: "5px" }} className={`fa ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`} />
+        <div className={`${isSummitOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleSummitMenu}>
+          <div className="page-name">Vancouver, BC 2023</div>
+          <i style={{ marginLeft: "5px" }} className={`fa ${isSummitOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`} />
         </div>
-
       </div>
 
-      {isOpen &&
+      {isSummitOpen &&
         <div className="subnav-dropdown location">
           <ul id="links-list-mobile" className="links-list">
-            <li><LinkComponent id="summit" href="/summit" onClick={() => shouldCloseMenu("summit")} className="link">Berlin, Germany 2022</LinkComponent></li>
-            <li><LinkComponent id="vancouver-2023" href="/summit/vancouver-2023" onClick={() => shouldCloseMenu("vancouver-2023")} className="link">Vancouver, BC 2023</LinkComponent></li>
+            <li><LinkComponent id="summit" href="/summit" onClick={() => shouldCloseSummitMenu("summit")} className="link">Berlin, Germany 2022</LinkComponent></li>
+            <li><LinkComponent id="vancouver-2023" href="/summit/vancouver-2023" onClick={() => shouldCloseSummitMenu("vancouver-2023")} className="link">Vancouver, BC 2023</LinkComponent></li>
           </ul>
         </div>
       }

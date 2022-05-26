@@ -27,7 +27,7 @@ function SubNav(props) {
       <div className="container">
         <ul className="links-list location">
           <li onMouseEnter={() => setSummitDropdown(true)} onMouseLeave={() => setSummitDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
-            <div id="summit" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
+            <div id="summit" className="link summit-selector" style={{ padding: 10, width: '102%', display: 'inline-flex' }}>
             Berlin, Germany 2022
               <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
             </div>

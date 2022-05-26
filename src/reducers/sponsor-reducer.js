@@ -1,7 +1,8 @@
 import { START_LOADING, STOP_LOADING, LOGOUT_USER } from "openstack-uicore-foundation/lib/actions";
 
 import {
-    RECEIVE_SPONSORSHIP_TYPES
+    RECEIVE_SPONSORSHIP_TYPES,
+    RECEIVE_SPONSORSHIP_TYPE
 } from '../actions/sponsor-actions'
 
 const DEFAULT_STATE = {

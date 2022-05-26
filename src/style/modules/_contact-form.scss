@@ -3,221 +3,262 @@
 \* ------------------------------------------------------------ */
 
 form.contact-form {
-    /* Change these values to change form colors */
-    --primary-color: white;
-    --text-color: black;
-    --link-color: #e61e24; 
-    --cta-color: #e61e24; 
-    --cta-text-color: white;
-    --cta-hover: #9a0c28; 
-    margin: 0 auto;
-    width: 100%;
-    background-color: var(--primary-color);
+  /* Change these values to change form colors */
+  --primary-color: white;
+  --text-color: black;
+  --link-color: #e61e24;
+  --cta-color: #e61e24;
+  --cta-text-color: white;
+  --cta-hover: #9a0c28;
+  margin: 0 auto;
+  width: 100%;
+  background-color: var(--primary-color);
+  &.top-line {
+    border-top: 1px solid #eeeeee;
+    height: auto;
+  }
 }
 
 a.form-links {
-    color: var(--link-color);
-    font-weight: bold;
+  color: var(--link-color);
+  font-weight: bold;
 }
 
 .form-heading {
-    color: var(--text-color);
-    font-size: 28px;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 60px;
+  color: var(--text-color);
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.form-title {
+  font-family: "Jura";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: black;
+  text-transform: uppercase;
+  margin: 50px 0 15px;
 }
 
 @media (max-width: 767px) {
-    .form-heading {
-        padding-top: 30px;
-    }
+  .form-heading {
+    padding-top: 30px;
+  }
 }
 
 .form-wrapper {
-    max-width: 1140px;
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    padding: 48px 60px 60px 60px;
-    
+  max-width: 1140px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 48px 60px 60px 60px;
 }
 
 @media (max-width: 767px) {
-    .form-wrapper {
-        flex-direction: column;
-        padding: 30px;
-    }
+  .form-wrapper {
+    flex-direction: column;
+    padding: 30px;
+  }
 }
 
 .is-vertical {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .field-column {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    max-width: 570px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 570px;
 }
 
 .is-full-width {
-    width: 100%;
-    max-width: 700px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 @media (max-width: 767px) {
-    .field-column  {
-        width: 100%;
-        max-width: unset;
-    }
+  .field-column {
+    width: 100%;
+    max-width: unset;
+  }
 }
 
 .field-row {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.field-label {
+  color: black;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.8;
+  margin: 15px 0 5px;
 }
 
 @media (max-width: 767px) {
-    .field-row   {
-        flex-direction: column;
-        max-width: 100%;
-        margin-left: 0.5px;
-    }
+  .field-row {
+    flex-direction: column;
+    max-width: 100%;
+    margin-left: 0.5px;
+  }
 }
 
 .contact-field {
-    font-size: 14px;
-    height: 42px;
-    width: 100%;
-    border: 0.5px solid var(--text-color);
-    background-color: unset;
-    color: var(--text-color);
-    padding: 0 0 0 10px;
+  font-size: 14px;
+  height: 42px;
+  width: 100%;
+  border: 0.5px solid var(--text-color);
+  background-color: unset;
+  color: var(--text-color);
+  padding: 0 0 0 10px;
 }
 
 @media (max-width: 767px) {
-    .contact-field  {
-        align-self: center;
-        width: 98%;
-        margin: 0 -10px 15px 0;
-    }
+  .contact-field {
+    align-self: center;
+    width: 98%;
+    margin: 0 -10px 15px 0;
+  }
 }
 
 .lt-field {
-    margin: 0 7.5px 15px 0;
+  margin: 0 7.5px 15px 0;
 }
 
 @media (max-width: 767px) {
-    .lt-field  {
-        width: 100%;
-        margin: 0 0 15px 0;
-    }
+  .lt-field {
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
 }
 
 .rt-field {
-    margin: 0 0 0 7.5px;
+  margin: 0 0 0 7.5px;
 }
 
 @media (max-width: 767px) {
-    .rt-field  {
-        width: 100%;
-        margin: 0 0 15px 0;
-    }
+  .rt-field {
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
 }
 
 .ct-field {
-    margin: 0 0 15px 0;
+  margin: 0 0 15px 0;
 }
 
 @media (max-width: 767px) {
-    .ct-field  {
-        width: 100%;
-        margin: 0 0 15px 0;
-    }
+  .ct-field {
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
 }
 
 textarea {
-    font-family: sans-serif;
-    font-size: 14px;
-    margin: .2px 0 7.5px 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 0.2px 0 7.5px 0;
 }
 
 .message-field {
-    height: 100px;
-    border: 0.5px solid var(--text-color);
-    background-color: unset;
-    color: var(--text-color);
-    padding: 10px 0 0 10px;
-    margin: 0 0 15px 0;
-    line-height: 20px;
+  height: 100px;
+  border: 0.5px solid var(--text-color);
+  background-color: unset;
+  color: var(--text-color);
+  padding: 10px 0 0 10px;
+  margin: 0 0 15px 0;
+  line-height: 20px;
 }
 
 @media (max-width: 767px) {
-    .message-field {
-        align-self: center;
-        height: 125px;
-        width: 100%;
-        margin: 0 0 0 0.5px;
-        padding: 10px 0 0 10px;
-    }
+  .message-field {
+    align-self: center;
+    height: 125px;
+    width: 100%;
+    margin: 0 0 0 0.5px;
+    padding: 10px 0 0 10px;
+  }
 }
 
 button.contact-submit {
-    max-width: 100%;
-    height: 42px;
-    background-color: var(--cta-color);
-    color: var(--cta-text-color);
-    border: 0.5px solid var(--theme-color);
-    border-radius: 21px;
-    margin: 0 0 15px 0;
-    font-size: 14px;
-    font-weight: 600;
+  max-width: 100%;
+  height: 42px;
+  background-color: var(--cta-color);
+  color: var(--cta-text-color);
+  border: 0.5px solid var(--theme-color);
+  border-radius: 21px;
+  margin: 0 0 15px 0;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 @media (max-width: 767px) {
-    button.contact-submit {
-        align-self: center;
-        height: 42px;
-        width: 100%;
-        margin: 15px -1px 0 0;
-        padding: 0 100px 0 100px;
-    }
+  button.contact-submit {
+    align-self: center;
+    height: 42px;
+    width: 100%;
+    margin: 15px -1px 0 0;
+    padding: 0 100px 0 100px;
+  }
 }
 
 @media (max-width: 600px) {
-    button.contact-submit {
-        margin: 15px 0 0 0;
-        padding: unset;
-        width: 100.75%;
-    }
+  button.contact-submit {
+    margin: 15px 0 0 0;
+    padding: unset;
+    width: 100.75%;
+  }
 }
 
 button.contact-submit:hover {
-    background-color: var(--cta-hover);
+  background-color: var(--cta-hover);
 }
 
 #confirmation-message {
-    justify-content: center;
+  justify-content: center;
 }
 
 .confirmation-text {
-    margin:auto auto;
-    text-align: center;
-    padding: 60px 0 60px 0;
-    max-width: 700px;
-    color: var(--text-color);;
-    line-height: 1.5;
-    opacity: 0.8;
+  margin: auto auto;
+  text-align: center;
+  padding: 60px 0 60px 0;
+  max-width: 700px;
+  color: var(--text-color);
+  line-height: 1.5;
+  opacity: 0.8;
 }
 
-
-
 .frc-captcha {
-    max-width: 100% !important;
-    margin-bottom:1em;
+  max-width: 100% !important;
+  margin-bottom: 1em;
+}
+
+.form-agree {
+  margin: 15px 0;
+  color: black;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  a {
+    text-decoration: underline;
+    color: black;
+  }
 }
 
 /* ------------------------------------------------------------ *\
@@ -225,74 +266,73 @@ button.contact-submit:hover {
 \* ------------------------------------------------------------ */
 
 .is-horizontal {
-    flex-direction: row;
-    padding: 60px 0 0 0;
-    input {
-        background-color: rgba(255, 255, 255, 0.75);
-    }
-    textarea {
-        background-color: rgba(255, 255, 255, 0.75);
-    }
-    button.contact-submit {
-        max-width: 100%;
-        height: 42px;
-        background-color: var(--cta-color);
-        color: var(--cta-text-color);
-        border: 0.5px solid var(--theme-color);
-        border-radius: 21px;
-        margin: 0 0 15px 0;
-        font-size: 12px;
-        font-weight: 600;
-        letter-spacing: 0.3px;
+  flex-direction: row;
+  padding: 60px 0 0 0;
+  input {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+  textarea {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+  button.contact-submit {
+    max-width: 100%;
+    height: 42px;
+    background-color: var(--cta-color);
+    color: var(--cta-text-color);
+    border: 0.5px solid var(--theme-color);
+    border-radius: 21px;
+    margin: 0 0 15px 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
 
-        @media (max-width: 767px) {
-            align-self: center;
-            height: 42px;
-            width: 100%;
-            margin: 15px -1px 0 0;
-            padding: 0 100px 0 100px;
-        }
-        
-        @media (max-width: 600px) {
-            margin: 15px 0 0 0;
-            padding: unset;
-            width: 100.75%;
-        }
+    @media (max-width: 767px) {
+      align-self: center;
+      height: 42px;
+      width: 100%;
+      margin: 15px -1px 0 0;
+      padding: 0 100px 0 100px;
     }
+
+    @media (max-width: 600px) {
+      margin: 15px 0 0 0;
+      padding: unset;
+      width: 100.75%;
+    }
+  }
 }
 
 @media (max-width: 767px) {
-    .is-horizontal {
-        flex-direction: column;
-        padding: 30px 0 60px 0;
-    }
+  .is-horizontal {
+    flex-direction: column;
+    padding: 30px 0 60px 0;
+  }
 }
 
 .form-wrapper {
-    max-width: 100%;
-    
+  max-width: 100%;
 }
 
 .is-full-width-lt {
-    width: 100%;
-    max-width: 700px;
-    margin: 0 10px 0 0;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 10px 0 0;
 }
 
 @media (max-width: 767px) {
-    .is-full-width-lt {
-        margin: 0 auto;
-    }
+  .is-full-width-lt {
+    margin: 0 auto;
+  }
 }
 
 .is-full-width-rt {
-    width: 100%;
-    max-width: 700px;
-    margin: 0 0 0 10px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 0 0 10px;
 }
 
 @media (max-width: 767px) {
-    .is-full-width-rt {
-        margin: 0 auto;
-    }
+  .is-full-width-rt {
+    margin: 0 auto;
+  }
 }

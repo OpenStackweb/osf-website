@@ -77,7 +77,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
     }
 
     return (
-        <form className="contact-form top-line" name="form-name" onSubmit={handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
+        <form className="contact-form top-line" name="projects-contact" onSubmit={handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
             {!success &&
                 <div id="form-fields">
                     <div className="form-wrapper is-vertical" style={{ paddingTop: 0 }}>
@@ -91,6 +91,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
                                     maxLength="40" value={inputs.bot_field || ""}
                                     onChange={handleChange} name="bot-field" type="text"
                                     placeholder="First Name" />
+                                <input type="hidden" name="form-name" value="projects-contact" />
                             </p>
                             <div className="field-row">
                                 <div className="field-column is-full-width">

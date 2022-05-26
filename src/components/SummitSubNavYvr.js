@@ -15,10 +15,10 @@ function SubNavYvr(props) {
       <div className="container">
         <ul className="links-list location">
           <li onMouseEnter={() => setSummitDropdown(true)} onMouseLeave={() => setSummitDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
-            <LinkComponent id="summit" href="/summit" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
+            <div id="summit" className="link" style={{ padding: 10, width: '102%', display: 'inline-flex' }}>
             OpenInfra Summit Vancouver
               <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
-            </LinkComponent>
+            </div>
             {summitDropdown &&
               <div className='dropdown-options'>
                 <LinkComponent id="summit" href="/summit/" className="link">

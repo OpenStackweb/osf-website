@@ -42,7 +42,7 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
           subtitle="Directly aligning companies who want to work together with the projects they care about."
           sublabel="Interested in Hosting your project with the OpenInfra Foundation?"
           contactLink="/projects/contact"
-          moreLink="#building"
+          moreLink=" /projects/hosting"
           rightArrowLearnMore
         />
       </div>

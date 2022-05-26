@@ -52,7 +52,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
 
         fetch('/',
             {
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 method: "POST",
                 body: uri.query(),
             }).then((response) => {
@@ -86,12 +86,12 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
                         </div>
                         <div className="field-column is-full-width">
                             <p hidden>
+                                <input type="hidden" name="form-name" value="projects-contact" />
                                 <label className="field-label">Name</label>
                                 <input className="contact-field lt-field"
                                     maxLength="40" value={inputs.bot_field || ""}
                                     onChange={handleChange} name="bot-field" type="text"
                                     placeholder="First Name" />
-                                <input type="hidden" name="form-name" value="projects-contact" />
                             </p>
                             <div className="field-row">
                                 <div className="field-column is-full-width">
@@ -164,7 +164,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
                                     <div className="field-row">
                                         <label htmlFor="project_name"></label><input id="project_name" className="contact-field ct-field"
                                             maxLength="80" name="project_name" value={inputs.project_name || ""}
-                                            onChange={handleChange} type="project_name" placeholder="Project Name (if applicable)"
+                                            onChange={handleChange} type="text" placeholder="Project Name (if applicable)"
                                             required />
                                     </div>
                                 </div>
@@ -177,7 +177,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
                                     <div className="field-row">
                                         <label htmlFor="project_location"></label><input id="project_location" className="contact-field ct-field"
                                             maxLength="80" name="project_location" value={inputs.project_location || ""}
-                                            onChange={handleChange} type="project_location" placeholder="" />
+                                            onChange={handleChange} type="text" placeholder="" />
                                     </div>
                                 </div>
                             </div>
@@ -189,7 +189,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
                                     <div className="field-row">
                                         <label htmlFor="project_license"></label><input id="project_license" className="contact-field ct-field"
                                             maxLength="80" name="project_license" value={inputs.project_license || ""}
-                                            onChange={handleChange} type="project_license" placeholder=""
+                                            onChange={handleChange} type="text" placeholder=""
                                             required />
                                     </div>
                                 </div>
@@ -202,7 +202,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
                                     <div className="field-row">
                                         <label htmlFor="project_contributors"></label><input id="project_contributors" className="contact-field ct-field"
                                             maxLength="80" name="project_contributors" value={inputs.project_contributors || ""}
-                                            onChange={handleChange} type="project_contributors" placeholder=""
+                                            onChange={handleChange} type="text" placeholder=""
                                             required />
                                     </div>
                                 </div>
@@ -215,7 +215,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
                                     <div className="field-row">
                                         <label htmlFor="project_organizations"></label><input id="project_organizations" className="contact-field ct-field"
                                             maxLength="80" name="project_organizations" value={inputs.project_organizations || ""}
-                                            onChange={handleChange} type="project_organizations" placeholder=""
+                                            onChange={handleChange} type="text" placeholder=""
                                             required />
                                     </div>
                                 </div>
@@ -228,7 +228,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
                                     <div className="field-row">
                                         <select id="project_platinum_member" className="contact-field ct-field"
                                             maxLength="400" name="project_platinum_member" value={inputs.project_platinum_member || ""}
-                                            onChange={handleChange} type="project_platinum_member" placeholder="" wrap="soft"
+                                            onChange={handleChange} placeholder="" wrap="soft"
                                             required>
                                             <option value={null}></option>
                                             {platinumMembers?.map((s, index) => {
@@ -248,7 +248,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, platinumMembers }) => {
                                     <div className="field-row">
                                         <label htmlFor="project_commentary"></label><textarea id="project_commentary" className="contact-field ct-field message-field"
                                             maxLength="400" name="project_commentary" value={inputs.project_commentary || ""}
-                                            onChange={handleChange} type="project_commentary" placeholder="" wrap="soft" />
+                                            onChange={handleChange} type="text" placeholder="" wrap="soft" />
                                     </div>
                                 </div>
                             </div>

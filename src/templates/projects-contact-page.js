@@ -9,7 +9,7 @@ import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
 import ProjectsContactForm from '../components/ProjectsContactForm'
 
-import { getSponsorhipType } from '../actions/sponsor-actions'
+import { getSponsorhipTypes } from '../actions/sponsor-actions'
 import { connect } from "react-redux";
 
 export const ProjectsContactPageTemplate = ({
@@ -18,12 +18,18 @@ export const ProjectsContactPageTemplate = ({
     subTitle,
     privacyPolicyAgreement,
     successMessage,
-    platinumMembers,
+    sponsors,
     content,
     contentComponent
 }) => {
     const PageContent = contentComponent || Content
 
+    const platinumMembers = sponsors.reduce((result, item) => {
+        if (["PLATINUM MEMBERS"].includes(item.name)) {
+            return [...result, ...item.supporting_companies.map(sc => sc.company)]
+        }
+        return result;
+    }, []);
 
     return (
         <div>
@@ -47,16 +53,12 @@ ProjectsContactPageTemplate.propTypes = {
     subTitle: PropTypes.string,
 }
 
-const ProjectsContactPage = ({ isLoggedUser, getSponsorhipType, sponsorships, data }) => {
+const ProjectsContactPage = ({ isLoggedUser, getSponsorhipTypes, sponsorships, data }) => {
     const { markdownRemark: post } = data
 
     useEffect(() => {
-        getSponsorhipType('PLATINUM MEMBERS');
+        getSponsorhipTypes();
     }, [])
-
-    useEffect(() => {
-    }, [sponsorships])
-
 
     return (
         <Layout>
@@ -68,7 +70,7 @@ const ProjectsContactPage = ({ isLoggedUser, getSponsorhipType, sponsorships, da
                 subTitle={post.frontmatter.subTitle}
                 privacyPolicyAgreement={post.frontmatter.privacyPolicyAgreement}
                 successMessage={post.frontmatter.successMessage}
-                platinumMembers={sponsorships?.filter(t => t.name === 'PLATINUM MEMBERS')[0]?.supporting_companies}
+                sponsors={sponsorships}
                 content={post.html}
             />
         </Layout>
@@ -83,7 +85,7 @@ export default connect(state => ({
     isLoggedUser: state.loggedUserState.isLoggedUser,
     sponsorships: state.sponsorState.sponsorshipTypes,
 }), {
-    getSponsorhipType
+    getSponsorhipTypes
 })(ProjectsContactPage)
 
 export const projectsContactPageQuery = graphql`

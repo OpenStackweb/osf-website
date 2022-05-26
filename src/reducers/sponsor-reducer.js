@@ -22,9 +22,6 @@ const sponsorReducer = (state = DEFAULT_STATE, action) => {
             return { ...state, loading: false };
         case RECEIVE_SPONSORSHIP_TYPES:
             return { ...state, sponsorshipTypes: payload.response.data }
-        case RECEIVE_SPONSORSHIP_TYPE:
-            const newType = payload.response.data[0];
-            return { ...state, sponsorshipTypes: [...state.sponsorshipTypes, newType] }
         default:
             return state;
     }

@@ -26,7 +26,6 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
     const handleChange = (event) => {
         const name = event.target.name;
         const value = event.target.value;
-        console.log('name', name, value)
         setInputs(values => ({ ...values, [name]: value }))
     }
 
@@ -46,7 +45,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
 
     useEffect(() => {
         const formattedMembers = platinumMembers?.map(p => {
-            return { label: p.company.name, value: p.company.name }
+            return { label: p.name, value: p.name }
         })
         if (formattedMembers) setPlatinumDropdown(formattedMembers)
     }, [platinumMembers])
@@ -54,8 +53,6 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
     const handleDropdownChange = (ev) => {
         setInputs({ ...inputs, project_platinum_member: ev.target.value })
     }
-
-    console.log('inputs', inputs);
 
     const handleSubmit = (evt) => {
         evt.preventDefault();

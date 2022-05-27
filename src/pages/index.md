@@ -11,8 +11,8 @@ seo:
   url: https://openinfra.dev/
 header:
   buttons:
-    - link: /projects/
-      text: Projects
+    - link: /projects/hosting/
+      text: Project Hosting
     - link: /join/
       text: Join Us
   subTitle: "With over 110,000 members in 187 countries, the OpenInfra Foundation

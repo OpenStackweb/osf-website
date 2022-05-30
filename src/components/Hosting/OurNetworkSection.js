@@ -50,7 +50,7 @@ const OurNetworkSection = ({sponsors}) => {
           </div>
         }
         <div className="link-all-sponsors">
-          <LinkComponent href="/a/community/members">
+          <LinkComponent href="/members">
             <span>ALL OPENINFRA FOUNDATION MEMBERS</span><img src={arrow} alt="arrow"/>
           </LinkComponent>
         </div>

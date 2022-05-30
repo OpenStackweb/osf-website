@@ -42,7 +42,7 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
           subtitle="Directly aligning companies who want to work together with the projects they care about."
           sublabel="Interested in Hosting your project with the OpenInfra Foundation?"
           contactLink="/projects/contact"
-          moreLink=" /projects/hosting"
+          moreLink="/projects/hosting"
           rightArrowLearnMore
         />
       </div>
@@ -56,11 +56,11 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
                   <p className="text">
                     Having sufficient funding is an important part of growing open source projects with real commercial viability.
                     These funds are used for a wide range of services needed to organize, promote, protect, and manage the project.
-                    Where funding comes from depends on the project and the companies involved. Some projects are funded by individual donors.
-                    Others by a single company. We’ve found that the most successful open source projects are funded by multiple companies,
+                    Where funding comes from depends on the project and the organizations involved. Some projects are funded by individual donors.
+                    Others by a single company. We've found that the most successful open source projects are funded by multiple companies,
                     because they are able to combine their resources to achieve a much stronger rate of return. This is the basis
-                    of our model for growing successful open source projects called the <LinkComponent href="projects/hosting#our-model">3 Forces</LinkComponent>.
-                    We’ve developed the Directed Funding product to ensure that participating company resources are aligned with the project they care about.
+                    of our model for growing successful open source projects called the <LinkComponent href="/projects/hosting#our-model">3 Forces</LinkComponent>.
+                    By creating dedicated project funds, we are able to ensure strong alignment between the participating organizations resources and the project they care about
                   </p>
                 </div>
                 <div className="text-box">
@@ -68,7 +68,7 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
                   <p className="text">
                     <ul>
                       <li>
-                        OpenInfra Foundation establishes a project-specific entity to hold project funding. We’ve developed
+                        OpenInfra Foundation establishes a project-specific entity to hold project funding. We've developed
                         the framework so this entity is created in an efficient way, but is flexible enough to be modified
                         based on the needs of your project community.
                       </li>
@@ -77,12 +77,12 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
                         to ensure strong alignment with the OpenInfra Foundation board.
                       </li>
                       <li>
-                        Other interested organizations join the directed fund. If they are not already members, they will
+                        Other interested organizations join the project fund. If they are not already members, they will
                         need to become members of the OpenInfra Foundation.
                       </li>
                       <li>
                         The fund participants, as a group, decide what their contributions will be, with the goal of
-                        assemble the project’s budget.
+                        assemble the project's budget.
                       </li>
                       <li>
                         The fund board (representing participants) decides how to allocate budget to best support the project,
@@ -116,7 +116,7 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
                 <div className="text-box">
                   <p className="title">Establishing Governance</p>
                   <p className="text">
-                    Whether your project is already open source or you’re moving to an open model, you’ll want to set up proper
+                    Whether your project is already open source or you're moving to an open model, you'll want to set up proper
                     governance to define how the project will operate, who makes decisions, and how funds are spent. The OpenInfra
                     Foundation will help you establish both technical governance code and funding governance. Technical governance
                     establishes things like “Technical Steering Committees” and defines clear rules for code contributions.

@@ -6,7 +6,7 @@ seo:
     successfully build a broad community and drive the effectiveness of their
     software.
   image: /img/OpenInfra-icon-white.jpg
-  title: Open Infrastructure Foundation Services for Projects
+  title: Project Services for OpenInfra Foundation projects
   twitterUsername: '@openstack'
   url: 'https://openinfra.dev/projects/services/'
 header:

@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
+import ProjectsSubNav from '../components/ProjectsSubNav'
 import ProjectsContactForm from '../components/ProjectsContactForm'
 
 import { getSponsorhipTypes } from '../actions/sponsor-actions'
@@ -36,6 +37,7 @@ export const ProjectsContactPageTemplate = ({
             <div className="wrapper project-background" style={{ paddingBottom: 40 }}>
                 <TopBar />
                 <Navbar isLoggedUser={isLoggedUser} />
+                <ProjectsSubNav active="" />
                 <Header title={title} subTitle={subTitle} />
             </div>
 

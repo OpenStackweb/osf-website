@@ -46,8 +46,12 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
     useEffect(() => {
         const formattedMembers = platinumMembers?.map(p => {
             return { label: p.name, value: p.name }
-        })
-        if (formattedMembers) setPlatinumDropdown(formattedMembers)
+        });
+        const customOptions = [
+            {label: 'We are interested in becoming a Platinum member', value: 'We are interested in becoming a Platinum member'},
+            {label: 'There are not yet any Platinum members involved ', value: 'There are not yet any Platinum members involved '},
+        ]
+        if (formattedMembers) setPlatinumDropdown([...formattedMembers, ...customOptions]);
     }, [platinumMembers])
 
     const handleDropdownChange = (ev) => {

@@ -48,8 +48,8 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
             return { label: p.name, value: p.name }
         });
         const customOptions = [
-            {label: 'We are interested in becoming a Platinum member', value: 'We are interested in becoming a Platinum member'},
-            {label: 'There are not yet any Platinum members involved ', value: 'There are not yet any Platinum members involved '},
+            { label: 'We are interested in becoming a Platinum member', value: 'We are interested in becoming a Platinum member' },
+            { label: 'There are not yet any Platinum members involved ', value: 'There are not yet any Platinum members involved ' },
         ]
         if (formattedMembers) setPlatinumDropdown([...formattedMembers, ...customOptions]);
     }, [platinumMembers])
@@ -61,34 +61,36 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
     const handleSubmit = (evt) => {
         evt.preventDefault();
         const uri = new URI();
-        uri.addQuery("form-name", evt.target.getAttribute("name"));
+        // uri.addQuery("form-name", evt.target.getAttribute("name"));
         uri.addQuery(inputs);
-        if (!uri.hasQuery(friendlyCaptchaFieldName)) {
-            Swal.fire("Validation Error", 'Captcha solution is invalid!.', "warning");
-            return false;
-        }
+        console.log('uri', uri);
+        console.log('inputs', inputs);
+        // if (!uri.hasQuery(friendlyCaptchaFieldName)) {
+        //     Swal.fire("Validation Error", 'Captcha solution is invalid!.', "warning");
+        //     return false;
+        // }
 
-        fetch('/',
-            {
-                headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                method: "POST",
-                body: uri.query(),
-            }).then((response) => {
-                if (response.ok) {
-                    setSuccess(true);
-                    return;
-                }
-                if (response.status === 412) {
-                    response.text().then(function (text) {
-                        Swal.fire("Validation Error", text, "warning");
-                    });
-                }
-                setSuccess(false);
-            }).catch(e => {
-                setSuccess(false);
-                console.log(e);
-                Swal.fire("Error", 'Oops! Something went wrong.', "warning");
-            });
+        // fetch('/',
+        //     {
+        //         headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        //         method: "POST",
+        //         body: uri.query(),
+        //     }).then((response) => {
+        //         if (response.ok) {
+        //             setSuccess(true);
+        //             return;
+        //         }
+        //         if (response.status === 412) {
+        //             response.text().then(function (text) {
+        //                 Swal.fire("Validation Error", text, "warning");
+        //             });
+        //         }
+        //         setSuccess(false);
+        //     }).catch(e => {
+        //         setSuccess(false);
+        //         console.log(e);
+        //         Swal.fire("Error", 'Oops! Something went wrong.', "warning");
+        //     });
 
         return false
     }
@@ -119,11 +121,11 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                 <div className="field-column is-full-width">
                                     <label className="field-label" htmlFor="name">Name</label>
                                     <div className="field-row">
-                                        <label htmlFor="first_name"></label><input id="first_name" className="contact-field lt-field"
+                                        <input id="first_name" className="contact-field lt-field"
                                             maxLength="40" value={inputs.first_name || ""}
                                             onChange={handleChange} name="first_name" type="text"
                                             placeholder="First Name" required />
-                                        <label htmlFor="last_name"></label><input id="last_name" className="contact-field rt-field"
+                                        <input id="last_name" className="contact-field rt-field"
                                             maxLength="80" value={inputs.last_name || ""}
                                             onChange={handleChange} name="last_name" type="text"
                                             placeholder="Last Name" required />
@@ -134,7 +136,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                 <div className="field-column is-full-width">
                                     <label className="field-label" htmlFor="email">Email</label>
                                     <div className="field-row">
-                                        <label htmlFor="email"></label><input id="email" className="contact-field ct-field"
+                                        <input id="email" className="contact-field ct-field"
                                             maxLength="80" name="email" value={inputs.email || ""}
                                             onChange={handleChange} type="email" placeholder="Email"
                                             required />
@@ -145,7 +147,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                 <div className="field-column is-full-width">
                                     <label className="field-label" htmlFor="company">Company</label>
                                     <div className="field-row">
-                                        <label htmlFor="company"></label><input id="company" className="contact-field ct-field"
+                                        <input id="company" className="contact-field ct-field"
                                             maxLength="40" name="company"
                                             value={inputs.company || ""} onChange={handleChange}
                                             type="text" placeholder="Company" required />
@@ -156,7 +158,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                 <div className="field-column is-full-width">
                                     <label className="field-label" htmlFor="title">Title</label>
                                     <div className="field-row">
-                                        <label htmlFor="title"></label><input id="title" className="contact-field ct-field"
+                                        <input id="title" className="contact-field ct-field"
                                             maxLength="40" name="title" value={inputs.title || ""}
                                             onChange={handleChange} type="text" placeholder="Title"
                                             required />
@@ -168,7 +170,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                 <div className="field-column is-full-width">
                                     <label className="field-label" htmlFor="phone">Phone</label>
                                     <div className="field-row">
-                                        <label htmlFor="phone"></label><input id="phone" className="contact-field ct-field"
+                                        <input id="phone" className="contact-field ct-field"
                                             maxLength="40" name="phone" value={inputs.phone || ""}
                                             onChange={handleChange} type="text" placeholder="Phone Number"
                                             required />
@@ -184,7 +186,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                 <div className="field-column is-full-width">
                                     <label className="field-label" htmlFor="project_name">Project Name</label>
                                     <div className="field-row">
-                                        <label htmlFor="project_name"></label><input id="project_name" className="contact-field ct-field"
+                                        <input id="project_name" className="contact-field ct-field"
                                             maxLength="80" name="project_name" value={inputs.project_name || ""}
                                             onChange={handleChange} type="text" placeholder="Project Name (if applicable)"
                                             required />
@@ -197,7 +199,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                         Is the project currently hosted in a public repository? If so, where is the repo located?
                                     </label>
                                     <div className="field-row">
-                                        <label htmlFor="project_location"></label><input id="project_location" className="contact-field ct-field"
+                                        <input id="project_location" className="contact-field ct-field"
                                             maxLength="80" name="project_location" value={inputs.project_location || ""}
                                             onChange={handleChange} type="text" placeholder="" />
                                     </div>
@@ -209,7 +211,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                         What is the open source license of the project?
                                     </label>
                                     <div className="field-row">
-                                        <label htmlFor="project_license"></label><input id="project_license" className="contact-field ct-field"
+                                        <input id="project_license" className="contact-field ct-field"
                                             maxLength="80" name="project_license" value={inputs.project_license || ""}
                                             onChange={handleChange} type="text" placeholder=""
                                             required />
@@ -222,7 +224,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                         How many contributors are currently involved in the project?
                                     </label>
                                     <div className="field-row">
-                                        <label htmlFor="project_contributors"></label><input id="project_contributors" className="contact-field ct-field"
+                                        <input id="project_contributors" className="contact-field ct-field"
                                             maxLength="80" name="project_contributors" value={inputs.project_contributors || ""}
                                             onChange={handleChange} type="text" placeholder=""
                                             required />
@@ -235,7 +237,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                         List the organizations that are currently/potentially involved in this project
                                     </label>
                                     <div className="field-row">
-                                        <label htmlFor="project_organizations"></label><input id="project_organizations" className="contact-field ct-field"
+                                        <input id="project_organizations" className="contact-field ct-field"
                                             maxLength="80" name="project_organizations" value={inputs.project_organizations || ""}
                                             onChange={handleChange} type="text" placeholder=""
                                             required />
@@ -249,13 +251,18 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                     </label>
                                     <div className="field-row-dropdown">
                                         {platinumDropdown.length > 0 &&
-                                            <Dropdown
-                                                className="contact-field-dropdown"
-                                                name="project_platinum_member"
-                                                isMulti
-                                                value={inputs.project_platinum_member || []}
-                                                options={platinumDropdown}
-                                                onChange={handleDropdownChange} />
+                                            <>
+                                                <input id="project_platinum_member" className="" style={{ height: 0, border: 0, margin: 0, padding: 0 }}
+                                                    maxLength="200" name="project_platinum_member" value={inputs.project_platinum_member || []}
+                                                    onChange={handleChange} type="text" placeholder="" />
+                                                <Dropdown
+                                                    className="contact-field-dropdown"
+                                                    name="project_platinum_member"
+                                                    isMulti
+                                                    value={inputs.project_platinum_member || []}
+                                                    options={platinumDropdown}
+                                                    onChange={handleDropdownChange} />
+                                            </>
                                         }
                                     </div>
                                 </div>

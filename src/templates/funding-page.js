@@ -59,7 +59,7 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
                     Where funding comes from depends on the project and the organizations involved. Some projects are funded by individual donors, while others by a single company. At the OpenInfra Foundation, we’ve found that the most successful open source projects are funded by multiple companies,
                     because they are able to combine their resources to achieve a much stronger rate of return. This is the basis
                     of our model for growing successful open source projects called the <LinkComponent href="/projects/hosting#our-model">3 Forces</LinkComponent>.
-                    By creating dedicated project funds, we are able to ensure strong alignment between the participating organizations resources and the project they care about
+                    By creating dedicated project funds, we are able to ensure strong alignment between the participating organizations resources and the project they care about.
                   </p>
                 </div>
                 <div className="text-box">
@@ -102,9 +102,9 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
                     de-facto standard in open source cloud infrastructure. Regardless of whether your aspirations for your
                     project are OpenStack-scale or smaller, getting a multitude of diverse companies involved is crucial to
                     open source success.
-                    <br />
-                    <br />
-                    <p className="title">Potential for Conflict</p>
+                  </p>
+                  <p className="title">Potential for Conflict</p>
+                  <p className="text">
                     Unfortunately, when there are multiple companies involved there are more opinions around strategic direction,
                     more thoughts about how a project should be managed, and more potential for conflict. This is where the
                     OpenInfra Foundation comes in. We align companies who wish to work together, providing them with a framework

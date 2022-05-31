@@ -61,36 +61,34 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
     const handleSubmit = (evt) => {
         evt.preventDefault();
         const uri = new URI();
-        // uri.addQuery("form-name", evt.target.getAttribute("name"));
+        uri.addQuery("form-name", evt.target.getAttribute("name"));
         uri.addQuery(inputs);
-        console.log('uri', uri);
-        console.log('inputs', inputs);
-        // if (!uri.hasQuery(friendlyCaptchaFieldName)) {
-        //     Swal.fire("Validation Error", 'Captcha solution is invalid!.', "warning");
-        //     return false;
-        // }
+        if (!uri.hasQuery(friendlyCaptchaFieldName)) {
+            Swal.fire("Validation Error", 'Captcha solution is invalid!.', "warning");
+            return false;
+        }
 
-        // fetch('/',
-        //     {
-        //         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        //         method: "POST",
-        //         body: uri.query(),
-        //     }).then((response) => {
-        //         if (response.ok) {
-        //             setSuccess(true);
-        //             return;
-        //         }
-        //         if (response.status === 412) {
-        //             response.text().then(function (text) {
-        //                 Swal.fire("Validation Error", text, "warning");
-        //             });
-        //         }
-        //         setSuccess(false);
-        //     }).catch(e => {
-        //         setSuccess(false);
-        //         console.log(e);
-        //         Swal.fire("Error", 'Oops! Something went wrong.', "warning");
-        //     });
+        fetch('/',
+            {
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                method: "POST",
+                body: uri.query(),
+            }).then((response) => {
+                if (response.ok) {
+                    setSuccess(true);
+                    return;
+                }
+                if (response.status === 412) {
+                    response.text().then(function (text) {
+                        Swal.fire("Validation Error", text, "warning");
+                    });
+                }
+                setSuccess(false);
+            }).catch(e => {
+                setSuccess(false);
+                console.log(e);
+                Swal.fire("Error", 'Oops! Something went wrong.', "warning");
+            });
 
         return false
     }

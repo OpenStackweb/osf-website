@@ -22,6 +22,7 @@ import HybridCloudPagePreview from './preview-templates/HybridCloudPagePreview'
 import ElectionPagePreview from './preview-templates/ElectionPagePreview'
 import ContributorsPagePreview from './preview-templates/ContributorsPagePreview'
 import AnnualReportPagePreview from './preview-templates/AnnualReportPagePreview'
+import ProjectsContactPagePreview from './preview-templates/ProjectsContactPagePreview'
 
 CMS.registerPreviewStyle('style/styles.scss');
 CMS.registerPreviewStyle('style/previews.css');
@@ -51,3 +52,4 @@ CMS.registerPreviewTemplate('hybrid-cloud-page', HybridCloudPagePreview)
 CMS.registerPreviewTemplate('electionPage', ElectionPagePreview)
 CMS.registerPreviewTemplate('contributors-pages', ContributorsPagePreview)
 CMS.registerPreviewTemplate('annual-report-pages', AnnualReportPagePreview)
+CMS.registerPreviewTemplate('projects-contact', ProjectsContactPagePreview)

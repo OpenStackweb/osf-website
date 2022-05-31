@@ -1,12 +1,12 @@
 ---
-templateKey: services-page
+templateKey: services-page-v2
 seo:
   description: >-
     Open source project communities require these common services in order to
     successfully build a broad community and drive the effectiveness of their
     software.
   image: /img/OpenInfra-icon-white.jpg
-  title: Open Infrastructure Foundation Services for Projects
+  title: Project Services for OpenInfra Foundation projects
   twitterUsername: '@openstack'
   url: 'https://openinfra.dev/projects/services/'
 header:

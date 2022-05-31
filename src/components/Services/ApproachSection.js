@@ -20,10 +20,10 @@ const ApproachSection = () => {
     <section className="section approach" id="approach">
       <div className="container">
         <div>
-          <p className="title">Not A “One Size Fits All” Approach</p>
+          <p className="title">Not a “One Size Fits All” Approach</p>
           <p className="body">
             After gauging the unique needs of your project and the resources available from the organizations involved,
-            we will work with you to develop a combination of services that will produce the most effective results.
+            The OpenInfra Foundation will work with you to develop a combination of services that will produce the most effective results.
             While we will do our best to guide you through the process, your governing body will also have the ability
             to customize service packages as they see fit.
           </p>
@@ -46,7 +46,7 @@ const ApproachSection = () => {
             </Box>
             <Box icon={marketingIcon} title="Marketing and Communications">
               <ul>
-                <li>Branding and Identity creation</li>
+                <li>Branding and identity creation</li>
                 <li>Web design and development</li>
                 <li>Content creation and support</li>
                 <li>Press and media management </li>
@@ -99,7 +99,6 @@ const ApproachSection = () => {
           </div>
         </div>
         <div className="more">
-          <p className="title">And More</p>
           <p className="body">
             We’ve found that the services listed above cover most projects, but we know that every project community
             is unique and services needed will vary. If you’re looking for a service that isn’t listed here,{' '}

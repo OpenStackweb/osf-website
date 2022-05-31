@@ -6,7 +6,7 @@ const HostingProjectV2 = () =>
   <section className="projects-s2-main-v2">
     <div className="container">
       <p className="overview">next steps</p>
-      <h4 className="itemtitle">Interested In Hosting With OpenInfra Foundation?</h4>
+      <h4 className="itemtitle">Interested In Hosting With The OpenInfra Foundation?</h4>
       <div className="fix-h5">
         There are a few ways to start open source projects with the OpenInfra Foundation.
         Every project’s needs and goals are unique so the first step is to setup an exploratory review

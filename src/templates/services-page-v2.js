@@ -27,7 +27,7 @@ export const ServicesPageTemplate = ({isLoggedUser}) => {
           frontImage={heroFront}
           title="Services AVAILABLE to OpenInfra Projects"
           subtitle="How we serve project communities, services needed to build a broad community and drive the effectiveness of open source software."
-          sublabel="Interested in Hosting your project with the OpenInfra Foundation? "
+          sublabel="Interested in hosting your project with the OpenInfra Foundation? "
           contactLink="/projects/contact"
           moreLink="/projects/hosting"
           rightArrowLearnMore

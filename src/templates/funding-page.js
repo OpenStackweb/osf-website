@@ -40,7 +40,7 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
           frontImage={heroFront}
           title="Funding for OpenInfra Projects"
           subtitle="Directly aligning companies who want to work together with the projects they care about."
-          sublabel="Interested in Hosting your project with the OpenInfra Foundation?"
+          sublabel="Interested in hosting your project with The OpenInfra Foundation?"
           contactLink="/projects/contact"
           moreLink="/projects/hosting"
           rightArrowLearnMore
@@ -52,19 +52,18 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
           <section className="section funding" id="building">
             <div className="container">
                 <div className="text-box">
-                  <p className="title">Importance Of Project Funding</p>
+                  <p className="title">Importance of Project Funding</p>
                   <p className="text">
                     Having sufficient funding is an important part of growing open source projects with real commercial viability.
                     These funds are used for a wide range of services needed to organize, promote, protect, and manage the project.
-                    Where funding comes from depends on the project and the organizations involved. Some projects are funded by individual donors.
-                    Others by a single company. We've found that the most successful open source projects are funded by multiple companies,
+                    Where funding comes from depends on the project and the organizations involved. Some projects are funded by individual donors, while others by a single company. At the OpenInfra Foundation, we’ve found that the most successful open source projects are funded by multiple companies,
                     because they are able to combine their resources to achieve a much stronger rate of return. This is the basis
                     of our model for growing successful open source projects called the <LinkComponent href="/projects/hosting#our-model">3 Forces</LinkComponent>.
                     By creating dedicated project funds, we are able to ensure strong alignment between the participating organizations resources and the project they care about
                   </p>
                 </div>
                 <div className="text-box">
-                  <p className="title">How directed funding works in practice</p>
+                  <p className="title">How Directed Funding Works in Practice</p>
                   <p className="text">
                     <ul>
                       <li>
@@ -73,8 +72,8 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
                         based on the needs of your project community.
                       </li>
                       <li>
-                        At least one Platinum member of the OpenInfra Foundation serves as an executive sponsor for the project,
-                        to ensure strong alignment with the OpenInfra Foundation board.
+                        At least one Platinum Member of the OpenInfra Foundation serves as an executive sponsor for the project,
+                        to ensure strong alignment with the OpenInfra Foundation board and mission.
                       </li>
                       <li>
                         Other interested organizations join the project fund. If they are not already members, they will
@@ -82,7 +81,7 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
                       </li>
                       <li>
                         The fund participants, as a group, decide what their contributions will be, with the goal of
-                        assemble the project's budget.
+                        assembling the project's budget.
                       </li>
                       <li>
                         The fund board (representing participants) decides how to allocate budget to best support the project,
@@ -95,16 +94,17 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
                   </p>
                 </div>
                 <div className="text-box">
-                  <p className="title">Navigating A Broad Ecosystem</p>
+                  <p className="title">Navigating a Broad Ecosystem</p>
                   <p className="text">
                     Attracting and engaging multiple companies lays the groundwork that allows you to build the most successful
                     projects. Take OpenStack, for example. There have been hundreds of companies contributing code and funding
                     since it was created in 2010.  The involvement of those companies was vital to OpenStack becoming the
                     de-facto standard in open source cloud infrastructure. Regardless of whether your aspirations for your
                     project are OpenStack-scale or smaller, getting a multitude of diverse companies involved is crucial to
-                    open soruce success.
+                    open source success.
                     <br />
                     <br />
+                    <p className="title">Potential for Conflict</p>
                     Unfortunately, when there are multiple companies involved there are more opinions around strategic direction,
                     more thoughts about how a project should be managed, and more potential for conflict. This is where the
                     OpenInfra Foundation comes in. We align companies who wish to work together, providing them with a framework
@@ -118,7 +118,7 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
                   <p className="text">
                     Whether your project is already open source or you're moving to an open model, you'll want to set up proper
                     governance to define how the project will operate, who makes decisions, and how funds are spent. The OpenInfra
-                    Foundation will help you establish both technical governance code and funding governance. Technical governance
+                    Foundation will help you establish both technical governance and funding governance. Technical governance
                     establishes things like “Technical Steering Committees” and defines clear rules for code contributions.
                     Funding governance establishes things like a “Governing Board” and decides how funding is pooled and spent.
                     <br />

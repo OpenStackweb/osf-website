@@ -248,19 +248,17 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                         Which OpenInfra Foundation Platinum member is involved in this project?
                                     </label>
                                     <div className="field-row-dropdown">
+                                        <input id="project_platinum_member" className="" style={{ height: 0, border: 0, margin: 0, padding: 0 }}
+                                            maxLength="200" name="project_platinum_member" value={inputs.project_platinum_member || []}
+                                            onChange={handleChange} type="text" placeholder="" />
                                         {platinumDropdown.length > 0 &&
-                                            <>
-                                                <input id="project_platinum_member" className="" style={{ height: 0, border: 0, margin: 0, padding: 0 }}
-                                                    maxLength="200" name="project_platinum_member" value={inputs.project_platinum_member || []}
-                                                    onChange={handleChange} type="text" placeholder="" />
-                                                <Dropdown
-                                                    className="contact-field-dropdown"
-                                                    name="project_platinum_member"
-                                                    isMulti
-                                                    value={inputs.project_platinum_member || []}
-                                                    options={platinumDropdown}
-                                                    onChange={handleDropdownChange} />
-                                            </>
+                                            <Dropdown
+                                                className="contact-field-dropdown"
+                                                name="project_platinum_member"
+                                                isMulti
+                                                value={inputs.project_platinum_member || []}
+                                                options={platinumDropdown}
+                                                onChange={handleDropdownChange} />
                                         }
                                     </div>
                                 </div>

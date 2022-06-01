@@ -16,9 +16,10 @@ import URI from "urijs"
 import { navigate } from '@reach/router'
 import { connect } from 'react-redux';
 import { AbstractAuthorizationCallbackRoute } from "openstack-uicore-foundation/lib/components";
-import { getUserProfile} from '../actions/user-actions'
-import {IDP_BASE_URL, OAUTH2_CLIENT_ID, getEnvVariable} from '../utils/envVariables'
+import { getUserProfile, addToSchedule, removeFromSchedule } from '../actions/user-actions'
+import { IDP_BASE_URL, OAUTH2_CLIENT_ID, getEnvVariable } from '../utils/envVariables'
 import HeroComponent from "../components/HeroComponent";
+import { getPendingAction } from '../utils/schedule';
 
 class AuthorizationCallbackRoute extends AbstractAuthorizationCallbackRoute {
 
@@ -30,7 +31,13 @@ class AuthorizationCallbackRoute extends AbstractAuthorizationCallbackRoute {
     this.props.getUserInfo(
       'groups, all_affiliations, candidate_profile, election_applications, election_nominations, election_nominations.candidate',
       'election_nominations.candidate.first_name, election_nominations.candidate.last_name'
-    ).then(() => this.props.getUserProfile().then(() => navigate(URI.decode(backUrl))));
+    ).then(() => this.props.getUserProfile().then(() => navigate(URI.decode(backUrl)))).then(() => {
+      const pendingAction = getPendingAction();
+      if (pendingAction) {
+        const { action, event } = pendingAction;
+        action === 'ADD_EVENT' ? this.props.addToSchedule(event) : this.props.removeFromSchedule(event);
+      }
+    });
   }
 
   _redirect2Error(error) {
@@ -39,8 +46,8 @@ class AuthorizationCallbackRoute extends AbstractAuthorizationCallbackRoute {
     return null
   }
 
-  _render(){
-    return <HeroComponent title={'Checking Credentials ...'}/>
+  _render() {
+    return <HeroComponent title={'Checking Credentials ...'} />
   }
 }
 
@@ -51,5 +58,7 @@ const mapStateToProps = ({ loggedUserState }) => ({
 })
 
 export default connect(mapStateToProps, {
-  getUserProfile
+  getUserProfile,
+  addToSchedule,
+  removeFromSchedule
 })(AuthorizationCallbackRoute)

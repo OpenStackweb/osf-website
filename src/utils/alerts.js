@@ -2,6 +2,7 @@ import Swal from "sweetalert2";
 
 import { doLogin } from 'openstack-uicore-foundation/lib/methods'
 import URI from "urijs"
+import { savePendingAction } from "./schedule";
 
 
 export const alertPopup = (title, html, confirmLabel, confirmAction, cancelLabel = 'Dismiss') => {
@@ -30,12 +31,13 @@ export const alertPopup = (title, html, confirmLabel, confirmAction, cancelLabel
     })
 };
 
-export const needsLogin = (msg = null) => {
+export const needsLogin = (action, msg = null) => {
     const defaultMessage = "Please login in order to build your schedule and add activities during the event";
 
     const login = () => {
         let backUrl = window?.location?.href ?? '/a/profile';
         let encodedBackUrl = URI.encode(backUrl);
+        if (action) savePendingAction(action);
         return doLogin(encodedBackUrl);
     }
 

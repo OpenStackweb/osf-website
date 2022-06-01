@@ -122,6 +122,8 @@ sponsor:
     companyList:
       - alt: 99Cloud Inc.
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_99Cloud.png
+      - image: /img/bloomberg-lg.png
+        alt: Bloomberg
       - alt: China Mobile
         image: /img/companies/_New/Gold/Sponsor-Logos-Gold_ChinaMobile.png
       - alt: China Telecom

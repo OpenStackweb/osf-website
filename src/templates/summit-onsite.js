@@ -77,6 +77,9 @@ export const SummitOnsitePageTemplate = ({
               <p>
               Here's a high-level look at what's happening during the Summit. You can find more details by viewing the <a href="/summit-schedule">full Summit schedule</a>.
               </p>
+              <p>
+                <strong>Monday 3:30pm - 5:30pm:</strong> Register before the Tuesday crowd and grab a beverage at <a href="https://openinfra.dev/summit-schedule#title=badges&view=calendar">Badges and Beverages</a> in the OpenInfra Plaza.
+              </p>
               <div className='schedule-summary'>
                 <div className='schedule-left'>
                   <div className='schedule-top'>
@@ -85,7 +88,15 @@ export const SummitOnsitePageTemplate = ({
                   <div className='schedule-rows'>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:15am - 4:00pm
+                        8:00am - 5:45pm
+                      </div>
+                      <div className='list-right'>
+                      Registration
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
+                        8:00am - 4:00pm
                       </div>
                       <div className='list-right'>
                       <a href="/summit-sponsor">Marketplace</a> <em>(closed during keynotes)</em>
@@ -93,7 +104,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:15am - 4:00pm
+                      8:00am - 4:00pm
                       </div>
                       <div className='list-right'>
                       Mirantis Biergarten <em>(closed during keynotes)</em>
@@ -140,7 +151,15 @@ export const SummitOnsitePageTemplate = ({
                   <div className='schedule-rows'>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:15am - 4:00pm
+                        8:30am - 5:45pm
+                      </div>
+                      <div className='list-right'>
+                      Registration
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
+                        8:00am - 4:00pm
                       </div>
                       <div className='list-right'>
                       <a href="/summit-sponsor">Marketplace</a> <em>(closed during keynotes)</em>
@@ -148,7 +167,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:15am - 4:00pm
+                      8:00am - 4:00pm
                       </div>
                       <div className='list-right'>
                       Mirantis Biergarten <em>(closed during keynotes)</em>
@@ -195,7 +214,15 @@ export const SummitOnsitePageTemplate = ({
                   <div className='schedule-rows'>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        9:00am - 4:10pm
+                        8:30am - 1:30pm
+                      </div>
+                      <div className='list-right'>
+                      Registration
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
+                        8:30am - 4:00pm
                       </div>
                       <div className='list-right'>
                         <a href="/summit-sponsor">Marketplace</a>
@@ -203,7 +230,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                      9:00am - 4:10pm
+                      8:30am - 4:00pm
                       </div>
                       <div className='list-right'>
                       Mirantis Biergarten

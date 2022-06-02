@@ -77,12 +77,12 @@ const ApproachSection = () => {
             </Box>
             <Box icon={cmIcon} title="Community Management">
               <ul>
-                <li>Dedicated community manager support</li>
+                <li>Dedicated community manager</li>
                 <li>Technical governance guidance and support</li>
                 <li>Project advocacy in public forums, such as events</li>
                 <li>Contributor onboarding support</li>
                 <li>Access to mentoring programs, such as Outreachy</li>
-                <li>Contributor metrics dashboard by Bitergia ®</li>
+                <li>Community metrics dashboard by Bitergia ®</li>
                 <li>User/Contributor/Developer survey set up and support</li>
                 <li>Community marketing team set up and management</li>
               </ul>

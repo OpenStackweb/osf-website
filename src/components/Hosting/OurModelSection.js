@@ -9,7 +9,8 @@ const OurModelSection = () => {
       <div className="container">
         <p className="overview">our model</p>
         <h2 className="title">
-          3 FORCES: SUSTAINABLE Model For Open Source
+          3 FORCES:<br/>
+          SUSTAINABILITY Model For Open Source
         </h2>
         <div className="columns">
           <div className="column is-half">
@@ -17,7 +18,7 @@ const OurModelSection = () => {
               Successful open source communities need to bring together what we call the “3 Forces:”
               developers, users, and commercial ecosystems. Understanding how those forces best interact
               with each other and create compounding effects, is key to building successful open source
-              communities and The OpenInfra Foundation has built the model that has helped OpenStack become the de-facto open source standard for providing cloud infrastructure.
+              communities. The OpenInfra Foundation has built the model that has helped OpenStack become the de-facto open source standard for providing cloud infrastructure.
               <br/><br/>
               We dedicate our resources, strategic thinking, and experience to developing, balancing and unlocking the
               impact that these 3 Forces will have on every OpenInfra project. One of the ways we do this

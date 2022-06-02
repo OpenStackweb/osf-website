@@ -69,7 +69,7 @@ whyExpand:
     The world has changed. When OpenStack started in 2010, clouds were mainly in
     virtual machines in  a datacenter. Today, clouds have evolved to work
     seamlessly in and out of datacenters and are  composed of an evolving mix of
-    bare metal, VMs, and containers. While OpenStack is seen as the  de facto
+    bare metal, VMs, and containers. While OpenStack is seen as the  de-facto
     open source platform for operating cloud infrastructure around the world,
     more technology  is needed to meet all of the diverse use cases, and we want
     to make sure it’s developed in the  open, using the same proven approach to

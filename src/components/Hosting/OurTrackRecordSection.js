@@ -17,7 +17,7 @@ const OurTrackRecordSection = () => {
               Our methods have proven to create successful open source projects for users, developers and commercial
               ecosystems. Whether your project has aspirations of spurring the next multi-billion dollar market, like
               OpenStack, or attracting 10x contributing organizations, like Kata Containers, or being a crucial component
-              in buidling autonomous vehicles, like Zuul, we can get you there.
+              in building autonomous vehicles, like Zuul, we can get you there.
             </p>
             <div className="link-all-projects">
               <LinkComponent href="/projects">

@@ -17,9 +17,7 @@ const OurNetworkSection = ({sponsors}) => {
                         <p className="body">
                             The OpenInfra community is vast, comprising more than 110,000 people from over 182 countries
                             and 710
-                            organizations. Our community is passionate about open source and engaged in OpenInfra
-                            activities ranging
-                            from code contributions to operations. OpenInfra projects have access to the community in a
+                            organizations. Our community is passionate about open source and engaged in OpenInfra projects in a diverse set of activities ranging from contribution to operations. OpenInfra projects have access to the community in a
                             variety of ways,
                             including events like the <LinkComponent href="/summit">OpenInfra
                             Summit</LinkComponent> and{' '}
@@ -42,7 +40,7 @@ const OurNetworkSection = ({sponsors}) => {
                     <p className="body">
                         When you host your project with the OpenInfra Foundation, you’re tapping into a vast network of
                         open
-                        infrastructure operators. This broad ecosystem have a vested interest in not only supporting the
+                        infrastructure operators. This broad ecosystem has a vested interest in not only supporting the
                         set of open
                         source projects they currently rely on to power their businesses, but are looking for the next
                         solution to

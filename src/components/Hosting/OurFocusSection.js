@@ -42,7 +42,8 @@ const OurFocusSection = () => {
               <div className="separator" />
               <OpenIcon
                 icon={InfraDeploymentIcon}
-                label={<><b>Deployment diversification</b> in DCs, edge, IoT from micro to hyperscale</>}
+                label={<><b>Deployment diversification</b> DCs, and edge and IoT deployments, from micro to hyperscale
+                </>}
               />
               <div className="separator" />
               <OpenIcon
@@ -53,15 +54,14 @@ const OurFocusSection = () => {
             <p className="body">
               Some of the largest companies in the world want to work with us because we help projects thrive and truly
               believe that transparency and open collaboration is the key to building the most effective form of open
-              source. This has been proven by the long-term success of OpenStack, the de facto open source cloud project.
+              source. This has been proven by the long-term success of OpenStack, the de-facto open source cloud project.
               Collectively we support the largest, most active, and engaged open source infrastructure communities globally.
               <br /><br />
-              The OpenInfra Foundation operates efficiently based on years of experience figuring out what works and
-              what doesn’t, with a focus on community development. We dedicate our resources towards advancing the project
+              The OpenInfra Foundation operates efficiently based on years of experience navigating the intricacies of open collaboration, with a focus on community development. We dedicate our resources towards advancing the project
               goals and growing adoption. Our strength lies in the communities we serve.
               <br /><br />
               We are interested in hosting projects that will help define the next decade of open infrastructure. If your
-              project openly developed and in the infrastructure space, contact us!
+              project is openly developed and in the infrastructure space, contact us!
             </p>
             <div className="actions">
               <LinkComponent href="/projects/contact" className="button button-red">

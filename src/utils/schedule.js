@@ -183,3 +183,13 @@ export const syncFilters = (newFilters, currentFilters) => {
   });
   return newFilters;
 }
+
+export const savePendingAction = (action) => {
+  window.localStorage.setItem('pendingAction', JSON.stringify(action));
+}
+
+export const getPendingAction = () => {
+  const pendingAction = JSON.parse(window.localStorage.getItem('pendingAction'));
+  window.localStorage.removeItem('pendingAction');
+  return pendingAction;
+}

@@ -305,7 +305,7 @@ export const SummitOnsitePageTemplate = ({
                   <img src="/img/summit/berlin/star.svg" />
                   <h3 className='fix-h3'>Rate the Summit</h3>
                   <p>
-                  Your feedback is important and helps us shape future OpenInfra events! Let us know how we're doing by sharing your feedback in the attendee survey (link available soon).
+                  Your feedback is important and helps us shape future OpenInfra events! Let us know how we're doing by sharing your feedback in the <a href="https://bit.ly/BerlinSummit22Survey">attendee survey</a>.
                   </p>
                 </div>
               </div>

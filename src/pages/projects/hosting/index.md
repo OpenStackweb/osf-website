@@ -1,17 +1,17 @@
 ---
-templateKey: hosting-page
+templateKey: hosting-page-v2
 seo:
   description: "As an open source software host, the OpenInfra Foundation
     dedicates resources towards advancing the project community's goals and
     growing adoption. "
   image: /img/OpenInfra-icon-white.jpg
-  title: Open Source Project Hosting Website
+  title: Open Source Project Hosting
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/projects/hosting/
 header:
   subTitle: The OpenInfra Foundation supports active, global, and engaged open
     source infrastructure communities.
-  title: Host Your Project at OpenInfra Foundation
+  title: Host Your Project at the OpenInfra Foundation
 row1:
   email:
     link: mailto:community@openinfra.dev

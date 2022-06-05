@@ -9,6 +9,7 @@ import { customErrorHandler } from '../utils/customErrorHandler';
 
 export const REQUEST_SPONSORSHIP_TYPES = 'REQUEST_SPONSORSHIP_TYPES';
 export const RECEIVE_SPONSORSHIP_TYPES = 'RECEIVE_SPONSORSHIP_TYPES';
+export const RECEIVE_SPONSORSHIP_TYPE = 'RECEIVE_SPONSORSHIP_TYPE';
 
 
 /******************************  SPONSORS **************************************************/

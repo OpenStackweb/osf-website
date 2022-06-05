@@ -2,7 +2,7 @@
 templateKey: about-page
 seo:
   description: "The OpenInfra Foundation is an open source foundation supporting a
-    global community of 100,000 individuals to build and operate open
+    global community of 110,000 individuals to build and operate open
     infrastructure software. "
   image: /img/OpenInfra-icon-white.jpg
   title: About
@@ -19,7 +19,7 @@ When the OpenStack Foundation formed to govern the OpenStack project in 2012, cl
 
 For this reason, we expanded our focus as a foundation and are helping to establish new open source communities to advance areas where technology can successfully contribute to the development of open infrastructure: AI/Machine Learning, CI/CD, Container Infrastructure, Edge Computing and of course, Public, Private and Hybrid Clouds.
 
-Now, the OpenInfra Foundation supports the development and adoption of open infrastructure globally, across a community of over 100,000 individuals in 187 countries, by hosting open source projects and communities of practice.
+Now, the OpenInfra Foundation supports the development and adoption of open infrastructure globally, across a community of over 110,000 individuals in 187 countries, by hosting open source projects and communities of practice.
 
 Staying true to its mission of helping people build and operate open infrastructure, OpenInfra Foundation hosts open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens.” These projects include [OpenStack](https://www.openstack.org), [Airship](https://airshipit.org), [Kata Containers](https://katacontainers.io/), [OpenInfra Labs](https://openinfralabs.org/), [StarlingX](https://starlingx.io), and [Zuul](https://zuul-ci.org/). Additional initiatives supported by the OpenInfra Foundation include [OpenDev](https://opendev.org/), project hosting, continuous integration tooling, and virtual collaboration spaces for open source software projects and Superuser, an online publication where users and developers share how they're combining software from OpenInfra Foundation communities with other popular open source tools like Kubernetes, Ceph, Cloud Foundry, OVS, OpenContrail, Open Switch, OPNFV and more to power their open infrastructure.
 

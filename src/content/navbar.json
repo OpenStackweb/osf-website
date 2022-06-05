@@ -1,55 +1,26 @@
 {
   "nav": [
     {
-      "title": "Four Opens",
-      "image": "/img/image3.jpg",
-      "marginLeft": "-346px",
-      "url": "/four-opens/",
-      "display": true,
-      "links": [
-        {
-          "text": "Overview",
-          "url": "/four-opens/"
-        },
-        {
-          "text": "Open Source",
-          "url": "/four-opens/open-source/"
-        },
-        {
-          "text": "Open Development",
-          "url": "/four-opens/open-development/"
-        },
-        {
-          "text": "Open Community",
-          "url": "/four-opens/open-community/"
-        },
-        {
-          "text": "Open Design",
-          "url": "/four-opens/open-design/"
-        }
-      ]
-    },
-    {
       "title": "Projects",
       "image": "/img/menu/menu_projects.jpg",
       "url": "/projects/",
       "display": true,
       "links": [
         {
-          "text": "OpenInfra Projects",
-          "url": "/projects/"
-        },
-        {
-          "text": "Services ",
-          "url": "/projects/services/"
-        },
-        {
-          "text": "Host Your Project",
+          "text": "Project Hosting",
           "url": "/projects/hosting/"
         },
         {
-          "text": "Hybrid Cloud",
-          "url": "/hybrid-cloud/"
+          "text": "Project Services",
+          "url": "/projects/services/"
+        },
+        {
+          "text": "Project Funding",
+          "url": "/projects/funding/"
+        },
+        {
+          "text": "OpenInfra Projects",
+          "url": "/projects/"
         },
         {
           "text": "User Survey",
@@ -133,8 +104,8 @@
           "url": "/about/board/"
         },
         {
-          "text": "Open Infrastructure 101",
-          "url": "/about/open-infrastructure/"
+          "text": "Four Opens",
+          "url": "/four-opens/"
         },
         {
           "text": "Partnerships",

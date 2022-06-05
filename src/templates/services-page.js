@@ -9,8 +9,8 @@ import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
 import HostingProject from '../components/HostingProject'
 import LinkComponent from '../components/LinkComponent'
-
 import { connect } from "react-redux";
+import ProjectsSubNav from "../components/ProjectsSubNav";
 
 export const ServicesPageTemplate = ({
   isLoggedUser,
@@ -31,6 +31,7 @@ export const ServicesPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
+        <ProjectsSubNav active="services" />
         <Header title={header.title} subTitle={header.subTitle} />
       </div>
 

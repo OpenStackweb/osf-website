@@ -54,7 +54,7 @@ function SubNav(props) {
         </ul>
 
         <ul id="links-list" className="links-list">
-          <li><LinkComponent id="summit" href="/summit" className="link">Home</LinkComponent></li>
+          <li><LinkComponent id="summit-onsite" href="/summit-onsite" className="link">Onsite Info</LinkComponent></li>
           <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" className="link">Sponsors</LinkComponent></li>
 
           <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
@@ -126,7 +126,7 @@ function SubNav(props) {
       {isOpen &&
         <div className="subnav-dropdown">
           <ul id="links-list-mobile" className="links-list">
-            <li><LinkComponent id="summit" href="/summit" onClick={() => shouldCloseMenu("summit")} className="link">Home</LinkComponent></li>
+            <li><LinkComponent id="summit-onsite" href="/summit-onsite" onClick={() => shouldCloseMenu("summit")} className="link">Onsite Info</LinkComponent></li>
             <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" onClick={() => shouldCloseMenu("summit-sponsor")} className="link">Sponsors</LinkComponent></li>
 
             <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} className="link-dropdown">

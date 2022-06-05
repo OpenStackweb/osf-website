@@ -20,7 +20,7 @@ banner:
     text: Job Openings
     url: /careers
   image: /img/crew-100.jpg
-  subTitle: "The OpenInfra community includes over 100,000 individuals across 187
+  subTitle: "The OpenInfra community includes over 110,000 individuals across 187
     countries and over 600 organizations. Developers, users, and the entire
     ecosystem all contribute to the success of OpenInfra Foundation's open
     source projects and initiatives. "

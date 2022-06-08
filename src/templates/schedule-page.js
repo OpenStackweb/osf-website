@@ -1,7 +1,7 @@
 import React, {useEffect, useState, useCallback, useRef} from "react";
 import PropTypes from "prop-types";
 import {pickBy} from "lodash";
-import Layout from "../components/Layout";
+import Layout from "../components/LayoutV2";
 import FullSchedule from "../components/FullSchedule";
 import ScheduleFilters from "../components/ScheduleFilters";
 import FilterButton from "../components/FilterButton";
@@ -11,13 +11,13 @@ import SEO from "../components/SEO";
 import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
-import styles from "../style/full-schedule.module.scss";
+import styles from "../style/modules/full-schedule.module.scss";
 import RegisterNowBanner from "../components/RegisterNowBanner";
 import {PageScrollInspector, SCROLL_DIRECTION} from "../components/PageScrollInspector";
 import withScheduleData from "../utils/withScheduleData";
 import {deepLinkToEvent} from '../actions/schedule-actions'
-
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../style/full-schedule.scss';
 
 //@todo: connect to marketing api
 const dummyMarketingSettings = {

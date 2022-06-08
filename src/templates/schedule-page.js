@@ -1,6 +1,6 @@
-import React, { useEffect, useState, useCallback, useRef } from "react";
+import React, {useEffect, useState, useCallback, useRef} from "react";
 import PropTypes from "prop-types";
-import { pickBy } from "lodash";
+import {pickBy} from "lodash";
 import Layout from "../components/Layout";
 import FullSchedule from "../components/FullSchedule";
 import ScheduleFilters from "../components/ScheduleFilters";
@@ -13,10 +13,11 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import styles from "../style/full-schedule.module.scss";
 import RegisterNowBanner from "../components/RegisterNowBanner";
-import { PageScrollInspector, SCROLL_DIRECTION } from "../components/PageScrollInspector";
+import {PageScrollInspector, SCROLL_DIRECTION} from "../components/PageScrollInspector";
 import withScheduleData from "../utils/withScheduleData";
-import { deepLinkToEvent } from '../actions/schedule-actions'
+import {deepLinkToEvent} from '../actions/schedule-actions'
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //@todo: connect to marketing api
 const dummyMarketingSettings = {
@@ -26,21 +27,29 @@ const dummyMarketingSettings = {
     "color_text_light": "#ffffff"
 };
 
-const SchedulePageTemplate = ({ summit, scheduleState, isLoggedUser, updateFilter, scheduleProps, schedKey, headerTitle }) => {
+const SchedulePageTemplate = ({
+                                  summit,
+                                  scheduleState,
+                                  isLoggedUser,
+                                  updateFilter,
+                                  scheduleProps,
+                                  schedKey,
+                                  headerTitle
+                              }) => {
 
     const filtersWrapperRef = useRef(null);
 
     const [showFilters, setShowfilters] = useState(false);
-    const { key, events, allEvents, filters, view, timezone, colorSource } = scheduleState || {};
+    const {key, events, allEvents, filters, view, timezone, colorSource} = scheduleState || {};
 
     const onScrollDirectionChange = useCallback(direction => {
         if (direction === SCROLL_DIRECTION.UP)
-            filtersWrapperRef.current.scroll({ top: 0, behavior: 'smooth' });
+            filtersWrapperRef.current.scroll({top: 0, behavior: 'smooth'});
     }, [filtersWrapperRef]);
 
     const onPageBottomReached = useCallback(pageBottomReached => {
         if (pageBottomReached)
-            filtersWrapperRef.current.scroll({ top: filtersWrapperRef.current.scrollHeight, behavior: 'smooth' });
+            filtersWrapperRef.current.scroll({top: filtersWrapperRef.current.scrollHeight, behavior: 'smooth'});
     }, [filtersWrapperRef]);
 
     useEffect(() => {
@@ -53,7 +62,7 @@ const SchedulePageTemplate = ({ summit, scheduleState, isLoggedUser, updateFilte
 
     // if we don't have a state, it probably means the schedule was disabled from admin.
     if (!scheduleState) {
-        return <NotFoundPage />;
+        return <NotFoundPage/>;
     }
 
     const filterProps = {
@@ -94,28 +103,29 @@ const SchedulePageTemplate = ({ summit, scheduleState, isLoggedUser, updateFilte
     return (
         <div>
             <div className="wrapper project-background">
-                <TopBar />
-                <Navbar isLoggedUser={isLoggedUser} />
-                <SubNav active="summit-schedule" pageName="Schedule" isLoggedUser={isLoggedUser} />
-                <Header title={headerTitle} />
+                <TopBar/>
+                <Navbar isLoggedUser={isLoggedUser}/>
+                <SubNav active="summit-schedule" pageName="Schedule" isLoggedUser={isLoggedUser}/>
+                <Header title={headerTitle}/>
             </div>
             <main className="main">
                 <div className="content">
                     <div className="container">
-                        <RegisterNowBanner mobile={true} />
+                        <RegisterNowBanner mobile={true}/>
                         <div className={`${styles.wrapper} ${showFilters ? styles.showFilters : ""}`}>
                             <div className={styles.scheduleWrapper}>
                                 <FullSchedule {...schedProps} />
                             </div>
                             <div ref={filtersWrapperRef} className={styles.filterWrapper}>
-                                <RegisterNowBanner />
+                                <RegisterNowBanner/>
                                 <ScheduleFilters {...filterProps} />
                             </div>
-                            <FilterButton open={showFilters} onClick={() => setShowfilters(!showFilters)} />
+                            <FilterButton open={showFilters} onClick={() => setShowfilters(!showFilters)}/>
                         </div>
                     </div>
                 </div>
-                <PageScrollInspector threshold={700} scrollDirectionChanged={onScrollDirectionChange} bottomReached={onPageBottomReached} />
+                <PageScrollInspector threshold={700} scrollDirectionChanged={onScrollDirectionChange}
+                                     bottomReached={onPageBottomReached}/>
             </main>
         </div>
     );
@@ -130,13 +140,13 @@ SchedulePageTemplate.propTypes = {
 
 const ConnectedSchedTemplate = withScheduleData(SchedulePageTemplate);
 
-const SchedulePage = ({ location, schedKey, headerTitle, data, ...rest }) => {
+const SchedulePage = ({location, schedKey, headerTitle, data, ...rest}) => {
     const post = data?.markdownRemark ? data.markdownRemark : null;
     const seo = post?.frontmatter.seo ? post.frontmatter.seo : undefined;
 
     return (
         <Layout location={location}>
-            <SEO seo={seo} />
+            <SEO seo={seo}/>
             <ConnectedSchedTemplate
                 schedKey={post?.frontmatter.schedKey || schedKey}
                 headerTitle={post?.frontmatter.headerTitle || headerTitle}

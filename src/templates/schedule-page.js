@@ -111,13 +111,13 @@ const SchedulePageTemplate = ({
             <main className="main">
                 <div className="content">
                     <div className="container">
-                        <RegisterNowBanner mobile={true}/>
+                        {/* <RegisterNowBanner mobile={false}/> */}
                         <div className={`${styles.wrapper} ${showFilters ? styles.showFilters : ""}`}>
                             <div className={styles.scheduleWrapper}>
                                 <FullSchedule {...schedProps} />
                             </div>
                             <div ref={filtersWrapperRef} className={styles.filterWrapper}>
-                                <RegisterNowBanner/>
+                                {/* <RegisterNowBanner/> */}
                                 <ScheduleFilters {...filterProps} />
                             </div>
                             <FilterButton open={showFilters} onClick={() => setShowfilters(!showFilters)}/>

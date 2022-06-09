@@ -58,9 +58,6 @@ export const SummitPageTemplate = ({
                     :
                     !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> {header.location.text}
                 </span>
-                <section className="cta-wrapper">
-                  <LinkComponent className="button-cta" href="https://openinfrasummitberlin.eventbrite.com">Register Now<img src={leftArrow} alt="" /></LinkComponent>
-                </section>
               </div>
               <div className="header-right">
                 <div className="hero-video">
@@ -103,7 +100,7 @@ export const SummitPageTemplate = ({
             <LinkComponent className="button-cta" href="/summit-sponsor">View all Sponsors<img src={leftArrow} alt="" /></LinkComponent>
           </section>
 
-          <LogoBanner title="Register before tickets sell out!" cta="Register Now" href="https://openinfrasummitberlin.eventbrite.com/" />
+          {/* <LogoBanner title="Register before tickets sell out!" cta="Register Now" href="https://openinfrasummitberlin.eventbrite.com/" /> */}
           {/*
           <section id="sponsor" className="sponsorship-levels">
             <span className="title">Sponsors</span>

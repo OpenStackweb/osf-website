@@ -111,7 +111,7 @@ const SchedulePageTemplate = ({
             <main className="main">
                 <div className="content">
                     <div className="container">
-                        <RegisterNowBanner mobile={false}/>
+                        {/* <RegisterNowBanner mobile={false}/> */}
                         <div className={`${styles.wrapper} ${showFilters ? styles.showFilters : ""}`}>
                             <div className={styles.scheduleWrapper}>
                                 <FullSchedule {...schedProps} />

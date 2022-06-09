@@ -1,7 +1,7 @@
 {
   "bar": {
-    "text": "Join the global OpenInfra community at the OpenInfra Summit in Berlin, June 7-9! ",
-    "link": "/summit",
-    "button": "REGISTER NOW"
+    "text": "Watch the Keynotes from the OpenInfra Summit in Berlin!",
+    "link": "https://youtu.be/ZlPLGmBfaVc",
+    "button": "WATCH NOW"
   }
 }

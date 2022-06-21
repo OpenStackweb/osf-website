@@ -221,17 +221,6 @@ members:
     linkedin: https://www.linkedin.com/in/helenaspease/
     twitter: https://twitter.com/helena_spease
     openStack: https://www.openstack.org/community/members/profile/121598
-  - name: Josh Lohse
-    title: Web Manager
-    description: "Josh Lohse is the Web Manager for the OpenInfra Foundation. He has
-      spent most of his career working in digital marketing and technology. Josh
-      has a background in music, and before starting in tech, spent time playing
-      in bands and recording records in both Orlando and Nashville. Outside of
-      work, he loves spending time reading, hiking, or watching Star Wars for
-      the twenty-seventh time with his children. "
-    picture: /img/1517049284777-1-.jpg
-    openStack: https://www.openstack.org/community/members/?letter=L
-    linkedin: https://www.linkedin.com/in/joshlohse/
 support:
   members:
     - description: Horace is currently working as China Community Manager @ Open

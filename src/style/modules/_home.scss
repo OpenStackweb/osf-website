@@ -787,6 +787,9 @@
   &:last-child{
     margin-right: 0;
   }
+  &.home-s8-gold-max-width {
+    max-width: 140px; 
+  }
 }
 #gold-carousel .carousel-item img {
   margin-right: 1em;
@@ -802,6 +805,15 @@
   @media (max-width: $screen-md-min){
     width: 4%;
   } 
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  a.carousel-control-prev {
+    left: -90px;
+  }
+  a.carousel-control-next {
+    right: -70px;
+  }
 }
 
 ul.slick-dots {

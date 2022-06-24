@@ -34,9 +34,9 @@ function SubNav(props) {
 
     <nav className="subnav-bar">
       <div className="container">
-        <ul className="links-list">
+        <ul className="links-list summit-links-list">
           <li onMouseEnter={() => setSummitDropdown(true)} onMouseLeave={() => setSummitDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
-            <div id="summit" className="link summit-selector" style={{ padding: 10, width: '102%', display: 'inline-flex' }}>
+            <div id="summit" className="link summit-selector" style={{ padding: '10px 10px 10px 0', width: '102%', display: 'inline-flex' }}>
             Berlin, Germany 2022
               <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
             </div>

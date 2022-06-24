@@ -22,9 +22,9 @@ function SubNavYvr(props) {
 
     <nav className="subnav-bar">
       <div className="container">
-        <ul className="links-list">
+        <ul className="links-list summit-links-list">
           <li onMouseEnter={() => setSummitDropdown(true)} onMouseLeave={() => setSummitDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
-            <div id="summit" className="link" style={{ padding: 10, width: '102%', display: 'inline-flex' }}>
+            <div id="summit" className="link" style={{ padding: '10px 10px 10px 0', width: '102%', display: 'inline-flex' }}>
             Vancouver, BC 2023
               <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
             </div>

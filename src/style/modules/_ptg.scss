@@ -26,8 +26,10 @@
     .buttons {
       margin-top: 14px;
       a:last-of-type {
+        width: 198px;
         img {
-          filter: none;
+          filter: invert(61%) sepia(5%) saturate(90%) hue-rotate(315deg)
+              brightness(84%) contrast(86%);
         }
       }
     }

@@ -19,6 +19,8 @@ header:
     icon: /img/summit/Vector-world.svg
     text: Columbus, Ohio
   buttons:
+    - text: Sponsor the PTG
+      link: /files/PTG-Columbus2022-Prospectus-062722.pdf
     - text: Sign up your team
       link: https://openinfrafoundation.formstack.com/forms/oct2022_ptg_team_signup
   image: /img/ptg-page/hero-image.png

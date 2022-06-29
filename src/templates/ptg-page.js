@@ -125,7 +125,7 @@ export const PTGPageTemplate = ({
             </div>
             <img src={ColorBar} className="multi-color-border" alt="Color Bar" />
           </section>
-          <section className="section about-s1-main">
+          <section className="section about-s1-main about-s1-main-ptg">
             <div className="container about-s1-container">
               <div className="columns">
                 <div className="column">

@@ -54,7 +54,7 @@ export const PTGPageTemplate = ({
                   <img src={(header.location.icon.extension === 'svg' || header.location.icon.extension === 'gif') && !header.location.icon.childImageSharp ?
                     header.location.icon.publicURL
                     :
-                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> {header.location.text}
+                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> <a href="https://www.hyatt.com/en-US/hotel/ohio/hyatt-regency-columbus/cmhrc">{header.location.text}</a>
                 </span>
                 <div className="buttons">
                     {header.buttons.map((button, index) => {
@@ -125,7 +125,7 @@ export const PTGPageTemplate = ({
             </div>
             <img src={ColorBar} className="multi-color-border" alt="Color Bar" />
           </section>
-          <section className="section about-s1-main">
+          <section className="section about-s1-main about-s1-main-ptg">
             <div className="container about-s1-container">
               <div className="columns">
                 <div className="column">

@@ -25,3 +25,11 @@
 		line-height: 0;
 	}
 }
+
+a.primary-link-color {
+	color: #E61E24;
+	text-decoration: underline;
+	&:hover {
+		color: #E61E24;
+	}
+}

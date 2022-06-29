@@ -17,7 +17,7 @@ header:
     text: October 17-20, 2022
   location:
     icon: /img/summit/Vector-world.svg
-    text: Columbus, Ohio
+    text: Hyatt Regency Columbus
   buttons:
     - text: Sponsor the PTG
       link: /files/PTG-Columbus2022-Prospectus-062722.pdf

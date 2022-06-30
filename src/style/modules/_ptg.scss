@@ -50,15 +50,49 @@
 .ptg-who {
   background: #F3F3F3;
   padding: 60px 120px;
-  display: flex;
-  flex-direction: row;
   color: black;
-  gap: 3rem;
   position: relative;
   @media (max-width: 767px) {
     padding: 3rem 20px;
     flex-direction: column;
     flex: 1 1 auto;
+  }
+  .ptg-who-teams {
+    margin-bottom: 70px;
+    .title {
+      font-size: 28px;
+      font-weight: 800;
+      font-family: "Jura", "Roboto", sans-serif;
+      margin-top: 26px;
+      text-transform: none;
+    }
+    .ptg-who-teams-list {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 35px 0;
+      justify-content: space-between;
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+        @media screen and (max-width: 1000px) {
+          flex-basis: 50%;
+        }
+        @media screen and (max-width: 500px) {
+          flex-basis: 100%;
+        }
+        li {
+          text-decoration: none;
+          margin: 0 0 15px 0;
+        }
+      }
+    }
+  }
+  .ptg-who-boxes {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    gap: 3rem;
   }
   .should, .shouldnot {
     display: flex;
@@ -140,6 +174,14 @@
     a {
       color: #E61E24;
       text-decoration: underline;
+      text-underline-offset: 3px;
+      span {
+        color: #E61E24;
+        font-size: 14px;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 4px;
+      }
     }
   }
 }

@@ -54,7 +54,7 @@ export const PTGPageTemplate = ({
                   <img src={(header.location.icon.extension === 'svg' || header.location.icon.extension === 'gif') && !header.location.icon.childImageSharp ?
                     header.location.icon.publicURL
                     :
-                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> <a href="https://www.hyatt.com/en-US/hotel/ohio/hyatt-regency-columbus/cmhrc">{header.location.text} <span>(book now)</span></a>
+                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> <a href="https://www.hyatt.com/en-US/group-booking/CMHRC/G-L0RT">{header.location.text} <span>(book now)</span></a>
                 </span>
                 <div className="buttons">
                     {header.buttons.map((button, index) => {
@@ -80,7 +80,7 @@ export const PTGPageTemplate = ({
       <main className="main">
         <div className="content">
           <section className="ptg-who">
-            <div className="ptg-who-teams">
+            {/* <div className="ptg-who-teams">
               <h4 className="title">The April 2022 Project Teams List is Official!</h4>
               <p>If your team was planning to meet and isn"t in this list, please contact <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a> IMMEDIATELY</p>
               <div class="ptg-who-teams-list">
@@ -127,7 +127,7 @@ export const PTGPageTemplate = ({
                   <li>Tacker</li>
                 </ul>
               </div>
-            </div>
+            </div> */}
             <div className="ptg-who-boxes">
               <div className="should">
                 <div className='top'>

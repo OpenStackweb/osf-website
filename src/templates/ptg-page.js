@@ -54,7 +54,7 @@ export const PTGPageTemplate = ({
                   <img src={(header.location.icon.extension === 'svg' || header.location.icon.extension === 'gif') && !header.location.icon.childImageSharp ?
                     header.location.icon.publicURL
                     :
-                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> <a href="https://www.hyatt.com/en-US/hotel/ohio/hyatt-regency-columbus/cmhrc">{header.location.text}</a>
+                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> <a href="https://www.hyatt.com/en-US/group-booking/CMHRC/G-L0RT">{header.location.text} <span>(book now)</span></a>
                 </span>
                 <div className="buttons">
                     {header.buttons.map((button, index) => {
@@ -67,14 +67,7 @@ export const PTGPageTemplate = ({
                         )
                     })}
                 </div>
-                {/* <div class="buttons">
-                  <a href="/files/PTG-Columbus2022-prospectus-062422.pdf">Sponsor the PTG 
-                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNSAxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+DQogICAgPGRlZnM+DQogICAgICAgIDxwYXRoIGQ9Ik03MDguNzE2IDM0OS4wNTRsLTQuODA1LTQuODA2YS44MjguODI4IDAgMCAwLTEuMTgzIDAgLjgyOC44MjggMCAwIDAgMCAxLjE4MmwzLjM4OCAzLjM4N2gtMTEuMjgxYS44NC44NCAwIDAgMC0uODM1LjgzNi44NC44NCAwIDAgMCAuODM1LjgzNWgxMS4yNjZsLTMuMzczIDMuMzg3YS44MjguODI4IDAgMCAwIDAgMS4xODIuODYzLjg2MyAwIDAgMCAuNi4yNTJjLjIyIDAgLjQyNS0uMDc5LjU5OS0uMjUybDQuODItNC44MjJhLjg1OC44NTggMCAwIDAgLjI1Mi0uNTk4IDEuMDY5IDEuMDY5IDAgMCAwLS4yODMtLjU4MyIgaWQ9ImEtYXJyb3ctbGVmdCIgLz4NCiAgICA8L2RlZnM+DQogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTY5NCAtMzQ0KSI+DQogICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI2EtYXJyb3ctbGVmdCIgZmlsbD0iI2ZmZiIgLz4NCiAgICA8L2c+DQo8L3N2Zz4=" alt="left" />
-                  </a>
-                  <a href="https://openinfrafoundation.formstack.com/forms/oct2022_ptg_team_signup" target="_blank" rel="noopener noreferrer">Sign up your team 
-                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNSAxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+DQogICAgPGRlZnM+DQogICAgICAgIDxwYXRoIGQ9Ik03MDguNzE2IDM0OS4wNTRsLTQuODA1LTQuODA2YS44MjguODI4IDAgMCAwLTEuMTgzIDAgLjgyOC44MjggMCAwIDAgMCAxLjE4MmwzLjM4OCAzLjM4N2gtMTEuMjgxYS44NC44NCAwIDAgMC0uODM1LjgzNi44NC44NCAwIDAgMCAuODM1LjgzNWgxMS4yNjZsLTMuMzczIDMuMzg3YS44MjguODI4IDAgMCAwIDAgMS4xODIuODYzLjg2MyAwIDAgMCAuNi4yNTJjLjIyIDAgLjQyNS0uMDc5LjU5OS0uMjUybDQuODItNC44MjJhLjg1OC44NTggMCAwIDAgLjI1Mi0uNTk4IDEuMDY5IDEuMDY5IDAgMCAwLS4yODMtLjU4MyIgaWQ9ImEtYXJyb3ctbGVmdCIgLz4NCiAgICA8L2RlZnM+DQogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTY5NCAtMzQ0KSI+DQogICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI2EtYXJyb3ctbGVmdCIgZmlsbD0iI2ZmZiIgLz4NCiAgICA8L2c+DQo8L3N2Zz4=" alt="left" />
-                  </a>
-                </div> */}
+                <p>Make sure you <a class="primary-link-color" href="https://openinfrafoundation.formstack.com/forms/oct2022_ptg_team_signup">sign up your team</a> if that hasn't been done already</p>
             </div>
             <div className="header-left">
                 <div className="picture">
@@ -86,42 +79,92 @@ export const PTGPageTemplate = ({
 
       <main className="main">
         <div className="content">
-          <section className='ptg-who'>
-            <div className="should">
-              <div className='top'>
-                <h4>
-                  <img src="/img/ptg-page/check-icon.svg" />
-                  Who Should Attend
-                </h4>
+          <section className="ptg-who">
+            {/* <div className="ptg-who-teams">
+              <h4 className="title">The April 2022 Project Teams List is Official!</h4>
+              <p>If your team was planning to meet and isn"t in this list, please contact <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a> IMMEDIATELY</p>
+              <div class="ptg-who-teams-list">
+                <ul>
+                  <li>Ansible OpenStack modules</li>
+                  <li>Cinder</li>
+                  <li>Designate</li>
+                  <li>Glance</li>
+                  <li>Ironic</li>
+                  <li>Kuryr</li>
+                  <li>Neutron</li>
+                  <li>OpenInfra Edge Computing Group</li>
+                  <li>OpenStack-Ansible</li>
+                </ul>
+                <ul>
+                  <li>Release Management</li>
+                  <li>StarlingX</li>
+                  <li>TripleO</li>
+                  <li>Barbican</li>
+                  <li>CloudKitty</li>
+                  <li>Diversity & Inclusion WG</li>
+                  <li>Horizon</li>
+                  <li>Keystone</li>
+                  <li>Large Scale SIG</li>
+                </ul>
+                <ul>
+                  <li>Nova/Placement</li>
+                  <li>OpenStack Charms</li>
+                  <li>OpenStack-Helm</li>
+                  <li>SDK</li>
+                  <li>Swift</li>
+                  <li>Blazer</li>
+                  <li>Cyborg</li>
+                  <li>First Contact SIG</li>
+                  <li>Interop</li>
+                </ul>
+                <ul>
+                  <li>Kolla</li>
+                  <li>Manila</li>
+                  <li>Octavia</li>
+                  <li>OpenStack Technical Committee</li>
+                  <li>QA</li>
+                  <li>Security SIG</li>
+                  <li>Tacker</li>
+                </ul>
               </div>
-              <h5>DEVELOPERS / OPERATORS / END USERS</h5>
-              <p>
-                Developers, operators and end users who are involved or hoping to get involved in an OpenInfra project contributor group that decided to meet at the PTG.
-              </p>
-              <p>
-                NOTE: If you are hoping to get involved with a particular team, check with them to make sure they are planning to do onboarding before you book travel.
-              </p>
-              <h5>LEADERS</h5>
-              <p>
-                Leaders from teams, SIGs, working groups that decide not to meet at the PTG should attend to represent the views of their group at the event.
-              </p>
-            </div>
-            <div className="shouldnot">
-              <div className='top'>
-                <h4>
-                  <img src="/img/ptg-page/x-icon.svg" />
-                  Who Should Not Attend
-                </h4>
+            </div> */}
+            <div className="ptg-who-boxes">
+              <div className="should">
+                <div className='top'>
+                  <h4>
+                    <img src="/img/ptg-page/check-icon.svg" />
+                    Who Should Attend
+                  </h4>
+                </div>
+                <h5>DEVELOPERS / OPERATORS / END USERS</h5>
+                <p>
+                  Developers, operators and end users who are involved or hoping to get involved in an OpenInfra project contributor group that decided to meet at the PTG.
+                </p>
+                <p>
+                  NOTE: If you are hoping to get involved with a particular team, check with them to make sure they are planning to do onboarding before you book travel.
+                </p>
+                <h5>LEADERS</h5>
+                <p>
+                  Leaders from teams, SIGs, working groups that decide not to meet at the PTG should attend to represent the views of their group at the event.
+                </p>
               </div>
-              <p>
-                The event is optimized for engaged community members that are involved in one of the various teams working on one of the projects supported by the OpenInfra Foundation (workgroups, development teams, SIGs…). If you're brand new to OpenInfra projects, you might want to attend the OpenInfra Summit event instead, which features presentations, forum sessions (designed to get wider community feedback) and on-boarding sessions.
-              </p>
-              <p>
-                The event is not the occasion to sell goods or to propose jobs to the attendees -- hiring managers and product vendors will therefore probably feel out of place.
-              </p>
-              <p>
-                Usually this event is not for new contributors; however,  we are including the possibility for teams to do project onboarding as a part of the PTG. That being said, not all teams will be participating, only those that want to.
-              </p>
+              <div className="shouldnot">
+                <div className='top'>
+                  <h4>
+                    <img src="/img/ptg-page/x-icon.svg" />
+                    Who Should Not Attend
+                  </h4>
+                </div>
+                <p>
+                  The event is optimized for engaged community members that are involved in one of the various teams working on one of the projects supported by the OpenInfra Foundation (workgroups, development teams, SIGs…). If you're brand new to OpenInfra projects, you might want to attend the OpenInfra Summit event instead, which features presentations, forum sessions (designed to get wider community feedback) and on-boarding sessions.
+                </p>
+                <p>
+                  The event is not the occasion to sell goods or to propose jobs to the attendees -- hiring managers and product vendors will therefore probably feel out of place.
+                </p>
+                <p>
+                  Usually this event is not for new contributors; however,  we are including the possibility for teams to do project onboarding as a part of the PTG. That being said, not all teams will be participating, only those that want to.
+                </p>
+              </div>
             </div>
             <img src={ColorBar} className="multi-color-border" alt="Color Bar" />
           </section>

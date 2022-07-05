@@ -19,10 +19,10 @@ header:
     icon: /img/summit/Vector-world.svg
     text: Hyatt Regency Columbus
   buttons:
-    - text: Sponsor the PTG
-      link: /files/PTG-Columbus2022-Prospectus-062722.pdf
-    - text: Sign up your team
-      link: https://openinfrafoundation.formstack.com/forms/oct2022_ptg_team_signup
+    - text: Register Now
+      link: https://PTG2022.eventbrite.com
+    - text: Become a Sponsor
+      link: https://openinfra.dev/files/PTG-Columbus2022-Prospectus-062722.pdf
   image: /img/ptg-page/hero-image.png
 form:
   display: true

@@ -93,6 +93,14 @@
     flex-direction: row;
     color: black;
     gap: 3rem;
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+    .should {
+      @media screen and (max-width: 768px) {
+        margin-bottom: 3rem;
+      }
+    }
   }
   .should, .shouldnot {
     display: flex;

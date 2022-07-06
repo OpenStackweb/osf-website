@@ -29,6 +29,11 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
         setInputs(values => ({ ...values, [name]: value }))
     }
 
+    const handleTitleChange = () => {
+        const title = document.getElementById('title');
+        setInputs(values => ({ ...values, title: title.value }))
+    }
+
     useEffect(() => {
         if (!widget.current && container.current) {
             widget.current = new WidgetInstance(container.current, {
@@ -114,6 +119,10 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                     maxLength="40" value={inputs.bot_field || ""}
                                     onChange={handleChange} name="bot-field" type="text"
                                     placeholder="First Name" />
+                                <input id="title" className="contact-field ct-field"
+                                            maxLength="80" name="title" value={"Directed Fund Request: " + inputs.company + " - " + inputs.job_title || ""}
+                                            type="text" placeholder="Title"
+                                            required />
                             </p>
                             <div className="field-row">
                                 <div className="field-column is-full-width">
@@ -147,19 +156,8 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                     <div className="field-row">
                                         <input id="company" className="contact-field ct-field"
                                             maxLength="40" name="company"
-                                            value={inputs.company || ""} onChange={handleChange}
+                                            value={inputs.company || ""} onChange={handleChange} onBlur={handleTitleChange}
                                             type="text" placeholder="Company" required />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="field-row hidden">
-                                <div className="field-column is-full-width">
-                                    <label className="field-label" htmlFor="title">Title</label>
-                                    <div className="field-row">
-                                        <input id="title" className="contact-field ct-field"
-                                            maxLength="40" name="title" value={"Directed Fund Request: " + inputs.company + " - " + inputs.job_title || ""}
-                                            onChange={handleChange} type="text" placeholder="Title"
-                                            required />
                                     </div>
                                 </div>
                             </div>
@@ -167,9 +165,9 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                 <div className="field-column is-full-width">
                                     <label className="field-label" htmlFor="job_title">Title</label>
                                     <div className="field-row">
-                                        <input id="title" className="contact-field ct-field"
+                                        <input id="job_title" className="contact-field ct-field"
                                             maxLength="40" name="job_title" value={inputs.job_title || ""}
-                                            onChange={handleChange} type="text" placeholder="Title"
+                                            onChange={handleChange} onBlur={handleTitleChange} type="text" placeholder="Title"
                                             required />
                                     </div>
                                 </div>

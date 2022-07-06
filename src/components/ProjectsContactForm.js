@@ -152,7 +152,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                     </div>
                                 </div>
                             </div>
-                            <div className="field-row " style="display: none;">
+                            <div className="field-row hidden">
                                 <div className="field-column is-full-width">
                                     <label className="field-label" htmlFor="title">Title</label>
                                     <div className="field-row">

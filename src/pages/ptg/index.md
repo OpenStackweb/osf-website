@@ -20,7 +20,7 @@ header:
     text: Hyatt Regency Columbus
   buttons:
     - text: Register Now
-      link: https://PTG2022.eventbrite.com
+      link: https://openinfra-ptg.eventbrite.com
     - text: Become a Sponsor
       link: https://openinfra.dev/files/PTG-Columbus2022-Prospectus-062722.pdf
   image: /img/ptg-page/hero-image.png

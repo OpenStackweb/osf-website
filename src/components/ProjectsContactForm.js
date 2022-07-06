@@ -109,7 +109,6 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                         <div className="field-column is-full-width">
                             <p hidden>
                                 <input type="hidden" name="form-name" value="projects-contact" />
-                                <input type="hidden" name="title" value="Directed Fund Request" />
                                 <label className="field-label">Name</label>
                                 <input className="contact-field lt-field"
                                     maxLength="40" value={inputs.bot_field || ""}
@@ -155,10 +154,10 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                             </div>
                             <div className="field-row ">
                                 <div className="field-column is-full-width">
-                                    <label className="field-label" htmlFor="job_title">Title</label>
+                                    <label className="field-label" htmlFor="title">Title</label>
                                     <div className="field-row">
                                         <input id="title" className="contact-field ct-field"
-                                            maxLength="40" name="job_title" value={inputs.job_title || ""}
+                                            maxLength="40" name="title" value={inputs.title || ""}
                                             onChange={handleChange} type="text" placeholder="Title"
                                             required />
                                     </div>

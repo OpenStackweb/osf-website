@@ -161,6 +161,17 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                     </div>
                                 </div>
                             </div>
+                            <div className="field-row hidden">
+                                <div className="field-column is-full-width">
+                                    <label className="field-label" htmlFor="title">Title</label>
+                                    <div className="field-row">
+                                        <input id="title" className="contact-field ct-field"
+                                            maxLength="80" name="title" value={"Directed Fund Request: " + (inputs.company || "") + " - " + (inputs.job_title || "")}
+                                            type="text" placeholder="Title"
+                                            required />
+                                    </div>
+                                </div>
+                            </div>
                             <div className="field-row ">
                                 <div className="field-column is-full-width">
                                     <label className="field-label" htmlFor="job_title">Title</label>

@@ -31,7 +31,7 @@ function PTGSubNav(props) {
           <li><LinkComponent id="ptg-faq" href="/ptg/faq" onClick={() => shouldCloseMenu("ptg-faq")} className="link">FAQ</LinkComponent></li>
           <li><a id="ptg-faq" href="https://openinfra.dev/files/PTG-Columbus2022-Prospectus-062722.pdf" onClick={() => shouldCloseMenu("ptg-faq")} className="link">Sponsor Info</a></li>
           <li><LinkComponent id="ptg-faq" href="https://www.hyatt.com/en-US/group-booking/CMHRC/G-L0RT" onClick={() => shouldCloseMenu("ptg-faq")} className="link">Book Your Hotel</LinkComponent></li>
-          <li><LinkComponent id="registration" href="https://PTG2022.eventbrite.com" className="link registration">Register</LinkComponent></li>
+          <li><LinkComponent id="registration" href="https://openinfra-ptg.eventbrite.com" className="link registration">Register</LinkComponent></li>
         </ul>
 
         <div className={`${isOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleMenu}>

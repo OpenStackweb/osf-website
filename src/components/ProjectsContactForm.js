@@ -119,10 +119,6 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                     maxLength="40" value={inputs.bot_field || ""}
                                     onChange={handleChange} name="bot-field" type="text"
                                     placeholder="First Name" />
-                                <input id="title" className="contact-field ct-field"
-                                            maxLength="80" name="title" value={"Directed Fund Request: " + inputs.company + " - " + inputs.job_title || ""}
-                                            type="text" placeholder="Title"
-                                            required />
                             </p>
                             <div className="field-row">
                                 <div className="field-column is-full-width">

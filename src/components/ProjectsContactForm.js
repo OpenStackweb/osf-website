@@ -109,7 +109,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                         <div className="field-column is-full-width">
                             <p hidden>
                                 <input type="hidden" name="form-name" value="projects-contact" />
-                                <input type="hidden" name="title" value={"Directed Fund Request: " + inputs.company + " - " + inputs.job_title} />
+                                <input type="hidden" name="title" value="Directed Fund Request: Test" />
                                 <label className="field-label">Name</label>
                                 <input className="contact-field lt-field"
                                     maxLength="40" value={inputs.bot_field || ""}

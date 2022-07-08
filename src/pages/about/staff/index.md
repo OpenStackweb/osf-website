@@ -221,6 +221,13 @@ members:
     linkedin: https://www.linkedin.com/in/helenaspease/
     twitter: https://twitter.com/helena_spease
     openStack: https://www.openstack.org/community/members/profile/121598
+  - name: Treva Williams
+    picture: /img/about-staff/treva.png
+    title: Technical Community Manager
+    description: Prior to joining Open Infrastructure Foundation as Technical community manager for the Kata Containers project, Treva has been an online instructor, systems administrator, & tailor. Treva intermittently holds several certifications from Red Hat, always travels with a (service) dog, loves when skirts have pockets, & generally identifies as a dedicated Open Source Geek. Along with singing the praises of Open Source, Treva is also a dedicated Diversity, Equity & Inclusion advocate, speking as often as permitted on the subject.
+    linkedin: https://linkedin.com/in/trilliams
+    twitter: https://twitter.com/OGtrilliams
+    openStack: https://www.openstack.org/community/members/profile/59069/treva-williams
   - name: Josh Lohse
     picture: /img/about-staff/JoshLohsePic.jpg
     title: Web Manager

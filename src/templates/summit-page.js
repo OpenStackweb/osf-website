@@ -38,7 +38,7 @@ export const SummitPageTemplate = ({
         <div className="content">
           {header && header.display &&
             <section className="summit-header">
-              <div className="header-left">
+              <div className="header-left summit-header-videos">
                 <span className="upper-title">
                   {header.upperTitle}
                 </span>
@@ -58,6 +58,17 @@ export const SummitPageTemplate = ({
                     :
                     !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> {header.location.text}
                 </span>
+                <div className="cta-wrapper">
+                    {header.buttons.map((button, index) => {
+                        return (
+                            <a
+                                key={`header-button-${index}`}
+                                href={button.link} className="button-cta">
+                                {button.text} <img src={leftArrow} alt="left" />
+                            </a>
+                        )
+                    })}
+                </div>
               </div>
               <div className="header-right">
                 <div className="hero-video">
@@ -283,6 +294,10 @@ export const summitPageQuery = graphql`
               publicURL
               extension
             }
+          }
+          buttons {
+            text
+            link
           }
           image {
             childImageSharp {

@@ -99,7 +99,7 @@ function SubNav(props) {
             :
             <li><LinkComponent id="summit-schedule" href="/summit-schedule" className="link">Schedule</LinkComponent></li>
           }
-          {/* <li><LinkComponent id="registration" href="https://openinfrasummitberlin.eventbrite.com/" className="link registration">Register</LinkComponent></li> */}
+          <li><LinkComponent id="registration" href="https://www.openstack.org/videos/summits/berlin-2022" className="link registration">Watch Summit Videos</LinkComponent></li>
         </ul>
 
         <div className={`${isSummitOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleSummitMenu}>
@@ -171,7 +171,7 @@ function SubNav(props) {
               :
               <li><LinkComponent id="summit-schedule" href="/summit-schedule" onClick={() => shouldCloseMenu("summit-schedule")} className="link">Schedule</LinkComponent></li>
             }
-            {/* <li><LinkComponent id="registration" href="https://openinfrasummitberlin.eventbrite.com/" className="link registration">Register</LinkComponent></li> */}
+            <li><LinkComponent id="registration" href="https://www.openstack.org/videos/summits/berlin-2022" className="link registration">Watch Summit Videos</LinkComponent></li>
           </ul>
         </div>
       }

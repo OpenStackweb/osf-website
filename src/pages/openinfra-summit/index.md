@@ -19,6 +19,9 @@ header:
   location:
     icon: /img/summit/Vector-world.svg
     text: bcc Berlin Congress Center
+  buttons:
+    - text: Watch Summit Videos
+      link: https://www.openstack.org/videos/summits/berlin-2022
   image: /img/summit/summit-hero-image.png
 form:
   display: true

@@ -1,3 +1,4 @@
+import sponsorshipTypes from '../content/sponsorship-types.json';
 import { START_LOADING, STOP_LOADING, LOGOUT_USER } from "openstack-uicore-foundation/lib/actions";
 
 import {
@@ -7,7 +8,7 @@ import {
 
 const DEFAULT_STATE = {
     loading: false,
-    sponsorshipTypes: [],
+    sponsorshipTypes: sponsorshipTypes,
 }
 
 const sponsorReducer = (state = DEFAULT_STATE, action) => {

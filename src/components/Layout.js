@@ -1,12 +1,15 @@
-import React, {useEffect} from 'react'
-import {connect} from "react-redux";
+import React, { useEffect } from 'react'
+import { connect } from "react-redux";
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import '../style/style.scss'
 import { withPrefix } from 'gatsby'
 import settings from "../content/settings.json";
-import {syncData} from "../actions/base-actions";
+import sponsoredProjects from "../content/sponsored-projects.json";
+import { syncData } from "../actions/base-actions";
 import smoothscroll from 'smoothscroll-polyfill'
+import NavigationWidget from 'navigation-widget/dist';
+import 'navigation-widget/dist/index.css';
 // smooth scroll polyfill needed for Safari
 smoothscroll.polyfill()
 
@@ -29,13 +32,14 @@ const TemplateWrapper = ({ children, style, lastBuild, syncData }) => {
                 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
                 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
             </Helmet>
+            <NavigationWidget projects={sponsoredProjects} currentProject={1} />
             <div>{children}</div>
             <Footer />
         </div>
     );
 };
 
-const mapStateToProps = ({settingsState}) => ({
+const mapStateToProps = ({ settingsState }) => ({
     lastBuild: settingsState.lastBuild
 });
 

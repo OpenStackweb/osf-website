@@ -15,5 +15,7 @@ src/content/events.json
 src/content/summit.json
 src/content/current-release.json
 src/content/legal-document.json
+src/content/sponsorship-types.json
+src/content/sponsored-projects.json
 # Local Netlify folder
 .netlify

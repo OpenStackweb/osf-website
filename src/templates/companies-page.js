@@ -104,10 +104,6 @@ CompaniesPageTemplate.propTypes = {
 const CompaniesPage = ({ isLoggedUser, data, getSponsorhipTypes, sponsors, location, loading }) => {
   const { markdownRemark: post } = data
 
-  useEffect(() => {
-    getSponsorhipTypes();
-  }, [])
-
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />

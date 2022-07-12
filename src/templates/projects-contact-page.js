@@ -58,10 +58,6 @@ ProjectsContactPageTemplate.propTypes = {
 const ProjectsContactPage = ({ isLoggedUser, getSponsorhipTypes, sponsorships, data }) => {
     const { markdownRemark: post } = data
 
-    useEffect(() => {
-        getSponsorhipTypes();
-    }, [])
-
     return (
         <Layout>
             <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />

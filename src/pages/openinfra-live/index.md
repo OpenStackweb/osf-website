@@ -15,6 +15,18 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2022-07-21T14:00:00.000Z
+    episodeTitle: "OpenInfra Live Ep. 43: 12 Years of OpenStack"
+    episodeDescription: "25 releases, 25 million cores, and 12 years later, the
+      #OpenStack community is thriving. Join this week’s OpenInfra Live episode
+      to meet community members from France, South Korea, and the UK as they
+      discuss the growth of OpenStack in their region over the past 12 years. In
+      addition, come learn about how the OpenStack release naming process will
+      continue following the Zed release!"
+    episodeSpeakers: Kendall Nelson, Danny Abukalam, Soumaya Msallem, Seongsoo Cho
+    youtubeEmbed: https://www.youtube.com/embed/yhYq0MOA5nQ
+    youtubeLink: https://www.youtube.com/watch?v=yhYq0MOA5nQ
+  - hidden: false
     date: 2022-05-12T14:00:55.890Z
     episodeTitle: Creating a Sustainable Future for Data Centers with OpenStack and
       Kubernetes

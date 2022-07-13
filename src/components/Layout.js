@@ -10,6 +10,7 @@ import { syncData } from "../actions/base-actions";
 import smoothscroll from 'smoothscroll-polyfill'
 import NavigationWidget from 'navigation-widget/dist';
 import 'navigation-widget/dist/index.css';
+import {getEnvVariable, SPONSORED_PROJECT_ID} from '../utils/envVariables'
 // smooth scroll polyfill needed for Safari
 smoothscroll.polyfill()
 
@@ -19,7 +20,9 @@ const TemplateWrapper = ({ children, style, lastBuild, syncData }) => {
         if (!lastBuild || settings.lastBuild > lastBuild) {
             syncData();
         }
-    }, [lastBuild, syncData]);    
+    }, [lastBuild, syncData]);
+
+    const currentProject = parseInt(getEnvVariable(SPONSORED_PROJECT_ID));
 
     return (
         <div className="wrapper" style={style}>
@@ -32,7 +35,7 @@ const TemplateWrapper = ({ children, style, lastBuild, syncData }) => {
                 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
                 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
             </Helmet>
-            <NavigationWidget projects={sponsoredProjects} currentProject={parseInt(window.SPONSORED_PROJECT_ID)} />
+            <NavigationWidget projects={sponsoredProjects} currentProject={currentProject} />
             <div>{children}</div>
             <Footer />
         </div>

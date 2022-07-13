@@ -16166,10 +16166,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-navigation-widget@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/navigation-widget/-/navigation-widget-1.0.1.tgz#5fc62b2854a86abafc4701ee516370996523a1b9"
-  integrity sha512-+gyopkZcp8d8JhaImKgBS0S+B0StOa1JvpDgIh9W7i9+0I9HZDluLfGtnC0CWKqDrqggf2Sq/aNYd2AtXJzrTA==
+navigation-widget@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/navigation-widget/-/navigation-widget-1.0.3.tgz#eeceb284338b2a4fd932c049cc3680b164c62768"
+  integrity sha512-+0TIW1Up8DWtskhpra/jPVtEIpixR9bnZ02JubARL/UHCI3YBxbmgO1Yzxqhev5bk/0eCca12KXLP4pSQf9FkA==
 
 needle@^2.2.1:
   version "2.6.0"

@@ -38,7 +38,8 @@ const TemplateWrapper = ({ children, style, lastBuild, syncData }) => {
             <NavigationWidget 
                 projects={sponsoredProjects}
                 currentProject={currentProject}
-                navbarTitle={'View OpenInfra Projects'} />
+                navbarTitle={'View OpenInfra Projects'}
+                containerClass="container" />
             <div>{children}</div>
             <Footer />
         </div>

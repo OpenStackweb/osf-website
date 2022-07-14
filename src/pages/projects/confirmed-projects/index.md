@@ -20,7 +20,7 @@ projectCategories:
     categoryId: confirmed
   - label: PILOT PROJECTS
     categoryId: pilot
-  - label: FOUNDATION WORKING GROUPS
+  - label: OPENINFRA WORKING GROUPS
     categoryId: working-groups
 projectList:
   - logo: /img/logo-airship.svg
@@ -193,7 +193,6 @@ projectList:
       text: "Edge Whitepaper #2"
     class: projects-s5
     title: Edge Computing Group
-    subTitle: OpenInfra Foundation Board approved working group
     links:
       - link: https://wiki.openstack.org/wiki/Edge_Computing_Group?_ga=2.89217689.361772780.1598227486-61533541.1515512744
         text: Weekly Meetings
@@ -205,6 +204,22 @@ projectList:
       and engineers across large enterprises, telecoms and technology vendors
       working to define and advance edge cloud computing. The focus is open
       infrastructure technologies, not exclusive to OpenStack.
+    features:
+      - icon: /img/icon1.svg
+        text: EDGE COMPUTING
+    category: working-groups
+  - logo: /img/earth2.jpg
+    button:
+      link: https://youtu.be/hzmoQUYqt3s
+      text: CFN Strategy Video
+    class: projects-s6
+    title: Computing Force Network (CFN) Working Group
+    links:
+      - link: https://etherpad.opendev.org/p/r.657d51a0d969fb573dc4967db98c6bbe
+        text: Working Group Scope and Proposal
+      - link: https://youtu.be/hzmoQUYqt3s
+        text: Connectivity, Computing and Capability - the New Era of Digital Infrastructure
+    description: The Computing Force Network working group is aiming to formulate solutions for common challenges with using related technologies, promoting technical implementations, and gradually building the next generation of open infrastructure.
     features:
       - icon: /img/icon1.svg
         text: EDGE COMPUTING

@@ -113,7 +113,6 @@
     margin-bottom: 0;
   }
   .column > img.projects-s7-logo-image {
-    width: 150px;
     top: 10px;
     @media screen and (max-width: 768px) {
       top: 40px;
@@ -206,16 +205,16 @@
 }
 
 #projects-s2-h3 {
-  color: #65c7c2;
+  color: #141F47;
 }
 
 #projects-s2-btn {
-  background-color: #65c7c2;
+  background-color: #141F47;
   color: $white;
   border: 0 !important;
 
   &:hover {
-    background-color: darken(#65c7c2, 20%);
+    background-color: darken(#141F47, 20%);
     border: 0 !important;
   }
 }
@@ -311,7 +310,7 @@
   padding-top: 70px;
   padding-bottom: 70px;
   color: $white;
-  background-color: #28a4db;
+  background-color: #141F47;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -447,7 +446,6 @@
       border-radius: 25px;
       position: relative;
       top: 25px;
-      width: 90%;
     }
   }
 }
@@ -479,7 +477,7 @@
       }
       .projects-s2-important-link {
         a {
-          color: #65c7c2;
+          color: #141F47;
         }
       }
       .projects-s3-important-link {
@@ -520,50 +518,35 @@
   }
 }
 
-@media screen and (max-width: 1199px) {
-  .projects-s1-container {
-    .important-links-columns {
+.projects-s1-container {
+  .important-links-columns {
+    @media screen and (max-width: 1199px) {
       width: 100%;
     }
-    .projetcs-s1-container-child {
-      .projects-btn {
+  }
+  .projetcs-s1-container-child {
+    .projects-btn {
+      @media screen and (max-width: 1199px) {
         width: 125%;
       }
-    }
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .projects-s1-container {
-    .projetcs-s1-container-child {
-      .projects-btn {
-        width: 110%;
+      @media screen and (max-width: 1199px) {
+        width: 125%;
       }
-    }
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .projects-s1-container {
-    .projetcs-s1-container-child {
-      .projects-btn {
+      @media screen and (max-width: 1023px) {
+        width: 115%;
+      }
+      @media screen and (max-width: 991px) {
+        width: 150%;
+      }
+      @media screen and (max-width: 850px) {
         width: 130%;
       }
-    }
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .projects-s1-container {
-    .projetcs-s1-container-child {
-      .projects-btn {
+      @media screen and (max-width: 768px) {
         width: 90%;
       }
     }
   }
 }
-
-
 
 .main {
   .projects-s1-main {

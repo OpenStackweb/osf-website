@@ -160,10 +160,10 @@ projectList:
       - icon: /img/home/icon2.svg
         text: CI/CD
     category: confirmed
-  - logo: /img/openinfralabs-logo-rgb-stacked.svg
+  - logo: /img/projects-img/OpenInfraLabs-Icon-RGB-Color.svg
     button:
       link: https://openinfralabs.org/
-      text: View Website
+      text: openinfralabs.org
     class: projects-s7
     title: OpenInfra Labs
     subTitle: Connecting open source projects to production

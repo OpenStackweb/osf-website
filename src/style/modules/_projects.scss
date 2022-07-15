@@ -252,6 +252,17 @@
   }
 }
 
+#projects-s6-btn {
+  background-color: #EC8A42;
+  color: $white;
+  border: 0 !important;
+
+  &:hover {
+    background-color: darken(#EC8A42, 20%);
+    border: 0 !important;
+  }
+}
+
 .button-white {
   border: 0px;
   color: #161616;

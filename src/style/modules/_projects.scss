@@ -111,12 +111,13 @@
     top: 25px;
     width: 120px;
     margin-bottom: 0;
+    @media screen and (max-width: 768px) {
+      display: block;
+      margin-left: 15px;
+    }
   }
   .column > img.projects-s7-logo-image {
-    top: 10px;
-    @media screen and (max-width: 768px) {
-      top: 40px;
-    }
+    width: 100px;
   }
 
   @media (max-width: $screen-md) {

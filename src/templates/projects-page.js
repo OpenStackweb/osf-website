@@ -47,7 +47,7 @@ export const ProjectsPageTemplate = ({
                       <div className="column is-2">
                         {project.logo ?
                           project.logo.extension === 'svg' && !project.logo.childImageSharp ?
-                            <img src={!!project.logo.publicURL ? project.logo.publicURL : project.logo} alt='' className="projetcs-s1-container-child" />
+                            <img src={!!project.logo.publicURL ? project.logo.publicURL : project.logo} alt='' className={`${project.class}-logo-image projetcs-s1-container-child`} />
                             :
                             <img src={!!project.logo.childImageSharp ? project.logo.childImageSharp.fluid.src : project.logo} alt='' className="projetcs-s1-container-child" />
                           :

@@ -164,7 +164,7 @@ projectList:
     button:
       link: https://openinfralabs.org/
       text: View Website
-    class: projects-s5
+    class: projects-s7
     title: OpenInfra Labs
     subTitle: Connecting open source projects to production
     links:

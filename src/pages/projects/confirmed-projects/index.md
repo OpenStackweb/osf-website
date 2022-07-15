@@ -187,7 +187,7 @@ projectList:
       - icon: /img/icon3.svg
         text: Container Infrastructure
     category: pilot
-  - logo: /img/projects-img/edge-group-logo.png
+  - logo: /img/projects-img/edge-group-logo.svg
     button:
       link: https://www.openstack.org/edge-computing/edge-computing-next-steps-in-architecture-design-and-testing
       text: "Edge Whitepaper #2"
@@ -208,7 +208,7 @@ projectList:
       - icon: /img/icon1.svg
         text: EDGE COMPUTING
     category: working-groups
-  - logo: /img/projects-img/cfn-logo.png
+  - logo: /img/projects-img/cfn-logo.svg
     button:
       link: https://youtu.be/hzmoQUYqt3s
       text: CFN Strategy Video

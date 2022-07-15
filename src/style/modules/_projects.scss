@@ -106,6 +106,12 @@
   flex-flow: wrap;
   width: 95%;
   margin: 30px auto;
+  .column > img.projetcs-s1-container-child {
+    position: relative;
+    top: 25px;
+    width: 120px;
+    margin-bottom: 0;
+  }
 
   @media (max-width: $screen-md) {
     //small screen
@@ -128,15 +134,18 @@
 
   h2 {
     color: #161616;
+    text-align: left;
   }
 
   h3 {
     color: #161616;
     font-size: 16px;
+    text-align: left;
   }
 
   p {
     color: #161616;
+    text-align: left;
   }
 
   .columns {
@@ -156,10 +165,7 @@
       }
 
       &:last-child {
-        border-left: 2px solid $back-darkest;
-
         @media (max-width: 776px) {
-          border-left: none;
           margin-top: 2em;
         }
       }
@@ -416,10 +422,102 @@
 
     &.projects-btn {
       margin-top: 0;
+      border-radius: 25px;
+      position: relative;
+      top: 25px;
+      width: 88%;
     }
   }
 }
 
 .projects-s1-main {
   margin-bottom: 1.7em;
+}
+
+.projects-s1-container {
+  .important-links-columns {
+    width: 60%;
+    .important-links-column {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-left: 7px;
+      p {
+        min-width: 50%;
+      }
+      .projects-important-link {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .projects-s1-important-link {
+        a {
+          color: #e61e24;
+        }
+      }
+      .projects-s2-important-link {
+        a {
+          color: #65c7c2;
+        }
+      }
+      .projects-s3-important-link {
+        a {
+          color: #f05c3f;
+        }
+      }
+      .projects-s4-important-link {
+        a {
+          color: #685bc7;
+        }
+      }
+      .projects-s5-important-link {
+        a {
+          color: #071d49;
+        }
+      }
+      .projects-s6-important-link {
+        a {
+          color: #EC8A42;
+        }
+      }
+    }
+  }
+}
+
+.projects-primary-container { 
+  padding-left: 20px;
+  padding-right: 20px;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .projects-s1-container {
+    .important-links-columns {
+      width: 100%;
+    }
+    .projetcs-s1-container-child {
+      .projects-btn {
+        width: 125%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects-s1-container {
+    .projetcs-s1-container-child {
+      .projects-btn {
+        width: 90%;
+      }
+    }
+  }
+}
+
+.main {
+  .projects-s1-main {
+    margin-bottom: 0;
+  }
 }

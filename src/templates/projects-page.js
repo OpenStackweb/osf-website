@@ -54,14 +54,14 @@ export const ProjectsPageTemplate = ({
                           null
                         }
                       </div>
-                      <div className="projetcs-s1-container-child column is-7 is-full-mobile">
+                      <div className="projetcs-s1-container-child column is-7 is-full-mobile projects-primary-container">
                         <h2>{project.title}</h2>
                         <h3 id={project.class ? `${project.class}-h3` : ''}>{project.subTitle}</h3>
                         <p>
                           {project.description}
                         </p>
-                        <div className="columns">
-                          <div className="column is-three-fifths">
+                        <div className="columns important-links-columns">
+                          {/* <div className="column is-three-fifths">
                             {project.features && project.features.map((feature, index) => {
                               if (feature.image) {
                                 return (
@@ -77,14 +77,12 @@ export const ProjectsPageTemplate = ({
                                 )
                               }
                             })}
-                          </div>
-                          <div className="column">
-                            <p>IMPORTANT LINKS:</p>
-                            <br />
+                          </div> */}
+                          <div className="column important-links-column">
                             {project.links?.length > 0 && project.links.map((link, index) => {
                               if (link.link) {
                                 return (
-                                  <p key={index}>
+                                  <p key={index} className={project.class ? `${project.class}-important-link projects-important-link` : ''}>
                                     <LinkComponent href={link.link}>{link.text}</LinkComponent>
                                   </p>
                                 )

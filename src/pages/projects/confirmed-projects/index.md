@@ -79,7 +79,7 @@ projectList:
     button:
       link: https://www.openstack.org/
       text: openstack.org
-    class: ""
+    class: projects-s1
     title: OPENSTACK
     subTitle: Programmable infrastructure for VMs, containers and bare metal.
     links:
@@ -174,8 +174,6 @@ projectList:
         text: Code Repository
       - link: https://gitlab.com/open-infrastructure-labs/nerc-architecture
         text: Meeting Notes
-      - link: https://openinfralabs.org/operate-first-community-manifesto/
-        text: Operate First Community Manifesto
     description: OpenInfra Labs is a community, created by and for infrastructure
       providers and operators, integrating and optimizing different layers of
       the infrastructure, running open source code in production, publishing

@@ -115,6 +115,9 @@
       display: block;
       margin-left: 15px;
     }
+    @media screen and (max-width: 576px) {
+      margin-left: 0;
+    }
   }
   .column > img.projects-s7-logo-image {
     width: 100px;

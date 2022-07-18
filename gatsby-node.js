@@ -80,9 +80,35 @@ const SSR_getCurrentReleaseComponents = async (baseUrl) => {
     .catch(e => console.log('ERROR: ', e));
 };
 
+const SSR_getSponsorshipTypes = async (baseUrl, sponsoredProjectId) => {
+  return await axios.get(
+    `${baseUrl}/api/public/v1/sponsored-projects/${sponsoredProjectId}/sponsorship-types`,
+    {
+      params: {
+        expand: 'supporting_companies, supporting_companies.company',
+        page: 1,
+        per_page: 100,
+      }
+    }).then((response) => response.data.data)
+    .catch(e => console.log('ERROR: ', e));
+}
+
+const SSR_getSponsoredProjects = async (baseUrl) => {
+  return await axios.get(
+    `${baseUrl}/api/public/v1/sponsored-projects/`,
+    {
+      params: {        
+        per_page: 100,
+        page: 1,
+      }
+    }).then((response) => response.data.data)
+    .catch(e => console.log('ERROR: ', e));
+}
+
 exports.onPreBootstrap = async () => {
   const apiBaseUrl = process.env.GATSBY_API_BASE_URL;
   const buildScopes = process.env.GATSBY_BUILD_SCOPES;
+  const sponsoredProjectId = process.env.GATSBY_SPONSORED_PROJECT_ID;
   const globalSettings = { lastBuild: Date.now() };
   const config = {
     client: {
@@ -111,21 +137,33 @@ exports.onPreBootstrap = async () => {
 
   // pull summit
   const summit = await SSR_getSummit(apiBaseUrl);
-  if(summit) {
+  if (summit) {
     writeToJson('src/content/summit.json', summit);
 
     // pull events
     const events = await SSR_getEvents(apiBaseUrl, summit.id, accessToken);
-    if(events) {
+    if (events) {
       writeToJson('src/content/events.json', events);
     }
   }
 
   // pull current release
   const currentRelease = await SSR_getCurrentReleaseComponents(apiBaseUrl);
-  if(currentRelease) {
+  if (currentRelease) {
     writeToJson('src/content/current-release.json', currentRelease);
   }
+
+  // pull sponsorship types
+  const sponsorshipTypes = await SSR_getSponsorshipTypes(apiBaseUrl, sponsoredProjectId);  
+  if (sponsorshipTypes) {
+    writeToJson('src/content/sponsorship-types.json', sponsorshipTypes);
+  }
+
+  // pull sponsored projects
+  const sponsoredProjects = await SSR_getSponsoredProjects(apiBaseUrl);
+  if(sponsoredProjects) {
+    writeToJson('src/content/sponsored-projects.json', sponsoredProjects);
+  };
 
 }
 

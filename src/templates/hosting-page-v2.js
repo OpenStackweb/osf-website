@@ -68,10 +68,6 @@ export const HostingPageV2Template = ({sponsors = []}) => {
 const HostingPageV2 = ({data, sponsors, getSponsorhipTypes}) => {
   const {markdownRemark: post} = data
 
-  useEffect(() => {
-    getSponsorhipTypes();
-  }, [])
-
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null}/>

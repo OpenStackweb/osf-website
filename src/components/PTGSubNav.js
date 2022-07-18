@@ -29,8 +29,9 @@ function PTGSubNav(props) {
         <ul id="links-list" className="links-list">
           <li><LinkComponent id="ptg" href="/ptg" onClick={() => shouldCloseMenu("ptg")} className="link">About</LinkComponent></li>
           <li><LinkComponent id="ptg-faq" href="/ptg/faq" onClick={() => shouldCloseMenu("ptg-faq")} className="link">FAQ</LinkComponent></li>
-          <li><a id="ptg-faq" href="https://openinfra.dev/files/PTG-Columbus2022-Prospectus-062722.pdf" onClick={() => shouldCloseMenu("ptg-faq")} className="link">Sponsor Info</a></li>
-          <li><LinkComponent id="ptg-faq" href="https://www.hyatt.com/en-US/group-booking/CMHRC/G-L0RT" onClick={() => shouldCloseMenu("ptg-faq")} className="link">Book Your Hotel</LinkComponent></li>
+          <li><LinkComponent id="ptg-safety" href="/ptg/safety" onClick={() => shouldCloseMenu("ptg-safety")} className="link">Health & Safety</LinkComponent></li>
+          <li><a id="ptg-sponsor" href="https://openinfra.dev/files/PTG-Columbus2022-Prospectus-062722.pdf" onClick={() => shouldCloseMenu("ptg-faq")} className="link">Sponsor Info</a></li>
+          <li><LinkComponent id="ptg-hotel" href="https://www.hyatt.com/en-US/group-booking/CMHRC/G-L0RT" onClick={() => shouldCloseMenu("ptg-faq")} className="link">Book Your Hotel</LinkComponent></li>
           <li><LinkComponent id="registration" href="https://openinfra-ptg.eventbrite.com" className="link registration">Register</LinkComponent></li>
         </ul>
 

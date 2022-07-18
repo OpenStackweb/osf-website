@@ -177,6 +177,14 @@
   }
 }
 
+.ptg-description-link {
+  color: #E61E24;
+  text-decoration: underline;
+  &:hover {
+    color: #E61E24;
+  }
+}
+
 .ptg-header {
   .location {
     a {

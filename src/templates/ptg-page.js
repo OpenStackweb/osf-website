@@ -43,6 +43,7 @@ export const PTGPageTemplate = ({
                 </span>
                 <span className="description">
                     {header.description}
+                    <br /> <br />Learn about our <a className="ptg-description-link" href="/ptg/safety/">COVID safety measures</a>.
                 </span>
                 <span className="date">
                   <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?

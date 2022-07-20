@@ -28,6 +28,7 @@ export const PTGSafetyPageTemplate = ({
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
         <PTGSubNav active="ptg-safety" pageName="PTG"/>
+        <Header title={title} subTitle={subTitle} />
       </div>
 
       <main className="main">

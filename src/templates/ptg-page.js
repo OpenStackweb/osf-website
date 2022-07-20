@@ -30,7 +30,7 @@ export const PTGPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <PTGSubNav active="ptg" pageName="PTG"/>
+        <PTGSubNav active="ptg" pageName="About"/>
       </div>
       {header && header.display &&
         <div className="join-header ptg-header">
@@ -43,6 +43,7 @@ export const PTGPageTemplate = ({
                 </span>
                 <span className="description">
                     {header.description}
+                    <br /> <br />Learn about our <a className="ptg-description-link" href="/ptg/safety/">COVID safety measures</a>.
                 </span>
                 <span className="date">
                   <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?

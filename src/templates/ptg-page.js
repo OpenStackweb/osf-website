@@ -30,7 +30,7 @@ export const PTGPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <PTGSubNav active="ptg" pageName="PTG"/>
+        <PTGSubNav active="ptg" pageName="About"/>
       </div>
       {header && header.display &&
         <div className="join-header ptg-header">

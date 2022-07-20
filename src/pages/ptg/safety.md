@@ -8,7 +8,7 @@ seo:
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/ptg/safety/'
 title: Onsite Safety Precautions
-subTitle: PTG Columus 2022
+subTitle: PTG Columbus 2022
 ---
 Our attendees’ health and safety remain our top priority as we continue to monitor COVID-19. We will follow all venue, local, and CDC guidelines to make the best and most informed decisions around onsite safety and requirements.
 

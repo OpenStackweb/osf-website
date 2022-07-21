@@ -44,7 +44,7 @@ footer:
 
 Our community is global. This creates challenges that cannot easily be solved using asynchronous, low-bandwidth communication tools. Getting technical community members to meet in-person regularly is essential to build the amount of shared understandings and trust that is necessary to successfully cooperate. Participants to the event are therefore a lot more productive and efficient the rest of the year.
 
-PTG’s are organized in cost-effective transportation hubs in order to minimize travel expense. At the same time, we aim to maximize the ability of contributors to work through their workgroup objectives in an environment that is focused towards work and productivity.
+PTGs are organized in cost-effective transportation hubs in order to minimize travel expense. At the same time, we aim to maximize the ability of contributors to work through their workgroup objectives in an environment that is focused towards work and productivity.
 
 ### Code of Conduct
 

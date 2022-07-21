@@ -137,16 +137,17 @@ export const PTGPageTemplate = ({
                     Who Should Attend
                   </h4>
                 </div>
-                <h5>DEVELOPERS / OPERATORS / END USERS</h5>
+                <h5>PROJECT CONTRIBUTORS</h5>
                 <p>
-                  Developers, operators and end users who are involved or hoping to get involved in an OpenInfra project contributor group that decided to meet at the PTG.
+                  Contributors actively involved in an Open Infrastructure project team that is meeting at the PTG. Attendees should have existing knowledge of the teams whose meetings they are planning to attend. If you are hoping to get started with a particular team, check with them to make sure they are planning to do onboarding before you book travel because many teams will have full agendas.
                 </p>
+                <h5>OPERATORS / END USERS</h5>
                 <p>
-                  NOTE: If you are hoping to get involved with a particular team, check with them to make sure they are planning to do onboarding before you book travel.
+                  Operators who deploy the software (and end users who directly interact with those deployments) are encouraged to attend, interact with upstream contributors for the projects you run, plan to run or have feedback for. You will also have the opportunity to collaborate with fellow operators to discuss common pain points and best practices.
                 </p>
-                <h5>LEADERS</h5>
+                <h5>TEAM LEADERS</h5>
                 <p>
-                  Leaders from teams, SIGs, working groups that decide not to meet at the PTG should attend to represent the views of their group at the event.
+                  Leaders from teams, SIGs, working groups that decide not to meet are encouraged to attend the PTG anyway to represent the views of their group at the event.
                 </p>
               </div>
               <div className="shouldnot">
@@ -157,10 +158,10 @@ export const PTGPageTemplate = ({
                   </h4>
                 </div>
                 <p>
-                  The event is optimized for engaged community members that are involved in one of the various teams working on one of the projects supported by the OpenInfra Foundation (workgroups, development teams, SIGs…). If you're brand new to OpenInfra projects, you might want to attend the OpenInfra Summit event instead, which features presentations, forum sessions (designed to get wider community feedback) and on-boarding sessions.
+                  The PTG is intended for engaged community members that are involved in open source teams working on one of the projects supported by the OpenInfra Foundation or adjacent project communities. This includes workgroups, development teams, external open source projects (like Ceph or Kubernetes, SIG, etc). If you're brand new to a project, we recommend attending the OpenInfra Summit (<a href="https://www.openinfra.dev/summit/">openinfra.dev/summit</a>) first, which features presentations, Forum sessions (designed to get wider community feedback) and on-boarding sessions.
                 </p>
                 <p>
-                  The event is not the occasion to sell goods or to propose jobs to the attendees -- hiring managers and product vendors will therefore probably feel out of place.
+                  The event is NOT the event to sell goods -- hiring managers and product vendors are not encouraged to attend. The OpenInfra Summit (<a href="https://www.openinfra.dev/summit/">openinfra.dev/summit</a>) is a more appropriate event for teams with goals of this nature.
                 </p>
                 <p>
                   Usually this event is not for new contributors; however,  we are including the possibility for teams to do project onboarding as a part of the PTG. That being said, not all teams will be participating, only those that want to.

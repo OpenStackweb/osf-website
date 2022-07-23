@@ -214,7 +214,7 @@ projectList:
     title: Computing Force Network (CFN) Working Group
     links:
       - link: https://lists.opendev.org/cgi-bin/mailman/listinfo/computing-force-network
-        text: Mailing Lists
+        text: Mailing List
       - link: https://wiki.openstack.org/wiki/Computing_Force_Network_Working_Group
         text: Working Group Wiki
       - link: https://youtu.be/hzmoQUYqt3s

@@ -213,8 +213,10 @@ projectList:
     class: projects-s6
     title: Computing Force Network (CFN) Working Group
     links:
-      - link: https://etherpad.opendev.org/p/r.657d51a0d969fb573dc4967db98c6bbe
-        text: Working Group Scope and Proposal
+      - link: https://lists.opendev.org/cgi-bin/mailman/listinfo/computing-force-network
+        text: Mailing Lists
+      - link: https://wiki.openstack.org/wiki/Computing_Force_Network_Working_Group
+        text: Working Group Wiki
       - link: https://youtu.be/hzmoQUYqt3s
         text: Connectivity, Computing and Capability - the New Era of Digital Infrastructure
     description: The Computing Force Network working group is aiming to formulate solutions for common challenges with using related technologies, promoting technical implementations, and gradually building the next generation of open infrastructure.

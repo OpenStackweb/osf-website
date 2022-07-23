@@ -192,10 +192,10 @@ projectList:
     class: projects-s5
     title: Edge Computing Group
     links:
+      - link: http://lists.openstack.org/cgi-bin/mailman/listinfo/edge-computing
+        text: Mailing List
       - link: https://wiki.openstack.org/wiki/Edge_Computing_Group?_ga=2.89217689.361772780.1598227486-61533541.1515512744
         text: Weekly Meetings
-      - link: http://lists.openstack.org/cgi-bin/mailman/listinfo/edge-computing
-        text: Join the Mailing List
       - link: https://www.openstack.org/edge-computing/cloud-edge-computing-beyond-the-data-center?lang=en_US
         text: "Cloud Edge Computing: Beyond the Data Center White Paper"
     description: The Edge Computing Group is a working group comprised of architects

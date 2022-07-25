@@ -129,7 +129,7 @@ projectList:
         text: Standing Meetings
       - link: https://opendev.org/starlingx
         text: Code
-      - link: https://www.surveymonkey.com/r/K2B2MWL
+      - link: https://www.surveymonkey.com/r/StarlingX
         text: User Survey 
     description: "StarlingX is a complete cloud infrastructure software stack for
       the edge used  by the most demanding applications in industrial IoT,

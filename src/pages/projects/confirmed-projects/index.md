@@ -38,6 +38,8 @@ projectList:
         text: Documentation
       - link: https://git.airshipit.org/cgit
         text: Code
+      - link: https://www.surveymonkey.com/r/AirshipUserSurvey
+        text: User Survey
     description: Airship is a collection of interoperable and loosely coupled open
       source tools that  Provide for automated cloud provisioning and life cycle
       management in a completely  Declarative and predictable way. The focus of
@@ -68,6 +70,8 @@ projectList:
         text: Blog
       - link: https://github.com/kata-containers
         text: Code
+      - link: https://www.surveymonkey.com/r/KataContainers
+        text: User Survey
     description: Kata Containers is an open source project delivering increased
       container security and workload isolation through an implementation of
       lightweight virtual machines.
@@ -91,6 +95,8 @@ projectList:
         text: Getting Started
       - link: https://www.openstack.org/foundation/tech-committee/
         text: Technical Committee
+      - link: https://www.openstack.org/user-survey/survey-2022/landing
+        text: User Survey
     description: "OpenStack is an open source software project for creating private
       and public clouds, powering 75 public cloud data centers and thousands of
       private clouds at a scale of more than 15 million physical cores
@@ -123,6 +129,8 @@ projectList:
         text: Standing Meetings
       - link: https://opendev.org/starlingx
         text: Code
+      - link: https://www.surveymonkey.com/r/K2B2MWL
+        text: User Survey 
     description: "StarlingX is a complete cloud infrastructure software stack for
       the edge used  by the most demanding applications in industrial IoT,
       telecom, and other use  cases. Based on mature production software
@@ -152,7 +160,9 @@ projectList:
       - link: https://zuul-ci.org/users.html
         text: Users
       - link: https://git.zuul-ci.org/
-        text: Source Code
+        text: Code
+      - link: https://www.surveymonkey.com/r/K2B2MWL
+        text: User Survey
     description: Zuul is an open source CI/CD platform specializing in gating
       changes across multiple systems and applications before landing on a
       single patch

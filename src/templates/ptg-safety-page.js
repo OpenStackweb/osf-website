@@ -27,7 +27,7 @@ export const PTGSafetyPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <PTGSubNav active="ptg-safety" pageName="Health & Safety"/>
+        <PTGSubNav active="ptg-faq" pageName="Health & Safety"/>
         <Header title={title} subTitle={subTitle} />
       </div>
 

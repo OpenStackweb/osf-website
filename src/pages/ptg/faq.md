@@ -43,7 +43,7 @@ A: Operators and developers are still very much needed at the [main Summit](http
  
 
 **Q: The Project Teams Gathering sounds like a huge event. How am I expected to be productive there? Or to be able to build social bonds with my small team?**<br>
-A: Project Teams Gatherings are much smaller events compared to [Summits](https://www.openinfra.dev/summit/) (think 300 people rather than 3000). Each workgroup is allocated a specific, separate meeting area, in which they will be able to organize their schedule and work however they see fit. Past attendees have described the PTG as one of the most productive events they ever attended. The only moment where everyone meets is around lunch. We organize a limited number of social events (happy hours, karaoke, game night) and encourage teams to organize team dinners and build strong social bonds.
+A: Project Teams Gatherings are much smaller events compared to [Summits](https://travel.state.gov/content/travel/en/us-visas.html) (think 300 people rather than 3000). Each workgroup is allocated a specific, separate meeting area, in which they will be able to organize their schedule and work however they see fit. Past attendees have described the PTG as one of the most productive events they ever attended. The only moment where everyone meets is around lunch. We organize a limited number of social events (happy hours, karaoke, game night) and encourage teams to organize team dinners and build strong social bonds.
 
 **Q: Do I need a visa to travel to the US?**<br>
 A: Before submitting a request, please [check here](https://openinfrafoundation.formstack.com/forms/visa_columbus2022) to review the US visa information and requirements to determine if you need a visa for your trip.

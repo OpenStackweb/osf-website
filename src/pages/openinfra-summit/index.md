@@ -5,7 +5,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Summit Berlin, June 7-9, 2022
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/summit/
+  url: https://openinfra.dev/summit/berlin-2022
 header:
   display: true
   title: OpenInfra Summit Berlin 2022

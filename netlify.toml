@@ -15,6 +15,11 @@
 [headers.values]
   Cache-Control = "public, max-age=0, must-revalidate"
 [[redirects]]
+  from = "/summit"
+  to = "/summit/vancouver-2023"
+  status = 301
+  force = true
+[[redirects]]
   from = "/cloud-typography/fonts.css"
   to = "https://cloud.typography.com/7369076/7111412/css/fonts.css"
   status = 200
@@ -68,14 +73,6 @@
   to = "/user-survey"
   status = 301
   force = true
-[[redirects]]
-  from="/summit/"
-  to="https://openinfra.dev/summit/vancouver-2023"
-  status=301
-[[redirects]]
-  from="/summit"
-  to="https://openinfra.dev/summit/vancouver-2023"
-  status=301
 [[redirects]]
   from = "/files/OpenInfraSummitBerlin2022-prospectusV2.pdf"
   to = "/files/OpenInfra-Berlin-SUMMIT-2022-prospectus022222.pdf"

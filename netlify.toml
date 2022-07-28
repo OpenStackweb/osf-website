@@ -73,6 +73,10 @@
   to="https://openinfra.dev/summit/vancouver-2023"
   status=301
 [[redirects]]
+  from="/summit"
+  to="https://openinfra.dev/summit/vancouver-2023"
+  status=301
+[[redirects]]
   from = "/files/OpenInfraSummitBerlin2022-prospectusV2.pdf"
   to = "/files/OpenInfra-Berlin-SUMMIT-2022-prospectus022222.pdf"
   status = 301

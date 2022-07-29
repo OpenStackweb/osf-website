@@ -75,10 +75,10 @@ export const SummitOnsitePageTemplate = ({
             <section className='summit-schedule' id="schedule">
               <h3 className='fix-h3'>Summit Schedule</h3>
               <p>
-              Here's a high-level look at what's happening during the Summit. You can find more details by viewing the <a href="/summit-schedule">full Summit schedule</a>.
+              Here's a high-level look at what's happening during the Summit. You can find more details by viewing the <a href="/summit/summit-schedule">full Summit schedule</a>.
               </p>
               <p>
-                <strong>Monday 3:30pm - 5:30pm:</strong> Register before the Tuesday crowd and grab a beverage at <a href="https://openinfra.dev/summit-schedule#title=badges&view=calendar">Badges and Beverages</a> in the OpenInfra Plaza.
+                <strong>Monday 3:30pm - 5:30pm:</strong> Register before the Tuesday crowd and grab a beverage at <a href="https://openinfra.dev/summit/berlin-2022/summit-schedule#title=badges&view=calendar">Badges and Beverages</a> in the OpenInfra Plaza.
               </p>
               <div className='schedule-summary'>
                 <div className='schedule-left'>
@@ -275,7 +275,7 @@ export const SummitOnsitePageTemplate = ({
                   <img src="/img/summit/berlin/mask.svg" />
                   <h3 className='fix-h3'>Health & Safety</h3>
                   <p>
-                  Masks are required (over nose and mouth) for all attendees except while eating drinking or when delivering a conference talk. Please consult the <a href="/summit-covid">Summit Health & Safety protocol</a> for all onsite guidelines.
+                  Masks are required (over nose and mouth) for all attendees except while eating drinking or when delivering a conference talk. Please consult the <a href="/summit/berlin-2022/summit-covid">Summit Health & Safety protocol</a> for all onsite guidelines.
                   </p>
                 </div>
                 <div className='help-item'>

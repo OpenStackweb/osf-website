@@ -45,7 +45,7 @@ export const SummitPageTemplate = ({
                 <span className="title">
                   {header.title}
                 </span>
-                <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}></span><span className="description">Learn about our <a href="/summit-covid">COVID safety measures</a>.</span>
+                <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}></span><span className="description">Learn about our <a href="/summit/berlin-2022/summit-covid">COVID safety measures</a>.</span>
                 <span className="date">
                   <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
                     header.date.icon.publicURL
@@ -96,7 +96,7 @@ export const SummitPageTemplate = ({
                   )
                 })}
               </div>
-              <LinkComponent className="button-cta" style={{ margin: "0 auto", marginTop: "30px" }} href="/summit-schedule">View the Summit Schedule<img src={leftArrow} alt="" /></LinkComponent>
+              <LinkComponent className="button-cta" style={{ margin: "0 auto", marginTop: "30px" }} href="/summit/berlin-2022/summit-schedule">View the Summit Schedule<img src={leftArrow} alt="" /></LinkComponent>
             </section>
           }
 
@@ -108,7 +108,7 @@ export const SummitPageTemplate = ({
               <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
             </span>
             <SummitSponsorSlider summit_sponsors={summit_sponsors} />
-            <LinkComponent className="button-cta" href="/summit-sponsor">View all Sponsors<img src={leftArrow} alt="" /></LinkComponent>
+            <LinkComponent className="button-cta" href="/summit/berlin-2022/summit-sponsor">View all Sponsors<img src={leftArrow} alt="" /></LinkComponent>
           </section>
 
           {/* <LogoBanner title="Register before tickets sell out!" cta="Register Now" href="https://openinfrasummitberlin.eventbrite.com/" /> */}

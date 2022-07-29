@@ -54,8 +54,8 @@ function SubNav(props) {
         </ul>
 
         <ul id="links-list" className="links-list">
-          <li><LinkComponent id="summit-onsite" href="/summit-onsite" className="link">Onsite Info</LinkComponent></li>
-          <li><LinkComponent id="summit-sponsor" href="/summit-sponsor" className="link">Sponsors</LinkComponent></li>
+          <li><LinkComponent id="summit-onsite" href="/summit/berlin-2022/summit-onsite" className="link">Onsite Info</LinkComponent></li>
+          <li><LinkComponent id="summit-sponsor" href="/summit/berlin-2022/summit-sponsor" className="link">Sponsors</LinkComponent></li>
 
           <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
             <LinkComponent id="summit-faq" href="/summit-faq" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
@@ -64,16 +64,16 @@ function SubNav(props) {
             </LinkComponent>
             {supportDropdown &&
               <div className='dropdown-options'>
-                <LinkComponent id="summit-faq" href="/summit-faq" className="link dropdown">
+                <LinkComponent id="summit-faq" href="/summit/berlin-2022/summit-faq" className="link dropdown">
                   FAQs
                 </LinkComponent>
-                <LinkComponent id="summit-covid" href="/summit-covid" className="link dropdown">
+                <LinkComponent id="summit-covid" href="/summit/berlin-2022/summit-covid" className="link dropdown">
                   <span>COVID-19</span>
                 </LinkComponent>
-                <LinkComponent id="summit-faq-travel" href="/summit-faq#travel" className="link dropdown">
+                <LinkComponent id="summit-faq-travel" href="/summit/berlin-2022/summit-faq#travel" className="link dropdown">
                   <span>Travel Support</span>
                 </LinkComponent>
-                <LinkComponent id="summit-faq-speaker" href="/summit-faq#speakers" className="link dropdown">
+                <LinkComponent id="summit-faq-speaker" href="/summit/berlin-2022/summit-faq#speakers" className="link dropdown">
                   <span>Speaker Support</span>
                 </LinkComponent>
               </div>
@@ -87,7 +87,7 @@ function SubNav(props) {
               </LinkComponent>
               {scheduleDropdown &&
                 <div className='dropdown-options'>
-                  <LinkComponent id="summit-schedule" href="/summit-schedule" className="link dropdown">
+                  <LinkComponent id="summit-schedule" href="/summit/berlin-2022/summit-schedule" className="link dropdown">
                     Full Schedule
                   </LinkComponent>
                   <LinkComponent id="summit-my-schedule" href="/a/summit-my-schedule" className="link dropdown">
@@ -97,7 +97,7 @@ function SubNav(props) {
               }
             </li>
             :
-            <li><LinkComponent id="summit-schedule" href="/summit-schedule" className="link">Schedule</LinkComponent></li>
+            <li><LinkComponent id="summit-schedule" href="/summit/berlin-2022/summit-schedule" className="link">Schedule</LinkComponent></li>
           }
           <li><LinkComponent id="registration" href="https://www.openstack.org/videos/summits/berlin-2022" className="link registration">Watch Summit Videos</LinkComponent></li>
         </ul>
@@ -136,16 +136,16 @@ function SubNav(props) {
               </LinkComponent>
               {supportDropdown &&
                 <>
-                  <LinkComponent id="summit-faq" href="/summit-faq" onClick={() => shouldCloseMenu("summit-faq")} className="link-dropdown-option" >
+                  <LinkComponent id="summit-faq" href="/summit/berlin-2022/summit-faq" onClick={() => shouldCloseMenu("summit-faq")} className="link-dropdown-option" >
                     FAQs
                   </LinkComponent>
-                  <LinkComponent id="summit-covid" href="/summit-covid" onClick={() => shouldCloseMenu("summit-covid")} className="link-dropdown-option">
+                  <LinkComponent id="summit-covid" href="/summit/berlin-2022/summit-covid" onClick={() => shouldCloseMenu("summit-covid")} className="link-dropdown-option">
                     <span>COVID-19</span>
                   </LinkComponent>
-                  <LinkComponent id="summit-faq-travel" href="/summit-faq#travel" onClick={() => shouldCloseMenu("summit-faq-travel")} className="link-dropdown-option">
+                  <LinkComponent id="summit-faq-travel" href="/summit/berlin-2022/summit-faq#travel" onClick={() => shouldCloseMenu("summit-faq-travel")} className="link-dropdown-option">
                     <span>Travel Support</span>
                   </LinkComponent>
-                  <LinkComponent id="summit-faq-speakers" href="/summit-faq#speakers" onClick={() => shouldCloseMenu("summit-faq-speakers")} className="link-dropdown-option">
+                  <LinkComponent id="summit-faq-speakers" href="/summit/berlin-2022/summit-faq#speakers" onClick={() => shouldCloseMenu("summit-faq-speakers")} className="link-dropdown-option">
                     <span>Speaker Support</span>
                   </LinkComponent>
                 </>
@@ -159,7 +159,7 @@ function SubNav(props) {
                 </LinkComponent>
                 {scheduleDropdown &&
                   <>
-                    <LinkComponent id="summit-schedule" href="/summit-schedule" onClick={() => shouldCloseMenu("summit-schedule")} className="link-dropdown-option" >
+                    <LinkComponent id="summit-schedule" href="/summit/berlin-2022/summit-schedule" onClick={() => shouldCloseMenu("summit-schedule")} className="link-dropdown-option" >
                       Full Schedule
                     </LinkComponent>
                     <LinkComponent id="summit-my-schedule" href="/a/summit-my-schedule" onClick={() => shouldCloseMenu("summit-my-schedule")} className="link-dropdown-option">
@@ -169,7 +169,7 @@ function SubNav(props) {
                 }
               </li>
               :
-              <li><LinkComponent id="summit-schedule" href="/summit-schedule" onClick={() => shouldCloseMenu("summit-schedule")} className="link">Schedule</LinkComponent></li>
+              <li><LinkComponent id="summit-schedule" href="/summit/berlin-2022/summit-schedule" onClick={() => shouldCloseMenu("summit-schedule")} className="link">Schedule</LinkComponent></li>
             }
             <li><LinkComponent id="registration" href="https://www.openstack.org/videos/summits/berlin-2022" className="link registration">Watch Summit Videos</LinkComponent></li>
           </ul>

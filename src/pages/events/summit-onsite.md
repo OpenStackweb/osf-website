@@ -6,7 +6,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: 'OpenInfra Summit Onsite Resources'
   twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/summit-onsite/'
+  url: 'https://openinfra.dev/summit/berlin-2022/summit-onsite/'
 upperTitle: OpenInfra Summit Berlin 2022
 title: Welcome to the Summit!
 subTitle: 

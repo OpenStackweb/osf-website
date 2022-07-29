@@ -6,7 +6,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: 'OpenInfra Summit FAQs'
   twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/summit-faq/'
+  url: 'https://openinfra.dev/summit/berlin-2022/summit-faq/'
 title: FAQs
 subTitle: Frequently Asked Questions
 ---
@@ -36,7 +36,7 @@ The Summit will run for three days, Tuesday - Thursday, June 7-9th.
 
 Keynotes will be held Tuesday and Wednesday (7th and 8th). Marketplace booths, breakout sessions, and The Forum (developer and operator working sessions) will run Tuesday - Thursday. 
 
-The [full schedule can be found here](/summit-schedule). 
+The [full schedule can be found here](/summit/berlin-2022/summit-schedule). 
 
 **What is the price of registration?** <br>
 Early Bird Full Access Pass (deadline March 18th): $599 <br>
@@ -77,7 +77,7 @@ On-site attendees will be required to be fully vaccinated against the COVID-19 v
 There is a mandatory indoor mask mandate for all attendees except while eating and drinking in designated areas or when delivering a conference talk. Indoor eating will be socially distanced and outdoor eating options will be available.
 
 **What on-site safety precautions are being taken to protect attendees from COVID-19?** <br>
-Our attendees’ health and safety remain our top priority as we continue to monitor COVID-19. We will follow all venue, local, and WHO guidelines to make the best and most informed decisions around onsite safety and requirements. Please continue to [monitor this page](https://openinfra.dev/summit-covid/) for up-to-date information on the safety precautions for the OpenInfra Summit Berlin.
+Our attendees’ health and safety remain our top priority as we continue to monitor COVID-19. We will follow all venue, local, and WHO guidelines to make the best and most informed decisions around onsite safety and requirements. Please continue to [monitor this page](https://openinfra.dev/summit/berlin-2022/summit-covid/) for up-to-date information on the safety precautions for the OpenInfra Summit Berlin.
 
 <h4 id="travel">BERLIN TRAVEL</h4>
 

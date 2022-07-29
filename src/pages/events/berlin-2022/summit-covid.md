@@ -6,7 +6,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: 'OpenInfra Summit COVID FAQs'
   twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/summit-covid/'
+  url: 'https://openinfra.dev/summit/berlin-2022/summit-covid/'
 title: Onsite Safety Precautions
 subTitle: OpenInfra Summit Berlin 2022
 ---

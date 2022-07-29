@@ -21,7 +21,7 @@ const FeaturedSpeakers = ({ featured_speakers }) => {
                     )
                 })}
             </div>
-            <LinkComponent className="button-cta" href="/summit-schedule">See All Summit Speakers<img src={leftArrow} alt="" /></LinkComponent>
+            <LinkComponent className="button-cta" href="/summit/berlin-2022/summit-schedule">See All Summit Speakers<img src={leftArrow} alt="" /></LinkComponent>
         </div>
     )
 }

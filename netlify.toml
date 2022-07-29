@@ -20,6 +20,31 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/summit-onsite"
+  to = "/summit/berlin-2022/summit-onsite"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/summit-sponsor"
+  to = "/summit/berlin-2022/summit-sponsor"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/summit-faq"
+  to = "/summit/berlin-2022/summit-faq"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/summit-covid"
+  to = "/summit/berlin-2022/summit-covid"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/summit-schedule"
+  to = "/summit/berlin-2022/summit-schedule"
+  status = 301
+  force = true
+[[redirects]]
   from = "/cloud-typography/fonts.css"
   to = "https://cloud.typography.com/7369076/7111412/css/fonts.css"
   status = 200

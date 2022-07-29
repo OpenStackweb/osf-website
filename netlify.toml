@@ -15,6 +15,11 @@
 [headers.values]
   Cache-Control = "public, max-age=0, must-revalidate"
 [[redirects]]
+  from = "/summit"
+  to = "/summit/vancouver-2023"
+  status = 301
+  force = true
+[[redirects]]
   from = "/cloud-typography/fonts.css"
   to = "https://cloud.typography.com/7369076/7111412/css/fonts.css"
   status = 200
@@ -92,7 +97,7 @@
   from="http://summit.openstack.cn/*"
   to="https://openinfra.dev/summit"
   status=301
-  force=true  
+  force=true
 # Branch Deploy context: all deploys that are not from a pull/merge request or
 # from the Production branch will inherit these settings.
 [context.branch-deploy.environment]

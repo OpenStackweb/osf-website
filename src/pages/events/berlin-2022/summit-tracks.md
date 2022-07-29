@@ -6,7 +6,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: 'OpenInfra Summit Tracks'
   twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/summit-tracks/'
+  url: 'https://openinfra.dev/summit/berlin-2022/summit-tracks/'
 title: Summit Tracks
 subTitle: OpenInfra Summit Berlin 2022
 footer:

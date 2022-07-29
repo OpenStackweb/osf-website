@@ -7,7 +7,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: 'OpenInfra Summit Berlin Schedule'
   twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/summit-schedule'
+  url: 'https://openinfra.dev/summit/berlin-2022/summit-schedule'
 headerTitle: Summit Schedule
 schedKey: schedule-main
 ---

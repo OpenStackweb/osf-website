@@ -40,7 +40,7 @@ export const SummitSponsorPageTemplate = ({
                 <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}>
                 </span>
                 <section className="cta-wrapper">
-                  <LinkComponent className="button-cta" href="/summit-sponsor/#sponsor">View all Sponsors<img src={leftArrow} alt="" /></LinkComponent>
+                  <LinkComponent className="button-cta" href="/summit/berlin-2022/summit-sponsor/#sponsor">View all Sponsors<img src={leftArrow} alt="" /></LinkComponent>
                 </section>
               </div>
               <div className="header-right" style={{ marginBottom: "0px" }}>

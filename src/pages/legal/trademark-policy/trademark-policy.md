@@ -20,7 +20,7 @@ footer:
 
 This Trademark Policy (the "Trademark Policy"), prepared by the OpenStack Foundation (hereinafter referred to as "OpenStack Foundation"), sets out rules for proper use of the mark "OpenStack" (hereinafter referred to as "the OpenStack Word Mark") and the "OpenStack Logo" or "OpenStack Logos" (as defined in Section 6 of the Trademark Policy) when referring to the OpenStack project and code base. The OpenStack Word Mark, the OpenStack Logos and all OpenStack trademarks (hereinafter referred to individually as an "OpenStack Mark" or collectively as "OpenStack Marks") are trademarks of the OpenStack Foundation.
 
-A list of OpenStack Marks may be found by clicking here. The OpenStack Foundation may update this list from time to time and without prior notice, so we recommend that you refer to the OpenStack Trademark List on a regular basis.
+A list of OpenStack Marks may be found by [clicking here](https://www.openstack.org/brand/openstack-logo/). The OpenStack Foundation may update this list from time to time and without prior notice, so we recommend that you refer to the OpenStack Trademark List on a regular basis.
 
 This Trademark Policy applies to all uses of the OpenStack Marks (in word and logo form).
 

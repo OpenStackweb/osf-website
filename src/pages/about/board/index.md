@@ -204,7 +204,7 @@ members:
       charge of the architectural solution for software and HCI in the TStack
       product line, an OpenStack distribution.
     openStack: https://www.openstack.org/community/members/profile/113899/jeanpierre-ren
-  - company: City Network International AB, City Network Hosting AB
+  - company: Cleura
     description: Johan Christenson is a serial entrepreneur whom has successfully
       exited multiple  companies he founded. After receiving a graduate degree
       in Engineering, from Florida Institute of  Technology, his focus turned to
@@ -254,7 +254,7 @@ members:
     picture: /img/board/Me2010.jpg
     title: Gold Director
   - name: Michael Cheng
-    company: Facebook
+    company: Meta
     openStack: https://www.openstack.org/community/members/profile/135942/michael-cheng
     picture: /img/headshot-1-.jpg
     title: Platinum Director
@@ -324,7 +324,7 @@ members:
     twitter: null
   - name: Rico Lin
     picture: /img/ricolin.jpg
-    company: EasyStack
+    company: Vexxhost
     description: >-
       Rico Lin, OpenStack Technical Committee (TC) member, Heat PTL in the past
       cycles, char for Auto-scaling SIG, software engineer, EasyStack.
@@ -344,7 +344,7 @@ members:
     title: Indvidual Director
     openStack: https://www.openstack.org/community/members/profile/33346/rico-lin
     linkedin: https://www.linkedin.com/in/ricolin
-  - company: AT&T
+  - company: Microsoft
     description: >
       Partner Software Engineering Manager – Microsoft. Ryan van Wyk leads
       Microsoft’s Azure for Operators – Network Cloud Engineering Team. Through

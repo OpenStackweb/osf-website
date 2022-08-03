@@ -41,9 +41,7 @@ Once you have the prerequisites needed to run the site, you will need to run the
 These steps are repeated below if you want to copy and paste into your terminal (you will need to adjust the git clone command to match the actual repo on GitHub):
 ```
 $ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
-
 $ cd [REPO_NAME]
-
 $ yarn
 ```
 **Important** - the website will also require a .env file that is not included in the public repository. Reach out to your administrator in order to get this file. The .env file will need to be placed in the root of your project directory.
@@ -61,6 +59,35 @@ If you need to run the site locally with the Netlify CMS attached, you can use t
 ```
 $ netlify dev # or ntl dev
 ```
+
+## Alternative Development Method: Deploy a Copy of the Site to Netlify
+
+You can also build a complete copy of the site on a separate Netlify environment, and pull that code into your local environment. To do this, click the button below to copy the GitHub repository into your own Netlify account:
+
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/OpenStackweb/osf-website&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+
+After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from this repository. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. You will then need to set up Netlify’s Identity service to authorize users to log in to the CMS.
+
+### Access Locally
+
+You will need to pull down a local copy of the Github repository Netlify created for you, with the name you specified in the previous step:
+
+```
+$ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
+$ cd [REPO_NAME]
+$ yarn
+```
+
+You can then run this local environment using either the `yarn develop` command or the `netlify dev` command.
+
+```
+$ yarn develop
+```
+OR
+```
+$ netlify dev # or ntl dev
+```
+
 
 ## List of Commands/Scripts
 

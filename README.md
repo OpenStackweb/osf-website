@@ -82,7 +82,7 @@ Build the static files into the public folder, and turns lambda functions into a
 ```
 $ yarn clean
 ```
-Runs gatsby clean command.
+Runs gatsby clean command. For more info about this command, check the [Gatsby Commands Documentation](https://www.gatsbyjs.com/docs/reference/gatsby-cli/#clean).
 
 ### `develop`
 
@@ -104,7 +104,7 @@ Functions the same as the `develop` command, this runs the clean script and star
 $ yarn format
 ```
 
-Formats code and docs according to our style guidelines using `prettier`
+Formats code and docs according to our style guidelines using `prettier`.
 
 
 ## Merging Changes

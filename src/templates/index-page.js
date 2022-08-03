@@ -12,6 +12,9 @@ import PeopleSection from '../components/PeopleSection'
 import ProjectSection from '../components/ProjectSection'
 import WhyExpandSection from '../components/WhyExpandSection'
 import MainPitchSection from '../components/MainPitchSection'
+
+import { getEnvVariable, HOME_SUBPROJECT_ID } from "../utils/envVariables";
+
 import { connect } from "react-redux";
 
 export const IndexPageTemplate = ({
@@ -41,7 +44,7 @@ export const IndexPageTemplate = ({
 
         <PeopleSection people={people} />
 
-        <CompaniesSection sponsor={sponsor} />
+        <CompaniesSection subProjectId={parseInt(getEnvVariable(HOME_SUBPROJECT_ID))} />
 
       </div>
     </main>

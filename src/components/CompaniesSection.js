@@ -7,36 +7,42 @@ import LinkComponent from './LinkComponent';
 
 import sponsoredProjects from "../content/sponsored-projects.json";
 
-import { getSubProjectBySlug } from '../utils/sponsoredProjects';
+import { getSubProjectById } from '../utils/sponsoredProjects';
 
 const CompaniesSection = class extends React.Component {
 
   render() {
 
-    const subProject = getSubProjectBySlug(sponsoredProjects, 'supporting-companies');    
+    const { subProjectId } = this.props;
 
-    const gold = subProject.sponsorship_types.find(p => p.name.includes('Gold'));
-    const platinum = subProject.sponsorship_types.find(p => p.name.includes('Platinum'));
+    const subProject = getSubProjectById(sponsoredProjects, subProjectId);
+
+    const platinum = subProject.sponsorship_types.sort((a, b) => a.order - b.order)[0];
+
+    const otherTiers = subProject.sponsorship_types.sort((a, b) => a.order - b.order).filter((e, index) => index !== 0);
+
+    const formatSlider = (sponsors) => {
+      let perChunk = 6 // items per chunk          
+      let formattedArray = sponsors.reduce((resultArray, item, index) => {
+        const chunkIndex = Math.floor(index / perChunk)
+
+        if (!resultArray[chunkIndex]) {
+          resultArray[chunkIndex] = [] // start a new chunk
+        }
+
+        resultArray[chunkIndex].push(item)
+
+        if (resultArray.length === 4) {
+          resultArray[2] = [...resultArray[2], ...resultArray[3]]
+          resultArray.pop();
+        }
+
+        return resultArray
+      }, [])
+      return formattedArray;
+    }
 
 
-    let perChunk = 6 // items per chunk    
-    let inputArray = gold.supporting_companies;
-    let goldCompanies = inputArray.reduce((resultArray, item, index) => {
-      const chunkIndex = Math.floor(index / perChunk)
-
-      if (!resultArray[chunkIndex]) {
-        resultArray[chunkIndex] = [] // start a new chunk
-      }
-
-      resultArray[chunkIndex].push(item)
-
-      if (resultArray.length === 4) {
-        resultArray[2] = [...resultArray[2], ...resultArray[3]]
-        resultArray.pop();
-      }
-
-      return resultArray
-    }, [])
 
     function SamplePrevArrow(props) {
       const { style, onClick } = props;
@@ -78,7 +84,7 @@ const CompaniesSection = class extends React.Component {
               <div className="carousel-item active">
                 {platinum.supporting_companies.map(({ company }, index) => {
                   return (
-                    <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} 
+                    <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name}
                       style={{ width: 188, height: 101 }}
                       className="home-s8-container-child-logo" key={index} />
                   )
@@ -87,23 +93,30 @@ const CompaniesSection = class extends React.Component {
               </div>
             </div>
           </div>
-          <h3>{gold.name}</h3>
+          {otherTiers.map(({ name, supporting_companies }, index) => {
+            return (
+              <>
+                <h3>{name}</h3>
 
-          <Slider {...slideSettings}>
-            {goldCompanies.map((list, index) => {
-              return (
-                <div key={index}>
-                  {list.map(({ company }, index) => {                    
+                <Slider {...slideSettings}>
+                  {formatSlider(supporting_companies).sort((a, b) => a.order - b.order).map((list, index) => {
                     return (
-                      <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} 
-                        style={{ marginRight: '1em', width: 140, height: 76 }}
-                        className="home-s8-container-child-logo home-s8-gold-max-width" key={index} />
+                      <div key={index}>
+                        {list.map(({ company }, index) => {
+                          return (
+                            <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name}
+                              style={{ marginRight: '1em', width: 140, height: 76 }}
+                              className="home-s8-container-child-logo home-s8-gold-max-width" key={index} />
+                          )
+                        })}
+                      </div>
                     )
                   })}
-                </div>
-              )
-            })}
-          </Slider>
+                </Slider>
+              </>
+            )
+          })}
+
 
           <LinkComponent href="/members/" className="button button-red">
             <span>View all Member Companies <img src="/img/symbols/arrow-left.svg" alt="left arrow" /></span>

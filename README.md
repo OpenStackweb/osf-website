@@ -40,7 +40,7 @@ Once you have the prerequisites needed to run the site, you will need to run the
 
 These steps are repeated below if you want to copy and paste into your terminal (you will need to adjust the git clone command to match the actual repo on GitHub):
 ```
-$ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
+$ git clone https://github.com/OpenStackweb/osf-website.git
 $ cd [REPO_NAME]
 $ yarn
 ```

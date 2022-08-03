@@ -22,9 +22,9 @@ Here are the prerequisites you will need to download in order to run a local ver
 
 On Windows, you may run into issues with Python 3 as your default command. If you are getting a failure to compile error, check your path by using the following steps:
 
-1. Using **File Explorer**, go to This PC, and right click to select **Properties**
-2. Click on **Advanced System Settings**, and then select System Properties
-3. Click on the **Advanced** tab, and then find the Environment Variables… button
+1. Using **File Explorer**, go to **This PC**, and right click to select **Properties**
+2. Click on **Advanced System Settings**, and then select **System Properties**
+3. Click on the **Advanced** tab, and then find the **Environment Variables…** button
 4. You should see a User Variables list, and then a **System Variables** list - we want to go into the **System Variables** list and find the variable that says **path**
 5. Click **Edit**, and find your download of Python 2.7 - move that to the top of your path, then select **OK**
 

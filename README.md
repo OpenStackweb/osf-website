@@ -13,7 +13,7 @@ Here are the prerequisites you will need to download in order to run a local ver
 1. [Node.js](https://nodejs.org/en/download/) version 8.2.0 or higher
    1. **Important** - the site runs Node version 12.22.0. Running a node verison (using [npx](https://www.npmjs.com/package/npx) to control your node/npm version) close to this will ensure the local site is stable
 2. [Python 2.7](https://www.python.org/download/releases/2.7/)
-   1. **Important** - running Python 3 as your default for the “python” command is not recommended. On a Mac, this shouldn’t be an issue, as Mac OS runs Python 2 by default. However, on Windows you may need to edit your path to ensure Python 2 is the default command. Instructions for doing this will be found below.
+   1. **Important** - running Python 3 as your default for the “python” command is not recommended. On a Mac, this shouldn’t be an issue, as Mac OS runs Python 2 by default. However, on Windows you may need to edit your path to ensure Python 2 is the default command. Instructions for doing this will be found below
 3. Install the [Gatsby CLI](https://www.npmjs.com/package/gatsby-cli). The installation guide is [here](https://www.gatsbyjs.com/docs/tutorial/part-0/#using-the-gatsby-cli)
 4. Install the [Netlify CLI](https://github.com/netlify/cli)
 5. Install [yarn](https://yarnpkg.com/en/docs/install)
@@ -34,9 +34,9 @@ The site follows the JAMstack architecture by using Git as a single source of tr
 
 Once you have the prerequisites needed to run the site, you will need to run the following commands:
 
-1. **git clone** the GitHub repository into the folder of your choice on your local machine. The repo can be found here: https://github.com/OpenStackweb/osf-website
-2. **cd** into the repository once it has been cloned onto your machine
-3. Run the **yarn** command to install dependencies
+1. `git clone` the GitHub repository into the folder of your choice on your local machine. The repo can be found here: https://github.com/OpenStackweb/osf-website
+2. `cd` into the repository once it has been cloned onto your machine
+3. Run the `yarn` command to install dependencies
 
 These steps are repeated below if you want to copy and paste into your terminal (you will need to adjust the git clone command to match the actual repo on GitHub):
 ```

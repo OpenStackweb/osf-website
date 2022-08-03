@@ -10,13 +10,13 @@ The public repository is hosted on GitHub, and can be found here: https://github
 
 Here are the prerequisites you will need to download in order to run a local version of this site:
 
-1. [Node.js](https://nodejs.org/en/download/) version 8.2.0 or higher, which is found here: https://nodejs.org/en/download/
+1. [Node.js](https://nodejs.org/en/download/) version 8.2.0 or higher
    1. **Important** - the site runs Node version 12.22.0. Running a node verison (using [npx](https://www.npmjs.com/package/npx) to control your node/npm version) close to this will ensure the local site is stable
-2. [Python 2.7](https://www.python.org/download/releases/2.7/) can be downloaded here: https://www.python.org/download/releases/2.7/
+2. [Python 2.7](https://www.python.org/download/releases/2.7/)
    1. **Important** - running Python 3 as your default for the “python” command is not recommended. On a Mac, this shouldn’t be an issue, as Mac OS runs Python 2 by default. However, on Windows you may need to edit your path to ensure Python 2 is the default command. Instructions for doing this will be found below.
-3. Install the [Gatsby CLI](https://www.npmjs.com/package/gatsby-cli): https://www.npmjs.com/package/gatsby-cli
-4. Install the [Netlify CLI](https://github.com/netlify/cli), which can be found on their GitHub: https://github.com/netlify/cli
-5. Install [yarn](https://yarnpkg.com/en/docs/install) here: https://yarnpkg.com/en/docs/install
+3. Install the [Gatsby CLI](https://www.npmjs.com/package/gatsby-cli). The installation guide is [here](https://www.gatsbyjs.com/docs/tutorial/part-0/#using-the-gatsby-cli)
+4. Install the [Netlify CLI](https://github.com/netlify/cli)
+5. Install [yarn](https://yarnpkg.com/en/docs/install)
 
 ### Windows Troubleshooting
 
@@ -38,7 +38,7 @@ Once you have the prerequisites needed to run the site, you will need to run the
 2. **cd** into the repository once it has been cloned onto your machine
 3. Run the **yarn** command to install dependencies
 
-These steps are repeated below if you want to copy and paste into your terminal (you will need to adjust the git clone command to match the actual repo on GitHub)
+These steps are repeated below if you want to copy and paste into your terminal (you will need to adjust the git clone command to match the actual repo on GitHub):
 ```
 $ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
 
@@ -52,53 +52,60 @@ $ yarn
 
 Once you have the dependencies installed and the .env file at the root of your project directory, you are ready to run the website.
 
-You can use several commands in order to run the site. The first command is yarn develop, and this will compile and format the code, and will run the site locally without the Netlify CMS portion:
+You can use several commands in order to run the site. The first command is **yarn develop**, and this will compile and format the code, and will run the site locally without the Netlify CMS portion:
 ```
 $ yarn develop
 ```
 
-If you need to run the site locally with the Netlify CMS attached, you can use the netlify dev command, or ntl dev shorthand:
+If you need to run the site locally with the Netlify CMS attached, you can use the **netlify dev** command, or ntl dev shorthand:
 ```
 $ netlify dev # or ntl dev
 ```
 
 ## List of Commands/Scripts
+
+### `netlify dev`
 ```
 $ netlify dev # or ntl dev
 ```
-This uses Netlify Dev CLI feature to serve any functions you have in the lambda folder.
+This uses Netlify Dev CLI feature to serve any functions you have in the lambda folder, includes the gatsby dev environment. For more info check the [Netlify Dev Docs](https://github.com/netlify/cli/blob/master/docs/netlify-dev.md).
 
+### `build`
 
 ```
 $ yarn build
 ```
 Build the static files into the public folder, and turns lambda functions into a deployable form.
 
+### `clean`
 
 ```
 $ yarn clean
 ```
 Runs gatsby clean command.
 
-
-```
-$ netlify dev
-```
-Starts the netlify dev environment, including the gatsby dev environment. For more info check the Netlify Dev Docs
-
+### `develop`
 
 ```
 $ yarn develop
 ```
-Runs the clean script and starts the gatsby develop server using the command gatsby develop. We recomend using this command when you don't need Netlify specific features
+Runs the clean script and starts the gatsby develop server using the command gatsby develop. We recomend using this command when you don't need Netlify specific features.
 
+### `start`
+
+```
+$ yarn start
+```
+Functions the same as the `develop` command, this runs the clean script and starts the gatsby develop server using the command gatsby develop.
+
+### `format`
 
 ```
 $ yarn format
 ```
-Pull Requests
 
-To request changes, submit an issue or submit a pull request
+Formats code and docs according to our style guidelines using `prettier`
+
 
 ## Merging Changes
 

@@ -1,4 +1,4 @@
-# OpenStack Software Foundation Website
+# OpenInfra Foundation Website
 
 ## Overview
 
@@ -140,4 +140,9 @@ If you have changes you’d like to make to the production website, check out a 
 
 Once you are ready to merge your changes into production, push up your local branch, and create a pull request on GitHub. This will run your new code in a preview environment, and the system will also test your code to make sure it will run on the production environment.
 
-Once this has been completed successfully, and you have checked out the relevant preview link, you can merge your changes into production.
+After the new branch has been successfully tested, a preview link with the updates will become available. You can use this link to review the pull request to make sure your changes are running correctly. 
+
+After reviewing your own changes, you will need to either use GitHub's review feature or the OpenInfra Foundation's Slack channel to request a review of your changes and to ensure everything still functions as intended.
+
+Once this review stage has been completed, you can merge your changes into production.
+

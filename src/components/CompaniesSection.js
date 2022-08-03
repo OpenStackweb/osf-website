@@ -5,14 +5,25 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import LinkComponent from './LinkComponent';
 
+import sponsoredProjects from "../content/sponsored-projects.json";
+
+import { getSubProjectBySlug } from '../utils/sponsoredProjects';
+
 const CompaniesSection = class extends React.Component {
+
 
   render() {
 
-    const { sponsor: { title, platinum, gold } } = this.props;
+    const subProject = getSubProjectBySlug(sponsoredProjects, 'supporting-companies');
+    console.log('subProject', subProject);
+
+    const gold = subProject.sponsorship_types.find(p => p.name.includes('Gold'));
+    const platinum = subProject.sponsorship_types.find(p => p.name.includes('Platinum'));
+
+    console.log(gold, platinum);
 
     let perChunk = 6 // items per chunk    
-    let inputArray = gold.companyList;
+    let inputArray = gold.supporting_companies;
     let goldCompanies = inputArray.reduce((resultArray, item, index) => {
       const chunkIndex = Math.floor(index / perChunk)
 
@@ -63,43 +74,35 @@ const CompaniesSection = class extends React.Component {
     return (
       <section className="home-s8-main">
         <div className="container">
-          <h2 className="fix-h3">{title}</h2>
-          <h3>{platinum.title}</h3>
+          <h2 className="fix-h3" dangerouslySetInnerHTML={{ __html: subProject.description }} />
+          <h3>{platinum.name}</h3>
           <div id="platinum-carousel" data-ride="carousel" data-interval="0" className="carousel slide">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                {platinum.companyList.map((company, index) => {
-                  if (company.image) {
-                    return (
-                      <img src={
-                        (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
-                          company.image.publicURL
-                          :
-                          !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                      } alt={company.alt} className="home-s8-container-child-logo" key={index} />
-                    )
-                  }
-                })}
+                {platinum.supporting_companies.map(({ company }, index) => {
+                  return (
+                    <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} 
+                      style={{ width: 188, height: 101 }}
+                      className="home-s8-container-child-logo" key={index} />
+                  )
+                }
+                )}
               </div>
             </div>
           </div>
-          <h3>{gold.title}</h3>
+          <h3>{gold.name}</h3>
 
           <Slider {...slideSettings}>
             {goldCompanies.map((list, index) => {
+              console.log('list', list);
               return (
                 <div key={index}>
-                  {list.map((company, index) => {
-                    if (company.image) {
-                      return (
-                        <img src={
-                          (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
-                            company.image.publicURL
-                            :
-                            !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                        } alt={company.alt} style={{ marginRight: '1em' }} className="home-s8-container-child-logo home-s8-gold-max-width" key={index} />
-                      )
-                    }
+                  {list.map(({ company }, index) => {                    
+                    return (
+                      <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} 
+                        style={{ marginRight: '1em', width: 140, height: 76 }}
+                        className="home-s8-container-child-logo home-s8-gold-max-width" key={index} />
+                    )                    
                   })}
                 </div>
               )

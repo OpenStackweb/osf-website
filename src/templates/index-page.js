@@ -192,39 +192,6 @@ export const pageQuery = graphql`
             text
           }
         }
-        sponsor {
-          title
-          platinum {
-            title
-            companyList {
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 640, quality: 64) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-                publicURL
-                extension
-              }
-              alt
-            }
-          }
-          gold {
-            title
-            companyList {
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 640, quality: 64) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-                publicURL
-                extension
-              }
-              alt
-            }
-          }
-        }
       }
     }
   }

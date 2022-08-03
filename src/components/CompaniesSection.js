@@ -11,16 +11,13 @@ import { getSubProjectBySlug } from '../utils/sponsoredProjects';
 
 const CompaniesSection = class extends React.Component {
 
-
   render() {
 
-    const subProject = getSubProjectBySlug(sponsoredProjects, 'supporting-companies');
-    console.log('subProject', subProject);
+    const subProject = getSubProjectBySlug(sponsoredProjects, 'supporting-companies');    
 
     const gold = subProject.sponsorship_types.find(p => p.name.includes('Gold'));
     const platinum = subProject.sponsorship_types.find(p => p.name.includes('Platinum'));
 
-    console.log(gold, platinum);
 
     let perChunk = 6 // items per chunk    
     let inputArray = gold.supporting_companies;
@@ -94,7 +91,6 @@ const CompaniesSection = class extends React.Component {
 
           <Slider {...slideSettings}>
             {goldCompanies.map((list, index) => {
-              console.log('list', list);
               return (
                 <div key={index}>
                   {list.map(({ company }, index) => {                    
@@ -102,7 +98,7 @@ const CompaniesSection = class extends React.Component {
                       <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} 
                         style={{ marginRight: '1em', width: 140, height: 76 }}
                         className="home-s8-container-child-logo home-s8-gold-max-width" key={index} />
-                    )                    
+                    )
                   })}
                 </div>
               )

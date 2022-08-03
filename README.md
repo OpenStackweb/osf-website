@@ -144,5 +144,5 @@ After the new branch has been successfully tested, a preview link with the updat
 
 After reviewing your own changes, you will need to either use GitHub's review feature or the OpenInfra Foundation's Slack channel to request a review of your changes and to ensure everything still functions as intended.
 
-Once this review stage has been completed, you can merge your changes into production.
+Once this review stage has been completed, your changes can be merged into production.
 

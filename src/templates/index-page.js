@@ -24,7 +24,6 @@ export const IndexPageTemplate = ({
   whyExpand,
   projects,
   people,
-  sponsor,
 }) => (
   <div>
     <div className="wrapper hero-background">
@@ -57,7 +56,6 @@ IndexPageTemplate.propTypes = {
   whyExpand: PropTypes.object,
   projects: PropTypes.object,
   people: PropTypes.object,
-  sponsor: PropTypes.object,
 }
 
 const IndexPage = ({ isLoggedUser, data }) => {
@@ -73,7 +71,6 @@ const IndexPage = ({ isLoggedUser, data }) => {
         whyExpand={frontmatter.whyExpand}
         projects={frontmatter.projects}
         people={frontmatter.people}
-        sponsor={frontmatter.sponsor}
       />
     </Layout>
   )

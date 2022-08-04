@@ -227,24 +227,7 @@ collections:
               { label: picture, name: picture, widget: string },
               { label: Opinion, name: text, widget: text }
             ] }
-          ] }
-          - { label: Companies Section, name: sponsor, widget: object, fields: [
-            { label: Title, name: title, widget: string },
-            { label: Platinum Members, name: platinum, widget: object, fields: [
-              { label: Title, name: title, widget: string },
-              { label: Company List, name: companyList, widget: list, fields: [
-                { label: Image, name: image, widget: image },
-                { label: Name, name: alt, widget: string }
-              ] },
-            ] },
-            { label: Gold Members, name: gold, widget: object, fields: [
-              { label: Title, name: title, widget: string },
-              { label: Company List, name: companyList, widget: list, fields: [
-                { label: Image, name: image, widget: image },
-                { label: Name, name: alt, widget: string }
-              ] },
-            ] }
-          ] }
+          ] }          
   - name: "generic-about-pages"
     label: "About Pages"
     folder: "src/pages/about/"
@@ -556,20 +539,7 @@ collections:
               { label: "Position", name: position, widget: string },
               { label: "Company", name: "company", widget: image },
             ] }
-          ] }
-          - { label: "Company Tiers", name: companyTier, widget: object, fields: [
-            { label: "Display", name: display, widget: boolean, required: false },
-            { label: "Title", name: title, widget: string },
-            { label: "Sub Title", name: subTitle, widget: string },
-            { label: "Tiers", name: tiers, widget: list, fields: [
-              { label: "Title", name: title, widget: string },
-              { label: "Mobile Title", name: mobileTitle, widget: string },
-              { label: "Companies", name: companies, widget: list, fields: [
-                { label: "Logo", name: logo, widget: image },
-                { label: "Image Alt", name: alt, widget: string, required: false },
-              ] }
-            ] }
-          ] }
+          ] }          
           - { label: "Help", name: help, widget: object, fields: [
             { label: "Display", name: display, widget: boolean, required: false },
             { label: "Title", name: title, widget: string },

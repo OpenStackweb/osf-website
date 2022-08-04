@@ -12,7 +12,6 @@ const MembersPagePreview = ({ entry, getAsset }) => {
                 whyJoin={data.whyJoin || {}}
                 memberBenefits={data.memberBenefits || {}}
                 quote={data.quote || {}}
-                companyTier={data.companyTier || {}}
                 help={data.help || {}}                
                 content={data.content || {}}
             />

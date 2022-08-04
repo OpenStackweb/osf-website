@@ -13,7 +13,6 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         whyExpand={data.whyExpand || {}}
         projects={data.projects || {}}
         people={data.people || {}}
-        sponsor={data.sponsor || {}}
         content={data.content || {}}
       />
     )

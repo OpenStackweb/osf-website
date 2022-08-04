@@ -82,7 +82,7 @@ const CompaniesSection = class extends React.Component {
           <div id="platinum-carousel" data-ride="carousel" data-interval="0" className="carousel slide">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                {platinum.supporting_companies.map(({ company }, index) => {
+                {platinum.supporting_companies.sort((a, b) => a.order - b.order).map(({ company }, index) => {
                   return (
                     <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name}
                       style={{ width: 188, height: 101 }}

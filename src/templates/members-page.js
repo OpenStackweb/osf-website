@@ -261,13 +261,13 @@ export const MembersPageTemplate = ({
                     <span dangerouslySetInnerHTML={{ __html: subProject.description }} />
                     <hr />
 
-                    {subProject.sponsorship_types.map((t, tierIndex) => {
+                    {subProject.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
                         return (
                             <div className="company-tier" key={`company-tier-${tierIndex}`}>
                                 <span className="company-tier-title">{t.name}</span>
                                 {tierIndex !== 2 && <span className="company-tier-title-mobile">{t.name}</span>}
                                 <div className={`company-tier-logos ${t.name.replace(/ .*/, '').toLowerCase()}`}>
-                                    {t.supporting_companies.map(({company}, index) => {
+                                    {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
                                         return (
                                             <img key={`company-tier-${tierIndex}-${index}`}
                                                 src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />

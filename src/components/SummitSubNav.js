@@ -57,42 +57,46 @@ function SubNav(props) {
           <li><LinkComponent id="summit-onsite" href="/summit/berlin-2022/summit-onsite" className="link">Onsite Info</LinkComponent></li>
           <li><LinkComponent id="summit-sponsor" href="/summit/berlin-2022/summit-sponsor" className="link">Sponsors</LinkComponent></li>
 
-          <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
+          <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }} className="dropdown-items-link">
             <LinkComponent id="summit-faq" href="/summit-faq" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
               Support
               <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
             </LinkComponent>
             {supportDropdown &&
-              <div className='dropdown-options'>
-                <LinkComponent id="summit-faq" href="/summit/berlin-2022/summit-faq" className="link dropdown">
-                  FAQs
-                </LinkComponent>
-                <LinkComponent id="summit-covid" href="/summit/berlin-2022/summit-covid" className="link dropdown">
-                  <span>COVID-19</span>
-                </LinkComponent>
-                <LinkComponent id="summit-faq-travel" href="/summit/berlin-2022/summit-faq#travel" className="link dropdown">
-                  <span>Travel Support</span>
-                </LinkComponent>
-                <LinkComponent id="summit-faq-speaker" href="/summit/berlin-2022/summit-faq#speakers" className="link dropdown">
-                  <span>Speaker Support</span>
-                </LinkComponent>
+              <div className="dropdown-items-container">
+                <div className='dropdown-items-inner'>
+                  <LinkComponent id="summit-faq" href="/summit/berlin-2022/summit-faq" className="link dropdown">
+                    FAQs
+                  </LinkComponent>
+                  <LinkComponent id="summit-covid" href="/summit/berlin-2022/summit-covid" className="link dropdown">
+                    <span>COVID-19</span>
+                  </LinkComponent>
+                  <LinkComponent id="summit-faq-travel" href="/summit/berlin-2022/summit-faq#travel" className="link dropdown">
+                    <span>Travel Support</span>
+                  </LinkComponent>
+                  <LinkComponent id="summit-faq-speaker" href="/summit/berlin-2022/summit-faq#speakers" className="link dropdown">
+                    <span>Speaker Support</span>
+                  </LinkComponent>
+                </div>
               </div>
             }
           </li>
           {props.isLoggedUser ?
-            <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
+            <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }} className="dropdown-items-link">
               <LinkComponent id="summit-schedule" href="/summit-schedule" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
                 Schedule
                 <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
               </LinkComponent>
               {scheduleDropdown &&
-                <div className='dropdown-options'>
-                  <LinkComponent id="summit-schedule" href="/summit/berlin-2022/summit-schedule" className="link dropdown">
-                    Full Schedule
-                  </LinkComponent>
-                  <LinkComponent id="summit-my-schedule" href="/a/summit-my-schedule" className="link dropdown">
-                    <span>My Schedule</span>
-                  </LinkComponent>
+                <div className="dropdown-items-container">
+                  <div className='dropdown-items-inner'>
+                    <LinkComponent id="summit-schedule" href="/summit/berlin-2022/summit-schedule" className="link dropdown">
+                      Full Schedule
+                    </LinkComponent>
+                    <LinkComponent id="summit-my-schedule" href="/a/summit-my-schedule" className="link dropdown">
+                      <span>My Schedule</span>
+                    </LinkComponent>
+                  </div>
                 </div>
               }
             </li>

@@ -36,22 +36,24 @@ function PTGSubNav(props) {
         <ul id="links-list" className="links-list">
           <li><LinkComponent id="ptg" href="/ptg" onClick={() => shouldCloseMenu("ptg")} className="link">About</LinkComponent></li>
           <li><a id="ptg-sponsor" href="https://openinfra.dev/files/PTG-Columbus2022-Prospectus-062722.pdf" onClick={() => shouldCloseMenu("ptg-sponsor")} className="link">Sponsor Info</a></li>
-          <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
+          <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }} className="dropdown-items-link">
             <LinkComponent id="ptg-faq" href="/ptg/faq" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
               Support
               <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
             </LinkComponent>
             {supportDropdown &&
-              <div className='dropdown-options'>
-                <LinkComponent id="ptg-faq" href="/ptg/faq" className="link dropdown">
-                  FAQ
-                </LinkComponent>
-                <LinkComponent id="ptg-faq" href="/ptg/safety" className="link dropdown">
-                  <span>Health & Safety</span>
-                </LinkComponent>
-                <LinkComponent id="ptg-visa-form" href="https://openinfrafoundation.formstack.com/forms/visa_columbus2022" className="link dropdown">
-                  <span>Visa Letter Request</span>
-                </LinkComponent>
+              <div className='dropdown-items-container'>
+                <div className='dropdown-items-inner'>
+                  <LinkComponent id="ptg-faq" href="/ptg/faq" className="link dropdown">
+                    FAQ
+                  </LinkComponent>
+                  <LinkComponent id="ptg-faq" href="/ptg/safety" className="link dropdown">
+                    <span>Health & Safety</span>
+                  </LinkComponent>
+                  <LinkComponent id="ptg-visa-form" href="https://openinfrafoundation.formstack.com/forms/visa_columbus2022" className="link dropdown">
+                    <span>Visa Letter Request</span>
+                  </LinkComponent>
+                </div>
               </div>
             }
           </li>

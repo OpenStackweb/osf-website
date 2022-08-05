@@ -43,7 +43,7 @@ export const PTGPageTemplate = ({
                 </span>
                 <span className="description">
                     {header.description}
-                    <br /> <br />Learn about our <a className="ptg-description-link" href="/ptg/safety/">COVID safety measures</a>.
+                    <br /> <br />More information coming soon.
                 </span>
                 <span className="date">
                   <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
@@ -55,7 +55,7 @@ export const PTGPageTemplate = ({
                   <img src={(header.location.icon.extension === 'svg' || header.location.icon.extension === 'gif') && !header.location.icon.childImageSharp ?
                     header.location.icon.publicURL
                     :
-                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> <a href="https://www.hyatt.com/en-US/group-booking/CMHRC/G-L0RT">{header.location.text} <span>(book now)</span></a>
+                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> Virtual
                 </span>
                 <div className="buttons">
                     {header.buttons.map((button, index) => {

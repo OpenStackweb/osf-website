@@ -1,7 +1,7 @@
 ---
 templateKey: ptg-page
 seo:
-  description: "Where contributors gather to get work done in person within OpenInfra Foundation-supported open source projects."
+  description: "Where contributors gather to get work done virtually within OpenInfra Foundation-supported open source projects."
   image: /img/OpenInfra-icon-white.jpg
   title: Project Teams Gathering (PTG)
   twitterUsername: "@OpenInfraDev"
@@ -9,7 +9,7 @@ seo:
 header:
   display: true
   title: Project Teams Gathering
-  upperTitle: IN-PERSON EVENT
+  upperTitle: VIRTUAL EVENT
   description: >
     The Project Teams Gathering (PTG) provides meeting facilities allowing the various technical community groups working on open infrastructure projects to meet in-person, exchange and get work done in a productive, low-key setting. It lets those various groups discuss their priorities for the upcoming months, assign work items, iterate quickly on solutions for complex problems, and make fast progress on critical issues. The co-location of those various meetings, combined with the dynamic scheduling of the event, make it easy to get specific people in the same room to discuss a specific topic, or participate in multiple team meetings.
   date:
@@ -21,8 +21,6 @@ header:
   buttons:
     - text: Register Now
       link: https://openinfra-ptg.eventbrite.com
-    - text: Become a Sponsor
-      link: https://openinfra.dev/files/PTG-Columbus2022-Prospectus-062722.pdf
   image: /img/ptg-page/hero-image.png
 form:
   display: true
@@ -42,7 +40,7 @@ footer:
 
 ### How can this benefit my organization?
 
-Our community is global. This creates challenges that cannot easily be solved using asynchronous, low-bandwidth communication tools. Getting technical community members to meet in-person regularly is essential to build the amount of shared understandings and trust that is necessary to successfully cooperate. Participants to the event are therefore a lot more productive and efficient the rest of the year.
+Our community is global. This creates challenges that cannot easily be solved using asynchronous, low-bandwidth communication tools. Getting technical community members to meet regularly is essential to build the amount of shared understandings and trust that is necessary to successfully cooperate. Participants to the event are therefore a lot more productive and efficient the rest of the year.
 
 PTGs are organized in cost-effective transportation hubs in order to minimize travel expense. At the same time, we aim to maximize the ability of contributors to work through their workgroup objectives in an environment that is focused towards work and productivity.
 

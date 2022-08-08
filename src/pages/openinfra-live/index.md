@@ -15,6 +15,15 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2022-08-25T14:00:00.000Z
+    episodeTitle: Making VDI a first-class citizen in the OpenStack world
+    episodeDescription: "Learn the importance of having a Virtual Desktop
+      Infrastructure (VDI) with OpenStack. Get to know the VDI use cases.
+      Discover which relevant features are already integrated and which are
+      still missing. You’ll also have the opportunity to meet Bumblebee and
+      enjoy the cute flying insect during a live demo! "
+    episodeSpeakers: Manuel Bentele, Andy Botting, Radosław Piliszek
+  - hidden: false
     date: 2022-07-21T14:00:00.000Z
     episodeTitle: "OpenInfra Live Ep. 43: 12 Years of OpenStack"
     episodeDescription: "25 releases, 25 million cores, and 12 years later, the

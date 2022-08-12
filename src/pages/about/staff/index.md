@@ -123,18 +123,6 @@ members:
     openStack: https://www.openstack.org/community/members/profile/1092
     picture: /img/about-staff/ClarkBoylan.jpg
     title: Senior Principal Engineer
-  - description: Sunny works for the Open Infrastructure Foundation as a Marketing
-      Associate, after working as a Marketing  intern for a year after
-      graudating from the University of Washington in Seattle with a
-      Bachelor's  degree in Economics and Sociology. During her college career,
-      she served as a student President for  FIUTS to provide strategic
-      leadership and produce events for the international students in
-      the  University of Washington. Outside of work, she loves weight lifting,
-      boxing, dancing, traveling  and almost every outdoor activity.
-    name: Sunny Cai
-    openStack: https://www.openstack.org/community/members/profile/101709
-    picture: /img/about-staff/SunnyCai.jpg
-    title: Marketing Coordinator
   - description: Erin Disney works as a Marketing Manager for the Open
       Infrastructure Foundation. Prior to joining, Erin ran  events for W2O
       Group including CES, JPMorgan Healthcare, SXSW, and Social Media Week

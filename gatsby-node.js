@@ -100,6 +100,7 @@ const SSR_getSponsoredProjects = async (baseUrl) => {
       params: {        
         per_page: 100,
         page: 1,
+        expand: 'subprojects,subprojects.sponsorship_types,subprojects.sponsorship_types.supporting_companies,subprojects.sponsorship_types.supporting_companies.company'
       }
     }).then((response) => response.data.data)
     .catch(e => console.log('ERROR: ', e));

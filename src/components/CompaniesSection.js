@@ -5,30 +5,44 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import LinkComponent from './LinkComponent';
 
+import sponsoredProjects from "../content/sponsored-projects.json";
+
+import { getSubProjectById } from '../utils/sponsoredProjects';
+
 const CompaniesSection = class extends React.Component {
 
   render() {
 
-    const { sponsor: { title, platinum, gold } } = this.props;
+    const { subProjectId } = this.props;
 
-    let perChunk = 6 // items per chunk    
-    let inputArray = gold.companyList;
-    let goldCompanies = inputArray.reduce((resultArray, item, index) => {
-      const chunkIndex = Math.floor(index / perChunk)
+    const subProject = getSubProjectById(sponsoredProjects, subProjectId);
 
-      if (!resultArray[chunkIndex]) {
-        resultArray[chunkIndex] = [] // start a new chunk
-      }
+    const platinum = subProject.sponsorship_types.sort((a, b) => a.order - b.order)[0];
 
-      resultArray[chunkIndex].push(item)
+    const otherTiers = subProject.sponsorship_types.sort((a, b) => a.order - b.order).filter((e, index) => index !== 0);
 
-      if (resultArray.length === 4) {
-        resultArray[2] = [...resultArray[2], ...resultArray[3]]
-        resultArray.pop();
-      }
+    const formatSlider = (sponsors) => {
+      let perChunk = 6 // items per chunk          
+      let formattedArray = sponsors.reduce((resultArray, item, index) => {
+        const chunkIndex = Math.floor(index / perChunk)
 
-      return resultArray
-    }, [])
+        if (!resultArray[chunkIndex]) {
+          resultArray[chunkIndex] = [] // start a new chunk
+        }
+
+        resultArray[chunkIndex].push(item)
+
+        if (resultArray.length === 4) {
+          resultArray[2] = [...resultArray[2], ...resultArray[3]]
+          resultArray.pop();
+        }
+
+        return resultArray
+      }, [])
+      return formattedArray;
+    }
+
+
 
     function SamplePrevArrow(props) {
       const { style, onClick } = props;
@@ -63,48 +77,46 @@ const CompaniesSection = class extends React.Component {
     return (
       <section className="home-s8-main">
         <div className="container">
-          <h2 className="fix-h3">{title}</h2>
-          <h3>{platinum.title}</h3>
+          <h2 className="fix-h3" dangerouslySetInnerHTML={{ __html: subProject.description }} />
+          <h3>{platinum.name}</h3>
           <div id="platinum-carousel" data-ride="carousel" data-interval="0" className="carousel slide">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                {platinum.companyList.map((company, index) => {
-                  if (company.image) {
-                    return (
-                      <img src={
-                        (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
-                          company.image.publicURL
-                          :
-                          !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                      } alt={company.alt} className="home-s8-container-child-logo" key={index} />
-                    )
-                  }
-                })}
+                {platinum.supporting_companies.sort((a, b) => a.order - b.order).map(({ company }, index) => {
+                  return (
+                    <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name}
+                      style={{ width: 188, height: 101 }}
+                      className="home-s8-container-child-logo" key={index} />
+                  )
+                }
+                )}
               </div>
             </div>
           </div>
-          <h3>{gold.title}</h3>
+          {otherTiers.map(({ name, supporting_companies }, index) => {
+            return (
+              <>
+                <h3>{name}</h3>
 
-          <Slider {...slideSettings}>
-            {goldCompanies.map((list, index) => {
-              return (
-                <div key={index}>
-                  {list.map((company, index) => {
-                    if (company.image) {
-                      return (
-                        <img src={
-                          (company.image.extension === 'svg' || company.image.extension === 'gif') && !company.image.childImageSharp ?
-                            company.image.publicURL
-                            :
-                            !!company.image.childImageSharp ? company.image.childImageSharp.fluid.src : company.image
-                        } alt={company.alt} style={{ marginRight: '1em' }} className="home-s8-container-child-logo home-s8-gold-max-width" key={index} />
-                      )
-                    }
+                <Slider {...slideSettings}>
+                  {formatSlider(supporting_companies).sort((a, b) => a.order - b.order).map((list, index) => {
+                    return (
+                      <div key={index}>
+                        {list.map(({ company }, index) => {
+                          return (
+                            <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name}
+                              style={{ marginRight: '1em', width: 140, height: 76 }}
+                              className="home-s8-container-child-logo home-s8-gold-max-width" key={index} />
+                          )
+                        })}
+                      </div>
+                    )
                   })}
-                </div>
-              )
-            })}
-          </Slider>
+                </Slider>
+              </>
+            )
+          })}
+
 
           <LinkComponent href="/members/" className="button button-red">
             <span>View all Member Companies <img src="/img/symbols/arrow-left.svg" alt="left arrow" /></span>

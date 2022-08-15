@@ -12,6 +12,9 @@ import PeopleSection from '../components/PeopleSection'
 import ProjectSection from '../components/ProjectSection'
 import WhyExpandSection from '../components/WhyExpandSection'
 import MainPitchSection from '../components/MainPitchSection'
+
+import { getEnvVariable, HOME_SUBPROJECT_ID } from "../utils/envVariables";
+
 import { connect } from "react-redux";
 
 export const IndexPageTemplate = ({
@@ -21,7 +24,6 @@ export const IndexPageTemplate = ({
   whyExpand,
   projects,
   people,
-  sponsor,
 }) => (
   <div>
     <div className="wrapper hero-background">
@@ -41,7 +43,7 @@ export const IndexPageTemplate = ({
 
         <PeopleSection people={people} />
 
-        <CompaniesSection sponsor={sponsor} />
+        <CompaniesSection subProjectId={parseInt(getEnvVariable(HOME_SUBPROJECT_ID))} />
 
       </div>
     </main>
@@ -54,7 +56,6 @@ IndexPageTemplate.propTypes = {
   whyExpand: PropTypes.object,
   projects: PropTypes.object,
   people: PropTypes.object,
-  sponsor: PropTypes.object,
 }
 
 const IndexPage = ({ isLoggedUser, data }) => {
@@ -70,7 +71,6 @@ const IndexPage = ({ isLoggedUser, data }) => {
         whyExpand={frontmatter.whyExpand}
         projects={frontmatter.projects}
         people={frontmatter.people}
-        sponsor={frontmatter.sponsor}
       />
     </Layout>
   )
@@ -190,39 +190,6 @@ export const pageQuery = graphql`
             user
             picture
             text
-          }
-        }
-        sponsor {
-          title
-          platinum {
-            title
-            companyList {
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 640, quality: 64) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-                publicURL
-                extension
-              }
-              alt
-            }
-          }
-          gold {
-            title
-            companyList {
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 640, quality: 64) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-                publicURL
-                extension
-              }
-              alt
-            }
           }
         }
       }

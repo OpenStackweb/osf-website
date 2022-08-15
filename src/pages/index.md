@@ -178,5 +178,5 @@ sponsor:
       - alt: Wind River
         image: //img/companies/_New/Platinum/WNDRVR.png
     title: Platinum Members
-  title: Companies supporting the Open Infrastructure Foundation
+  title: Companies supporting the OpenInfra Foundation
 ---

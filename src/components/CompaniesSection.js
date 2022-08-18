@@ -34,8 +34,8 @@ const CompaniesSection = class extends React.Component {
       const { style, onClick } = props;
       return (
         <a role="button" data-slide="prev" className="carousel-control-prev" style={{ ...style, display: 'flex' }} onClick={onClick}>
-          <span aria-hidden="true" className="carousel-control-prev-icon"></span>
           <img src="/img/symbols/logo-arrow-left.svg" alt="Previous" className="home-s8-container-child" />
+          <span aria-hidden="true" className="carousel-control-prev-icon"></span>
         </a>
       );
     }
@@ -85,10 +85,10 @@ const CompaniesSection = class extends React.Component {
           </div>
           <h3>{gold.title}</h3>
 
-          <Slider {...slideSettings}>
+          <Slider {...slideSettings} className="home-slider">
             {goldCompanies.map((list, index) => {
               return (
-                <div key={index}>
+                <div className="home-slider-inner" key={index}>
                   {list.map((company, index) => {
                     if (company.image) {
                       return (

@@ -56,6 +56,19 @@
       }
     }
   }
+  .footer-bug-container {
+    @media screen and (max-width: 1023px) {
+      flex-basis: 100%;
+    }
+  }
+
+  .footer-container {
+    .footer-container-child {
+      @media screen and (max-width: 1023px) {
+        margin-right: 0;
+      }
+    }
+  }
 
   .footer-bug {
     margin-top: 4rem;

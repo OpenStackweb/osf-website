@@ -31,7 +31,7 @@ const Footer = class extends React.Component {
                   </div>
                 )
               })}
-              <div>
+              <div className="footer-bug-container">
                   <p className="footer-bug">
                     Find an issue with anything on this site? <a href="mailto:info@openinfra.dev" className="footer-list">Report a bug</a>
                 </p>

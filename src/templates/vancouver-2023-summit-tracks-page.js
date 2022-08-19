@@ -8,11 +8,11 @@ import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
-import SubNav from '../components/SummitSubNav'
+import SubNavYvr from '../components/SummitSubNavYvr'
 
 import { connect } from "react-redux";
 
-export const SummitFAQPageTemplate = ({
+export const SummitTracksPageTemplate = ({
   isLoggedUser,
   title,
   subTitle,
@@ -27,7 +27,7 @@ export const SummitFAQPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav active="summit-faq" pageName="FAQs" isLoggedUser={isLoggedUser}/>
+        <SubNavYvr active="summit" pageName="Tracks" isLoggedUser={isLoggedUser}/>
         <Header title={title} subTitle={subTitle} />
       </div>
 
@@ -51,20 +51,20 @@ export const SummitFAQPageTemplate = ({
   )
 }
 
-SummitFAQPageTemplate.propTypes = {
+SummitTracksPageTemplate.propTypes = {
   companies: PropTypes.object,
   title: PropTypes.string,
   subTitle: PropTypes.string,
   footer: PropTypes.object,
 }
 
-const SummitFAQPage = ({ isLoggedUser, data }) => {
+const SummitTracksPage = ({ isLoggedUser, data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
-      <SummitFAQPageTemplate
+      <SummitTracksPageTemplate
         isLoggedUser={isLoggedUser}
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -76,16 +76,16 @@ const SummitFAQPage = ({ isLoggedUser, data }) => {
   )
 }
 
-SummitFAQPage.propTypes = {
+SummitTracksPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
 export default connect(state => ({
   isLoggedUser: state.loggedUserState.isLoggedUser
-}), null)(SummitFAQPage)
+}), null)(SummitTracksPage)
 
-export const summitFAQPageQuery = graphql`
-  query SummitFAQPage($id: String!) {
+export const summitTracksPageQuery = graphql`
+  query SummitTracksPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

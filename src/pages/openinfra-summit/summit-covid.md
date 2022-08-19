@@ -1,14 +1,14 @@
 ---
-templateKey: berlin-2022-summit-covid-page
+templateKey: vancouver-2023-summit-covid-page
 seo:
   description: >-
     Frequently asked questions addressing COVID-19 and the OpenInfra Summit
   image: /img/OpenInfra-icon-white.jpg
   title: 'OpenInfra Summit COVID FAQs'
   twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/summit/berlin-2022/summit-covid/'
+  url: 'https://openinfra.dev/summit/vancouver-2023/summit-covid/'
 title: Onsite Safety Precautions
-subTitle: OpenInfra Summit Berlin 2022
+subTitle: OpenInfra Summit Vancouver 2023
 ---
 Our attendees’ health and safety remain our top priority as we continue to monitor COVID-19. We will follow all venue, local, and WHO guidelines to make the best and most informed decisions around onsite safety and requirements.
 

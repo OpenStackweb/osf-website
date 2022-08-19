@@ -14,7 +14,7 @@ import MemberListPage from "../templates/member-list-page"
 import MemberProfilePage from "../templates/member-profile-page"
 import CompanyProfilePage from "../templates/company-profile-page"
 import CandidatePage from "../templates/candidate-page"
-import SchedulePage from "../templates/schedule-page"
+import SchedulePage from "../templates/berlin-2022-summit-schedule-page"
 import NotFoundPage from "./404"
 import ProfileLegalPage from "../templates/profile-legal-page";
 import ProfileElectionPage from "../templates/profile-election-page";

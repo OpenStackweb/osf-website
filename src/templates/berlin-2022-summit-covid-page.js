@@ -12,7 +12,7 @@ import SubNav from '../components/SummitSubNav'
 
 import { connect } from "react-redux";
 
-export const SummitTracksPageTemplate = ({
+export const berlin2022SummitCovidPageTemplate = ({
   isLoggedUser,
   title,
   subTitle,
@@ -27,7 +27,7 @@ export const SummitTracksPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav active="summit-tracks" pageName="Tracks" isLoggedUser={isLoggedUser} />
+        <SubNav active="summit-faq" pageName="Covid-19" isLoggedUser={isLoggedUser}/>
         <Header title={title} subTitle={subTitle} />
       </div>
 
@@ -51,20 +51,20 @@ export const SummitTracksPageTemplate = ({
   )
 }
 
-SummitTracksPageTemplate.propTypes = {
+berlin2022SummitCovidPageTemplate.propTypes = {
   companies: PropTypes.object,
   title: PropTypes.string,
   subTitle: PropTypes.string,
   footer: PropTypes.object,
 }
 
-const SummitTracksPage = ({ isLoggedUser, data }) => {
+const berlin2022SummitCovidPage = ({ isLoggedUser, data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
-      <SummitTracksPageTemplate
+      <berlin2022SummitCovidPageTemplate
         isLoggedUser={isLoggedUser}
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -76,16 +76,16 @@ const SummitTracksPage = ({ isLoggedUser, data }) => {
   )
 }
 
-SummitTracksPage.propTypes = {
+berlin2022SummitCovidPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
 export default connect(state => ({
   isLoggedUser: state.loggedUserState.isLoggedUser
-}), null)(SummitTracksPage)
+}), null)(berlin2022SummitCovidPage)
 
-export const summitTracksPageQuery = graphql`
-  query SummitTracksPage($id: String!) {
+export const berlin2022SummitCovidPageQuery = graphql`
+  query berlin2022SummitCovidPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

@@ -1,12 +1,12 @@
 ---
-templateKey: berlin-2022-summit-faq
+templateKey: vancouver-2023-summit-faq
 seo:
   description: >-
     Frequently asked questions about the OpenInfra Summit
   image: /img/OpenInfra-icon-white.jpg
   title: 'OpenInfra Summit FAQs'
   twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/summit/berlin-2022/summit-faq/'
+  url: 'https://openinfra.dev/summit/vancouver-2023/summit-faq/'
 title: FAQs
 subTitle: Frequently Asked Questions
 ---

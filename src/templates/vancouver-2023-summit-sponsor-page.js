@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO'
-import SubNav from '../components/SummitSubNav'
+import SubNavYvr from '../components/SummitSubNavYvr'
 import { connect } from "react-redux";
 import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
@@ -23,7 +23,7 @@ export const SummitSponsorPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav active="summit-sponsor" pageName="Sponsors" isLoggedUser={isLoggedUser} />
+        <SubNavYvr active="summit" pageName="Sponsors" isLoggedUser={isLoggedUser}/>
       </div>
 
       <main className="main">

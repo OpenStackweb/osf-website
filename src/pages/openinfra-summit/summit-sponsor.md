@@ -1,11 +1,11 @@
 ---
-templateKey: berlin-2022-summit-sponsor-page
+templateKey: vancouver-2023-summit-sponsor-page
 seo:
   description: The OpenInfra Summit is back in Berlin! June 7-9, 2022. Collaborate directly with the people building and running open source infrastructure using OpenStack, Kubernetes and 30+ other technologies.
   image: /img/OpenInfra-icon-white.jpg
-  title: OpenInfra Summit Berlin, June 7-9, 2022
+  title: OpenInfra Summit Vancouver, June 13-15, 2023
   twitterUsername: "@OpenInfraDev"
-  url: 'https://openinfra.dev/summit/berlin-2022/summit-sponsor/'
+  url: 'https://openinfra.dev/summit/vancouver-2023/summit-sponsor/'
 header:
   display: true
   title: Thank you OpenInfra Summit Berlin Sponsors!

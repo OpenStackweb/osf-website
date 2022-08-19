@@ -7,7 +7,7 @@ import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
-import SubNav from '../components/SummitSubNav'
+import SubNavYvr from '../components/SummitSubNavYvr'
 import leftArrow from '../img/svg/arrow-left.svg'
 
 import { connect } from "react-redux";
@@ -28,7 +28,7 @@ export const SummitOnsitePageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNav active="summit-onsite" pageName="Onsite Info" isLoggedUser={isLoggedUser}/>
+        <SubNavYvr active="summit" pageName="Onsite Info" isLoggedUser={isLoggedUser}/>
         
         <main className="main">
         <section className="hero-main summit">

@@ -1,14 +1,14 @@
 ---
-templateKey: berlin-2022-summit-tracks-page
+templateKey: vancouver-2023-summit-tracks-page
 seo:
   description: >-
     The OpenInfra Summit includes keynotes, presentations, panels, hands-on workshops, and collaborative working sessions covering over 30 open source projects.
   image: /img/OpenInfra-icon-white.jpg
   title: 'OpenInfra Summit Tracks'
   twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/summit/berlin-2022/summit-tracks/'
+  url: 'https://openinfra.dev/summit/vancouver-2023/summit-tracks/'
 title: Summit Tracks
-subTitle: OpenInfra Summit Berlin 2022
+subTitle: OpenInfra Summit Vancouver 2023
 footer:
   button: 'https://opendev.org/osf/four-opens/'
   buttonText: Contribute

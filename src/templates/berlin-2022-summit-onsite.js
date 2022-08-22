@@ -12,7 +12,7 @@ import leftArrow from '../img/svg/arrow-left.svg'
 
 import { connect } from "react-redux";
 
-export const berlin2022SummitOnsitePageTemplate = ({
+export const Berlin2022SummitOnsitePageTemplate = ({
   isLoggedUser,
   upperTitle,
   title,
@@ -320,7 +320,7 @@ export const berlin2022SummitOnsitePageTemplate = ({
   )
 }
 
-berlin2022SummitOnsitePageTemplate.propTypes = {
+Berlin2022SummitOnsitePageTemplate.propTypes = {
   companies: PropTypes.object,
   upperTitle: PropTypes.string,
   title: PropTypes.string,
@@ -334,7 +334,7 @@ const berlin2022SummitOnsitePage = ({ isLoggedUser, data }) => {
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
-      <berlin2022SummitOnsitePageTemplate
+      <Berlin2022SummitOnsitePageTemplate
         isLoggedUser={isLoggedUser}
         contentComponent={HTMLContent}
         upperTitle={post.frontmatter.upperTitle}

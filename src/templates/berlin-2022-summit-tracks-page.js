@@ -12,7 +12,7 @@ import SubNav from '../components/SummitSubNav'
 
 import { connect } from "react-redux";
 
-export const berlin2022SummitTracksPageTemplate = ({
+export const Berlin2022SummitTracksPageTemplate = ({
   isLoggedUser,
   title,
   subTitle,
@@ -51,7 +51,7 @@ export const berlin2022SummitTracksPageTemplate = ({
   )
 }
 
-berlin2022SummitTracksPageTemplate.propTypes = {
+Berlin2022SummitTracksPageTemplate.propTypes = {
   companies: PropTypes.object,
   title: PropTypes.string,
   subTitle: PropTypes.string,
@@ -64,7 +64,7 @@ const berlin2022SummitTracksPage = ({ isLoggedUser, data }) => {
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
-      <berlin2022SummitTracksPageTemplate
+      <Berlin2022SummitTracksPageTemplate
         isLoggedUser={isLoggedUser}
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

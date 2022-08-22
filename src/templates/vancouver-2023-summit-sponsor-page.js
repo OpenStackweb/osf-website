@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import ContactFormHorizontal from '../components/ContactFormHorizontal'
+import { summitSponsorLevel } from '../components/SummitSponsorLevel'
 
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
@@ -40,7 +42,7 @@ export const SummitSponsorPageTemplate = ({
                 <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}>
                 </span>
                 <section className="cta-wrapper">
-                  <LinkComponent className="button-cta" href="/summit/berlin-2022/summit-sponsor/#sponsor">View all Sponsors<img src={leftArrow} alt="" /></LinkComponent>
+                  <LinkComponent className="button-cta" href="/summit/vancouver-2023/summit-sponsor#howToSponsor">Steps to Sponsor<img src={leftArrow} alt="" /></LinkComponent>
                 </section>
               </div>
               <div className="header-right" style={{ marginBottom: "0px" }}>
@@ -51,13 +53,79 @@ export const SummitSponsorPageTemplate = ({
             </section>
           }
           
-          <section id="sponsor" className="sponsorship-levels">
-          <hr className="dividing-line"/>
-            <span className="title">Sponsors</span>
-            <span className="description">
-              <p> A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
-            </span>
-            <SummitSponsors summit_sponsors={summit_sponsors} />
+          <section id="howToSponsor" className="sponsor-steps">
+          <div className="title">How to Sponsor</div>
+            <div className="step-single">
+              <h5>Step 1: Prospectus</h5>
+              <p><a href="/files/OpenInfra-Berlin-SUMMIT-2022-prospectus022222.pdf">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>
+              <a href="/files/OpenInfra-Berlin-SUMMIT-2022-prospectus022222.pdf" className="button-cta outline">Review the Prospectus</a>
+            </div>
+            <div className="step-single">
+              <h5>Step 2: Master Sponsor Agreement (New Sponsors Only)</h5>
+              <p>If you have never previously sponsored an OpenInfra Summit, you will need to sign the <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDh53oVYqMPudorYaywDlwyEnhPEo57rDjieE_XpCDXXuwgD-3MeQC5JKrTDu4cl7I*">Master Sponsorship Agreement</a> prior to signing the Vancouver Sponsorship Contract.</p>
+              <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDh53oVYqMPudorYaywDlwyEnhPEo57rDjieE_XpCDXXuwgD-3MeQC5JKrTDu4cl7I*" className="button-cta outline">Master Sponsor Agreement</a>
+            </div>
+            <div className="step-single">
+              <h5>Step 3: Vancouver Sponsor Contract</h5>
+              <p>
+                If you have sponsored an OpenInfra Summit before, then you will need to know the date when you signed the Master Sponsorship Agreement previously, as this information will be required in the first field of the Vancouver Summit sponsor contract. If you do not know the date when you previously signed the Master Sponsorship Agreement please check <a href="https://docs.google.com/spreadsheets/d/1rxn2AXqG0uwwdbmNMd6R0QhAzoM_5vJXzTj6UIzMZ6I/edit?usp=sharing">this document</a> or email <a href="mailto:summit@openinfra.dev">summit@openinfra.dev</a>.
+              </p>
+              <p>After signing the <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAtBzgBWHsfPkCNzzeV-fOf_bB3wZyW7cfhhLkniWjXR578ygqHOD2ZO87uXGi3-Yc*">Vancouver Sponsor Agreement</a>, please check your email to make sure you confirm submission via Echosign.</p>
+              <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAtBzgBWHsfPkCNzzeV-fOf_bB3wZyW7cfhhLkniWjXR578ygqHOD2ZO87uXGi3-Yc*" className="button-cta">Vancouver Sponsor Contract <img src={leftArrow} alt="Vancouver Sponsor Agreement" /></a>
+            </div>
+            <p>
+              Have any questions about sponsoring the Summit? <a href="#sponsorship-contact">Contact us</a>
+            </p>
+            <table className="sponsor-table">
+              <tr className="top-row">
+                <th>Sponsorship Levels</th>
+                <th>Member Price</th>
+                <th>Non-Member Price</th>
+              </tr>
+              <tr>
+                <td><strong>Headline</strong></td>
+                <td>$130,000</td>
+                <td>$140,000</td>
+              </tr>
+              <tr>
+                <td><strong>Premier</strong></td>
+                <td>$90,000</td>
+                <td>$100,000</td>
+              </tr>
+              <tr>
+                <td><strong>Spotlight</strong></td>
+                <td>$35,000</td>
+                <td>$42,500</td>
+              </tr>
+              <tr>
+                <td><strong>Exhibitor</strong></td>
+                <td>$18,000</td>
+                <td>$25,000</td>
+              </tr>
+              <tr>
+                <td><strong>Exhibitor (Startup*)</strong></td>
+                <td>$12,000</td>
+                <td>$19,000</td>
+              </tr>
+              <tr>
+                <td><strong>Supporting</strong></td>
+                <td>$2,500</td>
+                <td>$5,000</td>
+              </tr>
+              <tr>
+                <td colSpan="3" className="join-row">Not a member? Learn how to
+                  <a onClick={() => summitSponsorLevel(5)} href="/join"> join the foundation</a>.
+                </td>
+              </tr>
+            </table>
+          </section>
+
+
+
+          <section id="sponsorship-contact" className="sponsor-contact">
+            <h5 className="sponsorship-contact">Have Questions About Sponsoring?</h5>
+            <span className="contact-description">Contact us with any questions about sponsoring the Vancouver Summit.</span>
+            <ContactFormHorizontal />
           </section>
 
         </div>

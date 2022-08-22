@@ -12,7 +12,7 @@ import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
 import SummitSponsors from '../components/SummitSponsors'
 
-export const berlin2022SummitSponsorPageTemplate = ({
+export const Berlin2022SummitSponsorPageTemplate = ({
   isLoggedUser,
   header,
   summit_sponsors
@@ -66,7 +66,7 @@ export const berlin2022SummitSponsorPageTemplate = ({
   )
 }
 
-berlin2022SummitSponsorPageTemplate.propTypes = {
+Berlin2022SummitSponsorPageTemplate.propTypes = {
   header: PropTypes.object,
   form: PropTypes.object,
   topics: PropTypes.object,
@@ -81,7 +81,7 @@ const berlin2022SummitSponsorPage = ({ isLoggedUser, summit, data }) => {
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
-      <berlin2022SummitSponsorPageTemplate
+      <Berlin2022SummitSponsorPageTemplate
         isLoggedUser={isLoggedUser}
         header={post.frontmatter.header}
         form={post.frontmatter.form}

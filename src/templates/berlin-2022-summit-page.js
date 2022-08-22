@@ -15,7 +15,7 @@ import CodeOfConductPic from '../../static/img/summit/inclusive 2.jpeg'
 import SummitSponsorSlider from '../components/SummitSponsorSlider'
 import FeaturedSpeakers from '../components/FeaturedSpeakers';
 
-export const berlin2022SummitPageTemplate = ({
+export const Berlin2022SummitPageTemplate = ({
   isLoggedUser,
   header,
   form,
@@ -206,7 +206,7 @@ export const berlin2022SummitPageTemplate = ({
   )
 }
 
-berlin2022SummitPageTemplate.propTypes = {
+Berlin2022SummitPageTemplate.propTypes = {
   header: PropTypes.object,
   form: PropTypes.object,
   topics: PropTypes.object,
@@ -223,7 +223,7 @@ const berlin2022SummitPage = ({ isLoggedUser, summit, data }) => {
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
-      <berlin2022SummitPageTemplate
+      <Berlin2022SummitPageTemplate
         isLoggedUser={isLoggedUser}
         header={post.frontmatter.header}
         form={post.frontmatter.form}

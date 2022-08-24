@@ -15,7 +15,7 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2022-08-24T18:21:38.634Z
+    date: 2022-09-29T14:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: Schwarz Group"
     episodeDescription: >
       In the "Large Scale Ops Deep Dive" series, a panel of OpenStack operators

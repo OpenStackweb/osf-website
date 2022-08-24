@@ -15,6 +15,18 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2022-08-24T18:21:38.634Z
+    episodeTitle: "Large Scale Ops Deep Dive: Schwarz Group"
+    episodeDescription: >
+      In the "Large Scale Ops Deep Dive" series, a panel of OpenStack operators
+      invites special guests to talk about their deployment and discuss their
+      operations. For this episode, our guests will be Felix Hüttner and
+      Ihtisham ul Haq from Schwarz Group, the largest European retailer with
+      well-known brands like Lidl or Kaufland.
+    episodeSpeakers: "Felix Hüttner, Belmiro Moreira, Mohammed Naser, Arnaud Morin,
+      Thierry Carrez "
+    youtubeLink: https://www.youtube.com/watch?v=yeyZ5uRcz_k
+  - hidden: false
     date: 2022-08-25T14:00:00.000Z
     episodeTitle: Making VDI a first-class citizen in the OpenStack world
     episodeDescription: "Learn the importance of having a Virtual Desktop

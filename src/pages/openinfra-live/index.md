@@ -35,8 +35,8 @@ episodes:
       still missing. You’ll also have the opportunity to meet Bumblebee and
       enjoy the cute flying insect during a live demo! "
     episodeSpeakers: Manuel Bentele, Andy Botting, Radosław Piliszek
-    youtubeEmbed: https://youtu.be/juczRNlfg6c
-    youtubeLink: https://youtu.be/juczRNlfg6c
+    youtubeEmbed: https://www.youtube.com/embed/juczRNlfg6c
+    youtubeLink: https://www.youtube.com/watch?v=juczRNlfg6c
   - hidden: false
     date: 2022-07-21T14:00:00.000Z
     episodeTitle: "OpenInfra Live Ep. 43: 12 Years of OpenStack"

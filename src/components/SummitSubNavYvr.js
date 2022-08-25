@@ -36,7 +36,7 @@ function SubNavYvr(props) {
       <div className="container">
         <ul className="links-list summit-links-list">
           <li onMouseEnter={() => setSummitDropdown(true)} onMouseLeave={() => setSummitDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }}>
-            <div id="summit" className="link" style={{ padding: '10px 10px 10px 0', width: '102%', display: 'inline-flex' }}>
+            <div id="summit-dropdown" className="link" style={{ padding: '10px 10px 10px 0', width: '102%', display: 'inline-flex' }}>
             Vancouver, BC 2023
               <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
             </div>
@@ -45,7 +45,7 @@ function SubNavYvr(props) {
                 <LinkComponent id="vancouver-2023" href="/summit/vancouver-2023" className="link">
                   <span>Vancouver, BC 2023</span>
                 </LinkComponent>
-                <LinkComponent id="summit" href="/summit/berlin-2022" className="link">
+                <LinkComponent id="berlin-2022" href="/summit/berlin-2022" className="link">
                   <span>Berlin, Germany 2022</span>
                 </LinkComponent>
               </div>
@@ -54,8 +54,9 @@ function SubNavYvr(props) {
         </ul>
 
         <ul id="links-list" className="links-list">
-          <li><LinkComponent id="summit-onsite" href="/summit/vancouver-2023" className="link">Home</LinkComponent></li>
-          <li><LinkComponent id="summit-sponsor" href="/summit/vancouver-2023/summit-sponsor/" className="link">Sponsors</LinkComponent></li>
+          <li><LinkComponent id="summit" href="/summit/vancouver-2023" onClick={() => shouldCloseMenu("summit")} className="link">Home</LinkComponent></li>
+          <li><LinkComponent id="summit-sponsor" href="/summit/vancouver-2023/summit-sponsor/" onClick={() => shouldCloseMenu("summit-sponsor")} className="link">Sponsors</LinkComponent></li>
+          <li><LinkComponent id="summit-tracks" href="/summit/vancouver-2023/summit-tracks/" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Tracks</LinkComponent></li>
         </ul>
 
         <div className={`${isSummitOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleSummitMenu}>
@@ -64,7 +65,7 @@ function SubNavYvr(props) {
         </div>
 
         <div className={`${isOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleMenu}>
-          <div className="page-name">Home</div>
+          <div className="page-name">{props.pageName}</div>
           <i style={{ marginLeft: "5px" }} className={`fa ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`} />
         </div>
       </div>
@@ -83,6 +84,7 @@ function SubNavYvr(props) {
           <ul id="links-list-mobile" className="links-list">
             <li><LinkComponent id="summit-onsite" href="/summit/vancouver-2023" onClick={() => shouldCloseMenu("summit")} className="link">Home</LinkComponent></li>
             <li><LinkComponent id="summit-sponsor" href="/summit/vancouver-2023/summit-sponsor/" onClick={() => shouldCloseMenu("summit-sponsor")} className="link">Sponsors</LinkComponent></li>
+            <li><LinkComponent id="summit-tracks" href="/summit/vancouver-2023/summit-tracks/" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Tracks</LinkComponent></li>
           </ul>
         </div>
       }

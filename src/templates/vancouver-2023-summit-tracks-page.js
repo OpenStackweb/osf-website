@@ -27,7 +27,7 @@ export const SummitTracksPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNavYvr active="summit" pageName="Tracks" isLoggedUser={isLoggedUser}/>
+        <SubNavYvr active="summit-tracks" pageName="Tracks" isLoggedUser={isLoggedUser}/>
         <Header title={title} subTitle={subTitle} />
       </div>
 

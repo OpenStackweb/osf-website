@@ -1,5 +1,5 @@
 ---
-templateKey: summit-coming-soon-page
+templateKey: vancouver-2023-summit-page
 seo:
   description: Collaborate directly with the people building and running open source infrastructure using OpenStack, Kubernetes and 30+ other technologies.
   image: /img/OpenInfra-icon-white.jpg
@@ -11,7 +11,7 @@ header:
   title: OpenInfra Summit Vancouver 2023
   upperTitle: THE NEXT SUMMIT IS COMING SOON!
   description: >
-    Collaborate directly with the people building and running open source infrastructure using OpenStack, Kubernetes and 30+ other technologies. <a href="#newsletter">More details coming soon.</a>
+    Collaborate directly with the people building and running open source infrastructure using OpenStack, Kubernetes and 30+ other technologies.
   date:
     icon: /img/summit/Vector-calendar.svg
     text: June 13-15, 2023
@@ -50,6 +50,28 @@ topics:
       image: /img/summit/PublicPrivateCloud.png
     - text: Security
       image: /img/summit/Security.png
+previousSummits:
+  display: true
+  title: Previous Summits
+  summitList:
+    - location: Berlin, Germany
+      date: June 7-9, 2022
+      image: /img/summit/florian-wehde-1uWanmgkd5g-unsplash 1.jpg
+      button:
+        text: See Highlights
+        link: "https://openinfra.dev/summit/berlin-2022"
+    - location: Denver, Colorado
+      date: April 29–May 1, 2019
+      image: /img/summit/iStock-995707128_Denver 1.jpg
+      button:
+        text: See Highlights
+        link: "https://www.openstack.org/summit/denver-2019/"
+    - location: Shanghai, China
+      date: November 4–6, 2019
+      image: /img/summit/edward-he-1082124-unsplash 1.jpg
+      button:
+        text: See Highlights
+        link: "https://www.openstack.org/summit/shanghai-2019/"
 sponsorships:
   display: true
   title: Sponsorships

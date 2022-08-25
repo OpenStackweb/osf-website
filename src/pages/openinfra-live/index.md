@@ -26,6 +26,7 @@ episodes:
     episodeSpeakers: "Felix Hüttner, Belmiro Moreira, Mohammed Naser, Arnaud Morin,
       Thierry Carrez "
     youtubeLink: https://www.youtube.com/watch?v=yeyZ5uRcz_k
+    youtubeEmbed: https://www.youtube.com/embed/yeyZ5uRcz_k
   - hidden: false
     date: 2022-08-25T14:00:00.000Z
     episodeTitle: Making VDI a first-class citizen in the OpenStack world

@@ -46,7 +46,7 @@ export const SummitPageTemplate = ({
                   {header.title}
                 </span>
                 <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}></span>
-                <span className="description"><a href="https://openinfrasummitberlin.eventbrite.com">Early registration is available</a> until February 15, 2023.</span>
+                <span className="description"><a href="https://openinfrasummitberlin.eventbrite.com">Early bird registration is available</a> until February 15, 2023.</span>
                 <span className="date">
                   <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
                     header.date.icon.publicURL

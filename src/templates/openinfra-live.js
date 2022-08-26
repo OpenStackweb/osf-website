@@ -270,7 +270,7 @@ export const OpenInfraLiveTemplate = ({
                           </a>
                           {episode.superuserRecap &&
                             <a className="social-links" href={episode.superuserRecap}>
-                              <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser" />
+                              <img src="/img/socials/superuser-avatar.png" className="social-icon superuser-social-icon" alt="Read the recap on Superuser" />
                               Read the Superuser Recap
                             </a>
                           }

@@ -27,7 +27,7 @@ episodes:
       Thierry Carrez "
     youtubeLink: https://www.youtube.com/watch?v=yeyZ5uRcz_k
     youtubeEmbed: https://www.youtube.com/embed/yeyZ5uRcz_k
-  - hidden: true
+  - hidden: false
     date: 2022-09-22T14:00:16.134Z
     episodeSpeakers: Alvaro Soto, Seongsoo Cho, Kotchakorn Sea, Helena Spease, Dr. Huseyin Cotuk
     episodeDescription: The best opportunities for collaboration in the OpenInfra

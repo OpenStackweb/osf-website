@@ -38,6 +38,7 @@ episodes:
     episodeSpeakers: Manuel Bentele, Andy Botting, Radosław Piliszek
     youtubeEmbed: https://www.youtube.com/embed/juczRNlfg6c
     youtubeLink: https://www.youtube.com/watch?v=juczRNlfg6c
+    superuserRecap: https://superuser.openstack.org/articles/making-vdi-a-first-class-citizen-in-the-openstack-world-openinfra-live-recap/
   - hidden: false
     date: 2022-07-21T14:00:00.000Z
     episodeTitle: "OpenInfra Live Ep. 43: 12 Years of OpenStack"
@@ -50,6 +51,7 @@ episodes:
     episodeSpeakers: Kendall Nelson, Danny Abukalam, Soumaya Msallem, Seongsoo Cho
     youtubeEmbed: https://www.youtube.com/embed/yhYq0MOA5nQ
     youtubeLink: https://www.youtube.com/watch?v=yhYq0MOA5nQ
+    superuserRecap: https://superuser.openstack.org/articles/12-years-of-openstack/
   - hidden: false
     date: 2022-05-12T14:00:55.890Z
     episodeTitle: Creating a Sustainable Future for Data Centers with OpenStack and
@@ -63,6 +65,7 @@ episodes:
     episodeSpeakers: Thierry Carrez, Tytus Kurek, Tim Rosenfield, Jon Thor Kristinsson
     youtubeEmbed: https://www.youtube.com/embed/2hdNHOUY9x4
     youtubeLink: https://www.youtube.com/watch?v=2hdNHOUY9x4
+    superuserRecap: https://superuser.openstack.org/articles/creating-a-sustainable-future-for-data-centers-with-openstack-and-kubernetes-openinfra-live-recap/
   - hidden: false
     date: 2022-04-28T14:00:31.084Z
     episodeTitle: Composable Infrastructure and the Future of Data Centers

@@ -14,6 +14,19 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     14:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: true
+    date: 2022-09-22T14:00:16.134Z
+    episodeSpeakers: Alvaro Soto, Seongsoo Cho, Kotchakorn Sea, Helena Spease, Dr. Huseyin Cotuk
+    episodeDescription: The best opportunities for collaboration in the OpenInfra
+      community are at events like the OpenInfra Summit. But the Summit only
+      happens once a year. So what other options are there for you? Meet the
+      volunteers from Mexico, South Korea, Thailand, Texas, and Turkey who
+      volunteer their time to provided localized opportunities to collaborate
+      through user group meetups and OpenInfra Days. Learn about what they have
+      planned for 2022 and how you can get involved!
+    episodeTitle: Around the World with OpenInfra Events
+    youtubeLink: https://www.youtube.com/watch?v=vDtZgdXIqXs
+    youtubeEmbed: https://www.youtube.com/embed/vDtZgdXIqXs
   - hidden: false
     date: 2022-09-29T14:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: Schwarz Group"

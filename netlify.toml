@@ -124,8 +124,78 @@
   status=301
   force=true
 [[redirects]]
-  from="/ptg/rooms/indianapolis"
-  to="https://us02web.zoom.us/j/8623709945"
+  from="/ptg/rooms/austin"
+  to="https://zoom.us/j/96906327910?pwd=aE51d1FtM0R3dDY1Vk0xUTJKaEZtUT09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/bexar"
+  to="https://zoom.us/j/98905969859?pwd=a0NFajNCSFFSQm93TFIrdDE1ditpdz09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/cactus"
+  to="https://zoom.us/j/91349816875?pwd=MXhBa3gxY280QVVwZzkwQk9JY0xldz09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/diablo"
+  to="https://zoom.us/j/96494117185?pwd=NGhya0NpeWppMEc1OUNKdlFPbDNYdz09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/essex"
+  to="https://zoom.us/j/98071109978?pwd=NlA5dVQxaEVucHZ4NjlOUmp6U0VvQT09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/folsom"
+  to="https://zoom.us/j/92793625777?pwd=dWRMR3E0OWM1V2kxT1dBUGJtMlU0Zz09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/grizzly"
+  to="https://zoom.us/j/95205115859?pwd=RUpBanhpK0NCbUlsNFYxQVJHYTQwQT09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/havana"
+  to="https://zoom.us/j/97381453385?pwd=bmYwcXltOVdSYS9SUzg3Zm9GWHZhZz09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/icehouse"
+  to="https://zoom.us/j/94855376980?pwd=MzMzVDE3MGdVWXQwVS81eEREMjdVZz09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/juno"
+  to="https://zoom.us/j/91509365720?pwd=QVJINGlHK0QwNk1ISVNFbnJBOVRYdz09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/kilo"
+  to="https://zoom.us/j/97156435772?pwd=a0xnZ1pwcXBXZU9oTkxWQ3JPRi81UT09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/liberty"
+  to="https://zoom.us/j/94265628858?pwd=YXllU3VFQzhaVWVRdmI3V0xJUERZdz09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/mitaka"
+  to="https://zoom.us/j/96239912151?pwd=b2NLMTdQeThjdW0vMzZWV3RPRHVidz09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/newton"
+  to="https://zoom.us/j/96855299345?pwd=bG5KZHloRzA3bkhCQVJBNmZCQUltZz09"
+  status=301
+  force=true
+[[redirects]]
+  from="/ptg/rooms/ocata"
+  to="https://zoom.us/j/99841882395?pwd=RzBnSXQwWURIU3prbGhqSFdxVXg2Zz09"
   status=301
   force=true
 # Branch Deploy context: all deploys that are not from a pull/merge request or

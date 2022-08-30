@@ -240,3 +240,10 @@
     margin: 0 auto;
   }
 }
+
+.summit-form-container.ptg {
+  @media screen and (min-width: 1400px) {
+    max-width: 1170px;
+    margin: 0 auto;
+  } 
+}

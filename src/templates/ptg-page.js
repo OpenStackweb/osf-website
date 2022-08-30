@@ -81,54 +81,60 @@ export const PTGPageTemplate = ({
       <main className="main">
         <div className="content">
           <section className="ptg-who">
-            {/* <div className="ptg-who-teams">
-              <h4 className="title">The April 2022 Project Teams List is Official!</h4>
+            <div className="ptg-who-teams">
+              <h4 className="title">The October 2022 Project Teams List is Official!</h4>
               <p>If your team was planning to meet and isn"t in this list, please contact <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a> IMMEDIATELY</p>
               <div class="ptg-who-teams-list">
                 <ul>
-                  <li>Ansible OpenStack modules</li>
-                  <li>Cinder</li>
-                  <li>Designate</li>
-                  <li>Glance</li>
-                  <li>Ironic</li>
-                  <li>Kuryr</li>
-                  <li>Neutron</li>
-                  <li>OpenInfra Edge Computing Group</li>
-                  <li>OpenStack-Ansible</li>
-                </ul>
-                <ul>
-                  <li>Release Management</li>
-                  <li>StarlingX</li>
-                  <li>TripleO</li>
                   <li>Barbican</li>
+                  <li>Blazar</li>
+                  <li>Computing Force Network (CFN) Working Group</li>
+                  <li>Cinder</li>
                   <li>CloudKitty</li>
-                  <li>Diversity & Inclusion WG</li>
-                  <li>Horizon</li>
-                  <li>Keystone</li>
-                  <li>Large Scale SIG</li>
-                </ul>
-                <ul>
-                  <li>Nova/Placement</li>
-                  <li>OpenStack Charms</li>
-                  <li>OpenStack-Helm</li>
-                  <li>SDK</li>
-                  <li>Swift</li>
-                  <li>Blazer</li>
-                  <li>Cyborg</li>
+                  <li>Designate</li>
+                  <li>D&I WG</li>
+                  <li>OpenInfra Edge Computing Group</li>
+                  <li>Environmental Sustainability Working Group</li>
                   <li>First Contact SIG</li>
-                  <li>Interop</li>
                 </ul>
                 <ul>
+                  <li>Glance</li>
+                  <li>Heat</li>
+                  <li>Horizon</li>
+                  <li>Interop WG</li>
+                  <li>Ironic</li>
+                  <li>Kata Containers</li>
+                  <li>Keystone</li>
                   <li>Kolla</li>
+                  <li>Kuryr</li>
+                  <li>Magma</li>
+                </ul>
+                <ul>
                   <li>Manila</li>
+                  <li>Neutron</li>
+                  <li>Nova/Placement</li>
                   <li>Octavia</li>
+                  <li>Openstack-Ansible</li>
+                  <li>OpenStack Charms</li>
+                  <li>OpenStack Helm</li>
+                  <li>OpenStack-Helm</li>
+                  <li>OpenStack Operators</li>
+                  <li>OpenStack Security SIG</li>
+                </ul>
+                <ul>
                   <li>OpenStack Technical Committee</li>
+                  <li>Ansible OpenStack Modules</li>
                   <li>QA</li>
-                  <li>Security SIG</li>
+                  <li>Release Management</li>
+                  <li>OpenStack SDK/CLI</li>
+                  <li>Starlingx</li>
+                  <li>Swift</li>
                   <li>Tacker</li>
+                  <li>Telemetry</li>
+                  <li>TripleO</li>
                 </ul>
               </div>
-            </div> */}
+            </div>
             <div className="ptg-who-boxes">
               <div className="should">
                 <div className='top'>

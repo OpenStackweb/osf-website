@@ -81,97 +81,101 @@ export const PTGPageTemplate = ({
       <main className="main">
         <div className="content">
           <section className="ptg-who">
-            <div className="ptg-who-teams">
-              <h4 className="title">The October 2022 Project Teams List is Official!</h4>
-              <p>If your team was planning to meet and isn"t in this list, please contact <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a> IMMEDIATELY</p>
-              <div class="ptg-who-teams-list">
-                <ul>
-                  <li>Barbican</li>
-                  <li>Blazar</li>
-                  <li>Computing Force Network (CFN) Working Group</li>
-                  <li>Cinder</li>
-                  <li>CloudKitty</li>
-                  <li>Designate</li>
-                  <li>D&I WG</li>
-                  <li>OpenInfra Edge Computing Group</li>
-                  <li>Environmental Sustainability Working Group</li>
-                  <li>First Contact SIG</li>
-                </ul>
-                <ul>
-                  <li>Glance</li>
-                  <li>Heat</li>
-                  <li>Horizon</li>
-                  <li>Interop WG</li>
-                  <li>Ironic</li>
-                  <li>Kata Containers</li>
-                  <li>Keystone</li>
-                  <li>Kolla</li>
-                  <li>Kuryr</li>
-                  <li>Magma</li>
-                </ul>
-                <ul>
-                  <li>Manila</li>
-                  <li>Neutron</li>
-                  <li>Nova/Placement</li>
-                  <li>Octavia</li>
-                  <li>Openstack-Ansible</li>
-                  <li>OpenStack Charms</li>
-                  <li>OpenStack Helm</li>
-                  <li>OpenStack-Helm</li>
-                  <li>OpenStack Operators</li>
-                  <li>OpenStack Security SIG</li>
-                </ul>
-                <ul>
-                  <li>OpenStack Technical Committee</li>
-                  <li>Ansible OpenStack Modules</li>
-                  <li>QA</li>
-                  <li>Release Management</li>
-                  <li>OpenStack SDK/CLI</li>
-                  <li>Starlingx</li>
-                  <li>Swift</li>
-                  <li>Tacker</li>
-                  <li>Telemetry</li>
-                  <li>TripleO</li>
-                </ul>
+            <div className="ptg-container">
+              <div className="ptg-who-teams">
+                <h4 className="title">The October 2022 Project Teams List is Official!</h4>
+                <p>If your team was planning to meet and isn"t in this list, please contact <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a> IMMEDIATELY</p>
+                <div class="ptg-who-teams-list">
+                  <ul>
+                    <li>Barbican</li>
+                    <li>Blazar</li>
+                    <li>Computing Force Network (CFN) Working Group</li>
+                    <li>Cinder</li>
+                    <li>CloudKitty</li>
+                    <li>Designate</li>
+                    <li>D&I WG</li>
+                    <li>OpenInfra Edge Computing Group</li>
+                    <li>Environmental Sustainability Working Group</li>
+                    <li>First Contact SIG</li>
+                  </ul>
+                  <ul>
+                    <li>Glance</li>
+                    <li>Heat</li>
+                    <li>Horizon</li>
+                    <li>Interop WG</li>
+                    <li>Ironic</li>
+                    <li>Kata Containers</li>
+                    <li>Keystone</li>
+                    <li>Kolla</li>
+                    <li>Kuryr</li>
+                    <li>Magma</li>
+                  </ul>
+                  <ul>
+                    <li>Manila</li>
+                    <li>Neutron</li>
+                    <li>Nova/Placement</li>
+                    <li>Octavia</li>
+                    <li>Openstack-Ansible</li>
+                    <li>OpenStack Charms</li>
+                    <li>OpenStack Helm</li>
+                    <li>OpenStack-Helm</li>
+                    <li>OpenStack Operators</li>
+                    <li>OpenStack Security SIG</li>
+                  </ul>
+                  <ul>
+                    <li>OpenStack Technical Committee</li>
+                    <li>Ansible OpenStack Modules</li>
+                    <li>QA</li>
+                    <li>Release Management</li>
+                    <li>OpenStack SDK/CLI</li>
+                    <li>Starlingx</li>
+                    <li>Swift</li>
+                    <li>Tacker</li>
+                    <li>Telemetry</li>
+                    <li>TripleO</li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <div className="ptg-who-boxes">
-              <div className="should">
-                <div className='top'>
-                  <h4>
-                    <img src="/img/ptg-page/check-icon.svg" />
-                    Who Should Attend
-                  </h4>
+            <div className="ptg-container">
+              <div className="ptg-who-boxes">
+                <div className="should">
+                  <div className='top'>
+                    <h4>
+                      <img src="/img/ptg-page/check-icon.svg" />
+                      Who Should Attend
+                    </h4>
+                  </div>
+                  <h5>PROJECT CONTRIBUTORS</h5>
+                  <p>
+                    Contributors actively involved in an Open Infrastructure project team that is meeting at the PTG. Attendees should have existing knowledge of the teams whose meetings they are planning to attend. If you are hoping to get started with a particular team, check with them to make sure they are planning to do onboarding before you book travel because many teams will have full agendas.
+                  </p>
+                  <h5>OPERATORS / END USERS</h5>
+                  <p>
+                    Operators who deploy the software (and end users who directly interact with those deployments) are encouraged to attend, interact with upstream contributors for the projects you run, plan to run or have feedback for. You will also have the opportunity to collaborate with fellow operators to discuss common pain points and best practices.
+                  </p>
+                  <h5>TEAM LEADERS</h5>
+                  <p>
+                    Leaders from teams, SIGs, working groups that decide not to meet are encouraged to attend the PTG anyway to represent the views of their group at the event.
+                  </p>
                 </div>
-                <h5>PROJECT CONTRIBUTORS</h5>
-                <p>
-                  Contributors actively involved in an Open Infrastructure project team that is meeting at the PTG. Attendees should have existing knowledge of the teams whose meetings they are planning to attend. If you are hoping to get started with a particular team, check with them to make sure they are planning to do onboarding before you book travel because many teams will have full agendas.
-                </p>
-                <h5>OPERATORS / END USERS</h5>
-                <p>
-                  Operators who deploy the software (and end users who directly interact with those deployments) are encouraged to attend, interact with upstream contributors for the projects you run, plan to run or have feedback for. You will also have the opportunity to collaborate with fellow operators to discuss common pain points and best practices.
-                </p>
-                <h5>TEAM LEADERS</h5>
-                <p>
-                  Leaders from teams, SIGs, working groups that decide not to meet are encouraged to attend the PTG anyway to represent the views of their group at the event.
-                </p>
-              </div>
-              <div className="shouldnot">
-                <div className='top'>
-                  <h4>
-                    <img src="/img/ptg-page/x-icon.svg" />
-                    Who Should Not Attend
-                  </h4>
+                <div className="shouldnot">
+                  <div className='top'>
+                    <h4>
+                      <img src="/img/ptg-page/x-icon.svg" />
+                      Who Should Not Attend
+                    </h4>
+                  </div>
+                  <p>
+                    The PTG is intended for engaged community members that are involved in open source teams working on one of the projects supported by the OpenInfra Foundation or adjacent project communities. This includes workgroups, development teams, external open source projects (like Ceph or Kubernetes, SIG, etc). If you're brand new to a project, we recommend attending the <a href="https://www.openinfra.dev/summit/">OpenInfra Summit</a> first, which features presentations, Forum sessions (designed to get wider community feedback) and on-boarding sessions.
+                  </p>
+                  <p>
+                    The event is NOT the event to sell goods -- hiring managers and product vendors are not encouraged to attend. The <a href="https://www.openinfra.dev/summit/">OpenInfra Summit</a> is a more appropriate event for teams with goals of this nature.
+                  </p>
+                  <p>
+                    Usually this event is not for new contributors; however,  we are including the possibility for teams to do project onboarding as a part of the PTG. That being said, not all teams will be participating, only those that want to.
+                  </p>
                 </div>
-                <p>
-                  The PTG is intended for engaged community members that are involved in open source teams working on one of the projects supported by the OpenInfra Foundation or adjacent project communities. This includes workgroups, development teams, external open source projects (like Ceph or Kubernetes, SIG, etc). If you're brand new to a project, we recommend attending the <a href="https://www.openinfra.dev/summit/">OpenInfra Summit</a> first, which features presentations, Forum sessions (designed to get wider community feedback) and on-boarding sessions.
-                </p>
-                <p>
-                  The event is NOT the event to sell goods -- hiring managers and product vendors are not encouraged to attend. The <a href="https://www.openinfra.dev/summit/">OpenInfra Summit</a> is a more appropriate event for teams with goals of this nature.
-                </p>
-                <p>
-                  Usually this event is not for new contributors; however,  we are including the possibility for teams to do project onboarding as a part of the PTG. That being said, not all teams will be participating, only those that want to.
-                </p>
               </div>
             </div>
             <img src={ColorBar} className="multi-color-border" alt="Color Bar" />

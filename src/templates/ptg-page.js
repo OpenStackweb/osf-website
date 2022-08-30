@@ -84,7 +84,7 @@ export const PTGPageTemplate = ({
             <div className="ptg-container">
               <div className="ptg-who-teams">
                 <h4 className="title">The October 2022 Project Teams List is Official!</h4>
-                <p>If your team was planning to meet and isn"t in this list, please contact <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a> IMMEDIATELY</p>
+                <p>If your team was planning to meet and isn't in this list, please contact <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a></p>
                 <div class="ptg-who-teams-list">
                   <ul>
                     <li>Barbican</li>

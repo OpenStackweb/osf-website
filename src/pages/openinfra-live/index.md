@@ -23,8 +23,8 @@ episodes:
       operations. For this episode, our guests will be Felix Hüttner and
       Ihtisham ul Haq from Schwarz Group, the largest European retailer with
       well-known brands like Lidl or Kaufland.
-    episodeSpeakers: "Felix Hüttner, Belmiro Moreira, Mohammed Naser, Arnaud Morin,
-      Thierry Carrez "
+    episodeSpeakers: "Felix Hüttner, Ihtisham ul Haq, Belmiro Moreira, Mohammed
+      Naser, Arnaud Morin, Thierry Carrez "
     youtubeLink: https://www.youtube.com/watch?v=yeyZ5uRcz_k
     youtubeEmbed: https://www.youtube.com/embed/yeyZ5uRcz_k
   - hidden: false

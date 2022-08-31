@@ -29,7 +29,8 @@ episodes:
     youtubeEmbed: https://www.youtube.com/embed/yeyZ5uRcz_k
   - hidden: false
     date: 2022-09-22T14:00:16.134Z
-    episodeSpeakers: Alvaro Soto, Seongsoo Cho, Kotchakorn Sea, Helena Spease, Dr. Huseyin Cotuk
+    episodeSpeakers: Alvaro Soto, Seongsoo Cho, Dr. Abhisak Chulya, Helena Spease,
+      Dr. Huseyin Cotuk
     episodeDescription: The best opportunities for collaboration in the OpenInfra
       community are at events like the OpenInfra Summit. But the Summit only
       happens once a year. So what other options are there for you? Meet the

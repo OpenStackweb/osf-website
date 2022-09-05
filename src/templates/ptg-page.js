@@ -97,9 +97,9 @@ export const PTGPageTemplate = ({
                     <li>OpenInfra Edge Computing Group</li>
                     <li>Environmental Sustainability Working Group</li>
                     <li>First Contact SIG</li>
+                    <li>Glance</li>
                   </ul>
                   <ul>
-                    <li>Glance</li>
                     <li>Heat</li>
                     <li>Horizon</li>
                     <li>Interop WG</li>
@@ -109,10 +109,11 @@ export const PTGPageTemplate = ({
                     <li>Kolla</li>
                     <li>Kuryr</li>
                     <li>Magma</li>
+                    <li>Manila</li>
+                    <li className="desktop-only">Neutron</li>
                   </ul>
                   <ul>
-                    <li>Manila</li>
-                    <li>Neutron</li>
+                    <li className="mobile-only">Neutron</li>
                     <li>Nova/Placement</li>
                     <li>Octavia</li>
                     <li>Openstack-Ansible</li>
@@ -121,18 +122,20 @@ export const PTGPageTemplate = ({
                     <li>OpenStack-Helm</li>
                     <li>OpenStack Operators</li>
                     <li>OpenStack Security SIG</li>
-                  </ul>
-                  <ul>
                     <li>OpenStack Technical Committee</li>
                     <li>Ansible OpenStack Modules</li>
+                  </ul>
+                  <ul>
                     <li>QA</li>
                     <li>Release Management</li>
                     <li>OpenStack SDK/CLI</li>
+                    <li>Scientific SIG</li>
                     <li>Starlingx</li>
                     <li>Swift</li>
                     <li>Tacker</li>
                     <li>Telemetry</li>
                     <li>TripleO</li>
+                    <li>Venus </li>
                   </ul>
                 </div>
               </div>

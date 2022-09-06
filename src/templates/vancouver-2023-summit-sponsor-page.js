@@ -113,9 +113,7 @@ export const SummitSponsorPageTemplate = ({
                 <td>$5,000</td>
               </tr>
               <tr>
-                <td colSpan="3" className="join-row">Not a member? Learn how to
-                  <a onClick={() => summitSponsorLevel(5)} href="/join"> join the OpenInfra Foundation</a>.
-                </td>
+                <td colSpan="3" className="join-row">Not a member? Learn how to <a onClick={() => summitSponsorLevel(5)} href="/join">join the OpenInfra Foundation</a>.</td>
               </tr>
             </table>
           </section>

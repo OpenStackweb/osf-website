@@ -57,8 +57,8 @@ export const SummitSponsorPageTemplate = ({
           <div className="title">How to Sponsor</div>
             <div className="step-single">
               <h5>Step 1: Prospectus</h5>
-              <p><a href="https://docs.google.com/document/d/1GnEquIcHdb58lLYn0yfaNtFpf1ecjKfWy8lTihMlMag/edit">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>
-              <a href="https://docs.google.com/document/d/1GnEquIcHdb58lLYn0yfaNtFpf1ecjKfWy8lTihMlMag/edit" className="button-cta outline">Review the Prospectus</a>
+              <p><a href="/img/summit/vancouver-2023/OpenInfraSummitVancouver2023-prospectus.pdf">Review the Prospectus</a> and decide which sponsorship levels and add-ons you are interested in.</p>
+              <a href="/img/summit/vancouver-2023/OpenInfraSummitVancouver2023-prospectus.pdf" className="button-cta outline">Review the Prospectus</a>
             </div>
             <div className="step-single">
               <h5>Step 2: Master Sponsor Agreement (New Sponsors Only)</h5>

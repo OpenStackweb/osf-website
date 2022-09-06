@@ -200,7 +200,7 @@ export const SummitPageTemplate = ({
                       {form.title}
                     </span>
                     <div>
-                      <LinkComponent className="form-cta" href={form.button.link}>{form.button.text} <img src={leftArrow} alt="" /></LinkComponent>
+                      <LinkComponent className="form-cta" href='https://www.openinfra.dev/newsletter'>{form.button.text} <img src={leftArrow} alt="" /></LinkComponent>
                     </div>
                   </div>
                 </div>

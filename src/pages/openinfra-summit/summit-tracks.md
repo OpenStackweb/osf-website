@@ -18,7 +18,7 @@ footer:
     Do you have a passion for open source? Share your knowledge with the world
     and contribute to the Four Opens.
 ---
-The OpenInfra Summit includes keynotes, presentations, panels, hands-on workshops, and collaborative working sessions covering over 30 open source projects. Expect to hear about the intersection of many open source infrastructure projects, including Ceph, Kubernetes, Magma, ONAP, OPNFV and the projects hosted by the OpenInfra Foundation: Airship, Kata Containers, OpenInfra Labs, OpenStack, StarlingX, and Zuul.
+The OpenInfra Summit includes keynotes, presentations, panels, hands-on workshops, and collaborative working sessions covering over 30 open source projects. Expect to hear about the intersection of many open source infrastructure projects, including Linux, Ceph, Kubernetes, Magma, ONAP, OPNFV and the projects hosted by the OpenInfra Foundation: Airship, Kata Containers, OpenInfra Labs, OpenStack, StarlingX, and Zuul.
 
 #### 5G, NFV & Edge
 
@@ -65,9 +65,9 @@ Topics include: architecture / hardware, economics, cloud portability, features 
 
 Topics include: Attestation, authenticity, authorization, data protection, encryption, identification, policy enforcement, privacy, regulatory compliance, risk management, trusted computing, vulnerability tracking/mitigation
 
-#### The Forum (not included in Call for Presentations) 
+#### The Forum
 
-OpenInfra operators and developers gather at the Forum to brainstorm the requirements for the next release, gather feedback on the past version and have strategic discussions that go beyond just one release cycle. Sessions are submitted outside of the Summit Call for Presentations and are more collaborative, discussion-oriented.
+OpenInfra operators and developers gather at the Forum to brainstorm the requirements for the next release, gather feedback on the past version and have strategic discussions that go beyond just one release cycle. Sessions are more collaborative, discussion-oriented.
 
 <br />
 <br />
@@ -77,4 +77,4 @@ OpenInfra operators and developers gather at the Forum to brainstorm the require
 <br />
 <br />
 
-We are a diverse community of professionals, and the Open Infrastructure Foundation is dedicated to providing an inclusive and safe Summit experience for everyone. View the [OpenInfra Events Code of Conduct](/legal/code-of-conduct/events) for more information.
+We are a diverse community of professionals, and the OpenInfra Foundation is dedicated to providing an inclusive and safe Summit experience for everyone. View the [OpenInfra Events Code of Conduct](/legal/code-of-conduct/events) for more information.

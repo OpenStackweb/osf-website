@@ -1,7 +1,7 @@
 ---
 templateKey: vancouver-2023-summit-page
 seo:
-  description: Collaborate directly with the people building and running open source infrastructure using OpenStack, Kubernetes and 30+ other technologies.
+  description: Collaborate directly with the people building and running open source infrastructure using Linux, OpenStack, Kubernetes and 30+ other technologies.
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Summit Vancouver 2023, coming soon!
   twitterUsername: "@OpenInfraDev"
@@ -11,7 +11,7 @@ header:
   title: OpenInfra Summit Vancouver 2023
   upperTitle: THE NEXT SUMMIT IS COMING SOON!
   description: >
-    Collaborate directly with the people building and running open source infrastructure using OpenStack, Kubernetes and 30+ other technologies.
+    Collaborate directly with the people building and running open source infrastructure using Linux, OpenStack, Kubernetes and 30+ other technologies.
   date:
     icon: /img/summit/Vector-calendar.svg
     text: June 13-15, 2023

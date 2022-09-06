@@ -70,8 +70,8 @@ export const SummitSponsorPageTemplate = ({
               <p>
                 If you have sponsored an OpenInfra Summit before, then you will need to know the date when you signed the Master Sponsorship Agreement previously, as this information will be required in the first field of the Vancouver Summit sponsor contract. If you do not know the date when you previously signed the Master Sponsorship Agreement please check <a href="https://docs.google.com/spreadsheets/d/1rxn2AXqG0uwwdbmNMd6R0QhAzoM_5vJXzTj6UIzMZ6I/edit?usp=sharing">this document</a> or email <a href="mailto:summit@openinfra.dev">summit@openinfra.dev</a>.
               </p>
-              <p>After signing the <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAtBzgBWHsfPkCNzzeV-fOf_bB3wZyW7cfhhLkniWjXR578ygqHOD2ZO87uXGi3-Yc*">Vancouver Sponsor Agreement</a>, please check your email to make sure you confirm submission via Echosign.</p>
-              <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAtBzgBWHsfPkCNzzeV-fOf_bB3wZyW7cfhhLkniWjXR578ygqHOD2ZO87uXGi3-Yc*" className="button-cta">Vancouver Sponsor Contract <img src={leftArrow} alt="Vancouver Sponsor Agreement" /></a>
+              <p>After signing the <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDkpc6y2KmsNua_KaN5XVyf67tMeHAcgmLzv2oqr46rSvJ6QjwUenH3g_wxEp_UPZo*">Vancouver Sponsor Agreement</a>, please check your email to make sure you confirm submission via Echosign.</p>
+              <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDkpc6y2KmsNua_KaN5XVyf67tMeHAcgmLzv2oqr46rSvJ6QjwUenH3g_wxEp_UPZo*" className="button-cta">Vancouver Sponsor Contract <img src={leftArrow} alt="Vancouver Sponsor Agreement" /></a>
             </div>
             <p>
               Have any questions about sponsoring the Summit? <a href="mailto:summit@openinfra.dev">Contact us</a>

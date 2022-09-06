@@ -74,7 +74,7 @@ export const SummitSponsorPageTemplate = ({
               <a href="https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAtBzgBWHsfPkCNzzeV-fOf_bB3wZyW7cfhhLkniWjXR578ygqHOD2ZO87uXGi3-Yc*" className="button-cta">Vancouver Sponsor Contract <img src={leftArrow} alt="Vancouver Sponsor Agreement" /></a>
             </div>
             <p>
-              Have any questions about sponsoring the Summit? <a href="#sponsorship-contact">Contact us</a>
+              Have any questions about sponsoring the Summit? <a href="mailto:summit@openinfra.dev">Contact us</a>
             </p>
             <table className="sponsor-table">
               <tr className="top-row">

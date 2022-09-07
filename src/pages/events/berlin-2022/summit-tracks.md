@@ -1,5 +1,5 @@
 ---
-templateKey: summit-tracks-page
+templateKey: berlin-2022-summit-tracks-page
 seo:
   description: >-
     The OpenInfra Summit includes keynotes, presentations, panels, hands-on workshops, and collaborative working sessions covering over 30 open source projects.

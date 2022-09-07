@@ -29,7 +29,7 @@ export const SummitSoonPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <Navbar isLoggedUser={isLoggedUser} />
-        <SubNavYvr active="summit" pageName="vancouver-2023" isLoggedUser={isLoggedUser}/>
+        <SubNavYvr active="summit" pageName="Home" isLoggedUser={isLoggedUser}/>
       </div>
 
       <main className="main">

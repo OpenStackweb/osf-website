@@ -1712,3 +1712,41 @@ h3.small-title-summit {
     }
   }
 }
+.main {
+  .vancouver-2023-cfp-banner {
+    flex-wrap: wrap;
+    .desc {
+      flex-basis: 100%;
+      text-align: center;
+      font-family: "Roboto";
+      font-size: 16px;
+      line-height: 23px;
+    }
+    .title {
+      text-align: center;
+      @media screen and (max-width: 1170px) and (min-width: 769px) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.summit-header-vancouver-2023 {
+  .small-details {
+    color: #161616;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+}
+
+
+.summit-header.summit-header-vancouver-2023 .header-left .button-cta.outline img {
+  filter: invert(61%) sepia(5%) saturate(90%) hue-rotate(315deg) brightness(84%) contrast(86%);
+}
+
+.summit-header.summit-header-vancouver-2023 .header-left .button-cta.outline:hover {
+  img {
+    filter: none;
+  }
+}

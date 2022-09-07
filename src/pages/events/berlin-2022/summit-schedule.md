@@ -1,5 +1,5 @@
 ---
-templateKey: schedule-page
+templateKey: berlin-2022-summit-schedule-page
 seo:
   description: >-
     Collaborate directly with the people building and running open source 

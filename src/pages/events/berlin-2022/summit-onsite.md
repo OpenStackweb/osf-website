@@ -1,5 +1,5 @@
 ---
-templateKey: summit-onsite
+templateKey: berlin-2022-summit-onsite
 seo:
   description: >-
     Onsite resources for attendees at the OpenInfra Summit

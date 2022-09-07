@@ -1,5 +1,5 @@
 ---
-templateKey: summit-faq
+templateKey: berlin-2022-summit-faq
 seo:
   description: >-
     Frequently asked questions about the OpenInfra Summit

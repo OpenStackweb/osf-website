@@ -1,5 +1,5 @@
 ---
-templateKey: summit-covid-page
+templateKey: berlin-2022-summit-covid-page
 seo:
   description: >-
     Frequently asked questions addressing COVID-19 and the OpenInfra Summit

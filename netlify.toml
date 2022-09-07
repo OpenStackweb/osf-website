@@ -26,7 +26,12 @@
   force = true
 [[redirects]]
   from = "/summit-sponsor"
-  to = "/summit/berlin-2022/summit-sponsor"
+  to = "/summit/vancouver-2023/summit-sponsor"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/summit-tracks"
+  to = "/summit/vancouver-2023/summit-tracks"
   status = 301
   force = true
 [[redirects]]

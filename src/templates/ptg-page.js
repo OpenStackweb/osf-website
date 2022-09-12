@@ -92,14 +92,15 @@ export const PTGPageTemplate = ({
                     <li>Computing Force Network (CFN) Working Group</li>
                     <li>Cinder</li>
                     <li>CloudKitty</li>
+                    <li>Cyborg</li>
                     <li>Designate</li>
                     <li>D&I WG</li>
                     <li>OpenInfra Edge Computing Group</li>
                     <li>Environmental Sustainability Working Group</li>
                     <li>First Contact SIG</li>
-                    <li>Glance</li>
                   </ul>
                   <ul>
+                    <li>Glance</li>
                     <li>Heat</li>
                     <li>Horizon</li>
                     <li>Interop WG</li>
@@ -109,11 +110,11 @@ export const PTGPageTemplate = ({
                     <li>Kolla</li>
                     <li>Kuryr</li>
                     <li>Magma</li>
-                    <li>Manila</li>
-                    <li className="desktop-only">Neutron</li>
+                    <li>Magnum</li>
                   </ul>
                   <ul>
-                    <li className="mobile-only">Neutron</li>
+                    <li>Manila</li>
+                    <li>Neutron</li>
                     <li>Nova/Placement</li>
                     <li>Octavia</li>
                     <li>Openstack-Ansible</li>
@@ -123,9 +124,9 @@ export const PTGPageTemplate = ({
                     <li>OpenStack Operators</li>
                     <li>OpenStack Security SIG</li>
                     <li>OpenStack Technical Committee</li>
-                    <li>Ansible OpenStack Modules</li>
                   </ul>
                   <ul>
+                    <li>Ansible OpenStack Modules</li>
                     <li>QA</li>
                     <li>Release Management</li>
                     <li>OpenStack SDK/CLI</li>

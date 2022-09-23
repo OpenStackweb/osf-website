@@ -55,7 +55,7 @@ export const CareersPageTemplate = ({
                 <column>
                   <hr id="openings"/>
                   <h3>Current Openings</h3>
-                  <div className="career-single">
+                  {/* <div className="career-single">
                       <a href="/careers/web-manager" className="career-title">Marketing Coordinator</a>
                       <p>
                       The Marketing Coordinator will help develop and then lead the distribution of key messages from the OpenInfra Foundation. A key contributor to a small (but powerful!) team, this candidate will work closely with fellow marketing staff as well as community, business development and product teams. This role is designed to bring storytelling to life, ensuring that key messages are distributed through key channels in a consistent narrative. The OpenInfra Foundation staff is globally distributed, so this candidate will be expected to work remotely, with 5-10% travel (pending global safety guidelines).
@@ -64,7 +64,7 @@ export const CareersPageTemplate = ({
                         <LinkComponent style={{marginTop: "20px"}} className="button-cta" href="/careers/marketing-coordinator">Learn More<img src={leftArrow} alt="Left Arrow" /></LinkComponent> 
                       </p>
                   </div>
-                    <hr />
+                    <hr /> */}
                     <div className="career-single">
                       <a href="mailto:info@openinfra.dev" className="career-title">Your Dream Job</a>
                       <p>

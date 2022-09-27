@@ -15,6 +15,17 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2022-10-06T14:00:00.000Z
+    episodeTitle: "OpenStack Zed: The End of the Alphabet, The Beginning of a New Era"
+    episodeDescription: The OpenStack community released Zed, the 26th version of
+      the world’s most widely deployed open source cloud infrastructure
+      software, this week. Join us to learn about the latest from community
+      leaders about what was delivered in Zed and what we can expect in
+      Antelope, OpenStack's 27th release targeting early 2023.
+    episodeSpeakers: "Kendall Nelson, Carlos Silva, Jay Faulkner, Sylvain Bauza, Lajos Katona "
+    youtubeEmbed: https://www.youtube.com/embed/MSbB3L9_MeY
+    youtubeLink: https://www.youtube.com/watch?v=MSbB3L9_MeY
+  - hidden: false
     date: 2022-09-29T14:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: Schwarz Group"
     episodeDescription: >

@@ -22,7 +22,10 @@ episodes:
       software, this week. Join us to learn about the latest from community
       leaders about what was delivered in Zed and what we can expect in
       Antelope, OpenStack's 27th release targeting early 2023.
-    episodeSpeakers: "Kendall Nelson, Carlos Silva, Jay Faulkner, Sylvain Bauza, Lajos Katona "
+    episodeSpeakers: "Kendall Nelson, Carlos Silva, Jay Faulkner, Sylvain Bauza,
+      Lajos Katona, Wu Wenxiang, Martin Kopec, Liye Pang
+
+      \ "
     youtubeEmbed: https://www.youtube.com/embed/MSbB3L9_MeY
     youtubeLink: https://www.youtube.com/watch?v=MSbB3L9_MeY
   - hidden: false

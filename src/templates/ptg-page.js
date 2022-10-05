@@ -247,7 +247,7 @@ const PTGPage = ({ isLoggedUser, data }) => {
       />
     </Layout>
   )
-}
+} 
 
 PTGPage.propTypes = {
   data: PropTypes.object.isRequired,

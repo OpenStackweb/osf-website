@@ -131,7 +131,7 @@ export const PTGPageTemplate = ({
                     <li>Release Management</li>
                     <li>OpenStack SDK/CLI</li>
                     <li>Scientific SIG</li>
-                    <li>Starlingx</li>
+                    <li>StarlingX</li>
                     <li>Swift</li>
                     <li>Tacker</li>
                     <li>Telemetry</li>

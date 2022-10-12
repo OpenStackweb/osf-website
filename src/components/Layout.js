@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { connect } from "react-redux";
 import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
+import FooterV2 from '../components/FooterV2'
 import '../style/style.scss'
 import { withPrefix } from 'gatsby'
 import settings from "../content/settings.json";
@@ -36,7 +36,7 @@ const TemplateWrapper = ({ children, style, lastBuild, syncData }) => {
                 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
             </Helmet>
             <div>{children}</div>
-            <Footer />
+            <FooterV2 />
         </div>
     );
 };

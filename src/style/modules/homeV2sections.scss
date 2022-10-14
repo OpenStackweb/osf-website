@@ -388,6 +388,7 @@ h2.home-v2-header {
 }
 
 .home-v2-quotes-container {
+    margin-top: 100px;
     .home-v2-quote {
         background-color: #272727;
         border-radius: 25px;
@@ -443,6 +444,36 @@ h2.home-v2-header {
             height: 15px;
             width: 15px;
             top: calc(50% - 7px);
+        }
+    }
+}
+
+.home-v2-projects-container {
+    .home-v2-project {
+        background-color: #fff;
+        border-radius: 25px;
+        padding: 30px 30px 50px;
+        margin: 0 10px;
+        opacity: 0.5;
+        transition: all .5s;
+        .home-v2-project-title {
+            font-family: 'Roboto Flex', sans-serif;
+            color: #111C3C;
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .home-v2-project-text {
+            font-family: 'Roboto Flex', sans-serif;
+            color: #111C3C;
+            text-align: center;
+        }
+        img {
+            height: 115px;
+            width: auto;
+            margin: 0 auto;
         }
     }
 }

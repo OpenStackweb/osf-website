@@ -14,6 +14,7 @@ import WhyExpandSection from '../components/WhyExpandSection'
 import MainPitchSection from '../components/MainPitchSection'
 import { connect } from "react-redux";
 
+import ProjectsSection from '../components/HomeV2/ProjectsSection'
 import QuotesSection from '../components/HomeV2/QuotesSection'
 import PlatinumMembersSection from '../components/HomeV2/PlatinumMembersSection'
 import CommunitiesSection from '../components/HomeV2/CommunitiesSection'
@@ -40,15 +41,16 @@ export const IndexPageTemplate = ({
 
         <MainPitchSection mainpitch={mainpitch} />
 
-        <WhyExpandSection whyExpand={whyExpand} />
+        {/* <WhyExpandSection whyExpand={whyExpand} />
 
         <ProjectSection projects={projects} />
 
         <PeopleSection people={people} />
 
-        <CompaniesSection sponsor={sponsor} />
+        <CompaniesSection sponsor={sponsor} /> */}
 
         <div className="home-v2-communities-section">
+          <ProjectsSection />
           <QuotesSection />
           <PlatinumMembersSection />
           <CommunitiesSection />

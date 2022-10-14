@@ -12,3 +12,19 @@
 .home-v2-quotes-container .slick-list {
     padding-bottom: 10px !important;
 }
+
+.home-v2-projects-container .slick-list {
+    padding-bottom: 10px !important;
+}
+
+.home-v2-projects-container .slick-center .home-v2-project {
+    box-shadow: 0px 4px 4px rgba(0,0,0,.25);
+}
+
+.home-v2-projects-container .slick-center .home-v2-project {
+    opacity: 1 !important;
+}
+
+.home-v2-projects-container .slick-track {
+    left: -127px;
+}

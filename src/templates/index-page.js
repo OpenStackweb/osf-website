@@ -14,6 +14,7 @@ import WhyExpandSection from '../components/WhyExpandSection'
 import MainPitchSection from '../components/MainPitchSection'
 import { connect } from "react-redux";
 
+import SFASection from '../components/HomeV2/SFASection'
 import ProjectsSection from '../components/HomeV2/ProjectsSection'
 import QuotesSection from '../components/HomeV2/QuotesSection'
 import PlatinumMembersSection from '../components/HomeV2/PlatinumMembersSection'
@@ -48,6 +49,8 @@ export const IndexPageTemplate = ({
         <PeopleSection people={people} />
 
         <CompaniesSection sponsor={sponsor} /> */}
+
+        <SFASection />
 
         <div className="home-v2-communities-section">
           <ProjectsSection />

@@ -477,3 +477,83 @@ h2.home-v2-header {
         }
     }
 }
+
+
+// Temporary Homepage Styles
+
+.home-v2-sfa-section {
+    background-color: #161616;
+    .home-v2-header-sfa {
+        text-align: center;
+        color: #fff;
+    }
+
+    .sfa-paragraph-container {
+        max-width: 600px;
+        margin: 0 auto;
+        p {
+            font-family: 'Roboto Flex', sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+    }
+    .sfa-highlight-container {
+        padding: 50px 40px;
+        margin: 50px auto;
+        .sfa-highlight-options {
+            max-width: 800px;
+            margin: 60px auto;
+            ul {
+                padding-top: 30px;
+                display: flex;
+                list-style-type: none;
+                justify-content: space-between;
+                margin-left: 0;
+                flex: 1 1 auto;
+                padding-left: 0;
+                gap: 25px;
+                align-items: center;
+                margin-top: 20px;
+                li {
+                    width: 16%;
+                    position: relative;
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                    &.active {
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            left: 0;
+                            bottom: -10px;
+                            height: 4px;
+                            width: 100%;
+                            background-color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        .sfa-project-highlight-link {
+            color: #fff;
+            background-color: #E61E24;
+            border-radius: 25px;
+            font-family: 'Jura', sans-serif;
+            text-align: center;
+            display: block;
+            font-size: 18px;
+            padding-top: 12px;
+            height: 50px;
+            width: 180px;
+            margin: 50px auto;
+            text-transform: uppercase;
+            &:hover {
+                text-decoration: none;
+                background-color: #9a0c28;
+            }
+        }
+    }
+}
+
+

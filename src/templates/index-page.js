@@ -31,7 +31,7 @@ export const IndexPageTemplate = ({
   sponsor,
 }) => (
   <div>
-    <div className="wrapper hero-background">
+    <div className="wrapper hero-background home-v2-hero-wrapper">
       <TopBar />
       <NavbarV2 isLoggedUser={isLoggedUser} />
       <Header upperTitle={header.upperTitle} title={header.title} subTitle={header.subTitle} image={header.image} buttons={header.buttons} isHome={true} />
@@ -40,7 +40,7 @@ export const IndexPageTemplate = ({
     <main className="main">
       <div className="content">
 
-        <MainPitchSection mainpitch={mainpitch} />
+        {/* <MainPitchSection mainpitch={mainpitch} /> */}
 
         {/* <WhyExpandSection whyExpand={whyExpand} />
 

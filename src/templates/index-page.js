@@ -14,6 +14,7 @@ import WhyExpandSection from '../components/WhyExpandSection'
 import MainPitchSection from '../components/MainPitchSection'
 import { connect } from "react-redux";
 
+import OurFocusSection3 from '../components/HomeV2/OurFocusSection3'
 import SFASection from '../components/HomeV2/SFASection'
 import ProjectsSection from '../components/HomeV2/ProjectsSection'
 import QuotesSection from '../components/HomeV2/QuotesSection'
@@ -49,6 +50,8 @@ export const IndexPageTemplate = ({
         <PeopleSection people={people} />
 
         <CompaniesSection sponsor={sponsor} /> */}
+
+        <OurFocusSection3 />
 
         <SFASection />
 

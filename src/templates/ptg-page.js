@@ -43,7 +43,7 @@ export const PTGPageTemplate = ({
                 </span>
                 <span className="description">
                     {header.description}
-                    <br /> <br />More information coming soon.
+                    <br />
                 </span>
                 <span className="date">
                   <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?

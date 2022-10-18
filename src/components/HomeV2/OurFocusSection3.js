@@ -101,7 +101,9 @@ const OurFocusSection3 = () => {
                     <div className="try-container">
   
                         <div className="try-panel blue">
-                            <h2 className="our-focus-heading our-focus-heading-1">The World Needs <br /><span className="our-focus-heading-1-db">Open</span> <span className="our-focus-heading-1-lb">Source</span> <span className="our-focus-heading-1-bl">Infrastructure</span> <br />Now More Than Ever</h2>
+                            <div className="try-box">
+                                <h2 className="our-focus-heading our-focus-heading-1">The World Needs <br /><span className="our-focus-heading-1-db">Open</span> <span className="our-focus-heading-1-lb">Source</span> <span className="our-focus-heading-1-bl">Infrastructure</span> <br />Now More Than Ever</h2>
+                            </div>
                         </div>
                         
                         <section className="try-panel red">
@@ -111,7 +113,7 @@ const OurFocusSection3 = () => {
                         </section>
                         
                         <section className="try-panel gray">
-                            <div>
+                            <div className="try-box-3 try-box">
                                 <h2 className="our-focus-heading our-focus-heading-1">Let Us Help <br /><span className="our-focus-heading-1-db">Build</span> <span className="our-focus-heading-1-lb">Your</span> <span className="our-focus-heading-1-bl">Community</span> <br />Learn More</h2>
                         </div>
                         </section>

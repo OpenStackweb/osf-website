@@ -1,7 +1,10 @@
 .home-v2-outer-container-dark {
     background-color: #161616;
     overflow: hidden;
-    background-image: url('/img/homeV2/background-images/news-background.png');
+    background-image: url('/img/homeV2/background-images/news-background-1.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     .news-article-button-container {
         display: flex;
         margin-bottom: 30px;
@@ -223,10 +226,18 @@ h2.home-v2-header {
     background-color: #F6F6F5;
     padding-bottom: 100px;
     padding-top: 120px;
-    background-image: url('/img/homeV2/background-images/communities-background-1.png');
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: contain;
+    &.home-v2-communities-section-1 {
+        background-image: url('/img/homeV2/background-images/communities-background-1.svg');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
+    &.home-v2-communities-section-2 {
+        background-image: url('/img/homeV2/background-images/communities-background-2.svg');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
     h2.home-v2-community-header {
         text-align: center;
         margin-top: 20px;
@@ -489,6 +500,10 @@ h2.home-v2-header {
 
 .home-v2-sfa-section {
     background-color: #161616;
+    background-image: url('/img/homeV2/background-images/clouds-background.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     .home-v2-header-sfa {
         text-align: center;
         color: #fff;
@@ -641,8 +656,9 @@ h2.home-v2-header {
         color: white;
         position: relative;
         box-sizing: border-box;
-        padding: 10px;
+        padding: 0;
         background-repeat: no-repeat;
+        background-position: center;
         &.blue {
             background-color: #14619D;
             &:after {
@@ -655,8 +671,18 @@ h2.home-v2-header {
                 bottom: 0px;
                 left: 0px;
                 opacity: 0.5;
+                background-position: center;
+            }
+            .try-box {
+                background-image: url('https://localhost:8000/img/homeV2/background-images/focus-bubbles-1.svg');
+                background-repeat: no-repeat;
+                background-position: center;
+                position: relative;
+                z-index: 5;
+                background-size: contain;
             }
         }
+
         &.red {
             background-color: #F4A939;
             &:after {
@@ -669,6 +695,15 @@ h2.home-v2-header {
                 bottom: 0px;
                 left: 0px;
                 opacity: 0.5;
+                background-position: center;
+            }
+            .try-box {
+                background-image: url('https://localhost:8000/img/homeV2/background-images/focus-bubbles-2.svg');
+                background-repeat: no-repeat;
+                background-position: center;
+                position: relative;
+                z-index: 5;
+                background-size: cover;
             }
         }
         &.gray {
@@ -683,6 +718,14 @@ h2.home-v2-header {
                 bottom: 0px;
                 left: 0px;
                 opacity: 0.5;
+                background-position: center;
+            }
+            .try-box {
+                background-image: url('https://localhost:8000/img/homeV2/background-images/focus-bubbles-3.svg');
+                background-repeat: no-repeat;
+                background-position: center;
+                position: relative;
+                z-index: 5;
             }
         }
         .our-focus-heading {

@@ -39,7 +39,7 @@
     justify-content: space-between;
     width: fit-content;
     position: relative;
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
     .news-article-inner-container {
         width: 380px;
         height: 420px;
@@ -358,6 +358,7 @@ h2.home-v2-header {
         box-shadow: 0px 4px 4px rgba(0,0,0,.25);
         img {
             margin: 20px auto;
+            max-width: 140px;
         }
     }
 }
@@ -398,6 +399,7 @@ h2.home-v2-header {
         height: 156px;
         box-shadow: 0px 4px 4px rgba(0,0,0,.25);
         margin: 0 10px;
+        padding-top: 5px;
         img {
             margin: 20px auto;
         }
@@ -411,6 +413,11 @@ h2.home-v2-header {
         border-radius: 25px;
         padding: 30px;
         margin: 0 10px;
+        min-height: 350px;
+        .home-v2-quote-inner-container {
+            position: absolute;
+            bottom: 30px;
+        }
         .home-v2-quote-text {
             color: #fff;
             font-family: 'Roboto Flex', sans-serif;
@@ -473,14 +480,21 @@ h2.home-v2-header {
         margin: 0 10px;
         opacity: 0.5;
         transition: all .5s;
+        min-height: 310px;
         .home-v2-project-title {
             font-family: 'Roboto Flex', sans-serif;
-            color: #111C3C;
+            color: #141F47;
             font-weight: 700;
             font-size: 18px;
             text-align: center;
-            margin-top: 10px;
+            margin-top: 18px;
             margin-bottom: 20px;
+            &.starlingx-project-title {
+                color: #330072;
+            }
+            &.airship-project-title {
+                color: #65C7C2;
+            }
         }
         .home-v2-project-text {
             font-family: 'Roboto Flex', sans-serif;
@@ -488,7 +502,7 @@ h2.home-v2-header {
             text-align: center;
         }
         img {
-            height: 115px;
+            height: 90px;
             width: auto;
             margin: 0 auto;
         }
@@ -739,13 +753,26 @@ h2.home-v2-header {
             margin: 25vh auto;
             z-index: 10;
             position: relative;
+            &.our-focus-heading-2 {
+                max-width: 900px;
+            }
             span {
-                display: inline-block;
-                font-size: 60px;
-                font-family: 'Roboto Condensed', sans-serif;
-                padding: 20px 40px;
-                border-radius: 70px;
-                margin: 15px 0;
+                &.our-focus-heading-primary {
+                    display: inline-block;
+                    font-size: 60px;
+                    font-family: 'Roboto Condensed', sans-serif;
+                    padding: 20px 40px;
+                    border-radius: 70px;
+                    margin: 15px 0;
+                }
+                &.our-focus-heading-top {
+                    margin-bottom: 25px;
+                    display: inline-block;
+                }
+                &.our-focus-heading-bottom {
+                    margin-top: 25px;
+                    display: inline-block;
+                }
                 &.our-focus-heading-1-db {
                     background-color: #1D80BC;
                     color: #fff;
@@ -757,6 +784,34 @@ h2.home-v2-header {
                 &.our-focus-heading-1-bl {
                     background-color: #000;
                     color: #28A4DB;
+                }
+                &.our-focus-heading-2-lw {
+                    background-color: #fff;
+                    color: #F4A93A;
+                }
+                &.our-focus-heading-2-dy {
+                    background-color: #D1872A;
+                    color: #000;
+                }
+                &.our-focus-heading-2-ly {
+                    background-color: #FBD688;
+                    color: #D1872A;
+                }
+                &.our-focus-heading-2-dw {
+                    background-color: #fff;
+                    color: #161616;
+                }
+                &.our-focus-heading-3-rd {
+                    background-color: #E61E24;
+                    color: #fff;
+                }
+                &.our-focus-heading-3-lb {
+                    background-color: #7CDFF4;
+                    color: #fff;
+                }
+                &.our-focus-heading-3-yl {
+                    background-color: #F4A93A;
+                    color: #161616;
                 }
             }
         }

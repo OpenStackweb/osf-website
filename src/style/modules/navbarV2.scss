@@ -1,0 +1,101 @@
+.home-v2-hero-wrapper {
+    .nav.nav-v2 {
+        background-color: unset;
+    }
+}
+
+.nav.nav-v2 {
+    .navbar-v2-container {
+        @media screen and (min-width: 1425px) {
+            width: 1400px;
+        }
+        @media screen and (max-width: 1199px) {
+            .nav-inner {
+                justify-content: center;
+            }
+        }
+    }
+    .nav-menu {
+        .bar-button-v2 {
+            font-family: 'Jura', sans-serif;
+            font-weight: 700;
+            background-color: rgba(0,0,0,0);
+            border: 1.5px solid #fff;
+            border-radius: 20px;
+            width: 90px;
+            text-transform: uppercase;
+            padding: 7px 5px;
+            margin-left: 40px;
+            @media screen and (max-width: 899px) {
+                margin-left: 15px;
+            }
+            @media screen and (max-width: 768px) {
+                margin-left: 0;
+            }
+            &:hover {
+                background-color: #e61e24;
+                border: 1.5px solid #e61e24;
+            }
+            &.bar-button-primary {
+                background-color: #E61E24;
+                border: none;
+                margin-left: 15px;
+                border: 1.5px solid #e61e24;
+                @media screen and (max-width: 899px) {
+                    margin-left: 5px;
+                }
+                @media screen and (max-width: 768px) {
+                    margin-left: 0;
+                }
+                &:hover {
+                    background-color: #9a0c28;
+                    border: 1.5px solid #9a0c28;
+                }
+            }
+        }
+        .navbar-item-v2 {
+            @media screen and (max-width: 899px) {
+                margin-left: 25px;
+                &:first-of-type {
+                    margin-left: 0;
+                }
+                @media screen and (max-width: 768px) {
+                    margin-left: 0;
+                }
+            }
+            .navbar-dropdown-btn-v2 {
+                font-family: 'Jura', sans-serif;
+                padding: 7.5px;
+                a {
+                    padding: 0;
+                }
+            }
+            &.navbar-btn-v2-primary {
+                margin-left: 12px;
+                @media screen and (max-width: 768px) {
+                    margin-left: 0;
+                }
+            }
+            &.navbar-item-v2-dropdown {
+                position: relative;
+                @media screen and (max-width: 768px) {
+                    margin-left: 0;
+                }
+                &:after {
+                    color: #fff;
+                    content: '';
+                    background-image: url('/img/navbar/navbar-v2-dropdown.svg');
+                    background-repeat: no-repeat;
+                    height: 8px;
+                    width: 8px;
+                    position: absolute;
+                    top: 15px;
+                    right: -5px;
+                    @media screen and (max-width: 768px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

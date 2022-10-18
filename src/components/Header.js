@@ -59,15 +59,15 @@ render() {
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-yellow">
                             <p className="home-v2-numbers-subheading">OpenStack is Deployed On</p>
-                            <p className="home-v2-numbers-title">40M Cores</p>
-                            <p className="home-v2-quote-subtitle">Around The World in 2022</p>
+                            <p className="home-v2-numbers-title">560+</p>
+                            <p className="home-v2-quote-subtitle">Supporting Organizations</p>
                         </div>
                     </div>
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-green">
-                            <p className="home-v2-numbers-subheading">OpenStack is Deployed On</p>
-                            <p className="home-v2-numbers-title">40M Cores</p>
-                            <p className="home-v2-quote-subtitle">Around The World in 2022</p>
+                            <p className="home-v2-numbers-subheading">110,000+</p>
+                            <p className="home-v2-numbers-title">Developers</p>
+                            <p className="home-v2-quote-subtitle">Around The World</p>
                         </div>
                     </div>
                     <div className="home-v2-numbers-box">

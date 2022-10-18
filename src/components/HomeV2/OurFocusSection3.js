@@ -46,7 +46,7 @@ const OurFocusSection3 = () => {
         // }
         // });
 
-        gsap.set(".try-box-1, .try-box-2", {y: 500});
+        gsap.set(".try-box-1, .try-box-2", {y: 800});
         // ScrollTrigger.defaults({markers: {startColor: "white", endColor: "white"}});
 
         // red section

@@ -33,22 +33,22 @@ const ProjectsSection = class extends React.Component {
                     </div>
                     <div className="home-v2-project-box">
                         <div className="home-v2-project">
-                            <img src="/img/homeV2/kata-containers.svg" />
-                            <h3 className="home-v2-project-title">Kata Containers</h3>
+                            <img src="/img/homeV2/starlingx.svg" />
+                            <h3 className="home-v2-project-title">StarlingX</h3>
                             <p className="home-v2-project-text">Edge cloud computing infrastructure for high performance, ultra-low latency applications.</p>
                         </div>
                     </div>
                     <div className="home-v2-project-box">
                         <div className="home-v2-project">
-                            <img src="/img/homeV2/kata-containers.svg" />
-                            <h3 className="home-v2-project-title">Kata Containers</h3>
+                            <img src="/img/homeV2/oilabs.svg" />
+                            <h3 className="home-v2-project-title">OpenInfra Labs</h3>
                             <p className="home-v2-project-text">Edge cloud computing infrastructure for high performance, ultra-low latency applications.</p>
                         </div>
                     </div>
                     <div className="home-v2-project-box">
                         <div className="home-v2-project">
-                            <img src="/img/homeV2/kata-containers.svg" />
-                            <h3 className="home-v2-project-title">Kata Containers</h3>
+                            <img src="/img/homeV2/airship.svg" />
+                            <h3 className="home-v2-project-title">Airship</h3>
                             <p className="home-v2-project-text">Edge cloud computing infrastructure for high performance, ultra-low latency applications.</p>
                         </div>
                     </div>

@@ -58,23 +58,23 @@ render() {
                     </div>
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-yellow">
-                            <p className="home-v2-numbers-subheading">OpenStack is Deployed On</p>
+                            <p className="home-v2-numbers-subheading">We are Powered By</p>
                             <p className="home-v2-numbers-title">560+</p>
                             <p className="home-v2-quote-subtitle">Supporting Organizations</p>
                         </div>
                     </div>
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-green">
-                            <p className="home-v2-numbers-subheading">110,000+</p>
-                            <p className="home-v2-numbers-title">Developers</p>
-                            <p className="home-v2-quote-subtitle">Around The World</p>
+                            <p className="home-v2-numbers-subheading">We Support</p>
+                            <p className="home-v2-numbers-title">110,000+</p>
+                            <p className="home-v2-quote-subtitle">Community Members Globally</p>
                         </div>
                     </div>
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-blue">
-                            <p className="home-v2-numbers-subheading">OpenStack is Deployed On</p>
-                            <p className="home-v2-numbers-title">40M Cores</p>
-                            <p className="home-v2-quote-subtitle">Around The World in 2022</p>
+                            <p className="home-v2-numbers-subheading">Our Community Spans</p>
+                            <p className="home-v2-numbers-title">180+</p>
+                            <p className="home-v2-quote-subtitle">Countries</p>
                         </div>
                     </div>
                     </Slider>

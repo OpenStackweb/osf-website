@@ -34,49 +34,66 @@ const QuotesSection = class extends React.Component {
                     <div className="home-v2-quote-box">
                         <div className="home-v2-quote">
                             <p className="home-v2-quote-text">Thanks to the #openstack infra team for the help to debug a mailing list issue. It's easy to forget how much effort goes into an open source community above writing the code: ticket handling, user registration, test infrastructure, web outreach and collaboration tools.</p>
-                            <p className="home-v2-quote-name">- Renee Wells</p>
-                            <p className="home-v2-quote-title">Product Designer, Quotient</p>
-                            <img src="/img/homeV2/microsoft-logo.png" />
+                            <div className="home-v2-quote-inner-container">
+                                <p className="home-v2-quote-name">- Renee Wells</p>
+                                <p className="home-v2-quote-title">Product Designer, Quotient</p>
+                                <img src="/img/homeV2/quotes-images/microsoft-logo.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="home-v2-quote-box">
+                        <div className="home-v2-quote">
+                            <p className="home-v2-quote-text">OpenInfra Foundation is one of the main reasons Kata Containers is seeing production adoption around the world from companies like Ant Group, AMD, and Baidu. They take on all of the tasks that developers don’t want to. And it works out well, because they’re so good at those things!</p>
+                            <div className="home-v2-quote-inner-container">
+                                <p className="home-v2-quote-name">— Travis Smith</p>
+                                <p className="home-v2-quote-title">Product Designer, Quotient</p>
+                                <img src="/img/homeV2/quotes-images/redhat.png" />
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div className="home-v2-quote-box">
+                        <div className="home-v2-quote">
+                            <p className="home-v2-quote-text">Today was a great day for @ZuulCI and @OpenStack at @leboncoinEng! Testing the load capacity of our primary #OpenStack cluster. Excited to add the second one tomorrow and perform more #ZuulCI builds on them!</p>
+                            <div className="home-v2-quote-inner-container">
+                                <p className="home-v2-quote-name">— Mark Collier</p>
+                                <p className="home-v2-quote-title">Product Designer, Quotient</p>
+                                <img src="/img/homeV2/quotes-images/kata-containers.png" />
+                            </div>
+                            
                         </div>
                     </div>
                     <div className="home-v2-quote-box">
                         <div className="home-v2-quote">
                             <p className="home-v2-quote-text">Thanks to the #openstack infra team for the help to debug a mailing list issue. It's easy to forget how much effort goes into an open source community above writing the code: ticket handling, user registration, test infrastructure, web outreach and collaboration tools.</p>
-                            <p className="home-v2-quote-name">- Renee Wells</p>
-                            <p className="home-v2-quote-title">Product Designer, Quotient</p>
-                            <img src="/img/homeV2/microsoft-logo.png" />
+                            <div className="home-v2-quote-inner-container">
+                                <p className="home-v2-quote-name">- Renee Wells</p>
+                                <p className="home-v2-quote-title">Product Designer, Quotient</p>
+                                <img src="/img/homeV2/quotes-images/microsoft-logo.png" />
+                            </div>
+                            
                         </div>
                     </div>
                     <div className="home-v2-quote-box">
                         <div className="home-v2-quote">
-                            <p className="home-v2-quote-text">Thanks to the #openstack infra team for the help to debug a mailing list issue. It's easy to forget how much effort goes into an open source community above writing the code: ticket handling, user registration, test infrastructure, web outreach and collaboration tools.</p>
-                            <p className="home-v2-quote-name">- Renee Wells</p>
-                            <p className="home-v2-quote-title">Product Designer, Quotient</p>
-                            <img src="/img/homeV2/microsoft-logo.png" />
+                            <p className="home-v2-quote-text">OpenInfra Foundation is one of the main reasons Kata Containers is seeing production adoption around the world from companies like Ant Group, AMD, and Baidu. They take on all of the tasks that developers don’t want to. And it works out well, because they’re so good at those things!</p>
+                            <div className="home-v2-quote-inner-container">
+                                <p className="home-v2-quote-name">— Travis Smith</p>
+                                <p className="home-v2-quote-title">Product Designer, Quotient</p>
+                                <img src="/img/homeV2/quotes-images/redhat.png" />
+                            </div>
+                            
                         </div>
                     </div>
                     <div className="home-v2-quote-box">
                         <div className="home-v2-quote">
-                            <p className="home-v2-quote-text">Thanks to the #openstack infra team for the help to debug a mailing list issue. It's easy to forget how much effort goes into an open source community above writing the code: ticket handling, user registration, test infrastructure, web outreach and collaboration tools.</p>
-                            <p className="home-v2-quote-name">- Renee Wells</p>
-                            <p className="home-v2-quote-title">Product Designer, Quotient</p>
-                            <img src="/img/homeV2/microsoft-logo.png" />
-                        </div>
-                    </div>
-                    <div className="home-v2-quote-box">
-                        <div className="home-v2-quote">
-                            <p className="home-v2-quote-text">Thanks to the #openstack infra team for the help to debug a mailing list issue. It's easy to forget how much effort goes into an open source community above writing the code: ticket handling, user registration, test infrastructure, web outreach and collaboration tools.</p>
-                            <p className="home-v2-quote-name">- Renee Wells</p>
-                            <p className="home-v2-quote-title">Product Designer, Quotient</p>
-                            <img src="/img/homeV2/microsoft-logo.png" />
-                        </div>
-                    </div>
-                    <div className="home-v2-quote-box">
-                        <div className="home-v2-quote">
-                            <p className="home-v2-quote-text">Thanks to the #openstack infra team for the help to debug a mailing list issue. It's easy to forget how much effort goes into an open source community above writing the code: ticket handling, user registration, test infrastructure, web outreach and collaboration tools.</p>
-                            <p className="home-v2-quote-name">- Renee Wells</p>
-                            <p className="home-v2-quote-title">Product Designer, Quotient</p>
-                            <img src="/img/homeV2/microsoft-logo.png" />
+                            <p className="home-v2-quote-text">Today was a great day for @ZuulCI and @OpenStack at @leboncoinEng! Testing the load capacity of our primary #OpenStack cluster. Excited to add the second one tomorrow and perform more #ZuulCI builds on them!</p>
+                            <div className="home-v2-quote-inner-container">
+                                <p className="home-v2-quote-name">— Mark Collier</p>
+                                <p className="home-v2-quote-title">Product Designer, Quotient</p>
+                                <img src="/img/homeV2/quotes-images/kata-containers.png" />
+                            </div>
+                            
                         </div>
                     </div>
                     </Slider>

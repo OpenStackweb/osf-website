@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar'
-import NavbarV2 from '../components/NavbarV2'
+import Navbar from '../components/Navbar'
 import SEO from '../components/SEO'
 
 import CompaniesSection from '../components/CompaniesSection'
@@ -13,14 +13,6 @@ import ProjectSection from '../components/ProjectSection'
 import WhyExpandSection from '../components/WhyExpandSection'
 import MainPitchSection from '../components/MainPitchSection'
 import { connect } from "react-redux";
-
-import OurFocusSection3 from '../components/HomeV2/OurFocusSection3'
-import SFASection from '../components/HomeV2/SFASection'
-import ProjectsSection from '../components/HomeV2/ProjectsSection'
-import QuotesSection from '../components/HomeV2/QuotesSection'
-import PlatinumMembersSection from '../components/HomeV2/PlatinumMembersSection'
-import CommunitiesSection from '../components/HomeV2/CommunitiesSection'
-import NewsSection from '../components/HomeV2/NewsSection'
 
 export const IndexPageTemplate = ({
   isLoggedUser,
@@ -32,37 +24,24 @@ export const IndexPageTemplate = ({
   sponsor,
 }) => (
   <div>
-    <div className="wrapper hero-background home-v2-hero-wrapper">
+    <div className="wrapper hero-background">
       <TopBar />
-      <NavbarV2 isLoggedUser={isLoggedUser} />
+      <Navbar isLoggedUser={isLoggedUser} />
       <Header upperTitle={header.upperTitle} title={header.title} subTitle={header.subTitle} image={header.image} buttons={header.buttons} isHome={true} />
     </div>
 
     <main className="main">
       <div className="content">
 
-        {/* <MainPitchSection mainpitch={mainpitch} /> */}
+        <MainPitchSection mainpitch={mainpitch} />
 
-        {/* <WhyExpandSection whyExpand={whyExpand} />
+        <WhyExpandSection whyExpand={whyExpand} />
 
         <ProjectSection projects={projects} />
 
         <PeopleSection people={people} />
 
-        <CompaniesSection sponsor={sponsor} /> */}
-
-        <OurFocusSection3 />
-
-        <SFASection />
-
-        <div className="home-v2-communities-section">
-          <ProjectsSection />
-          <QuotesSection />
-          <PlatinumMembersSection />
-          <CommunitiesSection />
-        </div>
-
-        <NewsSection />
+        <CompaniesSection sponsor={sponsor} />
 
       </div>
     </main>

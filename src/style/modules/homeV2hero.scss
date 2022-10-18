@@ -1,0 +1,153 @@
+.home-v2-hero-wrapper {
+    // background-image: url('/img/homeV2/background-images/hero-background.png');
+    background-image:
+            linear-gradient(0deg,
+              rgba(0,0,0, 1) 30%,
+              rgba(0,0,0, 0)), url(
+'/img/homeV2/background-images/hero-background.png');
+    background-color: #000;
+    @media screen and (min-width: 1000px) {
+        background-size: 100% auto;
+    }
+    .hero-content {
+        width: 100%;
+        margin-top: 100px;
+    }
+    .hero-subhead {
+        color: #FFB325;
+        font-family: 'Jura', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .hero-title {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        text-transform: uppercase;
+        max-width: 75%;
+        line-height: 1.2em;
+        .header-yellow {
+            color: #FFB325;
+        }
+    }
+    .hero-entry {
+        font-family: 'Roboto Flex', sans-serif;
+        max-width: 685px;
+        p {
+            line-height: 2em;
+        }
+    }
+    .hero-actions {
+        display: flex;
+        justify-content: space-between;
+        max-width: 520px;
+        margin: 40px 0 80px;
+        .hero-secondary-btn {
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 25px;
+            font-family: 'Jura', sans-serif;
+            text-align: center;
+            display: block;
+            font-size: 18px;
+            padding-top: 12px;
+            height: 50px;
+            width: 250px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        .hero-primary-btn {
+            color: #fff;
+            background-color: #E61E24;
+            border-radius: 25px;
+            font-family: 'Jura', sans-serif;
+            text-align: center;
+            display: block;
+            font-size: 18px;
+            padding-top: 12px;
+            height: 50px;
+            width: 250px;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover {
+                text-decoration: none;
+                background-color: #9a0c28;
+            }
+        }
+    }
+    .home-v2-numbers-box {
+        .home-v2-numbers-inner {
+            padding: 80px 60px;
+            border-radius: 25px;
+            margin: 10px;
+            &.home-v2-numbers-blue {
+                border: 2px solid #28A4DB;
+                background-color: rgba(7, 49, 105, .4);
+                .home-v2-numbers-title {
+                    color: #28A4DB;
+                }
+            }
+            &.home-v2-numbers-green {
+                border: 2px solid #39AE4A;
+                background-color: rgba(26, 62, 38, .4);
+                .home-v2-numbers-title {
+                    color: #39AE4A;
+                }
+            }
+            &.home-v2-numbers-yellow {
+                border: 2px solid #F4A93A;
+                background-color: rgba(117, 57, 11, .4);
+                .home-v2-numbers-title {
+                    color: #F4A93A;
+                }
+            }
+            &.home-v2-numbers-red {
+                border: 2px solid #C5152A;
+                background-color: rgba(110, 5, 45, .4);
+                .home-v2-numbers-title {
+                    color: #C5152A;
+                }
+            }
+            &.home-v2-numbers-subheading {
+                font-family: 'Jura', sans-serif;
+                text-transform: uppercase;
+                font-size: 18px;
+            }
+            .home-v2-numbers-title {
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 60px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            .home-v2-quote-subtitle {
+                font-family: 'Roboto Flex', sans-serif;
+            }
+
+        }
+    }
+    .home-v2-numbers-btn-container {
+        margin: 50px auto;
+        max-width: 152px;
+        display: flex;
+        justify-content: space-between;
+        .numbers-button {
+            height: 56px;
+            width: 56px;
+            border-radius: 50%;
+            background-color: #fff;
+            color: #111C3C;
+            border: none;
+            transition: all .5s;
+            &:hover {
+                box-shadow: 0px 4px 4px rgba(0,0,0,.25);
+            }
+            img {
+                margin: 0 auto;
+                display: block;
+                height: 15px;
+                width: 15px;
+                top: calc(50% - 7px);
+            }
+        }
+    }
+}

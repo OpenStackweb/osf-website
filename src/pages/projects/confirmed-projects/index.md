@@ -216,7 +216,7 @@ projectList:
       - icon: /img/icon1.svg
         text: EDGE COMPUTING
     category: working-groups
-  - logo: /img/projects-img/cfn-logo.svg
+  - logo: /img/projects-img/CFN-logo.jpeg
     button:
       link: https://youtu.be/hzmoQUYqt3s
       text: CFN Strategy Video

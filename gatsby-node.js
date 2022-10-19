@@ -125,7 +125,7 @@ exports.onPreBootstrap = async () => {
     }
   };
 
-  const accessToken = await getAccessToken(config, buildScopes).then(({ token }) => token.access_token);
+  const accessToken = await getAccessToken(config, buildScopes).then(({ token }) => token.access_token).catch(e => console.log('Access Token error', e));
 
   // settings
   writeToJson('src/content/settings.json', globalSettings);

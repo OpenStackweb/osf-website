@@ -51,18 +51,18 @@ export const IndexPageTemplate = ({
 
         <CompaniesSection sponsor={sponsor} /> */}
 
-        <OurFocusSection3 />
+        {/* <OurFocusSection3 /> */}
 
-        <SFASection />
+        {/* <SFASection /> */}
 
-        <div className="home-v2-communities-section home-v2-communities-section-1">
+        {/* <div className="home-v2-communities-section home-v2-communities-section-1">
           <ProjectsSection />
           <QuotesSection />
         </div>
         <div className="home-v2-communities-section home-v2-communities-section-2">
           <PlatinumMembersSection />
           <CommunitiesSection />
-        </div>
+        </div> */}
 
         <NewsSection />
 

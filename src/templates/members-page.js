@@ -11,6 +11,10 @@ import LinkComponent from '../components/LinkComponent';
 import {doRegistration} from '../utils/security'
 import { connect } from "react-redux";
 
+import sponsoredProjects from "../content/sponsored-projects.json";
+import { getSubProjectById } from '../utils/sponsoredProjects';
+import { getEnvVariable, MEMBERS_SUBPROJECT_ID } from '../utils/envVariables';
+
 import leftArrow from '../img/svg/arrow-left.svg'
 
 export const MembersPageTemplate = ({
@@ -21,13 +25,14 @@ export const MembersPageTemplate = ({
     whyJoin,
     memberBenefits,
     quote,
-    companyTier,
     help,
     footer,
     content,
     contentComponent
 }) => {
-    const PageContent = contentComponent || Content    
+    const PageContent = contentComponent || Content;
+
+    const subProject = getSubProjectById(sponsoredProjects, parseInt(getEnvVariable(MEMBERS_SUBPROJECT_ID)));
 
     return (
         <div>
@@ -248,38 +253,30 @@ export const MembersPageTemplate = ({
                         </div>
                     </div>
                 }
-                {companyTier && companyTier.display &&
-                    <div className="company">
-                        <div className="company-title">
-                            {companyTier.title}
-                        </div>
-                        <span>
-                            {companyTier.subTitle}
-                        </span>
-                        <hr />
-                        {companyTier.tiers.map((t, tierIndex) => {
-                            return (
-                                <div className="company-tier" key={`company-tier-${tierIndex}`}>
-                                    <span className="company-tier-title">{t.title}</span>
-                                    {tierIndex !== 2 && <span className="company-tier-title-mobile">{t.mobileTitle}</span>}
-                                    <div className={`company-tier-logos ${t.mobileTitle.replace(/ .*/, '').toLowerCase()}`}>
-                                        {t.companies.map((company, index) => {
-                                            return (
-                                                <img key={`company-tier-${tierIndex}-${index}`}
-                                                    src={
-                                                        (company.logo?.extension === 'svg' || company.logo?.extension === 'gif') && !company.logo?.childImageSharp ?
-                                                            company.logo.publicURL
-                                                            :
-                                                            !!company.logo?.childImageSharp ? company.logo?.childImageSharp.fluid.src : company.logo
-                                                    } />
-                                            )
-                                        })}
-                                    </div>
-                                </div>
-                            )
-                        })}
+                <div className="company">
+                    <div className="company-title">
+                        {subProject.name}
                     </div>
-                }
+                    <span dangerouslySetInnerHTML={{ __html: subProject.description }} />
+                    <hr />
+
+                    {subProject.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
+                        return (
+                            <div className="company-tier" key={`company-tier-${tierIndex}`}>
+                                <span className="company-tier-title">{t.name}</span>
+                                {tierIndex !== 2 && <span className="company-tier-title-mobile">{t.name}</span>}
+                                <div className={`company-tier-logos ${t.name.replace(/ .*/, '').toLowerCase()}`}>
+                                    {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
+                                        return (
+                                            <img key={`company-tier-${tierIndex}-${index}`}
+                                                src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
+                                        )
+                                    })}
+                                </div>
+                            </div>
+                        )
+                    })}
+                </div>
                 {help && help.display &&
                     <div className="help">
                         <img src={!!help.picture.childImageSharp ? help.picture.childImageSharp.fluid.src : help.picture} />
@@ -482,28 +479,7 @@ export const membersPageQuery = graphql`
                     publicURL
                 }
             }
-        }
-        companyTier {
-            display
-            title
-            subTitle
-            tiers {
-                title
-                mobileTitle
-                companies {
-                    logo {
-                        childImageSharp {
-                            fluid(maxWidth: 640, quality: 64) {
-                              ...GatsbyImageSharpFluid
-                            }
-                        }
-                        publicURL
-                        extension
-                    }
-                    alt
-                }
-            }
-        }
+        }        
         help {
             display
             title

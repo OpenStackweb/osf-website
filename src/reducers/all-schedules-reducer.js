@@ -8,11 +8,11 @@ import {RESET_STATE, SYNC_DATA} from '../actions/base-actions';
 import {GET_EVENT_DATA} from '../actions/event-actions';
 import {ADD_TO_SCHEDULE, REMOVE_FROM_SCHEDULE, GET_USER_PROFILE} from "../actions/user-actions";
 
-const scheduleEvents = filterEventsByTags(eventsData);
+// const scheduleEvents = filterEventsByTags(eventsData);
 
 const DEFAULT_STATE = {
     allEvents: [],
-    allScheduleEvents: scheduleEvents,
+    allScheduleEvents: [],
     schedules: []
 };
 

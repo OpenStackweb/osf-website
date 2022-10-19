@@ -1,13 +1,20 @@
 .home-v2-hero-wrapper {
+    .hero-body {
+        @media screen and (max-width: 600px) {
+            padding-top: 50px;
+        }
+    }
     // background-image: url('/img/homeV2/background-images/hero-background.png');
     background-image:
             linear-gradient(0deg,
-              rgba(0,0,0, 1) 30%,
+              rgba(0,0,0, 1) 35%,
               rgba(0,0,0, 0)), url(
 '/img/homeV2/background-images/hero-background.png');
     background-color: #000;
-    @media screen and (min-width: 1000px) {
-        background-size: 100% auto;
+    background-size: auto;
+    @media screen and (max-width: 1050px) {
+        background-size: auto;
+        background-image: linear-gradient(0deg,rgba(0,0,0, 1) 40%, rgba(0,0,0, 0)), url('/img/homeV2/background-images/hero-background.png');
     }
     .hero-content {
         width: 100%;
@@ -74,6 +81,14 @@
                 background-color: #9a0c28;
             }
         }
+        @media screen and (max-width: 600px) {
+            display: block;
+            .hero-primary-btn,
+            .hero-secondary-btn {
+                width: 100%;
+                margin: 20px 0;
+            }
+        }
     }
     .home-v2-numbers-box {
         .home-v2-numbers-inner {
@@ -119,8 +134,32 @@
                 font-weight: 700;
                 text-transform: uppercase;
             }
-            .home-v2-quote-subtitle {
+            .home-v2-numbers-subtitle {
                 font-family: 'Roboto Flex', sans-serif;
+            }
+            @media screen and (max-width: 1000px) {
+                padding: 30px 40px;
+                .home-v2-numbers-title {
+                    font-size: 50px;
+                }
+                .home-v2-numbers-subtitle {
+                    font-size: 16px;
+                }
+                .home-v2-numbers-subheading {
+                    font-size: 16px;
+                }
+            }
+            @media screen and (max-width: 768px) {
+                min-height: 200px;
+                .home-v2-numbers-title {
+                    font-size: 32px;
+                }
+            }
+            @media screen and (max-width: 600px) {
+                min-height: auto;
+                .home-v2-numbers-title {
+                    font-size: 32px;
+                }
             }
 
         }

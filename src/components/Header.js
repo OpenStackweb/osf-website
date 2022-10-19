@@ -2,7 +2,37 @@ import React from 'react'
 import LinkComponent from './LinkComponent';
 
 const Header = class extends React.Component {
-  render() {
+  constructor(props) {
+    super(props);
+    this.next = this.next.bind(this);
+    this.previous = this.previous.bind(this);
+  }
+next() {
+    this.slider.slickNext();
+  }
+  previous() {
+    this.slider.slickPrev();
+  }
+
+render() {
+    const settings = {
+        infinite: true,
+        slidesToShow: 2,
+        speed: 500,
+        arrows: false,
+        slidesToScroll: 1,
+        infinite: true,
+         responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true
+          }
+        }
+      ]
+    };
     let { upperTitle, title, subTitle, buttons, isHome, link } = this.props;
 
     return (     
@@ -10,14 +40,6 @@ const Header = class extends React.Component {
         <section className="hero-main is-primary hero">
           <div className="hero-body">
             <div className="container">
-<<<<<<< HEAD
-              {isHome ? 
-              <div className="hero-content">
-                {upperTitle && <div className="hero-subhead">{upperTitle}</div> }                
-                <h3 className="hero-title">{title}</h3> 
-                <div className="hero-entry">
-                  {subTitle}
-=======
               {isHome ?
               <div> 
                 <div className="hero-content">
@@ -40,28 +62,28 @@ const Header = class extends React.Component {
                         <div className="home-v2-numbers-inner home-v2-numbers-red">
                             <p className="home-v2-numbers-subheading">OpenStack is Deployed On</p>
                             <p className="home-v2-numbers-title">40M Cores</p>
-                            <p className="home-v2-quote-subtitle">Around The World in 2022</p>
+                            <p className="home-v2-numbers-subtitle">Around The World in 2022</p>
                         </div>
                     </div>
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-yellow">
                             <p className="home-v2-numbers-subheading">We are Powered By</p>
                             <p className="home-v2-numbers-title">560+</p>
-                            <p className="home-v2-quote-subtitle">Supporting Organizations</p>
+                            <p className="home-v2-numbers-subtitle">Supporting Organizations</p>
                         </div>
                     </div>
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-green">
                             <p className="home-v2-numbers-subheading">We Support</p>
                             <p className="home-v2-numbers-title">110,000+</p>
-                            <p className="home-v2-quote-subtitle">Community Members Globally</p>
+                            <p className="home-v2-numbers-subtitle">Community Members Globally</p>
                         </div>
                     </div>
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-blue">
                             <p className="home-v2-numbers-subheading">Our Community Spans</p>
                             <p className="home-v2-numbers-title">180+</p>
-                            <p className="home-v2-quote-subtitle">Countries</p>
+                            <p className="home-v2-numbers-subtitle">Countries</p>
                         </div>
                     </div>
                     </Slider>
@@ -72,7 +94,6 @@ const Header = class extends React.Component {
                     <button className="numbers-button" onClick={this.next}>
                         <img src="/img/homeV2/next-arrow.svg" />
                     </button>
->>>>>>> eb92d3c6 (Added images and final text to homepage revision)
                 </div>
                 <div className="hero-actions">
                   {buttons && buttons.map((button, index) => {

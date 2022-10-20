@@ -10630,10 +10630,10 @@ fstream@^1.0.0, fstream@^1.0.12:
     mkdirp ">=0.5 0"
     rimraf "2"
 
-full-schedule-widget@1.1.48:
-  version "1.1.48"
-  resolved "https://registry.yarnpkg.com/full-schedule-widget/-/full-schedule-widget-1.1.48.tgz#47d67c3a6b43a5c9e4c02ea30b390c807d2ad651"
-  integrity sha512-Rzmd+gkAvrWYmsJVrlbsLzUEPAN52KwdRccgrwZBSKm9WEHbXi6pBn/oIgJszyr1skO40Tqu7LtUZyzSXgtt2Q==
+full-schedule-widget@1.1.49:
+  version "1.1.49"
+  resolved "https://registry.yarnpkg.com/full-schedule-widget/-/full-schedule-widget-1.1.49.tgz#62d4df38d94c2f9e20c6e6552e0750c3d90793e3"
+  integrity sha512-0IjGSXy1Vzb/MFsKG/0pR4K5+B4R03+ELfavfuHJF6Kj0yetdFEwgzUt8XTkU5Qb/8f210iC0gWKB2qif6pAhA==
   dependencies:
     bootstrap "^5.1.3"
     pure-react-carousel "^1.27.4"
@@ -16166,10 +16166,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-navigation-widget@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/navigation-widget/-/navigation-widget-1.0.9.tgz#6839007be86f4b90be719c4f8e80207893070d5f"
-  integrity sha512-kTVKKnEMNovDmaNBMQqWSYB/t70Ui+DjBWEQxqfSiaOaExCtd+LpK5vBBpo/HLIphJTjicQw7D7qxVP+Kenwcw==
+navigation-widget@^1.0.12:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/navigation-widget/-/navigation-widget-1.0.16.tgz#a86a2dc1a6e5232b6893e7dfc479ff5f6ffb6dc8"
+  integrity sha512-qQLvhKgGMBfZTTLrmVtSlHqWWXI0H1iCBd2R5lSSgqbwX4x83pZ/E2FXlsT1j4jj2XqW3NEWafsfer02yg1aFA==
 
 needle@^2.2.1:
   version "2.6.0"

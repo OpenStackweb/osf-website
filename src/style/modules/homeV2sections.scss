@@ -47,6 +47,9 @@
         img {
             margin-bottom: 30px;
         }
+        @media screen and (max-width: 420px) {
+            width: 300px;
+        }
         .news-article-intro-text {
             font-family: 'Jura', sans-serif;
             text-transform: uppercase;
@@ -292,6 +295,17 @@ h2.home-v2-header {
                 border: 1px solid #9a0c28;
             }
         }
+        @media screen and (max-width: 992px) {
+            gap: 20px;
+        }
+        @media screen and (max-width: 600px) {
+            display: block;
+            .home-v2-community-btn {
+                width: 100%;
+                max-width: none;
+                margin: 10px auto;
+            }
+        }
     }
 }
 
@@ -443,6 +457,25 @@ h2.home-v2-header {
             opacity: 0.5;
             transition: all 0.5s;
         }
+        @media screen and (max-width: 991px) {
+            .home-v2-quote-text,
+            .home-v2-quote-name,
+            .home-v2-quote-title {
+                opacity: 1;
+            }
+        }
+        @media screen and (max-width: 767px) {
+            min-height: 425px;
+        }
+        @media screen and (max-width: 550px) {
+            min-height: 350px;
+        }
+        @media screen and (max-width: 440px) {
+            min-height: 400px;
+        }
+        @media screen and (max-width: 400px) {
+            min-height: 350px;
+        }
     }
 }
 
@@ -481,6 +514,23 @@ h2.home-v2-header {
         opacity: 0.5;
         transition: all .5s;
         min-height: 310px;
+        @media screen and (max-width: 1199px) {
+            min-height: 350px;
+        }
+        @media screen and (max-width: 991px) {
+            min-height: 300px;
+        }
+        @media screen and (max-width: 767px) {
+            min-height: 275px;
+            padding-bottom: 0px;
+        }
+        @media screen and (max-width: 375px) {
+            min-height: 325px;
+        }
+        @media screen and (max-width: 350px) {
+            opacity: 1;
+            min-height: 275px;
+        }
         .home-v2-project-title {
             font-family: 'Roboto Flex', sans-serif;
             color: #141F47;
@@ -566,6 +616,19 @@ h2.home-v2-header {
                             width: 100%;
                             background-color: #fff;
                         }
+                    }
+                }
+            }
+            @media screen and (max-width: 575px) {
+                margin: 0 auto;
+                padding-top: 0;
+                margin-top: 0;
+                ul {
+                    margin: 0 auto;
+                    display: block;
+                    li {
+                        margin: 20px auto;
+                        width: 100px;
                     }
                 }
             }

@@ -14,7 +14,34 @@ const ProjectsSection = class extends React.Component {
             speed: 500,
             autoplay: true,
             autoplaySpeed: 10000,
-            arrows: false
+            arrows: false,
+            responsive: [
+                {
+                  breakpoint: 991,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true
+                  }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1,
+                      infinite: true
+                    }
+                  },
+                  {
+                    breakpoint: 350,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1,
+                      infinite: true,
+                      centerMode: false
+                    }
+                  }
+              ]
         };
         return (
             <div className="container">

@@ -24,7 +24,31 @@ const QuotesSection = class extends React.Component {
             centerPadding: "60px",
             slidesToShow: 3,
             speed: 500,
-            arrows: false
+            arrows: false,
+            responsive: [
+                {
+                  breakpoint: 992,
+                  settings: {
+                    slidesToShow: 2,
+                    centerMode: false,
+                    slidesToScroll: 1,
+                    infinite: true
+                  }
+                },
+                {
+                    breakpoint: 550,
+                    settings: {
+                      slidesToShow: 1,
+                    }
+                  },
+                  {
+                    breakpoint: 400,
+                    settings: {
+                      slidesToShow: 1,
+                      centerMode: false,
+                    }
+                  },
+              ]
         };
         return (
             <div className="container">

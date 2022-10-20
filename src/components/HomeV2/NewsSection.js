@@ -12,9 +12,10 @@ const NewsSection = class extends React.Component {
     
     
       prevBoxClick = (e) => {
+        let newsScrollWidth = window.innerWidth >= 420 ? 410 : 330;
         if(this.state.newsOffsetKey >= 1) {
             this.setState({
-                newsOffset: this.state.newsOffset -= 410,
+                newsOffset: this.state.newsOffset -= newsScrollWidth,
                 newsOffsetKey: this.state.newsOffsetKey -= 1
             })
         } else {
@@ -24,10 +25,11 @@ const NewsSection = class extends React.Component {
 
       nextBoxClick = (e) => {
         let newsScrollAmount = window.innerWidth >= 1000 ? 3 : 4;
+        let newsScrollWidth = window.innerWidth >= 420 ? 410 : 330;
         console.log(newsScrollAmount);
         if(this.state.newsOffsetKey <= newsScrollAmount) {
             this.setState({
-                newsOffset: this.state.newsOffset += 410,
+                newsOffset: this.state.newsOffset += newsScrollWidth,
                 newsOffsetKey: this.state.newsOffsetKey += 1
             })
         } else {

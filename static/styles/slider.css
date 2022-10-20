@@ -28,3 +28,9 @@
 .home-v2-projects-container .slick-track {
     left: -127px;
 }
+
+@media screen and (max-width: 767px) {
+    .home-v2-projects-container .slick-track {
+        left: 0px;
+    }
+}

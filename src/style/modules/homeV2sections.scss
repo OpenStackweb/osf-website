@@ -801,6 +801,9 @@ h2.home-v2-header {
             margin: 25vh auto;
             z-index: 10;
             position: relative;
+            .our-focus-heading-break {
+                display: none;
+            }
             &.our-focus-heading-2 {
                 max-width: 900px;
             }
@@ -864,6 +867,53 @@ h2.home-v2-header {
             }
         }
       }
+
+      .scroller-container {
+        overflow: hidden;
+        @media screen and (max-width: 1005px) {
+            .try-panel .try-box {
+                margin-left: 0;
+            }
+        }
+    
+        @media screen and (max-width: 900px) {
+            .try-panel .try-box {
+                margin-left: 0;
+                background-size: cover;
+                .our-focus-heading {
+                    font-size: 25px;
+                    .our-focus-heading-break {
+                        display: inline-block;
+                    }
+                    span.our-focus-heading-primary {
+                        font-size: 40px;
+                    }
+                    .our-focus-heading-top {
+                        margin-bottom: 10px;
+                    }
+                    .our-focus-heading-bottom {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 400px) {
+            .try-panel .try-box {
+                .our-focus-heading {
+                    font-size: 22px;
+                    span.our-focus-heading-primary {
+                        font-size: 30px;
+                    }
+                    .our-focus-heading-top {
+                        margin-bottom: 5px;
+                    }
+                    .our-focus-heading-bottom {
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
 
 
 

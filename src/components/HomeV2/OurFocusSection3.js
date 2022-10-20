@@ -97,6 +97,7 @@ const OurFocusSection3 = () => {
       }, "500")
   }, [])
   return (  
+        <div className="scroller-container">
             <div className="try-3 scroller">
                     <div className="try-container">
   
@@ -108,7 +109,7 @@ const OurFocusSection3 = () => {
                         
                         <section className="try-panel red">
                             <div className="try-box-2 try-box">
-                                <h2 className="our-focus-heading our-focus-heading-2"><span className="our-focus-heading-top">We Build Communities </span><br /><span className="our-focus-heading-primary our-focus-heading-2-lw">Who</span> <span className="our-focus-heading-primary our-focus-heading-2-dy">Write</span> <span className="our-focus-heading-primary our-focus-heading-2-ly">Infrastructure</span> <span className="our-focus-heading-primary our-focus-heading-2-dw">Software</span> <br /><span className="our-focus-heading-bottom">That Runs In Production</span></h2>
+                                <h2 className="our-focus-heading our-focus-heading-2"><span className="our-focus-heading-top">We Build Communities </span><br /><span className="our-focus-heading-primary our-focus-heading-2-lw">Who</span> <span className="our-focus-heading-primary our-focus-heading-2-dy">Write</span> <br className="our-focus-heading-break" /> <span className="our-focus-heading-primary our-focus-heading-2-ly">Infrastructure</span> <span className="our-focus-heading-primary our-focus-heading-2-dw">Software</span> <br /><span className="our-focus-heading-bottom">That Runs In Production</span></h2>
                             </div>
                         </section>
                         
@@ -119,6 +120,7 @@ const OurFocusSection3 = () => {
                         </section>
                         </div>
             </div>
+        </div>
   )
   }
 

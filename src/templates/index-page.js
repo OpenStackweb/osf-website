@@ -51,7 +51,7 @@ export const IndexPageTemplate = ({
 
         <CompaniesSection sponsor={sponsor} /> */}
 
-        {/* <OurFocusSection3 /> */}
+        <OurFocusSection3 />
 
         {/* <SFASection /> */}
 

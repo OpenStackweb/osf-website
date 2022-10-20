@@ -1,6 +1,6 @@
 import scheduleReducer from './schedule-reducer';
 import summitData from '../content/summit.json';
-// import eventsData from '../content/events.json';
+import eventsData from '../content/events.json';
 import {filterEventsByTags} from '../utils/schedule';
 import {LOGOUT_USER} from "openstack-uicore-foundation/lib/actions";
 import {UPDATE_FILTER, UPDATE_FILTERS, CHANGE_VIEW, CHANGE_TIMEZONE, RELOAD_SCHED_DATA , RELOAD_USER_PROFILE} from '../actions/schedule-actions'
@@ -8,11 +8,11 @@ import {RESET_STATE, SYNC_DATA} from '../actions/base-actions';
 import {GET_EVENT_DATA} from '../actions/event-actions';
 import {ADD_TO_SCHEDULE, REMOVE_FROM_SCHEDULE, GET_USER_PROFILE} from "../actions/user-actions";
 
-// const scheduleEvents = filterEventsByTags(eventsData);
+const scheduleEvents = filterEventsByTags(eventsData);
 
 const DEFAULT_STATE = {
-    allEvents: [],
-    allScheduleEvents: [],
+    allEvents: eventsData,
+    allScheduleEvents: scheduleEvents,
     schedules: []
 };
 

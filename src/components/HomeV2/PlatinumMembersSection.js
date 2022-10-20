@@ -14,7 +14,17 @@ const PlatinumMembersSection = class extends React.Component {
             slidesToShow: 3,
             slidesToScroll: 12,
             infinite: true,
-            arrows: false
+            arrows: false,
+            responsive: [
+                {
+                  breakpoint: 767,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 12,
+                    infinite: true
+                  }
+                },
+              ]
         };
         const settings2 = {
             speed: 120000,
@@ -24,7 +34,17 @@ const PlatinumMembersSection = class extends React.Component {
             slidesToShow: 3,
             slidesToScroll: 12,
             infinite: true,
-            arrows: false
+            arrows: false,
+            responsive: [
+                {
+                  breakpoint: 767,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 12,
+                    infinite: true
+                  }
+                },
+              ]
         };
         return (
             <div className="container">

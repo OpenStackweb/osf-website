@@ -59,10 +59,10 @@ export const IndexPageTemplate = ({
           <ProjectsSection />
           <QuotesSection />
         </div>
-        {/* <div className="home-v2-communities-section home-v2-communities-section-2">
+        <div className="home-v2-communities-section home-v2-communities-section-2">
           <PlatinumMembersSection />
           <CommunitiesSection />
-        </div> */}
+        </div>
 
         <NewsSection />
 

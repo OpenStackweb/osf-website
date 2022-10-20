@@ -309,24 +309,6 @@ h2.home-v2-header {
     }
 }
 
-.home-v2-gold-container-offset > div
-{
-    > div  {
-        > div {
-            left: 102px !important;
-        }
-    }
-}
-
-.home-v2-platinum-container-offset > div
-{
-    > div  {
-        > div {
-            left: 210px !important;
-        }
-    }
-}
-
 .home-v2-gold-container {
     position: relative;
     width: 100%;
@@ -416,6 +398,9 @@ h2.home-v2-header {
         padding-top: 5px;
         img {
             margin: 20px auto;
+        }
+        @media screen and (max-width: 400px) {
+            height: 140px;
         }
     }
 }

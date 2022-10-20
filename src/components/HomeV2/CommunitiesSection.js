@@ -7,24 +7,82 @@ const CommunitiesSection = class extends React.Component {
     
     render() {
         const settings1 = {
-            speed: 72000,
+            speed: 90000,
             autoplay: true,
             autoplaySpeed: 0,
             cssEase: 'linear',
             slidesToShow: 6,
             slidesToScroll: 18,
             infinite: true,
-            arrows: false
+            arrows: false,
+            responsive: [
+                {
+                  breakpoint: 991,
+                  settings: {
+                    speed: 120000,
+                    slidesToShow: 4,
+                    slidesToScroll: 18,
+                    infinite: true
+                  }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                      speed: 120000,
+                      slidesToShow: 3,
+                      slidesToScroll: 18,
+                      infinite: true
+                    }
+                  },
+                  {
+                    breakpoint: 475,
+                    settings: {
+                      speed: 120000,
+                      slidesToShow: 2,
+                      slidesToScroll: 18,
+                      infinite: true
+                    }
+                  },
+              ]
         };
         const settings2 = {
-            speed: 72000,
+            speed: 90000,
             autoplay: true,
             autoplaySpeed: 0,
             cssEase: 'linear',
             slidesToShow: 6,
             slidesToScroll: 18,
             infinite: true,
-            arrows: false
+            arrows: false,
+            responsive: [
+                {
+                  breakpoint: 991,
+                  settings: {
+                    speed: 120000,
+                    slidesToShow: 4,
+                    slidesToScroll: 18,
+                    infinite: true
+                  }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                      speed: 120000,
+                      slidesToShow: 3,
+                      slidesToScroll: 18,
+                      infinite: true
+                    }
+                  },
+                  {
+                    breakpoint: 475,
+                    settings: {
+                      speed: 120000,
+                      slidesToShow: 2,
+                      slidesToScroll: 18,
+                      infinite: true
+                    }
+                  },
+              ]
         };
         return (
             <div className="container">

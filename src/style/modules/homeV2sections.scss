@@ -19,8 +19,12 @@
         background-color: #fff;
         color: #111C3C;
         margin: 20px;
+        &.news-article-button-inactive {
+            opacity: 0.5;
+        }
         &:hover {
             cursor: pointer;
+            box-shadow: 0px 4px 4px rgba(0,0,0,.25);
         }
         img {
             margin: 0 auto;
@@ -205,6 +209,11 @@ h2.home-v2-header {
             border: none;
             border-radius: 25px;
             margin-top: 20px;
+            transition: all 0.3s;
+            &:hover {
+                background-color: #9a0c28;
+                text-decoration: underline;
+            }
         }
         @media screen and (min-width: 576px) {
             margin-top: 50px;
@@ -228,7 +237,7 @@ h2.home-v2-header {
 .home-v2-communities-section {
     background-color: #F6F6F5;
     padding-bottom: 100px;
-    padding-top: 120px;
+    padding-top: 10px;
     &.home-v2-communities-section-1 {
         background-image: url('/img/homeV2/background-images/communities-background-1.svg');
         background-repeat: no-repeat;
@@ -270,6 +279,10 @@ h2.home-v2-header {
         a {
             display: inline-block;
             width: 100%;
+            color: #161616;
+            &:hover {
+                color: #fff;
+            }
         }
         .home-v2-community-btn {
             max-width: 344px;
@@ -284,13 +297,19 @@ h2.home-v2-header {
             font-family: 'Jura', sans-serif;
             text-transform: uppercase;
             font-size: 18px;
+            transition: all 0.3s;
+            &:hover {
+                background-color: #E61E24;
+                border: 1px solid #E61E24;
+                color: #fff;
+            }
         }
         .home-v2-community-btn-primary {
             background-color: #E61E24;
             border: 1px solid #E61E24;
             color: #fff;
             &:hover {
-                text-decoration: none;
+                text-decoration: underline;
                 background-color: #9a0c28;
                 border: 1px solid #9a0c28;
             }
@@ -407,6 +426,47 @@ h2.home-v2-header {
 
 .home-v2-quotes-container {
     margin-top: 100px;
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 75px;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(90deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
+        z-index: 100;
+        @media screen and (max-width: 991px) {
+            display: none;
+        }
+        @media screen and (max-width: 550px) {
+            display: block;
+            width: 25px;
+        }
+        @media screen and (max-width: 400px) {
+            display: none;
+        }
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 75px;
+        top: 0;
+        right: 0;
+        background-image: linear-gradient(270deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
+        z-index: 100;
+        @media screen and (max-width: 991px) {
+            display: none;
+        }
+        @media screen and (max-width: 550px) {
+            display: block;
+            width: 25px;
+        }
+        @media screen and (max-width: 400px) {
+            display: none;
+        }
+    }
     .home-v2-quote {
         background-color: #272727;
         border-radius: 25px;
@@ -491,6 +551,33 @@ h2.home-v2-header {
 }
 
 .home-v2-projects-container {
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 75px;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(90deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
+        z-index: 100;
+        @media screen and (max-width: 350px) {
+            display: none;
+        }
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 75px;
+        top: 0;
+        right: 0;
+        background-image: linear-gradient(270deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
+        z-index: 100;
+        @media screen and (max-width: 350px) {
+            display: none;
+        }
+    }
     .home-v2-project {
         background-color: #fff;
         border-radius: 25px;
@@ -806,6 +893,18 @@ h2.home-v2-header {
             }
             &.our-focus-heading-2 {
                 max-width: 900px;
+            }
+            .our-focus-heading-link {
+                font-size: 28px;
+                position: relative;
+                color: #fff;
+                &:hover {
+                    text-decoration: underline;
+                }
+                img {
+                    position: relative;
+                    bottom: 5px;
+                }
             }
             span {
                 &.our-focus-heading-primary {

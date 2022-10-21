@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react"
 const WhatWeDoSection = () => {
     const projectValues = [
-        { id: 0, text: "1 - Infrastruture has grown from being strictly in datacenters, to being composed of an evolving mix of bare metal, VMs, and containers, and now the edge. More technology is needed to meet all of thees new and diverse use cases. This is why we exist.", img: "/img/homeV2/sfa-2.svg", activeImg: "/img/homeV2/sfa-1-active.svg", link: "/test1" },
-        { id: 1, text: "2 - Infrastruture has grown from being strictly in datacenters, to being composed of an evolving mix of bare metal, VMs, and containers, and now the edge. More technology is needed to meet all of thees new and diverse use cases. This is why we exist.", img: "/img/homeV2/sfa-2.svg", activeImg: "/img/homeV2/sfa-1-active.svg", link: "/test2" },
-        { id: 2, text: "3 - Infrastruture has grown from being strictly in datacenters, to being composed of an evolving mix of bare metal, VMs, and containers, and now the edge. More technology is needed to meet all of thees new and diverse use cases. This is why we exist.", img: "/img/homeV2/sfa-3.svg", activeImg: "/img/homeV2/sfa-1-active.svg", link: "/test3" },
-        { id: 3, text: "4 - Infrastruture has grown from being strictly in datacenters, to being composed of an evolving mix of bare metal, VMs, and containers, and now the edge. More technology is needed to meet all of thees new and diverse use cases. This is why we exist.", img: "/img/homeV2/sfa-4.svg", activeImg: "/img/homeV2/sfa-1-active.svg", link: "/test4" },
-        { id: 4, text: "5 - Infrastruture has grown from being strictly in datacenters, to being composed of an evolving mix of bare metal, VMs, and containers, and now the edge. More technology is needed to meet all of thees new and diverse use cases. This is why we exist.", img: "/img/homeV2/sfa-5.svg", activeImg: "/img/homeV2/sfa-1-active.svg", link: "/test5" }
+        { id: 0, text: "1 - Infrastruture has grown from being strictly in datacenters, to being composed of an evolving mix of bare metal, VMs, and containers, and now the edge. More technology is needed to meet all of thees new and diverse use cases. This is why we exist.", img: "/img/homeV2/sfa-images/sfa-2.svg", activeImg: "/img/homeV2/sfa-images/sfa-1-active.svg", link: "/test1", class: "sfa-1", category: "Edge Computing" },
+        { id: 1, text: "2 - Infrastruture has grown from being strictly in datacenters, to being composed of an evolving mix of bare metal, VMs, and containers, and now the edge. More technology is needed to meet all of thees new and diverse use cases. This is why we exist.", img: "/img/homeV2/sfa-images/sfa-2.svg", activeImg: "/img/homeV2/sfa-images/sfa-1-active.svg", link: "/test2", class: "sfa-2", category: "AI & Machine Learning" },
+        { id: 2, text: "3 - Infrastruture has grown from being strictly in datacenters, to being composed of an evolving mix of bare metal, VMs, and containers, and now the edge. More technology is needed to meet all of thees new and diverse use cases. This is why we exist.", img: "/img/homeV2/sfa-images/sfa-3.svg", activeImg: "/img/homeV2/sfa-images/sfa-1-active.svg", link: "/test3", class: "sfa-3", category: "Another" },
+        { id: 3, text: "4 - Infrastruture has grown from being strictly in datacenters, to being composed of an evolving mix of bare metal, VMs, and containers, and now the edge. More technology is needed to meet all of thees new and diverse use cases. This is why we exist.", img: "/img/homeV2/sfa-images/sfa-4.svg", activeImg: "/img/homeV2/sfa-images/sfa-1-active.svg", link: "/test4", class: "sfa-4", category: "And Another" },
+        { id: 4, text: "5 - Infrastruture has grown from being strictly in datacenters, to being composed of an evolving mix of bare metal, VMs, and containers, and now the edge. More technology is needed to meet all of thees new and diverse use cases. This is why we exist.", img: "/img/homeV2/sfa-images/sfa-5.svg", activeImg: "/img/homeV2/sfa-images/sfa-1-active.svg", link: "/test5", class: "sfa-5", category: "And Yet Another" }
     ];
       const [activeId, setActiveId] = useState(0);
       const [projectHighlightClicked, setProjectHighlightClicked] = useState(false);
-      const [projectHighlight, setProjectHighlight] = useState({id: projectValues[0].id, text: projectValues[0].text, img: projectValues[0].img, activeImg: projectValues[0].activeImg, link: projectValues[0].link});
+      const [projectHighlight, setProjectHighlight] = useState({id: projectValues[0].id, text: projectValues[0].text, img: projectValues[0].img, activeImg: projectValues[0].activeImg, link: projectValues[0].link, class: projectValues[0].class, category: projectValues[0].category});
       useEffect(() => {
-        setProjectHighlight({id: projectValues[activeId].id, text: projectValues[activeId].text, img: projectValues[activeId].img, activeImg: projectValues[activeId].activeImg, link: projectValues[activeId].link})
+        setProjectHighlight({id: projectValues[activeId].id, text: projectValues[activeId].text, img: projectValues[activeId].img, activeImg: projectValues[activeId].activeImg, link: projectValues[activeId].link, class: projectValues[activeId].class, category: projectValues[activeId].category})
       }, [activeId]);
       useEffect(() => {
         if (!projectHighlightClicked) {
@@ -40,12 +40,13 @@ const WhatWeDoSection = () => {
                 <div className="sfa-highlight-options">
                     <ul>
                         {projectValues.map((val) => (
-                        <li key={val.id} onMouseEnter={() => setActiveIdWrapper(val.id)} className={activeId === val.id ? "active" : ""}>
+                        <li key={val.id} onMouseEnter={() => setActiveIdWrapper(val.id)} className={(activeId === val.id ? "active " : "") + val.class}>
                             {activeId === val.id ? (
                                 <img src={val.activeImg} />
                             ) : (
                                 <img src={val.img} />
                             )}
+                            <span>{val.category}</span>
                         </li>
                         ))}
                     </ul>

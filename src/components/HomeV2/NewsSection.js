@@ -6,16 +6,17 @@ const NewsSection = class extends React.Component {
         super(props);
         this.state = {
           newsOffset: 0,
-          newsOffsetKey: 0
+          newsOffsetKey: 0,
+          newsScrollWidth: window.innerWidth >= 420 ? 410 : 330,
+          newsScrollAmount: window.innerWidth >= 1000 ? 3 : 4
         }
       }
     
     
       prevBoxClick = (e) => {
-        let newsScrollWidth = window.innerWidth >= 420 ? 410 : 330;
         if(this.state.newsOffsetKey >= 1) {
             this.setState({
-                newsOffset: this.state.newsOffset -= newsScrollWidth,
+                newsOffset: this.state.newsOffset -= this.state.newsScrollWidth,
                 newsOffsetKey: this.state.newsOffsetKey -= 1
             })
         } else {
@@ -24,12 +25,9 @@ const NewsSection = class extends React.Component {
       }
 
       nextBoxClick = (e) => {
-        let newsScrollAmount = window.innerWidth >= 1000 ? 3 : 4;
-        let newsScrollWidth = window.innerWidth >= 420 ? 410 : 330;
-        console.log(newsScrollAmount);
-        if(this.state.newsOffsetKey <= newsScrollAmount) {
+        if(this.state.newsOffsetKey <= this.state.newsScrollAmount) {
             this.setState({
-                newsOffset: this.state.newsOffset += newsScrollWidth,
+                newsOffset: this.state.newsOffset += this.state.newsScrollWidth,
                 newsOffsetKey: this.state.newsOffsetKey += 1
             })
         } else {
@@ -93,12 +91,12 @@ const NewsSection = class extends React.Component {
                         </div>
                     </div>
                     <div className="news-article-button-container">
-                        <div className="news-article-button"
+                        <div className={this.state.newsOffsetKey == 0 ? "news-article-button news-article-button-inactive" : "news-article-button"}
                         onClick={this.prevBoxClick}>
                             <img src="/img/homeV2/prev-arrow.svg" />
                         </div>
 
-                        <div className="news-article-button"
+                        <div className={this.state.newsOffsetKey == (this.state.newsScrollAmount + 1) ? "news-article-button news-article-button-inactive" : "news-article-button"}
                         onClick={this.nextBoxClick}>
                             <img src="/img/homeV2/next-arrow.svg" />
                         </div>

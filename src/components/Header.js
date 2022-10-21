@@ -57,7 +57,8 @@ render() {
                     </div>                        
                   </div>                
                 </div>
-                <Slider ref={c => (this.slider = c)} {...settings}>
+                <div className="hero-slider-container">
+                  <Slider ref={c => (this.slider = c)} {...settings}>
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-red">
                             <p className="home-v2-numbers-subheading">OpenStack is Deployed On</p>
@@ -87,7 +88,8 @@ render() {
                         </div>
                     </div>
                     </Slider>
-                    <div className="home-v2-numbers-btn-container">
+                </div>
+                <div className="home-v2-numbers-btn-container">
                     <button className="numbers-button" onClick={this.previous}>
                         <img src="/img/homeV2/prev-arrow.svg" />
                     </button>

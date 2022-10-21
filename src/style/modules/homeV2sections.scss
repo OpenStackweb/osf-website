@@ -656,7 +656,7 @@ h2.home-v2-header {
     }
     .sfa-highlight-container {
         padding: 50px 40px;
-        margin: 50px auto;
+        margin: 100px auto 50px;
         .sfa-highlight-options {
             max-width: 800px;
             margin: 60px auto;
@@ -678,15 +678,125 @@ h2.home-v2-header {
                         width: 100%;
                         height: auto;
                     }
+                    span {
+                        position: absolute;
+                        top: -90px;
+                        font-family: 'Jura', sans-serif;
+                        font-weight: 700;
+                        left: 0;
+                        text-transform: uppercase;
+                        width: 100%;
+                        text-align: center;
+                        padding: 0 5px;
+                        display: none;
+                    }
                     &.active {
-                        &:after {
+                        @media screen and (max-width: 575px) {
+                            &:after {
                             content: '';
                             position: absolute;
-                            left: 0;
+                            left: 10%;
                             bottom: -10px;
                             height: 4px;
-                            width: 100%;
+                            width: 80%;
                             background-color: #fff;
+                            border-radius: 25px;
+                        }
+                        }
+                        &.sfa-1 {
+                            span {
+                                display: block;
+                                @media screen and (max-width: 575px) {
+                                    display: none;
+                                }
+                                &:after {
+                                    content: '';
+                                    position: absolute;
+                                    background-image: url('/img/homeV2/sfa-images/sfa-arrow-blue.svg');
+                                    background-position: center;
+                                    height: 20px;
+                                    width: 20px;
+                                    background-repeat: no-repeat;
+                                    left: calc(50% - 10px);
+                                    bottom: -30px;
+                                }
+                            }
+                        }
+                        &.sfa-2 {
+                            span {
+                                display: block;
+                                @media screen and (max-width: 575px) {
+                                    display: none;
+                                }
+                                &:after {
+                                    content: '';
+                                    position: absolute;
+                                    background-image: url('/img/homeV2/sfa-images/sfa-arrow-yellow.svg');
+                                    background-position: center;
+                                    height: 20px;
+                                    width: 20px;
+                                    background-repeat: no-repeat;
+                                    left: calc(50% - 10px);
+                                    bottom: -30px;
+                                }
+                            }
+                        }
+                        &.sfa-3 {
+                            span {
+                                display: block;
+                                @media screen and (max-width: 575px) {
+                                    display: none;
+                                }
+                                &:after {
+                                    content: '';
+                                    position: absolute;
+                                    background-image: url('/img/homeV2/sfa-images/sfa-arrow-gray.svg');
+                                    background-position: center;
+                                    height: 20px;
+                                    width: 20px;
+                                    background-repeat: no-repeat;
+                                    left: calc(50% - 10px);
+                                    bottom: -30px;
+                                }
+                            }
+                        }
+                        &.sfa-4 {
+                            span {
+                                display: block;
+                                @media screen and (max-width: 575px) {
+                                    display: none;
+                                }
+                                &:after {
+                                    content: '';
+                                    position: absolute;
+                                    background-image: url('/img/homeV2/sfa-images/sfa-arrow-red.svg');
+                                    background-position: center;
+                                    height: 20px;
+                                    width: 20px;
+                                    background-repeat: no-repeat;
+                                    left: calc(50% - 10px);
+                                    bottom: -30px;
+                                }
+                            }
+                        }
+                        &.sfa-5 {
+                            span {
+                                display: block;
+                                @media screen and (max-width: 575px) {
+                                    display: none;
+                                }
+                                &:after {
+                                    content: '';
+                                    position: absolute;
+                                    background-image: url('/img/homeV2/sfa-images/sfa-arrow-green.svg');
+                                    background-position: center;
+                                    height: 20px;
+                                    width: 20px;
+                                    background-repeat: no-repeat;
+                                    left: calc(50% - 10px);
+                                    bottom: -30px;
+                                }
+                            }
                         }
                     }
                 }
@@ -718,8 +828,9 @@ h2.home-v2-header {
             width: 180px;
             margin: 50px auto;
             text-transform: uppercase;
+            transition: all 0.3s;
             &:hover {
-                text-decoration: none;
+                text-decoration: underline;
                 background-color: #9a0c28;
             }
         }

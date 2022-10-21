@@ -53,7 +53,7 @@ export const IndexPageTemplate = ({
 
         <OurFocusSection3 />
 
-        {/* <SFASection /> */}
+        <SFASection />
 
         <div className="home-v2-communities-section home-v2-communities-section-1">
           <ProjectsSection />

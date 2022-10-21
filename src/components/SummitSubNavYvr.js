@@ -57,6 +57,7 @@ function SubNavYvr(props) {
           <li><LinkComponent id="summit" href="/summit/vancouver-2023" onClick={() => shouldCloseMenu("summit")} className="link">Home</LinkComponent></li>
           <li><LinkComponent id="summit-sponsor" href="/summit/vancouver-2023/summit-sponsor/" onClick={() => shouldCloseMenu("summit-sponsor")} className="link">Sponsors</LinkComponent></li>
           <li><LinkComponent id="summit-tracks" href="/summit/vancouver-2023/summit-tracks/" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Tracks</LinkComponent></li>
+          <li><LinkComponent id="registration" href="https://openinfrasummit2023.eventbrite.com/?_ga=2.20124536.1351542605.1666363850-1656672376.1666363850" className="link registration">Register Now</LinkComponent></li>
         </ul>
 
         <div className={`${isSummitOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleSummitMenu}>
@@ -85,6 +86,7 @@ function SubNavYvr(props) {
             <li><LinkComponent id="summit-onsite" href="/summit/vancouver-2023" onClick={() => shouldCloseMenu("summit")} className="link">Home</LinkComponent></li>
             <li><LinkComponent id="summit-sponsor" href="/summit/vancouver-2023/summit-sponsor/" onClick={() => shouldCloseMenu("summit-sponsor")} className="link">Sponsors</LinkComponent></li>
             <li><LinkComponent id="summit-tracks" href="/summit/vancouver-2023/summit-tracks/" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Tracks</LinkComponent></li>
+            <li><a id="registration" href="https://openinfrasummit2023.eventbrite.com/?_ga=2.20124536.1351542605.1666363850-1656672376.1666363850" className="link registration">Register Now</a></li>
           </ul>
         </div>
       }

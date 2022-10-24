@@ -209,17 +209,40 @@ members:
     linkedin: https://www.linkedin.com/in/helenaspease/
     twitter: https://twitter.com/helena_spease
     openStack: https://www.openstack.org/community/members/profile/121598
+  - name: Kristin Barrientos
+    picture: /img/kristin-sm.jpg
+    title: Marketing Coordinator
+    description: "Kristin is the Marketing Coordinator at the OpenInfra Foundation.
+      Prior to joining, she worked for a nonprofit in the social services
+      sector. In her free time, she enjoys music, baking, playing tennis, and
+      spending time with her family. She is also obsessed with her cat named
+      Callie. "
+    openStack: https://openinfra.dev/a/community/members/1
+    linkedin: https://www.linkedin.com/in/kristin-barrientos/
   - name: Treva Williams
     picture: /img/about-staff/treva.png
     title: Technical Community Manager
-    description: Prior to joining Open Infrastructure Foundation as Technical community manager for the Kata Containers project, Treva has been an online instructor, systems administrator, & tailor. Treva intermittently holds several certifications from Red Hat, always travels with a (service) dog, loves when skirts have pockets, & generally identifies as a dedicated Open Source Geek. Along with singing the praises of Open Source, Treva is also a dedicated Diversity, Equity & Inclusion advocate, speking as often as permitted on the subject.
+    description: Prior to joining Open Infrastructure Foundation as Technical
+      community manager for the Kata Containers project, Treva has been an
+      online instructor, systems administrator, & tailor. Treva intermittently
+      holds several certifications from Red Hat, always travels with a (service)
+      dog, loves when skirts have pockets, & generally identifies as a dedicated
+      Open Source Geek. Along with singing the praises of Open Source, Treva is
+      also a dedicated Diversity, Equity & Inclusion advocate, speking as often
+      as permitted on the subject.
     linkedin: https://linkedin.com/in/trilliams
     twitter: https://twitter.com/OGtrilliams
     openStack: https://www.openstack.org/community/members/profile/59069/treva-williams
   - name: Josh Lohse
     picture: /img/about-staff/JoshLohsePic.jpg
     title: Web Manager
-    description: Josh Lohse is the Web Manager for the OpenInfra Foundation. He has spent most of his career working in digital marketing and technology, with a focus on building and maintaining websites. Josh has a background in music, and before starting in tech, spent time playing in bands and recording albums in both Orlando and Nashville. Outside of work, he loves hiking, reading, and watching Star Wars for the twenty-seventh time with his children.
+    description: Josh Lohse is the Web Manager for the OpenInfra Foundation. He has
+      spent most of his career working in digital marketing and technology, with
+      a focus on building and maintaining websites. Josh has a background in
+      music, and before starting in tech, spent time playing in bands and
+      recording albums in both Orlando and Nashville. Outside of work, he loves
+      hiking, reading, and watching Star Wars for the twenty-seventh time with
+      his children.
     linkedin: https://www.linkedin.com/in/joshlohse/
     openStack: https://openinfra.dev/a/community/members/141463
 support:

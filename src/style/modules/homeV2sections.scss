@@ -115,7 +115,7 @@ h2.home-v2-header {
         display: flex;
         justify-content: space-between;
         gap: 20px;
-        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(39,39,39,1) 100%);
+        background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(39,39,39,1) 100%);
         .home-v2-newsletter-box {
             width: 60%;
             border-top-right-radius: 25px;
@@ -243,6 +243,8 @@ h2.home-v2-header {
         background-repeat: no-repeat;
         background-position: top center;
         background-size: cover;
+        padding-bottom: 25px;
+        padding-top: 150px
     }
     &.home-v2-communities-section-2 {
         background-image: url('/img/homeV2/background-images/communities-background-2.svg');
@@ -253,13 +255,16 @@ h2.home-v2-header {
     h2.home-v2-community-header {
         text-align: center;
         margin-top: 20px;
+        max-width: 750px;
+        margin: 20px auto 50px;
     }
     .home-v2-community-subheader {
         color: #888;
         font-family: 'Jura', sans-serif;
         font-size: 22px;
         text-align: center;
-        margin: 50px 0 25px;
+        margin: 100px 0 25px;
+        text-transform: uppercase;
         &.home-v2-community-subheader-margin {
             margin-bottom: 50px;
         }
@@ -425,7 +430,7 @@ h2.home-v2-header {
 }
 
 .home-v2-quotes-container {
-    margin-top: 100px;
+    margin-top: 200px;
     position: relative;
     &:before {
         content: '';
@@ -581,13 +586,14 @@ h2.home-v2-header {
     .home-v2-project {
         background-color: #fff;
         border-radius: 25px;
-        padding: 30px 30px 50px;
+        padding: 50px 30px 50px;
         margin: 0 10px;
         opacity: 0.5;
         transition: all .5s;
-        min-height: 310px;
+        min-height: 330px;
         @media screen and (max-width: 1199px) {
             min-height: 350px;
+            padding: 30px 30px 50px;
         }
         @media screen and (max-width: 991px) {
             min-height: 300px;
@@ -940,6 +946,9 @@ h2.home-v2-header {
                 position: relative;
                 z-index: 5;
                 background-size: contain;
+                @media screen and (min-height: 950px) {
+                    background-size: contain;
+                }
             }
         }
 
@@ -964,6 +973,9 @@ h2.home-v2-header {
                 position: relative;
                 z-index: 5;
                 background-size: cover;
+                @media screen and (min-height: 950px) {
+                    background-size: contain;
+                }
             }
         }
         &.gray {
@@ -986,6 +998,9 @@ h2.home-v2-header {
                 background-position: center;
                 position: relative;
                 z-index: 5;
+                @media screen and (min-height: 950px) {
+                    background-size: contain;
+                }
             }
         }
         .our-focus-heading {

@@ -217,7 +217,7 @@ members:
       sector. In her free time, she enjoys music, baking, playing tennis, and
       spending time with her family. She is also obsessed with her cat named
       Callie. "
-    openStack: https://openinfra.dev/a/community/members/1
+    openStack: https://openinfra.dev/a/community/members/143722
     linkedin: https://www.linkedin.com/in/kristin-barrientos/
   - name: Treva Williams
     picture: /img/about-staff/treva.png

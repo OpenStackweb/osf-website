@@ -48,44 +48,44 @@ const NewsSection = class extends React.Component {
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
                         <div className="news-article-inner-container">
-                            <img src="/img/homeV2/news-images/news-img-1.png" />
+                            <a href=""><img src="/img/homeV2/news-images/news-img-1.png" /></a>
                             <p className="news-article-intro-text">ALLISON PRICE • 11 SEP 2022</p>
-                            <h3>OpenInfra Summit Vancouver</h3> 
+                            <a href=""><h3>OpenInfra Summit Vancouver</h3></a>
                             <p className="news-article-content">Registration and sponsorships for the OpenInfra Summit Vancouver are now open! This is your cha...</p>
                             <a className="news-article-link" href="">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">
-                            <img src="/img/homeV2/news-images/news-img-2.png" />
+                            <a href=""><img src="/img/homeV2/news-images/news-img-2.png" /></a>
                             <p className="news-article-intro-text">ILDIKO VANSCA • 13 SEP 2022</p>
-                            <h3>starlingx 7.0 released</h3> 
+                            <a href=""><h3>starlingx 7.0 released</h3></a>
                             <p className="news-article-content">The open source edge computing and IoT cloud platform optimized for low latency and high perfor...</p>
                             <a className="news-article-link" href="">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">
-                            <img src="/img/homeV2/news-images/news-img-3.png" />
+                            <a href=""><img src="/img/homeV2/news-images/news-img-3.png" /></a>
                             <p className="news-article-intro-text">HELENA SPEASE • 22 AUG 2022</p>
-                            <h3>openinfra live this week</h3>
+                            <a href=""><h3>openinfra live this week</h3></a>
                             <p className="news-article-content">Learn the importance of having a Virtual Desktop Infrastructure (VDI) with OpenStack in this week’s...</p>
                             <a className="news-article-link" href="">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">
-                            <img src="/img/homeV2/news-images/news-img-4.png" />
+                            <a href=""><img src="/img/homeV2/news-images/news-img-4.png" /></a>
                             <p className="news-article-intro-text">Olivia Rhye • 20 Jan 2022</p>
-                            <h3>UX review presentations</h3>
+                            <a href=""><h3>UX review presentations</h3></a>
                             <p className="news-article-content">How do you create compelling presentations that wow your colleagues and impress your managers...</p>
                             <a className="news-article-link" href="">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">
-                            <img src="/img/homeV2/news-images/news-img-5.png" />
+                            <a href=""><img src="/img/homeV2/news-images/news-img-5.png" /></a>
                             <p className="news-article-intro-text">Phoenix Baker • 19 Jan 2022</p>
-                            <h3>Migrating to Linear 101</h3>
+                            <a href=""><h3>Migrating to Linear 101</h3></a>
                             <p className="news-article-content">Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started...</p>
                             <a className="news-article-link" href="">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">
-                            <img src="/img/homeV2/news-images/news-img-6.png" />
+                            <a href=""><img src="/img/homeV2/news-images/news-img-6.png" /></a>
                             <p className="news-article-intro-text">Lana Steiner • 18 Jan 2022</p>
-                            <h3>Building your API Stack</h3>
+                            <a href=""><h3>Building your API Stack</h3></a>
                             <p className="news-article-content">The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them...</p>
                             <a className="news-article-link" href="">READ MORE</a>
                         </div>

@@ -23,6 +23,8 @@ const QuotesSection = class extends React.Component {
             infinite: true,
             centerPadding: "60px",
             slidesToShow: 3,
+            autoplay: true,
+            autoplaySpeed: 5000,
             speed: 500,
             arrows: false,
             responsive: [

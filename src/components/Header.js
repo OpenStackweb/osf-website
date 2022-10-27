@@ -22,6 +22,8 @@ render() {
         arrows: false,
         slidesToScroll: 1,
         infinite: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
          responsive: [
         {
           breakpoint: 600,

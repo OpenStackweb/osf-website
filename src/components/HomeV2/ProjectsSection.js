@@ -13,7 +13,7 @@ const ProjectsSection = class extends React.Component {
             slidesToShow: 4,
             speed: 500,
             autoplay: true,
-            autoplaySpeed: 10000,
+            autoplaySpeed: 5000,
             arrows: false,
             responsive: [
                 {
@@ -51,76 +51,96 @@ const ProjectsSection = class extends React.Component {
                 <p className="home-v2-community-paragraph">We can help with your open source project. Our model and project services provides the tooling, guidance, and collaborative environment that allows communities to focus their attention on the important work of building and operating software that solves real problems around the globe.</p>
                 <div className="home-v2-projects-container">
                     <Slider {...settings}>
-                        <div className="home-v2-project-box">
-                            <div className="home-v2-project">
-                                <img src="/img/homeV2/project-logos/kata.svg" />
-                                <h3 className="home-v2-project-title">Kata Containers</h3>
-                                <p className="home-v2-project-text">Secure, lightweight CRI compatible virtualized containers.</p>
+                        <a href="/projects/">
+                            <div className="home-v2-project-box">
+                                <div className="home-v2-project">
+                                    <img src="/img/homeV2/project-logos/kata.svg" />
+                                    <h3 className="home-v2-project-title">Kata Containers</h3>
+                                    <p className="home-v2-project-text">Secure, lightweight CRI compatible virtualized containers.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="home-v2-project-box">
-                            <div className="home-v2-project">
-                                <img src="/img/homeV2/project-logos/starlingx.svg" />
-                                <h3 className="home-v2-project-title starlingx-project-title">StarlingX</h3>
-                                <p className="home-v2-project-text">Edge cloud computing infrastructure for high performance, ultra-low latency applications.</p>
+                        </a>
+                        <a href="/projects/">
+                            <div className="home-v2-project-box">
+                                <div className="home-v2-project">
+                                    <img src="/img/homeV2/project-logos/starlingx.svg" />
+                                    <h3 className="home-v2-project-title starlingx-project-title">StarlingX</h3>
+                                    <p className="home-v2-project-text">Edge cloud computing infrastructure for high performance, ultra-low latency applications.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="home-v2-project-box">
-                            <div className="home-v2-project">
-                                <img src="/img/homeV2/project-logos/openstack.svg" />
-                                <h3 className="home-v2-project-title">OpenStack</h3>
-                                <p className="home-v2-project-text">Programmable infrastructure for VMs, containers and bare metal.</p>
+                        </a>
+                        <a href="/projects/">
+                            <div className="home-v2-project-box">
+                                <div className="home-v2-project">
+                                    <img src="/img/homeV2/project-logos/openstack.svg" />
+                                    <h3 className="home-v2-project-title">OpenStack</h3>
+                                    <p className="home-v2-project-text">Programmable infrastructure for VMs, containers and bare metal.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="home-v2-project-box">
-                            <div className="home-v2-project">
-                                <img src="/img/homeV2/project-logos/airship.svg" />
-                                <h3 className="home-v2-project-title airship-project-title">Airship</h3>
-                                <p className="home-v2-project-text">Making lifecycle management for open infrastructure simple, repeatable & resilient.</p>
+                        </a>
+                        <a href="/projects/">
+                            <div className="home-v2-project-box">
+                                <div className="home-v2-project">
+                                    <img src="/img/homeV2/project-logos/airship.svg" />
+                                    <h3 className="home-v2-project-title airship-project-title">Airship</h3>
+                                    <p className="home-v2-project-text">Making lifecycle management for open infrastructure simple, repeatable & resilient.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="home-v2-project-box">
-                            <div className="home-v2-project">
-                                <img src="/img/homeV2/project-logos/oilabs.svg" />
-                                <h3 className="home-v2-project-title">OpenInfra Labs</h3>
-                                <p className="home-v2-project-text">CI/CD platform for gating changes across multiple systems/repos.</p>
+                        </a>
+                        <a href="/projects/">
+                            <div className="home-v2-project-box">
+                                <div className="home-v2-project">
+                                    <img src="/img/homeV2/project-logos/oilabs.svg" />
+                                    <h3 className="home-v2-project-title">OpenInfra Labs</h3>
+                                    <p className="home-v2-project-text">CI/CD platform for gating changes across multiple systems/repos.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="home-v2-project-box">
-                            <div className="home-v2-project">
-                                <img src="/img/homeV2/project-logos/kata.svg" />
-                                <h3 className="home-v2-project-title">Kata Containers</h3>
-                                <p className="home-v2-project-text">Secure, lightweight CRI compatible virtualized containers.</p>
+                        </a>
+                        <a href="/projects/">
+                            <div className="home-v2-project-box">
+                                <div className="home-v2-project">
+                                    <img src="/img/homeV2/project-logos/kata.svg" />
+                                    <h3 className="home-v2-project-title">Kata Containers</h3>
+                                    <p className="home-v2-project-text">Secure, lightweight CRI compatible virtualized containers.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="home-v2-project-box">
-                            <div className="home-v2-project">
-                                <img src="/img/homeV2/project-logos/starlingx.svg" />
-                                <h3 className="home-v2-project-title starlingx-project-title">StarlingX</h3>
-                                <p className="home-v2-project-text">Edge cloud computing infrastructure for high performance, ultra-low latency applications.</p>
+                        </a>
+                        <a href="/projects/">
+                            <div className="home-v2-project-box">
+                                <div className="home-v2-project">
+                                    <img src="/img/homeV2/project-logos/starlingx.svg" />
+                                    <h3 className="home-v2-project-title starlingx-project-title">StarlingX</h3>
+                                    <p className="home-v2-project-text">Edge cloud computing infrastructure for high performance, ultra-low latency applications.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="home-v2-project-box">
-                            <div className="home-v2-project">
-                                <img src="/img/homeV2/project-logos/openstack.svg" />
-                                <h3 className="home-v2-project-title">OpenStack</h3>
-                                <p className="home-v2-project-text">Programmable infrastructure for VMs, containers and bare metal.</p>
+                        </a>
+                        <a href="/projects/">
+                            <div className="home-v2-project-box">
+                                <div className="home-v2-project">
+                                    <img src="/img/homeV2/project-logos/openstack.svg" />
+                                    <h3 className="home-v2-project-title">OpenStack</h3>
+                                    <p className="home-v2-project-text">Programmable infrastructure for VMs, containers and bare metal.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="home-v2-project-box">
-                            <div className="home-v2-project">
-                                <img src="/img/homeV2/project-logos/airship.svg" />
-                                <h3 className="home-v2-project-title airship-project-title">Airship</h3>
-                                <p className="home-v2-project-text">Making lifecycle management for open infrastructure simple, repeatable & resilient.</p>
+                        </a>
+                        <a href="/projects/">
+                            <div className="home-v2-project-box">
+                                <div className="home-v2-project">
+                                    <img src="/img/homeV2/project-logos/airship.svg" />
+                                    <h3 className="home-v2-project-title airship-project-title">Airship</h3>
+                                    <p className="home-v2-project-text">Making lifecycle management for open infrastructure simple, repeatable & resilient.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="home-v2-project-box">
-                            <div className="home-v2-project">
-                                <img src="/img/homeV2/project-logos/oilabs.svg" />
-                                <h3 className="home-v2-project-title">OpenInfra Labs</h3>
-                                <p className="home-v2-project-text">CI/CD platform for gating changes across multiple systems/repos.</p>
+                        </a>
+                        <a href="/projects/">
+                            <div className="home-v2-project-box">
+                                <div className="home-v2-project">
+                                    <img src="/img/homeV2/project-logos/oilabs.svg" />
+                                    <h3 className="home-v2-project-title">OpenInfra Labs</h3>
+                                    <p className="home-v2-project-text">CI/CD platform for gating changes across multiple systems/repos.</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </Slider>
                 </div>
                 <div className="home-v2-community-btn-container">

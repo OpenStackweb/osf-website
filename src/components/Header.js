@@ -58,7 +58,7 @@ render() {
                       <span>Host a Project</span>
                     </div>                        
                     <div href='/' className="hero-secondary-btn">
-                      <span>Join Us</span>
+                      <span className="secondary-btn-arrow">Join Us</span>
                     </div>                        
                   </div>                
                 </div>

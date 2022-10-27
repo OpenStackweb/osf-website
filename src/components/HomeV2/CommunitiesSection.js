@@ -211,7 +211,7 @@ const CommunitiesSection = class extends React.Component {
                 </a>
                 <a href="">
                     <div className="home-v2-community-btn">
-                        See All Members
+                        <span className="secondary-btn-arrow">See All Members</span>
                     </div>
                 </a>
             </div>

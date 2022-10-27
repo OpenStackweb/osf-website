@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 
 import { connect } from "react-redux";
@@ -28,7 +28,7 @@ export const HybridCloudPageTemplate = ({
     <div>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
         <Header title={title} subTitle={subTitle} />
       </div>
 

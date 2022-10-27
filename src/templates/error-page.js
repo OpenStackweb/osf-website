@@ -2,7 +2,7 @@ import React from "react"
 import { connect } from 'react-redux'
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar'
-import Navbar from '../components/Navbar'
+import NavbarV2 from '../components/NavbarV2'
 import Header from '../components/Header'
 import SEO from '../components/SEO'
 
@@ -12,7 +12,7 @@ export const ErrorPageTemplate = ({ loggedUserState, location }) => {
         <>
             <div className="wrapper project-background">
                 <TopBar />
-                <Navbar isLoggedUser={false} />
+                <NavbarV2 isLoggedUser={false} />
                 <Header title="NOT FOUND" subTitle="You just hit a route that doesn&#39;t exist... the sadness." />
             </div>
             <div style={{ height: '45vw' }}>

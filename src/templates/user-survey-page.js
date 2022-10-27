@@ -6,7 +6,7 @@ import { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import GoTopButton from '../components/GoTopButton'
 import SEO from '../components/SEO'
 import Navigator from '../components/Navigator'
@@ -63,7 +63,7 @@ export const UserSurveyPageTemplate = ({
     <div>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
         <Header title={title} subTitle={subTitle} />
         {about.display &&
           <div className="user-survey-about">

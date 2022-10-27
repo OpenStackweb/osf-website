@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import LinkComponent from "../components/LinkComponent"
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
-import Navbar from "../components/Navbar";
+import NavbarV2 from "../components/NavbarV2";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
 
@@ -84,7 +84,7 @@ const ElectionGoldCandidatesPage = ({ data, isLoggedUser, goldCandidates, loadin
       <div>
         <div className="wrapper project-background">
           <TopBar />
-          <Navbar isLoggedUser={isLoggedUser} />
+          <NavbarV2 isLoggedUser={isLoggedUser} />
           <Header title={post.frontmatter.title} />
           <ElectionGoldCandidatesPageTemplate
             isLoggedUser={isLoggedUser}

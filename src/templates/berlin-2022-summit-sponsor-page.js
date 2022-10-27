@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 import SubNav from '../components/SummitSubNav'
 import { connect } from "react-redux";
@@ -22,7 +22,7 @@ export const Berlin2022SummitSponsorPageTemplate = ({
     <div>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
         <SubNav active="summit-sponsor" pageName="Sponsors" isLoggedUser={isLoggedUser} />
       </div>
 

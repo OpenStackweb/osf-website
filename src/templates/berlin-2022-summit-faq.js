@@ -5,7 +5,7 @@ import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
 import SubNav from '../components/SummitSubNav'
@@ -26,7 +26,7 @@ export const Berlin2022SummitFAQPageTemplate = ({
     <div>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
         <SubNav active="summit-faq" pageName="FAQs" isLoggedUser={isLoggedUser}/>
         <Header title={title} subTitle={subTitle} />
       </div>

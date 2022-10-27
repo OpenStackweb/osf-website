@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 import SpeakerCard from "../components/SpeakerCard";
 import ColorBar from '../img/color-bar.png'
@@ -45,7 +45,7 @@ export const OpenInfraLiveKeynotesTemplate = ({
     <div>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
       </div>
 
       <main className="main">

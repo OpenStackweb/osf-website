@@ -1,14 +1,14 @@
 .home-v2-hero-wrapper {
     .nav.nav-v2 {
         background-color: unset;
+        @media screen and (min-width: 1425px) {
+            width: 1400px;
+        }
     }
 }
 
 .nav.nav-v2 {
     .navbar-v2-container {
-        @media screen and (min-width: 1425px) {
-            width: 1400px;
-        }
         @media screen and (max-width: 1199px) {
             .nav-inner {
                 justify-content: center;

@@ -6,7 +6,7 @@ import { kebabCase } from 'lodash'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import Content, { HTMLContent } from '../components/Content'
 
 import metadata from '../content/site-metadata.json'
@@ -29,7 +29,7 @@ export const BlogPostTemplate = ({
       {helmet}
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser}/>
+        <NavbarV2 isLoggedUser={isLoggedUser}/>
         <Header title={blogConfig.title} subTitle={blogConfig.subTitle} />
       </div>
 

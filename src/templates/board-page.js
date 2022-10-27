@@ -5,7 +5,7 @@ import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 import ContactInformation from '../components/ContactInformation'
 
@@ -25,7 +25,7 @@ export const BoardPageTemplate = ({
     <div>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
         <Header title={header.title} subTitle={header.subTitle} link={header.link} />
       </div>
 
@@ -40,17 +40,17 @@ export const BoardPageTemplate = ({
                       <div className="card-social-container-icons">
                         {member.openStack &&
                           <LinkComponent href={member.openStack}>
-                            <img src="/img/symbols/icon-1.svg" alt="icon" className="card-social-icons" alt="card-social-icons" />
+                            <img src="/img/symbols/icon-1.svg" className="card-social-icons" alt="card-social-icons" />
                           </LinkComponent>
                         }
                         {member.twitter &&
                           <LinkComponent href={member.twitter}>
-                            <img src="/img/symbols/icon-3.svg" alt="icon" className="card-social-icons" alt="card-social-icons" />
+                            <img src="/img/symbols/icon-3.svg" className="card-social-icons" alt="card-social-icons" />
                           </LinkComponent>
                         }
                         {member.linkedin &&
                           <LinkComponent href={member.linkedin}>
-                            <img src="/img/symbols/icon-4.svg" alt="icon" className="card-social-icons" alt="card-social-icons" />
+                            <img src="/img/symbols/icon-4.svg" className="card-social-icons" alt="card-social-icons" />
                           </LinkComponent>
                         }
                       </div>

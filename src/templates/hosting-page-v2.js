@@ -5,7 +5,7 @@ import {graphql} from 'gatsby';
 import Layout from '../components/Layout';
 import HeaderV2 from '../components/HeaderV2';
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO';
 import HostingProjectV2 from '../components/HostingProjectV2';
 import heroFront from '../img/hosting-hero-img.png';
@@ -36,7 +36,7 @@ export const HostingPageV2Template = ({sponsors = []}) => {
     <div className="hosting-page">
       <div className="wrapper project-background">
         <TopBar/>
-        <Navbar/>
+        <NavbarV2  />
         <ProjectsSubNav active="hosting" />
         <HeaderV2
           frontImage={heroFront}

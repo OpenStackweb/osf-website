@@ -149,9 +149,9 @@ const ProjectsSection = class extends React.Component {
                             About Project Hosting
                         </div>
                     </a>
-                    <a href="">
+                    <a href="/projects/">
                         <div className="home-v2-community-btn">
-                            See All Projects
+                            <span className="secondary-btn-arrow">See All Projects</span>
                         </div>
                     </a>
                 </div>

@@ -33,8 +33,9 @@
                 margin-left: 0;
             }
             &:hover {
-                background-color: #e61e24;
-                border: 1.5px solid #e61e24;
+                background-color: #888;
+                border: 1.5px solid #888;
+                text-decoration: none;
             }
             &.bar-button-primary {
                 background-color: #E61E24;
@@ -48,8 +49,9 @@
                     margin-left: 0;
                 }
                 &:hover {
-                    background-color: #9a0c28;
-                    border: 1.5px solid #9a0c28;
+                    background-color: #9A0D28;
+                    border: 1.5px solid #9A0D28;
+                    text-decoration: none;
                 }
             }
         }

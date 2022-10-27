@@ -6,7 +6,7 @@ import { Link } from 'gatsby'
 import Layout from '../../components/Layout'
 import Header from '../../components/Header'
 import TopBar from '../../components/TopBar';
-import Navbar from '../../components/Navbar';
+import NavbarV2 from '../../components/NavbarV2'
 import BlogRoll from '../../components/BlogRoll'
 
 import blogConfig from '../../content/blog-config.json'
@@ -35,7 +35,7 @@ export default class BlogIndexPage extends React.Component {
           </Helmet>
           <div className="wrapper project-background">
             <TopBar />
-            <Navbar />
+            <NavbarV2 />
             <Header title={blogConfig.title} subTitle={blogConfig.subTitle} />
           </div>
           <main className="main">

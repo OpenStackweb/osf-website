@@ -5,7 +5,7 @@ import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 import HostingProject from '../components/HostingProject'
 import LinkComponent from '../components/LinkComponent'
@@ -30,7 +30,7 @@ export const ServicesPageTemplate = ({
     <div>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
         <ProjectsSubNav active="services" />
         <Header title={header.title} subTitle={header.subTitle} />
       </div>

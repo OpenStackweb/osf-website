@@ -6,7 +6,7 @@ import { summitSponsorLevel } from '../components/SummitSponsorLevel'
 
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 import SubNavYvr from '../components/SummitSubNavYvr'
 import { connect } from "react-redux";
@@ -24,7 +24,7 @@ export const SummitSponsorPageTemplate = ({
     <div>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
         <SubNavYvr active="summit-sponsor" pageName="Sponsors" isLoggedUser={isLoggedUser}/>
       </div>
 

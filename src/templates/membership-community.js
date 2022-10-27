@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { navigate } from "gatsby"
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
-import Navbar from "../components/Navbar";
+import NavbarV2 from "../components/NavbarV2";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
 import { updateMembershipType, MEMBERSHIP_TYPE_COMMUNITY } from "../actions/user-actions"
@@ -29,7 +29,7 @@ export const MembershipCommunityPageTemplate = ({
         <div>
             <div className="wrapper project-background">
                 <TopBar />
-                <Navbar isLoggedUser={isLoggedUser} />
+                <NavbarV2 isLoggedUser={isLoggedUser} />
                 <Header title="Downgrade To Community Member" />
             </div>
 

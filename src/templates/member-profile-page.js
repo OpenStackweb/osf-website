@@ -3,7 +3,7 @@ import { navigate } from "gatsby"
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 import LinkComponent from '../components/LinkComponent';
 import NominationModal from '../components/NominationModal';
@@ -42,7 +42,7 @@ export const MemberProfilePageTemplate = ({
     <div>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
         <Header title='Open Infrastructure Foundation' subTitle='Individual Member Profile' />
       </div>
       <AjaxLoader show={loading_members || member_nomination_loading} size={120} />

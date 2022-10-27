@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 import leftArrow from '../img/svg/arrow-left.svg'
 
@@ -24,7 +24,7 @@ export const NewsletterPageTemplate = ({
     <div>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
       </div>
 
       <main className="main">

@@ -5,7 +5,7 @@ import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 import ProjectsSubNav from '../components/ProjectsSubNav'
 import ProjectsContactForm from '../components/ProjectsContactForm'
@@ -36,7 +36,7 @@ export const ProjectsContactPageTemplate = ({
         <div>
             <div className="wrapper project-background" style={{ paddingBottom: 40 }}>
                 <TopBar />
-                <Navbar isLoggedUser={isLoggedUser} />
+                <NavbarV2 isLoggedUser={isLoggedUser} />
                 <ProjectsSubNav active="" />
                 <Header title={title} subTitle={subTitle} />
             </div>

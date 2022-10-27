@@ -6,7 +6,7 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import BecomeSponsor from '../components/BecomeSponsor'
 import SEO from '../components/SEO'
 import LinkComponent from '../components/LinkComponent'
@@ -46,7 +46,7 @@ export const CompaniesPageTemplate = ({
       <AjaxLoader relative={true} color={'#ffffff'} show={loading} size={120} />
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
         <Header title={header.title} subTitle={header.subTitle} link={header.link} />
       </div>
 

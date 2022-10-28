@@ -1,4 +1,4 @@
-import { LOGOUT_USER, RECEIVE_USER_INFO } from "openstack-uicore-foundation/lib/actions";
+import { LOGOUT_USER, RECEIVE_USER_INFO } from "openstack-uicore-foundation/lib/utils/actions";
 
 import {
   GET_IDP_PROFILE,

@@ -7,12 +7,10 @@ import NavbarV2 from "../components/NavbarV2";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
 import CandidateProfile from "../components/CandidateProfile"
-import 'openstack-uicore-foundation/lib/css/components.css';
+import 'openstack-uicore-foundation/lib/css/components/index.css';
 import { getElectionMemberProfile } from '../actions/member-actions';
 import { getElectionStatus } from "../actions/election-actions";
-import {
-    updateUserInfo
-} from "openstack-uicore-foundation/lib/methods";
+import { updateUserInfo } from "openstack-uicore-foundation/lib/security/actions";
 import ProfileSubNav from "../components/ProfileSubNav";
 import { MEMBERSHIP_TYPE_NONE } from "../actions/user-actions";
 

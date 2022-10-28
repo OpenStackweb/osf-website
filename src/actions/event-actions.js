@@ -4,11 +4,10 @@ import {
     createAction,
     stopLoading,
     startLoading,
-} from 'openstack-uicore-foundation/lib/methods';
+    LOGOUT_USER
+} from 'openstack-uicore-foundation/lib/utils/actions';
 
 import {customErrorHandler} from '../utils/customErrorHandler';
-
-import {LOGOUT_USER} from "openstack-uicore-foundation/lib/actions";
 
 export const GET_EVENT_DATA = 'GET_EVENT_DATA';
 export const GET_EVENT_DATA_ERROR = 'GET_EVENT_DATA_ERROR';

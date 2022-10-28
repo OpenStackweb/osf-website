@@ -2,8 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
-import Layout from '../components/Layout'
-import Header from '../components/Header'
+import Layout from '../components/Layout';
 import TopBar from '../components/TopBar';
 import NavbarV2 from '../components/NavbarV2';
 import Hero from '../components/Hero'

@@ -1,6 +1,6 @@
 import Swal from "sweetalert2";
 
-import { doLogin } from 'openstack-uicore-foundation/lib/methods'
+import { doLogin } from 'openstack-uicore-foundation/lib/security/methods'
 import URI from "urijs"
 
 

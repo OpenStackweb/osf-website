@@ -1,8 +1,7 @@
 import React from "react"
 import { Router } from "@reach/router"
 import { connect } from 'react-redux'
-
-import { onUserAuth, doLogout, getUserInfo } from "openstack-uicore-foundation/lib/methods";
+import { onUserAuth, doLogout, getUserInfo } from "openstack-uicore-foundation/lib/security/methods";
 import AuthorizationCallbackRoute from "../routes/authorization-callback-route"
 import LogOutCallbackRoute from "../routes/logout-callback-route"
 

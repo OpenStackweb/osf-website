@@ -1,4 +1,4 @@
-import {LOGOUT_USER, SET_LOGGED_USER} from "openstack-uicore-foundation/lib/actions";
+import {LOGOUT_USER, SET_LOGGED_USER} from "openstack-uicore-foundation/lib/utils/actions";
 
 import {
   GET_MEMBERS,

@@ -7,8 +7,8 @@ import {
   stopLoading,
   startLoading,
   authErrorHandler,
-  updateUserInfo
-} from "openstack-uicore-foundation/lib/methods";
+} from "openstack-uicore-foundation/lib/utils/actions";
+import {updateUserInfo} from "openstack-uicore-foundation/lib/security/actions"
 
 import Swal from "sweetalert2";
 

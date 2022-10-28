@@ -2,7 +2,7 @@ import React from "react"
 import { connect } from 'react-redux'
 import { navigate } from "gatsby"
 import { isAuthorizedUser } from '../utils/authorizedGroups';
-import { doLogin, isIdTokenAlive } from 'openstack-uicore-foundation/lib/methods'
+import { doLogin, isIdTokenAlive } from 'openstack-uicore-foundation/lib/security/methods'
 import HeroComponent from "../components/HeroComponent";
 
 const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive, ...rest}) => {

@@ -6,7 +6,7 @@ import NavbarV2 from "../components/NavbarV2";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
 import CandidateForm from "../components/CandidateForm";
-import 'openstack-uicore-foundation/lib/css/components.css';
+import 'openstack-uicore-foundation/lib/css/components/index.css';
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 import { updateCandidateProfile, getElectionStatus } from "../actions/election-actions";
 import { getElectionMemberProfile } from "../actions/member-actions";

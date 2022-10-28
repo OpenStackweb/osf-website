@@ -6,7 +6,7 @@ import TopBar from "../components/TopBar";
 import NavbarV2 from "../components/NavbarV2";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
-import 'openstack-uicore-foundation/lib/css/components.css';
+import 'openstack-uicore-foundation/lib/css/components/index.css';
 import {
     uploadFileProfile,
     uploadFileBigPhoto,

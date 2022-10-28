@@ -9,7 +9,7 @@ import SEO from "../components/SEO";
 import MembershipType from "../components/MembershipType";
 import URI from "urijs";
 import { MEMBERSHIP_TYPE_NONE } from "../actions/user-actions";
-import 'openstack-uicore-foundation/lib/css/components.css';
+import 'openstack-uicore-foundation/lib/css/components/index.css';
 import {
     addAffiliation,
     saveAffiliation,
@@ -23,9 +23,7 @@ import {
     getUserProfile
 } from "../actions/user-actions"
 import { getMemberProfile } from '../actions/member-actions';
-import {
-    updateUserInfo
-} from "openstack-uicore-foundation/lib/methods";
+import { updateUserInfo } from "openstack-uicore-foundation/lib/security/actions";
 import { ProfileManagement } from "../components/ProfileManagementComponent";
 import ProfileSubNav from "../components/ProfileSubNav";
 

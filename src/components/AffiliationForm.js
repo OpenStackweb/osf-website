@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from "prop-types";
 import {DateTimePicker, OrganizationInput} from 'openstack-uicore-foundation/lib/components'
-import {epochToMoment} from 'openstack-uicore-foundation/lib/methods'
+import {epochToMoment} from 'openstack-uicore-foundation/lib/utils/methods'
 
 const AffiliationForm = class extends React.Component {
 

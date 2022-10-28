@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from "prop-types";
 import AffiliationForm from "./AffiliationForm";
-import {formatEpoch} from 'openstack-uicore-foundation/lib/methods'
+import {formatEpoch} from 'openstack-uicore-foundation/lib/utils/methods'
 import {addAffiliation, saveAffiliation, deleteAffiliation, addOrganization} from "../actions/user-actions"
 import { connect } from 'react-redux'
 

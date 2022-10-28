@@ -1,5 +1,4 @@
 import {
-  getAccessToken,
   getRequest,
   putRequest,
   postRequest,
@@ -10,13 +9,9 @@ import {
   startLoading,
   authErrorHandler,
   showMessage,
-} from "openstack-uicore-foundation/lib/methods";
+} from "openstack-uicore-foundation/lib/utils/actions";
 import axios from "axios";
 import { handleApiError } from "../utils/security";
-
-
-import Swal from 'sweetalert2';
-
 import { customErrorHandler } from "../utils/customErrorHandler";
 import { getMemberProfile, getElectionMemberProfile } from "./member-actions";
 

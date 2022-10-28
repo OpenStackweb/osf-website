@@ -245,8 +245,8 @@ episodes:
       the upcoming OpenInfra Summit in Berlin (June 7-9), join members of the
       2022 Programming Committee as they share their top tips and tricks for
       writing a winning submission and answer your questions on what they look
-      for in talks. "
-    calendarInvite: /static/invites/myevents-19-.ics
+      for in talks."
+    calendarInvite: static/invites/myevents-19-.ics
     hidden: false
     date: 2022-01-20T15:00:40.227Z
     episodeSpeakers: "Amy Marrich (Getting Started), Arne Wiebalck (Private and
@@ -268,7 +268,7 @@ episodes:
       look back at 2021, the software milestones, production growth, and
       momentum across the OpenInfra landscape.
     episodeTitle: "A Year in Review: OpenInfra Highlights from 2021"
-    calendarInvite: /static/invites/myevents-18-.ics
+    calendarInvite: static/invites/myevents-18-.ics
     superuserRecap: https://superuser.openstack.org/articles/a-year-in-review-openinfra-highlights-from-2021-openinfra-live-recap/
   - hidden: false
     date: 2021-12-16T15:00:08.589Z
@@ -280,7 +280,7 @@ episodes:
       updates straight from the community itself. Join us as we go through our
       OpenInfra Live highlights reel.
     episodeTitle: "#BestOf OpenInfra Live"
-    calendarInvite: /static/invites/myevents-15-.ics
+    calendarInvite: static/invites/myevents-15-.ics
   - hidden: false
     date: 2021-12-09T15:00:54.214Z
     episodeTitle: "Large Scale OpenStack: Operators’ Tricks and Tools"
@@ -294,7 +294,7 @@ episodes:
       Shatadru Bandyopadhyay (Workday), Axel Jacquet (Infomaniak), Thomas Goirand (Infomaniak)
     youtubeLink: https://www.youtube.com/watch?v=F_9KKAQE4fc
     youtubeEmbed: https://www.youtube.com/embed/F_9KKAQE4fc
-    calendarInvite: /static/invites/myevents-14-.ics
+    calendarInvite: static/invites/myevents-14-.ics
   - hidden: false
     date: 2021-11-11T15:00:00.893Z
     episodeDescription: "The 2021 User Survey shows that the footprint of OpenStack
@@ -307,7 +307,7 @@ episodes:
     episodeTitle: "OpenStack Is Alive: Explosive Growth Among Production Deployments"
     youtubeLink: https://www.youtube.com/watch?v=RhMJO82lDxc
     youtubeEmbed: https://www.youtube.com/embed/RhMJO82lDxc
-    calendarInvite: /static/invites/myevents-13-.ics
+    calendarInvite: static/invites/myevents-13-.ics
     episodeSpeakers: |-
       Paul Coddington (ARDC Nectar)
       Reedip Banerjee (LINE)
@@ -328,7 +328,7 @@ episodes:
 
 
       #OpenInfraLive
-    calendarInvite: /static/invites/myevents-12-.ics
+    calendarInvite: static/invites/myevents-12-.ics
     hidden: false
     date: 2021-11-04T14:00:02.752Z
     episodeSpeakers: |-
@@ -344,7 +344,7 @@ episodes:
     episodeDescription: "Join us as we discuss how chipmakers, hardware vendors, and
       data center architects are all working in concert to solve this
       problem.  "
-    calendarInvite: /static/invites/myevents-11-.ics
+    calendarInvite: static/invites/myevents-11-.ics
     hidden: false
     date: 2021-10-28T14:00:28.872Z
     episodeSpeakers: >
@@ -361,7 +361,7 @@ episodes:
       recommended drivers, features to avoid if your ultimate goal is to scale
       to a very large deployment. Join OpenStack developers and operators as
       they share their Neutron scaling best practices. "
-    calendarInvite: /static/invites/myevents.ics
+    calendarInvite: static/invites/myevents.ics
     hidden: false
     date: 2021-10-14T14:00:05.859Z
     episodeSpeakers: |+
@@ -382,7 +382,7 @@ episodes:
       solution offering object, block, and file storage. Join us as various
       Community members discuss the basics, ongoing development and integration
       of OpenStack with Ceph.
-    calendarInvite: /static/invites/myevents-10-.ics
+    calendarInvite: static/invites/myevents-10-.ics
     hidden: false
     date: 2021-09-30T14:00:22.173Z
     episodeSpeakers: "Tom Barron (Red Hat), John Fulton (Red Hat), Francesco Pantano
@@ -402,12 +402,12 @@ episodes:
       and what operators can expect. "
     youtubeLink: https://www.youtube.com/watch?v=aqilhEmkEBw
     youtubeEmbed: https://www.youtube.com/embed/aqilhEmkEBw
-    calendarInvite: /static/invites/myevents-9-.ics
+    calendarInvite: static/invites/myevents-9-.ics
   - episodeDescription: "Join the volunteer organizers of OpenInfra Days to hear
       about the happenings at their latest local events, what they're looking
       forward to in the future, and learn what's happening with OpenInfra all
       over the world.  "
-    calendarInvite: /static/invites/myevents-8-.ics
+    calendarInvite: static/invites/myevents-8-.ics
     hidden: false
     date: 2021-09-23T14:00:42.961Z
     episodeSpeakers: >
@@ -425,7 +425,7 @@ episodes:
       contributing back to the community. Past winners will join us for this
       episode to discuss where they are now, what is next, and tips for
       organizations applying for this year's awards. "
-    calendarInvite: /static/invites/myevents-7-.ics
+    calendarInvite: static/invites/myevents-7-.ics
     hidden: false
     date: 2021-09-16T14:00:47.738Z
     episodeSpeakers: |
@@ -444,7 +444,7 @@ episodes:
       with open infrastructure job openings, hear straight from current
       employees about their day-to-day community involvement and hear what their
       organizations are looking for in candidates. "
-    calendarInvite: /static/invites/myevents-6-.ics
+    calendarInvite: static/invites/myevents-6-.ics
     hidden: false
     date: 2021-09-09T14:00:05.776Z
     episodeSpeakers: |
@@ -464,7 +464,7 @@ episodes:
       Certified Kubernetes Administrator exams? Join us as OpenInfra
       organizations discuss their training programs and how they can accelerate
       your open source career. "
-    calendarInvite: /static/invites/myevents-5-.ics
+    calendarInvite: static/invites/myevents-5-.ics
     hidden: false
     date: 2021-09-02T14:00:00.000Z
     episodeSpeakers: Huang Chenhao (99 Cloud), Florian Haas (City Network), Erno
@@ -481,7 +481,7 @@ episodes:
       supercomputers to use in research and HPC. In this episode, operators of
       OpenStack supercomputers and HPC centers will discuss the unique
       challenges this use case brings."
-    calendarInvite: /static/invites/myevents-2-.ics
+    calendarInvite: static/invites/myevents-2-.ics
     hidden: false
     date: 2021-08-26T14:00:13.693Z
     episodeSpeakers: >
@@ -498,7 +498,7 @@ episodes:
       discuss how Ironic works to simplify many of the hardships physical bare
       metal operators deal with on a daily basis, including an overview of the
       project, project roadmap, and use cases of Ironic in production.
-    calendarInvite: /static/invites/oil_august12th.ics
+    calendarInvite: static/invites/oil_august12th.ics
     hidden: false
     date: 2021-08-12T14:00:44.146Z
     episodeSpeakers: "Julia Kreger (Red Hat), Mohammed Naser (Vexxhost), Mark
@@ -514,7 +514,7 @@ episodes:
       looks very similar to virtualization or simply like existing public cloud
       offerings. To fully understand this cloud platform, we will start at the
       origins of cloud technology and end at how today's OpenStack works.
-    calendarInvite: /static/invites/openinfralive_august19th.ics
+    calendarInvite: static/invites/openinfralive_august19th.ics
     hidden: false
     date: 2021-08-19T14:00:00.000Z
     episodeSpeakers: Ben Silverman, Ildiko Vancsa
@@ -528,7 +528,7 @@ episodes:
       collaboration opportunities. Join members of both governance bodies to ask
       questions about integration, cross-project support and how you can stay
       updated on the latest developments. "
-    calendarInvite: /static/invites/openinfralive-july29.ics
+    calendarInvite: static/invites/openinfralive-july29.ics
     hidden: false
     date: 2021-07-29T14:00:00.000Z
     episodeSpeakers: Christoph Blecker, Jay Bryant, Ghanshyam Mann, Davanum
@@ -544,7 +544,7 @@ episodes:
       running Kata. Kata Containers Architecture Committee members and upstream
       contributors will provide an update on community development and the
       project roadmap."
-    calendarInvite: /static/invites/openinfralive-july22.ics
+    calendarInvite: static/invites/openinfralive-july22.ics
     hidden: false
     date: 2021-07-22T14:00:00.000Z
     episodeSpeakers: "Samuel Ortiz (Apple), Eric Ernst (Apple), Brent Hollingsworth
@@ -562,7 +562,7 @@ episodes:
       capacity? Join this live discussion between operators of private and
       public clouds with InMotion Hosting, CERN, NECTAR research cloud, Verizon
       Media, City Network and Open Telekom Cloud.
-    calendarInvite: /static/invites/openinfralive-july15.ics
+    calendarInvite: static/invites/openinfralive-july15.ics
     hidden: false
     date: 2021-07-15T14:00:00.000Z
     episodeSpeakers: Belmiro Moreira (CERN), Chris Bermudez (InMotion Hosting), Sam
@@ -578,7 +578,7 @@ episodes:
       around the role of open source in digital sovereignty between Pierre
       Gronlier, CTO of Gaia-X, Kurt Garloff, CTO at Sovereign Cloud Stack, and
       Linda Siwe, Chief Commercial Officer at Binero.
-    calendarInvite: /static/invites/openinfralive-july8.ics
+    calendarInvite: static/invites/openinfralive-july8.ics
     hidden: false
     date: 2021-07-08T14:00:00.000Z
     episodeSpeakers: Johan Christenson, Pierre Gronlier, Kurt Garloff, Linda Siwe
@@ -592,7 +592,7 @@ episodes:
       COO and Paul Miller, Wind River CTO, to learn about the results of the
       edge computing survey conducted by Wind River and provide insight into how
       upstream communities are making progress for this emerging use case.
-    calendarInvite: /static/invites/openinfralive-july1.ics
+    calendarInvite: static/invites/openinfralive-july1.ics
     hidden: false
     date: 2021-07-01T14:00:00.000Z
     episodeSpeakers: Paul Miller, Mark Collier, Ildiko Vancsa
@@ -606,7 +606,7 @@ episodes:
       companies might be right for you? Join us as we spotlight companies with
       open infrastructure job openings, learn about their company cultures, and
       hear what they are looking for in candidates.
-    calendarInvite: /static/invites/openinfralive-june24.ics
+    calendarInvite: static/invites/openinfralive-june24.ics
     hidden: false
     date: 2021-06-24T14:00:35.869Z
     episodeSpeakers: Canonical, OVH, T-Systems, Whitestack
@@ -622,7 +622,7 @@ episodes:
       contributors who are just getting started. The group will discuss
       internships, mentoring, and how you can get started contributing upstream
       to open source projects like OpenStack, Airship, Kata, StarlingX and Zuul.
-    calendarInvite: /static/invites/openinfralive-june17.ics
+    calendarInvite: static/invites/openinfralive-june17.ics
     hidden: false
     date: 2021-06-17T14:00:00.000Z
     episodeSpeakers: Victoria Martinez de la Cruz, Kendall Kelson, Archana Kumari
@@ -638,7 +638,7 @@ episodes:
       episode</a>, a panel of large scale OpenStack infrastructure operators
       from Blizzard Entertainment, OVHcloud, Workday, Vexxhost and CERN, join us
       again to further discuss upgrades.
-    calendarInvite: /static/invites/openinfralive-june10a.ics
+    calendarInvite: static/invites/openinfralive-june10a.ics
     hidden: false
     date: 2021-06-10T14:00:00.000Z
     episodeSpeakers: Belmiro Moreira (CERN), Arnaud Morin (OVH). Mohammed Naser

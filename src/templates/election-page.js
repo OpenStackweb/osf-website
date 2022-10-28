@@ -1,4 +1,5 @@
-import React, { useEffect } from "react"
+import React, { useEffect } from "react";
+import { graphql } from 'gatsby';
 import { connect } from 'react-redux'
 import moment from 'moment-timezone';
 import Content, { HTMLContent } from '../components/Content'

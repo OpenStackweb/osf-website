@@ -3,7 +3,7 @@ import {
     createAction,
     stopLoading,
     startLoading
-} from "openstack-uicore-foundation/lib/methods";
+} from "openstack-uicore-foundation/lib/utils/actions";
 
 export const GET_CURRENT_SUMMIT = 'GET_CURRENT_SUMMIT';
 export const GET_CURRENT_SUMMIT_SUCCESS = 'GET_CURRENT_SUMMIT_SUCCESS';

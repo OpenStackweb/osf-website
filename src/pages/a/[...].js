@@ -1,26 +1,35 @@
 import React, {useEffect} from "react"
 import { Router, Location } from "@reach/router"
 import { connect } from 'react-redux'
-import { syncData } from '../actions/base-actions';
-import PrivateRoute from '../routes/PrivateRoute'
-import withSessionChecker from "../utils/withSessionChecker"
-import ProfilePage from "../templates/profile-page";
-import RegistrationPage from "../templates/registration-page";
-import ErrorPage from "../templates/error-page";
-import MembershipResignPage from "../templates/membership-resign";
-import MembershipCommunityPage from "../templates/membership-community";
-import MembershipFoundationPage from "../templates/membership-foundation";
-import MemberListPage from "../templates/member-list-page"
-import MemberProfilePage from "../templates/member-profile-page"
-import CompanyProfilePage from "../templates/company-profile-page"
-import CandidatePage from "../templates/candidate-page"
-import SchedulePage from "../templates/berlin-2022-summit-schedule-page"
-import NotFoundPage from "./404"
-import ProfileLegalPage from "../templates/profile-legal-page";
-import ProfileElectionPage from "../templates/profile-election-page";
-import ProfileSpeakerPage from "../templates/profile-speaker-page";
+import { syncData } from '../../actions/base-actions';
+import settings from '../../content/settings';
 
-const App = ({ isLoggedUser, user }) => {
+import PrivateRoute from '../../routes/PrivateRoute'
+import ProfilePage from "../../templates/profile-page";
+import RegistrationPage from "../../templates/registration-page";
+import ErrorPage from "../../templates/error-page";
+import MembershipResignPage from "../../templates/membership-resign";
+import MembershipCommunityPage from "../../templates/membership-community";
+import MembershipFoundationPage from "../../templates/membership-foundation";
+import MemberListPage from "../../templates/member-list-page"
+import MemberProfilePage from "../../templates/member-profile-page"
+import CompanyProfilePage from "../../templates/company-profile-page"
+import CandidatePage from "../../templates/candidate-page"
+import SchedulePage from "../../templates/berlin-2022-summit-schedule-page"
+import NotFoundPage from "../404"
+import ProfileLegalPage from "../../templates/profile-legal-page";
+import ProfileElectionPage from "../../templates/profile-election-page";
+import ProfileSpeakerPage from "../../templates/profile-speaker-page";
+
+const App = ({ isLoggedUser, user, lastBuild, syncData }) => {
+
+  useEffect(() => {
+    if (!lastBuild || settings.lastBuild > lastBuild) {
+      syncData();
+    }
+  }, [lastBuild, syncData]);
+
+  console.log('TRHOGH AAAA');
 
   return (
     <Location>
@@ -49,9 +58,10 @@ const App = ({ isLoggedUser, user }) => {
   )
 }
 
-const mapStateToProps = ({ loggedUserState, userState }) => ({
+const mapStateToProps = ({ loggedUserState, userState, settingsState }) => ({
   isLoggedUser: loggedUserState.isLoggedUser,
   user: userState,
-})
+  lastBuild: settingsState.lastBuild
+});
 
-export default connect(mapStateToProps, { syncData })(withSessionChecker(App))
+export default connect(mapStateToProps, { syncData })(App)

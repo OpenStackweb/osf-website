@@ -22,7 +22,7 @@
     "font-awesome": "^4.7.0",
     "friendly-challenge": "^0.9.2",
     "full-schedule-widget": "^2.0.0",
-    "gatsby": "^4.0.0",
+    "gatsby": "4.24.0",
     "gatsby-plugin-image": "^2.10.1",
     "gatsby-plugin-netlify": "^4.1.0",
     "gatsby-plugin-netlify-cms": "^6.10.0",

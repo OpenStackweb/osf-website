@@ -7,7 +7,7 @@
   functionsPort = 8888
 
 [build.environment]
-  NODE_VERSION = "14.15.0"
+  NODE_VERSION = "14.17.3"
   YARN_VERSION = "1.22.4"
   YARN_FLAGS = "--no-ignore-optional"
 [[headers]]

@@ -6,9 +6,10 @@ import {
   createAction,
   stopLoading,
   startLoading,
-  authErrorHandler,
+  authErrorHandler
 } from "openstack-uicore-foundation/lib/utils/actions";
-import {updateUserInfo} from "openstack-uicore-foundation/lib/security/actions"
+import {updateUserInfo} from "openstack-uicore-foundation/lib/security/actions";
+import { getAccessTokenSafely} from "../utils/security";
 
 import Swal from "sweetalert2";
 
@@ -86,11 +87,11 @@ export const getGoldCandidates = () => (dispatch, getState) => {
     });
 }
 
-export const nominateMember = (candidate_id) => async (dispatch, getState) => {
-
-  let { loggedUserState: { accessToken, member } } = getState();
-
-  if (!accessToken) return Promise.resolve();
+export const nominateMember = (candidate_id) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
+  if (!accessToken) {
+    return Promise.resolve();
+  }
 
   dispatch(startLoading());
 
@@ -120,9 +121,9 @@ export const nominateMember = (candidate_id) => async (dispatch, getState) => {
     });
 }
 
-export const updateCandidateProfile = (profile) => (dispatch, getState) => {
-
-  let { loggedUserState: { accessToken, member } } = getState();
+export const updateCandidateProfile = (profile) => async (dispatch, getState) => {
+  const { loggedUserState: { member } } = getState();
+  const accessToken = await getAccessTokenSafely();
 
   if (!accessToken) return Promise.resolve();
 

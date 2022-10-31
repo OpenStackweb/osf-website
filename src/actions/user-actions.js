@@ -14,6 +14,7 @@ import axios from "axios";
 import { handleApiError } from "../utils/security";
 import { customErrorHandler } from "../utils/customErrorHandler";
 import { getMemberProfile, getElectionMemberProfile } from "./member-actions";
+import { getAccessTokenSafely} from "../utils/security";
 
 export const START_LOADING_IDP_PROFILE = 'START_LOADING_IDP_PROFILE';
 export const STOP_LOADING_IDP_PROFILE = 'STOP_LOADING_IDP_PROFILE';
@@ -43,9 +44,10 @@ export const PROFILE_PIC_ATTACHED = 'PROFILE_PIC_ATTACHED';
 export const BIG_PIC_ATTACHED = 'BIG_PIC_ATTACHED';
 
 /******************* PROFILE *******************************************************************/
-export const getUserProfile = () => (dispatch, getState) => {
+export const getUserProfile = () => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
-  let { loggedUserState: { accessToken } } = getState();
+  if (!accessToken) return Promise.resolve();
 
   let params = {
     access_token: accessToken,
@@ -68,9 +70,10 @@ export const getUserProfile = () => (dispatch, getState) => {
   }).catch(() => dispatch(createAction(STOP_LOADING_PROFILE)()));
 }
 
-export const getScheduleSyncLink = () => (dispatch, getState) => {
+export const getScheduleSyncLink = () => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
-  let { loggedUserState: { accessToken } } = getState();
+  if (!accessToken) return Promise.resolve();
 
   let params = {
     access_token: accessToken,
@@ -85,11 +88,10 @@ export const getScheduleSyncLink = () => (dispatch, getState) => {
   )(params)(dispatch);
 };
 
-export const getIDPProfile = () => (dispatch, getState) => {
+export const getIDPProfile = () => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
-  let { loggedUserState: { accessToken } } = getState();
-
-  if (!accessToken) return Promise.reject();
+  if (!accessToken) return Promise.resolve();
 
   let params = {
     access_token: accessToken,
@@ -104,9 +106,8 @@ export const getIDPProfile = () => (dispatch, getState) => {
     .then(() => dispatch(dispatch(createAction(STOP_LOADING_IDP_PROFILE))));
 }
 
-export const updateProfilePicture = (pic) => async (dispatch, getState) => {
-
-  let { loggedUserState: { accessToken } } = getState();
+export const updateProfilePicture = (pic) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   if (!accessToken) return Promise.reject();
 
@@ -128,9 +129,8 @@ export const updateProfilePicture = (pic) => async (dispatch, getState) => {
     .catch(() => dispatch(createAction(STOP_LOADING_IDP_PROFILE)()));
 }
 
-export const updateIDPProfile = (profile) => async (dispatch, getState) => {
-
-  let { loggedUserState: { accessToken } } = getState();
+export const updateIDPProfile = (profile) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   if (!accessToken) return Promise.reject();
 
@@ -151,9 +151,8 @@ export const updateIDPProfile = (profile) => async (dispatch, getState) => {
     .catch(() => dispatch(createAction(STOP_LOADING_IDP_PROFILE)()));
 }
 
-export const updateProfile = (profile) => async (dispatch, getState) => {
-
-  let { loggedUserState: { accessToken } } = getState();
+export const updateProfile = (profile) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   if (!accessToken) return Promise.reject();
 
@@ -179,9 +178,8 @@ export const updateProfile = (profile) => async (dispatch, getState) => {
 /******************************  AFFILIATIONS **************************************************/
 
 
-export const addOrganization = (organization, callback) => (dispatch, getState) => {
-  const { loggedUserState } = getState();
-  const { accessToken } = loggedUserState;
+export const addOrganization = (organization, callback) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   const params = {
     access_token: accessToken,
@@ -202,9 +200,8 @@ export const addOrganization = (organization, callback) => (dispatch, getState) 
 }
 
 
-export const addAffiliation = (affiliation) => (dispatch, getState) => {
-  const { loggedUserState } = getState();
-  const { accessToken } = loggedUserState;
+export const addAffiliation = (affiliation) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   dispatch(startLoading());
 
@@ -228,9 +225,8 @@ export const addAffiliation = (affiliation) => (dispatch, getState) => {
 
 }
 
-export const saveAffiliation = (affiliation) => (dispatch, getState) => {
-  const { loggedUserState } = getState();
-  const { accessToken } = loggedUserState;
+export const saveAffiliation = (affiliation) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   dispatch(startLoading());
 
@@ -252,10 +248,8 @@ export const saveAffiliation = (affiliation) => (dispatch, getState) => {
     });
 }
 
-export const deleteAffiliation = (affiliationId) => (dispatch, getState) => {
-
-  const { loggedUserState } = getState();
-  const { accessToken } = loggedUserState;
+export const deleteAffiliation = (affiliationId) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   const params = {
     access_token: accessToken,
@@ -287,9 +281,8 @@ const normalizeEntity = (entity) => {
 
 }
 
-export const updateMembershipType = (type) => async (dispatch, getState) => {
-  const { loggedUserState } = getState();
-  const { accessToken } = loggedUserState;
+export const updateMembershipType = (type) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   dispatch(startLoading());
 
@@ -309,9 +302,8 @@ export const updateMembershipType = (type) => async (dispatch, getState) => {
     });
 }
 
-export const resignMembershipType = () => (dispatch, getState) => {
-  const { loggedUserState } = getState();
-  const { accessToken } = loggedUserState;
+export const resignMembershipType = () => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   dispatch(startLoading());
 
@@ -333,9 +325,8 @@ export const resignMembershipType = () => (dispatch, getState) => {
 
 /*********************** MY SCHEDULE ***************************************/
 
-export const addToSchedule = (event) => (dispatch, getState) => {
-  const { loggedUserState } = getState();
-  const { accessToken } = loggedUserState;
+export const addToSchedule = (event) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   const url = `${window.API_BASE_URL}/api/v1/summits/current/members/me/schedule/${event.id}`;
 
@@ -347,9 +338,8 @@ export const addToSchedule = (event) => (dispatch, getState) => {
   }).catch(handleApiError);
 };
 
-export const removeFromSchedule = (event) => (dispatch, getState) => {
-  const { loggedUserState } = getState();
-  const { accessToken } = loggedUserState;
+export const removeFromSchedule = (event) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   const url = `${window.API_BASE_URL}/api/v1/summits/current/members/me/schedule/${event.id}`;
 
@@ -363,10 +353,8 @@ export const removeFromSchedule = (event) => (dispatch, getState) => {
 
 /*********************** SPEAKER PROFILE ***************************************/
 
-export const getSpeakerProfile = () => (dispatch, getState) => {
-
-  const { loggedUserState } = getState();
-  const { accessToken } = loggedUserState;
+export const getSpeakerProfile = () => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   dispatch(startLoading());
 
@@ -387,9 +375,8 @@ export const getSpeakerProfile = () => (dispatch, getState) => {
   );
 };
 
-export const saveSpeakerProfile = (entity) => (dispatch, getState) => {
-  let { loggedUserState } = getState();
-  let { accessToken } = loggedUserState;
+export const saveSpeakerProfile = (entity) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   dispatch(startLoading());
 
@@ -457,9 +444,8 @@ export const saveSpeakerProfile = (entity) => (dispatch, getState) => {
     });
 }
 
-export const uploadFileProfile = (entity, file) => (dispatch, getState) => {
-  let { loggedUserState } = getState();
-  let { accessToken } = loggedUserState;
+export const uploadFileProfile = (entity, file) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   let formData = new FormData();
   formData.append('file', file);
@@ -482,9 +468,8 @@ export const uploadFileProfile = (entity, file) => (dispatch, getState) => {
   })
 }
 
-export const uploadFileBigPhoto = (entity, file) => (dispatch, getState) => {
-  let { loggedUserState } = getState();
-  let { accessToken } = loggedUserState;
+export const uploadFileBigPhoto = (entity, file) => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
 
   let formData = new FormData();
   formData.append('file', file);

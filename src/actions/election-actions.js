@@ -87,7 +87,8 @@ export const getGoldCandidates = () => (dispatch, getState) => {
     });
 }
 
-export const nominateMember = (candidate_id) => async (dispatch) => {
+export const nominateMember = (candidate_id) => async (dispatch, getState) => {
+  const { loggedUserState: { member } } = getState();
   const accessToken = await getAccessTokenSafely();
   if (!accessToken) {
     return Promise.resolve();

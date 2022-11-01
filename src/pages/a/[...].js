@@ -29,8 +29,6 @@ const App = ({ isLoggedUser, user, lastBuild, syncData }) => {
     }
   }, [lastBuild, syncData]);
 
-  console.log('TRHOGH AAAA');
-
   return (
     <Location>
       {({ location }) => (

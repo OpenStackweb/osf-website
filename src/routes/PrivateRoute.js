@@ -2,7 +2,7 @@ import React from "react"
 import { connect } from 'react-redux'
 import { navigate } from "gatsby"
 import { isAuthorizedUser } from '../utils/authorizedGroups';
-import { doLogin, isIdTokenAlive } from 'openstack-uicore-foundation/lib/security/methods'
+import { doLogin } from 'openstack-uicore-foundation/lib/security/methods'
 import HeroComponent from "../components/HeroComponent";
 
 const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive, ...rest}) => {
@@ -21,18 +21,6 @@ const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive, 
     return <HeroComponent title={'User not Authorized ...'}/>
   }
 
-  try {
-    if (!isIdTokenAlive()) {
-      doLogin(`${location.pathname}`);
-      return <HeroComponent title={'Checking Credentials ...'}/>
-    }
-  }
-  catch (e) {
-    console.log(e)
-    doLogin(`${location.pathname}`);
-    return <HeroComponent title={'Checking Credentials ...'}/>
-  }
-
   return children;
 }
 
@@ -41,4 +29,4 @@ const mapStateToProps = ({ loggedUserState }) => ({
   user: loggedUserState.member
 })
 
-export default connect(mapStateToProps, {isIdTokenAlive})(PrivateRoute)
+export default connect(mapStateToProps)(PrivateRoute)

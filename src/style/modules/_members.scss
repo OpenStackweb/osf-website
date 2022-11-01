@@ -449,7 +449,7 @@
     margin: 27px 0;
   }
   .company-tier {
-    margin-bottom: 22px;
+    margin-bottom: 70px;
     &:last-of-type {
       margin-bottom: 0px;
     }
@@ -460,6 +460,8 @@
       line-height: 20px;
       letter-spacing: 1px;
       color: rgba(0, 0, 0, 0.45);
+      display: block;
+      margin-bottom: 25px;
     }
     .company-tier-title-mobile {
       display: none;

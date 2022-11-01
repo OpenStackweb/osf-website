@@ -255,7 +255,7 @@ export const MembersPageTemplate = ({
                 }
                 <div className="company">
                     <div className="company-title">
-                        {subProject.name}
+                        "OpenInfra Foundation" + {subProject.name}
                     </div>
                     <span dangerouslySetInnerHTML={{ __html: subProject.description }} />
                     <hr />

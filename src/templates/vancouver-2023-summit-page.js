@@ -94,8 +94,7 @@ export const SummitPageTemplate = ({
                   )
                 })}
               </div>
-              <LinkComponent className="button-cta" style={{margin: "0 auto", marginTop: "30px"}} href="/summit/vancouver-2023/summit-tracks/">Learn More about Summit Tracks<img src={leftArrow} alt="" /></LinkComponent>
-              <a className="text-link" href="https://openinfrafoundation.formstack.com/forms/trackchairnominations2023">Become a Track Chair</a> 
+              <LinkComponent className="button-cta" style={{margin: "0 auto", marginTop: "30px"}} href="/summit/vancouver-2023/summit-tracks/">Learn More about Summit Tracks<img src={leftArrow} alt="" /></LinkComponent> 
             </section>
           }
 

@@ -299,7 +299,7 @@ export const MembersPageTemplate = ({
                     }
                 </div>
             </main>
-        </div>
+        </div> 
     )
 }
 

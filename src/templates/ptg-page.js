@@ -57,7 +57,7 @@ export const PTGPageTemplate = ({
                     :
                     !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> Virtual
                 </span>
-                <div className="buttons">
+                {/* <div className="buttons">
                     {header.buttons.map((button, index) => {
                         return (
                             <a
@@ -67,8 +67,8 @@ export const PTGPageTemplate = ({
                             </a>
                         )
                     })}
-                </div>
-                <p>Make sure you <a class="primary-link-color" href="https://openinfrafoundation.formstack.com/forms/oct2022_ptg_team_signup">sign up your team</a> if that hasn't been done already</p>
+                </div> */}
+                {/* <p>Make sure you <a class="primary-link-color" href="https://openinfrafoundation.formstack.com/forms/oct2022_ptg_team_signup">sign up your team</a> if that hasn't been done already</p> */}
             </div>
             <div className="header-left">
                 <div className="picture">

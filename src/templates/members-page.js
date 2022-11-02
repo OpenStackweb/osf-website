@@ -255,7 +255,7 @@ export const MembersPageTemplate = ({
                 }
                 <div className="company">
                     <div className="company-title">
-                        "OpenInfra Foundation" + {subProject.name}
+                        {subProject.name}
                     </div>
                     <span dangerouslySetInnerHTML={{ __html: subProject.description }} />
                     <hr />
@@ -263,7 +263,7 @@ export const MembersPageTemplate = ({
                     {subProject.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
                         return (
                             <div className="company-tier" key={`company-tier-${tierIndex}`}>
-                                <span className="company-tier-title">{t.name}</span>
+                                <span className="company-tier-title">{"OpenInfra Foundation " + t.name}</span>
                                 {tierIndex !== 2 && <span className="company-tier-title-mobile">{t.name}</span>}
                                 <div className={`company-tier-logos ${t.name.replace(/ .*/, '').toLowerCase()}`}>
                                     {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {

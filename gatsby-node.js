@@ -100,6 +100,7 @@ const SSR_getSponsoredProjects = async (baseUrl) => {
       params: {        
         per_page: 100,
         page: 1,
+        expand: 'subprojects,subprojects.sponsorship_types,subprojects.sponsorship_types.supporting_companies,subprojects.sponsorship_types.supporting_companies.company'
       }
     }).then((response) => response.data.data)
     .catch(e => console.log('ERROR: ', e));
@@ -124,7 +125,7 @@ exports.onPreBootstrap = async () => {
     }
   };
 
-  const accessToken = await getAccessToken(config, buildScopes).then(({ token }) => token.access_token);
+  const accessToken = await getAccessToken(config, buildScopes).then(({ token }) => token.access_token).catch(e => console.log('Access Token error', e));
 
   // settings
   writeToJson('src/content/settings.json', globalSettings);

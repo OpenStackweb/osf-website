@@ -429,6 +429,9 @@
 .company {
   padding: 40px 160px 60px;
   color: #121212;
+  @media screen and (max-width: 900px) {
+    padding: 60px 50px;
+  }
   &-title {
     display: block;
     font-family: "Jura", "Roboto", sans-serif;
@@ -446,7 +449,7 @@
     margin: 27px 0;
   }
   .company-tier {
-    margin-bottom: 22px;
+    margin-bottom: 70px;
     &:last-of-type {
       margin-bottom: 0px;
     }
@@ -457,6 +460,8 @@
       line-height: 20px;
       letter-spacing: 1px;
       color: rgba(0, 0, 0, 0.45);
+      display: block;
+      margin-bottom: 25px;
     }
     .company-tier-title-mobile {
       display: none;
@@ -465,17 +470,79 @@
       display: grid;
       grid-column-gap: 20px;
       grid-row-gap: 20px;
+      grid-template-columns: repeat(7, 1fr);
       img {
         margin: auto;
       }
       &.platinum {
-        grid-template-columns: repeat(4, 1fr);
+        @media screen and (max-width: 1100px) {
+          grid-template-columns: repeat(4, 1fr);
+        }
+        img {
+          width: 180px;
+        }
       }
       &.gold {
-        grid-template-columns: repeat(6, 1fr);
+        @media screen and (max-width: 1100px) {
+          grid-template-columns: repeat(4, 1fr);
+        }
+        img {
+          width: 140px;
+        }
       }
       &.silver {
-        grid-template-columns: repeat(7, 1fr);
+        @media screen and (max-width: 1100px) {
+          grid-template-columns: repeat(5, 1fr);
+        }
+        img {
+          width: 140px;
+        }
+      }
+    }
+    // using 2 and 3 since the first div is used for the title
+    &:nth-of-type(2) {
+      .company-tier-logos {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+    &:nth-of-type(3) {
+      .company-tier-logos {
+        grid-template-columns: repeat(6, 1fr);
+      }    
+    }
+    .company-tier-logos {
+      &.platinum {
+        @media screen and (max-width: 1100px) {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        @media screen and (max-width: 900px) {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        img {
+          width: 180px;
+        }
+      }
+      &.gold {
+        @media screen and (max-width: 1100px) {
+          grid-template-columns: repeat(4, 1fr);
+        }
+        @media screen and (max-width: 900px) {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        img {
+          width: 140px;
+        }
+      }
+      &.silver {
+        @media screen and (max-width: 1100px) {
+          grid-template-columns: repeat(5, 1fr);
+        }
+        @media screen and (max-width: 900px) {
+          grid-template-columns: repeat(4, 1fr);
+        }
+        img {
+          width: 140px;
+        }
       }
     }
   }

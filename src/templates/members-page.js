@@ -264,7 +264,7 @@ export const MembersPageTemplate = ({
                         return (
                             <div className="company-tier" key={`company-tier-${tierIndex}`}>
                                 <span className="company-tier-title">{"OpenInfra Foundation " + t.name}</span>
-                                {tierIndex !== 2 && <span className="company-tier-title-mobile">{t.name}</span>}
+                                {tierIndex !== 2 && <span className="company-tier-title-mobile">{"OpenInfra Foundation " + t.name}</span>}
                                 <div className={`company-tier-logos ${t.name.replace(/ .*/, '').toLowerCase()}`}>
                                     {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
                                         return (

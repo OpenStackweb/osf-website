@@ -1,4 +1,4 @@
-import { getAccessToken } from "openstack-uicore-foundation/lib/utils/actions";
+import { getAccessToken } from "openstack-uicore-foundation/lib/security/methods";
 import {getEnvVariable, IDP_BASE_URL, OAUTH2_CLIENT_ID} from './envVariables'
 import {needsLogin} from "./alerts";
 

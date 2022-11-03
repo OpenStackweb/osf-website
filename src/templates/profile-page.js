@@ -98,7 +98,7 @@ export const ProfilePageTemplate = ({
                             <div className="columns">
                                 <div className="column">
                                     <MembershipType currentType={currentMembershipType}
-                                        userName={`${idpProfile.given_name} ${idpProfile.family_name}`}
+                                        userName={`${idpProfile?.given_name} ${idpProfile?.family_name}`}
                                         initialType={initialMembershipType}
                                         handleConvertCommunityMember={() => handleConvertCommunityMember()}
                                         handleConvertFoundationMember={() => handleConvertFoundationMember()}
@@ -156,7 +156,7 @@ const ProfilePage = ({
     useEffect(() => {
         getUserProfile();
         getIDPProfile();
-    }, [])
+    }, []);
 
     return (
         <Layout>

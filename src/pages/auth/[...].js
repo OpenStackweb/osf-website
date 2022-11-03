@@ -8,7 +8,6 @@ import LogOutCallbackRoute from "../../routes/logout-callback-route"
 const Auth = class extends React.Component {
 
   render() {
-
     let { onUserAuth, doLogout, getUserInfo, location } = this.props;
 
     return (

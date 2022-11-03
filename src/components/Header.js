@@ -1,5 +1,8 @@
 import React from 'react'
 import LinkComponent from './LinkComponent';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Header = class extends React.Component {
   constructor(props) {
@@ -39,7 +42,7 @@ render() {
 
     return (     
       <main className="main">
-        <section className="hero-main is-primary hero">
+        <section className="hero-main is-primary hero home-v2-hero">
           <div className="hero-body">
             <div className="container">
               {isHome ?
@@ -99,18 +102,6 @@ render() {
                         <img src="/img/homeV2/next-arrow.svg" />
                     </button>
                 </div>
-                <div className="hero-actions">
-                  {buttons && buttons.map((button, index) => {
-                    return (
-                      <React.Fragment key={index}>
-                        <LinkComponent href={button.link} className={`button ${index % 2 === 0 ? 'button-white': 'button-red'}`}>
-                          <span>{button.text}</span>
-                        </LinkComponent>                        
-                        &nbsp;
-                      </React.Fragment>
-                    )
-                  })}                  
-                </div>                
               </div>
               :
               <div className="hero-project-content">

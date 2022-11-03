@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar'
-import Navbar from '../components/Navbar'
+import NavbarV2 from '../components/NavbarV2'
 import SEO from '../components/SEO'
 
 import CompaniesSection from '../components/CompaniesSection'
@@ -32,9 +32,9 @@ export const IndexPageTemplate = ({
   sponsor,
 }) => (
   <div>
-    <div className="wrapper hero-background">
+    <div className="wrapper hero-background home-v2-hero-wrapper">
       <TopBar />
-      <Navbar isLoggedUser={isLoggedUser} />
+      <NavbarV2 isLoggedUser={isLoggedUser} />
       <Header upperTitle={header.upperTitle} title={header.title} subTitle={header.subTitle} image={header.image} buttons={header.buttons} isHome={true} />
     </div>
 

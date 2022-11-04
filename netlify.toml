@@ -87,15 +87,15 @@
   status = 301
 [[redirects]]
   from = "/election"
-  to = "/election/2022-individual-director-election"
+  to = "/election/2023-individual-director-election"
   status = 301
 [[redirects]]
   from = "/election/candidates"
-  to = "/election/2022-individual-director-election/candidates"
+  to = "/election/2023-individual-director-election/candidates"
   status = 301
 [[redirects]]
   from = "/election/candidates/gold"
-  to = "/election/2022-individual-director-election/candidates/gold"
+  to = "/election/2023-individual-director-election/candidates/gold"
   status = 301
   force = true
 [[redirects]]

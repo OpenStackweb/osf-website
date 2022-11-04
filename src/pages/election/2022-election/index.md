@@ -1,35 +1,27 @@
 ---
-templateKey: election-page
+templateKey: election-page-previous
 seo:
-  description: Individual Member Director elections for the 2023 Board of
-    Directors will be held *Monday January 9, 2023 to * *Monday January 16,
-    2023*. Nominations  occur between *November 14 and December 16, 2022*.
+  description: Individual Member Director elections for the 2022 Board of
+    Directors will be held *Monday January 10, 2022 to * *Friday January 18,
+    2022*. Nominations  occur between *November 15 and December 17, 2020*.
   image: /img/OpenInfra-icon-white.jpg
-  title: 2023 Board Elections
+  title: 2022 Board Elections
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/election/2023-individual-director-election
-title: January 2023 Board Elections
+  url: https://openinfra.dev/election/2022-individual-director-election
+title: January 2022 Board Elections
 subTitle: Individual and Gold Member elections
 menu:
-  - text: ELECTION DETAILS
-    link: /election/2023-individual-director-election
-  - text: SEE THE CANDIDATES
-    link: /election/2023-individual-director-election/candidates
-  - text: NOMINATE A MEMBER
-    link: /a/community/members
-  - text: BE A CANDIDATE
-    link: /profile
-  - text: GOLD MEMBER ELECTION CANDIDATES
-    link: /election/2023-individual-director-election/candidates/gold
   - text: CODE OF CONDUCT
     link: ../../legal/code-of-conduct
   - text: REPORT A BUG
     link: mailto:info@openinfra.dev
 ---
 
+Individual Member Director elections for the January 2022 Board Elections will be held **Monday January 10, 2022 to Friday January 14, 2022**. Nominations occur between **November 15 and December 17, 2021**.
+
 #### About the Board
 
-The Board of Directors is ultimately legally responsible for the Foundation as a corporate entity. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. The 2022 Board will be composed of 21 directors elected by the Individual Members (7), directors elected by the Gold Members (7) and directors appointed by the Platinum Members (7).
+The Board of Directors is ultimately legally responsible for the Foundation as a corporate entity. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. The 2022 Board will be composed of 27 directors elected by the Individual Members (9), directors elected by the Gold Members (9) and directors appointed by the Platinum Members (9).
 
 As a true corporate board, Board members are responsible for fiduciary duties and adhering to an expanded code of conduct. All Directors need to attend regular quarterly Board meetings and any special meetings that come up. The meetings will be held in a way that allows for remote participation.
 
@@ -48,39 +40,39 @@ Members should review and comply with the the [Community Code of Conduct](/lega
 
 #### Election Overview:
 
-Individual Member Director elections for the 2023 Board will be held **Monday January 9, 2023 to  Monday January 16, 2023**. You must have joined the Open Infrastructure Foundation as an Individual Member by Tuesday, July 17, 2022 to vote in the January 2023 election, per the bylaws.
+Individual Member Director elections for the 2022 Board will be held **Monday January 10, 2022 to  Friday January 14, 2022**. You must have joined the Open Infrastructure Foundation as an Individual Member by Tuesday, July 18, 2021 to vote in the January 2022 election, per the bylaws.
 
-In accordance with the Open Infrastructure Foundation Bylaws, Board elections will take place online using a cumulative voting method. No more than three members of the Board may be affiliated with the same company, which means the candidate receiving the next highest votes would assume the seat if the election results in too many employees from a single company. Individual Member Directors elected in 2023 will serve a one-year term, but they may be nominated and re-elected indefinitely. The next election for Individual Member Directors will take place during January 2023.
+In accordance with the Open Infrastructure Foundation Bylaws, Board elections will take place online using a cumulative voting method. No more than three members of the Board may be affiliated with the same company, which means the candidate receiving the next highest votes would assume the seat if the election results in too many employees from a single company. Individual Member Directors elected in 2022 will serve a one-year term, but they may be nominated and re-elected indefinitely. The next election for Individual Member Directors will take place during January 2023.
 
-If you are an eligible voter, you will receive an email with a link to complete your ballot when the elections open on January 9, 2023. To ensure you receive the ballot, please log on to the website at [openinfra.dev/a/profile](/a/profile) and make sure your information is current.
+If you are an eligible voter, you will receive an email with a link to complete your ballot when the elections open on January 10, 2022. To ensure you receive the ballot, please log on to the website at [openinfra.dev/a/profile](/a/profile) and make sure your information is current.
 
 #### Nomination Process
 
-- Between November 14 and December 16, members can visit [this page](/a/community/members) and nominate candidates.
+- Between November 15 and December 17, members can visit [this page](/a/community/members) and nominate candidates.
 - Whenever a member is nominated, they will receive a notification (via the email listed in their member profile)
 - Nominees must then log in and 1) accept the initial nomination, and 2) fill out the application
-- Members who have received 10 nominations by December 16 must also complete the candidate application by December 16 in order to appear on the ballot
+- Members who have received 10 nominations by December 17 must also complete the candidate application by December 17 in order to appear on the ballot
 
 #### Candidate Application
 
-All candidates must complete the application by December 16 in order to appear on the ballot. Questions:
+All candidates must complete the application by December 17 in order to appear on the ballot. Questions:
 
 1. Bio
 2. What is your relationship to OpenInfra, and why is its success important to you? What would you say is your biggest contribution to OpenInfra and/or OpenStack's success to date?
 3. Describe your experience with other non profits or serving as a board member. How does your experience prepare you for the role of a board member?
 4. What do you see as the Board's role in OpenInfra's success?
-5. What do you think the top priority of the Board should be in 2023?
+5. What do you think the top priority of the Board should be in 2022?
 
 A candidate's responses will appear on their public profile, as well as on [the candidates page](/election/candidates).
 
 #### Election Timeline Summary:
 
 - November 15: Individual Member nominations open, election details live on [openinfra.dev](/elections/current)
-- December 16: Individual Member nominations close
-- December 21: Deadline for Individual Member Nominees to complete application
-- January 4: Gold Member Director Selector Election (1 day)
-- January 9: Individual Member Elections open
-- January 13: Individual Member Elections close
+- December 17: Individual Member nominations close
+- December 22: Deadline for Individual Member Nominees to complete application
+- January 5: Gold Member Director Selector Election (1 day)
+- January 10: Individual Member Elections open
+- January 14: Individual Member Elections close
 
 Note that the Gold Member process will complete prior to the start of the Individual Member elections. Each Platinum Member has already appointed a Board Member, although they can change that appointment at any time during their membership.
 

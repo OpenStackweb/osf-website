@@ -54,12 +54,12 @@ render() {
                     <p>We are a <b>non-profit organization</b> providing a <b>neutral, open environment</b> for organizations, developers, and users to build open source infrastructure software together. </p>
                   </div>
                   <div className="hero-actions">
-                    <div href='/' className="hero-primary-btn">
+                    <a href='/projects/hosting/' className="hero-primary-btn">
                       <span>Host a Project</span>
-                    </div>                        
-                    <div href='/' className="hero-secondary-btn">
+                    </a>                        
+                    <a href='/join/' className="hero-secondary-btn">
                       <span className="secondary-btn-arrow">Join Us</span>
-                    </div>                        
+                    </a>                        
                   </div>                
                 </div>
                 <div className="hero-slider-container">

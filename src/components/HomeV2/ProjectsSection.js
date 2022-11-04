@@ -144,7 +144,7 @@ const ProjectsSection = class extends React.Component {
                     </Slider>
                 </div>
                 <div className="home-v2-community-btn-container">
-                    <a href="">
+                    <a href="/projects/hosting/">
                         <div className="home-v2-community-btn home-v2-community-btn-primary">
                             About Project Hosting
                         </div>

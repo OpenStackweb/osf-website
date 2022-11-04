@@ -51,12 +51,12 @@ const CommunitiesSection = class extends React.Component {
               ]
         };
         const settings2 = {
-            speed: 90000,
+            speed: 100000,
             autoplay: true,
             autoplaySpeed: 0,
             cssEase: 'linear',
             slidesToShow: 6,
-            slidesToScroll: 18,
+            slidesToScroll: 20,
             infinite: true,
             arrows: false,
             responsive: [
@@ -165,12 +165,12 @@ const CommunitiesSection = class extends React.Component {
                     }) }
                 </div>
             <div className="home-v2-community-btn-container">
-                <a href="">
+                <a href="/join/">
                     <div className="home-v2-community-btn home-v2-community-btn-primary">
                         Become a Member
                     </div>
                 </a>
-                <a href="">
+                <a href="/members/">
                     <div className="home-v2-community-btn">
                         <span className="secondary-btn-arrow">See All Members</span>
                     </div>

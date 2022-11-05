@@ -78,10 +78,6 @@ const NewsletterForm = () => {
             data-netlify="true"
             data-netlify-honeypot="bot-field">
             {!success &&
-        //     <div className="home-v2-newsletter-form">
-        //     <input type="text" placeholder="Enter your email"></input>
-        //     <button type="Submit">Subscribe</button>
-        // </div>
                 <div className="home-v2-newsletter-form">
                     <input id="email" className="contact-field ct-field"
                         maxLength="80" name="email" value={inputs.email || ""}
@@ -91,8 +87,8 @@ const NewsletterForm = () => {
                 </div>
             }
             {success &&
-                <div id="home-v2-newsletter-form">
-                    <p>Success! You are subscribed!</p>
+                <div className="home-v2-newsletter-form home-v2-newsletter-form-success">
+                    <p>Success! You have been subscribed to the newsletter!</p>
                 </div>
             }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import NewsletterForm from '../ContactFormNewsletter'
 
 const NewsSection = class extends React.Component {
 
@@ -111,10 +112,11 @@ const NewsSection = class extends React.Component {
                                 <li>Read the latest OpenInfra project news</li>
                                 <li>Get news about industry updates, cloud economics, and more!</li>
                             </ul>
-                            <div className="home-v2-newsletter-form">
+                            {/* <div className="home-v2-newsletter-form">
                                 <input type="text" placeholder="Enter your email"></input>
                                 <button type="Submit">Subscribe</button>
-                            </div>
+                            </div> */}
+                            <NewsletterForm />
                             <p className="home-v2-newsletter-disclaimer">We care about your data in our <a href="/privacy-policy/">Privacy Policy</a>.</p>
                         </div>
                     </div>

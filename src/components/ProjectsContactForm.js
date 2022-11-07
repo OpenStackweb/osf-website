@@ -281,6 +281,19 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                             </div>
                             <div className="field-row ">
                                 <div className="field-column is-full-width">
+                                    <label className="field-label" htmlFor="project_hosting_referral">
+                                        How did you hear about hosting your project with the OpenInfra Foundation?
+                                    </label>
+                                    <div className="field-row">
+                                        <input id="project_hosting_referral" className="contact-field ct-field"
+                                            maxLength="80" name="project_hosting_referral" value={inputs.project_hosting_referral || ""}
+                                            onChange={handleChange} type="text" placeholder=""
+                                            required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="field-row ">
+                                <div className="field-column is-full-width">
                                     <label className="field-label" htmlFor="project_commentary">
                                         Anything else we should know about the project, community, or participating organizations?
                                     </label>

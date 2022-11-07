@@ -4,7 +4,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const OurFocusSection3 = () => {
   useEffect(() => {
+
+    if (window.innerWidth > 767) { 
+
     setTimeout(() => {
+
+        
 
         gsap.registerPlugin(ScrollTrigger);
 
@@ -95,8 +100,10 @@ const OurFocusSection3 = () => {
         
         
       }, "500")
+    }
   }, [])
-  return (  
+  if (window.innerWidth > 767) { 
+    return (  
         <div className="scroller-container">
             <div className="try-3 scroller">
                     <div className="try-container">
@@ -122,6 +129,34 @@ const OurFocusSection3 = () => {
             </div>
         </div>
   )
+  } else {
+    return (  
+        <div className="scroller-container">
+            <div className="try-3 scroller">
+                    <div className="try-container-mobile">
+  
+                        <div className="try-panel-mobile blue">
+                            <div className="try-box">
+                                <h2 className="our-focus-heading our-focus-heading-1"><span className="our-focus-heading-top">The World Needs </span><br /><span className="our-focus-heading-primary our-focus-heading-1-db">Open</span> <span className="our-focus-heading-primary our-focus-heading-1-lb">Source</span> <span className="our-focus-heading-primary our-focus-heading-1-bl">Infrastructure</span> <br /><span className="our-focus-heading-bottom">Now More Than Ever</span></h2>
+                            </div>
+                        </div>
+                        
+                        <section className="try-panel-mobile red">
+                            <div className="try-box-2 try-box">
+                                <h2 className="our-focus-heading our-focus-heading-2"><span className="our-focus-heading-top">We Build Communities </span><br /><span className="our-focus-heading-primary our-focus-heading-2-lw">Who</span> <span className="our-focus-heading-primary our-focus-heading-2-dy">Write</span> <br className="our-focus-heading-break" /> <span className="our-focus-heading-primary our-focus-heading-2-ly">Infrastructure</span> <span className="our-focus-heading-primary our-focus-heading-2-dw">Software</span> <br /><span className="our-focus-heading-bottom">That Runs In Production</span></h2>
+                            </div>
+                        </section>
+                        
+                        <section className="try-panel-mobile gray">
+                            <div className="try-box-3 try-box">
+                                <h2 className="our-focus-heading our-focus-heading-3"><span className="our-focus-heading-top">Let Us Help </span><br /><span className="our-focus-heading-primary our-focus-heading-3-rd">Build</span> <span className="our-focus-heading-primary our-focus-heading-3-lb">Your</span> <span className="our-focus-heading-primary our-focus-heading-3-yl">Community</span> <br /><a className="our-focus-heading-link" href="/join/"><span className="our-focus-heading-bottom our-focus-heading-link">Learn More <img src="/img/homeV2/arrow-1.svg" /></span></a></h2>
+                        </div>
+                        </section>
+                        </div>
+            </div>
+        </div>
+  )
+  }
   }
 
   export default OurFocusSection3

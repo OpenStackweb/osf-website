@@ -63,7 +63,7 @@ const CommunitiesSection = class extends React.Component {
                 {
                   breakpoint: 991,
                   settings: {
-                    speed: 120000,
+                    speed: 130000,
                     slidesToShow: 4,
                     slidesToScroll: 20,
                     infinite: true
@@ -72,7 +72,7 @@ const CommunitiesSection = class extends React.Component {
                 {
                     breakpoint: 767,
                     settings: {
-                      speed: 120000,
+                      speed: 130000,
                       slidesToShow: 3,
                       slidesToScroll: 20,
                       infinite: true
@@ -81,7 +81,7 @@ const CommunitiesSection = class extends React.Component {
                   {
                     breakpoint: 475,
                     settings: {
-                      speed: 120000,
+                      speed: 130000,
                       slidesToShow: 2,
                       slidesToScroll: 20,
                       infinite: true

@@ -79,17 +79,31 @@ render() {
                         </div>
                     </div>
                     <div className="home-v2-numbers-box">
-                        <div className="home-v2-numbers-inner home-v2-numbers-green">
-                            <p className="home-v2-numbers-subheading">We Support</p>
-                            <p className="home-v2-numbers-title">110,000+</p>
-                            <p className="home-v2-numbers-subtitle">Community Members Globally</p>
-                        </div>
-                    </div>
-                    <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-blue">
                             <p className="home-v2-numbers-subheading">Our Community Spans</p>
                             <p className="home-v2-numbers-title">180+</p>
                             <p className="home-v2-numbers-subtitle">Countries</p>
+                        </div>
+                    </div>
+                    <div className="home-v2-numbers-box">
+                        <div className="home-v2-numbers-inner home-v2-numbers-green">
+                            <p className="home-v2-numbers-subheading">Our Software is Built by</p>
+                            <p className="home-v2-numbers-title">9k+</p>
+                            <p className="home-v2-numbers-subtitle">Contributors</p>
+                        </div>
+                    </div>
+                    <div className="home-v2-numbers-box">
+                        <div className="home-v2-numbers-inner home-v2-numbers-gray">
+                            <p className="home-v2-numbers-subheading">OpenStack-Powered Public Clouds Cover</p>
+                            <p className="home-v2-numbers-title">300+</p>
+                            <p className="home-v2-numbers-subtitle">Data Centers</p>
+                        </div>
+                    </div>
+                    <div className="home-v2-numbers-box">
+                        <div className="home-v2-numbers-inner home-v2-numbers-light-blue">
+                            <p className="home-v2-numbers-subheading">OpenInfra Contributors Have Merged</p>
+                            <p className="home-v2-numbers-title">580k+</p>
+                            <p className="home-v2-numbers-subtitle">Changes Over the Past Decade</p>
                         </div>
                     </div>
                     </Slider>

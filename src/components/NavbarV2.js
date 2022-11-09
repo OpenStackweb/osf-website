@@ -59,7 +59,7 @@ const NavbarV2 = class extends React.Component {
     return (
       <nav className="nav nav-v2">
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;700&display=swap" rel="stylesheet"></link>
         <div className="container navbar-v2-container">
           <div className="nav-inner">

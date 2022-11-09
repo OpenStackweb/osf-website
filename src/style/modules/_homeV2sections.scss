@@ -46,13 +46,18 @@
     transition: all 0.5s ease-out;
     .news-article-inner-container {
         width: 380px;
-        height: 420px;
         margin: 0 15px;
         img {
             margin-bottom: 30px;
+            height: 237px;
+            width: 100%;
+            border-radius: 15px;
         }
         @media screen and (max-width: 420px) {
             width: 300px;
+            img {
+                height: 195px;
+            }
         }
         .news-article-intro-text {
             font-family: 'Jura', sans-serif;
@@ -461,7 +466,7 @@ h2.home-v2-header {
         height: 100%;
         width: 75px;
         top: 0;
-        left: 0;
+        left: -1px;
         background-image: linear-gradient(90deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
         z-index: 100;
         @media screen and (max-width: 991px) {
@@ -481,7 +486,7 @@ h2.home-v2-header {
         height: 100%;
         width: 75px;
         top: 0;
-        right: 0;
+        right: -1px;
         background-image: linear-gradient(270deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
         z-index: 100;
         @media screen and (max-width: 991px) {
@@ -501,9 +506,11 @@ h2.home-v2-header {
         padding: 30px;
         margin: 0 10px;
         min-height: 350px;
+        position: relative;
         .home-v2-quote-inner-container {
             position: absolute;
             bottom: 30px;
+            width: 80%;
         }
         .home-v2-quote-text {
             color: #fff;
@@ -529,6 +536,9 @@ h2.home-v2-header {
         img {
             opacity: 0.5;
             transition: all 0.5s;
+            &.home-v2-quote-logo-resize {
+                height: 25px;
+            }
         }
         @media screen and (max-width: 991px) {
             .home-v2-quote-text,

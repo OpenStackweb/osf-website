@@ -152,6 +152,20 @@
                     color: #C5152A;
                 }
             }
+            &.home-v2-numbers-gray {
+                border: 2px solid #E0E0DF;
+                background-color: rgba(224, 224, 223, .4);
+                .home-v2-numbers-title {
+                    color: #E0E0DF;
+                }
+            }
+            &.home-v2-numbers-light-blue {
+                border: 2px solid #7CDFF4;
+                background-color: rgba(124, 223, 244, .4);
+                .home-v2-numbers-title {
+                    color: #7CDFF4;
+                }
+            }
             .home-v2-numbers-subheading {
                 font-family: 'Jura', sans-serif;
                 text-transform: uppercase;
@@ -166,16 +180,19 @@
             .home-v2-numbers-subtitle {
                 font-family: 'Roboto Flex', sans-serif;
             }
+            @media screen and (max-width: 1200px) {
+                padding: 80px 35px;
+            }
             @media screen and (max-width: 1000px) {
-                padding: 30px 40px;
+                padding: 30px 18px;
                 .home-v2-numbers-title {
                     font-size: 50px;
                 }
                 .home-v2-numbers-subtitle {
-                    font-size: 16px;
+                    font-size: 14px;
                 }
                 .home-v2-numbers-subheading {
-                    font-size: 16px;
+                    font-size: 14px;
                 }
             }
             @media screen and (max-width: 768px) {
@@ -188,6 +205,20 @@
                 min-height: auto;
                 .home-v2-numbers-title {
                     font-size: 32px;
+                }
+                .home-v2-numbers-subheading {
+                    font-size: 16px;
+                }
+            }
+            @media screen and (max-width: 450px) {
+                .home-v2-numbers-subheading {
+                    font-size: 14px;
+                }
+            }
+            @media screen and (max-width: 400px) {
+                padding: 30px 15px;
+                .home-v2-numbers-subheading {
+                    font-size: 13px;
                 }
             }
 

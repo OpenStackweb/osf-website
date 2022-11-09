@@ -4,12 +4,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const OurFocusSection3 = () => {
   useEffect(() => {
-
-    if (window.innerWidth > 767) { 
+        console.log('here');
 
     setTimeout(() => {
+        if (window.innerWidth > 767) { 
 
-        
+        console.log('there');
 
         gsap.registerPlugin(ScrollTrigger);
 
@@ -33,40 +33,7 @@ const OurFocusSection3 = () => {
             }
         });
 
-        // const getTotalWidth = () => sections.slice(1).reduce((val, section) => val + section.offsetWidth, 0);
-        // const totalWidth = getTotalWidth();
-        // gsap.to(sections, {
-        // xPercent: -100 * (sections.length - 1),
-        // ease: "none",
-        // scrollTrigger: {
-        //     scroller: ".scroller",
-        //     trigger: ".try-container",
-        //     pinType: "fixed",
-        //     pin: true,
-        //     scrub: 1,
-        //     snap: 1 / (sections.length - 1),
-        //     start: 0,
-        //     end: "+=" + (totalWidth / 4).toString(),
-        //     invalidateOnRefresh: true
-        // }
-        // });
-
         gsap.set(".try-box-1, .try-box-2", {y: 800});
-        // ScrollTrigger.defaults({markers: {startColor: "white", endColor: "white"}});
-
-        // red section
-        // gsap.to(".try-box-1", {
-        // y: 0,
-        // duration: 2,
-        // ease: "elastic",
-        // scrollTrigger: {
-        //     trigger: ".try-box-1",
-        //     containerAnimation: scrollTween,
-        //     start: "left center",
-        //     toggleActions: "play none none reset",
-        //     id: "1",
-        // }
-        // });
 
 
         // gray section
@@ -84,23 +51,8 @@ const OurFocusSection3 = () => {
             // toggleClass: "active"
         }
         });
-
-        // only show the relevant section's markers at any given time
-        // gsap.set(".gsap-marker-start, .gsap-marker-end, .gsap-marker-scroller-start, .gsap-marker-scroller-end", {autoAlpha: 0});
-        // ["red","gray","purple"].forEach((triggerClass, i) => {
-        // ScrollTrigger.create({
-        //     trigger: "." + triggerClass,
-        //     containerAnimation: scrollTween,
-        //     start: "left 30%",
-        //     end: i === 2 ? "right right" : "right 30%",
-        //     markers: false,
-        //     onToggle: self => gsap.to(".marker-" + (i+1), {duration: 0.25, autoAlpha: self.isActive ? 1 : 0})
-        // });
-        // });
         
-        
-      }, "500")
-    }
+      } }, "500")
   }, [])
   if (window.innerWidth > 767) { 
     return (  

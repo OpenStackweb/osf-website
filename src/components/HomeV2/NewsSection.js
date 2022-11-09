@@ -9,7 +9,7 @@ const NewsSection = class extends React.Component {
           newsOffset: 0,
           newsOffsetKey: 0,
           newsScrollWidth: window.innerWidth >= 420 ? 410 : 330,
-          newsScrollAmount: window.innerWidth >= 1000 ? 3 : 4
+          newsScrollAmount: window.innerWidth >= 1000 ? 2 : 3
         }
       }
     
@@ -40,7 +40,7 @@ const NewsSection = class extends React.Component {
         return (
             <div className="home-v2-outer-container-dark">
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
                 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Jura:wght@400;500;700&display=swap" rel="stylesheet"></link>
                 <div className="container home-v2-container-news">
                     <div className="home-v2-text-container">
@@ -49,46 +49,39 @@ const NewsSection = class extends React.Component {
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
                         <div className="news-article-inner-container">
-                            <a href=""><img src="/img/homeV2/news-images/news-img-1.png" /></a>
-                            <p className="news-article-intro-text">ALLISON PRICE • 11 SEP 2022</p>
-                            <a href=""><h3>OpenInfra Summit Vancouver</h3></a>
-                            <p className="news-article-content">Registration and sponsorships for the OpenInfra Summit Vancouver are now open! This is your cha...</p>
-                            <a className="news-article-link" href="">READ MORE</a>
+                            <a href="https://www.zdnet.com/article/kata-containers-3s-marriage-of-virtual-machines-and-containers-continues/"><img src="/img/homeV2/news-images/kata-article-img.webp" /></a>
+                            <p className="news-article-intro-text">Steven Vaughan-Nichols • Oct 11, 2022</p>
+                            <a href="https://www.zdnet.com/article/kata-containers-3s-marriage-of-virtual-machines-and-containers-continues/"><h3>Kata Containers 3's marriage of virtual machines and containers continues</h3></a>
+                            <p className="news-article-content">Suppose, just suppose, you could combine the speed and flexibility of containers with the security of virtual machines (VM). That's exactly what Kata Containers does.</p>
+                            <a className="news-article-link" href="https://www.zdnet.com/article/kata-containers-3s-marriage-of-virtual-machines-and-containers-continues/">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">
-                            <a href=""><img src="/img/homeV2/news-images/news-img-2.png" /></a>
-                            <p className="news-article-intro-text">ILDIKO VANSCA • 13 SEP 2022</p>
-                            <a href=""><h3>starlingx 7.0 released</h3></a>
-                            <p className="news-article-content">The open source edge computing and IoT cloud platform optimized for low latency and high perfor...</p>
-                            <a className="news-article-link" href="">READ MORE</a>
+                            <a href="https://www.zdnet.com/article/openstack-from-austin-to-zed/"><img src="/img/homeV2/news-images/openstack-article-img.webp" /></a>
+                            <p className="news-article-intro-text">Steven Vaughan-Nichols • Oct 10, 2022</p>
+                            <a href="https://www.zdnet.com/article/openstack-from-austin-to-zed/"><h3>OpenStack from Austin to Zed</h3></a>
+                            <p className="news-article-content">OpenStack has come a long way from its first release to its latest as it has matured from a private cloud to a multi-purpose cloud for any and all purposes</p>
+                            <a className="news-article-link" href="https://www.zdnet.com/article/openstack-from-austin-to-zed/">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">
-                            <a href=""><img src="/img/homeV2/news-images/news-img-3.png" /></a>
-                            <p className="news-article-intro-text">HELENA SPEASE • 22 AUG 2022</p>
-                            <a href=""><h3>openinfra live this week</h3></a>
-                            <p className="news-article-content">Learn the importance of having a Virtual Desktop Infrastructure (VDI) with OpenStack in this week’s...</p>
-                            <a className="news-article-link" href="">READ MORE</a>
+                            <a href="https://www.starlingx.io/blog/starlingx-release-7/"><img src="/img/homeV2/news-images/news-img-2.png" /></a>
+                            <p className="news-article-intro-text">Ildiko Vancsa • Sep 13, 2022</p>
+                            <a href="https://www.starlingx.io/blog/starlingx-release-7/"><h3>StarlingX R 7.0 is here!</h3></a>
+                            <p className="news-article-content">In September of 2022, the StarlingX community announced the R7.0 release with new features and enhancements to the platform.</p>
+                            <a className="news-article-link" href="https://www.starlingx.io/blog/starlingx-release-7/">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">
-                            <a href=""><img src="/img/homeV2/news-images/news-img-4.png" /></a>
-                            <p className="news-article-intro-text">Olivia Rhye • 20 Jan 2022</p>
-                            <a href=""><h3>UX review presentations</h3></a>
-                            <p className="news-article-content">How do you create compelling presentations that wow your colleagues and impress your managers...</p>
-                            <a className="news-article-link" href="">READ MORE</a>
+                            <a href="https://openinfra.dev/blog/open-for-business-open-infra-foundation-launches-directed-funding-for-openinfra-project-hosting-replicating-success-of-openstack-kata-containers-starlingx"><img src="/img/homeV2/news-images/openinfra-article-img.jpg" /></a>
+                            <p className="news-article-intro-text">Allison Price • Jul 6, 2022</p>
+                            <a href="https://openinfra.dev/blog/open-for-business-open-infra-foundation-launches-directed-funding-for-openinfra-project-hosting-replicating-success-of-openstack-kata-containers-starlingx"><h3>‘Open for Business’: OpenInfra Foundation Launches ‘Directed Funding’ for OpenInfra Project Hosting</h3></a>
+                            <p className="news-article-content">At the 2022 OpenInfra Summit in Berlin, the Open Infrastructure Foundation (OpenInfra Foundation) announced that it has added the ability to directly fund specific projects...</p>
+                            <a className="news-article-link" href="https://openinfra.dev/blog/open-for-business-open-infra-foundation-launches-directed-funding-for-openinfra-project-hosting-replicating-success-of-openstack-kata-containers-starlingx">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">
-                            <a href=""><img src="/img/homeV2/news-images/news-img-5.png" /></a>
-                            <p className="news-article-intro-text">Phoenix Baker • 19 Jan 2022</p>
-                            <a href=""><h3>Migrating to Linear 101</h3></a>
-                            <p className="news-article-content">Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started...</p>
-                            <a className="news-article-link" href="">READ MORE</a>
-                        </div>
-                        <div className="news-article-inner-container">
-                            <a href=""><img src="/img/homeV2/news-images/news-img-6.png" /></a>
-                            <p className="news-article-intro-text">Lana Steiner • 18 Jan 2022</p>
-                            <a href=""><h3>Building your API Stack</h3></a>
-                            <p className="news-article-content">The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them...</p>
-                            <a className="news-article-link" href="">READ MORE</a>
+                            <a href="https://www.zdnet.com/article/10-years-of-zuul-continuous-integrationcontinuous-delivery-rises-to-new-successes/"><img src="/img/homeV2/news-images/zuul-article-img.webp" /></a>
+                            <p className="news-article-intro-text">Steven Vaughan-Nichols • Jun 7, 2022</p>
+                            <a href="https://www.zdnet.com/article/10-years-of-zuul-continuous-integrationcontinuous-delivery-rises-to-new-successes/"><h3>10 Years of Zuul Continuous Integration/Continuous Delivery rises to new successes</h3></a>
+                            <p className="news-article-content">The Open Infrastructure Foundation CI/CD program Zuul is essential to BMW, Volvo, and Workday's software development.</p>
+                            <a className="news-article-link" href="https://www.zdnet.com/article/10-years-of-zuul-continuous-integrationcontinuous-delivery-rises-to-new-successes/">READ MORE</a>
                         </div>
                     </div>
                     <div className="news-article-button-container">

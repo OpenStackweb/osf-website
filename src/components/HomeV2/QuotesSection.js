@@ -105,7 +105,8 @@ const QuotesSection = class extends React.Component {
                             <p className="home-v2-quote-text">We're really excited being an active member in the open infrastructure foundation with what we really view as a place for crowdsourced innovation. The ability for multiple companies and individual developers to come together and contribute in a way that can solve these problems at scale.</p>
                             <div className="home-v2-quote-inner-container">
                                 <p className="home-v2-quote-name">— Paul Miller</p>
-                                <p className="home-v2-quote-title">CTO</p>
+                                <p className="home-v2-quote-title">CTO, Wind River</p>
+                                <img className="home-v2-quote-logo-resize" src="/img/homeV2/quotes-images/wind-river-logo.svg" />
                             </div>
                             
                         </div>

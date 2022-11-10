@@ -4,58 +4,28 @@ import sponsoredProjects from "../../content/sponsored-projects.json";
 import { getSubProjectById } from '../../utils/sponsoredProjects';
 import { getEnvVariable, MEMBERS_SUBPROJECT_ID } from '../../utils/envVariables';
 
-const CommunitiesSection = class extends React.Component {
+const PlatinumMembersSection2 = class extends React.Component {
     
     render() {
+
         const subProject = getSubProjectById(sponsoredProjects, parseInt(getEnvVariable(MEMBERS_SUBPROJECT_ID)));
+
         return (
-            <div className="container">
-                <h3 className="home-v2-community-subheader home-v2-community-subheader-margin">Our Gold Members</h3>
-                <div className="home-v2-slider-container">
-                    <div className="home-v2-slider-body">
-                        <div class="home-v2-slider home-v2-slider-gold">
-                    { subProject.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
-                            if (t.name == "Gold Members") {
-                                return (
-                                        <div class="slide-track home-v2-gold-sponsor-container slide-track-gold-1" key={`company-tier-${tierIndex}`}>
-                                            {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
-                                                if (index < 9) {
-                                                    return (
-                                                        <div class="home-v2-gold-sponsor slide slide-gold" key={`company-tier-${tierIndex}-${index}`}>
-                                                                <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
-                                                        </div>
-                                                    )
-
-                                                }
-                                            })}
-                                            {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
-                                                if (index < 9) {
-                                                    return (
-                                                        <div class="home-v2-gold-sponsor slide slide-gold" key={`company-tier-${tierIndex}-${index}`}>
-                                                                <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
-                                                        </div>
-                                                    )
-
-                                                }
-                                            })}
-                                        </div>
-                                )
-                            }
-                        }) }
-                        </div>
-                    </div>
-                </div>
+            <div>
+                <h3 className="home-v2-community-subheader">Backed By</h3>
+                <h2 className="home-v2-header home-v2-community-header">Our Members</h2>
+                <p className="home-v2-community-paragraph">The OpenInfra Foundation is supported by a strong network of some of the largest organizations in the world. These open source leaders champion open infrastructure and understand the vital importance it plays in their business.</p>
                 <div className="home-v2-slider-container">
                     <div className="home-v2-slider-body">
                         <div class="home-v2-slider">
                     { subProject.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
-                            if (t.name == "Gold Members") {
+                            if (t.name == "Platinum Members") {
                                 return (
-                                        <div class="slide-track home-v2-gold-sponsor-container slide-track-gold-2 slide-track-offset-gold" key={`company-tier-${tierIndex}`}>
+                                        <div class="slide-track home-v2-platinum-sponsor-container slide-track-platinum-1" key={`company-tier-${tierIndex}`}>
                                             {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
-                                                if (index >= 9) {
+                                                if (index < 4) {
                                                     return (
-                                                        <div class="home-v2-gold-sponsor slide slide-gold" key={`company-tier-${tierIndex}-${index}`}>
+                                                        <div class="slide home-v2-platinum-sponsor" key={`company-tier-${tierIndex}-${index}`}>
                                                                 <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
                                                         </div>
                                                     )
@@ -63,9 +33,41 @@ const CommunitiesSection = class extends React.Component {
                                                 }
                                             })}
                                             {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
-                                                if (index >= 9) {
+                                                if (index < 4) {
                                                     return (
-                                                        <div class="home-v2-gold-sponsor slide slide-gold" key={`company-tier-${tierIndex}-${index}`}>
+                                                        <div class="slide home-v2-platinum-sponsor" key={`company-tier-${tierIndex}-${index}`}>
+                                                                <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
+                                                        </div>
+                                                    )
+
+                                                }
+                                            })}
+                                        </div>
+                                )
+                            }
+                        }) }
+                        </div>
+                    </div>
+                    <div className="home-v2-slider-body">
+                        <div class="home-v2-slider">
+                    { subProject.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
+                            if (t.name == "Platinum Members") {
+                                return (
+                                        <div class="slide-track home-v2-platinum-sponsor-container slide-track-platinum-2 slide-track-offset" key={`company-tier-${tierIndex}`}>
+                                            {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
+                                                if (index >= 4) {
+                                                    return (
+                                                        <div class="slide home-v2-platinum-sponsor" key={`company-tier-${tierIndex}-${index}`}>
+                                                                <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
+                                                        </div>
+                                                    )
+
+                                                }
+                                            })}
+                                            {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
+                                                if (index >= 4) {
+                                                    return (
+                                                        <div class="slide home-v2-platinum-sponsor" key={`company-tier-${tierIndex}-${index}`}>
                                                                 <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
                                                         </div>
                                                     )
@@ -79,21 +81,9 @@ const CommunitiesSection = class extends React.Component {
                         </div>
                     </div>
                 </div>
-            <div className="home-v2-community-btn-container">
-                <a href="/join/">
-                    <div className="home-v2-community-btn home-v2-community-btn-primary">
-                        Become a Member
-                    </div>
-                </a>
-                <a href="/members/">
-                    <div className="home-v2-community-btn">
-                        <span className="secondary-btn-arrow">See All Members</span>
-                    </div>
-                </a>
             </div>
-          </div>
         );
       }
 }
 
-export default CommunitiesSection
+export default PlatinumMembersSection2

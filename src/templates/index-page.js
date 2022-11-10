@@ -19,6 +19,7 @@ import SFASection from '../components/HomeV2/SFASection'
 import ProjectsSection from '../components/HomeV2/ProjectsSection'
 import QuotesSection from '../components/HomeV2/QuotesSection'
 import PlatinumMembersSection from '../components/HomeV2/PlatinumMembersSection'
+import PlatinumMembersSection2 from '../components/HomeV2/PlatinumMembersSection2'
 import CommunitiesSection from '../components/HomeV2/CommunitiesSection'
 import NewsSection from '../components/HomeV2/NewsSection'
 
@@ -60,8 +61,10 @@ export const IndexPageTemplate = ({
           <QuotesSection />
         </div>
         <div className="home-v2-communities-section home-v2-communities-section-2">
-          <PlatinumMembersSection />
-          <CommunitiesSection />
+        <div className="container">
+                <PlatinumMembersSection2 />
+                <CommunitiesSection />
+          </div>
         </div>
 
         <NewsSection />

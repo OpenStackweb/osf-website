@@ -1361,3 +1361,174 @@ h2.home-v2-header {
     opacity: 1;
     // display: block;
   }
+
+  @mixin white-gradient {
+	background: linear-gradient(90deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
+}
+
+.home-v2-slider-container {
+    position: relative;
+    &::before,
+    &::after {
+        @include white-gradient;
+        content: "";
+        height: 100%;
+        position: absolute;
+        width: 100px;
+        z-index: 2;
+        @media screen and (max-width: 450px) {
+            width: 50px;
+        }
+    }
+    
+    &::after {
+        right: -1px;
+        top: 0;
+        transform: rotateZ(180deg);
+    }
+
+    &::before {
+        left: -1px;
+        top: 0;
+    }
+}
+
+  .home-v2-slider-body {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+    margin: 20px 0;
+}
+
+$animationSpeedPlatinum1: 40s;
+$animationSpeedPlatinum2: 50s;
+$animationSpeedGold1: 45s;
+$animationSpeedGold1Mobile: 70s;
+$animationSpeedGold2: 50s;
+$animationSpeedGold2Mobile: 75s;
+
+// Animation
+@keyframes scrollPlatinum1 {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-360px * 4))}
+}
+
+@keyframes scrollPlatinum2 {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-360px * 5))}
+}
+
+@keyframes scrollGold1 {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-190px * 9))}
+}
+
+@keyframes scrollGold2 {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-190px * 10))}
+}
+
+@media screen and (max-width: 768px) {
+    @keyframes scrollPlatinum1 {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(calc(-250px * 4))}
+    }
+    
+    @keyframes scrollPlatinum2 {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(calc(-250px * 5))}
+    }
+}
+
+
+// Styling
+.home-v2-slider {
+	height: 160px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 100%;
+    &.home-v2-slider-gold {
+        height: 125px;
+    }
+	
+	.slide-track {
+		display: flex;
+	}
+    .slide-track-offset {
+		position: relative;
+        left: 180px;
+        @media screen and (max-width: 768px) {
+            left: 125px;
+        }
+	}
+
+    .slide-track-offset-gold {
+		position: relative;
+        left: 95px;
+	}
+
+    .slide-track-platinum-1 {
+        width: calc(360px * 8);
+        animation: scrollPlatinum1 $animationSpeedPlatinum1 linear infinite;
+        @media screen and (max-width: 768px) {
+            width: calc(250px * 8);
+        }
+    }
+    .slide-track-platinum-2 {
+        width: calc(360px * 10);
+        animation: scrollPlatinum2 $animationSpeedPlatinum2 linear infinite;
+        @media screen and (max-width: 768px) {
+            width: calc(250px * 10);
+        }
+    }
+    .slide-track-gold-1 {
+        width: calc(190px * 18);
+        animation: scrollGold1 $animationSpeedGold1 linear infinite;
+        @media screen and (max-width: 768px) {
+            animation: scrollGold1 $animationSpeedGold1Mobile linear infinite;
+        }
+    }
+
+    .slide-track-gold-2 {
+        width: calc(190px * 20);
+        animation: scrollGold2 $animationSpeedGold2 linear infinite;
+        @media screen and (max-width: 768px) {
+            animation: scrollGold2 $animationSpeedGold2Mobile linear infinite;
+        }
+    }
+	
+	.slide {
+		width: 360px;
+        background-color: #fff;
+        border-radius: 20px;
+        height: 156px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+        margin: 0 10px;
+        padding-top: 5px;
+        img {
+            margin: 25px auto;
+            max-width: 180px;
+            width: 98%;
+            display: block;
+        }
+        @media screen and (max-width: 768px) {
+            width: 250px;
+        }
+        &.slide-gold {
+            width: 190px;
+            background-color: #fff;
+            border-radius: 20px;
+            height: 112px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+            margin: 0 10px;
+            padding-top: 5px;
+            
+            img {
+                margin: 20px auto;
+                max-width: 140px;
+                position: relative;
+            }
+        }
+	}
+}

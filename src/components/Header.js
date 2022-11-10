@@ -88,13 +88,13 @@ render() {
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-green">
                             <p className="home-v2-numbers-subheading">Our Software is Built by</p>
-                            <p className="home-v2-numbers-title">9k+</p>
+                            <p className="home-v2-numbers-title">9,000+</p>
                             <p className="home-v2-numbers-subtitle">Contributors</p>
                         </div>
                     </div>
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-gray">
-                            <p className="home-v2-numbers-subheading">OpenStack-Powered Public Clouds Cover</p>
+                            <p className="home-v2-numbers-subheading">OpenStack-Powered Public Cloud Locations</p>
                             <p className="home-v2-numbers-title">300+</p>
                             <p className="home-v2-numbers-subtitle">Data Centers</p>
                         </div>

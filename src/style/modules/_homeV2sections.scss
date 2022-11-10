@@ -131,9 +131,10 @@ h2.home-v2-header {
         }
         .home-v2-newsletter-image {
             width: 40%;
-            background-image: url('/img/homeV2/newsletter-image.png');
+            background-image: url('/img/homeV2/community-img.jpg');
             background-repeat: no-repeat;
-            background-size: auto;
+            background-size: cover;
+            background-position: center;
             border-top-left-radius: 25px;
             border-bottom-left-radius: 25px;
         }

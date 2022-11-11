@@ -275,7 +275,7 @@ export const SummitOnsitePageTemplate = ({
                   <img src="/img/summit/berlin/mask.svg" />
                   <h3 className='fix-h3'>Health & Safety</h3>
                   <p>
-                  Masks are required (over nose and mouth) for all attendees except while eating drinking or when delivering a conference talk. Please consult the <a href="/summit/berlin-2022/summit-covid">Summit Health & Safety protocol</a> for all onsite guidelines.
+                  Masks are required (over nose and mouth) for all attendees except while eating drinking or when delivering a conference talk. Please consult the <a href="/summit/vancouver-2023/summit-onsite-safety">Summit Health & Safety protocol</a> for all onsite guidelines.
                   </p>
                 </div>
                 <div className='help-item'>

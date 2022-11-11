@@ -67,7 +67,7 @@ Topics include: Attestation, authenticity, authorization, data protection, encry
 
 #### The Forum
 
-OpenInfra operators and developers gather at the Forum to brainstorm the requirements for the next release, gather feedback on the past version and have strategic discussions that go beyond just one release cycle. Sessions are more collaborative, discussion-oriented.
+OpenInfra operators and developers gather at the Forum to brainstorm the requirements for the next release, gather feedback on the past version and have strategic discussions that go beyond just one release cycle. Sessions are more collaborative, discussion-oriented and [can be submitted here](https://cfp.openinfra.dev/app/vancouver-2023/20).
 
 <br />
 <br />

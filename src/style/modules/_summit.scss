@@ -1750,3 +1750,14 @@ h3.small-title-summit {
     filter: none;
   }
 }
+
+.summit-track-subtitle-container {
+  text-align: center;
+  a {
+    display: block;
+    margin: 20px auto;
+  }
+  p {
+    color: #161616;
+  }
+}

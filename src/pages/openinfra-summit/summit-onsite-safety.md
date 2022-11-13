@@ -20,7 +20,7 @@ Here are the current health and safety guidelines for onsite at the OpenInfra Su
 
 - Mandatory indoor masks (over nose and mouth) for all attendees except while eating, drinking or when delivering a conference talk.
 - Attendees will have access to an outdoor terrace located within the OpenInfra Marketplace for mask breaks
-- On-site attendees will be required to be fully vaccinated against the COVID-19 virus. Fully vaccinated is defined as two weeks (14 full days) after the final dose of a [WHO-approved vaccine](https://covid19.trackvaccines.org/agency/who/). 
+- Onsite attendees will be required to be fully vaccinated against the COVID-19 virus. Fully vaccinated is defined as two weeks (14 full days) after the final dose of a [WHO-approved vaccine](https://covid19.trackvaccines.org/agency/who/). 
 - Proof of full vaccination will be required at badge pickup.
 - Booth staff are required to wear masks while at the booth. Event participants are required to wear a mask when visiting booths and are encouraged to not crowd around booths. 
 - Hand sanitation stations will be available throughout the venue with alcohol-based hand sanitizer.
@@ -38,20 +38,20 @@ Since entry requirements change frequently, please continue to monitor this Cana
 **What is required to prove vaccination status?**<br>
 Your physical vaccination card, a copy of the card, or a digital copy with your name, vaccination dates, and a matching photo ID will be required.
 
-**Does proof of previous Covid-19 infection count as vaccinated?**<br>
-Proof of previous Covid-19 infection is not sufficient. You must provide a physical vaccination card, a copy of the card, or a digital copy with your name, vaccination dates, and a matching photo ID. 
+**Does proof of previous COVID-19 infection count as vaccinated?**<br>
+Proof of previous COVID-19 infection is not sufficient. You must provide a physical vaccination card, a copy of the card, or a digital copy with your name, vaccination dates, and a matching photo ID. 
 
-**What is the mask protocol on-site?**<br>
+**What is the mask protocol onsite?**<br>
 There is a mandatory indoor mask mandate for all attendees except while eating and drinking in designated areas or when delivering a conference talk. Indoor eating will be socially distanced and outdoor eating options will be available.
 
 **What about masks at booths?**<br>
 Booth staff are required to wear masks while at the booth. Event participants are required to wear a mask when visiting booths and are encouraged to not crowd around booths.
 
 **What do I do if I test positive during the week of the Summit?**<br>
-Email summit@openinfra.dev with the subject “Positive Covid-19 Notification” and let us know when you started being symptomatic and when you tested positive. Refunds will be at the discretion of OpenInfra Foundation staff and dependent on proof of a positive Covid-19 test.
+Email [summit@openinfra.dev](mailto:summit@openinfra.dev) with the subject “Positive COVID-19 Notification” and let us know when you started being symptomatic and when you tested positive for COVID-19. Refunds will be at the discretion of OpenInfra Foundation staff and dependent on proof of a positive COVID-19 test.
 
 **What do I do if I test positive once the Summit is over?**<br>
-If you test positive for Covid-19 within 7 days of attending the OpenInfra Summit, email summit@openinfra.dev with the subject “Positive Covid-19 Notification” and let us know when you started being symptomatic and when you tested positive. 
+If you test positive for COVID-19 within 7 days of attending the OpenInfra Summit, email [summit@openinfra.dev](mailto:summit@openinfra.dev) with the subject “Positive COVID-19 Notification” and let us know when you started being symptomatic and when you tested positive. 
 
 **How do I report a Healthy & Safety violation?**<br>
 Following Health & Safety guidelines onsite is part of the OpenInfra’s Event Code of Conduct. If you encounter attendees violating the Health & Safety regulations outlined, please contact Allison Price (allison@openinfra.dev) or Jonathan Bryce (jonathan@openinfra.dev) to make a formal report. Please refer to the [OpenInfra Events Code of Conduct](/legal/code-of-conduct/events) for additional information.

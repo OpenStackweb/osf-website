@@ -94,9 +94,9 @@ render() {
                     </div>
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-gray">
-                            <p className="home-v2-numbers-subheading">OpenStack-Powered Public Cloud Locations</p>
+                            <p className="home-v2-numbers-subheading">OpenStack Powers</p>
                             <p className="home-v2-numbers-title">300+</p>
-                            <p className="home-v2-numbers-subtitle">Data Centers</p>
+                            <p className="home-v2-numbers-subtitle">Public Cloud Locations</p>
                         </div>
                     </div>
                     <div className="home-v2-numbers-box">

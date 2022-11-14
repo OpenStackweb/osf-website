@@ -47,7 +47,7 @@ export const MemberListPageTemplate = ({
                             <div className="nomination-open">
                                 <h3>Happening Now: Individual Board Member Nominations</h3>
                                 <p>
-                                    The OpenStack community is currently nominating members for the <LinkComponent
+                                    The OpenInfra community is currently nominating members for the <LinkComponent
                                     href="/election">{election_status.name} </LinkComponent>
                                     (as Individual Board Members). To nominate someone search for them using the
                                     directory and

@@ -26,6 +26,7 @@ const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) 
                     id="bio"
                     className="candidate-profile-editor"
                     value={candidateForm.bio}
+                    required
                     onChange={(ev) => setCandidateForm({ ...candidateForm, bio: ev.target.value })}
                 />
             </div>
@@ -35,6 +36,7 @@ const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) 
                     id="relationship_to_openstack"
                     className="candidate-profile-editor"
                     value={candidateForm.relationship_to_openstack}
+                    required
                     onChange={(ev) => setCandidateForm({ ...candidateForm, relationship_to_openstack: ev.target.value })}
                 />
             </div>
@@ -44,6 +46,7 @@ const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) 
                     id="experience"
                     className="candidate-profile-editor"
                     value={candidateForm.experience}
+                    required
                     onChange={(ev) => setCandidateForm({ ...candidateForm, experience: ev.target.value })}
                 />
             </div>
@@ -53,6 +56,7 @@ const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) 
                     id="boards_role"
                     className="candidate-profile-editor"
                     value={candidateForm.boards_role}
+                    required
                     onChange={(ev) => setCandidateForm({ ...candidateForm, boards_role: ev.target.value })}
                 />
             </div>
@@ -62,6 +66,7 @@ const CandidateForm = ({ electionStatus, currentMember, saveCandidateProfile }) 
                     id="top_priority"
                     className="candidate-profile-editor"
                     value={candidateForm.top_priority}
+                    required
                     onChange={(ev) => setCandidateForm({ ...candidateForm, top_priority: ev.target.value })}
                 />
             </div>

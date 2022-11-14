@@ -29,11 +29,7 @@ export const CandidatePageTemplate = ({
             <div className="wrapper project-background candidate-form-hero">
                 <TopBar />
                 <Navbar isLoggedUser={isLoggedUser} />
-                {electionProfile?.candidate_profile?.has_accepted_nomination ?
-                                        <Header title="Accept Nomination" subTitle="To accept nominations and be listed as a candidate for the OpenInfra election, please answer the questions below." />
-                                        :
-                                        <Header title="Candidate Application - Accepted" subTitle="Your nomination has been accepted. You can update your answers below if needed." />
-                                    }
+                <Header title="Accept Nomination" subTitle="To accept nominations and be listed as a candidate for the OpenInfra election, please answer the questions below." />
                 <p className="candidate-form-disclaimer">All fields below are required.</p>
             </div>
             <AjaxLoader show={loading} size={120} />

@@ -99,6 +99,11 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/summit/registration"
+  to = "https://www.eventbrite.com/e/openinfra-summit-vancouver-2023-tickets-414642796767"
+  status = 301
+  force = true
+[[redirects]]
   from = "/usersurvey"
   to = "/user-survey"
   status = 301

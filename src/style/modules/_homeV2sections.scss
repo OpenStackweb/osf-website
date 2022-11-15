@@ -1017,10 +1017,11 @@ h2.home-v2-header {
       }
       
       .try-container {
-        width: 300%;
+        width: 100%;
         height: 100%;
-        display: flex;
-        flex-wrap: nowrap;
+        &.enable {
+            position: fixed;
+        }
       }
 
       .try-container-mobile {
@@ -1046,6 +1047,11 @@ h2.home-v2-header {
         padding: 0;
         background-repeat: no-repeat;
         background-position: center;
+        &.enable {
+            .try-box {
+                transform: translate(0,0) !important;
+            }
+        }
         &.blue {
             background-color: #14619D;
             &:after {
@@ -1067,6 +1073,7 @@ h2.home-v2-header {
                 position: relative;
                 z-index: 5;
                 background-size: contain;
+                transition: all .5s;
                 @media screen and (min-height: 950px) {
                     background-size: cover;
                 }
@@ -1094,6 +1101,7 @@ h2.home-v2-header {
                 position: relative;
                 z-index: 5;
                 background-size: cover;
+                transition: all .5s;
                 @media screen and (min-height: 950px) {
                     background-size: contain;
                 }
@@ -1128,6 +1136,7 @@ h2.home-v2-header {
                 background-position: center;
                 position: relative;
                 z-index: 5;
+                transition: all .5s;
                 @media screen and (min-height: 950px) {
                     background-size: contain;
                 }

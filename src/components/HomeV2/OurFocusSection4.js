@@ -67,9 +67,9 @@ const OurFocusSection3 = () => {
             
         });
 
-        gsap.set(".try-box-1, .try-box-3", {x: "100%"});
+        gsap.set(".our-focus-heading-right", {x: "100vw"});
 
-        gsap.set(".try-box-2", {x: "-110%"});
+        gsap.set(".our-focus-heading-left", {x: "-100vw"});
 
 
         // gray section
@@ -104,20 +104,7 @@ const OurFocusSection3 = () => {
             });
 
         // gray section
-        gsap.to(".try-box-1", {
-            x: "0%",
-            // backgroundColor: "#1e90ff",
-            ease: "none",
-            scrollTrigger: {
-                trigger: ".try-box-1",
-                containerAnimation: scrollTween,
-                start: "top",
-                end: "bottom",
-                scrub: true,
-                id: "3",
-                // toggleClass: "active"
-            }
-            });
+        
         
       } }, "500")
   }, [])
@@ -129,19 +116,19 @@ const OurFocusSection3 = () => {
   
                         <div className="try-panel blue" id="try-panel-1">
                             <div className="try-box try-box-1">
-                                <h2 className="our-focus-heading our-focus-heading-1"><span className="our-focus-heading-top">The World Needs </span><br /><span className="our-focus-heading-primary our-focus-heading-1-db">Open</span> <span className="our-focus-heading-primary our-focus-heading-1-lb">Source</span> <span className="our-focus-heading-primary our-focus-heading-1-bl">Infrastructure</span> <br /><span className="our-focus-heading-bottom">Now More Than Ever</span></h2>
+                                <h2 className="our-focus-heading our-focus-heading-1"><span className="our-focus-heading-top our-focus-heading-left">The World Needs </span><br /><span className="our-focus-heading-primary our-focus-heading-1-db our-focus-heading-right">Open</span> <span className="our-focus-heading-primary our-focus-heading-1-lb our-focus-heading-right">Source</span> <span className="our-focus-heading-primary our-focus-heading-1-bl our-focus-heading-left">Infrastructure</span> <br /><span className="our-focus-heading-bottom our-focus-heading-right">Now More Than Ever</span></h2>
                             </div>
                         </div>
                         
                         <section className="try-panel red" id="try-panel-2">
                             <div className="try-box-2 try-box">
-                                <h2 className="our-focus-heading our-focus-heading-2"><span className="our-focus-heading-top">We Build Communities </span><br /><span className="our-focus-heading-primary our-focus-heading-2-lw">Who</span> <span className="our-focus-heading-primary our-focus-heading-2-dy">Write</span> <br className="our-focus-heading-break" /> <span className="our-focus-heading-primary our-focus-heading-2-ly">Infrastructure</span> <span className="our-focus-heading-primary our-focus-heading-2-dw">Software</span> <br /><span className="our-focus-heading-bottom">That Runs In Production</span></h2>
+                                <h2 className="our-focus-heading our-focus-heading-2"><span className="our-focus-heading-top our-focus-heading-right">We Build Communities </span><br /><span className="our-focus-heading-primary our-focus-heading-2-lw our-focus-heading-left">Who</span> <span className="our-focus-heading-primary our-focus-heading-2-dy our-focus-heading-left">Write</span> <br className="our-focus-heading-break" /> <span className="our-focus-heading-primary our-focus-heading-2-ly our-focus-heading-right">Infrastructure</span> <span className="our-focus-heading-primary our-focus-heading-2-dw our-focus-heading-right">Software</span> <br /><span className="our-focus-heading-bottom our-focus-heading-left">That Runs In Production</span></h2>
                             </div>
                         </section>
                         
                         <section className="try-panel gray" id="try-panel-3">
                             <div className="try-box-3 try-box">
-                                <h2 className="our-focus-heading our-focus-heading-3"><span className="our-focus-heading-top">Let Us Help </span><br /><span className="our-focus-heading-primary our-focus-heading-3-rd">Build</span> <span className="our-focus-heading-primary our-focus-heading-3-lb">Your</span> <span className="our-focus-heading-primary our-focus-heading-3-yl">Community</span> <br /><a className="our-focus-heading-link" href="/join/"><span className="our-focus-heading-bottom our-focus-heading-link">Learn More <img src="/img/homeV2/arrow-1.svg" /></span></a></h2>
+                                <h2 className="our-focus-heading our-focus-heading-3"><span className="our-focus-heading-top our-focus-heading-left">Let Us Help </span><br /><span className="our-focus-heading-primary our-focus-heading-3-rd our-focus-heading-right">Build</span> <span className="our-focus-heading-primary our-focus-heading-3-lb our-focus-heading-right">Your</span> <span className="our-focus-heading-primary our-focus-heading-3-yl our-focus-heading-left">Community</span> <br /><a className="our-focus-heading-link" href="/join/"><span className="our-focus-heading-bottom our-focus-heading-link our-focus-heading-right">Learn More <img src="/img/homeV2/arrow-1.svg" /></span></a></h2>
                         </div>
                         </section>
                         </div>

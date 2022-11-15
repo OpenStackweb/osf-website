@@ -1047,9 +1047,18 @@ h2.home-v2-header {
         padding: 0;
         background-repeat: no-repeat;
         background-position: center;
+        .try-box {
+            .our-focus-heading-left,
+            .our-focus-heading-right {
+                transition: all 1s;
+            }
+        }
         &.enable {
             .try-box {
-                transform: translate(0,0) !important;
+                .our-focus-heading-left,
+                .our-focus-heading-right {
+                    transform: translate(0,0) !important;
+                }
             }
         }
         &.blue {

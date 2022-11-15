@@ -14,11 +14,10 @@ import WhyExpandSection from '../components/WhyExpandSection'
 import MainPitchSection from '../components/MainPitchSection'
 import { connect } from "react-redux";
 
-import OurFocusSection3 from '../components/HomeV2/OurFocusSection3'
+import OurFocusSection4 from '../components/HomeV2/OurFocusSection4'
 import SFASection from '../components/HomeV2/SFASection'
 import ProjectsSection from '../components/HomeV2/ProjectsSection'
 import QuotesSection from '../components/HomeV2/QuotesSection'
-import PlatinumMembersSection from '../components/HomeV2/PlatinumMembersSection'
 import PlatinumMembersSection2 from '../components/HomeV2/PlatinumMembersSection2'
 import CommunitiesSection from '../components/HomeV2/CommunitiesSection'
 import NewsSection from '../components/HomeV2/NewsSection'
@@ -52,7 +51,7 @@ export const IndexPageTemplate = ({
 
         <CompaniesSection sponsor={sponsor} /> */}
 
-        <OurFocusSection3 />
+        <OurFocusSection4 />
 
         <SFASection />
 

@@ -1729,6 +1729,9 @@ h3.small-title-summit {
         margin-bottom: 20px;
       }
     }
+    .cta {
+      margin-top: 20px;
+    }
   }
 }
 
@@ -1737,6 +1740,9 @@ h3.small-title-summit {
     color: #161616;
     font-size: 14px;
     margin-top: 30px;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 50px;
+    }
   }
 }
 
@@ -1748,5 +1754,16 @@ h3.small-title-summit {
 .summit-header.summit-header-vancouver-2023 .header-left .button-cta.outline:hover {
   img {
     filter: none;
+  }
+}
+
+.summit-track-subtitle-container {
+  text-align: center;
+  a {
+    display: block;
+    margin: 20px auto;
+  }
+  p {
+    color: #161616;
   }
 }

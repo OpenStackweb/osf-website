@@ -6,7 +6,6 @@ import {epochToMoment} from 'openstack-uicore-foundation/lib/utils/methods'
 const AffiliationForm = class extends React.Component {
 
     constructor(props) {
-        console.log("AffiliationForm::constructor")
         super(props);
         this.state = {
             id: this.props.currentAffiliation ? this.props.currentAffiliation.id : 0,
@@ -69,6 +68,35 @@ const AffiliationForm = class extends React.Component {
     }
 
     render() {
+      const customStyles = {
+        control: (provided, state) => ({
+          ...provided,
+          background: '#fff',
+          borderColor: 'black',
+          minHeight: '42px',
+          height: '42px',
+          boxShadow: state.isFocused ? null : null,
+        }),
+
+        valueContainer: (provided, state) => ({
+          ...provided,
+          height: '42px',
+          padding: '0 6px'
+        }),
+
+        input: (provided, state) => ({
+          ...provided,
+          margin: '0px',
+        }),
+        indicatorSeparator: state => ({
+          display: 'none',
+        }),
+        indicatorsContainer: (provided, state) => ({
+          ...provided,
+          height: '42px',
+        }),
+      };
+
         return (
             <div className="affiliation-form">
                 <div className="field">
@@ -83,17 +111,16 @@ const AffiliationForm = class extends React.Component {
                 </div>
                 <div className="field">
                     <label htmlFor="organization">Organization</label>
-                    <div className="control">
-                        <OrganizationInput
-                            id="organization"
-                            placeholder="Type something and select..."
-                            value={this.state.organization}
-                            onChange={this.onHandleChangeCell}
-                            allowCreate
-                            onCreate={this.props.onAddOrganization}
-                            className={'dropdown-affiliation'}
-                        />
-                    </div>
+                  <OrganizationInput
+                    id="organization"
+                    placeholder="Type something and select..."
+                    value={this.state.organization}
+                    onChange={this.onHandleChangeCell}
+                    allowCreate
+                    onCreate={this.props.onAddOrganization}
+                    className={'dropdown-affiliation'}
+                    styles={customStyles}
+                  />
                     {this.state.validationErrors.hasOwnProperty('organization') &&
                     <p className="validation_error">{this.state.validationErrors.organization}</p>
                     }

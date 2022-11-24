@@ -16,7 +16,7 @@ const MembershipType = class extends React.Component {
     }
 
     render() {
-        let{initialType, currentType, handleResign, handleConvertFoundationMember, handleConvertCommunityMember} = this.props;
+        let{initialType, currentType} = this.props;
         if(initialType === MEMBERSHIP_TYPE_COMMUNITY){
             return(<div className="membership-type-container">
                 <div>You are logged in as <b>{this.props.userName}</b></div>

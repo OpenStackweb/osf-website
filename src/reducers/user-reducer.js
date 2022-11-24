@@ -1,4 +1,4 @@
-import { LOGOUT_USER, RECEIVE_USER_INFO } from "openstack-uicore-foundation/lib/utils/actions";
+import { LOGOUT_USER, RECEIVE_USER_INFO } from "openstack-uicore-foundation/lib/security/actions";
 
 import {
   GET_IDP_PROFILE,
@@ -60,13 +60,13 @@ const userReducer = (state = DEFAULT_STATE, action) => {
         //   isAuthorized: isAuthorizedUser(userProfile.groups),
         //   hasTicket: userProfile.summit_tickets?.length > 0
       }
-    case RECEIVE_USER_INFO:
-      let { response } = action.payload;
-      console.log('response', response)
+    case RECEIVE_USER_INFO: {
+      let {response} = action.payload;
       let affiliations = response.affiliations.map((a) => {
-        return { ...a };
+        return {...a};
       });
-      return { ...state, currentMembershipType: response.membership_type, currentAffiliations: affiliations };
+      return {...state, currentMembershipType: response.membership_type, currentAffiliations: affiliations};
+    }
     case AFFILIATION_ADDED: {
       let affiliation = { ...payload.response };
 

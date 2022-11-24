@@ -42,9 +42,7 @@ export const ProfilePageTemplate = ({
     getIDPProfile,
     getUserProfile,
 }) => {
-
     let query = URI.parseQuery(location.search);
-
     let initialCurrentMemberShipType = initialMembershipType;
 
     if (query.hasOwnProperty("membership_type") && initialMembershipType === MEMBERSHIP_TYPE_NONE) {
@@ -97,7 +95,8 @@ export const ProfilePageTemplate = ({
                         <div className="container about-s1-container">
                             <div className="columns">
                                 <div className="column">
-                                    <MembershipType currentType={currentMembershipType}
+                                    <MembershipType
+                                        currentType={currentMembershipType}
                                         userName={`${idpProfile?.given_name} ${idpProfile?.family_name}`}
                                         initialType={initialMembershipType}
                                         handleConvertCommunityMember={() => handleConvertCommunityMember()}

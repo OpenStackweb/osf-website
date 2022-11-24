@@ -2,9 +2,9 @@ import {
     getRequest,
     createAction,
     stopLoading,
-    startLoading,
-    LOGOUT_USER
+    startLoading
 } from 'openstack-uicore-foundation/lib/utils/actions';
+import { LOGOUT_USER } from "openstack-uicore-foundation/lib/security/actions";
 import { getAccessTokenSafely} from "../utils/security";
 import {customErrorHandler} from '../utils/customErrorHandler';
 

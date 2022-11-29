@@ -60,10 +60,8 @@ export const IndexPageTemplate = ({
           <QuotesSection />
         </div>
         <div className="home-v2-communities-section home-v2-communities-section-2">
-        <div className="container">
-                <PlatinumMembersSection2 />
-                <CommunitiesSection />
-          </div>
+            <PlatinumMembersSection2 />
+            <CommunitiesSection />
         </div>
 
         <NewsSection />

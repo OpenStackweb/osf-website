@@ -4,6 +4,18 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const ProjectsSection = class extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.next = this.next.bind(this);
+        this.previous = this.previous.bind(this);
+      }
+    next() {
+        this.slider.slickNext();
+      }
+      previous() {
+        this.slider.slickPrev();
+      }
     
     render() {
         const settings = {
@@ -44,13 +56,15 @@ const ProjectsSection = class extends React.Component {
               ]
         };
         return (
-            <div className="container">
-                <link rel="stylesheet" href="/styles/slider.css"></link>
-                <h2 className="home-v2-header home-v2-community-header">We Build <span className="home-v2-header-red">Communities Who Write Software</span> That Runs In Production</h2>
-                <p className="home-v2-community-paragraph">We do this by bringing together developers, operators, and organizations in an open way, guided by a set of principles we call the Four Opens (open source, design, development, community). All of our projects have a strategic focus, vision & scope that supports the development and adoption of production infrastructure with open source components.</p>
-                <p className="home-v2-community-paragraph">We can help with your open source project. Our model and project services provides the tooling, guidance, and collaborative environment that allows communities to focus their attention on the important work of building and operating software that solves real problems around the globe.</p>
+            <div>
+                <div className="container">
+                    <link rel="stylesheet" href="/styles/slider.css"></link>
+                    <h2 className="home-v2-header home-v2-community-header">We Build <span className="home-v2-header-red">Communities Who Write Software</span> That Runs In Production</h2>
+                    <p className="home-v2-community-paragraph">We do this by bringing together developers, operators, and organizations in an open way, guided by a set of principles we call the Four Opens (open source, design, development, community). All of our projects have a strategic focus, vision & scope that supports the development and adoption of production infrastructure with open source components.</p>
+                    <p className="home-v2-community-paragraph">We can help with your open source project. Our model and project services provides the tooling, guidance, and collaborative environment that allows communities to focus their attention on the important work of building and operating software that solves real problems around the globe.</p>
+                </div>
                 <div className="home-v2-projects-container">
-                    <Slider {...settings}>
+                    <Slider ref={c => (this.slider = c)} {...settings}>
                     <a href="/projects/">
                             <div className="home-v2-project-box">
                                 <div className="home-v2-project">
@@ -143,17 +157,27 @@ const ProjectsSection = class extends React.Component {
                         </a>
                     </Slider>
                 </div>
-                <div className="home-v2-community-btn-container">
-                    <a href="/projects/hosting/">
-                        <div className="home-v2-community-btn home-v2-community-btn-primary">
-                            About Project Hosting
-                        </div>
-                    </a>
-                    <a href="/projects/">
-                        <div className="home-v2-community-btn">
-                            <span className="secondary-btn-arrow">See All Projects</span>
-                        </div>
-                    </a>
+                <div className="container">
+                    <div className="home-v2-quote-btn-container">
+                        <button className="quote-button" onClick={this.previous}>
+                            <img src="/img/homeV2/prev-arrow.svg" />
+                        </button>
+                        <button className="quote-button" onClick={this.next}>
+                            <img src="/img/homeV2/next-arrow.svg" />
+                        </button>
+                    </div>
+                    <div className="home-v2-community-btn-container">
+                        <a href="/projects/hosting/">
+                            <div className="home-v2-community-btn home-v2-community-btn-primary">
+                                About Project Hosting
+                            </div>
+                        </a>
+                        <a href="/projects/">
+                            <div className="home-v2-community-btn">
+                                <span className="secondary-btn-arrow">See All Projects</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         );

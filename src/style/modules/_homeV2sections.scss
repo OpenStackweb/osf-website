@@ -461,7 +461,10 @@ h2.home-v2-header {
 .home-v2-quotes-container {
     margin-top: 200px;
     position: relative;
+    max-width: 1350px;
+    margin: 180px auto 0;
     &:before {
+        display: none;
         content: '';
         position: absolute;
         height: 100%;
@@ -470,18 +473,12 @@ h2.home-v2-header {
         left: -1px;
         background-image: linear-gradient(90deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
         z-index: 100;
-        @media screen and (max-width: 991px) {
-            display: none;
-        }
-        @media screen and (max-width: 550px) {
+        @media screen and (min-width: 1350px) {
             display: block;
-            width: 25px;
-        }
-        @media screen and (max-width: 400px) {
-            display: none;
         }
     }
     &:after {
+        display: none;
         content: '';
         position: absolute;
         height: 100%;
@@ -490,15 +487,8 @@ h2.home-v2-header {
         right: -1px;
         background-image: linear-gradient(270deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
         z-index: 100;
-        @media screen and (max-width: 991px) {
-            display: none;
-        }
-        @media screen and (max-width: 550px) {
+        @media screen and (min-width: 1350px) {
             display: block;
-            width: 25px;
-        }
-        @media screen and (max-width: 400px) {
-            display: none;
         }
     }
     .home-v2-quote {
@@ -591,7 +581,10 @@ h2.home-v2-header {
 
 .home-v2-projects-container {
     position: relative;
+    max-width: 1350px;
+    margin: 0 auto;
     &:before {
+        display: none;
         content: '';
         position: absolute;
         height: 100%;
@@ -600,11 +593,12 @@ h2.home-v2-header {
         left: 0;
         background-image: linear-gradient(90deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
         z-index: 100;
-        @media screen and (max-width: 350px) {
-            display: none;
+        @media screen and (min-width: 1350px) {
+            display: block;
         }
     }
     &:after {
+        display: none;
         content: '';
         position: absolute;
         height: 100%;
@@ -613,8 +607,8 @@ h2.home-v2-header {
         right: 0;
         background-image: linear-gradient(270deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
         z-index: 100;
-        @media screen and (max-width: 350px) {
-            display: none;
+        @media screen and (min-width: 1350px) {
+            display: block;
         }
     }
     .home-v2-project {
@@ -1387,16 +1381,19 @@ h2.home-v2-header {
 
 .home-v2-slider-container {
     position: relative;
+    max-width: 1350px;
+    margin: 0 auto;
     &::before,
     &::after {
+        display: none;
         @include white-gradient;
         content: "";
         height: 100%;
         position: absolute;
         width: 100px;
         z-index: 2;
-        @media screen and (max-width: 450px) {
-            width: 50px;
+        @media screen and (min-width: 1350px) {
+            display: block;
         }
     }
     
@@ -1438,13 +1435,13 @@ $animationSpeedGold2Mobile: 75s;
 }
 
 @keyframes scrollGold1 {
-	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-190px * 9))}
+	0% { transform: translateX(-190px * 9); }
+	100% { transform: translateX(calc(0))}
 }
 
 @keyframes scrollGold2 {
-	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-190px * 10))}
+	0% { transform: translateX(-190px * 10); }
+	100% { transform: translateX(calc(0))}
 }
 
 @media screen and (max-width: 768px) {
@@ -1484,7 +1481,7 @@ $animationSpeedGold2Mobile: 75s;
 
     .slide-track-offset-gold {
 		position: relative;
-        left: 95px;
+        left: -95px;
 	}
 
     .slide-track-platinum-1 {

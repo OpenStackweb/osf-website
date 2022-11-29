@@ -26,7 +26,13 @@
 }
 
 .home-v2-projects-container .slick-track {
-    left: -127px;
+    left: -12.5%;
+}
+
+@media screen and (max-width: 991px) {
+    .home-v2-projects-container .slick-track {
+        left: -25%;
+    }
 }
 
 @media screen and (max-width: 767px) {

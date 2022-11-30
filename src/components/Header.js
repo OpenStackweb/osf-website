@@ -44,9 +44,10 @@ render() {
       <main className="main">
         <section className="hero-main is-primary hero home-v2-hero">
           <div className="hero-body">
-            <div className="container">
+            
               {isHome ?
-              <div> 
+              <div>
+              <div className="container"> 
                 <div className="hero-content">
                   {upperTitle && <div className="hero-subhead">We Are OpenInfra</div> }                
                   <h3 className="hero-title">Building The Next Decade of <span className="header-yellow">Open</span> Infrastructure</h3> 
@@ -62,7 +63,8 @@ render() {
                     </a>                        
                   </div>                
                 </div>
-                <div className="hero-slider-container">
+                </div>
+                <div className="hero-slider-container container">
                   <Slider ref={c => (this.slider = c)} {...settings}>
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-red">
@@ -108,6 +110,7 @@ render() {
                     </div>
                     </Slider>
                 </div>
+                <div className="container">
                 <div className="home-v2-numbers-btn-container">
                     <button className="numbers-button" onClick={this.previous}>
                         <img src="/img/homeV2/prev-arrow.svg" />
@@ -117,6 +120,7 @@ render() {
                     </button>
                 </div>
               </div>
+            </div>
               :
               <div className="hero-project-content">
                 <h3 className="hero-project-title">{title}</h3> 
@@ -135,7 +139,6 @@ render() {
                 }
               </div>              
               }              
-            </div>
           </div>
         </section>
       </main>

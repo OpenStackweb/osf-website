@@ -554,7 +554,7 @@ h2.home-v2-header {
 }
 
 .home-v2-quote-btn-container {
-    margin: 50px auto;
+    margin: 0 auto 50px;
     max-width: 152px;
     display: flex;
     justify-content: space-between;
@@ -612,11 +612,10 @@ h2.home-v2-header {
         }
     }
     .home-v2-project {
-        background-color: #fff;
+        background-color: #EEE;
         border-radius: 25px;
         padding: 50px 30px 50px;
         margin: 0 10px;
-        opacity: 0.5;
         transition: all .5s;
         min-height: 330px;
         @media screen and (max-width: 1199px) {

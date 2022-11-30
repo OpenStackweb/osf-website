@@ -1239,6 +1239,47 @@ h2.home-v2-header {
 
       .scroller-container {
         overflow: hidden;
+        .scroller-buttons {
+            position: fixed;
+            right: -50px;
+            top: calc(50% - 42px);
+            z-index: 100;
+            opacity: 0;
+            transition: all .5s;
+            .scroller-button {
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                border: 2px solid #fff;
+                background-color: #fff;
+                margin: 30px 0;
+                transition: all .5s;
+            }
+        }
+        &.enable {
+            .scroller-buttons {
+                right: 25px;
+                opacity: 1;
+            }
+        }
+        &.enable-slide-1 {
+            #scroller-button-1 {
+                border: 2px solid #FB0009;
+                background-color: #FB0009;
+            }
+        }
+        &.enable-slide-2 {
+            #scroller-button-2 {
+                border: 2px solid #FB0009;
+                background-color: #FB0009;
+            }
+        }
+        &.enable-slide-3 {
+            #scroller-button-3 {
+                border: 2px solid #FB0009;
+                background-color: #FB0009;
+            }
+        }
         @media screen and (max-width: 1005px) {
             .try-panel .try-box {
                 margin-left: 0;

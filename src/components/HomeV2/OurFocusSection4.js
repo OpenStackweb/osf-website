@@ -67,6 +67,25 @@ const OurFocusSection3 = () => {
             
         });
 
+        let scrollTween4 = gsap.to("#scroller-container", {
+            // xPercent: -100 * (sections.length - 1),
+            scrollTrigger: {
+            trigger: "#scroller-container",
+            // toggleClass: 'enable',
+            start: "top 20%",
+            end: "+=8000",
+            toggleClass: "enable",
+            onUpdate: self => {
+                if (self.progress == 0 || self.progress == 1) { document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-3"); }
+                else if (self.progress < 0.33) { document.querySelector("#scroller-container").classList.add("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-3"); }
+                else if (self.progress > 0.33 && self.progress < 0.66) { document.querySelector("#scroller-container").classList.add("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-3"); }
+                else if (self.progress > 0.66) { document.querySelector("#scroller-container").classList.add("enable-slide-3"); document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); }
+
+            }
+            },
+            
+        });
+
         gsap.set(".our-focus-heading-right", {x: "100vw"});
 
         gsap.set(".our-focus-heading-left", {x: "-100vw"});
@@ -110,7 +129,18 @@ const OurFocusSection3 = () => {
   }, [])
   if (window.innerWidth > 767) { 
     return (  
-        <div className="scroller-container">
+        <div className="scroller-container" id="scroller-container">
+            <div className="scroller-buttons">
+                <div className="scroller-button" id="scroller-button-1">
+
+                </div>
+                <div className="scroller-button" id="scroller-button-2">
+
+                </div>
+                <div className="scroller-button" id="scroller-button-3">
+
+                </div>
+            </div>
             <div className="try-3 scroller">
                     <div className="try-container">
   

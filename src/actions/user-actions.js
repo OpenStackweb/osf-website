@@ -18,6 +18,7 @@ import { handleApiError } from "../utils/security";
 import Swal from 'sweetalert2';
 
 import { customErrorHandler } from "../utils/customErrorHandler";
+import { getMemberProfile, getElectionMemberProfile } from "./member-actions";
 
 export const START_LOADING_IDP_PROFILE = 'START_LOADING_IDP_PROFILE';
 export const STOP_LOADING_IDP_PROFILE = 'STOP_LOADING_IDP_PROFILE';
@@ -63,9 +64,11 @@ export const getUserProfile = () => (dispatch, getState) => {
     createAction(GET_USER_PROFILE),
     `${window.API_BASE_URL}/api/v1/summits/current/members/me`,
     authErrorHandler
-  )(params)(dispatch).then(() => {
+  )(params)(dispatch).then((payload) => {
     return dispatch(getIDPProfile()).then(() => {
-      return dispatch(getScheduleSyncLink()).then(() => dispatch(createAction(STOP_LOADING_PROFILE)()))
+      return dispatch(getScheduleSyncLink()).then(() => { 
+        return dispatch(getMemberProfile(payload.response.id)).then(()=> {
+          return getElectionMemberProfile(payload.response.id).then(() => dispatch(createAction(STOP_LOADING_PROFILE)()))})})
     });
   }).catch(() => dispatch(createAction(STOP_LOADING_PROFILE)()));
 }

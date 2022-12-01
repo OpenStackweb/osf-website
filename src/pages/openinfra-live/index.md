@@ -15,6 +15,22 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2023-01-19T15:00:00.000Z
+    episodeTitle: "OpenInfra Live: Distributing OpenStack Architecture with BGP and
+      Kubernetes Integration"
+    episodeDescription: This episode will discuss the shortcomings of layer-2
+      networks and how layer-3 network protocols help address those. We will
+      take a in depth look at Red Hat OpenStack Platform 17 and its integration
+      with FRRouting (FRR) to implement dynamic routing using BGP protocol as
+      well as use of BFD (Bidirectional Forwarding Detection) protocol which is
+      used for detecting network failures. We will also take a look at how ECMP
+      is used to provide both high availability and load balancing in OpenStack
+      control and dataplane networks.
+    episodeSpeakers: Emilien Macchi, Chris Janiszewski, Maciej Lecki, Luis Bolivar,
+      Allison Price
+    youtubeLink: https://www.youtube.com/watch?v=r8WLM9TM6w4
+    youtubeEmbed: https://www.youtube.com/embed/r8WLM9TM6w4
+  - hidden: false
     date: 2022-10-06T14:00:00.000Z
     episodeTitle: "OpenStack Zed: The End of the Alphabet, The Beginning of a New Era"
     episodeDescription: The OpenStack community released Zed, the 26th version of

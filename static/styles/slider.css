@@ -76,3 +76,21 @@
 .hero-slider-container .slick-list {
     overflow: visible !important;
 }
+
+@media screen and (min-width: 1350px) {
+    .home-v2-projects-container .slick-list {
+        overflow: visible !important;
+    }
+    .home-v2-quotes-container .slick-list {
+        overflow: visible !important;
+    }
+}
+
+@media screen and (min-width: 1750px) {
+    .home-v2-projects-container .slick-list {
+        overflow: hidden !important;
+    }
+    .home-v2-quotes-container .slick-list {
+        overflow: hidden !important;
+    }
+}

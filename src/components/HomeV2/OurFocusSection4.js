@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ScrollToPlugin from "gsap/ScrollToPlugin";
+gsap.registerPlugin(ScrollToPlugin);
 
 const OurFocusSection3 = () => {
   useEffect(() => {
@@ -128,16 +130,28 @@ const OurFocusSection3 = () => {
       } }, "500")
   }, [])
   if (window.innerWidth > 767) { 
+    function scroll1 () {
+        console.log("scrolling");
+        gsap.to(window, {duration: 0.5, scrollTo: {y: "#try-panel-1", offsetY: -1}});
+    }
+    function scroll2 () {
+        console.log("scrolling");
+        gsap.to(window, {duration: 0.5, scrollTo: {y: "#try-panel-2", offsetY: -1}});
+    }
+    function scroll3 () {
+        console.log("scrolling");
+        gsap.to(window, {duration: 0.5, scrollTo: {y: "#try-panel-3", offsetY: -1}});
+    }
     return (  
         <div className="scroller-container" id="scroller-container">
             <div className="scroller-buttons">
-                <div className="scroller-button" id="scroller-button-1">
+                <div className="scroller-button" id="scroller-button-1" onClick={scroll1}>
 
                 </div>
-                <div className="scroller-button" id="scroller-button-2">
+                <div className="scroller-button" id="scroller-button-2" onClick={scroll2}>
 
                 </div>
-                <div className="scroller-button" id="scroller-button-3">
+                <div className="scroller-button" id="scroller-button-3" onClick={scroll3}>
 
                 </div>
             </div>

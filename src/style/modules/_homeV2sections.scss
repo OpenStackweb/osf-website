@@ -475,7 +475,7 @@ h2.home-v2-header {
         left: -1px;
         background-image: linear-gradient(90deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
         z-index: 100;
-        @media screen and (min-width: 1350px) {
+        @media screen and (min-width: 1750px) {
             display: block;
         }
     }
@@ -489,7 +489,7 @@ h2.home-v2-header {
         right: -1px;
         background-image: linear-gradient(270deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
         z-index: 100;
-        @media screen and (min-width: 1350px) {
+        @media screen and (min-width: 1750px) {
             display: block;
         }
     }
@@ -595,7 +595,7 @@ h2.home-v2-header {
         left: 0;
         background-image: linear-gradient(90deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
         z-index: 100;
-        @media screen and (min-width: 1350px) {
+        @media screen and (min-width: 1750px) {
             display: block;
         }
     }
@@ -609,7 +609,7 @@ h2.home-v2-header {
         right: 0;
         background-image: linear-gradient(270deg, #f6f6f5 25%, rgba(39, 39, 39, 0) 100%);
         z-index: 100;
-        @media screen and (min-width: 1350px) {
+        @media screen and (min-width: 1750px) {
             display: block;
         }
     }
@@ -1424,7 +1424,7 @@ h2.home-v2-header {
 
 .home-v2-slider-container {
     position: relative;
-    max-width: 1350px;
+    max-width: 1550px;
     margin: 0 auto;
     &::before,
     &::after {
@@ -1435,7 +1435,7 @@ h2.home-v2-header {
         position: absolute;
         width: 100px;
         z-index: 2;
-        @media screen and (min-width: 1350px) {
+        @media screen and (min-width: 1550px) {
             display: block;
         }
     }

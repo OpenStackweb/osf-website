@@ -19,15 +19,15 @@ const PlatinumMembersSection2 = class extends React.Component {
                 </div>
                 <div className="home-v2-slider-container">
                     <div className="home-v2-slider-body">
-                        <div class="home-v2-slider">
+                        <div className="home-v2-slider">
                     { subProject.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
                             if (t.name == "Platinum Members") {
                                 return (
-                                        <div class="slide-track home-v2-platinum-sponsor-container slide-track-platinum-1" key={`company-tier-${tierIndex}`}>
+                                        <div className="slide-track home-v2-platinum-sponsor-container slide-track-platinum-1" key={`company-tier-${tierIndex}`}>
                                             {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
                                                 if (index < 4) {
                                                     return (
-                                                        <div class="slide home-v2-platinum-sponsor" key={`company-tier-${tierIndex}-${index}`}>
+                                                        <div className="slide home-v2-platinum-sponsor" key={`company-tier-${tierIndex}-${index}`}>
                                                                 <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
                                                         </div>
                                                     )
@@ -37,7 +37,7 @@ const PlatinumMembersSection2 = class extends React.Component {
                                             {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
                                                 if (index < 4) {
                                                     return (
-                                                        <div class="slide home-v2-platinum-sponsor" key={`company-tier-${tierIndex}-${index}`}>
+                                                        <div className="slide home-v2-platinum-sponsor" key={`company-tier-${tierIndex}-${index}`}>
                                                                 <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
                                                         </div>
                                                     )
@@ -51,15 +51,15 @@ const PlatinumMembersSection2 = class extends React.Component {
                         </div>
                     </div>
                     <div className="home-v2-slider-body">
-                        <div class="home-v2-slider">
+                        <div className="home-v2-slider">
                     { subProject.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
                             if (t.name == "Platinum Members") {
                                 return (
-                                        <div class="slide-track home-v2-platinum-sponsor-container slide-track-platinum-2 slide-track-offset" key={`company-tier-${tierIndex}`}>
+                                        <div className="slide-track home-v2-platinum-sponsor-container slide-track-platinum-2 slide-track-offset" key={`company-tier-${tierIndex}`}>
                                             {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
                                                 if (index >= 4) {
                                                     return (
-                                                        <div class="slide home-v2-platinum-sponsor" key={`company-tier-${tierIndex}-${index}`}>
+                                                        <div className="slide home-v2-platinum-sponsor" key={`company-tier-${tierIndex}-${index}`}>
                                                                 <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
                                                         </div>
                                                     )
@@ -69,7 +69,7 @@ const PlatinumMembersSection2 = class extends React.Component {
                                             {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
                                                 if (index >= 4) {
                                                     return (
-                                                        <div class="slide home-v2-platinum-sponsor" key={`company-tier-${tierIndex}-${index}`}>
+                                                        <div className="slide home-v2-platinum-sponsor" key={`company-tier-${tierIndex}-${index}`}>
                                                                 <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
                                                         </div>
                                                     )

@@ -15,15 +15,15 @@ const CommunitiesSection = class extends React.Component {
             </div>
             <div className="home-v2-slider-container">
                 <div className="home-v2-slider-body">
-                    <div class="home-v2-slider home-v2-slider-gold">
+                    <div className="home-v2-slider home-v2-slider-gold">
                 { subProject.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
                         if (t.name == "Gold Members") {
                             return (
-                                    <div class="slide-track home-v2-gold-sponsor-container slide-track-gold-1" key={`company-tier-${tierIndex}`}>
+                                    <div className="slide-track home-v2-gold-sponsor-container slide-track-gold-1" key={`company-tier-${tierIndex}`}>
                                         {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
                                             if (index < 9) {
                                                 return (
-                                                    <div class="home-v2-gold-sponsor slide slide-gold" key={`company-tier-${tierIndex}-${index}`}>
+                                                    <div className="home-v2-gold-sponsor slide slide-gold" key={`company-tier-${tierIndex}-${index}`}>
                                                             <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
                                                     </div>
                                                 )
@@ -33,7 +33,7 @@ const CommunitiesSection = class extends React.Component {
                                         {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
                                             if (index < 9) {
                                                 return (
-                                                    <div class="home-v2-gold-sponsor slide slide-gold" key={`company-tier-${tierIndex}-${index}`}>
+                                                    <div className="home-v2-gold-sponsor slide slide-gold" key={`company-tier-${tierIndex}-${index}`}>
                                                             <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
                                                     </div>
                                                 )
@@ -49,15 +49,15 @@ const CommunitiesSection = class extends React.Component {
             </div>
             <div className="home-v2-slider-container">
                 <div className="home-v2-slider-body">
-                    <div class="home-v2-slider">
+                    <div className="home-v2-slider">
                 { subProject.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
                         if (t.name == "Gold Members") {
                             return (
-                                    <div class="slide-track home-v2-gold-sponsor-container slide-track-gold-2 slide-track-offset-gold" key={`company-tier-${tierIndex}`}>
+                                    <div className="slide-track home-v2-gold-sponsor-container slide-track-gold-2 slide-track-offset-gold" key={`company-tier-${tierIndex}`}>
                                         {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
                                             if (index >= 9) {
                                                 return (
-                                                    <div class="home-v2-gold-sponsor slide slide-gold" key={`company-tier-${tierIndex}-${index}`}>
+                                                    <div className="home-v2-gold-sponsor slide slide-gold" key={`company-tier-${tierIndex}-${index}`}>
                                                             <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
                                                     </div>
                                                 )
@@ -67,7 +67,7 @@ const CommunitiesSection = class extends React.Component {
                                         {t.supporting_companies.sort((a, b) => a.order - b.order).map(({company}, index) => {
                                             if (index >= 9) {
                                                 return (
-                                                    <div class="home-v2-gold-sponsor slide slide-gold" key={`company-tier-${tierIndex}-${index}`}>
+                                                    <div className="home-v2-gold-sponsor slide slide-gold" key={`company-tier-${tierIndex}-${index}`}>
                                                             <img src={company.big_logo ? company.big_logo : company.logo} alt={company.name} />
                                                     </div>
                                                 )

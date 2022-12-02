@@ -7,11 +7,6 @@ import TopBar from '../components/TopBar'
 import NavbarV2 from '../components/NavbarV2'
 import SEO from '../components/SEO'
 
-import CompaniesSection from '../components/CompaniesSection'
-import PeopleSection from '../components/PeopleSection'
-import ProjectSection from '../components/ProjectSection'
-import WhyExpandSection from '../components/WhyExpandSection'
-import MainPitchSection from '../components/MainPitchSection'
 import { connect } from "react-redux";
 
 import OurFocusSection4 from '../components/HomeV2/OurFocusSection4'
@@ -24,12 +19,7 @@ import NewsSection from '../components/HomeV2/NewsSection'
 
 export const IndexPageTemplate = ({
   isLoggedUser,
-  header,
-  mainpitch,
-  whyExpand,
-  projects,
-  people,
-  sponsor,
+  header
 }) => (
   <div>
     <div className="wrapper hero-background home-v2-hero-wrapper">
@@ -40,16 +30,6 @@ export const IndexPageTemplate = ({
 
     <main className="main">
       <div className="content">
-
-        {/* <MainPitchSection mainpitch={mainpitch} />
-
-        <WhyExpandSection whyExpand={whyExpand} />
-
-        <ProjectSection projects={projects} />
-
-        <PeopleSection people={people} />
-
-        <CompaniesSection sponsor={sponsor} /> */}
 
         <OurFocusSection4 />
 

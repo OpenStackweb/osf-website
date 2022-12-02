@@ -4,7 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ScrollToPlugin from "gsap/ScrollToPlugin";
 gsap.registerPlugin(ScrollToPlugin);
 
-const OurFocusSection3 = () => {
+const OurFocusSection4 = () => {
   useEffect(() => {
 
     setTimeout(() => {
@@ -23,9 +23,11 @@ const OurFocusSection3 = () => {
             end: "+=2000",
             onEnter: () => {
                 document.querySelector("#try-panel-1").classList.add("enable");
+                document.querySelector("#scroller-container").classList.add("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-3");
               },
               onLeaveBack: () => {
                 document.querySelector("#try-panel-1").classList.remove("enable");
+                document.querySelector("#scroller-container").classList.add("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-3");
               }
             },
             
@@ -42,9 +44,11 @@ const OurFocusSection3 = () => {
             end: "+=2000",
             onEnter: () => {
                 document.querySelector("#try-panel-2").classList.add("enable");
+                document.querySelector("#scroller-container").classList.add("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-3");
               },
               onLeaveBack: () => {
                 document.querySelector("#try-panel-2").classList.remove("enable");
+                document.querySelector("#scroller-container").classList.add("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-3");
               }
             },
             
@@ -61,9 +65,11 @@ const OurFocusSection3 = () => {
             end: "+=2000",
             onEnter: () => {
                 document.querySelector("#try-panel-3").classList.add("enable");
+                document.querySelector("#scroller-container").classList.add("enable-slide-3"); document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2");
               },
               onLeaveBack: () => {
                 document.querySelector("#try-panel-3").classList.remove("enable");
+                document.querySelector("#scroller-container").classList.add("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-3");
               }
             },
             
@@ -77,13 +83,13 @@ const OurFocusSection3 = () => {
             start: "top 20%",
             end: "+=8000",
             toggleClass: "enable",
-            onUpdate: self => {
-                if (self.progress == 0 || self.progress == 1) { document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-3"); }
-                else if (self.progress < 0.33) { document.querySelector("#scroller-container").classList.add("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-3"); }
-                else if (self.progress > 0.33 && self.progress < 0.66) { document.querySelector("#scroller-container").classList.add("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-3"); }
-                else if (self.progress > 0.66) { document.querySelector("#scroller-container").classList.add("enable-slide-3"); document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); }
+            // onUpdate: self => {
+            //     if (self.progress == 0 || self.progress == 1) { document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-3"); }
+            //     else if (self.progress < 0.33) { document.querySelector("#scroller-container").classList.add("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-3"); }
+            //     else if (self.progress > 0.33 && self.progress < 0.66) { document.querySelector("#scroller-container").classList.add("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-3"); }
+            //     else if (self.progress > 0.66) { document.querySelector("#scroller-container").classList.add("enable-slide-3"); document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); }
 
-            }
+            // }
             },
             
         });
@@ -131,15 +137,12 @@ const OurFocusSection3 = () => {
   }, [])
   if (window.innerWidth > 767) { 
     function scroll1 () {
-        console.log("scrolling");
         gsap.to(window, {duration: 0.5, scrollTo: {y: "#try-panel-1", offsetY: -1}});
     }
     function scroll2 () {
-        console.log("scrolling");
         gsap.to(window, {duration: 0.5, scrollTo: {y: "#try-panel-2", offsetY: -1}});
     }
     function scroll3 () {
-        console.log("scrolling");
         gsap.to(window, {duration: 0.5, scrollTo: {y: "#try-panel-3", offsetY: -1}});
     }
     return (  
@@ -209,4 +212,4 @@ const OurFocusSection3 = () => {
   }
   }
 
-  export default OurFocusSection3
+  export default OurFocusSection4

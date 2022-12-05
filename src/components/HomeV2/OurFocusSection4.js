@@ -175,7 +175,7 @@ const OurFocusSection4 = () => {
                         
                         <section className="try-panel gray" id="try-panel-3">
                             <div className="try-box-3 try-box">
-                                <h2 className="our-focus-heading our-focus-heading-3"><span className="our-focus-heading-top our-focus-heading-left">Let Us Help </span><br /><span className="our-focus-heading-primary our-focus-heading-3-rd our-focus-heading-right">Build</span> <span className="our-focus-heading-primary our-focus-heading-3-lb our-focus-heading-right">Your</span> <span className="our-focus-heading-primary our-focus-heading-3-yl our-focus-heading-left">Community</span> <br /><a className="our-focus-heading-link" href="/join/"><span className="our-focus-heading-bottom our-focus-heading-link our-focus-heading-right">Learn More <img src="/img/homeV2/arrow-1.svg" /></span></a></h2>
+                                <h2 className="our-focus-heading our-focus-heading-3"><span className="our-focus-heading-top our-focus-heading-left">Let Us Help </span><br /><span className="our-focus-heading-primary our-focus-heading-3-rd our-focus-heading-right">Build</span> <span className="our-focus-heading-primary our-focus-heading-3-lb our-focus-heading-right">Your</span> <span className="our-focus-heading-primary our-focus-heading-3-yl our-focus-heading-left">Community</span> <br /><a className="our-focus-heading-link" href="/projects/hosting/"><span className="our-focus-heading-bottom our-focus-heading-link our-focus-heading-right">Learn More <img src="/img/homeV2/arrow-1.svg" /></span></a></h2>
                         </div>
                         </section>
                         </div>

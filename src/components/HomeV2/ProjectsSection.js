@@ -74,7 +74,7 @@ const ProjectsSection = class extends React.Component {
                                 </div>
                             </div>
                         </a>
-                        <a href="/projects/">
+                        <a className="home-v2-project-link" href="/projects/">
                             <div className="home-v2-project-box">
                                 <div className="home-v2-project">
                                     <img src="/img/homeV2/project-logos/starlingx.svg" />
@@ -83,7 +83,7 @@ const ProjectsSection = class extends React.Component {
                                 </div>
                             </div>
                         </a>
-                        <a href="/projects/">
+                        <a className="home-v2-project-link" href="/projects/">
                             <div className="home-v2-project-box">
                                 <div className="home-v2-project">
                                     <img src="/img/homeV2/project-logos/openstack.svg" />
@@ -92,7 +92,7 @@ const ProjectsSection = class extends React.Component {
                                 </div>
                             </div>
                         </a>
-                        <a href="/projects/">
+                        <a className="home-v2-project-link" href="/projects/">
                             <div className="home-v2-project-box">
                                 <div className="home-v2-project">
                                     <img src="/img/homeV2/project-logos/kata.svg" />
@@ -101,7 +101,7 @@ const ProjectsSection = class extends React.Component {
                                 </div>
                             </div>
                         </a>
-                        <a href="/projects/">
+                        <a className="home-v2-project-link" href="/projects/">
                             <div className="home-v2-project-box">
                                 <div className="home-v2-project">
                                     <img src="/img/homeV2/project-logos/oilabs.svg" />
@@ -110,7 +110,7 @@ const ProjectsSection = class extends React.Component {
                                 </div>
                             </div>
                         </a>
-                        <a href="/projects/">
+                        <a className="home-v2-project-link" href="/projects/">
                             <div className="home-v2-project-box">
                                 <div className="home-v2-project">
                                     <img src="/img/homeV2/project-logos/airship.svg" />
@@ -119,7 +119,7 @@ const ProjectsSection = class extends React.Component {
                                 </div>
                             </div>
                         </a>
-                        <a href="/projects/">
+                        <a className="home-v2-project-link" href="/projects/">
                             <div className="home-v2-project-box">
                                 <div className="home-v2-project">
                                     <img src="/img/homeV2/project-logos/starlingx.svg" />
@@ -128,7 +128,7 @@ const ProjectsSection = class extends React.Component {
                                 </div>
                             </div>
                         </a>
-                        <a href="/projects/">
+                        <a className="home-v2-project-link" href="/projects/">
                             <div className="home-v2-project-box">
                                 <div className="home-v2-project">
                                     <img src="/img/homeV2/project-logos/openstack.svg" />
@@ -137,7 +137,7 @@ const ProjectsSection = class extends React.Component {
                                 </div>
                             </div>
                         </a>
-                        <a href="/projects/">
+                        <a className="home-v2-project-link" href="/projects/">
                             <div className="home-v2-project-box">
                                 <div className="home-v2-project">
                                     <img src="/img/homeV2/project-logos/kata.svg" />
@@ -146,7 +146,7 @@ const ProjectsSection = class extends React.Component {
                                 </div>
                             </div>
                         </a>
-                        <a href="/projects/">
+                        <a className="home-v2-project-link" href="/projects/">
                             <div className="home-v2-project-box">
                                 <div className="home-v2-project">
                                     <img src="/img/homeV2/project-logos/oilabs.svg" />

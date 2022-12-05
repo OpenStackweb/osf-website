@@ -65,7 +65,7 @@ const ProjectsSection = class extends React.Component {
                 </div>
                 <div className="home-v2-projects-container">
                     <Slider ref={c => (this.slider = c)} {...settings}>
-                    <a href="/projects/">
+                    <a className="home-v2-project-link" href="/projects/">
                             <div className="home-v2-project-box">
                                 <div className="home-v2-project">
                                     <img src="/img/homeV2/project-logos/airship.svg" />

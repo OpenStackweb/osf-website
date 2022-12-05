@@ -67,6 +67,8 @@
         h3 {
             margin-top: 10px;
             font-family: 'Roboto Condensed', sans-serif;
+            text-transform: uppercase;
+            padding-bottom: 10px;
             color: #fff;
             font-size: 22px;
             &:hover {
@@ -583,6 +585,11 @@ h2.home-v2-header {
     position: relative;
     max-width: 1350px;
     margin: 0 auto;
+    .home-v2-project-link {
+        &:hover {
+            text-decoration: none;
+        }
+    }
     &:before {
         display: none;
         content: '';
@@ -660,6 +667,9 @@ h2.home-v2-header {
             height: 90px;
             width: auto;
             margin: 0 auto;
+        }
+        &:hover {
+            box-shadow: 3px 25px 40px -3px rgba(0,0,0,.25);
         }
     }
 }
@@ -1165,6 +1175,7 @@ h2.home-v2-header {
                 font-size: 28px;
                 position: relative;
                 color: #fff;
+                font-weight: 400;
                 &:hover {
                     text-decoration: underline;
                 }

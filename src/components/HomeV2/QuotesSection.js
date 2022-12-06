@@ -73,7 +73,7 @@ const QuotesSection = class extends React.Component {
                                 <div className="home-v2-quote-inner-container">
                                     <p className="home-v2-quote-name">— Eoghan Glynn</p>
                                     <p className="home-v2-quote-title">Director of Engineering, Red Hat</p>
-                                    <img src="/img/homeV2/quotes-images/redhat.png" />
+                                    <img className="home-v2-quote-logo-resize" src="/img/homeV2/quotes-images/redhat-svg.svg" />
                                 </div>
                                 
                             </div>
@@ -95,7 +95,7 @@ const QuotesSection = class extends React.Component {
                                 <div className="home-v2-quote-inner-container">
                                     <p className="home-v2-quote-name">- Victoria Martinez de la Cruz</p>
                                     <p className="home-v2-quote-title">Senior Software Engineer, Red Hat</p>
-                                    <img src="/img/homeV2/quotes-images/redhat.png" />
+                                    <img className="home-v2-quote-logo-resize" src="/img/homeV2/quotes-images/redhat-svg.svg" />
                                 </div>
                                 
                             </div>

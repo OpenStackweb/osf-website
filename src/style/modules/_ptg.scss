@@ -435,4 +435,9 @@
     width: auto !important;
     padding-bottom: 0 !important;
   }
+
+  .container .links-list li .dropdown-options {
+    right: -10px;
+    left: unset;
+  }
 }

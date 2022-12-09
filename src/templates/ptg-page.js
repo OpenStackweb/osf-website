@@ -57,7 +57,7 @@ export const PTGPageTemplate = ({
                     :
                     !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> Virtual
                 </span>
-                {/* <div className="buttons">
+                <div className="buttons">
                     {header.buttons.map((button, index) => {
                         return (
                             <a
@@ -67,7 +67,7 @@ export const PTGPageTemplate = ({
                             </a>
                         )
                     })}
-                </div> */}
+                </div>
                 {/* <p>Make sure you <a class="primary-link-color" href="https://openinfrafoundation.formstack.com/forms/oct2022_ptg_team_signup">sign up your team</a> if that hasn't been done already</p> */}
             </div>
             <div className="header-left">
@@ -81,7 +81,7 @@ export const PTGPageTemplate = ({
       <main className="main">
         <div className="content">
           <section className="ptg-who">
-            <div className="ptg-container">
+            {/* <div className="ptg-container">
               <div className="ptg-who-teams">
                 <h4 className="title">The October 2022 Project Teams List is Official!</h4>
                 <p>If your team was planning to meet and isn't in this list, please contact <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a></p>
@@ -140,7 +140,7 @@ export const PTGPageTemplate = ({
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="ptg-container">
               <div className="ptg-who-boxes">
                 <div className="should">

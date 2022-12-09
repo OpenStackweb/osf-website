@@ -35,9 +35,9 @@ export const PTGPageTemplate = ({
       {header && header.display &&
         <div className="join-header ptg-header">
             <div className="header-right">
-                <span className="upper-title">
+                {/* <span className="upper-title">
                     {header.upperTitle}
-                </span>
+                </span> */}
                 <span className="ptg-logo">
                   <img alt="PTG logo" src="/img/ptg-page/ptg-logo.svg" />
                 </span>

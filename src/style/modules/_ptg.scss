@@ -411,3 +411,28 @@
     margin: 0 auto;
   } 
 }
+
+.subnav-bar-ptg {
+  .subnav-dropdown .links-list li a {
+    opacity: 1;
+  }
+  #links-list {
+    .link.registration {
+      padding: 5px 10px;
+    }
+  }
+  #ptg-registration-link {
+    background-color: #161616;
+    opacity: 1;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 5px;
+  }
+  .link-dropdown-option {
+    background-color: #f3f3f3 !important;
+  }
+  .link-dropdown.registration {
+    width: auto !important;
+    padding-bottom: 0 !important;
+  }
+}

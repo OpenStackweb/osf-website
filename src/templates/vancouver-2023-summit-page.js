@@ -65,7 +65,7 @@ export const SummitPageTemplate = ({
                   <img src={leftArrow} alt="" />
                   </LinkComponent>
                 </section>
-                <p className="small-details">Students and non-profit / government workers can <a href="https://openinfrafoundation.formstack.com/forms/yvr2023summit_discountedreg_app">apply for discounted registration</a>.</p>
+                <p className="small-details">Learn more about the <a href="/ptg/">Project Teams Gathering (PTG) in Vancouver</a>.</p>
               </div>
               <div className="header-right">
                 <div className="picture">

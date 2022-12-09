@@ -8,7 +8,7 @@ seo:
   url: https://openinfra.dev/summit/vancouver-2023
 header:
   display: true
-  title: OpenInfra Summit Vancouver 2023
+  title: OpenInfra Summit + PTG Vancouver 2023
   upperTitle: THE NEXT SUMMIT IS COMING SOON!
   description: >
     Collaborate directly with the people building and running open source infrastructure using Linux, OpenStack, Kubernetes and 30+ other technologies.

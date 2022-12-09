@@ -45,35 +45,62 @@ export const PTGPageTemplate = ({
                     {header.description}
                     <br />
                 </span>
-                <span className="date">
-                  <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
-                    header.date.icon.publicURL
-                    :
-                    !!header.date.icon.childImageSharp ? header.date.icon.childImageSharp.fluid.src : header.date.icon} /> {header.date.text}
-                </span>
-                <span className="location">
-                  <img src={(header.location.icon.extension === 'svg' || header.location.icon.extension === 'gif') && !header.location.icon.childImageSharp ?
-                    header.location.icon.publicURL
-                    :
-                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> Virtual
-                </span>
-                <div className="buttons">
-                    {header.buttons.map((button, index) => {
-                        return (
-                            <a
-                                key={`header-button-${index}`}
-                                href={button.link}>
-                                {button.text} <img src={leftArrow} alt="left" />
-                            </a>
-                        )
-                    })}
-                </div>
-                {/* <p>Make sure you <a class="primary-link-color" href="https://openinfrafoundation.formstack.com/forms/oct2022_ptg_team_signup">sign up your team</a> if that hasn't been done already</p> */}
+
             </div>
             <div className="header-left">
                 <div className="picture">
                     <img alt="img" src="/img/ptg-page/hero-image.png" />
                 </div>
+            </div>
+            <div className="ptg-header-bottom">
+            <p className="ptg-two-event-text">Two highlighted PTGs:</p>
+              <div className="ptg-header-bottom-container">
+                <div className="ptg-header-bottom-left">
+                  <span className="ptg-header-bottom-title">Virtual PTG</span>
+                  <span className="date">
+                    <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
+                      header.date.icon.publicURL
+                      :
+                      !!header.date.icon.childImageSharp ? header.date.icon.childImageSharp.fluid.src : header.date.icon} /> {header.date.text}
+                  </span>
+                  <span className="location">
+                    <img src={(header.location.icon.extension === 'svg' || header.location.icon.extension === 'gif') && !header.location.icon.childImageSharp ?
+                      header.location.icon.publicURL
+                      :
+                      !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> Virtual
+                  </span>
+                  <div className="buttons ptg-bottom-left-buttons">
+                        {header.buttons.map((button, index) => {
+                            return (
+                                <a
+                                    key={`header-button-${index}`}
+                                    href={button.link}>
+                                    {button.text} <img src={leftArrow} alt="left" />
+                                </a>
+                            )
+                        })}
+                    </div>
+                  <p>Make sure you <a class="primary-link-color" href="https://openinfrafoundation.formstack.com/forms/oct2022_ptg_team_signup">sign up your team</a> if that hasn't been done already</p>
+
+                </div>
+                <div className="ptg-header-bottom-right">
+                <span className="ptg-header-bottom-title">OpenInfra Summit + PTG</span>
+                  <span className="date">
+                    <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
+                      header.date.icon.publicURL
+                      :
+                      !!header.date.icon.childImageSharp ? header.date.icon.childImageSharp.fluid.src : header.date.icon} /> June 13-15
+                  </span>
+                  <span className="location">
+                    <img src={(header.location.icon.extension === 'svg' || header.location.icon.extension === 'gif') && !header.location.icon.childImageSharp ?
+                      header.location.icon.publicURL
+                      :
+                      !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> Vancouver Convention Centre
+                  </span>
+                  <div class="buttons"><a href="https://openinfrasummit2023.eventbrite.com/?_ga=2.16777150.903254727.1670599781-293689128.1670599781">Register Now <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNSAxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+DQogICAgPGRlZnM+DQogICAgICAgIDxwYXRoIGQ9Ik03MDguNzE2IDM0OS4wNTRsLTQuODA1LTQuODA2YS44MjguODI4IDAgMCAwLTEuMTgzIDAgLjgyOC44MjggMCAwIDAgMCAxLjE4MmwzLjM4OCAzLjM4N2gtMTEuMjgxYS44NC44NCAwIDAgMC0uODM1LjgzNi44NC44NCAwIDAgMCAuODM1LjgzNWgxMS4yNjZsLTMuMzczIDMuMzg3YS44MjguODI4IDAgMCAwIDAgMS4xODIuODYzLjg2MyAwIDAgMCAuNi4yNTJjLjIyIDAgLjQyNS0uMDc5LjU5OS0uMjUybDQuODItNC44MjJhLjg1OC44NTggMCAwIDAgLjI1Mi0uNTk4IDEuMDY5IDEuMDY5IDAgMCAwLS4yODMtLjU4MyIgaWQ9ImEtYXJyb3ctbGVmdCIgLz4NCiAgICA8L2RlZnM+DQogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTY5NCAtMzQ0KSI+DQogICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI2EtYXJyb3ctbGVmdCIgZmlsbD0iI2ZmZiIgLz4NCiAgICA8L2c+DQo8L3N2Zz4=" alt="left" /></a></div>
+                  <p>Learn more about the <a class="primary-link-color" href="/summit/vancouver-2023">OpenInfra Summit + PTG Vancouver 2023</a></p>
+                </div>
+              </div>
             </div>
         </div>
         }

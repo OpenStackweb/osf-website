@@ -1,7 +1,6 @@
 import React from 'react'
 import logo from '../img/svg/OpenInfraFoundation-logo-RGB-horiz-w.svg'
 import Menu from "../content/navbar.json"
-import LinkComponent from './LinkComponent'
 import {doLogin, initLogOut} from 'openstack-uicore-foundation/lib/methods'
 import PropTypes from "prop-types";
 import URI from "urijs"
@@ -64,13 +63,13 @@ const NavbarV2 = class extends React.Component {
         <div className="container navbar-v2-container">
           <div className="nav-inner">
             <div className="nav-brand">
-              <LinkComponent href="/" className="router-link-exact-active router-link-active">
+              <a href="/" className="router-link-exact-active router-link-active">
                 <div className="logo-containter">
                   <div className="logo-containter-child logo-containter-child-img">
                     <img src={logo} alt="OpenStack Foundation" />
                   </div>
                 </div>
-              </LinkComponent>
+              </a>
             </div>
             <a role="button" aria-label="menu" aria-expanded="false" className={`navbar-burger burger ${this.state.navBarActiveClass}`} onClick={() => this.toggleHamburger()}>
               <span aria-hidden="true"></span>
@@ -86,9 +85,9 @@ const NavbarV2 = class extends React.Component {
                           <div className="dropdown-trigger">
                             { li.url &&
                                   <button aria-haspopup="true" aria-controls="dropdown-menu" className="button navbar-dropdown-btn-v2">
-                                    <LinkComponent href={li.url}>
+                                    <a href={li.url}>
                                       <span>{li.title}</span>
-                                    </LinkComponent>
+                                    </a>
                                   </button>
                             }
                             { !li.url &&                              
@@ -105,9 +104,9 @@ const NavbarV2 = class extends React.Component {
                               {li.links.map((link, index) => {
                                 return (
                                   <div className="menuitemeffect" key={index}>
-                                    <LinkComponent href={link.url} className="dropdown-item">
+                                    <a href={link.url} className="dropdown-item">
                                       <span>{link.text} </span>
-                                    </LinkComponent>
+                                    </a>
                                   </div>
                                 )
                               })}
@@ -120,22 +119,22 @@ const NavbarV2 = class extends React.Component {
                 })}
                 { !isLoggedUser &&
                   <li className="navbar-item-v2 navbar-btn-v2" key={"login"}>
-                    <LinkComponent href="#" className="bar-button bar-button-v2" onClick={this.onClickLogin}>LOGIN</LinkComponent>
+                    <a href="#" className="bar-button bar-button-v2" onClick={this.onClickLogin}>LOGIN</a>
                   </li>
                 }
                 { !isLoggedUser &&
                 <li className="navbar-item-v2 navbar-btn-v2-primary" key={"join"}>
-                  <LinkComponent href="/join/" className="bar-button bar-button-v2 bar-button-primary">JOIN</LinkComponent>
+                  <a href="/join/" className="bar-button bar-button-v2 bar-button-primary">JOIN</a>
                 </li>
                 }
                 { isLoggedUser &&
                 <li className="navbar-item-v2 navbar-btn-v2" key={"logout"}>
-                  <LinkComponent href="#" className="bar-button bar-button-v2" onClick={this.onClickLogout}>LOG OUT</LinkComponent>
+                  <a href="#" className="bar-button bar-button-v2" onClick={this.onClickLogout}>LOG OUT</a>
                 </li>
                 }
                 { isLoggedUser &&
                 <li className="navbar-item-v2 navbar-btn-v2-primary" key={"profile"}>
-                  <LinkComponent href="/a/profile" className="bar-button bar-button-v2 bar-button-primary">PROFILE</LinkComponent>
+                  <a href="/a/profile" className="bar-button bar-button-v2 bar-button-primary">PROFILE</a>
                 </li>
                 }
               </ul>

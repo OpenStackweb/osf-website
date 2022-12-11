@@ -1,11 +1,11 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ScrollToPlugin from "gsap/ScrollToPlugin";
 gsap.registerPlugin(ScrollToPlugin);
 
 const OurFocusSection4 = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
 
     setTimeout(() => {
         if (window.innerWidth > 767) { 

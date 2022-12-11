@@ -1,7 +1,6 @@
 import React from 'react'
 import logo from '../img/svg/OpenInfrastructureFoundation-logo-RGB-horiz2-w.svg'
 import content from '../content/footer-nav.json'
-import LinkComponent from './LinkComponent'
 
 const FooterV2 = class extends React.Component {  
   render() {
@@ -82,13 +81,13 @@ const FooterV2 = class extends React.Component {
             </div>
             <div className="footer-v2-lower">
             <div className="nav-brand">
-                <LinkComponent href="/" className="router-link-active">
+                <a href="/" className="router-link-active">
                     <div className="logo-containter">
                     <div className="logo-containter-child logo-containter-child-img">
                         <img src={logo} alt="Open Infrastructure Foundation" />
                         </div>
                     </div>
-                </LinkComponent>
+                </a>
             </div>
             <div className="footer-v2-social">
                 <ul>
@@ -116,7 +115,7 @@ const FooterV2 = class extends React.Component {
         <div className="container">
           <div className="bar-footer-inner">
             <div className="bar-footer-entry">
-              <LinkComponent href={footerBar.privacy.url}>{footerBar.privacy.text}</LinkComponent> | <LinkComponent href={footerBar.legal.url}>{footerBar.legal.text}</LinkComponent>
+              <a href={footerBar.privacy.url}>{footerBar.privacy.text}</a> | <a href={footerBar.legal.url}>{footerBar.legal.text}</a>
             </div> 
               <div className="bar-footer-entry bar-footer-entry-right">
                 {footerBar.text}

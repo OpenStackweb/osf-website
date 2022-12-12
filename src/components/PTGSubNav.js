@@ -37,8 +37,8 @@ function PTGSubNav(props) {
           <li><LinkComponent id="ptg" href="/ptg" onClick={() => shouldCloseMenu("ptg")} className="link">About</LinkComponent></li>
           <li><LinkComponent id="ptg-faq" href="/ptg/faq" onClick={() => shouldCloseMenu("ptg-faq")} className="link">FAQ</LinkComponent></li>
           {/* <li><LinkComponent id="registration" href="https://openinfra-ptg.eventbrite.com" className="link registration">Register</LinkComponent></li> */}
-          <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(true)} style={{ marginBottom: -30, paddingBottom: 30 }}>
-            <LinkComponent id="summit-faq" href="/#" className="link registration" style={{ width: '110%', display: 'inline-flex' }}>
+          <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
+            <LinkComponent id="summit-faq" href="#" className="link registration" style={{ width: '110%', display: 'inline-flex' }}>
               Register
               <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
             </LinkComponent>

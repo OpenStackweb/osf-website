@@ -25,6 +25,8 @@ Here are the current health and safety guidelines for onsite at the OpenInfra Su
 - Booth staff are required to wear masks while at the booth. Event participants are required to wear a mask when visiting booths and are encouraged to not crowd around booths. 
 - Hand sanitation stations will be available throughout the venue with alcohol-based hand sanitizer.
 
+The OpenInfra Summit Vancouver has taken the [Public Health Pledge](https://phpledge.com) as part of our commitment to safety and inclusion, and is taking proactive steps to mitigate the spread of COVID-19 and other transmissible diseases.
+
 <hr style="margin:5rem 0 2rem;">
 
 ### Health & Safety FAQs

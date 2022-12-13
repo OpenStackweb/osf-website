@@ -23,7 +23,7 @@ Here are the current health and safety guidelines for onsite at the OpenInfra Su
 - Onsite attendees will be required to be fully vaccinated against the COVID-19 virus. Fully vaccinated is defined as two weeks (14 full days) after the final dose of a [WHO-approved vaccine](https://covid19.trackvaccines.org/agency/who/). 
 - Proof of full vaccination will be required at badge pickup.
 - Booth staff are required to wear masks while at the booth. Event participants are required to wear a mask when visiting booths and are encouraged to not crowd around booths. 
-- Hand sanitation stations will be available throughout the venue with alcohol-based hand sanitizer.
+- Hand sanitation stations will be available throughout the venue with alcohol-based hand sanitizer. 
 
 <hr style="margin:5rem 0 2rem;">
 

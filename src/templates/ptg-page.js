@@ -201,9 +201,6 @@ export const PTGPageTemplate = ({
                     The PTG is intended for engaged community members that are involved in open source teams working on one of the projects supported by the OpenInfra Foundation or adjacent project communities. This includes workgroups, development teams, external open source projects (like Ceph or Kubernetes, SIG, etc). If you're brand new to a project, we recommend attending the <a href="https://www.openinfra.dev/summit/">OpenInfra Summit</a> first, which features presentations, Forum sessions (designed to get wider community feedback) and on-boarding sessions.
                   </p>
                   <p>
-                    The event is NOT the event to sell goods -- hiring managers and product vendors are not encouraged to attend. The <a href="https://www.openinfra.dev/summit/">OpenInfra Summit</a> is a more appropriate event for teams with goals of this nature.
-                  </p>
-                  <p>
                     Usually this event is not for new contributors; however,  we are including the possibility for teams to do project onboarding as a part of the PTG. That being said, not all teams will be participating, only those that want to.
                   </p>
                 </div>

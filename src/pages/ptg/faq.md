@@ -22,7 +22,7 @@ A: Yes! Engaged operators and developers are all contributors, helping to make o
  
 
 **Q: Which groups can meet at the PTG?**<br>
-A: There are lots of ways to contribute. We have upstream project teams, Special Interest Groups (SIGs), pop-up work groups around a specific issue, and other styles of teams. If you’re engaged and openly collaborating to make one of the OpenInfra Foundation supported open source projects better, your team can get space to meet at the PTG. You can [request space here](https://openinfrafoundation.formstack.com/forms/oct2022_ptg_team_signup). 
+A: There are lots of ways to contribute. We have upstream project teams, Special Interest Groups (SIGs), pop-up work groups around a specific issue, and other styles of teams. If you’re engaged and openly collaborating to make one of the OpenInfra Foundation supported open source projects better, your team can get space to meet at the PTG. 
  
 
 **Q: Is my workgroup forced to meet at the PTG?**<br>

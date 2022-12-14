@@ -15,6 +15,11 @@ const ProjectsSubNav = ({active}) => {
   const getMenuList = (id) => (
     <ul id={id} className="links-list">
       <li>
+        <LinkComponent href="/projects" className={`link ${isActive('projects')}`}>
+          All Projects
+        </LinkComponent>
+      </li>
+      <li>
         <LinkComponent href="/projects/hosting" className={`link ${isActive('hosting')}`}>
           Hosting
         </LinkComponent>
@@ -27,11 +32,6 @@ const ProjectsSubNav = ({active}) => {
       <li>
         <LinkComponent href="/projects/funding" className={`link ${isActive('funding')}`}>
           Funding
-        </LinkComponent>
-      </li>
-      <li>
-        <LinkComponent href="/projects" className={`link ${isActive('projects')}`}>
-          All Projects
         </LinkComponent>
       </li>
       <li>

@@ -1,3 +1,7 @@
+.home-v2-body-wrapper {
+    overflow: hidden;
+}
+
 .home-v2-outer-container-dark {
     background-color: #161616;
     overflow: hidden;
@@ -1046,7 +1050,7 @@ h2.home-v2-header {
         .try-box {
             .our-focus-heading-left,
             .our-focus-heading-right {
-                transition: all 1s;
+                transition: all 0.5s;
             }
         }
         &.enable {
@@ -1106,7 +1110,7 @@ h2.home-v2-header {
                 position: relative;
                 z-index: 5;
                 background-size: cover;
-                transition: all .5s;
+                transition: all .25s;
                 @media screen and (min-height: 950px) {
                     background-size: contain;
                 }
@@ -1141,7 +1145,7 @@ h2.home-v2-header {
                 background-position: center;
                 position: relative;
                 z-index: 5;
-                transition: all .5s;
+                transition: all .25s;
                 @media screen and (min-height: 950px) {
                     background-size: contain;
                 }
@@ -1246,7 +1250,7 @@ h2.home-v2-header {
             top: calc(50% - 42px);
             z-index: 100;
             opacity: 0;
-            transition: all .5s;
+            transition: all .25s;
             .scroller-button {
                 height: 10px;
                 width: 10px;
@@ -1254,7 +1258,7 @@ h2.home-v2-header {
                 border: 2px solid #fff;
                 background-color: #fff;
                 margin: 30px 0;
-                transition: all .5s;
+                transition: all .25s;
             }
         }
         &.enable {

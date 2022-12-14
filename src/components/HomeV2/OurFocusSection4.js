@@ -20,7 +20,7 @@ const OurFocusSection4 = () => {
             pin: true,
             scrub: 0.1,
             // toggleClass: 'enable',
-            end: "+=2000",
+            end: "+=700",
             onEnter: () => {
                 document.querySelector("#try-panel-1").classList.add("enable");
                 document.querySelector("#scroller-container").classList.add("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-3");
@@ -41,7 +41,7 @@ const OurFocusSection4 = () => {
             pin: true,
             scrub: 0.1,
             // toggleClass: 'enable',
-            end: "+=2000",
+            end: "+=700",
             onEnter: () => {
                 document.querySelector("#try-panel-2").classList.add("enable");
                 document.querySelector("#scroller-container").classList.add("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-3");
@@ -62,7 +62,7 @@ const OurFocusSection4 = () => {
             pin: true,
             scrub: 0.1,
             // toggleClass: 'enable',
-            end: "+=2000",
+            end: "+=700",
             onEnter: () => {
                 document.querySelector("#try-panel-3").classList.add("enable");
                 document.querySelector("#scroller-container").classList.add("enable-slide-3"); document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2");
@@ -81,7 +81,7 @@ const OurFocusSection4 = () => {
             trigger: "#scroller-container",
             // toggleClass: 'enable',
             start: "top 20%",
-            end: "+=8000",
+            end: "+=4500",
             toggleClass: "enable",
             // onUpdate: self => {
             //     if (self.progress == 0 || self.progress == 1) { document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-3"); }

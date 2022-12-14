@@ -28,7 +28,7 @@ export const IndexPageTemplate = ({
       <Header upperTitle={header.upperTitle} title={header.title} subTitle={header.subTitle} image={header.image} buttons={header.buttons} isHome={true} />
     </div>
 
-    <main className="main">
+    <main className="main home-v2-body-wrapper">
       <div className="content">
 
         <OurFocusSection4 />

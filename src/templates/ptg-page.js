@@ -80,7 +80,7 @@ export const PTGPageTemplate = ({
                             )
                         })}
                     </div>
-                  <p>Make sure you <a class="primary-link-color" href="https://openinfrafoundation.formstack.com/forms/oct2022_ptg_team_signup">sign up your team</a> if that hasn't been done already</p>
+                  <p>Make sure you <a class="primary-link-color" href="https://openinfrafoundation.formstack.com/forms/march2023_vptg_survey">sign up your team</a> if that hasn't been done already</p>
 
                 </div>
                 <div className="ptg-header-bottom-right">

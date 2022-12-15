@@ -81,7 +81,7 @@ const OurFocusSection4 = () => {
             trigger: "#scroller-container",
             // toggleClass: 'enable',
             start: "top 20%",
-            end: "+=4500",
+            end: "+=4000",
             toggleClass: "enable",
             // onUpdate: self => {
             //     if (self.progress == 0 || self.progress == 1) { document.querySelector("#scroller-container").classList.remove("enable-slide-1"); document.querySelector("#scroller-container").classList.remove("enable-slide-2"); document.querySelector("#scroller-container").classList.remove("enable-slide-3"); }

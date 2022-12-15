@@ -625,10 +625,10 @@ h2.home-v2-header {
     .home-v2-project {
         background-color: #EEE;
         border-radius: 25px;
-        padding: 50px 30px 50px;
+        padding: 40px 30px;
         margin: 0 10px;
         transition: all .5s;
-        min-height: 350px;
+        min-height: 330px;
         @media screen and (max-width: 1199px) {
             min-height: 370px;
             padding: 30px 30px 50px;

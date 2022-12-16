@@ -9,7 +9,7 @@ import SubNav from '../components/SummitSubNav'
 import NotFoundPage from "../pages/404";
 import SEO from "../components/SEO";
 import TopBar from "../components/TopBar";
-import Navbar from "../components/Navbar";
+import NavbarV2 from "../components/NavbarV2";
 import Header from "../components/Header";
 import styles from "../style/modules/full-schedule.module.scss";
 import RegisterNowBanner from "../components/RegisterNowBanner";
@@ -104,7 +104,7 @@ const SchedulePageTemplate = ({
         <div>
             <div className="wrapper project-background">
                 <TopBar/>
-                <Navbar isLoggedUser={isLoggedUser}/>
+                <NavbarV2 isLoggedUser={isLoggedUser}/>
                 <SubNav active="summit-schedule" pageName="Schedule" isLoggedUser={isLoggedUser}/>
                 <Header title={headerTitle}/>
             </div>

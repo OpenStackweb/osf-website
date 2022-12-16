@@ -2,7 +2,7 @@ import React from 'react'
 import { Router, Redirect } from "@reach/router"
 import Header from '../components/Header'
 import Layout from '../components/Layout'
-import Navbar from '../components/Navbar'
+import NavbarV2 from '../components/NavbarV2'
 import TopBar from '../components/TopBar'
 
 const NotFoundPage = ({ location }) => {
@@ -27,7 +27,7 @@ const NotFoundPage = ({ location }) => {
       </Router>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={false} />
+        <NavbarV2 isLoggedUser={false} />
         <Header title="NOT FOUND" subTitle="You just hit a route that doesn&#39;t exist... the sadness." />
       </div>
       <div style={{ height: '45vw' }}>

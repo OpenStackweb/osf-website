@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import moment from 'moment-timezone';
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
-import Navbar from "../components/Navbar";
+import NavbarV2 from "../components/NavbarV2";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
 import LinkComponent from "../components/LinkComponent";
@@ -166,7 +166,7 @@ const ElectionCandidatesPage = ({ data, isLoggedUser, candidates, location,
       <div>
         <div className="wrapper project-background">
           <TopBar />
-          <Navbar isLoggedUser={isLoggedUser} />
+          <NavbarV2 isLoggedUser={isLoggedUser} />
           <Header title={post.frontmatter.title} />
           <ElectionCandidatesPageTemplate
             isLoggedUser={isLoggedUser}

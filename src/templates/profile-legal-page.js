@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { navigate } from "gatsby"
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
-import Navbar from "../components/Navbar";
+import NavbarV2 from "../components/NavbarV2";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
 import 'openstack-uicore-foundation/lib/css/components.css';
@@ -23,7 +23,7 @@ export const ProfileLegalPageTemplate = ({
         <div>
             <div className="wrapper project-background">
                 <TopBar />
-                <Navbar isLoggedUser={isLoggedUser} />
+                <NavbarV2 isLoggedUser={isLoggedUser} />
                 <ProfileSubNav activePage='profile-legal' pageName='Legal Agreements' />
                 <Header title="Profile" subTitle="Legal Agreements" />
             </div>

@@ -7,6 +7,10 @@
       "display": true,
       "links": [
         {
+          "text": "OpenInfra Projects",
+          "url": "/projects/"
+        },
+        {
           "text": "Project Hosting",
           "url": "/projects/hosting/"
         },
@@ -17,10 +21,6 @@
         {
           "text": "Project Funding",
           "url": "/projects/funding/"
-        },
-        {
-          "text": "OpenInfra Projects",
-          "url": "/projects/"
         },
         {
           "text": "User Survey",

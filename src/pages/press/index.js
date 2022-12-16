@@ -4,7 +4,7 @@ import { withPrefix } from 'gatsby'
 
 import Layout from '../../components/Layout'
 import TopBar from '../../components/TopBar';
-import Navbar from '../../components/Navbar';
+import NavbarV2 from '../../components/NavbarV2';
 import NewsRoll from '../../components/NewsRoll'
 
 import pressContent from '../../content/press-media.json' 
@@ -41,7 +41,7 @@ export default class PressIndexPage extends React.Component {
           </Helmet>
           <div className="wrapper project-background">
             <TopBar />
-            <Navbar />
+            <NavbarV2 />
             <main className="main">
               <section className="hero-main is-primary hero">
                 <div className="hero-body">

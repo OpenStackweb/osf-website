@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import LinkComponent from '../components/LinkComponent';
 import SEO from '../components/SEO';
 import {doRegistration} from '../utils/security'
@@ -28,7 +28,7 @@ export const JoinIndividualPageTemplate = ({
         <div>
             <div className="wrapper project-background">
                 <TopBar />
-                <Navbar isLoggedUser={isLoggedUser} />
+                <NavbarV2 isLoggedUser={isLoggedUser} />
                 {header && header.display &&
                     <div className="individual-header">
                         <div className="header-left">

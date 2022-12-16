@@ -4,44 +4,47 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar'
-import Navbar from '../components/Navbar'
+import NavbarV2 from '../components/NavbarV2'
 import SEO from '../components/SEO'
 
-import CompaniesSection from '../components/CompaniesSection'
-import PeopleSection from '../components/PeopleSection'
-import ProjectSection from '../components/ProjectSection'
-import WhyExpandSection from '../components/WhyExpandSection'
-import MainPitchSection from '../components/MainPitchSection'
 import { connect } from "react-redux";
+
+import OurFocusSection4 from '../components/HomeV2/OurFocusSection4'
+import SFASection from '../components/HomeV2/SFASection'
+import ProjectsSection from '../components/HomeV2/ProjectsSection'
+import QuotesSection from '../components/HomeV2/QuotesSection'
+import PlatinumMembersSection2 from '../components/HomeV2/PlatinumMembersSection2'
+import CommunitiesSection from '../components/HomeV2/CommunitiesSection'
+import NewsSection from '../components/HomeV2/NewsSection'
 
 export const IndexPageTemplate = ({
   isLoggedUser,
-  header,
-  mainpitch,
-  whyExpand,
-  projects,
-  people,
-  sponsor,
+  header
 }) => (
   <div>
-    <div className="wrapper hero-background">
+    <div className="wrapper hero-background home-v2-hero-wrapper">
       <TopBar />
-      <Navbar isLoggedUser={isLoggedUser} />
+      <NavbarV2 isLoggedUser={isLoggedUser} />
       <Header upperTitle={header.upperTitle} title={header.title} subTitle={header.subTitle} image={header.image} buttons={header.buttons} isHome={true} />
     </div>
 
-    <main className="main">
+    <main className="main home-v2-body-wrapper">
       <div className="content">
 
-        <MainPitchSection mainpitch={mainpitch} />
+        <OurFocusSection4 />
 
-        <WhyExpandSection whyExpand={whyExpand} />
+        <SFASection />
 
-        <ProjectSection projects={projects} />
+        <div className="home-v2-communities-section home-v2-communities-section-1">
+          <ProjectsSection />
+          <QuotesSection />
+        </div>
+        <div className="home-v2-communities-section home-v2-communities-section-2">
+            <PlatinumMembersSection2 />
+            <CommunitiesSection />
+        </div>
 
-        <PeopleSection people={people} />
-
-        <CompaniesSection sponsor={sponsor} />
+        <NewsSection />
 
       </div>
     </main>

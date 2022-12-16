@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import Hero from '../components/Hero'
 
 import NotFoundPage from "../pages/404"
@@ -31,7 +31,7 @@ export const CompanyProfilePageTemplate = ({
         <div>
           <div className="wrapper project-background">
             <TopBar />
-            < Navbar isLoggedUser={isLoggedUser} />
+            < NavbarV2 isLoggedUser={isLoggedUser} />
             <Header title={company.name} subTitle='Company Profile' />
             <div className="company-profile-logo">
               <img src={company.big_logo ? company.big_logo : company.logo} alt={`${company.name}-logo`} />

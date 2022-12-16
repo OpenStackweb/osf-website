@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { navigate } from "gatsby"
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
-import Navbar from "../components/Navbar";
+import NavbarV2 from "../components/NavbarV2";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
 import CandidateProfile from "../components/CandidateProfile"
@@ -27,7 +27,7 @@ export const ProfileElectionPageTemplate = ({
         <div>
             <div className="wrapper project-background">
                 <TopBar />
-                <Navbar isLoggedUser={isLoggedUser} />
+                <NavbarV2 isLoggedUser={isLoggedUser} />
                 <ProfileSubNav activePage='profile-election' pageName='Elections' />
                 <Header title="Profile" subTitle="Elections" />
             </div>

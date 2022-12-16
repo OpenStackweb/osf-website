@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
 
@@ -22,7 +22,7 @@ export const AboutPageTemplate = ({
     <div>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
       </div>
 
       <main className="main">
@@ -31,7 +31,7 @@ export const AboutPageTemplate = ({
             <div className="container about-s1-container">
               <div className="columns">
                 <div className="column">
-                  <img className="about-full-logo" alt="about-full-logo" src="/img/OpenInfrastructureFoundation-logo-RGB-horiz2.png" />
+                  <img className="about-full-logo" alt="about-full-logo" src="/img/openinfra-logo.jpeg" />
                   <PageContent content={content} />
                 </div>
               </div>

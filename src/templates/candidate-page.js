@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import { connect } from 'react-redux'
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
-import Navbar from "../components/Navbar";
+import NavbarV2 from "../components/NavbarV2";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
 import CandidateForm from "../components/CandidateForm";
@@ -28,7 +28,7 @@ export const CandidatePageTemplate = ({
         <div>
             <div className="wrapper project-background candidate-form-hero">
                 <TopBar />
-                <Navbar isLoggedUser={isLoggedUser} />
+                <NavbarV2 isLoggedUser={isLoggedUser} />
                 <Header title="Accept Nomination" subTitle="To accept nominations and be listed as a candidate for the OpenInfra election, please answer the questions below." />
                 <p className="candidate-form-disclaimer">All fields below are required.</p>
             </div>

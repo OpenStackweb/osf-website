@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 import { connect } from "react-redux";
 import HeaderV2 from '../components/HeaderV2';
@@ -34,7 +34,7 @@ export const FundingPageTemplate = ({isLoggedUser}) => {
     <div  className="funding-page">
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
         <ProjectsSubNav active="funding" />
         <HeaderV2
           frontImage={heroFront}

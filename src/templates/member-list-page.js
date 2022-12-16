@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 
 import {connect} from "react-redux";
@@ -35,7 +35,7 @@ export const MemberListPageTemplate = ({
         <div>
             <div className="wrapper project-background">
                 <TopBar/>
-                <Navbar isLoggedUser={isLoggedUser}/>
+                <NavbarV2 isLoggedUser={isLoggedUser}/>
                 <Header title='Open Infrastructure Foundation' subTitle='Member Directory'/>
             </div>
             <AjaxLoader show={loading_members} size={120}/>

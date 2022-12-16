@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
 import SubNavYvr from '../components/SummitSubNavYvr'
@@ -27,7 +27,7 @@ export const SummitOnsitePageTemplate = ({
     <div>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
         <SubNavYvr active="summit" pageName="Onsite Info" isLoggedUser={isLoggedUser}/>
         
         <main className="main">

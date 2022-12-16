@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
+import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 import LogoBanner from '../components/LogoBanner'
 import { connect } from "react-redux";
@@ -30,7 +30,7 @@ export const SummitPageTemplate = ({
     <div>
       <div className="wrapper project-background">
         <TopBar />
-        <Navbar isLoggedUser={isLoggedUser} />
+        <NavbarV2 isLoggedUser={isLoggedUser} />
         <SubNavYvr active="summit" pageName="Home" isLoggedUser={isLoggedUser}/>
       </div>
 

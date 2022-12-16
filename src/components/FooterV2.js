@@ -32,7 +32,7 @@ const FooterV2 = class extends React.Component {
                 <h6>Projects</h6>
                 <ul>
                     <li><a href="/projects/">Projects</a></li>
-                    <li><a href="/proejcts/services/">Services</a></li>
+                    <li><a href="/projects/services/">Services</a></li>
                     <li><a href="/projects/hosting/">Host at the Foundation</a></li>
                     <li><a href="/hybrid-cloud/">Hybrid Cloud</a></li>
                     <li><a href="/user-survey/">User Survey</a></li>

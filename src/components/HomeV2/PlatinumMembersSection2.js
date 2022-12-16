@@ -17,6 +17,9 @@ const PlatinumMembersSection2 = class extends React.Component {
                     <h2 className="home-v2-header home-v2-community-header">Our Members</h2>
                     <p className="home-v2-community-paragraph">The OpenInfra Foundation is supported by a strong network of some of the largest organizations in the world. These open source leaders champion open infrastructure and understand the vital importance it plays in their business.</p>
                 </div>
+                <div className="container">
+                <h3 className="home-v2-community-subheader home-v2-community-subheader-margin home-v2-community-subheader-platinum">Platinum Members</h3>
+                </div>
                 <div className="home-v2-slider-container">
                     <div className="home-v2-slider-body">
                         <div className="home-v2-slider">

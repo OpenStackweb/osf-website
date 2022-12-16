@@ -11,7 +11,7 @@ const CommunitiesSection = class extends React.Component {
         return (
             <div>
             <div className="container">
-                <h3 className="home-v2-community-subheader home-v2-community-subheader-margin">Our Gold Members</h3>
+                <h3 className="home-v2-community-subheader home-v2-community-subheader-margin">Gold Members</h3>
             </div>
             <div className="home-v2-slider-container">
                 <div className="home-v2-slider-body">

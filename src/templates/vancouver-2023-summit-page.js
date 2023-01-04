@@ -46,7 +46,7 @@ export const SummitPageTemplate = ({
                   {header.title}
                 </span>
                 <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}></span>
-                <span className="description description-large">Now accepting talk submissions for <a href='https://cfp.openinfra.dev/app/vancouver-2023/19'>summit presentations</a> and <a href="https://cfp.openinfra.dev/app/vancouver-2023/20">forum discussions</a>.</span>
+                <span className="description description-large">Now accepting talk submissions for <a href='https://cfp.openinfra.dev/app/vancouver-2023/19'>Summit presentations</a> and <a href="https://cfp.openinfra.dev/app/vancouver-2023/20">Forum discussions</a>.</span>
                 <span className="date">
                   <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
                     header.date.icon.publicURL
@@ -142,6 +142,7 @@ export const SummitPageTemplate = ({
                 <LinkComponent className="summit-cta" href="https://openinfrafoundation.formstack.com/forms/openinfra_tsp" >Apply for Support<img src={leftArrow} alt="" /></LinkComponent>
                 <LinkComponent className="summit-cta" href="https://openinfrafoundation.formstack.com/forms/visa_yvrsummit2023" >Get Visa Letter<img src={leftArrow} alt="" /></LinkComponent>
               </div>
+              <p className="description travel-description">Students and non-profit / government workers can <a href="https://openinfrafoundation.formstack.com/forms/yvr2023summit_discountedreg_app">apply for discounted registration</a>.</p>
             </div>
             <div className="picture">
               <img alt="travel pic support" src={TravelSupportPic} />

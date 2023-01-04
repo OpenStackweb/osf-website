@@ -59,6 +59,27 @@ function SubNavYvr(props) {
           <li><LinkComponent id="summit-tracks" href="/summit/vancouver-2023/summit-tracks/" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Tracks</LinkComponent></li>
           <li><LinkComponent id="summit-forum" href="/summit/vancouver-2023/forum/" onClick={() => shouldCloseMenu("summit-forum")} className="link">Forum</LinkComponent></li>
           <li><LinkComponent id="summit-onsite-safety" href="/summit/vancouver-2023/summit-onsite-safety/" onClick={() => shouldCloseMenu("summit-onsite-safety")} className="link">Onsite Safety</LinkComponent></li>
+          <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }} className="dropdown-items-link">
+            <LinkComponent id="summit-faq" href="/summit-faq" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
+              Support
+              <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
+            </LinkComponent>
+            {supportDropdown &&
+              <div className="dropdown-items-container">
+                <div className='dropdown-items-inner'>
+                  <LinkComponent id="summit-faq" href="/summit/vancouver-2023/summit-faq" className="link dropdown">
+                    FAQs
+                  </LinkComponent>
+                  <LinkComponent id="summit-faq-travel" href="/summit/vancouver-2023/summit-faq#travel" className="link dropdown">
+                    <span>Travel Support</span>
+                  </LinkComponent>
+                  <LinkComponent id="summit-faq-speaker" href="/summit/vancouver-2023/summit-faq#speakers" className="link dropdown">
+                    <span>Speaker Support</span>
+                  </LinkComponent>
+                </div>
+              </div>
+            }
+          </li>
           <li><LinkComponent id="registration" href="https://openinfrasummit2023.eventbrite.com/?_ga=2.20124536.1351542605.1666363850-1656672376.1666363850" className="link registration">Register Now</LinkComponent></li>
         </ul>
 
@@ -90,6 +111,25 @@ function SubNavYvr(props) {
             <li><LinkComponent id="summit-tracks" href="/summit/vancouver-2023/summit-tracks/" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Tracks</LinkComponent></li>
             <li><LinkComponent id="summit-forum" href="/summit/vancouver-2023/forum/" onClick={() => shouldCloseMenu("summit-forum")} className="link">Forum</LinkComponent></li>
             <li><LinkComponent id="summit-forum" href="/summit/vancouver-2023/summit-onsite-safety/" onClick={() => shouldCloseMenu("summit-onsite-safety")} className="link">Onsite Safety</LinkComponent></li>
+            <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} className="link-dropdown">
+              <LinkComponent id="summit-faq" href="#" className="link link-dropdown-parent" >
+                Support
+                <i style={{ marginLeft: 5 }} className={`fa fa-chevron-down`} />
+              </LinkComponent>
+              {supportDropdown &&
+                <>
+                  <LinkComponent id="summit-faq" href="/summit/berlin-vancouver-2023/summit-faq" onClick={() => shouldCloseMenu("summit-faq")} className="link-dropdown-option" >
+                    FAQs
+                  </LinkComponent>
+                  <LinkComponent id="summit-faq-travel" href="/summit/vancouver-2023/summit-faq#travel" onClick={() => shouldCloseMenu("summit-faq-travel")} className="link-dropdown-option">
+                    <span>Travel Support</span>
+                  </LinkComponent>
+                  <LinkComponent id="summit-faq-speakers" href="/summit/vancouver-2023/summit-faq#speakers" onClick={() => shouldCloseMenu("summit-faq-speakers")} className="link-dropdown-option">
+                    <span>Speaker Support</span>
+                  </LinkComponent>
+                </>
+              }
+            </li>
             <li><a id="registration" href="https://openinfrasummit2023.eventbrite.com/?_ga=2.20124536.1351542605.1666363850-1656672376.1666363850" className="link registration">Register Now</a></li>
           </ul>
         </div>

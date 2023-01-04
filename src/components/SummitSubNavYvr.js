@@ -54,7 +54,7 @@ function SubNavYvr(props) {
         </ul>
 
         <ul id="links-list" className="links-list">
-          <li><LinkComponent id="summit" href="/summit/vancouver-2023" onClick={() => shouldCloseMenu("summit")} className="link">Home</LinkComponent></li>
+          <li><LinkComponent id="summit" href="/summit/vancouver-2023" onClick={() => shouldCloseMenu("summit")} className="link">About</LinkComponent></li>
           <li><LinkComponent id="summit-sponsor" href="/summit/vancouver-2023/summit-sponsor/" onClick={() => shouldCloseMenu("summit-sponsor")} className="link">Sponsors</LinkComponent></li>
           <li><LinkComponent id="summit-tracks" href="/summit/vancouver-2023/summit-tracks/" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Tracks</LinkComponent></li>
           <li><LinkComponent id="summit-forum" href="/summit/vancouver-2023/forum/" onClick={() => shouldCloseMenu("summit-forum")} className="link">Forum</LinkComponent></li>
@@ -85,7 +85,7 @@ function SubNavYvr(props) {
       {isOpen &&
         <div className="subnav-dropdown">
           <ul id="links-list-mobile" className="links-list">
-            <li><LinkComponent id="summit-onsite" href="/summit/vancouver-2023" onClick={() => shouldCloseMenu("summit")} className="link">Home</LinkComponent></li>
+            <li><LinkComponent id="summit-onsite" href="/summit/vancouver-2023" onClick={() => shouldCloseMenu("summit")} className="link">About</LinkComponent></li>
             <li><LinkComponent id="summit-sponsor" href="/summit/vancouver-2023/summit-sponsor/" onClick={() => shouldCloseMenu("summit-sponsor")} className="link">Sponsors</LinkComponent></li>
             <li><LinkComponent id="summit-tracks" href="/summit/vancouver-2023/summit-tracks/" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Tracks</LinkComponent></li>
             <li><LinkComponent id="summit-forum" href="/summit/vancouver-2023/forum/" onClick={() => shouldCloseMenu("summit-forum")} className="link">Forum</LinkComponent></li>

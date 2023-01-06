@@ -15,6 +15,18 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2023-01-26T15:00:00.000Z
+    episodeTitle: "Large Scale Ops Deep Dive: Ubisoft"
+    episodeDescription: In the "Large Scale Ops Deep Dive" series, a panel of
+      OpenStack operators invites special guests to talk about their deployment
+      and discuss their operations. For this episode, our guests will be
+      Benjamin Fuhrmann and Stanislav Dmitriev from Ubisoft, the famous video
+      game publisher.
+    episodeSpeakers: Benjamin Fuhrmann, Stanislav Dmitriev, Mohammed Naser, Arnaud
+      Morin, Felix Huettner, Thierry Carrez
+    youtubeEmbed: https://www.youtube.com/embed/H1DunJM1zoc
+    youtubeLink: https://www.youtube.com/watch?v=H1DunJM1zoc
+  - hidden: false
     date: 2023-01-19T15:00:00.000Z
     episodeTitle: "OpenInfra Live: Distributing OpenStack Architecture with BGP and
       Kubernetes Integration"

@@ -28,7 +28,7 @@ howToVote:
   title: HOW TO VOTE
   description:
     "If you are an eligible voter, you will receive an email with the subject
-    <b>Open Infrastructure Foundation - {$ElectionName}</b> from
+    <b>OpenInfra Foundation 2023 Individual Director Election</b> from
     secretary@openinfra.dev. This email includes your unique voting link. If you do
     not receive an email, please contact <a href='mailto:secretary@openinfra.dev'>
     secretary@openinfra.dev</a>."

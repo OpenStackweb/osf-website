@@ -46,7 +46,7 @@ export const SummitPageTemplate = ({
                   {header.title}
                 </span>
                 <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}></span>
-                <span className="description description-large">Now accepting talk submissions for <a href='https://cfp.openinfra.dev/app/vancouver-2023/19'>Summit presentations</a> and <a href="https://cfp.openinfra.dev/app/vancouver-2023/20">Forum discussions</a>.</span>
+                <span className="description description-large"><a href="https://openinfrasummit2023.eventbrite.com/">Early bird registration is available</a></span>
                 <span className="date">
                   <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
                     header.date.icon.publicURL
@@ -80,12 +80,12 @@ export const SummitPageTemplate = ({
             </section>
           }
 
-          <div className="logo-banner vancouver-2023-cfp-banner">
+          {/* <div className="logo-banner vancouver-2023-cfp-banner">
             <img className="logo" src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2Y3Yjc0OTt9LmNscy0ye2ZpbGw6I2VkMzYyZjt9LmNscy0ze2ZpbGw6IzQzYjg1Yzt9LmNscy00e2ZpbGw6IzJjYjRlMjt9PC9zdHlsZT48L2RlZnM+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjAgMzMuMzMgMCA1MCAxMTQuNjQgNTAgMCAxNjQuNjQgMTEuNzkgMTc2LjQzIDE1NC44OCAzMy4zMyAwIDMzLjMzIi8+PHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjE3MS41NSAxNi42NyAxODguMjIgMCAwIDAgMCAxNi42NyAxNzEuNTUgMTYuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTMiIHBvaW50cz0iMTgzLjMzIDI4LjQ1IDE4My4zMyAyMDAgMjAwIDIwMCAyMDAgMTEuNzggMTgzLjMzIDI4LjQ1Ii8+PHBvbHlnb24gY2xhc3M9ImNscy00IiBwb2ludHM9IjE2Ni42NyAyMDAgMTY2LjY3IDQ1LjEyIDIzLjU3IDE4OC4yMSAzNS4zNSAyMDAgMTUwIDg1LjM2IDE1MCAyMDAgMTY2LjY3IDIwMCIvPjwvc3ZnPg==" />
             <span className="title">The Call for Presentations is now Open! Submit your open source demos and production use cases</span>
             <span class="desc">Deadline to submit: January 10, 2023</span>
             <a href="https://cfp.openinfra.dev/app/vancouver-2023/19" class="cta" target="_blank" rel="noopener noreferrer">Submit to CFP<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNSAxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNNzA4LjcxNiAzNDkuMDU0bC00LjgwNS00LjgwNmEuODI4LjgyOCAwIDAgMC0xLjE4MyAwIC44MjguODI4IDAgMCAwIDAgMS4xODJsMy4zODggMy4zODdoLTExLjI4MWEuODQuODQgMCAwIDAtLjgzNS44MzYuODQuODQgMCAwIDAgLjgzNS44MzVoMTEuMjY2bC0zLjM3MyAzLjM4N2EuODI4LjgyOCAwIDAgMCAwIDEuMTgyLjg2My44NjMgMCAwIDAgLjYuMjUyYy4yMiAwIC40MjUtLjA3OS41OTktLjI1Mmw0LjgyLTQuODIyYS44NTguODU4IDAgMCAwIC4yNTItLjU5OCAxLjA2OSAxLjA2OSAwIDAgMC0uMjgzLS41ODMiIGlkPSJhLWFycm93LWxlZnQiIC8+CiAgICA8L2RlZnM+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjk0IC0zNDQpIj4KICAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNhLWFycm93LWxlZnQiIGZpbGw9IiNmZmYiIC8+CiAgICA8L2c+Cjwvc3ZnPg==" alt="" /></a>
-          </div>
+          </div> */}
 
 
           {topics && topics.display &&

@@ -1149,8 +1149,8 @@ collections:
     label: "Annual Report Pages"
     files:
       - file: "src/pages/annual-report/2021.md"
-        label: "Annual Report - 2021"
-        name: "annual-report-pages-2021"
+        label: "Annual Report - 2022"
+        name: "annual-report-pages-2022"
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "annual-report-page" }
           - { label: SEO, name: seo, widget: object, fields: [
@@ -1164,8 +1164,8 @@ collections:
           - { label: "Sub Title", name: subTitle, widget: string }
           - { label: "Body", name: body, widget: markdown }
       - file: "src/pages/annual-report/2022.md"
-        label: "Annual Report - 2022"
-        name: "annual-report-pages-2022"
+        label: "Annual Report - 2021"
+        name: "annual-report-pages-2021"
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "annual-report-page" }
           - { label: SEO, name: seo, widget: object, fields: [

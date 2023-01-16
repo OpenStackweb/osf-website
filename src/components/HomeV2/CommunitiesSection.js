@@ -16,7 +16,7 @@ const CommunitiesSection = class extends React.Component {
             <div className="home-v2-slider-container">
                 <div className="home-v2-slider-body">
                     <div className="home-v2-slider home-v2-slider-gold">
-                { subProject.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
+                { subProject?.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
                         if (t.name == "Gold Members") {
                             return (
                                     <div className="slide-track home-v2-gold-sponsor-container slide-track-gold-1" key={`company-tier-${tierIndex}`}>
@@ -50,7 +50,7 @@ const CommunitiesSection = class extends React.Component {
             <div className="home-v2-slider-container">
                 <div className="home-v2-slider-body">
                     <div className="home-v2-slider">
-                { subProject.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
+                { subProject?.sponsorship_types.sort((a, b) => a.order - b.order).map((t, tierIndex) => {
                         if (t.name == "Gold Members") {
                             return (
                                     <div className="slide-track home-v2-gold-sponsor-container slide-track-gold-2 slide-track-offset-gold" key={`company-tier-${tierIndex}`}>

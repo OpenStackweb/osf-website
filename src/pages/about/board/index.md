@@ -270,13 +270,13 @@ members:
 
   - company: T-Systems International
     description: >
-      I started my careen in 1997 at IBM Germany, when I came across a new open-source operating system called Linux which drew a lot of my attention and continued to do so until present time. Over the time the scope grew larger, and I followed the open-source path to the cloud world and got part of the OpenStack (back then) and now OpenInfra family. 
+      <p>I started my careen in 1997 at IBM Germany, when I came across a new open-source operating system called Linux which drew a lot of my attention and continued to do so until present time. Over the time the scope grew larger, and I followed the open-source path to the cloud world and got part of the OpenStack (back then) and now OpenInfra family.</p>
 
-      Since 2012 I'm with T-Systems in different leadership roles and in 2014 we started a project to launch a public cloud for T-Systems/ Deutsche Telekom. This was the start of Open Telekom Cloud (OTC)! 
+      <p>Since 2012 I'm with T-Systems in different leadership roles and in 2014 we started a project to launch a public cloud for T-Systems/ Deutsche Telekom. This was the start of Open Telekom Cloud (OTC)!</p>
 
-      As the infrastructure lead and chief engineer, I am responsible for everything between the upper edge of double floor in the data center and the upper edge of the operating system. Open Telekom Cloud is by now one of the largest OpenStack-based clouds in Europe, providing full GDPR-compliance and the full stack of IaaS, PaaS and SaaS offerings.
+      <p>As the infrastructure lead and chief engineer, I am responsible for everything between the upper edge of double floor in the data center and the upper edge of the operating system. Open Telekom Cloud is by now one of the largest OpenStack-based clouds in Europe, providing full GDPR-compliance and the full stack of IaaS, PaaS and SaaS offerings.</p>
 
-      Apart from doing all that computer stuff, I am married, have a son, and enjoy a lot doing some cooking & baking, spending time with my family and travelling throughout the world.
+      <p>Apart from doing all that computer stuff, I am married, have a son, and enjoy a lot doing some cooking & baking, spending time with my family and travelling throughout the world.</p>
     linkedin: https://de.linkedin.com/in/sebastianwenner
     name: Sebastian Wenner
     openStack: https://openinfra.dev/a/community/members/66013

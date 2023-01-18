@@ -111,7 +111,7 @@ exports.onPreBootstrap = async () => {
   const apiBaseUrl = process.env.GATSBY_API_BASE_URL;
   const buildScopes = process.env.GATSBY_BUILD_SCOPES;
   const sponsoredProjectId = process.env.GATSBY_SPONSORED_PROJECT_ID;
-  const summitId = process.env.GATSBY_SUMMIT_ID | 'current';
+  const summitId = process.env.GATSBY_SUMMIT_ID || 'current';
 
   console.log(`onPreBootstrap summitId ${summitId}`);
 

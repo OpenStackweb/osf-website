@@ -325,19 +325,6 @@ members:
       Xiangyu Li comes from China Mobile Cloud Centre and she has been working here for 7 years.   She currently serves as the leader of the Computing Product Group of the IaaS product department, taking responsibility for the R&D of the OpenStack team.   ECloud has become the fastest-growing public cloud in China with the highest revenue growth rate in the past several  years.   As a member of the China Mobile Public Cloud architecture team, she participated in multi-phase projects of the ECloud and could be considered as the main contributor for guiding ECloud to join the Million Core Club.   Xiangyu Li has considerable rich work experience in the development and operation of hyperscale public clouds.   The OpenStack R&D team which she is leading has achieve multiple great achievements, implementing the scheduling and concurrency optimization for hyperscale clusters carrying more than 100,000 servers.   With this optimization, the delivery of 5 thousand cloud hosts could be completed in several minutes.   Xiangyu Li is also very active to join community events.   She is a frequenter in OpenInfra Summit, China Day and Strategy Day activities.   Her team has published dozens of speeches in OpenStack-related community activities, sharing China Mobile's practical and innovation experience in OpenStack.
     openStack: https://openinfra.dev/a/community/members/90048
     picture: /img/board/XiangyuLi.jpg
-  - company: Canonical
-    description: As a Product Manager at Canonical, Tytus drives the evolution of
-      Canonical’s products and services in the data centre space. Tytus received
-      his PhD with honours in telecommunications in 2018. His background is data
-      centre administration and cloud engineering. His research interests focus
-      on 5G networks, network functions virtualisation, container network
-      functions and unikernels.
-    linkedin: https://www.linkedin.com/in/tkurek
-    name: Tytus Kurek
-    openStack: https://www.openstack.org/community/members/profile/70331
-    picture: /img/tytuskurek.jpg
-    title: Gold Director
-    twitter: ""
 
   - company: "Ant Financial, Kata Containers "
     description: >-

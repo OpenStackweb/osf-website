@@ -12,25 +12,6 @@ header:
     OpenInfra Foundation resources and staff.
   title: BOARD OF DIRECTORS
 members:
-  - company: Red Hat
-    description: >-
-      <p>I started my working career in technology close to twenty years ago. It
-      has surely not  been an average career, but a career where I've
-      continually learned and evolved to fulfill the need. In  a sense, it all
-      started with Linux and answering some questions about installing Linux.
-      This started a  journey into computer networking and eventually shifted to
-      a systems engineering focus with a stop-over  in data center
-      operations.</p>
-
-      <p>The DevOps movement lead me more into software development and the operationalization of software due  to the need to automate large scale systems deployments. This required bringing an operational perspective  while bridging to the requirements, and often required digging deep into the underlying code to solve the  problem of the day.</p> 
-
-      <p>In a sense, I found a home in OpenStack in 2014 and the Ironic project in 2015 because of many years  spent working with physical hardware in data centers.</p> <p>I presently work for Red Hat as a Principal Software Engineer, where my upstream focus has been Ironic  for the past few years, and my downstream focus has been on helping lead adoption and use of Ironic.</p>
-    linkedin: https://www.linkedin.com/in/juliaashleykreger
-    name: Julia Kreger
-    openStack: https://www.openstack.org/community/members/profile/19088
-    picture: /img/board/MG-5121-1.jpg
-    title: Chair | Individual Director
-    twitter: https://twitter.com/ashinclouds
   - company: "Open Usage Commons, Software Freedom Conservancy, Eigenstate Ltd,
       Ericsson Software Technology, The Perl Foundation, Onyx Neon, Inc. "
     description: Allison is a software developer and open source strategist. She is
@@ -51,7 +32,7 @@ members:
     name: Allison Randal
     openStack: https://www.openstack.org/community/members/profile/2813
     picture: /img/board/allisonrandall.png
-    title: Vice Chair | Individual Director
+    title: Individual Director
     twitter: https://twitter.com/allisonrandal
   - company: Red Hat
     description: Amy Marrich is a Principal Technical Marketing Manager at Red Hat.
@@ -172,6 +153,25 @@ members:
     picture: /img/board/johan.png
     title: Gold Director
     twitter: https://twitter.com/@citynetworkjc
+  - company: Red Hat
+    description: >-
+      <p>I started my working career in technology close to twenty years ago. It
+      has surely not  been an average career, but a career where I've
+      continually learned and evolved to fulfill the need. In  a sense, it all
+      started with Linux and answering some questions about installing Linux.
+      This started a  journey into computer networking and eventually shifted to
+      a systems engineering focus with a stop-over  in data center
+      operations.</p>
+
+      <p>The DevOps movement lead me more into software development and the operationalization of software due  to the need to automate large scale systems deployments. This required bringing an operational perspective  while bridging to the requirements, and often required digging deep into the underlying code to solve the  problem of the day.</p> 
+
+      <p>In a sense, I found a home in OpenStack in 2014 and the Ironic project in 2015 because of many years  spent working with physical hardware in data centers.</p> <p>I presently work for Red Hat as a Principal Software Engineer, where my upstream focus has been Ironic  for the past few years, and my downstream focus has been on helping lead adoption and use of Ironic.</p>
+    linkedin: https://www.linkedin.com/in/juliaashleykreger
+    name: Julia Kreger
+    openStack: https://www.openstack.org/community/members/profile/19088
+    picture: /img/board/MG-5121-1.jpg
+    title: Individual Director
+    twitter: https://twitter.com/ashinclouds
   - name: Kurt Garloff
     description: Being a long time member of various open source communities (Linux
       kernel, openSUSE and others), I have a personal interest in seeing

@@ -87,6 +87,12 @@ We recommend you give yourself at least 60 days to complete the visa process.
 
 <h4 id="speakers">SCHEDULE & SPEAKERS</h4>
 
+**How long are OpenInfra Summit presentations?** <br>
+OpenInfra Summit breakout sessions are 30 minutes long. 
+
+**How long are OpenInfra Summit lightning talks?** <br>
+OpenInfra Summit lightning talks are 15 minutes long.
+
 **When will the OpenInfra Summit schedule be published?** <br>
 The OpenInfra Summit schedule will be published the week of February 6, 2023. 
 

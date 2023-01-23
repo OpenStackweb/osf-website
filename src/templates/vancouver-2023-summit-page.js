@@ -46,7 +46,7 @@ export const SummitPageTemplate = ({
                   {header.title}
                 </span>
                 <span className="description" dangerouslySetInnerHTML={{ __html: header.description }}></span>
-                <span className="description description-large"><a href="https://openinfrasummit2023.eventbrite.com/">Early bird registration is available</a> until February 15, 2023.</span>
+                <span className="description description-large"><a href="https://vancouver2023.openinfra.dev/">Early bird registration is available</a> until February 15, 2023.</span>
                 <span className="date">
                   <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
                     header.date.icon.publicURL
@@ -60,7 +60,7 @@ export const SummitPageTemplate = ({
                     !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> {header.location.text}
                 </span>
                 <section className="cta-wrapper">
-                  <LinkComponent className="button-cta" href="https://openinfrasummit2023.eventbrite.com">Register Now<img src={leftArrow} alt="" /></LinkComponent>
+                  <LinkComponent className="button-cta" href="https://vancouver2023.openinfra.dev/">Register Now<img src={leftArrow} alt="" /></LinkComponent>
                   <LinkComponent className="button-cta button-white outline" href="/summit/vancouver-2023/summit-sponsor">Become a Sponsor 
                   <img src={leftArrow} alt="" />
                   </LinkComponent>

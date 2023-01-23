@@ -50,7 +50,7 @@ Contributors to OpenInfra projects (OpenStack, Kata Containers, Zuul, StarlingX,
 Yes, if you are a student or work for a government/nonprofit entity you may apply to receive a discounted pass to the Vancouver Summit [filling out this application](https://openinfrafoundation.formstack.com/forms/yvr2023summit_discountedreg_app).
 
 **I received a discount registration code, how do I use it?** <br>
-In Eventbrite, there is a blue "Enter Promo Code" option above the ticket options where you may redeem the code for a free registration pass. Please reference [this article](https://www.eventbrite.com/support/articles/en_US/How_To/how-to-apply-a-discount-or-access-code-to-your-order?lg=en_US) for clarity.
+During registration, there is "Promo Code" field where you enter in your name, company, and email address.
 
 If you have questions about registration, please email [summit@openinfra.dev](mailto:summit@openinfra.dev)
 

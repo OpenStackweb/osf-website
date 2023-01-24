@@ -57,6 +57,9 @@ If you have questions about registration, please email [summit@openinfra.dev](ma
 **Do you offer registration refunds or ticket transfers?** <br>
 Yes, refunds and ticket transfers will be processed until May 26th, 2023 at 11:59pm PT.
 
+**The link I had for OpenInfra Summit registration requires a password. How do I register?** <br>
+In an effort to leverage more open source solutions, we are now using an open source tool for OpenInfra Summit registration. You can register here: [vancouver2023.openinfra.dev](https://vancouver2023.openinfra.dev/)
+
 <h4 id="travel">VANCOUVER TRAVEL</h4>
 
 **Is there any financial support available for travel/accommodation?** <br>

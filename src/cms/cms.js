@@ -1,5 +1,7 @@
 import CMS from 'netlify-cms-app'
 
+import './cms-utils'
+
 import { Widget as FileRelationWidget } from '@ncwidgets/file-relation'
 import { Widget as IdWidget } from '@ncwidgets/id'
 

@@ -118,7 +118,7 @@ function SubNavYvr(props) {
               </LinkComponent>
               {supportDropdown &&
                 <>
-                  <LinkComponent id="summit-faq" href="/summit/berlin-vancouver-2023/summit-faq" onClick={() => shouldCloseMenu("summit-faq")} className="link-dropdown-option" >
+                  <LinkComponent id="summit-faq" href="/summit/vancouver-2023/summit-faq" onClick={() => shouldCloseMenu("summit-faq")} className="link-dropdown-option" >
                     FAQs
                   </LinkComponent>
                   <LinkComponent id="summit-faq-travel" href="/summit/vancouver-2023/summit-faq#travel" onClick={() => shouldCloseMenu("summit-faq-travel")} className="link-dropdown-option">

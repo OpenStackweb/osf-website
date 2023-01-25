@@ -27,7 +27,8 @@ Staying true to its mission of helping people build and operate open infrastruct
 
 For more insight into Open Infrastructure Foundation activities and progress, please read the annual reports: 
 
-* [2021 annual report](/annual-report/2021)
+* [2﻿022 annual report](https://openinfra.dev/annual-report/2022)
+* [](https://openinfra.dev/annual-report/2022)[2021 annual report](/annual-report/2021)
 * [2020 annual report](https://www.openstack.org/annual-reports/2020-openstack-foundation-annual-report)
 * [2019 annual report](https://www.openstack.org/annual-reports/2019-openstack-foundation-annual-report)
 * [2018 annual report](https://www.openstack.org/annual-reports/2018-openstack-foundation-annual-report)

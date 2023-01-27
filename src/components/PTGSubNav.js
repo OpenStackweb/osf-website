@@ -47,7 +47,7 @@ function PTGSubNav(props) {
                 <LinkComponent id="ptg-virtual-reg" href="https://openinfra-ptg.eventbrite.com/" className="link dropdown">
                   Virtual PTG
                 </LinkComponent>
-                <LinkComponent id="ptg-summit-reg" href="https://openinfrasummit2023.eventbrite.com/" className="link dropdown">
+                <LinkComponent id="ptg-summit-reg" href="https://vancouver2023.openinfra.dev/" className="link dropdown">
                   <span>OpenInfra Summit + PTG</span>
                 </LinkComponent>
               </div>
@@ -77,7 +77,7 @@ function PTGSubNav(props) {
                   <LinkComponent id="ptg-virtual-reg" href="https://openinfra-ptg.eventbrite.com/" className="link-dropdown-option" >
                     Virtual PTG
                   </LinkComponent>
-                  <LinkComponent id="ptg-summit-reg" href="https://openinfrasummit2023.eventbrite.com/" className="link-dropdown-option">
+                  <LinkComponent id="ptg-summit-reg" href="https://vancouver2023.openinfra.dev/" className="link-dropdown-option">
                     <span>OpenInfra Summit + PTG</span>
                   </LinkComponent>
                 </>

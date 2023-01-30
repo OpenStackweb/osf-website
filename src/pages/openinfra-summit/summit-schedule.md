@@ -1,5 +1,5 @@
 ---
-templateKey: berlin-2022-summit-schedule-page
+templateKey: vancouver-2023-summit-schedule-page
 seo:
   description: >-
     Collaborate directly with the people building and running open source 
@@ -7,7 +7,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: 'OpenInfra Summit Berlin Schedule'
   twitterUsername: '@OpenInfraDev'
-  url: 'https://openinfra.dev/summit/berlin-2022/summit-schedule'
+  url: 'https://openinfra.dev/summit/vancouver-2023/summit-schedule'
 headerTitle: Summit Schedule
 schedKey: schedule-main
 ---

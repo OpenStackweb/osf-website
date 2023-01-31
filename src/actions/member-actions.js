@@ -2,7 +2,7 @@ import {
   getRequest,
   createAction,
   escapeFilterValue
-} from "openstack-uicore-foundation/lib/methods";
+} from "openstack-uicore-foundation/lib/utils/actions";
 
 export const GET_MEMBERS = 'GET_MEMBERS';
 export const GET_MEMBERS_SUCCESS = 'GET_MEMBERS_SUCCESS';

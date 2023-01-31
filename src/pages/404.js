@@ -9,7 +9,7 @@ const NotFoundPage = ({ location }) => {
   return (
     <Layout>
       <Router>
-      <Redirect
+        <Redirect
           from="/election"
           to="/election/2022-individual-director-election"
           noThrow

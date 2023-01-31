@@ -1,15 +1,13 @@
 import React from "react"
 import { Router } from "@reach/router"
 import { connect } from 'react-redux'
-
-import { onUserAuth, doLogout, getUserInfo } from "openstack-uicore-foundation/lib/methods";
-import AuthorizationCallbackRoute from "../routes/authorization-callback-route"
-import LogOutCallbackRoute from "../routes/logout-callback-route"
+import { onUserAuth, doLogout, getUserInfo } from "openstack-uicore-foundation/lib/security/actions";
+import AuthorizationCallbackRoute from "../../routes/authorization-callback-route"
+import LogOutCallbackRoute from "../../routes/logout-callback-route"
 
 const Auth = class extends React.Component {
 
   render() {
-
     let { onUserAuth, doLogout, getUserInfo, location } = this.props;
 
     return (

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import { connect } from 'react-redux'
-import moment from 'moment-timezone';
+import { graphql } from 'gatsby';
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";

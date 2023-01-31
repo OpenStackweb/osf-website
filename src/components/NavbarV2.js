@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../img/svg/OpenInfraFoundation-logo-RGB-horiz-w.svg'
 import Menu from "../content/navbar.json"
-import {doLogin, initLogOut} from 'openstack-uicore-foundation/lib/methods'
+import {doLogin, initLogOut} from 'openstack-uicore-foundation/lib/security/methods'
 import PropTypes from "prop-types";
 import URI from "urijs"
 

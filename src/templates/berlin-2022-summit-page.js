@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql } from 'gatsby';
 import Layout from '../components/Layout'
 import TopBar from '../components/TopBar';
 import NavbarV2 from '../components/NavbarV2';

@@ -1,3 +1,4 @@
+import { getAccessToken } from "openstack-uicore-foundation/lib/security/methods";
 import {getEnvVariable, IDP_BASE_URL, OAUTH2_CLIENT_ID} from './envVariables'
 import {needsLogin} from "./alerts";
 
@@ -16,4 +17,14 @@ export const handleApiError = (error) => {
     }
 
     return error;
+};
+
+export const getAccessTokenSafely = async () => {
+  try {
+    return await getAccessToken();
+  }
+  catch (e) {
+    console.log('log out: ', e);
+    return null;
+  }
 };

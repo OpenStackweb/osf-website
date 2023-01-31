@@ -9,7 +9,7 @@ import SEO from "../components/SEO";
 import MembershipType from "../components/MembershipType";
 import URI from "urijs";
 import { MEMBERSHIP_TYPE_NONE } from "../actions/user-actions";
-import 'openstack-uicore-foundation/lib/css/components.css';
+import 'openstack-uicore-foundation/lib/css/components/index.css';
 import {
     addAffiliation,
     saveAffiliation,
@@ -23,9 +23,7 @@ import {
     getUserProfile
 } from "../actions/user-actions"
 import { getMemberProfile } from '../actions/member-actions';
-import {
-    updateUserInfo
-} from "openstack-uicore-foundation/lib/methods";
+import { updateUserInfo } from "openstack-uicore-foundation/lib/security/actions";
 import { ProfileManagement } from "../components/ProfileManagementComponent";
 import ProfileSubNav from "../components/ProfileSubNav";
 
@@ -44,9 +42,7 @@ export const ProfilePageTemplate = ({
     getIDPProfile,
     getUserProfile,
 }) => {
-
     let query = URI.parseQuery(location.search);
-
     let initialCurrentMemberShipType = initialMembershipType;
 
     if (query.hasOwnProperty("membership_type") && initialMembershipType === MEMBERSHIP_TYPE_NONE) {
@@ -99,8 +95,9 @@ export const ProfilePageTemplate = ({
                         <div className="container about-s1-container">
                             <div className="columns">
                                 <div className="column">
-                                    <MembershipType currentType={currentMembershipType}
-                                        userName={`${idpProfile.given_name} ${idpProfile.family_name}`}
+                                    <MembershipType
+                                        currentType={currentMembershipType}
+                                        userName={`${idpProfile?.given_name} ${idpProfile?.family_name}`}
                                         initialType={initialMembershipType}
                                         handleConvertCommunityMember={() => handleConvertCommunityMember()}
                                         handleConvertFoundationMember={() => handleConvertFoundationMember()}
@@ -158,7 +155,7 @@ const ProfilePage = ({
     useEffect(() => {
         getUserProfile();
         getIDPProfile();
-    }, [])
+    }, []);
 
     return (
         <Layout>

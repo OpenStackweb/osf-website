@@ -3,7 +3,7 @@ import {
     createAction,
     stopLoading,
     startLoading,
-} from 'openstack-uicore-foundation/lib/methods';
+} from 'openstack-uicore-foundation/lib/utils/actions';
 
 import { customErrorHandler } from '../utils/customErrorHandler';
 

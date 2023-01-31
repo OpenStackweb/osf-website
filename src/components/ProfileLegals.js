@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import LinkComponent from './LinkComponent';
-import { formatEpoch } from 'openstack-uicore-foundation/lib/methods'
+import React, { useState } from 'react'
+import { formatEpoch } from 'openstack-uicore-foundation/lib/utils/methods'
 import LegalAgreementPopupComponent from './LegalAgreementPopup';
 
 const ProfileLegals = ({ legalAgreements }) => {

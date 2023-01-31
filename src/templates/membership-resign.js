@@ -7,7 +7,7 @@ import NavbarV2 from "../components/NavbarV2";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
 import {resignMembershipType} from "../actions/user-actions"
-import {initLogOut} from 'openstack-uicore-foundation/lib/methods'
+import {initLogOut} from 'openstack-uicore-foundation/lib/security/methods'
 
 export const MembershipResignPageTemplate = ({
                                                  resignMembershipType,

@@ -12,7 +12,8 @@ import { connect } from "react-redux";
 import { getMemberProfile, getElectionMemberProfile } from '../actions/member-actions';
 import { getElectionStatus, nominateMember } from '../actions/election-actions';
 
-import { doLogin, formatEpoch } from 'openstack-uicore-foundation/lib/methods'
+import { doLogin } from 'openstack-uicore-foundation/lib/security/methods';
+import { formatEpoch } from 'openstack-uicore-foundation/lib/utils/methods';
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 
 export const MemberProfilePageTemplate = ({

@@ -295,8 +295,8 @@ export const ProfileManagement = ({
                   Current Member Level <br />
                   <b>{currentMembershipType}</b>
                 </span>
-                <a onClick={() => currentMembershipType.toLowerCase() === 'community' ? handleConvertFoundationMember() : handleConvertCommunityMember()}>
-                  Change to {currentMembershipType.toLowerCase() === 'community' ? 'Foundation' : 'Community'} Member
+                <a onClick={() => currentMembershipType?.toLowerCase() === 'community' ? handleConvertFoundationMember() : handleConvertCommunityMember()}>
+                  Change to {currentMembershipType?.toLowerCase() === 'community' ? 'Foundation' : 'Community'} Member
                 </a>
                 <div className={styles.resignWrapper}>
                   <a onClick={() => handleResign()}>Resign Membership</a>

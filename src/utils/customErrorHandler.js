@@ -1,6 +1,6 @@
 import expiredToken from './expiredToken';
 
-import { stopLoading } from "openstack-uicore-foundation/lib/methods";
+import { stopLoading } from "openstack-uicore-foundation/lib/utils/actions";
 import Swal from 'sweetalert2';
 
 export const customErrorHandler = (err, res) => (dispatch, state) => {

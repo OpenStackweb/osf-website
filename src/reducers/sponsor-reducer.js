@@ -1,5 +1,6 @@
 import sponsorshipTypes from '../content/sponsorship-types.json';
-import { START_LOADING, STOP_LOADING, LOGOUT_USER } from "openstack-uicore-foundation/lib/actions";
+import { START_LOADING, STOP_LOADING } from "openstack-uicore-foundation/lib/utils/actions";
+import { LOGOUT_USER } from "openstack-uicore-foundation/lib/security/actions";
 
 import {
     RECEIVE_SPONSORSHIP_TYPES,

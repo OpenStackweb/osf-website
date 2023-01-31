@@ -5,7 +5,7 @@ import SEO from '../components/SEO'
 import React, { useEffect } from "react"
 import URI from "urijs"
 
-import { doLogin } from 'openstack-uicore-foundation/lib/methods'
+import { doLogin } from 'openstack-uicore-foundation/lib/security/methods'
 
 export const RegistrationPageTemplate = ({ loggedUserState, location }) => {
 

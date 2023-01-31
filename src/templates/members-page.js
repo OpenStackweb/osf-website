@@ -253,6 +253,7 @@ export const MembersPageTemplate = ({
                         </div>
                     </div>
                 }
+              {subProject &&
                 <div className="company">
                     <div className="company-title">
                         {subProject.name}
@@ -277,9 +278,10 @@ export const MembersPageTemplate = ({
                         )
                     })}
                 </div>
+              }
                 {help && help.display &&
                     <div className="help">
-                        <img src={!!help.picture.childImageSharp ? help.picture.childImageSharp.fluid.src : help.picture} />
+                        <img src={!!help.picture?.childImageSharp ? help.picture.childImageSharp.fluid.src : help.picture} />
                         <div>
                             <span className="help-title">{help.title}</span>
                             <span>{help.description}</span>

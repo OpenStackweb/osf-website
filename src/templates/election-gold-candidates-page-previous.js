@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { graphql } from 'gatsby';
 import { connect } from 'react-redux'
 import LinkComponent from "../components/LinkComponent"
 import Layout from '../components/Layout'

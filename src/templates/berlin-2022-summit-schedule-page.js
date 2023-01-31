@@ -1,4 +1,5 @@
 import React, {useEffect, useState, useCallback, useRef} from "react";
+import { graphql } from 'gatsby'
 import PropTypes from "prop-types";
 import {pickBy} from "lodash";
 import Layout from "../components/LayoutV2";
@@ -12,7 +13,6 @@ import TopBar from "../components/TopBar";
 import NavbarV2 from "../components/NavbarV2";
 import Header from "../components/Header";
 import styles from "../style/modules/full-schedule.module.scss";
-import RegisterNowBanner from "../components/RegisterNowBanner";
 import {PageScrollInspector, SCROLL_DIRECTION} from "../components/PageScrollInspector";
 import withScheduleData from "../utils/withScheduleData";
 import {deepLinkToEvent} from '../actions/schedule-actions'

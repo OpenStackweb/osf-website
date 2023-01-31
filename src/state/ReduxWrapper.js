@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
-import { loggedUserReducer } from 'openstack-uicore-foundation/lib/reducers';
+import { loggedUserReducer } from 'openstack-uicore-foundation/lib/security/reducers';
 import userReducer from '../reducers/user-reducer';
 import sponsorReducer from '../reducers/sponsor-reducer';
 import memberReducer from '../reducers/member-reducer';

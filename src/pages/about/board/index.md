@@ -12,6 +12,25 @@ header:
     OpenInfra Foundation resources and staff.
   title: BOARD OF DIRECTORS
 members:
+  - company: Red Hat
+    description: >-
+      <p>I started my working career in technology close to twenty years ago. It
+      has surely not  been an average career, but a career where I've
+      continually learned and evolved to fulfill the need. In  a sense, it all
+      started with Linux and answering some questions about installing Linux.
+      This started a  journey into computer networking and eventually shifted to
+      a systems engineering focus with a stop-over  in data center
+      operations.</p>
+
+      <p>The DevOps movement lead me more into software development and the operationalization of software due  to the need to automate large scale systems deployments. This required bringing an operational perspective  while bridging to the requirements, and often required digging deep into the underlying code to solve the  problem of the day.</p> 
+
+      <p>In a sense, I found a home in OpenStack in 2014 and the Ironic project in 2015 because of many years  spent working with physical hardware in data centers.</p> <p>I presently work for Red Hat as a Principal Software Engineer, where my upstream focus has been Ironic  for the past few years, and my downstream focus has been on helping lead adoption and use of Ironic.</p>
+    linkedin: https://www.linkedin.com/in/juliaashleykreger
+    name: Julia Kreger
+    openStack: https://www.openstack.org/community/members/profile/19088
+    picture: /img/board/MG-5121-1.jpg
+    title: Chair | Individual Director
+    twitter: https://twitter.com/ashinclouds
   - company: "Open Usage Commons, Software Freedom Conservancy, Eigenstate Ltd,
       Ericsson Software Technology, The Perl Foundation, Onyx Neon, Inc. "
     description: Allison is a software developer and open source strategist. She is
@@ -32,7 +51,7 @@ members:
     name: Allison Randal
     openStack: https://www.openstack.org/community/members/profile/2813
     picture: /img/board/allisonrandall.png
-    title: Individual Director
+    title: Vice Chair | Individual Director
     twitter: https://twitter.com/allisonrandal
   - company: Red Hat
     description: Amy Marrich is a Principal Technical Marketing Manager at Red Hat.
@@ -69,22 +88,24 @@ members:
     picture: /img/board/belmiromoreira.jpg
     title: Individual Director
     linkedin: https://www.linkedin.com/in/belmiromoreira/
-
   - name: Brin Zhang
     company: Inspur
     description: >-
-      <p>Brin Zhang, who works in Inspur, is mainly responsible for the work of OpenStack  community. He leads the team to collect upstream customer needs and feeds back to the open source community in a timely manner, and contributes to open source projects with bug fixes, features and other forms. He has cultivated many core contributors in open source projects such as in Cyborg, Nova, Venus, Manila, Masakari, Watcher, Neutron etc. projects, promoted the development of open source projects.</p>
+      <p>Brin Zhang, who works in Inspur, is mainly responsible for the work of
+      OpenStack  community. He leads the team to collect upstream customer needs
+      and feeds back to the open source community in a timely manner, and
+      contributes to open source projects with bug fixes, features and other
+      forms. He has cultivated many core contributors in open source projects
+      such as in Cyborg, Nova, Venus, Manila, Masakari, Watcher, Neutron etc.
+      projects, promoted the development of open source projects.</p>
 
       <p>In addition, he actively participated in the organization of OpenInfra Days China as a volunteer of the conference, and actively encouraged and advocated enterprises to deliver keynote speeches and technical exchanges. At the same time, the technical team was organized to output issues related to cutting-edge technologies such as Kubernetes, OpenStack and Edge computing, to participate in OpenInfra Days China and submit, which greatly promoted the development of OpenStack in China.</p>
 
       <p>His efforts have been recognized by the industry and the open source community, and he is the Cyborg project PTL and one of founder of Venus projects. His efforts have been recognized by the OpenInfra Foundation and open source contributors, with honors such as the "Team Contribution Award (Venus Team)", "2020 Open Source Infrastructure Community - Individual Achievement Award", "Cloud OS Lead Award", and "Community Leadership Excellence Award" etc..</p>
-
-      
     openStack: https://openinfra.dev/a/community/members/90472
     picture: /img/board/BrinZhang.jpg
     title: Gold Director
     linkedin: null
-
   - name: Eoghan Glynn
     title: Platinum Director
     company: Red Hat
@@ -153,25 +174,6 @@ members:
     picture: /img/board/johan.png
     title: Gold Director
     twitter: https://twitter.com/@citynetworkjc
-  - company: Red Hat
-    description: >-
-      <p>I started my working career in technology close to twenty years ago. It
-      has surely not  been an average career, but a career where I've
-      continually learned and evolved to fulfill the need. In  a sense, it all
-      started with Linux and answering some questions about installing Linux.
-      This started a  journey into computer networking and eventually shifted to
-      a systems engineering focus with a stop-over  in data center
-      operations.</p>
-
-      <p>The DevOps movement lead me more into software development and the operationalization of software due  to the need to automate large scale systems deployments. This required bringing an operational perspective  while bridging to the requirements, and often required digging deep into the underlying code to solve the  problem of the day.</p> 
-
-      <p>In a sense, I found a home in OpenStack in 2014 and the Ironic project in 2015 because of many years  spent working with physical hardware in data centers.</p> <p>I presently work for Red Hat as a Principal Software Engineer, where my upstream focus has been Ironic  for the past few years, and my downstream focus has been on helping lead adoption and use of Ironic.</p>
-    linkedin: https://www.linkedin.com/in/juliaashleykreger
-    name: Julia Kreger
-    openStack: https://www.openstack.org/community/members/profile/19088
-    picture: /img/board/MG-5121-1.jpg
-    title: Individual Director
-    twitter: https://twitter.com/ashinclouds
   - name: Kurt Garloff
     description: Being a long time member of various open source communities (Linux
       kernel, openSUSE and others), I have a personal interest in seeing
@@ -267,10 +269,13 @@ members:
     picture: /img/ryan-van-wyk.jpg
     title: Platinum Director
     twitter: https://twitter.com/@ryanvanwyk
-
   - company: T-Systems International
     description: >
-      <p>I started my careen in 1997 at IBM Germany, when I came across a new open-source operating system called Linux which drew a lot of my attention and continued to do so until present time. Over the time the scope grew larger, and I followed the open-source path to the cloud world and got part of the OpenStack (back then) and now OpenInfra family.</p>
+      <p>I started my careen in 1997 at IBM Germany, when I came across a new
+      open-source operating system called Linux which drew a lot of my attention
+      and continued to do so until present time. Over the time the scope grew
+      larger, and I followed the open-source path to the cloud world and got
+      part of the OpenStack (back then) and now OpenInfra family.</p>
 
       <p>Since 2012 I'm with T-Systems in different leadership roles and in 2014 we started a project to launch a public cloud for T-Systems/ Deutsche Telekom. This was the start of Open Telekom Cloud (OTC)!</p>
 
@@ -282,10 +287,8 @@ members:
     openStack: https://openinfra.dev/a/community/members/66013
     picture: /img/board/swenner-klein.jpg
     title: Gold Director
-
-
   - name: Shane Wang
-    title: "Individual Director"
+    title: Individual Director
     company: Intel
     description: >-
       Shane Wang is the Engineering Director of Cloud Infrastructure Software at
@@ -317,15 +320,30 @@ members:
     picture: /img/tytuskurek.jpg
     title: Gold Director
     twitter: ""
-
   - name: Xiangyu Li
-    title: "Gold Director"
+    title: Gold Director
     company: China Mobile
-    description: >-
-      Xiangyu Li comes from China Mobile Cloud Centre and she has been working here for 7 years.   She currently serves as the leader of the Computing Product Group of the IaaS product department, taking responsibility for the R&D of the OpenStack team.   ECloud has become the fastest-growing public cloud in China with the highest revenue growth rate in the past several  years.   As a member of the China Mobile Public Cloud architecture team, she participated in multi-phase projects of the ECloud and could be considered as the main contributor for guiding ECloud to join the Million Core Club.   Xiangyu Li has considerable rich work experience in the development and operation of hyperscale public clouds.   The OpenStack R&D team which she is leading has achieve multiple great achievements, implementing the scheduling and concurrency optimization for hyperscale clusters carrying more than 100,000 servers.   With this optimization, the delivery of 5 thousand cloud hosts could be completed in several minutes.   Xiangyu Li is also very active to join community events.   She is a frequenter in OpenInfra Summit, China Day and Strategy Day activities.   Her team has published dozens of speeches in OpenStack-related community activities, sharing China Mobile's practical and innovation experience in OpenStack.
+    description: Xiangyu Li comes from China Mobile Cloud Centre and she has been
+      working here for 7 years.   She currently serves as the leader of the
+      Computing Product Group of the IaaS product department, taking
+      responsibility for the R&D of the OpenStack team.   ECloud has become the
+      fastest-growing public cloud in China with the highest revenue growth rate
+      in the past several  years.   As a member of the China Mobile Public Cloud
+      architecture team, she participated in multi-phase projects of the ECloud
+      and could be considered as the main contributor for guiding ECloud to join
+      the Million Core Club.   Xiangyu Li has considerable rich work experience
+      in the development and operation of hyperscale public clouds.   The
+      OpenStack R&D team which she is leading has achieve multiple great
+      achievements, implementing the scheduling and concurrency optimization for
+      hyperscale clusters carrying more than 100,000 servers.   With this
+      optimization, the delivery of 5 thousand cloud hosts could be completed in
+      several minutes.   Xiangyu Li is also very active to join community
+      events.   She is a frequenter in OpenInfra Summit, China Day and Strategy
+      Day activities.   Her team has published dozens of speeches in
+      OpenStack-related community activities, sharing China Mobile's practical
+      and innovation experience in OpenStack.
     openStack: https://openinfra.dev/a/community/members/90048
     picture: /img/board/XiangyuLi.jpg
-
   - company: "Ant Financial, Kata Containers "
     description: >-
       Xu Wang is a senior staff engineer at Ant Financial and an initial member
@@ -359,14 +377,22 @@ members:
     picture: /img/billren.jpg
     title: Platinum Director
     twitter: ""
-
   - company: China Unicom
-    description: >-
-      LIU Yulong currently works at China Unicom Cloud for research, development and management for a team of Cloud Networking. He has been engaged in Cloud Computing for more than ten years. He is proficient in the core components of OpenStack, and has a deep understanding of the architecture of Nova and Neutron with the underlying technologies, such as Openvswitch, OpenFlow, SDN, Linux Networking, Libvirt and Qemu/kvm. His past work experience in several famous public clouds has enabled him to have a deep construction of cloud technologies, which also shows his love for Cloud Computing. Since 2019, he has become the core developer of OpenStack Neutron. At present, his main work and research fields are focused on cloud networking, SDN, SmartNIC, DPU and hardware offloading.
+    description: LIU Yulong currently works at China Unicom Cloud for research,
+      development and management for a team of Cloud Networking. He has been
+      engaged in Cloud Computing for more than ten years. He is proficient in
+      the core components of OpenStack, and has a deep understanding of the
+      architecture of Nova and Neutron with the underlying technologies, such as
+      Openvswitch, OpenFlow, SDN, Linux Networking, Libvirt and Qemu/kvm. His
+      past work experience in several famous public clouds has enabled him to
+      have a deep construction of cloud technologies, which also shows his love
+      for Cloud Computing. Since 2019, he has become the core developer of
+      OpenStack Neutron. At present, his main work and research fields are
+      focused on cloud networking, SDN, SmartNIC, DPU and hardware offloading.
     name: Yulong Liu
     openStack: https://openinfra.dev/a/community/members/5508
     linkedin: https://www.linkedin.com/in/liu-yulong/
     picture: /img/board/YulongLiu.jpg
     title: Gold Director
-    twitter: "https://www.twitter.com/yulongliu"
+    twitter: https://www.twitter.com/yulongliu
 ---

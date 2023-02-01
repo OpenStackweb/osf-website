@@ -15,6 +15,17 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2023-02-16T15:00:00.000Z
+    episodeTitle: Nvidia GPU management by OpenStack Nova and Cyborg
+    episodeDescription: >
+      Members of the OpenStack community will introduce how Cyborg, an OpenStack
+      project, aims to provide a general-purpose management framework for
+      acceleration resources such as GPU, FPGA, NVMe SSDs, SmartNIC and so on.
+    episodeSpeakers: Alex Song, Brin Zhang, Dmitriy Rabotyagov, Jimmy McArthur
+    facebookLink: https://www.facebook.com/events/677204717420396
+    linkedinLink: https://www.linkedin.com/video/event/urn:li:ugcPost:7026620676933390337/
+    youtubeLink: https://www.youtube.com/watch?v=WUdkS9558p8
+  - hidden: false
     date: 2023-01-26T15:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: Ubisoft"
     episodeDescription: In the "Large Scale Ops Deep Dive" series, a panel of
@@ -241,11 +252,11 @@ episodes:
     episodeSpeakers: Arnaud Morin, Xavier Nicolle, Belmiro Moreira, Mohammed Naser, Gene Kuo
     youtubeEmbed: https://www.youtube.com/embed/XV-L7b8lSXw
     youtubeLink: https://www.youtube.com/watch?v=XV-L7b8lSXw&ab_channel=OpenInfrastructureFoundation
-  - episodeDescription: "As we approach the launch of the CFP (call for papers) for
+  - episodeDescription: As we approach the launch of the CFP (call for papers) for
       the upcoming OpenInfra Summit in Berlin (June 7-9), join members of the
       2022 Programming Committee as they share their top tips and tricks for
       writing a winning submission and answer your questions on what they look
-      for in talks."
+      for in talks.
     calendarInvite: static/invites/myevents-19-.ics
     hidden: false
     date: 2022-01-20T15:00:40.227Z

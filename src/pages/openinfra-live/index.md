@@ -37,6 +37,7 @@ episodes:
       Morin, Felix Huettner, Thierry Carrez
     youtubeEmbed: https://www.youtube.com/embed/H1DunJM1zoc
     youtubeLink: https://www.youtube.com/watch?v=H1DunJM1zoc
+    superuserRecap: https://superuser.openstack.org/articles/large-scale-deep-dive-ubisoft/
   - hidden: false
     date: 2023-01-19T15:00:00.000Z
     episodeTitle: "OpenInfra Live: Distributing OpenStack Architecture with BGP and
@@ -53,6 +54,7 @@ episodes:
       Allison Price
     youtubeLink: https://www.youtube.com/watch?v=r8WLM9TM6w4
     youtubeEmbed: https://www.youtube.com/embed/r8WLM9TM6w4
+    superuserRecap: https://superuser.openstack.org/articles/distributing-openstack-architecture-with-bgp-and-kubernetes-integration/
   - hidden: false
     date: 2022-10-06T14:00:00.000Z
     episodeTitle: "OpenStack Zed: The End of the Alphabet, The Beginning of a New Era"

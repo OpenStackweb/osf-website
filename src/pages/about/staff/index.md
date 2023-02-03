@@ -123,19 +123,6 @@ members:
     openStack: https://www.openstack.org/community/members/profile/1092
     picture: /img/about-staff/ClarkBoylan.jpg
     title: Senior Principal Engineer
-  - description: Erin Disney works as a Marketing Manager for the Open
-      Infrastructure Foundation. Prior to joining, Erin ran  events for W2O
-      Group including CES, JPMorgan Healthcare, SXSW, and Social Media Week
-      activations.  She also has experience in digital marketing strategy,
-      analytics, internal/external communications,  and project management. Away
-      from work she loves live music, stand up comedy, exploring
-      Austin’s  restaurant scene, and spoiling her Bengal cat Cloris Leachman.
-    linkedin: https://www.linkedin.com/in/erindisney
-    name: Erin Disney
-    openStack: https://www.openstack.org/community/members/profile/50757
-    picture: /img/about-staff/erin-disney.jpg
-    title: Senior Event Marketing Manager
-    twitter: https://twitter.com/erindisney
   - description: "Jimmy leads the collaboration with OpenInfra Members, including
       strategy development, goal alignment and new member recruitment. Outside
       of advocating for current open source trends and distributing his calendar

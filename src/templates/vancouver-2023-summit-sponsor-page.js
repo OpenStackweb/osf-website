@@ -12,7 +12,7 @@ import SubNavYvr from '../components/SummitSubNavYvr'
 import { connect } from "react-redux";
 import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
-import SummitSponsors from '../components/SummitSponsors'
+import SummitSponsorsYvr from '../components/SummitSponsorsYvr'
 
 export const SummitSponsorPageTemplate = ({
   isLoggedUser,
@@ -52,6 +52,15 @@ export const SummitSponsorPageTemplate = ({
               </div>
             </section>
           }
+
+          <section id="sponsor" className="sponsorship-levels">
+            <hr className="dividing-line"/>
+            <span className="title">Sponsors</span>
+            <span className="description">
+              <p> A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
+            </span>
+            <SummitSponsorsYvr summit_sponsors={summit_sponsors} />
+          </section>
           
           <section id="howToSponsor" className="sponsor-steps">
           <div className="title">How to Sponsor</div>

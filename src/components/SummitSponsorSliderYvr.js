@@ -63,26 +63,24 @@ const SummitSponsorSliderYvr = ({ summit_sponsors }) => {
     return (
         <Slider {...slideSettings} className="sponsor-logos-slider">
             <div>
-                <div>
-                    <h3 class="small-title-summit">Headline Sponsors</h3>
-                    <div class="logos">
-                        <a class="logo-headline" href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1195/logos/ubuntu-lg2.jpg" alt="Ubuntu" /></a>
-                        <a class="logo-headline" href="http://www.windriver.com" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/windriver-lg.png" alt="Wind River" /></a>
-                    </div>
+                <h3 class="small-title-summit">Headline Sponsors</h3>
+                <div class="logos">
+                    <a class="logo-headline" href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1195/logos/ubuntu-lg2.jpg" alt="Ubuntu" /></a>
+                    <a class="logo-headline" href="http://www.windriver.com" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/windriver-lg.png" alt="Wind River" /></a>
                 </div>
-                <div>
-                    <h3 class="small-title-summit">Headline Sponsors</h3>
-                    <div class="logos">
-                        <a class="logo-headline" href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1195/logos/ubuntu-lg2.jpg" alt="Ubuntu" /></a>
-                        <a class="logo-headline" href="http://www.windriver.com" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/windriver-lg.png" alt="Wind River" /></a>
-                    </div>
+            </div>
+            <div>
+                <h3 class="small-title-summit">Headline Sponsors</h3>
+                <div class="logos">
+                    <a class="logo-headline" href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1195/logos/ubuntu-lg2.jpg" alt="Ubuntu" /></a>
+                    <a class="logo-headline" href="http://www.windriver.com" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/windriver-lg.png" alt="Wind River" /></a>
                 </div>
-                <div>
-                    <h3 class="small-title-summit">Headline Sponsors</h3>
-                    <div class="logos">
-                        <a class="logo-headline" href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1195/logos/ubuntu-lg2.jpg" alt="Ubuntu" /></a>
-                        <a class="logo-headline" href="http://www.windriver.com" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/windriver-lg.png" alt="Wind River" /></a>
-                    </div>
+            </div>
+            <div>
+                <h3 class="small-title-summit">Headline Sponsors</h3>
+                <div class="logos">
+                    <a class="logo-headline" href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1195/logos/ubuntu-lg2.jpg" alt="Ubuntu" /></a>
+                    <a class="logo-headline" href="http://www.windriver.com" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/windriver-lg.png" alt="Wind River" /></a>
                 </div>
             </div>
         </Slider>

@@ -81,7 +81,7 @@ const FeaturedSpeakersYvr = ({ featured_speakers }) => {
             </div>
         </div>
             
-            <LinkComponent className="button-cta" href="/summit/vancouver-2023/summit-schedule">See All Summit Speakers<img src={leftArrow} alt="" /></LinkComponent>
+            <LinkComponent className="button-cta" href="https://vancouver2023.openinfra.dev/a/schedule">See All Summit Speakers<img src={leftArrow} alt="" /></LinkComponent>
         </div>
     )
 }

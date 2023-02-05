@@ -56,7 +56,7 @@ function SubNavYvr(props) {
         <ul id="links-list" className="links-list">
           <li><LinkComponent id="summit" href="/summit/vancouver-2023" onClick={() => shouldCloseMenu("summit")} className="link">About</LinkComponent></li>
           <li><LinkComponent id="summit-sponsor" href="/summit/vancouver-2023/summit-sponsor/" onClick={() => shouldCloseMenu("summit-sponsor")} className="link">Sponsors</LinkComponent></li>
-          <li><LinkComponent id="summit-tracks" href="/summit/vancouver-2023/summit-tracks/" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Tracks</LinkComponent></li>
+          <li><LinkComponent id="summit-tracks" href="https://vancouver2023.openinfra.dev/a/schedule" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Schedule</LinkComponent></li>
           <li><LinkComponent id="summit-forum" href="/summit/vancouver-2023/forum/" onClick={() => shouldCloseMenu("summit-forum")} className="link">Forum</LinkComponent></li>
           <li><LinkComponent id="summit-onsite-safety" href="/summit/vancouver-2023/summit-onsite-safety/" onClick={() => shouldCloseMenu("summit-onsite-safety")} className="link">Onsite Safety</LinkComponent></li>
           <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }} className="dropdown-items-link">
@@ -108,7 +108,7 @@ function SubNavYvr(props) {
           <ul id="links-list-mobile" className="links-list">
             <li><LinkComponent id="summit-onsite" href="/summit/vancouver-2023" onClick={() => shouldCloseMenu("summit")} className="link">About</LinkComponent></li>
             <li><LinkComponent id="summit-sponsor" href="/summit/vancouver-2023/summit-sponsor/" onClick={() => shouldCloseMenu("summit-sponsor")} className="link">Sponsors</LinkComponent></li>
-            <li><LinkComponent id="summit-tracks" href="/summit/vancouver-2023/summit-tracks/" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Tracks</LinkComponent></li>
+            <li><LinkComponent id="summit-tracks" href="https://vancouver2023.openinfra.dev/a/schedule" onClick={() => shouldCloseMenu("summit-tracks")} className="link">Schedule</LinkComponent></li>
             <li><LinkComponent id="summit-forum" href="/summit/vancouver-2023/forum/" onClick={() => shouldCloseMenu("summit-forum")} className="link">Forum</LinkComponent></li>
             <li><LinkComponent id="summit-forum" href="/summit/vancouver-2023/summit-onsite-safety/" onClick={() => shouldCloseMenu("summit-onsite-safety")} className="link">Onsite Safety</LinkComponent></li>
             <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} className="link-dropdown">

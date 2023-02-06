@@ -168,6 +168,9 @@
     "more-recent-single-left more-recent-single-left more-recent-single-right more-recent-single-right"
     "more-recent-single-left more-recent-single-left more-recent-single-right more-recent-single-right";
   margin-top: 4rem;
+  @media (max-width: 768px) {
+    display: block;
+  }
 }
 .more-recent-single-left {
   grid-area: more-recent-single-left;

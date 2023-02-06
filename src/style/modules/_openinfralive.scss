@@ -143,10 +143,17 @@
 .more-recent-wrapper {
   padding: 5rem 0 3rem;
 }
+.live-section {
+  .more-recent-episodes {
+    .details {
+      color: #363636;
+    }
+  }
+}
 .more-recent-episodes {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   gap: 0px 15px;
   grid-template-areas:
     "more-recent-single-left more-recent-single-left more-recent-single-right more-recent-single-right"

@@ -41,12 +41,12 @@
   force = true
 [[redirects]]
   from = "/summit-covid"
-  to = "/summit/berlin-2022/summit-covid"
+  to = "/summit/vancouver-2023/summit-onsite-safety"
   status = 301
   force = true
 [[redirects]]
   from = "/summit-schedule"
-  to = "/summit/berlin-2022/summit-schedule"
+  to = "https://vancouver2023.openinfra.dev/a/schedule"
   status = 301
   force = true
 [[redirects]]

@@ -14,16 +14,17 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     15:00 UTC (9am CT)</strong>."
 episodes:
-  - hidden: false
-    date: 2023-02-16T15:00:00.000Z
-    episodeTitle: Nvidia GPU management by OpenStack Nova and Cyborg
+  - facebookLink: https://www.facebook.com/events/677204717420396
     episodeDescription: >
       Members of the OpenStack community will introduce how Cyborg, an OpenStack
       project, aims to provide a general-purpose management framework for
       acceleration resources such as GPU, FPGA, NVMe SSDs, SmartNIC and so on.
+    hidden: false
+    date: 2023-02-16T15:00:00.000Z
     episodeSpeakers: Alex Song, Brin Zhang, Dmitriy Rabotyagov, Jimmy McArthur
-    facebookLink: https://www.facebook.com/events/677204717420396
+    youtubeEmbed: https://www.youtube.com/embed/WUdkS9558p8
     linkedinLink: https://www.linkedin.com/video/event/urn:li:ugcPost:7026620676933390337/
+    episodeTitle: NVIDIA GPU management by OpenStack Nova and Cyborg
     youtubeLink: https://www.youtube.com/watch?v=WUdkS9558p8
   - hidden: false
     date: 2023-01-26T15:00:00.000Z

@@ -24,7 +24,7 @@ episodes:
     episodeSpeakers: Alex Song, Brin Zhang, Dmitriy Rabotyagov, Jimmy McArthur
     youtubeEmbed: https://www.youtube.com/embed/WUdkS9558p8
     linkedinLink: https://www.linkedin.com/video/event/urn:li:ugcPost:7026620676933390337/
-    episodeTitle: NVIDIA GPU management by OpenStack Nova and Cyborg
+    episodeTitle: VGPU Management by OpenStack Nova and Cyborg
     youtubeLink: https://www.youtube.com/watch?v=WUdkS9558p8
   - hidden: false
     date: 2023-01-26T15:00:00.000Z

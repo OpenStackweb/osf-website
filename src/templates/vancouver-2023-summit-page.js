@@ -12,8 +12,8 @@ import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
 import TravelSupportPic from '../../static/img/summit/Tokyo-travel-support-pic.jpg'
 import CodeOfConductPic from '../../static/img/summit/inclusive 2.jpeg'
-import SummitSponsorSlider from '../components/SummitSponsorSlider'
-import FeaturedSpeakers from '../components/FeaturedSpeakers';
+import SummitSponsorSliderYvr from '../components/SummitSponsorSliderYvr'
+import FeaturedSpeakersYvr from '../components/FeaturedSpeakersYvr';
 
 export const SummitPageTemplate = ({
   isLoggedUser,
@@ -105,7 +105,7 @@ export const SummitPageTemplate = ({
             </section>
           }
 
-          {/* <FeaturedSpeakers featured_speakers={featured_speakers} /> */}
+          {/* <FeaturedSpeakersYvr featured_speakers={featured_speakers} /> */}
 
           {/* <LogoBanner title="The Call for Presentations will open on November 15, 2022 and close on January 7, 2023" cta="Nope" href="https://cfp.openinfra.dev" /> */}
 
@@ -114,8 +114,8 @@ export const SummitPageTemplate = ({
             <span className="description">
               <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
             </span>
-            <SummitSponsorSlider summit_sponsors={summit_sponsors} />
-            <LinkComponent className="button-cta" href="/summit/berlin-2022/summit-sponsor">View all Sponsors<img src={leftArrow} alt="" /></LinkComponent>
+            <SummitSponsorSliderYvr summit_sponsors={summit_sponsors} />
+            <LinkComponent className="button-cta" href="/summit/vancouver-2023/summit-sponsor">Become a Sponsor<img src={leftArrow} alt="" /></LinkComponent>
           </section> */}
 
           {/* <LogoBanner title="Register before tickets sell out!" cta="Register Now" href="https://openinfrasummitberlin.eventbrite.com/" /> */}

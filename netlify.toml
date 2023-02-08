@@ -213,8 +213,3 @@
   to="https://openinfra.dev/careers"
   status=301
   force=true
-[[redirects]]
-  from="/summit-scheduler"
-  to="https://openinfra.dev/summit/berlin-2022/summit-schedule"
-  status=301
-  force=true

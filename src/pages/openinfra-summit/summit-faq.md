@@ -43,7 +43,8 @@ Keynotes will be held Tuesday, June 13. Marketplace booths, breakout sessions, a
 **What is the price of registration?** <br>
 Early Bird Full Access Pass (deadline February 15 at 11:59pm PT): $599 <br>
 Regular Full Access Pass (deadline May 5 at 11:59pm PT): $799 <br>
-Late Full Access Pass: $1099 <br>
+Late Full Access Pass: $1099
+
 All prices in USD.
 
 **Are there any contributor discounts for the Summit?** <br>
@@ -52,7 +53,6 @@ Yes, there are! To qualify for this discount, you will need to have contributed 
 Early Bird (deadline February 15 at 11:59pm PT): $249<br>
 Regular Price (deadline May 5 at 11:59pm PT) $399<br>
 Late Registration: $599 (code must be redeemed by May 26 at 11:59pm PT)
-
 
 **Is discounted registration available for OpenInfra contributors?** <br>
 Contributors to OpenInfra projects (OpenStack, Kata Containers, Zuul, StarlingX, Airship, and OpenInfra Labs) who have committed a change in the last six months as of January 1, 2023 are eligible to receive discounted registration for the OpenInfra Summit. Each eligible contributor will receive the code via email. Contributor registration prices will increase on February 15 at 11:59pm PT.

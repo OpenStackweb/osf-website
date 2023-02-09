@@ -41,7 +41,17 @@ Keynotes will be held Tuesday, June 13. Marketplace booths, breakout sessions, a
 <!-- The [full schedule can be found here](/summit/berlin-2022/summit-schedule).  -->
 
 **What is the price of registration?** <br>
-The Early Bird Full Access Pass for the OpenInfra Summit is $599 USD. Ticket prices will increase on February 15 at 11:59pm PT. 
+Early Bird Full Access Pass (deadline February 15 at 11:59pm PT): $599 <br>
+Regular Full Access Pass (deadline May 5 at 11:59pm PT): $799 <br>
+Late Full Access Pass: $1099 <br>
+All prices in USD.
+
+**Are there any contributor discounts for the Summit?** <br>
+Yes, there are! To qualify for this discount, you will need to have contributed at least one commit which merged to an official governed OpenInfra project (OpenStack, StarlingX, Airship, Kata Containers, OpenDev, Zuul, OpenInfra Labs)  in the last 6 months as of January 1, 2023. Contributor Codes (formally known as ATC or AUC discount) are priced as follows:<br>
+Early Bird (deadline February 15 at 11:59pm PT): $249<br>
+Regular Price (deadline May 5 at 11:59pm PT) $399<br>
+Late Registration: $599 (code must be redeemed by May 26 at 11:59pm PT)
+
 
 **Is discounted registration available for OpenInfra contributors?** <br>
 Contributors to OpenInfra projects (OpenStack, Kata Containers, Zuul, StarlingX, Airship, and OpenInfra Labs) who have committed a change in the last six months as of January 1, 2023 are eligible to receive discounted registration for the OpenInfra Summit. Each eligible contributor will receive the code via email. Contributor registration prices will increase on February 15 at 11:59pm PT.

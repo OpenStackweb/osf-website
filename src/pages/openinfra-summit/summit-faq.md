@@ -47,7 +47,8 @@ Late Full Access Pass: $1099 <br>
 All prices in USD.
 
 **Are there any contributor discounts for the Summit?** <br>
-Yes, there are! To qualify for this discount, you will need to have contributed at least one commit which merged to an official governed OpenInfra project (OpenStack, StarlingX, Airship, Kata Containers, OpenDev, Zuul, OpenInfra Labs)  in the last 6 months as of January 1, 2023. Contributor Codes (formally known as ATC or AUC discount) are priced as follows:<br>
+Yes, there are! To qualify for this discount, you will need to have contributed at least one commit which merged to an official governed OpenInfra project (OpenStack, StarlingX, Airship, Kata Containers, OpenDev, Zuul, OpenInfra Labs)  in the last 6 months as of January 1, 2023. Contributor Codes (formally known as ATC or AUC discount) are priced as follows:
+
 Early Bird (deadline February 15 at 11:59pm PT): $249<br>
 Regular Price (deadline May 5 at 11:59pm PT) $399<br>
 Late Registration: $599 (code must be redeemed by May 26 at 11:59pm PT)

@@ -37,6 +37,14 @@ const SummitSponsorsYvr = ({ summit_sponsors }) => {
                     </a>
                 </div>
             </div>
+            <div>
+                <h3 class="small-title-summit">Media Partner</h3>
+                <div class="logos">
+                    {/* WILL NEED TO BE POPULATED WITH KUBE MEDIA KIT */}
+
+                    {/* AND ADD IN THE SUPER USER LOGO */}
+                </div>
+            </div>
         </div>
     )
 }

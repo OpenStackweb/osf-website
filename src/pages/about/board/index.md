@@ -343,7 +343,7 @@ members:
       OpenStack-related community activities, sharing China Mobile's practical
       and innovation experience in OpenStack.
     openStack: https://openinfra.dev/a/community/members/90048
-    picture: /img/board/XiangyuLi.jpg
+    picture: /img/board/Xiangyu-Li.jpg
   - company: "Ant Financial, Kata Containers "
     description: >-
       Xu Wang is a senior staff engineer at Ant Financial and an initial member

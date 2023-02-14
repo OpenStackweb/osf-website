@@ -188,6 +188,8 @@ companyDetails:
       col2: 2012-09-25
     - col1: Commvault Systems, Inc.
       col2: 2017-02-14
+    - col2: 2022-04-13
+      col1: Component Soft Ltd
     - col1: Consultorpc
       col2: 2010-08-26
     - col1: Coraid Inc.
@@ -262,6 +264,8 @@ companyDetails:
       col2: 2011-12-29
     - col1: Enterprise DB
       col2: 2010-11-16
+    - col2: 2023-01-11
+      col1: EPX Ehrhardt + Partner Xtended GmbH
     - col1: Ericsson
       col2: 2012-02-07
     - col1: Esprit
@@ -372,6 +376,8 @@ companyDetails:
       col2: 2015-05-12
     - col1: Inocybe Technologies Inc.
       col2: 2014-02-26
+    - col2: 2022-01-12
+      col1: Inovex GmbH
     - col1: Institute for System Programming Russian Academy of Science (ISP-RAS)
       col2: 2013-04-22
     - col1: Intalio, Inc
@@ -854,6 +860,8 @@ companyDetails:
       col2: 2013-09-06
     - col1: Virtustream
       col2: 2015-04-01
+    - col2: 2023-02-09
+      col1: VMAccel, LLC
     - col1: VMTurbo
       col2: 2015-01-03
     - col1: VmWare
@@ -904,16 +912,6 @@ companyDetails:
       col2: 2014-08-05
     - col1: ZTE Corporation
       col2: 2017-02-08
-    - col2: 2022-01-12
-      col1: Inovex GmbH
-    - col2: 2022-02-28
-      col1: DataCore Software
-    - col2: 2022-04-13
-      col1: Component Soft Ltd
-    - col2: 2023-01-11
-      col1: EPX Ehrhardt + Partner Xtended GmbH
-    - col2: 2023-02-09
-      col1: VMAccel, LLC
 ---
 
 The list of Corporate CLAs allowed to contribute to OpenStack projects. (Individual developers still need to fill out the Individual [Contributors License Agreement](https://wiki.openstack.org/wiki/How_To_Contribute#Contributors_License_Agreement)). If you need to update the list of employees authorized to commit code to OpenStack, please read [How To Update Corporate CLA](/cla). 

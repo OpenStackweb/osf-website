@@ -250,6 +250,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 3rem;
+  justify-content: space-evenly;
   .schedule-single {
     color: $primary;
     flex: 0 45%;

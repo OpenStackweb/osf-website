@@ -132,6 +132,16 @@ export const SummitPageTemplate = ({
               </div>
             </div>
             </section> */}
+
+          <section className="logo-slider-section">
+            <span className="title">Sponsors</span>
+            <span className="description">
+              <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Vancouver 2023!</p>
+            </span>
+            <SummitSponsorSliderYvr summit_sponsors={summit_sponsors} />
+            <LinkComponent className="button-cta" href="/summit/vancouver-2023/summit-sponsor">Become a Sponsor<img src={leftArrow} alt="" /></LinkComponent>
+          </section>
+          <p>Test</p>
            
 
           <section style={{ backgroundColor: "white", marginTop: "unset" }} className="travel-support">

@@ -89,7 +89,7 @@ const SummitSponsorSliderYvr = ({ summit_sponsors }) => {
                 <div class="logos">
                     <a class="logo-headline" href="https://kube.events/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1267/logos/logo-light-bg.png" alt="Kube Events" /></a>
                     <a class="logo-headline" href="https://kube.careers/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1268/logos/logo-color.png" alt="Kube Careers" /></a>
-                    <a class="logo-headline" href="https://superuser.openstack.org/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1270/logos/superuser-icon1.svg" alt="SuperUser" /></a>
+                    <a class="logo-headline" href="https://superuser.openstack.org/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1270/logos/superuser-logo1.svg" alt="SuperUser" /></a>
                 </div>
             </div>
         </Slider>

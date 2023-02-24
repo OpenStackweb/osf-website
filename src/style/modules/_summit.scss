@@ -1387,10 +1387,16 @@ hr.dividing-line {
     @media screen and (max-width: 850px) {
       padding-left: 40px !important;
     }
+    @media screen and (max-width: 450px) {
+      padding-left: 30px !important;
+    }
   }
   a.carousel-control-next {
     @media screen and (max-width: 850px) {
       padding-right: 40px !important;
+    }
+    @media screen and (max-width: 450px) {
+      padding-right: 30px !important;
     }
   }
   .logos {

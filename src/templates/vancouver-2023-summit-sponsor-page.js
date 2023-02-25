@@ -53,14 +53,14 @@ export const SummitSponsorPageTemplate = ({
             </section>
           }
 
-          {/* <section id="sponsor" className="sponsorship-levels">
+          <section id="sponsor" className="sponsorship-levels">
             <hr className="dividing-line"/>
             <span className="title">Sponsors</span>
             <span className="description">
-              <p> A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
+              <p> A warm thank you to the sponsors of OpenInfra Summit Vancouver 2023!</p>
             </span>
             <SummitSponsorsYvr summit_sponsors={summit_sponsors} />
-          </section> */}
+          </section>
           
           <section id="howToSponsor" className="sponsor-steps">
           <div className="title">How to Sponsor</div>

@@ -1337,7 +1337,7 @@ hr.dividing-line {
       width: 25%;
       max-width: 240px;
       img {
-        width: 240px;
+        width: 190px;
       }
       @media (max-width: 768px) {
         width: 50%;
@@ -1382,6 +1382,22 @@ hr.dividing-line {
   a.carousel-control-prev,
   a.carousel-control-next {
     align-items: baseline;
+  }
+  a.carousel-control-prev {
+    @media screen and (max-width: 850px) {
+      padding-left: 40px !important;
+    }
+    @media screen and (max-width: 450px) {
+      padding-left: 30px !important;
+    }
+  }
+  a.carousel-control-next {
+    @media screen and (max-width: 850px) {
+      padding-right: 40px !important;
+    }
+    @media screen and (max-width: 450px) {
+      padding-right: 30px !important;
+    }
   }
   .logos {
     display: flex;
@@ -1431,7 +1447,7 @@ hr.dividing-line {
       width: 25%;
       max-width: 240px;
       img {
-        width: 240px;
+        width: 190px;
       }
       @media (max-width: 768px) {
         width: 50%;

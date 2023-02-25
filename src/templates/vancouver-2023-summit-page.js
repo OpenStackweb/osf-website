@@ -109,14 +109,14 @@ export const SummitPageTemplate = ({
 
           {/* <LogoBanner title="The Call for Presentations will open on November 15, 2022 and close on January 7, 2023" cta="Nope" href="https://cfp.openinfra.dev" /> */}
 
-          {/* <section className="logo-slider-section">
+          <section className="logo-slider-section">
             <span className="title">Sponsors</span>
             <span className="description">
-              <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Berlin 2022!</p>
+              <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Vancouver 2023!</p>
             </span>
             <SummitSponsorSliderYvr summit_sponsors={summit_sponsors} />
             <LinkComponent className="button-cta" href="/summit/vancouver-2023/summit-sponsor">Become a Sponsor<img src={leftArrow} alt="" /></LinkComponent>
-          </section> */}
+          </section>
 
           {/* <LogoBanner title="Register before tickets sell out!" cta="Register Now" href="https://openinfrasummitberlin.eventbrite.com/" /> */}
           
@@ -132,7 +132,6 @@ export const SummitPageTemplate = ({
               </div>
             </div>
             </section> */}
-           
 
           <section style={{ backgroundColor: "white", marginTop: "unset" }} className="travel-support">
             <div className="text">

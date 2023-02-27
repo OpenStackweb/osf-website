@@ -115,12 +115,11 @@ export const PTGPageTemplate = ({
                 <h5><b>OpenInfra Foundation Teams</b></h5>
                 <div class="ptg-who-teams-list">
                   <ul>
-                    <li>I18n SIG</li>  
-                    <li>OpenStack Security SIG</li>  
-                    <li>OpenStack Technical Committee</li>  
-                    <li>PublicCloud SIG</li>  
-                    <li>RBAC</li>  
-                    <li>Scientific SIG</li>  
+                    <li>Diversity and Inclusion WG</li>
+                    <li>Edge Computing Group</li>
+                    <li>Environmental Sustainability WG</li>
+                    <li>Interop WG</li>
+                    <li>StarlingX</li>
                   </ul>
                 </div>
                 <h5><b>OpenStack Service Teams</b></h5>
@@ -153,11 +152,12 @@ export const PTGPageTemplate = ({
                 <h5><b>Other OpenStack Teams</b></h5>
                 <div class="ptg-who-teams-list">
                   <ul>
-                    <li>Diversity and Inclusion WG</li>
-                    <li>Edge Computing Group</li>
-                    <li>Environmental Sustainability WG</li>
-                    <li>Interop WG</li>
-                    <li>StarlingX</li>
+                    <li>I18n SIG</li>  
+                    <li>OpenStack Security SIG</li>  
+                    <li>OpenStack Technical Committee</li>  
+                    <li>PublicCloud SIG</li>  
+                    <li>RBAC</li>  
+                    <li>Scientific SIG</li>  
                   </ul>
                 </div>
               </div>

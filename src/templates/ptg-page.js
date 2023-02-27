@@ -143,7 +143,7 @@ export const PTGPageTemplate = ({
                     <li>Neutron</li>
                     <li>Nova</li>
                     <li>Octavia</li>
-                    <li>OpenaStackSDK/CLI/Ansible-Collections</li>
+                    <li>OpenStackSDK/CLI/Ansible-Collections</li>
                     <li>OpenStack-Ansible</li>
                     <li>OpenStackCharms</li>
                     <li>QA</li>

@@ -133,7 +133,7 @@ members:
     name: Jimmy McArthur
     openStack: https://www.openstack.org/community/members/profile/1395
     picture: /img/about-staff/jimmymcarthur.jpg
-    title: Senior Manager Community & Business Development
+    title: Director of Business Development
     twitter: https://twitter.com/jimmymcarthur
   - description: >-
       <p>Kendall is an Upstream Developer Advocate at the Open Infrastructure
@@ -180,11 +180,11 @@ members:
     name: Ildiko Vancsa
     openStack: https://www.openstack.org/community/members/profile/14820
     picture: /img/about-staff/ildikovancsa.png
-    title: Senior Manager of Community and Ecosystem
+    title: Director of Community
     twitter: https://twitter.com/IldikoVancsa
   - name: Helena Spease
     picture: /img/screen-shot-2021-05-04-at-4.47.38-pm.png
-    title: Marketing & Community Associate
+    title: Marketing & Community Coordinator
     description: Helena is a graduate of St. Edward's University in Austin, Texas
       where she received her Bachelors Degree in Business Management. As the
       Marketing and Community Associate, she assists in the creation of

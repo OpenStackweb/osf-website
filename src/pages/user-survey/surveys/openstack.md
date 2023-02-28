@@ -48,7 +48,9 @@ When looking at the release of the deployment, the majority of organizations are
 
 <br/>
 
+<div style="max-width: 1000px; width: 90%;">
 <img src="/img/user-survey/user-survey-deployments 1.png" alt="OpenStack - Projects used in Production Deployments">
+</div>
 
 <br/>
 

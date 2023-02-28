@@ -34,7 +34,7 @@ The OpenInfra Summits (formerly OpenStack Summit) happen all over the world. The
 2021: Berlin <br>
 
 **What is the format of the Summit?** <br>
-The Summit will run for three days, Tuesday - Thursday, June 13-15th. 
+The Summit will run for three days, Tuesday - Thursday, June 13-15. 
 
 Keynotes will be held Tuesday, June 13. Marketplace booths, breakout sessions, and The Forum (developer and operator working sessions) will run Tuesday - Thursday.
 
@@ -66,7 +66,7 @@ During registration, there is "Promo Code" field where you enter in your name, c
 If you have questions about registration, please email [summit@openinfra.dev](mailto:summit@openinfra.dev)
 
 **Do you offer registration refunds or ticket transfers?** <br>
-Yes, refunds and ticket transfers will be processed until May 26th, 2023 at 11:59pm PT.
+Yes, refunds and ticket transfers will be processed until May 26, 2023 at 11:59pm PT.
 
 **The link I had for OpenInfra Summit registration requires a password. How do I register?** <br>
 In an effort to leverage more open source solutions, we are now using an open source tool for OpenInfra Summit registration. You can register here: [vancouver2023.openinfra.dev](https://vancouver2023.openinfra.dev/)
@@ -81,7 +81,7 @@ The Travel Support Program's aim is to facilitate the participation of key contr
 [Apply for Travel Support by filling out this application.](https://openinfrafoundation.formstack.com/forms/openinfra_tsp)
 
 DEADLINE TO APPLY: March 15, 2023 <br>
-Approved grantees will be notified the week of April 3th, 2023.
+Approved grantees will be notified the week of April 3, 2023.
 
 If you have any questions about the Travel Support Program, please email [summit@openinfra.dev](mailto:summit@openinfra.dev)
 
@@ -115,3 +115,50 @@ The OpenInfra Summit schedule will be published the week of February 6, 2023. In
 
 **How can I get support as a speaker?** <br>
 For speaker support, please email [speakersupport@openinfra.dev](speakersupport@openinfra.dev)
+
+<h4 id="forum"><a href="https://openinfra.dev/summit/vancouver-2023/forum/">FORUM</a></h4>
+
+**How can I submit a discussion to the Forum?** <br/>
+Forum discussion proposals can be [submitted here](https://cfp.openinfra.dev/app/vancouver-2023/20).
+
+**How long are OpenInfra Summit Forum discussions?** <br/>
+Depending on the topic, OpenInfra Summit Forum discussions are either 30 minutes or 70 minutes. Please check the schedule to understand each discussion’s specific length.
+
+**What is the deadline to submit a discussion to the Forum?** <br/>
+April 21 is the deadline to submit a discussion topic.
+
+**When will the schedule for the Forum be available?** <br/>
+A draft of the schedule will be published for community sources session conflict detection deadline on April 28. The final schedule will be set by May 6. 
+
+However, we will be doing two rounds of acceptances so you would find out if your talk has been accepted prior to the draft schedule being published. The first round of acceptance notifications will be going out early April. 
+
+**How do I register for the Forum?** <br/>
+The Forum is co-located within the OpenInfra Summit so by registering for the Summit, you are registered for the Forum as well. There is no separate registration.
+
+<h4 id="ptg"><a href="https://openinfra.dev/ptg/">PROJECT TEAMS GATHERING (PTG)</a></h4>
+
+**How can my team sign up to participate at the Vancouver PTG?** <br/>
+The first step is to fill out [the interest survey](https://openinfrafoundation.formstack.com/forms/june2023_ptg_survey) by April 2 at 11:00pm PT. After that point, the moderators provided in the survey will be contacted to sign their teams up for time.
+
+**How do I register for the PTG?** <br/>
+The PTG will be co-located within the OpenInfra Summit so by registering for the Summit, you are registered for the PTG as well. There is no separate registration. You can [register for the Summit here](https://vancouver2023.openinfra.dev)!
+
+**When will the schedule for the PTG be available?** <br/>
+The schedule will be available mid April but will be dynamic and subject to change, so please keep an eye on communications! Teams that have signed up to participate will be contacted at the end of April to schedule themselves via the PTGBot the same way they do for virtual PTG events.
+
+**Is discounted registration available for OpenInfra contributors?** <br>
+Contributors to OpenInfra projects (OpenStack, Kata Containers, Zuul, StarlingX, Airship, and OpenInfra Labs) who have committed a change in the last six months as of January 1, 2023 are eligible to receive discounted registration for the OpenInfra Summit. Each eligible contributor will receive the code via email. Contributor registration prices will increase on February 15 at 11:59pm PT.
+
+<h4 id="sponsors">SUMMIT SPONSORSHIP</h4>
+
+**How do I sponsor the Summit?** <br/>
+You can read more about Summit Sponsorship [here](https://openinfra.dev/summit/vancouver-2023/summit-sponsor). If you’re ready to speak with someone today, please contact summit@openinfra.dev and our sponsor team will get back to you right away.
+
+**What sponsorship opportunities are available in Vancouver?** <br/>
+The [OpenInfra Summit Vancouver Prospectus](https://openinfra.dev/img/summit/vancouver-2023/YVR2023-sponsor-prospectus-v3.pdf) has a number of unique and exciting opportunities from the Diversity Lunch to the Contributor’s Corner and more! If you have ideas that aren’t in the prospectus, please reach out to summit@openinfra.dev and we can work with you to customize your experience.
+
+**Can my organization still sponsor if we are not sending team members to the OpenInfra Summit in person?** <br/>
+Yes! The [OpenInfra Summit Vancouver Prospectus](https://openinfra.dev/img/summit/vancouver-2023/YVR2023-sponsor-prospectus-v3.pdf) offers a no-booth Supporter level. Contact summit@openinfra.dev for additional details.
+
+**I’m ready to sign right now! How do I do it?** <br/>
+The [OpenInfra Summit Vancouver Sponsor Agreement](https://openstack.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDkpc6y2KmsNua_KaN5XVyf67tMeHAcgmLzv2oqr46rSvJ6QjwUenH3g_wxEp_UPZo*) is ready for your signature. If you have additional questions, please contact summit@openinfra.dev.

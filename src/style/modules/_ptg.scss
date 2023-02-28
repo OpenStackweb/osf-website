@@ -231,36 +231,53 @@
       text-transform: none;
     }
     .ptg-who-teams-list {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        li {
+          width: 25%;
+        }
+        @media screen and (max-width: 1100px) {
+          flex-basis: 100%;
+          li {
+            width: 50%;
+          }
+        }
+        @media screen and (max-width: 560px) {
+          flex-basis: 100%;
+          li {
+            width: 100%;
+          }
+        }
+      }
       display: flex;
       flex-wrap: wrap;
-      padding: 35px 0;
+      padding: 0;
       justify-content: space-between;
       ul {
         list-style-type: none;
         padding-left: 0;
         margin: 0;
-        @media screen and (max-width: 1100px) and (min-width: 561px) {
-          &:nth-child(1) {
-            order: 1;
-            flex-basis: 60%;
-          }
-          &:nth-child(2) {
-            order: 3;
-            flex-basis: 60%;
-          }
-          &:nth-child(3) {
-            order: 2;
-            flex-basis: 40%;
+        // @media screen and (max-width: 1100px) and (min-width: 561px) {
+        //   &:nth-child(1) {
+        //     order: 1;
+        //     flex-basis: 60%;
+        //   }
+        //   &:nth-child(2) {
+        //     order: 3;
+        //     flex-basis: 60%;
+        //   }
+        //   &:nth-child(3) {
+        //     order: 2;
+        //     flex-basis: 40%;
 
-          }
-          &:nth-child(4) {
-            order: 4;
-            flex-basis: 40%;
-          }
-        }
-        @media screen and (max-width: 560px) {
-          flex-basis: 100%;
-        }
+        //   }
+        //   &:nth-child(4) {
+        //     order: 4;
+        //     flex-basis: 40%;
+        //   }
+        // }
         li {
           text-decoration: none;
           margin: 0 0 15px 0;

@@ -8,6 +8,10 @@
   color: $white;
 }
 
+.companies-s1-main .companies-s1-container:first-child .companies-s1-1-container > div a:nth-last-of-type(2) img {
+  width: 130px;
+}
+
 .companies-s1-container {
   background-color: $white;
   width: calc(100% - 60px);
@@ -66,13 +70,6 @@
     .company-level-platinum {
       img {
         width: 180px;
-      }
-      a {
-        &:nth-last-of-type(2) {
-          img {
-            width: 130px;
-          }
-        }
       }
     }
     .company-level-gold {

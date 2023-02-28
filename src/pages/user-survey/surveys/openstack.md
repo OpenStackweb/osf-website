@@ -46,7 +46,7 @@ When looking at the release of the deployment, the majority of organizations are
 - Kilo: 2%
 - Less than 1% of deployments logged in the OpenStack User Survey run Essex through Juno.
 
-![OpenStack - Projects used in Production Deployments](/img/user-survey/user-survey-deployments 1.png)
+<img src="/img/user-survey/user-survey-deployments 1.png" alt="OpenStack - Projects used in Production Deployments">
 
 **Among the environments running OpenStack, several individual components saw considerable growth in production clouds:**
 

@@ -144,7 +144,7 @@ The first step is to fill out [the interest survey](https://openinfrafoundation.
 The PTG will be co-located within the OpenInfra Summit so by registering for the Summit, you are registered for the PTG as well. There is no separate registration. You can [register for the Summit here](https://vancouver2023.openinfra.dev)!
 
 **When will the schedule for the PTG be available?** <br/>
-April 21 is the deadline to submit a discussion topic.The schedule will be available mid April but will be dynamic and subject to change, so please keep an eye on communications! Teams that have signed up to participate will be contacted at the end of April to schedule themselves via the PTGBot the same way they do for virtual PTG events.
+The schedule will be available mid April but will be dynamic and subject to change, so please keep an eye on communications! Teams that have signed up to participate will be contacted at the end of April to schedule themselves via the PTGBot the same way they do for virtual PTG events.
 
 **Is discounted registration available for OpenInfra contributors?** <br>
 Contributors to OpenInfra projects (OpenStack, Kata Containers, Zuul, StarlingX, Airship, and OpenInfra Labs) who have committed a change in the last six months as of January 1, 2023 are eligible to receive discounted registration for the OpenInfra Summit. Each eligible contributor will receive the code via email. Contributor registration prices will increase on February 15 at 11:59pm PT.

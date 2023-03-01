@@ -119,6 +119,7 @@ export const PTGPageTemplate = ({
                     <li>Edge Computing Group</li>
                     <li>Environmental Sustainability WG</li>
                     <li>Interop WG</li>
+                    <li>Kata Containers</li>
                     <li>StarlingX</li>
                   </ul>
                 </div>

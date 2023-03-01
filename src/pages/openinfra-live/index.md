@@ -14,6 +14,14 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     15:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: false
+    date: 2023-03-09T15:00:00.000Z
+    episodeTitle: Examination of Cost Differences Between Private Cloud and Hyperscalers
+    episodeDescription: "Todd Robinson, president of OpenMetal, will discuss the
+      examination of cost differences between private cloud and hyperscalers. "
+    episodeSpeakers: "Todd Robinson, Jimmy McArthur "
+    youtubeEmbed: https://www.youtube.com/embed/6GCGhuRpPqM
+    youtubeLink: https://www.youtube.com/watch?v=6GCGhuRpPqM
   - facebookLink: https://www.facebook.com/events/677204717420396
     episodeDescription: >
       Members of the OpenStack community will introduce how Cyborg, an OpenStack

@@ -88,19 +88,20 @@ members:
     picture: /img/about-staff/thierry.jpeg
     title: General Manager
     twitter: https://twitter.com/tcarrez
-  - description: Wes Wilson is VP of Operations for the OpenInfra Foundation. He has
-      spent two decades in startups including founding Brandstack, a graphic
-      design marketplace that was acquired in 2011.  He focuses on product
-      development and strategy, helping to align the foundation's efforts with
-      the communities it serves. In his free time, he enjoys traveling, rooting
-      for the San Antonio Spurs, and spending time with his wife and three kids.
+  - description: Wes Wilson is Director of Product & Engineering for the OpenInfra
+      Foundation. He has spent two decades in startups including founding
+      Brandstack, a graphic design marketplace that was acquired in 2011.  He
+      focuses on product development and strategy, helping to align the
+      foundation's efforts with the communities it serves. In his free time, he
+      enjoys traveling, rooting for the San Antonio Spurs, and spending time
+      with his wife and three kids.
     linkedin: https://www.linkedin.com/in/iamweswilson
     name: Wes Wilson
     openStack: https://www.openstack.org/community/members/profile/20997
     picture: /img/about-staff/Wes-headshot.jpg
-    title: VP of Operations
+    title: Director of Product & Engineering
     twitter: https://twitter.com/iamweswilson
-  - description: "Allison is the VP of Marketing & Community at the OpenInfra
+  - description: "Allison is the Director of Marketing & Community at the OpenInfra
       Foundation (previously the OpenStack Foundation). Her mission is to
       continue the storytelling of the global community by building
       relationships with the developers, operators and ecosystem around global
@@ -110,7 +111,7 @@ members:
     name: Allison Price
     openStack: https://www.openstack.org/community/members/profile/17777
     picture: /img/about-staff/AllisonPrice.jpg
-    title: VP of Marketing & Community
+    title: Director of Marketing & Community
     twitter: https://twitter.com/amprice88
   - description: It all started as a volunteer sysadmin at Portland State
       University. Since then Clark has operated  large network infrastructures,

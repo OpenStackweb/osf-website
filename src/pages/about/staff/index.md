@@ -99,7 +99,7 @@ members:
     name: Wes Wilson
     openStack: https://www.openstack.org/community/members/profile/20997
     picture: /img/about-staff/Wes-headshot.jpg
-    title: Director of Product & Engineering
+    title: VP of Operations
     twitter: https://twitter.com/iamweswilson
   - description: "Allison is the Director of Marketing & Community at the OpenInfra
       Foundation (previously the OpenStack Foundation). Her mission is to
@@ -111,7 +111,7 @@ members:
     name: Allison Price
     openStack: https://www.openstack.org/community/members/profile/17777
     picture: /img/about-staff/AllisonPrice.jpg
-    title: Director of Marketing & Community
+    title: VP of Marketing & Community
     twitter: https://twitter.com/amprice88
   - description: It all started as a volunteer sysadmin at Portland State
       University. Since then Clark has operated  large network infrastructures,

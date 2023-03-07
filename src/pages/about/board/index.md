@@ -361,22 +361,6 @@ members:
     openStack: https://www.openstack.org/community/members/profile/119260
     picture: /img/xuwang.jpg
     title: Platinum Director
-  - company: Huawei
-    description: >-
-      Bill Ren holds an EMBA and Master Degree from PeKing University, and a CS
-      Bachelor Degree from Shanghai Jiaotong University. Since Joining Huawei in
-      2000，Bill served as an Intelligent Network Research and Development
-      Engineer, Product Manager and Architect of India Branch, General Manager
-      of Business OSS, Vice President of Network OSS, Vice President of Network
-      OSS Strategy and MKT, Vice President of Solution MKTG, etc. We have
-      accumulated rich experience in R&D, marketing and product management.</p>
-
-      <p>Mr. Ren Xudong（Bill Ren）serves as the General Manager of ICT Infrastructure Open Source Business at Huawei Technologies Co. Ltd, and as the chief liaison officer of Huawei. In this role，he is fully responsible for the implementation of open source solutions for operators/enterprises in the network automation industry, using open source means to build industrial ecology, expand industrial space, build a healthy and harmonious industrial environment, and support the success of the company's business.
-    name: Xudong Ren
-    openStack: https://www.openstack.org/community/members/profile/124742
-    picture: /img/billren.jpg
-    title: Platinum Director
-    twitter: ""
   - company: China Unicom
     description: LIU Yulong currently works at China Unicom Cloud for research,
       development and management for a team of Cloud Networking. He has been
@@ -395,4 +379,11 @@ members:
     picture: /img/board/YulongLiu.jpg
     title: Gold Director
     twitter: https://www.twitter.com/yulongliu
+  - company: Huawei
+    description: >-
+      Zhou Junyi serves as the president of Huawei Cloud Network Open Source Development Team, having 16 years of experience in Huawei and 6 years of experience in open source software engagement. He used to be the Director of Packet Core Department in ICT, leading the department developed multiple products in 4G and 5G. He is also an expert in core network, cloud native, cyber security and software engineering.
+    name: Zhou Junyi
+    picture: /img/zhou-junyi.jpg
+    title: Platinum Director
+    twitter: ""
 ---

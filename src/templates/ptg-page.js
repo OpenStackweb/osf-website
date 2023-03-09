@@ -147,6 +147,7 @@ export const PTGPageTemplate = ({
                     <li>OpenStack-Ansible</li>
                     <li>OpenStackCharms</li>
                     <li>QA</li>
+                    <li>Swift</li>
                     <li>Tacker</li>
                   </ul>
                 </div>

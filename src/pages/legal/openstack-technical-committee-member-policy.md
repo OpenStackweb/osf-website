@@ -22,9 +22,9 @@ footer:
 
 ### Technical Committee Member Policy
 
-1. Membership of Technical Committee. All members selected to the Technical Committee shall be Individual Members. A member of the Technical Committee may cease to be an Individual Member during their Term, but must be an Individual Member at the time of nomination.
+1.\ Membership of Technical Committee. All members selected to the Technical Committee shall be Individual Members. A member of the Technical Committee may cease to be an Individual Member during their Term, but must be an Individual Member at the time of nomination.
 
-2. Election to Technical Committee.
+2.\ Election to Technical Committee.
 
 (a) The members of the Technical Committee shall be elected by a vote of the Active Technical Contributors (“ATC”) using a fair voting method determined by the Technical Committee. Each Technical Committee member shall hold the seat for a term not to exceed sixteen months, but may be re-elected to the Technical Committee. After January 1, 2019, the term for the members of the Technical Committee shall be approved by a majority of the Technical Committee (“Term”) and shall be published publicly before each Technical Committee election; if no such Term is published the Term will be twelve calendar months. After January 1, 2019, the elections for the Technical Committee shall be held in two phases: the first election being for at least half of the members of the Technical Committee and the second election being for the remaining members of Technical Committee.
 
@@ -34,7 +34,7 @@ footer:
 
 (d) On the written request of at least three (3) members of the Technical Committee, the Board of Directors shall appoint a mediator to assist in the resolution of any dispute or deadlock in the Technical Committee.
 
-3. Determination of Active Technical Contributor.
+3.\ Determination of Active Technical Contributor.
 
 (a) An ATC shall be determined as follows:
 (i) An ATC is an Individual Member who has had a contribution approved for inclusion in any of the official OpenStack Projects during one of the two prior release cycles of the Core OpenStack Project (“Approved Contribution”). Such Individual Member shall remain an ATC for three hundred and sixty five days after the date of acceptance of such Approved Contribution.
@@ -43,6 +43,6 @@ footer:
 
 (b) The Technical Committee shall maintain a list of ATCs and their contact information and a written description of the procedures for electing the members of the Technical Committee. The chair of the Technical Committee shall provide such list and such written description to any member of the Board of Directors or Member upon their request.
 
-4. Meetings of Technical Committee. The Technical Committee shall meet at least twice per calendar year.
+4.\ Meetings of Technical Committee. The Technical Committee shall meet at least twice per calendar year.
 
-5. Technical Committee Process. Except as expressly provided in these Bylaws, the Technical Committee shall determine its process and procedures, provided that such process and procedures must be published in a manner that they are readily accessible to all Members of the Foundation.
+5.\ Technical Committee Process. Except as expressly provided in these Bylaws, the Technical Committee shall determine its process and procedures, provided that such process and procedures must be published in a manner that they are readily accessible to all Members of the Foundation.

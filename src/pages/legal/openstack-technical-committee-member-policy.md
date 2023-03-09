@@ -22,7 +22,7 @@ footer:
 
 ### Technical Committee Member Policy
 
-1. Membership of Technical Committee. All members selected to the Technical Committee shall be Individual Members. A member of the Technical Committee may cease to be an Individual Member during his or her Term, but must be an Individual Member at the time of nomination.
+1. Membership of Technical Committee. All members selected to the Technical Committee shall be Individual Members. A member of the Technical Committee may cease to be an Individual Member during their Term, but must be an Individual Member at the time of nomination.
 
 2. Election to Technical Committee.
 

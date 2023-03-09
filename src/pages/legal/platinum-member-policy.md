@@ -28,7 +28,7 @@ footer:
 
 (b) The renewal term of each Platinum Member shall begin on January 1 of the calendar year after the end of the initial term and shall continue for three (3) years.
 
-(c) The Executive Director or his designee shall provide written notice to each Platinum Member at least nine months (but not more than twelve months) prior to the last day of the term of the Platinum Member which notice shall include the date of such termination and the required date of response. The Platinum Member must give written notice to the Secretary on or before six months prior to the last day of the term of such Platinum Member of its election to renew or not renew its term. If the Platinum Member does not give such notice, its term will automatically terminate upon December 31 of such year.
+(c) The Executive Director or their designee shall provide written notice to each Platinum Member at least nine months (but not more than twelve months) prior to the last day of the term of the Platinum Member which notice shall include the date of such termination and the required date of response. The Platinum Member must give written notice to the Secretary on or before six months prior to the last day of the term of such Platinum Member of its election to renew or not renew its term. If the Platinum Member does not give such notice, its term will automatically terminate upon December 31 of such year.
 
 (d) If any new Platinum Member is admitted to membership to fill a vacancy in the Platinum Members during the initial term, then the term of the new Platinum Member shall be the remaining term of the Platinum Member whose vacancy was filled.
 

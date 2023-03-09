@@ -26,7 +26,7 @@ footer:
 
 (a) The effective date of membership for a Gold Member shall be the date on which the prospective member has executed the Gold Member Agreement and the admission has been approved by the Executive Director.
 
-(b) The Executive Director or his designee shall provide written notice to each Gold Member at least three months prior to the last day of the term of the Gold Member which notice shall include the date of such termination and the required date of response. Each Gold Member must give written notice to the Secretary by November 1 of each calendar year that it will renew its membership. If the Gold Member does not give such notice, its term will automatically terminate upon December 31 of such year.
+(b) The Executive Director or their designee shall provide written notice to each Gold Member at least three months prior to the last day of the term of the Gold Member which notice shall include the date of such termination and the required date of response. Each Gold Member must give written notice to the Secretary by November 1 of each calendar year that it will renew its membership. If the Gold Member does not give such notice, its term will automatically terminate upon December 31 of such year.
 
 (c) If any new Gold Member is admitted to membership to fill a vacancy in the Gold Members during the initial term, then the term of the new Gold Member shall be the remaining term of the Gold Member whose vacancy was filled.
 

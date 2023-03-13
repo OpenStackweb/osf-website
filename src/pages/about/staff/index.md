@@ -88,16 +88,19 @@ members:
     picture: /img/about-staff/thierry.jpeg
     title: General Manager
     twitter: https://twitter.com/tcarrez
-  - description: Wes Wilson is VP of Operations for the OpenInfra Foundation. He has
-      spent two decades in startups including founding Brandstack, a graphic
-      design marketplace that was acquired in 2011.  He focuses on product
-      development and strategy, helping to align the foundation's efforts with
-      the communities it serves. In his free time, he enjoys traveling, rooting
-      for the San Antonio Spurs, and spending time with his wife and three kids.
+  - description: As the VP of Operations at the OpenInfra Foundation, Wes is
+      responsible for business operations, as well as, product strategy and
+      execution. The root of his role is to provide value to our community of
+      corporate members, developers, and users through buildout, management, and
+      strategy of key operations functions. Prior to joining OpenInfra
+      Foundation, he spent two decades in startups and has worn many hats from
+      creative to product and marketing. In his free time, he enjoys traveling,
+      rooting for the San Antonio Spurs, and spending time with his wife and
+      three kids.
     linkedin: https://www.linkedin.com/in/iamweswilson
     name: Wes Wilson
     openStack: https://www.openstack.org/community/members/profile/20997
-    picture: /img/about-staff/Wes-headshot.jpg
+    picture: /img/1678642185544.jpg
     title: VP of Operations
     twitter: https://twitter.com/iamweswilson
   - description: "Allison is the VP of Marketing & Community at the OpenInfra

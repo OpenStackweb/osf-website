@@ -53,7 +53,7 @@ export const SummitOnsitePageTemplate = ({
           <div className='container'>
             <section className='summit-wifi' id="wifi">
               <div className='wifi-left'>
-                <img src="/img/summit/vancouver/OIVancouver-Logo.png" />
+                <img src="/img/summit/vancouver-2023/oi-vancouver-logo.svg" />
               </div>
               <div className='wifi-right'>
                 <p>Wireless internet password coming soon</p>

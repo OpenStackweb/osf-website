@@ -55,10 +55,11 @@ export const SummitOnsitePageTemplate = ({
               <div className='wifi-left'>
                 <img src="/img/summit/berlin/summit-berlin-logo.svg" />
               </div>
-              <div className='wifi-right'>git
-                <p>How to get online while in the Summit venue:</p>
+              <div className='wifi-right'>
+                <p>Wireless internet password coming soon</p>
+                {/* <p>How to get online while in the Summit venue:</p>
                 <p>SSID: <strong>OpenInfraSummit</strong></p>
-                <p>PW: <strong>Weareopeninfra!</strong></p>
+                <p>PW: <strong>Weareopeninfra!</strong></p> */}
               </div>
             </section>
           </div>
@@ -68,19 +69,23 @@ export const SummitOnsitePageTemplate = ({
               <a href="/files/OpenInfraSummit-BCC-Map.pdf">
                 {/* <img className='venue-map' src="/img/summit/berlin/OpenInfraSummit-BCC-Map.jpg" /> */}
               </a>
+              <p>Venue map coming soon</p>
               {/* <a href="/files/OpenInfraSummit-BCC-Map.pdf" class="map-link">Download the Full Map</a> */}
             </div>
           </section>
           <div className='container'>
             <section className='summit-schedule' id="schedule">
-              {/* <h3 className='fix-h3'>Summit Schedule</h3>
+              <h3 className='fix-h3'>Summit Schedule</h3>
               <p>
-              Here's a high-level look at what's happening during the Summit. You can find more details by viewing the <a href="/summit/berlin-2022/summit-schedule">full Summit schedule</a>.
+              Here's a high-level look at what's happening during the Summit. You can find more details by viewing the <a href="https://vancouver2023.openinfra.dev/a/schedule">full Summit schedule</a>.
               </p>
               <p>
+              Summit schedule overview coming soon
+              </p>
+              {/* <p>
                 <strong>Monday 3:30pm - 5:30pm:</strong> Register before the Tuesday crowd and grab a beverage at <a href="/summit/berlin-2022/summit-schedule#title=badges&view=calendar">Badges and Beverages</a> in the OpenInfra Plaza.
-              </p>
-              <div className='schedule-summary'>
+              </p> */}
+              {/* <div className='schedule-summary'>
                 <div className='schedule-left'>
                   <div className='schedule-top'>
                     Tuesday

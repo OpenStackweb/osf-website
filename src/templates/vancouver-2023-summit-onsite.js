@@ -53,12 +53,13 @@ export const SummitOnsitePageTemplate = ({
           <div className='container'>
             <section className='summit-wifi' id="wifi">
               <div className='wifi-left'>
-                <img src="/img/summit/berlin/summit-berlin-logo.svg" />
+                <img src="/img/summit/vancouver-2023/oi-vancouver-logo.svg" />
               </div>
               <div className='wifi-right'>
-                <p>How to get online while in the Summit venue:</p>
+                <p>Wireless internet password coming soon</p>
+                {/* <p>How to get online while in the Summit venue:</p>
                 <p>SSID: <strong>OpenInfraSummit</strong></p>
-                <p>PW: <strong>Weareopeninfra!</strong></p>
+                <p>PW: <strong>Weareopeninfra!</strong></p> */}
               </div>
             </section>
           </div>
@@ -66,21 +67,25 @@ export const SummitOnsitePageTemplate = ({
             <div className='container'>
               <h3 className='fix-h3'>Venue Map</h3>
               <a href="/files/OpenInfraSummit-BCC-Map.pdf">
-                <img className='venue-map' src="/img/summit/berlin/OpenInfraSummit-BCC-Map.jpg" />
+                {/* <img className='venue-map' src="/img/summit/berlin/OpenInfraSummit-BCC-Map.jpg" /> */}
               </a>
-              <a href="/files/OpenInfraSummit-BCC-Map.pdf" class="map-link">Download the Full Map</a>
+              <p>Venue map coming soon</p>
+              {/* <a href="/files/OpenInfraSummit-BCC-Map.pdf" class="map-link">Download the Full Map</a> */}
             </div>
           </section>
           <div className='container'>
             <section className='summit-schedule' id="schedule">
               <h3 className='fix-h3'>Summit Schedule</h3>
               <p>
-              Here's a high-level look at what's happening during the Summit. You can find more details by viewing the <a href="/summit/berlin-2022/summit-schedule">full Summit schedule</a>.
+              Here's a high-level look at what's happening during the Summit. You can find more details by viewing the <a href="https://vancouver2023.openinfra.dev/a/schedule">full Summit schedule</a>.
               </p>
               <p>
-                <strong>Monday 3:30pm - 5:30pm:</strong> Register before the Tuesday crowd and grab a beverage at <a href="/summit/berlin-2022/summit-schedule#title=badges&view=calendar">Badges and Beverages</a> in the OpenInfra Plaza.
+              Summit schedule overview coming soon
               </p>
-              <div className='schedule-summary'>
+              {/* <p>
+                <strong>Monday 3:30pm - 5:30pm:</strong> Register before the Tuesday crowd and grab a beverage at <a href="/summit/berlin-2022/summit-schedule#title=badges&view=calendar">Badges and Beverages</a> in the OpenInfra Plaza.
+              </p> */}
+              {/* <div className='schedule-summary'>
                 <div className='schedule-left'>
                   <div className='schedule-top'>
                     Tuesday
@@ -254,9 +259,9 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div class="button">
-                <a href="/summit-schedule">Full Schedule <img src={leftArrow} alt="left" /></a>
+                <a href="https://vancouver2023.openinfra.dev/a/schedule">Full Schedule <img src={leftArrow} alt="left" /></a>
               </div>
             </section>
           </div>
@@ -305,7 +310,7 @@ export const SummitOnsitePageTemplate = ({
                   <img src="/img/summit/berlin/star.svg" />
                   <h3 className='fix-h3'>Rate the Summit</h3>
                   <p>
-                  Your feedback is important and helps us shape future OpenInfra events! Let us know how we're doing by sharing your feedback in the <a href="https://bit.ly/BerlinSummit22Survey">attendee survey</a>.
+                  Your feedback is important and helps us shape future OpenInfra events! Let us know how we're doing by sharing your feedback in the attendee survey.
                   </p>
                 </div>
               </div>

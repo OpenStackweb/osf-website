@@ -21,7 +21,7 @@
   force = true
 [[redirects]]
   from = "/summit-onsite"
-  to = "/summit/berlin-2022/summit-onsite"
+  to = "/summit/vancouver-2023/summit-onsite"
   status = 301
   force = true
 [[redirects]]

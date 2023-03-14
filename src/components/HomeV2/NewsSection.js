@@ -49,6 +49,13 @@ const NewsSection = class extends React.Component {
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
                         <div className="news-article-inner-container">
+                            <a href="https://www.sdxcentral.com/articles/news/starlingx-8-0-targets-telcos-o-ran-with-open-source-cloud-and-edge-platform/2023/02/"><img src="/img/homeV2/news-images/starlingx-8-img.jpg" /></a>
+                            <p className="news-article-intro-text">Sean Michael Kerner • Feb 23, 2023</p>
+                            <a href="https://www.sdxcentral.com/articles/news/starlingx-8-0-targets-telcos-o-ran-with-open-source-cloud-and-edge-platform/2023/02/"><h3>StarlingX 8.0 Targets Telcos, O-RAN With Open Source Cloud and Edge Platform</h3></a>
+                            <p className="news-article-content">In September of 2022, the StarlingX community announced the R7.0 release with new features and enhancements to the platform.</p>
+                            <a className="news-article-link" href="https://www.sdxcentral.com/articles/news/starlingx-8-0-targets-telcos-o-ran-with-open-source-cloud-and-edge-platform/2023/02/">READ MORE</a>
+                        </div>
+                        <div className="news-article-inner-container">
                             <a href="https://www.zdnet.com/article/kata-containers-3s-marriage-of-virtual-machines-and-containers-continues/"><img src="/img/homeV2/news-images/kata-article-img.webp" /></a>
                             <p className="news-article-intro-text">Steven Vaughan-Nichols • Oct 11, 2022</p>
                             <a href="https://www.zdnet.com/article/kata-containers-3s-marriage-of-virtual-machines-and-containers-continues/"><h3>Kata Containers 3's marriage of virtual machines and containers continues</h3></a>
@@ -61,13 +68,6 @@ const NewsSection = class extends React.Component {
                             <a href="https://www.zdnet.com/article/openstack-from-austin-to-zed/"><h3>OpenStack from Austin to Zed</h3></a>
                             <p className="news-article-content">OpenStack has come a long way from its first release to its latest as it has matured from a private cloud to a multi-purpose cloud for any and all purposes</p>
                             <a className="news-article-link" href="https://www.zdnet.com/article/openstack-from-austin-to-zed/">READ MORE</a>
-                        </div>
-                        <div className="news-article-inner-container">
-                            <a href="https://www.starlingx.io/blog/starlingx-release-7/"><img src="/img/homeV2/news-images/news-img-2.png" /></a>
-                            <p className="news-article-intro-text">Ildiko Vancsa • Sep 13, 2022</p>
-                            <a href="https://www.starlingx.io/blog/starlingx-release-7/"><h3>StarlingX R 7.0 is here!</h3></a>
-                            <p className="news-article-content">In September of 2022, the StarlingX community announced the R7.0 release with new features and enhancements to the platform.</p>
-                            <a className="news-article-link" href="https://www.starlingx.io/blog/starlingx-release-7/">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">
                             <a href="https://openinfra.dev/blog/open-for-business-open-infra-foundation-launches-directed-funding-for-openinfra-project-hosting-replicating-success-of-openstack-kata-containers-starlingx"><img src="/img/homeV2/news-images/openinfra-article-img.jpg" /></a>

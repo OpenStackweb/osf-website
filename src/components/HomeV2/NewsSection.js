@@ -52,7 +52,7 @@ const NewsSection = class extends React.Component {
                             <a href="https://www.sdxcentral.com/articles/news/starlingx-8-0-targets-telcos-o-ran-with-open-source-cloud-and-edge-platform/2023/02/"><img src="/img/homeV2/news-images/starlingx-8-img.jpg" /></a>
                             <p className="news-article-intro-text">Sean Michael Kerner • Feb 23, 2023</p>
                             <a href="https://www.sdxcentral.com/articles/news/starlingx-8-0-targets-telcos-o-ran-with-open-source-cloud-and-edge-platform/2023/02/"><h3>StarlingX 8.0 Targets Telcos, O-RAN With Open Source Cloud and Edge Platform</h3></a>
-                            <p className="news-article-content">In September of 2022, the StarlingX community announced the R7.0 release with new features and enhancements to the platform.</p>
+                            <p className="news-article-content">The Open Infrastructure Foundation today announced the general availability of StarlingX 8.0, which provides telcos with a new open source cloud and edge computing...</p>
                             <a className="news-article-link" href="https://www.sdxcentral.com/articles/news/starlingx-8-0-targets-telcos-o-ran-with-open-source-cloud-and-edge-platform/2023/02/">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">

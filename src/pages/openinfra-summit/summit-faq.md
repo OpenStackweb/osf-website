@@ -78,8 +78,6 @@ Yes, if you are a key contributor to an open infrastructure project and your com
 
 The Travel Support Program's aim is to facilitate the participation of key contributors to the Open Infrastructure Summit by covering the costs for their travel and accommodation. The OpenInfra Foundation sets aside a fund to support this program. If you are a key contributor to a project managed by the Foundation and your company does not cover the costs of your travel and accommodation to Vancouver, you can apply for the Travel Support Program.
 
-[Apply for Travel Support by filling out this application.](https://openinfrafoundation.formstack.com/forms/openinfra_tsp)
-
 DEADLINE TO APPLY: March 15, 2023 <br>
 Approved grantees will be notified the week of April 3, 2023.
 

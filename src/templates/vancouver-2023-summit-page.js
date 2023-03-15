@@ -138,7 +138,7 @@ export const SummitPageTemplate = ({
               <span className="title">Travel Support Program & Visa Letters</span>
               <span className="description">Need assistance getting to the Vancouver Summit? We can help! If you are a key contributor to open infrastructure and your company does not cover the costs of your travel and accommodation, you can apply for the Travel Support Program. We can also provide you with a visa invitation letter from the Foundation to meet travel requirements.</span>
               <div className="links-row">
-                <LinkComponent className="summit-cta" href="https://buy.stripe.com/eVa9DMcaBbHkdNu9AA" >Donate Now<img src={leftArrow} alt="" /></LinkComponent>
+                {/* <LinkComponent className="summit-cta" href="https://buy.stripe.com/eVa9DMcaBbHkdNu9AA" >Donate Now<img src={leftArrow} alt="" /></LinkComponent> */}
                 <LinkComponent className="summit-cta" href="https://openinfrafoundation.formstack.com/forms/visa_yvrsummit2023" >Get Visa Letter<img src={leftArrow} alt="" /></LinkComponent>
               </div>
               <p className="description travel-description">Students and non-profit / government workers can <a href="https://openinfrafoundation.formstack.com/forms/yvr2023summit_discountedreg_app">apply for discounted registration</a>.</p>

@@ -24,6 +24,7 @@ episodes:
     youtubeEmbed: https://www.youtube.com/embed/ZIjpEZSu1gw
     episodeTitle: "Large Scale Ops Deep Dive: Société Générale"
     youtubeLink: https://www.youtube.com/watch?v=ZIjpEZSu1gw
+    episodeSpeakers: ""
   - hidden: false
     date: 2023-03-23T15:00:00.000Z
     youtubeEmbed: https://www.youtube.com/embed/YdLTUTyJ1eU

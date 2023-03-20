@@ -25,19 +25,22 @@ episodes:
     episodeTitle: "Large Scale Ops Deep Dive: Société Générale"
     youtubeLink: https://www.youtube.com/watch?v=ZIjpEZSu1gw
     episodeSpeakers: ""
-  - hidden: false
+    linkedinLink: https://www.linkedin.com/events/7043641361979346944/comments/
+  - facebookLink: ""
+    episodeDescription: >
+      Carlos Silva, Rajat Dhasmana, Sylvain Bauza, Jay Faulkner and Kendall
+      Nelson 
+    hidden: false
     date: 2023-03-23T15:00:00.000Z
-    youtubeEmbed: https://www.youtube.com/embed/YdLTUTyJ1eU
-    youtubeLink: https://www.youtube.com/watch?v=YdLTUTyJ1eU
     episodeSpeakers: The OpenStack community released Antelope, the 27th version of
       the world’s most widely deployed open source cloud infrastructure
       software, this week. Join us to learn about the latest from community
       leaders about what was delivered in Antelope and what we can expect in
       Bobcat, OpenStack's 28th release targeting October 2023.
-    episodeDescription: >
-      Carlos Silva, Rajat Dhasmana, Sylvain Bauza, Jay Faulkner and Kendall
-      Nelson 
+    youtubeEmbed: https://www.youtube.com/embed/YdLTUTyJ1eU
+    linkedinLink: https://www.linkedin.com/events/7042534262494941185/comments/
     episodeTitle: "OpenStack Antelope: A New Era"
+    youtubeLink: https://www.youtube.com/watch?v=YdLTUTyJ1eU
   - hidden: false
     date: 2023-03-09T15:00:00.000Z
     episodeTitle: Examination of Cost Differences Between Private Cloud and Hyperscalers

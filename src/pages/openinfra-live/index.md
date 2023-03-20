@@ -15,7 +15,17 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2023-03-23T17:50:34.105Z
+    date: 2023-04-06T15:00:00.000Z
+    episodeDescription: >
+      In the "Large Scale Ops Deep Dive" series, a panel of OpenStack operators
+      invites special guests to talk about their deployment and discuss their
+      operations. For this episode, our guest will be Guillaume Allard from
+      Société Générale, one of France’s largest banks.
+    youtubeEmbed: https://www.youtube.com/embed/ZIjpEZSu1gw
+    episodeTitle: "Large Scale Ops Deep Dive: Société Générale"
+    youtubeLink: https://www.youtube.com/watch?v=ZIjpEZSu1gw
+  - hidden: false
+    date: 2023-03-23T15:00:00.000Z
     youtubeEmbed: https://www.youtube.com/embed/YdLTUTyJ1eU
     youtubeLink: https://www.youtube.com/watch?v=YdLTUTyJ1eU
     episodeSpeakers: The OpenStack community released Antelope, the 27th version of

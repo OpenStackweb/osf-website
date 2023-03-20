@@ -15,6 +15,19 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2023-03-23T17:50:34.105Z
+    youtubeEmbed: https://www.youtube.com/embed/YdLTUTyJ1eU
+    youtubeLink: https://www.youtube.com/watch?v=YdLTUTyJ1eU
+    episodeSpeakers: The OpenStack community released Antelope, the 27th version of
+      the world’s most widely deployed open source cloud infrastructure
+      software, this week. Join us to learn about the latest from community
+      leaders about what was delivered in Antelope and what we can expect in
+      Bobcat, OpenStack's 28th release targeting October 2023.
+    episodeDescription: >
+      Carlos Silva, Rajat Dhasmana, Sylvain Bauza, Jay Faulkner and Kendall
+      Nelson 
+    episodeTitle: "OpenStack Antelope: A New Era"
+  - hidden: false
     date: 2023-03-09T15:00:00.000Z
     episodeTitle: Examination of Cost Differences Between Private Cloud and Hyperscalers
     episodeDescription: "Todd Robinson, president of OpenMetal, will discuss the

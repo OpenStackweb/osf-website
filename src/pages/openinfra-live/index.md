@@ -12,7 +12,7 @@ hero:
     case studies, open source demos, industry conversations, and the latest
     updates from the global open infrastructure community! <br /> <br /> Catch
     every episode on several streaming platforms, airing <strong>Thursdays at
-    15:00 UTC (9am CT)</strong>."
+    14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
     date: 2023-04-06T15:00:00.000Z

@@ -29,15 +29,15 @@ episodes:
     linkedinLink: https://www.linkedin.com/events/7043641361979346944/comments/
   - facebookLink: ""
     episodeDescription: >
-      Carlos Silva, Rajat Dhasmana, Sylvain Bauza, Jay Faulkner and Kendall
-      Nelson 
+      The OpenStack community released Antelope, the 27th version of the world’s
+      most widely deployed open source cloud infrastructure software, this week.
+      Join us to learn about the latest from community leaders about what was
+      delivered in Antelope and what we can expect in Bobcat, OpenStack's 28th
+      release targeting October 2023.
     hidden: false
     date: 2023-03-23T14:00:00.000Z
-    episodeSpeakers: The OpenStack community released Antelope, the 27th version of
-      the world’s most widely deployed open source cloud infrastructure
-      software, this week. Join us to learn about the latest from community
-      leaders about what was delivered in Antelope and what we can expect in
-      Bobcat, OpenStack's 28th release targeting October 2023.
+    episodeSpeakers: "Carlos Silva, Rajat Dhasmana, Sylvain Bauza, Jay Faulkner and
+      Kendall Nelson "
     youtubeEmbed: https://www.youtube.com/embed/YdLTUTyJ1eU
     linkedinLink: https://www.linkedin.com/events/7042534262494941185/comments/
     episodeTitle: "OpenStack Antelope: A New Era"

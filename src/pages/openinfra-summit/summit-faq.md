@@ -71,6 +71,22 @@ Yes, refunds and ticket transfers will be processed until May 26, 2023 at 11:59p
 **The link I had for OpenInfra Summit registration requires a password. How do I register?** <br>
 In an effort to leverage more open source solutions, we are now using an open source tool for OpenInfra Summit registration. You can register here: [vancouver2023.openinfra.dev](https://vancouver2023.openinfra.dev/)
 
+**Are there any discounted hotel blocks available for OpenInfra Summit attendees?** <br>
+There are not discounted hotel blocks available for the OpenInfra Summit, but we have collected several hotels with availability that are walkable to the Vancouver Convention Centre. 
+
+**What hotels are nearby the OpenInfra Summit venue?** <br>
+- [Century Plaza Hotel](https://www.century-plaza.com/)
+- [Blue Horizon Hotel](https://www.bluehorizonhotel.com/)
+- [Sutton Place Hotel Vancouver](https://www.suttonplace.com/vancouver?utm_source=google&utm_medium=maps&utm_campaign=vancouver) 
+- [Pinnacle Hotel Harbourfront](https://www.pinnacleharbourfronthotel.com/?_ga=2.137609715.2123793175.1678904587-1149922792.1678904587) 
+- [Moda Hotel](https://www.modahotel.ca/) 
+- [Metropolitan Hotel Vancouver](https://www.marriott.com/en-us/hotels/yvrbr-metropolitan-hotel-vancouver/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0) 
+- [Sheraton Vancouver Wall Centre](https://www.marriott.com/en-us/hotels/yvrws-sheraton-vancouver-wall-centre/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0) 
+- [Hilton Vancouver Downtown](https://www.hilton.com/en/hotels/yvrwghh-hilton-vancouver-downtown/?SEO_id=GMB-AMER-HH-YVRWGHH&y_source=1_MTk1OTE4NjAtNzE1LWxvY2F0aW9uLndlYnNpdGU=) 
+- [Coast Coal Harbour Vancouver Hotel by APA](https://www.coasthotels.com/coast-coal-harbour-vancouver-hotel-by-apa) 
+- [Paradox Hotel Vancouver](https://www.paradoxhotels.com/vancouver) 
+- [Vancouver Marriott Pinnacle Downtown Hotel](https://www.marriott.com/en-us/hotels/yvrdt-vancouver-marriott-pinnacle-downtown-hotel/overview/)  
+
 <h4 id="travel">VANCOUVER TRAVEL</h4>
 
 **Is there any financial support available for travel/accommodation?** <br>

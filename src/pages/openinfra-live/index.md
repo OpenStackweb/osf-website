@@ -15,7 +15,7 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2023-04-06T15:00:00.000Z
+    date: 2023-04-06T14:00:00.000Z
     episodeDescription: >
       In the "Large Scale Ops Deep Dive" series, a panel of OpenStack operators
       invites special guests to talk about their deployment and discuss their
@@ -24,7 +24,8 @@ episodes:
     youtubeEmbed: https://www.youtube.com/embed/ZIjpEZSu1gw
     episodeTitle: "Large Scale Ops Deep Dive: Société Générale"
     youtubeLink: https://www.youtube.com/watch?v=ZIjpEZSu1gw
-    episodeSpeakers: ""
+    episodeSpeakers: Guillaume Allard, Arnaud Morin, Thierry Carrez, Belmiro Moreira
+      and Mohammed Naser
     linkedinLink: https://www.linkedin.com/events/7043641361979346944/comments/
   - facebookLink: ""
     episodeDescription: >

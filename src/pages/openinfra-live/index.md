@@ -31,7 +31,7 @@ episodes:
       Carlos Silva, Rajat Dhasmana, Sylvain Bauza, Jay Faulkner and Kendall
       Nelson 
     hidden: false
-    date: 2023-03-23T15:00:00.000Z
+    date: 2023-03-23T14:00:00.000Z
     episodeSpeakers: The OpenStack community released Antelope, the 27th version of
       the world’s most widely deployed open source cloud infrastructure
       software, this week. Join us to learn about the latest from community

@@ -9,7 +9,7 @@ const NewsSection = class extends React.Component {
           newsOffset: 0,
           newsOffsetKey: 0,
           newsScrollWidth: window.innerWidth >= 420 ? 410 : 330,
-          newsScrollAmount: window.innerWidth >= 1000 ? 3 : 5
+          newsScrollAmount: window.innerWidth >= 1000 ? 3 : 4
         }
       }
     

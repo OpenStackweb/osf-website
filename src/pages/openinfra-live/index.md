@@ -24,8 +24,8 @@ episodes:
     youtubeEmbed: https://www.youtube.com/embed/ZIjpEZSu1gw
     episodeTitle: "Large Scale Ops Deep Dive: Société Générale"
     youtubeLink: https://www.youtube.com/watch?v=ZIjpEZSu1gw
-    episodeSpeakers: Guillaume Allard, Arnaud Morin, Thierry Carrez, Belmiro Moreira
-      and Mohammed Naser
+    episodeSpeakers: "Guillaume Allard, Arnaud Morin, Belmiro Moreira, Mohammed
+      Naser, Thierry Carrez and Kristin Barrientos "
     linkedinLink: https://www.linkedin.com/events/7043641361979346944/comments/
   - facebookLink: ""
     episodeDescription: >

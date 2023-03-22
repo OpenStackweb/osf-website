@@ -9,7 +9,7 @@ const NewsSection = class extends React.Component {
           newsOffset: 0,
           newsOffsetKey: 0,
           newsScrollWidth: window.innerWidth >= 420 ? 410 : 330,
-          newsScrollAmount: window.innerWidth >= 1000 ? 3 : 4
+          newsScrollAmount: window.innerWidth >= 1000 ? 3 : 5
         }
       }
     
@@ -49,7 +49,7 @@ const NewsSection = class extends React.Component {
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
                         <div className="news-article-inner-container">
-                            <a href="https://www.forbes.com/sites/janakirammsv/2023/02/27/microsoft-makes-azure-kubernetes-service-secure-to-run-multi-tenant-workloads/"><img src="/img/homeV2/news-images/starlingx-8-img.jpg" /></a>
+                            <a href="https://www.forbes.com/sites/janakirammsv/2023/02/27/microsoft-makes-azure-kubernetes-service-secure-to-run-multi-tenant-workloads/"><img src="kata-containers-news-home.jpg" /></a>
                             <p className="news-article-intro-text">Janakiram MSV • Feb 27, 2023</p>
                             <a href="https://www.forbes.com/sites/janakirammsv/2023/02/27/microsoft-makes-azure-kubernetes-service-secure-to-run-multi-tenant-workloads/"><h3>Microsoft Makes Azure Kubernetes Service Secure To Run Multi-Tenant Workloads</h3></a>
                             <p className="news-article-content">Last week Microsoft launched a new feature that lets customers run modern applications on Azure Kubernetes Service (AKS) in an isolated and secure form.</p>

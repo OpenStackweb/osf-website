@@ -50,7 +50,7 @@ const NewsSection = class extends React.Component {
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
                         <div className="news-article-inner-container">
                             <a href="https://thenewstack.io/a-is-for-openstack-antelope/"><img src="/img/homeV2/news-images/openstack-antelope-news-img.jpg" /></a>
-                            <p className="news-article-intro-text">Janakiram MSV • Feb 27, 2023</p>
+                            <p className="news-article-intro-text">Steven J. Vaughan-Nichols • Mar 22, 2023</p>
                             <a href="https://thenewstack.io/a-is-for-openstack-antelope/"><h3>A Is for OpenStack Antelope</h3></a>
                             <p className="news-article-content">The latest version of the OpenStack IaaS cloud shifts to a once-a-year release cycle.</p>
                             <a className="news-article-link" href="https://thenewstack.io/a-is-for-openstack-antelope/">READ MORE</a>

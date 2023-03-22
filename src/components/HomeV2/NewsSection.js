@@ -9,7 +9,7 @@ const NewsSection = class extends React.Component {
           newsOffset: 0,
           newsOffsetKey: 0,
           newsScrollWidth: window.innerWidth >= 420 ? 410 : 330,
-          newsScrollAmount: window.innerWidth >= 1000 ? 2 : 3
+          newsScrollAmount: window.innerWidth >= 1000 ? 3 : 4
         }
       }
     
@@ -49,6 +49,20 @@ const NewsSection = class extends React.Component {
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
                         <div className="news-article-inner-container">
+                            <a href="https://thenewstack.io/a-is-for-openstack-antelope/"><img src="/img/homeV2/news-images/openstack-antelope-news-img.jpg" /></a>
+                            <p className="news-article-intro-text">Steven J. Vaughan-Nichols • Mar 22, 2023</p>
+                            <a href="https://thenewstack.io/a-is-for-openstack-antelope/"><h3>A Is for OpenStack Antelope</h3></a>
+                            <p className="news-article-content">The latest version of the OpenStack IaaS cloud shifts to a once-a-year release cycle.</p>
+                            <a className="news-article-link" href="https://thenewstack.io/a-is-for-openstack-antelope/">READ MORE</a>
+                        </div>
+                        <div className="news-article-inner-container">
+                            <a href="https://www.forbes.com/sites/janakirammsv/2023/02/27/microsoft-makes-azure-kubernetes-service-secure-to-run-multi-tenant-workloads/"><img src="/img/homeV2/news-images/kata-containers-news-home.jpg" /></a>
+                            <p className="news-article-intro-text">Janakiram MSV • Feb 27, 2023</p>
+                            <a href="https://www.forbes.com/sites/janakirammsv/2023/02/27/microsoft-makes-azure-kubernetes-service-secure-to-run-multi-tenant-workloads/"><h3>Microsoft Makes Azure Kubernetes Service Secure To Run Multi-Tenant Workloads</h3></a>
+                            <p className="news-article-content">Last week Microsoft launched a new feature that lets customers run modern applications on Azure Kubernetes Service (AKS) in an isolated and secure form.</p>
+                            <a className="news-article-link" href="https://www.forbes.com/sites/janakirammsv/2023/02/27/microsoft-makes-azure-kubernetes-service-secure-to-run-multi-tenant-workloads/">READ MORE</a>
+                        </div>
+                        <div className="news-article-inner-container">
                             <a href="https://www.sdxcentral.com/articles/news/starlingx-8-0-targets-telcos-o-ran-with-open-source-cloud-and-edge-platform/2023/02/"><img src="/img/homeV2/news-images/starlingx-8-img.jpg" /></a>
                             <p className="news-article-intro-text">Sean Michael Kerner • Feb 23, 2023</p>
                             <a href="https://www.sdxcentral.com/articles/news/starlingx-8-0-targets-telcos-o-ran-with-open-source-cloud-and-edge-platform/2023/02/"><h3>StarlingX 8.0 Targets Telcos, O-RAN With Open Source Cloud and Edge Platform</h3></a>
@@ -61,13 +75,6 @@ const NewsSection = class extends React.Component {
                             <a href="https://www.zdnet.com/article/kata-containers-3s-marriage-of-virtual-machines-and-containers-continues/"><h3>Kata Containers 3's marriage of virtual machines and containers continues</h3></a>
                             <p className="news-article-content">Suppose, just suppose, you could combine the speed and flexibility of containers with the security of virtual machines (VM). That's exactly what Kata Containers does.</p>
                             <a className="news-article-link" href="https://www.zdnet.com/article/kata-containers-3s-marriage-of-virtual-machines-and-containers-continues/">READ MORE</a>
-                        </div>
-                        <div className="news-article-inner-container">
-                            <a href="https://www.zdnet.com/article/openstack-from-austin-to-zed/"><img src="/img/homeV2/news-images/openstack-article-img.webp" /></a>
-                            <p className="news-article-intro-text">Steven Vaughan-Nichols • Oct 10, 2022</p>
-                            <a href="https://www.zdnet.com/article/openstack-from-austin-to-zed/"><h3>OpenStack from Austin to Zed</h3></a>
-                            <p className="news-article-content">OpenStack has come a long way from its first release to its latest as it has matured from a private cloud to a multi-purpose cloud for any and all purposes</p>
-                            <a className="news-article-link" href="https://www.zdnet.com/article/openstack-from-austin-to-zed/">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">
                             <a href="https://openinfra.dev/blog/open-for-business-open-infra-foundation-launches-directed-funding-for-openinfra-project-hosting-replicating-success-of-openstack-kata-containers-starlingx"><img src="/img/homeV2/news-images/openinfra-article-img.jpg" /></a>

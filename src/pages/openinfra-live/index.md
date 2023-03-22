@@ -25,7 +25,7 @@ episodes:
     episodeTitle: "Large Scale Ops Deep Dive: Société Générale"
     youtubeLink: https://www.youtube.com/watch?v=ZIjpEZSu1gw
     episodeSpeakers: "Guillaume Allard, Arnaud Morin, Belmiro Moreira, Mohammed
-      Naser, Thierry Carrez and Kristin Barrientos "
+      Naser, Thierry Carrez, Kristin Barrientos "
     linkedinLink: https://www.linkedin.com/events/7043641361979346944/comments/
   - facebookLink: ""
     episodeDescription: >
@@ -70,8 +70,8 @@ episodes:
       and discuss their operations. For this episode, our guests will be
       Benjamin Fuhrmann and Stanislav Dmitriev from Ubisoft, the famous video
       game publisher.
-    episodeSpeakers: Benjamin Fuhrmann, Stanislav Dmitriev, Mohammed Naser, Arnaud
-      Morin, Felix Huettner, Thierry Carrez
+    episodeSpeakers: "Benjamin Fuhrmann, Stanislav Dmitriev, Mohammed Naser, Arnaud
+      Morin, Felix Huettner, Thierry Carrez, Kristin Barrientos "
     youtubeEmbed: https://www.youtube.com/embed/H1DunJM1zoc
     youtubeLink: https://www.youtube.com/watch?v=H1DunJM1zoc
     superuserRecap: https://superuser.openstack.org/articles/large-scale-deep-dive-ubisoft/

@@ -1,7 +1,7 @@
 ---
 templateKey: vancouver-2023-summit-page
 seo:
-  description: Collaborate directly with the people building and running open source infrastructure using Linux, OpenStack, Kubernetes and 30+ other technologies.
+  description: THE NEXT SUMMIT IS COMING SOON! The OpenInfra Summit + PTG Vancouver is an opportunity to work alongside the individuals who construct and manage open-source systems utilizing Linux, OpenStack, Kubernetes, and over 30 additional technologies.
   image: /img/OpenInfra-icon-white.jpg
   title: OpenInfra Summit Vancouver 2023, coming soon!
   twitterUsername: "@OpenInfraDev"

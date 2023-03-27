@@ -195,7 +195,7 @@ help:
   title: We’re here to help
   description: Get in touch if you’d like to know more about membership options
   button:
-    text: Schedule a Call
+    text: Book an appointment to discuss Foundation Membership
     link: https://calendly.com/jimmy-mcarthur
   picture: /img/members-page/IMG_7800 1.png
 ---

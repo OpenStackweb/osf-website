@@ -87,6 +87,12 @@ There are not discounted hotel blocks available for the OpenInfra Summit, but we
 - [Paradox Hotel Vancouver](https://www.paradoxhotels.com/vancouver) 
 - [Vancouver Marriott Pinnacle Downtown Hotel](https://www.marriott.com/en-us/hotels/yvrdt-vancouver-marriott-pinnacle-downtown-hotel/overview/)  
 
+**Are there tickets available for spouses and / or children traveling with me to the OpenInfra Summit?** <br>
+Yes, complimentary tickets for spouses and / or children are available upon request. Please contact summit@openinfra.dev for more information. 
+
+**How can I learn more about the accessibility at the OpenInfra Summit?** <br>
+Attendees are able to inquire if accommodations are available and make suggestions for future accommodations at events. 
+
 <h4 id="travel">VANCOUVER TRAVEL</h4>
 
 **Is there any financial support available for travel/accommodation?** <br>

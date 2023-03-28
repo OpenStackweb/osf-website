@@ -91,7 +91,7 @@ There are not discounted hotel blocks available for the OpenInfra Summit, but we
 Yes, complimentary tickets for spouses and / or children are available upon request. Please contact summit@openinfra.dev for more information. 
 
 **How can I learn more about the accessibility at the OpenInfra Summit?** <br>
-Attendees are able to inquire if accommodations are available and make suggestions for future accommodations at events. 
+Attendees are able to inquire if accommodations are available and make suggestions for future accommodations at events. Please contact summit@openinfra.dev for more information.
 
 <h4 id="travel">VANCOUVER TRAVEL</h4>
 

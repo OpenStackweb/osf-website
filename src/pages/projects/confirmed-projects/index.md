@@ -93,7 +93,7 @@ projectList:
         text: Documentation
       - link: https://www.openstack.org/software/start/
         text: Getting Started
-      - link: https://www.openstack.org/foundation/tech-committee/
+      - link: https://governance.openstack.org/tc/
         text: Technical Committee
       - link: https://www.openstack.org/user-survey/survey-2022/landing
         text: User Survey

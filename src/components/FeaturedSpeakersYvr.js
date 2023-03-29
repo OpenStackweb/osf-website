@@ -18,7 +18,7 @@ const FeaturedSpeakersYvr = ({ featured_speakers }) => {
             </div>
             <div>
                 <div className="featured-speaker-image">
-                    <img src="	https://object-storage.public.mtl1.vexxhost.net/sw…ts-prod/profile-images/ThierryCarrez-Headshot.jpg" />
+                    <img src="https://object-storage.public.mtl1.vexxhost.net/sw…ts-prod/profile-images/ThierryCarrez-Headshot.jpg" />
                 </div>
                 <div className="featured-speaker-info">
                     <div className="featured-speaker-name">Thierry Carrez</div>

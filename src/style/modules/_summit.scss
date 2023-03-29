@@ -1790,3 +1790,20 @@ h3.small-title-summit {
 .description.travel-description {
   margin-top: 30px;
 }
+
+.summit-header-vancouver-2023 .chaoss-badge-container {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 769px) {
+    margin-bottom: 30px;
+  }
+  .small-details {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+  img {
+    height: 30px;
+    object-fit: contain;
+  }
+}

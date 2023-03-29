@@ -18,10 +18,10 @@ const FeaturedSpeakersYvr = ({ featured_speakers }) => {
             </div>
             <div>
                 <div className="featured-speaker-image">
-                    <img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/JonathanBryce-Headshot.JPG" />
+                    <img src="	https://object-storage.public.mtl1.vexxhost.net/sw…ts-prod/profile-images/ThierryCarrez-Headshot.jpg" />
                 </div>
                 <div className="featured-speaker-info">
-                    <div className="featured-speaker-name">Jonathan Bryce</div>
+                    <div className="featured-speaker-name">Thierry Carrez</div>
                     <div className="featured-speaker-company">OpenInfra Foundation</div>
                 </div>
             </div>

@@ -1794,7 +1794,7 @@ h3.small-title-summit {
 .summit-header-vancouver-2023 .chaoss-badge-container {
   display: flex;
   align-items: center;
-  @media and (max-width: 769px) {
+  @media screen and (max-width: 769px) {
     margin-bottom: 30px;
   }
   .small-details {

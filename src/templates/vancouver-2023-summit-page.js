@@ -106,7 +106,7 @@ export const SummitPageTemplate = ({
             </section>
           }
 
-          <FeaturedSpeakersYvr featured_speakers={featured_speakers} />
+          {/* <FeaturedSpeakersYvr featured_speakers={featured_speakers} /> */}
 
           {/* <LogoBanner title="The Call for Presentations will open on November 15, 2022 and close on January 7, 2023" cta="Nope" href="https://cfp.openinfra.dev" /> */}
 

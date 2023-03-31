@@ -14,13 +14,13 @@ header:
     The Project Teams Gathering (PTG) provides meeting facilities allowing the various technical community groups working on open infrastructure projects to meet virtually, exchange and get work done in a productive, low-key setting. It lets those various groups discuss their priorities for the upcoming months, assign work items, iterate quickly on solutions for complex problems, and make fast progress on critical issues. The co-location of those various meetings, combined with the dynamic scheduling of the event, make it easy to get specific people in the same room to discuss a specific topic, or participate in multiple team meetings.
   date:
     icon: /img/summit/Vector-calendar.svg
-    text: March 27-31, 2023
+    text: June 13-15
   location:
     icon: /img/summit/Vector-world.svg
-    text: Hyatt Regency Columbus
+    text: Vancouver Convention Centre
   buttons:
     - text: Register Now
-      link: https://openinfra-ptg.eventbrite.com
+      link: https://vancouver2023.openinfra.dev
   image: /img/ptg-page/hero-image.png
 form:
   display: true

@@ -56,8 +56,19 @@ export const PTGPageTemplate = ({
                   <img src={(header.location.icon.extension === 'svg' || header.location.icon.extension === 'gif') && !header.location.icon.childImageSharp ?
                     header.location.icon.publicURL
                     :
-                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> Virtual
+                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> {header.date.location}
                 </span>
+                <div className="buttons">
+                    {header.buttons.map((button, index) => {
+                        return (
+                            <a
+                                key={`header-button-${index}`}
+                                href={button.link}>
+                                {button.text} <img src={leftArrow} alt="left" />
+                            </a>
+                        )
+                    })}
+                </div>
             </div>
             <div className="header-left">
                 <div className="picture">

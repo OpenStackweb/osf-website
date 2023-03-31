@@ -56,7 +56,7 @@ export const PTGPageTemplate = ({
                   <img src={(header.location.icon.extension === 'svg' || header.location.icon.extension === 'gif') && !header.location.icon.childImageSharp ?
                     header.location.icon.publicURL
                     :
-                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> {header.date.location}
+                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> Vancouver Convention Centre
                 </span>
                 <div className="buttons">
                     {header.buttons.map((button, index) => {

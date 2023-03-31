@@ -53,7 +53,7 @@ export const PTGPageTemplate = ({
                 </div>
             </div>
             <div className="ptg-header-bottom">
-              {/* <p className="ptg-two-event-text">Upcoming PTG:</p> */}
+              <p className="ptg-two-event-text">Upcoming PTG:</p>
               <div className="ptg-header-bottom-container">
                 {/* <div className="ptg-header-bottom-left">
                   <span className="ptg-header-bottom-title">Virtual PTG</span>
@@ -108,10 +108,10 @@ export const PTGPageTemplate = ({
       <main className="main">
         <div className="content">
           <section className="ptg-who">
-            {/* <div className="ptg-container">
+            <div className="ptg-container">
               <div className="ptg-who-teams">
-                <h4 className="title">The Virtual March 2023 Project Teams List is Official!</h4>
-                <p>If your team was planning to meet and isn't in this list, please contact <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a></p>
+                <h4 className="title">The Virtual March 2023 Project Teams Gathering is a Wrap!</h4>
+                <p>Thank you to the 265+ contributors from 85 organizations who participated in building open source software that runs in production!</p>
                 <h5><b>OpenInfra Foundation Teams</b></h5>
                 <div class="ptg-who-teams-list">
                   <ul>
@@ -163,7 +163,7 @@ export const PTGPageTemplate = ({
                   </ul>
                 </div>
               </div>
-            </div> */}
+            </div>
             <div className="ptg-container">
               <div className="ptg-who-boxes">
                 <div className="should">

@@ -53,7 +53,7 @@ export const PTGPageTemplate = ({
                 </div>
             </div>
             <div className="ptg-header-bottom">
-              <p className="ptg-two-event-text">Upcoming PTG:</p>
+              {/* <p className="ptg-two-event-text">Upcoming PTG:</p> */}
               <div className="ptg-header-bottom-container">
                 {/* <div className="ptg-header-bottom-left">
                   <span className="ptg-header-bottom-title">Virtual PTG</span>
@@ -83,7 +83,7 @@ export const PTGPageTemplate = ({
                   <p>Make sure you <a class="primary-link-color" href="https://openinfrafoundation.formstack.com/forms/march2023_vptg_survey">sign up your team</a> if that hasn't been done already</p>
 
                 </div> */}
-                {/* <div className="ptg-header-bottom-right"> */}
+                <div className="ptg-header-bottom-right">
                 <span className="ptg-header-bottom-title"><a class="primary-link-color" href="/summit/vancouver-2023">OpenInfra Summit + PTG</a></span>
                   <span className="date">
                     <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
@@ -99,7 +99,7 @@ export const PTGPageTemplate = ({
                   </span>
                   <div class="buttons"><a href="https://vancouver2023.openinfra.dev/">Register Now <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNSAxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+DQogICAgPGRlZnM+DQogICAgICAgIDxwYXRoIGQ9Ik03MDguNzE2IDM0OS4wNTRsLTQuODA1LTQuODA2YS44MjguODI4IDAgMCAwLTEuMTgzIDAgLjgyOC44MjggMCAwIDAgMCAxLjE4MmwzLjM4OCAzLjM4N2gtMTEuMjgxYS44NC44NCAwIDAgMC0uODM1LjgzNi44NC44NCAwIDAgMCAuODM1LjgzNWgxMS4yNjZsLTMuMzczIDMuMzg3YS44MjguODI4IDAgMCAwIDAgMS4xODIuODYzLjg2MyAwIDAgMCAuNi4yNTJjLjIyIDAgLjQyNS0uMDc5LjU5OS0uMjUybDQuODItNC44MjJhLjg1OC44NTggMCAwIDAgLjI1Mi0uNTk4IDEuMDY5IDEuMDY5IDAgMCAwLS4yODMtLjU4MyIgaWQ9ImEtYXJyb3ctbGVmdCIgLz4NCiAgICA8L2RlZnM+DQogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTY5NCAtMzQ0KSI+DQogICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI2EtYXJyb3ctbGVmdCIgZmlsbD0iI2ZmZiIgLz4NCiAgICA8L2c+DQo8L3N2Zz4=" alt="left" /></a></div>
                   <p>Make sure you <a class="primary-link-color" href="https://openinfrafoundation.formstack.com/forms/june2023_ptg_survey">sign up your team</a> if that hasn't been done already</p>
-                {/* </div> */}
+                </div>
               </div>
             </div>
         </div>

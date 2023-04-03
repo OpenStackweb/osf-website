@@ -75,6 +75,12 @@ const SummitSponsorSliderYvr = ({ summit_sponsors }) => {
                 </div>
             </div>
             <div>
+                <h3 class="small-title-summit">Spotlight Sponsors</h3>
+                <div class="logos">
+                    <a class="logo-spotlight" href="https://canonical.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/ubuntu-lg.jpg" alt="Canonical" /></a>
+                </div>
+            </div>
+            <div>
                 <h3 class="small-title-summit">Exhibitor Sponsors</h3>
                 <div class="logos">
                     <a class="logo-exhibitor" href="https://openmetal.io/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/openmetal-lg.jpg" alt="Open Metal" /></a>

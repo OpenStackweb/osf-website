@@ -15,9 +15,9 @@ header:
       text: Project Hosting
     - link: /join/
       text: Join Us
-  subTitle: "With over 110,000 members in 187 countries, the OpenInfra Foundation
+  subTitle: With over 110,000 members in 187 countries, the OpenInfra Foundation
     helps open source communities build the  tools infrastructure operators need
-    for Data Center Clouds, 5G, Edge, Containers, CI/CD and beyond. "
+    for Data Center Clouds, 5G, Edge, Containers, CI/CD and beyond.
   title: Open Infrastructure
   upperTitle: WE HELP PEOPLE BUILD & OPERATE
 mainpitch:

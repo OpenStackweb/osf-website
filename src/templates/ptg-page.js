@@ -150,7 +150,6 @@ export const PTGPageTemplate = ({
                     <li>Cinder</li>
                     <li>Cyborg</li>
                     <li>Designate</li>
-                    <li>Glance</li>
                     <li>Heat</li>
                     <li>Ironic</li>
                     <li>Keystone</li>

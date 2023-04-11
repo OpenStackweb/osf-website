@@ -133,15 +133,13 @@ export const PTGPageTemplate = ({
           <section className="ptg-who">
             <div className="ptg-container">
               <div className="ptg-who-teams">
-                <h4 className="title">The Virtual March 2023 Project Teams Gathering is a Wrap!</h4>
-                <p>Thank you to the 265+ contributors from 85 organizations who participated in building open source software that runs in production!</p>
+                <h4 className="title">The June 2023 Project Teams List is Official!</h4>
+                <p>If your team was planning to meet and isn't in this list, please contact <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a></p>
                 <h5><b>OpenInfra Foundation Teams</b></h5>
                 <div class="ptg-who-teams-list">
                   <ul>
-                    <li>Diversity and Inclusion WG</li>
-                    <li>Edge Computing Group</li>
-                    <li>Environmental Sustainability WG</li>
-                    <li>Interop WG</li>
+                    <li>Diversity and Inclusion Working Group</li>
+                    <li>Environmental Sustainability Working Group</li>
                     <li>Kata Containers</li>
                     <li>StarlingX</li>
                   </ul>
@@ -149,39 +147,28 @@ export const PTGPageTemplate = ({
                 <h5><b>OpenStack Service Teams</b></h5>
                 <div class="ptg-who-teams-list">
                   <ul>
-                    <li>Barbican</li>
-                    <li>Blazar</li>
                     <li>Cinder</li>
-                    <li>CloudKitty</li>
+                    <li>Cyborg</li>
                     <li>Designate</li>
-                    <li>Glance</li>
                     <li>Heat</li>
-                    <li>Horizon</li>
                     <li>Ironic</li>
                     <li>Keystone</li>
-                    <li>Kolla</li>
-                    <li>Kuryr</li>
-                    <li>Magnum</li>
                     <li>Manila</li>
                     <li>Neutron</li>
                     <li>Nova</li>
-                    <li>Octavia</li>
-                    <li>OpenStackSDK/CLI/Ansible-Collections</li>
                     <li>OpenStack-Ansible</li>
-                    <li>OpenStackCharms</li>
+                    <li>Puppet OpenStack</li>
                     <li>QA</li>
-                    <li>Swift</li>
+                    <li>SDK/CLI/AOC</li>
                     <li>Tacker</li>
+                    <li>Telemetry</li>
                   </ul>
                 </div>
                 <h5><b>Other OpenStack Teams</b></h5>
                 <div class="ptg-who-teams-list">
                   <ul>
-                    <li>I18n SIG</li>  
-                    <li>OpenStack Security SIG</li>  
-                    <li>OpenStack Technical Committee</li>  
-                    <li>PublicCloud SIG</li>  
-                    <li>RBAC</li>  
+                    <li>Security SIG</li>  
+                    <li>OpenStack Technical Committee</li> 
                     <li>Scientific SIG</li>  
                   </ul>
                 </div>

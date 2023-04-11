@@ -89,6 +89,7 @@ const SummitSponsorSliderYvr = ({ summit_sponsors }) => {
                     <a class="logo-exhibitor" href="http://www.mirantis.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/mirantis-lg.jpg" alt="Mirantis" /></a>
                     <a class="logo-exhibitor" href="https://www.stackit.de/en/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1269/logos/stackitlogo.svg" alt="STACKIT" /></a>
                     <a class="logo-exhibitor" href="http://www.purestorage.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/pure-lg.jpg" alt="Pure Storage" /></a>
+                    <a class="logo-exhibitor" href="https://storpool.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/storpool.jpg" alt="StorPool Storage" /></a>
                 </div>
             </div>
             <div>

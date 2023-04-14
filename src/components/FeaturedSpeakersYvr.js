@@ -18,6 +18,15 @@ const FeaturedSpeakersYvr = ({ featured_speakers }) => {
             </div>
             <div>
                 <div className="featured-speaker-image">
+                    <img src="/img/summit/vancouver-2023/EBocchi.jpg" />
+                </div>
+                <div className="featured-speaker-info">
+                    <div className="featured-speaker-name">Enrico Bocchi</div>
+                    <div className="featured-speaker-company">CERN</div>
+                </div>
+            </div>
+            <div>
+                <div className="featured-speaker-image">
                     <img src="/img/summit/vancouver-2023/Silona-Bonewald-crop.jpeg" />
                 </div>
                 <div className="featured-speaker-info">
@@ -32,15 +41,6 @@ const FeaturedSpeakersYvr = ({ featured_speakers }) => {
                 <div className="featured-speaker-info">
                     <div className="featured-speaker-name">Nisha Brahmankar</div>
                     <div className="featured-speaker-company">LINE Corporation</div>
-                </div>
-            </div>
-            <div>
-                <div className="featured-speaker-image">
-                    <img src="/img/summit/vancouver-2023/EBocchi.jpg" />
-                </div>
-                <div className="featured-speaker-info">
-                    <div className="featured-speaker-name">Enrico Bocchi</div>
-                    <div className="featured-speaker-company">CERN</div>
                 </div>
             </div>
             <div>

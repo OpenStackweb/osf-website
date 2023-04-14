@@ -405,6 +405,15 @@
     gap: 2em;
     justify-content: space-between;
     margin-bottom: 50px;
+    &.vancouver-featured-speakers-list {
+      gap: 3em;
+      @media screen and (max-width: 500px) {
+        gap: 2em;
+        @media (max-width: 450px) {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+    }
     @media (max-width: 1300px) {
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }

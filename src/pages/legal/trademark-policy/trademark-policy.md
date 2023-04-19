@@ -18,176 +18,128 @@ footer:
   display: true
 ---
 
-This Trademark Policy (the "Trademark Policy"), prepared by the OpenStack Foundation (hereinafter referred to as "OpenStack Foundation"), sets out rules for proper use of the mark "OpenStack" (hereinafter referred to as "the OpenStack Word Mark") and the "OpenStack Logo" or "OpenStack Logos" (as defined in Section 6 of the Trademark Policy) when referring to the OpenStack project and code base. The OpenStack Word Mark, the OpenStack Logos and all OpenStack trademarks (hereinafter referred to individually as an "OpenStack Mark" or collectively as "OpenStack Marks") are trademarks of the OpenStack Foundation.
+# Trademark Policy
 
-A list of OpenStack Marks may be found by [clicking here](https://www.openstack.org/brand/openstack-logo/). The OpenStack Foundation may update this list from time to time and without prior notice, so we recommend that you refer to the OpenStack Trademark List on a regular basis.
+We're excited that you want to help promote OpenInfra and OpenInfra open source projects by using trademarks/brands connected with OpenStack Foundation d/b/a Open Infrastructure Foundation (“OpenInfra").  No matter how you contribute in one of the following categories, your help spreading the word about OpenInfra and its projects is extremely valuable: you may be an individual or organization who wishes to show your support for OpenInfra or its projects; you may be a member of OpenInfra who wishes to display indicia of your membership or brand a commercial product; you may be an organizer of “Days” or “User Group” activities for OpenInfra or its projects, who wishes to promote community engagement; or you may be an individual who holds a credential/certification issued by OpenInfra that you want to showcase. This Trademark Policy (“Policy”) is designed to get you the resources you need and provide simple instructions for permitted use of the trademarks shown in the tables below and the word marks therein (collectively “Marks”), while highlighting those Marks that require membership and/or a license before they can be used, or are reserved for use only by OpenInfra.
 
-This Trademark Policy applies to all uses of the OpenStack Marks (in word and logo form).
+Although the code produced by OpenInfra projects is freely available to you under open source software licenses, your ability to use the Marks is restricted under trademark law. It is important that we protect and enforce our trademark rights to ensure Marks remain reliable indicators of source, quality and association with OpenInfra.  By keeping the Marks strong, we are better able to police bad actors who misrepresent their products, services or sponsorships as sanctioned or endorsed by OpenInfra.
+
+To get started, please review the Policy, which applies on a global basis. Then, it's just a matter of selecting the right category of Marks for your needs, from those available to everyone, those available to members, those available to organizers of “Days” or “User Group” activities, or those available to individuals who hold a credential/certification. If you are looking for any additional information or access to an available license, please contact logo@openinfra.dev.  Note, the word “you” in the Policy means any party using the Marks.
 
-##### Objective and scope of the OpenStack® Trademark Policy
+## Rules that Apply to All Marks
 
-The objective of this Trademark Policy is to ensure that the OpenStack Marks remain reliable indicators of source and quality and that they are protected from inappropriate and unauthorized use. The Trademark Policy explains when and how you may use the OpenStack Marks without our written authorization, when the OpenStack Foundation's written permission is required, and what the OpenStack Foundation considers to be unauthorized use of the OpenStack Marks.
+You may only use the Marks as expressly permitted by this Policy or a separate signed, written agreement with OpenInfra, subject to one exception: nominative fair use.  For purposes of this Policy, “nominative fair use” means that you use a mark to refer to OpenInfra or its projects and do so because there is a real need to identify OpenInfra or a product or service of OpenInfra, you do not use the mark more than is necessary (e.g., you do not use the mark too prominently or too often, in terms of size, emphasis or repetition; and your own branding is more prominent in size and placement), and you do nothing to falsely suggest a connection with or endorsement by OpenInfra (e.g., by suggesting affiliation with, approval by or sponsorship of your product by OpenInfra).  You may not use the Marks in a way that implies affiliation with, approval by, sponsorship by, or endorsement by OpenInfra, unless you have specific permission from OpenInfra to do so in a separate, signed written agreement.
 
-The OpenStack Foundation reserves the right to review all usage of the OpenStack Marks within the open source community and to terminate use of the Marks by any party for non-compliance with this Trademark Policy or written authorization. The OpenStack Foundation may change this Trademark Policy at its sole discretion at any time effective immediately unless your license agreement states that the changes will become effective at a later time.
+By using the Marks, you agree to the following: (1) to use the Marks exactly as provided and updated by OpenInfra from time to time, with any “TM” or “®” symbol included; (2) not to use altered versions of the Marks, except for updated versions of the Marks provided by OpenInfra, or incorporate the Marks into your own marks; (3) not to use any mark that is confusingly similar to any of the Marks, as judged by OpenInfra, as either a trademark, service mark, collective membership mark, certification mark, trade or business name, domain name, or social media username or handle, keyword, hashtag or attention-getting symbol (collectively “Name”); (4) not to register or seek to register any of the Marks or a mark that is confusingly similar to the Marks, as judged by OpenInfra, as a Name; (5) not to use the Marks in the manner that is illegal, offensive or tarnishes or defames OpenInfra, as judged by OpenInfra; (6) not to claim you own any rights in the Marks; (7) not to sublicense the Marks to others; (8) that OpenInfra owns exclusive rights in the Marks; (9) that any goodwill created when you use the Marks inures to the sole benefit of OpenInfra, its successors and assigns; (10) that the Marks are not descriptive or generic; (11) not to sue or threaten to sue OpenInfra for contributory infringement regarding activity by others that use the Marks; (12) to release, defend, indemnify and hold harmless OpenInfra from third-party claims regarding your activities; and (13) not to challenge the rights of OpenInfra in the Marks, use of the Marks by OpenInfra or its licensees, or any application/registration for the Marks owned by OpenInfra.
 
-##### Authorized use of OpenStack® Trademarks
+OpenInfra reserves the right to terminate authorization to use the Marks if you fail to comply with this Policy or any signed, written agreement with OpenInfra, or for any other reason. OpenInfra may change this Policy in its sole discretion at any time, effective at the time of the change.  To the extent any part of the Policy conflicts with any part of a signed, written agreement with OpenInfra, that agreement shall control. 
 
-**General**
+## Marks Available to Everyone
+	
+### For Organizations
 
-AS A GENERAL RULE, THE OPENSTACK MARKS MAY NOT BE USED IN ANY MANNER OTHER THAN EXPRESSLY AUTHORIZED IN A WRITTEN AGREEMENT OR AS EXPRESSLY PERMITTED BY THIS TRADEMARK POLICY.
+Preferred “Learn More About” Logos
 
-You must use an OpenStack Mark in accordance with this Policy and the applicable license agreement. To the extent any part of the Trademark Policy conflicts or is inconsistent with any part of a written agreement between you and the OpenStack Foundation the written agreement shall control. No other rights of any kind are granted hereunder by implication or otherwise.
+If your organization wishes to show your support for OpenInfra or the projects of OpenInfra in a way that is most helpful to OpenInfra, you may use the “Learn More About” logos in the table immediately below.  This use does not require a separate, signed written license, though it is subject to the following requirements: any logo used must link back to the corresponding website in the table below when a consumer clicks on the logo; the logos may not be used to brand a commercial product; and the marks may only be used to show support for OpenInfra and give consumers a way to learn more about OpenInfra by clicking on the logos, and not for any other purpose.
 
-You will need written permission from us to use the OpenStack Marks: (i) for any commercial use, including but not limited to merchandising purposes (e.g. T-shirts, mugs); (ii) for use on or in relation to a software product that includes or is built on top of a product supplied by the OpenStack Foundation; (iii) for use of a Restricted Use Logo; or (iv) for use in an attention-getting or branding manner. Without the express prior written consent of the OpenStack Foundation, no OpenStack Marks may be used in a manner that implies an affiliation with, approval by, endorsement of or sponsorship by the OpenStack Foundation.
+“LEARN MORE ABOUT” Logo (Option 1) | “LEARN MORE ABOUT” Logo (Option 2) | Corresponding Website to be Linked from “LEARN MORE ABOUT” Logo
+---|---|---
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://openinfra.dev/
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://www.openstack.org/
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://openinfralabs.org/ 
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://www.airshipit.org/
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://katacontainers.io/ 
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://www.starlingx.io/
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://zuul-ci.org/ 
 
-**OPENSTACK WORD MARK**
+Acceptable Standard Logos
 
-We share the OpenStack Word Mark with the community for the purposes of open source discussion, development and support of the OpenStack project and technology. We understand that such use is mostly for non-commercial purposes and therefore we will allow the use of the OpenStack Word Mark, without a license, when used in a referential phrase only to describe the OpenStack Project or the OpenStack code base, provided you comply with the following requirements:
+If your organization wishes to show your support for, or that it contributes to, OpenInfra or the projects of OpenInfra and does not wish to use the “Learn More About” logos, above, you may make nominative fair use of the logos in the table immediately below and the word marks therein (e.g., OPENSTACK).  This use does not require a separate, signed written license, though it is subject to the requirement that you do not use the mark to brand a commercial product and that you follow these nominative fair use requirements: (1) you use the mark to refer to OpenInfra or its projects and do so because there is a real need to identify OpenInfra or a product or service of OpenInfra; (2) you do not use the mark more than is necessary (e.g., you do not use the mark too prominently or too often, in terms of size, emphasis or repetition; and your own branding is more prominent in size and placement); and (3) you do nothing to falsely suggest a connection with or endorsement by OpenInfra (e.g., by suggesting affiliation with, approval by or sponsorship of your product by OpenInfra).  
 
-The OpenStack Word Mark is used in a manner consistent with this Trademark Policy and usage guidelines below;
+Examples of nominative fair use include using one of these marks in a small way within a software architecture map or FAQ to show how OpenInfra software fits within the architecture, using one of the marks in an array of third-party logos where you make clear you support or contribute to the parties, or using one of the marks next to a statement indicating support for OpenInfra (e.g., “We love OpenStack”).  Examples of what is not nominative fair use include, making the mark the same size as or larger than your own mark, using one of these marks in a repetitive way, or using the mark without context that makes it clear the mark does not brand a commercial product but simply shows your support for, or that you contribute to, OpenInfra. 
 
-There is no commercial activity associated with the use of the OpenStack Word Mark, except as may be permitted in a written license from the OpenStack Foundation;
+Standard Logo (Option 1) | Standard Logo (Option 2) | Standard Logo (Option 2) | Standard Logo (Option 4)
+---|---|---|---
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
+ 	 	 	 
 
-The OpenStack Word Mark is used only to refer to the OpenStack project and/or technology; and
+### For Individuals
 
-The OpenStack Word Mark is not used in an attention-getting or branding manner, or used as part of your product or service name, unless you have met the requirements specified in the Section Restricted Use that Requires a Trademark License Prior to Use and further detailed in the Restricted Use Logo Guidelines available by clicking here, and have agreed to the terms of the applicable OpenStack Trademark License Agreement.
+	If you are an individual who wishes to act in your personal capacity, not on behalf of an organization, to show your support for OpenInfra and its projects, such as in a personal blog or educational materials like a slide deck presented at a conference, you may use the marks in the table immediately above and the word marks therein (e.g., OPENSTACK).  This use does not require a separate, signed written license, though it is subject to the following requirements: the logos may not be connected with a commercial product or entity; and the marks may only be used to show support for OpenInfra and give consumers a way to learn more about OpenInfra, and not for any other purpose.
 
-The OpenStack Word Mark appears less prominent than your company or product name.
+## Marks Available to Members
 
-The reference to OpenStack does not create a sense of endorsement, sponsorship, or false association with the OpenStack Foundation.
+### Marks that Signify Membership
+	
+If you are an OpenInfra member in good standing, you may use the specific “MEMBER”-based logo and corresponding word mark for your member category in the table immediately below.  This use does not require a separate, signed written license, though it is subject to the following requirement: the marks, being collective membership marks, may be used only to signify membership in OpenInfra and not for any other purpose.
 
-ALL OTHER USES OF THE OPENSTACK WORD MARK REQUIRE A WRITTEN LICENSE AGREEMENT.
+Member Category | Corresponding “MEMBER”-based Logo | Corresponding “MEMBER”-based Word Mark
+---|---|---
+Platinum Member in good standing | Image | OPENINFRA PLATINUM MEMBER
+Gold Member in good standing | Image | OPENINFRA GOLD MEMBER
+Silver Member in good standing | Image | OPENINFRA SILVER MEMBER
+Associate Member in good standing | Image | OPENINFRA ASSOCIATE MEMBER
 
-**OPENSTACK LOGOS**
+### Marks that Brand Commercial Products (Standard Use Case)
+	
+If you are a qualifying OpenInfra member in good standing and you wish to use the marks in the table immediately below to brand commercial products, a separate signed, written Commercial Use Trademark License from OpenInfra is required.  
 
-The OpenStack Logos may not be used without prior written authorization from the OpenStack Foundation.
+Commercial-use Logo | Corresponding Commercial-use Word Mark
+---|---
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | OPENSTACK POWERED
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | OPENSTACK COMPATIBLE
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | OPENSTACK EXPERTISE
+[Future “POWERED”-based Project Logo] | [Future “POWERED”-based Project Word Mark]
+[Future “COMPATIBLE”-based Project Logo] | [Future “COMPATIBLE”-based Project Word Mark]
+[Future “EXPERTISE”-based Project Logo] | [Future “EXPERTISE”-based Project Word Mark]
 
-**OpenStack Community**
+### Marks that Brand Commercial Products (Special Use Case)
+	
+If you are a qualifying OpenInfra member in good standing and you wish to use the marks in the table immediately below or the word marks therein (e.g., OPENSTACK) to brand commercial products, a separate signed, written Special Trademark License for Members to Use Project Marks from OpenInfra is required.  This license is granted only in special cases.
 
-You may use the OpenStack logo available here for community building activities, provided these activities and uses are not commercial in nature. Such community building activities include presentations at open source conferences, activities promoting the OpenStack project, or collateral for promoting and organizing an OpenStack meetup. You may also use the OpenStack logo for referential purposes. For example, when you are referring to the OpenStack cloud or OpenStack project in your presentations. When using the logo for referential purposes you may not use the logo in a trademark sense (as part of your product/company name and/or logo), your company logo must be more prominently displayed, you may only use the OpenStack logo as much as it is necessary to identify the OpenStack product, you do nothing to suggest sponsorship or endorsement by OpenStack, and you use the OpenStack trademark notice. In all cases, you must follow the guidelines in this Policy and the Community Logo Use Guidelines. For all other uses, you must have a trademark license to use an OpenStack Logo unless the logo is part of a Web Badge authorized for use by this Trademark Policy.
+Special-use Logo (Option 1) | Special-use Logo (Option 2) | Special-use Logo (Option 3) | Special-use Logo (Option 4)
+---|---|---|---
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 	 	 	 
 
-**OpenStack Web Badges**
+### Marks Available to Organizers of “Days” and “User Group” Activities
+	
+If you wish to use the marks in the table immediately below to promote community engagement with OpenInfra and its projects, a separate signed, written “Days” / “User Group” License and region-specific logos from OpenInfra, with the region populated, are required.
 
-We prepared a family of "OpenStack Web Badges" that may be used without specific written permission to show support of the OpenStack project. (See Section Linking to the OpenStack Website below).
-
-**Restricted Use OpenStack Logos**
-
-We also prepared a set of specific "restricted use" OpenStack Logos and Word Marks that may be used only by OpenStack licensees. The OpenStack Trademark License will include stringent use guidelines and additional conditions including but not limited to those specified below. See Section Restricted Use that Requires a Trademark License Prior to Use.
-
-**PUBLICATIONS AND PRESENTATIONS**
-
-Third parties may use the OpenStack Word Mark in publications, such as books or magazines, or in connection with the presentations and publications that are displayed to the public (collectively, "Publications"), provided that:
-
-Such use is referential only: you are simply referring to the OpenStack project and not speaking for the OpenStack project or community.
-
-The OpenStack Word Mark is not used to promote your own products and services.
-
-The OpenStack Word Mark is not used in an attention-getting or branding manner.
-
-Your name or mark and logo shall appear in a prominent location on the cover or the title page of the Publication and shall be featured with greater prominence than the OpenStack Word Mark.
-
-You do not apply to register or register any term comprised or consisting of in whole or in part the OpenStack Word Mark or any confusingly similar mark as trademarks, service marks, corporate names, trade names or domain names, Internet keywords, metatags, or trigger words to lead to a website or other Internet destination.
-
-You comply with this Trademark Policy and usage guidelines.
-
-You attribute the OpenStack marks with the proper symbol and footnote it on all Publications as explained below.
-
-No written permission is needed from the OpenStack Foundation to use the OpenStack Word Mark in this limited manner in connection with Publications. However, OpenStack Logos may be used only with the OpenStack Foundation's prior written permission.
-
-**RESTRICTED USE THAT REQUIRES A TRADEMARK LICENSE PRIOR TO USE**
-
-The OpenStack code is available under the Apache 2.0 license. Although the Apache 2.0 license permits third parties to copy and redistribute the underlying software under the terms of the license, the Apache 2.0 license does not provide any license or right to use any of the OpenStack Marks. Thus, the licensee may redistribute the OpenStack software under the terms of the Apache 2.0 license, but may not use the OpenStack Marks in doing so without express written permission from the OpenStack Foundation or as expressly permitted in this Trademark Policy. If you chose to provide visitors to your website the opportunity to download the formally released OpenStack technology, you may do so only by means of a link to our site (see the section on Linking below).
-
-We have created specific OpenStack Logos for those who build their solutions or cloud services with the OpenStack technology, those who create applications that interact with the OpenStack technology, or provide advisory services (referred hereinafter individually or collectively as "Restricted Use Logo" or "Restricted Use Logos"). Each Restricted Use Logo and Word Mark is intended for use only in the specific situations set forth immediately below and must be presented as provided to you by the OpenStack Foundation.
-
-In order to qualify to use a Restricted Use Logo and OpenStack Word Mark, you must agree to a separate license agreement with the OpenStack Foundation, which shall, at a minimum, require strict compliance with this Trademark Policy and the Restricted Logo Usage Guidelines.
-
-The "Powered by OpenStack" Logo and Wordmark, shown immediately below, for individuals, organizations, and companies that use formally released OpenStack technology in their products and meet certain requirements. Licensees may also use the OpenStack Word Mark as part of the name of their product or service by adding the descriptive phrase "Powered" or "Powered by" based on the requirements listed below.
-
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
-
-"OpenStack Compatible" Logo and Wordmark, shown immediately below, for individuals, organizations, and companies that are using technology that is compatible with formally released OpenStack technology, in their products that meet certain requirements. Licensees may also use the OpenStack Word Mark as part of the name of their product or service with the descriptive phrase "Compatible with" or the word "Compatible" based on the requirements listed below.
-
-![OpenStack Compatible logo sample](/img/OpenStack-Program-Compatible-sample.png)
-
-The "OpenStack Training" Logo and Wordmark, shown immediately below, for individuals, organizations, and companies that provide training programs concerning OpenStack technology that meet certain requirements. Licensees may also use the OpenStack Word Mark as part of the name of their product or service by adding the descriptive word "Training" based on the requirements listed below.
-
-![OpenStack Training logo sample](/img/OpenStack-Program-Training-sample.png)
-
-Other licensing programs may be available for a specific use. Please contact us at logo@openstack.org for obtaining the applicable OpenStack Trademark License.
-
-Use of the Powered by OpenStack, Storage Powered by OpenStack, and Built For OpenStack Logos and Word Marks is always subject to a trademark license agreement and may be used only in connection with the official OpenStack code release. Click here to see the requirements for obtaining the applicable OpenStack Trademark License.
-
-The OpenStack Foundation reserves the right to revoke the authorization at any time in our sole discretion. If we determine that your use of a Restricted Use Logo and a restricted use OpenStack Word Mark does not truthfully and accurately identify the inclusion of the OpenStack technology or your use is otherwise unacceptable or detrimental to any of the OpenStack Marks, we will revoke the authorization. Upon revocation of the authorization you agree that you will immediately cease all use of the Restricted Use Logo.
-
-**LINKING TO THE OPENSTACK WEBSITE**
-
-You may link to the www.openstack.org website; including for the purpose of allowing your visitors to download the OpenStack code, so long as your linking is not done in a manner that implies affiliation with, sponsorship by, or endorsement by the OpenStack Foundation of your website. Linking to www.openstack.org requires your compliance with this Trademark Policy, the OpenStack Badge Usage Guidelines, and the OpenStack Foundation's Website Terms of Use, and other OpenStack guidelines that may apply depending upon whether you use one or more OpenStack Marks.
-
-Use of the OpenStack Web Badge. We have created a family of OpenStack Badges (hereinafter referred to individually as an "OpenStack Badge" or "Badge," or collectively as "OpenStack Badges" or "Badges") for those who wish to show their support for the OpenStack project and for other OpenStack communityoriented efforts that encourage adoption of and improvements to the OpenStack code base. You are welcome to use those freely and place them on your website as long as you comply with this Trademark Policy and the OpenStack Badge Guidelines. Download the OpenStack Badges.
-
-**UNAUTHORIZED USE OF THE OPENSTACK MARKS**
-
-Unauthorized use of the OpenStack Marks or marks that are confusingly similar may constitute an infringement of the OpenStack Foundation trademark rights and are strictly prohibited. The following are examples of unauthorized uses of the OpenStack Marks:
-
-Use of OpenStack Marks in connection with third party marks: Use of the OpenStack Marks in connection with or as part of company names, trademarks or logos is not allowed. Do not hyphenate OpenStack with your product name to create a new product name. You may not use or register, in whole or in part, OpenStack, OpenStack Logos or any other OpenStack trademarks, including OpenStack Foundation-owned graphic symbols, icons or any alteration thereof, as part of your trademark, service mark, company name, trade name, product name or service name. You may not incorporate the OpenStack Marks into the name or logo of your website, domain name, Internet keywords, metatags, or trigger words to lead to a website or other Internet destination, product, business or service.
-
-Incorporation of all or a portion of an OpenStack Mark into a domain name: You may not register a domain name or use a registered domain name that includes "OpenStack" an OpenStack Mark or any of the marks owned by the OpenStack Foundation or its affiliates, or any marks that are phonetically equivalent to or confusingly similar to the these marks.
-
-Merchandise items: The manufacture or sale of merchandising items, including but not limited to T-shirts, mugs, and notebooks, bearing the OpenStack Marks, except as may be permitted in a written license from the OpenStack Foundation.
-
-Damaging Use: Use of the OpenStack Marks or any other OpenStack Foundation-owned graphic, symbol or logo in a manner that disparages the OpenStack Foundation, the OpenStack project and community or its technology or damages the brand integrity, including use of the OpenStack Marks in a manner that is, in the OpenStack Foundation's opinion, offensive, defamatory, illegal or unethical.
-
-Confusingly similar marks: you may not use trademarks, logos or other content that is confusingly similar to the OpenStack Marks, OpenStack Foundation-owned graphics, symbols or any logos ("OpenStack, Foundation Brand Assets").
-
-Variations or abbreviations or combinations with any other marks: you may not use variations, foreign language equivalent or abbreviation of the OpenStack Marks for any purpose.
-
-Endorsement or Sponsorship  you may not use OpenStack Marks to imply approval, sponsorship, endorsement or affiliation of your company, website, products or services by the OpenStack Foundation or the OpenStack project.
-
-Please note that the preceding examples are illustrative rather than an exhaustive list of types of unauthorized uses of the OpenStack Marks. All rights not explicitly granted in this Trademark Policy are expressly reserved by the OpenStack Foundation.
-
-**GUIDELINES FOR PROPER USE OF THE OPENSTACK MARKS**
-
-The following guidelines set forth the rules for the display of the OpenStack Marks for permitted uses of the OpenStack Marks under this Trademark Policy and under the applicable OpenStack Trademark License:
-
-Product descriptor to follow OpenStack Word Mark: To the extent use of the OpenStack Word Mark is permitted, the OpenStack Word Mark must be used with a descriptive or generic 'product descriptor' that follows the OpenStack Mark. For example, "OpenStack technology," "OpenStack software," "OpenStack code," or "OpenStack cloud," but NOT "OpenStack."
-
-No alterations: When using OpenStack Marks, you shall never vary the spelling, hyphenation or spacing of the any portion of the marks.
-
-Examples of Improper Display of an OpenStack Mark: Open-Stack; Open Stack; OS Stack Examples of Proper Display of an OpenStack Mark: OpenStack; OPENSTACK
-
-You shall never use an OpenStack Mark as a verb or noun or in possessive or plural form.
-
-When using an OpenStack Logo or graphic design, you shall never modify the logo or design, add or delete any words, or change any color or proportion from those set forth in the Logo Usage Guidelines below or elsewhere in this Trademark Policy.
-
-Trademark Notice Symbol: When using the OpenStack Marks, you must use the appropriate trademark symbol (either  or ®) as a notice to third parties of OpenStack Foundation rights in its marks. A trademark notice symbol must be used in connection with the first and most prominent usage of a mark (e.g. "OpenStack"). An OpenStack Logo must always appear with the TM notice in every use. Please refer to the OpenStack Trademark List for the correct symbol on a regular basis as the symbol may change from time to time.
-
-Attribution statement: You acknowledge the rights of the OpenStack Foundation in the OpenStack Marks and agree not register or seek to register any OpenStack Marks in any country. You agree that you will not acquire any rights in the OpenStack Marks and that any goodwill generated by your use of the OpenStack Marks inures solely to OpenStack's benefit. You also agree that "OpenStack" is not descriptive or generic and you agree not to challenge the OpenStack Foundation's rights in the OpenStack Marks, including but not limited to its trademark applications and registrations, on any grounds.
-
-You must make clear that you are not the OpenStack Foundation and that you do not represent the OpenStack Foundation, or the OpenStack community. You must also ensure that your use of the OpenStack Marks does not create any confusion as to the source of your products, services and activities and those of the OpenStack community or the OpenStack Foundation.
-
-All uses of OpenStack Marks must identify the Marks as being trademarks of the OpenStack Foundation with our standard trademark attribution statement. The following statement must be used in all materials using the OpenStack Marks, including but not limited to websites, publications, splash screens, screenshots or in documentation: "The OpenStack Word Mark and OpenStack Logo are either registered trademarks/service marks or trademarks/service marks of the OpenStack Foundation, in the United States and other countries and are used with the OpenStack Foundation's permission. We are not affiliated with, endorsed or sponsored by the OpenStack Foundation, or the OpenStack community."
-
-**LOGO USAGE GUIDELINES**
-
-Our logos are presented in multiple colors and it is important the visual integrity remains the same. The following Logo Usage Guidelines apply:
-
-OpenStack Logo: Written permission is always required. Contact us by email at logo@openstack.org or follow the Community Use Process below, if applicable.
-
-Community Use of the OpenStack Logo: Get the Logo for the OpenStack non-commercial community building purposes by following the process and guidelines outlined on openstack.org/brand.
-
-Restricted Use Logos: Use is always subject to a signed trademark license. See the Restricted Use Logo Guidelines. OpenStack Web Badges: Get the Badges for your website or blog.
-
-While you may scale the size to suit your needs, you may not modify any of the OpenStack Logos or Badges in any other way (such as by changing the design or color or the relative proportions of the elements which comprise the logo).
-
-If your use of an OpenStack Logo or OpenStack Badge contains a web link, it must link only to http://www.openstack.org. OpenStack Logos and Badges may not be placed in areas of your website that are password protected.
-
-Please note that no OpenStack Logo, other than specified in this Policy, may be used without the express written permission of the OpenStack Foundation.
-
-**QUESTIONS AND REPORTING MISUSE OF THE OPENSTACK MARKS**
-
-If you wish to obtain our permission for any uses above or for any other use which is not specifically addressed in this Trademark Policy or you became aware of unauthorized use of the OpenStack Marks, please use the "Ask Us" form on this page and we will contact you as soon as possible. Please note that permission will only be granted under certain conditions and/or subject to you entering into an agreement with us to maintain the quality of the products and or services you offer.
-
-Thank you for caring about the OpenStack brand!
-
-© OpenStack Foundation September 19, 2012
+“DAYS”- or “USER GROUP”-based Logo (Option 1) | “DAYS”- or “USER GROUP”-based Logo (Option 2) | “DAYS”- or “USER GROUP”-based Logo (Option 3) | “DAYS”- or “USER GROUP”-based Logo (Option 4) | “DAYS”- and “USER GROUP”-based Word Mark
+---|---|---|---|---
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+
+## Marks Available to Individuals Who Hold a Credential/Certification
+
+If you are an individual who holds one or more credentials/certifications awarded by OpenInfra in the table immediately below (collectively, “Credentials”), and you are in good standing with OpenInfra with respect to one or more of those Credentials, you may use the long-form or acronym Credentials you hold after your name as a title (e.g., John Doe, COA) and use the corresponding logo in the table below within your personal biography (e.g., resume or LinkedIn page), without the need for a separate, signed written license. The Credentials may only be used to indicate that you have earned the Credentials personally, not as a trademark to brand goods/services you provide.
+
+Long-form Credential Word Mark | Corresponding Credential Acronym | Corresponding Logo
+---|---|---
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+
+
+## Marks that are Not Available
+	
+You may not use the marks in the table immediately below, as they are reserved for use only by OpenInfra.  These marks are not generally available for licensing.
+
+Design or Stylized Mark for Foundation Use Only | Corresponding Word Mark for Foundation Use Only
+---|---
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)

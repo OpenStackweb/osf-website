@@ -214,6 +214,8 @@ companyDetails:
       col2: 2015-08-10
     - col1: CYSO
       col2: 2014-04-29
+    - col2: 2023-04-14
+      col1: "Daitan Labs Solucoes em Tecnologia S/A "
     - col1: Daocloud
       col2: 2014-02-13
     - col1: Daowoo
@@ -912,8 +914,6 @@ companyDetails:
       col2: 2014-08-05
     - col1: ZTE Corporation
       col2: 2017-02-08
-    - col2: 2023-04-14
-      col1: "Daitan Labs Solucoes em Tecnologia S/A "
 ---
 
 The list of Corporate CLAs allowed to contribute to OpenStack projects. (Individual developers still need to fill out the Individual [Contributors License Agreement](https://wiki.openstack.org/wiki/How_To_Contribute#Contributors_License_Agreement)). If you need to update the list of employees authorized to commit code to OpenStack, please read [How To Update Corporate CLA](/cla). 

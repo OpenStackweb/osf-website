@@ -64,6 +64,10 @@ If you have questions about registration, please email [summit@openinfra.dev](ma
 **Do you offer registration refunds or ticket transfers?** <br>
 Yes, refunds and ticket transfers will be processed until May 27th, 2022 at 11:59 PT.
 
+**Are service and emotional service animals allowed at the OpenInfra Summit venue (the Vancouver Convention Centre)?** <br>
+Yes, guide and service animals are welcome in the Vancouver Convention Centre. We recommend bringing relevant paperwork to the venue. Attendees are encouraged to contact additional relevant venues they will be visiting, including hotels and restaurants as the OpenInfra Foundation cannot guarantee permission at outside venues.
+
+
 #### ONSITE SAFETY PRECAUTIONS
 
 Our attendees’ health and safety remain our top priority as we continue to monitor COVID-19. We will follow all venue, local, and WHO guidelines to make the best and most informed decisions around onsite safety and requirements. 

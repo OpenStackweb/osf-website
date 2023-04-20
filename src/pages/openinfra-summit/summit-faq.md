@@ -17,7 +17,7 @@ subTitle: Frequently Asked Questions
 <br>
 This year’s Summit will be held at the Vancouver Convention Centre - East Building, located at 1055 Canada Pl, Vancouver, BC V6C 3E2 Canada.
 
-**Where do the OpenInfra Summits (formerly OpenStack Summits) take place?**
+**Where do the OpenInfra Summits (formerly OpenStack Summits) take place?**<br>
 The OpenInfra Summits (formerly OpenStack Summit) happen all over the world. The 2023 Summit will take place in Vancouver, British Columbia.
 
 <u>Previous Summit Locations</u> <br>
@@ -92,6 +92,9 @@ Yes, complimentary tickets for spouses and / or children are available upon requ
 
 **How can I learn more about the accessibility at the OpenInfra Summit?** <br>
 Attendees are able to inquire if accommodations are available and make suggestions for future accommodations at events. Please contact summit@openinfra.dev for more information.
+
+**Are service and emotional service animals allowed at the OpenInfra Summit venue (the Vancouver Convention Centre)?** <br>
+Yes, guide and service animals are welcome in the Vancouver Convention Centre. We recommend bringing relevant paperwork to the venue. Attendees are encouraged to contact additional relevant venues they will be visiting, including hotels and restaurants as the OpenInfra Foundation cannot guarantee permission at outside venues.
 
 <h4 id="travel">VANCOUVER TRAVEL</h4>
 

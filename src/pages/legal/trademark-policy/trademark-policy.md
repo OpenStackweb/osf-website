@@ -38,21 +38,21 @@ OpenInfra reserves the right to terminate authorization to use the Marks if you 
 	
 ### For Organizations
 
-Preferred “Learn More About” Logos
+*Preferred “Learn More About” Logos*
 
 If your organization wishes to show your support for OpenInfra or the projects of OpenInfra in a way that is most helpful to OpenInfra, you may use the “Learn More About” logos in the table immediately below.  This use does not require a separate, signed written license, though it is subject to the following requirements: any logo used must link back to the corresponding website in the table below when a consumer clicks on the logo; the logos may not be used to brand a commercial product; and the marks may only be used to show support for OpenInfra and give consumers a way to learn more about OpenInfra by clicking on the logos, and not for any other purpose.
 
 “LEARN MORE ABOUT” Logo (Option 1) | “LEARN MORE ABOUT” Logo (Option 2) | Corresponding Website to be Linked from “LEARN MORE ABOUT” Logo
 ---|---|---
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://openinfra.dev/
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://www.openstack.org/
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://openinfralabs.org/ 
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://www.airshipit.org/
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://katacontainers.io/ 
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://www.starlingx.io/
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | https://zuul-ci.org/ 
+![OpenStack Powered logo sample](/img/legal/oifaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://openinfra.dev/
+![OpenStack Powered logo sample](/img/legal/oifaboutsm.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://www.openstack.org/
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://openinfralabs.org/ 
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://www.airshipit.org/
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://katacontainers.io/ 
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://www.starlingx.io/
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://zuul-ci.org/ 
 
-Acceptable Standard Logos
+*Acceptable Standard Logos*
 
 If your organization wishes to show your support for, or that it contributes to, OpenInfra or the projects of OpenInfra and does not wish to use the “Learn More About” logos, above, you may make nominative fair use of the logos in the table immediately below and the word marks therein (e.g., OPENSTACK).  This use does not require a separate, signed written license, though it is subject to the requirement that you do not use the mark to brand a commercial product and that you follow these nominative fair use requirements: (1) you use the mark to refer to OpenInfra or its projects and do so because there is a real need to identify OpenInfra or a product or service of OpenInfra; (2) you do not use the mark more than is necessary (e.g., you do not use the mark too prominently or too often, in terms of size, emphasis or repetition; and your own branding is more prominent in size and placement); and (3) you do nothing to falsely suggest a connection with or endorsement by OpenInfra (e.g., by suggesting affiliation with, approval by or sponsorship of your product by OpenInfra).  
 
@@ -60,18 +60,18 @@ Examples of nominative fair use include using one of these marks in a small way 
 
 Standard Logo (Option 1) | Standard Logo (Option 2) | Standard Logo (Option 2) | Standard Logo (Option 4)
 ---|---|---|---
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) 
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) 
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) 
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) 
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) 
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) 
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) 
  	 	 	 
 
 ### For Individuals
 
-	If you are an individual who wishes to act in your personal capacity, not on behalf of an organization, to show your support for OpenInfra and its projects, such as in a personal blog or educational materials like a slide deck presented at a conference, you may use the marks in the table immediately above and the word marks therein (e.g., OPENSTACK).  This use does not require a separate, signed written license, though it is subject to the following requirements: the logos may not be connected with a commercial product or entity; and the marks may only be used to show support for OpenInfra and give consumers a way to learn more about OpenInfra, and not for any other purpose.
+If you are an individual who wishes to act in your personal capacity, not on behalf of an organization, to show your support for OpenInfra and its projects, such as in a personal blog or educational materials like a slide deck presented at a conference, you may use the marks in the table immediately above and the word marks therein (e.g., OPENSTACK).  This use does not require a separate, signed written license, though it is subject to the following requirements: the logos may not be connected with a commercial product or entity; and the marks may only be used to show support for OpenInfra and give consumers a way to learn more about OpenInfra, and not for any other purpose.
 
 ## Marks Available to Members
 
@@ -92,9 +92,9 @@ If you are a qualifying OpenInfra member in good standing and you wish to use th
 
 Commercial-use Logo | Corresponding Commercial-use Word Mark
 ---|---
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | OPENSTACK POWERED
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | OPENSTACK COMPATIBLE
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | OPENSTACK EXPERTISE
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENSTACK POWERED
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENSTACK COMPATIBLE
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENSTACK EXPERTISE
 [Future “POWERED”-based Project Logo] | [Future “POWERED”-based Project Word Mark]
 [Future “COMPATIBLE”-based Project Logo] | [Future “COMPATIBLE”-based Project Word Mark]
 [Future “EXPERTISE”-based Project Logo] | [Future “EXPERTISE”-based Project Word Mark]
@@ -105,12 +105,12 @@ If you are a qualifying OpenInfra member in good standing and you wish to use th
 
 Special-use Logo (Option 1) | Special-use Logo (Option 2) | Special-use Logo (Option 3) | Special-use Logo (Option 4)
 ---|---|---|---
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) 	 	 	 
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) 	 	 	 
 
 ### Marks Available to Organizers of “Days” and “User Group” Activities
 	
@@ -118,12 +118,12 @@ If you wish to use the marks in the table immediately below to promote community
 
 “DAYS”- or “USER GROUP”-based Logo (Option 1) | “DAYS”- or “USER GROUP”-based Logo (Option 2) | “DAYS”- or “USER GROUP”-based Logo (Option 3) | “DAYS”- or “USER GROUP”-based Logo (Option 4) | “DAYS”- and “USER GROUP”-based Word Mark
 ---|---|---|---|---
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
 
 ## Marks Available to Individuals Who Hold a Credential/Certification
 
@@ -131,8 +131,8 @@ If you are an individual who holds one or more credentials/certifications awarde
 
 Long-form Credential Word Mark | Corresponding Credential Acronym | Corresponding Logo
 ---|---|---
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
 
 
 ## Marks that are Not Available
@@ -141,5 +141,5 @@ You may not use the marks in the table immediately below, as they are reserved f
 
 Design or Stylized Mark for Foundation Use Only | Corresponding Word Mark for Foundation Use Only
 ---|---
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
-![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png) | ![OpenStack Powered logo sample](/img/OpenStack-Program-Powered-sample.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)

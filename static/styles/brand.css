@@ -1,0 +1,65 @@
+.openinfra-logo-asset-box {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .openinfra-logo-asset-box .brand {
+        background-color: #2A4E68;
+        color: #fff;
+        text-align: center;
+        padding: 0.5em;
+        margin-top: 2em;
+  }
+  
+  .openinfra-logo-asset-box .item {
+        padding-bottom: 3em;
+        border: solid 1px #eee;
+        max-width: 49%;
+        margin: 1em 0 0.5em 0;
+        margin-right: 1%;
+        width: 50%;
+  }
+
+  @media screen and (max-width: 769px) {
+    .openinfra-logo-asset-box .item {
+
+        max-width: 100%;
+        margin-right: 0;
+        width: 100%;
+  }
+  }
+  .openinfra-logo-asset-box .item h5 {
+            color: #2A4E68;
+            text-align: center;
+            font-size: 2em;
+            margin: 2em 0 1em;
+  }
+
+  .openinfra-logo-asset-box .span-4 {
+    text-align: center;
+    height: 10em;
+  }
+  .openinfra-logo-asset-box   img {
+        max-height: 6em;
+        padding-top: 2em;
+}
+
+.openinfra-logo-asset-box  .file-types {
+    padding: 0 10%;
+    text-align: center;
+}
+.openinfra-logo-asset-box  .file-types a {
+        padding: 0;
+        min-width: 20%;
+        display: inline-block;
+        margin: 0;
+        border: none;
+        text-align: center;
+        color: #30739C;
+        box-shadow: none;
+        text-shadow: none;
+        background: #D8D8D8;
+        margin-right: 5%;
+        line-height: 2em;
+        width: unset;
+}

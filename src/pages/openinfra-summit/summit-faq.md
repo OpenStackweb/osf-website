@@ -17,7 +17,7 @@ subTitle: Frequently Asked Questions
 <br>
 This year’s Summit will be held at the Vancouver Convention Centre - East Building, located at 1055 Canada Pl, Vancouver, BC V6C 3E2 Canada.
 
-**Where do the OpenInfra Summits (formerly OpenStack Summits) take place?**
+**Where do the OpenInfra Summits (formerly OpenStack Summits) take place?**<br>
 The OpenInfra Summits (formerly OpenStack Summit) happen all over the world. The 2023 Summit will take place in Vancouver, British Columbia.
 
 <u>Previous Summit Locations</u> <br>

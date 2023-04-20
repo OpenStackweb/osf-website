@@ -93,6 +93,9 @@ Yes, complimentary tickets for spouses and / or children are available upon requ
 **How can I learn more about the accessibility at the OpenInfra Summit?** <br>
 Attendees are able to inquire if accommodations are available and make suggestions for future accommodations at events. Please contact summit@openinfra.dev for more information.
 
+**Are service and emotional service animals allowed at the OpenInfra Summit venue (the Vancouver Convention Centre)?** <br>
+Yes, guide and service animals are welcome in the Vancouver Convention Centre. We recommend bringing relevant paperwork to the venue. Attendees are encouraged to contact additional relevant venues they will be visiting, including hotels and restaurants as the OpenInfra Foundation cannot guarantee permission at outside venues.
+
 <h4 id="travel">VANCOUVER TRAVEL</h4>
 
 **Is there any financial support available for travel/accommodation?** <br>

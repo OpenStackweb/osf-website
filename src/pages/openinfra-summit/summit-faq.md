@@ -141,9 +141,6 @@ For speaker support, please email [speakersupport@openinfra.dev](speakersupport@
 
 <h4 id="forum"><a href="https://openinfra.dev/summit/vancouver-2023/forum/">FORUM</a></h4>
 
-**How can I submit a discussion to the Forum?** <br/>
-Forum discussion proposals can be [submitted here](https://cfp.openinfra.dev/app/vancouver-2023/20).
-
 **How long are OpenInfra Summit Forum discussions?** <br/>
 Depending on the topic, OpenInfra Summit Forum discussions are either 30 minutes or 70 minutes. Please check the schedule to understand each discussion’s specific length.
 

@@ -1,5 +1,5 @@
 ---
-templateKey: generic-page
+templateKey: brand-page
 seo:
   description: >-
     This Trademark Policy (the "Trademark Policy"), prepared by the OpenStack Foundation (hereinafter referred to as "OpenStack Foundation"), sets out rules for proper use of the mark "OpenStack" (hereinafter referred to as "the OpenStack Word Mark") and the "OpenStack Logo" or "OpenStack Logos" (as defined in Section 6 of the Trademark Policy) when referring to the OpenStack project and code base.
@@ -18,6 +18,7 @@ footer:
   display: true
 ---
 <div class="trademark-policy-container">
+
 # Trademark Policy
 
 We're excited that you want to help promote OpenInfra and OpenInfra open source projects by using trademarks/brands connected with OpenStack Foundation d/b/a Open Infrastructure Foundation (“OpenInfra").  No matter how you contribute in one of the following categories, your help spreading the word about OpenInfra and its projects is extremely valuable: you may be an individual or organization who wishes to show your support for OpenInfra or its projects; you may be a member of OpenInfra who wishes to display indicia of your membership or brand a commercial product; you may be an organizer of “Days” or “User Group” activities for OpenInfra or its projects, who wishes to promote community engagement; or you may be an individual who holds a credential/certification issued by OpenInfra that you want to showcase. This Trademark Policy (“Policy”) is designed to get you the resources you need and provide simple instructions for permitted use of the trademarks shown in the tables below and the word marks therein (collectively “Marks”), while highlighting those Marks that require membership and/or a license before they can be used, or are reserved for use only by OpenInfra.

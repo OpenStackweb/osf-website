@@ -125,7 +125,7 @@ If you wish to use the marks in the table immediately below to promote community
 ![OpenStack Powered logo sample](/img/legal/oid1.jpg) | ![OpenStack Powered logo sample](/img/legal/oid2.jpg) | ![OpenStack Powered logo sample](/img/legal/oid3.jpg) | ![OpenStack Powered logo sample](/img/legal/oid4.jpg) | OPENINFRA DAYS [insert region before or after]
 ![OpenStack Powered logo sample](/img/legal/oiug1.jpg) | ![OpenStack Powered logo sample](/img/legal/oiug2.jpg) | ![OpenStack Powered logo sample](/img/legal/oiug3.jpg) | ![OpenStack Powered logo sample](/img/legal/oiug4.jpg) | OPENINFRA USER GROUP [insert region before or after]
 ![OpenStack Powered logo sample](/img/legal/od1.jpg) | ![OpenStack Powered logo sample](/img/legal/od2.jpg) | ![OpenStack Powered logo sample](/img/legal/od3.jpg) |  | OPENSTACK DAYS [insert region before or after]
-![OpenStack Powered logo sample](/img/legal/ug11.jpg) | ![OpenStack Powered logo sample](/img/legal/ug2.jpg) |  |  | OPENSTACK USER GROUP [insert region before or after]
+![OpenStack Powered logo sample](/img/legal/ug1.jpg) | ![OpenStack Powered logo sample](/img/legal/ug2.jpg) |  |  | OPENSTACK USER GROUP [insert region before or after]
 [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Word Mark]
 [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Word Mark]
 

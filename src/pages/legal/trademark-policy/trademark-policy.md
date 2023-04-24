@@ -138,7 +138,7 @@ If you are an individual who holds one or more credentials/certifications awarde
 
 Long-form Credential Word Mark | Corresponding Credential Acronym | Corresponding Logo
 ---|---|---
-!CERTIFIED OPENSTACK ADMINISTRATOR | COA | ![OpenStack Powered logo sample](/img/legal/coaicon.png)
+!CERTIFIED OPENSTACK ADMINISTRATOR | COA | ![OpenStack Powered logo sample](/img/legal/coalogo.png)
 [Future Long-form Credential Mark] | [Future Acronym Credential Mark] | [Future Logo Credential Mark]
 
 

@@ -70,6 +70,11 @@
       border-width: 1px;
 }
 
+.trademark-policy-container table td tr img {
+      max-height: 100px;
+      width: auto;
+}
+
 .trademark-policy-container table tbody tr:last-child td {
       border-bottom-width: 1px;
 }

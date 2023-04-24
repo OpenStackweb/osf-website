@@ -70,9 +70,6 @@ function SubNavYvr(props) {
                   <LinkComponent id="summit-faq" href="/summit/vancouver-2023/summit-faq" className="link dropdown">
                     FAQs
                   </LinkComponent>
-                  <LinkComponent id="summit-faq-travel" href="/summit/vancouver-2023/summit-faq#travel" className="link dropdown">
-                    <span>Travel Support</span>
-                  </LinkComponent>
                   <LinkComponent id="summit-faq-speaker" href="/summit/vancouver-2023/summit-faq#speakers" className="link dropdown">
                     <span>Speaker Support</span>
                   </LinkComponent>
@@ -120,9 +117,6 @@ function SubNavYvr(props) {
                 <>
                   <LinkComponent id="summit-faq" href="/summit/vancouver-2023/summit-faq" onClick={() => shouldCloseMenu("summit-faq")} className="link-dropdown-option" >
                     FAQs
-                  </LinkComponent>
-                  <LinkComponent id="summit-faq-travel" href="/summit/vancouver-2023/summit-faq#travel" onClick={() => shouldCloseMenu("summit-faq-travel")} className="link-dropdown-option">
-                    <span>Travel Support</span>
                   </LinkComponent>
                   <LinkComponent id="summit-faq-speakers" href="/summit/vancouver-2023/summit-faq#speakers" onClick={() => shouldCloseMenu("summit-faq-speakers")} className="link-dropdown-option">
                     <span>Speaker Support</span>

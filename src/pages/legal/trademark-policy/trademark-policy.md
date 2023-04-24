@@ -48,7 +48,7 @@ If your organization wishes to show your support for OpenInfra or the projects o
 ![OpenStack Powered logo sample](/img/legal/osaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/osaboutsm.png) | https://www.openstack.org/
 ![OpenStack Powered logo sample](/img/legal/oilaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/oilaboutsm.png) | https://openinfralabs.org/ 
 ![OpenStack Powered logo sample](/img/legal/airshipaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/airshipaboutsm.png) | https://www.airshipit.org/
-![OpenStack Powered logo sample](/img/legal/lataaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/kataaboutsm.png) | https://katacontainers.io/ 
+![OpenStack Powered logo sample](/img/legal/kataaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/kataaboutsm.png) | https://katacontainers.io/ 
 ![OpenStack Powered logo sample](/img/legal/starlingxaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/starlingxaboutsm.png) | https://www.starlingx.io/
 ![OpenStack Powered logo sample](/img/legal/zuulaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/zuulaboutsm.png) | https://zuul-ci.org/ 
 [Future “LEARN MORE ABOUT” Project Logo] | [Future “LEARN MORE ABOUT” Project Logo] | [Future Project Website] 

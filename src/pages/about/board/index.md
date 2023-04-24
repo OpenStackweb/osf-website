@@ -71,15 +71,15 @@ members:
     title: Individual Director
     twitter: https://twitter.com/spotzz_
   - name: Belmiro Moreira
-    company: CERN
+    company: ESA (European Space Agency)
     description: >-
-      <p>Belmiro Moreira is an enthusiastic mathematician and computer engineer
-      passionate about the challenges and complexities of architecting and
-      deploying large scale open Cloud Infrastructures.</p>
+      <p>Belmiro Moreira is an enthusiastic mathematician and computer engineer passionate about the challenges and complexities of architecting and deploying large scale Open Infrastructures.</p>
 
-      <p>Belmiro works at CERN and during the last 10 years he has been responsible for the design, deployment and maintenance of the CERN Cloud Infrastructure based on Openstack. Previously he worked in different virtualization projects to improve the efficiency of the large Batch farm at CERN.</p>
+      <p>Belmiro works at ESA (European Space Agency) in the critical Mission Operations Ground Segment Infrastructure that supports all the agency spacecraft missions.</p>
 
-      <p>Belmiro is from the beginning an active member of the OpenStack community.  Currently, he is a member of the OpenStack TC (Technical Committee) and the co-chair of the OpenStack Large Scale SIG.Previously, he was also a member of the OpenStack UC (User Committee).</p>
+      <p>Previously, he worked at CERN (European Organization for Nuclear Research). At CERN he was responsible for the design, deployment and maintenance of the CERN Cloud Infrastructure based on Openstack. He also worked in different virtualization projects to improve the efficiency of the large Batch farm at CERN.</p>
+
+      <p>Belmiro is from the beginning an active member of the OpenStack community. Currently, he is an individual director of the Open Infrastructure Foundation Board, and a co-chair of the OpenStack Large Scale SIG. Previously, he was also a member of the OpenStack TC (Technical Committee) and the OpenStack UC (User Committee).</p>
 
       <p>Belmiro is particularly interested in the challenges that cloud operators face when maintaining large scale open infrastructures. He talks regularly about his experience in several conferences and events, (OpenStack Summits, OpenStack User Groups, OpenInfra Live, CentOS Dojo, ...) and helps in the organization of many other events.</p>
 

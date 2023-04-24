@@ -159,8 +159,8 @@ Design or Stylized Mark for Foundation Use Only | Corresponding Word Mark for Fo
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | SU
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENDEV
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OD
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | PROJECT TEAMS
-GATHERING
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | PROJECT TEAMS GATHERING
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | PTG
 [Future Foundation-only Design or Stylized Mark] | [Future Foundation-only Word Mark]
+
 </div>

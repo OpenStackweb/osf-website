@@ -4,10 +4,10 @@ seo:
   description: >-
     This Trademark Policy (the "Trademark Policy"), prepared by the OpenStack Foundation (hereinafter referred to as "OpenStack Foundation"), sets out rules for proper use of the mark "OpenStack" (hereinafter referred to as "the OpenStack Word Mark") and the "OpenStack Logo" or "OpenStack Logos" (as defined in Section 6 of the Trademark Policy) when referring to the OpenStack project and code base.
   image: /img/OpenInfra-icon-white.jpg
-  title: OpenStack® Trademark Policy
+  title: OpenInfra Foundation Trademark Policy
   twitterUsername: "@OpenInfraDev"
   url: "https://openinfra.dev/legal/trademark-policy"
-title: OpenStack® Trademark Policy
+title: OpenInfra Foundation Trademark Policy
 subTitle: ""
 footer:
   title: ""
@@ -69,6 +69,7 @@ Standard Logo (Option 1) | Standard Logo (Option 2) | Standard Logo (Option 2) |
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) 
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) 
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) 
+[Future Project Logo] | [Future Project Logo] | [Future Project Logo] | [Future Project Logo]
  	 	 	 
 
 ### For Individuals
@@ -83,10 +84,11 @@ If you are an OpenInfra member in good standing, you may use the specific “MEM
 
 Member Category | Corresponding “MEMBER”-based Logo | Corresponding “MEMBER”-based Word Mark
 ---|---|---
-Platinum Member in good standing | Image | OPENINFRA PLATINUM MEMBER
-Gold Member in good standing | Image | OPENINFRA GOLD MEMBER
-Silver Member in good standing | Image | OPENINFRA SILVER MEMBER
-Associate Member in good standing | Image | OPENINFRA ASSOCIATE MEMBER
+Platinum Member in good standing | ![OpenStack Powered logo sample](/img/legal/platinummemberlogo.png) | OPENINFRA PLATINUM MEMBER
+Gold Member in good standing | ![OpenStack Powered logo sample](/img/legal/goldmemberlogo.png) | OPENINFRA GOLD MEMBER
+Silver Member in good standing | ![OpenStack Powered logo sample](/img/legal/silvermemberlogo.png) | OPENINFRA SILVER MEMBER
+Associate Member in good standing | ![OpenStack Powered logo sample](/img/legal/associatememberlogo.png) | OPENINFRA ASSOCIATE MEMBER
+[Future Member Category] | [Future “MEMBER” Logo] | [Future “MEMBER” Word Mark]
 
 ### Marks that Brand Commercial Products (Standard Use Case)
 	
@@ -94,9 +96,9 @@ If you are a qualifying OpenInfra member in good standing and you wish to use th
 
 Commercial-use Logo | Corresponding Commercial-use Word Mark
 ---|---
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENSTACK POWERED
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENSTACK COMPATIBLE
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENSTACK EXPERTISE
+![OpenStack Powered logo sample](/img/legal/openstackpowered.png) | OPENSTACK POWERED
+![OpenStack Powered logo sample](/img/legal/openstackcompatible.png) | OPENSTACK COMPATIBLE
+![OpenStack Powered logo sample](/img/legal/openstackexpertise.png) | OPENSTACK EXPERTISE
 [Future “POWERED”-based Project Logo] | [Future “POWERED”-based Project Word Mark]
 [Future “COMPATIBLE”-based Project Logo] | [Future “COMPATIBLE”-based Project Word Mark]
 [Future “EXPERTISE”-based Project Logo] | [Future “EXPERTISE”-based Project Word Mark]
@@ -112,7 +114,8 @@ Special-use Logo (Option 1) | Special-use Logo (Option 2) | Special-use Logo (Op
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) 	 	 	 
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+[Future Project Logo] | [Future Project Logo] | [Future Project Logo] | [Future Project Logo]	 	 	 
 
 ### Marks Available to Organizers of “Days” and “User Group” Activities
 	
@@ -126,6 +129,8 @@ If you wish to use the marks in the table immediately below to promote community
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+[Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Word Mark]
+[Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Word Mark]
 
 ## Marks Available to Individuals Who Hold a Credential/Certification
 
@@ -134,7 +139,7 @@ If you are an individual who holds one or more credentials/certifications awarde
 Long-form Credential Word Mark | Corresponding Credential Acronym | Corresponding Logo
 ---|---|---
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+[Future Long-form Credential Mark] | [Future Acronym Credential Mark] | [Future Logo Credential Mark]
 
 
 ## Marks that are Not Available
@@ -143,6 +148,19 @@ You may not use the marks in the table immediately below, as they are reserved f
 
 Design or Stylized Mark for Foundation Use Only | Corresponding Word Mark for Foundation Use Only
 ---|---
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENINFRA
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENINFRA FOUNDATION
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPEN INFRASTRUCTURE FOUNDATION
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENINFRA SUMMIT
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | AN OPENINFRA PROJECT
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | 
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENINFRA LIVE
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | SUPERUSER
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | SU
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENDEV
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OD
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | PROJECT TEAMS
+GATHERING
+![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | PTG
+[Future Foundation-only Design or Stylized Mark] | [Future Foundation-only Word Mark]
 </div>

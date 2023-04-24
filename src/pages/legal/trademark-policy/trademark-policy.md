@@ -17,7 +17,7 @@ footer:
   button: https://openinfra.dev/join/
   display: true
 ---
-
+<div class="trademark-policy-container">
 # Trademark Policy
 
 We're excited that you want to help promote OpenInfra and OpenInfra open source projects by using trademarks/brands connected with OpenStack Foundation d/b/a Open Infrastructure Foundation (“OpenInfra").  No matter how you contribute in one of the following categories, your help spreading the word about OpenInfra and its projects is extremely valuable: you may be an individual or organization who wishes to show your support for OpenInfra or its projects; you may be a member of OpenInfra who wishes to display indicia of your membership or brand a commercial product; you may be an organizer of “Days” or “User Group” activities for OpenInfra or its projects, who wishes to promote community engagement; or you may be an individual who holds a credential/certification issued by OpenInfra that you want to showcase. This Trademark Policy (“Policy”) is designed to get you the resources you need and provide simple instructions for permitted use of the trademarks shown in the tables below and the word marks therein (collectively “Marks”), while highlighting those Marks that require membership and/or a license before they can be used, or are reserved for use only by OpenInfra.
@@ -44,13 +44,14 @@ If your organization wishes to show your support for OpenInfra or the projects o
 
 “LEARN MORE ABOUT” Logo (Option 1) | “LEARN MORE ABOUT” Logo (Option 2) | Corresponding Website to be Linked from “LEARN MORE ABOUT” Logo
 ---|---|---
-![OpenStack Powered logo sample](/img/legal/oifaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://openinfra.dev/
-![OpenStack Powered logo sample](/img/legal/oifaboutsm.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://www.openstack.org/
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://openinfralabs.org/ 
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://www.airshipit.org/
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://katacontainers.io/ 
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://www.starlingx.io/
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | https://zuul-ci.org/ 
+![OpenStack Powered logo sample](/img/legal/oifaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/oifaboutsm.png) | https://openinfra.dev/
+![OpenStack Powered logo sample](/img/legal/osaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/osaboutsm.png) | https://www.openstack.org/
+![OpenStack Powered logo sample](/img/legal/oilaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/oilaboutsm.png) | https://openinfralabs.org/ 
+![OpenStack Powered logo sample](/img/legal/airshipaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/airshipaboutsm.png) | https://www.airshipit.org/
+![OpenStack Powered logo sample](/img/legal/lataaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/kataaboutsm.png) | https://katacontainers.io/ 
+![OpenStack Powered logo sample](/img/legal/starlingxaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/starlingxaboutsm.png) | https://www.starlingx.io/
+![OpenStack Powered logo sample](/img/legal/zuulaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/zuulaboutsm.png) | https://zuul-ci.org/ 
+[Future “LEARN MORE ABOUT” Project Logo] | [Future “LEARN MORE ABOUT” Project Logo] | [Future Project Website] 
 
 *Acceptable Standard Logos*
 
@@ -143,3 +144,4 @@ Design or Stylized Mark for Foundation Use Only | Corresponding Word Mark for Fo
 ---|---
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
 ![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | ![OpenStack Powered logo sample](/img/legal/openinfraicon.png)
+</div>

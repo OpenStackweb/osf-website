@@ -66,6 +66,12 @@
         width: unset;
 }
 
+.trademark-policy-container .center-content-table {
+      text-align: center;
+      display: block;
+      margin-top: 10px;
+}
+
 .trademark-policy-container table td {
       border-width: 1px;
 }

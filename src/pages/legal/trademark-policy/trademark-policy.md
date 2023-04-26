@@ -149,10 +149,10 @@ Design or Stylized Mark for Foundation Use Only | Corresponding Word Mark for Fo
 ![OpenStack Powered logo sample](/img/legal/notavailable2.jpg) | OPENINFRA FOUNDATION
 ![OpenStack Powered logo sample](/img/legal/notavailable3.jpg) | OPEN INFRASTRUCTURE FOUNDATION
 ![OpenStack Powered logo sample](/img/legal/notavailable4.jpg) | OPENINFRA SUMMIT
-![OpenStack Powered logo sample](/img/legal/notavailable5.jpg) (ignore black background) | AN OPENINFRA PROJECT
+![OpenStack Powered logo sample](/img/legal/notavailable5.jpg) <span class="center-content-table">(ignore black background)</span> | AN OPENINFRA PROJECT
 ![OpenStack Powered logo sample](/img/legal/notavailable6.jpg) | 
 ![OpenStack Powered logo sample](/img/legal/notavailable7.jpg) | OPENINFRA LIVE
-![OpenStack Powered logo sample](/img/legal/notavailable8.jpg) (ignore black background) | SUPERUSER
+![OpenStack Powered logo sample](/img/legal/notavailable8.jpg) <span class="center-content-table">(ignore black background)</span> | SUPERUSER
 ![OpenStack Powered logo sample](/img/legal/notavailable9.jpg) | SU
 ![OpenStack Powered logo sample](/img/legal/notavailable10.jpg) | OPENDEV
 ![OpenStack Powered logo sample](/img/legal/notavailable11.jpg) | OD

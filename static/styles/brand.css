@@ -72,8 +72,17 @@
       margin-top: 10px;
 }
 
+.trademark-policy-container thead {
+      background-color: #f3f3f3;
+}
+
+.trademark-policy-container thead th {
+      border: solid 1px #eee;
+}
+
 .trademark-policy-container table td {
       border-width: 1px;
+      border: solid 1px #eee;
 }
 
 /* .trademark-policy-container table tr td img {

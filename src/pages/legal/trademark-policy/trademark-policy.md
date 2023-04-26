@@ -63,7 +63,7 @@ Examples of nominative fair use include using one of these marks in a small way 
 Standard Logo (Option 1) | Standard Logo (Option 2) | Standard Logo (Option 2) | Standard Logo (Option 4)
 ---|---|---|---
 ![OpenStack Powered logo sample](/img/legal/osstandard1.jpg) | ![OpenStack Powered logo sample](/img/legal/osstandard2.jpg) | ![OpenStack Powered logo sample](/img/legal/osstandard3.jpg) | ![OpenStack Powered logo sample](/img/legal/osstandard4.jpg) 
-![OpenStack Powered logo sample](/img/legal/oilstandard1.jpg) | ![OpenStack Powered logo sample](/img/legal/oilstandard4.jpg) | ![OpenStack Powered logo sample](/img/legal/oilstandard3.jpg) | ![OpenStack Powered logo sample](/img/legal/osstandard1.jpg) 
+![OpenStack Powered logo sample](/img/legal/oilstandard1.jpg) | ![OpenStack Powered logo sample](/img/legal/oilstandard2.jpg) | ![OpenStack Powered logo sample](/img/legal/oilstandard3.jpg) | ![OpenStack Powered logo sample](/img/legal/oilstandard4.jpg) 
 ![OpenStack Powered logo sample](/img/legal/airshipstandard1.jpg) | ![OpenStack Powered logo sample](/img/legal/airshipstandard2.jpg) | ![OpenStack Powered logo sample](/img/legal/airshipstandard3.jpg) | ![OpenStack Powered logo sample](/img/legal/airshipstandard4.jpg) 
 ![OpenStack Powered logo sample](/img/legal/katastandard1.jpg) | ![OpenStack Powered logo sample](/img/legal/katastandard2.jpg) | ![OpenStack Powered logo sample](/img/legal/katastandard3.jpg) | ![OpenStack Powered logo sample](/img/legal/katastandard4.jpg) 
 ![OpenStack Powered logo sample](/img/legal/starlingxstandard1.jpg) | ![OpenStack Powered logo sample](/img/legal/starlingxstandard2.jpg) | ![OpenStack Powered logo sample](/img/legal/starlingxstandard3.jpg) | ![OpenStack Powered logo sample](/img/legal/starlingxstandard4.jpg) 
@@ -109,7 +109,7 @@ If you are a qualifying OpenInfra member in good standing and you wish to use th
 Special-use Logo (Option 1) | Special-use Logo (Option 2) | Special-use Logo (Option 3) | Special-use Logo (Option 4)
 ---|---|---|---
 ![OpenStack Powered logo sample](/img/legal/osspecial1.jpg) | ![OpenStack Powered logo sample](/img/legal/osspecial2.jpg) | ![OpenStack Powered logo sample](/img/legal/osspecial3.jpg) | ![OpenStack Powered logo sample](/img/legal/osspecial4.jpg) 
-![OpenStack Powered logo sample](/img/legal/oilspecial1.jpg) | ![OpenStack Powered logo sample](/img/legal/oilspecial4.jpg) | ![OpenStack Powered logo sample](/img/legal/oilspecial3.jpg) | ![OpenStack Powered logo sample](/img/legal/osspecial1.jpg) 
+![OpenStack Powered logo sample](/img/legal/oilspecial1.jpg) | ![OpenStack Powered logo sample](/img/legal/oilspecial2.jpg) | ![OpenStack Powered logo sample](/img/legal/oilspecial3.jpg) | ![OpenStack Powered logo sample](/img/legal/oilspecial4.jpg) 
 ![OpenStack Powered logo sample](/img/legal/airshipspecial1.jpg) | ![OpenStack Powered logo sample](/img/legal/airshipspecial2.jpg) | ![OpenStack Powered logo sample](/img/legal/airshipspecial3.jpg) | ![OpenStack Powered logo sample](/img/legal/airshipspecial4.jpg) 
 ![OpenStack Powered logo sample](/img/legal/kataspecial1.jpg) | ![OpenStack Powered logo sample](/img/legal/kataspecial2.jpg) | ![OpenStack Powered logo sample](/img/legal/kataspecial3.jpg) | ![OpenStack Powered logo sample](/img/legal/kataspecial4.jpg) 
 ![OpenStack Powered logo sample](/img/legal/starlingxspecial1.jpg) | ![OpenStack Powered logo sample](/img/legal/starlingxspecial2.jpg) | ![OpenStack Powered logo sample](/img/legal/starlingxspecial3.jpg) | ![OpenStack Powered logo sample](/img/legal/starlingxspecial4.jpg) 

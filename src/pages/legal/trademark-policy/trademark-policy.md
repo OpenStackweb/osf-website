@@ -145,19 +145,19 @@ You may not use the marks in the table immediately below, as they are reserved f
 
 Design or Stylized Mark for Foundation Use Only | Corresponding Word Mark for Foundation Use Only
 ---|---
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENINFRA
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENINFRA FOUNDATION
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPEN INFRASTRUCTURE FOUNDATION
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENINFRA SUMMIT
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | AN OPENINFRA PROJECT
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | 
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENINFRA LIVE
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | SUPERUSER
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | SU
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OPENDEV
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | OD
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | PROJECT TEAMS GATHERING
-![OpenStack Powered logo sample](/img/legal/openinfraicon.png) | PTG
+![OpenStack Powered logo sample](/img/legal/notavailable1.jpg) | OPENINFRA
+![OpenStack Powered logo sample](/img/legal/notavailable2.jpg) | OPENINFRA FOUNDATION
+![OpenStack Powered logo sample](/img/legal/notavailable3.jpg) | OPEN INFRASTRUCTURE FOUNDATION
+![OpenStack Powered logo sample](/img/legal/notavailable4.jpg) | OPENINFRA SUMMIT
+![OpenStack Powered logo sample](/img/legal/notavailable5.jpg) (ignore black background) | AN OPENINFRA PROJECT
+![OpenStack Powered logo sample](/img/legal/notavailable6.jpg) | 
+![OpenStack Powered logo sample](/img/legal/notavailable7.jpg) | OPENINFRA LIVE
+![OpenStack Powered logo sample](/img/legal/notavailable8.jpg) (ignore black background) | SUPERUSER
+![OpenStack Powered logo sample](/img/legal/notavailable9.jpg) | SU
+![OpenStack Powered logo sample](/img/legal/notavailable10.jpg) | OPENDEV
+![OpenStack Powered logo sample](/img/legal/notavailable11.jpg) | OD
+![OpenStack Powered logo sample](/img/legal/notavailable12.jpg) | PROJECT TEAMS GATHERING
+![OpenStack Powered logo sample](/img/legal/notavailable13.jpg) | PTG
 [Future Foundation-only Design or Stylized Mark] | [Future Foundation-only Word Mark]
 
 </div>

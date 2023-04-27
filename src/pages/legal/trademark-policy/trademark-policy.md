@@ -45,13 +45,13 @@ If your organization wishes to show your support for OpenInfra or the projects o
 
 “LEARN MORE ABOUT” Logo (Option 1) | “LEARN MORE ABOUT” Logo (Option 2) | Corresponding Website to be Linked from “LEARN MORE ABOUT” Logo
 ---|---|---
-![OpenStack Powered logo sample](/img/legal/oifaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/oifaboutsm.png) | https://openinfra.dev/
-![OpenStack Powered logo sample](/img/legal/osaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/osaboutsm.png) | https://www.openstack.org/
-![OpenStack Powered logo sample](/img/legal/oilaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/oilaboutsm.png) | https://openinfralabs.org/ 
-![OpenStack Powered logo sample](/img/legal/airshipaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/airshipaboutsm.png) | https://www.airshipit.org/
-![OpenStack Powered logo sample](/img/legal/kataaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/kataaboutsm.png) | https://katacontainers.io/ 
-![OpenStack Powered logo sample](/img/legal/starlingxaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/starlingxaboutsm.png) | https://www.starlingx.io/
-![OpenStack Powered logo sample](/img/legal/zuulaboutlg.png) | ![OpenStack Powered logo sample](/img/legal/zuulaboutsm.png) | https://zuul-ci.org/ 
+![OIF About Large](/img/legal/oifaboutlg.png) | ![OIF About Small](/img/legal/oifaboutsm.png) | https://openinfra.dev/
+![OpenStack About Large](/img/legal/osaboutlg.png) | ![OpenStack About Small](/img/legal/osaboutsm.png) | https://www.openstack.org/
+![OpenInfra Labs About Large](/img/legal/oilaboutlg.png) | ![OpenInfra Labs About Small](/img/legal/oilaboutsm.png) | https://openinfralabs.org/ 
+![Airship About Large](/img/legal/airshipaboutlg.png) | ![Airship About Small](/img/legal/airshipaboutsm.png) | https://www.airshipit.org/
+![Kata Containers About Large](/img/legal/kataaboutlg.png) | ![Kata Containers About Small](/img/legal/kataaboutsm.png) | https://katacontainers.io/ 
+![StarlingX About Large](/img/legal/starlingxaboutlg.png) | ![StarlingX About Small](/img/legal/starlingxaboutsm.png) | https://www.starlingx.io/
+![Zuul About Large](/img/legal/zuulaboutlg.png) | ![Zuul About Small](/img/legal/zuulaboutsm.png) | https://zuul-ci.org/ 
 [Future “LEARN MORE ABOUT” Project Logo] | [Future “LEARN MORE ABOUT” Project Logo] | [Future Project Website] 
 
 *Acceptable Standard Logos*
@@ -62,12 +62,12 @@ Examples of nominative fair use include using one of these marks in a small way 
 
 Standard Logo (Option 1) | Standard Logo (Option 2) | Standard Logo (Option 2) | Standard Logo (Option 4)
 ---|---|---|---
-![OpenStack Powered logo sample](/img/legal/osstandard1.jpg) | ![OpenStack Powered logo sample](/img/legal/osstandard2.jpg) | ![OpenStack Powered logo sample](/img/legal/osstandard3.jpg) | ![OpenStack Powered logo sample](/img/legal/osstandard4.jpg) 
-![OpenStack Powered logo sample](/img/legal/oilstandard1.jpg) | ![OpenStack Powered logo sample](/img/legal/oilstandard2.jpg) | ![OpenStack Powered logo sample](/img/legal/oilstandard3.jpg) | ![OpenStack Powered logo sample](/img/legal/oilstandard4.jpg) 
-![OpenStack Powered logo sample](/img/legal/airshipstandard1.jpg) | ![OpenStack Powered logo sample](/img/legal/airshipstandard2.jpg) | ![OpenStack Powered logo sample](/img/legal/airshipstandard3.jpg) | ![OpenStack Powered logo sample](/img/legal/airshipstandard4.jpg) 
-![OpenStack Powered logo sample](/img/legal/katastandard1.jpg) | ![OpenStack Powered logo sample](/img/legal/katastandard2.jpg) | ![OpenStack Powered logo sample](/img/legal/katastandard3.jpg) | ![OpenStack Powered logo sample](/img/legal/katastandard4.jpg) 
-![OpenStack Powered logo sample](/img/legal/starlingxstandard1.jpg) | ![OpenStack Powered logo sample](/img/legal/starlingxstandard2.jpg) | ![OpenStack Powered logo sample](/img/legal/starlingxstandard3.jpg) | ![OpenStack Powered logo sample](/img/legal/starlingxstandard4.jpg) 
-![OpenStack Powered logo sample](/img/legal/zuulstandard1.jpg) | ![OpenStack Powered logo sample](/img/legal/zuulstandard2.jpg) | ![OpenStack Powered logo sample](/img/legal/zuulstandard3.jpg) | ![OpenStack Powered logo sample](/img/legal/zuulstandard4.jpg) 
+![OpenStack Standard Logo](/img/legal/osstandard1.jpg) | ![OpenStack Standard Logo 2](/img/legal/osstandard2.jpg) | ![OpenStack Standard Logo 3](/img/legal/osstandard3.jpg) | ![OpenStack Standard Logo 4](/img/legal/osstandard4.jpg) 
+![OpenInfra Labs Standard Logo](/img/legal/oilstandard1.jpg) | ![OpenInfra Labs Standard Logo 2](/img/legal/oilstandard2.jpg) | ![OpenInfra Labs Standard Logo 3](/img/legal/oilstandard3.jpg) | ![OpenInfra Labs Standard Logo 4](/img/legal/oilstandard4.jpg) 
+![Airship Standard Logo](/img/legal/airshipstandard1.jpg) | ![Airship Standard Logo 2](/img/legal/airshipstandard2.jpg) | ![Airship Standard Logo 3](/img/legal/airshipstandard3.jpg) | ![Airship Standard Logo 4](/img/legal/airshipstandard4.jpg) 
+![Kata Containers Standard Logo](/img/legal/katastandard1.jpg) | ![Kata Containers Standard Logo 2](/img/legal/katastandard2.jpg) | ![Kata Containers Standard Logo 3](/img/legal/katastandard3.jpg) | ![Kata Containers Standard Logo 4](/img/legal/katastandard4.jpg) 
+![StarlingX Standard Logo](/img/legal/starlingxstandard1.jpg) | ![StarlingX Standard Logo 2](/img/legal/starlingxstandard2.jpg) | ![StarlingX Standard Logo 3](/img/legal/starlingxstandard3.jpg) | ![StarlingX Standard Logo 4](/img/legal/starlingxstandard4.jpg) 
+![Zuul Standard Logo](/img/legal/zuulstandard1.jpg) | ![Zuul Standard Logo 2](/img/legal/zuulstandard2.jpg) | ![Zuul Standard Logo 3](/img/legal/zuulstandard3.jpg) | ![Zuul Standard Logo 4](/img/legal/zuulstandard4.jpg) 
 [Future Project Logo] | [Future Project Logo] | [Future Project Logo] | [Future Project Logo]
  	 	 	 
 
@@ -83,10 +83,10 @@ If you are an OpenInfra member in good standing, you may use the specific “MEM
 
 Member Category | Corresponding “MEMBER”-based Logo | Corresponding “MEMBER”-based Word Mark
 ---|---|---
-Platinum Member in good standing | ![OpenStack Powered logo sample](/img/legal/platinummemberlogo.png) | OPENINFRA PLATINUM MEMBER
-Gold Member in good standing | ![OpenStack Powered logo sample](/img/legal/goldmemberlogo.png) | OPENINFRA GOLD MEMBER
-Silver Member in good standing | ![OpenStack Powered logo sample](/img/legal/silvermemberlogo.png) | OPENINFRA SILVER MEMBER
-Associate Member in good standing | ![OpenStack Powered logo sample](/img/legal/associatememberlogo.png) | OPENINFRA ASSOCIATE MEMBER
+Platinum Member in good standing | ![Platinum Member Logo](/img/legal/platinummemberlogo.png) | OPENINFRA PLATINUM MEMBER
+Gold Member in good standing | ![Gold Member Logo](/img/legal/goldmemberlogo.png) | OPENINFRA GOLD MEMBER
+Silver Member in good standing | ![Silver Member Logo](/img/legal/silvermemberlogo.png) | OPENINFRA SILVER MEMBER
+Associate Member in good standing | ![Associate Member Logo](/img/legal/associatememberlogo.png) | OPENINFRA ASSOCIATE MEMBER
 [Future Member Category] | [Future “MEMBER” Logo] | [Future “MEMBER” Word Mark]
 
 ### Marks that Brand Commercial Products (Standard Use Case)
@@ -95,9 +95,9 @@ If you are a qualifying OpenInfra member in good standing and you wish to use th
 
 Commercial-use Logo | Corresponding Commercial-use Word Mark
 ---|---
-![OpenStack Powered logo sample](/img/legal/openstackpowered.png) | OPENSTACK POWERED
-![OpenStack Powered logo sample](/img/legal/openstackcompatible.png) | OPENSTACK COMPATIBLE
-![OpenStack Powered logo sample](/img/legal/openstackexpertise.png) | OPENSTACK EXPERTISE
+![OpenStack Powered Logo](/img/legal/openstackpowered.png) | OPENSTACK POWERED
+![OpenStack Compatible Logo](/img/legal/openstackcompatible.png) | OPENSTACK COMPATIBLE
+![OpenStack Expertise Logo](/img/legal/openstackexpertise.png) | OPENSTACK EXPERTISE
 [Future “POWERED”-based Project Logo] | [Future “POWERED”-based Project Word Mark]
 [Future “COMPATIBLE”-based Project Logo] | [Future “COMPATIBLE”-based Project Word Mark]
 [Future “EXPERTISE”-based Project Logo] | [Future “EXPERTISE”-based Project Word Mark]
@@ -108,12 +108,12 @@ If you are a qualifying OpenInfra member in good standing and you wish to use th
 
 Special-use Logo (Option 1) | Special-use Logo (Option 2) | Special-use Logo (Option 3) | Special-use Logo (Option 4)
 ---|---|---|---
-![OpenStack Powered logo sample](/img/legal/osspecial1.jpg) | ![OpenStack Powered logo sample](/img/legal/osspecial2.jpg) | ![OpenStack Powered logo sample](/img/legal/osspecial3.jpg) | ![OpenStack Powered logo sample](/img/legal/osspecial4.jpg) 
-![OpenStack Powered logo sample](/img/legal/oilspecial1.jpg) | ![OpenStack Powered logo sample](/img/legal/oilspecial2.jpg) | ![OpenStack Powered logo sample](/img/legal/oilspecial3.jpg) | ![OpenStack Powered logo sample](/img/legal/oilspecial4.jpg) 
-![OpenStack Powered logo sample](/img/legal/airshipspecial1.jpg) | ![OpenStack Powered logo sample](/img/legal/airshipspecial2.jpg) | ![OpenStack Powered logo sample](/img/legal/airshipspecial3.jpg) | ![OpenStack Powered logo sample](/img/legal/airshipspecial4.jpg) 
-![OpenStack Powered logo sample](/img/legal/kataspecial1.jpg) | ![OpenStack Powered logo sample](/img/legal/kataspecial2.jpg) | ![OpenStack Powered logo sample](/img/legal/kataspecial3.jpg) | ![OpenStack Powered logo sample](/img/legal/kataspecial4.jpg) 
-![OpenStack Powered logo sample](/img/legal/starlingxspecial1.jpg) | ![OpenStack Powered logo sample](/img/legal/starlingxspecial2.jpg) | ![OpenStack Powered logo sample](/img/legal/starlingxspecial3.jpg) | ![OpenStack Powered logo sample](/img/legal/starlingxspecial4.jpg) 
-![OpenStack Powered logo sample](/img/legal/zuulspecial1.jpg) | ![OpenStack Powered logo sample](/img/legal/zuulspecial2.jpg) | ![OpenStack Powered logo sample](/img/legal/zuulspecial3.jpg) | ![OpenStack Powered logo sample](/img/legal/zuulspecial4.jpg) 
+![OpenStack Special Logo](/img/legal/osspecial1.jpg) | ![OpenStack Special Logo 2](/img/legal/osspecial2.jpg) | ![OpenStack Special Logo 3](/img/legal/osspecial3.jpg) | ![OpenStack Special Logo 4](/img/legal/osspecial4.jpg) 
+![OpenInfra Labs Special Logo](/img/legal/oilspecial1.jpg) | ![OpenInfra Labs Special Logo 2](/img/legal/oilspecial2.jpg) | ![OpenInfra Labs Special Logo 3](/img/legal/oilspecial3.jpg) | ![OpenInfra Labs Special Logo 4](/img/legal/oilspecial4.jpg) 
+![Airship Special Logo](/img/legal/airshipspecial1.jpg) | ![Airship Special Logo 2](/img/legal/airshipspecial2.jpg) | ![Airship Special Logo 3](/img/legal/airshipspecial3.jpg) | ![Airship Special Logo 4](/img/legal/airshipspecial4.jpg) 
+![Kata Containers Special Logo](/img/legal/kataspecial1.jpg) | ![Kata Containers Special Logo 2](/img/legal/kataspecial2.jpg) | ![Kata Containers Special Logo 3](/img/legal/kataspecial3.jpg) | ![Kata Containers Special Logo 4](/img/legal/kataspecial4.jpg) 
+![StarlingX Special Logo](/img/legal/starlingxspecial1.jpg) | ![StarlingX Special Logo 2](/img/legal/starlingxspecial2.jpg) | ![StarlingX Special Logo 3](/img/legal/starlingxspecial3.jpg) | ![StarlingX Special Logo 4](/img/legal/starlingxspecial4.jpg) 
+![Zuul Special Logo](/img/legal/zuulspecial1.jpg) | ![Zuul Special Logo 2](/img/legal/zuulspecial2.jpg) | ![Zuul Special Logo 3](/img/legal/zuulspecial3.jpg) | ![Zuul Special Logo 4](/img/legal/zuulspecial4.jpg) 
 [Future Project Logo] | [Future Project Logo] | [Future Project Logo] | [Future Project Logo]	 	 	 
 
 ### Marks Available to Organizers of “Days” and “User Group” Activities
@@ -122,10 +122,10 @@ If you wish to use the marks in the table immediately below to promote community
 
 “DAYS”- or “USER GROUP”-based Logo (Option 1) | “DAYS”- or “USER GROUP”-based Logo (Option 2) | “DAYS”- or “USER GROUP”-based Logo (Option 3) | “DAYS”- or “USER GROUP”-based Logo (Option 4) | “DAYS”- and “USER GROUP”-based Word Mark
 ---|---|---|---|---
-![OpenStack Powered logo sample](/img/legal/oid1.jpg) | ![OpenStack Powered logo sample](/img/legal/oid2.jpg) | ![OpenStack Powered logo sample](/img/legal/oid3.jpg) | ![OpenStack Powered logo sample](/img/legal/oid4.jpg) | OPENINFRA DAYS [insert region before or after]
-![OpenStack Powered logo sample](/img/legal/oiug1.jpg) | ![OpenStack Powered logo sample](/img/legal/oiug2.jpg) | ![OpenStack Powered logo sample](/img/legal/oiug3.jpg) | ![OpenStack Powered logo sample](/img/legal/oiug4.jpg) | OPENINFRA USER GROUP [insert region before or after]
-![OpenStack Powered logo sample](/img/legal/od1.jpg) | ![OpenStack Powered logo sample](/img/legal/od2.jpg) | ![OpenStack Powered logo sample](/img/legal/od3.jpg) |  | OPENSTACK DAYS [insert region before or after]
-![OpenStack Powered logo sample](/img/legal/ug1.jpg) | ![OpenStack Powered logo sample](/img/legal/ug2.jpg) |  |  | OPENSTACK USER GROUP [insert region before or after]
+![OpenInfra Days Logo 1](/img/legal/oid1.png) | ![OpenInfra Days Logo 2](/img/legal/oid2.png) | ![OpenInfra Days Logo 3](/img/legal/oid3.png) | ![OpenInfra Days Logo 4](/img/legal/oid4.png) | OPENINFRA DAYS [insert region before or after]
+![OpenInfra User Group Logo 1](/img/legal/oiug1.png) | ![OpenInfra User Group Logo 2](/img/legal/oiug2.png) | ![OpenInfra User Group Logo 3](/img/legal/oiug3.png) | ![OpenInfra User Group Logo 4](/img/legal/oiug4.png) | OPENINFRA USER GROUP [insert region before or after]
+![OpenStack Days Logo](/img/legal/od1.jpg) | ![OpenStack Days Logo 2](/img/legal/od2.jpg) | ![User Gruop Logo](/img/legal/od3.jpg) |  | OPENSTACK DAYS [insert region before or after]
+![User Group Logo](/img/legal/ug1.jpg) | ![User Group Logo](/img/legal/ug2.jpg) |  |  | OPENSTACK USER GROUP [insert region before or after]
 [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Word Mark]
 [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Word Mark]
 
@@ -145,19 +145,19 @@ You may not use the marks in the table immediately below, as they are reserved f
 
 Design or Stylized Mark for Foundation Use Only | Corresponding Word Mark for Foundation Use Only
 ---|---
-![OpenStack Powered logo sample](/img/legal/notavailable1.jpg) | OPENINFRA
-![OpenStack Powered logo sample](/img/legal/notavailable2.jpg) | OPENINFRA FOUNDATION
-![OpenStack Powered logo sample](/img/legal/notavailable3.jpg) | OPEN INFRASTRUCTURE FOUNDATION
-![OpenStack Powered logo sample](/img/legal/notavailable4.jpg) | OPENINFRA SUMMIT
-![OpenStack Powered logo sample](/img/legal/notavailable5.jpg) <span class="center-content-table">(ignore black background)</span> | AN OPENINFRA PROJECT
-![OpenStack Powered logo sample](/img/legal/notavailable6.jpg) | 
-![OpenStack Powered logo sample](/img/legal/notavailable7.jpg) | OPENINFRA LIVE
-![OpenStack Powered logo sample](/img/legal/notavailable8.jpg) <span class="center-content-table">(ignore black background)</span> | SUPERUSER
-![OpenStack Powered logo sample](/img/legal/notavailable9.jpg) | SU
-![OpenStack Powered logo sample](/img/legal/notavailable10.jpg) | OPENDEV
-![OpenStack Powered logo sample](/img/legal/notavailable11.jpg) | OD
-![OpenStack Powered logo sample](/img/legal/notavailable12.jpg) | PROJECT TEAMS GATHERING
-![OpenStack Powered logo sample](/img/legal/notavailable13.jpg) | PTG
+![Unavailable Mark 1](/img/legal/notavailable1.jpg) | OPENINFRA
+![Unavailable Mark 2](/img/legal/notavailable2.jpg) | OPENINFRA FOUNDATION
+![Unavailable Mark 3](/img/legal/notavailable3.jpg) | OPEN INFRASTRUCTURE FOUNDATION
+![Unavailable Mark 4](/img/legal/notavailable4.jpg) | OPENINFRA SUMMIT
+![Unavailable Mark 5](/img/legal/notavailable5.jpg) <span class="center-content-table">(ignore black background)</span> | AN OPENINFRA PROJECT
+![Unavailable Mark 6](/img/legal/notavailable6.jpg) | 
+![Unavailable Mark 7](/img/legal/notavailable7.jpg) | OPENINFRA LIVE
+![Unavailable Mark 8](/img/legal/notavailable8.jpg) <span class="center-content-table">(ignore black background)</span> | SUPERUSER
+![Unavailable Mark 9](/img/legal/notavailable9.jpg) | SU
+![Unavailable Mark 10](/img/legal/notavailable10.jpg) | OPENDEV
+![Unavailable Mark 11](/img/legal/notavailable11.jpg) | OD
+![Unavailable Mark 12](/img/legal/notavailable12.jpg) | PROJECT TEAMS GATHERING
+![Unavailable Mark 13](/img/legal/notavailable13.jpg) | PTG
 [Future Foundation-only Design or Stylized Mark] | [Future Foundation-only Word Mark]
 
 </div>

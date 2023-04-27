@@ -84,7 +84,7 @@ If you are an OpenInfra member in good standing, you may use the specific “MEM
 Member Category | Corresponding “MEMBER”-based Logo | Corresponding “MEMBER”-based Word Mark
 ---|---|---
 Platinum Member in good standing | ![Platinum Member Logo](/img/legal/platinummemberlogo.png) | OPENINFRA PLATINUM MEMBER
-Gold Member in good standing | ![Gold Member Logo](/img/legal/goldmemberlogo.png) | OPENINFRA GOLD MEMBER
+Gold Member in good standing | ![Gold Member Logo](/img/legal/goldmemberlogo.jpg) | OPENINFRA GOLD MEMBER
 Silver Member in good standing | ![Silver Member Logo](/img/legal/silvermemberlogo.png) | OPENINFRA SILVER MEMBER
 Associate Member in good standing | ![Associate Member Logo](/img/legal/associatememberlogo.png) | OPENINFRA ASSOCIATE MEMBER
 [Future Member Category] | [Future “MEMBER” Logo] | [Future “MEMBER” Word Mark]

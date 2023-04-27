@@ -358,7 +358,7 @@ members:
 
       Xu had experiences on Linux Kernel, virtualization,  container, and distributed storage system. And he is also a technical writer and translator on Linux, virtualization, NoSQL etc.
     name: Xu Wang
-    openStack: https://www.openstack.org/community/members/profile/119260
+    openStack: https://openinfra.dev/a/community/members/37833
     picture: /img/xuwang.jpg
     title: Platinum Director
   - company: China Unicom

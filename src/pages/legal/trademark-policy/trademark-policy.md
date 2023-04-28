@@ -35,9 +35,11 @@ By using the Marks, you agree to the following: (1) to use the Marks exactly as 
 
 OpenInfra reserves the right to terminate authorization to use the Marks if you fail to comply with this Policy or any signed, written agreement with OpenInfra, or for any other reason. OpenInfra may change this Policy in its sole discretion at any time, effective at the time of the change.  To the extent any part of the Policy conflicts with any part of a signed, written agreement with OpenInfra, that agreement shall control. 
 
+<hr />
+
 ## Marks Available to Everyone
 	
-### For Organizations
+##### For Organizations
 
 *Preferred “Learn More About” Logos*
 
@@ -71,13 +73,15 @@ Standard Logo (Option 1) | Standard Logo (Option 2) | Standard Logo (Option 2) |
 [Future Project Logo] | [Future Project Logo] | [Future Project Logo] | [Future Project Logo]
  	 	 	 
 
-### For Individuals
+##### For Individuals
 
 If you are an individual who wishes to act in your personal capacity, not on behalf of an organization, to show your support for OpenInfra and its projects, such as in a personal blog or educational materials like a slide deck presented at a conference, you may use the marks in the table immediately above and the word marks therein (e.g., OPENSTACK).  This use does not require a separate, signed written license, though it is subject to the following requirements: the logos may not be connected with a commercial product or entity; and the marks may only be used to show support for OpenInfra and give consumers a way to learn more about OpenInfra, and not for any other purpose.
 
+<hr>
+
 ## Marks Available to Members
 
-### Marks that Signify Membership
+##### Marks that Signify Membership
 	
 If you are an OpenInfra member in good standing, you may use the specific “MEMBER”-based logo and corresponding word mark for your member category in the table immediately below.  This use does not require a separate, signed written license, though it is subject to the following requirement: the marks, being collective membership marks, may be used only to signify membership in OpenInfra and not for any other purpose.
 
@@ -89,7 +93,7 @@ Silver Member in good standing | ![Silver Member Logo](/img/legal/silvermemberlo
 Associate Member in good standing | ![Associate Member Logo](/img/legal/associatememberlogo.png) | OPENINFRA ASSOCIATE MEMBER
 [Future Member Category] | [Future “MEMBER” Logo] | [Future “MEMBER” Word Mark]
 
-### Marks that Brand Commercial Products (Standard Use Case)
+##### Marks that Brand Commercial Products (Standard Use Case)
 	
 If you are a qualifying OpenInfra member in good standing and you wish to use the marks in the table immediately below to brand commercial products, a separate signed, written Commercial Use Trademark License from OpenInfra is required.  
 
@@ -102,7 +106,7 @@ Commercial-use Logo | Corresponding Commercial-use Word Mark
 [Future “COMPATIBLE”-based Project Logo] | [Future “COMPATIBLE”-based Project Word Mark]
 [Future “EXPERTISE”-based Project Logo] | [Future “EXPERTISE”-based Project Word Mark]
 
-### Marks that Brand Commercial Products (Special Use Case)
+##### Marks that Brand Commercial Products (Special Use Case)
 	
 If you are a qualifying OpenInfra member in good standing and you wish to use the marks in the table immediately below or the word marks therein (e.g., OPENSTACK) to brand commercial products, a separate signed, written Special Trademark License for Members to Use Project Marks from OpenInfra is required.  This license is granted only in special cases.
 
@@ -116,7 +120,7 @@ Special-use Logo (Option 1) | Special-use Logo (Option 2) | Special-use Logo (Op
 ![Zuul Special Logo](/img/legal/zuulspecial1.jpg) | ![Zuul Special Logo 2](/img/legal/zuulspecial2.jpg) | ![Zuul Special Logo 3](/img/legal/zuulspecial3.jpg) | ![Zuul Special Logo 4](/img/legal/zuulspecial4.jpg) 
 [Future Project Logo] | [Future Project Logo] | [Future Project Logo] | [Future Project Logo]	 	 	 
 
-### Marks Available to Organizers of “Days” and “User Group” Activities
+##### Marks Available to Organizers of “Days” and “User Group” Activities
 	
 If you wish to use the marks in the table immediately below to promote community engagement with OpenInfra and its projects, a separate signed, written “Days” / “User Group” License and region-specific logos from OpenInfra, with the region populated, are required.
 
@@ -129,15 +133,18 @@ If you wish to use the marks in the table immediately below to promote community
 [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Word Mark]
 [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Word Mark]
 
+<hr>
+
 ## Marks Available to Individuals Who Hold a Credential/Certification
 
 If you are an individual who holds one or more credentials/certifications awarded by OpenInfra in the table immediately below (collectively, “Credentials”), and you are in good standing with OpenInfra with respect to one or more of those Credentials, you may use the long-form or acronym Credentials you hold after your name as a title (e.g., John Doe, COA) and use the corresponding logo in the table below within your personal biography (e.g., resume or LinkedIn page), without the need for a separate, signed written license. The Credentials may only be used to indicate that you have earned the Credentials personally, not as a trademark to brand goods/services you provide.
 
 Long-form Credential Word Mark | Corresponding Credential Acronym | Corresponding Logo
 ---|---|---
-!CERTIFIED OPENSTACK ADMINISTRATOR | COA | ![OpenStack Powered logo sample](/img/legal/coalogo.png)
+CERTIFIED OPENSTACK ADMINISTRATOR | COA | ![OpenStack Powered logo sample](/img/legal/coalogo.png)
 [Future Long-form Credential Mark] | [Future Acronym Credential Mark] | [Future Logo Credential Mark]
 
+<hr>
 
 ## Marks that are Not Available
 	

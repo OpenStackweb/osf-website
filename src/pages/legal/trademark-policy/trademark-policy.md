@@ -35,7 +35,8 @@ By using the Marks, you agree to the following: (1) to use the Marks exactly as 
 
 OpenInfra reserves the right to terminate authorization to use the Marks if you fail to comply with this Policy or any signed, written agreement with OpenInfra, or for any other reason. OpenInfra may change this Policy in its sole discretion at any time, effective at the time of the change.  To the extent any part of the Policy conflicts with any part of a signed, written agreement with OpenInfra, that agreement shall control. 
 
-<hr />
+<br/>
+<hr/>
 
 ## Marks Available to Everyone
 	
@@ -77,7 +78,8 @@ Standard Logo (Option 1) | Standard Logo (Option 2) | Standard Logo (Option 2) |
 
 If you are an individual who wishes to act in your personal capacity, not on behalf of an organization, to show your support for OpenInfra and its projects, such as in a personal blog or educational materials like a slide deck presented at a conference, you may use the marks in the table immediately above and the word marks therein (e.g., OPENSTACK).  This use does not require a separate, signed written license, though it is subject to the following requirements: the logos may not be connected with a commercial product or entity; and the marks may only be used to show support for OpenInfra and give consumers a way to learn more about OpenInfra, and not for any other purpose.
 
-<hr>
+<br/>
+<hr/>
 
 ## Marks Available to Members
 
@@ -133,7 +135,8 @@ If you wish to use the marks in the table immediately below to promote community
 [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Word Mark]
 [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Word Mark]
 
-<hr>
+<br/>
+<hr/>
 
 ## Marks Available to Individuals Who Hold a Credential/Certification
 
@@ -144,7 +147,8 @@ Long-form Credential Word Mark | Corresponding Credential Acronym | Correspondin
 CERTIFIED OPENSTACK ADMINISTRATOR | COA | ![OpenStack Powered logo sample](/img/legal/coalogo.png)
 [Future Long-form Credential Mark] | [Future Acronym Credential Mark] | [Future Logo Credential Mark]
 
-<hr>
+<br/>
+<hr/>
 
 ## Marks that are Not Available
 	

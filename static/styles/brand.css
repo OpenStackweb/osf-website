@@ -66,6 +66,10 @@
         width: unset;
 }
 
+.trademark-policy-container hr {
+      margin-top: 0;
+}
+
 .trademark-policy-container .center-content-table {
       text-align: center;
       display: block;

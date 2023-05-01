@@ -165,10 +165,10 @@ Design or Stylized Mark for Foundation Use Only | Corresponding Word Mark for Fo
 ![Unavailable Mark 7](/img/legal/notavailable7.png) | OPENINFRA LIVE
 ![Unavailable Mark 8](/img/legal/notavailable8.jpg) <span class="center-content-table">(ignore black background)</span> | SUPERUSER
 ![Unavailable Mark 9](/img/legal/notavailable9.jpg) | SU
-![Unavailable Mark 10](/img/legal/notavailable10.jpg) | OPENDEV
+![Unavailable Mark 10](/img/legal/notavailable10.png) | OPENDEV
 ![Unavailable Mark 11](/img/legal/notavailable11.png) | OD
-![Unavailable Mark 12](/img/legal/notavailable12.jpg) | PROJECT TEAMS GATHERING
-![Unavailable Mark 13](/img/legal/notavailable13.jpg) | PTG
+![Unavailable Mark 12](/img/legal/notavailable12.png) | PROJECT TEAMS GATHERING
+![Unavailable Mark 13](/img/legal/notavailable13.png) | PTG
 [Future Foundation-only Design or Stylized Mark] | [Future Foundation-only Word Mark]
 
 </div>

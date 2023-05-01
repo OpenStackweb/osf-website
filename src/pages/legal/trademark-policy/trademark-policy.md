@@ -65,12 +65,12 @@ Examples of nominative fair use include using one of these marks in a small way 
 
 Standard Logo (Option 1) | Standard Logo (Option 2) | Standard Logo (Option 2) | Standard Logo (Option 4)
 ---|---|---|---
-![OpenStack Standard Logo](/img/legal/osstandard1.jpg) | ![OpenStack Standard Logo 2](/img/legal/osstandard2.jpg) | ![OpenStack Standard Logo 3](/img/legal/osstandard3.jpg) | ![OpenStack Standard Logo 4](/img/legal/osstandard4.jpg) 
-![OpenInfra Labs Standard Logo](/img/legal/oilstandard1.jpg) | ![OpenInfra Labs Standard Logo 2](/img/legal/oilstandard2.jpg) | ![OpenInfra Labs Standard Logo 3](/img/legal/oilstandard3.jpg) | ![OpenInfra Labs Standard Logo 4](/img/legal/oilstandard4.jpg) 
-![Airship Standard Logo](/img/legal/airshipstandard1.jpg) | ![Airship Standard Logo 2](/img/legal/airshipstandard2.jpg) | ![Airship Standard Logo 3](/img/legal/airshipstandard3.jpg) | ![Airship Standard Logo 4](/img/legal/airshipstandard4.jpg) 
-![Kata Containers Standard Logo](/img/legal/katastandard1.jpg) | ![Kata Containers Standard Logo 2](/img/legal/katastandard2.jpg) | ![Kata Containers Standard Logo 3](/img/legal/katastandard3.jpg) | ![Kata Containers Standard Logo 4](/img/legal/katastandard4.jpg) 
-![StarlingX Standard Logo](/img/legal/starlingxstandard1.jpg) | ![StarlingX Standard Logo 2](/img/legal/starlingxstandard2.jpg) | ![StarlingX Standard Logo 3](/img/legal/starlingxstandard3.jpg) | ![StarlingX Standard Logo 4](/img/legal/starlingxstandard4.jpg) 
-![Zuul Standard Logo](/img/legal/zuulstandard1.jpg) | ![Zuul Standard Logo 2](/img/legal/zuulstandard2.jpg) | ![Zuul Standard Logo 3](/img/legal/zuulstandard3.jpg) | ![Zuul Standard Logo 4](/img/legal/zuulstandard4.jpg) 
+![OpenStack Standard Logo](/img/legal/osstandard1.png) | ![OpenStack Standard Logo 2](/img/legal/osstandard2.png) | ![OpenStack Standard Logo 3](/img/legal/osstandard3.jpg) | ![OpenStack Standard Logo 4](/img/legal/osstandard4.png) 
+![OpenInfra Labs Standard Logo](/img/legal/oilstandard1.jpg) | ![OpenInfra Labs Standard Logo 2](/img/legal/oilstandard2.png) | ![OpenInfra Labs Standard Logo 3](/img/legal/oilstandard3.jpg) | ![OpenInfra Labs Standard Logo 4](/img/legal/oilstandard4.jpg) 
+![Airship Standard Logo](/img/legal/airshipstandard1.png) | ![Airship Standard Logo 2](/img/legal/airshipstandard2.png) | ![Airship Standard Logo 3](/img/legal/airshipstandard3.jpg) | ![Airship Standard Logo 4](/img/legal/airshipstandard4.png) 
+![Kata Containers Standard Logo](/img/legal/katastandard1.png) | ![Kata Containers Standard Logo 2](/img/legal/katastandard2.png) | ![Kata Containers Standard Logo 3](/img/legal/katastandard3.jpg) | ![Kata Containers Standard Logo 4](/img/legal/katastandard4.png) 
+![StarlingX Standard Logo](/img/legal/starlingxstandard1.png) | ![StarlingX Standard Logo 2](/img/legal/starlingxstandard2.png) | ![StarlingX Standard Logo 3](/img/legal/starlingxstandard3.jpg) | ![StarlingX Standard Logo 4](/img/legal/starlingxstandard4.png) 
+![Zuul Standard Logo](/img/legal/zuulstandard1.jpg) | ![Zuul Standard Logo 2](/img/legal/zuulstandard2.png) | ![Zuul Standard Logo 3](/img/legal/zuulstandard3.jpg) | ![Zuul Standard Logo 4](/img/legal/zuulstandard4.jpg) 
 [Future Project Logo] | [Future Project Logo] | [Future Project Logo] | [Future Project Logo]
  	 	 	 
 

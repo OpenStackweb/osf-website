@@ -70,7 +70,7 @@ Standard Logo (Option 1) | Standard Logo (Option 2) | Standard Logo (Option 2) |
 ![Airship Standard Logo](/img/legal/airshipstandard1.png) | ![Airship Standard Logo 2](/img/legal/airshipstandard2-resize.png) | ![Airship Standard Logo 3](/img/legal/airshipstandard3.jpg) | ![Airship Standard Logo 4](/img/legal/airshipstandard4-resize.png) 
 ![Kata Containers Standard Logo](/img/legal/katastandard1.png) | ![Kata Containers Standard Logo 2](/img/legal/katastandard2-resize.png) | ![Kata Containers Standard Logo 3](/img/legal/katastandard3.jpg) | ![Kata Containers Standard Logo 4](/img/legal/katastandard4-resize.png) 
 ![StarlingX Standard Logo](/img/legal/starlingxstandard1.png) | ![StarlingX Standard Logo 2](/img/legal/starlingxstandard2-resize.png) | ![StarlingX Standard Logo 3](/img/legal/starlingxstandard3.jpg) | ![StarlingX Standard Logo 4](/img/legal/starlingxstandard4-resize.png) 
-![Zuul Standard Logo](/img/legal/zuulstandard1.jpg) | ![Zuul Standard Logo 2](/img/legal/zuulstandard2-resize.png) | ![Zuul Standard Logo 3](/img/legal/zuulstandard3.jpg) | ![Zuul Standard Logo 4](/img/legal/zuulstandard4-resize.jpg) 
+![Zuul Standard Logo](/img/legal/zuulstandard1.jpg) | ![Zuul Standard Logo 2](/img/legal/zuulstandard2-resize.png) | ![Zuul Standard Logo 3](/img/legal/zuulstandard3.jpg) | ![Zuul Standard Logo 4](/img/legal/zuulstandard4.jpg) 
 [Future Project Logo] | [Future Project Logo] | [Future Project Logo] | [Future Project Logo]
  	 	 	 
 
@@ -119,7 +119,7 @@ Special-use Logo (Option 1) | Special-use Logo (Option 2) | Special-use Logo (Op
 ![Airship Special Logo](/img/legal/airshipstandard1.png) | ![Airship Special Logo 2](/img/legal/airshipstandard2-resize.png) | ![Airship Special Logo 3](/img/legal/airshipstandard3.jpg) | ![Airship Special Logo 4](/img/legal/airshipstandard4-resize.png) 
 ![Kata Containers Special Logo](/img/legal/katastandard1.png) | ![Kata Containers Special Logo 2](/img/legal/katastandard2-resize.png) | ![Kata Containers Special Logo 3](/img/legal/katastandard3.jpg) | ![Kata Containers Special Logo 4](/img/legal/katastandard4-resize.png) 
 ![StarlingX Special Logo](/img/legal/starlingxstandard1.png) | ![StarlingX Special Logo 2](/img/legal/starlingxstandard2-resize.png) | ![StarlingX Special Logo 3](/img/legal/starlingxstandard3.jpg) | ![StarlingX Special Logo 4](/img/legal/starlingxstandard4-resize.png) 
-![Zuul Special Logo](/img/legal/zuulstandard1.jpg) | ![Zuul Special Logo 2](/img/legal/zuulstandard2-resize.png) | ![Zuul Special Logo 3](/img/legal/zuulstandard3.jpg) | ![Zuul Special Logo 4](/img/legal/zuulstandard4-resize.jpg) 
+![Zuul Special Logo](/img/legal/zuulstandard1.jpg) | ![Zuul Special Logo 2](/img/legal/zuulstandard2-resize.png) | ![Zuul Special Logo 3](/img/legal/zuulstandard3.jpg) | ![Zuul Special Logo 4](/img/legal/zuulstandard4.jpg) 
 [Future Project Logo] | [Future Project Logo] | [Future Project Logo] | [Future Project Logo]	 	 	 
 
 ### Marks Available to Organizers of “Days” and “User Group” Activities

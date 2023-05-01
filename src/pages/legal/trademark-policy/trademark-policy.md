@@ -158,7 +158,7 @@ Design or Stylized Mark for Foundation Use Only | Corresponding Word Mark for Fo
 ---|---
 ![Unavailable Mark 1](/img/legal/notavailable1.png) | OPENINFRA
 ![Unavailable Mark 2](/img/legal/notavailable2.png) | OPENINFRA FOUNDATION
-![Unavailable Mark 3](/img/legal/notavailable3.jpg) | OPEN INFRASTRUCTURE FOUNDATION
+![Unavailable Mark 3](/img/legal/notavailable3.png) | OPEN INFRASTRUCTURE FOUNDATION
 ![Unavailable Mark 4](/img/legal/notavailable4.jpg) | OPENINFRA SUMMIT
 ![Unavailable Mark 5](/img/legal/notavailable5.jpg) <span class="center-content-table">(ignore black background)</span> | AN OPENINFRA PROJECT
 ![Unavailable Mark 6](/img/legal/notavailable6.png) | 

@@ -32,7 +32,7 @@
   .openinfra-logo-asset-box .item h5 {
             color: #000;
             text-align: center;
-            font-size: 2em;
+            font-size: 1.3em;
             margin: 2em 0 1em;
             font-family: 'Roboto', sans-serif;
   }
@@ -70,6 +70,14 @@
       margin-top: 0;
 }
 
+.trademark-policy-container h3 {
+      font-size: 1.3em;
+}
+
+.trademark-policy-container h4 {
+      font-size: 1.15em;
+}
+
 .trademark-policy-container .center-content-table {
       text-align: center;
       display: block;
@@ -80,6 +88,10 @@
       background-color: #f3f3f3;
 }
 
+.trademark-policy-container table {
+      margin: 3em 0;
+}
+
 .trademark-policy-container thead th {
       border: solid 1px #eee;
       font-size: 16px;
@@ -88,6 +100,7 @@
 .trademark-policy-container table td {
       border-width: 1px;
       border: solid 1px #eee;
+      padding: 2em 1em;
 }
 
 /* .trademark-policy-container table tr td img {

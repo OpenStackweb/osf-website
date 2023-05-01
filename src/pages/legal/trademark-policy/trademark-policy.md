@@ -40,9 +40,9 @@ OpenInfra reserves the right to terminate authorization to use the Marks if you 
 
 ## Marks Available to Everyone
 	
-##### For Organizations
+### For Organizations
 
-*Preferred “Learn More About” Logos*
+#### *Preferred “Learn More About” Logos*
 
 If your organization wishes to show your support for OpenInfra or the projects of OpenInfra in a way that is most helpful to OpenInfra, you may use the “Learn More About” logos in the table immediately below.  This use does not require a separate, signed written license, though it is subject to the following requirements: any logo used must link back to the corresponding website in the table below when a consumer clicks on the logo; the logos may not be used to brand a commercial product; and the marks may only be used to show support for OpenInfra and give consumers a way to learn more about OpenInfra by clicking on the logos, and not for any other purpose.
 
@@ -57,7 +57,7 @@ If your organization wishes to show your support for OpenInfra or the projects o
 ![Zuul About Large](/img/legal/zuulaboutlg.png) | ![Zuul About Small](/img/legal/zuulaboutsm.png) | https://zuul-ci.org/ 
 [Future “LEARN MORE ABOUT” Project Logo] | [Future “LEARN MORE ABOUT” Project Logo] | [Future Project Website] 
 
-*Acceptable Standard Logos*
+#### *Acceptable Standard Logos*
 
 If your organization wishes to show your support for, or that it contributes to, OpenInfra or the projects of OpenInfra and does not wish to use the “Learn More About” logos, above, you may make nominative fair use of the logos in the table immediately below and the word marks therein (e.g., OPENSTACK).  This use does not require a separate, signed written license, though it is subject to the requirement that you do not use the mark to brand a commercial product and that you follow these nominative fair use requirements: (1) you use the mark to refer to OpenInfra or its projects and do so because there is a real need to identify OpenInfra or a product or service of OpenInfra; (2) you do not use the mark more than is necessary (e.g., you do not use the mark too prominently or too often, in terms of size, emphasis or repetition; and your own branding is more prominent in size and placement); and (3) you do nothing to falsely suggest a connection with or endorsement by OpenInfra (e.g., by suggesting affiliation with, approval by or sponsorship of your product by OpenInfra).  
 
@@ -74,7 +74,7 @@ Standard Logo (Option 1) | Standard Logo (Option 2) | Standard Logo (Option 2) |
 [Future Project Logo] | [Future Project Logo] | [Future Project Logo] | [Future Project Logo]
  	 	 	 
 
-##### For Individuals
+### For Individuals
 
 If you are an individual who wishes to act in your personal capacity, not on behalf of an organization, to show your support for OpenInfra and its projects, such as in a personal blog or educational materials like a slide deck presented at a conference, you may use the marks in the table immediately above and the word marks therein (e.g., OPENSTACK).  This use does not require a separate, signed written license, though it is subject to the following requirements: the logos may not be connected with a commercial product or entity; and the marks may only be used to show support for OpenInfra and give consumers a way to learn more about OpenInfra, and not for any other purpose.
 
@@ -83,7 +83,7 @@ If you are an individual who wishes to act in your personal capacity, not on beh
 
 ## Marks Available to Members
 
-##### Marks that Signify Membership
+### Marks that Signify Membership
 	
 If you are an OpenInfra member in good standing, you may use the specific “MEMBER”-based logo and corresponding word mark for your member category in the table immediately below.  This use does not require a separate, signed written license, though it is subject to the following requirement: the marks, being collective membership marks, may be used only to signify membership in OpenInfra and not for any other purpose.
 
@@ -95,7 +95,7 @@ Silver Member in good standing | ![Silver Member Logo](/img/legal/silvermemberlo
 Associate Member in good standing | ![Associate Member Logo](/img/legal/associatememberlogo.png) | OPENINFRA ASSOCIATE MEMBER
 [Future Member Category] | [Future “MEMBER” Logo] | [Future “MEMBER” Word Mark]
 
-##### Marks that Brand Commercial Products (Standard Use Case)
+### Marks that Brand Commercial Products (Standard Use Case)
 	
 If you are a qualifying OpenInfra member in good standing and you wish to use the marks in the table immediately below to brand commercial products, a separate signed, written Commercial Use Trademark License from OpenInfra is required.  
 
@@ -108,7 +108,7 @@ Commercial-use Logo | Corresponding Commercial-use Word Mark
 [Future “COMPATIBLE”-based Project Logo] | [Future “COMPATIBLE”-based Project Word Mark]
 [Future “EXPERTISE”-based Project Logo] | [Future “EXPERTISE”-based Project Word Mark]
 
-##### Marks that Brand Commercial Products (Special Use Case)
+### Marks that Brand Commercial Products (Special Use Case)
 	
 If you are a qualifying OpenInfra member in good standing and you wish to use the marks in the table immediately below or the word marks therein (e.g., OPENSTACK) to brand commercial products, a separate signed, written Special Trademark License for Members to Use Project Marks from OpenInfra is required.  This license is granted only in special cases.
 
@@ -122,7 +122,7 @@ Special-use Logo (Option 1) | Special-use Logo (Option 2) | Special-use Logo (Op
 ![Zuul Special Logo](/img/legal/zuulspecial1.jpg) | ![Zuul Special Logo 2](/img/legal/zuulspecial2.jpg) | ![Zuul Special Logo 3](/img/legal/zuulspecial3.jpg) | ![Zuul Special Logo 4](/img/legal/zuulspecial4.jpg) 
 [Future Project Logo] | [Future Project Logo] | [Future Project Logo] | [Future Project Logo]	 	 	 
 
-##### Marks Available to Organizers of “Days” and “User Group” Activities
+### Marks Available to Organizers of “Days” and “User Group” Activities
 	
 If you wish to use the marks in the table immediately below to promote community engagement with OpenInfra and its projects, a separate signed, written “Days” / “User Group” License and region-specific logos from OpenInfra, with the region populated, are required.
 

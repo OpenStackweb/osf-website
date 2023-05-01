@@ -22,7 +22,7 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
 <div class="openinfra-logo-asset-box">
   <div class="span-13 assestsArea">
         <h3 class="brand">OpenStack</h3>
-        <div class="col-lg-6 col-sm-6 col-xs-12 item">>
+        <div class="col-lg-6 col-sm-6 col-xs-12 item">
             <div class="span-4 horizontal">
                 <img src="https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Horizontal.png">
             </div>

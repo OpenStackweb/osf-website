@@ -15,6 +15,17 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2023-05-04T14:00:00.000Z
+    linkedinLink: https://www.linkedin.com/events/7056677974057648128/comments/
+    youtubeLink: https://www.youtube.com/watch?v=g_nTOpLGftw
+    youtubeEmbed: https://www.youtube.com/embed/g_nTOpLGftw
+    episodeTitle: " May the OpenInfra Force Be With You: Preview of the OpenInfra Summit!"
+    episodeDescription: Join us for an insightful and informative discussion as we
+      give you the inside scoop on what’s in store at the OpenInfra Summit,
+      Vancouver, CA, happening June 13-15! Don’t miss your chance to learn how
+      you can get involved!
+    episodeSpeakers: Wes Wilson, Allison Price, Kendall Nelson, Jimmy McArthur
+  - hidden: false
     date: 2023-04-06T14:00:00.000Z
     episodeDescription: >
       In the "Large Scale Ops Deep Dive" series, a panel of OpenStack operators

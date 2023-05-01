@@ -65,12 +65,12 @@ Examples of nominative fair use include using one of these marks in a small way 
 
 Standard Logo (Option 1) | Standard Logo (Option 2) | Standard Logo (Option 2) | Standard Logo (Option 4)
 ---|---|---|---
-![OpenStack Standard Logo](/img/legal/osstandard1.png) | ![OpenStack Standard Logo 2](/img/legal/osstandard2-resize.png) | ![OpenStack Standard Logo 3](/img/legal/osstandard3.jpg) | ![OpenStack Standard Logo 4](/img/legal/osstandard4-resize.png) 
-![OpenInfra Labs Standard Logo](/img/legal/oilstandard.png) | ![OpenInfra Labs Standard Logo 2](/img/legal/oilstandard2.png) | ![OpenInfra Labs Standard Logo 3](/img/legal/oilstandard3.jpg) | ![OpenInfra Labs Standard Logo 4](/img/legal/oilstandard4-resize.png) 
-![Airship Standard Logo](/img/legal/airshipstandard1.png) | ![Airship Standard Logo 2](/img/legal/airshipstandard2-resize.png) | ![Airship Standard Logo 3](/img/legal/airshipstandard3.jpg) | ![Airship Standard Logo 4](/img/legal/airshipstandard4-resize.png) 
-![Kata Containers Standard Logo](/img/legal/katastandard1.png) | ![Kata Containers Standard Logo 2](/img/legal/katastandard2-resize.png) | ![Kata Containers Standard Logo 3](/img/legal/katastandard3.jpg) | ![Kata Containers Standard Logo 4](/img/legal/katastandard4-resize.png) 
-![StarlingX Standard Logo](/img/legal/starlingxstandard1.png) | ![StarlingX Standard Logo 2](/img/legal/starlingxstandard2-resize.png) | ![StarlingX Standard Logo 3](/img/legal/starlingxstandard3.jpg) | ![StarlingX Standard Logo 4](/img/legal/starlingxstandard4-resize.png) 
-![Zuul Standard Logo](/img/legal/zuulstandard1.jpg) | ![Zuul Standard Logo 2](/img/legal/zuulstandard2-resize.png) | ![Zuul Standard Logo 3](/img/legal/zuulstandard3.jpg) | ![Zuul Standard Logo 4](/img/legal/zuulstandard4.jpg) 
+![OpenStack Standard Logo](/img/legal/osstandard1.png) | ![OpenStack Standard Logo 2](/img/legal/osstandard2-resize.png) | ![OpenStack Standard Logo 3](/img/legal/osstandard3.png) | ![OpenStack Standard Logo 4](/img/legal/osstandard4-resize.png) 
+![OpenInfra Labs Standard Logo](/img/legal/oilstandard.png) | ![OpenInfra Labs Standard Logo 2](/img/legal/oilstandard2.png) | ![OpenInfra Labs Standard Logo 3](/img/legal/oilstandard3.png) | ![OpenInfra Labs Standard Logo 4](/img/legal/oilstandard4-resize.png) 
+![Airship Standard Logo](/img/legal/airshipstandard1.png) | ![Airship Standard Logo 2](/img/legal/airshipstandard2-resize.png) | ![Airship Standard Logo 3](/img/legal/airshipstandard3.png) | ![Airship Standard Logo 4](/img/legal/airshipstandard4-resize.png) 
+![Kata Containers Standard Logo](/img/legal/katastandard1.png) | ![Kata Containers Standard Logo 2](/img/legal/katastandard2-resize.png) | ![Kata Containers Standard Logo 3](/img/legal/katastandard3.png) | ![Kata Containers Standard Logo 4](/img/legal/katastandard4-resize.png) 
+![StarlingX Standard Logo](/img/legal/starlingxstandard1.png) | ![StarlingX Standard Logo 2](/img/legal/starlingxstandard2-resize.png) | ![StarlingX Standard Logo 3](/img/legal/starlingxstandard3.png) | ![StarlingX Standard Logo 4](/img/legal/starlingxstandard4-resize.png) 
+![Zuul Standard Logo](/img/legal/zuulstandard1.png) | ![Zuul Standard Logo 2](/img/legal/zuulstandard2-resize.png) | ![Zuul Standard Logo 3](/img/legal/zuulstandard3.png) | ![Zuul Standard Logo 4](/img/legal/zuulstandard4.png) 
 [Future Project Logo] | [Future Project Logo] | [Future Project Logo] | [Future Project Logo]
  	 	 	 
 
@@ -114,12 +114,12 @@ If you are a qualifying OpenInfra member in good standing and you wish to use th
 
 Special-use Logo (Option 1) | Special-use Logo (Option 2) | Special-use Logo (Option 3) | Special-use Logo (Option 4)
 ---|---|---|---
-![OpenStack Special Logo](/img/legal/osstandard1.png) | ![OpenStack Special Logo 2](/img/legal/osstandard2-resize.png) | ![OpenStack Special Logo 3](/img/legal/osstandard3.jpg) | ![OpenStack Special Logo 4](/img/legal/osstandard4-resize.png) 
-![OpenInfra Labs Standard Logo](/img/legal/oilstandard.png) | ![OpenInfra Labs Standard Logo 2](/img/legal/oilstandard2.png) | ![OpenInfra Labs Standard Logo 3](/img/legal/oilstandard3.jpg) | ![OpenInfra Labs Standard Logo 4](/img/legal/oilstandard4-resize.png) 
-![Airship Special Logo](/img/legal/airshipstandard1.png) | ![Airship Special Logo 2](/img/legal/airshipstandard2-resize.png) | ![Airship Special Logo 3](/img/legal/airshipstandard3.jpg) | ![Airship Special Logo 4](/img/legal/airshipstandard4-resize.png) 
-![Kata Containers Special Logo](/img/legal/katastandard1.png) | ![Kata Containers Special Logo 2](/img/legal/katastandard2-resize.png) | ![Kata Containers Special Logo 3](/img/legal/katastandard3.jpg) | ![Kata Containers Special Logo 4](/img/legal/katastandard4-resize.png) 
-![StarlingX Special Logo](/img/legal/starlingxstandard1.png) | ![StarlingX Special Logo 2](/img/legal/starlingxstandard2-resize.png) | ![StarlingX Special Logo 3](/img/legal/starlingxstandard3.jpg) | ![StarlingX Special Logo 4](/img/legal/starlingxstandard4-resize.png) 
-![Zuul Special Logo](/img/legal/zuulstandard1.jpg) | ![Zuul Special Logo 2](/img/legal/zuulstandard2-resize.png) | ![Zuul Special Logo 3](/img/legal/zuulstandard3.jpg) | ![Zuul Special Logo 4](/img/legal/zuulstandard4.jpg) 
+![OpenStack Special Logo](/img/legal/osstandard1.png) | ![OpenStack Special Logo 2](/img/legal/osstandard2-resize.png) | ![OpenStack Special Logo 3](/img/legal/osstandard3.png) | ![OpenStack Special Logo 4](/img/legal/osstandard4-resize.png) 
+![OpenInfra Labs Special Logo](/img/legal/oilstandard.png) | ![OpenInfra Labs Special Logo 2](/img/legal/oilstandard2.png) | ![OpenInfra Labs Special Logo 3](/img/legal/oilstandard3.png) | ![OpenInfra Labs Special Logo 4](/img/legal/oilstandard4-resize.png) 
+![Airship Special Logo](/img/legal/airshipstandard1.png) | ![Airship Special Logo 2](/img/legal/airshipstandard2-resize.png) | ![Airship Special Logo 3](/img/legal/airshipstandard3.png) | ![Airship Special Logo 4](/img/legal/airshipstandard4-resize.png) 
+![Kata Containers Special Logo](/img/legal/katastandard1.png) | ![Kata Containers Special Logo 2](/img/legal/katastandard2-resize.png) | ![Kata Containers Special Logo 3](/img/legal/katastandard3.png) | ![Kata Containers Special Logo 4](/img/legal/katastandard4-resize.png) 
+![StarlingX Special Logo](/img/legal/starlingxstandard1.png) | ![StarlingX Special Logo 2](/img/legal/starlingxstandard2-resize.png) | ![StarlingX Special Logo 3](/img/legal/starlingxstandard3.png) | ![StarlingX Special Logo 4](/img/legal/starlingxstandard4-resize.png) 
+![Zuul Special Logo](/img/legal/zuulstandard1.png) | ![Zuul Special Logo 2](/img/legal/zuulstandard2-resize.png) | ![Zuul Special Logo 3](/img/legal/zuulstandard3.png) | ![Zuul Special Logo 4](/img/legal/zuulstandard4.png) 
 [Future Project Logo] | [Future Project Logo] | [Future Project Logo] | [Future Project Logo]	 	 	 
 
 ### Marks Available to Organizers of “Days” and “User Group” Activities
@@ -156,15 +156,15 @@ You may not use the marks in the table immediately below, as they are reserved f
 
 Design or Stylized Mark for Foundation Use Only | Corresponding Word Mark for Foundation Use Only
 ---|---
-![Unavailable Mark 1](/img/legal/notavailable1.jpg) | OPENINFRA
-![Unavailable Mark 2](/img/legal/notavailable2.jpg) | OPENINFRA FOUNDATION
+![Unavailable Mark 1](/img/legal/notavailable1.png) | OPENINFRA
+![Unavailable Mark 2](/img/legal/notavailable2.png) | OPENINFRA FOUNDATION
 ![Unavailable Mark 3](/img/legal/notavailable3.jpg) | OPEN INFRASTRUCTURE FOUNDATION
 ![Unavailable Mark 4](/img/legal/notavailable4.jpg) | OPENINFRA SUMMIT
 ![Unavailable Mark 5](/img/legal/notavailable5.jpg) <span class="center-content-table">(ignore black background)</span> | AN OPENINFRA PROJECT
 ![Unavailable Mark 6](/img/legal/notavailable6.png) | 
 ![Unavailable Mark 7](/img/legal/notavailable7.png) | OPENINFRA LIVE
 ![Unavailable Mark 8](/img/legal/notavailable8.jpg) <span class="center-content-table">(ignore black background)</span> | SUPERUSER
-![Unavailable Mark 9](/img/legal/notavailable9.jpg) | SU
+![Unavailable Mark 9](/img/legal/notavailable9.png) | SU
 ![Unavailable Mark 10](/img/legal/notavailable10.png) | OPENDEV
 ![Unavailable Mark 11](/img/legal/notavailable11.png) | OD
 ![Unavailable Mark 12](/img/legal/notavailable12.png) | PROJECT TEAMS GATHERING

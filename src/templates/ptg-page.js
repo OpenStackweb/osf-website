@@ -172,6 +172,12 @@ export const PTGPageTemplate = ({
                     <li>Scientific SIG</li>  
                   </ul>
                 </div>
+                <h5><b>Adjacent Communities</b></h5>
+                <div class="ptg-who-teams-list">
+                  <ul>
+                    <li>AlmaLinux</li>  
+                  </ul>
+                </div>
               </div>
             </div>
             <div className="ptg-container">

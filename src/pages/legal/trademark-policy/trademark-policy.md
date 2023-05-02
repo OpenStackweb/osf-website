@@ -130,8 +130,8 @@ If you wish to use the marks in the table immediately below to promote community
 ---|---|---|---|---
 ![OpenInfra Days Logo 1](/img/legal/oid1.png) | ![OpenInfra Days Logo 2](/img/legal/oid2.png) | ![OpenInfra Days Logo 3](/img/legal/oid3.png) | ![OpenInfra Days Logo 4](/img/legal/oid4.png) | OPENINFRA DAYS [insert region before or after]
 ![OpenInfra User Group Logo 1](/img/legal/oiug1.png) | ![OpenInfra User Group Logo 2](/img/legal/oiug2.png) | ![OpenInfra User Group Logo 3](/img/legal/oiug3.png) | ![OpenInfra User Group Logo 4](/img/legal/oiug4.png) | OPENINFRA USER GROUP [insert region before or after]
-![OpenStack Days Logo](/img/legal/od1.jpg) | ![OpenStack Days Logo 2](/img/legal/od2.jpg) | ![User Gruop Logo](/img/legal/od3.jpg) |  | OPENSTACK DAYS [insert region before or after]
-![User Group Logo](/img/legal/ug1.jpg) | ![User Group Logo](/img/legal/ug2.jpg) |  |  | OPENSTACK USER GROUP [insert region before or after]
+![OpenStack Days Logo](/img/legal/od1.png) | ![OpenStack Days Logo 2](/img/legal/od2.png) | ![User Gruop Logo](/img/legal/od3.png) |  | OPENSTACK DAYS [insert region before or after]
+![User Group Logo](/img/legal/ug1.png) | ![User Group Logo 2](/img/legal/ug2.png) | ![User Group Logo 3](/img/legal/ug3.png) |  | OPENSTACK USER GROUP [insert region before or after]
 [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Logo] | [Future “DAYS” Word Mark]
 [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Logo] | [Future “USER GROUP” Word Mark]
 

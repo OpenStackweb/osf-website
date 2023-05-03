@@ -1,0 +1,194 @@
+.openinfra-logo-asset-box {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .openinfra-logo-asset-box .brand {
+        background-color: #f3f3f3;
+        color: #000;
+        text-align: center;
+        padding: 0.5em;
+        margin-top: 2em;
+        font-family: 'Roboto', sans-serif;
+  }
+  
+  .openinfra-logo-asset-box .item {
+        padding-bottom: 3em;
+        border: solid 1px #eee;
+        max-width: 49%;
+        margin: 1em 0 0.5em 0;
+        margin-right: 1%;
+        width: 50%;
+  }
+
+  @media screen and (max-width: 769px) {
+    .openinfra-logo-asset-box .item {
+
+        max-width: 100%;
+        margin-right: 0;
+        width: 100%;
+  }
+  }
+  .openinfra-logo-asset-box .item h5 {
+            color: #000;
+            text-align: center;
+            font-size: 1.3em;
+            margin: 2em 0 1em;
+            font-family: 'Roboto', sans-serif;
+  }
+
+  .openinfra-logo-asset-box .span-4 {
+    text-align: center;
+    height: 10em;
+  }
+  .openinfra-logo-asset-box   img {
+        max-height: 6em;
+        padding-top: 2em;
+}
+
+.openinfra-logo-asset-box .learn-more-item img {
+      max-height: initial !important;
+      height: initial !important;
+      width: initial !important;
+}
+
+.openinfra-logo-asset-box  .file-types {
+    padding: 0 10%;
+    text-align: center;
+}
+
+.openinfra-logo-asset-box .learn-more-item .file-types {
+    padding: 15% 10% 0;
+}
+
+@media screen and (max-width: 991px) and (min-width: 769px) {
+      .openinfra-logo-asset-box .learn-more-item .file-types {
+            padding: 20% 10% 0;
+        }
+}
+.openinfra-logo-asset-box  .file-types a {
+        padding: 0;
+        min-width: 20%;
+        display: inline-block;
+        margin: 0;
+        border: none;
+        text-align: center;
+        color: #000;
+        box-shadow: none;
+        text-shadow: none;
+        background: #f3f3f3;
+        margin-right: 5%;
+        line-height: 2em;
+        width: unset;
+}
+
+.trademark-policy-container hr {
+      margin-top: 0;
+}
+
+.trademark-policy-container h3 {
+      font-size: 1.3em;
+}
+
+.trademark-policy-container h4 {
+      font-size: 1.15em;
+}
+
+.trademark-policy-container .center-content-table {
+      text-align: center;
+      display: block;
+      margin-top: 10px;
+}
+
+.trademark-policy-container thead {
+      background-color: #f3f3f3;
+}
+
+.trademark-policy-container table {
+      margin: 3em 0;
+}
+
+.trademark-policy-container thead th {
+      border: solid 1px #eee;
+      font-size: 16px;
+}
+
+.trademark-policy-container table td {
+      border-width: 1px;
+      border: solid 1px #eee;
+      padding: 2em 1em;
+}
+
+/* .trademark-policy-container table tr td img {
+      max-height: 100px !important;
+      width: auto !important;
+} */
+
+.trademark-policy-container table tbody tr:last-child td {
+      border-bottom-width: 1px;
+}
+
+.trademark-policy-container table tbody tr {
+      max-width: 0;
+}
+
+.trademark-policy-container .gatsby-resp-image-wrapper {
+      
+}
+
+/* @media
+	  only screen 
+    and (max-width: 600px)  {
+
+		
+		.trademark-policy-container table, .trademark-policy-container thead, .trademark-policy-container tbody, .trademark-policy-container th, .trademark-policy-container td, .trademark-policy-container tr {
+			display: block;
+		}
+
+		
+		.trademark-policy-container thead tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+
+            .trademark-policy-container tr {
+      margin: 0 0 1rem 0;
+    }
+      
+    .trademark-policy-container tr:nth-child(odd) {
+      background: #ccc;
+    }
+    
+    .trademark-policy-container td {
+		
+			border: none;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			padding-left: 50%;
+		}
+
+		.trademark-policy-container td:before {
+			
+			position: absolute;
+			
+			top: 0;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+		}
+
+		
+		.trademark-policy-container td:nth-of-type(1):before { content: "First Name"; }
+		.trademark-policy-container td:nth-of-type(2):before { content: "Last Name"; }
+		.trademark-policy-container td:nth-of-type(3):before { content: "Job Title"; }
+		.trademark-policy-container td:nth-of-type(4):before { content: "Favorite Color"; }
+		.trademark-policy-container td:nth-of-type(5):before { content: "Wars of Trek?"; }
+		.trademark-policy-container td:nth-of-type(6):before { content: "Secret Alias"; }
+		.trademark-policy-container td:nth-of-type(7):before { content: "Date of Birth"; }
+		.trademark-policy-container td:nth-of-type(8):before { content: "Dream Vacation City"; }
+		.trademark-policy-container td:nth-of-type(9):before { content: "GPA"; }
+		.trademark-policy-container td:nth-of-type(10):before { content: "Arbitrary Data"; }
+	} */
+

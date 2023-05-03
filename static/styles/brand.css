@@ -47,14 +47,18 @@
 }
 
 .openinfra-logo-asset-box .learn-more-item img {
-      max-height: 9em;
-      padding-top: 2em;
-      width: auto !important;
+      max-height: initial !important;
+      height: initial !important;
+      width: initial !important;
 }
 
 .openinfra-logo-asset-box  .file-types {
     padding: 0 10%;
     text-align: center;
+}
+
+.openinfra-logo-asset-box .learn-more-item .file-types {
+    padding: 15% 10% 0;
 }
 .openinfra-logo-asset-box  .file-types a {
         padding: 0;

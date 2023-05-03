@@ -66,6 +66,28 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
             </div>
             <h5>One Color Logo Mark Red</h5>
         </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+            <div class="span-4 vertical">
+                <img src="/img/legal/osaboutlg.png">
+            </div>
+            <div class="file-types">
+                <a href="/img/brand/oshorizontal/png/openstack.png" target="_blank" class="button">PNG</a>
+				<a href="/img/brand/oshorizontal/svg/openstack.svg" target="_blank" class="button">SVG</a>
+				<a href="/img/brand/oshorizontal/eps/openstack.eps" class="button last">EPS</a>
+            </div>
+            <h5>Learn More Horizontal</h5>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+            <div class="span-4 vertical">
+                <img src="/img/legal/osaboutsm.png">
+            </div>
+            <div class="file-types">
+                <a href="/img/brand/osvertical/png/openstack.png" target="_blank" class="button">PNG</a>
+				<a href="/img/brand/osvertical/svg/openstack.svg" target="_blank" class="button">SVG</a>
+				<a href="/img/brand/osvertical/eps/openstack.eps" class="button last">EPS</a>
+            </div>
+            <h5>Learn More Vertical</h5>
+        </div>
     </div>
   </div>
   <div class="openinfra-logo-asset-box">
@@ -114,6 +136,28 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
 				<a href="https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/kata/EPS/kata-mark-orange-simple.eps" class="button last">EPS</a>
             </div>
             <h5>One Color Logo Mark Orange</h5>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+            <div class="span-4 vertical">
+                <img src="/img/legal/kataaboutlg.png">
+            </div>
+            <div class="file-types">
+                <a href="/img/brand/katahorizontal/png/katacontainers.png" target="_blank" class="button">PNG</a>
+				<a href="/img/brand/katahorizontal/svg/katacontainers.svg" target="_blank" class="button">SVG</a>
+				<a href="/img/brand/katahorizontal/eps/katacontainers.eps" class="button last">EPS</a>
+            </div>
+            <h5>Learn More Horizontal</h5>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+            <div class="span-4 vertical">
+                <img src="/img/legal/kataaboutsm.png">
+            </div>
+            <div class="file-types">
+                <a href="/img/brand/katavertical/png/katacontainers.png" target="_blank" class="button">PNG</a>
+				<a href="/img/brand/katavertical/svg/katacontainers.svg" target="_blank" class="button">SVG</a>
+				<a href="/img/brand/katavertical/eps/katacontainers.eps" class="button last">EPS</a>
+            </div>
+            <h5>Learn More Vertical</h5>
         </div>
     </div>
   </div>
@@ -164,6 +208,28 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
             </div>
             <h5>Full Color Logo Mark</h5>
         </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+            <div class="span-4 vertical">
+                <img src="/img/legal/starlingxaboutlg.png">
+            </div>
+            <div class="file-types">
+                <a href="/img/brand/starlingxhorizontal/png/starlingx.png" target="_blank" class="button">PNG</a>
+				<a href="/img/brand/starlingxhorizontal/svg/starlingx.svg" target="_blank" class="button">SVG</a>
+				<a href="/img/brand/starlingxhorizontal/eps/starlingx.eps" class="button last">EPS</a>
+            </div>
+            <h5>Learn More Horizontal</h5>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+            <div class="span-4 vertical">
+                <img src="/img/legal/starlingxaboutsm.png">
+            </div>
+            <div class="file-types">
+                <a href="/img/brand/starlingxvertical/png/starlingx.png" target="_blank" class="button">PNG</a>
+				<a href="/img/brand/starlingxvertical/svg/starlingx.svg" target="_blank" class="button">SVG</a>
+				<a href="/img/brand/starlingxvertical/eps/starlingx.eps" class="button last">EPS</a>
+            </div>
+            <h5>Learn More Vertical</h5>
+        </div>
     </div>
   </div>
   <div class="openinfra-logo-asset-box">
@@ -213,6 +279,28 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
             </div>
             <h5>Dark Blue Logo Mark</h5>
         </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+            <div class="span-4 vertical">
+                <img src="/img/legal/zuulaboutlg.png">
+            </div>
+            <div class="file-types">
+                <a href="/img/brand/zuulhorizontal/png/zuul.png" target="_blank" class="button">PNG</a>
+				<a href="/img/brand/zuulhorizontal/svg/zuul.svg" target="_blank" class="button">SVG</a>
+				<a href="/img/brand/zuulhorizontal/eps/zuul.eps" class="button last">EPS</a>
+            </div>
+            <h5>Learn More Horizontal</h5>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+            <div class="span-4 vertical">
+                <img src="/img/legal/zuulaboutsm.png">
+            </div>
+            <div class="file-types">
+                <a href="/img/brand/zuulvertical/png/zuul.png" target="_blank" class="button">PNG</a>
+				<a href="/img/brand/zuulvertical/svg/zuul.svg" target="_blank" class="button">SVG</a>
+				<a href="/img/brand/zuulvertical/eps/zuul.eps" class="button last">EPS</a>
+            </div>
+            <h5>Learn More Vertical</h5>
+        </div>
     </div>
   </div>
   <div class="openinfra-logo-asset-box">
@@ -261,6 +349,28 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
 				<a href="https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/airship/EPS/Airship_Icon_2Color_RGB.eps" class="button last">EPS</a>
             </div>
             <h5>Full Color Logo Mark</h5>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+            <div class="span-4 vertical">
+                <img src="/img/legal/airshipaboutlg.png">
+            </div>
+            <div class="file-types">
+                <a href="/img/brand/zuulhorizontal/png/zuul.png" target="_blank" class="button">PNG</a>
+				<a href="/img/brand/zuulhorizontal/svg/zuul.svg" target="_blank" class="button">SVG</a>
+				<a href="/img/brand/zuulhorizontal/eps/zuul.eps" class="button last">EPS</a>
+            </div>
+            <h5>Learn More Horizontal</h5>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+            <div class="span-4 vertical">
+                <img src="/img/legal/airshipaboutsm.png">
+            </div>
+            <div class="file-types">
+                <a href="/img/brand/zuulvertical/png/zuul.png" target="_blank" class="button">PNG</a>
+				<a href="/img/brand/zuulvertical/svg/zuul.svg" target="_blank" class="button">SVG</a>
+				<a href="/img/brand/zuulvertical/eps/zuul.eps" class="button last">EPS</a>
+            </div>
+            <h5>Learn More Vertical</h5>
         </div>
     </div>
   </div>

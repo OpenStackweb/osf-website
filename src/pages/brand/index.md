@@ -66,7 +66,7 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
             </div>
             <h5>One Color Logo Mark Red</h5>
         </div>
-        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+        <div class="col-lg-6 col-sm-6 col-xs-12 item learn-more-item">
             <div class="span-4 vertical">
                 <img src="/img/legal/osaboutlg.png">
             </div>
@@ -77,7 +77,7 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
             </div>
             <h5>Learn More Horizontal</h5>
         </div>
-        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+        <div class="col-lg-6 col-sm-6 col-xs-12 item learn-more-item">
             <div class="span-4 vertical">
                 <img src="/img/legal/osaboutsm.png">
             </div>
@@ -137,7 +137,7 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
             </div>
             <h5>One Color Logo Mark Orange</h5>
         </div>
-        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+        <div class="col-lg-6 col-sm-6 col-xs-12 item learn-more-item">
             <div class="span-4 vertical">
                 <img src="/img/legal/kataaboutlg.png">
             </div>
@@ -148,7 +148,7 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
             </div>
             <h5>Learn More Horizontal</h5>
         </div>
-        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+        <div class="col-lg-6 col-sm-6 col-xs-12 item learn-more-item">
             <div class="span-4 vertical">
                 <img src="/img/legal/kataaboutsm.png">
             </div>
@@ -208,7 +208,7 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
             </div>
             <h5>Full Color Logo Mark</h5>
         </div>
-        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+        <div class="col-lg-6 col-sm-6 col-xs-12 item learn-more-item">
             <div class="span-4 vertical">
                 <img src="/img/legal/starlingxaboutlg.png">
             </div>
@@ -219,7 +219,7 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
             </div>
             <h5>Learn More Horizontal</h5>
         </div>
-        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+        <div class="col-lg-6 col-sm-6 col-xs-12 item learn-more-item">
             <div class="span-4 vertical">
                 <img src="/img/legal/starlingxaboutsm.png">
             </div>
@@ -279,7 +279,7 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
             </div>
             <h5>Dark Blue Logo Mark</h5>
         </div>
-        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+        <div class="col-lg-6 col-sm-6 col-xs-12 item learn-more-item">
             <div class="span-4 vertical">
                 <img src="/img/legal/zuulaboutlg.png">
             </div>
@@ -290,7 +290,7 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
             </div>
             <h5>Learn More Horizontal</h5>
         </div>
-        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+        <div class="col-lg-6 col-sm-6 col-xs-12 item learn-more-item">
             <div class="span-4 vertical">
                 <img src="/img/legal/zuulaboutsm.png">
             </div>
@@ -350,7 +350,7 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
             </div>
             <h5>Full Color Logo Mark</h5>
         </div>
-        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+        <div class="col-lg-6 col-sm-6 col-xs-12 item learn-more-item">
             <div class="span-4 vertical">
                 <img src="/img/legal/airshipaboutlg.png">
             </div>
@@ -361,7 +361,7 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
             </div>
             <h5>Learn More Horizontal</h5>
         </div>
-        <div class="col-lg-6 col-sm-6 col-xs-12 item">
+        <div class="col-lg-6 col-sm-6 col-xs-12 item learn-more-item">
             <div class="span-4 vertical">
                 <img src="/img/legal/airshipaboutsm.png">
             </div>

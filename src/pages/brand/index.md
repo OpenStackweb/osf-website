@@ -355,9 +355,9 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
                 <img src="/img/legal/airshipaboutlg.png">
             </div>
             <div class="file-types">
-                <a href="/img/brand/zuulhorizontal/png/zuul.png" target="_blank" class="button">PNG</a>
-				<a href="/img/brand/zuulhorizontal/svg/zuul.svg" target="_blank" class="button">SVG</a>
-				<a href="/img/brand/zuulhorizontal/eps/zuul.eps" class="button last">EPS</a>
+                <a href="/img/brand/airshiphorizontal/png/airship.png" target="_blank" class="button">PNG</a>
+				<a href="/img/brand/airshiphorizontal/svg/airship.svg" target="_blank" class="button">SVG</a>
+				<a href="/img/brand/airshiphorizontal/eps/airship.eps" class="button last">EPS</a>
             </div>
             <h5>Learn More Horizontal</h5>
         </div>
@@ -366,9 +366,9 @@ Here you’ll find logos of the projects managed by the OpenInfra Foundation. Lo
                 <img src="/img/legal/airshipaboutsm.png">
             </div>
             <div class="file-types">
-                <a href="/img/brand/zuulvertical/png/zuul.png" target="_blank" class="button">PNG</a>
-				<a href="/img/brand/zuulvertical/svg/zuul.svg" target="_blank" class="button">SVG</a>
-				<a href="/img/brand/zuulvertical/eps/zuul.eps" class="button last">EPS</a>
+                <a href="/img/brand/airshipvertical/png/airship.png" target="_blank" class="button">PNG</a>
+				<a href="/img/brand/airshipvertical/svg/airship.svg" target="_blank" class="button">SVG</a>
+				<a href="/img/brand/airshipvertical/eps/airship.eps" class="button last">EPS</a>
             </div>
             <h5>Learn More Vertical</h5>
         </div>

@@ -60,6 +60,12 @@
 .openinfra-logo-asset-box .learn-more-item .file-types {
     padding: 15% 10% 0;
 }
+
+@media screen and (max-width: 991px) and (min-width: 769px) {
+      .openinfra-logo-asset-box .learn-more-item .file-types {
+            padding: 20% 10% 0;
+        }
+}
 .openinfra-logo-asset-box  .file-types a {
         padding: 0;
         min-width: 20%;

@@ -46,8 +46,8 @@
         padding-top: 2em;
 }
 
-.openinfra-logo-asset-box   img.learn-more-item {
-      max-height: 8em;
+.openinfra-logo-asset-box .learn-more-item img {
+      max-height: 9em;
       padding-top: 2em;
       width: auto !important;
 }

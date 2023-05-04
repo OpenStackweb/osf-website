@@ -18,9 +18,9 @@ footer:
   display: true
 ---
 
-The OpenInfra Foundation community is made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the OpenInfra Foundation's mission. We strongly believe diversity is our strength and want to promote a collaborative, inclusive and safe environment.
+The OpenInfra Foundation community is made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the OpenInfra Foundation's mission. We strongly believe diversity is our strength and want to promote a collaborative, inclusive, and safe environment.
 
-To that end, we have a few ground rules for engaging in the community. . The following summary provides several guiding principles for interacting with one another.  For a detailed list of prohibited conduct, please see the bullet-point list on page 3.
+To that end, we have a few ground rules for engaging in the community. The following summary provides several guiding principles for interacting with one another.  For a detailed list of prohibited conduct, please see the bullet-point list on page 3.
 
 - Be kind to one another.
 - Listen, collaborate, and treat everyone the same. 
@@ -52,7 +52,7 @@ We do not tolerate bullying or harassment in any form. If you believe someone is
 
 - **Be careful with your words and actions.** We are a community of professionals, and we conduct ourselves professionally. Do not insult or put down other participants. Harassment and other exclusionary behavior is not acceptable and should be reported. This includes but is not limited to:
 
-  - Bullying and/or abusive behavior . 
+  - Bullying and/or abusive behavior. 
   - Violent threats or language directed against another person.
   - Discriminatory jokes and language.
   - Posting sexually suggestive, explicit or violent material.
@@ -63,7 +63,8 @@ We do not tolerate bullying or harassment in any form. If you believe someone is
   - Sustained disruptive activity during a community engagement, including written  communication.
   - Advocating for, or encouraging, any of the above behavior.
   - Repeated harassment of others. In general, if someone asks you to stop, then stop.
-  - Deliberately offensive behavior, language, images or other content - even if meant to be humorous (i.e. - "trolling")
+  - Deliberately offensive behavior, language, images or other content - even if meant to be humorous (i.e. - "trolling").
+
 
 - **Respect the election process.** Members of the OpenInfra Foundation community should not attempt to manipulate election results. Open debate is welcome, but vote trading, ballot stuffing and other forms of abuse are not acceptable.
 
@@ -89,6 +90,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
   - Other people involved in the incident
   - Whether or not you would prefer to have your complaint be kept anonymous in the situation
 
+
 - Staff will be responsible for notifying the alleged offender of complaint, investigating the complaint, determining the violation, if any, determining the appropriate penalty and communicating the resolution to the alleged offender and the target of the violation of the OpenInfra Code of Conduct.
 
 - Best Practices for participants:
@@ -96,6 +98,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
   - You should not feel the need to engage directly or further with the alleged offender, the Staff is there to support you or bring in additional resources.
   - If you feel your safety is in jeopardy please do not hesitate to contact law enforcement.
   - When reporting the incident to Staff, try to gather as much information as available, but do not interview people about the incident.
+
 
 - Staff will assist you in writing the report/collecting information.
 
@@ -111,6 +114,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
   - Other people involved in the incident
   - Whether or not the reporting party prefers to remain anonymous
 
+
 - Staff will try to get as much information on the incident in written form by the reporter, or will otherwise record the information about the incident as it was told to them.
 
 - Staff will make an initial response to the complainant which will include:
@@ -119,11 +123,13 @@ The Foundation staff (“Staff”) who manage these issues have the following co
   - Do they need to be connected with a safe person, friend or family member?
   - Do they need a safe space?
 
+
 - Staff will make the complainant aware of the response procedure and next steps to feel confident action is being taken, but avoid the following:
 
   - Do not overtly invite them to withdraw the complaint or mention that withdrawal is OK. This suggests that you want them to do so, and is therefore coercive. "If you're OK with it [pursuing the complaint]" suggests that you are by default pursuing it and is not coercive.
   - Do not ask for their advice on how to deal with the complaint. This is a Staff responsibility
   - Do not offer them input into penalties. In certain cases, it may be appropriate to ask complainant what it would take for the alleged offender to “make it right” such as an apology. However, the determination of any penalties, including restrictions on future participation in the OpenInfra Venues is at the sole discretion of the Staff.
+
 
 - After taking any initial action required to care for the complainant, Staff will notify Foundation Executive Director, who will determine:
 
@@ -131,12 +137,14 @@ The Foundation staff (“Staff”) who manage these issues have the following co
   - If public communications are required in the case of a public incident
   - If additional information gathering is required from witnesses, Staff or other parties
 
+
 - Staff or Executive Director will notify the alleged offender of the complaint and allow for response as part of the investigation and before reaching conclusion or applying any penalty. In the meantime, the alleged offender and complainant (or target of the violation) should not have any contact.
 
 - Following the conversation, Staff will convene to review the available information and consider appropriate action, which may include:
 
   - Reaching a conclusion about a violation of the OpenInfra Code of Conduct occurred
   - Determining whether it is appropriate to ask/suggest that the complainant and alleged offender consider a joint meeting in the presence of a neutral third party to address their perspectives
+
 
 - Where violation of the OpenInfra Code of Conduct is found, the Staff may take any one or more of the following actions:
 
@@ -147,6 +155,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
   - Requiring that the offender immediately leave a Foundation sponsored event and not return
   - Banning the offender from future Foundation sponsored events (either indefinitely or for a certain time period)
   - Removing the offender from membership of the Foundation and OpenInfra Foundation community roles and responsibilities
+
 
 - Staff will then inform the offender of what action, if any, will be taken against them.
 

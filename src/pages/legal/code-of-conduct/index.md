@@ -129,7 +129,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
   - Do not overtly invite them to withdraw the complaint or mention that withdrawal is OK. This suggests that you want them to do so, and is therefore coercive. "If you're OK with it [pursuing the complaint]" suggests that you are by default pursuing it and is not coercive.
   - Do not ask for their advice on how to deal with the complaint. This is a Staff responsibility
   - Do not offer them input into penalties. In certain cases, it may be appropriate to ask complainant what it would take for the alleged offender to “make it right” such as an apology. However, the determination of any penalties, including restrictions on future participation in the OpenInfra Venues is at the sole discretion of the Staff.
-
+  <br>
 
 - After taking any initial action required to care for the complainant, Staff will notify Foundation Executive Director, who will determine:
 

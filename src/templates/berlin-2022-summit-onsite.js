@@ -289,7 +289,7 @@ export const Berlin2022SummitOnsitePageTemplate = ({
                 <div className='help-item'>
                   <img src="/img/summit/berlin/heart.svg" />
                   <h3 className='fix-h3'>Code of Conduct</h3>
-                  <p>We are a diverse community of professionals, and the OpenInfra Foundation is dedicated to providing an inclusive and safe Summit experience for everyone. View the <a href="/legal/code-of-conduct/events">Summit Code of Conduct</a> for more information.
+                  <p>We are a diverse community of professionals, and the OpenInfra Foundation is dedicated to providing an inclusive and safe Summit experience for everyone. View the <a href="/legal/code-of-conduct">Summit Code of Conduct</a> for more information.
                   </p>
                 </div>
                 <div className='help-item'>

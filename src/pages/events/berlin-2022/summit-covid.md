@@ -54,4 +54,4 @@ Email summit@openinfra.dev with the subject “Positive Covid-19 Notification”
 Please visit [https://www.direkttesten.berlin/](https://www.direkttesten.berlin/) for current testing site availability.
 
 **How do I report a Healthy & Safety violation?**<br>
-Following Health & Safety guidelines onsite is part of the OpenInfra’s Event Code of Conduct. If you encounter attendees violating the Health & Safety regulations outlined, please contact Allison Price (allison@openinfra.dev) or Jonathan Bryce (jonathan@openinfra.dev) to make a formal report. Please refer to the [OpenInfra Events Code of Conduct](/legal/code-of-conduct/events) for additional information.
+Following Health & Safety guidelines onsite is part of the OpenInfra’s Event Code of Conduct. If you encounter attendees violating the Health & Safety regulations outlined, please contact Allison Price (allison@openinfra.dev) or Jonathan Bryce (jonathan@openinfra.dev) to make a formal report. Please refer to the [OpenInfra Code of Conduct](/legal/code-of-conduct) for additional information.

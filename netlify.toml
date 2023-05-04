@@ -209,6 +209,11 @@
   status=301
   force=true
 [[redirects]]
+  from="/legal/code-of-conduct/events"
+  to="https://openinfra.dev/legal/code-of-conduct"
+  status=301
+  force=true
+[[redirects]]
   from="/careers/marketing-coordinator"
   to="https://openinfra.dev/careers"
   status=301

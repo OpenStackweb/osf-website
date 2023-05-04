@@ -43,5 +43,3 @@ footer:
 [Transparency Policy](/legal/transparency-policy)
 
 [Event Policy](/legal/event-policy)
-
-[Events Code of Conduct](/legal/code-of-conduct/events)

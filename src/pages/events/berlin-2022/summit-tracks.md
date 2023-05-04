@@ -77,4 +77,4 @@ OpenInfra operators and developers gather at the Forum to brainstorm the require
 <br />
 <br />
 
-We are a diverse community of professionals, and the Open Infrastructure Foundation is dedicated to providing an inclusive and safe Summit experience for everyone. View the [OpenInfra Events Code of Conduct](/legal/code-of-conduct/events) for more information.
+We are a diverse community of professionals, and the Open Infrastructure Foundation is dedicated to providing an inclusive and safe Summit experience for everyone. View the [OpenInfra Code of Conduct](/legal/code-of-conduct) for more information.

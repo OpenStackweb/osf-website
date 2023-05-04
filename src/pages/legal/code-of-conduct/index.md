@@ -18,6 +18,8 @@ footer:
   display: true
 ---
 
+<style>.about-s1-container .columns .column p:last-child {margin-bottom: 20px;} br{display: none;}</style>
+
 The OpenInfra Foundation community is made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the OpenInfra Foundation's mission. We strongly believe diversity is our strength and want to promote a collaborative, inclusive, and safe environment.
 
 To that end, we have a few ground rules for engaging in the community. The following summary provides several guiding principles for interacting with one another.  For a detailed list of prohibited conduct, please see the bullet-point list on page 3.

@@ -64,7 +64,7 @@ We do not tolerate bullying or harassment in any form. If you believe someone is
   - Advocating for, or encouraging, any of the above behavior.
   - Repeated harassment of others. In general, if someone asks you to stop, then stop.
   - Deliberately offensive behavior, language, images or other content - even if meant to be humorous (i.e. - "trolling").
-
+  <br>
 
 - **Respect the election process.** Members of the OpenInfra Foundation community should not attempt to manipulate election results. Open debate is welcome, but vote trading, ballot stuffing and other forms of abuse are not acceptable.
 
@@ -89,7 +89,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
   - The behavior that was in violation, approximate time and circumstances
   - Other people involved in the incident
   - Whether or not you would prefer to have your complaint be kept anonymous in the situation
-
+  <br>
 
 - Staff will be responsible for notifying the alleged offender of complaint, investigating the complaint, determining the violation, if any, determining the appropriate penalty and communicating the resolution to the alleged offender and the target of the violation of the OpenInfra Code of Conduct.
 
@@ -98,7 +98,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
   - You should not feel the need to engage directly or further with the alleged offender, the Staff is there to support you or bring in additional resources.
   - If you feel your safety is in jeopardy please do not hesitate to contact law enforcement.
   - When reporting the incident to Staff, try to gather as much information as available, but do not interview people about the incident.
-
+  <br>
 
 - Staff will assist you in writing the report/collecting information.
 
@@ -113,7 +113,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
   - The behavior at issue, approximate time and circumstances
   - Other people involved in the incident
   - Whether or not the reporting party prefers to remain anonymous
-
+  <br>
 
 - Staff will try to get as much information on the incident in written form by the reporter, or will otherwise record the information about the incident as it was told to them.
 
@@ -122,7 +122,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
   - Do they need help?
   - Do they need to be connected with a safe person, friend or family member?
   - Do they need a safe space?
-
+  <br>
 
 - Staff will make the complainant aware of the response procedure and next steps to feel confident action is being taken, but avoid the following:
 
@@ -136,7 +136,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
   - If there is a need to bring in legal counsel, authorities or additional resources
   - If public communications are required in the case of a public incident
   - If additional information gathering is required from witnesses, Staff or other parties
-
+  <br>
 
 - Staff or Executive Director will notify the alleged offender of the complaint and allow for response as part of the investigation and before reaching conclusion or applying any penalty. In the meantime, the alleged offender and complainant (or target of the violation) should not have any contact.
 
@@ -144,7 +144,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
 
   - Reaching a conclusion about a violation of the OpenInfra Code of Conduct occurred
   - Determining whether it is appropriate to ask/suggest that the complainant and alleged offender consider a joint meeting in the presence of a neutral third party to address their perspectives
-
+  <br>
 
 - Where violation of the OpenInfra Code of Conduct is found, the Staff may take any one or more of the following actions:
 
@@ -155,7 +155,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
   - Requiring that the offender immediately leave a Foundation sponsored event and not return
   - Banning the offender from future Foundation sponsored events (either indefinitely or for a certain time period)
   - Removing the offender from membership of the Foundation and OpenInfra Foundation community roles and responsibilities
-
+  <br>
 
 - Staff will then inform the offender of what action, if any, will be taken against them.
 

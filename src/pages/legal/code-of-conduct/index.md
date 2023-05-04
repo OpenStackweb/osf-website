@@ -18,19 +18,27 @@ footer:
   display: true
 ---
 
-The OpenInfra Foundation community is made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the OpenInfra Foundation's mission. We strongly believe diversity is our strength and want to promote an inclusive and safe environment.
+The OpenInfra Foundation community is made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the OpenInfra Foundation's mission. We strongly believe diversity is our strength and want to promote a collaborative, inclusive and safe environment.
 
-To that end, we have a few ground rules for engaging in the community. The OpenInfra Foundation (“Foundation”) has adopted the following code of conduct ("OpenInfra Code of Conduct”) which applies equally to all community participants, including board members, committee members, project team leads, core contributors, mentors, user group leaders and participants, and those seeking help and guidance. Because of the laws governing employees which would supersede any contract, in some circumstances, the Foundation staff may be subject to a separate procedure.
+To that end, we have a few ground rules for engaging in the community. . The following summary provides several guiding principles for interacting with one another.  For a detailed list of prohibited conduct, please see the bullet-point list on page 3.
+
+- Be kind to one another.
+- Listen, collaborate, and treat everyone the same. 
+- Inappropriate or Toxic behavior is not permitted. See further on in this policy for examples. 
+
+Read onwards to learn of our values and policy. If you have a concerning matter which you're unsure of or which is not explicitly covered, please reach out to Foundation Staff (as identified below). 
+
+The OpenInfra Foundation (“Foundation”) has adopted the following code of conduct ("OpenInfra Code of Conduct”) which applies equally to all community participants, including board members, committee members, project team leads, core contributors, mentors, user group leaders and participants, and those seeking help and guidance. Because of the laws governing employees which would supersede any contract, in some circumstances, the Foundation staff may be subject to a separate procedure.
 
 This OpenInfra Code of Conduct also applies to all spaces managed by the Foundation or authorized by the Foundation, including IRC channels, the mailing lists, issue trackers, Foundation sponsored events and any other forums the Foundation community uses which are managed by the Foundation ("OpenInfra Venues”), including without limitation the Open Infrastructure Projects. In addition, violations of this OpenInfra Code of Conduct outside of OpenInfra Venues may affect a person's ability to participate within them after appropriate investigation. For the annual Open Infrastructure Summit, please also see the [event-specific code of conduct](/legal/code-of-conduct/events) with additional details for speakers, sponsors and attendees.
 
-We do not tolerate harassment in any form. If you believe someone is violating the OpenInfra Code of Conduct, please see our Reporting Guidelines below.
+We do not tolerate bullying or harassment in any form. If you believe someone is violating the OpenInfra Code of Conduct, please see our Reporting Guidelines below.
 
 ##### OpenInfra Foundation community members strive to
 
 - **Be friendly, patient and welcoming.** We strive to be a community that welcomes and supports people of all backgrounds and identities. This includes, but is not limited to, members of any race, ethnicity, culture, national origin, colour, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion and mental and physical ability.
 
-- **Be considerate.** Our work will be used by other people, and we in turn will depend on the work of others. Any decision we take will affect users and colleagues, and we should take those consequences into account when making decisions. Remember that we're a world-wide community and we have a global base of users and of contributors. Even if it's not obvious at the time, our contributions to projects managed by the OpenInfra Foundation will impact the work of others.
+- **Be considerate.** Our work will be used by other people, and we in turn will depend on the work of others. Any decision we take will affect users, colleagues, communities, and the ecosystem, and we should take those consequences into account when making decisions. Remember that we're a world-wide community and we have a global base of users and of contributors. Even if it's not obvious at the time, our contributions to projects managed by the OpenInfra Foundation will impact the work of others.
 
 - **Be respectful.** Not all of us will agree all the time, but disagreement is no excuse for poor behavior and poor manners. We might all experience some frustration now and then, but we cannot allow that frustration to turn into a personal attack. It’s important to remember that a community where people feel uncomfortable or threatened is not a productive one. Members of the community should be respectful when dealing with other contributors as well as with people outside of the community and with users of the projects managed by the OpenInfra Foundation.
 
@@ -44,14 +52,18 @@ We do not tolerate harassment in any form. If you believe someone is violating t
 
 - **Be careful with your words and actions.** We are a community of professionals, and we conduct ourselves professionally. Do not insult or put down other participants. Harassment and other exclusionary behavior is not acceptable and should be reported. This includes but is not limited to:
 
+  - Bullying and/or abusive behavior . 
   - Violent threats or language directed against another person.
   - Discriminatory jokes and language.
   - Posting sexually suggestive, explicit or violent material.
   - Posting (or threatening to post) other people's personally identifying information ("doxing").
   - Personal insults, especially those using racist or sexist terms.
   - Unwelcome sexual attention.
+  - Stalking, including taking non-consensual photography of community members.
+  - Sustained disruptive activity during a community engagement, including written  communication.
   - Advocating for, or encouraging, any of the above behavior.
   - Repeated harassment of others. In general, if someone asks you to stop, then stop.
+  - Deliberately offensive behavior, language, images or other content - even if meant to be humorous (i.e. - "trolling")
 
 - **Respect the election process.** Members of the OpenInfra Foundation community should not attempt to manipulate election results. Open debate is welcome, but vote trading, ballot stuffing and other forms of abuse are not acceptable.
 
@@ -67,7 +79,7 @@ The Foundation staff (“Staff”) who manage these issues have the following co
 
 ##### Process to file complaint
 
-- Please report violations of the OpenInfra Code of Conduct at the OpenInfra Venues immediately to Staff.
+- Please report violations of the OpenInfra Code of Conduct at the OpenInfra Venues immediately to Foundation Staff.
 
 - Please be prepared to provide as much of the following information as possible about the alleged violation:
 

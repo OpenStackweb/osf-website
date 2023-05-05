@@ -167,8 +167,9 @@ export const PTGPageTemplate = ({
                 <h5><b>Other OpenStack Teams</b></h5>
                 <div class="ptg-who-teams-list">
                   <ul>
-                    <li>Security SIG</li>  
-                    <li>OpenStack Technical Committee</li> 
+                    <li>OpenStack Technical Committee</li>  
+                    <li>Public Cloud SIG</li> 
+                    <li>Security SIG</li> 
                     <li>Scientific SIG</li>  
                   </ul>
                 </div>

@@ -56,10 +56,10 @@ export const SummitOnsitePageTemplate = ({
                 <img src="/img/summit/vancouver-2023/oi-vancouver-logo.svg" />
               </div>
               <div className='wifi-right'>
-                <p>Wireless internet password coming soon</p>
-                {/* <p>How to get online while in the Summit venue:</p>
+                {/* <p>Wireless internet password coming soon</p> */}
+                <p>How to get online while in the Summit venue:</p>
                 <p>SSID: <strong>OpenInfraSummit</strong></p>
-                <p>PW: <strong>Weareopeninfra!</strong></p> */}
+                <p>PW: <strong>Weareopeninfra!</strong></p>
               </div>
             </section>
           </div>

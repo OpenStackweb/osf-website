@@ -176,7 +176,8 @@ export const PTGPageTemplate = ({
                 <h5><b>Adjacent Communities</b></h5>
                 <div class="ptg-who-teams-list">
                   <ul>
-                    <li>AlmaLinux</li>  
+                    <li>AlmaLinux</li>
+                    <li>Rocky Linux</li> 
                   </ul>
                 </div>
               </div>

@@ -27,15 +27,6 @@ const FeaturedSpeakersYvr = ({ featured_speakers }) => {
             </div>
             <div>
                 <div className="featured-speaker-image">
-                    <img src="/img/summit/vancouver-2023/Silona-Bonewald-crop.jpeg" />
-                </div>
-                <div className="featured-speaker-info">
-                    <div className="featured-speaker-name">Silona Bonewald</div>
-                    <div className="featured-speaker-company">IEEE. SA OPEN</div>
-                </div>
-            </div>
-            <div>
-                <div className="featured-speaker-image">
                     <img src="/img/summit/vancouver-2023/Nisha-Brahmankar.jpeg" />
                 </div>
                 <div className="featured-speaker-info">
@@ -95,6 +86,15 @@ const FeaturedSpeakersYvr = ({ featured_speakers }) => {
                 <div className="featured-speaker-info">
                     <div className="featured-speaker-name">Paul Miller</div>
                     <div className="featured-speaker-company">Wind River</div>
+                </div>
+            </div>
+            <div>
+                <div className="featured-speaker-image">
+                    <img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/Maria-Vaquero.jpg" />
+                </div>
+                <div className="featured-speaker-info">
+                    <div className="featured-speaker-name">Maria Vaquero</div>
+                    <div className="featured-speaker-company">Cloud&Heat Technologies</div>
                 </div>
             </div>
             

@@ -20,7 +20,7 @@ header:
     text: Vancouver Convention Centre
   buttons:
     - text: Register Now
-      link: https://vancouver2023.openinfra.dev
+      link: https://vancouver2023.openinfra.dev/#registration=1
   image: /img/ptg-page/hero-image.png
 form:
   display: true

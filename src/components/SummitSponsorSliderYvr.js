@@ -99,7 +99,7 @@ const SummitSponsorSliderYvr = ({ summit_sponsors }) => {
                     <a class="logo-supporting" href="https://ceph.io/en/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1219/logos/ceph1.png" alt="Ceph" /></a>
                     <a class="logo-supporting" href="https://openuk.uk/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1266/logos/openuk-logo-new.png" alt="OpenUK" /></a>
                     <a class="logo-supporting" href="https://sodafoundation.io/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1200/logos/soda-foundation-logo-lg.jpeg" alt="Soda Foundation" /></a>
-                    <a class="logo-supporting" href="https://www.stackhpc.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/StackHPC-lg.png" alt="StackHPC" /></a>
+                    <a class="logo-supporting" href="https://www.stackhpc.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1135/logos/StackHPC-lg1.png" alt="StackHPC" /></a>
                 </div>
             </div>
             <div>

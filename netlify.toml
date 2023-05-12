@@ -218,3 +218,8 @@
   to="https://openinfra.dev/careers"
   status=301
   force=true
+[[redirects]]
+  from="/experience"
+  to="https://openinfrafoundation.formstack.com/forms/my_open_source_experience"
+  status=301
+  force=true

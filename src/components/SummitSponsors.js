@@ -25,7 +25,7 @@ const SummitSponsors = ({ summit_sponsors }) => {
                         <div className="logos">
                             {summit_sponsors?.filter(sponsor => sponsor.sponsorship.id === tier.id).sort((a, b) => a.order - b.order).map((sponsor, sponsorKey) => {
                                 return (
-                                    <a className={`logo-${tier.name.toLowerCase()}`} href={sponsor.company.url}
+                                    <a className={`logo-${tier.name}`} href={sponsor.company.url}
                                         target="_blank" rel="noopener noreferrer" key={sponsorKey}>
                                         <img src={sponsor.company.big_logo ? sponsor.company.big_logo : sponsor.company.logo} alt={sponsor.company.name} />
                                     </a>

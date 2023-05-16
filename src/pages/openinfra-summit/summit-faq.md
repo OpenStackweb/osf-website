@@ -96,6 +96,11 @@ Attendees are able to inquire if accommodations are available and make suggestio
 **Are service and emotional service animals allowed at the OpenInfra Summit venue (the Vancouver Convention Centre)?** <br>
 Yes, guide and service animals are welcome in the Vancouver Convention Centre. We recommend bringing relevant paperwork to the venue. Attendees are encouraged to contact additional relevant venues they will be visiting, including hotels and restaurants as the OpenInfra Foundation cannot guarantee permission at outside venues.
 
+**What meals will be available at the OpenInfra Summit?** <br>
+A light breakfast will be provided on [Tuesday at 9am in the OpenInfra Marketplace](https://vancouver2023.openinfra.dev/a/schedule#title=OpenInfra%20Summit%20Welcome%20Breakfast&view=calendar). Lunch will not be provided at the OpenInfra Summit and attendees are encouraged to visit the walkable restaurants to continue networking with fellow attendees.
+
+Additionally, on Wednesday, there will be a [Diversity & Inclusion lunch](https://vancouver2023.openinfra.dev/a/schedule#title=Diversity%20%26%20Inclusion%20Lunch&view=calendar) sponsored by Bloomberg, and RSVP is required as well as a Speed Mentoring Breakfast sponsored by Red Hat on Thursday where RSVP by both mentors and mentees is also required.
+
 <h4 id="travel">VANCOUVER TRAVEL</h4>
 
 **Is there any financial support available for travel/accommodation?** <br>

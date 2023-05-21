@@ -134,7 +134,7 @@ members:
     linkedin: https://www.linkedin.com/in/jimmymcarthur/
     name: Jimmy McArthur
     openStack: https://www.openstack.org/community/members/profile/1395
-    picture: /img/about-staff/jimmymcarthur.jpg
+    picture: /img/headshot.png
     title: Director of Business Development
     twitter: https://twitter.com/jimmymcarthur
   - description: >-

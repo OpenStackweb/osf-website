@@ -33,7 +33,7 @@ const SummitSponsorsYvr = ({ summit_sponsors }) => {
             <div>
                 <h3 class="small-title-summit">Spotlight Sponsors</h3>
                 <div class="logos">
-                    <a class="logo-spotlight" href="https://canonical.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/ubuntu-lg.jpg" alt="Canonical" /></a>
+                    <a class="logo-spotlight" href="https://canonical.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/57/logos/Canonical-lg.png" alt="Canonical" /></a>
                     <a class="logo-spotlight" href="https://www.redhat.com/en/topics/openstack?sc_cid=70160000000eBtyAAE&sc_cid=70160000000bEKkAAM&offer_id=701600000006R7KAAU" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/Redhat-newlogo-lg.jpg" alt="Red Hat, Inc." /></a>
                     <a class="logo-spotlight" href="https://vexxhost.com/" target="_blank" rel="noopener noreferrer"><img src="https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/vexxhost-lg2.jpg" alt="VEXXHOST, Inc." /></a>
                 </div>

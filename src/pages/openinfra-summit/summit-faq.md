@@ -58,7 +58,7 @@ Late Registration: $599 (code must be redeemed by May 26 at 11:59pm PT)
 Contributors to OpenInfra projects (OpenStack, Kata Containers, Zuul, StarlingX, Airship, and OpenInfra Labs) who have committed a change in the last six months as of January 1, 2023 are eligible to receive discounted registration for the OpenInfra Summit. Each eligible contributor will receive the code via email. Contributor registration prices will increase on February 15 at 11:59pm PT.
 
 **Is discounted registration available for students, nonprofit or government employees?** <br>
-Yes, if you are a student or work for a government/nonprofit entity you may apply to receive a discounted pass to the Vancouver Summit by [filling out this application](https://openinfrafoundation.formstack.com/forms/yvr2023summit_discountedreg_app). The deadline for student and government/nonprofit applications is May 25, 2023.
+Yes, if you are a student or work for a government/nonprofit entity you may apply to receive a discounted pass to the Vancouver Summit. The deadline for student and government/nonprofit applications is May 25, 2023.
 
 **I received a discount registration code, how do I use it?** <br>
 During registration, there is "Promo Code" field where you enter in your name, company, and email address.
@@ -116,7 +116,7 @@ If you have any questions about the Travel Support Program, please email [summit
 **Do I need a visa to travel to Vancouver?** <br>
 Before submitting a request, please [check here](https://www.cic.gc.ca/english/visit/visas.asp) to see the Canada visa requirements for your country.
 
-As a general planning guideline, if a visa is needed, a foreign traveler should apply for their visa as soon as possible, preferably no later than 60 days before the travel date. Requests for invitation letters must be received before June 1, 2023. You can request a visa invitation letter by filling out [this form](https://openinfrafoundation.formstack.com/forms/visa_yvrsummit2023).
+As a general planning guideline, if a visa is needed, a foreign traveler should apply for their visa as soon as possible, preferably no later than 60 days before the travel date. Requests for invitation letters must be received before June 1, 2023.
 
 Visa letters will be emailed to you within a 5 business day turnaround timeframe. Please do not follow up before then.  No hard copies will be sent. If you have questions please email [summit@openinfra.dev](mailto:summit@openinfra.dev).
 

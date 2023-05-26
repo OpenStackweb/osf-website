@@ -116,7 +116,7 @@ If you have any questions about the Travel Support Program, please email [summit
 **Do I need a visa to travel to Vancouver?** <br>
 Before submitting a request, please [check here](https://www.cic.gc.ca/english/visit/visas.asp) to see the Canada visa requirements for your country.
 
-As a general planning guideline, if a visa is needed, a foreign traveler should apply for their visa as soon as possible, preferably no later than 60 days before the travel date. Requests for invitation letters must be received before June 1, 2023.
+As a general planning guideline, if a visa is needed, a foreign traveler should apply for their visa as soon as possible, preferably no later than 60 days before the travel date. Requests for invitation letters must be received before May 25, 2023.
 
 Visa letters will be emailed to you within a 5 business day turnaround timeframe. Please do not follow up before then.  No hard copies will be sent. If you have questions please email [summit@openinfra.dev](mailto:summit@openinfra.dev).
 

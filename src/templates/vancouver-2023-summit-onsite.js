@@ -82,10 +82,7 @@ export const SummitOnsitePageTemplate = ({
               <p>
               Summit schedule overview coming soon
               </p>
-              {/* <p>
-                <strong>Monday 3:30pm - 5:30pm:</strong> Register before the Tuesday crowd and grab a beverage at <a href="/summit/berlin-2022/summit-schedule#title=badges&view=calendar">Badges and Beverages</a> in the OpenInfra Plaza.
-              </p> */}
-              {/* <div className='schedule-summary'>
+              <div className='schedule-summary'>
                 <div className='schedule-left'>
                   <div className='schedule-top'>
                     Tuesday
@@ -93,58 +90,42 @@ export const SummitOnsitePageTemplate = ({
                   <div className='schedule-rows'>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:00am - 5:45pm
+                      7:30am
                       </div>
                       <div className='list-right'>
-                      Registration
+                      Registration Opens
                       </div>
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:00am - 4:00pm
+                      8:30am – 3:15pm
                       </div>
                       <div className='list-right'>
-                      <a href="/summit-sponsor">Marketplace</a> <em>(closed during keynotes)</em>
+                      <a href="/summit-sponsor">OpenInfra Marketplace Open</a>
                       </div>
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                      8:00am - 4:00pm
+                      9:30am – 2:50pm
                       </div>
                       <div className='list-right'>
-                      Mirantis Biergarten <em>(closed during keynotes)</em>
+                        <a href="https://vancouver2023.openinfra.dev/a/schedule">Sessions</a>
                       </div>
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                      9:00am - 11:00am
+                      12:30pm – 1:45pm
                       </div>
                       <div className='list-right'>
-                        Keynotes
+                      Off Campus Lunch
                       </div>
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        11:00am - 6:00pm
+                      3:15pm – 5:45pm
                       </div>
                       <div className='list-right'>
-                        <a href="/summit-schedule">Breakouts / Forum / Workshops / Demos / Lightning Talks</a>
-                      </div>
-                    </div>
-                    <div className='schedule-row'>
-                      <div className='list-left'>
-                        12:30pm - 1:30pm
-                      </div>
-                      <div className='list-right'>
-                        Lunch
-                      </div>
-                    </div>
-                    <div className='schedule-row'>
-                      <div className='list-left'>
-                        3:20pm - 4:00pm
-                      </div>
-                      <div className='list-right'>
-                        Midday Mixer
+                      Keynotes
                       </div>
                     </div>
                   </div>
@@ -156,58 +137,42 @@ export const SummitOnsitePageTemplate = ({
                   <div className='schedule-rows'>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:30am - 5:45pm
+                        8:30am
                       </div>
                       <div className='list-right'>
-                      Registration
+                      Registration Opens
                       </div>
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:00am - 4:00pm
+                      9:00am – 6:00pm
                       </div>
                       <div className='list-right'>
-                      <a href="/summit-sponsor">Marketplace</a> <em>(closed during keynotes)</em>
+                      OpenInfra Marketplace Open
                       </div>
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                      8:00am - 4:00pm
+                      9:00am – 4:20pm
                       </div>
                       <div className='list-right'>
-                      Mirantis Biergarten <em>(closed during keynotes)</em>
+                        <a href="https://vancouver2023.openinfra.dev/a/schedule">Sessions</a>
                       </div>
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                      9:00am - 11:00am
+                      12:50pm – 2:30pm
                       </div>
                       <div className='list-right'>
-                        Keynotes
+                      Off Campus Lunch
                       </div>
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        11:00am - 6:00pm
+                      4:30pm – 6:00pm
                       </div>
                       <div className='list-right'>
-                        <a href="/summit-schedule">Breakouts / Forum / Workshops / Demos / Lightning Talks</a>
-                      </div>
-                    </div>
-                    <div className='schedule-row'>
-                      <div className='list-left'>
-                        12:30pm - 1:30pm
-                      </div>
-                      <div className='list-right'>
-                        Lunch <em>(Diversity & Inclusion Lunch sponsored by Red Hat in A02)</em>
-                      </div>
-                    </div>
-                    <div className='schedule-row'>
-                      <div className='list-left'>
-                        3:20pm - 4:00pm
-                      </div>
-                      <div className='list-right'>
-                        Midday Mixer
+                      <a href="https://www.openinfra.dev/summit-sponsor">Marketplace Mixer</a>
                       </div>
                     </div>
                   </div>
@@ -219,47 +184,39 @@ export const SummitOnsitePageTemplate = ({
                   <div className='schedule-rows'>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:30am - 1:30pm
+                        8:30am
                       </div>
                       <div className='list-right'>
-                      Registration
+                      Registration Opens
                       </div>
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                        8:30am - 4:00pm
+                      9:00am – 2:00pm
                       </div>
                       <div className='list-right'>
-                        <a href="/summit-sponsor">Marketplace</a>
+                      OpenInfra Marketplace Open
                       </div>
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                      8:30am - 4:00pm
+                      9:00am – 5:50pm
                       </div>
                       <div className='list-right'>
-                      Mirantis Biergarten
+                        <a href="https://vancouver2023.openinfra.dev/a/schedule">Sessions</a>
                       </div>
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                      9:00am - 6:00pm
+                      12:50pm – 2:00pm
                       </div>
                       <div className='list-right'>
-                      <a href="/summit-schedule">Breakouts / Forum / Workshops / Demos / Lightning Talks</a>
-                      </div>
-                    </div>
-                    <div className='schedule-row'>
-                      <div className='list-left'>
-                        12:20pm - 1:20pm
-                      </div>
-                      <div className='list-right'>
-                        Lunch
+                      Off Campus Lunch
                       </div>
                     </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
               <div class="button">
                 <a href="https://vancouver2023.openinfra.dev/a/schedule">Full Schedule <img src={leftArrow} alt="left" /></a>
               </div>

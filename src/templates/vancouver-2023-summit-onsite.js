@@ -109,7 +109,7 @@ export const SummitOnsitePageTemplate = ({
                       9:30am – 2:50pm
                       </div>
                       <div className='list-right'>
-                        <a href="https://vancouver2023.openinfra.dev/a/schedule">Sessions</a>
+                        <a href="https://vancouver2023.openinfra.dev/a/schedule">Breakout and Forum Session</a>
                       </div>
                     </div>
                     <div className='schedule-row'>
@@ -125,7 +125,7 @@ export const SummitOnsitePageTemplate = ({
                       3:15pm – 5:45pm
                       </div>
                       <div className='list-right'>
-                      Keynotes
+                      <a href="https://vancouver2023.openinfra.dev/a/schedule#track=427&view=calendar">Keynotes</a>
                       </div>
                     </div>
                   </div>
@@ -148,7 +148,15 @@ export const SummitOnsitePageTemplate = ({
                       9:00am – 6:00pm
                       </div>
                       <div className='list-right'>
-                      OpenInfra Marketplace Open
+                      <a href="/summit-sponsor">OpenInfra Marketplace Open</a>
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
+                      9:00am – 6:00pm
+                      </div>
+                      <div className='list-right'>
+                      <a href="/ptg">PTG</a>
                       </div>
                     </div>
                     <div className='schedule-row'>
@@ -156,7 +164,7 @@ export const SummitOnsitePageTemplate = ({
                       9:00am – 4:20pm
                       </div>
                       <div className='list-right'>
-                        <a href="https://vancouver2023.openinfra.dev/a/schedule">Sessions</a>
+                        <a href="https://vancouver2023.openinfra.dev/a/schedule">Breakout and Forum Session</a>
                       </div>
                     </div>
                     <div className='schedule-row'>
@@ -165,6 +173,14 @@ export const SummitOnsitePageTemplate = ({
                       </div>
                       <div className='list-right'>
                       Off Campus Lunch
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
+                      12:50pm - 2:30pm
+                      </div>
+                      <div className='list-right'>
+                      <a href="https://vancouver2023.openinfra.dev/a/schedule#title=Diversity%20%26%20Inclusion%20Lunch%20Sponsored%20by%20Bloomberg&view=calendar">Diversity and Inclusion Lunch sponsored by Bloomberg</a>
                       </div>
                     </div>
                     <div className='schedule-row'>
@@ -195,7 +211,23 @@ export const SummitOnsitePageTemplate = ({
                       9:00am – 2:00pm
                       </div>
                       <div className='list-right'>
-                      OpenInfra Marketplace Open
+                      <a href="/summit-sponsor">OpenInfra Marketplace Open</a>
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
+                      9:00am – 6:00pm
+                      </div>
+                      <div className='list-right'>
+                      <a href="/ptg">PTG</a>
+                      </div>
+                    </div>
+                    <div className='schedule-row'>
+                      <div className='list-left'>
+                      9:00am – 6:00pm
+                      </div>
+                      <div className='list-right'>
+                      <a href="https://vancouver2023.openinfra.dev/a/schedule#date=2023-06-15&venues=559&view=calendar">Ceph Days Vancouver</a>
                       </div>
                     </div>
                     <div className='schedule-row'>

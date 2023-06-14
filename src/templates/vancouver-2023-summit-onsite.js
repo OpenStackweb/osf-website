@@ -66,11 +66,11 @@ export const SummitOnsitePageTemplate = ({
           <section className='summit-map' id="maps">
             <div className='container'>
               <h3 className='fix-h3'>Venue Map</h3>
-              <a href="/img/summit/vancouver-2023/full-map.png">
+              <a href="/img/summit/vancouver-2023/full-map-new.png">
                 <img className='venue-map' src="/img/summit/vancouver-2023/map-thumb.png" />
               </a>
               {/* <p>Venue map coming soon</p> */}
-              <a href="/img/summit/vancouver-2023/full-map.png" class="map-link">Download the Full Map</a>
+              <a href="/img/summit/vancouver-2023/full-map-new.png" class="map-link">Download the Full Map</a>
             </div>
           </section>
           <div className='container'>

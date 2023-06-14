@@ -79,9 +79,6 @@ export const SummitOnsitePageTemplate = ({
               <p>
               Here's a high-level look at what's happening during the Summit. You can find more details by viewing the <a href="https://vancouver2023.openinfra.dev/a/schedule">full Summit schedule</a>.
               </p>
-              <p>
-              Summit schedule overview coming soon
-              </p>
               <div className='schedule-summary'>
                 <div className='schedule-left'>
                   <div className='schedule-top'>

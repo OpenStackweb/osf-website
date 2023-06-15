@@ -77,7 +77,7 @@ export const SummitOnsitePageTemplate = ({
             <section className='summit-schedule' id="schedule">
               <h3 className='fix-h3'>Summit Schedule</h3>
               <p>
-              Here's a high-level look at what's happening during the Summit. You can find more details by viewing the <a href="https://vancouver2023.openinfra.dev/a/schedule">full Summit schedule</a>.
+              Here's a high-level look at what's happening during the OpenInfra Summit. You can find more details by viewing the <a href="https://vancouver2023.openinfra.dev/a/schedule">full Summit schedule</a>.
               </p>
               <div className='schedule-summary'>
                 <div className='schedule-left'>

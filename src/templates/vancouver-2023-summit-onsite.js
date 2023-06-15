@@ -205,7 +205,7 @@ export const SummitOnsitePageTemplate = ({
                     </div>
                     <div className='schedule-row'>
                       <div className='list-left'>
-                      9:00am – 2:00pm
+                      9:00am – 3:00pm
                       </div>
                       <div className='list-right'>
                       <a href="/summit-sponsor">OpenInfra Marketplace Open</a>

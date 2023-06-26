@@ -60,10 +60,10 @@ export const SummitPageTemplate = ({
                     !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> {header.location.text}
                 </span>
                 <section className="cta-wrapper">
-                  <LinkComponent className="button-cta" href="https://vancouver2023.openinfra.dev/#registration=1">Register Now<img src={leftArrow} alt="" /></LinkComponent>
-                  <LinkComponent className="button-cta button-white outline" href="/summit/vancouver-2023/summit-sponsor">Become a Sponsor 
+                  <LinkComponent className="button-cta" href="https://www.youtube.com/watch?v=sOmoFOLaR7A&list=PLKqaoAnDyfgqsxQDbLj4LVpKiZSDbntuC">Watch Summit Videos<img src={leftArrow} alt="" /></LinkComponent>
+                  {/* <LinkComponent className="button-cta button-white outline" href="/summit/vancouver-2023/summit-sponsor">Become a Sponsor 
                   <img src={leftArrow} alt="" />
-                  </LinkComponent>
+                  </LinkComponent> */}
                 </section>
                 <p className="small-details">Learn more about the <a href="/ptg/">Project Teams Gathering (PTG) in Vancouver</a>.</p>
                 <div className="chaoss-badge-container">

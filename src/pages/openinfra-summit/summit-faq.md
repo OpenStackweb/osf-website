@@ -69,7 +69,7 @@ If you have questions about registration, please email [summit@openinfra.dev](ma
 Yes, refunds and ticket transfers will be processed until May 26, 2023 at 11:59pm PT.
 
 **The link I had for OpenInfra Summit registration requires a password. How do I register?** <br>
-In an effort to leverage more open source solutions, we are now using an open source tool for OpenInfra Summit registration. You can register here: [vancouver2023.openinfra.dev](https://vancouver2023.openinfra.dev/)
+In an effort to leverage more open source solutions, we are now using an open source tool for OpenInfra Summit registration.
 
 **Are there any discounted hotel blocks available for OpenInfra Summit attendees?** <br>
 There are not discounted hotel blocks available for the OpenInfra Summit, but we have collected several hotels with availability that are walkable to the Vancouver Convention Centre. 
@@ -166,7 +166,7 @@ The Forum is co-located within the OpenInfra Summit so by registering for the Su
 The first step is to fill out [the interest survey](https://openinfrafoundation.formstack.com/forms/june2023_ptg_survey) by April 2 at 11:00pm PT. After that point, the moderators provided in the survey will be contacted to sign their teams up for time.
 
 **How do I register for the PTG?** <br/>
-The PTG will be co-located within the OpenInfra Summit so by registering for the Summit, you are registered for the PTG as well. There is no separate registration. You can [register for the Summit here](https://vancouver2023.openinfra.dev)!
+The PTG will be co-located within the OpenInfra Summit so by registering for the Summit, you are registered for the PTG as well. There is no separate registration.
 
 **When will the schedule for the PTG be available?** <br/>
 The schedule will be available mid April but will be dynamic and subject to change, so please keep an eye on communications! Teams that have signed up to participate will be contacted at the end of April to schedule themselves via the PTGBot the same way they do for virtual PTG events.

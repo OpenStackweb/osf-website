@@ -77,7 +77,7 @@ function SubNavYvr(props) {
               </div>
             }
           </li>
-          <li><LinkComponent id="registration" href="https://vancouver2023.openinfra.dev/" className="link registration">Register Now</LinkComponent></li>
+          {/* <li><LinkComponent id="registration" href="https://vancouver2023.openinfra.dev/" className="link registration">Register Now</LinkComponent></li> */}
         </ul>
 
         <div className={`${isSummitOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleSummitMenu}>
@@ -124,7 +124,7 @@ function SubNavYvr(props) {
                 </>
               }
             </li>
-            <li><a id="registration" href="https://vancouver2023.openinfra.dev/" className="link registration">Register Now</a></li>
+            {/* <li><a id="registration" href="https://vancouver2023.openinfra.dev/" className="link registration">Register Now</a></li> */}
           </ul>
         </div>
       }

@@ -66,6 +66,12 @@
             padding: 20% 10% 0;
         }
 }
+.trademark-policy-container .trademark-policy-text-break {
+      display: block;
+      margin: 10px 0;
+      text-align: center;
+}
+
 .openinfra-logo-asset-box  .file-types a {
         padding: 0;
         min-width: 20%;

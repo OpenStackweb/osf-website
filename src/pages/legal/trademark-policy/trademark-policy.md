@@ -93,8 +93,8 @@ Platinum Member in good standing | ![Platinum Member Logo](/img/legal/platinumme
 Gold Member in good standing | ![Gold Member Logo](/img/legal/goldmemberlogo.jpg) | OPENINFRA GOLD MEMBER
 Silver Member in good standing | ![Silver Member Logo](/img/legal/silvermemberlogo.png) | OPENINFRA SILVER MEMBER
 Associate Member in good standing | ![Associate Member Logo](/img/legal/associatememberlogo.png) | OPENINFRA ASSOCIATE MEMBER
-Member in good standing that has signed participation agreement with OpenInfra Asia hub | ![Silver Member Logo](/img/legal/OpenInfra_Europe-1.png) or ![Silver Member Logo](/img/legal/OpenInfra_Europe-2.png) | OPENINFRA ASIA
-Member in good standing that has signed participation agreement with OpenInfra Europe hub | ![Silver Member Logo](/img/legal/OpenInfra_Asia-1.png) or ![Silver Member Logo](/img/legal/OpenInfra_Asia-2.png) | OPENINFRA EUROPE
+Member in good standing that has signed participation agreement with OpenInfra Asia hub | ![Silver Member Logo](/img/legal/OpenInfra_Europe-1.png) <span class="trademark-policy-text-break">or</span> ![Silver Member Logo](/img/legal/OpenInfra_Europe-2.png) | OPENINFRA ASIA
+Member in good standing that has signed participation agreement with OpenInfra Europe hub | ![Silver Member Logo](/img/legal/OpenInfra_Asia-1.png) <span class="trademark-policy-text-break">or</span> ![Silver Member Logo](/img/legal/OpenInfra_Asia-2.png) | OPENINFRA EUROPE
 [Future Member Category] | [Future “MEMBER” Logo] | [Future “MEMBER” Word Mark]
 
 ### Marks that Brand Commercial Products (Standard Use Case)

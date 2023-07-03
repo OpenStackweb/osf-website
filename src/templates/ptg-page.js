@@ -44,6 +44,9 @@ export const PTGPageTemplate = ({
                 <span className="description">
                     {header.description}
                     <br />
+                    <br />
+                    More information coming soon.
+                    <br />
                 </span>
                 {/* <span class="ptg-header-bottom-title"><a class="primary-link-color" href="/summit/vancouver-2023">OpenInfra Summit + PTG</a></span> */}
                 <span className="date">

@@ -44,8 +44,11 @@ export const PTGPageTemplate = ({
                 <span className="description">
                     {header.description}
                     <br />
+                    <br />
+                    More information coming soon.
+                    <br />
                 </span>
-                <span class="ptg-header-bottom-title"><a class="primary-link-color" href="/summit/vancouver-2023">OpenInfra Summit + PTG</a></span>
+                {/* <span class="ptg-header-bottom-title"><a class="primary-link-color" href="/summit/vancouver-2023">OpenInfra Summit + PTG</a></span> */}
                 <span className="date">
                   <img src={(header.date.icon.extension === 'svg' || header.date.icon.extension === 'gif') && !header.date.icon.childImageSharp ?
                     header.date.icon.publicURL
@@ -56,7 +59,7 @@ export const PTGPageTemplate = ({
                   <img src={(header.location.icon.extension === 'svg' || header.location.icon.extension === 'gif') && !header.location.icon.childImageSharp ?
                     header.location.icon.publicURL
                     :
-                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> Vancouver Convention Centre
+                    !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> Virtual
                 </span>
                 {/* <div className="buttons">
                     {header.buttons.map((button, index) => {
@@ -131,7 +134,7 @@ export const PTGPageTemplate = ({
       <main className="main">
         <div className="content">
           <section className="ptg-who">
-            <div className="ptg-container">
+            {/* <div className="ptg-container">
               <div className="ptg-who-teams">
                 <h4 className="title">The June 2023 Project Teams List is Official!</h4>
                 <p>If your team was planning to meet and isn't in this list, please contact <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a></p>
@@ -181,7 +184,7 @@ export const PTGPageTemplate = ({
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="ptg-container">
               <div className="ptg-who-boxes">
                 <div className="should">

@@ -48,6 +48,13 @@ const NewsSection = class extends React.Component {
                         <p className="home-v2-paragraph home-v2-paragraph-white">The latest news, technologies, and resources from the OpenInfra Community</p>
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
+                    <div className="news-article-inner-container">
+                            <a href="https://techcrunch.com/2023/06/13/openinfra-foundation-opens-regional-hubs-in-europe-and-asia/"><img src="/img/homeV2/news-images/openinfraasiaeurope.png" /></a>
+                            <p className="news-article-intro-text">Frederic Lardinois • Jun 13, 2023</p>
+                            <a href="https://techcrunch.com/2023/06/13/openinfra-foundation-opens-regional-hubs-in-europe-and-asia/"><h3>OpenInfra Foundation opens regional hubs in Europe and Asia</h3></a>
+                            <p className="news-article-content">At the OpenInfra Summit, the OpenInfra Foundation announced that it is launching two regional hubs — OpenInfra Asia based in Singapore and OpenInfra Europe based in Belgium — to better promote and protect open source in those regions.</p>
+                            <a className="news-article-link" href="https://techcrunch.com/2023/06/13/openinfra-foundation-opens-regional-hubs-in-europe-and-asia/">READ MORE</a>
+                        </div>
                         <div className="news-article-inner-container">
                             <a href="https://thenewstack.io/a-is-for-openstack-antelope/"><img src="/img/homeV2/news-images/openstack-antelope-news-img.jpg" /></a>
                             <p className="news-article-intro-text">Steven J. Vaughan-Nichols • Mar 22, 2023</p>

@@ -20,7 +20,7 @@ header:
     text: Virtual
   buttons:
     - text: Register Now
-      link: https://vancouver2023.openinfra.dev/#registration=1
+      link: https://openinfra-ptg.eventbrite.com
   image: /img/ptg-page/hero-image.png
 form:
   display: true

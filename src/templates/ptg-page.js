@@ -61,7 +61,7 @@ export const PTGPageTemplate = ({
                     :
                     !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> Virtual
                 </span>
-                {/* <div className="buttons">
+                <div className="buttons">
                     {header.buttons.map((button, index) => {
                         return (
                             <a
@@ -71,7 +71,7 @@ export const PTGPageTemplate = ({
                             </a>
                         )
                     })}
-                </div> */}
+                </div>
             </div>
             <div className="header-left">
                 <div className="picture">

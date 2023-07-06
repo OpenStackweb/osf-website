@@ -44,9 +44,6 @@ export const PTGPageTemplate = ({
                 <span className="description">
                     {header.description}
                     <br />
-                    <br />
-                    More information coming soon.
-                    <br />
                 </span>
                 {/* <span class="ptg-header-bottom-title"><a class="primary-link-color" href="/summit/vancouver-2023">OpenInfra Summit + PTG</a></span> */}
                 <span className="date">
@@ -61,7 +58,7 @@ export const PTGPageTemplate = ({
                     :
                     !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> Virtual
                 </span>
-                {/* <div className="buttons">
+                <div className="buttons">
                     {header.buttons.map((button, index) => {
                         return (
                             <a
@@ -71,7 +68,7 @@ export const PTGPageTemplate = ({
                             </a>
                         )
                     })}
-                </div> */}
+                </div>
             </div>
             <div className="header-left">
                 <div className="picture">

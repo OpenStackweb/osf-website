@@ -36,7 +36,7 @@ function PTGSubNav(props) {
         <ul id="links-list" className="links-list">
           <li><LinkComponent id="ptg" href="/ptg" onClick={() => shouldCloseMenu("ptg")} className="link">About</LinkComponent></li>
           <li><LinkComponent id="ptg-faq" href="/ptg/faq" onClick={() => shouldCloseMenu("ptg-faq")} className="link">FAQ</LinkComponent></li>
-          <li><LinkComponent id="registration" href="https://openinfra-ptg.eventbrite.com" className="link registration">Register</LinkComponent></li>
+          <li><LinkComponent id="registration" href="https://ptg2023.openinfra.dev/" className="link registration">Register</LinkComponent></li>
           {/* <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} style={{ marginBottom: -30, paddingBottom: 30 }}>
             <LinkComponent id="summit-faq" href="#" className="link registration" style={{ width: '110%', display: 'inline-flex' }}>
               Register
@@ -66,7 +66,7 @@ function PTGSubNav(props) {
           <ul id="links-list-mobile" className="links-list">
           <li><LinkComponent id="ptg-mobile" href="/ptg" onClick={() => shouldCloseMenu("ptg")} className="link">About</LinkComponent></li>
           <li><LinkComponent id="ptg-faq-mobile" href="/ptg/faq" onClick={() => shouldCloseMenu("ptg")} className="link">FAQ</LinkComponent></li>
-          <li><LinkComponent id="registration-mobile" href="https://openinfra-ptg.eventbrite.com" className="link registration">Register</LinkComponent></li>
+          <li><LinkComponent id="registration-mobile" href="https://ptg2023.openinfra.dev/" className="link registration">Register</LinkComponent></li>
           {/* <li onMouseEnter={() => setSupportDropdown(true)} onMouseLeave={() => setSupportDropdown(false)} className="link-dropdown registration">
               <LinkComponent id="ptg-registration-link" href="#" className="link link-dropdown-parent" >
                 Registration

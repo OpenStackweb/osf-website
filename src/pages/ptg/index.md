@@ -20,7 +20,7 @@ header:
     text: Virtual
   buttons:
     - text: Register Now
-      link: https://openinfra-ptg.eventbrite.com
+      link: https://ptg2023.openinfra.dev/
   image: /img/ptg-page/hero-image.png
 form:
   display: true

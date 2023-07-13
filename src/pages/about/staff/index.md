@@ -204,8 +204,8 @@ members:
     description: "Kristin is the Marketing Coordinator at the OpenInfra Foundation.
       Prior to joining, she worked for a nonprofit in the social services
       sector. In her free time, she enjoys music, baking, playing tennis, and
-      spending time with her family. She is also obsessed with her cat named
-      Callie. "
+      spending time with her family. She is also obsessed with her cats, Callie
+      and Molly. "
     openStack: https://openinfra.dev/a/community/members/143722
     linkedin: https://www.linkedin.com/in/kristin-barrientos/
   - name: Treva Williams

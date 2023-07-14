@@ -14,6 +14,13 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     14:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: true
+    date: 2023-09-07T14:00:00.000Z
+    episodeTitle: "Zuul Deep Dive: Volvo "
+    episodeDescription: "In this episode, a panel of Zuul operators invites special
+      guests to talk about their deployment and discuss their operations. For
+      this episode, our guest will be Johannes Foufas, from Volvo. "
+    episodeSpeakers: Johannes Foufas, Jim Blair, Clark Boylan, Kristin Barrientos
   - hidden: false
     date: 2023-09-21T14:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: NIPA Cloud"

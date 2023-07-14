@@ -14,16 +14,19 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     14:00 UTC (9am CT)</strong>."
 episodes:
-  - hidden: true
+  - hidden: false
     date: 2023-09-21T14:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: NIPA Cloud"
     episodeDescription: In the "Large Scale Ops Deep Dive" series, a panel of
       OpenStack operators invites special guests to talk about their deployment
       and discuss their operations. For this episode, our guests will be Dr.
       Abhisak Chulya and Charnsilp Chinprasert from NIPA Cloud, Thailand's
-      number-one OpenStack public cloud provider
+      number-one OpenStack public cloud provider.
     episodeSpeakers: "Dr. Abhisak Chulya, Charnsilp Chinprasert, Arnaud Morin,
       Belmiro Moreira, Mohammed Naser, Thierry Carrez, Kristin Barrientos "
+    linkedinLink: https://www.linkedin.com/events/7085718563113603072/comments/
+    youtubeEmbed: https://www.youtube.com/embed/ir9v_UK_MIA
+    youtubeLink: https://www.youtube.com/watch?v=ir9v_UK_MIA
   - hidden: false
     date: 2023-05-04T14:00:00.000Z
     linkedinLink: https://www.linkedin.com/events/7056677974057648128/comments/

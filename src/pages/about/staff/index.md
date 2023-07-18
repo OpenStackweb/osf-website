@@ -134,7 +134,7 @@ members:
     linkedin: https://www.linkedin.com/in/jimmymcarthur/
     name: Jimmy McArthur
     openStack: https://www.openstack.org/community/members/profile/1395
-    picture: /img/headshot.png
+    picture: /img/jimmymcarthur.jpg
     title: Director of Business Development
     twitter: https://twitter.com/jimmymcarthur
   - description: >-
@@ -247,7 +247,7 @@ support:
         Horace likes jogging, swimming, music, movie, fashion and art.
       name: Horace Li
       openStack: https://www.openstack.org/community/members/profile/98596
-      picture: /img/about-staff/horaceli.jpg
+      picture: /img/horaceli_2023.jpg
       title: China Community Manager
     - description: Lisa Miller serves as legal counsel for the Open Infrastructure
         Foundation. Lisa focuses her practice on  providing quality legal

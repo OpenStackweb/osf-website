@@ -68,7 +68,7 @@ members:
     linkedin: https://www.linkedin.com/in/markcollier
     name: Mark Collier
     openStack: https://www.openstack.org/community/members/profile/31
-    picture: /img/about-staff/markcollier.jpg
+    picture: /img/markcollier.jpg
     title: Chief Operating Officer
     twitter: https://twitter.com/sparkycollier
   - description: <p>Thierry Carrez is the General Manager of the Open Infrastructure

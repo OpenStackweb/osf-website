@@ -85,7 +85,7 @@ members:
     linkedin: https://www.linkedin.com/in/thierry-carrez-652662a
     name: Thierry Carrez
     openStack: https://www.openstack.org/community/members/profile/154
-    picture: /img/about-staff/thierry.jpeg
+    picture: /img/thierrycarrez_2.jpg
     title: General Manager
     twitter: https://twitter.com/tcarrez
   - description: As the VP of Operations at the OpenInfra Foundation, Wes is
@@ -100,7 +100,7 @@ members:
     linkedin: https://www.linkedin.com/in/iamweswilson
     name: Wes Wilson
     openStack: https://www.openstack.org/community/members/profile/20997
-    picture: /img/1678642185544.jpg
+    picture: /img/weswilson_2023.jpg
     title: VP of Operations
     twitter: https://twitter.com/iamweswilson
   - description: "Allison is the VP of Marketing & Community at the OpenInfra
@@ -112,7 +112,7 @@ members:
     linkedin: https://www.linkedin.com/in/allisonmarieprice
     name: Allison Price
     openStack: https://www.openstack.org/community/members/profile/17777
-    picture: /img/about-staff/AllisonPrice.jpg
+    picture: /img/allisonprice_2023.jpg
     title: VP of Marketing & Community
     twitter: https://twitter.com/amprice88
   - description: It all started as a volunteer sysadmin at Portland State

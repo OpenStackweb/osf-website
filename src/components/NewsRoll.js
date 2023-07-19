@@ -50,7 +50,7 @@ const NewsRoll = ({ news }) => {
       :
       <>
         {paginatedPosts[currentPage].sort((a, b) => b.date.localeCompare(a.date)).map((post, index) => {
-          if (post.featured === false && post.hideArticle === false) {
+          if (post.hideArticle === false) {
             return (
               <div className="article-excerpt" key={index}>
                 <div className="article-excerpt-meta">

@@ -45,7 +45,7 @@ const NewsRoll = ({ news }) => {
   }
 
   return (
-    news && news.filter(n => n.featured === false && n.hideArticle === false).length === 0 ?
+    news && news.filter(n => n.hideArticle === false).length === 0 ?
       <div style={{ minHeight: '47vh' }}>There don't seem to be any news that match.</div>
       :
       <>

@@ -4,7 +4,7 @@ import LinkComponent from './LinkComponent';
 
 const paginatePosts = (news) => {
   let perChunk = 5 // items per chunk    
-  let inputArray = news.filter(n => n.featured === false && n.hideArticle === false);
+  let inputArray = news.filter(n => n.hideArticle === false);
   let paginatedPosts = inputArray.reduce((resultArray, item, index) => {
     const chunkIndex = Math.floor(index / perChunk)
 

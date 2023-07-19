@@ -4,7 +4,7 @@ import LinkComponent from './LinkComponent';
 
 const paginatePosts = (news) => {
   let perChunk = 5 // items per chunk    
-  let inputArray = news.filter(n => n.featured === false && n.hideArticle === false);
+  let inputArray = news.filter(n => n.hideArticle === false);
   let paginatedPosts = inputArray.reduce((resultArray, item, index) => {
     const chunkIndex = Math.floor(index / perChunk)
 
@@ -45,12 +45,12 @@ const NewsRoll = ({ news }) => {
   }
 
   return (
-    news && news.filter(n => n.featured === false && n.hideArticle === false).length === 0 ?
+    news && news.filter(n => n.hideArticle === false).length === 0 ?
       <div style={{ minHeight: '47vh' }}>There don't seem to be any news that match.</div>
       :
       <>
         {paginatedPosts[currentPage].sort((a, b) => b.date.localeCompare(a.date)).map((post, index) => {
-          if (post.featured === false && post.hideArticle === false) {
+          if (post.hideArticle === false) {
             return (
               <div className="article-excerpt" key={index}>
                 <div className="article-excerpt-meta">

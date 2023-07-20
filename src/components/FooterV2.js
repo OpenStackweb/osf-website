@@ -77,6 +77,13 @@ const FooterV2 = class extends React.Component {
                         <li><a href="/newsletter/">Newsletter</a></li>
                     </ul>
                 </div>
+                <div className="footer-section-last-divider">
+                    <h6>Regional Hubs</h6>
+                    <ul>
+                        <li><a href="https://openinfraasia.org/">OpenInfra Asia</a></li>
+                        <li><a href="https://openinfraeurope.org/">OpenInfra Europe</a></li>
+                    </ul>
+                </div>
             </div>
             </div>
             <div className="footer-v2-lower">

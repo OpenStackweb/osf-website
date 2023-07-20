@@ -91,7 +91,7 @@ const FooterV2 = class extends React.Component {
                 <a href="/" className="router-link-active">
                     <div className="logo-containter">
                     <div className="logo-containter-child logo-containter-child-img">
-                        <img src="img/openinfrastructurefoundation-logo-rgb-horiz3.png" alt="OpenInfra Foundation" />
+                        <img src="img/svg/OpenInfraFoundation-logo-RGB-horiz-w.svg" alt="OpenInfra Foundation" />
                         </div>
                     </div>
                 </a>

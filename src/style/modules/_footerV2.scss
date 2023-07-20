@@ -40,6 +40,9 @@
                     width: 100%;
                     display: flex;
                     justify-content: space-between;
+                    &.footer-break-section {
+                        flex-wrap: wrap;
+                    }
                     .footer-section-last-divider {
                         width: 50%;
                     }

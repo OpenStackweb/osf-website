@@ -61,7 +61,7 @@ const FooterV2 = class extends React.Component {
                     <li><a href="/contact/">Contact</a></li>
                 </ul>
             </div>  
-            <div className="footer-section footer-section-last">
+            <div className="footer-section footer-section-last footer-break-section">
                 <div className="footer-section-last-divider">
                     <h6>Membership</h6>
                     <ul>
@@ -91,7 +91,7 @@ const FooterV2 = class extends React.Component {
                 <a href="/" className="router-link-active">
                     <div className="logo-containter">
                     <div className="logo-containter-child logo-containter-child-img">
-                        <img src={logo} alt="Open Infrastructure Foundation" />
+                        <img src="img/openinfrastructurefoundation-logo-rgb-horiz3.png" alt="OpenInfra Foundation" />
                         </div>
                     </div>
                 </a>

@@ -1,11 +1,11 @@
 ---
-logo: /img/user-survey/zuul-logo.png
 userSurvey: true
 title: Zuul
+logo: /img/user-survey/zuul-logo.png
 order: 5
 button:
-  text: "Take the Zuul User Survey"
-  link: "https://www.surveymonkey.com/r/K2B2MWL"
+  text: Take the Zuul User Survey
+  link: https://openinfrafoundation.formstack.com/forms/zuul_user_survey
 ---
 
 The Zuul User Survey began collecting responses in March 2020 and has received almost 30 organization submissions to date.

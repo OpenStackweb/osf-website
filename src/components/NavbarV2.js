@@ -66,7 +66,7 @@ const NavbarV2 = class extends React.Component {
               <a href="/" className="router-link-exact-active router-link-active">
                 <div className="logo-containter">
                   <div className="logo-containter-child logo-containter-child-img">
-                    <img src={logo} alt="OpenStack Foundation" />
+                    <img src={logo} alt="OpenInfra Foundation" />
                   </div>
                 </div>
               </a>

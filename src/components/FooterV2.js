@@ -61,7 +61,7 @@ const FooterV2 = class extends React.Component {
                     <li><a href="/contact/">Contact</a></li>
                 </ul>
             </div>  
-            <div className="footer-section footer-section-last">
+            <div className="footer-section footer-section-last footer-break-section">
                 <div className="footer-section-last-divider">
                     <h6>Membership</h6>
                     <ul>
@@ -77,6 +77,13 @@ const FooterV2 = class extends React.Component {
                         <li><a href="/newsletter/">Newsletter</a></li>
                     </ul>
                 </div>
+                <div className="footer-section-last-divider">
+                    <h6>Regional Hubs</h6>
+                    <ul>
+                        <li><a href="https://openinfraasia.org/">OpenInfra Asia</a></li>
+                        <li><a href="https://openinfraeurope.org/">OpenInfra Europe</a></li>
+                    </ul>
+                </div>
             </div>
             </div>
             <div className="footer-v2-lower">
@@ -84,7 +91,7 @@ const FooterV2 = class extends React.Component {
                 <a href="/" className="router-link-active">
                     <div className="logo-containter">
                     <div className="logo-containter-child logo-containter-child-img">
-                        <img src={logo} alt="Open Infrastructure Foundation" />
+                        <img src="/img/OpenInfraFoundation-logo-RGB-horiz-w.svg" alt="OpenInfra Foundation" />
                         </div>
                     </div>
                 </a>

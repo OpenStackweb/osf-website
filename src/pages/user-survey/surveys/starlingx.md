@@ -1,11 +1,11 @@
 ---
-logo: /img/user-survey/starlingx-logo.png
 userSurvey: true
 title: StarlingX
+logo: /img/user-survey/starlingx-logo.png
 order: 4
 button:
-  text: "Take the StarlingX User Survey"
-  link: "https://www.surveymonkey.com/r/StarlingX "
+  text: Take the StarlingX User Survey
+  link: https://openinfrafoundation.formstack.com/forms/starlingx_user_survey
 ---
 
 The StarlingX User Survey launched in March 2019 and has received over 30 responses. Of those organizations, 34% are interested in StarlingX, 46% are running a proof of concept, 15% are testing, and 4% are running StarlingX in production.

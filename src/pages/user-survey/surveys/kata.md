@@ -1,11 +1,11 @@
 ---
-logo: /img/user-survey/kata-logo.png
 userSurvey: true
 title: Kata Containers
+logo: /img/user-survey/kata-logo.png
 order: 3
 button:
-  text: "Take the Kata Containers User Survey"
-  link: "https://www.surveymonkey.com/r/KataContainers "
+  text: Take the Kata Containers User Survey
+  link: https://openinfrafoundation.formstack.com/forms/kata_containers_user_survey
 ---
 
 The Kata Containers User Survey opened in April 2020 and has recently undergone an update by the Architecture Committee.

@@ -12,8 +12,6 @@ header:
   upperTitle: VIRTUAL EVENT
   description: >
     The Project Teams Gathering (PTG) provides meeting facilities allowing the various technical community groups working on open infrastructure projects to meet virtually, exchange and get work done in a productive, low-key setting. It lets those various groups discuss their priorities for the upcoming months, assign work items, iterate quickly on solutions for complex problems, and make fast progress on critical issues. The co-location of those various meetings, combined with the dynamic scheduling of the event, make it easy to get specific people in the same room to discuss a specific topic, or participate in multiple team meetings.
-
-    Make sure you [sign up your team](https://openinfrafoundation.formstack.com/forms/oct2023_ptg_team_signup) if that hasn't been done already. Responses are due by August 20, 2023.
   date:
     icon: /img/summit/Vector-calendar.svg
     text: October 23-27

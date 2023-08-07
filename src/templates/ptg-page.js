@@ -44,6 +44,7 @@ export const PTGPageTemplate = ({
                 <span className="description">
                     {header.description}
                     <br />
+                    <p>Make sure you <a href="https://openinfrafoundation.formstack.com/forms/oct2023_ptg_team_signup">sign up your team</a> if that hasn't been done already. Responses are due by August 20, 2023.</p>
                 </span>
                 {/* <span class="ptg-header-bottom-title"><a class="primary-link-color" href="/summit/vancouver-2023">OpenInfra Summit + PTG</a></span> */}
                 <span className="date">

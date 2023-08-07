@@ -14,6 +14,20 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     14:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: false
+    date: 2023-08-10T15:00:00.000Z
+    youtubeLink: https://www.youtube.com/watch?v=LLujjvEIbPk
+    youtubeEmbed: https://www.youtube.com/embed/LLujjvEIbPk
+    episodeDescription: >
+      If you stand at the intersection of AI and open source you’ll find a very
+      active discussion around how each concept can apply to the other but
+      you’ll find few definitive answers. This panel of open source community
+      leaders will discuss the current state of AI & open source the
+      collaborative efforts underway to improve global understanding of this
+      emerging use case and how open source community members can participate in
+      solving today’s unanswered questions. 
+    episodeSpeakers: Mark Collier, Pamela Chestek, Stefano Maffulli, Armstrong Foundjem
+    episodeTitle: " Exploring the Intersection of AI and Open Source"
   - hidden: true
     date: 2023-09-07T14:00:00.000Z
     episodeTitle: "Zuul Deep Dive: Volvo "

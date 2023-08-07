@@ -44,8 +44,6 @@ export const PTGPageTemplate = ({
                 <span className="description">
                     {header.description}
                     <br />
-                    <br />
-                    <p>Make sure you <a className="primary-link-color" href="https://openinfrafoundation.formstack.com/forms/oct2023_ptg_team_signup">sign up your team</a> if that hasn't been done already.</p>
                 </span>
                 {/* <span class="ptg-header-bottom-title"><a class="primary-link-color" href="/summit/vancouver-2023">OpenInfra Summit + PTG</a></span> */}
                 <span className="date">

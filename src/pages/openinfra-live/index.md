@@ -28,13 +28,15 @@ episodes:
       solving today’s unanswered questions. 
     episodeSpeakers: Mark Collier, Pamela Chestek, Stefano Maffulli, Armstrong Foundjem
     episodeTitle: " Exploring the Intersection of AI and Open Source"
-  - hidden: true
+  - hidden: false
     date: 2023-09-07T14:00:00.000Z
     episodeTitle: "Zuul Deep Dive: Volvo "
     episodeDescription: "In this episode, a panel of Zuul operators invites special
       guests to talk about their deployment and discuss their operations. For
       this episode, our guest will be Johannes Foufas, from Volvo. "
     episodeSpeakers: Johannes Foufas, Jim Blair, Clark Boylan, Kristin Barrientos
+    youtubeLink: https://www.youtube.com/watch?v=ZjY61I-8mpQ
+    youtubeEmbed: https://www.youtube.com/embed/ZjY61I-8mpQ
   - hidden: false
     date: 2023-09-21T14:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: NIPA Cloud"

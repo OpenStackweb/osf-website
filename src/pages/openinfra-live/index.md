@@ -26,7 +26,8 @@ episodes:
       collaborative efforts underway to improve global understanding of this
       emerging use case and how open source community members can participate in
       solving today’s unanswered questions. 
-    episodeSpeakers: Mark Collier, Pamela Chestek, Stefano Maffulli, Armstrong Foundjem
+    episodeSpeakers: Mark Collier, Pamela Chestek, Stefano Maffulli, Armstrong
+      Foundjem, Steven O'Grady
     episodeTitle: " Exploring the Intersection of AI and Open Source"
   - hidden: false
     date: 2023-09-07T14:00:00.000Z

@@ -47,7 +47,8 @@ episodes:
     episodeDescription: "In this episode, a panel of Zuul operators invites special
       guests to talk about their deployment and discuss their operations. For
       this episode, our guest will be Johannes Foufas, from Volvo. "
-    episodeSpeakers: Johannes Foufas, Jim Blair, Clark Boylan, Kristin Barrientos
+    episodeSpeakers: Johannes Foufas, Jim Blair, Clark Boylan, Jeremy Stanley,
+      Kristin Barrientos
     youtubeLink: https://www.youtube.com/watch?v=ZjY61I-8mpQ
     youtubeEmbed: https://www.youtube.com/embed/ZjY61I-8mpQ
   - hidden: false

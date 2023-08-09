@@ -14,6 +14,16 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     14:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: true
+    date: 2023-08-24T14:00:00.000Z
+    episodeTitle: "Cyber-Resiliency Act: What Now?"
+    episodeDescription: >-
+      On this episode of OpenInfra Live, we will discuss the EU Cyber Resilience
+      Act's impact on open source software.
+
+
+      The OpenInfra Foundation and many other open source organizations have expressed concerns about the proposed text, urging the European lawmakers to take into account the specificity of open source open collaboration in the legislation. Join and engage live with our expert panelists as they discuss the current state of the proposal, its potential consequences, what we can still do about it, and what other pieces of upcoming legislation we should watch for.
+    episodeSpeakers: Thierry Carrez, Allison Randal, Mike Milinkovich, Ciarán O'Riordan
   - hidden: false
     date: 2023-08-10T15:00:00.000Z
     youtubeLink: https://www.youtube.com/watch?v=LLujjvEIbPk
@@ -27,7 +37,7 @@ episodes:
       emerging use case and how open source community members can participate in
       solving today’s unanswered questions. 
     episodeSpeakers: Mark Collier, Pamela Chestek, Stefano Maffulli, Armstrong
-      Foundjem, Steven O'Grady
+      Foundjem, Stephen O'Grady
     episodeTitle: " Exploring the Intersection of AI and Open Source"
   - hidden: false
     date: 2023-09-07T14:00:00.000Z

@@ -14,7 +14,7 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     14:00 UTC (9am CT)</strong>."
 episodes:
-  - hidden: true
+  - hidden: false
     date: 2023-08-24T14:00:00.000Z
     episodeTitle: "Cyber-Resiliency Act: What Now?"
     episodeDescription: >-
@@ -24,6 +24,8 @@ episodes:
 
       The OpenInfra Foundation and many other open source organizations have expressed concerns about the proposed text, urging the European lawmakers to take into account the specificity of open source open collaboration in the legislation. Join and engage live with our expert panelists as they discuss the current state of the proposal, its potential consequences, what we can still do about it, and what other pieces of upcoming legislation we should watch for.
     episodeSpeakers: Thierry Carrez, Allison Randal, Mike Milinkovich, Ciarán O'Riordan
+    youtubeLink: https://www.youtube.com/watch?v=u6Dh0nXivqM
+    youtubeEmbed: https://www.youtube.com/embed/u6Dh0nXivqM
   - hidden: false
     date: 2023-08-10T15:00:00.000Z
     youtubeLink: https://www.youtube.com/watch?v=LLujjvEIbPk

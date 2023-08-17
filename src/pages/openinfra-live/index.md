@@ -16,7 +16,7 @@ hero:
 episodes:
   - hidden: false
     date: 2023-08-24T14:00:00.000Z
-    episodeTitle: "Cyber-Resiliency Act: What Now?"
+    episodeTitle: "Cyber Resilience Act: What Now?"
     episodeDescription: >-
       On this episode of OpenInfra Live, we will discuss the EU Cyber Resilience
       Act's impact on open source software.

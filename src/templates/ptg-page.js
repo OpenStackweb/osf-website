@@ -133,57 +133,58 @@ export const PTGPageTemplate = ({
       <main className="main">
         <div className="content">
           <section className="ptg-who">
-            {/* <div className="ptg-container">
+            <div className="ptg-container">
               <div className="ptg-who-teams">
                 <h4 className="title">The June 2023 Project Teams List is Official!</h4>
                 <p>If your team was planning to meet and isn't in this list, please contact <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a></p>
                 <h5><b>OpenInfra Foundation Teams</b></h5>
                 <div class="ptg-who-teams-list">
                   <ul>
-                    <li>Diversity and Inclusion Working Group</li>
+                    <li>Diversity & Inclusion Working Group</li>
+                    <li>OpenInfra Edge Computing Group</li>
                     <li>Environmental Sustainability Working Group</li>
-                    <li>Kata Containers</li>
                     <li>StarlingX</li>
                   </ul>
                 </div>
                 <h5><b>OpenStack Service Teams</b></h5>
                 <div class="ptg-who-teams-list">
                   <ul>
+                    <li>Blazar</li>
                     <li>Cinder</li>
-                    <li>Cyborg</li>
+                    <li>CloudKitty</li>
                     <li>Designate</li>
-                    <li>Heat</li>
+                    <li>Glance</li>
+                    <li>Horizon</li>
                     <li>Ironic</li>
-                    <li>Keystone</li>
+                    <li>Kolla</li>
                     <li>Manila</li>
                     <li>Neutron</li>
                     <li>Nova</li>
-                    <li>OpenStack-Ansible</li>
-                    <li>Puppet OpenStack</li>
-                    <li>QA</li>
-                    <li>SDK/CLI/AOC</li>
+                    <li>Octavia</li>
+                    <li>OpenStack Charms</li>
+                    <li>Quality Assurance</li>
+                    <li>OpenStackSDK/CLI</li>
+                    <li>Swift</li>
                     <li>Tacker</li>
-                    <li>Telemetry</li>
                   </ul>
                 </div>
                 <h5><b>Other OpenStack Teams</b></h5>
                 <div class="ptg-who-teams-list">
                   <ul>
-                    <li>OpenStack Technical Committee</li>  
-                    <li>Public Cloud SIG</li> 
-                    <li>Security SIG</li> 
-                    <li>Scientific SIG</li>  
+                    <li>Interoperability Working Group</li>
+                    <li>OpenStack Security SIG</li>
+                    <li>PublicCloud SIG</li>
                   </ul>
                 </div>
-                <h5><b>Adjacent Communities</b></h5>
+                {/* <h5><b>Adjacent Communities</b></h5>
                 <div class="ptg-who-teams-list">
                   <ul>
                     <li>AlmaLinux</li>
                     <li>Rocky Linux</li> 
                   </ul>
-                </div>
+                </div> */}
               </div>
-            </div> */}
+            </div>
             <div className="ptg-container">
               <div className="ptg-who-boxes">
                 <div className="should">

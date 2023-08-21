@@ -135,7 +135,7 @@ export const PTGPageTemplate = ({
           <section className="ptg-who">
             <div className="ptg-container">
               <div className="ptg-who-teams">
-                <h4 className="title">The June 2023 Project Teams List is Official!</h4>
+                <h4 className="title">The October 2023 Project Teams List is Official!</h4>
                 <p>If your team was planning to meet and isn't in this list, please contact <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a></p>
                 <h5><b>OpenInfra Foundation Teams</b></h5>
                 <div class="ptg-who-teams-list">

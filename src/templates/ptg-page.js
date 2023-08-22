@@ -162,6 +162,7 @@ export const PTGPageTemplate = ({
                     <li>Nova</li>
                     <li>Octavia</li>
                     <li>OpenStack Charms</li>
+                    <li>OpenStack-Helm</li>
                     <li>Quality Assurance</li>
                     <li>OpenStackSDK/CLI</li>
                     <li>Swift</li>

@@ -15,4 +15,25 @@
             text-decoration: underline;
         }
     }
+    .summit-form-container {
+        p {
+            color: #fff;
+        }
+        @media screen and (max-width: 768px) {
+            .summit-form .form-columns .form-left {
+                display: flex;
+                flex-direction: column;
+                padding-right: 0;
+                width: 100%;
+            }
+            .summit-form .form-columns .form-right {
+                margin-top: 25px;
+                padding-left: 0;
+                width: 100%;
+            }
+            .summit-form-container.ptg .description {
+                text-align: center;
+            }
+        }
+    }
 }

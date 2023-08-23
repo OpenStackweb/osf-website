@@ -13,8 +13,21 @@ footer:
   display: false
   title: "OPENINFRA COMMUNITY EVENTS"
   subTitle: ""
+form:
+  display: true
+  title: Want to find out more?
+  description: Subscribe to our newsletter to be kept up to date with the latest about the Summit.
+  image: /img/summit/EWP-_WP_5140e 1.png
+  button:
+    text: Sign Up
+    link: "/newsletter"
+footer:
+  button: ""
+  buttonText: ""
+  display: false
+  title: ""
+  subTitle: ""
 ---
-# OPENINFRA COMMUNITY EVENTS
 
 ## [OpenInfra Summit](/summit)
 

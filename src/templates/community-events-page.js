@@ -38,6 +38,17 @@ export const CommunityEventsPageTemplate = ({
               <div className="columns">
                 <div className="column community-events-wrapper">
                   <PageContent content={content} />
+                  <div className="form-right">
+                    <span className="title-desktop">
+                      {form.title}
+                    </span>
+                    <p className='description'>
+                        Subscribe to our newsletter to be kept up to date with the latest about the Summit.
+                      </p>
+                    <div>
+                      <LinkComponent className="form-cta" href={form.button.link}>{form.button.text} <img src={leftArrow} alt="" /></LinkComponent>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

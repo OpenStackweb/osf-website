@@ -6,6 +6,7 @@ seo:
   title: About
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/community-events/
+title: OPENINFRA COMMUNITY EVENTS
 footer:
   button: ""
   buttonText: ""

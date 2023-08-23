@@ -36,7 +36,7 @@ export const CommunityEventsPageTemplate = ({
           <section className="section about-s1-main">
             <div className="container about-s1-container">
               <div className="columns">
-                <div className="column">
+                <div className="column community-events-wrapper">
                   <PageContent content={content} />
                 </div>
               </div>

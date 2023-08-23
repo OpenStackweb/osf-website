@@ -21,12 +21,6 @@ form:
   button:
     text: Sign Up
     link: "/newsletter"
-footer:
-  button: ""
-  buttonText: ""
-  display: false
-  title: ""
-  subTitle: ""
 ---
 
 ## [OpenInfra Summit](/summit)

@@ -27,7 +27,7 @@ export const CommunityEventsPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
-        <CommunityEventsSubNav active="ptg" pageName="About" />
+        <CommunityEventsSubNav />
         <Header title={title} subTitle={subTitle} />
       </div>
 

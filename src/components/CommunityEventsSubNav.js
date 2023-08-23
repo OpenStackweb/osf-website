@@ -4,7 +4,6 @@ import LinkComponent from './LinkComponent';
 function CommunityEventsSubNav(props) {
 
   const [isOpen, setIsOpen] = useState(false);
-  const [supportDropdown, setSupportDropdown] = useState(false);
 
   function toggleMenu() {
     setIsOpen(!isOpen);

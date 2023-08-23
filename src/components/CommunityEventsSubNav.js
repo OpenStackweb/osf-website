@@ -6,37 +6,25 @@ function CommunityEventsSubNav(props) {
   const [isOpen, setIsOpen] = useState(false);
   const [supportDropdown, setSupportDropdown] = useState(false);
 
-  useEffect(() => {
-    let active = document.getElementById(props.active);
-    active.className += " active";
-  }, []);
-
   function toggleMenu() {
     setIsOpen(!isOpen);
-    if(!isOpen) {
-      setTimeout(function() {
-        let activeMobile = document.getElementById(props.active + "-mobile");
-        activeMobile.className += " active";
-      }, 30);
-    }
   }
 
-  const shouldCloseMenu = (option) => {
-    if (window.location.pathname.includes(option)) setIsOpen(false);
-  }
 
   return (
 
     <nav className="subnav-bar subnav-bar-ptg">
       <div className="container">
         <div className="location">
-          <LinkComponent href="/ptg" >PTG</LinkComponent>
+          OpenInfra Foundation Events
         </div>
 
         <ul id="links-list" className="links-list">
-          <li><LinkComponent id="ptg" href="/ptg" onClick={() => shouldCloseMenu("ptg")} className="link">About</LinkComponent></li>
-          <li><LinkComponent id="ptg-faq" href="/ptg/faq" onClick={() => shouldCloseMenu("ptg-faq")} className="link">FAQ</LinkComponent></li>
-          <li><LinkComponent id="registration" href="https://ptg2023.openinfra.dev/" className="link registration">Register</LinkComponent></li>
+          <li><LinkComponent id="summit" href="/summit" className="link">OpenInfra Summit</LinkComponent></li>
+          <li><LinkComponent id="live" href="/live" className="link">OpenInfra Live</LinkComponent></li>
+          <li><LinkComponent id="ptg" href="/ptg" className="link">PTG</LinkComponent></li>
+          <li><LinkComponent id="days" href="https://www.openstack.org/events/community-events#openinfra_days" className="link">OpenInfra Days</LinkComponent></li>
+          <li><LinkComponent id="meetups" href="https://www.meetup.com/pro/openinfradev" className="link">OpenInfra Meetups</LinkComponent></li>
         </ul>
 
         <div className={`${isOpen ? 'mobile-subnav-menu active-page' : 'mobile-subnav-menu'}`} onClick={toggleMenu}>
@@ -48,9 +36,11 @@ function CommunityEventsSubNav(props) {
       {isOpen &&
         <div className="subnav-dropdown">
           <ul id="links-list-mobile" className="links-list">
-          <li><LinkComponent id="ptg-mobile" href="/ptg" onClick={() => shouldCloseMenu("ptg")} className="link">About</LinkComponent></li>
-          <li><LinkComponent id="ptg-faq-mobile" href="/ptg/faq" onClick={() => shouldCloseMenu("ptg")} className="link">FAQ</LinkComponent></li>
-          <li><LinkComponent id="registration-mobile" href="https://ptg2023.openinfra.dev/" className="link registration">Register</LinkComponent></li>
+          <li><LinkComponent id="summit-mobile" href="/summit" className="link">OpenInfra Summit</LinkComponent></li>
+          <li><LinkComponent id="live-mobile" href="/live" className="link">OpenInfra Live</LinkComponent></li>
+          <li><LinkComponent id="ptg-mobile" href="/ptg/" className="link">PTG</LinkComponent></li>
+          <li><LinkComponent id="days-mobile" href="https://www.openstack.org/events/community-events#openinfra_days" className="link">OpenInfra Days</LinkComponent></li>
+          <li><LinkComponent id="meetups-mobile" href="https://www.meetup.com/pro/openinfradev" className="link">OpenInfra Meetups</LinkComponent></li>
           </ul>
         </div>
       }

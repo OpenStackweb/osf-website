@@ -40,7 +40,7 @@ export const CommunityEventsPageTemplate = ({
                   <PageContent content={content} />
                   <div className="form-right">
                     <span className="title-desktop">
-                      {form.title}
+                      OpenInfra Foundation Newsletter
                     </span>
                     <p className='description'>
                         Subscribe to our newsletter to be kept up to date with the latest about the Summit.

@@ -8,6 +8,7 @@ import TopBar from '../components/TopBar';
 import NavbarV2 from '../components/NavbarV2';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
+import CommunityEventsSubNav from '../components/CommunityEventsSubNav'
 
 import { connect } from "react-redux";
 
@@ -26,6 +27,7 @@ export const CommunityEventsPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
+        <CommunityEventsSubNav active="ptg" pageName="About" />
         <Header title={title} subTitle={subTitle} />
       </div>
 

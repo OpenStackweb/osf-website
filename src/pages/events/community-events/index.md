@@ -1,5 +1,5 @@
 ---
-templateKey: community-events
+templateKey: community-events-page
 seo:
   description: "OpenInfra Foundation Community Events"
   image: /img/OpenInfra-icon-white.jpg

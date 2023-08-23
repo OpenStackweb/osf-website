@@ -82,7 +82,7 @@ CommunityEventsPage.propTypes = {
 
 export default connect(state => ({
   isLoggedUser: state.loggedUserState.isLoggedUser
-}), null)(GenericPage)
+}), null)(CommunityEventsPage)
 
 export const communityEventsPageQuery = graphql`
   query CommunityEventsPage($id: String!) {

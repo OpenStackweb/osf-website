@@ -33,7 +33,7 @@ export const CommunityEventsPageTemplate = ({
 
       <main className="main">
         <div className="content">
-          <section className="section about-s1-main">
+          <section className="section about-s1-main community-events-content-section">
             <div className="container about-s1-container">
               <div className="columns">
                 <div className="column community-events-wrapper">
@@ -42,7 +42,7 @@ export const CommunityEventsPageTemplate = ({
               </div>
             </div>
           </section>
-          <section className="summit-form ptg">
+          <section className="summit-form ptg community-events-form">
             <div className="summit-form-container ptg">
             <div className="form-columns">
                 <div className="form-left">

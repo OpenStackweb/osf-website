@@ -18,6 +18,10 @@
     .summit-form-container {
         p {
             color: #fff !important;
+            font-size: 20px;
+        }
+        .form-cta {
+            font-size: 14px;
         }
         @media screen and (max-width: 768px) {
             .summit-form .form-columns .form-left {

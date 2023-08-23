@@ -51,20 +51,20 @@ export const CommunityEventsPageTemplate = ({
   )
 }
 
-GenericPageTemplate.propTypes = {
+CommunityEventsPageTemplate.propTypes = {
   companies: PropTypes.object,
   title: PropTypes.string,
   subTitle: PropTypes.string,
   footer: PropTypes.object,
 }
 
-const GenericPage = ({ isLoggedUser, data }) => {
+const CommunityEventsPage = ({ isLoggedUser, data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
-      <GenericPageTemplate
+      <CommunityEventsPageTemplate
         isLoggedUser={isLoggedUser}
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -76,7 +76,7 @@ const GenericPage = ({ isLoggedUser, data }) => {
   )
 }
 
-GenericPage.propTypes = {
+CommunityEventsPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
@@ -85,7 +85,7 @@ export default connect(state => ({
 }), null)(GenericPage)
 
 export const communityEventsPageQuery = graphql`
-  query GenericPage($id: String!) {
+  query CommunityEventsPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

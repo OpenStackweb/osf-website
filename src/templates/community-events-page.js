@@ -46,7 +46,7 @@ export const CommunityEventsPageTemplate = ({
                         Subscribe to our newsletter to be kept up to date with the latest about the Summit.
                       </p>
                     <div>
-                      <LinkComponent className="form-cta" href={form.button.link}>{form.button.text} <img src={leftArrow} alt="" /></LinkComponent>
+                      <LinkComponent className="form-cta" href="/newsletter">Sign Up <img src={leftArrow} alt="" /></LinkComponent>
                     </div>
                   </div>
                 </div>

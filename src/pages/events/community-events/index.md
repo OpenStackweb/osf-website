@@ -15,8 +15,6 @@ footer:
   subTitle: ""
 ---
 
-If you’re interested in hosting an OpenInfra event, here are some resources provided by the OpenInfra Foundation. Contact us if you have any questions around the next steps. 
-
 ## [OpenInfra Live](/live)
 
 OpenInfra Live is an hour-long series sharing production case studies, open source demos, industry conversations, and the latest updates from the global open infrastructure community! Catch every episode on several streaming platforms, airing Thursdays at 14:00 UTC.

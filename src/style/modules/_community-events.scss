@@ -1,0 +1,52 @@
+.community-events-content-section.about-s1-main {
+    padding: 30px 0 0;
+    margin-bottom: 20px;
+}
+
+.summit-form.ptg.community-events-form {
+    padding-bottom: 80px;
+}
+
+.community-events-wrapper {
+    p {
+        color: #161616;
+        font-size: 17px;
+    }
+
+    h2 {
+        margin-top: 35px !important;
+        margin-bottom: 20px;
+        a {
+            font-family: 'Jura', sans-serif;
+            color: #E61E24;
+            font-weight: 700;
+            font-size: 28px;
+            text-decoration: underline;
+        }
+    }
+    .summit-form-container {
+        p {
+            color: #fff !important;
+            font-size: 20px;
+        }
+        .form-cta {
+            font-size: 14px;
+        }
+        @media screen and (max-width: 768px) {
+            .summit-form .form-columns .form-left {
+                display: flex;
+                flex-direction: column;
+                padding-right: 0;
+                width: 100%;
+            }
+            .summit-form .form-columns .form-right {
+                margin-top: 25px;
+                padding-left: 0;
+                width: 100%;
+            }
+            .summit-form-container.ptg .description {
+                text-align: center;
+            }
+        }
+    }
+}

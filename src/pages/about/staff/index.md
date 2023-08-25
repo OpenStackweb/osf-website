@@ -222,18 +222,6 @@ members:
     linkedin: https://linkedin.com/in/trilliams
     twitter: https://twitter.com/OGtrilliams
     openStack: https://www.openstack.org/community/members/profile/59069/treva-williams
-  - name: Josh Lohse
-    picture: /img/about-staff/JoshLohsePic.jpg
-    title: Web Manager
-    description: Josh Lohse is the Web Manager for the OpenInfra Foundation. He has
-      spent most of his career working in digital marketing and technology, with
-      a focus on building and maintaining websites. Josh has a background in
-      music, and before starting in tech, spent time playing in bands and
-      recording albums in both Orlando and Nashville. Outside of work, he loves
-      hiking, reading, and watching Star Wars for the twenty-seventh time with
-      his children.
-    linkedin: https://www.linkedin.com/in/joshlohse/
-    openStack: https://openinfra.dev/a/community/members/141463
 support:
   members:
     - description: Horace is currently working as China Community Manager @ Open

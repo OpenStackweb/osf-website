@@ -1,17 +1,18 @@
 ---
 templateKey: community-events-page
 seo:
-  description: "OpenInfra Foundation Community Events"
+  description: OpenInfra Foundation Community Events
   image: /img/OpenInfra-icon-white.jpg
-  title: About
+  title: OpenInfra Foundation Community Events
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/community-events/
 title: OPENINFRA COMMUNITY EVENTS
+subTitle: " "
 footer:
   button: ""
   buttonText: ""
   display: false
-  title: "OPENINFRA COMMUNITY EVENTS"
+  title: OPENINFRA COMMUNITY EVENTS
   subTitle: ""
 ---
 

@@ -161,6 +161,7 @@ export const PTGPageTemplate = ({
                     <li>Neutron</li>
                     <li>Nova</li>
                     <li>Octavia</li>
+                    <li>OpenStack-Ansible</li>
                     <li>OpenStack Charms</li>
                     <li>OpenStack-Helm</li>
                     <li>Quality Assurance</li>
@@ -175,6 +176,8 @@ export const PTGPageTemplate = ({
                     <li>Interoperability Working Group</li>
                     <li>OpenStack Security SIG</li>
                     <li>PublicCloud SIG</li>
+                    <li>RBAC</li>
+                    <li>OpenStack Technical Committee</li>
                   </ul>
                 </div>
                 {/* <h5><b>Adjacent Communities</b></h5>

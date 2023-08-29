@@ -3,6 +3,14 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2023-08-29T16:36:26.241Z",
+      "site": "https://cleura.com",
+      "title": "Cleura selected as a strategic cloud partner for Saab",
+      "link": "https://cleura.com/press-releases/cleura-selected-as-a-strategic-cloud-partner-for-saab/"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2023-06-21T16:32:48.801Z",
       "title": "Canonical Shrinks OpenStack for Small Clouds with Sunbeam",
       "link": "https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-with-sunbeam/",
@@ -320,14 +328,6 @@
       "featured": true,
       "hideArticle": false,
       "image": "/img/img_20180522_125817.webp"
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2023-08-29T16:36:26.241Z",
-      "site": "https://cleura.com",
-      "title": "Cleura selected as a strategic cloud partner for Saab",
-      "link": "https://cleura.com/press-releases/cleura-selected-as-a-strategic-cloud-partner-for-saab/"
     }
   ],
   "seo": {

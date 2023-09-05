@@ -144,6 +144,7 @@ export const PTGPageTemplate = ({
                     <li>OpenInfra Edge Computing Group</li>
                     <li>Environmental Sustainability Working Group</li>
                     <li>StarlingX</li>
+                    <li>Kata Containers</li>
                   </ul>
                 </div>
                 <h5><b>OpenStack Service Teams</b></h5>
@@ -156,6 +157,7 @@ export const PTGPageTemplate = ({
                     <li>Glance</li>
                     <li>Horizon</li>
                     <li>Ironic</li>
+                    <li>Keystone</li>
                     <li>Kolla</li>
                     <li>Manila</li>
                     <li>Neutron</li>

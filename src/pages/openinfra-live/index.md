@@ -48,8 +48,8 @@ episodes:
       guests to talk about their deployment and discuss their operations. For
       this episode, our guests will be Johannes Foufas and Moiz Ahmed, from
       Volvo. "
-    episodeSpeakers: Johannes Foufas, Jim Blair, Clark Boylan, Jeremy Stanley,
-      Kristin Barrientos
+    episodeSpeakers: Johannes Foufas, Moiz Ahmed, Jim Blair, Clark Boylan, Jeremy
+      Stanley, Kristin Barrientos
     youtubeLink: https://www.youtube.com/watch?v=ZjY61I-8mpQ
     youtubeEmbed: https://www.youtube.com/embed/ZjY61I-8mpQ
   - hidden: false

@@ -46,7 +46,8 @@ episodes:
     episodeTitle: "Zuul Deep Dive: Volvo "
     episodeDescription: "In this episode, a panel of Zuul operators invites special
       guests to talk about their deployment and discuss their operations. For
-      this episode, our guest will be Johannes Foufas, from Volvo. "
+      this episode, our guests will be Johannes Foufas and Moiz Ahmed, from
+      Volvo. "
     episodeSpeakers: Johannes Foufas, Jim Blair, Clark Boylan, Jeremy Stanley,
       Kristin Barrientos
     youtubeLink: https://www.youtube.com/watch?v=ZjY61I-8mpQ

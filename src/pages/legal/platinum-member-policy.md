@@ -24,7 +24,7 @@ footer:
 
 1\. Term of Platinum Members.
 
-(a) The effective date of membership for a Platinum Member shall be January 1 of the year that first follows the date on which the Platinum Member has executed the Platinum Member Agreement and the admission has been approved by the Board of Directors.
+(a) The effective date of membership for a Platinum Member shall be the date on which the Platinum Member has executed the Platinum Member Agreement and the admission has been approved by the Board of Directors.
 
 (b) The renewal term of each Platinum Member shall begin on January 1 of the calendar year after the end of the initial term and shall continue for three (3) years.
 

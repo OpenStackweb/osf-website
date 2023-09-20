@@ -60,8 +60,8 @@ episodes:
       and discuss their operations. For this episode, our guests will be Dr.
       Abhisak Chulya and Charnsilp Chinprasert from NIPA Cloud, Thailand's
       number-one OpenStack public cloud provider.
-    episodeSpeakers: "Dr. Abhisak Chulya, Charnsilp Chinprasert, Arnaud Morin,
-      Belmiro Moreira, Mohammed Naser, Thierry Carrez, Kristin Barrientos "
+    episodeSpeakers: "Dr. Abhisak Chulya, Charnsilp Chinprasert, Arnaud Morin, Felix
+      Huettner, Thierry Carrez, Kristin Barrientos "
     linkedinLink: https://www.linkedin.com/events/7085718563113603072/comments/
     youtubeEmbed: https://www.youtube.com/embed/ir9v_UK_MIA
     youtubeLink: https://www.youtube.com/watch?v=ir9v_UK_MIA

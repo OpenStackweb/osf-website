@@ -15,6 +15,20 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2023-10-05T14:00:00.000Z
+    episodeDescription: >
+      The OpenStack community released Bobcat the 28th version of the world’s
+      most widely deployed open source cloud infrastructure software, this week.
+      Join us to learn about the latest from community leaders about what was
+      delivered in Bobcat and what we can expect in Caracal, OpenStack's 29th
+      release, targeting early April 2024.
+    episodeSpeakers: Carlos SIlva, Rajat Dhasmana, Sylvain Bauza, Jay Faulkner,
+      Rodolfo Alonso Hernandez, Kendall Nelson
+    youtubeEmbed: https://www.youtube.com/embed/q7WDncK3YuM?si=H6sa3s5sB1SDS9RA
+    linkedinLink: https://www.linkedin.com/events/7112158533135081472/comments/
+    youtubeLink: https://www.youtube.com/watch?v=q7WDncK3YuM
+    episodeTitle: "OpenStack 2023.2: Bobcat"
+  - hidden: false
     date: 2023-08-24T14:00:00.000Z
     episodeTitle: "Cyber Resilience Act: What Now?"
     episodeDescription: >-

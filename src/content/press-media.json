@@ -3,6 +3,14 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2023-10-04T15:55:31.761Z",
+      "title": "OpenStack Bobcat Delivers Enhanced Open Source Cloud Capabilities",
+      "site": "ITProToday",
+      "link": "https://www.itprotoday.com/iaas-and-paas/openstack-bobcat-delivers-enhanced-open-source-cloud-capabilities#close-modal"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2023-08-29T16:36:26.241Z",
       "site": "https://cleura.com",
       "title": "Cleura selected as a strategic cloud partner for Saab",
@@ -328,14 +336,6 @@
       "featured": true,
       "hideArticle": false,
       "image": "/img/img_20180522_125817.webp"
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2023-10-04T15:55:31.761Z",
-      "title": "OpenStack Bobcat Delivers Enhanced Open Source Cloud Capabilities",
-      "site": "ITProToday",
-      "link": "https://www.itprotoday.com/iaas-and-paas/openstack-bobcat-delivers-enhanced-open-source-cloud-capabilities#close-modal"
     }
   ],
   "seo": {

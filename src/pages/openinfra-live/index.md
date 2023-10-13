@@ -15,6 +15,22 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2023-11-02T14:00:00.000Z
+    episodeTitle: Meet the Computing Force Network Working Group
+    episodeDescription: China Mobile and other 10+ organizations are driving the
+      effort of Computing Force Network in open source. In July of 2022,
+      organizations like, China Mobile launched the Computing Force Network
+      (CFN) Working Group within the OpenInfra Foundation. You may be wondering,
+      What is Computing Force Network? What open source software is CFN working
+      group going to deliver and how are CFN and related technology going to
+      help the infrastructure? Join us to find out.
+    episodeSpeakers: >
+      Qihui Zhao, Jie Niu, Xiaoqiao Geng, Changjin Wang, Jintao Wang, Lei Huang,
+      Ildiko Vancsa
+    youtubeEmbed: https://www.youtube.com/embed/Slc-kOao3BY?si=D8-LgK_SSAlhU-gn
+    youtubeLink: https://www.youtube.com/live/Slc-kOao3BY?feature=shared
+    linkedinLink: https://www.linkedin.com/events/meetthecomputingforcenetworkwor7118663695634747392/theater/
+  - hidden: false
     date: 2023-10-05T14:00:00.000Z
     episodeDescription: >
       The OpenStack community released Bobcat the 28th version of the world’s

@@ -182,13 +182,12 @@ export const PTGPageTemplate = ({
                     <li>OpenStack Technical Committee</li>
                   </ul>
                 </div>
-                {/* <h5><b>Adjacent Communities</b></h5>
+                <h5><b>OpenInfra Adjacent Communities</b></h5>
                 <div class="ptg-who-teams-list">
                   <ul>
-                    <li>AlmaLinux</li>
-                    <li>Rocky Linux</li> 
+                    <li>Confidential Containers</li> 
                   </ul>
-                </div> */}
+                </div> 
               </div>
             </div>
             <div className="ptg-container">

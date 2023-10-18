@@ -3,6 +3,14 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2023-10-18T17:10:24.359Z",
+      "link": "https://www.linux-magazin.de/news/openinfra-europe-ernennt-beirat/",
+      "title": "OpenInfra Europe ernennt Beirat",
+      "site": "Linux Magazin"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2023-10-06T16:32:03.030Z",
       "title": "OpenStack Unleashes Bobcat: A Leap Forward in Open-Source Cloud Infrastructure",
       "site": "Open Source Watch",

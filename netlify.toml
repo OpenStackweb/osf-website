@@ -10,19 +10,6 @@
   NODE_VERSION = "14.20.1"
   YARN_VERSION = "1.22.4"
   YARN_FLAGS = "--no-ignore-optional"  
-[context.branch-deploy.environment]
-  GATSBY_IDP_BASE_URL="https://testopenstackid.openstack.org"
-  GATSBY_OAUTH2_CLIENT_ID="h1wVTVm75TJSmVcKtVXtYeqc-NKqMH86.openstack.client"
-  GATSBY_API_BASE_URL="https://testresource-server.openstack.org"
-  GATSBY_SCOPES="openid profile email address https://testresource-server.openstack.org/members/write/me https://testresource-server.openstack.org/members/read/me https://testresource-server.openstack.org/organizations/read https://testresource-server.openstack.org/organizations/write elections/candidates/nominate elections/candidates/write/me https://testresource-server.openstack.org/me/read https://testresource-server.openstack.org/me/summits/events/schedule/add https://testresource-server.openstack.org/me/summits/events/schedule/delete https://testresource-server.openstack.org/me/summits/events/schedule/shareable/delete https://testresource-server.openstack.org/me/summits/events/schedule/shareable/add me/write https://testresource-server.openstack.org/speakers/write/me https://testresource-server.openstack.org/speakers/read/me"
-  GATSBY_SPONSORED_PROJECT_ID=1
-  GATSBY_BUILD_SCOPES="https://testresource-server.openstack.org/summits/read elections/read"
-  GATSBY_OAUTH2_CLIENT_ID_BUILD="_fJKILOprSj4MYY6~6rhoPJeRT7_5616.openstack.client"
-  GATSBY_OAUTH2_CLIENT_SECRET_BUILD="PFssJ_QNT_YjW9Uuk_dLqK9kx9ke.ndH4zAY-FBc59PzotI.0J18jPYXZ1snTkr4"
-  GATSBY_OAUTH_TOKEN_PATH="/oauth2/token"
-  GATSBY_SF_OID="00DG0000000lhAF"
-  GATSBY_FRIENDLY_CAPTCHA_SITE_KEY="FCMLO9OV7A0PENUN"
-  GATSBY_FRIENDLY_CAPTCHA_API_KEY="A1DIAJU833CPQ4P1HU2CMI75PIOMC3LPG4BG12RN93R1PC3QH41FNNQ4MM"
 [[headers]]
   for = "/*"
 [headers.values]
@@ -241,3 +228,16 @@
   to="https://openinfra.dev/blog/openinfra-foundation-cyber-resilience-act"
   status=301
   force=true
+[context.deploy-preview.environment]
+  GATSBY_IDP_BASE_URL="https://testopenstackid.openstack.org"
+  GATSBY_OAUTH2_CLIENT_ID="h1wVTVm75TJSmVcKtVXtYeqc-NKqMH86.openstack.client"
+  GATSBY_API_BASE_URL="https://testresource-server.openstack.org"
+  GATSBY_SCOPES="openid profile email address https://testresource-server.openstack.org/members/write/me https://testresource-server.openstack.org/members/read/me https://testresource-server.openstack.org/organizations/read https://testresource-server.openstack.org/organizations/write elections/candidates/nominate elections/candidates/write/me https://testresource-server.openstack.org/me/read https://testresource-server.openstack.org/me/summits/events/schedule/add https://testresource-server.openstack.org/me/summits/events/schedule/delete https://testresource-server.openstack.org/me/summits/events/schedule/shareable/delete https://testresource-server.openstack.org/me/summits/events/schedule/shareable/add me/write https://testresource-server.openstack.org/speakers/write/me https://testresource-server.openstack.org/speakers/read/me"
+  GATSBY_SPONSORED_PROJECT_ID=1
+  GATSBY_BUILD_SCOPES="https://testresource-server.openstack.org/summits/read elections/read"
+  GATSBY_OAUTH2_CLIENT_ID_BUILD="_fJKILOprSj4MYY6~6rhoPJeRT7_5616.openstack.client"
+  GATSBY_OAUTH2_CLIENT_SECRET_BUILD="PFssJ_QNT_YjW9Uuk_dLqK9kx9ke.ndH4zAY-FBc59PzotI.0J18jPYXZ1snTkr4"
+  GATSBY_OAUTH_TOKEN_PATH="/oauth2/token"
+  GATSBY_SF_OID="00DG0000000lhAF"
+  GATSBY_FRIENDLY_CAPTCHA_SITE_KEY="FCMLO9OV7A0PENUN"
+  GATSBY_FRIENDLY_CAPTCHA_API_KEY="A1DIAJU833CPQ4P1HU2CMI75PIOMC3LPG4BG12RN93R1PC3QH41FNNQ4MM"

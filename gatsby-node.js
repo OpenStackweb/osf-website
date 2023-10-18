@@ -107,6 +107,50 @@ const SSR_getSponsoredProjects = async (baseUrl) => {
     .catch(e => console.log('ERROR: ', e));
 }
 
+const SSR_getPreviousElections = async (baseUrl, accessToken, page = 1) => {
+  return await axios.get(
+    `${baseUrl}/api/v1/elections/`,
+    {
+      params: {
+        access_token: accessToken,
+        per_page: 50,
+        page: page,
+      }
+    }).then((response) => response.data)
+    .catch(e => console.log('ERROR: ', e));
+};
+
+const SSR_getPreviousElectionCandidates = async (baseUrl, accessToken, electionId, page = 1) => {
+  return await axios.get(
+    `${baseUrl}/api/v1/elections/${electionId}/candidates/`,
+    {
+      params: {
+        access_token: accessToken,
+        per_page: 100,
+        page: page,
+        order: '+first_name,+last_name',
+        expand: 'member, member.election_applications, member.election_applications.nominator',
+        fields: 'member.election_applications.nominator.first_name, member.election_applications.nominator.last_name'
+      }
+    }).then((response) => response.data)
+    .catch(e => console.log('ERROR: ', e));
+};
+
+const SSR_getPreviousElectionGoldCandidates = async (baseUrl, accessToken, electionId, page = 1) => {
+  return await axios.get(
+    `${baseUrl}/api/v1/elections/${electionId}/candidates/gold`,
+    {
+      params: {
+        access_token: accessToken,
+        per_page: 100,
+        page: page,
+        order: '+first_name,+last_name',
+        expand: 'member',
+      }
+    }).then((response) => response.data)
+    .catch(e => console.log('ERROR: ', e));
+};
+
 exports.onPreBootstrap = async () => {
   const apiBaseUrl = process.env.GATSBY_API_BASE_URL;
   const buildScopes = process.env.GATSBY_BUILD_SCOPES;
@@ -169,8 +213,91 @@ exports.onPreBootstrap = async () => {
   const sponsoredProjects = await SSR_getSponsoredProjects(apiBaseUrl);
   if (sponsoredProjects) {
     writeToJson('src/content/sponsored-projects.json', sponsoredProjects);
-  }
+  }  
 }
+
+exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => {
+  const { createNode } = actions;
+
+  const apiBaseUrl = process.env.GATSBY_API_BASE_URL;
+  const buildScopes = process.env.GATSBY_BUILD_SCOPES;
+  
+  console.log(`onSourceNodes...`);
+  
+  const config = {
+    client: {
+      id: process.env.GATSBY_OAUTH2_CLIENT_ID_BUILD,
+      secret: process.env.GATSBY_OAUTH2_CLIENT_SECRET_BUILD
+    },
+    auth: {
+      tokenHost: process.env.GATSBY_IDP_BASE_URL,
+      tokenPath: process.env.GATSBY_OAUTH_TOKEN_PATH
+    },
+    options: {
+      authorizationMethod: 'header'
+    }
+  };
+
+  const accessToken = await getAccessToken(config, buildScopes).then(({token}) => token.access_token).catch(e => console.log('Access Token error', e));
+
+  // data for previous elections
+  const previousElections = await SSR_getPreviousElections(apiBaseUrl, accessToken);
+  if (previousElections) {
+    // get last 2 past elections
+    const lastElections = previousElections.data.filter(e => e.status === "Closed").slice(-2);
+    let candidates = [];
+    let goldCandidates = [];
+    for (const election of lastElections) {
+      const electionCandidates = await SSR_getPreviousElectionCandidates(apiBaseUrl, accessToken, election.id);
+      const electionGoldCandidates = await SSR_getPreviousElectionGoldCandidates(apiBaseUrl, accessToken, election.id);
+  
+      if (Array.isArray(electionCandidates.data) && electionCandidates.data.length > 0) candidates = [...candidates, ...electionCandidates.data];
+      if (Array.isArray(electionGoldCandidates.data) && electionGoldCandidates.data.length > 0) goldCandidates = [...goldCandidates, ...electionGoldCandidates.data];
+    }
+
+    lastElections.forEach(election => {
+      createNode({
+        ...election,
+        id: `${election.id}`,
+        parent: null,
+        children: [],
+        internal: {
+          type: 'ElectionData', // Replace with an appropriate type
+          contentDigest: createContentDigest(election),
+        },
+      });
+    })
+
+    candidates.forEach(candidate => {
+      createNode({
+        ...candidate,
+        id: createNodeId(`CandidateData-${candidate.member_id}`),
+        election_id: `${candidate.member_id}`,
+        parent: null,
+        children: [],
+        internal: {
+          type: 'CandidateData', // Replace with an appropriate type
+          contentDigest: createContentDigest(candidate),
+        },
+      });
+    })
+
+    goldCandidates.forEach(candidate => {
+      createNode({
+        ...candidate,
+        id: createNodeId(`GoldCandidateData-${candidate.member_id}`),
+        election_id: `${candidate.member_id}`,
+        parent: null,
+        children: [],
+        internal: {
+          type: 'GoldCandidateData', // Replace with an appropriate type
+          contentDigest: createContentDigest(candidate),
+        },
+      });
+    })
+  }
+  
+};
 
 // explicit Frontmatter declaration to make category, author and date, optionals. 
 exports.createSchemaCustomization = ({actions}) => {
@@ -239,6 +366,13 @@ exports.createSchemaCustomization = ({actions}) => {
       col1: String
       col2: Date @dateformat
     }
+    type ElectionData implements Node {
+      opens: Int
+      closes: Int
+      nominationOpens: Int
+      nominationCloses: Int
+      nominationApplicationDeadline: Int
+    }
     `
   createTypes(typeDefs)
 }
@@ -262,6 +396,7 @@ exports.createPages = ({actions, graphql}) => {
               title
               author
               templateKey
+              electionId
               seo {
                 url
               }
@@ -277,12 +412,13 @@ exports.createPages = ({actions, graphql}) => {
       return Promise.reject(result.errors)
     }
 
-    const pages = result.data.allMarkdownRemark.edges
+    const pages = result.data.allMarkdownRemark.edges;
 
     pages.forEach(edge => {
       if (edge.node.frontmatter.templateKey) {
         const id = edge.node.id
         const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;
+        const electionId = edge.node.frontmatter.electionId ? `${edge.node.frontmatter.electionId}` : null
         const slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug;
         createPage({
           path: slug,
@@ -293,6 +429,7 @@ exports.createPages = ({actions, graphql}) => {
           // additional data can be passed via context
           context: {
             id,
+            electionId
           },
         })
       }
@@ -350,6 +487,44 @@ exports.onCreateNode = ({node, actions, getNode}) => {
    */
   // fmImagesToRelative(node); // convert image paths for gatsby images
   if (node.internal.type === `MarkdownRemark`) {
+
+    // Extract the electionId from the frontmatter
+    const { frontmatter } = node;
+    const electionId = frontmatter?.electionId;    
+
+    // Find the corresponding election node based on electionId
+    const electionNode = getNode(`${electionId}`);
+
+    if (electionNode) {
+      // Update the frontmatter properties based on the election node
+      createNodeField({
+        node,
+        name: 'opens',
+        value: electionNode.opens,
+      });
+
+      createNodeField({
+        node,
+        name: 'closes',
+        value: electionNode.closes,
+      });
+      createNodeField({
+        node,
+        name: 'nominationOpens',
+        value: electionNode.nomination_opens
+      });
+      createNodeField({
+        node,
+        name: 'nominationCloses',
+        value: electionNode.nomination_closes
+      });
+      createNodeField({
+        node,
+        name: 'nominationApplicationDeadline',
+        value: electionNode.nomination_application_deadline
+      });
+    }
+
     const value = createFilePath({node, getNode})
     createNodeField({
       name: `slug`,

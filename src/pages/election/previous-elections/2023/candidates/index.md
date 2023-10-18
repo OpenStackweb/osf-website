@@ -7,8 +7,9 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: 2022 Board Elections - Candidates List
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/election/2022-individual-director-election/candidates
+  url: https://openinfra.dev/election/2023-individual-director-election/candidates
 title: 2022 Board Elections - Candidates List
+electionId: 44601
 menu:
   - text: CODE OF CONDUCT
     link: ../../../legal/code-of-conduct

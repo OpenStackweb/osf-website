@@ -1,32 +1,16 @@
 ---
-templateKey: election-page
+templateKey: election-page-previous
 seo:
-  description: Individual Member Director elections for the 2023 Board of
-    Directors will be held *Monday January 9, 2023 to * *Friday January 13,
-    2023*. Nominations  occur between *November 14 and December 16, 2022*.
+  description: Individual Member Director elections for the 2022 Board of
+    Directors will be held *Monday January 10, 2022 to * *Friday January 18,
+    2022*. Nominations  occur between *November 15 and December 17, 2020*.
   image: /img/OpenInfra-icon-white.jpg
-  title: 2023 Board Elections
+  title: 2022 Board Elections
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/election/2024-individual-director-election
+  url: https://openinfra.dev/election/2023-individual-director-election
 title: January 2023 Board Elections
-subTitle: Individual and Gold Member elections
-menu:
-  - text: ELECTION DETAILS
-    link: /election/2023-individual-director-election
-  - text: SEE THE CANDIDATES
-    link: /election/2023-individual-director-election/candidates
-  - text: NOMINATE A MEMBER
-    link: /a/community/members
-  - text: BE A CANDIDATE
-    link: /profile
-  - text: GOLD MEMBER ELECTION CANDIDATES
-    link: /election/2023-individual-director-election/candidates/gold
-  - text: CODE OF CONDUCT
-    link: ../../legal/code-of-conduct
-  - text: REPORT A BUG
-    link: mailto:info@openinfra.dev
+electionId: 44601
 ---
-
 #### About the Board
 
 The Board of Directors is ultimately legally responsible for the Foundation as a corporate entity. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. The 2023 Board will be composed of 21 directors elected by the Individual Members (7), directors elected by the Gold Members (7) and directors appointed by the Platinum Members (7).

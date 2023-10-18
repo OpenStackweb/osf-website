@@ -9,16 +9,8 @@ seo:
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/election/2022-individual-director-election
 title: January 2022 Board Elections
-subTitle: Individual and Gold Member elections
-menu:
-  - text: CODE OF CONDUCT
-    link: ../../legal/code-of-conduct
-  - text: REPORT A BUG
-    link: mailto:info@openinfra.dev
+electionId: 44599
 ---
-
-Individual Member Director elections for the January 2022 Board Elections will be held **Monday January 10, 2022 to Friday January 14, 2022**. Nominations occur between **November 15 and December 17, 2021**.
-
 #### About the Board
 
 The Board of Directors is ultimately legally responsible for the Foundation as a corporate entity. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. The 2022 Board will be composed of 27 directors elected by the Individual Members (9), directors elected by the Gold Members (9) and directors appointed by the Platinum Members (9).

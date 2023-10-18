@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import { connect } from 'react-redux'
 import { graphql } from 'gatsby';
+import moment from 'moment-timezone';
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
@@ -8,25 +9,25 @@ import NavbarV2 from '../components/NavbarV2';
 import Header from "../components/Header";
 import SEO from "../components/SEO";
 
-import { getElectionStatus } from "../actions/election-actions"
-import LinkComponent from "../components/LinkComponent";
-
 export const ElectionPagePreviousTemplate = ({
-    electionStatus,
     isLoggedUser,
     title,
-    menu,
+    electionData,
     content,
     contentComponent
 }) => {
-    const PageContent = contentComponent || Content
+    const PageContent = contentComponent || Content 
+
+    const { closes, nomination_closes, nomination_opens, opens } = electionData
+
+    const electionYear = moment(closes * 1000).utc().format('YYYY');
 
     return (
         <div>
             <div className="wrapper project-background">
                 <TopBar />
                 <NavbarV2 isLoggedUser={isLoggedUser} />
-                <Header title={"January 2022 Board Elections"} />
+                <Header title={title} />
             </div>
 
             <main className="main">
@@ -40,21 +41,21 @@ export const ElectionPagePreviousTemplate = ({
                                 </article>
                             <div className="columns">
                                 <div className="column is-one-third">
-                                <div class="election-item"><a aria-current="page" class="" href="/election/2022-individual-director-election">ELECTION DETAILS<i class="fa fa-chevron-right"></i></a></div>
-                                <div class="election-item"><a aria-current="page" class="" href="/election/2022-individual-director-election/candidates/">SEE THE CANDIDATES<i class="fa fa-chevron-right"></i></a></div>
-                                <div class="election-item"><a aria-current="page" class="" href="/election/2022-individual-director-election/candidates/gold">GOLD MEMBER ELECTION CANDIDATES<i class="fa fa-chevron-right"></i></a></div>
-                                    {menu.map((m, index) => {
-                                        return (
-                                            <div className="election-item" key={index}>
-                                                <LinkComponent href={m.link}>
-                                                    {m.text}
-                                                    <i className="fa fa-chevron-right" />
-                                                </LinkComponent>
-                                            </div>
-                                        )
-                                    })}
+                                <div class="election-item"><a aria-current="page" class="" href={`/election/${electionYear}-individual-director-election`}>ELECTION DETAILS<i class="fa fa-chevron-right"></i></a></div>
+                                <div class="election-item"><a aria-current="page" class="" href={`/election/${electionYear}-individual-director-election/candidates/`}>SEE THE CANDIDATES<i class="fa fa-chevron-right"></i></a></div>
+                                <div class="election-item"><a aria-current="page" class="" href={`/election/${electionYear}-individual-director-election/candidates/gold`}>GOLD MEMBER ELECTION CANDIDATES<i class="fa fa-chevron-right"></i></a></div>
+                                <div class="election-item"><a aria-current="page" class="" href="../../legal/code-of-conduct">CODE OF CONDUCT<i class="fa fa-chevron-right"></i></a></div>
+                                <div class="election-item"><a aria-current="page" class="" href="mailto:info@openinfra.dev">REPORT A BUG<i class="fa fa-chevron-right"></i></a></div>
                                 </div>
                                 <div className="column is-two-thirds">
+                                    <p>
+                                        Individual Member Director elections for the {title} will be held
+                                        <b>{` ${moment(opens * 1000).utc().format('dddd MMMM DD, YYYY')} to
+                                            ${moment(closes * 1000).utc().format('dddd MMMM DD, YYYY')}`}</b>.
+                                        Nominations occur between
+                                        <b>{` ${moment(nomination_opens * 1000).utc().format('MMMM DD')} and
+                                            ${moment(nomination_closes * 1000).utc().format('MMMM DD, YYYY')}`}</b>.
+                                    </p>
                                     <PageContent content={content} />
                                 </div>
                             </div>
@@ -66,22 +67,18 @@ export const ElectionPagePreviousTemplate = ({
     )
 }
 
-const ElectionPagePrevious = ({ electionStatus, isLoggedUser, location, data, getElectionStatus }) => {
-    const { markdownRemark: post } = data;
-
-    useEffect(() => {
-        getElectionStatus();
-    }, [])
+const ElectionPagePrevious = ({ isLoggedUser, location, data }) => {
+    const { markdownRemark: post, electionData } = data;
 
     return (
         <Layout>
             <SEO seo={post.frontmatter.seo} />
             <ElectionPagePreviousTemplate
                 location={location}
-                isLoggedUser={isLoggedUser}
-                electionStatus={electionStatus}
+                isLoggedUser={isLoggedUser}                
                 title={post.frontmatter.title}
                 menu={post.frontmatter.menu}
+                electionData={electionData}
                 contentComponent={HTMLContent}
                 content={post.html}
             />
@@ -91,14 +88,10 @@ const ElectionPagePrevious = ({ electionStatus, isLoggedUser, location, data, ge
 
 export default connect(state => ({
     isLoggedUser: state.loggedUserState.isLoggedUser,
-    electionStatus: state.electionState.election_status,
-}), {
-    getElectionStatus
-}
-)(ElectionPagePrevious)
+}), {})(ElectionPagePrevious)
 
 export const electionPagePreviousQuery = graphql`
-  query ElectionPagePrevious($id: String!) {
+  query ElectionPagePrevious($id: String!, $electionId: String) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
@@ -117,12 +110,15 @@ export const electionPagePreviousQuery = graphql`
           twitterUsername
         }
         title
-        subTitle
-        menu {
-            text
-            link
-        }
+        electionId
       }
     }
+    electionData(id: {eq: $electionId}) {
+        id
+        opens
+        closes
+        nomination_closes
+        nomination_opens
+    }          
   }
 `

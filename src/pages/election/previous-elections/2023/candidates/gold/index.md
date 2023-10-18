@@ -1,20 +1,15 @@
 ---
 templateKey: election-gold-candidates-page-previous
 seo:
-  description: Individual Member Director elections for the 2022 Board of
-    Directors will be held *Monday January 10, 2022 to * *Friday January 18,
-    2022*. Nominations  occur between *November 15 and December 15, 2020*.
+  description: Individual Member Director elections for the 2023 Board of
+    Directors will be held *Monday January 10, 2023 to * *Friday January 18,
+    2023*. Nominations  occur between *November 15 and December 15, 2020*.
   image: /img/OpenInfra-icon-white.jpg
-  title: 2022 Board Elections - Gold Candidates List
+  title: 2023 Board Elections - Gold Candidates List
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/election/2023-individual-director-election/candidates/gold
-title: 2022 Board Elections - Gold Candidates List
+title: 2023 Board Elections - Gold Candidates List
 electionId: 44601
-menu:
-  - text: CODE OF CONDUCT
-    link: ../../../../legal/code-of-conduct
-  - text: REPORT A BUG
-    link: mailto:info@openinfra.dev
 intro:
   title: Gold Director Selector Candidates
   description:

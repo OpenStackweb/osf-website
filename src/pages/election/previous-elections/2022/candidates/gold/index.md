@@ -10,11 +10,6 @@ seo:
   url: https://openinfra.dev/election/2022-individual-director-election/candidates/gold
 title: 2022 Board Elections - Gold Candidates List
 electionId: 44599
-menu:
-  - text: CODE OF CONDUCT
-    link: ../../../../legal/code-of-conduct
-  - text: REPORT A BUG
-    link: mailto:info@openinfra.dev
 intro:
   title: Gold Director Selector Candidates
   description:

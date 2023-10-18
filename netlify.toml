@@ -9,7 +9,12 @@
 [build.environment]
   NODE_VERSION = "14.20.1"
   YARN_VERSION = "1.22.4"
-  YARN_FLAGS = "--no-ignore-optional"
+  YARN_FLAGS = "--no-ignore-optional"  
+[context.branch-deploy.environment]
+  GATSBY_API_BASE_URL="https://testresource-server.openstack.org"
+  GATSBY_BUILD_SCOPES="https://testresource-server.openstack.org/summits/read elections/read"
+  GATSBY_OAUTH2_CLIENT_ID_BUILD="_fJKILOprSj4MYY6~6rhoPJeRT7_5616.openstack.client"
+  GATSBY_OAUTH2_CLIENT_SECRET_BUILD="PFssJ_QNT_YjW9Uuk_dLqK9kx9ke.ndH4zAY-FBc59PzotI.0J18jPYXZ1snTkr4"
 [[headers]]
   for = "/*"
 [headers.values]

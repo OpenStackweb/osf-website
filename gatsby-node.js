@@ -6,6 +6,9 @@ const axios = require('axios')
 const {createFilePath} = require('gatsby-source-filesystem')
 const {fmImagesToRelative} = require('gatsby-remark-relative-images')
 const {ClientCredentials} = require('simple-oauth2');
+const yaml = require("yaml")
+const moment = require("moment-timezone");
+const prevElectionsBasePath = 'src/pages/election/previous-elections';
 
 const myEnv = require("dotenv").config({
   path: `.env`,
@@ -240,20 +243,57 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
 
   const accessToken = await getAccessToken(config, buildScopes).then(({token}) => token.access_token).catch(e => console.log('Access Token error', e));
 
-  // data for previous elections
+  // data for previous electionsfilePath
   const previousElections = await SSR_getPreviousElections(apiBaseUrl, accessToken);
   if (previousElections) {
     // get last 2 past elections
     const lastElections = previousElections.data.filter(e => e.status === "Closed").slice(-2);
     let candidates = [];
     let goldCandidates = [];
+    // create paths
+    fs.mkdirSync(prevElectionsBasePath, { recursive: true } );
+    fs.mkdirSync(`${prevElectionsBasePath}/candidates`, { recursive: true } );
+    fs.mkdirSync(`${prevElectionsBasePath}/candidates/gold`, { recursive: true } );
+
     for (const election of lastElections) {
+
+      function formatMarkdown(post) {
+        const { body } = post
+        delete post.body
+        return
+      }
+      const electionYear = moment(election.closes * 1000).utc().format('YYYY');
+      // create MD file using yaml ...
+      if(!fs.existsSync(`${prevElectionsBasePath}/${election.id}.md`))
+        fs.writeFileSync(`${prevElectionsBasePath}/${election.id}.md`, `---\n${yaml.stringify({templateKey: 'election-page-previous',electionYear: electionYear,electionId:election.id, title: election.name})}---\n`, 'utf8', function (err) {
+          if (err) {
+              console.log(err);
+          }
+        });
+
+      // create MD file using yaml ...
+      if(!fs.existsSync(`${prevElectionsBasePath}/candidates/${election.id}_candidates.md`))
+        fs.writeFileSync(`${prevElectionsBasePath}/candidates/${election.id}_candidates.md`, `---\n${yaml.stringify({templateKey: 'election-candidates-page-previous', electionId:election.id, title: election.name + ' Candidates'})}---\n`, 'utf8', function (err) {
+          if (err) {
+            console.log(err);
+          }
+        });
+
+      if(!fs.existsSync(`${prevElectionsBasePath}/candidates/gold/${election.id}_candidates.md`))
+        fs.writeFileSync(`${prevElectionsBasePath}/candidates/gold/${election.id}_candidates.md`, `---\n${yaml.stringify({templateKey: 'election-gold-candidates-page-previous', electionId:election.id, title: election.name + ' Gold Candidates'})}---\n`, 'utf8', function (err) {
+          if (err) {
+            console.log(err);
+          }
+        });
+
       const electionCandidates = await SSR_getPreviousElectionCandidates(apiBaseUrl, accessToken, election.id);
       const electionGoldCandidates = await SSR_getPreviousElectionGoldCandidates(apiBaseUrl, accessToken, election.id);
   
       if (Array.isArray(electionCandidates.data) && electionCandidates.data.length > 0) candidates = [...candidates, ...electionCandidates.data];
       if (Array.isArray(electionGoldCandidates.data) && electionGoldCandidates.data.length > 0) goldCandidates = [...goldCandidates, ...electionGoldCandidates.data];
     }
+
+    // ingest api data on graphql ...
 
     lastElections.forEach(election => {
       createNode({
@@ -380,9 +420,65 @@ exports.createSchemaCustomization = ({actions}) => {
 exports.createPages = ({actions, graphql}) => {
   const {createPage} = actions
 
+  graphql(`
+    {
+         allMarkdownRemark(
+        limit: 1000
+        filter: {frontmatter: {templateKey: {eq: "election-page-previous"}}}
+      ) {
+        edges {
+          node {
+            id
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              templateKey
+              electionId
+              electionYear
+            }
+          }
+        }
+  }
+    }
+  `).then(result => {
+
+    console.log(`createPage res ${JSON.stringify(result)}`);
+
+    if (result.errors) {
+      result.errors.forEach(e => console.error(e.toString()))
+      return Promise.reject(result.errors)
+    }
+
+    const electionsPages = result.data.allMarkdownRemark.edges;
+
+    electionsPages.forEach(edge => {
+
+      const id = edge.node.id
+      const electionId = edge.node.frontmatter.electionId.toString();
+      const electionYear = edge.node.frontmatter.electionYear;
+      const electionPath = `/election/${electionYear}-individual-director-election`;
+      console.log(`createPage processing edge ${JSON.stringify(edge)} path ${electionPath}`);
+      createPage({
+        path: electionPath,
+        component: path.resolve(
+          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+        ),
+        // additional data can be passed via context
+        context: {
+          id,
+          electionId
+        },
+      })
+
+    })
+
+  });
+
   return graphql(`
     {
-      allMarkdownRemark(limit: 1000) {
+      allMarkdownRemark(limit: 1000, filter: {frontmatter: {electionId: {eq: null}}}) {
         edges {
           node {
             id
@@ -490,7 +586,7 @@ exports.onCreateNode = ({node, actions, getNode}) => {
 
     // Extract the electionId from the frontmatter
     const { frontmatter } = node;
-    const electionId = frontmatter?.electionId;    
+    const electionId = frontmatter?.electionId;
 
     // Find the corresponding election node based on electionId
     const electionNode = getNode(`${electionId}`);
@@ -533,6 +629,7 @@ exports.onCreateNode = ({node, actions, getNode}) => {
     })
   }
 }
+
 
 exports.onCreateWebpackConfig = ({actions, plugins, loaders}) => {
   actions.setWebpackConfig({

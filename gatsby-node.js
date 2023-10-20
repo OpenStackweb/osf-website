@@ -9,9 +9,9 @@ const {ClientCredentials} = require('simple-oauth2');
 const yaml = require("yaml")
 const moment = require("moment-timezone");
 const prevElectionsBasePath = 'src/pages/election/previous-elections';
-const electionsSinceYear = 2023;
 const currentYear = new Date().getFullYear();
-const minimunElectionsToShow = 2;
+const electionsSinceYear = process.env.GATSBY_ELECTION_SINCE_YEAR;
+const minimunElectionsToShow = process.env.GATSBY_ELECTION_TO_SHOW;
 
 const electionsToShow = (currentYear - electionsSinceYear) + minimunElectionsToShow;
 
@@ -226,7 +226,7 @@ exports.onPreBootstrap = async () => {
   const sponsoredProjects = await SSR_getSponsoredProjects(apiBaseUrl);
   if (sponsoredProjects) {
     writeToJson('src/content/sponsored-projects.json', sponsoredProjects);
-  }  
+  }
 }
 
 exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => {
@@ -304,7 +304,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
             templateKey: 'election-candidates-page-previous',
             electionYear:electionYear,
             electionId:election.id,
-            title:election.name + ' Candidates',
+            title:`${election.name} Candidates`,
             seo: {
               ...seoObject,
               title: election.name,
@@ -320,8 +320,8 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
         fs.writeFileSync(`${prevElectionsBasePath}/candidates/gold/${election.id}_gold_candidates.md`, `---\n${yaml.stringify({
             templateKey: 'election-gold-candidates-page-previous',
             electionYear:electionYear,
-            electionId:election.id,
-            title:election.name + ' Gold Candidates',
+            electionId:election.id,            
+            title:`${election.name} Gold Candidates`,
             seo: {
               ...seoObject,
               title: election.name,
@@ -464,10 +464,10 @@ exports.createSchemaCustomization = ({actions}) => {
   createTypes(typeDefs)
 }
 
-exports.createPages = async ({actions, graphql}) => {
+exports.createPages = ({actions, graphql}) => {
   const {createPage} = actions
 
-  await graphql(`
+  graphql(`
     {
         allMarkdownRemark(
         limit: 1000
@@ -543,7 +543,6 @@ exports.createPages = async ({actions, graphql}) => {
               title
               author
               templateKey
-              electionId
               seo {
                 url
               }
@@ -564,8 +563,7 @@ exports.createPages = async ({actions, graphql}) => {
     pages.forEach(edge => {
       if (edge.node.frontmatter.templateKey) {
         const id = edge.node.id
-        const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;
-        const electionId = edge.node.frontmatter.electionId ? `${edge.node.frontmatter.electionId}` : null
+        const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;        
         const slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug;
         createPage({
           path: slug,
@@ -575,8 +573,7 @@ exports.createPages = async ({actions, graphql}) => {
           ),
           // additional data can be passed via context
           context: {
-            id,
-            electionId
+            id
           },
         })
       }

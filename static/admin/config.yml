@@ -1210,7 +1210,7 @@ collections:
       preview: false
     identifier_field: title
     fields:
-      - { label: "Election Id", name: electionId, widget: string, required: true}
+      - { label: "Election Id", name: electionId, widget: read-only, required: true}
       - { label: SEO, name: seo, widget: object, fields: [
         { label: "Title", name: "title", widget: string },
         { label: "Description", name: "description", widget: string },
@@ -1227,7 +1227,7 @@ collections:
       preview: false
     identifier_field: title
     fields:
-      - { label: "Election Id", name: electionId, widget: string, required: true }
+      - { label: "Election Id", name: electionId, widget: read-only, required: true }
       - { label: SEO, name: seo, widget: object, fields: [
         { label: "Title", name: "title", widget: string },
         { label: "Description", name: "description", widget: string },
@@ -1244,7 +1244,7 @@ collections:
       preview: false
     identifier_field: title
     fields:
-      - { label: "Election Id", name: electionId, widget: string, required: true }
+      - { label: "Election Id", name: electionId, widget: read-only, required: true }
       - { label: SEO, name: seo, widget: object, fields: [
         { label: "Title", name: "title", widget: string },
         { label: "Description", name: "description", widget: string },

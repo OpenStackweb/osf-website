@@ -254,8 +254,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
   const accessToken = await getAccessToken(config, buildScopes).then(({token}) => token.access_token).catch(e => console.log('Access Token error', e));
 
   // data for previous electionsfilePath
-  const previousElections = await SSR_getPreviousElections(apiBaseUrl, accessToken)
-  console.log('check previous election...', previousElections)
+  const previousElections = await SSR_getPreviousElections(apiBaseUrl, accessToken)  
   const lastElections = previousElections.data.slice(0, electionsToShow);
   if (lastElections && lastElections.length > 0) {
     let candidates = [];

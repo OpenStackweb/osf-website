@@ -9,6 +9,11 @@ const {ClientCredentials} = require('simple-oauth2');
 const yaml = require("yaml")
 const moment = require("moment-timezone");
 const prevElectionsBasePath = 'src/pages/election/previous-elections';
+const electionsSinceYear = 2023;
+const currentYear = new Date().getFullYear();
+const minimunElectionsToShow = 2;
+
+const electionsToShow = (currentYear - electionsSinceYear) + minimunElectionsToShow;
 
 const myEnv = require("dotenv").config({
   path: `.env`,
@@ -111,13 +116,18 @@ const SSR_getSponsoredProjects = async (baseUrl) => {
 }
 
 const SSR_getPreviousElections = async (baseUrl, accessToken, page = 1) => {
+  const currentDate = parseInt(Date.now()/1000);  
+  // minimun per page is 5
+  const perPage = electionsToShow > 5 ? electionsToShow : 5;
   return await axios.get(
     `${baseUrl}/api/v1/elections/`,
     {
       params: {
         access_token: accessToken,
-        per_page: 50,
         page: page,
+        per_page: perPage,
+        filter: `closes<${currentDate}`,
+        order: '-closes'
       }
     }).then((response) => response.data)
     .catch(e => console.log('ERROR: ', e));
@@ -244,10 +254,10 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
   const accessToken = await getAccessToken(config, buildScopes).then(({token}) => token.access_token).catch(e => console.log('Access Token error', e));
 
   // data for previous electionsfilePath
-  const previousElections = await SSR_getPreviousElections(apiBaseUrl, accessToken);
-  if (previousElections) {
-    // get last 2 past elections
-    const lastElections = previousElections.data.filter(e => e.status === "Closed").slice(-2);
+  const previousElections = await SSR_getPreviousElections(apiBaseUrl, accessToken)
+  console.log('check previous election...', previousElections)
+  const lastElections = previousElections.data.slice(0, electionsToShow);
+  if (lastElections && lastElections.length > 0) {
     let candidates = [];
     let goldCandidates = [];
     // create paths
@@ -262,10 +272,27 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
         delete post.body
         return
       }
+
+      const seoObject = {        
+        image: "/img/OpenInfra-icon-white.jpg",
+        twitterUsername: "@OpenInfraDev"
+      }
+
       const electionYear = moment(election.closes * 1000).utc().format('YYYY');
       // create MD file using yaml ...
       if(!fs.existsSync(`${prevElectionsBasePath}/${election.id}.md`))
-        fs.writeFileSync(`${prevElectionsBasePath}/${election.id}.md`, `---\n${yaml.stringify({templateKey: 'election-page-previous',electionYear: electionYear,electionId:election.id, title: election.name})}---\n`, 'utf8', function (err) {
+        fs.writeFileSync(`${prevElectionsBasePath}/${election.id}.md`, `---\n${yaml.stringify({
+            templateKey: 'election-page-previous',
+            electionYear:electionYear,
+            electionId:election.id,
+            title:election.name,
+            seo: {
+              ...seoObject,
+              title: election.name,
+              url: `https://openinfra.dev/election/${electionYear}-individual-director-election`,
+              description: `Individual Member Director elections for the ${electionYear} Board of Directors`
+            }
+          })}---\n`, 'utf8', function (err) {
           if (err) {
               console.log(err);
           }
@@ -273,14 +300,34 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
 
       // create MD file using yaml ...
       if(!fs.existsSync(`${prevElectionsBasePath}/candidates/${election.id}_candidates.md`))
-        fs.writeFileSync(`${prevElectionsBasePath}/candidates/${election.id}_candidates.md`, `---\n${yaml.stringify({templateKey: 'election-candidates-page-previous', electionId:election.id, title: election.name + ' Candidates'})}---\n`, 'utf8', function (err) {
+        fs.writeFileSync(`${prevElectionsBasePath}/candidates/${election.id}_candidates.md`, `---\n${yaml.stringify({
+            templateKey: 'election-candidates-page-previous',
+            electionYear:electionYear,
+            electionId:election.id,
+            title:election.name + ' Candidates',
+            seo: {
+              ...seoObject,
+              title: election.name,
+              url: `https://openinfra.dev/election/${electionYear}-individual-director-election/candidates`,
+              description: `Individual Member Director elections for the ${electionYear} Board of Directors`
+            }})}---\n`, 'utf8', function (err) {
           if (err) {
             console.log(err);
           }
         });
 
-      if(!fs.existsSync(`${prevElectionsBasePath}/candidates/gold/${election.id}_candidates.md`))
-        fs.writeFileSync(`${prevElectionsBasePath}/candidates/gold/${election.id}_candidates.md`, `---\n${yaml.stringify({templateKey: 'election-gold-candidates-page-previous', electionId:election.id, title: election.name + ' Gold Candidates'})}---\n`, 'utf8', function (err) {
+      if(!fs.existsSync(`${prevElectionsBasePath}/candidates/gold/${election.id}_gold_candidates.md`))
+        fs.writeFileSync(`${prevElectionsBasePath}/candidates/gold/${election.id}_gold_candidates.md`, `---\n${yaml.stringify({
+            templateKey: 'election-gold-candidates-page-previous',
+            electionYear:electionYear,
+            electionId:election.id,
+            title:election.name + ' Gold Candidates',
+            seo: {
+              ...seoObject,
+              title: election.name,
+              url: `https://openinfra.dev/election/${electionYear}-individual-director-election/candidates/gold`,
+              description: `Individual Member Director elections for the ${electionYear} Board of Directors`
+            }})}---\n`, 'utf8', function (err) {
           if (err) {
             console.log(err);
           }
@@ -417,14 +464,14 @@ exports.createSchemaCustomization = ({actions}) => {
   createTypes(typeDefs)
 }
 
-exports.createPages = ({actions, graphql}) => {
+exports.createPages = async ({actions, graphql}) => {
   const {createPage} = actions
 
-  graphql(`
+  await graphql(`
     {
-         allMarkdownRemark(
+        allMarkdownRemark(
         limit: 1000
-        filter: {frontmatter: {templateKey: {eq: "election-page-previous"}}}
+        filter: {frontmatter: {templateKey: {in: ["election-page-previous", "election-candidates-page-previous", "election-gold-candidates-page-previous"]}}}
       ) {
         edges {
           node {
@@ -455,10 +502,14 @@ exports.createPages = ({actions, graphql}) => {
 
     electionsPages.forEach(edge => {
 
-      const id = edge.node.id
+      const id = edge.node.id;
       const electionId = edge.node.frontmatter.electionId.toString();
       const electionYear = edge.node.frontmatter.electionYear;
-      const electionPath = `/election/${electionYear}-individual-director-election`;
+      const electionPath = edge.node.frontmatter.templateKey === 'election-page-previous' ?
+                            `/election/${electionYear}-individual-director-election`:
+                            edge.node.frontmatter.templateKey === 'election-candidates-page-previous' ?
+                            `/election/${electionYear}-individual-director-election/candidates`:                            
+                            `/election/${electionYear}-individual-director-election/candidates/gold`;
       console.log(`createPage processing edge ${JSON.stringify(edge)} path ${electionPath}`);
       createPage({
         path: electionPath,
@@ -583,44 +634,6 @@ exports.onCreateNode = ({node, actions, getNode}) => {
    */
   // fmImagesToRelative(node); // convert image paths for gatsby images
   if (node.internal.type === `MarkdownRemark`) {
-
-    // Extract the electionId from the frontmatter
-    const { frontmatter } = node;
-    const electionId = frontmatter?.electionId;
-
-    // Find the corresponding election node based on electionId
-    const electionNode = getNode(`${electionId}`);
-
-    if (electionNode) {
-      // Update the frontmatter properties based on the election node
-      createNodeField({
-        node,
-        name: 'opens',
-        value: electionNode.opens,
-      });
-
-      createNodeField({
-        node,
-        name: 'closes',
-        value: electionNode.closes,
-      });
-      createNodeField({
-        node,
-        name: 'nominationOpens',
-        value: electionNode.nomination_opens
-      });
-      createNodeField({
-        node,
-        name: 'nominationCloses',
-        value: electionNode.nomination_closes
-      });
-      createNodeField({
-        node,
-        name: 'nominationApplicationDeadline',
-        value: electionNode.nomination_application_deadline
-      });
-    }
-
     const value = createFilePath({node, getNode})
     createNodeField({
       name: `slug`,

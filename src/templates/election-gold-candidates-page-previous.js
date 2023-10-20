@@ -9,7 +9,7 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import SEO from "../components/SEO";
 
-const ElectionGoldCandidatesPagePreviousTemplate = ({ intro, goldCandidates, electionData }) => {
+const ElectionGoldCandidatesPagePreviousTemplate = ({ goldCandidates, electionData }) => {
 
   const {closes} = electionData;
 
@@ -31,8 +31,11 @@ const ElectionGoldCandidatesPagePreviousTemplate = ({ intro, goldCandidates, ele
                 </div>
                 <div className="column is-two-thirds">
                   <div className="candidate-tier">
-                    <h2>{intro.title}</h2>
-                    <span dangerouslySetInnerHTML={{ __html: intro.description }} />
+                    <h2>Gold Director Selector Candidates</h2>
+                    <span>
+                      "The candidates on this list are the intended Gold Directors from the Gold 
+                      Member companies who are running for election as Gold Director Selectors."
+                    </span>
                   </div>
                   <div className="candidate-list">
                     {goldCandidates.map((candidate, index) => {
@@ -70,11 +73,13 @@ const ElectionGoldCandidatesPagePrevious = ({ data, isLoggedUser, location }) =>
     
   const { markdownRemark: post, allGoldCandidateData: { edges: candidateArray }, electionData } = data;
 
+  console.log('data', data);
+
   const goldCandidates = candidateArray.map(c => c.node);
 
   return (
     <Layout>
-      <SEO seo={post.frontmatter.seo} />
+      <SEO seo={post.frontmatter.seo} />      
       <div>
         <div className="wrapper project-background">
           <TopBar />
@@ -85,7 +90,6 @@ const ElectionGoldCandidatesPagePrevious = ({ data, isLoggedUser, location }) =>
             location={location}
             goldCandidates={goldCandidates}
             electionData={electionData}
-            intro={post.frontmatter.intro}
           />
         </div>
       </div>

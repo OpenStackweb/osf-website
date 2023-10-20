@@ -68,7 +68,6 @@ export const ElectionPagePreviousTemplate = ({
 }
 
 const ElectionPagePrevious = ({ isLoggedUser, location, data }) => {
-    debugger;
     const { markdownRemark: post, electionData } = data;
 
     return (

@@ -11,7 +11,6 @@ backend:
 
 media_folder: static/img
 public_folder: /img
-local_backend: true
 
 collections:
   - name: "authors"
@@ -1207,7 +1206,6 @@ collections:
   - name: "previous-election-pages"
     label: "Previous Election Main Pages"
     folder: "/src/pages/election/previous-elections"
-    create: true
     editor:
       preview: false
     identifier_field: title
@@ -1225,7 +1223,6 @@ collections:
   - name: "previous-election-page-candidates"
     label: "Previous Election Candidate Pages"
     folder: "/src/pages/election/previous-elections/candidates"
-    create: true
     editor:
       preview: false
     identifier_field: title
@@ -1243,7 +1240,6 @@ collections:
   - name: "previous-election-page-gold-candidates"
     label: "Previous Election Gold Candidates Pages"
     folder: "/src/pages/election/previous-elections/candidates/gold"
-    create: true
     editor:
       preview: false
     identifier_field: title

@@ -7,20 +7,20 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: 2023 Board Elections
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/election/2024-individual-director-election
+  url: https://openinfra.dev/election/individual-director-election
 title: January 2023 Board Elections
 subTitle: Individual and Gold Member elections
 menu:
   - text: ELECTION DETAILS
-    link: /election/2023-individual-director-election
+    link: /election/individual-director-election
   - text: SEE THE CANDIDATES
-    link: /election/2023-individual-director-election/candidates
+    link: /election/individual-director-election/candidates
   - text: NOMINATE A MEMBER
     link: /a/community/members
   - text: BE A CANDIDATE
     link: /profile
   - text: GOLD MEMBER ELECTION CANDIDATES
-    link: /election/2023-individual-director-election/candidates/gold
+    link: /election/individual-director-election/candidates/gold
   - text: CODE OF CONDUCT
     link: ../../legal/code-of-conduct
   - text: REPORT A BUG

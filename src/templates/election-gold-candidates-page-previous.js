@@ -73,13 +73,11 @@ const ElectionGoldCandidatesPagePrevious = ({ data, isLoggedUser, location }) =>
     
   const { markdownRemark: post, allGoldCandidateData: { edges: candidateArray }, electionData } = data;
 
-  console.log('data', data);
-
   const goldCandidates = candidateArray.map(c => c.node);
 
   return (
     <Layout>
-      <SEO seo={post.frontmatter.seo} />      
+      <SEO seo={post.frontmatter.seo} />
       <div>
         <div className="wrapper project-background">
           <TopBar />

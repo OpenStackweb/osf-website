@@ -10,8 +10,8 @@ const yaml = require("yaml")
 const moment = require("moment-timezone");
 const prevElectionsBasePath = 'src/pages/election/previous-elections';
 const currentYear = new Date().getFullYear();
-const electionsSinceYear = process.env.GATSBY_ELECTION_SINCE_YEAR;
-const minimunElectionsToShow = process.env.GATSBY_ELECTION_TO_SHOW;
+const electionsSinceYear = process.env.GATSBY_ELECTION_SINCE_YEAR || 2023;
+const minimunElectionsToShow = process.env.GATSBY_ELECTION_TO_SHOW || 2;
 
 const electionsToShow = (currentYear - electionsSinceYear) + minimunElectionsToShow;
 

@@ -103,19 +103,6 @@
   to = "/a/profile"
   status = 301
 [[redirects]]
-  from = "/election"
-  to = "/election/2023-individual-director-election"
-  status = 301
-[[redirects]]
-  from = "/election/candidates"
-  to = "/election/2023-individual-director-election/candidates"
-  status = 301
-[[redirects]]
-  from = "/election/candidates/gold"
-  to = "/election/2023-individual-director-election/candidates/gold"
-  status = 301
-  force = true
-[[redirects]]
   from = "/summit/registration"
   to = "https://vancouver2023.openinfra.dev/"
   status = 301

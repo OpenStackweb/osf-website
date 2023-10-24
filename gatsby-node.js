@@ -133,6 +133,20 @@ const SSR_getPreviousElections = async (baseUrl, accessToken, page = 1) => {
     .catch(e => console.log('ERROR: ', e));
 };
 
+const SSR_getCurrentElection = async (baseUrl, accessToken, page = 1, perPage = 5) => {    
+  return await axios.get(
+    `${baseUrl}/api/v1/elections/`,
+    {
+      params: {
+        access_token: accessToken,
+        page: page,
+        per_page: perPage,
+        order: '-closes'
+      }
+    }).then((response) => response.data)
+    .catch(e => console.log('ERROR: ', e));
+};
+
 const SSR_getPreviousElectionCandidates = async (baseUrl, accessToken, electionId, page = 1) => {
   return await axios.get(
     `${baseUrl}/api/v1/elections/${electionId}/candidates/`,
@@ -254,7 +268,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
   const accessToken = await getAccessToken(config, buildScopes).then(({token}) => token.access_token).catch(e => console.log('Access Token error', e));
 
   // data for previous electionsfilePath
-  const previousElections = await SSR_getPreviousElections(apiBaseUrl, accessToken)  
+  const previousElections = await SSR_getPreviousElections(apiBaseUrl, accessToken)
   const lastElections = previousElections.data.slice(0, electionsToShow);
   if (lastElections && lastElections.length > 0) {
     let candidates = [];
@@ -339,8 +353,22 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
       if (Array.isArray(electionGoldCandidates.data) && electionGoldCandidates.data.length > 0) goldCandidates = [...goldCandidates, ...electionGoldCandidates.data];
     }
 
-    // ingest api data on graphql ...
+    // data for current election
+    const currentElection = await SSR_getCurrentElection(apiBaseUrl, accessToken).then((res) => res.data[0]);
+    
+    createNode({
+      ...currentElection,
+      id: `${currentElection.id}`,
+      electionYear: moment(currentElection.closes * 1000).utc().format('YYYY'),
+      parent: null,
+      children: [],
+      internal: {
+        type: 'CurrentElectionData', // Replace with an appropriate type
+        contentDigest: createContentDigest(currentElection),
+      },
+    })
 
+    // ingest api data on graphql ...
     lastElections.forEach(election => {
       createNode({
         ...election,
@@ -464,9 +492,82 @@ exports.createSchemaCustomization = ({actions}) => {
 }
 
 exports.createPages = ({actions, graphql}) => {
-  const {createPage} = actions
+  const { createPage, createRedirect} = actions
 
-  graphql(`
+  const electionQuery = graphql(`
+    {
+        allMarkdownRemark(
+        limit: 1000
+        filter: {frontmatter: {templateKey: {in: ["election-page", "election-candidates-page", "election-gold-candidates-page"]}}}
+      ) {
+        edges {
+          node {
+            id
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              templateKey
+            }
+          }
+        }
+      }
+      currentElectionData {
+        electionYear
+      }
+    }
+  `).then(result => {
+
+    console.log(`createPage res ${JSON.stringify(result)}`);
+
+    if (result.errors) {
+      result.errors.forEach(e => console.error(e.toString()))
+      return Promise.reject(result.errors)
+    }
+
+    const electionsPages = result.data.allMarkdownRemark.edges;
+    const electionYear = result.data.currentElectionData.electionYear;
+
+    electionsPages.forEach(edge => {
+      const id = edge.node.id;      
+      const electionPath = edge.node.frontmatter.templateKey === 'election-page' ?
+                            `/election/${electionYear}-individual-director-election`:
+                            edge.node.frontmatter.templateKey === 'election-candidates-page' ?
+                            `/election/${electionYear}-individual-director-election/candidates`:
+                            `/election/${electionYear}-individual-director-election/candidates/gold`;
+
+      console.log(`createPage processing edge ${JSON.stringify(edge)} path ${electionPath}`);
+
+      createRedirect({
+        fromPath: `/election/`,
+        toPath: `/election/${electionYear}-individual-director-election`,
+      })
+
+      createRedirect({
+        fromPath: `/election/candidates`,
+        toPath: `/election/${electionYear}-individual-director-election/candidates`,
+      })
+
+      createRedirect({
+        fromPath: `/election/candidates/gold`,
+        toPath: `/election/${electionYear}-individual-director-election/candidates/gold`,
+      })
+
+      createPage({
+        path: electionPath,
+        component: path.resolve(
+          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+        ),
+        // additional data can be passed via context
+        context: {
+          id
+        },
+      })
+    })
+  });
+
+  const previousElectionQuery = graphql(`
     {
         allMarkdownRemark(
         limit: 1000
@@ -526,9 +627,9 @@ exports.createPages = ({actions, graphql}) => {
 
   });
 
-  return graphql(`
+  const allPagesQuery = graphql(`
     {
-      allMarkdownRemark(limit: 1000, filter: {frontmatter: {electionId: {eq: null}}}) {
+      allMarkdownRemark(limit: 1000, filter: {frontmatter: {electionId: {eq: null}, templateKey: {nin: ["election-page", "election-candidates-page", "election-gold-candidates-page"]}}}) {
         edges {
           node {
             id
@@ -620,6 +721,8 @@ exports.createPages = ({actions, graphql}) => {
     })
 
   })
+
+  return Promise.all([electionQuery, previousElectionQuery, allPagesQuery]);
 }
 
 exports.onCreateNode = ({node, actions, getNode}) => {

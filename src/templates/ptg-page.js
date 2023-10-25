@@ -59,15 +59,19 @@ export const PTGPageTemplate = ({
                     !!header.location.icon.childImageSharp ? header.location.icon.childImageSharp.fluid.src : header.location.icon} /> Virtual
                 </span>
                 <div className="buttons">
+                  <ul>
                     {header.buttons.map((button, index) => {
                         return (
+                          <li>
                             <a
                                 key={`header-button-${index}`}
                                 href={button.link}>
                                 {button.text} <img src={leftArrow} alt="left" />
                             </a>
+                          </li>
                         )
                     })}
+                  </ul>
                 </div>
             </div>
             <div className="header-left">

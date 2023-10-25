@@ -1083,7 +1083,7 @@ collections:
   - name: "election-pages"
     label: "Election Pages"
     files:
-      - file: "src/pages/election/index.md"      
+      - file: "src/pages/election/index.md"
         label: "Election Page"
         name: "electionPage"
         fields:

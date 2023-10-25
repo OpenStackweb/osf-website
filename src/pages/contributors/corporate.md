@@ -294,6 +294,8 @@ companyDetails:
       col2: 2010-08-31
     - col1: Fourth Paradigm Development
       col2: 2011-06-17
+    - col2: 2023-10-04
+      col1: "FPT Smart Cloud "
     - col1: Fujitsu Limited
       col2: 2014-03-04
     - col1: Fusion.io

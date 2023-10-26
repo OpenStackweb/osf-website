@@ -492,7 +492,16 @@ exports.createSchemaCustomization = ({actions}) => {
 }
 
 exports.createPages = ({actions, graphql}) => {
-  const { createPage, createRedirect} = actions
+  const { createPage, createRedirect} = actions;
+
+  const getElectionPath = (templateKey, electionYear) => {
+    const electionTemplates = ['election-page-previous', 'election-page'];
+    const candidatesTemplates = ['election-candidates-page-previous', 'election-candidates-page'];
+    const goldCandidatesTemplates = ['election-gold-candidates-page-previous', 'election-gold-candidates-page'];
+    if(electionTemplates.includes(templateKey)) return `/election/${electionYear}-individual-director-election`;
+    if(candidatesTemplates.includes(templateKey)) return `/election/${electionYear}-individual-director-election/candidates`;
+    if(goldCandidatesTemplates.includes(templateKey)) return `/election/${electionYear}-individual-director-election/candidates/gold`;
+  }
 
   const electionQuery = graphql(`
     {
@@ -531,28 +540,9 @@ exports.createPages = ({actions, graphql}) => {
 
     electionsPages.forEach(edge => {
       const id = edge.node.id;      
-      const electionPath = edge.node.frontmatter.templateKey === 'election-page' ?
-                            `/election/${electionYear}-individual-director-election`:
-                            edge.node.frontmatter.templateKey === 'election-candidates-page' ?
-                            `/election/${electionYear}-individual-director-election/candidates`:
-                            `/election/${electionYear}-individual-director-election/candidates/gold`;
+      const electionPath = getElectionPath(edge.node.frontmatter.templateKey, electionYear);
 
       console.log(`createPage processing edge ${JSON.stringify(edge)} path ${electionPath}`);
-
-      createRedirect({
-        fromPath: `/election/`,
-        toPath: `/election/${electionYear}-individual-director-election`,
-      })
-
-      createRedirect({
-        fromPath: `/election/candidates`,
-        toPath: `/election/${electionYear}-individual-director-election/candidates`,
-      })
-
-      createRedirect({
-        fromPath: `/election/candidates/gold`,
-        toPath: `/election/${electionYear}-individual-director-election/candidates/gold`,
-      })
 
       createPage({
         path: electionPath,
@@ -564,7 +554,22 @@ exports.createPages = ({actions, graphql}) => {
           id
         },
       })
-    })
+    });
+
+    createRedirect({
+      fromPath: `/election/`,
+      toPath: `/election/${electionYear}-individual-director-election`,
+    });
+
+    createRedirect({
+      fromPath: `/election/candidates`,
+      toPath: `/election/${electionYear}-individual-director-election/candidates`,
+    });
+
+    createRedirect({
+      fromPath: `/election/candidates/gold`,
+      toPath: `/election/${electionYear}-individual-director-election/candidates/gold`,
+    });
   });
 
   const previousElectionQuery = graphql(`
@@ -605,11 +610,8 @@ exports.createPages = ({actions, graphql}) => {
       const id = edge.node.id;
       const electionId = edge.node.frontmatter.electionId.toString();
       const electionYear = edge.node.frontmatter.electionYear;
-      const electionPath = edge.node.frontmatter.templateKey === 'election-page-previous' ?
-                            `/election/${electionYear}-individual-director-election`:
-                            edge.node.frontmatter.templateKey === 'election-candidates-page-previous' ?
-                            `/election/${electionYear}-individual-director-election/candidates`:                            
-                            `/election/${electionYear}-individual-director-election/candidates/gold`;
+      const electionPath = getElectionPath(edge.node.frontmatter.templateKey, electionYear);
+
       console.log(`createPage processing edge ${JSON.stringify(edge)} path ${electionPath}`);
       createPage({
         path: electionPath,
@@ -662,8 +664,8 @@ exports.createPages = ({actions, graphql}) => {
 
     pages.forEach(edge => {
       if (edge.node.frontmatter.templateKey) {
-        const id = edge.node.id
-        const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;        
+        const id = edge.node.id;
+        const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;
         const slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug;
         createPage({
           path: slug,

@@ -1,14 +1,14 @@
 ---
 templateKey: election-page
 seo:
-  description: Individual Member Director elections for the 2023 Board of
-    Directors will be held *Monday January 9, 2023 to * *Friday January 13,
+  description: Individual Member Director elections for the 2024 Board of
+    Directors will be held *Monday January 9, 2024 to * *Friday January 13,
     2023*. Nominations  occur between *November 14 and December 16, 2022*.
   image: /img/OpenInfra-icon-white.jpg
-  title: 2023 Board Elections
+  title: 2024 Board Elections
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/election/2023-individual-director-election
-title: January 2023 Board Elections
+  url: https://openinfra.dev/election/2024-individual-director-election
+title: January 2024 Board Elections
 subTitle: Individual and Gold Member elections
 menu:
   - text: ELECTION DETAILS
@@ -26,17 +26,16 @@ menu:
   - text: REPORT A BUG
     link: mailto:info@openinfra.dev
 ---
-
 #### About the Board
 
-The Board of Directors is ultimately legally responsible for the Foundation as a corporate entity. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. The 2023 Board will be composed of 21 directors elected by the Individual Members (7), directors elected by the Gold Members (7) and directors appointed by the Platinum Members (7).
+The Board of Directors is ultimately legally responsible for the Foundation as a corporate entity. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. The 2024 Board will be composed of 21 directors elected by the Individual Members (7), directors elected by the Gold Members (7) and directors appointed by the Platinum Members (7).
 
 As a true corporate board, Board members are responsible for fiduciary duties and adhering to an expanded code of conduct. All Directors need to attend regular quarterly Board meetings and any special meetings that come up. The meetings will be held in a way that allows for remote participation.
 
 #### Individual Member Director board seats
 
-- Individual Member Directors are there to represent the Individual Members of the Foundation
-- These Directors act as the link between the thousands of members of the Foundation and the Board, and are not representing the companies for which they work
+* Individual Member Directors are there to represent the Individual Members of the Foundation
+* These Directors act as the link between the thousands of members of the Foundation and the Board, and are not representing the companies for which they work
 
 When considering which candidates are best equipped to serve in this capacity, voters can review each candidate's application on the [candidate](/election/candidates) page prior to the start of the election.
 
@@ -56,10 +55,10 @@ If you are an eligible voter, you will receive an email with a link to complete 
 
 #### Nomination Process
 
-- Between November 14 and December 16, members can visit [this page](/a/community/members) and nominate candidates.
-- Whenever a member is nominated, they will receive a notification (via the email listed in their member profile)
-- Nominees must then log in and 1) accept the initial nomination, and 2) fill out the application
-- Members who have received 10 nominations by December 16 must also complete the candidate application by December 21 in order to appear on the ballot
+* Between November 14 and December 16, members can visit [this page](/a/community/members) and nominate candidates.
+* Whenever a member is nominated, they will receive a notification (via the email listed in their member profile)
+* Nominees must then log in and 1) accept the initial nomination, and 2) fill out the application
+* Members who have received 10 nominations by December 16 must also complete the candidate application by December 21 in order to appear on the ballot
 
 #### Candidate Application
 
@@ -75,12 +74,12 @@ A candidate's responses will appear on their public profile, as well as on [the
 
 #### Election Timeline Summary:
 
-- November 14: Individual Member nominations open, election details live on [openinfra.dev](/elections/current)
-- December 16: Individual Member nominations close
-- December 21: Deadline for Individual Member Nominees to complete application
-- January 4: Gold Member Director Selector Election (1 day)
-- January 9: Individual Member Elections open
-- January 13: Individual Member Elections close
+* November 14: Individual Member nominations open, election details live on [openinfra.dev](/elections/current)
+* December 16: Individual Member nominations close
+* December 21: Deadline for Individual Member Nominees to complete application
+* January 4: Gold Member Director Selector Election (1 day)
+* January 9: Individual Member Elections open
+* January 13: Individual Member Elections close
 
 Note that the Gold Member process will complete prior to the start of the Individual Member elections. Each Platinum Member has already appointed a Board Member, although they can change that appointment at any time during their membership.
 

@@ -64,11 +64,11 @@ If you are an eligible voter, you will receive an email with a link to complete 
 
 All candidates must complete the application by December 20 in order to appear on the ballot. Questions:
 
-1. Bio
-2. What is your relationship to OpenInfra, and why is its success important to you? What would you say is your biggest contribution to OpenInfra and/or OpenStack's success to date?
-3. Describe your experience with other non profits or serving as a board member. How does your experience prepare you for the role of a board member?
-4. What do you see as the Board's role in OpenInfra's success?
-5. What do you think the top priority of the Board should be in 2024?
+* Bio
+* What is your relationship to OpenInfra, and why is its success important to you? What would you say is your biggest contribution to OpenInfra and/or OpenStack's success to date?
+* Describe your experience with other non profits or serving as a board member. How does your experience prepare you for the role of a board member?
+* What do you see as the Board's role in OpenInfra's success?
+* What do you think the top priority of the Board should be in 2024?
 
 A candidate's responses will appear on their public profile, as well as on [the candidates page](/election/candidates).
 

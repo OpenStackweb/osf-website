@@ -77,7 +77,7 @@ A candidate's responses will appear on their public profile, as well as on [the
 * November 13: Individual Member nominations open, election details live on [openinfra.dev](/elections/current)
 * December 15: Individual Member nominations close
 * December 20: Deadline for Individual Member Nominees to complete application
-* January 3: Gold Member Director Selector Election (1 day)
+* January 4: Gold Member Director Selector Election (1 day)
 * January 8: Individual Member Elections open
 * January 12: Individual Member Elections close
 

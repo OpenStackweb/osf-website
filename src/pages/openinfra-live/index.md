@@ -15,6 +15,18 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2023-11-30T15:00:00.000Z
+    episodeTitle: NVIDIA’s Journey with Kata Containers and Confidential Computing
+    episodeDescription: Join us as Zvonko Kaiser from NVIDIA will be sharing
+      insights on "Confidential Containers." He will discuss the security
+      challenges in containerization and how sandboxed environments have evolved
+      with the use of Kata Containers. Plus, he'll do a live demo showcasing
+      traditional containers, Kata Containers and Confidential Containers with
+      GPUs.
+    episodeSpeakers: Zvonko Kaiser, Treva Williams
+    youtubeEmbed: https://www.youtube.com/embed/urHjDdtuIa4?si=UOrd0Z1bgISsuw3H
+    youtubeLink: https://www.youtube.com/watch?v=urHjDdtuIa4
+  - hidden: false
     date: 2023-11-02T14:00:00.000Z
     episodeTitle: Meet the Computing Force Network Working Group
     episodeDescription: China Mobile and other 10+ organizations are driving the

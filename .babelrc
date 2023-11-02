@@ -1,12 +1,10 @@
 {
-  "plugins": [],
   "presets": [
     [
       "babel-preset-gatsby",
       {
         "targets": {
-          "esmodules": true,
-          "browsers": [">0.25%", "not dead"]
+          "esmodules": true
         }
       }
     ]

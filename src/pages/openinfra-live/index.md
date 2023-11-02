@@ -12,8 +12,19 @@ hero:
     case studies, open source demos, industry conversations, and the latest
     updates from the global open infrastructure community! <br /> <br /> Catch
     every episode on several streaming platforms, airing <strong>Thursdays at
-    14:00 UTC (9am CT)</strong>."
+    15:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: false
+    date: 2023-12-14T15:00:00.000Z
+    episodeTitle: "Large Scale Ops Deep Dive: Samsung SDS"
+    episodeDescription: In the "Large Scale Ops Deep Dive" series, a panel of
+      OpenStack operators invites special guests to talk about their deployment
+      and discuss their operations. For this episode, our guest will be Dan Paik
+      from Samsung SDS.
+    youtubeLink: https://www.youtube.com/watch?v=RI9SwY8VdCY
+    episodeSpeakers: "Dan Paik, Arnaud Morin, Felix Huettner, Thierry Carrez,
+      Kristin Barrientos "
+    youtubeEmbed: https://www.youtube.com/embed/RI9SwY8VdCY?si=zJYX2TgidDgSrDEs
   - hidden: false
     date: 2023-11-30T15:00:00.000Z
     episodeTitle: NVIDIA’s Journey with Kata Containers and Confidential Computing

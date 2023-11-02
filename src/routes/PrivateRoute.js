@@ -8,7 +8,12 @@ import HeroComponent from "../components/HeroComponent";
 const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive, ...rest}) => {
 
   if (!isLoggedUser) {
-    doLogin(`${location.pathname}`);
+    // do login after page is loaded and GA is called
+    if(typeof window !== 'undefined') {
+      window.setTimeout(() => {
+        doLogin(`${location.pathname}`);
+      }, 3000);
+    }
     return <HeroComponent title={'Checking Credentials ...'}/>
   }
 

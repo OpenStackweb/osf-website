@@ -15,6 +15,7 @@ function LazyLoadVideo({ videoUrl }) {
     }, []);
 
     const getVideoId = (url) => {
+        // TODO: get a better match method ( regex )
         return url.replace('https://www.youtube.com/embed/', '').split('?')[0];
     }
 

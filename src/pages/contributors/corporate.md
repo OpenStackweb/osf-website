@@ -816,6 +816,8 @@ companyDetails:
       col2: 2017-08-26
     - col1: Twitter
       col2: 2014-12-12
+    - col2: 2023-11-06
+      col1: UhuruTec AG
     - col1: UKCloud
       col2: 2016-06-01
     - col1: Ultra Serve Internet Pty Ltd

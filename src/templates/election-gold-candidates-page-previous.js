@@ -139,6 +139,7 @@ export const electionGoldCandidatesPagePreviousQuery = graphql`
           id
           bio
           member {
+            id
             first_name
             last_name
             pic

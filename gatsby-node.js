@@ -385,7 +385,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
     candidates.forEach(candidate => {
       createNode({
         ...candidate,
-        id: createNodeId(`CandidateData-${candidate.member.id}`),
+        id: createNodeId(`CandidateData-${candidate.member.id}-${candidate.election_id}`),
         election_id: `${candidate.election_id}`,
         parent: null,
         children: [],
@@ -399,7 +399,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
     goldCandidates.forEach(candidate => {
       createNode({
         ...candidate,
-        id: createNodeId(`GoldCandidateData-${candidate.member.id}`),
+        id: createNodeId(`GoldCandidateData-${candidate.member.id}-${candidate.election_id}`),
         election_id: `${candidate.election_id}`,
         parent: null,
         children: [],

@@ -74,7 +74,7 @@ A candidate's responses will appear on their public profile, as well as on [the
 
 #### Election Timeline Summary:
 
-* November 13: Individual Member nominations open, election details live on [openinfra.dev](https://openifra.dev/election)
+* November 13: Individual Member nominations open, election details live on [openinfra.dev](https://openinfra.dev/election)
 * December 15: Individual Member nominations close
 * December 20: Deadline for Individual Member Nominees to complete application
 * January 4: Gold Member Director Selector Election (1 day)

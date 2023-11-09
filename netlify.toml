@@ -9,7 +9,24 @@
 [build.environment]
   NODE_VERSION = "14.20.1"
   YARN_VERSION = "1.22.4"
-  YARN_FLAGS = "--no-ignore-optional"
+  YARN_FLAGS = "--no-ignore-optional"  
+# Deploy Preview context: all deploys resulting from a pull/merge request will
+# inherit these settings.
+[context.deploy-preview.environment]
+  GATSBY_IDP_BASE_URL = "https://testopenstackid.openstack.org"
+  GATSBY_OAUTH2_CLIENT_ID = "h1wVTVm75TJSmVcKtVXtYeqc-NKqMH86.openstack.client"
+  GATSBY_API_BASE_URL = "https://testresource-server.openstack.org"
+  GATSBY_SCOPES = "openid profile email address https://testresource-server.openstack.org/members/write/me https://testresource-server.openstack.org/members/read/me https://testresource-server.openstack.org/organizations/read https://testresource-server.openstack.org/organizations/write elections/candidates/nominate elections/candidates/write/me https://testresource-server.openstack.org/me/read https://testresource-server.openstack.org/me/summits/events/schedule/add https://testresource-server.openstack.org/me/summits/events/schedule/delete https://testresource-server.openstack.org/me/summits/events/schedule/shareable/delete https://testresource-server.openstack.org/me/summits/events/schedule/shareable/add me/write https://testresource-server.openstack.org/speakers/write/me https://testresource-server.openstack.org/speakers/read/me"
+  GATSBY_SPONSORED_PROJECT_ID = "1"
+  GATSBY_BUILD_SCOPES = "https://testresource-server.openstack.org/summits/read elections/read"
+  GATSBY_OAUTH2_CLIENT_ID_BUILD = "_fJKILOprSj4MYY6~6rhoPJeRT7_5616.openstack.client"
+  GATSBY_OAUTH2_CLIENT_SECRET_BUILD = "PFssJ_QNT_YjW9Uuk_dLqK9kx9ke.ndH4zAY-FBc59PzotI.0J18jPYXZ1snTkr4"
+  GATSBY_OAUTH_TOKEN_PATH = "/oauth2/token"
+  GATSBY_SF_OID = "00DG0000000lhAF"
+  GATSBY_FRIENDLY_CAPTCHA_SITE_KEY = "FCMLO9OV7A0PENUN"
+  GATSBY_FRIENDLY_CAPTCHA_API_KEY = "A1DIAJU833CPQ4P1HU2CMI75PIOMC3LPG4BG12RN93R1PC3QH41FNNQ4MM"
+  GATSBY_ELECTION_SINCE_YEAR="2023"
+  GATSBY_ELECTION_TO_SHOW="2"
 [[headers]]
   for = "/*"
 [headers.values]
@@ -86,19 +103,6 @@
   to = "/a/profile"
   status = 301
 [[redirects]]
-  from = "/election"
-  to = "/election/2023-individual-director-election"
-  status = 301
-[[redirects]]
-  from = "/election/candidates"
-  to = "/election/2023-individual-director-election/candidates"
-  status = 301
-[[redirects]]
-  from = "/election/candidates/gold"
-  to = "/election/2023-individual-director-election/candidates/gold"
-  status = 301
-  force = true
-[[redirects]]
   from = "/summit/registration"
   to = "https://vancouver2023.openinfra.dev/"
   status = 301
@@ -119,112 +123,112 @@
   status = 301
   force = true
 [[redirects]]
-  from="https://summit.openinfra.dev/*"
-  to="https://openinfra.dev/summit"
-  status=301
-  force=true
+  from = "https://summit.openinfra.dev/*"
+  to = "https://openinfra.dev/summit"
+  status = 301
+  force = true
 [[redirects]]
-  from="http://summit.openinfra.dev/*"
-  to="https://openinfra.dev/summit"
-  status=301
-  force=true  
+  from = "http://summit.openinfra.dev/*"
+  to = "https://openinfra.dev/summit"
+  status = 301
+  force = true  
 [[redirects]]
-  from="http://summit.openstack.cn/*"
-  to="https://openinfra.dev/summit"
-  status=301
-  force=true
+  from = "http://summit.openstack.cn/*"
+  to = "https://openinfra.dev/summit"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/austin"
-  to="https://zoom.us/j/96906327910?pwd=aE51d1FtM0R3dDY1Vk0xUTJKaEZtUT09"
-  status=301
-  force=true
+  from = "/ptg/rooms/austin"
+  to = "https://zoom.us/j/96906327910?pwd=aE51d1FtM0R3dDY1Vk0xUTJKaEZtUT09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/bexar"
-  to="https://zoom.us/j/98905969859?pwd=a0NFajNCSFFSQm93TFIrdDE1ditpdz09"
-  status=301
-  force=true
+  from = "/ptg/rooms/bexar"
+  to = "https://zoom.us/j/98905969859?pwd=a0NFajNCSFFSQm93TFIrdDE1ditpdz09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/cactus"
-  to="https://zoom.us/j/91349816875?pwd=MXhBa3gxY280QVVwZzkwQk9JY0xldz09"
-  status=301
-  force=true
+  from = "/ptg/rooms/cactus"
+  to = "https://zoom.us/j/91349816875?pwd=MXhBa3gxY280QVVwZzkwQk9JY0xldz09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/diablo"
-  to="https://zoom.us/j/96494117185?pwd=NGhya0NpeWppMEc1OUNKdlFPbDNYdz09"
-  status=301
-  force=true
+  from = "/ptg/rooms/diablo"
+  to = "https://zoom.us/j/96494117185?pwd=NGhya0NpeWppMEc1OUNKdlFPbDNYdz09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/essex"
-  to="https://zoom.us/j/98071109978?pwd=NlA5dVQxaEVucHZ4NjlOUmp6U0VvQT09"
-  status=301
-  force=true
+  from = "/ptg/rooms/essex"
+  to = "https://zoom.us/j/98071109978?pwd=NlA5dVQxaEVucHZ4NjlOUmp6U0VvQT09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/folsom"
-  to="https://zoom.us/j/92793625777?pwd=dWRMR3E0OWM1V2kxT1dBUGJtMlU0Zz09"
-  status=301
-  force=true
+  from = "/ptg/rooms/folsom"
+  to = "https://zoom.us/j/92793625777?pwd=dWRMR3E0OWM1V2kxT1dBUGJtMlU0Zz09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/grizzly"
-  to="https://zoom.us/j/95205115859?pwd=RUpBanhpK0NCbUlsNFYxQVJHYTQwQT09"
-  status=301
-  force=true
+  from = "/ptg/rooms/grizzly"
+  to = "https://zoom.us/j/95205115859?pwd=RUpBanhpK0NCbUlsNFYxQVJHYTQwQT09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/havana"
-  to="https://zoom.us/j/97381453385?pwd=bmYwcXltOVdSYS9SUzg3Zm9GWHZhZz09"
-  status=301
-  force=true
+  from = "/ptg/rooms/havana"
+  to = "https://zoom.us/j/97381453385?pwd=bmYwcXltOVdSYS9SUzg3Zm9GWHZhZz09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/icehouse"
-  to="https://zoom.us/j/94855376980?pwd=MzMzVDE3MGdVWXQwVS81eEREMjdVZz09"
-  status=301
-  force=true
+  from = "/ptg/rooms/icehouse"
+  to = "https://zoom.us/j/94855376980?pwd=MzMzVDE3MGdVWXQwVS81eEREMjdVZz09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/juno"
-  to="https://zoom.us/j/91509365720?pwd=QVJINGlHK0QwNk1ISVNFbnJBOVRYdz09"
-  status=301
-  force=true
+  from = "/ptg/rooms/juno"
+  to = "https://zoom.us/j/91509365720?pwd=QVJINGlHK0QwNk1ISVNFbnJBOVRYdz09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/kilo"
-  to="https://zoom.us/j/97156435772?pwd=a0xnZ1pwcXBXZU9oTkxWQ3JPRi81UT09"
-  status=301
-  force=true
+  from = "/ptg/rooms/kilo"
+  to = "https://zoom.us/j/97156435772?pwd=a0xnZ1pwcXBXZU9oTkxWQ3JPRi81UT09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/liberty"
-  to="https://zoom.us/j/94265628858?pwd=YXllU3VFQzhaVWVRdmI3V0xJUERZdz09"
-  status=301
-  force=true
+  from = "/ptg/rooms/liberty"
+  to = "https://zoom.us/j/94265628858?pwd=YXllU3VFQzhaVWVRdmI3V0xJUERZdz09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/mitaka"
-  to="https://zoom.us/j/96239912151?pwd=b2NLMTdQeThjdW0vMzZWV3RPRHVidz09"
-  status=301
-  force=true
+  from = "/ptg/rooms/mitaka"
+  to = "https://zoom.us/j/96239912151?pwd=b2NLMTdQeThjdW0vMzZWV3RPRHVidz09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/newton"
-  to="https://zoom.us/j/96855299345?pwd=bG5KZHloRzA3bkhCQVJBNmZCQUltZz09"
-  status=301
-  force=true
+  from = "/ptg/rooms/newton"
+  to = "https://zoom.us/j/96855299345?pwd=bG5KZHloRzA3bkhCQVJBNmZCQUltZz09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/ptg/rooms/ocata"
-  to="https://zoom.us/j/99841882395?pwd=RzBnSXQwWURIU3prbGhqSFdxVXg2Zz09"
-  status=301
-  force=true
+  from = "/ptg/rooms/ocata"
+  to = "https://zoom.us/j/99841882395?pwd=RzBnSXQwWURIU3prbGhqSFdxVXg2Zz09"
+  status = 301
+  force = true
 [[redirects]]
-  from="/legal/code-of-conduct/events"
-  to="https://openinfra.dev/legal/code-of-conduct"
-  status=301
-  force=true
+  from = "/legal/code-of-conduct/events"
+  to = "https://openinfra.dev/legal/code-of-conduct"
+  status = 301
+  force = true
 [[redirects]]
-  from="/careers/marketing-coordinator"
-  to="https://openinfra.dev/careers"
-  status=301
-  force=true
+  from = "/careers/marketing-coordinator"
+  to = "https://openinfra.dev/careers"
+  status = 301
+  force = true
 [[redirects]]
-  from="/experience"
-  to="https://openinfrafoundation.formstack.com/forms/my_open_source_experience"
-  status=301
-  force=true
+  from = "/experience"
+  to = "https://openinfrafoundation.formstack.com/forms/my_open_source_experience"
+  status = 301
+  force = true
 [[redirects]]
-  from="/blog/openinfra-foundation-cyber-resilience-act."
-  to="https://openinfra.dev/blog/openinfra-foundation-cyber-resilience-act"
-  status=301
-  force=true
+  from = "/blog/openinfra-foundation-cyber-resilience-act."
+  to = "https://openinfra.dev/blog/openinfra-foundation-cyber-resilience-act"
+  status = 301
+  force = true

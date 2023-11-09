@@ -7,7 +7,7 @@
   functionsPort = 8888
 
 [build.environment]
-  NODE_VERSION = "14.20.1"
+  NODE_VERSION = "18.15.0"
   YARN_VERSION = "1.22.4"
   YARN_FLAGS = "--no-ignore-optional"  
 # Deploy Preview context: all deploys resulting from a pull/merge request will

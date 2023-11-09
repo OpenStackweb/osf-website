@@ -8,11 +8,16 @@ import HeroComponent from "../components/HeroComponent";
 const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive, ...rest}) => {
 
   if (!isLoggedUser) {
-    // do login after page is loaded and GA is called
     if(typeof window !== 'undefined') {
-      window.setTimeout(() => {
-        doLogin(`${location.pathname}`);
-      }, 3000);
+      // do login after page is loaded and Google Tag Manager is loaded
+      function checkIfAnalyticsLoaded() {
+        if (typeof window.ga === 'function' && Array.isArray(window.dataLayer)) {
+          doLogin(`${location.pathname}`);
+        } else {
+          setTimeout(checkIfAnalyticsLoaded, 500);
+        }
+      }
+      checkIfAnalyticsLoaded();
     }
     return <HeroComponent title={'Checking Credentials ...'}/>
   }

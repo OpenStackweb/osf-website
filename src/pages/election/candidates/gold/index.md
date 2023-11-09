@@ -22,7 +22,7 @@ menu:
   - text: NOMINATE A MEMBER
     link: /a/community/members
   - text: BE A CANDIDATE
-    link: /profile
+    link: /a/profile/elections
   - text: GOLD MEMBER ELECTION CANDIDATES
     link: /election/2024-individual-director-election/candidates/gold
   - text: CODE OF CONDUCT

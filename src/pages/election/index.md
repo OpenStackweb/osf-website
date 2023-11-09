@@ -28,7 +28,7 @@ menu:
 ---
 #### About the Board
 
-The Board of Directors is ultimately legally responsible for the Foundation as a corporate entity. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. The 2024 Board will be composed of 18 directors elected by the Individual Members (6), directors elected by the Gold Members (6) and directors appointed by the Platinum Members (6).
+The Board of Directors is ultimately legally responsible for the Foundation as a corporate entity. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. The 2024 Board will be composed of 18 directors: 6 elected by the Individual Members, 6 elected by the Gold Members, and 6 appointed by the Platinum Members.
 
 As a true corporate board, Board members are responsible for fiduciary duties and adhering to an expanded code of conduct. All Directors need to attend regular quarterly Board meetings and any special meetings that come up. The meetings will be held in a way that allows for remote participation.
 
@@ -64,7 +64,7 @@ If you are an eligible voter, you will receive an email with a link to complete 
 
 All candidates must complete the application by December 20 in order to appear on the ballot. Questions:
 
-* Bio
+* Bio / Basic biographical information about your career, personal life, or anything else you want members to know about you.
 * What is your relationship to OpenInfra, and why is its success important to you? What would you say is your biggest contribution to OpenInfra and/or OpenStack's success to date?
 * Describe your experience with other non profits or serving as a board member. How does your experience prepare you for the role of a board member?
 * What do you see as the Board's role in OpenInfra's success?
@@ -74,7 +74,7 @@ A candidate's responses will appear on their public profile, as well as on [the
 
 #### Election Timeline Summary:
 
-* November 13: Individual Member nominations open, election details live on [openinfra.dev](/elections/current)
+* November 13: Individual Member nominations open, election details live on [openinfra.dev](https://openifra.dev/election)
 * December 15: Individual Member nominations close
 * December 20: Deadline for Individual Member Nominees to complete application
 * January 4: Gold Member Director Selector Election (1 day)

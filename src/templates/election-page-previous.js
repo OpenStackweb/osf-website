@@ -35,7 +35,7 @@ export const ElectionPagePreviousTemplate = ({
                     <section className="section about-s1-main">
                         <div className="container about-s1-container">
                                 <article className="message is-warning">
-                                    <div className="message-body election-message">
+                                    <div className="message-body election-alert">
                                         Nominations for Individual Board Members have closed.
                                     </div>
                                 </article>

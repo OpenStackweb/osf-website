@@ -36,13 +36,13 @@ export const ElectionPageTemplate = ({
                         <div className="container about-s1-container">
                             {electionStatus?.status === 'NominationsOpen' ?
                                 <article className="message is-primary">
-                                    <div className="message-body">
+                                    <div className="message-body election-message">
                                         Nominations for Individual Board Members are now open.
                                     </div>
                                 </article>
                                 :
                                 <article className="message is-warning">
-                                    <div className="message-body">
+                                    <div className="message-body election-message">
                                         Nominations for Individual Board Members have closed.
                                     </div>
                                 </article>

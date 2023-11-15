@@ -41,7 +41,7 @@ const ElectionCandidatesPageTemplate = ({ candidates, electionStatus, today, loa
                 </div>
                 <div className="column is-two-thirds">
                   <article className="message is-primary">
-                    <div className="message-body">
+                    <div className="message-body how-to-vote">
                       <h3>{howToVote.title}</h3>
                       <span
                         dangerouslySetInnerHTML={{ __html: howToVote.description.replace("{$ElectionName}", electionStatus?.name) }} />

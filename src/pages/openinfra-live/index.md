@@ -15,6 +15,18 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2023-12-07T15:00:00.000Z
+    episodeTitle: PTG Recap
+    episodeDescription: >
+      Join us for a Project Teams Gathering (PTG) recap! Project leaders from
+      Ironic, Technical Committee, Nova, Sunbeam, Manila, StarlingX and Neutron
+      will provide recaps from discussions held during the PTG. 
+    episodeSpeakers: >
+      Kendall Nelson, Jay Faulkner, Sylvain Bauza, James Page, Carlos Eduardo,
+      Steve Geary, Brian Haley
+    youtubeLink: https://www.youtube.com/watch?v=thidlQGX29M
+    youtubeEmbed: https://www.youtube.com/embed/thidlQGX29M?si=RwMbPe92BHA9grAz
+  - hidden: false
     date: 2023-12-14T15:00:00.000Z
     episodeTitle: "Large Scale Ops Deep Dive: Samsung SDS"
     episodeDescription: In the "Large Scale Ops Deep Dive" series, a panel of

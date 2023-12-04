@@ -1,36 +1,40 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Header from '../components/Header'
-import TopBar from '../components/TopBar'
-import NavbarV2 from '../components/NavbarV2'
-import SEO from '../components/SEO'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import Header from "../components/Header";
+import TopBar from "../components/TopBar";
+import NavbarV2 from "../components/NavbarV2";
+import SEO from "../components/SEO";
 
 import { connect } from "react-redux";
 
-import OurFocusSection4 from '../components/HomeV2/OurFocusSection4'
-import SFASection from '../components/HomeV2/SFASection'
-import ProjectsSection from '../components/HomeV2/ProjectsSection'
-import QuotesSection from '../components/HomeV2/QuotesSection'
-import PlatinumMembersSection2 from '../components/HomeV2/PlatinumMembersSection2'
-import CommunitiesSection from '../components/HomeV2/CommunitiesSection'
-import NewsSection from '../components/HomeV2/NewsSection'
+import OurFocusSection4 from "../components/HomeV2/OurFocusSection4";
+import SFASection from "../components/HomeV2/SFASection";
+import ProjectsSection from "../components/HomeV2/ProjectsSection";
+import QuotesSection from "../components/HomeV2/QuotesSection";
+import PlatinumMembersSection2 from "../components/HomeV2/PlatinumMembersSection2";
+import CommunitiesSection from "../components/HomeV2/CommunitiesSection";
+import EuropeAsiaBtnSection from "../components/HomeV2/EuropeAsiaBtnSection";
+import NewsSection from "../components/HomeV2/NewsSection";
 
-export const IndexPageTemplate = ({
-  isLoggedUser,
-  header
-}) => (
+export const IndexPageTemplate = ({ isLoggedUser, header }) => (
   <div>
     <div className="wrapper hero-background home-v2-hero-wrapper">
       <TopBar />
       <NavbarV2 isLoggedUser={isLoggedUser} />
-      <Header upperTitle={header.upperTitle} title={header.title} subTitle={header.subTitle} image={header.image} buttons={header.buttons} isHome={true} />
+      <Header
+        upperTitle={header.upperTitle}
+        title={header.title}
+        subTitle={header.subTitle}
+        image={header.image}
+        buttons={header.buttons}
+        isHome={true}
+      />
     </div>
 
     <main className="main home-v2-body-wrapper">
       <div className="content">
-
         <OurFocusSection4 />
 
         <SFASection />
@@ -40,16 +44,15 @@ export const IndexPageTemplate = ({
           <QuotesSection />
         </div>
         <div className="home-v2-communities-section home-v2-communities-section-2">
-            <PlatinumMembersSection2 />
-            <CommunitiesSection />
+          <PlatinumMembersSection2 />
+          <CommunitiesSection />
         </div>
-
+        <EuropeAsiaBtnSection />
         <NewsSection />
-
       </div>
     </main>
   </div>
-)
+);
 
 IndexPageTemplate.propTypes = {
   header: PropTypes.object,
@@ -58,16 +61,16 @@ IndexPageTemplate.propTypes = {
   projects: PropTypes.object,
   people: PropTypes.object,
   sponsor: PropTypes.object,
-}
+};
 
 const IndexPage = ({ isLoggedUser, data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
       <SEO seo={frontmatter.seo ? frontmatter.seo : null} />
       <IndexPageTemplate
-        isLoggedUser={isLoggedUser}        
+        isLoggedUser={isLoggedUser}
         header={frontmatter.header}
         mainpitch={frontmatter.mainpitch}
         whyExpand={frontmatter.whyExpand}
@@ -76,8 +79,8 @@ const IndexPage = ({ isLoggedUser, data }) => {
         sponsor={frontmatter.sponsor}
       />
     </Layout>
-  )
-}
+  );
+};
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
@@ -85,12 +88,14 @@ IndexPage.propTypes = {
       frontmatter: PropTypes.object,
     }),
   }),
-}
+};
 
-export default connect(state => ({
-  isLoggedUser: state.loggedUserState.isLoggedUser
-}), null)(IndexPage)
-
+export default connect(
+  (state) => ({
+    isLoggedUser: state.loggedUserState.isLoggedUser,
+  }),
+  null
+)(IndexPage);
 
 export const pageQuery = graphql`
   query IndexPage {
@@ -113,7 +118,7 @@ export const pageQuery = graphql`
         header {
           upperTitle
           title
-          subTitle          
+          subTitle
           buttons {
             text
             link
@@ -149,7 +154,7 @@ export const pageQuery = graphql`
                 publicURL
               }
             }
-          }          
+          }
         }
         whyExpand {
           title
@@ -165,7 +170,7 @@ export const pageQuery = graphql`
               extension
             }
             text
-          }          
+          }
         }
         projects {
           title
@@ -231,4 +236,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

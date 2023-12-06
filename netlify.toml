@@ -31,11 +31,7 @@
   for = "/*"
 [headers.values]
   Cache-Control = "public, max-age=0, must-revalidate"
-[[redirects]]
-  from = "/summit"
-  to = "/summit/vancouver-2023"
-  status = 301
-  force = true
+
 [[redirects]]
   from = "/summit-onsite"
   to = "/summit/vancouver-2023/summit-onsite"

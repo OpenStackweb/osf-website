@@ -1,12 +1,13 @@
 import React from "react";
 import { graphql } from 'gatsby';
 import { connect } from 'react-redux'
-import Content, { HTMLContent } from '../components/Content'
+import { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
 import NavbarV2 from "../components/NavbarV2";
-import Header from "../components/Header";
 import SEO from "../components/SEO";
+import HeaderImage from "../components/HeaderImage";
+import hero from '../img/summit-landing-hero.png';
 
 export const SummitLandingPageTemplate = ({
                                        isLoggedUser,
@@ -20,7 +21,7 @@ export const SummitLandingPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
-        <Header title={title} subTitle={subTitle} />
+        <HeaderImage backgroundImage={hero} />
       </div>
 
       <main className="main">

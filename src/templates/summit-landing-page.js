@@ -9,6 +9,7 @@ import SEO from "../components/SEO";
 import HeaderImage from "../components/HeaderImage";
 import hero from '../img/summit-landing-hero.png';
 import SponsorBanner from "../components/SponsorBanner";
+import SubHeader from "../components/SubHeader";
 
 export const SummitLandingPageTemplate = ({
                                        isLoggedUser,
@@ -23,6 +24,7 @@ export const SummitLandingPageTemplate = ({
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
         <HeaderImage backgroundImage={hero} />
+        <SubHeader />
         <SponsorBanner />
       </div>
 

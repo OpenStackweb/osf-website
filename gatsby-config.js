@@ -122,6 +122,7 @@ module.exports = {
         name: 'images',
       },
     },
+    'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     {
       resolve: `gatsby-transformer-sharp`,

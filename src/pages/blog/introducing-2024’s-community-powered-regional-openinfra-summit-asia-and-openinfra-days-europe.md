@@ -29,13 +29,18 @@ Suwon, South Korea<br/>
 
 If you are interested in sponsoring this event, take a look at the sponsorship options, and [sign up to be notified](https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates) when sponsorship contracts are launched and further event details are published.
 
-|              | **OpenInfra Foundation Member** | **Non-member** |
-| ------------ | ------------------------------- | -------------- |
-| **Headline** | $50,000                         | $60,000        |
-| **Diamond**  | $37,000                         | $48,100        |
-| **Platinum** | $17,000                         | $25,500        |
-| **Gold**     | $10,000                         | $16,000        |
-| **Silver**   | $6,000                          | $10,800        |
+*Prices below are in USD and do not include local taxes.*
+
+|                | **OpenInfra Foundation Member** | **Non-OpenInfra Foundation Member*** |
+| -------------- | ------------------------------- | ------------------------------------ |
+| **Headline**   | $50,000                         | $60,000                              |
+| **Diamond**    | $37,000                         | $48,100                              |
+| **Platinum**   | $17,000                         | $25,500                              |
+| **Gold**       | $10,000                         | $16,000                              |
+| **Silver\*\*** | $6,000                          | $10,800                              |
+
+*\*\* Contact [ecosystem@openinfra.dev](mailto:ecosystem@openinfra.dev) if you'd like more information about Foundation Membership.*<br/>
+\*\** *Startup pricing available upon request.*
 
 ## OpenInfra Days Europe
 
@@ -61,7 +66,7 @@ More info coming soon!</td>
 May 2024<br/>
 <a href="https://maps.app.goo.gl/rPTB4oZabiJtfYdE9" target="_new">Albert Long Hall Cultural Cente</a><br/>Boğaziçi<University Istanbul, Turkiye<br/>
 Registration: Free<br/>
-See Sponsorship opportunities here.</td>
+<a href="https://drive.google.com/file/d/1VI9BbhP2sOWD6QZDAsloElJRuTNif7LL/view?usp=sharing" target="_new">See Sponsorship opportunities here</a>.</td>
 <td width="45%">OpenInfra Day France<br/>
 May 2024<br/>
 More info coming soon!</td>

@@ -54,7 +54,7 @@ In addition, in 2024, you will have the opportunity to participate in a special 
 May 7, 2024<br/>
 <a href="https://www.google.com/maps/place/Gunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden/@57.7242383,11.8490387,17z/data=!4m16!1m9!3m8!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!2sGunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden!3b1!8m2!3d57.7242775!4d11.8483159!10e5!16s%2Fg%2F11cnd7r_rq!3m5!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!8m2!3d57.7242775!4d11.8483159!16s%2Fg%2F11cnd7r_rq?entry=ttu" target="_new">Volvohallen: Gothenburg, Sweden</a><br/>
 Registration: Free <br/>
-Sponsorship: 11,000 SEK ($1,050 USD)</td>
+Sponsorship: 11 000 SEK ($1,050 USD)</td>
 <td width="45%">OpenInfra Days Germany x Sovereign<br/>
 Cloud Stack Summit<br/>
 May 14 & 15, 2024<br/>

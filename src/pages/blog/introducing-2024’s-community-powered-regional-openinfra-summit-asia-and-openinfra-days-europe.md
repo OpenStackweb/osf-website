@@ -44,7 +44,7 @@ If you are interested in sponsoring this event, take a look at the sponsorship o
 
 ## OpenInfra Days Europe
 
-In addition, in 2024, you will have the opportunity to participate in a special edition: OpenInfra Day Europe! This will be a series of community-led OpenInfra Days and meetups throughout May and June 2024. The current schedule of events is as follows:
+In addition, in 2024, you will have the opportunity to participate in a special edition: OpenInfra Day Europe! This will be a series of community-powered OpenInfra Days and meetups throughout May and June 2024. The current schedule of events is as follows:
 
 [Sign-up to be notified](https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates) when sponsorship opportunities are available and further event details are published.
 

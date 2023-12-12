@@ -21,10 +21,10 @@ For the past decade, the OpenInfra Summit, formerly known as the OpenStack Summi
 
 The Community-Powered Openinfra Summit will be piloted in 2024 by the Korean community organizers in collaboration with fellow organizers from various regions of Asia. 
 
-<p style="text-align: center;">Regional OpenInfra Summit Asia
-September 3-4
-Suwon, South Korea
-Suwon Convention Center</p>
+<p style="text-align: center;">Regional OpenInfra Summit Asia<br/>
+September 3-4<br/>
+Suwon, South Korea<br/>
+<a href="https://www.scc.or.kr/en/">Suwon Convention Center</a></p>
 <p style="text-align: center;">Registration to be announced soon!</p>
 
 If you are interested in sponsoring this event, take a look at the sponsorship options, and [sign up to be notified](https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates) when sponsorship contracts are launched and further event details are published.
@@ -37,13 +37,43 @@ If you are interested in sponsoring this event, take a look at the sponsorship o
 | **Gold**     | $10,000                                     | $16,000        |
 | **Silver**   | $6,000                                      | $10,800        |
 
-
-
 ## OpenInfra Days Europe
 
 In addition, in 2024, you will have the opportunity to participate in a special edition: OpenInfra Day Europe! This will be a series of community-led OpenInfra Days and meetups throughout May and June 2024. The current schedule of events is as follows:
 
 [Sign-up to be notified](https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates) when sponsorship contracts are launched and further event details are published.
+
+<table width="90%">
+<tr>
+<td width="45%">OpenInfra Day Sweden<br/>
+May 7, 2024<br/>
+<a href="https://www.google.com/maps/place/Gunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden/@57.7242383,11.8490387,17z/data=!4m16!1m9!3m8!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!2sGunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden!3b1!8m2!3d57.7242775!4d11.8483159!10e5!16s%2Fg%2F11cnd7r_rq!3m5!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!8m2!3d57.7242775!4d11.8483159!16s%2Fg%2F11cnd7r_rq?entry=ttu" target="_new">Volvohallen: Gothenburg, Sweden</a><br/>
+Registration: Free <br/>
+Sponsorship: 11,000 SEK (1,050 USD)</td>
+<td width="45%">OpenInfra Days Germany x Sovereign<br/>
+Cloud Stack Summit<br/>
+May 14 & 15, 2024<br/>
+Berlin, Germany<br/>
+More info coming soon!</td>
+</tr>
+<tr>
+<td width="45%">OpenInfra Days Turkiye<br/>
+May 2024<br/>
+<a href="https://maps.app.goo.gl/rPTB4oZabiJtfYdE9" target="_new">Albert Long Hall Cultural Cente</a><br/>Boğaziçi<University Istanbul, Turkiye<br/>
+Registration: Free<br/>
+See Sponsorship opportunities here.</td>
+<td width="45%">OpenInfra Day France<br/>
+May 2024<br/>
+More info coming soon!</td>
+</tr>
+<tr>
+<td width="45%">OpenInfra Meetups: The UK</td>
+<td width="45%">OpenInfra Meetup: Switzerland<br/>
+June 6, 2024<br/>
+<a href="https://www.google.com/maps/place/CERN/@46.2337442,6.056322,15.89z/data=!4m6!3m5!1s0x478c62fcec737b11:0x81bef3ae7a885e31!8m2!3d46.2330492!4d6.0556771!16zL20vMDk5cm4?entry=ttu" target="_new">CERN. Geneva, Switzerland</a><br/>
+Registration: free</td>
+</tr>
+</table>
 
 ## Help the Community through Travel Support
 

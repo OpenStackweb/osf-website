@@ -39,8 +39,8 @@ If you are interested in sponsoring this event, take a look at the sponsorship o
 | **Gold**       | $10,000                         | $16,000                              |
 | **Silver\*\*** | $6,000                          | $10,800                              |
 
-*\*\* Contact [ecosystem@openinfra.dev](mailto:ecosystem@openinfra.dev) if you'd like more information about Foundation Membership.*<br/>
-\*\** *Startup pricing available upon request.*
+*\* Contact [ecosystem@openinfra.dev](mailto:ecosystem@openinfra.dev) if you'd like more information about OpenInfra Foundation Membership.*<br/>
+\*\* *Startup pricing available upon request.*
 
 ## OpenInfra Days Europe
 

@@ -1,0 +1,30 @@
+.summit-card-wrapper {
+  width: 323px;
+
+  .image {
+    margin-bottom: 12px;
+  }
+  .title {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+  }
+  .subtitle {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    color: #161616;
+  }
+  .button {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    border-radius: 30px;
+    border-color: #888888;
+    color: #888888;
+
+    img {
+      margin-left: 10px;
+    }
+  }
+}

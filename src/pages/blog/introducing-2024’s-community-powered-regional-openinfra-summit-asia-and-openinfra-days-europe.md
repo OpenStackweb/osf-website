@@ -78,7 +78,7 @@ More info coming soon!</td>
 More info coming soon.</td>
 <td width="45%">OpenInfra Meetup: Switzerland<br/>
 June 6, 2024<br/>
-<a href="https://www.google.com/maps/place/CERN/@46.2337442,6.056322,15.89z/data=!4m6!3m5!1s0x478c62fcec737b11:0x81bef3ae7a885e31!8m2!3d46.2330492!4d6.0556771!16zL20vMDk5cm4?entry=ttu" target="_new">CERN</a><br/>\
+<a href="https://www.google.com/maps/place/CERN/@46.2337442,6.056322,15.89z/data=!4m6!3m5!1s0x478c62fcec737b11:0x81bef3ae7a885e31!8m2!3d46.2330492!4d6.0556771!16zL20vMDk5cm4?entry=ttu" target="_new">CERN</a><br/>
 Geneva, Switzerland<br/>
 Registration: Free</td>
 </tr>

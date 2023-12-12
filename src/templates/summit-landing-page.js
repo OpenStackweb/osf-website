@@ -10,6 +10,7 @@ import HeaderImage from "../components/HeaderImage";
 import hero from '../img/summit-landing-hero.png';
 import SponsorBanner from "../components/SponsorBanner";
 import SubHeader from "../components/SubHeader";
+import PreviousSummits from "../components/PreviousSummits";
 
 export const SummitLandingPageTemplate = ({
                                        isLoggedUser,
@@ -26,6 +27,7 @@ export const SummitLandingPageTemplate = ({
         <HeaderImage backgroundImage={hero} />
         <SubHeader />
         <SponsorBanner />
+        <PreviousSummits />
       </div>
 
       <main className="main">

@@ -12,7 +12,7 @@ seo:
   title: Introducing 2024’s Community-Powered, Regional OpenInfra Summit Asia and
     OpenInfra Days Europe
   description: Pricing and packages for OpenInfra Summit and OpenInfra Events Announced!
-  url: https://openinfra.dev/blog/open-infra-foundation-events-2024
+  url: https://openinfra.dev/blog/openinfra-events-2024
   twitterUsername: "@openinfradev"
 ---
 ## The Community-Powered, Regional OpenInfra Summit Asia 2024
@@ -29,13 +29,13 @@ Suwon, South Korea<br/>
 
 If you are interested in sponsoring this event, take a look at the sponsorship options, and [sign up to be notified](https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates) when sponsorship contracts are launched and further event details are published.
 
-|              | **OpenInfra Asia or<br/>Foundation Member** | **Non-member** |
-| ------------ | ------------------------------------------- | -------------- |
-| **Headline** | $50,000                                     | $60,000        |
-| **Diamond**  | $37,000                                     | $48,100        |
-| **Platinum** | $17,000                                     | $25,500        |
-| **Gold**     | $10,000                                     | $16,000        |
-| **Silver**   | $6,000                                      | $10,800        |
+|              | **OpenInfra Foundation Member** | **Non-member** |
+| ------------ | ------------------------------- | -------------- |
+| **Headline** | $50,000                         | $60,000        |
+| **Diamond**  | $37,000                         | $48,100        |
+| **Platinum** | $17,000                         | $25,500        |
+| **Gold**     | $10,000                         | $16,000        |
+| **Silver**   | $6,000                          | $10,800        |
 
 ## OpenInfra Days Europe
 

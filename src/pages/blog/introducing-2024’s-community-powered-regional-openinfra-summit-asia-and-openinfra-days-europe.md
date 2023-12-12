@@ -72,7 +72,7 @@ May 2024<br/>
 More info coming soon!</td>
 </tr>
 <tr>
-<td width="45%">OpenInfra Meetups: The UK<br/>\
+<td width="45%">OpenInfra Meetups: The UK<br/>
 More info coming soon.</td>
 <td width="45%">OpenInfra Meetup: Switzerland<br/>
 June 6, 2024<br/>

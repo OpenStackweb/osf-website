@@ -1,0 +1,30 @@
+.custom-slider {
+  .header {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+    .title {
+      font-family: "Jura", "Roboto", sans-serif;
+      font-weight: bold;
+      font-size: 45px;
+      color: #161616;
+      line-height: 72px;
+    }
+
+    .arrows {
+      img {
+        width: 72px;
+        margin-left: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .custom-slider-inner > div {
+    padding: 0 80px 0 0 !important;
+  }
+}

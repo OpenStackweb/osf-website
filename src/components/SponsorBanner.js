@@ -1,6 +1,6 @@
 import React from 'react'
 
-import background from '../img/sponsor-banner-bg.png';
+import background from '../../static/img/summit-landing/sponsor-banner-bg.png';
 import leftArrow from '../img/svg/arrow-left.svg'
 import '../style/modules/_sponsor_banner.scss'
 

@@ -7,7 +7,7 @@ import TopBar from "../components/TopBar";
 import NavbarV2 from "../components/NavbarV2";
 import SEO from "../components/SEO";
 import HeaderImage from "../components/HeaderImage";
-import hero from '../img/summit-landing-hero.png';
+import hero from '../../static/img/summit-landing/summit-landing-hero.png';
 import SponsorBanner from "../components/SponsorBanner";
 import SubHeader from "../components/SubHeader";
 import PreviousSummits from "../components/PreviousSummits";

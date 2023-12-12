@@ -21,11 +21,11 @@ For the past decade, the OpenInfra Summit, formerly known as the OpenStack Summi
 
 The Community-Powered Openinfra Summit will be piloted in 2024 by the Korean community organizers in collaboration with fellow organizers from various regions of Asia. 
 
-<p style="text-align: center;">Regional OpenInfra Summit Asia<br/>
+<p style="text-align: center;"><strong>Regional OpenInfra Summit Asia</strong><br/>
 September 3-4<br/>
 Suwon, South Korea<br/>
 <a href="https://www.scc.or.kr/en/">Suwon Convention Center</a></p>
-<p style="text-align: center;">Registration to be announced soon!</p>
+<p style="text-align: center;"><i>Registration to be announced soon!</i></p>
 
 If you are interested in sponsoring this event, take a look at the sponsorship options, and [sign up to be notified](https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates) when sponsorship contracts are launched and further event details are published.
 

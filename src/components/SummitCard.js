@@ -5,9 +5,9 @@ import locationIcon from '../../static/img/summit-landing/icons/location-icon.sv
 
 import '../style/modules/_summit-card.scss'
 
-const SummitCard = ({ background, date, location, notification = false }) => {
+const SummitCard = ({ background, date, location, notification = false, cardStyles }) => {
     return (
-        <section className='summit-card-wrapper'>            
+        <section className='summit-card-wrapper' style={cardStyles}>
             <div className="summit-card-image" style={{ backgroundImage: `url(${background}` }}></div>
             <div className={`summit-card-info ${notification ? '' : 'no-notification'}`}>
                 <div className='summit-card-info-wrapper'>

@@ -15,6 +15,7 @@ import SummitCard from "../components/SummitCard";
 
 import summitCardAsia from '../../static/img/summit-landing/cards/summit-asia.png';
 import summitCardEurope from '../../static/img/summit-landing/cards/summit-europe25.png';
+import CommunityEvents from "../components/CommunityEvents";
 
 export const SummitLandingPageTemplate = ({
                                        isLoggedUser,
@@ -33,6 +34,7 @@ export const SummitLandingPageTemplate = ({
         <SummitCard background={summitCardAsia} date={'September 2 & 3, 2024'} location={'Suwon Convention Center, Suwon, South Korea'} notification={true}/>
         <SummitCard background={summitCardEurope} date={'2025'} location={'Berlin, Germany'}/>
         <SponsorBanner />
+        <CommunityEvents />
         <PreviousSummits />
       </div>
 

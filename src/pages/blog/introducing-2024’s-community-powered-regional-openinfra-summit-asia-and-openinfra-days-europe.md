@@ -44,7 +44,7 @@ If you are interested in sponsoring this event, take a look at the sponsorship o
 
 ## OpenInfra Days Europe
 
-In addition, in 2024, you will have the opportunity to participate in a special edition: OpenInfra Day Europe! This will be a series of community-powered OpenInfra Days and meetups throughout May and June 2024. The current schedule of events is as follows:
+In addition, in 2024, you will have the opportunity to participate in a special edition: OpenInfra Days Europe! This will be a series of community-powered OpenInfra Days and meetups throughout May and June 2024. The current schedule of events is as follows:
 
 [Sign-up to be notified](https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates) when sponsorship opportunities are available and further event details are published. 
 
@@ -56,14 +56,14 @@ May 7, 2024<br/>
 Gothenburg, Sweden<br/>
 Registration: Free <br/>
 Sponsorship: 11 000 SEK ($1,050 USD)</td>
-<td width="45%">OpenInfra Days Germany x Sovereign<br/>
+<td width="45%">OpenInfra Day Germany x Sovereign<br/>
 Cloud Stack Summit<br/>
 May 14 & 15, 2024<br/>
 Berlin, Germany<br/>
 More info coming soon!</td>
 </tr>
 <tr>
-<td width="45%">OpenInfra Days Turkiye<br/>
+<td width="45%">OpenInfra Day Turkiye<br/>
 May 2024<br/>
 <a href="https://maps.app.goo.gl/rPTB4oZabiJtfYdE9"  target="_blank">Albert Long Hall Cultural Center</a><br/>
 Boğaziçi University,  Istanbul, Turkiye<br/>

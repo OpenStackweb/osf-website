@@ -19,7 +19,7 @@ seo:
 
 For the past decade, the OpenInfra Summit, formerly known as the OpenStack Summit, has provided a centralized opportunity for the global community to collaborate. To build the next decade of open infrastructure, Regional OpenInfra Summits will be developed by the community for the community. Community volunteers will provide an opportunity to collaborate directly with the people building and running open source infrastructure using Linux, OpenStack, Kubernetes and 30+ other technologies. Attendees typically represent 60 countries and hundreds of organizations and participate in keynote presentations from industry leaders, breakout presentations, Forum discussions with operators and developers, and a busy hallway track of open source enthusiasts.
 
-The Community-Powered Openinfra Summit will be piloted in 2024 by the Korean community organizers in collaboration with fellow organizers from various regions of Asia. 
+The Community-Powered OpenInfra Summit will be piloted in 2024 by the Korean community organizers in collaboration with fellow organizers from various regions of Asia. 
 
 <p style="text-align: center;"><strong>Regional OpenInfra Summit Asia</strong><br/>
 September 3-4<br/>
@@ -44,7 +44,7 @@ If you are interested in sponsoring this event, take a look at the sponsorship o
 
 ## OpenInfra Days Europe
 
-In addition, in 2024, you will have the opportunity to participate in a special edition: OpenInfra Days Europe! This will be a series of community-powered OpenInfra Days and meetups throughout May and June 2024. The current schedule of events is as follows:
+In addition, in 2024 you will have the opportunity to participate in a special edition: OpenInfra Days Europe! OpenInfra Days Europe, a series of community-powered OpenInfra Days and meetups throughout May and June 2024. The current schedule of events is as follows:
 
 [Sign-up to be notified](https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates) when sponsorship opportunities are available and further event details are published. 
 
@@ -75,7 +75,7 @@ More info coming soon!</td>
 </tr>
 <tr>
 <td width="45%">OpenInfra Meetups: The UK<br/>
-May 2024<br/>More info coming soon.</td>
+May 2024<br/>More info coming soon!</td>
 <td width="45%">OpenInfra Meetup: Switzerland<br/>
 June 6, 2024<br/>
 <a href="https://www.google.com/maps/place/CERN/@46.2337442,6.056322,15.89z/data=!4m6!3m5!1s0x478c62fcec737b11:0x81bef3ae7a885e31!8m2!3d46.2330492!4d6.0556771!16zL20vMDk5cm4?entry=ttu"  target="_blank">CERN</a><br/>

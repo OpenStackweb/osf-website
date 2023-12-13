@@ -1,0 +1,93 @@
+.summit-card-wrapper {
+  min-height: 433px;
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  padding: 0 22.5%;
+  margin-bottom: 55px;
+  width: auto;
+  @media (max-width: 767px) {
+    padding: 0 11.25%;
+  }
+  .summit-card-image {
+    height: 287px;
+    background-color: #161616;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0 0;
+  }
+  .summit-card-info {
+    min-height: 73px;
+    background-color: #f1f1f1;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: -2%;
+    font-family: "Roboto Flex", sans-serif;
+    align-items: center;
+    .summit-card-info-wrapper {
+      display: inline-flex;
+      padding: 28px 30px 0;
+      flex-wrap: wrap;
+      span {
+        padding-bottom: 21px;
+      }
+    }
+    span:first-of-type {
+      font-size: 20px;
+      margin-right: 25px;
+    }
+    img {
+      padding-right: 10px;
+    }
+    &.no-notification {
+      border-radius: 0 0 16px 16px;
+    }
+  }
+  .summit-card-notification {
+    min-height: 73px;
+    font-size: 20px;
+    line-height: 135%;
+    font-family: "Roboto Flex", sans-serif;
+    display: inline-flex;
+    color: #ffff;
+    background-color: #ed362f;
+    border-radius: 0 0 16px 16px;
+    align-items: center;
+    padding: 13px 17px 12px 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .summit-card-button {
+    display: inline-flex;
+    background-color: #ed362f;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 12px;
+    line-height: 135%;
+    border-radius: 40px;
+    height: 48px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 180px;
+    .btn-arrow {
+      position: relative;
+      right: 15px;
+      &:after {
+        background-image: url("/img/homeV2/secondary-arrow-white.svg");
+        position: absolute;
+        content: "";
+        right: -30px;
+        height: 30px;
+        width: 30px;
+        top: -5px;
+      }
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

@@ -11,6 +11,10 @@ import hero from '../../static/img/summit-landing/summit-landing-hero.png';
 import SponsorBanner from "../components/SponsorBanner";
 import SubHeader from "../components/SubHeader";
 import PreviousSummits from "../components/PreviousSummits";
+import SummitCard from "../components/SummitCard";
+
+import summitCardAsia from '../../static/img/summit-landing/cards/summit-asia.png';
+import summitCardEurope from '../../static/img/summit-landing/cards/summit-europe25.png';
 
 export const SummitLandingPageTemplate = ({
                                        isLoggedUser,
@@ -26,6 +30,8 @@ export const SummitLandingPageTemplate = ({
         <NavbarV2 isLoggedUser={isLoggedUser} />
         <HeaderImage backgroundImage={hero} />
         <SubHeader />
+        <SummitCard background={summitCardAsia} date={'September 2 & 3, 2024'} location={'Suwon Convention Center, Suwon, South Korea'} notification={true}/>
+        <SummitCard background={summitCardEurope} date={'2025'} location={'Berlin, Germany'}/>
         <SponsorBanner />
         <PreviousSummits />
       </div>

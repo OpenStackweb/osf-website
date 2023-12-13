@@ -11,7 +11,7 @@ hidePost: true
 seo:
   title: Introducing 2024’s Community-Powered, Regional OpenInfra Summit Asia and
     OpenInfra Days Europe
-  description: Pricing and packages for OpenInfra Summit and OpenInfra Events Announced!
+  description: Dates and Pricing for OpenInfra Summit and OpenInfra Events Announced!
   url: https://openinfra.dev/blog/openinfra-events-2024
   twitterUsername: "@openinfradev"
 ---

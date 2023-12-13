@@ -66,7 +66,7 @@ More info coming soon!</td>
 <td width="45%">OpenInfra Day Turkiye<br/>
 May 2024<br/>
 <a href="https://maps.app.goo.gl/rPTB4oZabiJtfYdE9"  target="_blank">Albert Long Hall Cultural Center</a><br/>
-Boğaziçi University,  Istanbul, Turkiye<br/>
+Boğaziçi University, Istanbul, Turkiye<br/>
 Registration: Free<br/>
 <a href="https://drive.google.com/file/d/1VI9BbhP2sOWD6QZDAsloElJRuTNif7LL/view?usp=sharing"  target="_blank">See Sponsorship opportunities here</a>.</td>
 <td width="45%">OpenInfra Day France<br/>
@@ -75,7 +75,7 @@ More info coming soon!</td>
 </tr>
 <tr>
 <td width="45%">OpenInfra Meetups: The UK<br/>
-More info coming soon.</td>
+May 2024<br/>More info coming soon.</td>
 <td width="45%">OpenInfra Meetup: Switzerland<br/>
 June 6, 2024<br/>
 <a href="https://www.google.com/maps/place/CERN/@46.2337442,6.056322,15.89z/data=!4m6!3m5!1s0x478c62fcec737b11:0x81bef3ae7a885e31!8m2!3d46.2330492!4d6.0556771!16zL20vMDk5cm4?entry=ttu"  target="_blank">CERN</a><br/>

@@ -13,7 +13,7 @@ const PREVIOUS_SUMMITS = [
   {name: 'Shanghai, China', date: 'November 4-6, 2019', image: 'img/summit-landing/summits/shanghai.png', link: ''}
 ];
 
-const PreviousSummits = ({}) => {
+const PreviousSummits = () => {
   return (
     <div className="container previous-summits-wrapper">
       <CustomSlider title="Previous OpenInfra Foundation Summits">

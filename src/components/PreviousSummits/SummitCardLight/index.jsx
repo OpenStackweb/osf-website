@@ -4,7 +4,7 @@ import './styles.scss';
 
 const SummitCardLight = ({summit}) => {
   return (
-    <div className="summit-card-wrapper">
+    <div className="summit-card-l-wrapper">
       <img className="image" alt={summit.name} src={summit.image} />
       <p className="title">{summit.name}</p>
       <p className="subtitle">{summit.date}</p>

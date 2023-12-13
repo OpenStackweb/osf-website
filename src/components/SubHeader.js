@@ -29,12 +29,12 @@ const SubHeader = () => {
           </p>
           <StaticImage
             className="badge"
-            src="../../static/img/summit-landing/powered_community.png" alt="powered community badge"
+            src="/img/summit-landing/powered_community.png" alt="powered community badge"
           />
         </div>
         <StaticImage
           className="footer_image"
-          src="../../static/img/summit-landing/community.png"
+          src="/img/summit-landing/community.png"
           alt="community"
         />
       </div>

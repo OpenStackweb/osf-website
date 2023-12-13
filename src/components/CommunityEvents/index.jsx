@@ -14,14 +14,14 @@ const CommunityEvents = () => {
       key: 'ce-berlin',
       location: isSmallScreen ? 'Europe' : 'Berlin, Germany • Paris, France  • Istanbul, Turkey • Zurich, Switzerland',
       date: 'August, 2024',
-      background: 'img/summit-landing/community-events/berlin.png',
+      background: '/img/summit-landing/community-events/berlin.png',
       cardStyles: {width: isSmallScreen ? 'auto' : 900}
     },
     {
       key: 'ce-shanghai',
       location: 'Beijing, China',
       date: 'Dec 1, 2023',
-      background: 'img/summit-landing/community-events/shanghai.png',
+      background: '/img/summit-landing/community-events/shanghai.png',
       cardStyles: {width: isSmallScreen ? 'auto' : 460}
     }
   ];

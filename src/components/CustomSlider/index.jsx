@@ -47,8 +47,8 @@ const CustomSlider = ({title, sliderSettings, children}) => {
       <div className="header">
         <div className="title">{title}</div>
         <div className="arrows">
-          <img className="prev-arrow" src="img/slider-prev-arrow.png" alt="previous" onClick={prevSlide} />
-          <img className="next-arrow" src="img/slider-next-arrow.png" alt="next" onClick={nextSlide} />
+          <img className="prev-arrow" src="/img/slider-prev-arrow.png" alt="previous" onClick={prevSlide} />
+          <img className="next-arrow" src="/img/slider-next-arrow.png" alt="next" onClick={nextSlide} />
         </div>
       </div>
       <Slider {...settings} ref={sliderRef}>

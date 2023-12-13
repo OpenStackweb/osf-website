@@ -30,6 +30,9 @@
         font-family: 'Roboto Condensed', sans-serif;
         display: inline-block;
         margin-bottom: 37px;
+        @media (max-width: 767px) {
+            font-size: 40px;
+        }
     }
     .sponsor-banner-button {
         display: inline-flex;

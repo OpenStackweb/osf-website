@@ -16,6 +16,7 @@ import SummitCard from "../components/SummitCard";
 import summitCardAsia from '../../static/img/summit-landing/cards/summit-asia.png';
 import summitCardEurope from '../../static/img/summit-landing/cards/summit-europe25.png';
 import CommunityEvents from "../components/CommunityEvents";
+import SimpleHeader from "../components/SimpleHeader";
 
 export const SponsorshipPageTemplate = ({
                                        isLoggedUser,
@@ -30,9 +31,13 @@ export const SponsorshipPageTemplate = ({
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
       </div>
-
       <main className="main">
         <div className="content">
+          <SimpleHeader
+            title="BECOME A SPONSOR"
+            subtitle="SUPPORT THE NEXT DECADE OF OPEN INFRAESTRUCTURE"
+            backgroundImage="/img/sponsorship/summit-marketplace.png"
+          />
         </div>
       </main>
     </div>

@@ -33,7 +33,7 @@
   Cache-Control = "public, max-age=0, must-revalidate"
 [[redirects]]
   from = "/summit"
-  to = "/summit/vancouver-2023"
+  to = "/blog/openinfra-events-2024"
   status = 301
   force = true
 [[redirects]]

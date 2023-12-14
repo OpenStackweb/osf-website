@@ -90,6 +90,8 @@ The [OpenInfra Travel Support Program](https://donate.stripe.com/8wMbLU6Qh8v8fVC
 
 If you have questions, please reach out to [events@openinfra.dev](mailto:events@openinfra.dev) or [sign up for updates](https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates) to learn more.
 
+<div id="kr"></div>
+
 ## 커뮤니티 주도의 오픈인프라 서밋 아시아 2024
 
 지난 10년간, 오픈인프라 서밋(이전에는 오픈스택 서밋으로 진행)은 전 세계 커뮤니티가 협력할 수 있는 핵심적인 기회를 제공했습니다. 다음 10년의 오픈 인프라를 구축하기 위해, 앞으로의 오픈인프라 서밋은 지역의 커뮤니티에 의해, 그리고 커뮤니티를 위해 만들어져 나갈 것입니다. 지역의 커뮤니티 구성원이 직접 주도하여 리눅스, 오픈스택, 쿠버네티스를 포함한 30여 가지 기술을 사용하여 오픈 소스 인프라를 구축하고 운영하는 사람들이 서로 협력할 수 있는 자리를 만들게 됩니다. 오픈 인프라 서밋의 참여자들은 대략 60개국, 수백 개의 조직을 대표하며, 주요 산업 리더의 키노트 발표, 세션 발표, 운영자 및 개발자와의 토론 포럼, 그리고 복도에서 펼쳐지는 오픈 소스의 열정적인 팬들의 활발한 네트워킹에 참여하게 됩니다.

@@ -14,7 +14,7 @@ const SponsorBanner = () => {
                 the next decade of open <br/>
                 infraestructure?
             </span>
-            <a href="/" className="sponsor-banner-button">
+            <a href="/events/sponsorship" className="sponsor-banner-button">
               <span className="btn-arrow">More Info</span>
             </a>
         </div>

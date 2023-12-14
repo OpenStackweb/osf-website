@@ -16,7 +16,7 @@ import SummitCard from "../components/SummitCard";
 import CommunityEvents from "../components/CommunityEvents";
 import UpcomingSummits from "../components/UpcomingSummits";
 import MeetupBanner from "../components/MeetupBanner";
-import SubscribeBanner from "../components/SubscribeBanner";
+import BottomBanner from "../components/BottomBanner";
 
 export const SummitLandingPageTemplate = ({
                                        isLoggedUser,
@@ -37,7 +37,7 @@ export const SummitLandingPageTemplate = ({
         <MeetupBanner />
         <CommunityEvents />
         <PreviousSummits />
-        <SubscribeBanner />
+        <BottomBanner title={'Subscribe to our newsletter<br/>& keep upp to date with the latest<br/>News about the Summits.'} button={{href: '', text: 'Sign Me Up'}}/>
       </div>
 
       <main className="main">

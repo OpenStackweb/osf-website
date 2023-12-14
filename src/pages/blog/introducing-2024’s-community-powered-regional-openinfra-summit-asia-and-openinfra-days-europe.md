@@ -3,11 +3,11 @@ templateKey: blog-post
 title: Introducing 2024’s Community-Powered, Regional OpenInfra Summit Asia and
   OpenInfra Days Europe
 author: Allison Price
-date: 2023-12-12T19:04:58.408Z
+date: 2023-12-14T15:15:26.004Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: Introducing 2024’s Community-Powered, Regional OpenInfra Summit Asia and
     OpenInfra Days Europe

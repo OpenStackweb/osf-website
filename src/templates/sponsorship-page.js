@@ -1,24 +1,13 @@
 import React from "react";
-import { graphql } from 'gatsby';
-import { connect } from 'react-redux'
 import { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
 import NavbarV2 from "../components/NavbarV2";
 import SEO from "../components/SEO";
-import HeaderImage from "../components/HeaderImage";
-import hero from '../../static/img/summit-landing/summit-landing-hero.png';
-import SponsorBanner from "../components/SponsorBanner";
-import SubHeader from "../components/SubHeader";
-import PreviousSummits from "../components/PreviousSummits";
-import SummitCard from "../components/SummitCard";
-
-import summitCardAsia from '../../static/img/summit-landing/cards/summit-asia.png';
-import summitCardEurope from '../../static/img/summit-landing/cards/summit-europe25.png';
-import CommunityEvents from "../components/CommunityEvents";
 import SimpleHeader from "../components/SimpleHeader";
 import GenericBanner from "../components/GenericBanner";
 import BottomBanner from "../components/BottomBanner";
+import SponsorshipSection from "../components/SponsorshipSection";
 
 export const SponsorshipPageTemplate = ({
                                        isLoggedUser,
@@ -40,7 +29,7 @@ export const SponsorshipPageTemplate = ({
             subtitle="SUPPORT THE NEXT DECADE OF OPEN INFRAESTRUCTURE"
             backgroundImage="/img/sponsorship/summit-marketplace.png"
           />
-          <GenericBanner 
+          <GenericBanner
             upperText='Not a member?'
             text='Learn how to join the OpenInfra Foundation'
             button={{ link: '/join/members/', text: 'BECOME A MEMBER'}}
@@ -54,6 +43,16 @@ export const SponsorshipPageTemplate = ({
           <BottomBanner 
             title={'Subscribe to our newsletter <br/>& keep up to date with the latest<br/>News about the Summits.'}
             button={{ link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates', text: 'SIGN ME UP' }}
+          />
+          <SponsorshipSection
+            title="OPENINFRA SUMMIT ASIA"
+            overview="SPONSORSHIP OPPORTUNITIES"
+            sponsorships={[
+              {
+                title: ["September 2 & 3, 2024", "Suwon Convention Center", "Suwon, South Korea"],
+                plans: ["GOLD", "PLATINUM", "DIAMOND"]
+              }
+            ]}
           />
         </div>
       </main>

@@ -7,14 +7,14 @@ import SummitCard from '../SummitCard';
 const UPCOMING_SUMMITS = [
     {
         key: 'asia-24',
-        background: 'img/summit-landing/cards/summit-asia.png',
+        background: '/img/summit-landing/cards/summit-asia.png',        
         date: 'September 2 & 3, 2024',
         location: 'Suwon Convention Center, Suwon, South Korea',
         notification: true
     },
     {
         key: 'europe-25',
-        background: 'img/summit-landing/cards/summit-europe25.png',
+        background: '/img/summit-landing/cards/summit-europe25.png',
         date: '2025',
         location: 'Berlin, Germany'
     }

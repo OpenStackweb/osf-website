@@ -89,3 +89,29 @@ Registration: Free</td>
 The [OpenInfra Travel Support Program](https://donate.stripe.com/8wMbLU6Qh8v8fVC9AE) is another way you can support OpenInfra events. Donations made are directly used to fund active contributors to OpenInfra events around the world. The OpenInfra Foundation will work with the organizers to allocate the funding. 
 
 If you have questions, please reach out to [events@openinfra.dev](mailto:events@openinfra.dev) or [sign up for updates](https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates) to learn more.
+
+## 커뮤니티 주도의 오픈인프라 서밋 아시아 2024
+
+지난 10년간, 오픈인프라 서밋(이전에는 오픈스택 서밋으로 진행)은 전 세계 커뮤니티가 협력할 수 있는 핵심적인 기회를 제공했습니다. 다음 10년의 오픈 인프라를 구축하기 위해, 앞으로의 오픈인프라 서밋은 지역의 커뮤니티에 의해, 그리고 커뮤니티를 위해 만들어져 나갈 것입니다. 지역의 커뮤니티 구성원이 직접 주도하여 리눅스, 오픈스택, 쿠버네티스를 포함한 30여 가지 기술을 사용하여 오픈 소스 인프라를 구축하고 운영하는 사람들이 서로 협력할 수 있는 자리를 만들게 됩니다. 오픈 인프라 서밋의 참여자들은 대략 60개국, 수백 개의 조직을 대표하며, 주요 산업 리더의 키노트 발표, 세션 발표, 운영자 및 개발자와의 토론 포럼, 그리고 복도에서 펼쳐지는 오픈 소스의 열정적인 팬들의 활발한 네트워킹에 참여하게 됩니다.
+
+커뮤니티 기반의 지역 오픈인프라 서밋은 2024년 한국 커뮤니티 운영진들과 아시아 다양한 지역의 커뮤니티 운영진들과의 협력을 통해 시범 운영될 예정입니다.
+
+<p style="text-align: center;"><strong>오픈인프라 서밋 아시아</strong><br/>
+2024년 9월 3일(화) - 4일(수)<br/>
+수원, 대한민국<br/>
+<a href="https://www.scc.or.kr/">수원 컨벤션 센터</a></p>
+<p style="text-align: center;"><i>참가 신청은 추후 공개됩니다!</i></p>
+
+이 행사에 후원사가 되고 싶으시면, 후원사 옵션을 확인하시고 [알림 신청 폼](https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates)에 정보를 등록하여 후원사 모집이 시작될 때 행사에 대한 세부 사항을 받아보세요.
+
+*아래 가격은 한국에 본사를 둔 기업 전용이며, 세금은 포함되어 있지 않습니다.*
+
+|           | **가격**      |
+| --------- | ----------- |
+| **다이아몬드** | ₩40,000,000 |
+| **플래티넘**  | ₩20,000,000 |
+| **골드**    | ₩13,000,000 |
+| **실버**    | ₩7,000,000  |
+
+*\*\* OpenInfra 재단 멤버십에 대한 더 많은 정보를 원하신다면 [ecosystem@openinfra.dev](mailto:ecosystem@openinfra.dev)로 문의해주세요.*<br/>
+\*\** *스타트업에서 후원을 원할 경우 [openstack-kr@openstack-kr.org](mailto:openstack-kr@openstack-kr.org)로 문의주시기 바랍니다.*

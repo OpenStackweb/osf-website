@@ -17,6 +17,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 16px 16px 0 0;
+    @media (max-width: 767px) {
+      height: 187px;
+      background-size: contain;
+    }
   }
   .summit-card-info {
     min-height: 73px;
@@ -26,6 +30,10 @@
     letter-spacing: -2%;
     font-family: "Roboto Flex", sans-serif;
     align-items: center;
+
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
 
     .summit-card-info-wrapper {
       display: inline-flex;
@@ -40,6 +48,9 @@
     span:first-of-type {
       font-size: 20px;
       margin-right: 25px;
+      @media (max-width: 767px) {
+        font-size: 16px;
+      }
     }
     img {
       padding-right: 10px;
@@ -63,6 +74,9 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 15px;
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
   }
   .summit-card-button {
     display: inline-flex;
@@ -93,6 +107,10 @@
     }
     &:hover {
       text-decoration: none;
+    }
+    @media (max-width: 767px) {
+      height: 42px;
+      width: 160px;
     }
   }
 }

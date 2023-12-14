@@ -1,9 +1,9 @@
 import React from 'react'
 
-import calendarIcon from '../../static/img/summit-landing/icons/calendar-icon.svg'
-import locationIcon from '../../static/img/summit-landing/icons/location-icon.svg'
+import calendarIcon from '../../../static/img/summit-landing/icons/calendar-icon.svg'
+import locationIcon from '../../../static/img/summit-landing/icons/location-icon.svg'
 
-import '../style/modules/_summit-card.scss'
+import './styles.scss'
 
 const SummitCard = ({ background, date, location, notification = false, cardStyles }) => {
     return (
@@ -15,7 +15,7 @@ const SummitCard = ({ background, date, location, notification = false, cardStyl
                         <img src={calendarIcon} /> {date}
                     </span>
                     <span>
-                        <img src={locationIcon} /> {location} 
+                        <img src={locationIcon} /> {location}
                     </span>
                 </div>
             </div>

@@ -5,11 +5,19 @@ import locationIcon from '../../../static/img/summit-landing/icons/location-icon
 
 import './styles.scss'
 
-const SummitCard = ({ background, date, location, notification = false, cardStyles }) => {
+
+const SummitCard = ({ background, summit, cardStyles }) => {
+
+    console.log('summit...', summit);
+
+    if (!summit) return null
+
+    const { date, location, notification } = summit;
+
     return (
         <section className='summit-card-wrapper' style={cardStyles}>
             <div className="summit-card-image" style={{ backgroundImage: `url(${background}` }}></div>
-            <div className={`summit-card-info ${notification ? '' : 'no-notification'}`}>
+            <div className={`summit-card-info ${notification?.text ? '' : 'no-notification'}`}>
                 <div className='summit-card-info-wrapper'>
                     <span>
                         <img src={calendarIcon} /> {date}
@@ -19,14 +27,14 @@ const SummitCard = ({ background, date, location, notification = false, cardStyl
                     </span>
                 </div>
             </div>
-            {notification &&
+            {notification?.text &&
                 <div className="summit-card-notification">
-                    <span>
-                        <b>Get ready!</b> The Call for presentations will open up in Q1 of 2024.
-                    </span>
-                    <a href="/" className="summit-card-button">
-                        <span className="btn-arrow">Get Notified</span>
-                    </a>
+                    <span dangerouslySetInnerHTML={{ __html: notification.text }} />
+                    {notification?.button.text &&
+                        <a href={notification.button.link} className="summit-card-button">
+                            <span className="btn-arrow">{notification.button.text}</span>
+                        </a>
+                    }
                 </div>
             }
         </section>

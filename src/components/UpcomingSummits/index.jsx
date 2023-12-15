@@ -10,13 +10,20 @@ const UPCOMING_SUMMITS = [
         background: '/img/summit-landing/cards/summit-asia.png',        
         date: 'September 2 & 3, 2024',
         location: 'Suwon Convention Center, Suwon, South Korea',
-        notification: true
+        notification: {
+            text: '<b>Get ready!</b> The Call for presentations will open up in Q1 of 2024.',
+            button: {
+                link: '#',
+                text: 'Get Notified'
+            }
+        }
     },
     {
         key: 'europe-25',
         background: '/img/summit-landing/cards/summit-europe25.png',
         date: '2025',
-        location: 'Berlin, Germany'
+        location: 'Berlin, Germany',
+        notification: null
     }
 ];
 
@@ -28,9 +35,7 @@ const UpcomingSummits = () => {
                 <SummitCard 
                     key={summit.key}
                     background={summit.background}
-                    date={summit.date}
-                    location={summit.location}
-                    notification={summit.notification} />
+                    summit={summit} />
             )}
         </div>
     )

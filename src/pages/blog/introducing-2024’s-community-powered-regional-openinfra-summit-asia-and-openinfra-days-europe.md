@@ -90,14 +90,7 @@ The [OpenInfra Travel Support Program](https://donate.stripe.com/8wMbLU6Qh8v8fVC
 
 If you have questions, please reach out to [events@openinfra.dev](mailto:events@openinfra.dev) or [sign up for updates](https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates) to learn more.
 
-<div id="kr" style="
-
-```xml
-  padding-top: 40px;
-  margin-top: -40px;
-```
-
-\></div>
+<div id="kr" style="padding-top: 40px; margin-top:-40px"></div>
 
 ## 커뮤니티 주도의 오픈인프라 서밋 아시아 2024
 

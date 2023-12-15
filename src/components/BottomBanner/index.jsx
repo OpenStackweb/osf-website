@@ -9,7 +9,7 @@ const BottomBanner = ({ title, button }) => (
     <section className='subscribe-banner-wrapper' style={{ backgroundImage: `url(${background}` }}>
         <div className="container subscribe-banner-container">
             <span className='subscribe-banner-title' dangerouslySetInnerHTML={{ __html: title }} />
-            <LinkComponent href={button.href} className="subscribe-banner-button">
+            <LinkComponent href={button.link} className="subscribe-banner-button">
                 <span className="btn-arrow">{button.text}</span>
             </LinkComponent>
         </div>

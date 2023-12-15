@@ -17,6 +17,8 @@ import summitCardAsia from '../../static/img/summit-landing/cards/summit-asia.pn
 import summitCardEurope from '../../static/img/summit-landing/cards/summit-europe25.png';
 import CommunityEvents from "../components/CommunityEvents";
 import SimpleHeader from "../components/SimpleHeader";
+import GenericBanner from "../components/GenericBanner";
+import BottomBanner from "../components/BottomBanner";
 
 export const SponsorshipPageTemplate = ({
                                        isLoggedUser,
@@ -37,6 +39,15 @@ export const SponsorshipPageTemplate = ({
             title="BECOME A SPONSOR"
             subtitle="SUPPORT THE NEXT DECADE OF OPEN INFRAESTRUCTURE"
             backgroundImage="/img/sponsorship/summit-marketplace.png"
+          />
+          <GenericBanner 
+            upperText='Not a member?'
+            text='Learn how to join the OpenInfra Foundation'
+            button={{ link: '/join/members/', text: 'BECOME A MEMBER'}}
+          />
+          <BottomBanner 
+            title={'Subscribe to our newsletter <br/>& keep up to date with the latest<br/>News about the Summits.'}
+            button={{ link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates', text: 'SIGN ME UP' }}
           />
         </div>
       </main>

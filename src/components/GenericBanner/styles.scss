@@ -4,9 +4,19 @@
   text-transform: uppercase;
   height: 350px;
   padding: 70px 0;
+  margin-bottom: 90px;
+  &-rounded {
+    border-radius: 14px;    
+  }
   @media (max-width: 1023px) {
     padding: 30px 0;
   }
+}
+.generic-banner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .generic-banner-content {
   display: flex;

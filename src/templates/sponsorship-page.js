@@ -45,6 +45,12 @@ export const SponsorshipPageTemplate = ({
             text='Learn how to join the OpenInfra Foundation'
             button={{ link: '/join/members/', text: 'BECOME A MEMBER'}}
           />
+          <GenericBanner 
+            upperText=''
+            text='Have any questions about sponsoring the events?'
+            button={{ link: '', text: 'contact us'}}
+            fullwidth={false}
+          />
           <BottomBanner 
             title={'Subscribe to our newsletter <br/>& keep up to date with the latest<br/>News about the Summits.'}
             button={{ link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates', text: 'SIGN ME UP' }}

@@ -6,6 +6,8 @@ import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
 import NavbarV2 from "../components/NavbarV2";
 import SEO from "../components/SEO";
+import MeetupBanner from "../components/MeetupBanner";
+import BottomBanner from "../components/BottomBanner";
 
 export const OpenInfraDaysPageTemplate = ({
                                           isLoggedUser,
@@ -25,6 +27,9 @@ export const OpenInfraDaysPageTemplate = ({
           <p>{title}</p>
           <p>CONTENT HERE</p>
         </div>
+        <MeetupBanner />
+        <BottomBanner title={'Interested in becoming<br/>a Community Organizer?<br/>Contact us at events@openinfra.dev'} 
+          button={{link: '', text: 'Events Contact'}} />
       </main>
     </div>
   )

@@ -8,6 +8,7 @@ import NavbarV2 from "../components/NavbarV2";
 import SEO from "../components/SEO";
 import MeetupBanner from "../components/MeetupBanner";
 import BottomBanner from "../components/BottomBanner";
+import SpecialEditionSection from "../components/SpecialEditionSection";
 
 export const OpenInfraDaysPageTemplate = ({
                                           isLoggedUser,
@@ -25,7 +26,7 @@ export const OpenInfraDaysPageTemplate = ({
       <main className="main">
         <div className="content">
           <p>{title}</p>
-          <p>CONTENT HERE</p>
+          <SpecialEditionSection />
         </div>
         <MeetupBanner />
         <BottomBanner title={'Interested in becoming<br/>a Community Organizer?<br/>Contact us at events@openinfra.dev'} 

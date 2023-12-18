@@ -1,4 +1,5 @@
 import React from 'react'
+import SponsorshipCard from "./SponsorshipCard";
 
 import './styles.scss';
 
@@ -17,7 +18,7 @@ const SponsorshipSection = ({overview, title, subtitle, sponsorships}) => {
                 {s.title.map(sub => <p>{sub}</p>)}
               </div>
               <div className="subsection-plans">
-                {s.plans.map(plan => <div>{plan}</div>)}
+                {s.plans.map(plan => <SponsorshipCard {...plan} />)}
               </div>
             </div>
           )}

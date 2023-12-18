@@ -1,4 +1,6 @@
 import React from "react";
+import { graphql } from 'gatsby';
+import { connect } from 'react-redux'
 import { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import TopBar from "../components/TopBar";
@@ -9,6 +11,7 @@ import GenericBanner from "../components/GenericBanner";
 import BottomBanner from "../components/BottomBanner";
 import SponsorshipSection from "../components/SponsorshipSection";
 
+import '../style/sponsorship-page.scss';
 
 
 const SPONSORSHIPS = [
@@ -149,16 +152,26 @@ export const SponsorshipPageTemplate = ({
         <NavbarV2 isLoggedUser={isLoggedUser} />
       </div>
       <main className="main">
-        <div className="content">
+        <div className="content sponsorship-page-content">
           <SimpleHeader
             title="BECOME A SPONSOR"
             subtitle="SUPPORT THE NEXT DECADE OF OPEN INFRAESTRUCTURE"
             backgroundImage="/img/sponsorship/summit-marketplace.png"
           />
+          <SponsorshipSection
+            title="OPENINFRA SUMMIT ASIA"
+            overview="SPONSORSHIP OPPORTUNITIES"
+            sponsorships={SPONSORSHIPS}
+          />
           <GenericBanner
             upperText='Not a member?'
             text='Learn how to join the OpenInfra Foundation'
             button={{ link: '/join/members/', text: 'BECOME A MEMBER'}}
+          />
+          <SponsorshipSection
+            title="OPENINFRA DAYS SPECIAL EDITION"
+            overview="SPONSORSHIP OPPORTUNITIES"
+            sponsorships={SPONSORSHIPS_DAYS}
           />
           <GenericBanner 
             upperText=''
@@ -170,16 +183,7 @@ export const SponsorshipPageTemplate = ({
             title={'Subscribe to our newsletter <br/>& keep up to date with the latest<br/>News about the Summits.'}
             button={{ link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates', text: 'SIGN ME UP' }}
           />
-          <SponsorshipSection
-            title="OPENINFRA SUMMIT ASIA"
-            overview="SPONSORSHIP OPPORTUNITIES"
-            sponsorships={SPONSORSHIPS}
-          />
-          <SponsorshipSection
-            title="OPENINFRA DAYS SPECIAL EDITION"
-            overview="SPONSORSHIP OPPORTUNITIES"
-            sponsorships={SPONSORSHIPS_DAYS}
-          />
+
         </div>
       </main>
     </div>

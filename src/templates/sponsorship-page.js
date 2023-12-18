@@ -9,6 +9,132 @@ import GenericBanner from "../components/GenericBanner";
 import BottomBanner from "../components/BottomBanner";
 import SponsorshipSection from "../components/SponsorshipSection";
 
+
+
+const SPONSORSHIPS = [
+  {
+    title: ["September 2 & 3, 2024", "Suwon Convention Center", "Suwon, South Korea"],
+    plans: [
+      {
+        title: 'diamond',
+        priceMember: '$ 35.000',
+        priceNonMember: '$ 42.000',
+        color: '#43B85C',
+        items: [
+          {title: 'thing 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 4', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 5', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 6', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+        ]
+      },
+      {
+        title: 'platinum',
+        priceMember: '$ 35.000',
+        priceNonMember: '$ 42.000',
+        color: '#28A4DB',
+        items: [
+          {title: 'thing 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 4', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+        ]
+      },
+      {
+        title: 'gold',
+        priceMember: '$ 130.000',
+        priceNonMember: '$ 140.000',
+        color: '#F7B749',
+        items: [
+          {title: 'thing 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+        ]
+      },
+      {
+        title: 'category 4',
+        priceMember: '$ 130.000',
+        priceNonMember: '$ 140.000',
+        color: '#FF0A1B',
+        items: [
+          {title: 'thing 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+        ]
+      },
+      {
+        title: 'category 5',
+        priceMember: '$ 130.000',
+        priceNonMember: '$ 140.000',
+        color: '#888888',
+        items: [
+          {title: 'thing 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+        ]
+      },
+      {
+        title: 'category 6',
+        priceMember: '$ 130.000',
+        priceNonMember: '$ 140.000',
+        color: '#CBCBCB',
+        items: [
+          {title: 'thing 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+        ]
+      }
+    ]
+  }
+  ]
+const SPONSORSHIPS_DAYS = [
+  {
+    title: ["OpenInfra Days Turkiye - May 20, 2024", "Garanti Cultural Center, Boğaziçi University - Istanbul, Turkiye"],
+    plans: [
+      {
+        title: 'platinum',
+        priceMember: '$ 90.000',
+        priceNonMember: '$ 100.000',
+        color: '#28A4DB',
+        items: [
+          {title: 'thing 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+        ]
+      },
+      {
+        title: 'gold',
+        priceMember: '$ 130.000',
+        priceNonMember: '$ 140.000',
+        color: '#F7B749',
+        items: [
+          {title: 'thing 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+        ]
+      },
+    ]
+  },
+  {
+    title: ["OpenInfra Day Sweden - May 7, 2024", "Volvohallen, Gothenburg, Sweden"],
+    plans: [
+      {
+        title: 'gold',
+        priceMember: '$ 130.000',
+        priceNonMember: '$ 140.000',
+        color: '#F7B749',
+        items: [
+          {title: 'thing 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'thing 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+        ]
+      }
+    ]
+  }
+]
+
+
 export const SponsorshipPageTemplate = ({
                                        isLoggedUser,
                                        title,
@@ -47,12 +173,12 @@ export const SponsorshipPageTemplate = ({
           <SponsorshipSection
             title="OPENINFRA SUMMIT ASIA"
             overview="SPONSORSHIP OPPORTUNITIES"
-            sponsorships={[
-              {
-                title: ["September 2 & 3, 2024", "Suwon Convention Center", "Suwon, South Korea"],
-                plans: ["GOLD", "PLATINUM", "DIAMOND"]
-              }
-            ]}
+            sponsorships={SPONSORSHIPS}
+          />
+          <SponsorshipSection
+            title="OPENINFRA DAYS SPECIAL EDITION"
+            overview="SPONSORSHIP OPPORTUNITIES"
+            sponsorships={SPONSORSHIPS_DAYS}
           />
         </div>
       </main>

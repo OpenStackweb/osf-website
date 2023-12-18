@@ -11,7 +11,7 @@ seo:
   description: The Apereo Foundation has joined the Open Infrastructure Foundation
     (OpenInfra Foundation) as an Associate Member.
   title: "Apereo Foundation Joins the Open Infrastructure Foundation "
-  url: openinfra.dev/blog/apereo-foundation-joins-the-openinfra-foundation
+  url: https://openinfra.dev/blog/openinfra.dev/blog/apereo-foundation-joins-the-openinfra-foundation
   twitterUsername: twitter.com/openinfradev
 ---
 The Apereo Foundation, a global open source software community serving higher education institutions, is proud to announce its newest milestone in fostering open source collaboration and community growth within and for higher education. The Apereo Foundation has joined the Open Infrastructure Foundation (OpenInfra Foundation) as an Associate Member.\

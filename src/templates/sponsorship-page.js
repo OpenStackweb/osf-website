@@ -48,7 +48,7 @@ export const SponsorshipPageTemplate = ({
           <GenericBanner 
             upperText=''
             text='Have any questions about<br/>sponsoring the events?'
-            button={{ link: '', text: 'contact us'}}
+            button={{ link: 'mailto:summit@openinfra.dev', text: 'contact us'}}
             fullwidth={false}
           />
           <BottomBanner 

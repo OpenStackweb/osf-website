@@ -9,6 +9,11 @@ import SEO from "../components/SEO";
 import MeetupBanner from "../components/MeetupBanner";
 import BottomBanner from "../components/BottomBanner";
 import SpecialEditionSection from "../components/SpecialEditionSection";
+import UpcomingSummits from "../components/UpcomingSummits";
+import HeaderImage from "../components/HeaderImage";
+import SubHeaderDays from "../components/SubHeaderDays";
+
+import hero from '../../static/img/openinfra-days/openinfra-days-header.png';
 
 export const OpenInfraDaysPageTemplate = ({
                                           isLoggedUser,
@@ -22,6 +27,8 @@ export const OpenInfraDaysPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
+        <HeaderImage backgroundImage={hero} />
+        <SubHeaderDays button={{text: 'Check out upcoming events', link: ''}}/>
       </div>
       <main className="main">
         <div className="content">
@@ -29,6 +36,7 @@ export const OpenInfraDaysPageTemplate = ({
           <SpecialEditionSection />
         </div>
         <MeetupBanner />
+        <UpcomingSummits />
         <BottomBanner title={'Interested in becoming<br/>a Community Organizer?<br/>Contact us at events@openinfra.dev'} 
           button={{link: '', text: 'Events Contact'}} />
       </main>

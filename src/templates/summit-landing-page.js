@@ -38,13 +38,12 @@ export const SummitLandingPageTemplate = ({
           title={'inclusive. diverse. open'}
           text={`We are a diverse community of professionals, and the OpenInfra Summit organizers are dedicated to providing an 
           inclusive and safe Summit experience for everyone. View the <a href="/legal/code-of-conduct">OpenInfra Summit Code of Conduct</a> for more information.`}
-          button={{ text: 'Read more', link: '/legal/code-of-conduct' }}
           image={'/img/summit-landing/middle-banner/middle-banner-1.png'}
           imageFirst={false}
         />
         <MiddleBanner
           title={'have questions?'}
-          text={`Contact the Openinfra Foundation and OpenInfra Summit Asia organizers <a href="mailto:summit@openinfra.dev">summit@openinfra.dev</a>`}          
+          text={`Contact the Openinfra Foundation and OpenInfra Summit Asia organizers.`}
           button={{ text: 'Contact us', link: 'mailto:summit@openinfra.dev' }}
           image={'/img/summit-landing/middle-banner/middle-banner-2.png'}
           imageFirst={true}

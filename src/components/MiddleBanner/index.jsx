@@ -15,9 +15,11 @@ const MiddleBanner = ({ title, text, button, image, imageFirst = false }) => {
                             <span className='title'>{title}</span>
                             <span dangerouslySetInnerHTML={{ __html: text }} />
                         </span>
+                        { button?.link && button?.text &&
                         <LinkComponent href={button.link} target='_blank' className="middle-banner-button">
                             <span className="btn-arrow">{button.text}</span>
                         </LinkComponent>
+                        }
                     </div>
                     <div className='middle-banner-image-container'>
                         <img src={image} />

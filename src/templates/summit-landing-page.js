@@ -17,6 +17,7 @@ import CommunityEvents from "../components/CommunityEvents";
 import UpcomingSummits from "../components/UpcomingSummits";
 import MeetupBanner from "../components/MeetupBanner";
 import BottomBanner from "../components/BottomBanner";
+import MiddleBanner from "../components/MiddleBanner";
 
 export const SummitLandingPageTemplate = ({
                                        isLoggedUser,
@@ -32,12 +33,27 @@ export const SummitLandingPageTemplate = ({
         <NavbarV2 isLoggedUser={isLoggedUser} />
         <HeaderImage backgroundImage={hero} />
         <SubHeader />
-        <UpcomingSummits />
+        <UpcomingSummits title={'Upcoming Summits'} />
+        <MiddleBanner
+          title={'inclusive. diverse. open'}
+          text={`We are a diverse community of professionals, and the OpenInfra Summit organizers are dedicated to providing an 
+          inclusive and safe Summit experience for everyone. View the <a href="/legal/code-of-conduct">OpenInfra Summit Code of Conduct</a> for more information.`}
+          button={{ text: 'Read more', link: '/legal/code-of-conduct' }}
+          image={'/img/summit-landing/middle-banner/middle-banner-1.png'}
+          imageFirst={false}
+        />
+        <MiddleBanner
+          title={'have questions?'}
+          text={`Contact the Openinfra Foundation and OpenInfra Summit Asia organizers <a href="mailto:summit@openinfra.dev">summit@openinfra.dev</a>`}          
+          button={{ text: 'Contact us', link: 'mailto:summit@openinfra.dev' }}
+          image={'/img/summit-landing/middle-banner/middle-banner-2.png'}
+          imageFirst={true}
+        />
         <SponsorBanner />
         <MeetupBanner />
         <CommunityEvents />
         <PreviousSummits />
-        <BottomBanner title={'Subscribe to our newsletter<br/>& keep upp to date with the latest<br/>News about the Summits.'} button={{link: '', text: 'Sign Me Up'}}/>
+        <BottomBanner title={'Subscribe to our newsletter<br/>& keep upp to date with the latest<br/>News about the Summits.'} button={{ link: '', text: 'Sign Me Up' }} />
       </div>
 
       <main className="main">

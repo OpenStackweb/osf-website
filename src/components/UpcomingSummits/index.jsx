@@ -27,10 +27,10 @@ const UPCOMING_SUMMITS = [
     }
 ];
 
-const UpcomingSummits = () => {
+const UpcomingSummits = ({title}) => {
     return (
         <div className="container upcoming-summits-wrapper">
-            <div className='upcoming-summits-title'>Upcoming Summits</div>
+            <div className='upcoming-summits-title'>{title}</div>
             {UPCOMING_SUMMITS.map((summit) =>
                 <SummitCard 
                     key={summit.key}

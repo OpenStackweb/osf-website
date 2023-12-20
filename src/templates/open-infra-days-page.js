@@ -12,6 +12,7 @@ import SpecialEditionSection from "../components/SpecialEditionSection";
 import UpcomingSummits from "../components/UpcomingSummits";
 import HeaderImage from "../components/HeaderImage";
 import SubHeaderDays from "../components/SubHeaderDays";
+import MoreEventsSection from "../components/MoreEventsSection";
 
 import hero from '../../static/img/openinfra-days/openinfra-days-header.png';
 
@@ -34,6 +35,7 @@ export const OpenInfraDaysPageTemplate = ({
         <div className="content">
           <p>{title}</p>
           <SpecialEditionSection />
+          <MoreEventsSection />
         </div>
         <MeetupBanner />
         <UpcomingSummits />

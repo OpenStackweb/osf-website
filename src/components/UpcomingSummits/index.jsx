@@ -18,13 +18,13 @@ const UPCOMING_SUMMITS = [
             }
         }
     },
-    {
-        key: 'europe-25',
-        background: '/img/summit-landing/cards/summit-europe25.png',
-        date: '2025',
-        location: 'Berlin, Germany',
-        notification: null
-    }
+    // {
+    //     key: 'europe-25',
+    //     background: '/img/summit-landing/cards/summit-europe25.png',
+    //     date: '2025',
+    //     location: 'Berlin, Germany',
+    //     notification: null
+    // }
 ];
 
 const UpcomingSummits = ({title}) => {

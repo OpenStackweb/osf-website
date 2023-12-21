@@ -1,5 +1,5 @@
 import React from 'react'
-import OpenInfraDaysCard from "./OpenInfraDaysCard";
+import OpenInfraDaysCard from "./OpeninfraDaysCard";
 
 import './styles.scss';
 

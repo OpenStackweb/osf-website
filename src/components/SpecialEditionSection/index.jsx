@@ -77,6 +77,9 @@ const SpecialEditionSection = () => {
             ))}
           </div>
         </div>
+        <a href="/newsletter" className="button">
+          <span className="btn-arrow">sign up for updates</span>
+        </a>
       </div>
     </section>
   )

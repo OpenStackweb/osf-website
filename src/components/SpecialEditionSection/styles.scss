@@ -114,4 +114,52 @@
     }
   }
 
+  .button {
+    background-color: #e61e24;
+    display: inline-flex;
+    color: #ffffff;
+    font-family: "Jura", sans-serif;
+    font-size: 18px;
+    line-height: 135%;
+    font-weight: 700;
+    border-radius: 40px;
+    letter-spacing: 0.9px;
+    height: 72px;
+    padding: 0 66px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 50px;
+
+    .btn-arrow {
+      position: relative;
+      right: 15px;
+
+      &:after {
+        background-image: url("/img/homeV2/secondary-arrow-white.svg");
+        position: absolute;
+        content: "";
+        right: -30px;
+        height: 30px;
+        width: 30px;
+        top: -2px;
+      }
+    }
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    @media (max-width: 768px) {
+      height: auto;
+      width: auto;
+      padding: 15px 30px;
+      span {
+        font-size: 14px;
+      }
+    }
+  }
 }

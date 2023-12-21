@@ -33,7 +33,7 @@ export const SummitLandingPageTemplate = ({
         <NavbarV2 isLoggedUser={isLoggedUser} />
         <HeaderImage backgroundImage={hero} />
         <SubHeader />
-        <UpcomingSummits title={'Upcoming Summits'} />
+        <UpcomingSummits title={'Upcoming OpenInfra Summits'} />
         <MiddleBanner
           title={'inclusive. diverse. open'}
           text={`We are a diverse community of professionals, and the OpenInfra Summit organizers are dedicated to providing an 

@@ -9,6 +9,17 @@ const Tick = ({color}) => (
 );
 
 const SponsorshipCard = ({title, priceMember, priceNonMember, color, items}) => {
+
+  const getValue = (value) => {
+    if (value === false) {
+      return "-";
+    } else if (value === true) {
+      return <Tick color={color} />
+    } else {
+      return value
+    }
+  }
+
   return (
     <div className="sponsorship-card-wrapper">
       <div className="left-section" style={{backgroundColor: color}}>
@@ -26,10 +37,12 @@ const SponsorshipCard = ({title, priceMember, priceNonMember, color, items}) => 
       </div>
       <div className="right-section">
         {items.map(it => (
-          <div className="item">
-            <Tick color={color} />
-            <h4 className="item-title">{it.title}</h4>
-            <p className="item-description">{it.description}</p>
+          <div className={`item ${it.value === false ? 'disabled' : ''}`}>
+            <h4 className="item-title">
+              {it.title}{' '}
+            </h4>
+            {it.subtitle && <div className="item-subtitle">{it.subtitle}</div>}
+            <p className="item-value">{getValue(it.value)}</p>
           </div>
         ))}
       </div>

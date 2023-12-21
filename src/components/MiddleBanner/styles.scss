@@ -16,6 +16,11 @@
         flex-direction: row-reverse;
         justify-content: flex-end;
       }
+      .middle-banner-image-container {
+        img {
+          border-radius: 13px;
+        }
+      }
       div {
         width: 50%;
         grid-area: div;

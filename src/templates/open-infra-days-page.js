@@ -13,6 +13,7 @@ import UpcomingSummits from "../components/UpcomingSummits";
 import HeaderImage from "../components/HeaderImage";
 import SubHeaderDays from "../components/SubHeaderDays";
 import MoreEventsSection from "../components/MoreEventsSection";
+import OpenInfraDays from "../components/OpeninfraDays";
 
 import hero from '../../static/img/openinfra-days/openinfra-days-header.png';
 
@@ -37,6 +38,7 @@ export const OpenInfraDaysPageTemplate = ({
           <SpecialEditionSection />
           <MoreEventsSection />
         </div>
+        <OpenInfraDays title={'Openinfra Days'} />
         <MeetupBanner />
         <UpcomingSummits />
         <BottomBanner title={'Interested in becoming<br/>a Community Organizer?<br/>Contact us at events@openinfra.dev'} 

@@ -13,7 +13,7 @@ const CommunityEvents = () => {
     {
       key: 'ce-berlin',
       summit: {
-        location: isSmallScreen ? 'Europe' : 'Berlin, Germany • Paris, France  • Istanbul, Turkey • Zurich, Switzerland',
+        location: isSmallScreen ? 'Europe' : 'Berlin, Germany • Paris, France  • Istanbul, Turkiye • Zurich, Switzerland',
         date: 'August, 2024',
       },
       background: '/img/summit-landing/community-events/berlin.png',
@@ -32,7 +32,7 @@ const CommunityEvents = () => {
 
   return (
     <div className="container community-events-wrapper">
-      <CustomSlider title="More community driven events" sliderSettings={customSliderSettings}>
+      <CustomSlider title="More Community-Driven Events" sliderSettings={customSliderSettings}>
         {COMMUNITY_EVENTS.map(event =>
           <SummitCard {...event} />
         )}

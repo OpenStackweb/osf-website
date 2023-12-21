@@ -12,7 +12,7 @@ const SponsorBanner = () => {
         <span className='sponsor-banner-title'>
           Want to support <br />
           the next decade of open <br />
-          infraestructure?
+          infrastructure?
         </span>
         <RoundedButton link="/events/sponsorship" text={'More Info'} className="sponsor-banner-button" />
       </div>

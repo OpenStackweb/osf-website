@@ -52,7 +52,11 @@ export const SummitLandingPageTemplate = ({
         <MeetupBanner />
         <CommunityEvents />
         <PreviousSummits />
-        <BottomBanner title={'Subscribe to our newsletter<br/>& keep upp to date with the latest<br/>News about the Summits.'} button={{ link: 'https://openinfra.dev/newsletter/', text: 'Sign Me Up' }} />
+        <BottomBanner title={`
+          Subscribe to the OpenInfra newsletter<br/>
+          & keep up to date with the latest<br/>
+          OpenInfra Summit news.`} 
+          button={{ link: 'https://openinfra.dev/newsletter/', text: 'Sign Me Up' }} />
       </div>
 
       <main className="main">

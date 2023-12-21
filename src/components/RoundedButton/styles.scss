@@ -1,0 +1,41 @@
+.osf-button {
+  display: inline-flex;    
+  color: #ffffff;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 12px;  
+  border-radius: 40px;  
+  font-weight: 500;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-transform: capitalize;
+  align-items: center;
+  width: fit-content;
+  .btn-arrow {
+    position: relative;
+  }
+  .arrow-icon {
+    margin-left: -2px;
+  }  
+  .arrow-hover-icon {
+    display: none;
+  }
+  &:hover {
+    text-decoration: none;
+    color: #ffffff;
+    .arrow-icon {
+      display: none;
+    }
+    .arrow-hover-icon {
+      margin-left: -2px;
+      display: block;
+    }
+  }
+  @media (max-width: 991px) {
+    font-size: 16px !important;
+  }
+  @media (max-width: 501px) {
+    padding: 15px 30px !important;
+    font-size: 14px !important;
+  }
+}

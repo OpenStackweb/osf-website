@@ -2,7 +2,7 @@ import React from 'react'
 
 import background from '../../../static/img/summit-landing/meetup/meetup-banner.png'
 import openinfraUserGroup from '../../../static/img/summit-landing/meetup/openinfra-usergroup.svg'
-import LinkComponent from '../LinkComponent'
+import RoundedButton from '../RoundedButton'
 
 import './styles.scss'
 
@@ -13,11 +13,10 @@ const MeetupBanner = () => {
                 <div className='meetup-banner-content'>
                     <img src={openinfraUserGroup} />
                     <div>
-                        <LinkComponent href="https://www.meetup.com/pro/openinfradev/" target='_blank' className="meetup-banner-button">
-                            <span className="btn-arrow">find your local meetup</span>
-                        </LinkComponent>
+                        <RoundedButton link="https://www.meetup.com/pro/openinfradev/" text={'find your local meetup'}
+                            className="meetup-banner-button" />
                         <span>
-                            Interested in hosting a Meetup? <br/>
+                            Interested in hosting a Meetup? <br />
                             Contact us at <a href='mailto:events@openinfra.dev'>events@openinfra.dev</a>
                         </span>
                     </div>

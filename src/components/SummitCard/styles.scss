@@ -92,21 +92,11 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 180px;
-    .btn-arrow {
-      position: relative;
-      right: 15px;
-      &:after {
-        background-image: url("/img/homeV2/secondary-arrow-white.svg");
-        position: absolute;
-        content: "";
-        right: -30px;
-        height: 30px;
-        width: 30px;
-        top: -5px;
-      }
-    }
-    &:hover {
+    transition: all 0.3s;        
+    &:hover, &:focus {
       text-decoration: none;
+      background-color: #9a0d28;
+      border: 1px solid #9a0d28;
     }
     @media (max-width: 767px) {
       height: 42px;

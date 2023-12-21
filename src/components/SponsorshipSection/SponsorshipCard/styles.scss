@@ -88,6 +88,12 @@
     .item {
       padding: 20px;
 
+      &.disabled {
+        .item-title, .item-subtitle, .item-value {
+          color: #DBDBDB !important;
+        }
+      }
+
       @media (min-width: 767px) {
         width: 50%;
       }
@@ -96,8 +102,8 @@
         width: 33%;
       }
 
-      h4 {
-        margin: 20px 0;
+      .item-title {
+        margin: 20px 0 0;
         font-family: 'Roboto Condensed', sans-serif;
         font-weight: bold;
         font-size: 16px;
@@ -106,10 +112,23 @@
           font-size: 20px;
         }
       }
-      p {
+
+      .item-subtitle {
+        font-family: 'Roboto Condensed', sans-serif;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: normal;
+
+        @media (min-width: 1024px) {
+          font-size: 14px;
+        }
+      }
+
+      .item-value {
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 12px;
         font-weight: 200;
+        margin-top: 15px;
 
         @media (min-width: 1024px) {
           font-size: 16px;

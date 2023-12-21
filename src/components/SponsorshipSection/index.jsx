@@ -3,7 +3,7 @@ import SponsorshipCard from "./SponsorshipCard";
 
 import './styles.scss';
 
-const SponsorshipSection = ({overview, title, subtitle, sponsorships}) => {
+const SponsorshipSection = ({overview, title, sponsorships}) => {
   return (
     <section className="sponsorship-section-wrapper">
       <div className="container">

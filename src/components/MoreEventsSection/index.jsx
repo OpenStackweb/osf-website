@@ -1,5 +1,4 @@
 import React from 'react'
-import {StaticImage} from "gatsby-plugin-image";
 import './styles.scss';
 
 
@@ -31,6 +30,7 @@ const MoreEventsSection = () => {
             </div>
           ))}
         </div>
+
       </div>
     </section>
   )

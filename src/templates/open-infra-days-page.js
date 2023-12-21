@@ -29,21 +29,22 @@ export const OpenInfraDaysPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
-        <HeaderImage backgroundImage={hero} />
-        <SubHeaderDays button={{text: 'Check out upcoming events', link: ''}}/>
+        <main className="main">
+          <div className="content">
+            <HeaderImage backgroundImage={hero} />
+            <SubHeaderDays button={{text: 'Check out upcoming events', link: ''}}/>
+            <SpecialEditionSection />
+            <OpenInfraDays title="Openinfra Days" />
+            <MeetupBanner />
+            <MoreEventsSection />
+            <UpcomingSummits />
+            <BottomBanner
+              title={'Interested in becoming<br/>a Community Organizer?<br/>Contact us at events@openinfra.dev'}
+              button={{link: '', text: 'Events Contact'}}
+            />
+          </div>
+        </main>
       </div>
-      <main className="main">
-        <div className="content">
-          <p>{title}</p>
-          <SpecialEditionSection />
-          <MoreEventsSection />
-        </div>
-        <OpenInfraDays title={'Openinfra Days'} />
-        <MeetupBanner />
-        <UpcomingSummits />
-        <BottomBanner title={'Interested in becoming<br/>a Community Organizer?<br/>Contact us at events@openinfra.dev'} 
-          button={{link: '', text: 'Events Contact'}} />
-      </main>
     </div>
   )
 }

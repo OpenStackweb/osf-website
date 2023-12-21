@@ -2,7 +2,7 @@
   background-color: #000000;
   color: #ffffff;
   text-transform: uppercase;
-  height: 350px;
+  min-height: 350px;
   padding: 70px 0;
   margin-bottom: 90px;
   &-rounded {
@@ -13,7 +13,7 @@
     }
   }
   @media (max-width: 1023px) {
-    padding: 30px 0;
+    padding: 30px;
   }
 }
 .generic-banner {

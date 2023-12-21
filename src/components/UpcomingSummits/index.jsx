@@ -11,9 +11,9 @@ const UPCOMING_SUMMITS = [
         date: 'September 2 & 3, 2024',
         location: 'Suwon Convention Center, Suwon, South Korea',
         notification: {
-            text: '<b>Get ready!</b> The Call for presentations will open up in Q1 of 2024.',
+            text: 'Register for the Regional OpenInfra Summit Asia!',
             button: {
-                link: '#',
+                link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates',
                 text: 'Get Notified'
             }
         }

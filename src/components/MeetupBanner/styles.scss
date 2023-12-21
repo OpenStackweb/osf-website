@@ -9,7 +9,7 @@
     border-radius: 15px;
     background-position: left;
     background-repeat: no-repeat;
-    background-size: contain;    
+    background-size: contain;
     @media (max-width: 991px) {
       height: 258px;
       background-size: cover;
@@ -37,7 +37,7 @@
         letter-spacing: 1px;
         a {
           color: #fff;
-          text-decoration: underline;          
+          text-decoration: underline;
         }
       }
       .meetup-banner-button {
@@ -59,21 +59,12 @@
         text-transform: uppercase;
         margin-bottom: 22px;
         border: none;
-        .btn-arrow {
-          position: relative;
-          right: 15px;
-          &:after {
-            background-image: url("/img/homeV2/secondary-arrow-white.svg");
-            position: absolute;
-            content: "";
-            right: -30px;
-            height: 30px;
-            width: 30px;
-            top: -5px;
-          }
-        }
-        &:hover {
+        transition: all 0.3s;
+        &:hover,
+        &:focus {
           text-decoration: none;
+          color: #ffffff;
+          background-color: #888;
         }
         @media (max-width: 991px) {
           height: 42px;

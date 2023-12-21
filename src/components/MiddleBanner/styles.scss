@@ -4,14 +4,14 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    min-height: 350px;    
+    min-height: 350px;
     .middle-banner-content {
-      display: flex;      
+      display: flex;
       align-items: center;
       justify-content: flex-start;
       width: 100%;
       gap: 50px;
-      color: #161616;      
+      color: #161616;
       &.reverse {
         flex-direction: row-reverse;
         justify-content: flex-end;
@@ -68,25 +68,15 @@
           text-transform: capitalize;
           margin-bottom: 22px;
           width: fit-content;
-          .btn-arrow {
-            position: relative;
-            right: 15px;
-            &:after {
-              background-image: url("/img/homeV2/secondary-arrow-white.svg");
-              filter: invert(57%) sepia(0%) saturate(2098%) hue-rotate(4deg)
-                brightness(94%) contrast(84%);
-              position: absolute;
-              content: "";
-              right: -25px;
-              height: 30px;
-              width: 30px;
-              top: -5px;
-            }
-          }
+          transition: all 0.3s;
           &:hover,
           &:focus {
             text-decoration: none;
-          }          
+            background-color: #888;
+            border: 1px solid #888;
+            color: #fff;
+            text-decoration: none;
+          }
         }
       }
       @media (max-width: 991px) {

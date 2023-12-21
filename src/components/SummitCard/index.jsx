@@ -4,11 +4,10 @@ import calendarIcon from '../../../static/img/summit-landing/icons/calendar-icon
 import locationIcon from '../../../static/img/summit-landing/icons/location-icon.svg'
 
 import './styles.scss'
+import RoundedButton from '../RoundedButton'
 
 
 const SummitCard = ({ background, summit, cardStyles }) => {
-
-    console.log('summit...', summit);
 
     if (!summit) return null
 
@@ -31,9 +30,8 @@ const SummitCard = ({ background, summit, cardStyles }) => {
                 <div className="summit-card-notification">
                     <span dangerouslySetInnerHTML={{ __html: notification.text }} />
                     {notification?.button.text &&
-                        <a href={notification.button.link} className="summit-card-button">
-                            <span className="btn-arrow">{notification.button.text}</span>
-                        </a>
+                        <RoundedButton link={notification.button.link} text={notification.button.text}
+                        className="summit-card-button" />
                     }
                 </div>
             }

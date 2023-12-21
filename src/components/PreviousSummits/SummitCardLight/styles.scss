@@ -33,10 +33,25 @@
     margin: 0;
     border-radius: 30px;
     border-color: #888888;
+    background-color: none;
     color: #888888;
-
+    padding: 11px 67px 11px 45px;
+    transition: all 0.3s;
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      background-color: #888;
+      border: 1px solid #888;
+      color: #fff;
+      text-decoration: none;
+    }
     img {
       margin-left: 10px;
+    }
+    svg {
+      position: absolute;
+      right: 15px;
+      margin-right: 25px;
     }
   }
 }

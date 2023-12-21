@@ -2,16 +2,14 @@ import React from 'react'
 
 import background from '../../../static/img/summit-landing/subscribe/subscribe-banner-bg.png'
 import './styles.scss';
-import LinkComponent from '../LinkComponent';
+import RoundedButton from '../RoundedButton';
 
 const BottomBanner = ({ title, button }) => (
 
-    <section className='subscribe-banner-wrapper' style={{ backgroundImage: `url(${background}` }}>
-        <div className="container subscribe-banner-container">
-            <span className='subscribe-banner-title' dangerouslySetInnerHTML={{ __html: title }} />
-            <LinkComponent href={button.link} className="subscribe-banner-button">
-                <span className="btn-arrow">{button.text}</span>
-            </LinkComponent>
+    <section className='bottom-banner-wrapper' style={{ backgroundImage: `url(${background}` }}>
+        <div className="container bottom-banner-container">
+            <span className='bottom-banner-title' dangerouslySetInnerHTML={{ __html: title }} />
+            <RoundedButton link={button.link} text={button.text} className='bottom-banner-button' />
         </div>
     </section>
 )

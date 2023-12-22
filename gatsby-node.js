@@ -349,8 +349,8 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
       const electionCandidates = await SSR_getPreviousElectionCandidates(apiBaseUrl, accessToken, election.id);
       const electionGoldCandidates = await SSR_getPreviousElectionGoldCandidates(apiBaseUrl, accessToken, election.id);
   
-      if (Array.isArray(electionCandidates.data) && electionCandidates.data.length > 0) candidates = [...candidates, ...electionCandidates.data];
-      if (Array.isArray(electionGoldCandidates.data) && electionGoldCandidates.data.length > 0) goldCandidates = [...goldCandidates, ...electionGoldCandidates.data];
+      if (Array.isArray(electionCandidates?.data) && electionCandidates?.data?.length > 0) candidates = [...candidates, ...electionCandidates.data];
+      if (Array.isArray(electionGoldCandidates?.data) && electionGoldCandidates?.data?.length > 0) goldCandidates = [...goldCandidates, ...electionGoldCandidates.data];
     }
 
     // data for current election

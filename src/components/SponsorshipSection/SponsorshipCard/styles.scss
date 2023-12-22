@@ -137,3 +137,27 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .sponsorship-card-wrapper {
+    flex-direction: column;
+    .left-section {
+      width: 100%; 
+      .prices {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+        .non-member-price {
+          margin-top: 0;
+        }    
+      }
+    }
+    .right-section {
+      width: 100%;
+      .item {
+        width: 100%;
+      }
+    }
+  }
+}

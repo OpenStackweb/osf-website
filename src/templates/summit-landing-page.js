@@ -16,8 +16,6 @@ import MeetupBanner from "../components/MeetupBanner";
 import BottomBanner from "../components/BottomBanner";
 import MiddleBanner from "../components/MiddleBanner";
 import hero from '../../static/img/summit-landing/summit-landing-hero.png';
-
-import hero from '../../static/img/summit-landing/summit-landing-hero.png';
 import logo from '../../static/img/summit-landing/openinfra-logo.png';
 
 

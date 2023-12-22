@@ -9,16 +9,14 @@ const SubHeader = () => {
         <div className="body">
           <div className="overview">A new summit format</div>
           <div className="title">
-            WHAT IS A <span className="red">“COMMUNITY POWERED SUMMIT”</span>?
+            WHAT IS A <span className="red">COMMUNITY POWERED OPENINFRA SUMMIT</span>?
           </div>
           <p>
             The <b>OpenInfra community</b>, a global collaboration of <b>110,000 people across 187 countries</b>, builds and operates
-            infrastructure powered by open source software. These contributors have been hosting successful events, both
-            large-scale and small, around the world to provide an opportunity for local community members to connect,
-            collaborate and build the future of open infrastructure.
+            infrastructure powered by open source software.
           </p>
           <p>
-            For the past decade, the <b>OpenInfra Summit</b>, formerly known as the OpenStack Summit, has provided a
+            For the past decade, the <b>OpenInfra Summit</b> has provided a
             centralized opportunity for the global community to collaborate. <b>To build the next decade of open
             infrastructure, OpenInfra Summits will be developed by the community</b> for the community. Community volunteers
             will provide an opportunity to collaborate directly with the people building and running open source

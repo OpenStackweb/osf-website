@@ -13,10 +13,10 @@ const CommunityEvents = () => {
     {
       key: 'ce-berlin',
       summit: {
-        location: isSmallScreen ? 'Europe' : 'Berlin, Germany • Paris, France  • Istanbul, Turkiye • Zurich, Switzerland',
+        location: isSmallScreen ? 'Europe' : 'Turkiye, Germany, France, Sweden and more!',
         date: 'August, 2024',
       },
-      background: '/img/summit-landing/community-events/berlin.png',
+      background: '/img/summit-landing/community-events/europe.png',
       cardStyles: {width: isSmallScreen ? 'auto' : 900}
     },
     {

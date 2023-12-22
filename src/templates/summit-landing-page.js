@@ -7,17 +7,18 @@ import TopBar from "../components/TopBar";
 import NavbarV2 from "../components/NavbarV2";
 import SEO from "../components/SEO";
 import HeaderImage from "../components/HeaderImage";
-import hero from '../../static/img/summit-landing/summit-landing-hero.png';
 import SponsorBanner from "../components/SponsorBanner";
 import SubHeader from "../components/SubHeader";
 import PreviousSummits from "../components/PreviousSummits";
-import SummitCard from "../components/SummitCard";
-
 import CommunityEvents from "../components/CommunityEvents";
 import UpcomingSummits from "../components/UpcomingSummits";
 import MeetupBanner from "../components/MeetupBanner";
 import BottomBanner from "../components/BottomBanner";
 import MiddleBanner from "../components/MiddleBanner";
+
+import hero from '../../static/img/summit-landing/summit-landing-hero.png';
+import logo from '../../static/img/summit-landing/openinfra-logo.png';
+
 
 export const SummitLandingPageTemplate = ({
                                        isLoggedUser,
@@ -31,7 +32,12 @@ export const SummitLandingPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
-        <HeaderImage backgroundImage={hero} />
+        <HeaderImage
+          backgroundImage={hero}
+          overview={<>Rediscover <br /> THE SUMMIT EXPERIENCE</>}
+          caption="By the Community. For the Community."
+          logo={{src: logo, alt: 'Openinfra logo'}}
+        />
         <SubHeader />
         <UpcomingSummits title={'Upcoming OpenInfra Summits'} />
         <MiddleBanner

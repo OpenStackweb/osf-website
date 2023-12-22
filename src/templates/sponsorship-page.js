@@ -206,7 +206,7 @@ export const SponsorshipPageTemplate = ({
         <div className="content sponsorship-page-content">
           <SimpleHeader
             title="BECOME A SPONSOR"
-            subtitle="SUPPORT THE NEXT DECADE OF OPEN INFRAESTRUCTURE"
+            subtitle="SUPPORT THE NEXT DECADE OF OPEN INFRASTRUCTURE"
             backgroundImage="/img/sponsorship/summit-marketplace.png"
           />
           <SponsorshipSection

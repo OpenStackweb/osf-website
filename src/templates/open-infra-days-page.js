@@ -10,7 +10,7 @@ import MeetupBanner from "../components/MeetupBanner";
 import BottomBanner from "../components/BottomBanner";
 import SpecialEditionSection from "../components/SpecialEditionSection";
 import UpcomingSummits from "../components/UpcomingSummits";
-import HeaderImage from "../components/HeaderImage";
+import ImageOnlyHeader from "../components/ImageOnlyHeader";
 import SubHeaderDays from "../components/SubHeaderDays";
 import MoreEventsSection from "../components/MoreEventsSection";
 import OpenInfraDays from "../components/OpeninfraDays";
@@ -31,7 +31,7 @@ export const OpenInfraDaysPageTemplate = ({
         <NavbarV2 isLoggedUser={isLoggedUser} />
         <main className="main">
           <div className="content">
-            <HeaderImage backgroundImage={hero} />
+            <ImageOnlyHeader backgroundImage={hero} />
             <SubHeaderDays button={{text: 'Check out upcoming events', link: ''}}/>
             <SpecialEditionSection />
             <OpenInfraDays title="Openinfra Days" />

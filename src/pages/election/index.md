@@ -28,7 +28,7 @@ menu:
 ---
 #### About the Board
 
-The Board of Directors is ultimately legally responsible for the Foundation as a corporate entity. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. 
+The Board of Directors is ultimately legally responsible for the Foundation as a corporate entity. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. The 2024 Board will be composed of 15 directors: 5 elected by the Individual Members, 5 elected by the Gold Members, and 5 appointed by the Platinum Members.
 
 As a true corporate board, Board members are responsible for fiduciary duties and adhering to an expanded code of conduct. All Directors need to attend regular quarterly Board meetings and any special meetings that come up. The meetings will be held in a way that allows for remote participation.
 

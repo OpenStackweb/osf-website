@@ -206,8 +206,9 @@ export const SponsorshipPageTemplate = ({
         <div className="content sponsorship-page-content">
           <SimpleHeader
             title="BECOME A SPONSOR"
-            subtitle="SUPPORT THE NEXT DECADE OF OPEN INFRASTRUCTURE"
+            subtitle="Interested in sponsoring?</br>Reach out to be connected to the OpenInfra Foundation</br>and OpenInfra Summit Asia organizers!"            
             backgroundImage="/img/sponsorship/summit-marketplace.png"
+            button={{ link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates', text: 'Contact Now'}}
           />
           <SponsorshipSection
             title="OPENINFRA SUMMIT ASIA"
@@ -226,8 +227,8 @@ export const SponsorshipPageTemplate = ({
           />*/}
           <GenericBanner 
             upperText=''
-            text='Have any questions about<br/>sponsoring the events?'
-            button={{ link: 'mailto:summit@openinfra.dev', text: 'contact us'}}
+            text='Reach out to be connected</br>to the OpenInfra Foundation and</br>OpenInfra Summit Asia organizers!'
+            button={{ link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates', text: 'Contact Now'}}
             fullwidth={false}
           />
           <BottomBanner 

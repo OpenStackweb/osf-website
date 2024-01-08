@@ -15,6 +15,15 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2024-01-18T15:00:00.000Z
+    episodeTitle: "Deep Dive Into the OpenDev Collaboratory "
+    episodeDescription: On this episode of OpenInfra Live, we'll take a deep dive
+      into the OpenDev Collaboratory. Learn about what OpenDev is, how it's
+      operated and how users, like you, can get involved!
+    episodeSpeakers: Jim Blair, Clark Boylan, Jeremy Stanley, Tony Breeds, Kristin Barrientos
+    youtubeEmbed: https://www.youtube.com/embed/hVe5o5MKKjM?si=Ik3cS87omf-WO0zy
+    youtubeLink: https://www.youtube.com/watch?v=hVe5o5MKKjM
+  - hidden: false
     date: 2023-12-07T15:00:00.000Z
     episodeTitle: PTG Recap
     episodeDescription: >

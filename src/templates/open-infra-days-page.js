@@ -32,7 +32,7 @@ export const OpenInfraDaysPageTemplate = ({
         <main className="main">
           <div className="content">
             <ImageOnlyHeader backgroundImage={hero} />
-            <SubHeaderDays button={{text: 'Check out upcoming events', link: ''}}/>
+            <SubHeaderDays />
             <SpecialEditionSection />
             <OpenInfraDays title="Openinfra Days" />
             <MeetupBanner />

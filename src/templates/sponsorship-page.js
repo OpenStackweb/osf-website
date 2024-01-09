@@ -12,6 +12,7 @@ import BottomBanner from "../components/BottomBanner";
 import SponsorshipSection from "../components/SponsorshipSection";
 
 import '../style/sponsorship-page.scss';
+import SponsoringBanner from "../components/SponsoringBanner";
 
 
 const SPONSORSHIPS = [
@@ -215,6 +216,10 @@ export const SponsorshipPageTemplate = ({
             overview="SPONSORSHIP OPPORTUNITIES"
             sponsorships={SPONSORSHIPS}
           />
+          <SponsoringBanner 
+            title='Interested in sponsoring?'
+            subTitle='Reach out to be connected to the OpenInfra</br>Foundation and OpenInfra Summit Asia organizers!'
+            button={{link: '', text: 'Contact Now'}} />
           <GenericBanner
             upperText='Not a member?'
             text='Learn how to join the OpenInfra Foundation'

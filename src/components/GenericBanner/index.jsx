@@ -1,5 +1,6 @@
 import React from 'react'
 
+import RoundedButton from '../RoundedButton'
 import './styles.scss'
 
 const GenericBanner = ({ upperText, text, button, fullwidth = true }) => {
@@ -9,9 +10,7 @@ const GenericBanner = ({ upperText, text, button, fullwidth = true }) => {
                 <div className='generic-banner-content'>
                     <span className='generic-banner-upper-text' dangerouslySetInnerHTML={{ __html: upperText }} />
                     <span className='generic-banner-text' dangerouslySetInnerHTML={{ __html: text }} />
-                    <a href={button.link} className="generic-banner-button">
-                        <span className="btn-arrow">{button.text}</span>
-                    </a>
+                    <RoundedButton link={button.link} text={button.text} className='generic-banner-button' />                    
                 </div>
             </div>
         </section>

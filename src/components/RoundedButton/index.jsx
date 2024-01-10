@@ -1,0 +1,44 @@
+import React from 'react'
+
+import LinkComponent from '../LinkComponent'
+
+import './styles.scss'
+
+
+const RoundedButton = ({ link, text, className, arrowColor = null, buttonStyles = null }) => {
+
+    if (!text) return null;
+
+    const customArrowColor = arrowColor?.hasOwnProperty('color') ? arrowColor.color : 'white';
+    const customArrowHoverColor = arrowColor?.hasOwnProperty('hover') ? arrowColor.hover : 'white';
+
+    const arrowIcon = (color) => {
+        return (
+            <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrow-icon">
+                <path d="M21 19L26 14" stroke={color} stroke-width="2" stroke-linecap="round" />
+                <path d="M21 9L26 14" stroke={color} stroke-width="2" stroke-linecap="round" />
+                <path d="M12 14L26 14" stroke={color} stroke-width="2" stroke-linecap="round" />
+            </svg>
+        )
+    }
+
+    const arrowHoverIcon = (color) => {
+        return (
+            <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrow-hover-icon">
+                <path d="M21 19L26 14" stroke={color} stroke-width="2" stroke-linecap="round" />
+                <path d="M21 9L26 14" stroke={color} stroke-width="2" stroke-linecap="round" />
+                <path d="M12 14L26 14" stroke={color} stroke-width="2" stroke-linecap="round" />
+            </svg>
+        )
+    }
+
+    return (
+        <LinkComponent href={link} className={`osf-button ${className ?? className}`} style={buttonStyles ? { ...buttonStyles } : {}}>
+            {text}
+            {arrowIcon(customArrowColor)}
+            {arrowHoverIcon(customArrowHoverColor)}
+        </LinkComponent>
+    )
+}
+
+export default RoundedButton

@@ -64,6 +64,7 @@
     text-transform: uppercase;
     border: none;
     margin-top: 20px;
+    transition: all 0.3s;
     .btn-arrow {
       position: relative;
       right: 15px;
@@ -81,6 +82,7 @@
     &:focus {
       text-decoration: none;
       color: #ffffff;
+      background-color: #888;
     }  
     @media (max-width: 1023px) {
       height: auto;

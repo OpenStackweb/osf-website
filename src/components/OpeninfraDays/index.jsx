@@ -7,7 +7,7 @@ const OpenInfraDays = ({ title }) => {
 
   const openinfraEvents = [
     { background: '/img/openinfra-days/openinfra-days-cards/openinfra-days-beijing.png', name: 'China', date: 'Dec 1, 2023', location: 'Beijing, China' },
-    { background: '/img/openinfra-days/openinfra-days-cards/openinfra-days-austin.png', name: 'Austin', date: 'Apr 5, 2024', location: 'Austing TX, USA' },
+    { background: '/img/openinfra-days/openinfra-days-cards/openinfra-days-austin.png', name: 'Austin', date: 'Apr 5, 2024', location: 'Austin TX, USA' },
     { background: '/img/openinfra-days/openinfra-days-cards/openinfra-days-saopaolo.png', name: 'Sao Paulo', date: 'Mar 4, 2024', location: 'Sao Paulo, Brasil' },
     { background: '/img/openinfra-days/openinfra-days-cards/openinfra-days-toronto.png', name: 'Toronto', date: 'May 11, 2024', location: 'Toronto, Canada' }
   ]

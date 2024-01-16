@@ -1,6 +1,7 @@
 import React from 'react'
 import {StaticImage} from "gatsby-plugin-image";
 import './styles.scss';
+import RoundedButton from '../RoundedButton';
 
 
 const DAYS = [
@@ -13,13 +14,13 @@ const DAYS = [
   {
     title: "OpenInfra Days Turkiye",
     date: "May 20, 2024",
-    location: "Garanti Cultural Center, Boğaziçi University Istanbul, Turkiye"
+    location: "Garanti Cultural Center, Boğaziçi University Istanbul, Turkiye"
   },
   {title: "OpenInfra Days France"},
   {
     title: "OpenInfra Days Turkiye",
     date: "May 20, 2024",
-    location: "Garanti Cultural Center, Boğaziçi University Istanbul, Turkiye"
+    location: "Garanti Cultural Center, Boğaziçi University Istanbul, Turkiye"
   },
   {title: "OpenInfra Meetups: The UK"},
 ];
@@ -77,9 +78,7 @@ const SpecialEditionSection = () => {
             ))}
           </div>
         </div>
-        <a href="/newsletter" className="button">
-          <span className="btn-arrow">sign up for updates</span>
-        </a>
+        <RoundedButton link={'/newsletter'} text={'sign up for updates'} className='button' />
       </div>
     </section>
   )

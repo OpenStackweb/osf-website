@@ -267,9 +267,25 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
 
   const accessToken = await getAccessToken(config, buildScopes).then(({token}) => token.access_token).catch(e => console.log('Access Token error', e));
 
+  // data for current election
+  const currentElection = await SSR_getCurrentElection(apiBaseUrl, accessToken).then((res) => res.data[0]);
+    
+  createNode({
+    ...currentElection,
+    id: `${currentElection.id}`,
+    electionYear: moment(currentElection.closes * 1000).utc().format('YYYY'),
+    parent: null,
+    children: [],
+    internal: {
+      type: 'CurrentElectionData', // Replace with an appropriate type
+      contentDigest: createContentDigest(currentElection),
+    },
+  })
+
   // data for previous electionsfilePath
   const previousElections = await SSR_getPreviousElections(apiBaseUrl, accessToken)
-  const lastElections = previousElections.data.slice(0, electionsToShow);
+  // remove current election from this array
+  const lastElections = previousElections.data.filter(e => e.id !== currentElection.id).slice(0, electionsToShow);
   if (lastElections && lastElections.length > 0) {
     let candidates = [];
     let goldCandidates = [];
@@ -352,21 +368,6 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
       if (Array.isArray(electionCandidates?.data) && electionCandidates?.data?.length > 0) candidates = [...candidates, ...electionCandidates.data];
       if (Array.isArray(electionGoldCandidates?.data) && electionGoldCandidates?.data?.length > 0) goldCandidates = [...goldCandidates, ...electionGoldCandidates.data];
     }
-
-    // data for current election
-    const currentElection = await SSR_getCurrentElection(apiBaseUrl, accessToken).then((res) => res.data[0]);
-    
-    createNode({
-      ...currentElection,
-      id: `${currentElection.id}`,
-      electionYear: moment(currentElection.closes * 1000).utc().format('YYYY'),
-      parent: null,
-      children: [],
-      internal: {
-        type: 'CurrentElectionData', // Replace with an appropriate type
-        contentDigest: createContentDigest(currentElection),
-      },
-    })
 
     // ingest api data on graphql ...
     lastElections.forEach(election => {

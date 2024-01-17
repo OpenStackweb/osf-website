@@ -1,0 +1,17 @@
+/* ------------------------------------------------------------ *\
+	Header Image
+\* ------------------------------------------------------------ */
+
+.hero-main-v2 {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+
+  @media (min-width: 767px) {
+    height: 500px;
+  }
+
+  @media (min-width: 1024px) {
+    height: 785px;
+  }
+}

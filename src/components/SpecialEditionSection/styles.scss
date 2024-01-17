@@ -1,0 +1,165 @@
+.special-edition-section-wrapper .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 720px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  .title {
+    font-family: "Jura", "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0 40px;
+
+    .red {
+      color: #ED1B2F;
+    }
+
+    @media (min-width: 720px) {
+      font-size: 36px;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 45px;
+    }
+  }
+
+  p {
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: #161616;
+    margin-bottom: 30px;
+
+    @media (min-width: 720px) {
+      font-size: 16px;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 18px;
+    }
+  }
+
+  .agenda-wrapper {
+    border-radius: 16px;
+    overflow: hidden;
+    max-width: 946px;
+    margin-top: 40px;
+
+    .agenda-header {
+
+    }
+    .agenda-body {
+      background-color: #EEEEEE;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 15px;
+
+      .agenda-item {
+        padding: 15px;
+
+        @media (min-width: 720px) {
+          width: 50%;
+        }
+
+        .agenda-title {
+          margin-top: 0;
+          text-transform: none;
+          text-align: left;
+          font-weight: bold;
+          font-family: 'Roboto Flex', sans-serif;
+          font-size: 12px;
+          max-width: 375px;
+
+          @media (min-width: 720px) {
+            font-size: 16px;
+          }
+
+          @media (min-width: 1024px) {
+            font-size: 20px;
+          }
+        }
+        .agenda-info {
+          text-align: left;
+          margin: 0 0 8px 0;
+          font-family: 'Roboto Flex', sans-serif;
+          font-size: 12px;
+          max-width: 346px;
+          position: relative;
+          padding-left: 36px;
+
+          @media (min-width: 720px) {
+            font-size: 16px;
+          }
+
+          @media (min-width: 1024px) {
+            font-size: 18px;
+          }
+
+          img {
+            position: absolute;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .button {
+    background-color: #e61e24;
+    display: inline-flex;
+    color: #ffffff;
+    font-family: "Jura", sans-serif;
+    font-size: 18px;
+    line-height: 135%;
+    font-weight: 700;
+    border-radius: 40px;
+    letter-spacing: 0.9px;
+    height: 72px;
+    padding: 0 66px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 50px;
+    transition: all 0.3s;
+    .btn-arrow {
+      position: relative;
+      right: 15px;
+
+      &:after {
+        background-image: url("/img/homeV2/secondary-arrow-white.svg");
+        position: absolute;
+        content: "";
+        right: -30px;
+        height: 30px;
+        width: 30px;
+        top: -2px;
+      }
+    }
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #888;
+    }
+
+    @media (max-width: 768px) {
+      height: auto;
+      width: auto;
+      padding: 15px 30px;
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+}

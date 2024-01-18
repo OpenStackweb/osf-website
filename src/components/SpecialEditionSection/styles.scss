@@ -38,6 +38,14 @@
     color: #161616;
     margin-bottom: 30px;
 
+    a {
+      color: #161616;
+      text-decoration: underline;
+      &:hover {
+        color: #161616;
+      }
+    }
+
     @media (min-width: 720px) {
       font-size: 16px;
     }

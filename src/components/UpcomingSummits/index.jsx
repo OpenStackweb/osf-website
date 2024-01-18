@@ -13,8 +13,8 @@ const UPCOMING_SUMMITS = [
         notification: {
             text: 'Register for the Regional OpenInfra Summit Asia!',
             button: {
-                link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates',
-                text: 'Get Notified'
+                link: 'https://openinfra.dev/summit',
+                text: 'Learn More'
             }
         }
     },

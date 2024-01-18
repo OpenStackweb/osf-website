@@ -34,7 +34,7 @@ export const OpenInfraDaysPageTemplate = ({
             <ImageOnlyHeader backgroundImage={hero} />
             <SubHeaderDays />
             <SpecialEditionSection />
-            <OpenInfraDays title="Openinfra Days" />
+            <OpenInfraDays title="OpenInfra Days" />
             <MeetupBanner />
             <MoreEventsSection />
             <UpcomingSummits />

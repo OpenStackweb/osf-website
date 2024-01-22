@@ -14,20 +14,22 @@ const CommunityEvents = () => {
       key: 'ce-berlin',
       summit: {
         location: isSmallScreen ? 'Europe' : 'Turkiye, Germany, France, Sweden and more!',
-        date: 'August, 2024',
+        date: 'May and June, 2024',
       },
       background: '/img/summit-landing/community-events/europe.png',
+      link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates',
       cardStyles: {width: isSmallScreen ? 'auto' : 900}
     },
     {
-      key: 'ce-shanghai',
+      key: 'ce-usa',
       summit: {
-        location: 'Beijing, China',
-        date: 'Dec 1, 2023',
+        location: 'USA',
+        date: 'Q4 2024',
       },
-      background: '/img/summit-landing/community-events/shanghai.png',
-      cardStyles: {width: isSmallScreen ? 'auto' : 460}
-    }
+      background: '/img/summit-landing/community-events/usa.png',
+      cardStyles: {width: isSmallScreen ? 'auto' : 460},
+      link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates'
+    }    
   ];
 
   return (

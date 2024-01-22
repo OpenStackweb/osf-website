@@ -8,7 +8,7 @@ const UPCOMING_SUMMITS = [
     {
         key: 'asia-24',
         background: '/img/summit-landing/cards/summit-asia.png',        
-        date: 'September 2 & 3, 2024',
+        date: 'September 3 & 4, 2024',
         location: 'Suwon Convention Center, Suwon, South Korea',
         notification: {
             text: 'Register for the Regional OpenInfra Summit Asia!',

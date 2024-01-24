@@ -23,7 +23,7 @@ const CommunityEvents = () => {
     {
       key: 'ce-usa',
       summit: {
-        location: 'USA',
+        location: 'North America',
         date: 'Q4 2024',
       },
       background: '/img/summit-landing/community-events/usa.png',

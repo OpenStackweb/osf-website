@@ -17,7 +17,7 @@ const CommunityEvents = () => {
         date: 'May and June, 2024',
       },
       background: '/img/summit-landing/community-events/europe.png',
-      link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates',
+      link: '/days',
       cardStyles: {width: isSmallScreen ? 'auto' : 900}
     },
     {
@@ -28,7 +28,7 @@ const CommunityEvents = () => {
       },
       background: '/img/summit-landing/community-events/usa.png',
       cardStyles: {width: isSmallScreen ? 'auto' : 460},
-      link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates'
+      link: '/days'
     }    
   ];
 

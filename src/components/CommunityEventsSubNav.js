@@ -19,10 +19,10 @@ function CommunityEventsSubNav(props) {
         </div>
 
         <ul id="links-list" className="links-list">
-          <li><LinkComponent id="summit" href="/summit" className="link">OpenInfra Summit</LinkComponent></li>
-          <li><LinkComponent id="live" href="/live" className="link">OpenInfra Live</LinkComponent></li>
-          <li><LinkComponent id="ptg" href="/ptg" className="link">PTG</LinkComponent></li>
-          <li><LinkComponent id="days" href="https://www.openstack.org/events/community-events#openinfra_days" className="link">OpenInfra Days</LinkComponent></li>
+          <li><LinkComponent id="summit" href="/summit/" className="link">OpenInfra Summit</LinkComponent></li>
+          <li><LinkComponent id="days" href="/days/" className="link">OpenInfra Days</LinkComponent></li>
+          <li><LinkComponent id="live" href="/live/" className="link">OpenInfra Live</LinkComponent></li>
+          <li><LinkComponent id="ptg" href="/ptg/" className="link">PTG</LinkComponent></li>
           <li><LinkComponent id="meetups" href="https://www.meetup.com/pro/openinfradev" className="link">OpenInfra Meetups</LinkComponent></li>
         </ul>
 
@@ -35,10 +35,10 @@ function CommunityEventsSubNav(props) {
       {isOpen &&
         <div className="subnav-dropdown">
           <ul id="links-list-mobile" className="links-list">
-          <li><LinkComponent id="summit-mobile" href="/summit" className="link">OpenInfra Summit</LinkComponent></li>
-          <li><LinkComponent id="live-mobile" href="/live" className="link">OpenInfra Live</LinkComponent></li>
+          <li><LinkComponent id="summit-mobile" href="/summit/" className="link">OpenInfra Summit</LinkComponent></li>
+          <li><LinkComponent id="days-mobile" href="/days/" className="link">OpenInfra Days</LinkComponent></li>
+          <li><LinkComponent id="live-mobile" href="/live/" className="link">OpenInfra Live</LinkComponent></li>
           <li><LinkComponent id="ptg-mobile" href="/ptg/" className="link">PTG</LinkComponent></li>
-          <li><LinkComponent id="days-mobile" href="https://www.openstack.org/events/community-events#openinfra_days" className="link">OpenInfra Days</LinkComponent></li>
           <li><LinkComponent id="meetups-mobile" href="https://www.meetup.com/pro/openinfradev" className="link">OpenInfra Meetups</LinkComponent></li>
           </ul>
         </div>

@@ -1,4 +1,9 @@
 .upcoming-summits-wrapper {
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
   .upcoming-summits-title {
     font-family: "Jura", "Roboto", sans-serif;
     font-weight: bold;

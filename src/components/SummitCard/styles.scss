@@ -77,6 +77,10 @@
     @media (max-width: 767px) {
       font-size: 16px;
     }
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
   }
   .summit-card-button {
     display: inline-flex;

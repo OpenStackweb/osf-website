@@ -285,7 +285,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
   // data for previous electionsfilePath
   const previousElections = await SSR_getPreviousElections(apiBaseUrl, accessToken)
   // remove current election from this array
-  const lastElections = previousElections.data.filter(e => e.id !== currentElection.id).slice(0, electionsToShow);
+  const lastElections = previousElections?.data?.filter(e => e.id !== currentElection.id).slice(0, electionsToShow);
   if (lastElections && lastElections.length > 0) {
     let candidates = [];
     let goldCandidates = [];

@@ -24,7 +24,7 @@ OpenInfra Live is an hour-long series sharing production case studies, open sour
 
 OpenInfra User Groups are organized and hosted throughout the year by volunteer community organizers. These events will often occur on a weekend or on a weeknight evening. These are casually formatted events that gather local users and developers to share user stories and networks.  
 
-## [OpenInfra Days](https://www.openstack.org/events/community-events#openinfra_days)
+## [OpenInfra Days](/days)
 
 OpenInfra Days are organized and hosted annually by local User Groups and companies in the ecosystem and are often one or two-day events with keynotes, breakout sessions and even workshops. It’s a great opportunity to hear directly from prominent open infrastructure leaders, learn from user stories, network, and get plugged into your local community.
 

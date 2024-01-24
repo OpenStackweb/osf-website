@@ -42,10 +42,9 @@ const FooterV2 = class extends React.Component {
             <div className="footer-section">
                 <h6>Events</h6>
                 <ul>
+                    <li><a href="/summit/">OpenInfra Summit</a></li>              
+                    <li><a href="/days/">OpenInfra Days</a></li>
                     <li><a href="/live/">OpenInfra Live</a></li>
-                    <li><a href="/live/keynotes/">OpenInfra Live: Keynotes</a></li>
-                    <li><a href="/summit/">OpenInfra Summit</a></li>
-                    <li><a href="https://www.openstack.org/events/community-events#openinfra_days" target="_blank">OpenInfra Days</a></li>
                     <li><a href="https://www.meetup.com/pro/openinfradev/" target="_blank">Community Meetups</a></li>
                 </ul>
             </div>  

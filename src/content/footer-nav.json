@@ -75,20 +75,16 @@
           "link": "/summit/"
         },
         {
+          "text": "OpenInfra Days",
+          "link": "/days"
+        },
+        {
           "text": "OpenInfra Live",
           "link": "/live/"
         },
         {
           "text": "PTG",
           "link": "/ptg/"
-        },
-        {
-          "text": "OpenInfra Live: Keynotes",
-          "link": "/live/keynotes/"
-        },
-        {
-          "text": "OpenInfra Days",
-          "link": "https://www.openstack.org/community/events/#openstack_days"
         },
         {
           "text": "Community Meetups",

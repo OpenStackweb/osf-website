@@ -61,7 +61,7 @@ export const getMemberProfile = (memberId) => (dispatch, getState) => {
 export const getElectionMemberProfile =
     (
         memberId,
-        expand = 'candidate_profile,candidate_profile.election,election_applications,election_applications.nominator',
+        expand = 'candidate_profile,candidate_profile.election,election_applications,election_applications.nominator,all_affiliations,all_affiliations.organization',
         fields = 'election_applications.nominator.first_name,election_applications.nominator.last_name',
         relations = 'election_applications.nominator.none'
     ) => (dispatch, getState) => {

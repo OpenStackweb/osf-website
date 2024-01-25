@@ -108,14 +108,14 @@ export const MemberProfilePageTemplate = ({
                         <span className="profile-text" dangerouslySetInnerHTML={{ __html: member_profile.bio }} />
                       </>
                     }
-                    {member_profile.affiliations?.length > 0 &&
+                    {member_profile.all_affiliations?.length > 0 &&
                       <>
                         <span className="profile-title">Affiliations</span>
                         <ul>
-                          {member_profile.affiliations.map((affiliation, index) => {
+                          {member_profile.all_affiliations.map((affiliation, index) => {
                             return (
                               <li key={index}>
-                                {`${affiliation.organization.name} - From ${formatEpoch(affiliation.start_date, 'YYYY-MM-DD')} ${affiliation.end_date ? ` to ${formatEpoch(affiliation.end_date)}` : ' (Current)'}`}
+                                {`${affiliation.organization.name} - From ${formatEpoch(affiliation.start_date, 'YYYY-MM-DD')} ${affiliation.end_date ? ` to ${formatEpoch(affiliation.end_date, 'YYYY-MM-DD')}` : ' (Current)'}`}
                               </li>
                             )
                           })}

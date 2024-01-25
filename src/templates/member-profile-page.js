@@ -112,7 +112,8 @@ export const MemberProfilePageTemplate = ({
                       <>
                         <span className="profile-title">Affiliations</span>
                         <ul>
-                          {member_profile.all_affiliations.map((affiliation, index) => {
+                          {/* sort more recent first */}
+                          {member_profile.all_affiliations.sort((a, b) => b.start_date - a.start_date).map((affiliation, index) => {
                             return (
                               <li key={index}>
                                 {`${affiliation.organization.name} - From ${formatEpoch(affiliation.start_date, 'YYYY-MM-DD')} ${affiliation.end_date ? ` to ${formatEpoch(affiliation.end_date, 'YYYY-MM-DD')}` : ' (Current)'}`}

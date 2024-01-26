@@ -13,7 +13,7 @@ import { getMemberProfile, getElectionMemberProfile } from '../actions/member-ac
 import { getElectionStatus, nominateMember } from '../actions/election-actions';
 
 import { doLogin } from 'openstack-uicore-foundation/lib/security/methods';
-import { formatEpoch } from 'openstack-uicore-foundation/lib/utils/methods';
+import { epochToMomentTimeZone } from 'openstack-uicore-foundation/lib/utils/methods';
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 
 export const MemberProfilePageTemplate = ({
@@ -63,7 +63,7 @@ export const MemberProfilePageTemplate = ({
                       <div className="member-profile-group">
                         <span className="profile-title">Date Joined</span>
                         <span className="profile-text">
-                          {formatEpoch(member_profile.created, 'MMMM DD, YYYY')}
+                          {epochToMomentTimeZone(member_profile.created,'UTC').format('MMMM DD, YYYY')}
                         </span>
                       </div>
                       <hr />
@@ -108,14 +108,16 @@ export const MemberProfilePageTemplate = ({
                         <span className="profile-text" dangerouslySetInnerHTML={{ __html: member_profile.bio }} />
                       </>
                     }
-                    {member_profile.affiliations?.length > 0 &&
+                    {member_profile.all_affiliations?.length > 0 &&
                       <>
                         <span className="profile-title">Affiliations</span>
                         <ul>
-                          {member_profile.affiliations.map((affiliation, index) => {
+                          {/* sort more recent first */}
+                          {member_profile.all_affiliations.sort((a, b) => b.start_date - a.start_date).map((affiliation, index) => {
                             return (
                               <li key={index}>
-                                {`${affiliation.organization.name} - From ${formatEpoch(affiliation.start_date, 'YYYY-MM-DD')} ${affiliation.end_date ? ` to ${formatEpoch(affiliation.end_date)}` : ' (Current)'}`}
+                                {`${affiliation.organization.name} - From ${epochToMomentTimeZone(affiliation.start_date,'UTC').format("YYYY-MM-DD")} 
+                                ${affiliation.end_date ? ` to ${epochToMomentTimeZone(affiliation.end_date,'UTC').format("YYYY-MM-DD")}` : ' (Current)'}`}
                               </li>
                             )
                           })}

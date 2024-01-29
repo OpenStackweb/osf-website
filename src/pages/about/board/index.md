@@ -89,7 +89,7 @@ members:
     title: Gold Director
     linkedin: null
   - name: Eoghan Glynn
-    title: Platinum Director
+    title: Gold Director
     company: Red Hat
     picture: /img/profile-pic.png
     description: "Director of OpenStack Engineering, Red Hat. Eoghan leads the

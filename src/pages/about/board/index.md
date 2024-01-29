@@ -70,24 +70,6 @@ members:
     picture: /img/board/amymarrich.jpg
     title: Individual Director
     twitter: https://twitter.com/spotzz_
-  - name: Belmiro Moreira
-    company: ESA (European Space Agency)
-    description: >-
-      <p>Belmiro Moreira is an enthusiastic mathematician and computer engineer passionate about the challenges and complexities of architecting and deploying large scale Open Infrastructures.</p>
-
-      <p>Belmiro works at ESA (European Space Agency) in the critical Mission Operations Ground Segment Infrastructure that supports all the agency spacecraft missions.</p>
-
-      <p>Previously, he worked at CERN (European Organization for Nuclear Research). At CERN he was responsible for the design, deployment and maintenance of the CERN Cloud Infrastructure based on Openstack. He also worked in different virtualization projects to improve the efficiency of the large Batch farm at CERN.</p>
-
-      <p>Belmiro is from the beginning an active member of the OpenStack community. Currently, he is an individual director of the Open Infrastructure Foundation Board, and a co-chair of the OpenStack Large Scale SIG. Previously, he was also a member of the OpenStack TC (Technical Committee) and the OpenStack UC (User Committee).</p>
-
-      <p>Belmiro is particularly interested in the challenges that cloud operators face when maintaining large scale open infrastructures. He talks regularly about his experience in several conferences and events, (OpenStack Summits, OpenStack User Groups, OpenInfra Live, CentOS Dojo, ...) and helps in the organization of many other events.</p>
-
-      <p>Belmiro is committed to continue to support the OpenInfra community.</p>
-    openStack: https://openinfra.dev/a/community/members/9745
-    picture: /img/board/belmiromoreira.jpg
-    title: Individual Director
-    linkedin: https://www.linkedin.com/in/belmiromoreira/
   - name: Brin Zhang
     company: Inspur
     description: >-
@@ -119,6 +101,20 @@ members:
       monitoring while at Amazon. Eoghan is based in Dublin, Ireland though he's
       also part of a highly globalized team at Red Hat. "
     openStack: https://www.openstack.org/community/members/profile/1341/eoghan-glynn
+  - name: Shuquan Huang
+    title: Gold Director
+    company: 99Cloud
+    openStack: https://www.openstack.org/community/members/profile/10746/shuquan-huang
+    picture: /img/20180603-040010008-ios-2.jpg
+    description: >-
+      Shuquan Huang is a Technical Director at 99Cloud, where he built the whole
+      engineering teams from the ground up, established agile development
+      methods to design and implement solutions for cloud computing and edge
+      computing.
+
+
+      Shuquan has been working with open source software for over 10 years. He started his OpenStack journey at its early days in 2011 and actively involved as technical contributor, speaker and track chair. He is a member of the StarlingX Technical Steering Committee.
+    linkedin: https://linkedin.com/in/shuquan-huang-a8b13b66
   - name: Ghanshyam Mann
     description: >-
       <p>Ghanshyam is currently serving as a Chair of the OpenStack Technical
@@ -141,71 +137,24 @@ members:
     twitter: https://twitter.com/GmannInCloud
     linkedin: https://www.linkedin.com/in/gmann1/
     company: NEC
-  - name: Jean-Pierre REN
-    picture: /img/img_0900.jpg
-    title: Gold Director
-    company: Tencent
-    description: Jean-Pierre REN Zhongping, head of Tencent TStack Architect,
-      General Engineer of Ecole Centrale of Paris, Master of Tsinghua
-      University. He started Private Cloud business since year 2011 and had
-      participated in the cloud architectural design of CNPC. He joined Tencent
-      Cloud TStack (an OpenStack distribution) team in year 2018, and is now in
-      charge of the architectural solution for software and HCI in the TStack
-      product line, an OpenStack distribution.
-    openStack: https://www.openstack.org/community/members/profile/113899/jeanpierre-ren
-  - company: Cleura
-    description: Johan Christenson is a serial entrepreneur whom has successfully
-      exited multiple  companies he founded. After receiving a graduate degree
-      in Engineering, from Florida Institute of  Technology, his focus turned to
-      the digital media space. He has raised money both in the US and  Europe
-      from venture capical firms such as Benchmark Capital and Balderton
-      Capital.</p> <p>Johan is the founder and CEO of City Network, which offers
-      a global public cloud as well as private  clouds for enterprises - all
-      based on OpenStack. City Networks mission is to enable innovation
-      and  focuses on enterprises with regulatory challenges such as banks and
-      insurance companies.</p> <p>Johan sees OpenStack as critical for all
-      enterprises in order to provide options and create  competition in an ever
-      more centralized infrastructure world. He, and the team at City, empower
-      new  types of industries and markets to use the power of OpenStack, to
-      enable and increase innovation in  their organizations.</p> <p>Johan is
-      based in Sweden.
-    name: Johan Christenson
-    openStack: https://www.openstack.org/community/members/profile/26794
-    picture: /img/board/johan.png
-    title: Gold Director
-    twitter: https://twitter.com/@citynetworkjc
-  - name: Kurt Garloff
-    description: Being a long time member of various open source communities (Linux
-      kernel, openSUSE and others), I have a personal interest in seeing
-      OpenStack becoming a leading cloud infrastructure. In my professional
-      life, I ran an engineering organizations that are in charge of developing,
-      building and running cloud infrastructure. (See the keynote at the Folsom
-      Design Summit at http://vimeo.com/41449373 and
-      http://de.slideshare.net/laurabeckcahoon/deutsche-telekom-12607469 for
-      some details.) I built the OpenStack platform behind DT's Business
-      Marketplace, worked with Huawei to build and run an OpenStack engineering
-      team in Europe, built Open Telekom Cloud, ran the Cloud &amp; Storage
-      Engineering departments at SUSE.
-    picture: /img/kurtgarloff.jpg
-    company: Sovereign Cloud Stack OSB Alliance
+  - name: Mohammed Naser
+    openStack: https://www.openstack.org/community/members/profile/8899/mohammed-naser
     title: Individual Director
-    openStack: https://www.openstack.org/community/members/profile/6804/kurt-garloff
-    linkedin: https://www.linkedin.com/in/kurt-garloff/
-  - name: Michael Cheng
-    company: Meta
-    openStack: https://www.openstack.org/community/members/profile/135942/michael-cheng
-    picture: /img/headshot-1-.jpg
-    title: Platinum Director
+    picture: /img/mnaser.jpg
+    company: VEXXHOST
     description: >-
-      <p>Michael is a product manager at Facebook, currently supporting open
-      source and standards work across the company.</p>
+      Over the past 10 years, I’m happy to have watched the hosting industry
+      transform and be part of the transformation process as it evolved from
+      traditional physical hardware to cloud-native infrastructure, powered by
+      OpenStack.  Since the creation of VEXXHOST, I have had the chance to work
+      with different sorts of customers, ranging from growing small businesses
+      to helping architect solutions for large Fortune 500 companies, based on
+      OpenStack.  I've helped integrate other open infrastructure projects into
+      our commercial offering.
 
 
-      <p>Michael is former network engineer, investment banker, car salesman and M&A attorney. He previously led the Product and IP function on Facebook's M&A legal team.</p>
-
-
-      <p>While at Facebook, Michael has established and/or now actively serving on the boards of 20+ open source foundations, non-profits, standards setting organizations, including: ML Commons, Confidential Computing Consortium, Libra/Diem Association, Urban Computing Foundation, OpenChain, Open Invention Network Technical Advisory Committee, Magma Foundation, and others.</p>
-    linkedin: https://www.linkedin.com/in/priorart/
+      By fostering OpenStack at it’s early days in 2011, it has helped improve the project and our service as a whole. I’ve been a contributor to the project since and I have contributed code to almost every release of OpenStack since then.  I've also served as PTL for Puppet OpenStack, continue to serve as a PTL for OpenStack-Ansible and serve on the technical committee, chairing the committee for a term.
+    linkedin: http://linkedin.com/in/mdnaser
   - company: Wind River
     description: "A technology executive with extensive experience in leading
       complex high technology solutions development, product management,
@@ -269,44 +218,6 @@ members:
     picture: /img/ryan-van-wyk.jpg
     title: Platinum Director
     twitter: https://twitter.com/@ryanvanwyk
-  - company: T-Systems International
-    description: >
-      <p>I started my careen in 1997 at IBM Germany, when I came across a new
-      open-source operating system called Linux which drew a lot of my attention
-      and continued to do so until present time. Over the time the scope grew
-      larger, and I followed the open-source path to the cloud world and got
-      part of the OpenStack (back then) and now OpenInfra family.</p>
-
-      <p>Since 2012 I'm with T-Systems in different leadership roles and in 2014 we started a project to launch a public cloud for T-Systems/ Deutsche Telekom. This was the start of Open Telekom Cloud (OTC)!</p>
-
-      <p>As the infrastructure lead and chief engineer, I am responsible for everything between the upper edge of double floor in the data center and the upper edge of the operating system. Open Telekom Cloud is by now one of the largest OpenStack-based clouds in Europe, providing full GDPR-compliance and the full stack of IaaS, PaaS and SaaS offerings.</p>
-
-      <p>Apart from doing all that computer stuff, I am married, have a son, and enjoy a lot doing some cooking & baking, spending time with my family and travelling throughout the world.</p>
-    linkedin: https://de.linkedin.com/in/sebastianwenner
-    name: Sebastian Wenner
-    openStack: https://openinfra.dev/a/community/members/66013
-    picture: /img/board/swenner-klein.jpg
-    title: Gold Director
-  - name: Shane Wang
-    title: Individual Director
-    company: Intel
-    description: >-
-      Shane Wang is the Engineering Director of Cloud Infrastructure Software at
-      Intel System Software Engineering group. He has participated in or led his
-      team on research and development of open source software projects such as
-      Xen, tboot, Yocto and OpenStack. He has been serving as an Individual
-      Director of OpenInfra Foundation Board since 2015, with years of
-      commitment to community development and building. Currently he and his
-      team are focusing on cloud native, software-defined networking (SDN) and
-      software-defined storage (SDS) technologies, edge computing, and
-      NFV-related domains, including OpenStack, Kubernetes, Ceph, SODA,
-      Istio/Envoy, Akraino, and so forth. He is keen on cloud computing and has
-      been working on this domain for many years.
-
-
-      He got his PhD degree on Computer Science from Fudan University at Shanghai in 2004, and joined Intel after graduating from the school.
-    openStack: https://www.openstack.org/community/members/profile/4843
-    picture: /img/shanewang.jpg
   - company: Canonical
     description: As a Product Manager at Canonical, Tytus drives the evolution of
       Canonical’s products and services in the data centre space. Tytus received
@@ -361,29 +272,16 @@ members:
     openStack: https://openinfra.dev/a/community/members/37833
     picture: /img/xuwang.jpg
     title: Platinum Director
-  - company: China Unicom
-    description: LIU Yulong currently works at China Unicom Cloud for research,
-      development and management for a team of Cloud Networking. He has been
-      engaged in Cloud Computing for more than ten years. He is proficient in
-      the core components of OpenStack, and has a deep understanding of the
-      architecture of Nova and Neutron with the underlying technologies, such as
-      Openvswitch, OpenFlow, SDN, Linux Networking, Libvirt and Qemu/kvm. His
-      past work experience in several famous public clouds has enabled him to
-      have a deep construction of cloud technologies, which also shows his love
-      for Cloud Computing. Since 2019, he has become the core developer of
-      OpenStack Neutron. At present, his main work and research fields are
-      focused on cloud networking, SDN, SmartNIC, DPU and hardware offloading.
-    name: Yulong Liu
-    openStack: https://openinfra.dev/a/community/members/5508
-    linkedin: https://www.linkedin.com/in/liu-yulong/
-    picture: /img/board/YulongLiu.jpg
-    title: Gold Director
-    twitter: https://www.twitter.com/yulongliu
   - company: Huawei
-    description: >-
-      Zhou Junyi serves as the president of Huawei Cloud Network Open Source Development Team, having 16 years of experience in Huawei and 6 years of experience in open source software engagement. He used to be the Director of Packet Core Department in ICT, leading the department developed multiple products in 4G and 5G. He is also an expert in core network, cloud native, cyber security and software engineering.
+    description: Zhou Junyi serves as the president of Huawei Cloud Network Open
+      Source Development Team, having 16 years of experience in Huawei and 6
+      years of experience in open source software engagement. He used to be the
+      Director of Packet Core Department in ICT, leading the department
+      developed multiple products in 4G and 5G. He is also an expert in core
+      network, cloud native, cyber security and software engineering.
     name: Zhou Junyi
     picture: /img/zhou-junyi.jpg
     title: Platinum Director
     twitter: ""
+    openStack: "#"
 ---

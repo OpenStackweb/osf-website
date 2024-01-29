@@ -170,31 +170,6 @@ projectList:
       - icon: /img/home/icon2.svg
         text: CI/CD
     category: confirmed
-  - logo: /img/projects-img/OpenInfraLabs-Icon-RGB-Color.svg
-    button:
-      link: https://openinfralabs.org/
-      text: openinfralabs.org
-    class: projects-s7
-    title: OpenInfra Labs
-    subTitle: Connecting open source projects to production
-    links:
-      - link: http://lists.opendev.org/cgi-bin/mailman/listinfo/openinfralabs
-        text: Mailing List
-      - link: https://gitlab.com/open-infrastructure-labs
-        text: Code Repository
-      - link: https://gitlab.com/open-infrastructure-labs/nerc-architecture
-        text: Meeting Notes
-    description: OpenInfra Labs is a community, created by and for infrastructure
-      providers and operators, integrating and optimizing different layers of
-      the infrastructure, running open source code in production, publishing
-      complete, reproducible stacks for existing and emerging workloads, to
-      advance open source infrastructure.
-    features:
-      - icon: /img/icon5.svg
-        text: Public, Private, and Hybrid Cloud
-      - icon: /img/icon3.svg
-        text: Container Infrastructure
-    category: pilot
   - logo: /img/projects-img/edge-group-logo.svg
     button:
       link: https://www.openstack.org/edge-computing/edge-computing-next-steps-in-architecture-design-and-testing

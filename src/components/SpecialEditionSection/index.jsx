@@ -10,12 +10,12 @@ const DAYS = [
   {
     title: "OpenInfra Day Germany x Sovereign Cloud Stack Summit",
     date: "May 14 & 15, 2024",
-    location: "<a href="https://www.google.com/maps/place/Villa+Elisabeth/@52.5331269,13.3972411,15z/data=!4m6!3m5!1s0x47a851f492be67f9:0x70038e11de799c16!8m2!3d52.5331269!4d13.3972411!16s%2Fg%2F11jfcbz7dv?entry=ttu" target="_blank" rel="noopener noreferrer">Villa Elisabeth</a>, Berlin, Germany"
+    location: '<a href="https://www.google.com/maps/place/Villa+Elisabeth/@52.5331269,13.3972411,15z/data=!4m6!3m5!1s0x47a851f492be67f9:0x70038e11de799c16!8m2!3d52.5331269!4d13.3972411!16s%2Fg%2F11jfcbz7dv?entry=ttu" target="_blank" rel="noopener noreferrer">Villa Elisabeth</a>, Berlin, Germany'
   },
   {
     title: "OpenInfra Day Turkiye",
     date: "May 20, 2024",
-    location: `<a href="https://maps.app.goo.gl/rPTB4oZabiJtfYdE9" target="_blank" rel="noopener noreferrer">Albert Long Hall Cultural Center</a>, Boğaziçi University, Istanbul, Turkiye`
+    location: '<a href="https://maps.app.goo.gl/rPTB4oZabiJtfYdE9" target="_blank" rel="noopener noreferrer">Albert Long Hall Cultural Center</a>, Boğaziçi University, Istanbul, Turkiye'
   },
   { title: "OpenInfra Day France",
     date: "May 2024"

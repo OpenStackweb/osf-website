@@ -2,7 +2,7 @@
 templateKey: open-infra-days-page
 seo:
   description: >-
-    A special event close yo your city
+    A special event close to your city
   image: /img/OpenInfra-icon-white.jpg
   title: 'OpenInfra Days'
   twitterUsername: '@OpenInfraDev'

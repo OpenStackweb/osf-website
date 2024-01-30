@@ -131,8 +131,7 @@ export const MembersPageTemplate = ({
                             </div>
                             <div className="member-benefits-table-lower-row" style={{ borderBottom: "none" }}>
                                 <div className="row-text">
-                                    <b>Annual Membership Fee</b> <br />
-                                    Startup pricing available
+                                    <b>Annual Membership Fee</b>
                                 </div>
                                 <div className="row-silver">{memberBenefits.fees.silver.price}</div>
                                 <div className="row-gold">{memberBenefits.fees.gold.price}</div>

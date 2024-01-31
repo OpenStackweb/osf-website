@@ -145,44 +145,117 @@ const SPONSORSHIPS = [
 
 const SPONSORSHIPS_DAYS = [
   {
-    title: ["OpenInfra Days Turkiye - May 20, 2024", "Garanti Cultural Center, Boğaziçi University - Istanbul, Turkiye"],
+    title: ["SOVEREIGN CLOUD STACK X OPENINFRA DAYS GERMANY - MAY 14 & 15, 2024", "BERLIN, GERMANY"],
     plans: [
       {
-        title: 'platinum',
-        priceMember: '$ 90.000',
-        priceNonMember: '$ 100.000',
-        color: '#28A4DB',
+        title: 'gold',
+        price: '5.000 € Euro',
+        color: '#F7B749',
         items: [
-          {title: 'thing 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
-          {title: 'thing 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
-          {title: 'thing 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'slots', value: '3'},
+          {title: 'Stand in the Exhibition Area', value: 'High Table, 2 Bar Stools'},
+          {title: 'Logo Placement', value: 'Event banner, Break Slides'},
+          {title: 'Social media Advertising', value: true},
+          {title: 'Rollup', value: 'At the Venue (beside the Main Stage)'},
+          {title: '5 minute pitch at the main stage', value: '(at the beginning or between program items)'},
         ]
       },
       {
-        title: 'gold',
-        priceMember: '$ 130.000',
-        priceNonMember: '$ 140.000',
-        color: '#F7B749',
+        title: 'silver',
+        price: '2.000 € Euro',
+        color: '#A8A9AD',
         items: [
-          {title: 'thing 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
-          {title: 'thing 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
-          {title: 'thing 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'slots', value: '5'},
+          {title: 'Stand in the Exhibition Area', value: 'High Table, 2 Bar Stools'},
+          {title: 'Logo Placement', value: 'Event banner, Break Slides'},
+          {title: 'Social media Advertising', value: true},
+          {title: 'Rollup at the venue', value: 'At the Venue (but not next to the stage)'},
+          {title: '5 minute pitch at the main stage', value: '(at the beginning or between program items)'},
         ]
       },
+      {
+        title: 'catering',
+        price: '500 € Euro',
+        color: '#EAEAEA',
+        items: [
+          {title: 'slots', value: false},
+          {title: 'Stand in the Exhibition Area', value: false},
+          {title: 'Logo Placement', value: false},
+          {title: 'Social media Advertising', value: false},
+          {title: 'Rollup', value: false},
+          {title: '5 minute pitch at the main stage', value: false},
+          {title: 'Display on the buffet', value: true},
+        ]
+      }
     ]
   },
   {
-    title: ["OpenInfra Day Sweden - May 7, 2024", "Volvohallen, Gothenburg, Sweden"],
+    title: ["OpenInfra Days Turkiye - May 20, 2024", "ALBERT LONG HALL CULTURAL CENTER, BOĞAZIÇI UNIVERSITY ISTANBUL, TURKIYE"],
     plans: [
       {
-        title: 'gold',
-        priceMember: '$ 130.000',
-        priceNonMember: '$ 140.000',
-        color: '#F7B749',
+        title: 'platinum',
+        price: '$ 12,500 USD',
+        color: '#757575',
         items: [
-          {title: 'thing 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
-          {title: 'thing 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
-          {title: 'thing 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.'},
+          {title: 'slots', value: '1'},
+          {title: 'Booth are in the Foyer', value: '3m x 2m'},
+          {title: '30 min. Presentation', value: '450+people in the Plenary session'},
+          {title: 'Dedicated Meeting Room', value: true},
+          {title: 'Logo Display', value: 'Website, Online Invitations'},
+          {title: '', value: ''}, // for alignment
+        ]
+      },
+      {
+        title: 'gold',
+        price: '$ 10,000 USD',
+        color: '#DAA511',
+        items: [
+          {title: 'slots', value: 'not limited'},
+          {title: 'Booth are in the Foyer', value: '2.5m x 2m'},
+          {title: '20 min. Presentation', value: '450+people in the Plenary session'},
+          {title: 'Dedicated Meeting Room', value: true},
+          {title: 'Logo Display', value: 'Website, Online Invitations'},
+          {title: '', value: ''}, // for alignment
+        ]
+      },
+      {
+        title: 'silver',
+        price: '$ 7,500 USD',
+        color: '#A8A9AD',
+        items: [
+          {title: 'slots', value: 'not limited'},
+          {title: 'Booth are in the Foyer', value: '2m x 2m'},
+          {title: '10 min. Presentation', value: '450+people in the Plenary session'},
+          {title: 'Dedicated Meeting Room', value: false},
+          {title: 'Logo Display', value: 'Website, Online Invitations'},
+          {title: '', value: ''}, // for alignment
+        ]
+      },
+      {
+        title: 'lunch',
+        price: '$ 5,000 USD',
+        color: '#EAEAEA',
+        items: [
+          {title: 'slots', value: false},
+          {title: 'Booth are in the Foyer', value: false},
+          {title: 'Presentation', value: false},
+          {title: 'Dedicated Meeting Room', value: false},
+          {title: 'Logo Display', value: 'Roll-up in Lunch Area, Website, Online Invitations'},
+          {title: '', value: ''}, // for alignment
+        ]
+      },
+      {
+        title: 'coffee break',
+        price: '$ 2,500 USD',
+        color: '#EAEAEA',
+        caption: <><a href="https://drive.google.com/file/d/1VI9BbhP2sOWD6QZDAsloElJRuTNif7LL/view">Learn more</a> about sponsoring OpenInfra Days Turkiye.</>,
+        items: [
+          {title: 'slots', value: false},
+          {title: 'Booth are in the Foyer', value: false},
+          {title: 'Presentation', value: false},
+          {title: 'Dedicated Meeting Room', value: false},
+          {title: 'Logo Display', value: 'Roll-up in Coffee Area, Website, Online Invitations'},
+          {title: '', value: ''}, // for alignment
         ]
       }
     ]
@@ -225,11 +298,11 @@ export const SponsorshipPageTemplate = ({
             text='Learn how to join the OpenInfra Foundation'
             button={{ link: '/join/members/', text: 'BECOME A MEMBER'}}
           />
-          {/*<SponsorshipSection
+          <SponsorshipSection
             title="OPENINFRA DAYS SPECIAL EDITION"
             overview="SPONSORSHIP OPPORTUNITIES"
             sponsorships={SPONSORSHIPS_DAYS}
-          />*/}
+          />
           <GenericBanner 
             upperText=''
             text='Reach out to be connected</br>to the OpenInfra Foundation and</br>OpenInfra Summit Asia organizers!'

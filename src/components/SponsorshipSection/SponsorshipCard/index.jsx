@@ -8,7 +8,7 @@ const Tick = ({color}) => (
   </svg>
 );
 
-const SponsorshipCard = ({title, priceMember, priceNonMember, color, items}) => {
+const SponsorshipCard = ({title, priceMember, priceNonMember, price, color, items, caption}) => {
 
   const getValue = (value) => {
     if (value === false) {
@@ -25,26 +25,43 @@ const SponsorshipCard = ({title, priceMember, priceNonMember, color, items}) => 
       <div className="left-section" style={{backgroundColor: color}}>
         <h2 className="title">{title}</h2>
         <div className="prices">
+          {priceMember &&
           <div className="member-price">
             <p className="price-label">Member Price</p>
             <p className="price">{priceMember}</p>
           </div>
+          }
+          {priceNonMember &&
           <div className="non-member-price">
             <p className="price-label">Non-Member Price</p>
             <p className="price">{priceNonMember}</p>
           </div>
+          }
+          {price &&
+            <div className="single-price">
+              <p className="price-label">Price</p>
+              <p className="price">{price}</p>
+            </div>
+          }
         </div>
       </div>
       <div className="right-section">
-        {items.map(it => (
-          <div className={`item ${it.value === false ? 'disabled' : ''}`}>
-            <h4 className="item-title">
-              {it.title}{' '}
-            </h4>
-            {it.subtitle && <div className="item-subtitle">{it.subtitle}</div>}
-            <p className="item-value">{getValue(it.value)}</p>
+        <div className="items-section">
+          {items.map(it => (
+            <div className={`item ${it.value === false ? 'disabled' : ''}`}>
+              <h4 className="item-title">
+                {it.title}{' '}
+              </h4>
+              {it.subtitle && <div className="item-subtitle">{it.subtitle}</div>}
+              <p className="item-value">{getValue(it.value)}</p>
+            </div>
+          ))}
+        </div>
+        {caption &&
+          <div className="caption">
+            {caption}
           </div>
-        ))}
+        }
       </div>
     </div>
   )

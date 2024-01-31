@@ -191,6 +191,7 @@ const SPONSORSHIPS_DAYS = [
   },
   {
     title: ["OpenInfra Days Turkiye - May 20, 2024", "ALBERT LONG HALL CULTURAL CENTER, BOĞAZIÇI UNIVERSITY ISTANBUL, TURKIYE"],
+    subtitle: <><a href="https://drive.google.com/file/d/1VI9BbhP2sOWD6QZDAsloElJRuTNif7LL/view">Learn more</a> about sponsoring OpenInfra Days Turkiye.</>,
     plans: [
       {
         title: 'platinum',
@@ -248,7 +249,6 @@ const SPONSORSHIPS_DAYS = [
         title: 'coffee break',
         price: '$ 2,500 USD',
         color: '#EAEAEA',
-        caption: <><a href="https://drive.google.com/file/d/1VI9BbhP2sOWD6QZDAsloElJRuTNif7LL/view">Learn more</a> about sponsoring OpenInfra Days Turkiye.</>,
         items: [
           {title: 'slots', value: false},
           {title: 'Booth are in the Foyer', value: false},
@@ -280,9 +280,9 @@ export const SponsorshipPageTemplate = ({
         <div className="content sponsorship-page-content">
           <SimpleHeader
             title="BECOME A SPONSOR"
-            subtitle="Interested in sponsoring?</br>Reach out to be connected to the OpenInfra Foundation</br>and OpenInfra Summit Asia organizers!"            
+            subtitle="Interested in sponsoring?</br>Reach out to be connected to the OpenInfra Foundation</br>and OpenInfra Summit community organizers!"
             backgroundImage="/img/sponsorship/summit-marketplace.png"
-            button={{ link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates', text: 'Contact Now'}}
+            button={{ link: 'mailto:events@openinfra.dev', text: 'Contact Now'}}
           />
           <SponsorshipSection
             title="OPENINFRA SUMMIT ASIA"

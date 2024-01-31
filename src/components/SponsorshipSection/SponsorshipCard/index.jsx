@@ -8,7 +8,7 @@ const Tick = ({color}) => (
   </svg>
 );
 
-const SponsorshipCard = ({title, priceMember, priceNonMember, price, color, items, caption}) => {
+const SponsorshipCard = ({title, priceMember, priceNonMember, price, color, items}) => {
 
   const getValue = (value) => {
     if (value === false) {
@@ -57,11 +57,6 @@ const SponsorshipCard = ({title, priceMember, priceNonMember, price, color, item
             </div>
           ))}
         </div>
-        {caption &&
-          <div className="caption">
-            {caption}
-          </div>
-        }
       </div>
     </div>
   )

@@ -81,7 +81,7 @@ const SpecialEditionSection = () => {
                 }
                 {day.registration &&
                   <p className="agenda-info">
-                    <img src="img/openinfra-days/arrow_forward.svg" alt="registration" />
+                    <img src="img/openinfra-days/arrow_forward.svg" alt="registration" width="24" height="24" />
                     <span dangerouslySetInnerHTML={{ __html: day.registration }} />
                   </p>
                 }

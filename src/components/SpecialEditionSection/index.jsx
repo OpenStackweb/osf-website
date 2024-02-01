@@ -18,7 +18,8 @@ const DAYS = [
   {
     title: "OpenInfra Day Turkiye",
     date: "May 20, 2024",
-    location: '<a href="https://maps.app.goo.gl/rPTB4oZabiJtfYdE9" target="_blank" rel="noopener noreferrer">Albert Long Hall Cultural Center</a>, Boğaziçi University, Istanbul, Turkiye'
+    location: '<a href="https://maps.app.goo.gl/rPTB4oZabiJtfYdE9" target="_blank" rel="noopener noreferrer">Albert Long Hall Cultural Center</a>, Boğaziçi University, Istanbul, Turkiye',
+    registration: '<a href="https://openinfraturkiye.org.tr/event-registration/" target="_blank" rel="noopener noreferrer">Register Now</a>'
   },
   { title: "OpenInfra Day France",
     date: "May 2024"
@@ -29,7 +30,8 @@ const DAYS = [
   {
     title: "OpenInfra Meetup: Switzerland",
     date: "June 6, 2024",
-    location: '<a href="https://www.google.com/maps/place/CERN/@46.2337442,6.056322,15.89z/data=!4m6!3m5!1s0x478c62fcec737b11:0x81bef3ae7a885e31!8m2!3d46.2330492!4d6.0556771!16zL20vMDk5cm4?entry=ttu" target="_blank" rel="noopener noreferrer">CERN</a>, Geneva, Switzerland'
+    location: '<a href="https://www.google.com/maps/place/CERN/@46.2337442,6.056322,15.89z/data=!4m6!3m5!1s0x478c62fcec737b11:0x81bef3ae7a885e31!8m2!3d46.2330492!4d6.0556771!16zL20vMDk5cm4?entry=ttu" target="_blank" rel="noopener noreferrer">CERN</a>, Geneva, Switzerland',
+    registration: '<a href="https://indico.cern.ch/e/openinfra-cern-2024" target="_blank" rel="noopener noreferrer">Register Now</a>',
   },
 ];
 
@@ -75,6 +77,12 @@ const SpecialEditionSection = () => {
                   <p className="agenda-info">
                     <img src="img/openinfra-days/location.svg" alt="location" />
                     <span dangerouslySetInnerHTML={{ __html: day.location }} />
+                  </p>
+                }
+                {day.registration &&
+                  <p className="agenda-info">
+                    <img src="img/openinfra-days/arrow_forward.svg" alt="registration" />
+                    <span dangerouslySetInnerHTML={{ __html: day.registration }} />
                   </p>
                 }
                 {(!day.date || !day.location) &&

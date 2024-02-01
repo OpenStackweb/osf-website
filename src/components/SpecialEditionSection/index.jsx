@@ -6,7 +6,10 @@ import LinkComponent from '../LinkComponent';
 
 
 const DAYS = [
-  { title: "OpenInfra Day Sweden", date: "May 7, 2024", location: `<a href="https://www.google.com/maps/place/Gunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden/@57.7242383,11.8490387,17z/data=!4m16!1m9!3m8!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!2sGunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden!3b1!8m2!3d57.7242775!4d11.8483159!10e5!16s%2Fg%2F11cnd7r_rq!3m5!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!8m2!3d57.7242775!4d11.8483159!16s%2Fg%2F11cnd7r_rq?entry=ttu" target="_blank" rel="noopener noreferrer">Volvohallen</a>, Gothenburg, Sweden` },
+  { title: "OpenInfra Day Sweden",
+    date: "May 7, 2024", 
+    location: '<a href="https://www.google.com/maps/place/Gunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden/@57.7242383,11.8490387,17z/data=!4m16!1m9!3m8!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!2sGunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden!3b1!8m2!3d57.7242775!4d11.8483159!10e5!16s%2Fg%2F11cnd7r_rq!3m5!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!8m2!3d57.7242775!4d11.8483159!16s%2Fg%2F11cnd7r_rq?entry=ttu" target="_blank" rel="noopener noreferrer">Volvohallen</a>, Gothenburg, Sweden'
+  },
   {
     title: "OpenInfra Day Germany x Sovereign Cloud Stack Summit",
     date: "May 14 & 15, 2024",
@@ -16,6 +19,7 @@ const DAYS = [
     title: "OpenInfra Day Turkiye",
     date: "May 20, 2024",
     location: '<a href="https://maps.app.goo.gl/rPTB4oZabiJtfYdE9" target="_blank" rel="noopener noreferrer">Albert Long Hall Cultural Center</a>, Boğaziçi University, Istanbul, Turkiye'
+    registration: '<a href="https://openinfraturkiye.org.tr/event-registration/" target="blank" rel="noopener noreferrer">Register Now</a>'
   },
   { title: "OpenInfra Day France",
     date: "May 2024"
@@ -26,7 +30,8 @@ const DAYS = [
   {
     title: "OpenInfra Meetup: Switzerland",
     date: "June 6, 2024",
-    location: `<a href="https://www.google.com/maps/place/CERN/@46.2337442,6.056322,15.89z/data=!4m6!3m5!1s0x478c62fcec737b11:0x81bef3ae7a885e31!8m2!3d46.2330492!4d6.0556771!16zL20vMDk5cm4?entry=ttu" target="_blank" rel="noopener noreferrer">CERN</a>, Geneva, Switzerland`
+    location: '<a href="https://www.google.com/maps/place/CERN/@46.2337442,6.056322,15.89z/data=!4m6!3m5!1s0x478c62fcec737b11:0x81bef3ae7a885e31!8m2!3d46.2330492!4d6.0556771!16zL20vMDk5cm4?entry=ttu" target="_blank" rel="noopener noreferrer">CERN</a>, Geneva, Switzerland'
+    registration: '<a href="https://indico.cern.ch/e/openinfra-cern-2024" target="blank" rel="noopener noreferrer">Register Now</a>'
   },
 ];
 
@@ -72,6 +77,12 @@ const SpecialEditionSection = () => {
                   <p className="agenda-info">
                     <img src="img/openinfra-days/location.svg" alt="location" />
                     <span dangerouslySetInnerHTML={{ __html: day.location }} />
+                  </p>
+                }
+                {day.location &&
+                  <p className="agenda-info">
+                    <img src="img/openinfra-days/arrow_forward.svg" alt="registration" />
+                    <span dangerouslySetInnerHTML={{ __html: day.registration }} />
                   </p>
                 }
                 {(!day.date || !day.location) &&

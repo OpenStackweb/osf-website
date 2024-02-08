@@ -4,14 +4,14 @@ import LinkComponent from '../LinkComponent';
 
 
 const UNIVERSE = [
-  {name: "Airship", link: "https://airshipit.org", logo: "airship.svg", description: "Airship is a collection of loosely coupled but interoperable open source tools that declaratively", tags: ["cloud provisioning"], isOIF: true},
-  {name: "Ceph", link: "https://ceph.io", logo: "ceph.svg", description: "Ceph is a free and open-source software-defined storage platform that provides object storage, block storage, and file storage built on a common distributed cluster foundation.", tags: ["storage"], isOIF: false},
-  {name: "DPDK", link: "https://dpdk.org", logo: "dpdk.svg", description: "DPDK is the open source Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU.", tags: ["packet processing"], isOIF: false},
+  {name: "Airship", link: "https://airshipit.org", logo: "airship.svg", description: "Airship is a collection of loosely coupled but interoperable open source tools.", tags: ["cloud provisioning"], isOIF: true},
+  {name: "Ceph", link: "https://ceph.io", logo: "ceph.svg", description: "Ceph is a software-defined storage platform that provides object storage, block storage, and file storage.", tags: ["storage"], isOIF: false},
+  {name: "DPDK", link: "https://dpdk.org", logo: "dpdk.svg", description: "DPDK consists of libraries to accelerate packet processing workloads running on a wide variety of CPU.", tags: ["packet processing"], isOIF: false},
   {name: "Exosphere", link: "https://exosphere.app", logo: "exosphere.png", description: "A user-friendly, extensible OpenStack client.", tags: ["front-end client"], isOIF: false},
-  {name: "Kata Containers", link: "https://katacontainers.io", logo: "katacontainers.svg", description: "Kata Containers is an open source container runtime, building lightweight virtual machines that seamlessly plug into the containers ecosystem.", tags: ["container runtime"], isOIF: true},
-  {name: "Kubernetes", link: "https://kubernetes.io", logo: "kubernetes.png", description: "Kubernetes is an open-source container orchestration system for automating software deployment, scaling, and management.", tags: ["container orchestration"], isOIF: false},
+  {name: "Kata Containers", link: "https://katacontainers.io", logo: "katacontainers.svg", description: "Kata Containers is a container runtime, building lightweight VMs that seamlessly plug into the containers ecosystem.", tags: ["container runtime"], isOIF: true},
+  {name: "Kubernetes", link: "https://kubernetes.io", logo: "kubernetes.png", description: "Kubernetes is a container orchestration system for automating software deployment, scaling, and management.", tags: ["container orchestration"], isOIF: false},
   {name: "openEuler", link: "https://www.openeuler.org/", logo: "openeuler.png", description: "openEuler is an open source, free Linux distribution platform. The platform provides an open community for global developers to build an open, diversified, and architecture-inclusive software ecosystem.", tags: ["OS distribution"], isOIF: false},
-  {name: "OpenStack", link: "https://openstack.org", logo: "openstack.svg", description: "OpenStack is a free, open standard cloud computing platform. It is mostly deployed as infrastructure-as-a-service in both public and private clouds where virtual servers and other resources are made available to users.", tags: ["Compute", "Storage", "Networking"], isOIF: true},
+  {name: "OpenStack", link: "https://openstack.org", logo: "openstack.svg", description: "OpenStack is a free, open standard cloud computing platform, controlling large pools of compute, storage, and networking resources, all managed through APIs or a dashboard.", tags: ["Compute", "Storage", "Networking"], isOIF: true},
   {name: "Sovereign Cloud Stack", link: "https://scs.community", logo: "scs.svg", description: "Sovereign Cloud Stack combines the best of cloud computing in one unified standard. SCS is built, backed, and operated by an active open-source community.", tags: ["IaaS"], isOIF: false},
   {name: "StarlingX", link: "https://starlingx.io", logo: "starlingx.svg", description: "StarlingX is a complete, open source cloud infrastructure software stack for the edge computing workloads, used by the most demanding applications.", tags: ["Edge Computing"], isOIF: true},
   {name: "Zuul", link: "https://zuul-ci.org", logo: "zuul.svg", description: "Zuul is an open source CI that powers some of the largest Open Source development efforts.", tags: ["continuous integration"], isOIF: true},
@@ -41,39 +41,34 @@ const UniverseListing = () => {
         <div className="container">
           <div className="universe-list" id="universe-list">
               {UNIVERSE.map(universe => (
-                <div className="universe-block">
-                  <div className="universe-openinfra-project">
-                    {universe.isOIF && 
-                      <div>
-                        <span>OpenInfra Foundation Project</span>
-                        <img className="universe-bar" src="img/universe/oif-project-bar.svg" alt="" />
-                      </div>
-                    }
-                  </div>
-                  <div className="universe-content">
-                    <div className="universe-logo-wrapper">
-                      <LinkComponent href={universe.link}>
-                        <img className="universe-project-logo" src={`img/universe/projects/${universe.logo}`} alt="" />
-                      </LinkComponent>
-                    </div>
-                    <div className="universe-project-name">
-                      {universe.name}
-                    </div>
-                    <div className="universe-project-description">
-                      {universe.description}
-                    </div>
-                    <div className="universe-project-link">
-                      <LinkComponent href={universe.link}>{universe.link}</LinkComponent>
-                    </div>
-                    <div className="universe-tag-wrapper">
-                      {universe.tags.map(tag => (
-                        <div className="universe-tag">
-                          {tag}
+                  <a href={universe.link} className="universe-block">
+                    <div className="universe-openinfra-project">
+                      {universe.isOIF && 
+                        <div>
+                          <span>OpenInfra Foundation Project</span>
+                          <img className="universe-bar" src="img/universe/oif-project-bar.svg" alt="" />
                         </div>
-                      ))}
+                      }
                     </div>
-                  </div>
-                </div>
+                    <div className="universe-content">
+                      <div className="universe-logo-wrapper">
+                        <img className="universe-project-logo" src={`img/universe/projects/${universe.logo}`} alt="" />
+                      </div>
+                      <div className="universe-project-name">
+                        {universe.name}
+                      </div>
+                      <div className="universe-project-description">
+                        {universe.description}
+                      </div>
+                      <div className="universe-tag-wrapper">
+                        {universe.tags.map(tag => (
+                          <div className="universe-tag">
+                            {tag}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </a>
               ))}
           </div>
         </div>

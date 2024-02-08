@@ -1,0 +1,73 @@
+.universe-join-banner-wrapper {
+  background: #ffffff;
+  padding: 3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  @media (max-width: 991px) {
+    background-size: cover;
+    background-position: center;
+  }
+}
+.universe-join-banner-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  @media (min-width: 991px) {
+    width: 60%;
+  }
+}
+.universe-join-banner-title {
+  color: #000;
+  font-family: "Jura", sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.96px;
+  @media (max-width: 991px) {
+    font-size: 36px;
+  }
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+}
+.universe-join-banner-subtitle {
+  color: #000000;
+}
+.universe-join-banner-button {
+  background-color: #e61e24;
+  color: #ffffff;
+  font-family: "Jura", sans-serif;
+  font-size: 18px;
+  line-height: 135%;
+  font-weight: bold;
+  border-radius: 40px;
+  padding: 1em 4em;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-transform: uppercase;
+  margin: 2rem auto 0;
+  border: none;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #888;
+  }
+  @media (max-width: 991px) {
+    height: 56px;
+    font-size: 14px;
+    margin-top: 35px;
+    margin-right: auto;
+  }
+  @media (max-width: 501px) {
+    padding: 15px 30px;
+  }
+}

@@ -42,7 +42,7 @@
   }
   .button-red {
     border-radius: 100px;
-    .arrow-down {
+    .down-arrow {
       width: 15px;
       margin-left: 8px;
     }
@@ -61,8 +61,10 @@
     max-width: 946px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(48%, 1fr));
-    gap: 2%;
+    grid-template-columns: repeat(auto-fill,minmax(47%, 1fr));
+    gap: 20px;
+    min-height: 0;
+    min-width: 0;
 
     @media (min-width: 720px) {
       grid-template-columns: repeat(auto-fill,minmax(32%, 1fr));
@@ -220,7 +222,5 @@
         }
       }
     }
-
   }
-
 }

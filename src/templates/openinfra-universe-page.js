@@ -7,6 +7,7 @@ import TopBar from "../components/TopBar";
 import NavbarV2 from "../components/NavbarV2";
 import SEO from "../components/SEO";
 import UniverseListing from "../components/UniverseListing";
+import UniverseJoinBanner from "../components/UniverseJoinBanner";
 
 export const OpenInfraUniversePageTemplate = ({
                                           isLoggedUser,
@@ -23,6 +24,11 @@ export const OpenInfraUniversePageTemplate = ({
         <main className="main">
           <div className="content">
             <UniverseListing />
+            <UniverseJoinBanner
+              title={'Join the OpenInfra Universe'}
+              subtitle={'Do you have an open source project that should be listed in the OpenInfra Universe? The Universe is always expanding, so reach out and let us know about it!'}
+              button={{link: 'mailto:info@openinfra.dev', text: 'Email Us'}}
+            />
           </div>
         </main>
       </div>

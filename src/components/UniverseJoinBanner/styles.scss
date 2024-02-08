@@ -1,9 +1,12 @@
 .universe-join-banner-wrapper {
-  background: #ffffff;
+  background: #eeeeee;
   padding: 3em;
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-position: 75% bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
   @media (max-width: 991px) {
     background-size: cover;
     background-position: center;

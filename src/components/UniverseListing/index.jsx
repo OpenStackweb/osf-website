@@ -4,7 +4,7 @@ import LinkComponent from '../LinkComponent';
 
 
 const UNIVERSE = [
-  {name: "Airship", link: "https://airshipit.org", logo: "airship.svg", description: "Airship is a collection of loosely coupled but interoperable open source tools that declaratively", tags: ["cloud provisioning", "another"], isOIF: true},
+  {name: "Airship", link: "https://airshipit.org", logo: "airship.svg", description: "Airship is a collection of loosely coupled but interoperable open source tools that declaratively", tags: ["cloud provisioning"], isOIF: true},
   {name: "Ceph", link: "https://ceph.io", logo: "ceph.svg", description: "Ceph is a free and open-source software-defined storage platform that provides object storage, block storage, and file storage built on a common distributed cluster foundation.", tags: ["storage"], isOIF: false},
   {name: "DPDK", link: "https://dpdk.org", logo: "dpdk.svg", description: "DPDK is the open source Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU.", tags: ["packet processing"], isOIF: false},
   {name: "Exosphere", link: "https://exosphere.app", logo: "exosphere.png", description: "A user-friendly, extensible OpenStack client.", tags: ["front-end client"], isOIF: false},

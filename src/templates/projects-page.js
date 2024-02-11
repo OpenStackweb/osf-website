@@ -1,16 +1,16 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Content, { HTMLContent } from '../components/Content'
-import Layout from '../components/Layout'
-import Header from '../components/Header'
-import TopBar from '../components/TopBar';
-import NavbarV2 from '../components/NavbarV2';
-import SEO from '../components/SEO'
-import HostingProject from '../components/HostingProject'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Content, { HTMLContent } from "../components/Content";
+import Layout from "../components/Layout";
+import Header from "../components/Header";
+import TopBar from "../components/TopBar";
+import NavbarV2 from "../components/NavbarV2";
+import SEO from "../components/SEO";
+import HostingProject from "../components/HostingProject";
 
-import leftArrow from '../img/svg/arrow-left.svg'
-import LinkComponent from '../components/LinkComponent'
+import leftArrow from "../img/svg/arrow-left.svg";
+import LinkComponent from "../components/LinkComponent";
 import { connect } from "react-redux";
 import ProjectsSubNav from "../components/ProjectsSubNav";
 
@@ -20,9 +20,9 @@ export const ProjectsPageTemplate = ({
   projectCategories,
   projectList,
   content,
-  contentComponent
+  contentComponent,
 }) => {
-  const PageContent = contentComponent || Content  
+  const PageContent = contentComponent || Content;
 
   return (
     <div>
@@ -35,33 +35,61 @@ export const ProjectsPageTemplate = ({
 
       <main className="main">
         <div className="content">
-          {projectCategories.map(category => {
+          {projectCategories.map((category) => {
             return (
-              projectList.filter(project => project.category && project.category === category.categoryId).length > 0 &&
-              <section className="projects-s1-main container">
-                <h3 className="itemtitle">{category.label}</h3>
-                <hr className="itemtitle-hr" />
-                {projectList.filter(project => project.category && project.category === category.categoryId).map((project, index) => {
-                  return (
-                    <div className="projects-s1-container columns" key={index}>
-                      <div className="column is-2">
-                        {project.logo ?
-                          project.logo.extension === 'svg' && !project.logo.childImageSharp ?
-                            <img src={!!project.logo.publicURL ? project.logo.publicURL : project.logo} alt='' className={`${project.class}-logo-image projetcs-s1-container-child`} />
-                            :
-                            <img src={!!project.logo.childImageSharp ? project.logo.childImageSharp.fluid.src : project.logo} alt='' className="projetcs-s1-container-child" />
-                          :
-                          null
-                        }
-                      </div>
-                      <div className="projetcs-s1-container-child column is-7 is-full-mobile projects-primary-container">
-                        <h2>{project.title}</h2>
-                        <h3 id={project.class ? `${project.class}-h3` : ''}>{project.subTitle}</h3>
-                        <p>
-                          {project.description}
-                        </p>
-                        <div className="columns important-links-columns">
-                          {/* <div className="column is-three-fifths">
+              projectList.filter(
+                (project) =>
+                  project.category && project.category === category.categoryId
+              ).length > 0 && (
+                <section className="projects-s1-main container">
+                  <h3 className="itemtitle">{category.label}</h3>
+                  <hr className="itemtitle-hr" />
+                  {projectList
+                    .filter(
+                      (project) =>
+                        project.category &&
+                        project.category === category.categoryId
+                    )
+                    .map((project, index) => {
+                      return (
+                        <div
+                          className="projects-s1-container columns"
+                          key={index}
+                        >
+                          <div className="column is-2">
+                            {project.logo ? (
+                              project.logo.extension === "svg" &&
+                              !project.logo.childImageSharp ? (
+                                <img
+                                  src={
+                                    !!project.logo.publicURL
+                                      ? project.logo.publicURL
+                                      : project.logo
+                                  }
+                                  alt=""
+                                  className={`${project.class}-logo-image projetcs-s1-container-child`}
+                                />
+                              ) : (
+                                <img
+                                  src={
+                                    !!project.logo.childImageSharp
+                                      ? project.logo.childImageSharp.fluid.src
+                                      : project.logo
+                                  }
+                                  alt=""
+                                  className="projetcs-s1-container-child"
+                                />
+                              )
+                            ) : null}
+                          </div>
+                          <div className="projetcs-s1-container-child column is-7 is-full-mobile projects-primary-container">
+                            <h2>{project.title}</h2>
+                            <h3 id={project.class ? `${project.class}-h3` : ""}>
+                              {project.subTitle}
+                            </h3>
+                            <p>{project.description}</p>
+                            <div className="columns important-links-columns">
+                              {/* <div className="column is-three-fifths">
                             {project.features && project.features.map((feature, index) => {
                               if (feature.image) {
                                 return (
@@ -78,31 +106,49 @@ export const ProjectsPageTemplate = ({
                               }
                             })}
                           </div> */}
-                          <div className="column important-links-column">
-                            {project.links?.length > 0 && project.links.map((link, index) => {
-                              if (link.link) {
-                                return (
-                                  <p key={index} className={project.class ? `${project.class}-important-link projects-important-link` : ''}>
-                                    <LinkComponent href={link.link}>{link.text}</LinkComponent>
-                                  </p>
-                                )
-                              }
-                            })}
+                              <div className="column important-links-column">
+                                {project.links?.length > 0 &&
+                                  project.links.map((link, index) => {
+                                    if (link.link) {
+                                      return (
+                                        <p
+                                          key={index}
+                                          className={
+                                            project.class
+                                              ? `${project.class}-important-link projects-important-link`
+                                              : ""
+                                          }
+                                        >
+                                          <LinkComponent href={link.link}>
+                                            {link.text}
+                                          </LinkComponent>
+                                        </p>
+                                      );
+                                    }
+                                  })}
+                              </div>
+                            </div>
+                          </div>
+                          <div className="projetcs-s1-container-child column is-3">
+                            {project.button?.link && (
+                              <LinkComponent
+                                href={project.button.link}
+                                className="button button-red projects-btn"
+                                id={project.class ? `${project.class}-btn` : ""}
+                              >
+                                <span>
+                                  {project.button.text}{" "}
+                                  <img src={leftArrow} alt="" />
+                                </span>
+                              </LinkComponent>
+                            )}
                           </div>
                         </div>
-                      </div>
-                      <div className="projetcs-s1-container-child column is-3">
-                        {project.button?.link &&
-                          <LinkComponent href={project.button.link} className="button button-red projects-btn" id={project.class ? `${project.class}-btn` : ''}>
-                            <span>{project.button.text} <img src={leftArrow} alt="" /></span>
-                          </LinkComponent>
-                        }
-                      </div>
-                    </div>
-                  )
-                })}
-              </section>
-            )
+                      );
+                    })}
+                </section>
+              )
+            );
           })}
 
           <PageContent content={content} />
@@ -110,17 +156,17 @@ export const ProjectsPageTemplate = ({
         </div>
       </main>
     </div>
-  )
-}
+  );
+};
 
 ProjectsPageTemplate.propTypes = {
   header: PropTypes.object,
   confirmed: PropTypes.object,
   pilot: PropTypes.object,
-}
+};
 
 const ProjectsPage = ({ isLoggedUser, data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
     <Layout>
@@ -134,16 +180,19 @@ const ProjectsPage = ({ isLoggedUser, data }) => {
         content={post.html}
       />
     </Layout>
-  )
-}
+  );
+};
 
 ProjectsPage.propTypes = {
   data: PropTypes.object.isRequired,
-}
+};
 
-export default connect(state => ({
-  isLoggedUser: state.loggedUserState.isLoggedUser
-}), null)(ProjectsPage)
+export default connect(
+  (state) => ({
+    isLoggedUser: state.loggedUserState.isLoggedUser,
+  }),
+  null
+)(ProjectsPage);
 
 export const projectsPageQuery = graphql`
   query ProjectsPage($id: String!) {
@@ -167,7 +216,7 @@ export const projectsPageQuery = graphql`
         header {
           title
           subTitle
-        }        
+        }
         projectCategories {
           label
           categoryId
@@ -207,8 +256,8 @@ export const projectsPageQuery = graphql`
             link
             text
           }
-        }        
+        }
       }
     }
   }
-`
+`;

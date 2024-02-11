@@ -9,6 +9,8 @@ node_modules
 public/
 static/admin/*.bundle.*
 .idea/
+.env.*
+.env
 .python-version
 src/content/events.json
 src/content/summit.json

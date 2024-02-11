@@ -9,13 +9,13 @@ node_modules
 public/
 static/admin/*.bundle.*
 .idea/
-.env.*
-.env
+.python-version
 src/content/events.json
 src/content/summit.json
 src/content/current-release.json
 src/content/legal-document.json
 src/content/sponsorship-types.json
 src/content/sponsored-projects.json
+src/content/settings.json
 # Local Netlify folder
 .netlify

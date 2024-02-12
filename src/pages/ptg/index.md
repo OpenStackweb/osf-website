@@ -11,9 +11,9 @@ header:
   title: Project Teams Gathering
   upperTitle: VIRTUAL EVENT
   description: >-
-    The Project Teams Gathering (PTG) allows OpenInfra community groups (and adjacent open source community project teams) working on open source projects to meet virtually, exchange ideas and get work done in a productive, low-key setting. Discussions might include items like: priority setting for the upcoming months, assigning work items, iterating quickly on solutions for complex problems, or making fast progress on critical issues. Since teams decide their own schedule and agendas for their meetings, the PTG is able to fit each team’s needs and facilitate cross community and cross team collaboration.\
+    The Project Teams Gathering (PTG) allows OpenInfra community groups (and adjacent open source community project teams) working on open source projects to meet virtually, exchange ideas and get work done in a productive, low-key setting. Discussions might include items like: priority setting for the upcoming months, assigning work items, iterating quickly on solutions for complex problems, or making fast progress on critical issues. Since teams decide their own schedule and agendas for their meetings, the PTG is able to fit each team’s needs and facilitate cross community and cross team collaboration.
     
-    The ‘co-location’ of these meetings into a combined event, in conjunction with  the dynamic scheduling and transparency of topics being discussed per team, enables open collaboration for our open communities to discuss any specific topic (open design & open development).\
+    The ‘co-location’ of these meetings into a combined event, in conjunction with  the dynamic scheduling and transparency of topics being discussed per team, enables open collaboration for our open communities to discuss any specific topic (open design & open development).
     
     Examples of teams that have participated in past PTG’s are: the Diversity & Inclusion Working Group, Kata Containers, Confidential Containers, OpenDev, the Computing Force Network, OpenStack Operators, Nova, Ironic, Cinder, StarlingX and many others! Whether your team is focused on a general theme in open infrastructure or a particular repo or service, there is space for your open source community.
   date:

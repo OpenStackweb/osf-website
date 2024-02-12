@@ -19,7 +19,7 @@ const DAYS = [
     title: "OpenInfra Day Turkiye",
     date: "May 20, 2024",
     location: '<a href="https://maps.app.goo.gl/rPTB4oZabiJtfYdE9" target="_blank" rel="noopener noreferrer">Albert Long Hall Cultural Center</a>, Boğaziçi University, Istanbul, Turkiye',
-    registration: '<a href="https://openinfraturkiye.org.tr/event-registration/" target="_blank" rel="noopener noreferrer">Register Now</a>'
+    registration: '<a href="https://openinfraturkiye.org.tr/event-registration/" target="_blank" rel="noopener noreferrer">Register Now</a> | <a href="https://openinfraturkiye.org.tr/call-for-presentations" target="_blank" rel="noopener noreferrer">CFP</a>'
   },
   { title: "OpenInfra Day France",
     date: "May 2024"

@@ -17,7 +17,7 @@ import SponsoringBanner from "../components/SponsoringBanner";
 
 const SPONSORSHIPS = [
   {
-    title: ["September 2 & 3, 2024", "Suwon Convention Center", "Suwon, South Korea"],
+    title: ["September 3 & 4, 2024", "Suwon Convention Center", "Suwon, South Korea"],
     plans: [
       {
         title: 'headline',

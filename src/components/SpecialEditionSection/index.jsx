@@ -50,7 +50,7 @@ const SpecialEditionSection = () => {
         <p>
           The event will take place throughout <b>May and June 2024 in Sweden, Germany, Turkiye and France</b>. In addition,
           other
-          regions including the UK and Switzerland will be participating with meetups!
+          regions including Switzerland will be participating with meetups!
         </p>
         <div className="agenda-wrapper">
           <div className="agenda-header">

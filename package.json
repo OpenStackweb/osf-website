@@ -7,7 +7,7 @@
     "@ncwidgets/file-relation": "^0.8.0",
     "@ncwidgets/id": "^0.8.1",
     "awesome-bootstrap-checkbox": "^1.0.1",
-    "axios": "^0.21.1",
+    "axios": "^0.28.0",
     "babel-preset-gatsby": "^2.11.0",
     "blob-polyfill": "^4.0.20200601",
     "browser-tabs-lock": "^1.2.15",

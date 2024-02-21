@@ -52,11 +52,6 @@ const SpecialEditionSection = () => {
           other
           regions including the UK and Switzerland will be participating with meetups!
         </p>
-        <p>
-          The CFPs for these events will be going live in Q1 of 2024. In the meantime take a look at how your
-          organization can <LinkComponent href={'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates'}>
-            support these events by being a sponsor</LinkComponent>.
-        </p>
         <div className="agenda-wrapper">
           <div className="agenda-header">
             <StaticImage src="../../../static/img/openinfra-days/special-edition-banner.png"

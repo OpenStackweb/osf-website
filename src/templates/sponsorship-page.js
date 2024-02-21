@@ -148,29 +148,42 @@ const SPONSORSHIPS_DAYS = [
     title: ["SOVEREIGN CLOUD STACK X OPENINFRA DAYS GERMANY - MAY 14 & 15, 2024", "BERLIN, GERMANY"],
     plans: [
       {
+        title: 'platinum',
+        price: '15.000 € Euro',
+        color: '#43B85C',
+        items: [
+          {title: 'slots', value: '1'},
+          {title: 'Stand in the Exhibition Area', value: '2 Stand Table, 4 Chairs'},
+          {title: 'Logo Placement', value: 'Event Slides'},
+          {title: 'Social media Advertising', value: true},
+          {title: 'Rollup', value: 'At the Venue (beside the Main Stage)'},
+          {title: '30 minute pitch at the main stage', value: '(at the beginning or between program items)'},
+        ]
+      },
+      {
         title: 'gold',
-        price: '5.000 € Euro',
+        price: '7.500 € Euro',
         color: '#F7B749',
         items: [
           {title: 'slots', value: '3'},
-          {title: 'Stand in the Exhibition Area', value: 'High Table, 2 Bar Stools'},
-          {title: 'Logo Placement', value: 'Event banner, Break Slides'},
+          {title: 'Stand in the Exhibition Area', value: '1 Stand Table, 2 Chairs'},
+          {title: 'Logo Placement', value: 'Event Slides'},
           {title: 'Social media Advertising', value: true},
           {title: 'Rollup', value: 'At the Venue (beside the Main Stage)'},
-          {title: '5 minute pitch at the main stage', value: '(at the beginning or between program items)'},
+          {title: '15 minute pitch at the main stage', value: '(at the beginning or between program items)'},
         ]
       },
       {
         title: 'silver',
-        price: '2.000 € Euro',
+        price: '2.500 € Euro',
         color: '#A8A9AD',
         items: [
           {title: 'slots', value: '5'},
-          {title: 'Stand in the Exhibition Area', value: 'High Table, 2 Bar Stools'},
-          {title: 'Logo Placement', value: 'Event banner, Break Slides'},
+          {title: 'Stand in the Exhibition Area', value: '1 Stand Table, 2 Chairs'},
+          {title: 'Logo Placement', value: 'Event Slides'},
           {title: 'Social media Advertising', value: true},
-          {title: 'Rollup at the venue', value: 'At the Venue (but not next to the stage)'},
-          {title: '5 minute pitch at the main stage', value: '(at the beginning or between program items)'},
+          {title: 'Rollup at the venue', value: 'No'},
+          {title: '5 minute pitch at the main stage', value: '(between program items)'},
         ]
       },
       {

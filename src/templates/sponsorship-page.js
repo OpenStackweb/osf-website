@@ -145,8 +145,8 @@ const SPONSORSHIPS = [
 
 const SPONSORSHIPS_DAYS = [
   {
-    title: ["SOVEREIGN CLOUD STACK X OPENINFRA DAYS GERMANY - MAY 14 & 15, 2024", "BERLIN, GERMANY"],
-    subtitle: <><a href="mailto:events@openinfra.dev">Contact us</a> to sponsor OpenInfra Days Germany.</>,
+    title: ["SOVEREIGN CLOUD STACK X OPENINFRA DAY GERMANY - MAY 14 & 15, 2024", "BERLIN, GERMANY"],
+    subtitle: <><a href="mailto:events@openinfra.dev">Contact us</a> to sponsor OpenInfra Day Germany.</>,
     plans: [
       {
         title: 'platinum',
@@ -157,8 +157,8 @@ const SPONSORSHIPS_DAYS = [
           {title: 'Stand in the Exhibition Area', value: '2 Stand Table, 4 Chairs'},
           {title: 'Logo Placement', value: 'Event Slides'},
           {title: 'Social media Advertising', value: true},
-          {title: 'Rollup', value: 'At the Venue (beside the Main Stage)'},
-          {title: '30 minute pitch at the main stage', value: '(at the beginning or between program items)'},
+          {title: 'Rollup Next to Main Stage', value: true},
+          {title: '30 minute pitch at the main stage', value: '(between program items)'},
         ]
       },
       {
@@ -170,8 +170,8 @@ const SPONSORSHIPS_DAYS = [
           {title: 'Stand in the Exhibition Area', value: '1 Stand Table, 2 Chairs'},
           {title: 'Logo Placement', value: 'Event Slides'},
           {title: 'Social media Advertising', value: true},
-          {title: 'Rollup', value: 'At the Venue (beside the Main Stage)'},
-          {title: '15 minute pitch at the main stage', value: '(at the beginning or between program items)'},
+          {title: 'Rollup Next to Main Stage', value: true},
+          {title: '15 minute pitch at the main stage', value: '(between program items)'},
         ]
       },
       {
@@ -183,7 +183,7 @@ const SPONSORSHIPS_DAYS = [
           {title: 'Stand in the Exhibition Area', value: '1 Stand Table, 2 Chairs'},
           {title: 'Logo Placement', value: 'Event Slides'},
           {title: 'Social media Advertising', value: true},
-          {title: 'Rollup at the venue', value: 'No'},
+          {title: 'Rollup Next to Main Stage', value: false},
           {title: '5 minute pitch at the main stage', value: '(between program items)'},
         ]
       },
@@ -204,7 +204,7 @@ const SPONSORSHIPS_DAYS = [
     ]
   },
   {
-    title: ["OpenInfra Days Turkiye - May 20, 2024", "ALBERT LONG HALL CULTURAL CENTER, BOĞAZIÇI UNIVERSITY ISTANBUL, TURKIYE"],
+    title: ["OpenInfra Day Turkiye - May 20, 2024", "ALBERT LONG HALL CULTURAL CENTER, BOĞAZIÇI UNIVERSITY ISTANBUL, TURKIYE"],
     subtitle: <><a href="https://drive.google.com/file/d/1VI9BbhP2sOWD6QZDAsloElJRuTNif7LL/view">Learn more</a> about sponsoring OpenInfra Days Turkiye.</>,
     plans: [
       {

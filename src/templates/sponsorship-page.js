@@ -146,6 +146,7 @@ const SPONSORSHIPS = [
 const SPONSORSHIPS_DAYS = [
   {
     title: ["SOVEREIGN CLOUD STACK X OPENINFRA DAYS GERMANY - MAY 14 & 15, 2024", "BERLIN, GERMANY"],
+    subtitle: <><a href="mailto:events@openinfra.dev">Contact us</a> to sponsor OpenInfra Days Germany.</>,
     plans: [
       {
         title: 'platinum',

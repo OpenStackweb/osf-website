@@ -23,8 +23,6 @@ header:
     icon: /img/summit/Vector-world.svg
     text: Virtual
   buttons:
-    - text: Sign Up Your Team
-      link: https://openinfrafoundation.formstack.com/forms/april2024_ptg_survey
     - text: Register Now!
       link: https://ptg2024.openinfra.dev/
   image: /img/ptg-page/hero-image.png

@@ -75,7 +75,6 @@ export const PTGPageTemplate = ({
               Virtual
             </span>
             <span className="location">
-              Sign up your team to participate by February 18
             </span>
             <div className="buttons">
               <ul>

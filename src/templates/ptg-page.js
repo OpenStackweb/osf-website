@@ -170,7 +170,7 @@ export const PTGPageTemplate = ({
                 <div class="ptg-who-teams-list">
                   <ul>
                     <li>Diversity & Inclusion Working Group</li>
-                    <li>OpenEuler</li>
+                    <li>openEuler</li>
                     <li>OpenInfra Edge Computing Group</li>
                     <li>Kata Containers</li>
                     <li>OpenDev</li>

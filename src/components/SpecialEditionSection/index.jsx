@@ -25,7 +25,7 @@ const DAYS = [
   },
   { title: "OpenInfra Day France",
     date: "May 22, 2024",
-   location: '<a href="https://maps.app.goo.gl/sxxPmcTnYe4Dh3f18" target="_blank" rel="noopener noreferrer">EDF Lab Paris-Saclay</a>'
+   location: '<a href="https://maps.app.goo.gl/sxxPmcTnYe4Dh3f18" target="_blank" rel="noopener noreferrer">EDF Lab Paris-Saclay</a>, Palaiseau, France'
   },
   {
     title: "OpenInfra Meetup: Switzerland",

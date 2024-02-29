@@ -24,7 +24,8 @@ const DAYS = [
     registration: '<a href="https://openinfraturkiye.org.tr/event-registration/" target="_blank" rel="noopener noreferrer">Register Now</a> | <a href="https://openinfraturkiye.org.tr/call-for-presentations" target="_blank" rel="noopener noreferrer">CFP</a> | <a href="https://openinfra.dev/events/sponsorship" target="_blank" rel="noopener noreferrer">Sponsor</a>'
   },
   { title: "OpenInfra Day France",
-    date: "May 2024"
+    date: "May 22, 2024",
+   location: '<a href="https://www.google.com/maps/place/Edf+Lab+Paris-Saclay/@48.7159083,2.1971758,15z/data=!4m6!3m5!1s0x47e678beda89e9cd:0xd5dc25575693ff25!8m2!3d48.7159083!4d2.1971758!16s%2Fg%2F11cjpck0pz?entry=ttu" target="_blank" rel="noopener noreferrer">EDF Lab Paris-Saclay</a>'
   },
   {
     title: "OpenInfra Meetup: Switzerland",

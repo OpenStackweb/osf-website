@@ -75,7 +75,6 @@ export const PTGPageTemplate = ({
               Virtual
             </span>
             <span className="location">
-              Sign up your team to participate by February 18
             </span>
             <div className="buttons">
               <ul>
@@ -155,10 +154,10 @@ export const PTGPageTemplate = ({
       <main className="main">
         <div className="content">
           <section className="ptg-who">
-            {/* <div className="ptg-container">
+            <div className="ptg-container">
               <div className="ptg-who-teams">
                 <h4 className="title">
-                  The October 2023 Project Teams List is Official!
+                  The April 2024 Project Teams List is Official!
                 </h4>
                 <p>
                   If your team was planning to meet and isn't in this list,
@@ -166,15 +165,16 @@ export const PTGPageTemplate = ({
                   <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a>
                 </p>
                 <h5>
-                  <b>OpenInfra Foundation Teams</b>
+                  <b>OpenInfra Foundation Teams & Adjacent Communities</b>
                 </h5>
                 <div class="ptg-who-teams-list">
                   <ul>
                     <li>Diversity & Inclusion Working Group</li>
+                    <li>openEuler</li>
                     <li>OpenInfra Edge Computing Group</li>
-                    <li>Environmental Sustainability Working Group</li>
-                    <li>StarlingX</li>
                     <li>Kata Containers</li>
+                    <li>OpenDev</li>
+                    <li>StarlingX</li>
                   </ul>
                 </div>
                 <h5>
@@ -191,16 +191,17 @@ export const PTGPageTemplate = ({
                     <li>Ironic</li>
                     <li>Keystone</li>
                     <li>Kolla</li>
+                    <li>Magnum</li>
                     <li>Manila</li>
                     <li>Neutron</li>
                     <li>Nova</li>
                     <li>Octavia</li>
-                    <li>OpenStack-Ansible</li>
-                    <li>OpenStack Charms</li>
+                    <li>OpenStackAnsible</li>
                     <li>OpenStack-Helm</li>
-                    <li>Quality Assurance</li>
                     <li>OpenStackSDK/CLI</li>
-                    <li>Swift</li>
+                    <li>Quality Assurance</li>
+                    <li>Release Management</li>
+                    <li>Sunbeam</li>
                     <li>Tacker</li>
                   </ul>
                 </div>
@@ -209,23 +210,15 @@ export const PTGPageTemplate = ({
                 </h5>
                 <div class="ptg-who-teams-list">
                   <ul>
-                    <li>Interoperability Working Group</li>
-                    <li>OpenStack Security SIG</li>
-                    <li>PublicCloud SIG</li>
-                    <li>RBAC</li>
-                    <li>OpenStack Technical Committee</li>
-                  </ul>
-                </div>
-                <h5>
-                  <b>OpenInfra Adjacent Communities</b>
-                </h5>
-                <div class="ptg-who-teams-list">
-                  <ul>
-                    <li>Confidential Containers</li>
+                  <li>OpenStack Security SIG</li>
+                  <li>OpenStack Technical Committee</li>
+                  <li>PublicCloud SIG</li>
+                  <li>RBAC</li>
+                  <li>VDI</li>
                   </ul>
                 </div>
               </div>
-            </div> */}
+            </div>
             <div className="ptg-container">
               <div className="ptg-who-boxes">
                 <div className="should">

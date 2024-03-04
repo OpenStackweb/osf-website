@@ -10,8 +10,12 @@ header:
   display: true
   title: Project Teams Gathering
   upperTitle: VIRTUAL EVENT
-  description: >
-    The Project Teams Gathering (PTG) provides meeting facilities allowing the various technical community groups working on open infrastructure projects to meet virtually, exchange and get work done in a productive, low-key setting. It lets those various groups discuss their priorities for the upcoming months, assign work items, iterate quickly on solutions for complex problems, and make fast progress on critical issues. The co-location of those various meetings, combined with the dynamic scheduling of the event, make it easy to get specific people in the same room to discuss a specific topic, or participate in multiple team meetings.
+  description: >-
+    The Project Teams Gathering (PTG) allows OpenInfra community groups (and adjacent open source community project teams) working on open source projects to meet virtually, exchange ideas and get work done in a productive, low-key setting. Discussions might include items like: priority setting for the upcoming months, assigning work items, iterating quickly on solutions for complex problems, or making fast progress on critical issues. Since teams decide their own schedule and agendas for their meetings, the PTG is able to fit each team’s needs and facilitate cross community and cross team collaboration.
+    
+    The ‘co-location’ of these meetings into a combined event, in conjunction with  the dynamic scheduling and transparency of topics being discussed per team, enables open collaboration for our open communities to discuss any specific topic (open design & open development).
+    
+    Examples of teams that have participated in past PTG’s are: the Diversity & Inclusion Working Group, Kata Containers, Confidential Containers, OpenDev, the Computing Force Network, OpenStack Operators, Nova, Ironic, Cinder, StarlingX and many others! Whether your team is focused on a general theme in open infrastructure or a particular repo or service, there is space for your open source community.
   date:
     icon: /img/summit/Vector-calendar.svg
     text: April 8-12, 2024
@@ -19,8 +23,8 @@ header:
     icon: /img/summit/Vector-world.svg
     text: Virtual
   buttons:
-    - text: Register Now
-      link: https://openinfrafoundation.formstack.com/forms/april2024_ptg_survey
+    - text: Register Now!
+      link: https://ptg2024.openinfra.dev/
   image: /img/ptg-page/hero-image.png
 form:
   display: true

@@ -17,7 +17,7 @@ import SponsoringBanner from "../components/SponsoringBanner";
 
 const SPONSORSHIPS = [
   {
-    title: ["September 2 & 3, 2024", "Suwon Convention Center", "Suwon, South Korea"],
+    title: ["September 3 & 4, 2024", "Suwon Convention Center", "Suwon, South Korea"],
     plans: [
       {
         title: 'headline',
@@ -145,32 +145,46 @@ const SPONSORSHIPS = [
 
 const SPONSORSHIPS_DAYS = [
   {
-    title: ["SOVEREIGN CLOUD STACK X OPENINFRA DAYS GERMANY - MAY 14 & 15, 2024", "BERLIN, GERMANY"],
+    title: ["SOVEREIGN CLOUD STACK X OPENINFRA DAY GERMANY - MAY 14 & 15, 2024", "BERLIN, GERMANY"],
+    subtitle: <><a href="mailto:events@openinfra.dev">Contact us</a> to sponsor OpenInfra Day Germany.</>,
     plans: [
       {
+        title: 'platinum',
+        price: '15.000 € Euro',
+        color: '#43B85C',
+        items: [
+          {title: 'slots', value: '1'},
+          {title: 'Stand in the Exhibition Area', value: '2 Stand Table, 4 Chairs'},
+          {title: 'Logo Placement', value: 'Event Slides'},
+          {title: 'Social media Advertising', value: true},
+          {title: 'Rollup Next to Main Stage', value: true},
+          {title: '30 minute pitch at the main stage', value: '(between program items)'},
+        ]
+      },
+      {
         title: 'gold',
-        price: '5.000 € Euro',
+        price: '7.500 € Euro',
         color: '#F7B749',
         items: [
           {title: 'slots', value: '3'},
-          {title: 'Stand in the Exhibition Area', value: 'High Table, 2 Bar Stools'},
-          {title: 'Logo Placement', value: 'Event banner, Break Slides'},
+          {title: 'Stand in the Exhibition Area', value: '1 Stand Table, 2 Chairs'},
+          {title: 'Logo Placement', value: 'Event Slides'},
           {title: 'Social media Advertising', value: true},
-          {title: 'Rollup', value: 'At the Venue (beside the Main Stage)'},
-          {title: '5 minute pitch at the main stage', value: '(at the beginning or between program items)'},
+          {title: 'Rollup Next to Main Stage', value: true},
+          {title: '15 minute pitch at the main stage', value: '(between program items)'},
         ]
       },
       {
         title: 'silver',
-        price: '2.000 € Euro',
+        price: '2.500 € Euro',
         color: '#A8A9AD',
         items: [
           {title: 'slots', value: '5'},
-          {title: 'Stand in the Exhibition Area', value: 'High Table, 2 Bar Stools'},
-          {title: 'Logo Placement', value: 'Event banner, Break Slides'},
+          {title: 'Stand in the Exhibition Area', value: '1 Stand Table, 2 Chairs'},
+          {title: 'Logo Placement', value: 'Event Slides'},
           {title: 'Social media Advertising', value: true},
-          {title: 'Rollup at the venue', value: 'At the Venue (but not next to the stage)'},
-          {title: '5 minute pitch at the main stage', value: '(at the beginning or between program items)'},
+          {title: 'Rollup Next to Main Stage', value: false},
+          {title: '5 minute pitch at the main stage', value: '(between program items)'},
         ]
       },
       {
@@ -190,7 +204,8 @@ const SPONSORSHIPS_DAYS = [
     ]
   },
   {
-    title: ["OpenInfra Days Turkiye - May 20, 2024", "ALBERT LONG HALL CULTURAL CENTER, BOĞAZIÇI UNIVERSITY ISTANBUL, TURKIYE"],
+    title: ["OpenInfra Day Turkiye - May 20, 2024", "ALBERT LONG HALL CULTURAL CENTER, BOĞAZIÇI UNIVERSITY ISTANBUL, TURKIYE"],
+    subtitle: <><a href="https://drive.google.com/file/d/1VI9BbhP2sOWD6QZDAsloElJRuTNif7LL/view">Learn more</a> about sponsoring OpenInfra Days Turkiye.</>,
     plans: [
       {
         title: 'platinum',
@@ -248,7 +263,6 @@ const SPONSORSHIPS_DAYS = [
         title: 'coffee break',
         price: '$ 2,500 USD',
         color: '#EAEAEA',
-        caption: <><a href="https://drive.google.com/file/d/1VI9BbhP2sOWD6QZDAsloElJRuTNif7LL/view">Learn more</a> about sponsoring OpenInfra Days Turkiye.</>,
         items: [
           {title: 'slots', value: false},
           {title: 'Booth are in the Foyer', value: false},
@@ -280,9 +294,9 @@ export const SponsorshipPageTemplate = ({
         <div className="content sponsorship-page-content">
           <SimpleHeader
             title="BECOME A SPONSOR"
-            subtitle="Interested in sponsoring?</br>Reach out to be connected to the OpenInfra Foundation</br>and OpenInfra Summit Asia organizers!"            
+            subtitle="Interested in sponsoring?</br>Reach out to be connected to the OpenInfra Foundation</br>and OpenInfra Summit community organizers!"
             backgroundImage="/img/sponsorship/summit-marketplace.png"
-            button={{ link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates', text: 'Contact Now'}}
+            button={{ link: 'mailto:events@openinfra.dev', text: 'Contact Now'}}
           />
           <SponsorshipSection
             title="OPENINFRA SUMMIT ASIA"

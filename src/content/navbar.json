@@ -15,20 +15,16 @@
           "url": "/projects/hosting/"
         },
         {
-          "text": "Project Services",
-          "url": "/projects/services/"
-        },
-        {
-          "text": "Project Funding",
-          "url": "/projects/funding/"
-        },
-        {
           "text": "User Survey",
           "url": "/user-survey/"
         },
         {
           "text": "CLA",
           "url": "/cla/"
+        },
+        {
+          "text": "OpenInfra Universe",
+          "url": "/universe/"
         }
       ]
     },

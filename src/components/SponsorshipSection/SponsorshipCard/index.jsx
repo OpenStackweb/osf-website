@@ -24,6 +24,7 @@ const SponsorshipCard = ({title, priceMember, priceNonMember, price, color, item
     <div className="sponsorship-card-wrapper">
       <div className="left-section" style={{backgroundColor: color}}>
         <h2 className="title">{title}</h2>
+        <a name={showname}></a>
         <div className="prices">
           {priceMember &&
           <div className="member-price">

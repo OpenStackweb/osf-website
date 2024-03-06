@@ -3,13 +3,14 @@ import SponsorshipCard from "./SponsorshipCard";
 
 import './styles.scss';
 
-const SponsorshipSection = ({overview, title, sponsorships}) => {
+const SponsorshipSection = ({overview, title, showname, sponsorships}) => {
   return (
     <section className="sponsorship-section-wrapper">
       <div className="container">
         <div className="top">
           <p className="overview">{overview}</p>
           <h1 className="title">{title}</h1>
+          <a name="{showname}"></a>
         </div>
         <div className="body">
           {sponsorships.map(s =>

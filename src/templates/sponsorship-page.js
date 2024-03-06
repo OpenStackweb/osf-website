@@ -18,6 +18,7 @@ import SponsoringBanner from "../components/SponsoringBanner";
 const SPONSORSHIPS = [
   {
     title: ["September 3 & 4, 2024", "Suwon Convention Center", "Suwon, South Korea"],
+    showname: ["OpenInfraSummit Asia | OCP Regional Summit APAC"],
     plans: [
       {
         title: 'headline',
@@ -147,6 +148,7 @@ const SPONSORSHIPS_DAYS = [
   {
     title: ["SOVEREIGN CLOUD STACK X OPENINFRA DAY GERMANY - MAY 14 & 15, 2024", "BERLIN, GERMANY"],
     subtitle: <><a href="mailto:events@openinfra.dev">Contact us</a> to sponsor OpenInfra Day Germany.</>,
+    showname: ["Germany"],
     plans: [
       {
         title: 'platinum',
@@ -206,6 +208,7 @@ const SPONSORSHIPS_DAYS = [
   {
     title: ["OpenInfra Day Turkiye - May 20, 2024", "ALBERT LONG HALL CULTURAL CENTER, BOĞAZIÇI UNIVERSITY ISTANBUL, TURKIYE"],
     subtitle: <><a href="https://drive.google.com/file/d/1VI9BbhP2sOWD6QZDAsloElJRuTNif7LL/view">Learn more</a> about sponsoring OpenInfra Days Turkiye.</>,
+    showname: ["Turkiye"],
     plans: [
       {
         title: 'platinum',
@@ -299,7 +302,7 @@ export const SponsorshipPageTemplate = ({
             button={{ link: 'mailto:events@openinfra.dev', text: 'Contact Now'}}
           />
           <SponsorshipSection
-            title="OPENINFRA SUMMIT ASIA"
+            title="OPENINFRA SUMMIT ASIA | OCP REGIONAL SUMMIT APAC"
             overview="SPONSORSHIP OPPORTUNITIES"
             sponsorships={SPONSORSHIPS}
           />

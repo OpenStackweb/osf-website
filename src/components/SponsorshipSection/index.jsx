@@ -10,7 +10,6 @@ const SponsorshipSection = ({overview, title, showname, sponsorships}) => {
         <div className="top">
           <p className="overview">{overview}</p>
           <h1 className="title">{title}</h1>
-          <a name='{showname}'></a>
         </div>
         <div className="body">
           {sponsorships.map(s =>

@@ -8,7 +8,7 @@ const Tick = ({color}) => (
   </svg>
 );
 
-const SponsorshipCard = ({title, priceMember, priceNonMember, price, color, items}) => {
+const SponsorshipCard = ({title, showname, priceMember, priceNonMember, price, color, items}) => {
 
   const getValue = (value) => {
     if (value === false) {

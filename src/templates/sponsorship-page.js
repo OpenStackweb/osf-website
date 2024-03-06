@@ -18,7 +18,7 @@ import SponsoringBanner from "../components/SponsoringBanner";
 const SPONSORSHIPS = [
   {
     title: ["September 3 & 4, 2024", "Suwon Convention Center", "Suwon, South Korea"],
-    showname: ["OpenInfraSummit Asia | OCP Regional Summit APAC"],
+    showname: ["OpenInfraSummit-OCPRegionalSummit"],
     plans: [
       {
         title: 'headline',

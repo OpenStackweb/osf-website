@@ -71,9 +71,6 @@ const UniverseListing = () => {
                   </a>
               ))}
           </div>
-          <p className="universe-footnote">
-            The trademarks, logos, and service marks (collectively the "Trademarks") displayed on this website are registered and unregistered Trademarks of their respective owners. No rights or licenses to the Trademarks are granted, or implied, by their presence on this website.
-          </p>
         </div>
       </div>
     </section>

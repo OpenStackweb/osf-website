@@ -22,7 +22,7 @@ The OpenStack Foundation, d/b/a Open Infrastructure Foundation is a Delaware non
 
 This Privacy Policy describes how the Open Infrastructure Foundation collects personal data from and about website visitors and individual community members, how and why we use that data, and the circumstances under which we share that data with others. The Privacy Policy covers the following Open Infrastructure Foundation web properties: [openstack.org](openstack.org), [airshipit.org](airshipit.org), [starlingx.io](starlingx.io), [zuulci.org](zuulci.org), [katacontainers.io](katacontainers.io), [opendev.org](opendev.org), and [openinfralabs.org](openinfralabs.org).
 
-The Open Infrastructure Foundation is committed to the principles of the Privacy Shield through transparent disclosure of our activities related to privacy protection. We work at carefully balancing the Foundation’s interest in using your personal data to meet its goal against any potential impact to you arising from our use.
+The Open Infrastructure Foundation is committed to the principles of the EU-U.S. Data Privacy Framework through transparent disclosure of our activities related to privacy protection. We work at carefully balancing the Foundation’s interest in using your personal data to meet its goal against any potential impact to you arising from our use.
 
 If you have any questions or concerns about this Privacy Policy, or want further information on how we balance your right to personal data protection against our interest in serving our community, please contact us at [legalnotice@openinfra.dev](mailto:legalnotice@openinfra.dev), or PO Box 1903, Austin, Texas 78767.
 
@@ -54,7 +54,7 @@ If you have any questions or concerns about this Privacy Policy, or want further
 
 [XI. De-identified data](#part-11)
 
-[XII. EU-US and Swiss Privacy Shield](#part-12)
+[XII. EU-U.S. Data Privacy Framework](#part-12)
 
 [XIII. Changes to Policy](#part-13)
 
@@ -357,21 +357,19 @@ In some circumstances we may use or disclose de-identified data about our commun
 
 <section id="part-12"></section>
 
-### Part XII. EU-US and Swiss Privacy Shield
+### Part XII. EU-U.S. Data Privacy Framework
 
-The Open Infrastructure Foundation participates in the EU-US and Swiss Privacy Shield frameworks regarding the collection, use, and retention of personal information from European Union member countries and Switzerland. We have certified with the Department of Commerce that we adhere to the Privacy Shield Principles. To learn more about the Privacy Shield Principles, visit here. Our certification appears here.
+The Open Infrastructure Foundation participates in the EU-U.S. Data Privacy Framework regarding the collection, use, and retention of personal information from European Union member countries. We have certified with the Department of Commerce that we adhere to the EU-U.S. Data Privacy Framework Principles. To learn more about the EU-U.S. Data Privacy Framework Principles, visit here. Our certification appears here.
 
-Please note that the Open Infrastructure Foundation has elected to continue its participation in the EU-US and Swiss Privacy Shield frameworks even though Privacy Shield is no longer recognized by the EU as a permitted transfer mechanism. If you have relied on our Privacy Shield certification as a transfer mechanism please let us know and we will work with you to sign Standard Contractual Clauses.
+Please note that the Open Infrastructure Foundation has elected to continue its participation in the EU-U.S. Data Privacy Framework even though EU-U.S. Data Privacy Framework is no longer recognized by the EU as a permitted transfer mechanism. If you have relied on our EU-U.S. Data Privacy Framework certification as a transfer mechanism please let us know and we will work with you to sign Standard Contractual Clauses.
 
-![Prvacy Trust](static/img/privacy-trust.gif)
+In compliance with the EU-U.S. Data Privacy Framework Principles, The Open Infrastructure Foundation commits to resolve complaints about our collection or use of your personal information. EU individuals with inquiries or complaints regarding our EU-U.S. Data Privacy Framework policy should first contact The Open Infrastructure Foundation at [legalnotice@openinfra.dev](mailto:legalnotice@openinfra.dev) and give us the opportunity to resolve your complaint. We will respond to your complaint promptly.
 
-In compliance with the Privacy Shield Principles, The Open Infrastructure Foundation commits to resolve complaints about our collection or use of your personal information. EU individuals with inquiries or complaints regarding our Privacy Shield policy should first contact The Open Infrastructure Foundation at [legalnotice@openinfra.dev](mailto:legalnotice@openinfra.dev) and give us the opportunity to resolve your complaint. We will respond to your complaint promptly.
+The Open Infrastructure Foundation has further committed to refer unresolved EU-U.S. Data Privacy Framework complaints to Privacy Trust, an alternate dispute resolution provider located in the United States. If you do not receive timely acknowledgement of your complaint, or if your complaint is not satisfactorily addressed, please visit [https://www.privacytrust.com/drs/openstack](https://www.privacytrust.com/drs/openstack) for more information or to [raise a complaint with PrivacyTrust](https://www.privacytrust.com/drs/openstack). The services of Privacy Trust are provided at no cost to you.
 
-The Open Infrastructure Foundation has further committed to refer unresolved Privacy Shield complaints to Privacy Trust, an alternate dispute resolution provider located in the United States. If you do not receive timely acknowledgement of your complaint, or if your complaint is not satisfactorily addressed, please visit [https://www.privacytrust.com/drs/openstack](https://www.privacytrust.com/drs/openstack) for more information or to [raise a privacy shield complaint with PrivacyTrust](https://www.privacytrust.com/drs/openstack). The services of Privacy Trust are provided at no cost to you.
+In cases of onward transfer to third parties of data of EU individuals received pursuant to the EU-U.S. Data Privacy Framework, OpenStack remains liable.
 
-In cases of onward transfer to third parties of data of EU individuals received pursuant to the EU-US Privacy Shield, OpenStack remains liable.
-
-Finally, as a last resort and in limited situations, EU individuals may seek redress from the [Privacy Shield Panel](https://www.privacyshield.gov/article?id=F-The-Arbitration-Panel), a binding arbitration mechanism.
+Finally, as a last resort and in limited situations, EU individuals may seek redress from the [EU-U.S. Data Privacy Framework Program](https://www.dataprivacyframework.gov/), a binding arbitration mechanism.
 
 Please see the additional information provided by the U.S. Department of Commerce [here on resolving complaints](https://www.privacyshield.gov/article?id=How-to-Submit-a-Complaint&__hstc=121262807.82af9c9a98fa600b1bb630f9cde2cb5f.1545955200044.1545955200045.1545955200046.1&__hssc=121262807.1.1545955200047&__hsfp=998628806).
 

@@ -363,15 +363,29 @@ The Open Infrastructure Foundation participates in the EU-U.S. Data Privacy Fram
 
 Please note that the Open Infrastructure Foundation has elected to continue its participation in the EU-U.S. Data Privacy Framework even though EU-U.S. Data Privacy Framework is no longer recognized by the EU as a permitted transfer mechanism. If you have relied on our EU-U.S. Data Privacy Framework certification as a transfer mechanism please let us know and we will work with you to sign Standard Contractual Clauses.
 
-In compliance with the EU-U.S. Data Privacy Framework Principles, The Open Infrastructure Foundation commits to resolve complaints about our collection or use of your personal information. EU individuals with inquiries or complaints regarding our EU-U.S. Data Privacy Framework policy should first contact The Open Infrastructure Foundation at [legalnotice@openinfra.dev](mailto:legalnotice@openinfra.dev) and give us the opportunity to resolve your complaint. We will respond to your complaint promptly.
+In compliance with the EU-U.S. Data Privacy Framework (DPF), the Open Infrastructure Foundation commits to respect and adhere to the following principles regarding the handling of personal data transferred from the European Union to the United States:
 
-The Open Infrastructure Foundation has further committed to refer unresolved EU-U.S. Data Privacy Framework complaints to Privacy Trust, an alternate dispute resolution provider located in the United States. If you do not receive timely acknowledgement of your complaint, or if your complaint is not satisfactorily addressed, please visit [https://www.privacytrust.com/drs/openstack](https://www.privacytrust.com/drs/openstack) for more information or to [raise a complaint with PrivacyTrust](https://www.privacytrust.com/drs/openstack). The services of Privacy Trust are provided at no cost to you.
+1. **Notice**: We inform individuals about the purposes for which we collect and use their personal data.
+2. **Choice**: We offer individuals the opportunity to choose whether their personal data is disclosed to third parties or used for a purpose other than the one for which it was originally collected.
+3. **Accountability for Onward Transfer**: We ensure that any transfer of personal data to third parties is covered by a contract that provides the same level of protection.
+4. **Security**: We take reasonable and appropriate measures to protect personal data from loss, misuse, and unauthorized access.
+5. **Data Integrity and Purpose Limitation**: We ensure that personal data is accurate, complete, and current, and that it is used only for the purposes for which it was collected.
+6. **Access**: We provide individuals with access to their personal data and allow them to correct, amend, or delete inaccurate information.
+7. **Recourse, Enforcement, and Liability**: We provide individuals with recourse mechanisms to lodge complaints and seek remedies for non-compliance with the above principles.
+
+The Open Infrastructure Foundation also commits to cooperate with the panel established by the EU data protection authorities (DPAs) and comply with the advice given by them regarding unresolved complaints concerning our handling of personal data received in reliance on the DPF.
+
+For further information or to lodge a complaint, please contact us at [legalnotice@openinfra.dev](mailto:legalnotice@openinfra.dev).
+
+This policy reflects our commitment to protecting personal data and our dedication to upholding the highest standards of privacy and security.
+
+Our organization recognizes VeraSafe as our Independent Recourse Mechanism (IRM) for the resolution of disputes concerning the processing of personal data transferred from the EU under the EU-U.S. Data Privacy Framework. For more information on VeraSafe's dispute resolution process, or to raise a concern, please visit [VeraSafe's Dispute Resolution Program](https://verasafe.com/privacy-solutions/data-privacy-framework-dispute-resolution-program/). We commit to fully cooperate with VeraSafe in the resolution of any disputes and will comply with the advice given by them.
 
 In cases of onward transfer to third parties of data of EU individuals received pursuant to the EU-U.S. Data Privacy Framework, OpenStack remains liable.
 
 Finally, as a last resort and in limited situations, EU individuals may seek redress from the [EU-U.S. Data Privacy Framework Program](https://www.dataprivacyframework.gov/), a binding arbitration mechanism.
 
-Please see the additional information provided by the U.S. Department of Commerce [here on resolving complaints](https://www.privacyshield.gov/article?id=How-to-Submit-a-Complaint&__hstc=121262807.82af9c9a98fa600b1bb630f9cde2cb5f.1545955200044.1545955200045.1545955200046.1&__hssc=121262807.1.1545955200047&__hsfp=998628806).
+Please see the additional information provided by the Data Privacy Framework Program [here on resolving complaints](https://www.dataprivacyframework.gov/program-articles/How-to-Submit-a-Complaint-Relating-to-a-Participating-Organization%E2%80%99s-Compliance-with-the-DPF-Principles).
 
 <section id="part-13"></section>
 

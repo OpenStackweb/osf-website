@@ -379,13 +379,13 @@ For further information or to lodge a complaint, please contact us at [legalnoti
 
 This policy reflects our commitment to protecting personal data and our dedication to upholding the highest standards of privacy and security.
 
-Our organization recognizes VeraSafe as our Independent Recourse Mechanism (IRM) for the resolution of disputes concerning the processing of personal data transferred from the EU under the EU-U.S. Data Privacy Framework. For more information on VeraSafe's dispute resolution process, or to raise a concern, please visit [VeraSafe's Dispute Resolution Program](https://verasafe.com/privacy-solutions/data-privacy-framework-dispute-resolution-program/). We commit to fully cooperate with VeraSafe in the resolution of any disputes and will comply with the advice given by them.
+#### Dispute Resolution
 
-In cases of onward transfer to third parties of data of EU individuals received pursuant to the EU-U.S. Data Privacy Framework, OpenStack remains liable.
+If a privacy complaint or dispute relating to Personal Data received by OpenStack Foundation d/b/a Open Infrastructure Foundation in reliance on the Data Privacy Framework (or any of its predecessors) cannot be resolved through our internal processes, we have agreed to participate in the VeraSafe Data Privacy Framework Dispute Resolution Procedure. Subject to the terms of the [VeraSafe Data Privacy Framework Dispute Resolution Procedure](https://verasafe.com/public-resources/dispute-resolution/dispute-resolution-procedure/), VeraSafe will provide appropriate recourse free of charge to you. To file a complaint with VeraSafe and participate in the VeraSafe Data Privacy Framework Dispute Resolution Procedure, please submit the required information here: [https://www.verasafe.com/privacy-services/dispute-resolution/submit-dispute/](https://www.verasafe.com/privacy-services/dispute-resolution/submit-dispute/)
 
-Finally, as a last resort and in limited situations, EU individuals may seek redress from the [EU-U.S. Data Privacy Framework Program](https://www.dataprivacyframework.gov/), a binding arbitration mechanism.
+### Binding Arbitration
 
-Please see the additional information provided by the Data Privacy Framework Program [here on resolving complaints](https://www.dataprivacyframework.gov/program-articles/How-to-Submit-a-Complaint-Relating-to-a-Participating-Organization%E2%80%99s-Compliance-with-the-DPF-Principles).
+If your dispute or complaint related to your Personal Data that we received in reliance on the Data Privacy Framework cannot be resolved by us, nor through the dispute resolution mechanism mentioned above, you may have the right to require that we enter into binding arbitration with you under the Data Privacy Framework “Recourse, Enforcement and Liability” Principle and Annex I of the Data Privacy Framework.
 
 <section id="part-13"></section>
 

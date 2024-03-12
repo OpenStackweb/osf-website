@@ -13,8 +13,7 @@ const SponsorshipSection = ({overview, title, showname, sponsorships}) => {
         </div>
         <div className="body">
           {sponsorships.map(s =>
-            <div className="subsection">
-              <a name={showname}></a>
+            <div className="subsection" id={`${s.showname}`}>
               <div className="subsection-header">
                 <div className="subsection-title">
                   {s.title.map(sub => <p key={sub}>{sub}</p>)}

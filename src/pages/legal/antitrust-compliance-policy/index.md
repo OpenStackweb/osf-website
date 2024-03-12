@@ -70,7 +70,7 @@ Once again, these are general guidelines, and this is a complex, evolving area o
 
 ##### VI. Competition.
 
-Nothing contained in this policy should be construed to prohibit or limit a Member from making, using, selling, marketing, or promoting products that do not embody or make use of OpenStack technology. Members are not required to exclusively use, announce, or promote OpenStack tools or specifications. Members are free to design, develop, manufacture, acquire or market their respective products in any lawful way.
+Nothing contained in this policy should be construed to prohibit or limit a Member from making, using, selling, marketing, or promoting products that do not embody or make use of Open Infrastructure Project technology. Members are not required to exclusively use, announce, or promote Open Infrastructure Project tools or specifications. Members are free to design, develop, manufacture, acquire or market their respective products in any lawful way.
 
 ##### VII. Permitted Member Conduct
 
@@ -85,4 +85,4 @@ In addition to other legally permissible activities, Members may engage in the f
 
 This Policy is not intended to be legal advice. In some cases, out of an abundance of caution, these guidelines may go beyond the requirements of the antitrust laws and the fact that certain conduct may be prohibited should not be viewed as indicating that such conduct would violate the law. Members assume responsibility to provide appropriate legal counsel to their representatives regarding compliance with this policy.
 
-If you have a question regarding these matters, contact your own counsel or OpenStack counsel to be named.
+If you have a question regarding these matters, contact your own counsel or Foundation counsel to be named.

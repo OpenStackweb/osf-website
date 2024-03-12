@@ -26,8 +26,6 @@ footer:
 
 [Gold Member Policy](/legal/gold-member-policy/)
 
-[OpenStack Technical Committee Member Policy](/legal/openstack-technical-committee-member-policy)
-
 [Antitrust Policy](/legal/antitrust-compliance-policy)
 
 [Community Code of Conduct](/legal/code-of-conduct)

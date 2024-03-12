@@ -30,7 +30,6 @@ const SponsorshipSubNav = ({ active, sponsorships }) => {
     <nav className="subnav-bar">
       <div className="container">
         <div className="location">
-          <LinkComponent href="/sponsorship" >Sponsorship</LinkComponent>
         </div>
 
         {getMenuList('links-list')}

@@ -1048,29 +1048,9 @@ h2.home-v2-header {
       font-weight: 700;
       line-height: 20px;
       letter-spacing: 0.05em;
-
-      &.asia {
-        color: #ffb325;
-        border-color: #ffb325;
-        span {
-          margin-top: 64px;
-          color: #ffb325;
-          &:hover {
-            color: #ffb325;
-          }
-        }
-      }
-      &.europe {
-        color: #2cb4e2;
-        border-color: #00abe6;
-        span {
-          margin-top: 64px;
-          color: #2cb4e2;
-          &:hover {
-            color: #2cb4e2;
-          }
-        }
-      }
+      span {
+        margin-top: 64px;
+      }      
     }
   }
   .upcoming-events-section-wrapper {

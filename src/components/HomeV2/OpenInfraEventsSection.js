@@ -17,50 +17,78 @@ const OpenInfraEventsSection = () => {
         )
     }
 
+    const OpenInfraEventsData = [
+        {
+            link: 'https://openinfraasia.org',
+            logo: '/img/homeV2/events-images/logo-asia.svg',
+            text: 'openinfraasia.org',
+            color: '#FFB325',
+        },
+        {
+            link: 'https://openinfraeurope.org',
+            logo: '/img/homeV2/events-images/logo-europe.svg',
+            text: 'openinfraeurope.org',
+            color: '#2CB4E2',
+        }
+    ];
+
+    const UpcomingEventsData = [
+        {
+            image: '/img/homeV2/events-images/openinfra-asia-img.png',
+            date: 'September 2-3, 2024',
+            location: 'Suwon, South Korea',
+            button: {
+                link: '/',
+                text: 'openinfra.dev/summit'
+            }
+        },
+        {
+            image: '/img/homeV2/events-images/openinfra-europe-img.png',
+            date: 'August, 2024',
+            location: 'Berlin, Germany • Paris, France  • Istanbul, Turkey • Zurich, Switzerland',
+            button: {
+                link: '/',
+                text: 'openinfra.dev/DAYS'
+            }
+        }
+    ]
+
     return (
-        <div className='home-v2-events-section container'>            
+        <div className='home-v2-events-section container'>
             <span className='home-v2-header-events'>
                 OPENINFRA <span className='home-v2-header-events-red'>ASIA AND EUROPE: </span>
                 <br />A REGIONAL HUB TO PROMOTE, PROTECT
                 <br />OPEN SOURCE INFRASTRUCTURE
             </span>
             <div className='openinfra-events-section-wrapper'>
-                <LinkComponent href="https://openinfraasia.org">
-                    <div className='openinfra-event asia'>
-                        <img src='/img/homeV2/events-images/logo-asia.svg' />
-                        <span>{arrowIcon('#FFB325')} openinfraasia.org</span>
-                    </div>
-                </LinkComponent>
-                <LinkComponent href="https://openinfraeurope.org">
-                    <div className='openinfra-event europe'>
-                        <img src='/img/homeV2/events-images/logo-europe.svg' />
-                        <span>{arrowIcon('#2CB4E2')} openinfraeurope.org</span>
-                    </div>
-                </LinkComponent>                
+                {OpenInfraEventsData.map(event => {
+                    return (
+                        <LinkComponent href={event.link}>
+                            <div className='openinfra-event' style={{ color: event.color, borderColor: event.color }}>
+                                <img src={event.logo} />
+                                <span>{arrowIcon(event.color)} {event.text}</span>
+                            </div>
+                        </LinkComponent>
+                    )
+                })}
             </div>
             <div className='upcoming-events-section-wrapper'>
                 <span className='upcoming-events-title'>upcoming <span className='red'>events</span></span>
                 <div className="events-wrapper">
-                    <div className="event-container">
-                        <img className="event-image" src='/img/homeV2/events-images/openinfra-asia-img.png' />
-                        <span className='event-info'>
-                            <img src={calendarIcon} /> September 2-3, 2024
-                        </span>
-                        <span className='event-info'>
-                            <img src={locationIcon} /> Suwon, South Korea
-                        </span>
-                        <RoundedButton hasArrowIcon={false} link={'/'} text={'openinfra.dev/summit'} className="upcoming-event-button"/>
-                    </div>
-                    <div className="event-container">
-                        <img className="event-image" src='/img/homeV2/events-images/openinfra-europe-img.png' />
-                        <span className='event-info'>
-                            <img src={calendarIcon} /> August, 2024
-                        </span>
-                        <span className='event-info'>
-                            <img src={locationIcon} /> Berlin, Germany • Paris, France  • Istanbul, Turkey • Zurich, Switzerland
-                        </span>
-                        <RoundedButton hasArrowIcon={false} link={'/'} text={'openinfra.dev/DAYS'} className="upcoming-event-button"/>
-                    </div>
+                    {UpcomingEventsData.map(event => {
+                        return (
+                            <div className="event-container">
+                                <img className="event-image" src={event.image} />
+                                <span className='event-info'>
+                                    <img src={calendarIcon} /> {event.date}
+                                </span>
+                                <span className='event-info'>
+                                    <img src={locationIcon} /> {event.location}
+                                </span>
+                                <RoundedButton hasArrowIcon={false} link={event.button.link} text={event.button.text} className="upcoming-event-button" />
+                            </div>
+                        )
+                    })}                    
                 </div>
 
             </div>

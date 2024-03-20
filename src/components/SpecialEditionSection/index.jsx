@@ -12,8 +12,8 @@ const DAYS = [
     registration: '<a href="https://oideurope2024.openinfra.dev/#registration=1" target="_blank" rel="noopener noreferrer">Register Now</a> | <a href="https://docs.google.com/forms/d/e/1FAIpQLSfCvmgoq_9cqIDxz2K3ZI5dPZvsUSaaksGJpVEKt-6U89Udzg/viewform" target="_blank" rel="noopener noreferrer">CFP</a>'
   },
   {
-    title: "OpenInfra Day Germany x Sovereign Cloud Stack Summit",
-    date: "May 14 & 15, 2024",
+    title: "OpenInfra Day Germany co-located with Sovereign Cloud Stack Summit",
+    date: 'May 15 (SCS Summit, held May 14, <a href="https://scs.community/summit2024/">requires a separate registration</a>)',
     location: '<a href="https://www.google.com/maps/place/Villa+Elisabeth/@52.5331269,13.3972411,15z/data=!4m6!3m5!1s0x47a851f492be67f9:0x70038e11de799c16!8m2!3d52.5331269!4d13.3972411!16s%2Fg%2F11jfcbz7dv?entry=ttu" target="_blank" rel="noopener noreferrer">Villa Elisabeth</a>, Berlin, Germany',
     registration: '<a href="https://oideurope2024.openinfra.dev/#registration=1" target="_blank" rel="noopener noreferrer">Register Now</a> | <a href="https://forms.gle/KJzFYxVSh7JadurSA" target="_blank" rel="noopener noreferrer">CFP</a> | <a href="https://openinfra.dev/events/sponsorship/#Germany" target="_blank" rel="noopener noreferrer">Sponsor</a>'
   },

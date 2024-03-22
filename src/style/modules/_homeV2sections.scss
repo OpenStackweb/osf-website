@@ -1050,7 +1050,13 @@ h2.home-v2-header {
       letter-spacing: 0.05em;
       span {
         margin-top: 64px;
-      }      
+      }
+      @media screen and (max-width: 991px) {
+        padding: 10vh 10vw;
+        span {
+          font-size: 18px;
+        }
+      }
     }
   }
   .upcoming-events-section-wrapper {

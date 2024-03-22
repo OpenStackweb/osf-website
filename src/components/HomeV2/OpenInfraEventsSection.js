@@ -35,19 +35,19 @@ const OpenInfraEventsSection = () => {
     const UpcomingEventsData = [
         {
             image: '/img/homeV2/events-images/openinfra-asia-img.png',
-            date: 'September 2-3, 2024',
+            date: 'September 3-4, 2024',
             location: 'Suwon, South Korea',
             button: {
-                link: '/',
+                link: 'https://openinfra.dev/summit',
                 text: 'openinfra.dev/summit'
             }
         },
         {
             image: '/img/homeV2/events-images/openinfra-europe-img.png',
-            date: 'August, 2024',
-            location: 'Berlin, Germany • Paris, France  • Istanbul, Turkey • Zurich, Switzerland',
+            date: 'May and June, 2024',
+            location: 'Gothenburg, Sweden • Berlin, Germany • Istanbul, Türkiye • Palaiseau, France',
             button: {
-                link: '/',
+                link: 'https://openinfra.dev/days',
                 text: 'openinfra.dev/DAYS'
             }
         }

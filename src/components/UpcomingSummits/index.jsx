@@ -15,7 +15,7 @@ const UPCOMING_SUMMITS = [
       button: {
         link:
           "https://openinfrafoundation.formstack.com/forms/openinfra_asia_summit_2024",
-        text: "Learn More",
+        text: "Submit",
       },
     },
   },

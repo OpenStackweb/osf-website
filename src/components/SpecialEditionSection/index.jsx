@@ -28,6 +28,11 @@ const DAYS = [
    location: '<a href="https://maps.app.goo.gl/sxxPmcTnYe4Dh3f18" target="_blank" rel="noopener noreferrer">EDF Lab Paris-Saclay</a>, Palaiseau, France',
    registration: '<a href="https://t.e2ma.net/click/m7tk6f/6qi8as/udchfy" target="_blank">Register Now</a> | <a href="https://openinfrafoundation.formstack.com/forms/2024_openinfra_days_france_cfp" target="_blank" rel="noopener noreferrer">CFP</a>'
   },
+  { title: "OpenInfra Day Hungary",
+    date: "June 4, 2024",
+   location: '<a href="https://wing.hu/en/project/telekom-hq" target="_blank" rel="noopener noreferrer">Telekom Headquarters, Pusk·s conference room</a>, Budapest, Hungary',
+   registration: '<a href="https://oideurope2024.openinfra.dev/#registration=1" target="_blank">Register Now</a> | <a href="https://forms.gle/LnF8BRnCdiJQmwrn6" target="_blank" rel="noopener noreferrer">CFP</a> | <a href="mailto:HU_DT_TSI_CS_BO@t-systems.com">Sponsor</a>'
+  },
   {
     title: "OpenInfra Meetup: Switzerland",
     date: "June 6, 2024",

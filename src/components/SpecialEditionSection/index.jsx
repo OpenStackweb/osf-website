@@ -30,7 +30,7 @@ const DAYS = [
   },
   { title: "OpenInfra Day Hungary",
     date: "June 4, 2024",
-   location: '<a href="https://wing.hu/en/project/telekom-hq" target="_blank" rel="noopener noreferrer">Telekom Headquarters, Pusk·s conference room</a>, Budapest, Hungary',
+   location: '<a href="https://wing.hu/en/project/telekom-hq" target="_blank" rel="noopener noreferrer">Telekom Headquarters, Puskás conference room</a>, Budapest, Hungary',
    registration: '<a href="https://oideurope2024.openinfra.dev/#registration=1" target="_blank">Register Now</a> | <a href="https://forms.gle/LnF8BRnCdiJQmwrn6" target="_blank" rel="noopener noreferrer">CFP</a> | <a href="mailto:HU_DT_TSI_CS_BO@t-systems.com">Sponsor</a>'
   },
   {

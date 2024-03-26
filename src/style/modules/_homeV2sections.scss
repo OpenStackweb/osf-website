@@ -1102,6 +1102,12 @@ h2.home-v2-header {
           letter-spacing: -0.02em;
           text-align: left;
           margin-bottom: 20px;
+          display: inline-flex;
+          img {
+            margin-right: 10px;
+            height: 24px;
+            width: 24px;
+          }
         }
         .upcoming-event-button {
           display: inline-flex;
@@ -1131,8 +1137,9 @@ h2.home-v2-header {
           @media (max-width: 991px) {
             height: 56px;
             font-size: 14px;
-            margin-top: 35px;
+            margin-top: 25px;
             margin-right: auto;
+            margin-left: auto;
           }
           @media (max-width: 501px) {
             padding: 15px 30px;

@@ -16,6 +16,7 @@ import QuotesSection from '../components/HomeV2/QuotesSection'
 import PlatinumMembersSection2 from '../components/HomeV2/PlatinumMembersSection2'
 import CommunitiesSection from '../components/HomeV2/CommunitiesSection'
 import NewsSection from '../components/HomeV2/NewsSection'
+import OpenInfraEventsSection from '../components/HomeV2/OpenInfraEventsSection'
 
 export const IndexPageTemplate = ({
   isLoggedUser,
@@ -44,7 +45,11 @@ export const IndexPageTemplate = ({
             <CommunitiesSection />
         </div>
 
-        <NewsSection />
+        <div className="home-v2-outer-container-dark">          
+          <OpenInfraEventsSection />
+          <NewsSection />
+        </div>
+
 
       </div>
     </main>

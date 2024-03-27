@@ -5,7 +5,7 @@ import LinkComponent from '../LinkComponent'
 import './styles.scss'
 
 
-const RoundedButton = ({ link, text, className, arrowColor = null, buttonStyles = null }) => {
+const RoundedButton = ({ link, text, className, hasArrowIcon = true, arrowColor = null, buttonStyles = null }) => {
 
     if (!text) return null;
 
@@ -35,8 +35,8 @@ const RoundedButton = ({ link, text, className, arrowColor = null, buttonStyles 
     return (
         <LinkComponent href={link} className={`osf-button ${className ?? className}`} style={buttonStyles ? { ...buttonStyles } : {}}>
             {text}
-            {arrowIcon(customArrowColor)}
-            {arrowHoverIcon(customArrowHoverColor)}
+            {hasArrowIcon && arrowIcon(customArrowColor)}
+            {hasArrowIcon && arrowHoverIcon(customArrowHoverColor)}
         </LinkComponent>
     )
 }

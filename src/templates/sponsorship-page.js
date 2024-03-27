@@ -286,9 +286,9 @@ const SPONSORSHIPS_DAYS = [
         price: "3.000 € Euro",
         color: "#DAA511",
         items: [
+          { title: "Keynote", value: false },
           { title: "1 Regular Stand in  the Exhibition Area", value: true },
           { title: "2 Free Passes", value: true },
-          { title: "" },
           { title: "1 Discount Code", value: "10% Discount" },
           { title: "" },
           { title: "slots", value: "5" },
@@ -299,9 +299,9 @@ const SPONSORSHIPS_DAYS = [
         price: "1.000 € Euro",
         color: "#A8A9AD",
         items: [
+          { title: "Keynote", value: false },
           { title: "Logo Advertised On-Site & On Website", value: true },
           { title: "1 Free Pass", value: true },
-          { title: "" },
           { title: "1 Discount Code", value: "10% Discount" },
           { title: "" },
           { title: "slots", value: "No Limit" },

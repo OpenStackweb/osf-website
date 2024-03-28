@@ -22,6 +22,7 @@ episodes:
     episodeSpeakers: Sylvain Bauza (Nova), Ghanshyam Mann (Technical Committee),
       Riccardo Pittau (Ironic), Rajat Dhasmana (Cinder)
     youtubeLink: https://www.youtube.com/watch?v=3BgAXbFaVqw
+    youtubeEmbed: https://www.youtube.com/embed/3BgAXbFaVqw?si=MMWqNieLFBBLp2PN
   - hidden: false
     date: 2024-01-18T15:00:00.000Z
     episodeTitle: "Deep Dive Into the OpenDev Collaboratory "

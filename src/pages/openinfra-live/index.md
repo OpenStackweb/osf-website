@@ -15,7 +15,7 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2024-04-04T09:00:00.000Z
+    date: 2024-04-04T14:00:00.000Z
     episodeTitle: Introducing OpenStack Caracal 2024.1
     episodeDescription: "Join us to learn about OpenStack's 29th release from the
       community leaders who helped build it! "

@@ -258,7 +258,7 @@ const SPONSORSHIPS_DAYS = [
     ],
   },
   {
-    title: ["OPENINFRA DAY FRANCE - MAY 22, 2024", "PALAISEAU, FRANCE"],
+    title: ["OPENINFRA DAY FRANCE - MAY 22, 2024", "PARIS-SACLAY, FRANCE"],
     subtitle: (
       <>
         <a href="mailto:events@openinfra.dev">Contact us</a> to sponsor

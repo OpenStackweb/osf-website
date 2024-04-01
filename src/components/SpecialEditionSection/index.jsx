@@ -25,7 +25,7 @@ const DAYS = [
   },
   { title: "OpenInfra Day France",
     date: "May 22, 2024",
-   location: '<a href="https://maps.app.goo.gl/sxxPmcTnYe4Dh3f18" target="_blank" rel="noopener noreferrer">EDF Lab Paris-Saclay</a>, Palaiseau, France',
+   location: '<a href="https://maps.app.goo.gl/sxxPmcTnYe4Dh3f18" target="_blank" rel="noopener noreferrer">EDF Lab Paris-Saclay</a>, Paris-Saclay, France',
    registration: '<a href="https://t.e2ma.net/click/m7tk6f/6qi8as/udchfy" target="_blank">Register Now</a> | <a href="https://openinfrafoundation.formstack.com/forms/2024_openinfra_days_france_cfp" target="_blank" rel="noopener noreferrer">CFP</a>'
   },
   { title: "OpenInfra Day Hungary",

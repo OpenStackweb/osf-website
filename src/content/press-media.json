@@ -360,6 +360,14 @@
       "featured": true,
       "hideArticle": false,
       "image": "/img/img_20180522_125817.webp"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2024-04-03T15:18:04.031Z",
+      "title": "OpenStack Caracal Release Focuses on AI, Performance, Security",
+      "site": "ITProToday",
+      "link": "https://www.itprotoday.com/iaas-and-paas/openstack-caracal-release-focuses-ai-performance-security"
     }
   ],
   "seo": {

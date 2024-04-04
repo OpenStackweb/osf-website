@@ -4,7 +4,7 @@ import LinkComponent from '../LinkComponent';
 
 
 const EVENTS = [
-  {name: "Texas Linux Fest", link: "https://2024.texaslinuxfest.org/", date: "Apr 12 - 13, 2024", location: "Austin, Texas, US", color: "#43B85C"},
+  {name: "Texas Linux Fest", link: "https://2024.texaslinuxfest.org/", date: "Apr 12 - 13, 2024", location: "Austin, Texas", color: "#43B85C"},
   {name: "Linux Fest Northwest", link: "https://linuxfestnorthwest.org/", date: "Apr 26 - 28, 2024", location: "Bellingham, WA", color: "#F4A93A"},
   {name: "FOSSY", link: "https://sfconservancy.org/fossy/", date: "Aug 1 - 4, 2024", location: "Portland, OR", color: "#2CB4E2"},
   {name: "COSCUP", link: "https://coscup.org/2024/en/", date: "Aug 3 - 4, 2024", location: "Taipei", color: "#ED362F"},

@@ -188,6 +188,7 @@ export const PTGPageTemplate = ({
                     <li>Designate</li>
                     <li>Glance</li>
                     <li>Horizon</li>
+                    <li>i18n</li>
                     <li>Ironic</li>
                     <li>Keystone</li>
                     <li>Kolla</li>
@@ -197,6 +198,7 @@ export const PTGPageTemplate = ({
                     <li>Nova</li>
                     <li>Octavia</li>
                     <li>OpenStackAnsible</li>
+                    <li>OpenStackCharms</li>
                     <li>OpenStack-Helm</li>
                     <li>OpenStackSDK/CLI</li>
                     <li>Quality Assurance</li>

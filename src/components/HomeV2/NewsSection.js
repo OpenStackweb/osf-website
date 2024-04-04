@@ -48,7 +48,6 @@ const NewsSection = class extends React.Component {
                         <p className="home-v2-paragraph home-v2-paragraph-white">The latest news, technologies, and resources from the OpenInfra Community</p>
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
-                    itpro-caracal.png
                         <div className="news-article-inner-container">
                             <a href="https://www.itprotoday.com/iaas-and-paas/openstack-caracal-release-focuses-ai-performance-security"><img src="/img/homeV2/news-images/itpro-caracal.png" /></a>
                             <p className="news-article-intro-text">Sean Michael Kerner  • Apr 3, 2024</p>

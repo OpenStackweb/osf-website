@@ -59,7 +59,7 @@ const NewsSection = class extends React.Component {
                         <div className="news-article-inner-container">
                             <a href="https://www.computerweekly.com/blog/Open-Source-Insider/OpenStack-Caracal-improves-agility-delivers-bite-as-VMware-alternative"><img src="/img/homeV2/news-images/caracal-news-banner.png" /></a>
                             <p className="news-article-intro-text">Adrian Bridgwater  • Apr 3, 2024</p>
-                            <a href="https://www.computerweekly.com/blog/Open-Source-Insider/OpenStack-Caracal-improves-agility-delivers-bite-as-VMware-alternative"><h3>OpenStack Caracal improves agility & delivers bite as VMware alternativey</h3></a>
+                            <a href="https://www.computerweekly.com/blog/Open-Source-Insider/OpenStack-Caracal-improves-agility-delivers-bite-as-VMware-alternative"><h3>OpenStack Caracal improves agility & delivers bite as VMware alternative</h3></a>
                             <p className="news-article-content">The OpenStack has released Caracal (pronounced:‘keh·ruh·kal’ and named after the  medium-sized wild cat native to Africa, the Middle East and Asia) marking the 29th version of this widely deployed open source cloud infrastructure software. OpenStack is today deployed with more than 45 million cores in production. </p>
                             <a className="news-article-link" href="https://www.computerweekly.com/blog/Open-Source-Insider/OpenStack-Caracal-improves-agility-delivers-bite-as-VMware-alternative">READ MORE</a>
                         </div>

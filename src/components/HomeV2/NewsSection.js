@@ -48,7 +48,22 @@ const NewsSection = class extends React.Component {
                         <p className="home-v2-paragraph home-v2-paragraph-white">The latest news, technologies, and resources from the OpenInfra Community</p>
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
-                    <div className="news-article-inner-container">
+                    itpro-caracal.png
+                        <div className="news-article-inner-container">
+                            <a href="https://www.itprotoday.com/iaas-and-paas/openstack-caracal-release-focuses-ai-performance-security"><img src="/img/homeV2/news-images/itpro-caracal.png" /></a>
+                            <p className="news-article-intro-text">Sean Michael Kerner  • Apr 3, 2024</p>
+                            <a href="https://www.itprotoday.com/iaas-and-paas/openstack-caracal-release-focuses-ai-performance-security"><h3>OpenStack Caracal Release Focuses on AI, Performance, Security</h3></a>
+                            <p className="news-article-content">The open source cloud infrastructure platform continues to evolve to meet the needs of high-performance computing and AI. The open source OpenStack cloud platform received its first major update of 2024 today with the release of OpenStack Caracal.</p>
+                            <a className="news-article-link" href="https://www.itprotoday.com/iaas-and-paas/openstack-caracal-release-focuses-ai-performance-security">READ MORE</a>
+                        </div>
+                        <div className="news-article-inner-container">
+                            <a href="https://www.computerweekly.com/blog/Open-Source-Insider/OpenStack-Caracal-improves-agility-delivers-bite-as-VMware-alternative"><img src="/img/homeV2/news-images/caracal-news-banner.png" /></a>
+                            <p className="news-article-intro-text">Adrian Bridgwater  • Apr 3, 2024</p>
+                            <a href="https://www.computerweekly.com/blog/Open-Source-Insider/OpenStack-Caracal-improves-agility-delivers-bite-as-VMware-alternative"><h3>OpenStack Caracal improves agility & delivers bite as VMware alternativey</h3></a>
+                            <p className="news-article-content">The OpenStack has released Caracal (pronounced:‘keh·ruh·kal’ and named after the  medium-sized wild cat native to Africa, the Middle East and Asia) marking the 29th version of this widely deployed open source cloud infrastructure software. OpenStack is today deployed with more than 45 million cores in production. </p>
+                            <a className="news-article-link" href="https://www.computerweekly.com/blog/Open-Source-Insider/OpenStack-Caracal-improves-agility-delivers-bite-as-VMware-alternative">READ MORE</a>
+                        </div>
+                        <div className="news-article-inner-container">
                             <a href="https://techcrunch.com/2023/06/13/openinfra-foundation-opens-regional-hubs-in-europe-and-asia/"><img src="/img/homeV2/news-images/openinfraasiaeurope.png" /></a>
                             <p className="news-article-intro-text">Frederic Lardinois • Jun 13, 2023</p>
                             <a href="https://techcrunch.com/2023/06/13/openinfra-foundation-opens-regional-hubs-in-europe-and-asia/"><h3>OpenInfra Foundation opens regional hubs in Europe and Asia</h3></a>

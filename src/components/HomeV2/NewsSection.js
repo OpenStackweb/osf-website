@@ -49,6 +49,13 @@ const NewsSection = class extends React.Component {
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
                         <div className="news-article-inner-container">
+                            <a href="https://techcrunch.com/2024/04/04/openstack-improves-support-for-ai-workloads/"><img src="/img/homeV2/news-images/techcrunch-caracal.png" /></a>
+                            <p className="news-article-intro-text">Frederic Lardinois  • Apr 4, 2024</p>
+                            <a href="https://techcrunch.com/2024/04/04/openstack-improves-support-for-ai-workloads/"><h3>OpenStack Caracal Release Focuses on AI, Performance, Security</h3></a>
+                            <p className="news-article-content">OpenStack allows enterprises to manage their own AWS-like private clouds on-premises. Even after 29 releases, it’s still among the most active open-source projects in the world and this week, the OpenInfra Foundation that shepherds the project announced the launch of version 29 of OpenStack. Dubbed ‘Caracal,’ this new release emphasizes new features for hosting AI and high-performance computing (HPC) workloads.</p>
+                            <a className="news-article-link" href="https://techcrunch.com/2024/04/04/openstack-improves-support-for-ai-workloads/">READ MORE</a>
+                        </div>
+                        <div className="news-article-inner-container">
                             <a href="https://www.itprotoday.com/iaas-and-paas/openstack-caracal-release-focuses-ai-performance-security"><img src="/img/homeV2/news-images/itpro-caracal.png" /></a>
                             <p className="news-article-intro-text">Sean Michael Kerner  • Apr 3, 2024</p>
                             <a href="https://www.itprotoday.com/iaas-and-paas/openstack-caracal-release-focuses-ai-performance-security"><h3>OpenStack Caracal Release Focuses on AI, Performance, Security</h3></a>

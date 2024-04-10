@@ -9,7 +9,7 @@ const DAYS = [
   { title: "OpenInfra Day Sweden", 
     date: "May 7, 2024", 
     location: '<a href="https://www.google.com/maps/place/Gunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden/@57.7242383,11.8490387,17z/data=!4m16!1m9!3m8!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!2sGunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden!3b1!8m2!3d57.7242775!4d11.8483159!10e5!16s%2Fg%2F11cnd7r_rq!3m5!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!8m2!3d57.7242775!4d11.8483159!16s%2Fg%2F11cnd7r_rq?entry=ttu" target="_blank" rel="noopener noreferrer">Volvohallen</a>, Gothenburg, Sweden',
-    registration: '<a href="https://oideurope2024.openinfra.dev/#registration=1" target="_blank" rel="noopener noreferrer">Register Now</a> | <a href="https://docs.google.com/forms/d/e/1FAIpQLSfCvmgoq_9cqIDxz2K3ZI5dPZvsUSaaksGJpVEKt-6U89Udzg/viewform" target="_blank" rel="noopener noreferrer">CFP</a>'
+    registration: '<a href="https://oideurope2024.openinfra.dev/#registration=1" target="_blank" rel="noopener noreferrer">Register Now</a> | <a href="https://www.oidsweden2024.se/schedule " target="_blank" rel="noopener noreferrer">Schedule</a>'
   },
   {
     title: "OpenInfra Day Germany co-located with Sovereign Cloud Stack Summit",

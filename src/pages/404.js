@@ -1,9 +1,9 @@
-import React from 'react'
-import { Router, Redirect } from "@reach/router"
-import Header from '../components/Header'
-import Layout from '../components/Layout'
-import NavbarV2 from '../components/NavbarV2'
-import TopBar from '../components/TopBar'
+import React from "react";
+import { Router, Redirect } from "@reach/router";
+import Header from "../components/Header";
+import Layout from "../components/Layout";
+import NavbarV2 from "../components/NavbarV2";
+import TopBar from "../components/TopBar";
 
 const NotFoundPage = ({ location }) => {
   return (
@@ -28,12 +28,14 @@ const NotFoundPage = ({ location }) => {
       <div className="wrapper project-background">
         <TopBar />
         <NavbarV2 isLoggedUser={false} />
-        <Header title="NOT FOUND" subTitle="You just hit a route that doesn&#39;t exist... the sadness." />
+        <Header
+          title="NOT FOUND"
+          subTitle="You just hit a route that doesn&#39;t exist... the sadness."
+        />
       </div>
-      <div style={{ height: '45vw' }}>
-      </div>
+      <div style={{ height: "45vw" }}></div>
     </Layout>
-  )
-}
+  );
+};
 
-export default NotFoundPage
+export default NotFoundPage;

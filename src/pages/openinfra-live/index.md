@@ -15,6 +15,15 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2024-04-04T14:00:00.000Z
+    episodeTitle: Introducing OpenStack Caracal 2024.1
+    episodeDescription: "Join us to learn about OpenStack's 29th release from the
+      community leaders who helped build it! "
+    episodeSpeakers: Sylvain Bauza (Nova), Ghanshyam Mann (Technical Committee),
+      Riccardo Pittau (Ironic), Rajat Dhasmana (Cinder)
+    youtubeLink: https://www.youtube.com/watch?v=3BgAXbFaVqw
+    youtubeEmbed: https://www.youtube.com/embed/3BgAXbFaVqw?si=MMWqNieLFBBLp2PN
+  - hidden: false
     date: 2024-01-18T15:00:00.000Z
     episodeTitle: "Deep Dive Into the OpenDev Collaboratory "
     episodeDescription: On this episode of OpenInfra Live, we'll take a deep dive

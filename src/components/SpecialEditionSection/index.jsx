@@ -9,7 +9,7 @@ const DAYS = [
   { title: "OpenInfra Day Sweden", 
     date: "May 7, 2024", 
     location: '<a href="https://www.google.com/maps/place/Gunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden/@57.7242383,11.8490387,17z/data=!4m16!1m9!3m8!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!2sGunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden!3b1!8m2!3d57.7242775!4d11.8483159!10e5!16s%2Fg%2F11cnd7r_rq!3m5!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!8m2!3d57.7242775!4d11.8483159!16s%2Fg%2F11cnd7r_rq?entry=ttu" target="_blank" rel="noopener noreferrer">Volvohallen</a>, Gothenburg, Sweden',
-    registration: '<a href="https://oideurope2024.openinfra.dev/#registration=1" target="_blank" rel="noopener noreferrer">Register Now</a> | <a href="https://docs.google.com/forms/d/e/1FAIpQLSfCvmgoq_9cqIDxz2K3ZI5dPZvsUSaaksGJpVEKt-6U89Udzg/viewform" target="_blank" rel="noopener noreferrer">CFP</a>'
+    registration: '<a href="https://oideurope2024.openinfra.dev/#registration=1" target="_blank" rel="noopener noreferrer">Register Now</a> | <a href="https://www.oidsweden2024.se/schedule " target="_blank" rel="noopener noreferrer">Schedule</a>'
   },
   {
     title: "OpenInfra Day Germany co-located with Sovereign Cloud Stack Summit",
@@ -25,14 +25,25 @@ const DAYS = [
   },
   { title: "OpenInfra Day France",
     date: "May 22, 2024",
-   location: '<a href="https://maps.app.goo.gl/sxxPmcTnYe4Dh3f18" target="_blank" rel="noopener noreferrer">EDF Lab Paris-Saclay</a>, Palaiseau, France',
-   registration: '<a href="https://t.e2ma.net/click/m7tk6f/6qi8as/udchfy" target="_blank">Register Now</a> | <a href="https://openinfrafoundation.formstack.com/forms/2024_openinfra_days_france_cfp" target="_blank" rel="noopener noreferrer">CFP</a>'
+   location: '<a href="https://maps.app.goo.gl/sxxPmcTnYe4Dh3f18" target="_blank" rel="noopener noreferrer">EDF Lab Paris-Saclay</a>, Paris-Saclay, France',
+   registration: '<a href="https://t.e2ma.net/click/m7tk6f/6qi8as/udchfy" target="_blank">Register Now</a> | <a href="https://openinfrafoundation.formstack.com/forms/2024_openinfra_days_france_cfp" target="_blank" rel="noopener noreferrer">CFP</a> | <a href="https://openinfra.dev/events/sponsorship/#France" target="_blank" rel="noopener noreferrer">Sponsor</a>'
+  },
+  { title: "OpenInfra Day Hungary",
+    date: "June 4, 2024",
+   location: '<a href="https://wing.hu/en/project/telekom-hq" target="_blank" rel="noopener noreferrer">Telekom Headquarters, Puskás conference room</a>, Budapest, Hungary',
+   registration: '<a href="https://oideurope2024.openinfra.dev/#registration=1" target="_blank">Register Now</a> | <a href="https://forms.gle/LnF8BRnCdiJQmwrn6" target="_blank" rel="noopener noreferrer">CFP</a> | <a href="mailto:HU_DT_TSI_CS_BO@t-systems.com">Sponsor</a>'
   },
   {
     title: "OpenInfra Meetup: Switzerland",
     date: "June 6, 2024",
     location: '<a href="https://www.google.com/maps/place/CERN/@46.2337442,6.056322,15.89z/data=!4m6!3m5!1s0x478c62fcec737b11:0x81bef3ae7a885e31!8m2!3d46.2330492!4d6.0556771!16zL20vMDk5cm4?entry=ttu" target="_blank" rel="noopener noreferrer">CERN</a>, Geneva, Switzerland',
-    registration: '<a href="https://indico.cern.ch/e/openinfra-cern-2024" target="_blank" rel="noopener noreferrer">Register Now</a>',
+    registration: '<a href="https://indico.cern.ch/e/openinfra-cern-2024" target="_blank" rel="noopener noreferrer">EVENT SOLD OUT</a>',
+  },
+  {
+    title: "OpenInfra Meetup: UK",
+    date: "May 2024",
+    location: '<a href="https://maps.app.goo.gl/eVHeti9Lf3KJ5Xmm9" target="_blank" rel="noopener noreferrer">Manchester, England</a>',
+    registration: 'Registration Coming Soon!',
   },
 ];
 

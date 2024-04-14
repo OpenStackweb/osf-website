@@ -49,6 +49,13 @@ const NewsSection = class extends React.Component {
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
                         <div className="news-article-inner-container">
+                            <a href="hhttps://www.sdxcentral.com/articles/analysis/starlingx-9-0-open-source-cloud-platform-boosts-performance-for-telco-and-edge/2024/04/"><img src="/img/homeV2/news-images/sdx-starlingx-9.png" /></a>
+                            <p className="news-article-intro-text">Frederic Lardinois  • Apr 4, 2024</p>
+                            <a href="hhttps://www.sdxcentral.com/articles/analysis/starlingx-9-0-open-source-cloud-platform-boosts-performance-for-telco-and-edge/2024/04/"><h3>StarlingX 9.0 open source cloud platform boosts performance for telco and edge</h3></a>
+                            <p className="news-article-content">The open source StarlingX project is out with its 9.0 release, promising improved performance and capabilities for users of the telco and edge-focused cloud computing platform.</p>
+                            <a className="news-article-link" href="hhttps://www.sdxcentral.com/articles/analysis/starlingx-9-0-open-source-cloud-platform-boosts-performance-for-telco-and-edge/2024/04/">READ MORE</a>
+                        </div>
+                        <div className="news-article-inner-container">
                             <a href="https://techcrunch.com/2024/04/04/openstack-improves-support-for-ai-workloads/"><img src="/img/homeV2/news-images/techcrunch-caracal.png" /></a>
                             <p className="news-article-intro-text">Frederic Lardinois  • Apr 4, 2024</p>
                             <a href="https://techcrunch.com/2024/04/04/openstack-improves-support-for-ai-workloads/"><h3>OpenStack improves support for AI workloads</h3></a>

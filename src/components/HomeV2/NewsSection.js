@@ -38,7 +38,7 @@ const NewsSection = class extends React.Component {
 
     render() {
         return (
-            <div className="home-v2-outer-container-dark">
+            <div>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
                 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Jura:wght@400;500;700&display=swap" rel="stylesheet"></link>

@@ -9,13 +9,13 @@ const DAYS = [
   { title: "OpenInfra Day Sweden", 
     date: "May 7, 2024", 
     location: '<a href="https://www.google.com/maps/place/Gunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden/@57.7242383,11.8490387,17z/data=!4m16!1m9!3m8!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!2sGunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden!3b1!8m2!3d57.7242775!4d11.8483159!10e5!16s%2Fg%2F11cnd7r_rq!3m5!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!8m2!3d57.7242775!4d11.8483159!16s%2Fg%2F11cnd7r_rq?entry=ttu" target="_blank" rel="noopener noreferrer">Volvohallen</a>, Gothenburg, Sweden',
-    registration: '<a href="https://oideurope2024.openinfra.dev/#registration=1" target="_blank" rel="noopener noreferrer">Register Now</a> | <a href="https://www.oidsweden2024.se/schedule " target="_blank" rel="noopener noreferrer">Schedule</a>'
+    registration: '<a href="https://oideurope2024.openinfra.dev/#registration=1" target="_blank" rel="noopener noreferrer">Register Now</a> | <a href="https://www.oidsweden2024.se/schedule" target="_blank" rel="noopener noreferrer">Schedule</a> | <a href="mailto:events@openinfra.dev">Sponsor for $2,500 USD</a>'
   },
   {
     title: "OpenInfra Day Germany co-located with Sovereign Cloud Stack Summit",
     date: 'May 15 (SCS Summit, held May 14, requires a separate registration)',
     location: '<a href="https://www.google.com/maps/place/Villa+Elisabeth/@52.5331269,13.3972411,15z/data=!4m6!3m5!1s0x47a851f492be67f9:0x70038e11de799c16!8m2!3d52.5331269!4d13.3972411!16s%2Fg%2F11jfcbz7dv?entry=ttu" target="_blank" rel="noopener noreferrer">Villa Elisabeth</a>, Berlin, Germany',
-    registration: '<a href="https://oideurope2024.openinfra.dev/#registration=1" target="_blank" rel="noopener noreferrer">Register Now</a> | <a href="https://forms.gle/KJzFYxVSh7JadurSA" target="_blank" rel="noopener noreferrer">CFP</a> | <a href="https://openinfra.dev/events/sponsorship/#Germany" target="_blank" rel="noopener noreferrer">Sponsor</a><br/><a href="https://scs.community/summit2024/" target="_blank">Register for SCS Summit</a>'
+    registration: '<a href="https://oideurope2024.openinfra.dev/#registration=1" target="_blank" rel="noopener noreferrer">Register Now</a> | CFP is Closed | <a href="https://openinfra.dev/events/sponsorship/#Germany" target="_blank" rel="noopener noreferrer">Sponsor</a><br/><a href="https://scs.community/summit2024/" target="_blank">Register for SCS Summit</a>'
   },
   {
     title: "OpenInfra Day Turkiye",
@@ -26,7 +26,7 @@ const DAYS = [
   { title: "OpenInfra Day France",
     date: "May 22, 2024",
    location: '<a href="https://maps.app.goo.gl/sxxPmcTnYe4Dh3f18" target="_blank" rel="noopener noreferrer">EDF Lab Paris-Saclay</a>, Paris-Saclay, France',
-   registration: '<a href="https://t.e2ma.net/click/m7tk6f/6qi8as/udchfy" target="_blank">Register Now</a> | <a href="https://openinfrafoundation.formstack.com/forms/2024_openinfra_days_france_cfp" target="_blank" rel="noopener noreferrer">CFP</a> | <a href="https://openinfra.dev/events/sponsorship/#France" target="_blank" rel="noopener noreferrer">Sponsor</a>'
+   registration: '<a href="https://t.e2ma.net/click/m7tk6f/6qi8as/udchfy" target="_blank">Register Now</a> | <a href="https://oideurope2024.openinfra.dev/a/schedule#view=calendar&track=468" target="_blank" rel="noopener noreferrer">Schedule</a> | <a href="https://openinfra.dev/events/sponsorship/#France" target="_blank" rel="noopener noreferrer">Sponsor</a>'
   },
   { title: "OpenInfra Day Hungary",
     date: "June 3, 2024",

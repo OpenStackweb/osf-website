@@ -11,11 +11,11 @@ const UPCOMING_SUMMITS = [
     date: "September 3 & 4, 2024",
     location: "Suwon Convention Center, Suwon, South Korea",
     notification: {
-      text: "Submit to the OpenInfra Summit Asia CFP",
+      text: "Registration, sponsorship and speaking opportunities available! (CFP deadline: 29 May)",
       button: {
         link:
-          "https://openinfrafoundation.formstack.com/forms/openinfra_asia_summit_2024",
-        text: "Submit",
+          "https://2024.openinfraasia.org",
+        text: "Learn More",
       },
     },
   },

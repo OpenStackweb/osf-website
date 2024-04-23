@@ -11,7 +11,7 @@ const SummitCard = ({
   background,
   summit,
   cardStyles,
-  link = "https://openinfrafoundation.formstack.com/forms/openinfra_asia_summit_2024",
+  link = "https://2024.openinfraasia.org",
 }) => {
   if (!summit) return null;
 

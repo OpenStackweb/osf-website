@@ -11,7 +11,7 @@ const UPCOMING_SUMMITS = [
     date: "September 3 & 4, 2024",
     location: "Suwon Convention Center, Suwon, South Korea",
     notification: {
-      text: "Registration, sponsorship and speaking opportunities available! (CFP deadline: 29 May)",
+      text: "Register, sponsor & speak at the OpenInfra Summit! (CFP deadline: 29 May)",
       button: {
         link:
           "https://2024.openinfraasia.org",

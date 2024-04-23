@@ -45,7 +45,7 @@ export const SummitLandingPageTemplate = ({
         <MiddleBanner
           title={"inclusive. diverse. open"}
           text={`We are a diverse community of professionals, and the OpenInfra Summit organizers are dedicated to providing an 
-          inclusive and safe Summit experience for everyone. View the <a href="/legal/code-of-conduct">OpenInfra Summit Code of Conduct</a> for more information.`}
+          inclusive and safe Summit experience for everyone. View the <a href="/legal/code-of-conduct">OpenInfra Summit Code of Conduct</a> for more information.<br/><br/>The OpenInfra Foundation’s Travel Support Program facilitates participation of key contributors to OpenInfra events by covering the costs for their travel and accommodation. If you are a key contributor to a project supported by the OpenInfra Foundation and your company does not cover the costs of your travel and accommodation to the event, you can apply for the Travel Support Program. The deadline to <a href="https://openinfrafoundation.formstack.com/forms/openinfra_tsp" target="_blank">apply for the OpenInfra Summit Asia</a> is May 29, 2024.`}
           image={"/img/summit-landing/middle-banner/middle-banner-1.png"}
           imageFirst={false}
         />

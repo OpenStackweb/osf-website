@@ -38,7 +38,6 @@ const SPONSORSHIPS = [
           { title: "Logo placement", value: "Lobby + Session + Summit web" },
           { title: "Keynote speech", value: true },
           { title: "Logo in Session Video", value: true },
-          { title: "Hands On Lab", value: "Max 4 hours" },
           { title: "Ad video", subtitle: "(Max 4 hours)", value: "60 sec" },
           { title: "Registration List", value: true },
           { title: "Monitor", value: true },

@@ -14,6 +14,7 @@ import { connect } from "react-redux";
 
 import leftArrow from "../img/svg/arrow-left.svg";
 import downArrow from "../img/svg/arrow-down.svg";
+import HowItWorks from "../components/Upp/HowItWorks";
 
 export const PTGPageTemplate = ({
   isLoggedUser,
@@ -26,7 +27,7 @@ export const PTGPageTemplate = ({
   const PageContent = contentComponent || Content;
 
   return (
-    <div>
+    <div id="upp-page">
       <div className="wrapper project-background">
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
@@ -65,6 +66,10 @@ export const PTGPageTemplate = ({
 
       <main className="main">
         <div className="content">
+          <HowItWorks />
+
+
+
           <section className="ptg-who">
             <div className="ptg-container">
               <div className="ptg-who-teams">

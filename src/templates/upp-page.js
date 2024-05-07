@@ -15,6 +15,7 @@ import { connect } from "react-redux";
 import leftArrow from "../img/svg/arrow-left.svg";
 import downArrow from "../img/svg/arrow-down.svg";
 import HowItWorks from "../components/Upp/HowItWorks";
+import ContactUsBanner from "../components/ContactUsBanner";
 
 export const PTGPageTemplate = ({
   isLoggedUser,
@@ -67,7 +68,10 @@ export const PTGPageTemplate = ({
       <main className="main">
         <div className="content">
           <HowItWorks />
-
+          <ContactUsBanner
+            text="Interested in the University Partnership Program?"
+            contactLink=""
+          />
 
 
           <section className="ptg-who">

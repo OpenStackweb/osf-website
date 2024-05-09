@@ -4,6 +4,13 @@
   align-items: center;
   min-height: 180px;
   background-color: #000;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 0;
+
+  @media (min-width: 767px) {
+    flex-direction: row;
+  }
 
   img {
     width: 60px;

@@ -123,7 +123,87 @@
     }
   }
 
+  .find-out-more {
+    .black-section {
+      background-color: #161616;
+      padding: 80px 0;
+      color: white;
 
+      .title {
+        color: white;
+        margin-bottom: 40px;
+      }
 
+      .subtitle {
+        color: white;
+        margin: 0 0 20px;
+        font-size: 28px;
+        line-height: 32px;
+      }
+
+      .home-v2-numbers-btn-container {
+        margin: 50px auto;
+        max-width: 152px;
+        display: flex;
+        justify-content: space-between;
+        .numbers-button {
+          height: 56px;
+          width: 56px;
+          border-radius: 50%;
+          background-color: #fff;
+          color: #111C3C;
+          border: none;
+          transition: all .5s;
+          &:hover {
+            box-shadow: 0px 4px 4px rgba(0,0,0,.25);
+          }
+          img {
+            margin: 0 auto;
+            display: block;
+            height: 15px;
+            width: 15px;
+            top: calc(50% - 7px);
+          }
+        }
+      }
+    }
+
+    .white-section {
+      background-color: white;
+      padding: 80px 0;
+      color: black;
+
+      .subtitle {
+        color: black;
+        margin: 0 0 20px;
+        font-size: 28px;
+        line-height: 32px;
+      }
+    }
+  }
+
+  .quotes {
+    background-color: #F3F3F3;
+    padding: 80px 0;
+
+    .title {
+      color: black;
+      margin: 0 0 60px;
+      font-size: 28px;
+      line-height: 32px;
+    }
+
+    .quote-container {
+      display: flex;
+      flex-direction: column;
+      color: black;
+      justify-content: space-between;
+      gap: 40px;
+
+      @media (min-width: 767px) {
+        flex-direction: row;
+      }
+    }
+  }
 }
 

@@ -1,15 +1,17 @@
 .wrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   min-height: 180px;
   background-color: #000;
   flex-direction: column;
   gap: 30px;
   padding: 20px 0;
+  border-radius: 12px;
 
   @media (min-width: 767px) {
     flex-direction: row;
+    padding: 20px 60px;
   }
 
   img {

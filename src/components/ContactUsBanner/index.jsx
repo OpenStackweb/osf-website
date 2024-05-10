@@ -5,10 +5,12 @@ import LinkComponent from "../LinkComponent";
 const ContactUsBanner = ({ text, contactLink }) => {
 
   return (
-    <div className={styles.wrapper}>
-      <img src="/img/apple-touch-icon.png" alt="img" />
-      <span>{text}</span>
-      <LinkComponent href={contactLink}>Contact us</LinkComponent>
+    <div className="container">
+      <div className={styles.wrapper}>
+        <img src="/img/apple-touch-icon.png" alt="img" />
+        <span>{text}</span>
+        <LinkComponent href={contactLink}>Contact us</LinkComponent>
+      </div>
     </div>
   );
 };

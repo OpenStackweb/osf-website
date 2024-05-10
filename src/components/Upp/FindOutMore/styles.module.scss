@@ -1,0 +1,53 @@
+.articleWrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+  color: white;
+  width: 300px;
+
+  .image {
+    flex: 0 1 50%;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 23px;
+    color: #AFAFAF
+  }
+
+  .link {
+    text-transform: uppercase;
+    color: white;
+    font-family: Jura, sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+  }
+}
+
+.videoWrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+  color: white;
+  width: 300px;
+
+  .thumbnail {
+
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    text-transform: uppercase;
+  }
+}

@@ -131,40 +131,14 @@
 
       .title {
         color: white;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
       }
 
       .subtitle {
         color: white;
-        margin: 0 0 20px;
+        margin: 0 0 60px;
         font-size: 28px;
         line-height: 32px;
-      }
-
-      .home-v2-numbers-btn-container {
-        margin: 50px auto;
-        max-width: 152px;
-        display: flex;
-        justify-content: space-between;
-        .numbers-button {
-          height: 56px;
-          width: 56px;
-          border-radius: 50%;
-          background-color: #fff;
-          color: #111C3C;
-          border: none;
-          transition: all .5s;
-          &:hover {
-            box-shadow: 0px 4px 4px rgba(0,0,0,.25);
-          }
-          img {
-            margin: 0 auto;
-            display: block;
-            height: 15px;
-            width: 15px;
-            top: calc(50% - 7px);
-          }
-        }
       }
     }
 
@@ -175,9 +149,42 @@
 
       .subtitle {
         color: black;
-        margin: 0 0 20px;
+        margin: 0 0 60px;
         font-size: 28px;
         line-height: 32px;
+      }
+    }
+
+    .slider-buttons-wrapper {
+      max-width: 152px;
+      display: flex;
+      justify-content: space-between;
+      margin: 50px 0;
+
+      &.centered {
+        margin: 50px auto;
+      }
+
+      .slider-button {
+        height: 56px;
+        width: 56px;
+        border-radius: 50%;
+        background-color: #fff;
+        color: #111C3C;
+        border: none;
+        transition: all .5s;
+
+        &:hover {
+          box-shadow: 0px 4px 4px rgba(0,0,0,.25);
+        }
+
+        img {
+          margin: 0 auto;
+          display: block;
+          height: 15px;
+          width: 15px;
+          top: calc(50% - 7px);
+        }
       }
     }
   }

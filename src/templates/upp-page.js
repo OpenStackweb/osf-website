@@ -3,15 +3,11 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Content, { HTMLContent } from "../components/Content";
 import Layout from "../components/Layout";
-import LinkComponent from "../components/LinkComponent";
 import TopBar from "../components/TopBar";
 import NavbarV2 from "../components/NavbarV2";
 import Hero from "../components/Hero";
 import SEO from "../components/SEO";
-import ColorBar from "../img/color-bar.png";
-
 import { connect } from "react-redux";
-
 import leftArrow from "../img/svg/arrow-left.svg";
 import downArrow from "../img/svg/arrow-down.svg";
 import HowItWorks from "../components/Upp/HowItWorks";
@@ -20,12 +16,10 @@ import Benefits from "../components/Upp/Benefits";
 import FindOutMore from "../components/Upp/FindOutMore";
 import Quotes from "../components/Upp/Quotes";
 
-export const PTGPageTemplate = ({
+export const UPPPageTemplate = ({
   isLoggedUser,
   header,
-  form,
   footer,
-  content,
   contentComponent,
 }) => {
   const PageContent = contentComponent || Content;
@@ -85,20 +79,20 @@ export const PTGPageTemplate = ({
   );
 };
 
-PTGPageTemplate.propTypes = {
+UPPPageTemplate.propTypes = {
   companies: PropTypes.object,
   header: PropTypes.object,
   form: PropTypes.object,
   footer: PropTypes.object,
 };
 
-const PTGPage = ({ isLoggedUser, data }) => {
+const UPPPage = ({ isLoggedUser, data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
-      <PTGPageTemplate
+      <UPPPageTemplate
         isLoggedUser={isLoggedUser}
         contentComponent={HTMLContent}
         header={post.frontmatter.header}
@@ -110,7 +104,7 @@ const PTGPage = ({ isLoggedUser, data }) => {
   );
 };
 
-PTGPage.propTypes = {
+UPPPage.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
@@ -119,10 +113,10 @@ export default connect(
     isLoggedUser: state.loggedUserState.isLoggedUser,
   }),
   null
-)(PTGPage);
+)(UPPPage);
 
-export const PTGPageQuery = graphql`
-  query PTGPage($id: String!) {
+export const UPPPageQuery = graphql`
+  query PUPPPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
@@ -158,23 +152,6 @@ export const PTGPageQuery = graphql`
               }
             }
             publicURL
-          }
-        }
-        form {
-          display
-          title
-          description
-          image {
-            childImageSharp {
-              fluid(maxWidth: 640, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-            publicURL
-          }
-          button {
-            text
-            link
           }
         }
         footer {

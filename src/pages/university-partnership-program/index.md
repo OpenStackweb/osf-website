@@ -5,7 +5,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: University Partnership Program
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/upp/
+  url: https://openinfra.dev/university-partnership-program/
 header:
   display: true
   title: University Partnership Program

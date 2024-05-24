@@ -39,12 +39,6 @@ const DAYS = [
     location: '<a href="https://www.google.com/maps/place/CERN/@46.2337442,6.056322,15.89z/data=!4m6!3m5!1s0x478c62fcec737b11:0x81bef3ae7a885e31!8m2!3d46.2330492!4d6.0556771!16zL20vMDk5cm4?entry=ttu" target="_blank" rel="noopener noreferrer">CERN</a>, Geneva, Switzerland',
     registration: '<a href="https://indico.cern.ch/e/openinfra-cern-2024" target="_blank" rel="noopener noreferrer">EVENT SOLD OUT</a>',
   },
-  {
-    title: "OpenInfra Meetup: UK",
-    date: "May 2024",
-    location: '<a href="https://maps.app.goo.gl/eVHeti9Lf3KJ5Xmm9" target="_blank" rel="noopener noreferrer">Manchester, England</a>',
-    registration: 'Registration Coming Soon!',
-  },
 ];
 
 const SpecialEditionSection = () => {

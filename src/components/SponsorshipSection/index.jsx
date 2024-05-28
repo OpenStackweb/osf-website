@@ -2,6 +2,7 @@ import React from 'react'
 import SponsorshipCard from "./SponsorshipCard";
 
 import './styles.scss';
+import LinkComponent from '../LinkComponent';
 
 const SponsorshipSection = ({overview, title, showname, sponsorships}) => {
   return (
@@ -20,6 +21,9 @@ const SponsorshipSection = ({overview, title, showname, sponsorships}) => {
                 </div>
                 {s.subtitle &&
                   <div className="subsection-subtitle">{s.subtitle}</div>
+                }
+                {s.link &&
+                  <LinkComponent className="subsection-link" href={s.link.link}>{s.link.text}</LinkComponent>
                 }
               </div>
               <div className="subsection-plans">

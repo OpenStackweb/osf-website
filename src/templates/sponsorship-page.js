@@ -24,6 +24,7 @@ const SPONSORSHIPS = [
     ],
     name: "OpenInfra Summit Asia",
     showname: ["OpenInfraSummit-OCPRegionalSummit"],
+    link: {text: "본사가 한국인 회사에서 후원을 희망한다면, 여기를 클릭해주세요", link: "/blog/openinfra-events-2024#kr"},
     plans: [
       {
         title: "headline",

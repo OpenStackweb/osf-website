@@ -22,7 +22,7 @@ const Benefits = () => {
                 />
                 <ColorTable
                   color="#45B65C"
-                  title="Funding Governance"
+                  title="Student Benefits"
                   items={[
                     'Honed communication skills for students as a result of collaboration with a global open source community with a geographically distributed base of contributors.',
                     'Real world development experience for students that isn’t done under an NDA or on proprietary software so they can share it in future interviews and on their resumes.'

@@ -14,9 +14,9 @@ header:
   bottomText: Interested in the University Partnership Program?  
   buttons:
     - text: Contact Us
-      link: https://ptg2024.openinfra.dev/
+      link: mailto:community@openinfra.dev
     - text: Learn more
-      link: https://ptg2024.openinfra.dev/
+      link: /university-partnership-program#how-it-works
   image: /img/upp-page/hero-image.png
 form:
   display: true

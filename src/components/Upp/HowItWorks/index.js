@@ -20,7 +20,7 @@ const Section = ({orientation, title, text, image}) => {
 
 const HowItWorks = () => {
     return (
-        <section className="section how-it-works">
+        <section className="section how-it-works" id="how-it-works">
             <div className="container">
               <p className="overview">how it works</p>
               <h2 className="title">
@@ -33,7 +33,7 @@ const HowItWorks = () => {
                 orientation="left"
               />
               <Section
-                title="Interneship"
+                title="Internship"
                 text="Some universities have labs focused on open source where they already have students working but have downtime at work where they could take on other tasks. Other universities have career offices that run internships within the university where students can work on projects defined by professors. The OpenInfra Foundation collaborates with these professors to help mentor students to target the needs of the community."
                 image="/img/upp-page/how-it-works-2.png"
                 orientation="right"

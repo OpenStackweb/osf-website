@@ -67,7 +67,7 @@ export const UPPPageTemplate = ({
           <HowItWorks />
           <ContactUsBanner
             text="Interested in the University Partnership Program?"
-            contactLink=""
+            contactLink="mailto:community@openinfra.dev"
           />
           <Benefits />
           <FindOutMore />

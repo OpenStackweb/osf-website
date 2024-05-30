@@ -65,11 +65,15 @@ const settingsArt = {
   autoplay: false,
   responsive: [
     {
-      breakpoint: 600,
+      breakpoint: 991,
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true
+        slidesToShow: 1.5,
+      }
+    },
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 2.5,
       }
     }
   ]
@@ -84,11 +88,15 @@ const settingsVid = {
   autoplay: false,
   responsive: [
     {
-      breakpoint: 600,
+      breakpoint: 991,
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true
+        slidesToShow: 1.5,
+      }
+    },
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 2.5,
       }
     }
   ]

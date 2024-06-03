@@ -33,7 +33,7 @@ members:
     twitter: https://twitter.com/ashinclouds
   - company: "Open Usage Commons, Software Freedom Conservancy, Eigenstate Ltd,
       Ericsson Software Technology, The Perl Foundation, Onyx Neon, Inc. "
-    description: Allison is a software developer and open source strategist. She is
+    description: "Allison is a software developer and open source strategist. She is
       the Chair of the Board of the OpenInfra Foundation, a board member of the
       Software Freedom Conservancy, a board member of the Perl Foundation, and
       co-founder of the FLOSS Foundations group for open source leaders. She
@@ -46,7 +46,7 @@ members:
       Hewlett Packard Enterprise, and Distinguished Engineer at SUSE. She
       participates in the Debian and OpenStack projects, and is currently taking
       a mid-career research sabbatical to complete a PhD at the University of
-      Cambridge.
+      Cambridge. "
     linkedin: https://www.linkedin.com/in/allisonrandal/
     name: Allison Randal
     openStack: https://www.openstack.org/community/members/profile/2813

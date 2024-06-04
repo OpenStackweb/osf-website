@@ -41,3 +41,5 @@ footer:
 [Transparency Policy](/legal/transparency-policy)
 
 [Event Policy](/legal/event-policy)
+
+[Policy for AI Generated Content](/legal/ai-policy)

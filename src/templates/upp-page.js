@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Content, { HTMLContent } from "../components/Content";
@@ -23,6 +23,12 @@ export const UPPPageTemplate = ({
   contentComponent,
 }) => {
   const PageContent = contentComponent || Content;
+  const learnMoreRef = useRef(null);
+
+  const learnMoreClick = ev => {
+    ev.preventDefault();
+    learnMoreRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
 
   return (
     <div id="upp-page">
@@ -44,14 +50,12 @@ export const UPPPageTemplate = ({
               {header.bottomText}
             </span>
             <div className="buttons">
-              {header.buttons.map((button, index) => {
-                const arrow = index === 0 ? <img src={leftArrow} alt="left" /> : <img src={downArrow} alt="down" />
-                return (
-                    <a key={`header-button-${index}`} href={button.link}>
-                      {button.text} {arrow}
-                    </a>
-                );
-              })}
+              <a key="header-button-0" href={header.buttons[0].link}>
+                {header.buttons[0].text} <img src={leftArrow} alt="left" />
+              </a>
+              <a key="header-button-0" href="#" onClick={learnMoreClick} ref={learnMoreRef}>
+                Learn more <img src={downArrow} alt="down" />
+              </a>
             </div>
           </div>
           <div className="header-left">

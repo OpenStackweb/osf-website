@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: OpenInfra Board of Directors Approves Policy for AI Generated Content
 author: Mark Collier
-date: 2024-06-13T14:00:40.121Z
+date: 2024-06-13T14:39:46.015Z
 category:
   - value: category-h2Ztx9rpD
     label: Community

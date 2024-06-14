@@ -9,7 +9,7 @@ const DAYS = [
   { title: "OpenInfra Day Sweden", 
     date: "May 7, 2024", 
     location: '<a href="https://www.google.com/maps/place/Gunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden/@57.7242383,11.8490387,17z/data=!4m16!1m9!3m8!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!2sGunnar+Engellaus+v%C3%A4g+2,+418+78+G%C3%B6teborg,+Sweden!3b1!8m2!3d57.7242775!4d11.8483159!10e5!16s%2Fg%2F11cnd7r_rq!3m5!1s0x464f8c78c6219f2b:0x1a73507f9863eb79!8m2!3d57.7242775!4d11.8483159!16s%2Fg%2F11cnd7r_rq?entry=ttu" target="_blank" rel="noopener noreferrer">Volvohallen</a>, Gothenburg, Sweden',
-    registration: '<a href="https://www.oidsweden2024.se/schedule" target="_blank" rel="noopener noreferrer">Learn More</a>'
+    registration: '<a href="https://www.youtube.com/playlist?list=PLKqaoAnDyfgqmcrpKb4z6Tn0TiRVF5LQ4" target="_blank" rel="noopener noreferrer">Watch the Videos</a>'
   },
   {
     title: "OpenInfra Day Germany co-located with Sovereign Cloud Stack Summit",
@@ -26,12 +26,12 @@ const DAYS = [
   { title: "OpenInfra Day France",
     date: "May 22, 2024",
    location: '<a href="https://maps.app.goo.gl/sxxPmcTnYe4Dh3f18" target="_blank" rel="noopener noreferrer">EDF Lab Paris-Saclay</a>, Paris-Saclay, France',
-   registration: '<a href="https://oideurope2024.openinfra.dev/france/" target="_blank">Learn More</a>'
+   registration: '<a href="https://www.youtube.com/playlist?list=PLKqaoAnDyfgqewSYynvIc45FyWv4QT06C" target="_blank">Watch the Videos</a>'
   },
   { title: "OpenInfra Day Hungary",
     date: "June 3, 2024",
    location: '<a href="https://maps.app.goo.gl/gF5tefAANj1q3zrh8" target="_blank" rel="noopener noreferrer">Telekom Headquarters, Puskás conference room</a>, Budapest, Hungary',
-   registration: '<a href="https://oideurope2024.openinfra.dev/hungary/" target="_blank">Learn More</a>'
+   registration: '<a href="https://www.youtube.com/watch?v=2pNo8F3AMrw" target="_blank">Watch the Videos</a>'
   },
   {
     title: "OpenInfra Meetup: Switzerland",

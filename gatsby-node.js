@@ -75,7 +75,10 @@ const SSR_getEvents = async (baseUrl, summitId, accessToken, page = 1, results =
 
     return [...results, ...data.data];
   })
-    .catch(e => console.log('ERROR: ', e));
+    .catch(e => {
+      console.log('ERROR: ', e);
+      return [];
+    });
 };
 
 const SSR_getCurrentReleaseComponents = async (baseUrl) => {

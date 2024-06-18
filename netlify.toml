@@ -228,3 +228,8 @@
   to = "https://openinfra.dev/blog/openinfra-foundation-cyber-resilience-act"
   status = 301
   force = true
+[[redirects]]
+  from = "https://openinfra.org/*"
+  to = "https://openinfra.dev/:splat"
+  status = 302
+  force = true

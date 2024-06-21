@@ -44,8 +44,8 @@ const OpenInfraEventsSection = () => {
         },
         {
             image: '/img/homeV2/events-images/openinfra-europe-img.png',
-            date: 'May and June, 2024',
-            location: 'Gothenburg, Sweden • Berlin, Germany • Istanbul, Türkiye • Palaiseau, France',
+            date: 'COMPLETED: May and June, 2024',
+            location: 'Budapest, Hungary • Gothenburg, Sweden • Berlin, Germany • Istanbul, Türkiye • Palaiseau, France',
             button: {
                 link: 'https://openinfra.dev/days',
                 text: 'openinfra.dev/DAYS'
@@ -73,7 +73,7 @@ const OpenInfraEventsSection = () => {
                 })}
             </div>
             <div className='upcoming-events-section-wrapper'>
-                <span className='upcoming-events-title'>upcoming <span className='red'>events</span></span>
+                <span className='upcoming-events-title'>OPENINFRA <span className='red'>community events</span></span>
                 <div className="events-wrapper">
                     {UpcomingEventsData.map(event => {
                         return (

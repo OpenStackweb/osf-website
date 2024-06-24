@@ -15,7 +15,7 @@ const UNIVERSE = [
   {name: "OpenStack", link: "https://openstack.org", logo: "openstack.svg", description: "The combination of compute, network and storage resources providing the cloud infrastructure for public, private and hybrid clouds, and a key component of the LOKI stack.", tags: ["Compute", "Storage", "Networking"], isOIF: true},
   {name: "Sovereign Cloud Stack", link: "https://scs.community", logo: "scs.svg", description: "A network of standardized sovereign cloud and container infrastructure providers defining, implementing and operating a fully open, federated, compatible platform.", tags: ["IaaS"], isOIF: false},
   {name: "StarlingX", link: "https://starlingx.io", logo: "starlingx.svg", description: "A complete cloud infrastructure software stack for distributed systems created for ultra-low latency use cases.", tags: ["Edge Computing"], isOIF: true},
-  {name: "Yaook", link: "https://yaook.cloud/", logo: "yaook.png", description: "Yaook is a lifecycle management tool for OpenStack hosted by ALASCA, using Kubernetes to automate provisioning, monitoring, and updating. Yaook manages bare metal, Kubernetes, and OpenStack components.", tags: ["lifecycle management"], isOIF: false},
+  {name: "Yaook", link: "https://yaook.cloud/", logo: "yaook.png", description: "Yaook is a lifecycle management tool for OpenStack hosted by ALASCA, using Kubernetes to automate provisioning, monitoring, and updating. Yaook manages bare metal, Kubernetes, and OpenStack.", tags: ["lifecycle management"], isOIF: false},
   {name: "Zuul", link: "https://zuul-ci.org", logo: "zuul.svg", description: "A program that drives continuous integration, delivery, and deployment systems with a focus on project gating.", tags: ["continuous integration"], isOIF: true},
 ];
 

@@ -14,7 +14,7 @@ header:
     The Project Teams Gathering (PTG) allows OpenInfra community groups and adjacent open source community project teams to meet virtually, exchange ideas and get work done in a productive, low-key setting. The ‘co-location’ of these meetings into a combined event, in conjunction with the dynamic scheduling and transparency of topics being discussed, enables open collaboration for communities to discuss any specific topic. 
   date:
     icon: /img/summit/Vector-calendar.svg
-    text: April 8-12, 2024
+    text: October 21-25, 2024
   location:
     icon: /img/summit/Vector-world.svg
     text: Virtual

@@ -232,4 +232,8 @@
   from = "/upp"
   to = "/university-partnership-program"
   status = 301
+[[redirects]]
+  from = "https://openinfra.org/*"
+  to = "https://openinfra.dev/:splat"
+  status = 302
   force = true

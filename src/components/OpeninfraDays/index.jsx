@@ -6,7 +6,7 @@ import './styles.scss';
 const OpenInfraDays = ({ title }) => {
 
   const openinfraEvents = [    
-    { background: '/img/openinfra-days/openinfra-days-cards/openinfra-days-austin.png', name: 'North America', date: 'Q4 2024', location: 'North America', link: 'https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates'}
+    { background: '/img/openinfra-days/openinfra-days-cards/openinfra-days-austin.png', name: 'North America', date: 'Q4 2024', location: 'Indiana University', link: 'https://ittraining.iu.edu/explore-topics/titles/oid-iu/index.html'}
   ]
 
   return (

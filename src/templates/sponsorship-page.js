@@ -24,6 +24,7 @@ const SPONSORSHIPS = [
     ],
     name: "OpenInfra Summit Asia",
     showname: ["OpenInfraSummit-OCPRegionalSummit"],
+    link: {text: "본사가 한국인 회사에서 후원을 희망한다면, 여기를 클릭해주세요", link: "/blog/openinfra-events-2024#kr"},
     plans: [
       {
         title: "headline",
@@ -52,12 +53,11 @@ const SPONSORSHIPS = [
         items: [
           { title: "slots", value: "2" },
           { title: "tech session", subtitle: "(30 mins)", value: "2" },
-          { title: "Booth Size", value: "4m x 4m" },
+          { title: "Booth Size", value: "4m x 2m" },
           { title: "Full Access Pass", value: "20" },
-          { title: "Logo placement", value: "Session + Summit web" },
+          { title: "Logo placement", value: "Lobby + Session + Summit web" },
           { title: "Keynote speech", value: true },
           { title: "Logo in Session Video", value: false },
-          { title: "Hands On Lab", value: "Max 4 hours" },
           { title: "Ad video", subtitle: "(Max 4 hours)", value: "20 sec" },
           { title: "Registration List", value: true },
           { title: "Monitor", value: true },
@@ -78,10 +78,9 @@ const SPONSORSHIPS = [
           { title: "tech session", subtitle: "(30 mins)", value: "1" },
           { title: "Booth Size", value: "3m x 2m" },
           { title: "Full Access Pass", value: "15" },
-          { title: "Logo placement", value: "Session + Summit web" },
+          { title: "Logo placement", value: "Lobby + Session + Summit web" },
           { title: "Keynote speech", value: false },
           { title: "Logo in Session Video", value: false },
-          { title: "Hands On Lab", value: "Max 2 hours" },
           { title: "Ad video", subtitle: "(Max 4 hours)", value: false },
           { title: "Registration List", value: true },
           { title: "Monitor", value: true },
@@ -102,10 +101,9 @@ const SPONSORSHIPS = [
           { title: "tech session", subtitle: "(30 mins)", value: "1" },
           { title: "Booth Size", value: "3m x 2m" },
           { title: "Full Access Pass", value: "10" },
-          { title: "Logo placement", value: "Session + Summit web" },
+          { title: "Logo placement", value: "Lobby + Session + Summit web" },
           { title: "Keynote speech", value: false },
           { title: "Logo in Session Video", value: false },
-          { title: "Hands On Lab", value: "Max 2 hours" },
           { title: "Ad video", subtitle: "(Max 4 hours)", value: false },
           { title: "Registration List", value: false },
           { title: "Monitor", value: true },
@@ -126,10 +124,9 @@ const SPONSORSHIPS = [
           { title: "tech session", subtitle: "(30 mins)", value: "1" },
           { title: "Booth Size", value: "3m x 2m" },
           { title: "Full Access Pass", value: "8" },
-          { title: "Logo placement", value: "Session + Summit web" },
+          { title: "Logo placement", value: "Lobby + Session + Summit web" },
           { title: "Keynote speech", value: false },
           { title: "Logo in Session Video", value: false },
-          { title: "Hands On Lab", value: false },
           { title: "Ad video", subtitle: "(Max 4 hours)", value: false },
           { title: "Registration List", value: false },
           { title: "Monitor", value: false },
@@ -150,10 +147,9 @@ const SPONSORSHIPS = [
           { title: "tech session", subtitle: "(30 mins)", value: false },
           { title: "Booth Size", value: "2m x 2m" },
           { title: "Full Access Pass", value: "5" },
-          { title: "Logo placement", value: "Session + Summit web" },
+          { title: "Logo placement", value: "Lobby + Session + Summit web" },
           { title: "Keynote speech", value: false },
           { title: "Logo in Session Video", value: false },
-          { title: "Hands On Lab", value: false },
           { title: "Ad video", subtitle: "(Max 4 hours)", value: false },
           { title: "Registration List", value: false },
           { title: "Monitor", value: false },
@@ -170,98 +166,11 @@ const SPONSORSHIPS = [
 
 const SPONSORSHIPS_DAYS = [
   {
-    title: [
-      "SOVEREIGN CLOUD STACK X OPENINFRA DAY GERMANY - MAY 14 & 15, 2024",
-      "BERLIN, GERMANY",
-    ],
+    title: ["OPENINFRA DAY NORTH AMERICA at INDIANA UNIVERSITY - OCT 15-16, 2024", "INDIANAPOLIS, INDIANA"],
     subtitle: (
       <>
-        <a href="mailto:events@openinfra.dev">Contact us</a> to sponsor
-        OpenInfra Day Germany.
-      </>
-    ),
-    showname: ["Germany"],
-    name: "OID Germany",
-    plans: [
-      {
-        title: "platinum",
-        price: "15.000 € Euro",
-        color: "#43B85C",
-        items: [
-          { title: "slots", value: "1" },
-          {
-            title: "Stand in the Exhibition Area",
-            value: "2 Stand Table, 4 Chairs",
-          },
-          { title: "Logo Placement", value: "Event Slides" },
-          { title: "Social media Advertising", value: true },
-          { title: "Rollup Next to Main Stage", value: true },
-          {
-            title: "30 minute pitch at the main stage",
-            value: "(between program items)",
-          },
-        ],
-      },
-      {
-        title: "gold",
-        price: "7.500 € Euro",
-        color: "#F7B749",
-        items: [
-          { title: "slots", value: "3" },
-          {
-            title: "Stand in the Exhibition Area",
-            value: "1 Stand Table, 2 Chairs",
-          },
-          { title: "Logo Placement", value: "Event Slides" },
-          { title: "Social media Advertising", value: true },
-          { title: "Rollup Next to Main Stage", value: true },
-          {
-            title: "15 minute pitch at the main stage",
-            value: "(between program items)",
-          },
-        ],
-      },
-      {
-        title: "silver",
-        price: "2.500 € Euro",
-        color: "#A8A9AD",
-        items: [
-          { title: "slots", value: "5" },
-          {
-            title: "Stand in the Exhibition Area",
-            value: "1 Stand Table, 2 Chairs",
-          },
-          { title: "Logo Placement", value: "Event Slides" },
-          { title: "Social media Advertising", value: true },
-          { title: "Rollup Next to Main Stage", value: false },
-          {
-            title: "5 minute pitch at the main stage",
-            value: "(between program items)",
-          },
-        ],
-      },
-      {
-        title: "catering",
-        price: "500 € Euro",
-        color: "#EAEAEA",
-        items: [
-          { title: "slots", value: false },
-          { title: "Stand in the Exhibition Area", value: false },
-          { title: "Logo Placement", value: false },
-          { title: "Social media Advertising", value: false },
-          { title: "Rollup", value: false },
-          { title: "5 minute pitch at the main stage", value: false },
-          { title: "Display on the buffet", value: true },
-        ],
-      },
-    ],
-  },
-  {
-    title: ["OPENINFRA DAY FRANCE - MAY 22, 2024", "PARIS-SACLAY, FRANCE"],
-    subtitle: (
-      <>
-        <a href="mailto:events@openinfra.dev">Contact us</a> to sponsor
-        OpenInfra Day France.
+        <a href="mailto:robping@iu.edu">Contact us</a> to sponsor
+        OpenInfra Day NA.
       </>
     ),
     showname: ["France"],
@@ -269,139 +178,108 @@ const SPONSORSHIPS_DAYS = [
     plans: [
       {
         title: "platinum",
-        price: "6.000 € Euro",
+        price: "$5,000 USD",
         color: "#757575",
         items: [
           { title: "10 Minute Keynote", value: true },
-          { title: "1 Large Stand in the Exhibition Area", value: true },
-          { title: "4 Free Passes", value: true },
-          { title: "1 Discount Code", value: "15% Discount" },
+          { title: "20 Minute Presentation", value: true },
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
+          { title: "Banner", value: "Must bring your own" },
+          { title: "4 Complimentary Registrations", value: true },
+          { title: "Logo Display" , value: "Website & Printed signs" },
+          { title: "Swag" , value: "One item included in swag bag" },
           { title: "" },
-          { title: "slots", value: "3" },
+          { title: "Slots Available", value: "2" },
         ],
       },
       {
         title: "gold",
-        price: "3.000 € Euro",
+        price: "$2,500 USD",
         color: "#DAA511",
         items: [
-          { title: "Keynote", value: false },
-          { title: "1 Regular Stand in  the Exhibition Area", value: true },
-          { title: "2 Free Passes", value: true },
-          { title: "1 Discount Code", value: "10% Discount" },
+          { title: "20 Minute Presentation", value: true },
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
+          { title: "Banner", value: "Must bring your own" },
+          { title: "3 Complimentary Registrations", value: true },
+          { title: "Logo Display" , value: "Website & Printed signs" },
+          { title: "Swag" , value: "One item included in swag bag" },
           { title: "" },
-          { title: "slots", value: "5" },
+          { title: "Slots Available", value: "3" },
         ],
       },
       {
         title: "silver",
-        price: "1.000 € Euro",
+        price: "$1,000 USD",
         color: "#A8A9AD",
         items: [
-          { title: "Keynote", value: false },
-          { title: "Logo Advertised On-Site & On Website", value: true },
-          { title: "1 Free Pass", value: true },
-          { title: "1 Discount Code", value: "10% Discount" },
+          { title: "Presentation", value: false },
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
+          { title: "Banner", value: "Must bring your own" },
+          { title: "2 Complimentary Registrations", value: true },
+          { title: "Logo Display" , value: "Website" },
+          { title: "Swag" , value: "One item included in swag bag" },
           { title: "" },
-          { title: "slots", value: "No Limit" },
-        ],
-      },
-    ],
-  },
-  {
-    title: [
-      "OpenInfra Day Turkiye - May 20, 2024",
-      "ALBERT LONG HALL CULTURAL CENTER, BOĞAZIÇI UNIVERSITY ISTANBUL, TURKIYE",
-    ],
-    subtitle: (
-      <>
-        <a href="https://drive.google.com/file/d/1VI9BbhP2sOWD6QZDAsloElJRuTNif7LL/view">
-          Learn more
-        </a>{" "}
-        about sponsoring OpenInfra Days Turkiye.
-      </>
-    ),
-    showname: ["Turkiye"],
-    name: "OID Turkiye",
-    plans: [
-      {
-        title: "platinum",
-        price: "$ 12,500 USD",
-        color: "#757575",
-        items: [
-          { title: "slots", value: "1" },
-          { title: "Booth are in the Foyer", value: "3m x 2m" },
-          {
-            title: "30 min. Presentation",
-            value: "450+people in the Plenary session",
-          },
-          { title: "Dedicated Meeting Room", value: true },
-          { title: "Logo Display", value: "Website, Online Invitations" },
-          { title: "", value: "" }, // for alignment
+          { title: "Slots Available", value: "10" },
         ],
       },
       {
-        title: "gold",
-        price: "$ 10,000 USD",
-        color: "#DAA511",
-        items: [
-          { title: "slots", value: "not limited" },
-          { title: "Booth are in the Foyer", value: "2.5m x 2m" },
-          {
-            title: "20 min. Presentation",
-            value: "450+people in the Plenary session",
-          },
-          { title: "Dedicated Meeting Room", value: true },
-          { title: "Logo Display", value: "Website, Online Invitations" },
-          { title: "", value: "" }, // for alignment
-        ],
-      },
-      {
-        title: "silver",
-        price: "$ 7,500 USD",
-        color: "#A8A9AD",
-        items: [
-          { title: "slots", value: "not limited" },
-          { title: "Booth are in the Foyer", value: "2m x 2m" },
-          {
-            title: "10 min. Presentation",
-            value: "450+people in the Plenary session",
-          },
-          { title: "Dedicated Meeting Room", value: false },
-          { title: "Logo Display", value: "Website, Online Invitations" },
-          { title: "", value: "" }, // for alignment
-        ],
-      },
-      {
-        title: "lunch",
-        price: "$ 5,000 USD",
+        title: "Reception Sponsor",
+        price: "$5,000 USD",
         color: "#EAEAEA",
         items: [
-          { title: "slots", value: false },
-          { title: "Booth are in the Foyer", value: false },
-          { title: "Presentation", value: false },
-          { title: "Dedicated Meeting Room", value: false },
-          {
-            title: "Logo Display",
-            value: "Roll-up in Lunch Area, Website, Online Invitations",
-          },
-          { title: "", value: "" }, // for alignment
+          { title: "Presentation", value: "20-minute During Reception" },
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
+          { title: "Banner", value: "Placement at the Receiption Event" },
+          { title: "4 Complimentary Registrations", value: true },
+          { title: "Logo Display" , value: "Welcome Sign & Table Placards" },
+          { title: "Swag" , value: "One item included in swag bag" },
+          { title: "" },
+          { title: "Slots Available", value: "2" },
         ],
       },
       {
-        title: "coffee break",
-        price: "$ 2,500 USD",
+        title: "Meal Sponsor",
+        price: "$2,500 USD",
         color: "#EAEAEA",
         items: [
-          { title: "slots", value: false },
-          { title: "Booth are in the Foyer", value: false },
+          { title: "Presentation", value: "10-minute During Meal" },
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
+          { title: "Banner", value: false },
+          { title: "3 Complimentary Registrations", value: true },
+          { title: "Logo Display" , value: "Placards at Serving Stations" },
+          { title: "Swag" , value: "One item included in swag bag" },
+          { title: "" },
+          { title: "Slots Available", value: "2 Breakfast, 2 Lunch" },
+        ],
+      },
+      {
+        title: "Coffee Sponsor",
+        price: "$1,000 USD",
+        color: "#EAEAEA",
+        items: [
           { title: "Presentation", value: false },
-          { title: "Dedicated Meeting Room", value: false },
-          {
-            title: "Logo Display",
-            value: "Roll-up in Coffee Area, Website, Online Invitations",
-          },
-          { title: "", value: "" }, // for alignment
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
+          { title: "Banner", value: false },
+          { title: "2 Complimentary Registrations", value: true },
+          { title: "Logo Display" , value: "Placards at Coffee Stations" },
+          { title: "Swag" , value: "One item included in swag bag" },
+          { title: "" },
+          { title: "Slots Available", value: "2" },
+        ],
+      },
+      {
+        title: "Diversity Sponsor",
+        price: "$1,000 USD",
+        color: "#EAEAEA",
+        items: [
+          { title: "Presentation", value: false },
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
+          { title: "Banner", value: false },
+          { title: "2 Complimentary Registrations", value: true },
+          { title: "Logo Display" , value: "Placards at Coffee Stations" },
+          { title: "Swag" , value: "One item included in swag bag" },
+          { title: "" },
+          { title: "Slots Available", value: "1" },
         ],
       },
     ],

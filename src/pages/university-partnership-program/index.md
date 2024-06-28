@@ -1,27 +1,23 @@
 ---
-templateKey: ptg-page
+templateKey: upp-page
 seo:
   description: "Where contributors gather to get work done virtually within OpenInfra Foundation-supported open source projects."
   image: /img/OpenInfra-icon-white.jpg
-  title: Project Teams Gathering (PTG)
+  title: University Partnership Program
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/ptg/
+  url: https://openinfra.dev/university-partnership-program/
 header:
   display: true
-  title: Project Teams Gathering
-  upperTitle: VIRTUAL EVENT
+  title: University Partnership Program
   description: >-
-    The Project Teams Gathering (PTG) allows OpenInfra community groups and adjacent open source community project teams to meet virtually, exchange ideas and get work done in a productive, low-key setting. The ‘co-location’ of these meetings into a combined event, in conjunction with the dynamic scheduling and transparency of topics being discussed, enables open collaboration for communities to discuss any specific topic. 
-  date:
-    icon: /img/summit/Vector-calendar.svg
-    text: October 21-25, 2024
-  location:
-    icon: /img/summit/Vector-world.svg
-    text: Virtual
+    The University Partnership Program (UPP) is a targeted effort to encourage collaboration between the OpenInfra Foundation and universities and colleges all around the globe to get more students involved in open source and build up the pipeline of young professionals in open source. 
+  bottomText: Interested in the University Partnership Program?  
   buttons:
-    - text: Register Now!
-      link: https://ptg2024.openinfra.dev/
-  image: /img/ptg-page/hero-image.png
+    - text: Contact Us
+      link: mailto:community@openinfra.dev
+    - text: Learn more
+      link: /university-partnership-program#how-it-works
+  image: /img/upp-page/hero-image.png
 form:
   display: true
   title: Want to find out more?

@@ -1,0 +1,36 @@
+.sectionWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 50px;
+
+  @media (min-width: 992px) {
+    flex-direction: row;
+
+    &.right {
+      flex-direction: row-reverse;
+    }
+  }
+
+  .sectionBody {
+    font-family: Roboto, sans-serif;
+    color: #161616;
+    flex: 0 1 50%;
+    margin: auto;
+
+    .sectionTitle {
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 32px;
+    }
+
+    .sectionText {
+      font-size: 16px;
+      line-height: 23px;
+    }
+  }
+
+  .sectionImage {
+    flex: 0 1 50%;
+  }
+}

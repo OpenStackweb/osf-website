@@ -33,7 +33,7 @@ members:
     twitter: https://twitter.com/ashinclouds
   - company: "Open Usage Commons, Software Freedom Conservancy, Eigenstate Ltd,
       Ericsson Software Technology, The Perl Foundation, Onyx Neon, Inc. "
-    description: Allison is a software developer and open source strategist. She is
+    description: "Allison is a software developer and open source strategist. She is
       the Chair of the Board of the OpenInfra Foundation, a board member of the
       Software Freedom Conservancy, a board member of the Perl Foundation, and
       co-founder of the FLOSS Foundations group for open source leaders. She
@@ -46,7 +46,7 @@ members:
       Hewlett Packard Enterprise, and Distinguished Engineer at SUSE. She
       participates in the Debian and OpenStack projects, and is currently taking
       a mid-career research sabbatical to complete a PhD at the University of
-      Cambridge.
+      Cambridge. "
     linkedin: https://www.linkedin.com/in/allisonrandal/
     name: Allison Randal
     openStack: https://www.openstack.org/community/members/profile/2813
@@ -101,20 +101,6 @@ members:
       monitoring while at Amazon. Eoghan is based in Dublin, Ireland though he's
       also part of a highly globalized team at Red Hat. "
     openStack: https://www.openstack.org/community/members/profile/1341/eoghan-glynn
-  - name: Shuquan Huang
-    title: Gold Director
-    company: 99Cloud
-    openStack: https://www.openstack.org/community/members/profile/10746/shuquan-huang
-    picture: /img/20180603-040010008-ios-2.jpg
-    description: >-
-      Shuquan Huang is a Technical Director at 99Cloud, where he built the whole
-      engineering teams from the ground up, established agile development
-      methods to design and implement solutions for cloud computing and edge
-      computing.
-
-
-      Shuquan has been working with open source software for over 10 years. He started his OpenStack journey at its early days in 2011 and actively involved as technical contributor, speaker and track chair. He is a member of the StarlingX Technical Steering Committee.
-    linkedin: https://linkedin.com/in/shuquan-huang-a8b13b66
   - name: Ghanshyam Mann
     description: >-
       <p>Ghanshyam is currently serving as a Chair of the OpenStack Technical
@@ -218,6 +204,20 @@ members:
     picture: /img/ryan-van-wyk.jpg
     title: Platinum Director
     twitter: https://twitter.com/@ryanvanwyk
+  - name: Shuquan Huang
+    title: Gold Director
+    company: 99Cloud
+    openStack: https://www.openstack.org/community/members/profile/10746/shuquan-huang
+    picture: /img/20180603-040010008-ios-2.jpg
+    description: >-
+      Shuquan Huang is a Technical Director at 99Cloud, where he built the whole
+      engineering teams from the ground up, established agile development
+      methods to design and implement solutions for cloud computing and edge
+      computing.
+
+
+      Shuquan has been working with open source software for over 10 years. He started his OpenStack journey at its early days in 2011 and actively involved as technical contributor, speaker and track chair. He is a member of the StarlingX Technical Steering Committee.
+    linkedin: https://linkedin.com/in/shuquan-huang-a8b13b66
   - company: Canonical
     description: As a Product Manager at Canonical, Tytus drives the evolution of
       Canonical’s products and services in the data centre space. Tytus received
@@ -272,6 +272,23 @@ members:
     openStack: https://openinfra.dev/a/community/members/37833
     picture: /img/xuwang.jpg
     title: Platinum Director
+  - description: >-
+      Serving as CEO of OKESTRO, Young Gwang Kim joined the company as a
+      founding member, contributing to its rapid growth in management,
+      technology, and sales. He began as a senior researcher and advanced
+      through roles such as team leader of sales and consulting and director of
+      business strategy. Young Gwang was appointed CEO in 2022.
+
+
+      In 2023, Young Gwang was selected for Forbes Korea's '30 Under 30' in Deep/Enterprise Tech and won the 'Minister of the Interior and Safety Award' in the Individual IT Service Digital Innovation category at the '2023 Korea IT Service Innovation Awards.' He was honored for leading OKESTRO's innovative growth, standardizing Korea's cloud platforms like the E-Government Cloud Platform, driving innovation in the cloud ecosystem, and contributing to digital transformation.
+
+
+      Young Gwang consistently emphasizes a 'customer-centric' approach. OKESTRO entered the market with a cloud platform concept and has since advanced its technology and recognition by implementing customer-centric cloud orchestration, adapting to the shift from single to multi-hybrid clouds. The company specializes in 'cloud platform orchestration technology', integrating diverse cloud technologies, functions, features, and products within a flexible architecture. OKESTRO aims to empower customers in cloud operations, moving away from a service-provider-centric market.
+    company: Okestro Co., LTD
+    title: Chief Executive Officer (CEO)
+    name: Young Gwang Kim
+    picture: /img/mrkim.png
+    openStack: "#"
   - company: Huawei
     description: Zhou Junyi serves as the president of Huawei Cloud Network Open
       Source Development Team, having 16 years of experience in Huawei and 6

@@ -173,8 +173,8 @@ const SPONSORSHIPS_DAYS = [
         OpenInfra Day NA.
       </>
     ),
-    showname: ["France"],
-    name: "OID France",
+    showname: ["OIDNA"],
+    name: "OID NA",
     plans: [
       {
         title: "platinum",
@@ -333,7 +333,7 @@ export const SponsorshipPageTemplate = ({
             button={{ link: "/join/members/", text: "BECOME A MEMBER" }}
           />
           <SponsorshipSection
-            title="OPENINFRA DAYS SPECIAL EDITION"
+            title="OPENINFRA DAYS"
             overview="SPONSORSHIP OPPORTUNITIES"
             sponsorships={SPONSORSHIPS_DAYS}
           />

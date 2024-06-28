@@ -67,13 +67,16 @@ exports.handler = async function (event, context) {
           body: "Invalid captcha response",
         };
 
-      return fetch("mailto:ecosystem@openinfra.dev", {
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
-        },
-        method: "POST",
-        body: params.toString(),
-      })
+      return fetch(
+        "https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8",
+        {
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+          },
+          method: "POST",
+          body: params.toString(),
+        }
+      )
         .then((response) => {
           return {
             statusCode: 200,

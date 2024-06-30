@@ -49,6 +49,13 @@ const NewsSection = class extends React.Component {
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
                         <div className="news-article-inner-container">
+                            <a href="https://www.sdxcentral.com/articles/interview/is-openstack-a-viable-vmware-alternative/2024/06/"><img src="/img/homeV2/news-images/sdx-openstack-vmware.png" /></a>
+                            <p className="news-article-intro-text">Dan Meyer  • June 12, 2024</p>
+                            <a href="https://www.sdxcentral.com/articles/interview/is-openstack-a-viable-vmware-alternative/2024/06/"><h3>Is OpenStack a viable VMware alternative?</h3></a>
+                            <p className="news-article-content">Broadcom’s ongoing changes to VMware’s licensing and distribution channels have created a wave of enterprise concern that is propelling potential alternatives, with OpenStack the most recent to throw its hat into that ring.</p>
+                            <a className="news-article-link" href="https://www.sdxcentral.com/articles/interview/is-openstack-a-viable-vmware-alternative/2024/06/">READ MORE</a>
+                        </div>
+                        <div className="news-article-inner-container">
                             <a href="https://www.sdxcentral.com/articles/analysis/starlingx-9-0-open-source-cloud-platform-boosts-performance-for-telco-and-edge/2024/04/"><img src="/img/homeV2/news-images/sdx-starlingx-9.png" /></a>
                             <p className="news-article-intro-text">Sean Michael Kerner  • Apr 12, 2024</p>
                             <a href="https://www.sdxcentral.com/articles/analysis/starlingx-9-0-open-source-cloud-platform-boosts-performance-for-telco-and-edge/2024/04/"><h3>StarlingX 9.0 open source cloud platform boosts performance for telco and edge</h3></a>

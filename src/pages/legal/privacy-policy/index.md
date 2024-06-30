@@ -359,7 +359,7 @@ In some circumstances we may use or disclose de-identified data about our commun
 
 ### Part XII. EU-U.S. Data Privacy Framework
 
-The Open Infrastructure Foundation participates in the EU-U.S. Data Privacy Framework regarding the collection, use, and retention of personal information from European Union member countries. We have certified with the Department of Commerce that we adhere to the EU-U.S. Data Privacy Framework Principles. To learn more about the EU-U.S. Data Privacy Framework Principles, visit here. Our certification appears here.
+The Open Infrastructure Foundation complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF) as set forth by the U.S. Department of Commerce.  The Open Infrastructure Foundation has certified to the U.S. Department of Commerce that it adheres to the EU-U.S. Data Privacy Framework Principles (EU-U.S. DPF Principles) with regard to the processing of personal data received from the European Union in reliance on the EU-U.S. DPF.  If there is any conflict between the terms in this privacy policy and the EU-U.S. DPF Principles, the Principles shall govern.  To learn more about the Data Privacy Framework (DPF) Program, and to view our certification, please visit [https://www.dataprivacyframework.gov](https://www.dataprivacyframework.gov).
 
 Please note that the Open Infrastructure Foundation has elected to continue its participation in the EU-U.S. Data Privacy Framework even though EU-U.S. Data Privacy Framework is no longer recognized by the EU as a permitted transfer mechanism. If you have relied on our EU-U.S. Data Privacy Framework certification as a transfer mechanism please let us know and we will work with you to sign Standard Contractual Clauses.
 
@@ -368,12 +368,11 @@ In compliance with the EU-U.S. Data Privacy Framework (DPF), the Open Infrastruc
 1. **Notice**: We inform individuals about the purposes for which we collect and use their personal data.
 2. **Choice**: We offer individuals the opportunity to choose whether their personal data is disclosed to third parties or used for a purpose other than the one for which it was originally collected.
 3. **Accountability for Onward Transfer**: We ensure that any transfer of personal data to third parties is covered by a contract that provides the same level of protection.
-4. **Security**: We take reasonable and appropriate measures to protect personal data from loss, misuse, and unauthorized access.
-5. **Data Integrity and Purpose Limitation**: We ensure that personal data is accurate, complete, and current, and that it is used only for the purposes for which it was collected.
-6. **Access**: We provide individuals with access to their personal data and allow them to correct, amend, or delete inaccurate information.
-7. **Recourse, Enforcement, and Liability**: We provide individuals with recourse mechanisms to lodge complaints and seek remedies for non-compliance with the above principles.
-
-The Open Infrastructure Foundation also commits to cooperate with the panel established by the EU data protection authorities (DPAs) and comply with the advice given by them regarding unresolved complaints concerning our handling of personal data received in reliance on the DPF.
+4. **Liability for Onward Transfer**: For any personal data that we transfer to a third party, we may be liable if that third party processes the personal data in a way that is inconsistent with DPF principles.
+5. **Security**: We take reasonable and appropriate measures to protect personal data from loss, misuse, and unauthorized access.
+6. **Data Integrity and Purpose Limitation**: We ensure that personal data is accurate, complete, and current, and that it is used only for the purposes for which it was collected.
+7. **Access**: We provide individuals with access to their personal data and allow them to correct, amend, or delete inaccurate information.
+8. **Recourse, Enforcement, and Liability**: We provide individuals with recourse mechanisms to lodge complaints and seek remedies for non-compliance with the above principles.
 
 For further information or to lodge a complaint, please contact us at [legalnotice@openinfra.dev](mailto:legalnotice@openinfra.dev).
 

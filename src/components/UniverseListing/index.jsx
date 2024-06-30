@@ -5,6 +5,7 @@ import LinkComponent from '../LinkComponent';
 
 const UNIVERSE = [
   {name: "Airship", link: "https://airshipit.org", logo: "airship.svg", description: "A collection of loosely coupled but interoperable tools that declaratively automate cloud provisioning.", tags: ["cloud provisioning"], isOIF: true},
+  {name: "Azimuth", link: "https://www.stackhpc.com/azimuth-introduction.html", logo: "azimuth.png", description: "Azimuth provides a self-service portal for managing HPC and AI workloads based on a simplified version of the OpenStack Horizon.", tags: ["front-end client"], isOIF: false},
   {name: "Ceph", link: "https://ceph.io", logo: "ceph.svg", description: "A software-defined storage platform, often used in open infrastructure deployments to provide scalable block storage for OpenStack and others.", tags: ["storage"], isOIF: false},
   {name: "DPDK", link: "https://dpdk.org", logo: "dpdk.svg", description: "A set of user-space libraries and drivers that accelerate packet-processing workloads.", tags: ["packet processing"], isOIF: false},
   {name: "Exosphere", link: "https://exosphere.app", logo: "exosphere.png", description: "Provides a user-friendly interface for non-proprietary cloud infrastructure.", tags: ["front-end client"], isOIF: false},
@@ -14,6 +15,7 @@ const UNIVERSE = [
   {name: "OpenStack", link: "https://openstack.org", logo: "openstack.svg", description: "The combination of compute, network and storage resources providing the cloud infrastructure for public, private and hybrid clouds, and a key component of the LOKI stack.", tags: ["Compute", "Storage", "Networking"], isOIF: true},
   {name: "Sovereign Cloud Stack", link: "https://scs.community", logo: "scs.svg", description: "A network of standardized sovereign cloud and container infrastructure providers defining, implementing and operating a fully open, federated, compatible platform.", tags: ["IaaS"], isOIF: false},
   {name: "StarlingX", link: "https://starlingx.io", logo: "starlingx.svg", description: "A complete cloud infrastructure software stack for distributed systems created for ultra-low latency use cases.", tags: ["Edge Computing"], isOIF: true},
+  {name: "Yaook", link: "https://yaook.cloud/", logo: "yaook.png", description: "Yaook is a lifecycle management tool for OpenStack hosted by ALASCA, using Kubernetes to automate provisioning, monitoring, and updating. Yaook manages bare metal, Kubernetes, and OpenStack.", tags: ["lifecycle management"], isOIF: false},
   {name: "Zuul", link: "https://zuul-ci.org", logo: "zuul.svg", description: "A program that drives continuous integration, delivery, and deployment systems with a focus on project gating.", tags: ["continuous integration"], isOIF: true},
 ];
 

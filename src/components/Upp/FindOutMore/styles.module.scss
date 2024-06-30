@@ -1,0 +1,78 @@
+.articleWrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+  color: white;
+  width: 300px;
+
+  .image {
+    flex: 0 1 50%;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 23px;
+    color: #AFAFAF
+  }
+
+  .link {
+    text-transform: uppercase;
+    color: white;
+    font-family: Jura, sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+  }
+}
+
+.videoWrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+  color: black;
+  width: 265px;
+
+  .thumbnail {
+    flex: 0 1 50%;
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    max-height: 168px;
+
+    .image {
+      transform: translateY(-8%);
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0,0,0,0.3);
+
+      .playButton {
+        position: absolute;
+        width: 56px;
+        height: 64px;
+        top: calc(50% - 32px);
+        left: calc(50% - 28px);
+      }
+    }
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+    text-transform: uppercase;
+  }
+}

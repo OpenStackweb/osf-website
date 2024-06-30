@@ -68,10 +68,11 @@ exports.handler = async function (event, context) {
         };
 
       return fetch(
-        "https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8",
+        `${process.env.URL}/.netlify/functions/emails/contact-form`,
         {
           headers: {
             "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+            "netlify-emails-secret": String(process.env.NETLIFY_EMAILS_SECRET),
           },
           method: "POST",
           body: params.toString(),

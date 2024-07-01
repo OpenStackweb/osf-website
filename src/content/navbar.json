@@ -64,6 +64,10 @@
           "url": "/days"
         },
         {
+          "text": "Event Sponsorships",
+          "url": "/events/sponsorship"
+        },
+        {
           "text": "OpenInfra Live",
           "url": "/live/"
         },
@@ -74,10 +78,6 @@
         {
           "text": "User Group Meetups",
           "url": "https://www.meetup.com/pro/openinfradev"
-        },
-        {
-          "text": "Event Sponsorships",
-          "url": "/events/sponsorship"
         }
       ]
     },

@@ -1,0 +1,36 @@
+<mjml>
+  <mj-head>
+  <!-- 
+    Template: CONTACT_FORM_SUBMIT
+    Version: 1
+    From Email: {{ email }}
+    Subject: Contact form submission from {{ first_name }}
+    -->
+    <mj-title>Contact form submission from {{ first_name }}</mj-title>
+
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700" />
+
+    <mj-attributes>
+      <mj-text font-size="16px" line-height="24px" color="#53585F" font-family="Open Sans, Arial, Helvetica, sans-serif">
+    </mj-attributes>
+
+    <mj-style>
+      p {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body width="700px">
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="18px" />
+        <mj-text>{{ first_name }} {{ last_name }} from {{ company }} has sent the following message via the OpenInfra Online Contact Form:</mj-text>
+        <mj-spacer height="18px"/>
+        <mj-text> {{ 00N6f00000FmlhK }} </mj-text>
+        <mj-spacer height="18px"/>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

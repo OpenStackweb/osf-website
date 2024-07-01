@@ -169,7 +169,7 @@ const SPONSORSHIPS_DAYS = [
     title: ["OPENINFRA DAY NORTH AMERICA at INDIANA UNIVERSITY - OCT 15-16, 2024", "INDIANAPOLIS, INDIANA"],
     subtitle: (
       <>
-        <a href="mailto:robping@iu.edu">Contact us</a> to sponsor
+        <a href="https://docs.google.com/forms/d/1wAjuh5mg9YxTjnqJxIPhISUKuLQgWVC852DeB_CgPp0/viewform?edit_requested=true">Contact us</a> to sponsor
         OpenInfra Day NA.
       </>
     ),
@@ -183,13 +183,11 @@ const SPONSORSHIPS_DAYS = [
         items: [
           { title: "10 Minute Keynote", value: true },
           { title: "20 Minute Presentation", value: true },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
-          { title: "Banner", value: "Must bring your own" },
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
           { title: "4 Complimentary Registrations", value: true },
           { title: "Logo Display" , value: "Website & Printed signs" },
           { title: "Swag" , value: "One item included in swag bag" },
-          { title: "" },
-          { title: "Slots Available", value: "2" },
+          { title: "Number Available", value: "2" },
         ],
       },
       {
@@ -198,13 +196,11 @@ const SPONSORSHIPS_DAYS = [
         color: "#DAA511",
         items: [
           { title: "20 Minute Presentation", value: true },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
-          { title: "Banner", value: "Must bring your own" },
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
           { title: "3 Complimentary Registrations", value: true },
           { title: "Logo Display" , value: "Website & Printed signs" },
           { title: "Swag" , value: "One item included in swag bag" },
-          { title: "" },
-          { title: "Slots Available", value: "3" },
+          { title: "Number Available", value: "3" },
         ],
       },
       {
@@ -213,28 +209,24 @@ const SPONSORSHIPS_DAYS = [
         color: "#A8A9AD",
         items: [
           { title: "Presentation", value: false },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
-          { title: "Banner", value: "Must bring your own" },
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
           { title: "2 Complimentary Registrations", value: true },
           { title: "Logo Display" , value: "Website" },
           { title: "Swag" , value: "One item included in swag bag" },
-          { title: "" },
-          { title: "Slots Available", value: "10" },
+          { title: "Number Available", value: "10" },
         ],
       },
       {
         title: "Reception Sponsor",
-        price: "$5,000 USD",
+        price: "$5,000-$10,000 USD",
         color: "#EAEAEA",
         items: [
           { title: "Presentation", value: "20-minute During Reception" },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
-          { title: "Banner", value: "Placement at the Receiption Event" },
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
           { title: "4 Complimentary Registrations", value: true },
           { title: "Logo Display" , value: "Welcome Sign & Table Placards" },
           { title: "Swag" , value: "One item included in swag bag" },
-          { title: "" },
-          { title: "Slots Available", value: "2" },
+          { title: "Number Available", value: "1 slot at $10,000 or 1/2 slot at $5,000" },
         ],
       },
       {
@@ -243,13 +235,11 @@ const SPONSORSHIPS_DAYS = [
         color: "#EAEAEA",
         items: [
           { title: "Presentation", value: "10-minute During Meal" },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
-          { title: "Banner", value: false },
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
           { title: "3 Complimentary Registrations", value: true },
           { title: "Logo Display" , value: "Placards at Serving Stations" },
           { title: "Swag" , value: "One item included in swag bag" },
-          { title: "" },
-          { title: "Slots Available", value: "2 Breakfast, 2 Lunch" },
+          { title: "Number Available", value: "2 Breakfast, 2 Lunch" },
         ],
       },
       {
@@ -258,13 +248,11 @@ const SPONSORSHIPS_DAYS = [
         color: "#EAEAEA",
         items: [
           { title: "Presentation", value: false },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
-          { title: "Banner", value: false },
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
           { title: "2 Complimentary Registrations", value: true },
           { title: "Logo Display" , value: "Placards at Coffee Stations" },
           { title: "Swag" , value: "One item included in swag bag" },
-          { title: "" },
-          { title: "Slots Available", value: "2" },
+          { title: "Number Available", value: "2" },
         ],
       },
       {
@@ -273,13 +261,11 @@ const SPONSORSHIPS_DAYS = [
         color: "#EAEAEA",
         items: [
           { title: "Presentation", value: false },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs" },
-          { title: "Banner", value: false },
+          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
           { title: "2 Complimentary Registrations", value: true },
           { title: "Logo Display" , value: "Placards at Coffee Stations" },
           { title: "Swag" , value: "One item included in swag bag" },
-          { title: "" },
-          { title: "Slots Available", value: "1" },
+          { title: "Number Available", value: "1" },
         ],
       },
     ],

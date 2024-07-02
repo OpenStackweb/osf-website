@@ -60,13 +60,12 @@ const ContactForm = () => {
    const handleSubmit = (evt) => {
         evt.preventDefault();
         const uri = new URI();
+        uri.addQuery("form-name", evt.target.getAttribute("name"));
         uri.addQuery(inputs);
         if(!uri.hasQuery(friendlyCaptchaFieldName)){
            Swal.fire("Validation Error", 'Captcha solution is invalid!.', "warning");
            return false;
         }
-        uri.addQuery('retURL', window.location.href);
-        uri.addQuery('referrerUrl', window.location.href);
 
         fetch("/",
             {

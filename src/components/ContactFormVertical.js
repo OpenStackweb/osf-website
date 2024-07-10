@@ -30,7 +30,7 @@ const ContactForm = () => {
         } else if (window.location.toString().indexOf("?platinum") !== -1) {
             value = "Hello, I am interested in the Platinum Membership level.";
         }
-        setInputs(values => ({...values, ['00N6f00000FmlhK']: value}))
+        setInputs(values => ({...values, membership_interest: value}))
     }
 
     const handleChange = (event) => {
@@ -60,24 +60,19 @@ const ContactForm = () => {
    const handleSubmit = (evt) => {
         evt.preventDefault();
         const uri = new URI();
+        uri.addQuery("form-name", evt.target.getAttribute("name"));
         uri.addQuery(inputs);
         if(!uri.hasQuery(friendlyCaptchaFieldName)){
            Swal.fire("Validation Error", 'Captcha solution is invalid!.', "warning");
            return false;
         }
-        uri.addQuery('retURL', window.location.href);
-        uri.addQuery('referrerUrl', window.location.href);
 
-        fetch(getServerFunctionUrl('sf-contact-form-post'),
+        fetch("/",
             {
-                headers: {
-                    'Accept': 'application/json, text/plain, */*',
-                    'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
-                },
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 method: "POST",
                 body: uri.query(),
             }).then((response) => {
-                console.log(response);
                 if(response.ok){
                     setSuccess(true);
                     return;
@@ -97,8 +92,13 @@ const ContactForm = () => {
         return false
     }
 
-    return(
-        <form className="contact-form" onSubmit={handleSubmit}>
+    return (
+        <form className="contact-form"
+            name="contact"
+            onSubmit={handleSubmit}
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field">
             {!success &&
                 <div id="form-fields">
                     <div className="form-wrapper is-vertical">
@@ -133,9 +133,9 @@ const ContactForm = () => {
 
                         </div>
                         <div className="field-column is-full-width">
-                            <textarea id="00N6f00000FmlhK" className="message-field" name="00N6f00000FmlhK" type="text"
+                            <textarea id="membership_interest" className="message-field" name="membership_interest" type="text"
                                       placeholder="How can we help?" wrap="soft" required
-                                      value={inputs['00N6f00000FmlhK'] || ""} onChange={handleChange}></textarea>
+                                      value={inputs['membership_interest'] || ""} onChange={handleChange}></textarea>
                             <div className="field-column is-full-width">
                                 <div ref={container} className="frc-captcha" data-sitekey={getEnvVariable(FRIENDLY_CAPTCHA_SITE_KEY)} />
                             </div>

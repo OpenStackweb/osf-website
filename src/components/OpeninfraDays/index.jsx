@@ -7,7 +7,7 @@ const OpenInfraDays = ({ title }) => {
 
   const openinfraEvents = [    
     { background: '/img/openinfra-days/openinfra-days-cards/indiana.png', name: 'North America', date: 'October 15-16, 2024', location: 'Indiana University', link: 'https://ittraining.iu.edu/explore-topics/titles/oid-iu/index.html'},
-    { background: '/img/openinfra-days/openinfra-days-cards/vietnam', name: 'Vietnam', date: 'August 24, 2024', location: 'Hanoi, Vietnam', link: 'https://2024.vietopeninfra.org/'},
+    { background: '/img/openinfra-days/openinfra-days-cards/vietnam.png', name: 'Vietnam', date: 'August 24, 2024', location: 'Hanoi, Vietnam', link: 'https://2024.vietopeninfra.org/'},
     { background: '/img/openinfra-days/openinfra-days-cards/tokyo.png', name: 'Tokyo', date: 'September 6, 2024', location: 'Tokyo, Japan', link: 'https://cloudopsdays.com/'}
   ]
 

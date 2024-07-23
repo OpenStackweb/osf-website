@@ -32,7 +32,7 @@ const SPONSORSHIPS = [
         priceNonMember: "$ 60,000",
         color: "#ED362F",
         items: [
-          { title: "slots", value: "1" },
+          { title: "slots", value: "1 left" },
           { title: "tech session", subtitle: "(30 mins)", value: "4" },
           { title: "Booth Size", value: "6m x 2m" },
           { title: "Full Access Pass", value: "30" },
@@ -74,7 +74,7 @@ const SPONSORSHIPS = [
         priceNonMember: "$ 25,500",
         color: "#43B85C",
         items: [
-          { title: "slots", value: "2" },
+          { title: "slots", value: "5 left" },
           { title: "tech session", subtitle: "(30 mins)", value: "1" },
           { title: "Booth Size", value: "3m x 2m" },
           { title: "Full Access Pass", value: "15" },
@@ -97,7 +97,7 @@ const SPONSORSHIPS = [
         priceNonMember: "$ 16,000",
         color: "#F7B749",
         items: [
-          { title: "slots", value: "4" },
+          { title: "slots", value: "5 left" },
           { title: "tech session", subtitle: "(30 mins)", value: "1" },
           { title: "Booth Size", value: "3m x 2m" },
           { title: "Full Access Pass", value: "10" },

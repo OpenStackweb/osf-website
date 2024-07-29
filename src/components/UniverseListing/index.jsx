@@ -54,7 +54,7 @@ const UniverseListing = () => {
                     </div>
                     <div className="universe-content">
                       <div className="universe-logo-wrapper">
-                        <img className="universe-project-logo" src={`img/universe/projects/${universe.logo}`} alt="" />
+                        <img className="universe-project-logo" src={`/img/universe/projects/${universe.logo}`} alt="" />
                       </div>
                       <div className="universe-project-name">
                         {universe.name}

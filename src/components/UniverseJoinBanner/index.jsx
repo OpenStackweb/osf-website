@@ -10,7 +10,7 @@ const UniverseJoinBanner = ({ title, subtitle, button }) => (
             <p className='universe-join-banner-title' dangerouslySetInnerHTML={{ __html: title }} />
             <p className="universe-join-banner-subtitle">{ subtitle }</p>
             <div className="universe-join-banner-requirements">
-                <p><strong>Before submitting a new project, please ensure the follow criteria is met in order to be added to the OpenInfra Universe:</strong></p>
+                <p><strong>Before submitting a new project to the OpenInfra Universe, please ensure the follow criteria is met:</strong></p>
                 <ul>
                     <li>Must be openly licensed with an OSI-approved license.</li>
                     <li>Must be used in infrastructure.</li>

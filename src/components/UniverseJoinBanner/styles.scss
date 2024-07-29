@@ -44,6 +44,15 @@
 .universe-join-banner-subtitle {
   color: #000000;
 }
+.universe-join-banner-requirements {
+  color: #000000;
+  margin-top: 1.5rem;
+  ul {
+    li {
+      text-align: left;
+    }
+  }
+}
 .universe-join-banner-button {
   background-color: #e61e24;
   color: #ffffff;

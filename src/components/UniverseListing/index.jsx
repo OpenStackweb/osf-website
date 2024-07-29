@@ -48,7 +48,7 @@ const UniverseListing = () => {
                       {universe.isOIF && 
                         <div>
                           <span>OpenInfra Foundation Project</span>
-                          <img className="universe-bar" src="img/universe/oif-project-bar.svg" alt="" />
+                          <img className="universe-bar" src="/img/universe/oif-project-bar.svg" alt="" />
                         </div>
                       }
                     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.scss';
-import { UNIVERSE } from './universeProjects';
+import universeProjects from './universeProjects.json';
 
 const UniverseListing = () => {
   return (
@@ -13,20 +13,19 @@ const UniverseListing = () => {
           Open infrastructure goes beyond the projects that are <a href="/projects/">directly hosted at the OpenInfra Foundation</a>. The OpenInfra Universe provides a look at the open source solutions available for infrastructure projects: open source projects that help provide infrastructure resources for others to build on, in use cases such as edge computing, container infrastructure, public/private hybrid cloud, AI & machine learning, CI/CD, and more. Most of these projects power or rely on LOKI (Linux OpenStack Kubernetes Infrastructure), an end-to-end open source solution for providing infrastructure. Projects in the OpenInfra Universe are discussed at <a href="/community-events/">OpenInfra events</a> around the world. 
         </p>
         <p>
-        <a class="button button-red" href="#universe-list">
+        <a className="button button-red" href="#universe-list">
           <span>See the Projects</span>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="#ffffff" className="down-arrow">
             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
           </svg>
         </a>
-
         </p>
       </div>
       <div className="universe-main">
         <div className="container">
           <div className="universe-list" id="universe-list">
-              {UNIVERSE.map(universe => (
-                  <a href={universe.link} className="universe-block">
+              {universeProjects.map(universe => (
+                  <a key={universe.name} href={universe.link} className="universe-block">
                     <div className="universe-openinfra-project">
                       {universe.isOIF && 
                         <div>
@@ -46,8 +45,8 @@ const UniverseListing = () => {
                         {universe.description}
                       </div>
                       <div className="universe-tag-wrapper">
-                        {universe.tags.map(tag => (
-                          <div className="universe-tag">
+                        {universe.tags.map((tag, index) => (
+                          <div key={index} className="universe-tag">
                             {tag}
                           </div>
                         ))}

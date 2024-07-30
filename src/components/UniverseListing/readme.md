@@ -16,12 +16,12 @@ Before submitting a new project to the OpenInfra Universe, please ensure the fol
 To submit a new project to the OpenInfra Universe:
 - Open a pull request
 - Add your project in alphabetical order to `universeProjects.json`, including to following:
--- project name
--- link to the project website or repo
--- logo file name
--- description of the project, ideally referencing it's place in open infrastructure (190 characters max)
--- tag(s) categorizing the project
--- isOIF: boolean set to "true" if the project is an official project hosted by the OpenInfra Foundation
+  - project name
+  - link to the project website or repo
+  - logo file name
+  - description of the project, ideally referencing it's place in open infrastructure (190 characters max)
+  - tag(s) categorizing the project
+  - isOIF: boolean set to "true" if the project is an official project hosted by the OpenInfra Foundation
 - Add your `logo` (ideally in SVG or PNG format) to the `src/images/universe/projects/` directory
 
 ## License

@@ -74,7 +74,7 @@
   {
     "name": "Metal3",
     "link": "https://metal3.io/",
-    "logo": "metal3.png",
+    "logo": "metal3.svg",
     "description": "A set of tools for managing bare-metal infrastructure using Kubernetes.",
     "tags": ["orchestration"],
     "isOIF": false

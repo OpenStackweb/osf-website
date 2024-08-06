@@ -8,6 +8,22 @@
     "isOIF": true
   },
   {
+    "name": "AlmaLinux",
+    "link": "https://almalinux.org/",
+    "logo": "almalinux.png",
+    "description": "Community owned and governed, forever-free enterprise Linux distribution, focused on long-term stability, providing a robust production-grade platform.",
+    "tags": ["OS distribution"],
+    "isOIF": false
+  },
+  {
+    "name": "Atmosphere",
+    "link": "https://vexxhost.com/platform/",
+    "logo": "atmosphere.png",
+    "description": "Simple & easy private cloud platform featuring OpenStack powered VMs, Kubernetes & bare-metal.",
+    "tags": ["Iaas"],
+    "isOIF": false
+  },
+  {
     "name": "Azimuth",
     "link": "https://www.stackhpc.com/azimuth-introduction.html",
     "logo": "azimuth.png",
@@ -56,6 +72,14 @@
     "isOIF": false
   },
   {
+    "name": "Metal3",
+    "link": "https://metal3.io/",
+    "logo": "metal3.svg",
+    "description": "Bridges a gap between OpenStack and Kubenetes providing bare-metal machines alongside container orchestration.",
+    "tags": ["bare-metal", "container orchestration"],
+    "isOIF": false
+  },
+  {
     "name": "openEuler",
     "link": "https://www.openeuler.org/",
     "logo": "openeuler.png",
@@ -67,9 +91,17 @@
     "name": "OpenStack",
     "link": "https://openstack.org",
     "logo": "openstack.svg",
-    "description": "The combination of compute, network and storage resources providing the cloud infrastructure for public, private and hybrid clouds, and a key component of the LOKI stack.",
+    "description": "The combination of compute, network and storage resources providing the cloud infrastructure for public, private and hybrid clouds, and a key component of the Open Infrastructure Blueprint.",
     "tags": ["Compute", "Storage", "Networking"],
     "isOIF": true
+  },
+  {
+    "name": "Rocky Linux",
+    "link": "https://rockylinux.org/",
+    "logo": "rockylinux.svg",
+    "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost.",
+    "tags": ["OS distribution"],
+    "isOIF": false
   },
   {
     "name": "Sovereign Cloud Stack",
@@ -84,7 +116,7 @@
     "link": "https://starlingx.io",
     "logo": "starlingx.svg",
     "description": "A complete cloud infrastructure software stack for distributed systems created for ultra-low latency use cases.",
-    "tags": ["Edge Computing"],
+    "tags": ["edge computing"],
     "isOIF": true
   },
   {

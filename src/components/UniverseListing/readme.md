@@ -2,7 +2,7 @@
 
 ## About
 
-Open infrastructure goes beyond the [projects that are directly hosted at the OpenInfra Foundation](https://openinfra.dev/projects/). The OpenInfra Universe provides a look at the open source solutions available for infrastructure projects: open source projects that help provide infrastructure resources for others to build on, in use cases such as edge computing, container infrastructure, public/private hybrid cloud, AI & machine learning, CI/CD, and more. Most of these projects power or rely on the OpenInfra Blueprint (Linux, OpenStack, and Kubernetes), an end-to-end open source solution for providing infrastructure. Projects in the OpenInfra Universe are discussed at [OpenInfra events](https://openinfra.dev/community-events/) around the world.
+Open infrastructure goes beyond the [projects that are directly hosted at the OpenInfra Foundation](https://openinfra.dev/projects/). The OpenInfra Universe provides a look at the open source solutions available for infrastructure projects: open source projects that help provide infrastructure resources for others to build on, in use cases such as edge computing, container infrastructure, public/private hybrid cloud, AI & machine learning, CI/CD, and more. Most of these projects power or rely on the Open Infrastructure Blueprint (Linux, OpenStack, and Kubernetes), an end-to-end open source solution for providing infrastructure. Projects in the OpenInfra Universe are discussed at [OpenInfra events](https://openinfra.dev/community-events/) around the world.
 
 This repository contains all of the files needed to generate the [OpenInfra Universe](https://openinfra.dev/universe). 
 

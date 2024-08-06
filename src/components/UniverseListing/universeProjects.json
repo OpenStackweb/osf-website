@@ -19,8 +19,8 @@
     "name": "Atmosphere",
     "link": "https://vexxhost.com/platform/",
     "logo": "atmosphere.png",
-    "description": "Simple & easy private cloud platform featuring VMs, Kubernetes & bare-metal.",
-    "tags": ["platform"],
+    "description": "Simple & easy private cloud platform featuring OpenStack powered VMs, Kubernetes & bare-metal.",
+    "tags": ["Iaas"],
     "isOIF": false
   },
   {
@@ -75,8 +75,8 @@
     "name": "Metal3",
     "link": "https://metal3.io/",
     "logo": "metal3.svg",
-    "description": "A set of tools for managing bare-metal infrastructure using Kubernetes.",
-    "tags": ["orchestration"],
+    "description": "Bridges a gap between OpenStack and Kubenetes providing bare-metal machines alongside container orchestration.",
+    "tags": ["bare-metal", "container orchestration"],
     "isOIF": false
   },
   {
@@ -116,7 +116,7 @@
     "link": "https://starlingx.io",
     "logo": "starlingx.svg",
     "description": "A complete cloud infrastructure software stack for distributed systems created for ultra-low latency use cases.",
-    "tags": ["Edge Computing"],
+    "tags": ["edge computing"],
     "isOIF": true
   },
   {

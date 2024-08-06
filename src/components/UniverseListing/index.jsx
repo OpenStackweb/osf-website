@@ -10,7 +10,7 @@ const UniverseListing = () => {
           OpenInfra Universe
         </h1>
         <p className="intro">
-          Open infrastructure goes beyond the projects that are <a href="/projects/">directly hosted at the OpenInfra Foundation</a>. The OpenInfra Universe provides a look at the open source solutions available for infrastructure projects: open source projects that help provide infrastructure resources for others to build on, in use cases such as edge computing, container infrastructure, public/private hybrid cloud, AI & machine learning, CI/CD, and more. Most of these projects power or rely on the OpenInfra Blueprint (Linux, OpenStack, and Kubernetes), an end-to-end open source solution for providing infrastructure. Projects in the OpenInfra Universe are discussed at <a href="/community-events/">OpenInfra events</a> around the world. 
+          Open infrastructure goes beyond the projects that are <a href="/projects/">directly hosted at the OpenInfra Foundation</a>. The OpenInfra Universe provides a look at the open source solutions available for infrastructure projects: open source projects that help provide infrastructure resources for others to build on, in use cases such as edge computing, container infrastructure, public/private hybrid cloud, AI & machine learning, CI/CD, and more. Most of these projects power or rely on the Open Infrastructure Blueprint (Linux, OpenStack, and Kubernetes), an end-to-end open source solution for providing infrastructure. Projects in the OpenInfra Universe are discussed at <a href="/community-events/">OpenInfra events</a> around the world. 
         </p>
         <p>
         <a className="button button-red" href="#universe-list">

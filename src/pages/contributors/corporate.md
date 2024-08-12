@@ -302,6 +302,8 @@ companyDetails:
       col2: 2014-05-05
     - col1: FusionStack Co, Ltd.
       col2: 2017-05-17
+    - col2: 2024-07-29
+      col1: G-Research
     - col1: German Cloud
       col2: 2011-03-19
     - col1: Gigaspaces

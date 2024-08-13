@@ -33,7 +33,7 @@ const SPONSORSHIPS_DAYS = [
     plans: [
       {
         title: "platinum",
-        price: "$5,000 USD",
+        price: "SOLD OUT",
         color: "#757575",
         items: [
           { title: "10 Minute Keynote", value: true },
@@ -73,7 +73,7 @@ const SPONSORSHIPS_DAYS = [
       },
       {
         title: "Reception Sponsor",
-        price: "$5,000-$10,000 USD",
+        price: "SOLD OUT",
         color: "#EAEAEA",
         items: [
           { title: "Presentation", value: "20-minute During Reception" },

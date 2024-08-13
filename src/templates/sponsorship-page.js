@@ -155,28 +155,14 @@ export const SponsorshipPageTemplate = ({
             sponsorships={[...SPONSORSHIPS, ...SPONSORSHIPS_DAYS]}
           />
           <SponsorshipSection
-            title="OPENINFRA SUMMIT ASIA | OCP REGIONAL SUMMIT APAC"
+            title="OPENINFRA DAYS"
             overview="SPONSORSHIP OPPORTUNITIES"
-            sponsorships={SPONSORSHIPS}
-          />
-          <SponsoringBanner
-            title="Interested in sponsoring?"
-            subTitle="Reach out to be connected to the OpenInfra</br>Foundation and OpenInfra Summit Asia organizers!"
-            button={{
-              link:
-                "https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates",
-              text: "Contact Now",
-            }}
+            sponsorships={SPONSORSHIPS_DAYS}
           />
           <GenericBanner
             upperText="Not a member?"
             text="Learn how to join the OpenInfra Foundation"
             button={{ link: "/join/members/", text: "BECOME A MEMBER" }}
-          />
-          <SponsorshipSection
-            title="OPENINFRA DAYS"
-            overview="SPONSORSHIP OPPORTUNITIES"
-            sponsorships={SPONSORSHIPS_DAYS}
           />
           <GenericBanner
             upperText=""

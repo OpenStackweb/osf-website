@@ -120,7 +120,7 @@ const SPONSORSHIPS_DAYS = [
           { title: "2 Complimentary Registrations", value: true },
           { title: "Logo Display" , value: "Placards at Coffee Stations" },
           { title: "Swag" , value: "One item included in swag bag" },
-          { title: "Number Available", value: "1" },
+          { title: "Number Available", value: "Not Limited" },
         ],
       },
     ],

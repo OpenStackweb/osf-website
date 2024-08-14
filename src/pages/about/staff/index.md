@@ -43,28 +43,17 @@ members:
     picture: /img/about-staff/JonathanBryceBio100.jpg
     title: Executive Director
     twitter: https://twitter.com/jbryce
-  - description: "Mark has been lucky enough to participate in many disruptive
-      technology shifts, from the introduction  of the first GPUs at Dell in the
-      90s as a product manager, to the digital music/MP3 transition
-      at  Musicmatch as Director of Business Development. After Yahoo! acquired
-      Musicmatch, combining the #1  streaming radio service with the #1 digital
-      music app, Mark served as Sr Director, establishing  strategic
-      partnerships for one of the first on demand streaming music services. In
-      2009, Mark joined  Rackspace, an early pioneer in cloud computing, as VP
-      of Business Development, focused on building  their cloud ecosystem. <p>In
-      2010, to accelerate the cloud ecosystem's development, Mark co-founded a
-      new open source cloud  computing project called OpenStack, in partnership
-      with NASA and 25 other organizations globally.  OpenStack quickly became
-      one of the fastest growing open source projects in history. In 2012,
-      Mark  co-founded the Open Infrastructure Foundation to manage the growth
-      of the project, where he now serves at  the COO. Today, OpenStack is one
-      of the 3 most actively developed open source projects in the world,  along
-      with the Linux kernel and Chromium.</p> <p>Mark is now helping to expand
-      and evolve the Foundation’s mission, bringing the unique
-      open  collaboration method established by the OpenStack community to many
-      new open source projects across  the cloud infrastructure market,
-      including Kata Containers, the Zuul CI/CD platform, the StarlingX  edge
-      computing platform, and Airship. </p>"
+  - description: Mark Collier is a co-founder of the OpenStack project and the Chief
+      Operating Officer at the Open Infrastructure Foundation. A committed
+      advocate for open-source principles, Mark has played a key role in the
+      development and global success of OpenStack, establishing it as a leading
+      cloud computing platform and one of the most active open source projects
+      to ever exist. Recently, he has also been involved in defining “open
+      source AI,” contributing to the industry’s efforts to create clear
+      standards and guidelines. With a background in building multi billion
+      dollar open source ecosystems, Mark is a respected voice in the technology
+      community, sharing his insights at industry events and through various
+      media channels.
     linkedin: https://www.linkedin.com/in/markcollier
     name: Mark Collier
     openStack: https://www.openstack.org/community/members/profile/31

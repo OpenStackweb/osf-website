@@ -222,3 +222,45 @@ Ubuntu is a popular, well-tested operating system for deploying OpenStack clouds
 # Authors
 
 Dana Cazacu, Marius Feldmann, Ali Hussain, Meiqin Jin, Wenhai Li, Nils Magnus, Amy Marrich, Jadon Naas, Michal Nasiadka, Kendall Nelson, Mauro Oddi, Goutham Pacha Ravi, Dmitry Tantsur, Benny Vasquez
+
+# Reference Architectures
+
+## Cleura
+
+![Cleura Reference Architecture](/img/cleura_openinfrablueprint_ra.png)
+
+## H3C
+
+**H3C CloudOS physical architecture**
+
+Three physical servers are available in the management zone, used to deploy the management plane of H3C CloudOS. These three servers form a K8s cluster.
+
+The service zone contains KVM nodes, bare metal nodes, storage nodes, and network nodes. VMs on the KVM nodes and the bare metal nodes can form a K8s cluster for user access.
+
+![H3C Reference Architecture](/img/h3c-ref.png)
+
+**H3C CloudOS physical architecture**
+
+Three physical servers are available in the management zone, used to deploy the management plane of H3C CloudOS. These three servers form a K8s cluster.
+
+The service zone contains KVM nodes, bare metal nodes, storage nodes, and network nodes. VMs on the KVM nodes and the bare metal nodes can form a K8s cluster for user access.
+
+**H3C CloudOS logical architecture**
+
+Users directly access the Web interface, which is supported by a cloud service layer and back-end operations management. The cloud services share the operations capabilities. The physical resource pool contains KVM nodes and bare metal nodes.
+
+Users directly access the Web interface, which is supported by a cloud service layer and back-end operations management. The cloud services share the operations capabilities. The physical resource pool contains KVM nodes and bare metal nodes.
+
+## Huawei
+
+**Huawei Dual Engine solution with OpenStack and Kubernetes**
+
+Huawei Dual-Engine container solution is built with OpenStack as its IaaS layer being responsible for infrastructure and BareMetal management and Kubernetes as its CaaS layer covering app management. It is capable of multinarrative resource management, shared infrastructure in one cloud, unified interfaces, telecom capability enhancement, Cloud and CT management system aligned. 
+
+Expansion instead of new construction: For live production environment, upgrading from VM platform to dual engine platform to support multivariable resource will save huge cost. There is no need for new constructions. New dual engine platform can take advantage of previous OM systems. Virtualization and containerization management panel work in the same layer, share the same COTS infrastructure. Each component takes its own responsibility and shared common services such as IAM, BareMetal, etc. The dual engine BareMetal container solution supports multiple resource forms, such as VMs, bare metal servers, VM containers, and bare metal containers.
+
+![Huawei Reference Architecture](/img/huawei-ref.png)
+
+## Red Hat OpenStack Services on OpenShift High level diagram 
+
+![Red Hat Reference Architecture](/img/redhat-ref.png)

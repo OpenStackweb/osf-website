@@ -192,9 +192,7 @@ OpenAnolis, established in September 2020, is an international open source commu
 CentOS Stream is an open source enterprise Linux distribution which provides the major version that Red Hat Enterprise Linux (RHEL) minor versions branch from. For anyone interested in participating and collaborating in the RHEL ecosystem, CentOS Stream is your reliable platform for integration. Using CentOS Stream in combination with OpenStack and Kubernetes brings a durable open source Linux flavor for enterprise platforms. It involves deploying and operating cloud-native applications. Some of the prominent use cases are:
 
 1. Private and hybrid cloud infrastructures with OpenStack and Kubernetes are popular application use points. CentOS Stream serves as an operating system for internal applications, data storage, and services, leveraging OpenStack’s capabilities for managing compute, storage, and networking resources. Container and Bare metal launching is the key feature but it also supports Magnum for infrastructure virtualization and upcoming Kubernetes integrations.
-
 2. Inter-cloud integration between on-premises CentOS-based OpenStack deployments with public clouds enables interoperability. This allows anyone to create a seamless hybrid cloud environment, allowing for workload mobility between private and public clouds. Enterprises can replicate critical workloads to a secondary CentOS-based OpenStack cluster for failover in case of primary site failure.
-
 3. Enterprises could design and deploy microservices-based applications, leveraging Kubernetes for container orchestration and OpenStack for infrastructure management. CentOS Stream is binary-compatible with Red Hat Enterprise Linux (RHEL), making it a preferred option for enterprises that need a durable and supported operating system for their infrastructure. 
 
 ### CoreOS
@@ -220,3 +218,7 @@ Rocky Linux is an open source enterprise operating system designed to be 100% bu
 ### Ubuntu
 
 Ubuntu is a popular, well-tested operating system for deploying OpenStack clouds. Ubuntu is a community-driven Linux distribution derived from Debian and published by Canonical. The Ubuntu community embodies the meaning of the ancient African word "ubuntu" -- humanity to others -- through making enterprise-quality software available to everyone freely on the same terms. There are many flavors and specialized derivatives of Ubuntu for desktops, workstations, servers, clouds, connected devices, and other types of use cases. Canonical and other companies in the Ubuntu community also provide commercial services and support for Ubuntu for organizations of all sizes. Ubuntu was the first operating system to commit to scheduled releases on a predictable cadence. Since 2004, the Ubuntu community has produced a high-quality release every six months and a new LTS release every two years. Ubuntu's reliability, quality, and community make Ubuntu one of the world's most widely used Linux distributions.
+
+# Authors
+
+Dana Cazacu, Marius Feldmann, Ali Hussain, Meiqin Jin, Wenhai Li, Nils Magnus, Amy Marrich, Jadon Naas, Michal Nasiadka, Kendall Nelson, Mauro Oddi, Goutham Pacha Ravi, Dmitry Tantsur, Benny Vasquez

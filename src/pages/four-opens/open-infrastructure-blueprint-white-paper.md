@@ -227,11 +227,13 @@ Dana Cazacu, Marius Feldmann, Ali Hussain, Meiqin Jin, Wenhai Li, Nils Magnus, A
 
 ## Cleura
 
+### Cleure Reference Architecture
+
 ![Cleura Reference Architecture](/img/cleura_openinfrablueprint_ra.png)
 
 ## H3C
 
-**H3C CloudOS physical architecture**
+### H3C CloudOS physical architecture
 
 Three physical servers are available in the management zone, used to deploy the management plane of H3C CloudOS. These three servers form a K8s cluster.
 
@@ -253,7 +255,7 @@ Users directly access the Web interface, which is supported by a cloud service l
 
 ## Huawei
 
-**Huawei Dual Engine solution with OpenStack and Kubernetes**
+### Huawei Dual Engine solution with OpenStack and Kubernetes
 
 Huawei Dual-Engine container solution is built with OpenStack as its IaaS layer being responsible for infrastructure and BareMetal management and Kubernetes as its CaaS layer covering app management. It is capable of multinarrative resource management, shared infrastructure in one cloud, unified interfaces, telecom capability enhancement, Cloud and CT management system aligned. 
 
@@ -261,6 +263,8 @@ Expansion instead of new construction: For live production environment, upgradin
 
 ![Huawei Reference Architecture](/img/huawei-ref.png)
 
-## Red Hat OpenStack Services on OpenShift High level diagram
+## Red Hat
+
+### Red Hat OpenStack Services on OpenShift High level diagram
 
 ![Red Hat Reference Architecture](/img/redhat-ref.png)

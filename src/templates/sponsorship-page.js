@@ -118,7 +118,7 @@ const SPONSORSHIPS_DAYS = [
           { title: "Presentation", value: false },
           { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
           { title: "2 Complimentary Registrations", value: true },
-          { title: "Logo Display" , value: "Placards at Coffee Stations" },
+          { title: "Logo Display" , value: "Website" },
           { title: "Swag" , value: "One item included in swag bag" },
           { title: "Number Available", value: "Not Limited" },
         ],

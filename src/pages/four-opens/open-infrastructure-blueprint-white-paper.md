@@ -31,7 +31,7 @@ Since the rise of containerization,a number of projects that have vied for the t
 
 ### The Value of Open Source Software
 
-#### Well-tested, well-used, well-supported technology
+**Well-tested, well-used, well-supported technology**
 
 Users from individual professionals to the world's largest enterprises use open source software every day. Open source software like Linux, OpenStack, and Kubernetes benefit from the experiences of a large, diverse user base engaging in a wide variety of use cases. Such widespread and heterogeneous use helps to ensure problems in the software are more quickly identified and resolved than in proprietary software with more limited support models. It also ensures that from the start of the development process through to its completion, the software is robustly engineered.  
 
@@ -41,25 +41,25 @@ On a strategic level, much higher ranked than open source software’s economic 
 
 Additional advantages of open source software are the innovation and quality features that stem from the open development model. Most open source software is developed by communities formed of dedicated individuals, typically including dedicated staff members of several otherwise competing companies. This development model enables best-of-breed solutions and reduces the “not-invented-here” syndrome, otherwise often observed in proprietary industries. This collaboration is coordinated and governed under the umbrella of organizations like the Open Infrastructure Foundation.
 
-#### Focus on the work that is most important
+**Focus on the work that is most important**
 
 Open source software provides solutions that are ready to fit the technology needs of organizations. When organizations adopt open source software, they can focus on delivering value to their customers instead of spending limited resources developing and supporting their own technology. Users of open source software can leverage the support of the global open source community.
 
-#### Freedom from encumbering licenses and restrictions
+**Freedom from encumbering licenses and restrictions**
 
 Open source software does not carry expensive, limiting, and innovation-hindering licenses found in many proprietary technology solutions. Organizations can freely use and modify open source software to meet their needs without needing anyone's permission or consent. Their choice of technology, when choosing open source, does not lock them into specific vendors or put them at risk of user-hostile license changes.
 
-#### Vibrant community of users, providers, developers
+**Vibrant community of users, providers, developers**
 
 Users of open source software enjoy the mutual support of large communities of users, providers, and developers. Open source communities like the OpenStack and the Kubernetes communities are valuable resources for their experience, their knowledge, and their contributions to the success of everyone who uses the community's software.
 
 ### Do more with OpenStack and Kubernetes than with either one alone
 
-#### Deploy container-based, virtual machine-based, and bare metal-based workloads in the same infrastructure
+**Deploy container-based, virtual machine-based, and bare metal-based workloads in the same infrastructure**
 
 Integrating OpenStack and Kubernetes in the same infrastructure provides organizations with the ability to provision and manage workloads in containers, virtual machines, and bare metal machines through a single solution instead of dividing up workloads across multiple infrastructure providers. Organizations who integrate OpenStack and Kubernetes in their infrastructure enjoy all the benefits of OpenStack and Kubernetes without the additional overhead of separate infrastructure deployments.
 
-#### Augment the capabilities of OpenStack and Kubernetes
+**Augment the capabilities of OpenStack and Kubernetes**
 
 Using OpenStack and Kubernetes together produces multiple opportunities to enhance the functionality of both platforms beyond what they each provide on their own.
 
@@ -261,6 +261,6 @@ Expansion instead of new construction: For live production environment, upgradin
 
 ![Huawei Reference Architecture](/img/huawei-ref.png)
 
-## Red Hat OpenStack Services on OpenShift High level diagram 
+## Red Hat OpenStack Services on OpenShift High level diagram
 
 ![Red Hat Reference Architecture](/img/redhat-ref.png)

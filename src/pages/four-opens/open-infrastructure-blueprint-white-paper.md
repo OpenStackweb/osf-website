@@ -1,8 +1,8 @@
 ---
 templateKey: generic-page
 seo:
-  title: "The Open Infrastructure Blueprint: How Linux, OpenStack, and Kubernetes
-    Combine to Deliver an Open Source Powered Infrastructure Stack"
+  title: "Building the Open Infrastructure Blueprint: How Linux, OpenStack, and
+    Kubernetes Combine to Deliver an Open Source Powered Stack"
   description: "This collection of open source projects in particular has risen as
     a powerful top-to-bottom open source infrastructure stack. "
   url: https://openinfra.dev/open-infrastructure-blueprint-white-paper

@@ -8,9 +8,10 @@ seo:
   url: https://openinfra.dev/open-infrastructure-blueprint-white-paper
   image: /img/openinfrafoundation-logo-rgb-stacked.jpg
   twitterUsername: "@openinfradev"
-title: Open Infrastructure Blueprint White Paper
-subTitle: "Building the OpenInfra Standard: How Linux, OpenStack, and Kubernetes
-  Combine to Deliver an Open Source Powered Infrastructure Stack"
+title: "Building the Open Infrastructure Blueprint: How Linux, OpenStack, and
+  Kubernetes Combine to Deliver an Open Source Powered Infrastructure Stack"
+subTitle: "This collection of open source projects in particular has risen as a
+  powerful top-to-bottom open source infrastructure stack. "
 ---
 # Introduction
 

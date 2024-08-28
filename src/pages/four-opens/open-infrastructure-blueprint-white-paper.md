@@ -17,15 +17,15 @@ subTitle: "This collection of open source projects in particular has risen as a
 
 Open source has proven that it is as production ready as proprietary software. Open source has proven that it can scale and integrate with other technologies to reach the needs of almost any use case. One collection of open source projects in particular has risen as a powerful top-to-bottom open source infrastructure stack. This stack is made with Linux, OpenStack and Kubernetes. These open source projects are three of the top most active open source projects in the world.
 
-#### Linux
+### Linux
 
 Linux has long been established as the de facto open source operating system (OS) standard. Linux is one of the most active open source projects in the world. There are a variety of distributions of Linux, some of which will be mentioned further on in this whitepaper.
 
-#### OpenStack
+### OpenStack
 
 OpenStack has taken its place as the de facto open source cloud infrastructure standard. 
 
-#### Kubernetes 
+### Kubernetes 
 
 Since the rise of containerization,a number of projects that have vied for the top spot. Kubernetes has outlasted its competition and established itself as the de facto open source container orchestration software.
 
@@ -193,9 +193,9 @@ OpenAnolis, established in September 2020, is an international open source commu
 
 CentOS Stream is an open source enterprise Linux distribution which provides the major version that Red Hat Enterprise Linux (RHEL) minor versions branch from. For anyone interested in participating and collaborating in the RHEL ecosystem, CentOS Stream is your reliable platform for integration. Using CentOS Stream in combination with OpenStack and Kubernetes brings a durable open source Linux flavor for enterprise platforms. It involves deploying and operating cloud-native applications. Some of the prominent use cases are:
 
-1. Private and hybrid cloud infrastructures with OpenStack and Kubernetes are popular application use points. CentOS Stream serves as an operating system for internal applications, data storage, and services, leveraging OpenStack’s capabilities for managing compute, storage, and networking resources. Container and Bare metal launching is the key feature but it also supports Magnum for infrastructure virtualization and upcoming Kubernetes integrations.
-2. Inter-cloud integration between on-premises CentOS-based OpenStack deployments with public clouds enables interoperability. This allows anyone to create a seamless hybrid cloud environment, allowing for workload mobility between private and public clouds. Enterprises can replicate critical workloads to a secondary CentOS-based OpenStack cluster for failover in case of primary site failure.
-3. Enterprises could design and deploy microservices-based applications, leveraging Kubernetes for container orchestration and OpenStack for infrastructure management. CentOS Stream is binary-compatible with Red Hat Enterprise Linux (RHEL), making it a preferred option for enterprises that need a durable and supported operating system for their infrastructure. 
+* Private and hybrid cloud infrastructures with OpenStack and Kubernetes are popular application use points. CentOS Stream serves as an operating system for internal applications, data storage, and services, leveraging OpenStack’s capabilities for managing compute, storage, and networking resources. Container and Bare metal launching is the key feature but it also supports Magnum for infrastructure virtualization and upcoming Kubernetes integrations.
+* Inter-cloud integration between on-premises CentOS-based OpenStack deployments with public clouds enables interoperability. This allows anyone to create a seamless hybrid cloud environment, allowing for workload mobility between private and public clouds. 
+* Enterprises can replicate critical workloads to a secondary CentOS-based OpenStack cluster for failover in case of primary site failure.Enterprises could design and deploy microservices-based applications, leveraging Kubernetes for container orchestration and OpenStack for infrastructure management. CentOS Stream is binary-compatible with Red Hat Enterprise Linux (RHEL), making it a preferred option for enterprises that need a durable and supported operating system for their infrastructure. 
 
 ### CoreOS
 
@@ -227,15 +227,65 @@ Dana Cazacu, Marius Feldmann, Ali Hussain, Meiqin Jin, Wenhai Li, Nils Magnus, A
 
 # Reference Architectures
 
+## 99Cloud
+#### 99Cloud Animbus Cloud
+
+* A fully functional, secure, stable, and open native lightweight cloud computing platform.
+* In addition to providing functions such as computing virtualization, software defined storage, and software defined networks, advanced functions such as monitoring alarms, scheduled tasks, resource scheduling, and billing systems are also provided.
+* Realize intelligent operation and maintenance.
+* The platform supports domestic servers, chips, etc., and provides comprehensive information and innovation solutions.
+
+![](/img/99cloud.png)
+
+
+
+## China Mobile
+
+China Mobile Big Cloud Hunyuan Elastic Compute (BC-EC) LOKI Infrastructure: In
+the hardware infrastructure, China Mobile Cloud use self-developed Panshi physical
+servers, which is equipped with the China Mobile  Big Cloud operating system BC-
+Linux and COCA (Compute on Chip Architecture). In terms of management, Big
+Cloud Hunyuan Elastic Compute(BC-EC) platform is responsible for the  technical
+solution   of   the   infrastructure,   which   uses   both   OpenStack   on   K8s   and   K8s   on
+OpenStack architectures to provide users with a variety of computing services.
+
+
+
+![](/img/chinamobile.png)
+
+
+
+## China Unicom
+
+China Unicom stands as one of China's three leading telecommunications operators, boasting a user base exceeding 300 million. Its data centers are strategically located across the globe, positioning it as a significant player in the global cloud infrastructure landscape. 'Unicom Cloud,' the cloud infrastructure brand of China Unicom, focuses on three main business models: Industry Cloud, Private Cloud, and Localization Cloud.
+
+As of now, China Unicom Cloud manages an extensive network that includes over 4 million sales cores and boasts a storage cluster capacity reaching the exabyte (EB) level. The company has established more than 250+ cloud data centers worldwide, showcasing its commitment to providing robust and scalable cloud solutions.
+
+![](/img/chinaunicom.png)
+
+
+
+China Unicom Cloud's technological framework is anchored by core components such as Linux, OpenStack, Kubernetes, and Ionic.
+
+Since 2013, the company has established small-scale private cloud environments using OpenStack Havana, leveraging a hyper-converged infrastructure coupled with commercial storage solutions.
+
+From 2015 onwards, China Unicom Cloud has seen four significant version upgrades, culminating in the launch of a cloud platform tailored for government and enterprise sectors. The year 2020 marked a milestone with the release of version 6, which was built on OpenStack Rocky, StarlingX, Kata and Ceph Nautilus. This release introduced a proprietary object storage gateway and completed the development of an SDN controller compatible with major switch vendor hardware.
+
+Today, China Unicom Cloud's 7.X version has realized four key technological advancements: a dual-engine architecture that combines containerization with virtualization, enhanced performance, bolstered security and reliability, and global intelligent interconnectivity.
+
+Drawing from this robust technical foundation, China Unicom Cloud is able to offer a diverse suite of cloud products that cater to the diverse functionality and performance needs of users at various levels. Additionally, in the realms of intelligent computing and supercomputing, China Unicom Cloud extends its platform capabilities to support the demands of massive data processing and large-scale model training.
+
+In the realm of edge computing, as well as in operating systems and databases, China Unicom Cloud has forged strategic partnerships with leading open-source communities, such as Mulan, OpenGauss and OpenEuler. Through these collaborations, they have successfully introduced tailored versions that cater to specific industry needs and enhance operational efficiency.
+
 ## Cleura
 
-### Cleure Reference Architecture
+#### Cleura Reference Architecture
 
 ![Cleura Reference Architecture](/img/cleura_openinfrablueprint_ra.png)
 
 ## H3C
 
-### H3C CloudOS physical architecture
+#### H3C CloudOS physical architecture
 
 Three physical servers are available in the management zone, used to deploy the management plane of H3C CloudOS. These three servers form a K8s cluster.
 
@@ -257,7 +307,7 @@ Users directly access the Web interface, which is supported by a cloud service l
 
 ## Huawei
 
-### Huawei Dual Engine solution with OpenStack and Kubernetes
+#### Huawei Dual Engine solution with OpenStack and Kubernetes
 
 Huawei Dual-Engine container solution is built with OpenStack as its IaaS layer being responsible for infrastructure and BareMetal management and Kubernetes as its CaaS layer covering app management. It is capable of multinarrative resource management, shared infrastructure in one cloud, unified interfaces, telecom capability enhancement, Cloud and CT management system aligned. 
 
@@ -267,6 +317,42 @@ Expansion instead of new construction: For live production environment, upgradin
 
 ## Red Hat
 
-### Red Hat OpenStack Services on OpenShift High level diagram
+#### Red Hat OpenStack Services on OpenShift High level diagram
 
 ![Red Hat Reference Architecture](/img/redhat-ref.png)
+
+## ZTE
+
+TECS OpenStack provides solutions of the NFVI in ETSI NFV architecture and solutions of the Infrastructure as a Service (IaaS) layer in cloud compute. It is targeted to implement virtualized management on compute, storage and network resources, to rapidly build a cloud environment for users.
+
+TECS OpenStack, which is based on OpenStack, KVM, Ceph, OVS and converged with Network Functions Virtualization (NFV) architecture, implements centralized scheduling and management for virtualized infrastructure resources through unified interfaces. In addition, a lot of enhancements have been made on performance, reliability and security based on OpenStack, KVM, Ceph, and OVS, to meet the requirements of telecom cloud network.
+
+[](<>)Telecom CT Cloud Scenario
+
+TECS OpenStack complies with the NFV standards of European Telecommunications Standards Institute (ETSI) and provides Virtualized Infrastructure Manager (VIM) and Network Functions Virtualization Infrastructure (NFVI), as shown below.
+
+![Figure 1-1  Location of TECS OpenStack in the NFV Architecture](/img/zte1.1.png)
+
+[](<>)Overview
+
+TECS includes four parts:, OpenStack Component, Compute Component, Storage Component and Network Component. The system architecture is shown as below:
+
+![Figure 1-3  TESC OpenStack System Architecture](/img/zte1.3.png)
+
+OpenStack Component is an infrastructure cloud platform, a carrier-grade enhancement based on OpenStack release, and is designed to manage virtual compute, storage and network resources to meet the requirements for high performance, high availability, security and automated O&M of VNFs. OpenStack Component consists of Execution Services and Operation Services.
+
+* Execution Services
+
+Execution Services include OpenStack own components and TECS enhancement on reliability and performance.
+
+* Operation Services
+
+To improve product reliability and maintainability, TECS performs expansions on the original OpenStack components to constitute Operation Services which include cloud monitoring, resource management, cloud deployment, hardware integration and control, and other components.
+
+[](<>)Architecture
+
+The logical architecture of the OpenStack Component platform system is as shown in following figure:
+
+![Figure 1-3  TESC OpenStack System Architecture](/img/zte1.3.png)
+
+OpenStack Component is composed by Execution Services and Operation Services. Execution Services are mainly composed by native components of OpenStack. Some native component modules have been performed with functional enhancement. The Operation Services serve to improve the reliability and the maintainability of OpenStack Component products. To meet with the telecom-level service requirements, components related with hardware management, management portal, alarm, performance processing and reliability functions have been added.

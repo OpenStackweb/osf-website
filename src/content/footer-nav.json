@@ -126,6 +126,10 @@
         {
           "text": "Contact",
           "link": "/contact/"
+        },
+        {
+          "text": "Open Infrastructure Blueprint",
+          "link": "/open-infrastructure-blueprint-white-paper"
         }
       ]
     },

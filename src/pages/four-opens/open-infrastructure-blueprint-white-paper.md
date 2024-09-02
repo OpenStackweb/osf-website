@@ -228,6 +228,7 @@ Dana Cazacu, Marius Feldmann, Ali Hussain, Meiqin Jin, Wenhai Li, Nils Magnus, A
 # Reference Architectures
 
 ## 99Cloud
+
 #### 99Cloud Animbus Cloud
 
 * A fully functional, secure, stable, and open native lightweight cloud computing platform.
@@ -237,23 +238,11 @@ Dana Cazacu, Marius Feldmann, Ali Hussain, Meiqin Jin, Wenhai Li, Nils Magnus, A
 
 ![](/img/99cloud.png)
 
-
-
 ## China Mobile
 
-China Mobile Big Cloud Hunyuan Elastic Compute (BC-EC) LOKI Infrastructure: In
-the hardware infrastructure, China Mobile Cloud use self-developed Panshi physical
-servers, which is equipped with the China Mobile  Big Cloud operating system BC-
-Linux and COCA (Compute on Chip Architecture). In terms of management, Big
-Cloud Hunyuan Elastic Compute(BC-EC) platform is responsible for the  technical
-solution   of   the   infrastructure,   which   uses   both   OpenStack   on   K8s   and   K8s   on
-OpenStack architectures to provide users with a variety of computing services.
+China Mobile Big Cloud Hunyuan Elastic Compute (BC-EC) LOKI Infrastructure: In the hardware infrastructure, China Mobile Cloud use self-developed Panshi physical servers, which is equipped with the China Mobile Big Cloud operating system BC-Linux and COCA (Compute on Chip Architecture). In terms of management, Big Cloud Hunyuan Elastic Compute(BC-EC) platform is responsible for the technical solution of the infrastructure, which uses both OpenStack on K8s and K8s on OpenStack architectures to provide users with a variety of computing services.
 
-
-
-![](/img/chinamobile.png)
-
-
+![](/img/chinamobile-thing.png)
 
 ## China Unicom
 
@@ -262,8 +251,6 @@ China Unicom stands as one of China's three leading telecommunications operators
 As of now, China Unicom Cloud manages an extensive network that includes over 4 million sales cores and boasts a storage cluster capacity reaching the exabyte (EB) level. The company has established more than 250+ cloud data centers worldwide, showcasing its commitment to providing robust and scalable cloud solutions.
 
 ![](/img/chinaunicom.png)
-
-
 
 China Unicom Cloud's technological framework is anchored by core components such as Linux, OpenStack, Kubernetes, and Ionic.
 

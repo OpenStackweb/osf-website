@@ -1,7 +1,7 @@
 {
   "bar": {
-    "text": "Join us for the regional OpenInfra Summit Asia, September 3-4 in Suwon, South Korea! ",
-    "link": "https://2024.openinfraasia.org/",
-    "button": "JOIN US"
+    "text": "Learn why organizations are moving workloads from VMware to OpenStack",
+    "link": "https://www.openstack.org/vmware-migration-to-openstack",
+    "button": "LEARN MORE"
   }
 }

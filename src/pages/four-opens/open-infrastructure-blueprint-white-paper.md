@@ -306,7 +306,7 @@ Expansion instead of new construction: For live production environment, upgradin
 
 #### Red Hat OpenStack Services on OpenShift High level diagram
 
-![Red Hat Reference Architecture](/img/redhat-ref.png)
+![Red Hat Reference Architecture](/img/rhoso-diagram-2.png)
 
 ## ZTE
 

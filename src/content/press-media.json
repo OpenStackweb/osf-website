@@ -3,6 +3,14 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2024-09-05T01:12:26.147Z",
+      "title": "Why OpenStack and Kata Containers are both seeing a resurgence of adoption",
+      "site": "ZDNet",
+      "link": "https://www.zdnet.com/article/why-openstack-and-kata-containers-are-both-seeing-a-resurgence-of-adoption/#google_vignette"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2024-06-21T15:18:18.905Z",
       "title": "Is OpenStack a viable VMware alternative? ",
       "site": "SDxCentral",
@@ -400,14 +408,6 @@
       "featured": true,
       "hideArticle": false,
       "image": "/img/img_20180522_125817.webp"
-    },
-    {
-      "featured": false,
-      "hideArticle": false,
-      "date": "2024-09-05T01:12:26.147Z",
-      "title": "Why OpenStack and Kata Containers are both seeing a resurgence of adoption",
-      "site": "ZDNet",
-      "link": "https://www.zdnet.com/article/why-openstack-and-kata-containers-are-both-seeing-a-resurgence-of-adoption/#google_vignette"
     }
   ],
   "seo": {

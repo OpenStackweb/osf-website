@@ -48,12 +48,19 @@ const NewsSection = class extends React.Component {
                         <p className="home-v2-paragraph home-v2-paragraph-white">The latest news, technologies, and resources from the OpenInfra Community</p>
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
-                    <div className="news-article-inner-container">
+                        <div className="news-article-inner-container">
                             <a href="https://www.zdnet.com/article/why-openstack-and-kata-containers-are-both-seeing-a-resurgence-of-adoption/"><img src="/img/homeV2/news-images/suwon-south-korea.jpg" /></a>
                             <p className="news-article-intro-text"> Steven Vaughan-Nichols • Sep 4, 2024</p>
                             <a href="https://www.zdnet.com/article/why-openstack-and-kata-containers-are-both-seeing-a-resurgence-of-adoption/"><h3>Why OpenStack and Kata Containers are both seeing a resurgence of adoption</h3></a>
                             <p className="news-article-content">Quite discreetly, the OpenInfra Foundation and the open-source projects it promotes (such as OpenStack, and Kata Containers, virtual machines (VM) as containers) are changing the world.</p>
                             <a className="news-article-link" href="https://www.zdnet.com/article/why-openstack-and-kata-containers-are-both-seeing-a-resurgence-of-adoption/">READ MORE</a>
+                        </div>
+                        <div className="news-article-inner-container">
+                            <a href="https://www.theregister.com/2024/08/28/geico_vmware_openstack_migration/"><img src="/img/homeV2/news-images/geico-drops-vmware.jpg" /></a>
+                            <p className="news-article-intro-text"> Simon Sharwood • Aug 28, 2024</p>
+                            <a href="https://www.theregister.com/2024/08/28/geico_vmware_openstack_migration/"><h3>US insurer GEICO drops VMware for OpenStack</h3></a>
+                            <p className="news-article-content">US auto insurer GEICO has decided to migrate from VMware to OpenStack. Tad Van Fleet, a distinguished architect at GEICO, said "OpenStack allows us to avoid vendor lock-in and allows us to customize our infrastructure to meet our specific needs..."</p>
+                            <a className="news-article-link" href="https://www.theregister.com/2024/08/28/geico_vmware_openstack_migration/">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">
                             <a href="https://www.sdxcentral.com/articles/interview/is-openstack-a-viable-vmware-alternative/2024/06/"><img src="/img/homeV2/news-images/sdx-openstack-vmware.png" /></a>

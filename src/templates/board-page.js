@@ -27,6 +27,9 @@ export const BoardPageTemplate = ({
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
         <Header title={header.title} subTitle={header.subTitle} link={header.link} />
+        <main className="main">
+          <a className="board-schedule" href="https://board.openinfra.dev/">View the board schedule and meeting minutes</a>
+        </main>
       </div>
 
       <main className="main">

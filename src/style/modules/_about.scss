@@ -201,3 +201,14 @@
 }
 .column {
 }
+
+.board-schedule {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #337ab7;
+}

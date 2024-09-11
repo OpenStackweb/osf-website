@@ -69,8 +69,8 @@ render() {
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-red">
                             <p className="home-v2-numbers-subheading">OpenStack is Deployed On</p>
-                            <p className="home-v2-numbers-title">40M Cores</p>
-                            <p className="home-v2-numbers-subtitle">Around The World in 2022</p>
+                            <p className="home-v2-numbers-title">45M+ Cores</p>
+                            <p className="home-v2-numbers-subtitle">Around The World</p>
                         </div>
                     </div>
                     <div className="home-v2-numbers-box">
@@ -90,7 +90,7 @@ render() {
                     <div className="home-v2-numbers-box">
                         <div className="home-v2-numbers-inner home-v2-numbers-green">
                             <p className="home-v2-numbers-subheading">Our Software is Built by</p>
-                            <p className="home-v2-numbers-title">9,000+</p>
+                            <p className="home-v2-numbers-title">10,000+</p>
                             <p className="home-v2-numbers-subtitle">Contributors</p>
                         </div>
                     </div>

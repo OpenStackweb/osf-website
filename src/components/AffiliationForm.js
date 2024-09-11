@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from "prop-types";
 import {DateTimePicker, OrganizationInput} from 'openstack-uicore-foundation/lib/components'
-import {epochToMoment} from 'openstack-uicore-foundation/lib/utils/methods'
+import { epochToMomentTimeZone } from "openstack-uicore-foundation/lib/utils/methods";
 
 const AffiliationForm = class extends React.Component {
 
@@ -129,12 +129,12 @@ const AffiliationForm = class extends React.Component {
                     <label htmlFor="start_date">Start date</label>
                     <div className="control">
                         <DateTimePicker
-                            wrapperClassName="datepicker"
+                            className="affiliation-datepicker"
                             id="start_date"
                             onChange={this.onHandleChangeCell}
                             format={{date: "YYYY-MM-DD", time: false}}
                             timezone={'UTC'}
-                            value={epochToMoment(this.state.start_date)}
+                            value={epochToMomentTimeZone(this.state.start_date, "UTC")}
                         />
                     </div>
                     {this.state.validationErrors.hasOwnProperty('start_date') &&
@@ -145,12 +145,12 @@ const AffiliationForm = class extends React.Component {
                     <label htmlFor="end_date">End date</label>
                     <div className="control">
                         <DateTimePicker
-                            wrapperClassName="datepicker"
+                            className="affiliation-datepicker"
                             id="end_date"
                             onChange={this.onHandleChangeCell}
                             format={{date: "YYYY-MM-DD", time: false}}
                             timezone={'UTC'}
-                            value={epochToMoment(this.state.end_date)}
+                            value={epochToMomentTimeZone(this.state.end_date, "UTC")}
                         />
                     </div>
                     {this.state.validationErrors.hasOwnProperty('end_date') &&

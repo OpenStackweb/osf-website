@@ -183,7 +183,7 @@ export default connect(state => ({
     isLoggedUser: state.loggedUserState.isLoggedUser,
     currentMember: state.loggedUserState.member,
     initialMembershipType: state.userState.currentMembershipType,
-    currentAffiliations: state.userState.userProfile.all_affiliations,
+    currentAffiliations: state.userState.currentAffiliations,
     idpProfile: state.userState.idpProfile,
     user: state.userState,
 }),

@@ -35,7 +35,7 @@ const OpenInfraEventsSection = () => {
     const UpcomingEventsData = [
         {
             image: '/img/homeV2/events-images/openinfra-asia-img.png',
-            date: 'September 3-4, 2024',
+            date: 'COMPLETED: September 3-4, 2024',
             location: 'Suwon, South Korea',
             button: {
                 link: 'https://openinfra.dev/summit',

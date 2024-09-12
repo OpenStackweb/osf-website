@@ -144,7 +144,7 @@ export const SponsorshipPageTemplate = ({
         <div className="content sponsorship-page-content">
           <SimpleHeader
             title="BECOME A SPONSOR"
-            subtitle="Interested in sponsoring?</br>Reach out to be connected to the OpenInfra Foundation</br>and OpenInfra Summit community organizers!"
+            subtitle="Interested in sponsoring?</br>Reach out to be connected to the OpenInfra Foundation</br>and OpenInfra event organizers!"
             backgroundImage="/img/sponsorship/summit-marketplace.png"
             button={{
               link: "mailto:events@openinfra.dev",
@@ -166,7 +166,7 @@ export const SponsorshipPageTemplate = ({
           />
           <GenericBanner
             upperText=""
-            text="Reach out to be connected</br>to the OpenInfra Foundation and</br>OpenInfra Summit Asia organizers!"
+            text="Reach out to be connected</br>to the OpenInfra Foundation and</br>OpenInfra event organizers!"
             button={{
               link:
                 "https://openinfrafoundation.formstack.com/forms/2024_openinfra_events_updates",

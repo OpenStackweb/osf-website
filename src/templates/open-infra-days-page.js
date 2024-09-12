@@ -37,7 +37,7 @@ export const OpenInfraDaysPageTemplate = ({
             <SpecialEditionSection />
             <MeetupBanner />
             <MoreEventsSection />
-            <UpcomingSummits />
+            {/* <UpcomingSummits /> */}
             <BottomBanner
               title={'Interested in becoming<br/>a Community Organizer?<br/>Contact us at <a href="mailto:events@openinfra.dev">events@openinfra.dev</a>'}
               button={{link: 'mailto:events@openinfra.dev', text: 'Events Contact'}}

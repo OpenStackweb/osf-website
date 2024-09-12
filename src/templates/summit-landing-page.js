@@ -41,7 +41,7 @@ export const SummitLandingPageTemplate = ({
           logo={{ src: logo, alt: "Openinfra logo" }}
         />
         <SubHeader />
-        <UpcomingSummits title={"Upcoming OpenInfra Summits"} />
+        <UpcomingSummits title={"Past OpenInfra Summits"} />
         <MiddleBanner
           title={"inclusive. diverse. open"}
           text={`We are a diverse community of professionals, and the OpenInfra Summit organizers are dedicated to providing an 

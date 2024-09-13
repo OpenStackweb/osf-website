@@ -43,7 +43,7 @@ const DAYS = [
 
 const SpecialEditionSection = () => {
   return (
-    <section className="special-edition-section-wrapper">
+    <section id="special-edition" className="special-edition-section-wrapper">
       <div className="container">
         <h1 className="title">
           OpenInfra Days <br />

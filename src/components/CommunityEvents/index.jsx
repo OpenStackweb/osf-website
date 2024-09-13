@@ -11,6 +11,16 @@ const CommunityEvents = () => {
 
   const COMMUNITY_EVENTS = [
     {
+      key: 'ce-usa',
+      summit: {
+        location: 'Indiana University',
+        date: 'Oct 15-16, 2024',
+      },
+      background: '/img/summit-landing/community-events/usa.png',
+      cardStyles: {width: isSmallScreen ? 'auto' : 460},
+      link: '/days'
+    },
+    {
       key: 'ce-berlin',
       summit: {
         location: isSmallScreen ? 'Europe' : 'Turkiye, Germany, France, Sweden and more!',
@@ -19,17 +29,7 @@ const CommunityEvents = () => {
       background: '/img/summit-landing/community-events/europe.png',
       link: '/days',
       cardStyles: {width: isSmallScreen ? 'auto' : 900}
-    },
-    {
-      key: 'ce-usa',
-      summit: {
-        location: 'North America',
-        date: 'Q4 2024',
-      },
-      background: '/img/summit-landing/community-events/usa.png',
-      cardStyles: {width: isSmallScreen ? 'auto' : 460},
-      link: '/days'
-    }    
+    }
   ];
 
   return (

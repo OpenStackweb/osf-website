@@ -38,6 +38,7 @@ const FooterV2 = class extends React.Component {
                     <li><a href="/user-survey/">User Survey</a></li>
                     <li><a href="/cla/">CLA</a></li>
                     <li><a href="/universe/">OpenInfra Universe</a></li>
+                    <li><a href="/open-infrastructure-blueprint-white-paper/">Open Infrastructure Blueprint</a></li>
                 </ul>
             </div>  
             <div className="footer-section">

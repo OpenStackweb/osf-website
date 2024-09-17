@@ -51,6 +51,10 @@
         {
           "text": "CLA",
           "link": "/cla/"
+        },
+        {
+          "text": "Open Infrastructure Blueprint",
+          "link": "/open-infrastructure-blueprint-white-paper"
         }
       ]
     },
@@ -110,10 +114,6 @@
         {
           "text": "Open Infrastructure 101",
           "link": "/about/open-infrastructure/"
-        },
-        {
-          "text": "Open Infrastructure Blueprint",
-          "link": "/open-infrastructure-blueprint-white-paper"
         },
         {
           "text": "Diversity & Inclusion Initiatives",

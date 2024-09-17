@@ -112,6 +112,10 @@
           "link": "/about/open-infrastructure/"
         },
         {
+          "text": "Open Infrastructure Blueprint",
+          "link": "/open-infrastructure-blueprint-white-paper"
+        },
+        {
           "text": "Diversity & Inclusion Initiatives",
           "link": "https://openinfra.dev/about/diversity"
         },
@@ -126,10 +130,6 @@
         {
           "text": "Contact",
           "link": "/contact/"
-        },
-        {
-          "text": "Open Infrastructure Blueprint",
-          "link": "/open-infrastructure-blueprint-white-paper"
         }
       ]
     },

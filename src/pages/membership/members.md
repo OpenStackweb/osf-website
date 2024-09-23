@@ -22,7 +22,7 @@ header:
     text: Schedule a Call
     link: https://calendly.com/jimmy-mcarthur
   image: /img/members-page/Group-49.png
-  membership: Read about <a href="#benefits">membership levels</a>. Or see <a
+  membership: Read about <a href="#benefits">membership levels</a>.  Or see <a
     href="/join">other ways to join</a>.
 whyJoin:
   display: true

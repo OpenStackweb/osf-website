@@ -35,5 +35,10 @@
         vertical-align: middle;
       }
     }
+    .affiliation-datepicker {
+      input + div {
+        position: fixed;
+      }
+    }
   }
 }

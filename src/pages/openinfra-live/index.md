@@ -23,6 +23,8 @@ episodes:
       Riccardo Pittau, Ironic 
       Carlos Silva, Manila
       Sylvain Bauza, Nova 
+    youtubeLink: https://www.youtube.com/watch?v=6igJNIJ9yFE
+    youtubeEmbed: https://www.youtube.com/embed/6igJNIJ9yFE?si=08k39Qjk31u9NWtK
   - hidden: false
     date: 2024-04-04T14:00:00.000Z
     episodeTitle: Introducing OpenStack Caracal 2024.1

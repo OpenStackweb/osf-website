@@ -15,6 +15,15 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2024-10-03T09:00:00.000Z
+    episodeTitle: Introducing OpenStack Dalmatian 2024.2
+    episodeDescription: "Join us to learn about OpenStack's 30th release from the
+      community leaders who helped build it! "
+    episodeSpeakers: |
+      Riccardo Pittau, Ironic 
+      Carlos Silva, Manila
+      Sylvain Bauza, Nova 
+  - hidden: false
     date: 2024-04-04T14:00:00.000Z
     episodeTitle: Introducing OpenStack Caracal 2024.1
     episodeDescription: "Join us to learn about OpenStack's 29th release from the

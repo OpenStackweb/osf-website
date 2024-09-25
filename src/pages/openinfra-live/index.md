@@ -15,7 +15,7 @@ hero:
     15:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2024-10-03T09:00:00.000Z
+    date: 2024-10-03T14:00:00.000Z
     episodeTitle: Introducing OpenStack Dalmatian 2024.2
     episodeDescription: "Join us to learn about OpenStack's 30th release from the
       community leaders who helped build it! "

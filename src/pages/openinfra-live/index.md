@@ -20,6 +20,7 @@ episodes:
     episodeDescription: "Join us to learn about OpenStack's 30th release from the
       community leaders who helped build it! "
     episodeSpeakers: |
+      Goutham Pacha Ravi, Technical Committee
       Riccardo Pittau, Ironic 
       Carlos Silva, Manila
       Sylvain Bauza, Nova 

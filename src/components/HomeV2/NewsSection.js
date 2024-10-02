@@ -63,6 +63,13 @@ const NewsSection = class extends React.Component {
                             <a className="news-article-link" href="https://www.theregister.com/2024/08/28/geico_vmware_openstack_migration/">READ MORE</a>
                         </div>
                         <div className="news-article-inner-container">
+                            <a href="https://www.itprotoday.com/openstack-cloud/openstack-dalmation-advances-open-source-cloud-with-new-dashboard-better-ai-support"><img src="/img/homeV2/news-images/dalmation-itpro.jpg" /></a>
+                            <p className="news-article-intro-text"> Sean Michael Kerner • Oct 2, 2024</p>
+                            <a href="https://www.itprotoday.com/openstack-cloud/openstack-dalmation-advances-open-source-cloud-with-new-dashboard-better-ai-support"><h3>OpenStack Dalmation Advances Open Source Cloud with New Dashboard, Better AI Support</h3></a>
+                            <p className="news-article-content">The OpenStack Dalmatian release became generally available today, marking the 30th release of the widely used open source cloud infrastructure platform. The Dalmation release is the second update for OpenStack in 2024, following the OpenStack Caracal release that debuted in April. The new release comes as the market for OpenStack technology is in the midst of a resurgence.</p>
+                            <a className="news-article-link" href="https://www.itprotoday.com/openstack-cloud/openstack-dalmation-advances-open-source-cloud-with-new-dashboard-better-ai-support">READ MORE</a>
+                        </div>
+                        <div className="news-article-inner-container">
                             <a href="https://www.sdxcentral.com/articles/interview/is-openstack-a-viable-vmware-alternative/2024/06/"><img src="/img/homeV2/news-images/sdx-openstack-vmware.png" /></a>
                             <p className="news-article-intro-text">Dan Meyer  • June 12, 2024</p>
                             <a href="https://www.sdxcentral.com/articles/interview/is-openstack-a-viable-vmware-alternative/2024/06/"><h3>Is OpenStack a viable VMware alternative?</h3></a>

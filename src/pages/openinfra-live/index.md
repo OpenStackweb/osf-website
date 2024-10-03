@@ -21,7 +21,7 @@ episodes:
       community leaders who helped build it! "
     episodeSpeakers: >
       Goutham Pacha Ravi (Technical Committee), Riccardo Pittau (Ironic), Carlos
-      Silva (Manila), Sylvain Bauza (Nova) 
+      Silva (Manila), Sylvain Bauza (Nova), Jon Bernard (Cinder) 
     youtubeLink: https://www.youtube.com/watch?v=6igJNIJ9yFE
     youtubeEmbed: https://www.youtube.com/embed/6igJNIJ9yFE?si=08k39Qjk31u9NWtK
   - hidden: false

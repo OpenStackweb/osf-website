@@ -21,106 +21,62 @@ const SPONSORSHIPS = [
 
 const SPONSORSHIPS_DAYS = [
   {
-    title: ["OPENINFRA DAY NORTH AMERICA at INDIANA UNIVERSITY - OCT 15-16, 2024", "INDIANAPOLIS, INDIANA"],
+    title: ["OPENINFRA DAY NORTH AMERICA at SCALE - MARCH 2025", "Pasadena, California"],
     subtitle: (
       <>
-        <a href="https://docs.google.com/forms/d/1wAjuh5mg9YxTjnqJxIPhISUKuLQgWVC852DeB_CgPp0/viewform?edit_requested=true">Contact us</a> to sponsor
-        OpenInfra Day NA.
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdR0709Ad7lreUpvTcHqTHleSH1oLpJrzlSU2gwaAPqBmSrzg/viewform">Contact us</a> to sponsor
+        OpenInfra Day NA or <a href="https://www.socallinuxexpo.org/scale/22x/events/open-infra-days">learn more</a>.
       </>
     ),
     showname: ["OIDNA"],
     name: "OID NA",
     plans: [
       {
-        title: "platinum",
-        price: "SOLD OUT",
-        color: "#757575",
+        title: "Headline Sponsor",
+        price: "$5,000 USD",
+        color: "#F4A93A",
         items: [
-          { title: "10 Minute Keynote", value: true },
-          { title: "20 Minute Presentation", value: true },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
+          { title: "30 Minute Presentation", value: true },
+          { title: "Booth Size", value: "Two 6' table tops & chairs. Sponsors must bring their own banner." },
+          { title: "Logo Display" , value: "Sponsor logo on website and printed materials." },
           { title: "4 Complimentary Registrations", value: true },
-          { title: "Logo Display" , value: "Website & Printed signs" },
-          { title: "Swag" , value: "One item included in swag bag" },
           { title: "Number Available", value: "2" },
         ],
       },
       {
-        title: "gold",
+        title: "Spotlight Sponsor",
         price: "$2,500 USD",
-        color: "#DAA511",
+        color: "#39AE4A",
         items: [
-          { title: "20 Minute Presentation", value: true },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
-          { title: "3 Complimentary Registrations", value: true },
-          { title: "Logo Display" , value: "Website & Printed signs" },
-          { title: "Swag" , value: "One item included in swag bag" },
-          { title: "Number Available", value: "3" },
-        ],
-      },
-      {
-        title: "silver",
-        price: "$1,000 USD",
-        color: "#A8A9AD",
-        items: [
-          { title: "Presentation", value: false },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
+          { title: "No Presentation", value: false },
+          { title: "Booth Size", value: "One 6' table tops & chairs. Sponsors must bring their own banner." },
+          { title: "Logo Display" , value: "Sponsor logo on website and printed materials." },
           { title: "2 Complimentary Registrations", value: true },
-          { title: "Logo Display" , value: "Website" },
-          { title: "Swag" , value: "One item included in swag bag" },
-          { title: "Number Available", value: "10" },
-        ],
-      },
-      {
-        title: "Reception Sponsor",
-        price: "SOLD OUT",
-        color: "#EAEAEA",
-        items: [
-          { title: "Presentation", value: "20-minute During Reception" },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
-          { title: "4 Complimentary Registrations", value: true },
-          { title: "Logo Display" , value: "Welcome Sign & Table Placards" },
-          { title: "Swag" , value: "One item included in swag bag" },
-          { title: "Number Available", value: "1 slot at $10,000 or 1/2 slot at $5,000" },
-        ],
-      },
-      {
-        title: "Meal Sponsor",
-        price: "$2,500 USD",
-        color: "#EAEAEA",
-        items: [
-          { title: "Presentation", value: "10-minute During Meal" },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
-          { title: "3 Complimentary Registrations", value: true },
-          { title: "Logo Display" , value: "Placards at Serving Stations" },
-          { title: "Swag" , value: "One item included in swag bag" },
-          { title: "Number Available", value: "2 Breakfast, 2 Lunch" },
+          { title: "Number Available", value: "5" },
         ],
       },
       {
         title: "Coffee Sponsor",
-        price: "$1,000 USD",
-        color: "#EAEAEA",
+        price: "$2,500 USD",
+        color: "#28A4DB",
         items: [
-          { title: "Presentation", value: false },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
+          { title: "No Presentation", value: false },
+          { title: "Booth Size", value: "One 6' table tops & chairs. Sponsors must bring their own banner." },
+          { title: "Logo Display" , value: "Sponsor logo on website, at coffee station, and printed materials." },
           { title: "2 Complimentary Registrations", value: true },
-          { title: "Logo Display" , value: "Placards at Coffee Stations" },
-          { title: "Swag" , value: "One item included in swag bag" },
           { title: "Number Available", value: "2" },
         ],
       },
       {
         title: "Diversity Sponsor",
         price: "$1,000 USD",
-        color: "#EAEAEA",
+        color: "#E61E24",
         items: [
-          { title: "Presentation", value: false },
-          { title: "Booth Size", value: "10'x10' w/ Table & 2 Chairs. Sponsors must bring their own banner." },
+          { title: "No presentation", value: false },
+          { title: "No Booth", value: false },
+          { title: "Logo Display" , value: "Sponsor logo on website and printed materials" },
           { title: "2 Complimentary Registrations", value: true },
-          { title: "Logo Display" , value: "Website" },
-          { title: "Swag" , value: "One item included in swag bag" },
-          { title: "Number Available", value: "Not Limited" },
+          { title: "Number Available", value: "1" },
         ],
       },
     ],

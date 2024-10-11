@@ -37,7 +37,7 @@ const SPONSORSHIPS_DAYS = [
         color: "#F4A93A",
         items: [
           { title: "30 Minute Presentation", value: true },
-          { title: "Booth Size", value: "Two 6' table tops & Chairs. Sponsors must bring their own banner." },
+          { title: "Booth Size", value: "Two 6' table tops & chairs. Sponsors must bring their own banner." },
           { title: "Logo Display" , value: "Sponsor logo on website and printed materials." },
           { title: "4 Complimentary Registrations", value: true },
           { title: "Number Available", value: "2" },
@@ -49,7 +49,7 @@ const SPONSORSHIPS_DAYS = [
         color: "#39AE4A",
         items: [
           { title: "No Presentation", value: false },
-          { title: "Booth Size", value: "One 6' table tops & Chairs. Sponsors must bring their own banner." },
+          { title: "Booth Size", value: "One 6' table tops & chairs. Sponsors must bring their own banner." },
           { title: "Logo Display" , value: "Sponsor logo on website and printed materials." },
           { title: "2 Complimentary Registrations", value: true },
           { title: "Number Available", value: "5" },
@@ -61,7 +61,7 @@ const SPONSORSHIPS_DAYS = [
         color: "#28A4DB",
         items: [
           { title: "No Presentation", value: false },
-          { title: "Booth Size", value: "One 6' table tops & Chairs. Sponsors must bring their own banner." },
+          { title: "Booth Size", value: "One 6' table tops & chairs. Sponsors must bring their own banner." },
           { title: "Logo Display" , value: "Sponsor logo on website, at coffee station, and printed materials." },
           { title: "2 Complimentary Registrations", value: true },
           { title: "Number Available", value: "2" },

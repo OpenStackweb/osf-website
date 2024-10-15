@@ -26,7 +26,6 @@ const DEFAULT_STATE = {
   loadingSpeaker: false,
   speakerProfile: null,
   currentMembershipType: null,
-  currentAffiliations: [],
   isAuthorized: false,
   hasTicket: false,
   attendee: null
@@ -65,36 +64,45 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       let affiliations = response.affiliations.map((a) => {
         return {...a};
       });
-      return {...state, currentMembershipType: response.membership_type, currentAffiliations: affiliations};
+      return {...state, currentMembershipType: response.membership_type};
     }
     case AFFILIATION_ADDED: {
       let affiliation = { ...payload.response };
 
       return {
         ...state,
-        currentAffiliations: [...state.currentAffiliations, affiliation]
+        userProfile: {
+          ...state.userProfile, 
+          all_affiliations: [...state.userProfile.all_affiliations, affiliation]
+        }
       };
     }
     case AFFILIATION_SAVED: {
       let affiliation = { ...payload.response };
       return {
         ...state,
-        currentAffiliations: state.currentAffiliations.map(a => {
-          if (a.id !== affiliation.id) return a;
-          // Otherwise, this is the one we want - return an updated value
-          return {
-            ...a,
-            ...affiliation
-          }
-        })
+        userProfile: {
+          ...state.userProfile, 
+          all_affiliations: state.userProfile.all_affiliations.map(a => {
+            if (a.id !== affiliation.id) return a;
+            // Otherwise, this is the one we want - return an updated value
+            return {
+              ...a,
+              ...affiliation
+            }
+          })
+        }
       };
     }
     case AFFILIATION_DELETED: {
       let { affiliationId } = payload;
-      let affiliations = state.currentAffiliations.filter(a => a.id !== affiliationId);
+      let affiliations = state.userProfile.all_affiliations.filter(a => a.id !== affiliationId);
       return {
         ...state,
-        currentAffiliations: affiliations
+        userProfile: {
+          ...state.userProfile,
+          all_affiliations: affiliations
+        }
       };
     }
     case MEMBERSHIP_TYPE_UPDATED: {

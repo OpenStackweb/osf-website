@@ -3,10 +3,42 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2024-10-15T20:29:56.700Z",
+      "title": "Warren Buffett’s GEICO repatriates work from the cloud, continues ambitious infrastructure overhaul",
+      "site": "The Stack",
+      "link": "https://www.thestack.technology/warren-buffetts-geico-repatriates-work-from-the-cloud-continues-ambitious-infrastructure-overhaul/"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2024-10-15T20:32:45.954Z",
+      "title": "OpenStack Dalmatian debuts with a new dashboard, better security and GPU-wrangling",
+      "site": "The Register",
+      "link": "https://www.theregister.com/2024/10/03/openstack_dalmatian/"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2024-10-03T13:13:24.452Z",
       "title": "OpenStack is ready for the VMware refugees",
       "site": "TechCrunch",
       "link": "https://techcrunch.com/2024/10/02/openstack-is-ready-for-the-vmware-refugees/"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2024-10-15T20:33:53.987Z",
+      "site": "World of Software",
+      "title": "Everything ready to serve companies that leave VMware behind",
+      "link": "https://worldofsoftware.org/everything-ready-to-serve-companies-that-leave-vmware-behind/#google_vignette"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2024-10-15T20:32:07.512Z",
+      "title": "OpenStack Dalmatian knocks spots off AI workload doghouse",
+      "site": "ComputerWeekly",
+      "link": "https://www.computerweekly.com/blog/Open-Source-Insider/OpenStack-Dalmatian-knocks-spots-off-AI-workload-doghouse"
     },
     {
       "featured": false,

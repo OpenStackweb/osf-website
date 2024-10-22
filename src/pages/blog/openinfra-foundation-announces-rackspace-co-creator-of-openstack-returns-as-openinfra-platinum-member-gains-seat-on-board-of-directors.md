@@ -3,7 +3,7 @@ templateKey: blog-post
 title: "OpenInfra Foundation Announces Rackspace, Co-Creator of OpenStack,
   Returns as OpenInfra Platinum Member, Gains Seat on Board of Directors  "
 author: Allison Price
-date: 2024-10-22T13:00:07.857Z
+date: 2024-10-22T12:02:25.276Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements

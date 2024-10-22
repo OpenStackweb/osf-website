@@ -116,11 +116,13 @@ const SSR_getSponsoredProjects = async (baseUrl) => {
 }
 
 const SSR_getPreviousElections = async (baseUrl, accessToken, page = 1) => {
-  const currentDate = parseInt(Date.now()/1000);  
+  const currentDate = parseInt(Date.now()/1000);
   // minimun per page is 5
   const perPage = electionsToShow > 5 ? electionsToShow : 5;
+  const url = `${baseUrl}/api/v1/elections/`;
+  console.log(`SSR_getPreviousElections url ${url} accessToken ${accessToken} currentDate ${currentDate} perPage ${perPage}`);
   return await axios.get(
-    `${baseUrl}/api/v1/elections/`,
+    url,
     {
       params: {
         access_token: accessToken,
@@ -133,7 +135,7 @@ const SSR_getPreviousElections = async (baseUrl, accessToken, page = 1) => {
     .catch(e => console.log('ERROR: ', e));
 };
 
-const SSR_getCurrentElection = async (baseUrl, accessToken, page = 1, perPage = 5) => {    
+const SSR_getCurrentElection = async (baseUrl, accessToken, page = 1, perPage = 5) => {
   return await axios.get(
     `${baseUrl}/api/v1/elections/`,
     {
@@ -248,9 +250,9 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
 
   const apiBaseUrl = process.env.GATSBY_API_BASE_URL;
   const buildScopes = process.env.GATSBY_BUILD_SCOPES;
-  
+
   console.log(`onSourceNodes...`);
-  
+
   const config = {
     client: {
       id: process.env.GATSBY_OAUTH2_CLIENT_ID_BUILD,
@@ -269,7 +271,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
 
   // data for current election
   const currentElection = await SSR_getCurrentElection(apiBaseUrl, accessToken).then((res) => res.data[0]);
-    
+
   createNode({
     ...currentElection,
     id: `${currentElection.id}`,
@@ -302,7 +304,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
         return
       }
 
-      const seoObject = {        
+      const seoObject = {
         image: "/img/OpenInfra-icon-white.jpg",
         twitterUsername: "@OpenInfraDev"
       }
@@ -364,13 +366,14 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
 
       const electionCandidates = await SSR_getPreviousElectionCandidates(apiBaseUrl, accessToken, election.id);
       const electionGoldCandidates = await SSR_getPreviousElectionGoldCandidates(apiBaseUrl, accessToken, election.id);
-  
+
       if (Array.isArray(electionCandidates?.data) && electionCandidates?.data?.length > 0) candidates = [...candidates, ...electionCandidates.data];
       if (Array.isArray(electionGoldCandidates?.data) && electionGoldCandidates?.data?.length > 0) goldCandidates = [...goldCandidates, ...electionGoldCandidates.data];
     }
 
     // ingest api data on graphql ...
     lastElections.forEach(election => {
+      console.log(`gatsby-node.js::sourceNodes creating node for election ${JSON.stringify(election)}`)
       createNode({
         ...election,
         id: `${election.id}`,
@@ -411,10 +414,10 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
       });
     })
   }
-  
+
 };
 
-// explicit Frontmatter declaration to make category, author and date, optionals. 
+// explicit Frontmatter declaration to make category, author and date, optionals.
 exports.createSchemaCustomization = ({actions}) => {
   const {createTypes} = actions
   const typeDefs = `
@@ -540,7 +543,7 @@ exports.createPages = ({actions, graphql}) => {
     const electionYear = result.data.currentElectionData.electionYear;
 
     electionsPages.forEach(edge => {
-      const id = edge.node.id;      
+      const id = edge.node.id;
       const electionPath = getElectionPath(edge.node.frontmatter.templateKey, electionYear);
 
       console.log(`createPage processing edge ${JSON.stringify(edge)} path ${electionPath}`);

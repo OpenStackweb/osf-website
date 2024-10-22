@@ -296,6 +296,53 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
     fs.mkdirSync(`${prevElectionsBasePath}/candidates`, { recursive: true } );
     fs.mkdirSync(`${prevElectionsBasePath}/candidates/gold`, { recursive: true } );
 
+    // Get current markdown files
+    const existingElectionFiles = fs.readdirSync(prevElectionsBasePath).filter(file => file.endsWith('.md'));
+    const existingCandidateFiles = fs.readdirSync(`${prevElectionsBasePath}/candidates`).filter(file => file.endsWith('.md'));
+    const existingGoldCandidateFiles = fs.readdirSync(`${prevElectionsBasePath}/candidates/gold`).filter(file => file.endsWith('.md'));
+    
+    const lastElectionIds = lastElections.map(election => `${election.id}`);
+
+    // Function to check if filename contains any of the last election IDs
+    const filenameContainsElectionId = (filename, electionIds) => electionIds.some(id => filename.includes(id));
+
+    // Delete election files not included on the last elections to show
+    existingElectionFiles.forEach(file => {
+      if (!filenameContainsElectionId(file, lastElectionIds)) {
+        try {
+          fs.unlinkSync(path.join(prevElectionsBasePath, file));
+          console.log(`Deleted outdated election file: ${file}`);
+        } catch (err) {
+          console.error(`Error deleting file ${file}:`, err);
+        }
+      }
+    });
+
+    // Delete candidate files not included on the last elections to show
+    existingCandidateFiles.forEach(file => {
+      if (!filenameContainsElectionId(file, lastElectionIds)) {
+        try {
+          fs.unlinkSync(path.join(prevElectionsBasePath, 'candidates', file));
+          console.log(`Deleted outdated candidate file: ${file}`);
+        } catch (err) {
+          console.error(`Error deleting file ${file}:`, err);
+        }
+      }
+    });
+
+    // Delete gold candidate files not included on the last elections to show
+    existingGoldCandidateFiles.forEach(file => {
+      if (!filenameContainsElectionId(file, lastElectionIds)) {
+        try {
+          fs.unlinkSync(path.join(prevElectionsBasePath, 'candidates', 'gold', file));
+          console.log(`Deleted outdated gold candidate file: ${file}`);
+        } catch (err) {
+          console.error(`Error deleting file ${file}:`, err);
+        }
+      }
+    });
+
+
     for (const election of lastElections) {
 
       function formatMarkdown(post) {

@@ -7,6 +7,8 @@ date: 2024-10-22T12:22:00.000Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
+  - value: category-KMY0e6q9N
+    label: OpenStack
 hidePost: false
 seo:
   title: "OpenInfra Foundation Announces Rackspace, Co-Creator of OpenStack,

@@ -9,16 +9,18 @@ const {ClientCredentials} = require('simple-oauth2');
 const yaml = require("yaml")
 const moment = require("moment-timezone");
 const prevElectionsBasePath = 'src/pages/election/previous-elections';
+
+const myEnv = require("dotenv").config({
+  path: `.env`,
+  expand: true
+});
+
 const currentYear = new Date().getFullYear();
 const electionsSinceYear = process.env.GATSBY_ELECTION_SINCE_YEAR || 2023;
 const minimunElectionsToShow = process.env.GATSBY_ELECTION_TO_SHOW || 2;
 
 const electionsToShow = (currentYear - electionsSinceYear) + minimunElectionsToShow;
 
-const myEnv = require("dotenv").config({
-  path: `.env`,
-  expand: true
-});
 
 const getAccessToken = async (config, scope) => {
   const client = new ClientCredentials(config);

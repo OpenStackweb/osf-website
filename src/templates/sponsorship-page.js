@@ -48,7 +48,7 @@ const SPONSORSHIPS_DAYS = [
         price: "$2,500 USD",
         color: "#39AE4A",
         items: [
-          { title: "No Presentation", value: false },
+          { title: "10 Minute Presentation", value: false },
           { title: "Booth Size", value: "One 6' table tops & chairs in the OpenInfra sponsors hall. Sponsors must bring their own banner." },
           { title: "Logo Display" , value: "Sponsor logo on website and printed materials." },
           { title: "2 Complimentary Registrations", value: true },
@@ -60,7 +60,7 @@ const SPONSORSHIPS_DAYS = [
         price: "$2,500 USD",
         color: "#28A4DB",
         items: [
-          { title: "No Presentation", value: false },
+          { title: "10 Minute Presentation", value: false },
           { title: "Booth Size", value: "One 6' table tops & chairs in the OpenInfra sponsors hall. Sponsors must bring their own banner." },
           { title: "Logo Display" , value: "Sponsor logo on website, at coffee station, and printed materials." },
           { title: "2 Complimentary Registrations", value: true },

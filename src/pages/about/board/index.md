@@ -70,24 +70,6 @@ members:
     picture: /img/board/amymarrich.jpg
     title: Individual Director
     twitter: https://twitter.com/spotzz_
-  - name: Brin Zhang
-    company: Inspur
-    description: >-
-      <p>Brin Zhang, who works in Inspur, is mainly responsible for the work of
-      OpenStack  community. He leads the team to collect upstream customer needs
-      and feeds back to the open source community in a timely manner, and
-      contributes to open source projects with bug fixes, features and other
-      forms. He has cultivated many core contributors in open source projects
-      such as in Cyborg, Nova, Venus, Manila, Masakari, Watcher, Neutron etc.
-      projects, promoted the development of open source projects.</p>
-
-      <p>In addition, he actively participated in the organization of OpenInfra Days China as a volunteer of the conference, and actively encouraged and advocated enterprises to deliver keynote speeches and technical exchanges. At the same time, the technical team was organized to output issues related to cutting-edge technologies such as Kubernetes, OpenStack and Edge computing, to participate in OpenInfra Days China and submit, which greatly promoted the development of OpenStack in China.</p>
-
-      <p>His efforts have been recognized by the industry and the open source community, and he is the Cyborg project PTL and one of founder of Venus projects. His efforts have been recognized by the OpenInfra Foundation and open source contributors, with honors such as the "Team Contribution Award (Venus Team)", "2020 Open Source Infrastructure Community - Individual Achievement Award", "Cloud OS Lead Award", and "Community Leadership Excellence Award" etc..</p>
-    openStack: https://openinfra.dev/a/community/members/90472
-    picture: /img/board/BrinZhang.jpg
-    title: Gold Director
-    linkedin: null
   - name: Eoghan Glynn
     title: Gold Director
     company: Red Hat
@@ -123,6 +105,22 @@ members:
     twitter: https://twitter.com/GmannInCloud
     linkedin: https://www.linkedin.com/in/gmann1/
     company: NEC
+  - name: Johan Christenson
+    picture: /img/smallprofilepic1.png
+    title: Gold Director
+    company: Cleura
+    openStack: https://openinfra.dev/a/community/members/26794
+    description: >-
+      Johan Christenson is a serial entrepreneur whom has successfully exited
+      multiple companies he founded. After receiving a graduate degree in
+      Engineering, from Florida Institute of Technology, his focus turned to the
+      digital space. 
+
+
+      Johan is the founder and CEO of Cleura (former City Network), which offers a global public cloud as well as private clouds for enterprises - all based on OpenStack and other open source projects. Cleuras mission is to enable innovation and focuses on enterprises with regulatory challenges such as within finance, health care of government agencies.
+
+
+      Johan sees OpenStack and open source as a whole, as critical for all enterprises in order to provide options and create competition in an ever more centralized infrastructure world. He, and the team at Cleura, empower new types of industries and markets to use the power of OpenStack, to enable and increase innovation in their organizations.
   - name: Mohammed Naser
     openStack: https://www.openstack.org/community/members/profile/8899/mohammed-naser
     title: Individual Director
@@ -285,7 +283,7 @@ members:
 
       Young Gwang consistently emphasizes a 'customer-centric' approach. OKESTRO entered the market with a cloud platform concept and has since advanced its technology and recognition by implementing customer-centric cloud orchestration, adapting to the shift from single to multi-hybrid clouds. The company specializes in 'cloud platform orchestration technology', integrating diverse cloud technologies, functions, features, and products within a flexible architecture. OKESTRO aims to empower customers in cloud operations, moving away from a service-provider-centric market.
     company: Okestro Co., LTD
-    title: Chief Executive Officer (CEO)
+    title: Platinum Director
     name: Young Gwang Kim
     picture: /img/mrkim.png
     openStack: "#"

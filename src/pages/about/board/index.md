@@ -121,6 +121,18 @@ members:
 
 
       Johan sees OpenStack and open source as a whole, as critical for all enterprises in order to provide options and create competition in an ever more centralized infrastructure world. He, and the team at Cleura, empower new types of industries and markets to use the power of OpenStack, to enable and increase innovation in their organizations.
+  - name: Josh Villareal
+    picture: /img/image002-1.png
+    description: Josh Villarreal is a 15-year Racker who has been working in the
+      OpenStack arena since the early days of OpenStack at Rackspace.  He is
+      currently leading a global organization for the Rackspace OpenStack
+      Business Unit. The BU provides E2E customer experience, operations,
+      product management, and engineering with regards to the OpenStack and
+      Kubernetes product portfolio.
+    company: Rackspace
+    title: General Manager and Sr. Director, OpenStack
+    linkedin: https://www.linkedin.com/in/jovillarreal/
+    openStack: https://openinfra.dev/a/community/members/161820
   - name: Mohammed Naser
     openStack: https://www.openstack.org/community/members/profile/8899/mohammed-naser
     title: Individual Director
@@ -299,16 +311,4 @@ members:
     title: Platinum Director
     twitter: ""
     openStack: "#"
-  - name: Josh Villareal
-    picture: /img/image002-1.png
-    description: Josh Villarreal is a 15-year Racker who has been working in the
-      OpenStack arena since the early days of OpenStack at Rackspace.  He is
-      currently leading a global organization for the Rackspace OpenStack
-      Business Unit. The BU provides E2E customer experience, operations,
-      product management, and engineering with regards to the OpenStack and
-      Kubernetes product portfolio.
-    company: Rackspace
-    title: General Manager and Sr. Director, OpenStack
-    linkedin: https://www.linkedin.com/in/jovillarreal/
-    openStack: "161820"
 ---

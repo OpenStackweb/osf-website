@@ -130,7 +130,7 @@ members:
       product management, and engineering with regards to the OpenStack and
       Kubernetes product portfolio.
     company: Rackspace
-    title: General Manager and Sr. Director, OpenStack
+    title: Platinum Director
     linkedin: https://www.linkedin.com/in/jovillarreal/
     openStack: https://openinfra.dev/a/community/members/161820
   - name: Mohammed Naser

@@ -299,4 +299,16 @@ members:
     title: Platinum Director
     twitter: ""
     openStack: "#"
+  - name: Josh Villareal
+    picture: /img/image002-1.png
+    description: Josh Villarreal is a 15-year Racker who has been working in the
+      OpenStack arena since the early days of OpenStack at Rackspace.  He is
+      currently leading a global organization for the Rackspace OpenStack
+      Business Unit. The BU provides E2E customer experience, operations,
+      product management, and engineering with regards to the OpenStack and
+      Kubernetes product portfolio.
+    company: Rackspace
+    title: General Manager and Sr. Director, OpenStack
+    linkedin: https://www.linkedin.com/in/jovillarreal/
+    openStack: "161820"
 ---

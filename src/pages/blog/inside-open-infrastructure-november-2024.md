@@ -28,7 +28,7 @@ In this paper, we explore the cost savings for customers affected by Broadcom’
 
 # OpenStack: Open source software for creating private and public clouds
 
-* Another productive PTG is in the books! The October 2024 PTG took place from November 21 - 25. Check out the [PTG recaps from the OpenStack teams](https://www.openstack.org/blog/openstack-teams-advance-2025-1-epoxy-plans-at-openinfra-ptg/)! 
+* Another productive Another productive Project Teams Gathering (PTG) is in the books! The October 2024 PTG took place from October 21 - 25. Check out the [PTG recaps from the OpenStack teams](https://www.openstack.org/blog/openstack-teams-advance-2025-1-epoxy-plans-at-openinfra-ptg/)! 
 
 # Kata Containers: The speed of containers, the security of VMs
 

@@ -9,7 +9,7 @@ category:
 hidePost: true
 seo:
   title: "Inside Open Infrastructure: November 2024"
-  url: https://openinfra.dev/blog/openinfra-newsletter-67
+  url: https://openinfra.dev/blog/openinfra-newsletter-november-2024
   twitterUsername: "@OpenInfraDev"
   description: Hear the latest around VMware migration to OpenStack, PTG recaps and more!
 ---

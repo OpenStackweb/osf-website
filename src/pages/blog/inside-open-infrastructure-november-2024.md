@@ -17,7 +17,7 @@ seo:
 
 The OpenInfra Member: VMware Migration Working Group was formed earlier this year to help educate and inform organizations looking to move their workloads from VMware to OpenStack. As part of this effort, OpenInfra Foundation commissioned a white paper from IT reporter [Steven J. Vaughan-Nichols](https://www.linkedin.com/in/sjvn1/), [Migrating from VMware to OpenStack: Optimizing your Infrastructure to Save Money and Avoid Vendor-Lock-in](https://www.openstack.org/vmware-migration-to-openstack-white-paper).
 
-In this paper, we explore the cost savings for customers affected by Broadcom’s pricing overreach and how the OpenStack ecosystem has risen to the challenge of helping organizations move from VMware to OpenStack.
+In this paper, we explore the cost savings for customers affected by Broadcom’s pricing changes and how the OpenStack ecosystem has risen to the challenge of helping organizations move from VMware to OpenStack.
 
 [READ MORE >>](https://www.openstack.org/vmware-migration-to-openstack-white-paper)
 

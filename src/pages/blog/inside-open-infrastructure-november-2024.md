@@ -6,7 +6,7 @@ date: 2024-11-19T18:52:42.013Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: "Inside Open Infrastructure: November 2024"
   url: https://openinfra.dev/blog/openinfra-newsletter-november-2024

@@ -45,7 +45,7 @@ In this paper, we explore the cost savings for customers affected by Broadcom’
 
 # Zuul: Stop merging broken code
 
-Over the past several months, the Zuul team has released Zuul 11.1.0 and Nodepool 11.0.0. [See the improvements these milestones bring](https://zuul-ci.org/blog/#20241118a) on the Zuul blog!
+* Over the past several months, the Zuul team has released Zuul 11.1.0 and Nodepool 11.0.0. [See the improvements these milestones bring](https://zuul-ci.org/blog/#20241118a) on the Zuul blog!
 
 # **Community Events**
 

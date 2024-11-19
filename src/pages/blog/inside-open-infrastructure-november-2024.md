@@ -28,18 +28,18 @@ In this paper, we explore the cost savings for customers affected by Broadcom’
 
 # OpenStack: Open source software for creating private and public clouds
 
-* Another productive PTG is in the books! The October 2024 PTG took place from November 21 - 25. Check out the [OpenStack project gathering recaps](https://www.openstack.org/blog/openstack-teams-advance-2025-1-epoxy-plans-at-openinfra-ptg/)!
+* Another productive PTG is in the books! The October 2024 PTG took place from November 21 - 25. Check out the [PTG recaps from the OpenStack teams](https://www.openstack.org/blog/openstack-teams-advance-2025-1-epoxy-plans-at-openinfra-ptg/)! 
 
 # Kata Containers: The speed of containers, the security of VMs
 
-* The Kata Containers community participated in the recent Project Teams Gathering (PTG) event, where contributors discussed ongoing work on improving the project’s CI/CD infrastructure, plans for the 4.0 release, and more. You can find an [overview of the sessions](https://katacontainers.io/blog/kata-community-ptg-updates-october-2024/) on the project’s blog.
+* The Kata Containers community participated in the recent PTG, where contributors discussed ongoing work on improving the project’s CI/CD infrastructure, plans for the 4.0 release, and more. You can find an [overview of the sessions](https://katacontainers.io/blog/kata-community-ptg-updates-october-2024/) on the project’s blog.
 * The community concluded the Architecture Committee (AC) election, which happens twice a year to provide a staggered process to elect new leaders while keeping continuity in the leadership. Find out more about the [new AC members](https://katacontainers.io/blog/kata-containers-ac-october-2024-election-results/) on the Kata Containers blog.
 * The [latest 3.10.1](https://github.com/kata-containers/kata-containers/releases) release is now available to provide a new, stable minor release for users who would like to keep up to date with the most recent developments within the project.
 * Find [more updates from the Kata Containers community](https://katacontainers.io/blog/kata-containers-project-updates-q4-2024/) on the project’s blog.
 
 # StarlingX: A fully featured cloud for the distributed edge
 
-* The StarlingX community participated in the Project Teams Gathering (PTG) event, where contributors provided an overview of the work that has been done in the 10.0 release cycle so far, and shared plans for the 11.0 cycle. You can find an [overview of the sessions](https://www.starlingx.io/blog/starlingx-vptg-october-2024-recap/) on the project’s blog.
+* The StarlingX community participated in the PTG, where contributors provided an overview of the work that has been done in the 10.0 release cycle so far, and shared plans for the 11.0 cycle. You can find an [overview of the sessions](https://www.starlingx.io/blog/starlingx-vptg-october-2024-recap/) on the project’s blog.
 * The community concluded the Technical Steering Committee, Project Leads and Technical Leads elections. You can find the newly elected [TSC members](https://docs.starlingx.io/governance/reference/tsc/index.html), as well as [PLs and TLs](https://docs.starlingx.io/governance/reference/tsc/projects/index.html) in StarlingX project documentation.
 * Find [more updates from the StarlingX community](https://www.starlingx.io/blog/starlingx-newsletter-q4-2024/) on the project’s blog.
 

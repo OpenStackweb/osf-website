@@ -24,6 +24,7 @@ In this paper, we explore the cost savings for customers affected by Broadcom’
 # OpenInfra Foundation News
 
 * We are excited to [welcome Rackspace as the newest OpenInfra Foundation Platinum Member](https://openinfra.dev/blog/rackspace-openinfra-platinum-member)! To date, Rackspace has contributed more than 5.6 million lines of code to OpenStack and is one of the largest OpenStack cloud providers in the world. We look forward to increasing our collaboration and the impact this will have on OpenStack and other OpenInfra communities! 
+* The nomination period for the 2025 Individual Member election for the OpenInfra Foundation Board of Directors is now open! [Nominate community members](https://openinfra.dev/election/2025-individual-director-election) before the deadline, December 13, 2024
 * It’s been a great year for OpenInfra Foundation Members in 2024. If you’re interested in expanding your organization’s reach in 2025, consider [membership at the OpenInfra Foundation](https://openinfra.dev/join/members/)! Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev) today to find out more!
 
 # OpenStack: Open source software for creating private and public clouds

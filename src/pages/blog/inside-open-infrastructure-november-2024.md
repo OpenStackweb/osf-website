@@ -34,7 +34,7 @@ In this paper, we explore the cost savings for customers affected by Broadcom’
 
 * The Kata Containers community participated in the recent PTG, where contributors discussed ongoing work on improving the project’s CI/CD infrastructure, plans for the 4.0 release, and more. You can find an [overview of the sessions](https://katacontainers.io/blog/kata-community-ptg-updates-october-2024/) on the project’s blog.
 * The community concluded the Architecture Committee (AC) election, which happens twice a year to provide a staggered process to elect new leaders while keeping continuity in the leadership. Find out more about the [new AC members](https://katacontainers.io/blog/kata-containers-ac-october-2024-election-results/) on the Kata Containers blog.
-* The [latest 3.10.1](https://github.com/kata-containers/kata-containers/releases) release is now available to provide a new, stable minor release for users who would like to keep up to date with the most recent developments within the project.
+* released [3.11](https://github.com/kata-containers/kata-containers/releases) to provide a new, stable minor release for users who would like to keep up to date with the most recent developments within the project.
 * Find [more updates from the Kata Containers community](https://katacontainers.io/blog/kata-containers-project-updates-q4-2024/) on the project’s blog.
 
 # StarlingX: A fully featured cloud for the distributed edge

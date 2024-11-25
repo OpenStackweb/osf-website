@@ -4,9 +4,10 @@ import LinkComponent from '../LinkComponent';
 
 
 const EVENTS = [
-  {name: "KubeCon NA", link: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/", date: "Nov 12-15, 2024", location: "Salt Lake City, UT", color: "#2CB4E2"},
-  {name: "SCaLE 22x", link: "https://www.socallinuxexpo.org/scale/22x", date: "Mar 6 - 9, 2025", location: "Pasadena, CA", color: "#ED362F"}
-
+  {name: "FOSDEM", link: "https://fosdem.org/2025/", date: "Feb 1-2, 2025", location: "Brussels, BE", color: "#e61e24"},
+  {name: "SCaLE 22x", link: "https://www.socallinuxexpo.org/scale/22x", date: "Mar 6-9, 2025", location: "Pasadena, CA", color: "#f4a93a"},
+  {name: "KubeCon EU + CloudNativeCon EU", link: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/", date: "Apr 1-4, 2025", location: "London, GB", color: "#39ae4a"},
+  {name: "OCP Summit EMEA", link: "https://www.opencompute.org/summit/regional-summit", date: "Apr 29–30, 2025", location: "Dublin, IE", color: "#28a4db"}
 ];
 
 const MoreEventsSection = () => {

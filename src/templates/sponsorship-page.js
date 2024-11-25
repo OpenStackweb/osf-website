@@ -136,7 +136,7 @@ const SPONSORSHIPS_DAYS = [
         price: "$1,000 USD *price may vary",
         color: "#28a4db",
         items: [
-          { title: "For the OpenStack birthdays, User Groups around the world host in-person gatherings to celebrate. This sponsorship would be location-specific. Please contact us for a list of available locations. ", value: true },
+          { title: "About", value: "For the OpenStack birthdays, User Groups around the world host in-person gatherings to celebrate. This sponsorship would be location-specific. Please contact us for a list of available locations." },
           { title: "Logo Display" , value: "Logo inclusion a slide in the deck the Foundation shares with the User Groups, an onsite thank you from the organizers. Organizers will be connected directly with the sponsor to discuss swag options." },
         ],
       },
@@ -145,7 +145,7 @@ const SPONSORSHIPS_DAYS = [
         price: "$500 USD *price may vary",
         color: "#f4a93a",
         items: [
-          { title: "For the OpenStack birthdays, User Groups around the world host gatherings to celebrate. This sponsorship would be location-specific. Please contact us for a list of available locations.", value: true },
+          { title: "About", value: "For the OpenStack birthdays, User Groups around the world host gatherings to celebrate. This sponsorship would be location-specific. Please contact us for a list of available locations" },
           { title: "Logo Display" , value: "Logo inclusion a slide in the deck the Foundation shares with the User Groups and a thank you from the organizers." },
         ],
       },

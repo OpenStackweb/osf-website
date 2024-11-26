@@ -24,7 +24,7 @@ const SPONSORSHIPS_DAYS = [
     title: ["OPENINFRA DAY NORTH AMERICA at SCALE - MARCH 2025", "Pasadena, California"],
     subtitle: (
       <>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdR0709Ad7lreUpvTcHqTHleSH1oLpJrzlSU2gwaAPqBmSrzg/viewform">Contact us</a> to sponsor
+        <a href="mailto:events@openinfra.dev">Contact us</a> to sponsor
         OpenInfra Day NA or <a href="https://www.socallinuxexpo.org/scale/22x/events/open-infra-days">learn more</a>.
       </>
     ),
@@ -36,7 +36,8 @@ const SPONSORSHIPS_DAYS = [
         price: "$5,000 USD",
         color: "#F4A93A",
         items: [
-          { title: "30 Minute Presentation", value: true },
+          { title: "10 Minute Keynote", value: true },
+          { title: "20 Minute Presentation", value: true },
           { title: "Booth Size", value: "Two 6' table tops & chairs in the OpenInfra sponsors hall. Sponsors must bring their own banner." },
           { title: "Logo Display" , value: "Sponsor logo on website and printed materials." },
           { title: "4 Complimentary Registrations", value: true },
@@ -81,6 +82,76 @@ const SPONSORSHIPS_DAYS = [
       },
     ],
   },
+  {
+    title: ["OPENSTACK TURNS 15 JULY 2025! JOIN IN BY SPONSORING VARIOUS ACTIVITIES AROUND THE GLOBE"],
+    subtitle: (
+      <>
+        <a href="mailto:events@openinfra.dev">Contact us</a> to sponsor an OpenStack Birthday celebration!
+      </>
+    ),
+    showname: ["OpenStackBirthday"],
+    name: "OpenStack Birthday",
+    plans: [
+      {
+        title: "BIRTHDAY SHIRT OPTION A",
+        price: "$25,000 USD",
+        color: "#F4A93A",
+        items: [
+          { title: "1,000 SHIRTS", value: "T-shirt design will be produced by OpenInfra Foundation. To be distributed at various community events." },
+          { title: "Logo Display" , value: "T-shirt with official birthday design on front with sponsor's logo of choice on sleeve." },
+        ],
+      },
+      {
+        title: "BIRTHDAY SHIRT OPTION B",
+        price: "$15,000 USD",
+        color: "#5c6b7e",
+        items: [
+          { title: "500 SHIRTS", value: "T-shirt design will be produced by OpenInfra Foundation. To be distributed at various community events." },
+          { title: "Logo Display" , value: "T-shirt with official birthday design on front with sponsor's logo of choice on sleeve." },
+        ],
+      },
+      {
+        title: "OPENSTACK PARTY AT OPENINFRA DAYS NORTH AMERICA",
+        price: "$15,000 USD",
+        color: "#e61e24",
+        items: [
+          { title: "MARCH 7 or 8, 2025 IN PASADENA, CA", value: true },
+          { title: "WELCOME MESSAGE AT THE BIRTHDAY PARTY", value: true },
+          { title: "Booth Size", value: "Two 6' table tops & chairs in the OpenInfra sponsors hall. Sponsors must bring their own banner." },
+          { title: "Logo Display" , value: "Sponsor logo on website and printed materials. 1 pull-up banner at birthday party." },
+          { title: "4 Complimentary Registrations", value: true },
+        ],
+      },
+      {
+        title: "OPENSTACK PARTY AT FOSDEM",
+        price: "$2,000 USD",
+        color: "#39ae4a",
+        items: [
+          { title: "FEBRUARY 1, 2025 IN BRUSSELS, BELGIUM", value: true },
+          { title: "WELCOME MESSAGE AT THE BIRTHDAY PARTY", value: true },
+          { title: "Logo Display" , value: "Sponsor logo on website and printed materials. 1 pull-up banner at birthday party." },
+        ],
+      },
+      {
+        title: "IN-PERSON USER GROUP BIRTHDAY CELEBRATION",
+        price: "$1,000 USD *price may vary",
+        color: "#28a4db",
+        items: [
+          { title: "About", value: "For the OpenStack birthdays, User Groups around the world host in-person gatherings to celebrate. This sponsorship would be location-specific. Please contact us for a list of available locations." },
+          { title: "Logo Display" , value: "Logo inclusion a slide in the deck the OpenInfraFoundation shares with the User Groups, an onsite thank you from the organizers. Organizers will be connected directly with the sponsor to discuss swag options." },
+        ],
+      },
+      {
+        title: "Virtual USER GROUP BIRTHDAY CELEBRATION",
+        price: "$500 USD *price may vary",
+        color: "#f4a93a",
+        items: [
+          { title: "About", value: "For the OpenStack birthdays, User Groups around the world host gatherings to celebrate. This sponsorship would be location-specific. Please contact us for a list of available locations" },
+          { title: "Logo Display" , value: "Logo inclusion a slide in the deck the OpenInfraFoundation shares with the User Groups and a thank you from the organizers." },
+        ],
+      },
+    ],
+  },
 ];
 
 export const SponsorshipPageTemplate = ({
@@ -111,7 +182,7 @@ export const SponsorshipPageTemplate = ({
             sponsorships={[...SPONSORSHIPS, ...SPONSORSHIPS_DAYS]}
           />
           <SponsorshipSection
-            title="OPENINFRA DAYS"
+            title=""
             overview="SPONSORSHIP OPPORTUNITIES"
             sponsorships={SPONSORSHIPS_DAYS}
           />

@@ -6,7 +6,7 @@ import './styles.scss';
 const OpenInfraDays = ({ title }) => {
 
   const openinfraEvents = [    
-    { background: '/img/openinfra-days/openinfra-days-cards/oid-pasadena.png', name: 'North America', date: 'March 7 & 8, 2025', location: 'Pasadena, California', link: 'https://www.socallinuxexpo.org/scale/22x/events/open-infra-days'},
+    { background: '/img/openinfra-days/openinfra-days-cards/oid-pasadena.png', name: 'North America', date: 'March 6 & 7, 2025', location: 'Pasadena, California', link: 'https://www.socallinuxexpo.org/scale/22x/events/open-infra-days'},
   ]
 
   return (

@@ -115,7 +115,7 @@ const SPONSORSHIPS_DAYS = [
         price: "$15,000 USD",
         color: "#e61e24",
         items: [
-          { title: "MARCH 7 or 8, 2025 IN PASADENA, CA", value: true },
+          { title: "MARCH 6 or 7, 2025 IN PASADENA, CA", value: true },
           { title: "WELCOME MESSAGE AT THE BIRTHDAY PARTY", value: true },
           { title: "Booth Size", value: "Two 6' table tops & chairs in the OpenInfra sponsors hall. Sponsors must bring their own banner." },
           { title: "Logo Display" , value: "Sponsor logo on website and printed materials. 1 pull-up banner at birthday party." },

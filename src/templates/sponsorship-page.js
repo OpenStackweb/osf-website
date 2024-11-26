@@ -99,6 +99,7 @@ const SPONSORSHIPS_DAYS = [
         items: [
           { title: "1,000 SHIRTS", value: "T-shirt design will be produced by OpenInfra Foundation. To be distributed at various community events." },
           { title: "Logo Display" , value: "T-shirt with official birthday design on front with sponsor's logo of choice on sleeve." },
+          { title: "Number Available" , value: "Only one t-shirt sponsorship is available. Sponsors have the opportunity to choose option A or B." },
         ],
       },
       {
@@ -108,6 +109,7 @@ const SPONSORSHIPS_DAYS = [
         items: [
           { title: "500 SHIRTS", value: "T-shirt design will be produced by OpenInfra Foundation. To be distributed at various community events." },
           { title: "Logo Display" , value: "T-shirt with official birthday design on front with sponsor's logo of choice on sleeve." },
+          { title: "Number Available" , value: "Only one t-shirt sponsorship is available. Sponsors have the opportunity to choose option A or B." },
         ],
       },
       {
@@ -115,7 +117,7 @@ const SPONSORSHIPS_DAYS = [
         price: "$15,000 USD",
         color: "#e61e24",
         items: [
-          { title: "MARCH 7 or 8, 2025 IN PASADENA, CA", value: true },
+          { title: "MARCH 6 or 7, 2025 IN PASADENA, CA", value: true },
           { title: "WELCOME MESSAGE AT THE BIRTHDAY PARTY", value: true },
           { title: "Booth Size", value: "Two 6' table tops & chairs in the OpenInfra sponsors hall. Sponsors must bring their own banner." },
           { title: "Logo Display" , value: "Sponsor logo on website and printed materials. 1 pull-up banner at birthday party." },

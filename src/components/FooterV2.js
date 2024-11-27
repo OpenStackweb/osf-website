@@ -104,6 +104,7 @@ const FooterV2 = class extends React.Component {
                     <li><a href="https://www.linkedin.com/company/open-infrastructure-foundation"><img src="/img/footer/footer-linkedin.svg" /></a></li>
                     <li><a href="https://www.facebook.com/openinfradev"><img src="/img/footer/footer-facebook.svg" /></a></li>
                     <li><a href="https://weixin.qq.com/r/ESpMVGXEgjj9rSE3938D"><img src="/img/footer/footer-wechat.jpeg" /></a></li>
+                    <li><a href="https://bsky.app/profile/openinfra.org"><img src="/img/footer/footer-bluesky.svg" /></a></li>
                 </ul>
             </div>
             </div>

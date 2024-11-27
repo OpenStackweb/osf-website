@@ -15,6 +15,27 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2024-12-12T16:00:00.000Z
+    episodeTitle: Deep Dive into the Open Source AI Definition v1.0
+    episodeDescription: AI has rapidly disrupted the global IT industry, and the
+      open source ecosystem is no exception. In October, after more than a year
+      of global engagement with various stakeholders, the Open Source Initiative
+      (OSI) published v1.0 of an Open Source AI Definition. In this OpenInfra
+      Live episode, our panelists will discuss the OSI's approach to defining
+      open source AI, emphasizing transparency, accessibility, and collaboration
+      in AI development. The session will also highlight how the definition
+      aligns with the broader goals of fostering innovation. Bring questions you
+      may have around the definition as well as its ongoing evolution, and gain
+      insights into the future of AI in an open source context and how you can
+      engage with and contribute to this evolving field.
+    episodeSpeakers: |-
+      Stefano Maffulli
+      Mark Collier 
+      Thierry Carrez 
+    youtubeLink: https://www.youtube.com/watch?v=da5HFNH_8Og
+    linkedinLink: https://www.linkedin.com/events/7267561707487543298/comments/
+    youtubeEmbed: https://www.youtube.com/embed/da5HFNH_8Og?si=G8EwXsiqlUluahtN
+  - hidden: false
     date: 2024-10-03T14:00:00.000Z
     episodeTitle: Introducing OpenStack Dalmatian 2024.2
     episodeDescription: "Join us to learn about OpenStack's 30th release from the

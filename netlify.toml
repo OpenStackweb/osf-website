@@ -76,12 +76,12 @@
   status = 302
 [[redirects]]
   from = "https://www.osf.dev/*"
-  to = "https://openinfra.dev/:splat"
+  to = "https://openinfra.org/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://osf.dev/*"
-  to = "https://openinfra.dev/:splat"
+  to = "https://openinfra.org/:splat"
   status = 301
   force = true
 [[redirects]]
@@ -119,18 +119,18 @@
   status = 301
   force = true
 [[redirects]]
-  from = "https://summit.openinfra.dev/*"
-  to = "https://openinfra.dev/summit"
+  from = "https://summit.openinfra.org/*"
+  to = "https://openinfra.org/summit"
   status = 301
   force = true
 [[redirects]]
-  from = "http://summit.openinfra.dev/*"
-  to = "https://openinfra.dev/summit"
+  from = "http://summit.openinfra.org/*"
+  to = "https://openinfra.org/summit"
   status = 301
   force = true  
 [[redirects]]
   from = "http://summit.openstack.cn/*"
-  to = "https://openinfra.dev/summit"
+  to = "https://openinfra.org/summit"
   status = 301
   force = true
 [[redirects]]
@@ -233,8 +233,8 @@
   to = "/university-partnership-program"
   status = 301
   force = true
-[[redirects]]
-  from = "https://openinfra.org/*"
-  to = "https://openinfra.dev/:splat"
-  status = 302
-  force = true
+#[[redirects]]
+#  from = "https://openinfra.dev/*"
+#  to = "https://openinfra.org/:splat"
+#  status = 302
+#  force = true

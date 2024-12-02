@@ -2,7 +2,7 @@
 templateKey: election-page
 seo:
   description: Individual Member Director elections for the 2025 Board of
-    Directors will be held *Monday January 12, 2025 to * *Friday January 17,
+    Directors will be held *Monday January 13, 2025 to * *Friday January 17,
     2025*. Nominations  occur between *November 11, 2024 and December 13, 2024*.
   image: /img/OpenInfra-icon-white.jpg
   title: 2025 Board Elections
@@ -47,11 +47,11 @@ Members should review and comply with the the [Community Code of Conduct](/lega
 
 #### Election Overview:
 
-Individual Member Director elections for the 2024 Board will be held **Monday January 12, 2025 to  Friday January 17, 2025**. You must have joined the Open Infrastructure Foundation as an Individual Member by Sunday, July 14, 2024 to vote in the January 2025 election, per the bylaws.
+Individual Member Director elections for the 2025 Board will be held **Monday January 13, 2025 to Friday January 17, 2025**. You must have joined the Open Infrastructure Foundation as an Individual Member by Sunday, July 14, 2024 to vote in the January 2025 election, per the bylaws.
 
 In accordance with the Open Infrastructure Foundation Bylaws, Board elections will take place online using a cumulative voting method. No more than three members of the Board may be affiliated with the same company, which means the candidate receiving the next highest votes would assume the seat if the election results in too many employees from a single company. Individual Member Directors elected in 2025 will serve a one-year term, but they may be nominated and re-elected indefinitely. The next election for Individual Member Directors will take place during January 2025.
 
-If you are an eligible voter, you will receive an email with a link to complete your ballot when the elections open on January 12, 2025. To ensure you receive the ballot, please log on to the website at [openinfra.dev/a/profile](/a/profile) and make sure your information is current.
+If you are an eligible voter, you will receive an email with a link to complete your ballot when the elections open on January 13, 2025. To ensure you receive the ballot, please log on to the website at [openinfra.dev/a/profile](/a/profile) and make sure your information is current.
 
 #### Nomination Process
 
@@ -78,7 +78,7 @@ A candidate's responses will appear on their public profile, as well as on [the
 * December 13: Individual Member nominations close
 * December 20: Deadline for Individual Member Nominees to complete application
 * January 9: Gold Member Director Selector Election (1 day)
-* January 12: Individual Member Elections open
+* January 13: Individual Member Elections open
 * January 17: Individual Member Elections close
 
 Note that the Gold Member process will complete prior to the start of the Individual Member elections. Each Platinum Member has already appointed a Board Member, although they can change that appointment at any time during their membership.

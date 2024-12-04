@@ -39,6 +39,12 @@ export const MemberProfilePageTemplate = ({
     navigate('/a/profile')
   }
 
+  const affiliationFormat = (affiliation) => {
+    const fromStr = affiliation.start_date ? epochToMomentTimeZone(affiliation.start_date,'UTC').format("YYYY-MM-DD") + ' ' : '';
+    return `${affiliation.organization.name} - ${fromStr}
+                               ${affiliation.end_date ? ` to ${epochToMomentTimeZone(affiliation.end_date,'UTC').format("YYYY-MM-DD")}` : ' (Current)'}`
+  }
+
   return (
     <div>
       <div className="wrapper project-background">
@@ -116,8 +122,7 @@ export const MemberProfilePageTemplate = ({
                           {member_profile.all_affiliations.sort((a, b) => b.start_date - a.start_date).map((affiliation, index) => {
                             return (
                               <li key={index}>
-                                {`${affiliation.organization.name} - From ${epochToMomentTimeZone(affiliation.start_date,'UTC').format("YYYY-MM-DD")} 
-                                ${affiliation.end_date ? ` to ${epochToMomentTimeZone(affiliation.end_date,'UTC').format("YYYY-MM-DD")}` : ' (Current)'}`}
+                                  {affiliationFormat(affiliation)}
                               </li>
                             )
                           })}

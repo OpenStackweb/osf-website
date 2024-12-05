@@ -32,36 +32,41 @@
 [headers.values]
   Cache-Control = "public, max-age=0, must-revalidate"
 
-[[redirects]]
-  from = "/summit-onsite"
-  to = "/summit/vancouver-2023/summit-onsite"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/summit-sponsor"
-  to = "/summit/vancouver-2023/summit-sponsor"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/summit-tracks"
-  to = "/summit/vancouver-2023/summit-tracks"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/summit-faq"
-  to = "/summit/vancouver-2023/summit-faq"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/summit-covid"
-  to = "/summit/vancouver-2023/summit-onsite-safety"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/summit-schedule"
-  to = "https://vancouver2023.openinfra.dev/a/schedule"
-  status = 301
-  force = true
+#[[redirects]]
+#  from = "/summit-onsite"
+#  to = "/summit/vancouver-2023/summit-onsite"
+#  status = 301
+#  force = true
+#[[redirects]]
+#  from = "/summit-sponsor"
+#  to = "/summit/vancouver-2023/summit-sponsor"
+#  status = 301
+#  force = true
+#[[redirects]]
+#  from = "/summit-tracks"
+#  to = "/summit/vancouver-2023/summit-tracks"
+#  status = 301
+#  force = true
+#[[redirects]]
+#  from = "/summit-faq"
+#  to = "/summit/vancouver-2023/summit-faq"
+#  status = 301
+#  force = true
+#[[redirects]]
+#  from = "/summit-covid"
+#  to = "/summit/vancouver-2023/summit-onsite-safety"
+#  status = 301
+#  force = true
+#[[redirects]]
+#  from = "/summit-schedule"
+#  to = "https://vancouver2023.openinfra.dev/a/schedule"
+#  status = 301
+#  force = true
+#[[redirects]]
+#  from = "/summit/registration"
+#  to = "https://vancouver2023.openinfra.dev/"
+#  status = 301
+#  force = true
 [[redirects]]
   from = "/cloud-typography/fonts.css"
   to = "https://cloud.typography.com/7369076/7111412/css/fonts.css"
@@ -98,11 +103,6 @@
   from = "/profile"
   to = "/a/profile"
   status = 301
-[[redirects]]
-  from = "/summit/registration"
-  to = "https://vancouver2023.openinfra.dev/"
-  status = 301
-  force = true
 [[redirects]]
   from = "/usersurvey"
   to = "/user-survey"
@@ -210,12 +210,12 @@
   force = true
 [[redirects]]
   from = "/legal/code-of-conduct/events"
-  to = "https://openinfra.dev/legal/code-of-conduct"
+  to = "https://openinfra.org/legal/code-of-conduct"
   status = 301
   force = true
 [[redirects]]
   from = "/careers/marketing-coordinator"
-  to = "https://openinfra.dev/careers"
+  to = "https://openinfra.org/careers"
   status = 301
   force = true
 [[redirects]]
@@ -225,7 +225,7 @@
   force = true
 [[redirects]]
   from = "/blog/openinfra-foundation-cyber-resilience-act."
-  to = "https://openinfra.dev/blog/openinfra-foundation-cyber-resilience-act"
+  to = "https://openinfra.org/blog/openinfra-foundation-cyber-resilience-act"
   status = 301
   force = true
 [[redirects]]
@@ -233,8 +233,8 @@
   to = "/university-partnership-program"
   status = 301
   force = true
-#[[redirects]]
-#  from = "https://openinfra.dev/*"
-#  to = "https://openinfra.org/:splat"
-#  status = 302
-#  force = true
+[[redirects]]
+  from = "https://openinfra.dev/*"
+  to = "https://openinfra.org/:splat"
+  status = 301
+  force = true

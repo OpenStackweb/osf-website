@@ -31,7 +31,7 @@
   for = "/*"
 [headers.values]
   Cache-Control = "public, max-age=0, must-revalidate"
-
+  Access-Control-Allow-Origin = "*"
 #[[redirects]]
 #  from = "/summit-onsite"
 #  to = "/summit/vancouver-2023/summit-onsite"

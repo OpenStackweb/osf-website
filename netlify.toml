@@ -237,10 +237,9 @@
   from = "https://openinfra.dev/a/profile/speaker"
   to = "https://openinfra.org/a/profile/speaker"
   status = 301
+  force = true  
+[[redirects]]
+  from = "https://test.openinfra.org/*"
+  to = "https://openinfra.org/:splat"
+  status = 301
   force = true
-  
-#[[redirects]]
-#  from = "https://openinfra.dev/*"
-#  to = "https://openinfra.org/:splat"
-#  status = 301
-#  force = true

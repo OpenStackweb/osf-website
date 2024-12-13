@@ -48,6 +48,13 @@ const NewsSection = class extends React.Component {
                         <p className="home-v2-paragraph home-v2-paragraph-white">The latest news, technologies, and resources from the OpenInfra Community</p>
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
+                    <div className="news-article-inner-container">
+                            <a href="https://www.zdnet.com/article/why-openstack-and-kata-containers-are-both-seeing-a-resurgence-of-adoption/"><img src="/img/homeV2/news-images/Broadcoms-VMware-CaaS-booted-by-Boost-Mobile.jpeg" /></a>
+                            <p className="news-article-intro-text"> Dan Meyer • Dec 12, 2024</p>
+                            <a href="https://www.sdxcentral.com/articles/broadcoms-vmware-caas-booted-by-boost-mobile/2024/12/"><h3>Broadcom’s VMware CaaS booted by Boost Mobile</h3></a>
+                            <p className="news-article-content">The Wind River Studio Operator platform is a cloud-native 5G edge network middleware based on Kubernetes and containers that provides operators with a platform to develop, deploy, operate, and manage 5G distributed edge clouds. It’s based on the open source StarlingX project.</p>
+                            <a className="news-article-link" href="https://www.sdxcentral.com/articles/broadcoms-vmware-caas-booted-by-boost-mobile/2024/12/">READ MORE</a>
+                        </div>
                         <div className="news-article-inner-container">
                             <a href="https://www.zdnet.com/article/why-openstack-and-kata-containers-are-both-seeing-a-resurgence-of-adoption/"><img src="/img/homeV2/news-images/suwon-south-korea.jpg" /></a>
                             <p className="news-article-intro-text"> Steven Vaughan-Nichols • Sep 4, 2024</p>

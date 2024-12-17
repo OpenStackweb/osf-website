@@ -122,8 +122,6 @@ const SPONSORSHIPS_DAYS = [
         items: [
           { title: "MARCH 6 or 7, 2025 IN PASADENA, CA", value: true },
           { title: "BYOB", value: "Bring your own banner to display at the birthday party venue!" },
-          { title: "Logo Display" , value: "Sponsor logo on website and printed materials. 1 pull-up banner at birthday party." },
-          { title: "4 Complimentary Registrations", value: true },
           { title: "Number Available", value: "Unlimited" },
         ],
       },

@@ -33,13 +33,14 @@ const SPONSORSHIPS_DAYS = [
     plans: [
       {
         title: "Headline Sponsor",
-        price: "$5,000 USD",
+        price: "SOLD OUT",
         color: "#F4A93A",
         items: [
           { title: "10 Minute Keynote", value: true },
           { title: "20 Minute Presentation", value: true },
           { title: "Booth Size", value: "Two 6' table tops & chairs in the OpenInfra sponsors hall. Sponsors must bring their own banner." },
           { title: "Logo Display" , value: "Sponsor logo on website and printed materials." },
+          { title: "Lead Scanners" , value: "Lead scanners can be purchased for an additional $200 USD." },
           { title: "4 Complimentary Registrations", value: true },
           { title: "Number Available", value: "2" },
         ],
@@ -52,6 +53,7 @@ const SPONSORSHIPS_DAYS = [
           { title: "10 Minute Presentation", value: true },
           { title: "Booth Size", value: "One 6' table tops & chairs in the OpenInfra sponsors hall. Sponsors must bring their own banner." },
           { title: "Logo Display" , value: "Sponsor logo on website and printed materials." },
+          { title: "Lead Scanners" , value: "Lead scanners can be purchased for an additional $200 USD." },
           { title: "2 Complimentary Registrations", value: true },
           { title: "Number Available", value: "5" },
         ],
@@ -64,13 +66,14 @@ const SPONSORSHIPS_DAYS = [
           { title: "10 Minute Presentation", value: true },
           { title: "Booth Size", value: "One 6' table tops & chairs in the OpenInfra sponsors hall. Sponsors must bring their own banner." },
           { title: "Logo Display" , value: "Sponsor logo on website, at coffee station, and printed materials." },
+          { title: "Lead Scanners" , value: "Lead scanners can be purchased for an additional $200 USD." },
           { title: "2 Complimentary Registrations", value: true },
           { title: "Number Available", value: "2" },
         ],
       },
       {
         title: "Diversity Sponsor",
-        price: "$1,000 USD",
+        price: "SOLD OUT",
         color: "#E61E24",
         items: [
           { title: "No presentation", value: false },
@@ -114,24 +117,14 @@ const SPONSORSHIPS_DAYS = [
       },
       {
         title: "OPENSTACK PARTY AT OPENINFRA DAYS NORTH AMERICA",
-        price: "$15,000 USD",
+        price: "$500 USD",
         color: "#e61e24",
         items: [
           { title: "MARCH 6 or 7, 2025 IN PASADENA, CA", value: true },
-          { title: "WELCOME MESSAGE AT THE BIRTHDAY PARTY", value: true },
-          { title: "Booth Size", value: "Two 6' table tops & chairs in the OpenInfra sponsors hall. Sponsors must bring their own banner." },
+          { title: "BYOB", value: "Bring your own banner to display at the birthday party venue!" },
           { title: "Logo Display" , value: "Sponsor logo on website and printed materials. 1 pull-up banner at birthday party." },
           { title: "4 Complimentary Registrations", value: true },
-        ],
-      },
-      {
-        title: "OPENSTACK PARTY AT FOSDEM",
-        price: "$2,000 USD",
-        color: "#39ae4a",
-        items: [
-          { title: "FEBRUARY 1, 2025 IN BRUSSELS, BELGIUM", value: true },
-          { title: "WELCOME MESSAGE AT THE BIRTHDAY PARTY", value: true },
-          { title: "Logo Display" , value: "Sponsor logo on website and printed materials. 1 pull-up banner at birthday party." },
+          { title: "Number Available", value: "Unlimited" },
         ],
       },
       {

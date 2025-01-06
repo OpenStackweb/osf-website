@@ -14,7 +14,7 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     14:00 UTC (9am CT)</strong>."
 episodes:
-  - hidden: true
+  - hidden: false
     date: 2025-02-27T09:00:00.000Z
     episodeTitle: "From VMware to OpenStack: How Open Source is Rebuilding the
       Virtualization Landscape"

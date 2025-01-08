@@ -24,9 +24,9 @@ episodes:
       requests from organizations to migrate workloads from VMware to OpenStack.
       Tune in to see how some of the world’s IT organizations have responded,
       backed by open source communities like OpenStack and StarlingX. Our panel
-      will include industry experts from Canonical, Mirantis, Planet Hoster,
-      Rackspace and Wind River, and will be moderated by  Jonathan Bryce,
-      executive director of the OpenInfra Foundation.
+      will include industry experts from Canonical, Mirantis, Rackspace and Wind
+      River, and will be moderated by  Jonathan Bryce, executive director of the
+      OpenInfra Foundation.
     episodeSpeakers: Paul Miller, Randy Bias, Josh Villareal and more...
   - hidden: false
     date: 2024-10-03T14:00:00.000Z

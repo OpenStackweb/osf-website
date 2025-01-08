@@ -26,7 +26,9 @@ episodes:
       OpenInfra Foundation.
     hidden: false
     date: 2025-02-27T09:00:00.000Z
-    episodeSpeakers: Paul Miller, Randy Bias, Josh Villareal and more...
+    episodeSpeakers: "Moderated by Jonathan Bryce, the panel will feature Paul
+      Miller (Wind River), Randy Bias (Mirantis), Josh Villareal (Rackspace) and
+      a representative from Canonical. "
     youtubeEmbed: https://www.youtube.com/embed/-ZeXKyV0sW4?si=inIRGM7cTuTgkxYx
     linkedinLink: https://www.linkedin.com/events/7282874080351985664/comments/
     episodeTitle: "From VMware to OpenStack: How Open Source is Rebuilding the

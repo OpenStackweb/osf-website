@@ -14,10 +14,7 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     14:00 UTC (9am CT)</strong>."
 episodes:
-  - hidden: false
-    date: 2025-02-27T09:00:00.000Z
-    episodeTitle: "From VMware to OpenStack: How Open Source is Rebuilding the
-      Virtualization Landscape"
+  - facebookLink: ""
     episodeDescription: A year ago, Broadcom’s acquisition of VMware disrupted the
       global virtualization market where VMware previously held 40% market
       share. Since then, over 80% of OpenInfra Foundation members have received
@@ -27,7 +24,14 @@ episodes:
       will include industry experts from Canonical, Mirantis, Rackspace and Wind
       River, and will be moderated by  Jonathan Bryce, executive director of the
       OpenInfra Foundation.
+    hidden: false
+    date: 2025-02-27T09:00:00.000Z
     episodeSpeakers: Paul Miller, Randy Bias, Josh Villareal and more...
+    youtubeEmbed: https://www.youtube.com/embed/-ZeXKyV0sW4?si=inIRGM7cTuTgkxYx
+    linkedinLink: https://www.linkedin.com/events/7282874080351985664/comments/
+    episodeTitle: "From VMware to OpenStack: How Open Source is Rebuilding the
+      Virtualization Landscape"
+    youtubeLink: https://www.youtube.com/live/-ZeXKyV0sW4
   - hidden: false
     date: 2024-10-03T14:00:00.000Z
     episodeTitle: Introducing OpenStack Dalmatian 2024.2

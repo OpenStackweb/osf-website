@@ -175,7 +175,7 @@ members:
     twitter: https://twitter.com/IldikoVancsa
   - name: Helena Spease
     picture: /img/screen-shot-2021-05-04-at-4.47.38-pm.png
-    title: Community Programs Coordinator
+    title: Community Programs Manager
     description: Helena is a graduate of St. Edward's University in Austin, Texas
       where she received her Bachelors Degree in Business Management. As the
       Marketing and Community Associate, she assists in the creation of

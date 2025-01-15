@@ -37,7 +37,7 @@ It’s been a truly great year! And together we can make 2025 even better as we 
 
 # OpenStack: Open source software for creating private and public clouds
 
-* The results are in! [OpenStack 2025.2 will also be known as Flamingo](https://lists.openstack.org/archives/list/openstack-discuss@lists.openstack.org/message/IMHDQ3VVI46HHNO7BTWOTT5VH53TXZCR/)!
+* The results are in! [OpenStack 2025.2 will be known as Flamingo](https://lists.openstack.org/archives/list/openstack-discuss@lists.openstack.org/message/IMHDQ3VVI46HHNO7BTWOTT5VH53TXZCR/)!
 * Technical elections are coming up soon! If you’re considering running for a seat on the TC or as a PTL, the nomination period opens on February 5 and runs for two weeks. See the [OpenStack Election page](https://governance.openstack.org/election/) for further details.
 
 # Kata Containers: The speed of containers, the security of VMs
@@ -56,7 +56,7 @@ It’s been a truly great year! And together we can make 2025 even better as we 
 
 # **Community Events**
 
-**Upcoming OpenInfra and Community Events[](https://www.socallinuxexpo.org/scale/22x/events/open-infra-days)**
+**Upcoming OpenInfra and Community Events**[](https://www.socallinuxexpo.org/scale/22x/events/open-infra-days)
 
 **[OpenInfra Days North America 2025](https://www.socallinuxexpo.org/scale/22x/events/open-infra-days)** 
 
@@ -65,12 +65,12 @@ It’s been a truly great year! And together we can make 2025 even better as we 
 * OpenInfra Days North America is raising funds for World Central Kitchen to support first responders and families impacted by wildfires in the Los Angeles area\
   **[Register](https://register.socallinuxexpo.org/reg6/) | [Sponsor](https://openinfra.dev/events/sponsorship) | Schedule Coming Soon**
 
+**OpenStack is turning 15**
+
+To celebrate OpenStack's 15th birthday, OpenInfra user groups around the globe are throwing birthday parties. If you are interested in participating in a birthday party by hosting the event or sponsoring, please reach out to us at [events@openinfra.dev](mailto:events@openinfra.dev.) for more information.
+
 [Join us in Celebrating OpenStack's 15th Birthday at FOSDEM!](https://www.meetup.com/brussels-openinfra-meetup-group/events/304883862/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link) 
 
 * February 1, 2025
 * Brussels. Belgium
 * [RSVP](https://www.meetup.com/brussels-openinfra-meetup-group/events/304883862/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link) to join us!
-
-**OpenStack is turning 15**
-
-To celebrate OpenStack's 15th birthday, OpenInfra user groups around the globe are throwing birthday parties. If you are interested in participating in a birthday party by hosting the event or sponsoring, please reach out to us at [events@openinfra.dev](mailto:events@openinfra.dev.) for more information.

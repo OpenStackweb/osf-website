@@ -8,18 +8,27 @@ category:
     label: News & Announcements
 hidePost: true
 seo:
-  title: "Inside Open Infrastructure: November 2024"
+  title: "Inside Open Infrastructure: January 2025"
   url: https://openinfra.dev/blog/openinfra-newsletter-january-2025
   twitterUsername: "@OpenInfraDev"
-  description: Hear the latest around VMware migration to OpenStack, PTG recaps and more!
+  description: Hear the latest around the OpenInfra Annual Report, OpenStack
+    Flamingo and more!
 ---
-![](/img/frame-541.png)
+![](/img/openinfra_annualreport_2024.jpg)
 
-The OpenInfra Member: VMware Migration Working Group was formed earlier this year to help educate and inform organizations looking to move their workloads from VMware to OpenStack. As part of this effort, OpenInfra Foundation commissioned a white paper from IT reporter [Steven J. Vaughan-Nichols](https://www.linkedin.com/in/sjvn1/), [Migrating from VMware to OpenStack: Optimizing your Infrastructure to Save Money and Avoid Vendor-Lock-in](https://www.openstack.org/vmware-migration-to-openstack-white-paper).
+**2024 — A Very Good Year for OpenInfra**
 
-In this paper, we explore the cost savings for customers affected by Broadcom’s pricing changes and how the OpenStack ecosystem has risen to the challenge of helping organizations move from VMware to OpenStack.
+***Jonathan Bryce, Executive Director, OpenInfra Foundation***
 
-[READ MORE >>](https://www.openstack.org/vmware-migration-to-openstack-white-paper)
+In retrospect, 2024 turned out to be a much more exciting year for Open Infrastructure than I anticipated. At the OpenInfra Foundation, we made tremendous progress toward our 2024 goals of protecting the OpenInfra vision of open source, supporting and strengthening our projects, and increasing OpenInfra’s impact. This progress is well documented in the following report, but let me call out a few reasons why I am particularly energized by how the OpenInfra community progressed this year.
+
+* First, we’re seeing a resurgence of support and adoption among organizations and individuals who wholeheartedly embrace the freedom and innovation that only open source collaboration provides. 
+* Second, the OpenInfra community is stepping up to meet the moment on regional challenges and opportunities.
+* Third, the OpenInfra community is having a very tangible impact on shaping the future.
+
+It’s been a truly great year! And together we can make 2025 even better as we work together to deliver the OpenInfra software that drives the global economy and human progress.
+
+[READ MORE >>](https://openinfra.org/annual-report/2024)
 
 # OpenInfra Foundation News
 

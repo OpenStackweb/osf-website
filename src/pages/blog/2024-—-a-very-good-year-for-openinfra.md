@@ -6,7 +6,7 @@ date: 2025-01-14T23:26:42.771Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: 2024 — A Very Good Year for OpenInfra
   url: https://openinfra.dev/blog/2024-openinfra-foundation-annual-report

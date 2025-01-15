@@ -32,39 +32,45 @@ It’s been a truly great year! And together we can make 2025 even better as we 
 
 # OpenInfra Foundation News
 
-* We are excited to [welcome Rackspace as the newest OpenInfra Foundation Platinum Member](https://openinfra.dev/blog/rackspace-openinfra-platinum-member)! To date, Rackspace has contributed more than 5.6 million lines of code to OpenStack and is one of the largest OpenStack cloud providers in the world. We look forward to increasing our collaboration and the impact this will have on OpenStack and other OpenInfra communities! 
-* The nomination period for the 2025 Individual Member election for the OpenInfra Foundation Board of Directors is now open! [Nominate community members](https://openinfra.dev/election/2025-individual-director-election) before the deadline, December 13, 2024
-* It’s been a great year for OpenInfra Foundation Members in 2024. If you’re interested in expanding your organization’s reach in 2025, consider [membership at the OpenInfra Foundation](https://openinfra.dev/join/members/)! Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev) today to find out more!
+* Voting is open now for the [2025 OpenInfra Foundation Individual Director Election](https://openinfra.dev/election/2025-individual-director-election/candidates). You must have joined the Open Infrastructure Foundation as an Individual Member by Sunday, July 14, 2024 to vote in this election, [per the bylaws](https://openinfra.org/legal/bylaws). To vote, check your email (or your spam folder) for your personal link to vote. The subject line is: *OpenInfra Foundation 2025 Individual Director Election*
+* 2024 was a great year for OpenInfra Foundation Members. If you’re interested in expanding your organization’s reach in 2025, consider [membership at the OpenInfra Foundation](https://openinfra.dev/join/members/)! Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev) today to find out more!
 
 # OpenStack: Open source software for creating private and public clouds
 
-* Another productive Another productive Project Teams Gathering (PTG) is in the books! The October 2024 PTG took place from October 21 - 25. Check out the [PTG recaps from the OpenStack teams](https://www.openstack.org/blog/openstack-teams-advance-2025-1-epoxy-plans-at-openinfra-ptg/)! 
+* The results are in! [OpenStack 2025.2 will also be known as Flamingo](https://lists.openstack.org/archives/list/openstack-discuss@lists.openstack.org/message/IMHDQ3VVI46HHNO7BTWOTT5VH53TXZCR/)!
+* Technical elections are coming up soon! If you’re considering running for a seat on the TC or as a PTL, the nomination period opens on February 5 and runs for two weeks. See the [OpenStack Election page](https://governance.openstack.org/election/) for further details.
 
 # Kata Containers: The speed of containers, the security of VMs
 
-* The Kata Containers community participated in the recent PTG, where contributors discussed ongoing work on improving the project’s CI/CD infrastructure, plans for the 4.0 release, and more. You can find an [overview of the sessions](https://katacontainers.io/blog/kata-community-ptg-updates-october-2024/) on the project’s blog.
-* The community concluded the Architecture Committee (AC) election, which happens twice a year to provide a staggered process to elect new leaders while keeping continuity in the leadership. Find out more about the [new AC members](https://katacontainers.io/blog/kata-containers-ac-october-2024-election-results/) on the Kata Containers blog.
-* released [3.11](https://github.com/kata-containers/kata-containers/releases) to provide a new, stable minor release for users who would like to keep up to date with the most recent developments within the project.
-* Find [more updates from the Kata Containers community](https://katacontainers.io/blog/kata-containers-project-updates-q4-2024/) on the project’s blog.
+* The upcoming version of Kata Containers is 3.13. Keep an eye on the [mailing list](https://lists.katacontainers.io/mailman3/lists/kata-dev.lists.katacontainers.io/) for updates as the community prepares to put out the release in the second half of January.
+* If you’re evaluating or using Kata Containers, please take a few minutes to fill out the [User Survey](https://openinfrafoundation.formstack.com/forms/kata_containers_user_survey) and provide feedback to the community!
 
 # StarlingX: A fully featured cloud for the distributed edge
 
-* The StarlingX community participated in the PTG, where contributors provided an overview of the work that has been done in the 10.0 release cycle so far, and shared plans for the 11.0 cycle. You can find an [overview of the sessions](https://www.starlingx.io/blog/starlingx-vptg-october-2024-recap/) on the project’s blog.
-* The community concluded the Technical Steering Committee, Project Leads and Technical Leads elections. You can find the newly elected [TSC members](https://docs.starlingx.io/governance/reference/tsc/index.html), as well as [PLs and TLs](https://docs.starlingx.io/governance/reference/tsc/projects/index.html) in StarlingX project documentation.
-* Find [more updates from the StarlingX community](https://www.starlingx.io/blog/starlingx-newsletter-q4-2024/) on the project’s blog.
+* The StarlingX 10.0 release is coming soon, look out for news and updates on the [mailing list](https://lists.starlingx.io/mailman3/lists/)!
+* If you’re evaluating or using StarlingX, please take a few minutes to fill out the [User Survey](https://openinfrafoundation.formstack.com/forms/starlingx_user_survey) and provide feedback to the community!
 
 # Zuul: Stop merging broken code
 
-* Over the past several months, the Zuul team has released Zuul 11.1.0 and Nodepool 11.0.0. [See the improvements these milestones bring](https://zuul-ci.org/blog/#20241118a) on the Zuul blog!
+* The Zuul team is excited to announce that [Zuul 11.2.0](https://zuul-ci.org/docs/zuul/latest/releasenotes.html#relnotes-11-2-0) has arrived! 
 
 # **Community Events**
 
-**Upcoming OpenInfra and Community Events**
+**Upcoming OpenInfra and Community Events[](https://www.socallinuxexpo.org/scale/22x/events/open-infra-days)**
 
 **[OpenInfra Days North America 2025](https://www.socallinuxexpo.org/scale/22x/events/open-infra-days)** 
 
 * Co-located with SCaLE in Pasadena, CA
-* OpenInfra Days North America will take place on March 6 & 7, SCaLE will continue until March 9.\
+* OpenInfra Days North America will take place on March 6 & 7, SCaLE will continue until March 9.
+* OpenInfra Days North America is raising funds for World Central Kitchen to support first responders and families impacted by wildfires in the Los Angeles area\
   **[Register](https://register.socallinuxexpo.org/reg6/) | [Sponsor](https://openinfra.dev/events/sponsorship) | Schedule Coming Soon**
 
-For more information about OpenInfra community events, please contact [events@openinfra.dev](mailto:events@openinfra.dev).
+[Join us in Celebrating OpenStack's 15th Birthday at FOSDEM!](https://www.meetup.com/brussels-openinfra-meetup-group/events/304883862/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link) 
+
+* February 1, 2025
+* Brussels. Belgium
+* [RSVP](https://www.meetup.com/brussels-openinfra-meetup-group/events/304883862/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link) to join us!
+
+**OpenStack is turning 15**
+
+To celebrate OpenStack's 15th birthday, OpenInfra user groups around the globe are throwing birthday parties. If you are interested in participating in a birthday party by hosting the event or sponsoring, please reach out to us at [events@openinfra.dev](mailto:events@openinfra.dev.) for more information.

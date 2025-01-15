@@ -30,8 +30,8 @@ The 2024 OpenInfra Foundation Annual Report provides highlights from not only th
 
 # OpenInfra Foundation News
 
-* Voting is open now for the [2025 OpenInfra Foundation Individual Director Election](https://openinfra.dev/election/2025-individual-director-election/candidates). You must have joined the Open Infrastructure Foundation as an Individual Member by Sunday, July 14, 2024 to vote in this election, [per the bylaws](https://openinfra.org/legal/bylaws). To vote, check your email (or your spam folder) for your personal link to vote. The subject line is: *OpenInfra Foundation 2025 Individual Director Election*
-* 2024 was a great year for OpenInfra Foundation Members. If you’re interested in expanding your organization’s reach in 2025, consider [membership at the OpenInfra Foundation](https://openinfra.dev/join/members/)! Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev) today to find out more!
+* Voting is open now for the [2025 OpenInfra Foundation Individual Director Election](https://openinfra.dev/election/2025-individual-director-election/candidates) until Friday, January 17 at 1900 UTC. You must have joined the Open Infrastructure Foundation as an Individual Member by Sunday, July 14, 2024 to vote in this election, [per the bylaws](https://openinfra.org/legal/bylaws). To vote, check your email (or your spam folder) for your personal link to vote. The subject line is: *OpenInfra Foundation 2025 Individual Director Election* 
+* 2024 was a great year for OpenInfra Foundation Members and we are excited for an even more impactful 2025! If you’re interested in expanding your organization’s reach in 2025, consider [membership at the OpenInfra Foundation](https://openinfra.dev/join/members/)! Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev) today to find out more!
 
 # OpenStack: Open source software for creating private and public clouds
 
@@ -65,7 +65,7 @@ The 2024 OpenInfra Foundation Annual Report provides highlights from not only th
 
 **OpenStack is turning 15**
 
-To celebrate OpenStack's 15th birthday, OpenInfra user groups around the globe are throwing birthday parties. If you are interested in participating in a birthday party by hosting the event or sponsoring, please reach out to us at [events@openinfra.dev](mailto:events@openinfra.dev.) for more information.
+To celebrate OpenStack's 15th birthday, OpenInfra user groups around the globe are throwing birthday parties throughout 2025. If you are interested in participating in a birthday party by hosting the event or sponsoring, please reach out to us at [events@openinfra.dev](mailto:events@openinfra.dev.) for more information.
 
 [Join us in Celebrating OpenStack's 15th Birthday at FOSDEM!](https://www.meetup.com/brussels-openinfra-meetup-group/events/304883862/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link) 
 

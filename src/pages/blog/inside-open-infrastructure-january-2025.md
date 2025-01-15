@@ -37,6 +37,7 @@ The 2024 OpenInfra Foundation Annual Report provides highlights from not only th
 
 * The results are in! [OpenStack 2025.2 will be known as Flamingo](https://lists.openstack.org/archives/list/openstack-discuss@lists.openstack.org/message/IMHDQ3VVI46HHNO7BTWOTT5VH53TXZCR/)!
 * Technical elections are coming up soon! If you’re considering running for a seat on the TC or as a PTL, the nomination period opens on February 5 and runs for two weeks. See the [OpenStack Election page](https://governance.openstack.org/election/) for further details.
+* We are seeking OpenStack upgrade success stories! Ahead of the OpenStack 2025.1 ‘Epoxy’ release, the OpenInfra Foundation marketing team wants to work with the OpenStack community to highlight how upgrades have become simplified with the implementation of SLURP. We are [collecting names of volunteers](https://etherpad.opendev.org/p/OpenStackUpgrades) who can either review materials promoting the upstream progress or share operator success stories. 
 
 # Kata Containers: The speed of containers, the security of VMs
 

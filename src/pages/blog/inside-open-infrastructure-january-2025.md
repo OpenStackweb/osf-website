@@ -16,17 +16,15 @@ seo:
 ---
 ![](/img/openinfra_annualreport_2024.jpg)
 
-**2024 — A Very Good Year for OpenInfra**
+**2024 — A Year in Review**
 
-***Jonathan Bryce, Executive Director, OpenInfra Foundation***
+As mentioned in [Jonathan Bryce's blog post ](https://openinfra.dev/blog/2024-openinfra-foundation-annual-report)and introduction to the 2024 OpenInfra Foundation Annual Report, 2024 was a good year for OpenInfra. Partnered with a surge in open source momentum, the global community rallied around three OpenInfra goals to advance development and adoption of open infrastructure: 
 
-In retrospect, 2024 turned out to be a much more exciting year for Open Infrastructure than I anticipated. At the OpenInfra Foundation, we made tremendous progress toward our 2024 goals of protecting the OpenInfra vision of open source, supporting and strengthening our projects, and increasing OpenInfra’s impact. This progress is well documented in the following report, but let me call out a few reasons why I am particularly energized by how the OpenInfra community progressed this year.
+* Protect the OpenInfra Vision of Open Source
+* Support and Strengthen OpenInfra Projects 
+* Increase OpenInfra Impact 
 
-* First, we’re seeing a resurgence of support and adoption among organizations and individuals who wholeheartedly embrace the freedom and innovation that only open source collaboration provides. 
-* Second, the OpenInfra community is stepping up to meet the moment on regional challenges and opportunities.
-* Third, the OpenInfra community is having a very tangible impact on shaping the future.
-
-It’s been a truly great year! And together we can make 2025 even better as we work together to deliver the OpenInfra software that drives the global economy and human progress.
+The 2024 OpenInfra Foundation Annual Report provides highlights from not only the milestones achieved by the community but also how we responded to the drivers behind open source momentum include AI redefining infrastructure, as well as concerns around digital sovereignty, licensing changes, or security.
 
 [READ MORE >>](https://openinfra.org/annual-report/2024)
 

@@ -6,7 +6,7 @@ date: 2025-01-15T19:41:51.014Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: "Inside Open Infrastructure: January 2025"
   url: https://openinfra.dev/blog/openinfra-newsletter-january-2025
@@ -57,19 +57,19 @@ The 2024 OpenInfra Foundation Annual Report provides highlights from not only th
 
 **Upcoming OpenInfra and Community Events**[](https://www.socallinuxexpo.org/scale/22x/events/open-infra-days)
 
+**OpenStack is turning 15**
+
+To celebrate OpenStack's 15th birthday, OpenInfra user groups around the globe are throwing birthday parties throughout 2025. If you are interested in participating in a birthday party by hosting the event or sponsoring, please reach out to us at [events@openinfra.dev](mailto:events@openinfra.dev.) for more information.
+
+**[Join us in Celebrating OpenStack's 15th Birthday at FOSDEM!](https://www.meetup.com/brussels-openinfra-meetup-group/events/304883862/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link)** 
+
+* February 1, 2025
+* Brussels. Belgium
+* [RSVP](https://www.meetup.com/brussels-openinfra-meetup-group/events/304883862/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link) to join us!
+
 **[OpenInfra Days North America 2025](https://www.socallinuxexpo.org/scale/22x/events/open-infra-days)** 
 
 * Co-located with SCaLE in Pasadena, CA
 * OpenInfra Days North America will take place on March 6 & 7, SCaLE will continue until March 9.
 * OpenInfra Days North America is raising funds for World Central Kitchen to support first responders and families impacted by wildfires in the Los Angeles area\
   **[Register](https://register.socallinuxexpo.org/reg6/) | [Sponsor](https://openinfra.dev/events/sponsorship) | Schedule Coming Soon**
-
-**OpenStack is turning 15**
-
-To celebrate OpenStack's 15th birthday, OpenInfra user groups around the globe are throwing birthday parties throughout 2025. If you are interested in participating in a birthday party by hosting the event or sponsoring, please reach out to us at [events@openinfra.dev](mailto:events@openinfra.dev.) for more information.
-
-[Join us in Celebrating OpenStack's 15th Birthday at FOSDEM!](https://www.meetup.com/brussels-openinfra-meetup-group/events/304883862/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link) 
-
-* February 1, 2025
-* Brussels. Belgium
-* [RSVP](https://www.meetup.com/brussels-openinfra-meetup-group/events/304883862/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link) to join us!

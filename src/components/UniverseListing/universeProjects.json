@@ -96,6 +96,14 @@
     "isOIF": true
   },
   {
+    "name": "OSISM",
+    "link": "https://osism.tech",
+    "logo": "osism.png",
+    "description": "Cloud platform featuring OpenStack-powered virtual machines, Kubernetes for container orchestration, bare-metal infrastructure for high-performance workloads, and SONiC (Software for Open Networking in the Cloud) for advanced network automation and scalability.",
+    "tags": ["IAAS", "Cloud Platform", "Lifecycle Management"],
+    "isOIF": false
+  },
+  {
     "name": "Rocky Linux",
     "link": "https://rockylinux.org/",
     "logo": "rockylinux.svg",

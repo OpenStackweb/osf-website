@@ -70,6 +70,9 @@ To celebrate OpenStack's 15th birthday, OpenInfra user groups around the globe a
 **[OpenInfra Days North America 2025](https://www.socallinuxexpo.org/scale/22x/events/open-infra-days)** 
 
 * Co-located with SCaLE in Pasadena, CA
-* OpenInfra Days North America will take place on March 6 & 7, SCaLE will continue until March 9.
-* OpenInfra Days North America is raising funds for World Central Kitchen to support first responders and families impacted by wildfires in the Los Angeles area\
+* OpenInfra Days North America will take place on March 6 & 7, SCaLE will continue until March 9.\
   **[Register](https://register.socallinuxexpo.org/reg6/) | [Sponsor](https://openinfra.dev/events/sponsorship) | Schedule Coming Soon**
+
+  The OpenInfra Days North America planning committee is proud to announce a meaningful change in how we’ll utilize the $1,000 sponsorship provided by the OpenInfra Foundation. Initially intended to be used to celebrate OpenStack’s 15th Birthday, we have chosen instead to donate these funds to [World Central Kitchen](https://donate.wck.org/give/654000/?_gl=1*1ty3cve*_gcl_aw*R0NMLjE3MzY5NzU4NTUuQ2owS0NRaUExcDI4QmhDQkFSSXNBRFA5SHJQRzdKMmFiWkM1RUxNdHFBQ1p1NXZtM0V5TzlEbnFSOW5GaEEzVlJLVmNqNXUydDNBbTNxWWFBa1BxRUFMd193Y0I.*_gcl_au*NDQ0MjUwMjkyLjE3MzY5NjY2NDEuMTgwNTg5ODIxNy4xNzM2OTY2NjU5LjE3MzY5NjY2NTg.*_ga*NjQxNTA4MjA0LjE3MzY5NjY2NDE.*_ga_5WKVY8503C*MTczNjk3NTg1NS4yLjAuMTczNjk3NTg1NS42MC4wLjA.#!/donation/checkout?c_src=site-slider-cafiresjan25). Our hearts go out to those affected by these tragic events and this decision gives us the opportunity to provide critical support to first responders, community members and their families impacted by the devastating wildfires in the Los Angeles area.
+
+  We still plan to host a casual gathering during OpenInfra Days North America to celebrate OpenStack’s 15th Birthday. Stay tuned for details, and thank you for your support!

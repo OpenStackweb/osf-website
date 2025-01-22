@@ -13,7 +13,7 @@ seo:
     protect OpenInfra’s vision of open source, and the OpenInfra Foundation
     staff and community actively collaborated to address these challenges
     through various efforts "
-  url: https://openinfra.org/blog/protecting-openinfra-vision-open-source
+  url: https://openinfra.dev/blog/protecting-openinfra-vision-open-source
   twitterUsername: "@openinfradev"
 ---
 One of the [OpenInfra Foundation](https://openinfra.dev/annual-report/openinfra.org)’s key goals for 2024 was to act to protect OpenInfra’s vision of open source: an incredible engine to drive innovation forward and make it accessible to everyone. This vision is being challenged by a broad set of drivers, including geopolitical tensions, incoming regulation, licensing changes on single-vendor open source projects, and actors diluting the meaning of “open source” by applying it to any publicly released AI model.

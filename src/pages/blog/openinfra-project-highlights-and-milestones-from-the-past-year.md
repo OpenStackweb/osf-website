@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: OpenInfra Project Highlights and Milestones from the Past Year
+title: OpenInfra Project Highlights and Milestones from 2024
 author: Allison Price
 date: 2025-01-27T15:00:00.000Z
 category:
@@ -14,7 +14,7 @@ category:
     label: StarlingX
   - value: category-v9OKHS5k-
     label: Kata Containers
-hidePost: false
+hidePost: true
 seo:
   url: https://openinfra.org/blog/openinfra-projects-openstack-katacontainers-starlingx-zuul
   twitterUsername: "@openinfradev"

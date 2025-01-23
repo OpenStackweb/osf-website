@@ -75,7 +75,7 @@ export const PTGPageTemplate = ({
               Virtual
             </span>
             <span className="location"></span>
-            {/* <div className="buttons">
+            <div className="buttons">
               <ul>
                 {header.buttons.map((button, index) => {
                   return (
@@ -87,7 +87,7 @@ export const PTGPageTemplate = ({
                   );
                 })}
               </ul>
-            </div> */}
+            </div>
           </div>
           <div className="header-left">
             <div className="picture">

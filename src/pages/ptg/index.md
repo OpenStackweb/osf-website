@@ -5,7 +5,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: Project Teams Gathering (PTG)
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/ptg/
+  url: https://openinfra.org/ptg/
 header:
   display: true
   title: Project Teams Gathering
@@ -20,7 +20,7 @@ header:
     text: Virtual
   buttons:
     - text: Register Now!
-      link: https://ptg.openinfra.dev/
+      link: https://ptg.openinfra.org/
   image: /img/ptg-page/hero-image.png
 form:
   display: true

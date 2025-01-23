@@ -18,9 +18,9 @@ header:
   location:
     icon: /img/summit/Vector-world.svg
     text: Virtual
-   buttons:
-     - text: Register Now!
-       link: https://ptg.openinfra.dev/
+  buttons:
+    - text: Register Now!
+      link: https://ptg.openinfra.dev/
   image: /img/ptg-page/hero-image.png
 form:
   display: true

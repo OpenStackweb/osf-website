@@ -5,7 +5,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: Project Teams Gathering (PTG)
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.org/ptg/
+  url: https://openinfra.dev/ptg/
 header:
   display: true
   title: Project Teams Gathering

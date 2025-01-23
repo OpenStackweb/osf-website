@@ -9,6 +9,7 @@ const {ClientCredentials} = require('simple-oauth2');
 const yaml = require("yaml")
 const moment = require("moment-timezone");
 const prevElectionsBasePath = 'src/pages/election/previous-elections';
+const URI = require("urijs");
 
 const myEnv = require("dotenv").config({
   path: `.env`,
@@ -719,7 +720,8 @@ exports.createPages = ({actions, graphql}) => {
       if (edge.node.frontmatter.templateKey) {
         const id = edge.node.id;
         const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;
-        const slug = SEO && SEO.url ? SEO.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : edge.node.fields.slug;
+        const uri = SEO && SEO.url ? new URI(SEO.url) : null;
+        const slug = uri ? uri.pathname() : edge.node.fields.slug;
         createPage({
           path: slug,
           category: edge.node.frontmatter.category,

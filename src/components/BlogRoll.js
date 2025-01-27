@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery, Link } from 'gatsby'
 import { kebabCase } from 'lodash'
+import { getPageSlugFromSEO } from '../utils/methods'
 
 class BlogRoll extends React.Component {
   render() {
@@ -19,10 +20,11 @@ class BlogRoll extends React.Component {
             if (customFilter) {
               if (post.frontmatter.author === customFilter || post.frontmatter.category.find(c => c.label === customFilter)) {
                 hasPosts = true;
+                const slug = getPageSlugFromSEO(post.frontmatter.seo, post.fields.slug);
                 return (
                   <div className="article-excerpt" key={index}>
                     <h5 className="article-excerpt-title">
-                      <Link to={post.frontmatter.seo?.url ? post.frontmatter.seo?.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : post.fields.slug} className="">{post.frontmatter.title}</Link>
+                      <Link to={slug} className="">{post.frontmatter.title}</Link>
                     </h5>
                     <div className="article-excerpt-entry">
                       <div>
@@ -46,10 +48,11 @@ class BlogRoll extends React.Component {
                 )
               }
             } else {
+              const slug = getPageSlugFromSEO(post.frontmatter.seo, post.fields.slug);
               return (
                 <div className="article-excerpt" key={index}>
                   <h5 className="article-excerpt-title">
-                    <Link to={post.frontmatter.seo?.url ? post.frontmatter.seo?.url.replace('https://osf.dev', '').replace('https://openinfra.dev', '') : post.fields.slug} className="">{post.frontmatter.title}</Link>
+                    <Link to={slug} className="">{post.frontmatter.title}</Link>
                   </h5>
                   <div className="article-excerpt-entry">
                     <div>

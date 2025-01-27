@@ -260,7 +260,7 @@ members:
     linkedin: https://www.linkedin.com/in/liu-yulong/
     openStack: https://openinfra.org/a/community/members/5508
     picture: /img/board/YulongLIU.png
-- name: Alexander Navratil
+  - name: Alexander Navratil
     title: Gold Director
     company: T-Systems
     description: I started my IT careen in 2000 as the owner of my small business for training solutions in Germany. I provide Linux courses Development trainings in C and Java as well a lot of Infrastructure and collaboration topic like Lotus or Exchange. Later I was joining a hardware manufacture company Fujitsu and become responsible for Fujitsu OpenStack initiative. After servaral years and project me and my team could develop this initiative into a real product. With this entry into Cloud and Linux I followed the open-source path to the cloud world and got part of the OpenStack and OpenInfra family. 

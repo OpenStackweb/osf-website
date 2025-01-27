@@ -263,13 +263,17 @@ members:
   - name: Alexander Navratil
     title: Gold Director
     company: T-Systems
-    description: I started my IT careen in 2000 as the owner of my small business for training solutions in Germany. I provide Linux courses Development trainings in C and Java as well a lot of Infrastructure and collaboration topic like Lotus or Exchange. Later I was joining a hardware manufacture company Fujitsu and become responsible for Fujitsu OpenStack initiative. After servaral years and project me and my team could develop this initiative into a real product. With this entry into Cloud and Linux I followed the open-source path to the cloud world and got part of the OpenStack and OpenInfra family. 
+    description: >-
+      I started my IT careen in 2000 as the owner of my small business for training solutions in Germany. I provide Linux courses Development trainings in C and Java as well a lot of Infrastructure and collaboration topic like Lotus or Exchange. Later I was joining a hardware manufacture company Fujitsu and become responsible for Fujitsu OpenStack initiative. After servaral years and project me and my team could develop this initiative into a real product. With this entry into Cloud and Linux I followed the open-source path to the cloud world and got part of the OpenStack and OpenInfra family. 
 
-    Since 2019 I'm with T-Systems in the role Chief Architect of Open Telekom Cloud (OTC)! 
 
-    As the architecture lead, I am responsible for everything between the upper edge of operating system to the outer edge of Service Delivery. Open Telekom Cloud is by now one of the largest OpenStack-based clouds in Europe, providing full GDPR-compliance and the full stack of IaaS, PaaS and SaaS offerings.
+      Since 2019 I'm with T-Systems in the role Chief Architect of Open Telekom Cloud (OTC)! 
 
-    Some personal stuff from myside, I am married, have tree sons, and a passionate kitesurfer, spending time with my family close to the ocean around the world.
+
+      As the architecture lead, I am responsible for everything between the upper edge of operating system to the outer edge of Service Delivery. Open Telekom Cloud is by now one of the largest OpenStack-based clouds in Europe, providing full GDPR-compliance and the full stack of IaaS, PaaS and SaaS offerings.
+
+
+      Some personal stuff from myside, I am married, have tree sons, and a passionate kitesurfer, spending time with my family close to the ocean around the world.
     linkedin: https://www.linkedin.com/in/alexander-navratil-44a673231/
     openStack: https://openinfra.org/a/community/members/119181
     picture: /img/board/AlexanderNavratil.png

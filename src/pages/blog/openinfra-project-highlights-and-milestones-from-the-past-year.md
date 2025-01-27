@@ -14,7 +14,7 @@ category:
     label: StarlingX
   - value: category-v9OKHS5k-
     label: Kata Containers
-hidePost: true
+hidePost: false
 seo:
   url: https://openinfra.org/blog/openinfra-projects-openstack-katacontainers-starlingx-zuul
   twitterUsername: "@openinfradev"

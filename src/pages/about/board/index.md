@@ -29,7 +29,7 @@ members:
     name: Julia Kreger
     openStack: https://www.openstack.org/community/members/profile/19088
     picture: /img/board/MG-5121-1.jpg
-    title: Individual Director
+    title: Chair | Individual Director
     twitter: https://twitter.com/ashinclouds
   - company: "Open Usage Commons, Software Freedom Conservancy, Eigenstate Ltd,
       Ericsson Software Technology, The Perl Foundation, Onyx Neon, Inc. "
@@ -51,7 +51,7 @@ members:
     name: Allison Randal
     openStack: https://www.openstack.org/community/members/profile/2813
     picture: /img/board/allisonrandall.png
-    title: Individual Director
+    title: Vice Chair | Individual Director
     twitter: https://twitter.com/allisonrandal
   - company: Red Hat
     description: Amy Marrich is a Principal Technical Marketing Manager at Red Hat.
@@ -68,7 +68,7 @@ members:
     name: Amy Marrich
     openStack: https://www.openstack.org/community/members/profile/33567
     picture: /img/board/amymarrich.jpg
-    title: Individual Director
+    title: Vice Chair | Individual Director
     twitter: https://twitter.com/spotzz_
   - name: Eoghan Glynn
     title: Gold Director

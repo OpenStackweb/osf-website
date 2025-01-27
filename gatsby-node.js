@@ -10,6 +10,7 @@ const yaml = require("yaml")
 const moment = require("moment-timezone");
 const prevElectionsBasePath = 'src/pages/election/previous-elections';
 const URI = require("urijs");
+const { getPageSlugFromSEO } = require('./src/utils/methods');
 
 const myEnv = require("dotenv").config({
   path: `.env`,
@@ -720,8 +721,7 @@ exports.createPages = ({actions, graphql}) => {
       if (edge.node.frontmatter.templateKey) {
         const id = edge.node.id;
         const SEO = edge.node.frontmatter.seo ? edge.node.frontmatter.seo : null;
-        const uri = SEO && SEO.url ? new URI(SEO.url) : null;
-        const slug = uri ? uri.pathname() : edge.node.fields.slug;
+        const slug = getPageSlugFromSEO(SEO, edge.node.fields.slug);
         createPage({
           path: slug,
           category: edge.node.frontmatter.category,

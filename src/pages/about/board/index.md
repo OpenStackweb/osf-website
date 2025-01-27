@@ -29,7 +29,7 @@ members:
     name: Julia Kreger
     openStack: https://www.openstack.org/community/members/profile/19088
     picture: /img/board/MG-5121-1.jpg
-    title: Chair | Individual Director
+    title: Individual Director
     twitter: https://twitter.com/ashinclouds
   - company: "Open Usage Commons, Software Freedom Conservancy, Eigenstate Ltd,
       Ericsson Software Technology, The Perl Foundation, Onyx Neon, Inc. "
@@ -51,7 +51,7 @@ members:
     name: Allison Randal
     openStack: https://www.openstack.org/community/members/profile/2813
     picture: /img/board/allisonrandall.png
-    title: Vice Chair | Individual Director
+    title: Individual Director
     twitter: https://twitter.com/allisonrandal
   - company: Red Hat
     description: Amy Marrich is a Principal Technical Marketing Manager at Red Hat.
@@ -74,14 +74,14 @@ members:
     title: Gold Director
     company: Red Hat
     picture: /img/profile-pic.png
-    description: "Director of OpenStack Engineering, Red Hat. Eoghan leads the
+    description: Director of OpenStack Engineering, Red Hat. Eoghan leads the
       OpenStack engineering team at Red Hat. He has been part of the Red Hat
       investment in OpenStack for the past decade, first as an individual
       contributor and upstream project leader, and then later as a manager. He
       has a long background with open source and with cloud technology, having
       contributed to the Apache community for many years and also worked on AWS
       monitoring while at Amazon. Eoghan is based in Dublin, Ireland though he's
-      also part of a highly globalized team at Red Hat. "
+      also part of a highly globalized team at Red Hat.
     openStack: https://www.openstack.org/community/members/profile/1341/eoghan-glynn
   - name: Ghanshyam Mann
     description: >-
@@ -99,7 +99,7 @@ members:
       software developer in the Avionic domain with the C++ language.</p>
 
       <p>He has also been a frequent speaker in various Open Source events such as OpenStack, Open Infra, Open source summit, Open Infra Days and LinuxCon on various topics like RESTful API, QA, Cloud Backup, Open Source Community Building, Open Source Governance. In addition, he has been actively involved in various PoC and solutions designs around Cloud OSS and currently serving as Cloud Consultant in NEC.</p>
-    openStack: https://openinfra.dev/a/community/members/6461
+    openStack: https://openinfra.org/a/community/members/6461
     picture: /img/board/ghanshyammann.jpeg
     title: Individual Director
     twitter: https://twitter.com/GmannInCloud
@@ -138,7 +138,7 @@ members:
     picture: /img/smallprofilepic1.png
     title: Gold Director
     company: Cleura
-    openStack: https://openinfra.dev/a/community/members/26794
+    openStack: https://openinfra.org/a/community/members/26794
     description: >-
       Johan Christenson is a serial entrepreneur whom has successfully exited
       multiple companies he founded. After receiving a graduate degree in
@@ -161,7 +161,7 @@ members:
     company: Rackspace
     title: Platinum Director
     linkedin: https://www.linkedin.com/in/jovillarreal/
-    openStack: https://openinfra.dev/a/community/members/161820
+    openStack: https://openinfra.org/a/community/members/161820
   - name: Mohammed Naser
     openStack: https://www.openstack.org/community/members/profile/8899/mohammed-naser
     title: Individual Director
@@ -181,14 +181,14 @@ members:
       By fostering OpenStack at it’s early days in 2011, it has helped improve the project and our service as a whole. I’ve been a contributor to the project since and I have contributed code to almost every release of OpenStack since then.  I've also served as PTL for Puppet OpenStack, continue to serve as a PTL for OpenStack-Ansible and serve on the technical committee, chairing the committee for a term.
     linkedin: http://linkedin.com/in/mdnaser
   - company: Wind River
-    description: "A technology executive with extensive experience in leading
+    description: A technology executive with extensive experience in leading
       complex high technology solutions development, product management,
       evangelization and team leadership. Entrepreneurial drive and energy
       combined with deep technical skills used to motivate cross-functional
       teams and drive products and solutions from concept to production.
       Experienced and effective at being the voice of the business to industry
       forums, customers and internal teams. A demonstrated history of business
-      effective product innovation and inventorship. "
+      effective product innovation and inventorship.
     linkedin: https://www.linkedin.com/in/telecomcto/
     name: Paul Miller
     openStack: https://www.openstack.org/community/members/profile/128770
@@ -206,7 +206,7 @@ members:
       a waste of the participant’s time, effort, and resources. Mastering how to
       best navigate this new form of software development has been an
       overarching theme of my career.
-    openStack: https://openinfra.dev/a/community/members/114583
+    openStack: https://openinfra.org/a/community/members/114583
     picture: /img/board/philrobb.jpeg
     title: Platinum Director
     twitter: null
@@ -245,7 +245,7 @@ members:
       Day activities.   Her team has published dozens of speeches in
       OpenStack-related community activities, sharing China Mobile's practical
       and innovation experience in OpenStack.
-    openStack: https://openinfra.dev/a/community/members/90048
+    openStack: https://openinfra.org/a/community/members/90048
     picture: /img/board/Xiangyu-Li.jpg
   - name: Huaxing Zhang
     title: Gold Director
@@ -277,7 +277,7 @@ members:
     linkedin: https://www.linkedin.com/in/alexander-navratil-44a673231/
     openStack: https://openinfra.org/a/community/members/119181
     picture: /img/board/AlexanderNavratil.png
-  - company: "Ant Financial, Kata Containers"
+  - company: Ant Financial
     description: >-
       Xu Wang is a senior staff engineer at Ant Financial and an initial member
       of Kata Containers Architecture Committee. He was the CTO and Cofounder of
@@ -291,7 +291,7 @@ members:
 
       Xu had experiences on Linux Kernel, virtualization,  container, and distributed storage system. And he is also a technical writer and translator on Linux, virtualization, NoSQL etc.
     name: Xu Wang
-    openStack: https://openinfra.dev/a/community/members/37833
+    openStack: https://openinfra.org/a/community/members/37833
     picture: /img/xuwang.jpg
     title: Platinum Director
   - description: >-
@@ -321,6 +321,5 @@ members:
     name: Zhou Junyi
     picture: /img/zhou-junyi.jpg
     title: Platinum Director
-    twitter: ""
     openStack: "#"
 ---

@@ -68,20 +68,20 @@ members:
     name: Amy Marrich
     openStack: https://www.openstack.org/community/members/profile/33567
     picture: /img/board/amymarrich.jpg
-    title: Individual Director
+    title: Vice Chair | Individual Director
     twitter: https://twitter.com/spotzz_
   - name: Eoghan Glynn
     title: Gold Director
     company: Red Hat
     picture: /img/profile-pic.png
-    description: "Director of OpenStack Engineering, Red Hat. Eoghan leads the
+    description: Director of OpenStack Engineering, Red Hat. Eoghan leads the
       OpenStack engineering team at Red Hat. He has been part of the Red Hat
       investment in OpenStack for the past decade, first as an individual
       contributor and upstream project leader, and then later as a manager. He
       has a long background with open source and with cloud technology, having
       contributed to the Apache community for many years and also worked on AWS
       monitoring while at Amazon. Eoghan is based in Dublin, Ireland though he's
-      also part of a highly globalized team at Red Hat. "
+      also part of a highly globalized team at Red Hat.
     openStack: https://www.openstack.org/community/members/profile/1341/eoghan-glynn
   - name: Ghanshyam Mann
     description: >-
@@ -99,17 +99,46 @@ members:
       software developer in the Avionic domain with the C++ language.</p>
 
       <p>He has also been a frequent speaker in various Open Source events such as OpenStack, Open Infra, Open source summit, Open Infra Days and LinuxCon on various topics like RESTful API, QA, Cloud Backup, Open Source Community Building, Open Source Governance. In addition, he has been actively involved in various PoC and solutions designs around Cloud OSS and currently serving as Cloud Consultant in NEC.</p>
-    openStack: https://openinfra.dev/a/community/members/6461
+    openStack: https://openinfra.org/a/community/members/6461
     picture: /img/board/ghanshyammann.jpeg
     title: Individual Director
     twitter: https://twitter.com/GmannInCloud
     linkedin: https://www.linkedin.com/in/gmann1/
     company: NEC
+  - name: Kurt Garloff
+    description: >-
+      With Sovereign Cloud Stack (SCS), we have a publicly funded project to build cloud standards, software and operational knowledge. The reference implementation is openly developed open source and contains Linux, kvm,ceph, ovn, OpenStack, Kubernetes, K8s-CAPI along with operational and IAM tooling. The project is carried out in the OSBA and the standardization will continue there in 2025.
+
+      Dec 2018 - Dec 2019, I was responsible for the Cloud and Storage Departments in SUSE R&D.
+      SUSE was a strong OpenStack supporter but then changed direction in ways that I could not support.
+
+      Before SUSE, I was leading the architecture, community and consulting teams in Deutsche Telekom's Open Telekom Cloud Team.
+
+      DT has been a vocal supporter of OpenStack since I joined in early 2012 -- we have been able to run several OpenStack projects. I personally supported the InterOp Workig Group, when DT became gold member of the OpenStack Foundation in 2016. I was serving in the board in as DT rep as well as individual member after moving on from DT.
+
+      Before joining DT at the end of 2011 I was a long-time contributor to the Linux kernel, which also gave me the privilege of building up and leading SUSE Labs and work with a number of great engineers in- and outside my company, contributing to the success of the Open Source technology.
+    openStack: https://openinfra.org/a/community/members/6804
+    picture: /img/board/KurtGarloff.png
+    title: Individual Director
+    linkedin: http://de.linkedin.com/pub/kurt-garloff/
+    company: Sovereign Cloud Stack
+  - name: ChangBo Guo
+    description: >-
+      ChangBo Guo is consulting architect at EasyStack. As founding engineer of EasyStack, he has held various roles, including engineer, product manager, architect, and participated in every aspect from product design to delivery, and online operation. He attended the earliest of large-scale OpenStack adoptions in China, such as Lenovo, Postal Savings Bank of China, China Telecom, State Grid, etc.
+
+      He was one of the earliest OpenStack contributors in China. He has been working on the OpenStack since 2012, when he worked on the PowerVM driver under Nova to support IBM Power Systems. He has been contributing several projects like Nova, Neutron, Ironic, Oslo, etc. He was the organizer of China OpenStack user group, and promote OpenStack technologies in several meet-ups in China including Beijing, Xi'an, Chengdu, Shenzhen, etc.  He is also keen to help others learn how to contribute in upstream and delivered presentation about upstream contribution for several companies. He attended several design summits and delivered presentations. He served as track chair of upstream development in Barcelona, Boston and Sydney design summit.
+
+      He served as Individual Director of OpenStack Foundation in 2017- 2019 and Oslo PTL for Pike and Queens.
+    openStack: https://openinfra.org/a/community/members/14945
+    picture: /img/board/changboguo.JPG
+    title: Individual Director
+    linkedin: https://www.linkedin.com/in/changbo-guo-90123285
+    company: EasyStack
   - name: Johan Christenson
     picture: /img/smallprofilepic1.png
     title: Gold Director
     company: Cleura
-    openStack: https://openinfra.dev/a/community/members/26794
+    openStack: https://openinfra.org/a/community/members/26794
     description: >-
       Johan Christenson is a serial entrepreneur whom has successfully exited
       multiple companies he founded. After receiving a graduate degree in
@@ -132,7 +161,7 @@ members:
     company: Rackspace
     title: Platinum Director
     linkedin: https://www.linkedin.com/in/jovillarreal/
-    openStack: https://openinfra.dev/a/community/members/161820
+    openStack: https://openinfra.org/a/community/members/161820
   - name: Mohammed Naser
     openStack: https://www.openstack.org/community/members/profile/8899/mohammed-naser
     title: Individual Director
@@ -152,14 +181,14 @@ members:
       By fostering OpenStack at it’s early days in 2011, it has helped improve the project and our service as a whole. I’ve been a contributor to the project since and I have contributed code to almost every release of OpenStack since then.  I've also served as PTL for Puppet OpenStack, continue to serve as a PTL for OpenStack-Ansible and serve on the technical committee, chairing the committee for a term.
     linkedin: http://linkedin.com/in/mdnaser
   - company: Wind River
-    description: "A technology executive with extensive experience in leading
+    description: A technology executive with extensive experience in leading
       complex high technology solutions development, product management,
       evangelization and team leadership. Entrepreneurial drive and energy
       combined with deep technical skills used to motivate cross-functional
       teams and drive products and solutions from concept to production.
       Experienced and effective at being the voice of the business to industry
       forums, customers and internal teams. A demonstrated history of business
-      effective product innovation and inventorship. "
+      effective product innovation and inventorship.
     linkedin: https://www.linkedin.com/in/telecomcto/
     name: Paul Miller
     openStack: https://www.openstack.org/community/members/profile/128770
@@ -177,57 +206,10 @@ members:
       a waste of the participant’s time, effort, and resources. Mastering how to
       best navigate this new form of software development has been an
       overarching theme of my career.
-    openStack: https://openinfra.dev/a/community/members/114583
+    openStack: https://openinfra.org/a/community/members/114583
     picture: /img/board/philrobb.jpeg
     title: Platinum Director
     twitter: null
-  - company: Microsoft
-    description: >
-      Partner Software Engineering Manager – Microsoft. Ryan van Wyk leads
-      Microsoft’s Azure for Operators – Network Cloud Engineering Team. Through
-      collaboration with Telcom Operators around the world, Ryan and team are
-      working to expand Microsoft’s telecom portfolio with a carrier-grade cloud
-      that provides seamless experiences across Microsoft’s cloud and the
-      operator’s network.
-
-
-      Prior to joining Microsoft, Ryan has held a variety of leadership positions within AT&T Communications – primarily driving transformation programs and new technology introduction and engineering.  A few of his many contributions to AT&T include leading technology teams that helped: 
-
-      •	build the world’s largest Network Function Virtualization Private Cloud Infrastructure.
-
-      •	deliver the first virtualized network functions and services on a network cloud, using an open source approach.
-
-      •	create Airship, a declarative container automation platform designed to rapidly deploy and upgrade cloud infrastructure with no SDN workload impact.
-
-      •	transform the network tools, process, and data that support AT&T’s largest managed networking customers.
-
-      •	integrate products from multiple suppliers to deliver Uverse (AT&T’s award-winning IPTV platform).
-
-
-      Additionally, Ryan has driven several innovations that resulted in nine US patents, he served on the Cloud Native Computing Foundation (CNCF) Board of Directors in 2021 and has served on the board of directors for the OpenStack Foundation (the third largest opensource software project in the world) since 2019.
-
-
-      For the remainder of 2021 Ryan is representing AT&T's Platinum Membership.
-    linkedin: https://www.linkedin.com/in/ryanvanwyk
-    name: Ryan van Wyk
-    openStack: https://www.openstack.org/community/members/profile/30484
-    picture: /img/ryan-van-wyk.jpg
-    title: Platinum Director
-    twitter: https://twitter.com/@ryanvanwyk
-  - name: Shuquan Huang
-    title: Gold Director
-    company: 99Cloud
-    openStack: https://www.openstack.org/community/members/profile/10746/shuquan-huang
-    picture: /img/20180603-040010008-ios-2.jpg
-    description: >-
-      Shuquan Huang is a Technical Director at 99Cloud, where he built the whole
-      engineering teams from the ground up, established agile development
-      methods to design and implement solutions for cloud computing and edge
-      computing.
-
-
-      Shuquan has been working with open source software for over 10 years. He started his OpenStack journey at its early days in 2011 and actively involved as technical contributor, speaker and track chair. He is a member of the StarlingX Technical Steering Committee.
-    linkedin: https://linkedin.com/in/shuquan-huang-a8b13b66
   - company: Canonical
     description: As a Product Manager at Canonical, Tytus drives the evolution of
       Canonical’s products and services in the data centre space. Tytus received
@@ -263,9 +245,39 @@ members:
       Day activities.   Her team has published dozens of speeches in
       OpenStack-related community activities, sharing China Mobile's practical
       and innovation experience in OpenStack.
-    openStack: https://openinfra.dev/a/community/members/90048
+    openStack: https://openinfra.org/a/community/members/90048
     picture: /img/board/Xiangyu-Li.jpg
-  - company: "Ant Financial, Kata Containers "
+  - name: Huaxing Zhang
+    title: Gold Director
+    company: China Telecom
+    description: 2017, I joined China Telecom and have been working on Cloud & Network infrastructure products since then. In the past years, I used to led a team to design and develop VIM products based on OpenStack and ETSI MANO specifications; and participated in design China Telecom's NFV three-layer decoupling scheme and implemented multiple projects such as 5GC, vIMS, and vBRAS. Our CT Cloud based on OpenStack have been deployed in 31 provinces and maintain upgrading with new Cloud & Network technologies. I believe it is precisely the mutual promotion with the open source community that has helped the industry to grow rapidly. 
+    openStack: https://openinfra.org/a/community/members/127797
+    picture: /img/board/HuaxingZhang.png
+  - name: Yulong Liu
+    title: Gold Director
+    company: China Unicom
+    description: LIU Yulong currently works at China Unicom Cloud for research, development and management for a team of Cloud Networking. He has been engaged in Cloud Computing for more than ten years. He is proficient in the core components of OpenStack, and has a deep understanding of the architecture of Nova and Neutron with the underlying technologies, such as Openvswitch, OpenFlow, SDN, Linux Networking, Libvirt and Qemu/kvm. His past work experience in several famous public clouds has enabled him to have a deep construction of cloud technologies, which also shows his love for Cloud Computing. Since 2019, he has become the core developer of OpenStack Neutron. At present, his main work and research fields are focused on cloud networking, SDN, SmartNIC, DPU and hardware offloading.
+    linkedin: https://www.linkedin.com/in/liu-yulong/
+    openStack: https://openinfra.org/a/community/members/5508
+    picture: /img/board/YulongLIU.png
+  - name: Alexander Navratil
+    title: Gold Director
+    company: T-Systems
+    description: >-
+      I started my IT careen in 2000 as the owner of my small business for training solutions in Germany. I provide Linux courses Development trainings in C and Java as well a lot of Infrastructure and collaboration topic like Lotus or Exchange. Later I was joining a hardware manufacture company Fujitsu and become responsible for Fujitsu OpenStack initiative. After servaral years and project me and my team could develop this initiative into a real product. With this entry into Cloud and Linux I followed the open-source path to the cloud world and got part of the OpenStack and OpenInfra family. 
+
+
+      Since 2019 I'm with T-Systems in the role Chief Architect of Open Telekom Cloud (OTC)! 
+
+
+      As the architecture lead, I am responsible for everything between the upper edge of operating system to the outer edge of Service Delivery. Open Telekom Cloud is by now one of the largest OpenStack-based clouds in Europe, providing full GDPR-compliance and the full stack of IaaS, PaaS and SaaS offerings.
+
+
+      Some personal stuff from myside, I am married, have tree sons, and a passionate kitesurfer, spending time with my family close to the ocean around the world.
+    linkedin: https://www.linkedin.com/in/alexander-navratil-44a673231/
+    openStack: https://openinfra.org/a/community/members/119181
+    picture: /img/board/AlexanderNavratil.png
+  - company: Ant Financial
     description: >-
       Xu Wang is a senior staff engineer at Ant Financial and an initial member
       of Kata Containers Architecture Committee. He was the CTO and Cofounder of
@@ -279,7 +291,7 @@ members:
 
       Xu had experiences on Linux Kernel, virtualization,  container, and distributed storage system. And he is also a technical writer and translator on Linux, virtualization, NoSQL etc.
     name: Xu Wang
-    openStack: https://openinfra.dev/a/community/members/37833
+    openStack: https://openinfra.org/a/community/members/37833
     picture: /img/xuwang.jpg
     title: Platinum Director
   - description: >-
@@ -309,6 +321,5 @@ members:
     name: Zhou Junyi
     picture: /img/zhou-junyi.jpg
     title: Platinum Director
-    twitter: ""
     openStack: "#"
 ---

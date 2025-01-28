@@ -6,7 +6,7 @@ date: 2025-01-28T15:47:28.500Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: false
+hidePost: true
 seo:
   title: "OpenInfra Foundation Seats 2025 Board of Directors "
   url: https://openinfra.org/blog/openinfra-board-2025

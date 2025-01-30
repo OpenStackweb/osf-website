@@ -6,7 +6,7 @@ date: 2025-01-30T14:30:00.000Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: Increasing the OpenInfra Impact in 2024
   url: https://openinfra.org/blog/increasing-openinfra-impact

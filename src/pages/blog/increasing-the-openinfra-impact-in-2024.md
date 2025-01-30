@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Increasing the OpenInfra Impact in 2024
 author: Allison Price
-date: 2025-01-30T14:30:00.000Z
+date: 2025-01-23T14:30:00.000Z
 category:
   - value: category-h2Ztx9rpD
     label: Community

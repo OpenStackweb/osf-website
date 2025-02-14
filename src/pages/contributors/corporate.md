@@ -920,8 +920,6 @@ companyDetails:
       col2: 2014-08-05
     - col1: ZTE Corporation
       col2: 2017-02-08
-    - col2: 2025-01-15
-      col1: 四川华鲲振宇智能科技有限责任公司
 ---
 
 The list of Corporate CLAs allowed to contribute to OpenStack projects. (Individual developers still need to fill out the Individual [Contributors License Agreement](https://wiki.openstack.org/wiki/How_To_Contribute#Contributors_License_Agreement)). If you need to update the list of employees authorized to commit code to OpenStack, please read [How To Update Corporate CLA](/cla). 

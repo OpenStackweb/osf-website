@@ -114,12 +114,17 @@ members:
     openStack: https://www.openstack.org/community/members/profile/1092
     picture: /img/about-staff/ClarkBoylan.jpg
     title: Senior Principal Engineer
-  - description: "Jimmy leads the collaboration with OpenInfra Members, including
-      strategy development, goal alignment and new member recruitment. Outside
-      of advocating for current open source trends and distributing his calendar
-      link (which you can find here: https://calendly.com/jimmy-mcarthur), he
-      enjoys cooking,  traveling, and having the best award winning chili in
-      Texas."
+  - description: >
+      Jimmy McArthur is the Director of Business Development for the OpenInfra
+      Foundation. Not only does he recruit global organizations who align with
+      the mission of supporting open source software communities, but he also
+      researches trends that are shaping the future of infrastructure. 
+
+
+      Through this process, he encourages open collaboration among the growing ecosystem to not only support the business of OpenInfra member organizations, but also the community as a whole. Day-to-day, you can find Jimmy sharing his calendar link with anyone who wants to talk about open source innovation, OpenInfra projects, and the evolution of open infrastructure.  
+
+
+      He’s passionate about cooking and will happily share his 3X award winning Texas Red chili recipe with you, should you ask.
     linkedin: https://www.linkedin.com/in/jimmymcarthur/
     name: Jimmy McArthur
     openStack: https://www.openstack.org/community/members/profile/1395

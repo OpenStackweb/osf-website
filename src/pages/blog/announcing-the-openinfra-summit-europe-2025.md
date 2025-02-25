@@ -26,15 +26,37 @@ The OpenInfra Summit Europe runs on a **community-led model**, ensuring a more *
 
 If you are interested in submitting tot the CFP, sponsoring, or attending the OpenInfra Summit Europe; [please sign up for event notifications](<* [https://forms.gle/NucJxVwHy8ZmQypN7](<* https://forms.gle/NucJxVwHy8ZmQypN7>)!
 
-## Registration & Sponsorship
+## Sponsorships
 
-If you are interested in sponsoring this event, take a look at the sponsorship options, and [sign up to be notified](<* [https://forms.gle/NucJxVwHy8ZmQypN7](<* https://forms.gle/NucJxVwHy8ZmQypN7>)>) when sponsorship opportunities are available and further event details are published.
+If you are interested in sponsoring this event, take a look at the sponsorship options, and [sign up to be notified](<* [https://forms.gle/NucJxVwHy8ZmQypN7](<* https://forms.gle/NucJxVwHy8ZmQypN7>) when sponsorship opportunities are available and further event details are published.
 
-Prices below are in EUR do not include local taxes.
+*Prices below are in EUR unless noted otherwise and include local taxes.*
 
+|                                | **OpenInfra Foundation Member** | **Non-OpenInfra Foundation Member*** |
+| ------------------------------ | ------------------------------- | ------------------------------------ |
+| **Headline**                   | €50,000                         | €60,000                              |
+| **Premier**                    | €30,000                         | €45,000                              |
+| **Spotlight**                  | €15,000                         | €25,000                              |
+| **Exhibitor**                  | €7,500                          | €15,000                              |
+| **Supporting**\
+**(No Booth)** | €2,500                          | €5,000                               |
 
+*\* Contact [ecosystem@openinfra.dev](mailto:ecosystem@openinfra.dev) if you'd like more information about OpenInfra Foundation Membership.*
 
-\[Insert sponsorship costs and benefits here]
+## Registration
+
+If you are interested in sponsoring this event, take a look at the sponsorship options, and [sign up to be notified](<* [https://forms.gle/NucJxVwHy8ZmQypN7](<* https://forms.gle/NucJxVwHy8ZmQypN7>) when sponsorship opportunities are available and further event details are published.
+
+*Prices below are in EUR unless noted otherwise and include local taxes.*
+
+| **Early Bird**          | €50  |
+| ----------------------- | ---- |
+| **Mid Bird**            | €150 |
+| **Late Bird**           | €300 |
+| **Onsite**              | €500 |
+| **Students/Non-Profit** | €20  |
+
+*\* Contact [ecosystem@openinfra.dev](mailto:ecosystem@openinfra.dev) if you'd like more information about OpenInfra Foundation Membership.*
 
 ## Get Involved in Planning the Summit
 

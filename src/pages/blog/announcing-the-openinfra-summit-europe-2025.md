@@ -55,7 +55,7 @@ If you are interested in sponsoring this event, take a look at the sponsorship o
 
 *\* Contact [ecosystem@openinfra.dev](mailto:ecosystem@openinfra.dev) if you'd like more information about OpenInfra Foundation Membership.*
 
-### **Get Involved in Planning the Summit**
+### **Get Involved in Planning the OpenInfra Summit**
 
 The **Summit Planning Committee** is open to **anyone** from the OpenInfra community who wants to help shape this event. We will be hosting our first meeting soon, and we invite all interested members to **join us in crafting an unforgettable experience**.
 

@@ -22,8 +22,6 @@ The OpenInfra Summit Europe runs on a **community-led model**, ensuring a more *
 
 **If you are interested in submitting tot the CFP, sponsoring, or attending the OpenInfra Summit Europe; [please sign up for event notifications](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form)!**
 
-
-
 ### **Sponsorships**
 
 If you are interested in sponsoring this event, take a look at the sponsorship options, and [sign up to be notified](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form) when sponsorship opportunities are available and further event details are published.
@@ -63,10 +61,8 @@ If you want to be part of the **Summit Planning Committee**, fill out [this form
 
 Stay tuned for more details on speakers, sessions, and activities. We can't wait to see you in France!
 
- 
-
 ### **Important Links**
 
-* Signup for event notifications: [](<* https://forms.gle/NucJxVwHy8ZmQypN7>)<https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form>
-* Signup to join the planning committee: <https://forms.gle/2nkD7bL5HykcTFfBA>
+* [Signup for event notifications](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form)
+* [Signup to join the planning committee](https://forms.gle/2nkD7bL5HykcTFfBA)
 * Have questions? Contact us at [summit@openinfra.dev](mailto:summit@openinfra.dev)

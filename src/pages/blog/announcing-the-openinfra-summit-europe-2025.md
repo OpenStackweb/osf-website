@@ -11,11 +11,8 @@ seo:
   title: "Announcing the OpenInfra Summit Europe 2025: Join Us in France!"
   url: https://openinfra.dev/blog/openinfra-summit-2025
   twitterUsername: "@openinfradev"
-  description: We are excited to announce that the **OpenInfra Summit Europe**
-    will take place at **École Polytechnique in Palaiseau, France** on **X–X,
-    202X**! This event will bring together OpenInfra community members from
-    across the globe to collaborate, learn, and drive innovation in open
-    infrastructure.
+  description: We are excited to announce that the OpenInfra Summit Europe will
+    take place at École Polytechnique in Palaiseau, France!
 ---
 We are excited to announce that the **OpenInfra Summit Europe** will take place at **École Polytechnique in Palaiseau, France** on **X–X, 202X**! This event will bring together OpenInfra community members from across the globe to collaborate, learn, and drive innovation in open infrastructure.
 

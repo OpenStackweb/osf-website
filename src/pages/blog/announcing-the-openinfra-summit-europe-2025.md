@@ -24,11 +24,15 @@ The OpenInfra Summit Europe runs on a **community-led model**, ensuring a more *
 
 ## Sign Up for Updates
 
-If you are interested in submitting tot the CFP, sponsoring, or attending the OpenInfra Summit Europe; [please sign up for event notifictaions](<* [https://forms.gle/NucJxVwHy8ZmQypN7](<* https://forms.gle/NucJxVwHy8ZmQypN7>)>)!
+If you are interested in submitting tot the CFP, sponsoring, or attending the OpenInfra Summit Europe; [please sign up for event notifications](<* [https://forms.gle/NucJxVwHy8ZmQypN7](<* https://forms.gle/NucJxVwHy8ZmQypN7>)!
 
 ## Registration & Sponsorship
 
-\[Insert registration pricing model here]
+If you are interested in sponsoring this event, take a look at the sponsorship options, and [sign up to be notified](<* [https://forms.gle/NucJxVwHy8ZmQypN7](<* https://forms.gle/NucJxVwHy8ZmQypN7>)>) when sponsorship opportunities are available and further event details are published.
+
+Prices below are in EUR do not include local taxes.
+
+
 
 \[Insert sponsorship costs and benefits here]
 

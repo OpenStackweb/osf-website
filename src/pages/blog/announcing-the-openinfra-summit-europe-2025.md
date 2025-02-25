@@ -20,7 +20,11 @@ A huge thank you to our associate members at **Télécom Paris, Polytechnic Inst
 
 The OpenInfra Summit Europe runs on a **community-led model**, ensuring a more **accessible, inclusive, and impactful event**. This means that our summit is designed by the community, for the community—allowing us to focus on what truly matters to OpenInfra contributors, users, and organizations.
 
+### **Sign Up for Updates!**
+
 **If you are interested in submitting tot the CFP, sponsoring, or attending the OpenInfra Summit Europe; [please sign up for event notifications](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form)!**
+
+
 
 ### **Sponsorships**
 

@@ -32,6 +32,7 @@ If you want to get involved in the OpenInfra D&I Working Group‘s effort, join 
 
 # OpenInfra Foundation News
 
+* Members from the OpenInfra ecosystem—Canonical, Mirantis, Rackspace, and Wind River—joined Jonathan Bryce on [OpenInfra Live](https://www.youtube.com/live/-ZeXKyV0sW4) to discuss their takeaways from the virtualization market disruption caused by VMware, the role open source communities play, and how their organizations are responding. 
 * OpenInfra Members continue to build on the success of the [VMware Migration Working Group](https://www.openstack.org/vmware-migration-to-openstack). We held our first meeting on Feb 11 and are continuing to meet bi-weekly to develop an even more ambitious publication for 2025. The upcoming VMware Migration Guide will continue to educate the market on the power of open source virtualization as an alternative to single-vendor solutions.
 * The OpenInfra for AI Working Group met for the first time this month in an effort to gather OpenInfra Members to tell the stories of AI workloads running on OpenStack-powered infrastructure. We’ll be working over the coming months to publish these architectures to the broader community and ecosystem. If you have a compelling AI powered by OpenStack story, please reach out to [allison@openinfra.dev](mailto:allison@openinfra.dev) with more details!
 * [New OpenInfra Silver Members](http://openinfra.dev/members)

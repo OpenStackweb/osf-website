@@ -107,10 +107,14 @@ members:
     company: NEC
   - name: Kurt Garloff
     description: >-
-      With Sovereign Cloud Stack (SCS), we have a publicly funded project to build cloud standards, software and operational knowledge. The reference implementation is openly developed open source and contains Linux, kvm,ceph, ovn, OpenStack, Kubernetes, K8s-CAPI along with operational and IAM tooling. The project is carried out in the OSBA and the standardization will continue there in 2025.
+      With Sovereign Cloud Stack (SCS), we have a publicly funded project to
+      build cloud standards, software and operational knowledge. The reference
+      implementation is openly developed open source and contains Linux,
+      kvm,ceph, ovn, OpenStack, Kubernetes, K8s-CAPI along with operational and
+      IAM tooling. The project is carried out in the OSBA and the
+      standardization will continue there in 2025.
 
-      Dec 2018 - Dec 2019, I was responsible for the Cloud and Storage Departments in SUSE R&D.
-      SUSE was a strong OpenStack supporter but then changed direction in ways that I could not support.
+      Dec 2018 - Dec 2019, I was responsible for the Cloud and Storage Departments in SUSE R&D. SUSE was a strong OpenStack supporter but then changed direction in ways that I could not support.
 
       Before SUSE, I was leading the architecture, community and consulting teams in Deutsche Telekom's Open Telekom Cloud Team.
 
@@ -124,7 +128,12 @@ members:
     company: Sovereign Cloud Stack
   - name: ChangBo Guo
     description: >-
-      ChangBo Guo is consulting architect at EasyStack. As founding engineer of EasyStack, he has held various roles, including engineer, product manager, architect, and participated in every aspect from product design to delivery, and online operation. He attended the earliest of large-scale OpenStack adoptions in China, such as Lenovo, Postal Savings Bank of China, China Telecom, State Grid, etc.
+      ChangBo Guo is consulting architect at EasyStack. As founding engineer of
+      EasyStack, he has held various roles, including engineer, product manager,
+      architect, and participated in every aspect from product design to
+      delivery, and online operation. He attended the earliest of large-scale
+      OpenStack adoptions in China, such as Lenovo, Postal Savings Bank of
+      China, China Telecom, State Grid, etc.
 
       He was one of the earliest OpenStack contributors in China. He has been working on the OpenStack since 2012, when he worked on the PowerVM driver under Nova to support IBM Power Systems. He has been contributing several projects like Nova, Neutron, Ironic, Oslo, etc. He was the organizer of China OpenStack user group, and promote OpenStack technologies in several meet-ups in China including Beijing, Xi'an, Chengdu, Shenzhen, etc.  He is also keen to help others learn how to contribute in upstream and delivered presentation about upstream contribution for several companies. He attended several design summits and delivered presentations. He served as track chair of upstream development in Barcelona, Boston and Sydney design summit.
 
@@ -150,7 +159,7 @@ members:
 
 
       Johan sees OpenStack and open source as a whole, as critical for all enterprises in order to provide options and create competition in an ever more centralized infrastructure world. He, and the team at Cleura, empower new types of industries and markets to use the power of OpenStack, to enable and increase innovation in their organizations.
-  - name: Josh Villareal
+  - name: Josh Villarreal
     picture: /img/image002-1.png
     description: Josh Villarreal is a 15-year Racker who has been working in the
       OpenStack arena since the early days of OpenStack at Rackspace.  He is
@@ -181,14 +190,14 @@ members:
       By fostering OpenStack at it’s early days in 2011, it has helped improve the project and our service as a whole. I’ve been a contributor to the project since and I have contributed code to almost every release of OpenStack since then.  I've also served as PTL for Puppet OpenStack, continue to serve as a PTL for OpenStack-Ansible and serve on the technical committee, chairing the committee for a term.
     linkedin: http://linkedin.com/in/mdnaser
   - company: Wind River
-    description: A technology executive with extensive experience in leading
-      complex high technology solutions development, product management,
-      evangelization and team leadership. Entrepreneurial drive and energy
-      combined with deep technical skills used to motivate cross-functional
-      teams and drive products and solutions from concept to production.
-      Experienced and effective at being the voice of the business to industry
-      forums, customers and internal teams. A demonstrated history of business
-      effective product innovation and inventorship.
+    description: A technology executive with extensive experience in leading complex
+      high technology solutions development, product management, evangelization
+      and team leadership. Entrepreneurial drive and energy combined with deep
+      technical skills used to motivate cross-functional teams and drive
+      products and solutions from concept to production. Experienced and
+      effective at being the voice of the business to industry forums, customers
+      and internal teams. A demonstrated history of business effective product
+      innovation and inventorship.
     linkedin: https://www.linkedin.com/in/telecomcto/
     name: Paul Miller
     openStack: https://www.openstack.org/community/members/profile/128770
@@ -250,13 +259,31 @@ members:
   - name: Huaxing Zhang
     title: Gold Director
     company: China Telecom
-    description: 2017, I joined China Telecom and have been working on Cloud & Network infrastructure products since then. In the past years, I used to led a team to design and develop VIM products based on OpenStack and ETSI MANO specifications; and participated in design China Telecom's NFV three-layer decoupling scheme and implemented multiple projects such as 5GC, vIMS, and vBRAS. Our CT Cloud based on OpenStack have been deployed in 31 provinces and maintain upgrading with new Cloud & Network technologies. I believe it is precisely the mutual promotion with the open source community that has helped the industry to grow rapidly. 
+    description: 2017, I joined China Telecom and have been working on Cloud &
+      Network infrastructure products since then. In the past years, I used to
+      led a team to design and develop VIM products based on OpenStack and ETSI
+      MANO specifications; and participated in design China Telecom's NFV
+      three-layer decoupling scheme and implemented multiple projects such as
+      5GC, vIMS, and vBRAS. Our CT Cloud based on OpenStack have been deployed
+      in 31 provinces and maintain upgrading with new Cloud & Network
+      technologies. I believe it is precisely the mutual promotion with the open
+      source community that has helped the industry to grow rapidly.
     openStack: https://openinfra.org/a/community/members/127797
     picture: /img/board/HuaxingZhang.png
   - name: Yulong Liu
     title: Gold Director
     company: China Unicom
-    description: LIU Yulong currently works at China Unicom Cloud for research, development and management for a team of Cloud Networking. He has been engaged in Cloud Computing for more than ten years. He is proficient in the core components of OpenStack, and has a deep understanding of the architecture of Nova and Neutron with the underlying technologies, such as Openvswitch, OpenFlow, SDN, Linux Networking, Libvirt and Qemu/kvm. His past work experience in several famous public clouds has enabled him to have a deep construction of cloud technologies, which also shows his love for Cloud Computing. Since 2019, he has become the core developer of OpenStack Neutron. At present, his main work and research fields are focused on cloud networking, SDN, SmartNIC, DPU and hardware offloading.
+    description: LIU Yulong currently works at China Unicom Cloud for research,
+      development and management for a team of Cloud Networking. He has been
+      engaged in Cloud Computing for more than ten years. He is proficient in
+      the core components of OpenStack, and has a deep understanding of the
+      architecture of Nova and Neutron with the underlying technologies, such as
+      Openvswitch, OpenFlow, SDN, Linux Networking, Libvirt and Qemu/kvm. His
+      past work experience in several famous public clouds has enabled him to
+      have a deep construction of cloud technologies, which also shows his love
+      for Cloud Computing. Since 2019, he has become the core developer of
+      OpenStack Neutron. At present, his main work and research fields are
+      focused on cloud networking, SDN, SmartNIC, DPU and hardware offloading.
     linkedin: https://www.linkedin.com/in/liu-yulong/
     openStack: https://openinfra.org/a/community/members/5508
     picture: /img/board/YulongLIU.png
@@ -264,7 +291,15 @@ members:
     title: Gold Director
     company: T-Systems
     description: >-
-      I started my IT careen in 2000 as the owner of my small business for training solutions in Germany. I provide Linux courses Development trainings in C and Java as well a lot of Infrastructure and collaboration topic like Lotus or Exchange. Later I was joining a hardware manufacture company Fujitsu and become responsible for Fujitsu OpenStack initiative. After servaral years and project me and my team could develop this initiative into a real product. With this entry into Cloud and Linux I followed the open-source path to the cloud world and got part of the OpenStack and OpenInfra family. 
+      I started my IT careen in 2000 as the owner of my small business for
+      training solutions in Germany. I provide Linux courses Development
+      trainings in C and Java as well a lot of Infrastructure and collaboration
+      topic like Lotus or Exchange. Later I was joining a hardware manufacture
+      company Fujitsu and become responsible for Fujitsu OpenStack initiative.
+      After servaral years and project me and my team could develop this
+      initiative into a real product. With this entry into Cloud and Linux I
+      followed the open-source path to the cloud world and got part of the
+      OpenStack and OpenInfra family. 
 
 
       Since 2019 I'm with T-Systems in the role Chief Architect of Open Telekom Cloud (OTC)! 

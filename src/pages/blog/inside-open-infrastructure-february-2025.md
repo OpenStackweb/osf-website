@@ -26,7 +26,7 @@ In addition to education and mentorship, the working group has led efforts to pr
 
 Looking ahead to 2025, the group aims to support the community in implementing and promoting translation efforts and improving the diversity landing page to provide clearer and more accessible information.
 
-If you want to get involved in the OpenInfra D&I Working Group‘s effort and join the working group’s [regular meetings](https://meetings.opendev.org/#Diversity_Working_Group_Meeting) and sign up for the [OpenInfra Foundation mailing list](https://lists.openinfra.dev/mailman3/lists/foundation.lists.openinfra.dev/) for more updates.
+If you want to get involved in the OpenInfra D&I Working Group‘s effort, join the working group’s [regular meetings](https://meetings.opendev.org/#Diversity_Working_Group_Meeting) and sign up for the [OpenInfra Foundation mailing list](https://lists.openinfra.dev/mailman3/lists/foundation.lists.openinfra.dev/) for more updates.
 
 [GET INVOLVED >>](https://openinfra.org/about/diversity)
 

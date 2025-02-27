@@ -48,7 +48,14 @@ const NewsSection = class extends React.Component {
                         <p className="home-v2-paragraph home-v2-paragraph-white">The latest news, technologies, and resources from the OpenInfra Community</p>
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
-                    <div className="news-article-inner-container">
+                        <div className="news-article-inner-container">
+                            <a href="https://www.networkworld.com/article/3834095/starlingx-bridges-ipv4-ipv6-gap-with-dual-stack-networking-support.html"><img src="/img/homeV2/news-images/StarlingX-bridges-IPv4-IPv6-gap.jpg" /></a>
+                            <p className="news-article-intro-text"> Sean Michael Kerner • Feb 27, 2025</p>
+                            <a href="https://www.networkworld.com/article/3834095/starlingx-bridges-ipv4-ipv6-gap-with-dual-stack-networking-support.html"><h3>BStarlingX bridges IPv4-IPv6 gap with dual-stack networking support</h3></a>
+                            <p className="news-article-content">Key features in StarlingX 10.0 include IPv4/IPv6 dual-stack support, a unified software management framework, and a new tool for collecting data about hardware usage in the platform.</p>
+                            <a className="news-article-link" href="https://www.networkworld.com/article/3834095/starlingx-bridges-ipv4-ipv6-gap-with-dual-stack-networking-support.html">READ MORE</a>
+                        </div>
+                        <div className="news-article-inner-container">
                             <a href="https://www.sdxcentral.com/articles/broadcoms-vmware-caas-booted-by-boost-mobile/2024/12/"><img src="/img/homeV2/news-images/Broadcoms-VMware-CaaS-booted-by-Boost-Mobile.jpeg" /></a>
                             <p className="news-article-intro-text"> Dan Meyer • Dec 12, 2024</p>
                             <a href="https://www.sdxcentral.com/articles/broadcoms-vmware-caas-booted-by-boost-mobile/2024/12/"><h3>Broadcom’s VMware CaaS booted by Boost Mobile</h3></a>

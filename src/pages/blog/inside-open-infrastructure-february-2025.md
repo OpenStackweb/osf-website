@@ -6,7 +6,7 @@ date: 2025-02-26T22:35:17.701Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: "Inside Open Infrastructure: February 2025"
   url: https://openinfra.dev/blog/openinfra-newsletter-february-2025

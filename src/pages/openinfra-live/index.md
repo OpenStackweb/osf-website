@@ -25,7 +25,7 @@ episodes:
       River, and will be moderated by  Jonathan Bryce, executive director of the
       OpenInfra Foundation.
     hidden: false
-    date: 2025-02-27T17:00:00.000Z
+    date: 2025-02-27T15:00:00.000Z
     episodeSpeakers: "Moderated by Jonathan Bryce, the panel will feature Paul
       Miller (Wind River), Randy Bias (Mirantis), Josh Villareal (Rackspace) and
       Michael Iatrou (Canonical). "

@@ -51,7 +51,7 @@ const NewsSection = class extends React.Component {
                         <div className="news-article-inner-container">
                             <a href="https://www.networkworld.com/article/3834095/starlingx-bridges-ipv4-ipv6-gap-with-dual-stack-networking-support.html"><img src="/img/homeV2/news-images/StarlingX-bridges-IPv4-IPv6-gap.jpg" /></a>
                             <p className="news-article-intro-text"> Sean Michael Kerner • Feb 27, 2025</p>
-                            <a href="https://www.networkworld.com/article/3834095/starlingx-bridges-ipv4-ipv6-gap-with-dual-stack-networking-support.html"><h3>BStarlingX bridges IPv4-IPv6 gap with dual-stack networking support</h3></a>
+                            <a href="https://www.networkworld.com/article/3834095/starlingx-bridges-ipv4-ipv6-gap-with-dual-stack-networking-support.html"><h3>StarlingX bridges IPv4-IPv6 gap with dual-stack networking support</h3></a>
                             <p className="news-article-content">Key features in StarlingX 10.0 include IPv4/IPv6 dual-stack support, a unified software management framework, and a new tool for collecting data about hardware usage in the platform.</p>
                             <a className="news-article-link" href="https://www.networkworld.com/article/3834095/starlingx-bridges-ipv4-ipv6-gap-with-dual-stack-networking-support.html">READ MORE</a>
                         </div>

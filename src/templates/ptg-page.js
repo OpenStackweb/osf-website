@@ -51,11 +51,11 @@ export const PTGPageTemplate = ({
                 src={
                   (header.date.icon.extension === "svg" ||
                     header.date.icon.extension === "gif") &&
-                  !header.date.icon.childImageSharp
+                    !header.date.icon.childImageSharp
                     ? header.date.icon.publicURL
                     : !!header.date.icon.childImageSharp
-                    ? header.date.icon.childImageSharp.fluid.src
-                    : header.date.icon
+                      ? header.date.icon.childImageSharp.fluid.src
+                      : header.date.icon
                 }
               />{" "}
               {header.date.text}
@@ -65,11 +65,11 @@ export const PTGPageTemplate = ({
                 src={
                   (header.location.icon.extension === "svg" ||
                     header.location.icon.extension === "gif") &&
-                  !header.location.icon.childImageSharp
+                    !header.location.icon.childImageSharp
                     ? header.location.icon.publicURL
                     : !!header.location.icon.childImageSharp
-                    ? header.location.icon.childImageSharp.fluid.src
-                    : header.location.icon
+                      ? header.location.icon.childImageSharp.fluid.src
+                      : header.location.icon
                 }
               />{" "}
               Virtual
@@ -153,6 +153,82 @@ export const PTGPageTemplate = ({
       <main className="main">
         <div className="content">
           <section className="ptg-who">
+            <div className="ptg-container">
+              <div className="ptg-who-teams">
+                <h4 className="title">
+                  The April 2025 Project Teams List is Official!
+                </h4>
+                <p>
+                  If your team was planning to meet and isn't in this list,
+                  please contact{" "}
+                  <a href="mailto:ptg@openinfra.dev">ptg@openinfra.dev</a>
+                </p>
+                <h5>
+                  <b>OpenInfra Foundation Teams</b>
+                </h5>
+                <div class="ptg-who-teams-list">
+                  <ul>
+                    <li>Kata Containers</li>
+                    <li>OpenInfra Diversity and Inclusion Working Group</li>
+                    <li>StarlingX</li>
+                  </ul>
+                </div>
+                <h5>
+                  <b>OpenStack</b>
+                </h5>
+                <div class="ptg-who-teams-multi">
+                  <ul>
+                    <li>
+                      <b className="team">Services</b>
+                      <div class="ptg-who-teams-list">
+                        <ul>
+                          <li>Blazar</li>
+                          <li>Cinder</li>
+                          <li>CloudKitty</li>
+                          <li>Designate</li>
+                          <li>Glance</li>
+                          <li>Heat</li>
+                          <li>Horizon</li>
+                          <li>Ironic</li>
+                          <li>Keystone</li>
+                          <li>Kolla</li>
+                          <li>Manila</li>
+                          <li>Neutron</li>
+                          <li>Nova</li>
+                          <li>Octavia</li>
+                          <li>OpenStack-Ansible</li>
+                          <li>OpenStackSDK/CLI</li>
+                          <li>Sunbeam</li>
+                          <li>Swift</li>
+                          <li>Tacker</li>
+                          <li>Watcher</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <b className="team">Other OpenStack Teams</b>
+                      <div class="ptg-who-teams-list">
+                        <ul>
+                          <li>Eventlet Removal</li>
+                          <li>i18n SIG</li>
+                          <li>OpenStack for AI Working Group</li>
+                          <li>OpenStack Security SIG</li>
+                          <li>OpenStack Technical Committee</li>
+                          <li>Public Cloud SIG</li>
+                          <li>VMware Migration Working Group</li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <h5>Adjacent Open Source Communities</h5>
+                <div class="ptg-who-teams-list">
+                  <ul>
+                    <li>OceanBase</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
             <div className="ptg-container">
               <div className="ptg-who-boxes">
                 <div className="should">

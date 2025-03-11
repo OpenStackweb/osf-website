@@ -9,7 +9,7 @@ category:
 hidePost: true
 seo:
   title: "15 Years with OpenStack: Why I’m Excited for OpenInfra’s Next Chapter"
-  url: openinfra-next-chapter
+  url: https://openinfra.dev/blog/openinfra-linux-foundation-collaboration
   twitterUsername: "@openinfradev"
   description: The OpenInfra Foundation Board has voted to take the next steps in
     joining forces with the Linux Foundation.

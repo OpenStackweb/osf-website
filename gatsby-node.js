@@ -542,6 +542,20 @@ exports.createSchemaCustomization = ({actions}) => {
       nominationCloses: Int
       nominationApplicationDeadline: Int
     }
+    type CandidateDataMember implements Node {
+      id: ID!
+      first_name: String!
+      last_name: String!
+      pic: String
+      bio: String
+    }
+    type GoldCandidateDataMember implements Node {
+      id: ID!
+      first_name: String!
+      last_name: String!
+      pic: String
+      bio: String
+    }
     `
   createTypes(typeDefs)
 }

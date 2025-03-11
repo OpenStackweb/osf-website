@@ -14,7 +14,7 @@ seo:
   description: The OpenInfra Foundation Board has voted to take the next steps in
     joining forces with the Linux Foundation.
 ---
-By now you may have heard the news \[LINK]: The OpenInfra Foundation Board has voted to take the next steps in joining forces with the Linux Foundation. As one who was there when the OpenInfra Foundation was formed (originally as the OpenStack Foundation), this is an exciting moment, and I couldn’t be more optimistic about what’s ahead.
+By now you may have heard the news \[LINK]: The OpenInfra Foundation Board has voted to take the next steps in joining forces with the Linux Foundation. As one who helped create the OpenInfra Foundation (originally as the OpenStack Foundation), this is an exciting moment, and I couldn’t be more optimistic about what’s ahead.
 
 This move, unanimously approved by both boards, represents a natural evolution in how we collaborate across the open source infrastructure ecosystem. For those of us who have been part of OpenInfra’s journey from the beginning, this is more than just an organizational shift—it’s a recognition of how open source is built today and what’s needed to keep it thriving in the future.
 

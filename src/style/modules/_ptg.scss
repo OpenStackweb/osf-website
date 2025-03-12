@@ -44,7 +44,7 @@
         width: 198px;
         img {
           filter: invert(61%) sepia(5%) saturate(90%) hue-rotate(315deg)
-              brightness(84%) contrast(86%);
+            brightness(84%) contrast(86%);
         }
       }
     }
@@ -72,7 +72,7 @@
         width: 50%;
         position: relative;
         &:after {
-          content: '';
+          content: "";
           right: 35px;
           top: 10%;
           height: 80%;
@@ -90,7 +90,7 @@
           width: 100%;
           margin-bottom: 20px;
           &:after {
-            content: '';
+            content: "";
             right: unset;
             bottom: -25px;
             left: 0;
@@ -156,7 +156,8 @@
           color: #888;
           border: 2px solid #888;
           img {
-            filter: invert(61%) sepia(5%) saturate(90%) hue-rotate(315deg) brightness(84%) contrast(86%) !important;
+            filter: invert(61%) sepia(5%) saturate(90%) hue-rotate(315deg)
+              brightness(84%) contrast(86%) !important;
           }
           &:hover {
             background-color: #888;
@@ -198,7 +199,7 @@
         width: 198px;
         img {
           filter: invert(61%) sepia(5%) saturate(90%) hue-rotate(315deg)
-              brightness(84%) contrast(86%);
+            brightness(84%) contrast(86%);
         }
       }
     }
@@ -220,7 +221,7 @@
   }
 }
 .ptg-who {
-  background: #F3F3F3;
+  background: #f3f3f3;
   padding: 60px 120px;
   color: black;
   position: relative;
@@ -237,6 +238,17 @@
       font-family: "Jura", "Roboto", sans-serif;
       margin-top: 26px;
       text-transform: none;
+    }
+    .ptg-who-teams-multi {
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+        .team {
+          margin-bottom: 15px;
+          display: inline-block;
+        }
+      }
     }
     .ptg-who-teams-list {
       ul {
@@ -307,7 +319,8 @@
       }
     }
   }
-  .should, .shouldnot {
+  .should,
+  .shouldnot {
     display: flex;
     flex-direction: column;
     flex-basis: auto;
@@ -337,17 +350,17 @@
   }
   .should {
     .top {
-      border-color: #45B65C;
+      border-color: #45b65c;
       h4 {
-        color: #45B65C;
+        color: #45b65c;
       }
     }
   }
   .shouldnot {
     .top {
-      border-color: #EC3830;
+      border-color: #ec3830;
       h4 {
-        color: #EC3830;
+        color: #ec3830;
       }
     }
   }
@@ -383,21 +396,21 @@
 }
 
 .ptg-description-link {
-  color: #E61E24;
+  color: #e61e24;
   text-decoration: underline;
   &:hover {
-    color: #E61E24;
+    color: #e61e24;
   }
 }
 
 .ptg-header {
   .location {
     a {
-      color: #E61E24;
+      color: #e61e24;
       text-decoration: underline;
       text-underline-offset: 3px;
       span {
-        color: #E61E24;
+        color: #e61e24;
         font-size: 14px;
         text-decoration: underline;
         text-decoration-thickness: 2px;
@@ -434,7 +447,7 @@
   @media screen and (min-width: 1400px) {
     max-width: 1170px;
     margin: 0 auto;
-  } 
+  }
 }
 
 .subnav-bar-ptg {

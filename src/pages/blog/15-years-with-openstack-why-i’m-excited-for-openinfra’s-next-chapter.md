@@ -6,7 +6,7 @@ date: 2025-03-12T13:15:41.306Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: "15 Years with OpenStack: Why I’m Excited for OpenInfra’s Next Chapter"
   url: https://openinfra.org/blog/openinfra-linux-foundation-collaboration

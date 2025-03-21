@@ -9,7 +9,7 @@ const ContactUsBanner = ({ text, contactLink }) => {
       <div className={styles.wrapper}>
         <img src="/img/apple-touch-icon.png" alt="img" />
         <span>{text}</span>
-        <LinkComponent href={contactLink}>Contact us</LinkComponent>
+        <LinkComponent href={contactLink}>Interest Survey</LinkComponent>
       </div>
     </div>
   );

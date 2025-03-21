@@ -40,29 +40,38 @@ If you are interested in sponsoring this event, take a look at the sponsorship o
 
 ### **Registration**
 
-If you are interested in sponsoring this event, take a look at the sponsorship options, and [](<* [https://forms.gle/NucJxVwHy8ZmQypN7](<* https://forms.gle/NucJxVwHy8ZmQypN7>)[sign up to be notified](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form) when registartion open and further event details are published.
+If you are interested in sponsoring this event, take a look at the sponsorship options, and [](<* [https://forms.gle/NucJxVwHy8ZmQypN7](<* https://forms.gle/NucJxVwHy8ZmQypN7>)[sign up to be notified](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form) when registration opens and further event details are published.
 
 *Prices below are in EUR unless noted otherwise and include local taxes.*
 
-| **Early Bird**          | €50  |
+| **Early Bird**          | €60  |
 | ----------------------- | ---- |
-| **Mid Bird**            | €150 |
-| **Late Bird**           | €300 |
-| **Onsite**              | €500 |
-| **Students/Non-Profit** | €20  |
+| **Mid Bird**            | €125 |
+| **Late Bird**           | €250 |
+| **Onsite**              | €400 |
+| **Students/Non-Profit** | €25  |
 
 *\* Contact [ecosystem@openinfra.dev](mailto:ecosystem@openinfra.dev) if you'd like more information about OpenInfra Foundation Membership.*
 
 ### **Get Involved in Planning the OpenInfra Summit**
 
-The **Summit Planning Committee** is open to **anyone** from the OpenInfra community who wants to help shape this event. We will be hosting our first meeting soon, and we invite all interested members to **join us in crafting an unforgettable experience**.
+The **OpenInfra Summit Planning Committee** is open to **anyone** from the OpenInfra community who wants to help shape this event. The OpenInfra planning committee is currently recruiting folks who would like to volunteer for:
 
-If you want to be part of the **Summit Planning Committee**, fill out [this form](https://forms.gle/U7mbkY5QoJy2g7XdA).
+* Programing Committee (Assisting in the schedule and CFP process)
+* Sponsor Committee (Assisting in the sponsor recruit process)
+* Tourism Committee (Assists with travel and tourism information development)
+* Marketing Committee (Assists with event promotion, developing graphics, media coordination)
+* Student Engagement Committee (Asissts with student engagment activities)
+* Onsite Volunteers (Assists with room proctoring, registration desk, and other to-be-determined tasks)
+
+If you are interested in joining the planning committee please reach out to [helena@openinfra.dev](mailto:helena@openinfra.dev)
+
+The programming committee will have its first meeting on Thursday, March 27. To join this meeting please reach out to [helena@openinfra.dev](mailto:helena@openinfra.dev)
 
 Stay tuned for more details on speakers, sessions, and activities. We can't wait to see you in France!
 
 ### **Important Links**
 
 * [Signup for event notifications](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form)
-* [Signup to join the planning committee](https://forms.gle/2nkD7bL5HykcTFfBA)
+* Want to join the planning committee? Contact [helena@openinfra.dev](mailto:helena@openinfra.dev)
 * Have questions? Contact us at [summit@openinfra.dev](mailto:summit@openinfra.dev)

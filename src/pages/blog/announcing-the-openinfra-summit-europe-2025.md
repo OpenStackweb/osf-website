@@ -14,9 +14,9 @@ seo:
   description: We are excited to announce that the OpenInfra Summit Europe will
     take place at École Polytechnique in Palaiseau, France!
 ---
-We are excited to announce that the **OpenInfra Summit Europe** will take place at **École Polytechnique in Palaiseau, France** on **October 17-19, 2025**! This event will bring together OpenInfra community members from across the globe to collaborate, learn, and drive innovation in open infrastructure.
+We are excited to announce that the **OpenInfra Summit Europe** will take place at **École Polytechnique Campus in Palaiseau, France** on **October 17-19, 2025**! This event will bring together OpenInfra community members from across the globe to collaborate, learn, and drive innovation in open infrastructure.
 
-A huge thank you to our associate members at **Télécom Paris, Polytechnic Institute of Paris** for supporting this incredible partnership, helping us bring the OpenInfra Summit to such a prestigious location.
+A huge thank you to our associate members at **Télécom Paris** for supporting this incredible partnership, helping us bring the OpenInfra Summit to such a prestigious location.
 
 The OpenInfra Summit Europe runs on a **community-led model**, ensuring a more **accessible, inclusive, and impactful event**. This means that our summit is designed by the community, for the community—allowing us to focus on what truly matters to OpenInfra contributors, users, and organizations.
 

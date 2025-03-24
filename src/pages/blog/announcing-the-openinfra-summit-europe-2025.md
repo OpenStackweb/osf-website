@@ -16,7 +16,7 @@ seo:
 ---
 We are excited to announce that the **OpenInfra Summit Europe** will take place at **École Polytechnique in Palaiseau, France** on **October 17-19, 2025**! This event will bring together OpenInfra community members from across the globe to collaborate, learn, and drive innovation in open infrastructure.
 
-A huge thank you to our associate members at **Télécom Paris, Polytechnic Institute of Paris** for instigating this incredible partnership, helping us bring the OpenInfra Summit to such a prestigious location.
+A huge thank you to our associate members at **Télécom Paris, Polytechnic Institute of Paris** for supporting this incredible partnership, helping us bring the OpenInfra Summit to such a prestigious location.
 
 The OpenInfra Summit Europe runs on a **community-led model**, ensuring a more **accessible, inclusive, and impactful event**. This means that our summit is designed by the community, for the community—allowing us to focus on what truly matters to OpenInfra contributors, users, and organizations.
 
@@ -40,7 +40,7 @@ If you are interested in sponsoring this event, take a look at the sponsorship o
 
 ### **Registration**
 
-If you are interested in sponsoring this event, take a look at the sponsorship options, and [](<* [https://forms.gle/NucJxVwHy8ZmQypN7](<* https://forms.gle/NucJxVwHy8ZmQypN7>)[sign up to be notified](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form) when registration opens and further event details are published.
+[Sign up to be notified](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form) when registration opens and further event details are published.
 
 *Prices below are in EUR unless noted otherwise and include local taxes.*
 
@@ -51,7 +51,7 @@ If you are interested in sponsoring this event, take a look at the sponsorship o
 | **Onsite**              | €400 |
 | **Students/Non-Profit** | €25  |
 
-*\* Contact [ecosystem@openinfra.dev](mailto:ecosystem@openinfra.dev) if you'd like more information about OpenInfra Foundation Membership.*
+*\* The deadlines for registartion will be announced when registartion opens*
 
 ### **Get Involved in Planning the OpenInfra Summit**
 

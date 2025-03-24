@@ -52,7 +52,7 @@ If you are interested in sponsoring this event, take a look at the sponsorship o
 | **Onsite**              | €400 |
 | **Students/Non-Profit** | €25  |
 
-*\* The deadlines for registartion will be announced when registartion opens*
+*\* The deadlines for registration will be announced when registration opens*
 
 ### **Get Involved in Planning the OpenInfra Summit**
 
@@ -62,7 +62,7 @@ The **OpenInfra Summit Planning Committee** is open to **anyone** from the OpenI
 * Sponsor Committee (Assisting in the sponsor recruit process)
 * Tourism Committee (Assists with travel and tourism information development)
 * Marketing Committee (Assists with event promotion, developing graphics, media coordination)
-* Student Engagement Committee (Asissts with student engagment activities)
+* Student Engagement Committee (Assists with student engagement activities)
 * Onsite Volunteers (Assists with room proctoring, registration desk, and other to-be-determined tasks)
 
 If you are interested in joining the planning committee please reach out to [helena@openinfra.dev](mailto:helena@openinfra.dev)

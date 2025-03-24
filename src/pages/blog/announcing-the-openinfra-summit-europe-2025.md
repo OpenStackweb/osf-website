@@ -76,5 +76,4 @@ Stay tuned for more details on speakers, sessions, and activities. We can't wait
 * [Signup for event notifications](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form)
 * Want to join the planning committee? Contact [helena@openinfra.dev](mailto:helena@openinfra.dev)
 * Have questions? Contact us at [summit@openinfra.dev](mailto:summit@openinfra.dev)
-
-  Contact [ecosystem@openinfra.dev](mailto:ecosystem@openinfra.dev) for more information about OpenInfra Foundation Membership
+* Contact [ecosystem@openinfra.dev](mailto:ecosystem@openinfra.dev) for more information about OpenInfra Foundation Membership

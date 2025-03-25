@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Announcing the OpenInfra Summit Europe 2025!
 author: Allison Price
-date: 2025-03-05T15:00:42.111Z
+date: 2025-03-25T16:14:37.663Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements

@@ -70,8 +70,9 @@ export const UPPPageTemplate = ({
         <div className="content">
           <HowItWorks />
           <ContactUsBanner
-            text="Interested in establishing a University Partnership Program?"
-            contactLink="https://openinfrafoundation.formstack.com/forms/university_partnership_program_interest"
+            text="Interested in the University Partnership Program?"
+            buttonLink="mailto:community@openinfra.dev"
+            buttonText="Interest Survey"
           />
           <Benefits />
           <FindOutMore />

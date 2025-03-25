@@ -6,7 +6,7 @@ date: 2025-03-05T15:00:42.111Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: "Announcing the OpenInfra Summit Europe 2025: Join Us in France!"
   url: https://openinfra.dev/blog/openinfra-summit-2025

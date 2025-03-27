@@ -238,3 +238,8 @@
   to = "https://openinfra.org/:splat"
   status = 301
   force = true
+[[redirects]]
+  from = "/blueprint"
+  to = "/open-infrastructure-blueprint-white-paper"
+  status = 301
+  force = true

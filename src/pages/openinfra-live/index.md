@@ -14,6 +14,26 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     14:00 UTC (9am CT)</strong>."
 episodes:
+  - hidden: true
+    date: 2025-04-03T14:00:00.000Z
+    episodeTitle: Introducing OpenStack 2025.1 Epoxy
+    youtubeLink: https://www.youtube.com/watch?v=qX2-8oyFVPk
+    youtubeEmbed: https://www.youtube.com/embed/qX2-8oyFVPk?si=inIRGM7cTuTgkxYx
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:7311474080392589312/
+    episodeSpeakers: |-
+      Jeremy Stanley, Host
+      Goutham Pacha Ravi, OpenStack Technical Committee
+      Carlos Silva, Manila
+      Sylvain Bauza, Nova
+      Riccardo Pittau, Ironic
+    episodeDescription: >
+      Around 450 contributors from organizations, including BBC R&D, Blizzard
+      Entertainment, Canonical, Cleura, Ericsson, Mirantis, NVIDIA, Ericsson,
+      Rackspace, Red Hat, and Samsung SDS built OpenStack 2025.1 'Epoxy',
+      delivering over 7,600 changes and widespread maintenance updates. 
+
+
+      Learn about some of the features delivered and community progress as well as plans for OpenStack 2025.2 'Flamingo.'
   - facebookLink: ""
     episodeDescription: A year ago, Broadcom’s acquisition of VMware disrupted the
       global virtualization market where VMware previously held 40% market

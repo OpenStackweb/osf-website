@@ -14,7 +14,7 @@ hero:
     every episode on several streaming platforms, airing <strong>Thursdays at
     14:00 UTC (9am CT)</strong>."
 episodes:
-  - hidden: true
+  - hidden: false
     date: 2025-04-03T14:00:00.000Z
     episodeTitle: Introducing OpenStack 2025.1 Epoxy
     youtubeLink: https://www.youtube.com/watch?v=qX2-8oyFVPk

@@ -10,7 +10,7 @@ import HeaderImage from "../components/HeaderImage";
 import SponsorBanner from "../components/SponsorBanner";
 import SubHeader from "../components/SubHeader";
 import PreviousSummits from "../components/PreviousSummits";
-import CommunityEvents from "../components/CommunityEvents";
+import PastSummits from "../components/PastSummits";
 import UpcomingSummits from "../components/UpcomingSummits";
 import MeetupBanner from "../components/MeetupBanner";
 import BottomBanner from "../components/BottomBanner";
@@ -41,11 +41,13 @@ export const SummitLandingPageTemplate = ({
           logo={{ src: logo, alt: "Openinfra logo" }}
         />
         <SubHeader />
-        <UpcomingSummits title={"Past OpenInfra Summits"} />
+        <UpcomingSummits title={"Upcoming OpenInfra Summit"} />
+        <PastSummits title={"Past OpenInfra Summits"} />
         <MiddleBanner
           title={"inclusive. diverse. open"}
           text={`We are a diverse community of professionals, and the OpenInfra Summit organizers are dedicated to providing an 
-          inclusive and safe Summit experience for everyone. View the <a href="/legal/code-of-conduct">OpenInfra Summit Code of Conduct</a> for more information.<br/><br/>The OpenInfra Foundation’s Travel Support Program facilitates participation of key contributors to OpenInfra events by covering the costs for their travel and accommodation. If you are a key contributor to a project supported by the OpenInfra Foundation and your company does not cover the costs of your travel and accommodation to the event, you can apply for the Travel Support Program. The deadline to <a href="https://openinfrafoundation.formstack.com/forms/openinfra_tsp" target="_blank">apply for the OpenInfra Summit Asia</a> is May 29, 2024.`}
+          inclusive and safe Summit experience for everyone. View the <a href="/legal/code-of-conduct">OpenInfra Summit Code of Conduct</a> for more information.<br/><br/>The OpenInfra Foundation’s Travel Support Program facilitates the participation of key contributors to OpenInfra events by covering the costs for their travel and accommodation. If you are a key contributor to a project supported by the OpenInfra Foundation and your company does not cover the costs of your travel and accommodation to the event, you can apply for the Travel Support Program. The applications will be opening soon.<br/><br/>
+          Want to support the OpenInfra Travel Support Program? <a href="https://donate.stripe.com/8wMbLU6Qh8v8fVC9AE">Donations</a> made are directly used to fund active contributors to OpenInfra events around the world.`}
           image={"/img/summit-landing/middle-banner/middle-banner-1.png"}
           imageFirst={false}
         />
@@ -58,7 +60,6 @@ export const SummitLandingPageTemplate = ({
         />
         <SponsorBanner />
         <MeetupBanner />
-        <CommunityEvents />
         <PreviousSummits />
         <BottomBanner
           title={`

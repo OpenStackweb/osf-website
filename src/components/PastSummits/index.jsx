@@ -4,17 +4,17 @@ import "./styles.scss";
 
 import SummitCard from "../SummitCard";
 
-const UPCOMING_SUMMITS = [
+const PAST_SUMMITS = [
   {
-    key: "europe-25",
-    background: "",
-    date: "October 17-19, 2025",
-    location: "École Polytechnique, Paris-Saclay, France",
+    key: "asia-24",
+    background: "/img/summit-landing/cards/summit-asia.png",
+    date: "September 3 & 4, 2024",
+    location: "Suwon Convention Center, Suwon, South Korea",
     notification: {
       text: " ",
       button: {
         link:
-          "#",
+          "https://2024.openinfraasia.org",
         text: "Learn More",
       },
     },
@@ -28,11 +28,11 @@ const UPCOMING_SUMMITS = [
   // }
 ];
 
-const UpcomingSummits = ({ title }) => {
+const PastSummits = ({ title }) => {
   return (
     <div className="container upcoming-summits-wrapper">
       {title && <div className="upcoming-summits-title">{title}</div>}
-      {UPCOMING_SUMMITS.map((summit) => (
+      {PAST_SUMMITS.map((summit) => (
         <SummitCard
           key={summit.key}
           background={summit.background}
@@ -43,4 +43,4 @@ const UpcomingSummits = ({ title }) => {
   );
 };
 
-export default UpcomingSummits;
+export default PastSummits;

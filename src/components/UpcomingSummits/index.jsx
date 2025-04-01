@@ -7,7 +7,7 @@ import SummitCard from "../SummitCard";
 const UPCOMING_SUMMITS = [
   {
     key: "europe-25",
-    background: "",
+    background: "/img/summit-landing/cards/summit-europe-25-2.png",
     date: "October 17-19, 2025",
     location: "École Polytechnique, Paris-Saclay, France",
     notification: {

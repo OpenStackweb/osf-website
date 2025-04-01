@@ -14,7 +14,7 @@ const UPCOMING_SUMMITS = [
       text: " ",
       button: {
         link:
-          "#",
+          "https://summit2025.openinfra.org",
         text: "Learn More",
       },
     },

@@ -48,6 +48,13 @@ const NewsSection = class extends React.Component {
                         <p className="home-v2-paragraph home-v2-paragraph-white">The latest news, technologies, and resources from the OpenInfra Community</p>
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
+                    <div className="news-article-inner-container">
+                            <a href="https://www.theregister.com/2025/04/03/openstack_epoxy_released/"><img src="/img/homeV2/news-images/theregister-epoxy.png" /></a>
+                            <p className="news-article-intro-text"> Simon Sharwood • Apr 03, 2025</p>
+                            <a href="https://www.theregister.com/2025/04/03/openstack_epoxy_released/"><h3>OpenStack delivers ‘Epoxy’ release, which it hopes will unglue more VMware customers</h3></a>
+                            <p className="news-article-content">The OpenInfra Foundation has delivered a new version of OpenStack named “Epoxy” and thinks it’s an even better option for those seeking a VMware alternative.</p>
+                            <a className="news-article-link" href="https://www.theregister.com/2025/04/03/openstack_epoxy_released/">READ MORE</a>
+                        </div>
                         <div className="news-article-inner-container">
                             <a href="https://www.networkworld.com/article/3834095/starlingx-bridges-ipv4-ipv6-gap-with-dual-stack-networking-support.html"><img src="/img/homeV2/news-images/StarlingX-bridges-IPv4-IPv6-gap.jpg" /></a>
                             <p className="news-article-intro-text"> Sean Michael Kerner • Feb 27, 2025</p>

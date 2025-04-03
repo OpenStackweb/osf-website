@@ -3,6 +3,14 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2025-04-03T14:55:18.723Z",
+      "site": "The Register",
+      "link": "https://www.theregister.com/2025/04/03/openstack_epoxy_released/",
+      "title": "OpenStack delivers ‘Epoxy’ release, which it hopes will unglue more VMware customers"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2025-03-14T19:47:40.830Z",
       "title": "Consortium Driving OpenStack to Become Arm of The Linux Foundation",
       "site": "DevOps",

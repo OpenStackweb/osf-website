@@ -71,7 +71,7 @@ export const UPPPageTemplate = ({
           <HowItWorks />
           <ContactUsBanner
             text="Interested in the University Partnership Program?"
-            buttonLink="mailto:community@openinfra.dev"
+            buttonLink="https://openinfrafoundation.formstack.com/forms/university_partnership_program_interest"
             buttonText="Interest Survey"
           />
           <Benefits />

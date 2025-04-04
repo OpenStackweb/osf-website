@@ -14,7 +14,7 @@ const PAST_SUMMITS = [
       text: " ",
       button: {
         link:
-          "https://2024.openinfraasia.org",
+          "https://youtube.com/playlist?list=PLKqaoAnDyfgqjY-vzt45oayXLa4aLpMRU&feature=shared",
         text: "Learn More",
       },
     },

@@ -53,7 +53,7 @@ export const SummitLandingPageTemplate = ({
         />
         <MiddleBanner
           title={"have questions?"}
-          text={`Contact the Openinfra Foundation and OpenInfra Summit Asia organizers.`}
+          text={`Contact the Openinfra Foundation and OpenInfra Summit organizers.`}
           button={{ text: "Contact us", link: "mailto:summit@openinfra.dev" }}
           image={"/img/summit-landing/middle-banner/middle-banner-2.png"}
           imageFirst={true}

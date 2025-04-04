@@ -34,21 +34,21 @@ const OpenInfraEventsSection = () => {
 
     const UpcomingEventsData = [
         {
-            image: '/img/homeV2/events-images/openinfra-asia-img.png',
-            date: 'COMPLETED: September 3-4, 2024',
-            location: 'Suwon, South Korea',
+            image: '/img/homeV2/events-images/openinfra-europe-img.png',
+            date: 'October 17-19, 2025',
+            location: 'École Polytechnique, Paris-Saclay, France',
             button: {
                 link: 'https://openinfra.dev/summit',
-                text: 'openinfra.dev/summit'
+                text: 'OpenInfra Summit Europe'
             }
         },
         {
-            image: '/img/homeV2/events-images/openinfra-europe-img.png',
-            date: 'COMPLETED: May and June, 2024',
-            location: 'Budapest, Hungary • Gothenburg, Sweden • Berlin, Germany • Istanbul, Türkiye • Palaiseau, France',
+            image: '/img/homeV2/events-images/openinfra-asia-img.png',
+            date: 'July - September 2025',
+            location: 'Hanoi ● Ho Chi Minh City ● Yogyakarta ● Seoul ● Taipei ● Shanghai ● Tokyo',
             button: {
                 link: 'https://openinfra.dev/days',
-                text: 'openinfra.dev/DAYS'
+                text: 'OpenInfra Days Asia'
             }
         }
     ]
@@ -88,7 +88,7 @@ const OpenInfraEventsSection = () => {
                                 <RoundedButton hasArrowIcon={false} link={event.button.link} text={event.button.text} className="upcoming-event-button" />
                             </div>
                         )
-                    })}                    
+                    })}
                 </div>
 
             </div>

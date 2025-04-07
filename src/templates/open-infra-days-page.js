@@ -8,14 +8,62 @@ import NavbarV2 from "../components/NavbarV2";
 import SEO from "../components/SEO";
 import MeetupBanner from "../components/MeetupBanner";
 import BottomBanner from "../components/BottomBanner";
-import SpecialEditionSection from "../components/SpecialEditionSection";
-import UpcomingSummits from "../components/UpcomingSummits";
 import ImageOnlyHeader from "../components/ImageOnlyHeader";
 import SubHeaderDays from "../components/SubHeaderDays";
 import MoreEventsSection from "../components/MoreEventsSection";
+import OpeninfraDaysAgenda from "../components/OpeninfraDaysAgenda";
 import OpenInfraDays from "../components/OpeninfraDays";
-
 import hero from '../../static/img/openinfra-days/openinfra-days-header.png';
+import UpcomingSummits from "../components/UpcomingSummits";
+
+const upcomingItemsEurope = [
+  { title: "Stockholm, Sweden",
+    date: "October 17-19, 2025",
+    location: "École Polytechnique, Paris-Saclay, France.",
+    registration: '<a href="https://www.meetup.com/openinfra-user-group-sweden/events/306139678/ " target="_blank">LINK</a>'
+  },
+];
+
+const upcomingItemsAsia = [
+  { title: "OpenInfra Days Vietnam",
+    date: "June & July 2025",
+    location: "Hanoi & Ho Chi Minh City, VN",
+    registration: '<a href="https://docs.google.com/forms/d/e/1FAIpQLSc99Cuh4U7JXYmUqkv74jjz_Fq984Q_YP-HKAv8hiad62AWrA/viewform" target="_blank">The CFP closes June 15</a>',
+    sponsor: '<a href="https://tinyurl.com/VOI2025" target="_blank">Sponsor this event</a>'
+  },
+  {
+    title: "OpenInfra Days Indonesia",
+    date: "More info coming soon!",
+    location: "Yogyakarta, ID",
+    coming_soon: "More info coming soon!"
+  },
+  { title: "OpenInfra Days Korea",
+    date: "August 26th, 2025",
+    location: "Seoul, KR",
+    coming_soon: "More Info coming soon!"
+  },
+  { title: "OpenInfra Days Taipei",
+    coming_soon: "More info coming soon!",
+  },
+  { title: "OpenInfra Days Shanghai",
+    coming_soon: "More info coming soon!",
+  },
+  {
+    title: "Cloud Operator Days Tokyo",
+    date: "July 2025 (Online Sessions Available), Sept 5, 2025 (Closing Ceremony)",
+    location: "Tokyo, JP",
+    registration: '<a href="https://docs.google.com/forms/d/e/1FAIpQLSejRuQZvcWa0QDIcz01yP1DscVOrtPYPYHP2T0os0wUDx-LCg/viewform" target="_blank">The CFP closes April 30</a>',
+    sponsor: '<a href="https://cloudopsdays.com/wp-content/uploads/2025/03/CODT2025_sponsorship_en.pdf" target="_blank">Sponsor this event</a>'
+  },
+];
+
+const upcomingMeetups = [
+  { background: '/img/openinfra-days/openinfra-days-cards/sweden-meetup.png', name: 'Sweden', date: 'May 22, 2025', location: 'Stockholm, Sweden', link: 'https://www.meetup.com/openinfra-user-group-sweden/events/306139678/'},
+];
+
+const pastMeetups = [
+  { background: '/img/openinfra-days/openinfra-days-cards/oid-pasadena.png', name: 'North America', date: 'March 6 & 7, 2025', location: 'Pasadena, California', link: 'https://www.youtube.com/live/W9OmGdtJAAE?si=OO_WjYr7A6ktAv5A '},
+]
 
 export const OpenInfraDaysPageTemplate = ({
                                           isLoggedUser,
@@ -32,12 +80,17 @@ export const OpenInfraDaysPageTemplate = ({
         <main className="main">
           <div className="content">
             <ImageOnlyHeader backgroundImage={hero} />
-            <SubHeaderDays />
-            <OpenInfraDays title="OpenInfra Days" />
-            <SpecialEditionSection />
+            <SubHeaderDays button={{text: "Check out upcoming events", link: "#upcoming-events"}} />
+            <OpeninfraDaysAgenda
+              title={<><span className="red">Upcoming</span><br />Openinfra Days</>}
+              items={upcomingItemsAsia}
+              learnMoreLink="https://openinfra.asia/"
+            />
+            <OpenInfraDays title="Upcoming meetups" events={upcomingMeetups} />
             <MeetupBanner />
+            <OpenInfraDays title="Past Openinfra Days" events={pastMeetups} />
             <MoreEventsSection />
-            {/* <UpcomingSummits /> */}
+            <UpcomingSummits />
             <BottomBanner
               title={'Interested in becoming<br/>a Community Organizer?<br/>Contact us at <a href="mailto:events@openinfra.dev">events@openinfra.dev</a>'}
               button={{link: 'mailto:events@openinfra.dev', text: 'Events Contact'}}

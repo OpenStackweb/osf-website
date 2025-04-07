@@ -11,7 +11,7 @@ const SummitCard = ({
   background,
   summit,
   cardStyles,
-  link = "https://2024.openinfraasia.org",
+  link = "https://summit2025.openinfra.org",
 }) => {
   if (!summit) return null;
 

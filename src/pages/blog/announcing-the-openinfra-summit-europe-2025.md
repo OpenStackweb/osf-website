@@ -44,13 +44,13 @@ If you are interested in sponsoring this event, take a look at the sponsorship o
 
 *Prices below are in EUR unless noted otherwise and include local taxes.*
 
-| **Deadline**            | Price |
-| ----------------------- | ----- |
-| **Early Bird**          | €60   |
-| **Mid Bird**            | €125  |
-| **Late Bird**           | €250  |
-| **Onsite**              | €400  |
-| **Students/Non-Profit** | €25   |
+| **Deadline**   | Price |
+| -------------- | ----- |
+| **Early Bird** | €60   |
+| **Mid Bird**   | €125  |
+| **Late Bird**  | €250  |
+| **Onsite**     | €400  |
+| **Students**   | €25   |
 
 *\* The deadlines for registration will be announced when registration opens*
 

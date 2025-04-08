@@ -10,6 +10,7 @@ const UPCOMING_SUMMITS = [
     background: "/img/summit-landing/cards/summit-europe-25-2.png",
     date: "October 17-19, 2025",
     location: "École Polytechnique, Paris-Saclay, France",
+    link: "https://summit2025.openinfra.org",
     notification: {
       text: " ",
       button: {
@@ -36,6 +37,7 @@ const UpcomingSummits = ({ title }) => {
         <SummitCard
           key={summit.key}
           background={summit.background}
+          link={summit.link}
           summit={summit}
         />
       ))}

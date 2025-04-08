@@ -1,37 +1,45 @@
-import React from 'react'
-import PropTypes from "prop-types"
-import { Link } from 'gatsby'
-import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import * as React from "react";
+import PropTypes from "prop-types";
+import { Link } from "gatsby";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 
-const LinkComponent = class extends React.Component {
-  render() {
-
-    let { href, children, className, id, ...rest } = this.props;
-
-    if(href.match(/^(http:\/\/|https:\/\/|www\.)/)){
-      return (
-        <OutboundLink href={href} id={id} className={className} target="_blank" rel="noopener noreferrer" {...rest}>
-          {children}
-        </OutboundLink>
-      )
-    } else if (href.match(/mailto:/)){
-      return (
-        <a href={href} id={id} className={className} {...rest}>
-          {children}
-        </a>
-      )
-    } else {
-      return (
-        <Link to={href} id={id} className={className} {...rest}>
-          {children}
-        </Link>
-      )
-    }    
+const LinkComponent = ({ href, children, ...rest }) => {
+  if (!href) {
+    // render children directly if no href is provided
+    return <>{children}</>;
   }
-}
+
+  if (/^(http:\/\/|https:\/\/|www\.)/.test(href)) {
+    return (
+      <OutboundLink
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        {...rest}
+      >
+        {children}
+      </OutboundLink>
+    );
+  }
+
+  if (/mailto:/.test(href)) {
+    return (
+      <a href={href} {...rest}>
+        {children}
+      </a>
+    );
+  }
+
+  return (
+    <Link to={href} {...rest}>
+      {children}
+    </Link>
+  );
+};
 
 LinkComponent.propTypes = {
-  href: PropTypes.string.isRequired  
-}
+  href: PropTypes.string,
+  children: PropTypes.node.isRequired
+};
 
-export default LinkComponent
+export default LinkComponent;

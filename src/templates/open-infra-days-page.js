@@ -25,7 +25,7 @@ const upcomingItemsEurope = [
 ];
 
 const upcomingItemsAsia = [
-  { title: "OpenInfra Days Vietnam",
+  { title: <a href="https://www.vietopeninfra.org/void2025" target="_blank">OpenInfra Days Vietnam</a>,
     date: "June & July 2025",
     location: "Hanoi & Ho Chi Minh City, VN",
     registration: '<a href="https://docs.google.com/forms/d/e/1FAIpQLSc99Cuh4U7JXYmUqkv74jjz_Fq984Q_YP-HKAv8hiad62AWrA/viewform" target="_blank">The CFP closes June 15</a>',
@@ -49,7 +49,7 @@ const upcomingItemsAsia = [
     coming_soon: "More info coming soon!",
   },
   {
-    title: "Cloud Operator Days Tokyo",
+    title: <a href="https://cloudopsdays.com/" target="_blank">Cloud Operator Days Tokyo</a>,
     date: "July 2025 (Online Sessions Available), Sept 5, 2025 (Closing Ceremony)",
     location: "Tokyo, JP",
     registration: '<a href="https://docs.google.com/forms/d/e/1FAIpQLSejRuQZvcWa0QDIcz01yP1DscVOrtPYPYHP2T0os0wUDx-LCg/viewform" target="_blank">The CFP closes April 30</a>',
@@ -58,7 +58,7 @@ const upcomingItemsAsia = [
 ];
 
 const upcomingMeetups = [
-  { background: '/img/openinfra-days/openinfra-days-cards/sweden-meetup.png', name: 'Sweden', date: 'May 22, 2025', location: 'Stockholm, Sweden', link: 'https://www.meetup.com/openinfra-user-group-sweden/events/306139678/'},
+  { background: '/img/openinfra-days/openinfra-days-cards/sweden-meetup.svg', date: 'May 22, 2025', location: 'Stockholm, Sweden', link: 'https://www.meetup.com/openinfra-user-group-sweden/events/306139678/'},
 ];
 
 const pastMeetups = [
@@ -84,7 +84,6 @@ export const OpenInfraDaysPageTemplate = ({
             <OpeninfraDaysAgenda
               title={<><span className="red">Upcoming</span><br />Openinfra Days</>}
               items={upcomingItemsAsia}
-              learnMoreLink="https://openinfra.asia/"
             />
             <OpenInfraDays title="Upcoming meetups" events={upcomingMeetups} />
             <MeetupBanner />

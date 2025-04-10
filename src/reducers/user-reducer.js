@@ -8,15 +8,12 @@ import {
   AFFILIATION_SAVED,
   AFFILIATION_DELETED,
   MEMBERSHIP_TYPE_UPDATED,
-  SCHEDULE_SYNC_LINK_RECEIVED,
   START_LOADING_PROFILE,
   STOP_LOADING_PROFILE,
   GET_USER_PROFILE,
   START_LOADING_SPEAKER_PROFILE,
   STOP_LOADING_SPEAKER_PROFILE,
   GET_SPEAKER_PROFILE,
-  REMOVE_FROM_SCHEDULE,
-  ADD_TO_SCHEDULE
 } from '../actions/user-actions'
 
 const DEFAULT_STATE = {
@@ -108,19 +105,6 @@ const userReducer = (state = DEFAULT_STATE, action) => {
     case MEMBERSHIP_TYPE_UPDATED: {
       let member = { ...payload.response };
       return { ...state, currentMembershipType: member.membership_type };
-    }
-    case SCHEDULE_SYNC_LINK_RECEIVED:
-      const { link } = payload.response;
-      return { ...state, userProfile: { ...state.userProfile, schedule_shareable_link: link } };
-    case ADD_TO_SCHEDULE: {
-      const { event } = payload;
-      const schedule_summit_events = [...state.userProfile.schedule_summit_events, event];
-      return { ...state, userProfile: { ...state.userProfile, schedule_summit_events } }
-    }
-    case REMOVE_FROM_SCHEDULE: {
-      const { event } = payload;
-      const schedule_summit_events = state.userProfile.schedule_summit_events.filter(ev => ev.id !== event.id);
-      return { ...state, userProfile: { ...state.userProfile, schedule_summit_events } }
     }
     case GET_SPEAKER_PROFILE: {
       let entity = { ...payload.response };

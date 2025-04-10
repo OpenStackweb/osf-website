@@ -5,7 +5,6 @@ function SubNav(props) {
 
   const [isOpen, setIsOpen] = useState(false);
   const [isSummitOpen, setIsSummitOpen] = useState(false);
-  const [scheduleDropdown, setScheduleDropdown] = useState(false);
   const [supportDropdown, setSupportDropdown] = useState(false);
   const [summitDropdown, setSummitDropdown] = useState(false);
 
@@ -81,28 +80,6 @@ function SubNav(props) {
               </div>
             }
           </li>
-          {props.isLoggedUser ?
-            <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} style={{ marginBottom: -33, paddingBottom: 30 }} className="dropdown-items-link">
-              <LinkComponent id="summit-schedule" href="/summit-schedule" className="link" style={{ padding: 10, width: '110%', display: 'inline-flex' }}>
-                Schedule
-                <i style={{ marginLeft: "auto" }} className={`fa fa-chevron-down`} />
-              </LinkComponent>
-              {scheduleDropdown &&
-                <div className="dropdown-items-container">
-                  <div className='dropdown-items-inner'>
-                    <LinkComponent id="summit-schedule" href="/summit/berlin-2022/summit-schedule" className="link dropdown">
-                      Full Schedule
-                    </LinkComponent>
-                    <LinkComponent id="summit-my-schedule" href="/a/summit-my-schedule" className="link dropdown">
-                      <span>My Schedule</span>
-                    </LinkComponent>
-                  </div>
-                </div>
-              }
-            </li>
-            :
-            <li><LinkComponent id="summit-schedule" href="/summit/berlin-2022/summit-schedule" className="link">Schedule</LinkComponent></li>
-          }
           <li><LinkComponent id="registration" href="https://www.openstack.org/videos/summits/berlin-2022" className="link registration">Watch Summit Videos</LinkComponent></li>
         </ul>
 
@@ -155,26 +132,6 @@ function SubNav(props) {
                 </>
               }
             </li>
-            {props.isLoggedUser ?
-              <li onMouseEnter={() => setScheduleDropdown(true)} onMouseLeave={() => setScheduleDropdown(false)} className="link-dropdown">
-                <LinkComponent id="summit-schedule" href="#" className="link link-dropdown-parent" >
-                  Schedule
-                  <i style={{ marginLeft: 5 }} className={`fa fa-chevron-down`} />
-                </LinkComponent>
-                {scheduleDropdown &&
-                  <>
-                    <LinkComponent id="summit-schedule" href="/summit/berlin-2022/summit-schedule" onClick={() => shouldCloseMenu("summit-schedule")} className="link-dropdown-option" >
-                      Full Schedule
-                    </LinkComponent>
-                    <LinkComponent id="summit-my-schedule" href="/a/summit-my-schedule" onClick={() => shouldCloseMenu("summit-my-schedule")} className="link-dropdown-option">
-                      <span>My Schedule</span>
-                    </LinkComponent>
-                  </>
-                }
-              </li>
-              :
-              <li><LinkComponent id="summit-schedule" href="/summit/berlin-2022/summit-schedule" onClick={() => shouldCloseMenu("summit-schedule")} className="link">Schedule</LinkComponent></li>
-            }
             <li><LinkComponent id="registration" href="https://www.openstack.org/videos/summits/berlin-2022" className="link registration">Watch Summit Videos</LinkComponent></li>
           </ul>
         </div>

@@ -99,7 +99,7 @@ export const Berlin2022SummitOnsitePageTemplate = ({
                         8:00am - 4:00pm
                       </div>
                       <div className='list-right'>
-                      <a href="/summit-sponsor">Marketplace</a> <em>(closed during keynotes)</em>
+                      Marketplace <em>(closed during keynotes)</em>
                       </div>
                     </div>
                     <div className='schedule-row'>
@@ -123,7 +123,7 @@ export const Berlin2022SummitOnsitePageTemplate = ({
                         11:00am - 6:00pm
                       </div>
                       <div className='list-right'>
-                        <a href="/summit-schedule">Breakouts / Forum / Workshops / Demos / Lightning Talks</a>
+                        Breakouts / Forum / Workshops / Demos / Lightning Talks
                       </div>
                     </div>
                     <div className='schedule-row'>
@@ -162,7 +162,7 @@ export const Berlin2022SummitOnsitePageTemplate = ({
                         8:00am - 4:00pm
                       </div>
                       <div className='list-right'>
-                      <a href="/summit-sponsor">Marketplace</a> <em>(closed during keynotes)</em>
+                      Marketplace <em>(closed during keynotes)</em>
                       </div>
                     </div>
                     <div className='schedule-row'>
@@ -186,7 +186,7 @@ export const Berlin2022SummitOnsitePageTemplate = ({
                         11:00am - 6:00pm
                       </div>
                       <div className='list-right'>
-                        <a href="/summit-schedule">Breakouts / Forum / Workshops / Demos / Lightning Talks</a>
+                        Breakouts / Forum / Workshops / Demos / Lightning Talks
                       </div>
                     </div>
                     <div className='schedule-row'>
@@ -225,7 +225,7 @@ export const Berlin2022SummitOnsitePageTemplate = ({
                         8:30am - 4:00pm
                       </div>
                       <div className='list-right'>
-                        <a href="/summit-sponsor">Marketplace</a>
+                        Marketplace
                       </div>
                     </div>
                     <div className='schedule-row'>
@@ -241,7 +241,7 @@ export const Berlin2022SummitOnsitePageTemplate = ({
                       9:00am - 6:00pm
                       </div>
                       <div className='list-right'>
-                      <a href="/summit-schedule">Breakouts / Forum / Workshops / Demos / Lightning Talks</a>
+                      Breakouts / Forum / Workshops / Demos / Lightning Talks
                       </div>
                     </div>
                     <div className='schedule-row'>
@@ -254,9 +254,6 @@ export const Berlin2022SummitOnsitePageTemplate = ({
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="button">
-                <a href="/summit-schedule">Full Schedule <img src={leftArrow} alt="left" /></a>
               </div>
             </section>
           </div>

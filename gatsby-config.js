@@ -3,13 +3,12 @@ module.exports = {
     DEV_SSR: false
   },  
   siteMetadata: {
-    title: 'OpenInfra Foundation',
-    description:
-      'The Home of Open Infrastructure',
-    url: 'https://openinfra.dev/'
+    title: "OpenInfra Foundation",
+    description: "The Home of Open Infrastructure",
+    url: "https://openinfra.dev/"
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    "gatsby-plugin-react-helmet",
     {
       /**
        * Gatsby v4 uses ES Modules for importing cssModules by default.
@@ -22,7 +21,7 @@ module.exports = {
        * @see https://www.gatsbyjs.com/plugins/gatsby-plugin-sass/#v300
        * @see https://sass-lang.com/blog/libsass-is-deprecated#how-do-i-migrate
        */
-      resolve: `gatsby-plugin-sass`,
+      resolve: "gatsby-plugin-sass",
       options: {
         cssLoaderOptions: {
           esModule: false,
@@ -39,7 +38,7 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-feed`,
+      resolve: "gatsby-plugin-feed",
       options: {
         query: `
           {
@@ -102,28 +101,36 @@ module.exports = {
     },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/static/img`,
-        name: 'uploads',
+        name: "uploads",
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages',
+        name: "pages",
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/img`,
-        name: 'images',
+        name: "images",
       },
     },
-    'gatsby-plugin-image',
-    'gatsby-plugin-sharp',
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/content/summits`,
+        name: "summits",
+      },
+    },
+    "gatsby-transformer-json",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
     {
       resolve: `gatsby-transformer-sharp`,
       options: {
@@ -131,17 +138,17 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-relative-images',
+            resolve: "gatsby-remark-relative-images",
             options: {
-              name: 'uploads',
+              name: "uploads",
             },
           },
           {
-            resolve: 'gatsby-remark-images',
+            resolve: "gatsby-remark-images",
             options: {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
@@ -151,13 +158,13 @@ module.exports = {
             },
           },
           {
-            resolve: 'gatsby-remark-copy-linked-files',
+            resolve: "gatsby-remark-copy-linked-files",
             options: {
-              destinationDir: 'static',
+              destinationDir: "static",
             },
           },
           {
-            resolve: `gatsby-remark-classes`,
+            resolve: "gatsby-remark-classes",
             options: {
               classMap: {
                 "heading[depth=3]": "fix-h3",
@@ -193,7 +200,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: "gatsby-plugin-google-gtag",
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
@@ -261,15 +268,15 @@ module.exports = {
         display: `standalone`,
       },
     },
-    `gatsby-plugin-remove-serviceworker`,
+    "gatsby-plugin-remove-serviceworker",
     {
-      resolve: 'gatsby-plugin-netlify-cms',
+      resolve: "gatsby-plugin-netlify-cms",
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         // @see https://github.com/netlify/netlify-cms/issues/1690#issuecomment-465078677
         enableIdentityWidget: false,
         /**
-        * Fixes Module not found: Error: Can't resolve 'path' bug.
+        * Fixes Module not found: Error: Can't resolve "path" bug.
         * Webpack 5 doesn't include browser polyfills for node APIs by default anymore,
         * so we need to provide them ourselves.
         * @see https://github.com/postcss/postcss/issues/1509#issuecomment-772097567
@@ -288,23 +295,23 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
+      resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
       options: {
         develop: true, // Activates purging in npm run develop        
         whitelistPatterns: [/^carousel/, /^projects-s/, /^company-level-/, /^more-recent-single-/, /^fa/, /^logo-/, /^modal/],
-        purgeOnly: ['/style'], // applies purging only on the bulma css file
+        purgeOnly: ["/style"], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins    
     {
-      resolve: 'gatsby-plugin-linkedin-insight',
+      resolve: "gatsby-plugin-linkedin-insight",
       options: {
-        partnerId: '2906612',
+        partnerId: "2906612",
   
         // Include LinkedIn Insight in development.
         // Defaults to false meaning LinkedIn Insight will only be loaded in production.
         includeInDevelopment: true
       }
     },
-    'gatsby-plugin-netlify', // make sure to keep it last in the array
+    "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 }

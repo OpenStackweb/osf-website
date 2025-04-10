@@ -48,40 +48,6 @@ const SSR_getLegals = async (baseUrl) => {
     .catch(e => console.log('ERROR: ', e));
 };
 
-const SSR_getSummit = async (baseUrl, summitId = 'current') => {
-  const params = {
-    expand: 'event_types,tracks,track_groups,presentation_levels,locations.rooms,locations.floors,order_extra_questions.values,schedule_settings,schedule_settings.filters,schedule_settings.pre_filters,summit_sponsors,summit_sponsors.company,summit_sponsors.sponsorship,featured_speakers',
-    t: Date.now()
-  };
-
-  return await axios.get(
-    `${baseUrl}/api/public/v1/summits/${summitId}`,
-    {params}
-  )
-    .then(({data}) => data)
-    .catch(e => console.log('ERROR: ', e));
-};
-
-const SSR_getEvents = async (baseUrl, summitId, accessToken, page = 1, results = []) => {
-  return await axios.get(
-    `${baseUrl}/api/v1/summits/${summitId}/events/published`,
-    {
-      params: {
-        access_token: accessToken,
-        per_page: 50,
-        page: page,
-        expand: 'slides, links, videos, media_uploads, type, track, track.allowed_access_levels, location, location.venue, location.floor, speakers, moderator, sponsors, current_attendance, groups, rsvp_template, tags',
-      }
-    }).then(({data}) => {
-    if (data.current_page < data.last_page) {
-      return SSR_getEvents(baseUrl, summitId, accessToken, data.current_page + 1, [...results, ...data.data]);
-    }
-
-    return [...results, ...data.data];
-  })
-    .catch(e => console.log('ERROR: ', e));
-};
-
 const SSR_getCurrentReleaseComponents = async (baseUrl) => {
   return await axios.get(
     `${baseUrl}/api/public/v1/releases/current`,
@@ -188,9 +154,6 @@ exports.onPreBootstrap = async () => {
   const apiBaseUrl = process.env.GATSBY_API_BASE_URL;
   const buildScopes = process.env.GATSBY_BUILD_SCOPES;
   const sponsoredProjectId = process.env.GATSBY_SPONSORED_PROJECT_ID;
-  const summitId = process.env.GATSBY_SUMMIT_ID || 'current';
-
-  console.log(`onPreBootstrap summitId ${summitId}`);
 
   const globalSettings = {lastBuild: Date.now()};
   const config = {
@@ -216,18 +179,6 @@ exports.onPreBootstrap = async () => {
   const legalDocument = await SSR_getLegals(apiBaseUrl);
   if (legalDocument) {
     writeToJson('src/content/legal-document.json', legalDocument);
-  }
-
-  // pull summit
-  const summit = await SSR_getSummit(apiBaseUrl, summitId);
-  if (summit) {
-    writeToJson('src/content/summit.json', summit);
-
-    // pull events
-    const events = await SSR_getEvents(apiBaseUrl, summit.id, accessToken);
-    if (events) {
-      writeToJson('src/content/events.json', events);
-    }
   }
 
   // pull current release
@@ -555,6 +506,32 @@ exports.createSchemaCustomization = ({actions}) => {
       last_name: String!
       pic: String
       bio: String
+    }
+    # Define the main JSON type for summits
+    type SummitsJson implements Node @dontInfer {
+      jsonId: Int!
+      featured_speakers: [FeaturedSpeaker]
+      summit_sponsors: [SummitSponsor]
+    }
+    type FeaturedSpeaker @dontInfer {
+      first_name: String
+      last_name: String
+      company: String
+      pic: String
+    }
+    type SummitSponsor @dontInfer {
+      sponsorship: Sponsorship
+      company: SponsorCompany
+    }
+    type Sponsorship @dontInfer {
+      id: String
+      order: Int
+    }
+    type SponsorCompany @dontInfer {
+      name: String
+      url: String
+      logo: String
+      big_logo: String
     }
     `
   createTypes(typeDefs)

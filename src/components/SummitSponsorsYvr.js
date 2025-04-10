@@ -1,21 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const SummitSponsorsYvr = ({ summit_sponsors }) => {
-
-    const [sponsorTiers, setSponsorTiers] = useState([])
-
-    const getSponsorTiers = () => {
-        let tempTiers = []
-        summit_sponsors.map(s => {
-            return tempTiers.some(t => t.id === s.sponsorship.id) ? null : tempTiers.push(s.sponsorship);
-        });
-        setSponsorTiers(tempTiers.sort((a, b) => a.order - b.order));
-    };
-
-    useEffect(() => {
-        getSponsorTiers();
-    }, summit_sponsors)
-
+const SummitSponsorsYvr = () => {
     return (
         <div className="sponsor-logos">
             <div>

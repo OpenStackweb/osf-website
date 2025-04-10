@@ -32,9 +32,6 @@ export const ORGANIZATION_ADDED = 'ORGANIZATION_ADDED';
 export const START_LOADING_PROFILE = 'START_LOADING_PROFILE';
 export const STOP_LOADING_PROFILE = 'STOP_LOADING_PROFILE';
 export const GET_USER_PROFILE = 'GET_USER_PROFILE';
-export const SCHEDULE_SYNC_LINK_RECEIVED = 'SCHEDULE_SYNC_LINK_RECEIVED';
-export const ADD_TO_SCHEDULE = 'ADD_TO_SCHEDULE';
-export const REMOVE_FROM_SCHEDULE = 'REMOVE_FROM_SCHEDULE';
 export const START_LOADING_SPEAKER_PROFILE = 'START_LOADING_SPEAKER_PROFILE';
 export const STOP_LOADING_SPEAKER_PROFILE = 'STOP_LOADING_SPEAKER_PROFILE';
 export const GET_SPEAKER_PROFILE = 'GET_SPEAKER_PROFILE';
@@ -63,30 +60,11 @@ export const getUserProfile = () => async (dispatch) => {
     authErrorHandler
   )(params)(dispatch).then((payload) => {
     return dispatch(getIDPProfile()).then(() => {
-      return dispatch(getScheduleSyncLink()).then(() => { 
-        return dispatch(getMemberProfile(payload.response.id)).then(()=> {
-          return getElectionMemberProfile(payload.response.id).then(() => dispatch(createAction(STOP_LOADING_PROFILE)()))})})
+      return dispatch(getMemberProfile(payload.response.id)).then(() => {
+        return getElectionMemberProfile(payload.response.id).then(() => dispatch(createAction(STOP_LOADING_PROFILE)()))})
     });
   }).catch(() => dispatch(createAction(STOP_LOADING_PROFILE)()));
 }
-
-export const getScheduleSyncLink = () => async (dispatch) => {
-  const accessToken = await getAccessTokenSafely();
-
-  if (!accessToken) return Promise.resolve();
-
-  let params = {
-    access_token: accessToken,
-  };
-
-  return postRequest(
-    null,
-    createAction(SCHEDULE_SYNC_LINK_RECEIVED),
-    `${window.API_BASE_URL}/api/v1/summits/current/members/me/schedule/shareable-link`,
-    null,
-    authErrorHandler,
-  )(params)(dispatch);
-};
 
 export const getIDPProfile = () => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
@@ -322,34 +300,6 @@ export const resignMembershipType = () => async (dispatch) => {
       dispatch(stopLoading());
     });
 }
-
-/*********************** MY SCHEDULE ***************************************/
-
-export const addToSchedule = (event) => async (dispatch) => {
-  const accessToken = await getAccessTokenSafely();
-
-  const url = `${window.API_BASE_URL}/api/v1/summits/current/members/me/schedule/${event.id}`;
-
-  return axios.post(
-    url, { access_token: accessToken }
-  ).then(async () => {
-    await dispatch(createAction(ADD_TO_SCHEDULE)({ event }));
-    return event;
-  }).catch(handleApiError);
-};
-
-export const removeFromSchedule = (event) => async (dispatch) => {
-  const accessToken = await getAccessTokenSafely();
-
-  const url = `${window.API_BASE_URL}/api/v1/summits/current/members/me/schedule/${event.id}`;
-
-  return axios.delete(
-    url, { data: { access_token: accessToken } }
-  ).then(async () => {
-    dispatch(createAction(REMOVE_FROM_SCHEDULE)({ event }));
-    return event;
-  }).catch(handleApiError);
-};
 
 /*********************** SPEAKER PROFILE ***************************************/
 

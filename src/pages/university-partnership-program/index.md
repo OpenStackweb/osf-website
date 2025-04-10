@@ -14,7 +14,7 @@ header:
   bottomText: Interested in the University Partnership Program?  
   buttons:
     - text: Contact Us
-      link: mailto:community@openinfra.dev
+      link: https://openinfrafoundation.formstack.com/forms/university_partnership_program_interest
     - text: Learn more
       link: /university-partnership-program#how-it-works
   image: /img/upp-page/hero-image.png

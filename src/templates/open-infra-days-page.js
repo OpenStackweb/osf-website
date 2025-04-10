@@ -16,14 +16,6 @@ import OpenInfraDays from "../components/OpeninfraDays";
 import hero from '../../static/img/openinfra-days/openinfra-days-header.png';
 import UpcomingSummits from "../components/UpcomingSummits";
 
-const upcomingItemsEurope = [
-  { title: "Stockholm, Sweden",
-    date: "October 17-19, 2025",
-    location: "École Polytechnique, Paris-Saclay, France.",
-    registration: '<a href="https://www.meetup.com/openinfra-user-group-sweden/events/306139678/ " target="_blank">LINK</a>'
-  },
-];
-
 const upcomingItemsAsia = [
   { title: <a href="https://www.vietopeninfra.org/void2025" target="_blank">OpenInfra Days Vietnam</a>,
     date: "June & July 2025",
@@ -33,7 +25,7 @@ const upcomingItemsAsia = [
   },
   {
     title: "OpenInfra Days Indonesia",
-    date: "More info coming soon!",
+    date: "July 19, 2025",
     location: "Yogyakarta, ID",
     coming_soon: "More info coming soon!"
   },

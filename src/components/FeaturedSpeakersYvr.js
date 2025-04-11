@@ -2,7 +2,7 @@ import React from 'react'
 import LinkComponent from './LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
 
-const FeaturedSpeakersYvr = ({ featured_speakers }) => {
+const FeaturedSpeakersYvr = () => {
     return (
         <div className='featured-speakers-component'>
             <span className='title'>Featured Speakers</span>

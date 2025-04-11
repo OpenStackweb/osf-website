@@ -4,20 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const SummitSponsorSliderYvr = ({ summit_sponsors }) => {
-
-    const [sponsorTiers, setSponsorTiers] = useState([])
-
-    useEffect(() => {
-      const getSponsorTiers = () => {
-        let tempTiers = []
-        summit_sponsors.map(s => {
-            return tempTiers.some(t => t.id === s.sponsorship.id) ? null : tempTiers.push(s.sponsorship);
-        });
-        setSponsorTiers(tempTiers.sort((a, b) => a.order - b.order));
-    };
-        getSponsorTiers();
-    }, [summit_sponsors])
+const SummitSponsorSliderYvr = () => {
 
     function SamplePrevArrow(props) {
         const { style, onClick } = props;

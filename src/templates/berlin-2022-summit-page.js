@@ -1,4 +1,5 @@
-  import React from 'react'
+import React from "react";
+import { connect } from "react-redux";
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout'
@@ -6,7 +7,6 @@ import TopBar from '../components/TopBar';
 import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 import LogoBanner from '../components/LogoBanner'
-import { connect } from "react-redux";
 import SubNav from '../components/SummitSubNav'
 import LinkComponent from '../components/LinkComponent';
 import leftArrow from '../img/svg/arrow-left.svg'
@@ -96,7 +96,6 @@ export const Berlin2022SummitPageTemplate = ({
                   )
                 })}
               </div>
-              <LinkComponent className="button-cta" style={{ margin: "0 auto", marginTop: "30px" }} href="/summit/berlin-2022/summit-schedule">View the Summit Schedule<img src={leftArrow} alt="" /></LinkComponent>
             </section>
           }
 
@@ -217,9 +216,8 @@ Berlin2022SummitPageTemplate.propTypes = {
   featured_speakers: PropTypes.array
 }
 
-const berlin2022SummitPage = ({ isLoggedUser, summit, data }) => {
-  const { markdownRemark: post } = data
-
+const berlin2022SummitPage = ({ data, isLoggedUser }) => {
+  const { markdownRemark: post, summitsJson: summit } = data;
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
@@ -239,12 +237,14 @@ const berlin2022SummitPage = ({ isLoggedUser, summit, data }) => {
 }
 
 berlin2022SummitPage.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.object,
+    summitsJson: PropTypes.object
+  })
 }
 
 export default connect(state => ({
-  isLoggedUser: state.loggedUserState.isLoggedUser,
-  summit: state.summitState.summit
+  isLoggedUser: state.loggedUserState.isLoggedUser
 }), {})(berlin2022SummitPage)
 
 export const berlin2022SummitPageQuery = graphql`
@@ -397,6 +397,26 @@ export const berlin2022SummitPageQuery = graphql`
           button
           buttonText
           display
+        }
+      }
+    }
+    summitsJson(jsonId: { eq: 32 }) {
+      featured_speakers {
+        first_name
+        last_name
+        company
+        pic
+      }
+      summit_sponsors {
+        sponsorship {
+          id
+          order
+        }
+        company {
+          name
+          url
+          logo
+          big_logo
         }
       }
     }

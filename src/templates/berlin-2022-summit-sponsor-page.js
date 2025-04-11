@@ -75,9 +75,8 @@ Berlin2022SummitSponsorPageTemplate.propTypes = {
   sponsorships: PropTypes.object,
 }
 
-const berlin2022SummitSponsorPage = ({ isLoggedUser, summit, data }) => {
-  const { markdownRemark: post } = data
-
+const berlin2022SummitSponsorPage = ({ data, isLoggedUser }) => {
+  const { markdownRemark: post, summitsJson: summit } = data
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
@@ -96,12 +95,14 @@ const berlin2022SummitSponsorPage = ({ isLoggedUser, summit, data }) => {
 }
 
 berlin2022SummitSponsorPage.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.object,
+    summitsJson: PropTypes.object
+  })
 }
 
 export default connect(({loggedUserState, summitState}) => ({
-  isLoggedUser: loggedUserState.isLoggedUser,
-  summit: summitState.summit
+  isLoggedUser: loggedUserState.isLoggedUser
 }))(berlin2022SummitSponsorPage)
 
 export const berlin2022SummitSponsorPageQuery = graphql`
@@ -250,6 +251,20 @@ export const berlin2022SummitSponsorPageQuery = graphql`
           button
           buttonText
           display
+        }
+      }
+    }
+    summitsJson(jsonId: { eq: 32 }) {
+      summit_sponsors {
+        sponsorship {
+          id
+          order
+        }
+        company {
+          name
+          url
+          logo
+          big_logo
         }
       }
     }

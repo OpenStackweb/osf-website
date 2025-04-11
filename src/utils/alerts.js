@@ -31,7 +31,7 @@ export const alertPopup = (title, html, confirmLabel, confirmAction, cancelLabel
 };
 
 export const needsLogin = (msg = null) => {
-    const defaultMessage = "Please login in order to build your schedule and add activities during the event";
+    const defaultMessage = "Please login";
 
     const login = () => {
         let backUrl = window?.location?.href ?? '/a/profile';

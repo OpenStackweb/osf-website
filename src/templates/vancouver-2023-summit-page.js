@@ -21,9 +21,7 @@ export const SummitPageTemplate = ({
   form,
   topics,
   previousSummits,
-  videoBanner,
-  featured_speakers,
-  summit_sponsors
+  videoBanner
 }) => {
 
   return (
@@ -109,7 +107,7 @@ export const SummitPageTemplate = ({
             </section>
           }
 
-          <FeaturedSpeakersYvr featured_speakers={featured_speakers} />
+          <FeaturedSpeakersYvr />
 
           {/* <LogoBanner title="The Call for Presentations will open on November 15, 2022 and close on January 7, 2023" cta="Nope" href="https://cfp.openinfra.dev" /> */}
 
@@ -118,7 +116,7 @@ export const SummitPageTemplate = ({
             <span className="description">
               <p>The generous support of our sponsors makes it possible for our community to gather, learn and build the future of open infrastructure. A warm thank you to the sponsors of OpenInfra Summit Vancouver 2023!</p>
             </span>
-            <SummitSponsorSliderYvr summit_sponsors={summit_sponsors} />
+            <SummitSponsorSliderYvr />
             <LinkComponent className="button-cta" href="/summit/vancouver-2023/summit-sponsor">Become a Sponsor<img src={leftArrow} alt="" /></LinkComponent>
           </section>
 
@@ -223,14 +221,11 @@ SummitPageTemplate.propTypes = {
   topics: PropTypes.object,
   previousSummits: PropTypes.object,
   videoBanner: PropTypes.object,
-  sponsorships: PropTypes.object,
-  summit_sponsors: PropTypes.array,
-  featured_speakers: PropTypes.array
+  sponsorships: PropTypes.object
 }
 
-const SummitPage = ({ isLoggedUser, summit, data }) => {
-  const { markdownRemark: post } = data
-
+const SummitPage = ({ data, isLoggedUser }) => {
+  const { markdownRemark: post, summitsJson: summit } = data;
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
@@ -242,20 +237,20 @@ const SummitPage = ({ isLoggedUser, summit, data }) => {
         previousSummits={post.frontmatter.previousSummits}
         videoBanner={post.frontmatter.videoBanner}
         sponsorships={post.frontmatter.sponsorships}
-        featured_speakers={summit?.featured_speakers || []}
-        summit_sponsors={summit?.summit_sponsors || []}
       />
     </Layout>
   )
 }
 
 SummitPage.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.object,
+    summitsJson: PropTypes.object
+  })
 }
 
 export default connect(state => ({
-  isLoggedUser: state.loggedUserState.isLoggedUser,
-  summit: state.summitState.summit
+  isLoggedUser: state.loggedUserState.isLoggedUser
 }), {})(SummitPage)
 
 export const summitPageQuery = graphql`

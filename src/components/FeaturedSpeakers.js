@@ -10,9 +10,11 @@ const FeaturedSpeakers = ({ featured_speakers }) => {
                 {featured_speakers.map((s, index) => {
                     return (
                         <div key={`featured-speaker${index}`}>
+                            {s.pic &&
                             <div className='featured-speaker-image'>
                                 <img src={s.pic} />
                             </div>
+                            }
                             <div className='featured-speaker-info'>
                                 <div className='featured-speaker-name'>{`${s.first_name} ${s.last_name}`}</div>
                                 <div className='featured-speaker-company'>{`${s.company || '\u00a0'}`}</div>
@@ -21,7 +23,6 @@ const FeaturedSpeakers = ({ featured_speakers }) => {
                     )
                 })}
             </div>
-            <LinkComponent className="button-cta" href="/summit/berlin-2022/summit-schedule">See All Summit Speakers<img src={leftArrow} alt="" /></LinkComponent>
         </div>
     )
 }

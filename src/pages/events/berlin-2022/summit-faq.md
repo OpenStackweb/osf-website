@@ -36,8 +36,6 @@ The Summit will run for three days, Tuesday - Thursday, June 7-9th.
 
 Keynotes will be held Tuesday and Wednesday (7th and 8th). Marketplace booths, breakout sessions, and The Forum (developer and operator working sessions) will run Tuesday - Thursday. 
 
-The [full schedule can be found here](/summit/berlin-2022/summit-schedule). 
-
 **What is the price of registration?** <br>
 Early Bird Full Access Pass (deadline March 18th): $599 <br>
 Regular Full Access Pass(deadline May 17th): $899 <br>

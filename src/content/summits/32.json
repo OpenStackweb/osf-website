@@ -1,0 +1,1592 @@
+{
+    "id": 32,
+    "summit_sponsors":
+    [
+        {
+            "company":
+            {
+                "id": 1195,
+                "created": 1632336428,
+                "last_edited": 1632336428,
+                "name": "Ubuntu",
+                "url": "https://ubuntu.com/",
+                "url_segment": null,
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "",
+                "industry": "",
+                "contributions": "",
+                "member_level": "None",
+                "overview": "",
+                "products": "",
+                "commitment": "",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1195/logos/Canonical-s1.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1195/logos/Canonical-lg2.png",
+                "color": "#DADADA",
+                "display_on_site": false,
+                "featured": false,
+                "contact_email": "",
+                "admin_email": "",
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                []
+            },
+            "sponsorship":
+            {
+                "id": 40,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 1,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 2,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 105,
+                "created": 1307132147,
+                "last_edited": 1742486177,
+                "name": "Mirantis",
+                "url": "http://www.mirantis.com?utm_source=website&utm_medium=openstack-org",
+                "url_segment": "mirantis",
+                "city": "",
+                "state": "",
+                "country": "US",
+                "description": "<p> </p><p><a href=\"https://www.mirantis.com?utm_source=website&amp;utm_medium=openstack-org\">Mirantis</a> helps organizations achieve digital self determination by giving them complete control over their strategic infrastructure. The company combines intelligent automation and cloud native expertise for managing and operating virtual machines, containers, Kubernetes, and cloud environments. Mirantis lets platform teams deliver a public cloud experience on any infrastructure, from the data center to the edge, with one cohesive cloud experience for complete application and operations portability, a single pane of glass, and automated full-stack lifecycle management, all based on open source using open standard APIs.</p><p>Mirantis serves many of the world’s leading enterprises, including Adobe, DocuSign, Inmarsat, PayPal, Societe Generale, Splunk, and S&amp;P Global. Learn more at <a href=\"https://www.mirantis.com?utm_source=website&amp;utm_medium=openstack-org\">www.mirantis.com</a>.</p><p>Mirantis is headquartered in Campbell, California, USA with offices in Canada, Czech Republic, Finland, France, Germany, Japan, Poland, Ukraine, and the United Kingdom.</p><p><a href=\"https://info.mirantis.com/contact-us?utm_source=website&amp;utm_medium=openstack-org\">CONTACT US</a></p>",
+                "industry": "The Open Source Infrastructure Company",
+                "contributions": "<ul><li><strong>Founding Member and Silver Sponsor</strong> of OpenStack Foundation</li>\n<li><strong>200+ OpenStack implementations successfully</strong> deployed for enterprises and service providers, including some of the largest open clouds in the world</li>\n<li><strong>Proven experience in real-world integration, deployment, and operation</strong> of enterprise and carrier-grade cloud infrastructure at scale</li>\n<li><strong>Trained and certified 20,000 professionals</strong> in OpenStack, Kubernetes and related technologies</li>\n<li><strong>Top 5 Contributor to OpenStack</strong> across all releases by commits or lines of code.</li>\n</ul>",
+                "member_level": "Gold",
+                "overview": "<p class=\"p1\"><span class=\"s1\">Mirantis is the managed open cloud company. More customers rely on Mirantis than any other company to take advantage of open source innovation free from vendor lock-in. We use a build-operate-transfer model to deliver OpenStack, Kubernetes and related open source technologies to top enterprises and telcos via our continuously delivered Mirantis Cloud Platform and SLA-backed cloud management services.</span></p><p class=\"p2\"> </p>",
+                "products": "<p>OPENSTACK PRODUCTS</p><p><a href=\"https://www.mirantis.com/software/mirantis-openstack-for-kubernetes?utm_source=website&amp;utm_medium=openstack-org\">Mirantis OpenStack for Kubernetes</a> gives you the power of public clouds and the time-tested reliability of OpenStack — all built on a flexible and resilient foundation, OpenStack for Kubernetes. It’s a future-proof VMware alternative that puts you back in control of your infrastructure, and lets you manage virtualized and container infrastructure from a single platform.</p><ul><li>Self-healing and autoscaling</li>\n<li>Rolling upgrades out of the box</li>\n<li>Easy networking</li>\n<li>Security compliance</li>\n<li>Single hybrid multi-cloud platform for containers and VMs</li>\n<li>GPU virtualization</li>\n</ul><p>PROFESSIONAL SERVICES</p><ul><li><a href=\"https://www.mirantis.com/resources/mirantis-workload-migration-overview?utm_source=website&amp;utm_medium=openstack-org\">VMware Migration</a> - In our Workload Migration service, Mirantis experts provide an end-to-end migration plan to ensure successful migration. The migration process is broken down into a phased approach, and during each phase, Mirantis works alongside your team to validate and align to the overall objectives of the migration. We leverage automated tooling to speed up discovery, migration, and validation, and can customize automation pipelines for your specific workloads.</li>\n<li><a href=\"https://www.mirantis.com/resources/ada-service-brief?utm_source=website&amp;utm_medium=openstack-org\">Architecture Design Assessment</a> - Mirantis will assess the current state of clouds and applications, learn from you where you want to go, then provide a complete, and vendor-neutral roadmap for getting you there, tuned to your unique business conditions, requirements, workloads, users, and cost structure.</li>\n<li><a href=\"https://www.mirantis.com/resources/mirantis-devops-subscriptions-services-brief?utm_source=website&amp;utm_medium=openstack-org\">DevOps Subscription</a> - You’ll have a dedicated, specially-chosen Mirantis engineer to augment your staff, who can focus on customizing, extending, and/or maintaining your cloud outside the scope of our standard Support subscriptions.</li>\n<li><a href=\"https://www.mirantis.com/resources/mirantis-application-modernization?utm_source=website&amp;utm_medium=openstack-org\">Application Migration and Modernization</a> - This services combines expertise with a customer-tested-and-validated playbook and toolkit – the Mirantis Application Migration and Modernization Platform (AMPP). In a typical example (actual customer), by using the Mirantis Application Migration and Modernization Platform, Mirantis experts modernized and migrated 700 applications and operationalized them on Kubernetes – all in under 1 year.</li>\n</ul><p>ENTERPRISE-GRADE SUPPORT</p><ul><li><a href=\"https://www.mirantis.com/support/enterprise-support-options?utm_source=website&amp;utm_medium=openstack-org\">OpsCare Plus Managed Services</a> - We understand the critical nature of cloud native infrastructure, and with our OpsCare Plus managed services offering, we map our IT operations to the needs of your business to provide the best methodology for running your solution within the constructs of your processes. For business critical workloads such as customer-facing apps, NFV, or IT-as-a-service, we strongly recommend OpsCare Plus to operate your cloud at peak operating conditions and maximize the value of your cloud investment. It features fully-managed remote operations with up to 99.99% SLA.</li>\n<li><a href=\"https://www.mirantis.com/support/enterprise-support-options?utm_source=website&amp;utm_medium=openstack-org\">OpsCare</a> - 24/7 proactive support for production deployments, delivered with a \"co-pilot\" approach with active monitoring &amp; alerting. If you choose to manage your cloud internally, we provide a range of support offerings which include a thorough support onboarding process to gather deployment information, set up support processes and train your IT operations team on those processes.</li>\n</ul><p><a href=\"https://training.mirantis.com?utm_source=website&amp;utm_medium=openstack-org\">TRAINING AND CERTIFICATION</a></p><p>Success in the cloud requires the necessary skills to implement and advance your cloud strategy. Evolve your skills and knowledge with Mirantis, a recognized trusted leader in technical training for OpenStack and other cloud technologies. Mirantis is the official administrator of the Certified OpenStack Administrator (COA) exam on behalf of the OpenInfra Foundation.<a href=\"https://training.mirantis.com/course-catalog?utm_source=website&amp;utm_medium=openstack-org\">View course catalog</a>.</p><p>Mirantis training and certification offerings for OpenStack include:</p><ul><li><a href=\"https://training.mirantis.com/courses/os100-openstack-essentials?utm_source=website&amp;utm_medium=openstack-org\">OS 100: OpenStack Essentials</a></li>\n<li><a href=\"https://training.mirantis.com/courses/os220-openstack-administration-operations-ussuri?utm_source=website&amp;utm_medium=openstack-org\">OS 220: OpenStack Administration &amp; Operations </a></li>\n<li><a href=\"https://training.mirantis.com/courses/os250-openstack-administration-bootcamp-ussuri?utm_source=website&amp;utm_medium=openstack-org\">OS 250: OpenStack Administration Bootcamp</a></li>\n<li><a href=\"https://training.mirantis.com/courses/os320-advanced-openstack-deployment-and-debug-ussuri?utm_source=website&amp;utm_medium=openstack-org\">OS 320: Advanced OpenStack Deployment</a></li>\n<li><a href=\"https://training.mirantis.com/certification/coa-certification-exam?utm_source=website&amp;utm_medium=openstack-org\">COA: Certified OpenStack Administrator</a></li>\n</ul><p>Take advantage of our different course delivery options and real-time lab experiences:</p><ul><li><a href=\"https://training.mirantis.com/on-demand-training?utm_source=website&amp;utm_medium=openstack-org\">OnDemand - Self-Paced</a></li>\n<li><a href=\"https://training.mirantis.com/mirantis-academy?utm_source=website&amp;utm_medium=openstack-org\">Mirantis Academy - 30 Day Team Training Program</a></li>\n<li><a href=\"https://training.mirantis.com/onsite-training?utm_source=website&amp;utm_medium=openstack-org\">Private Instructor-Led Training</a></li>\n<li><a href=\"https://training.mirantis.com/public-class-schedule?utm_source=website&amp;utm_medium=openstack-org\">Public Instructor-Led Classes (Per Seat)</a></li>\n</ul>",
+                "commitment": "<p class=\"p1\"><span class=\"s1\">OpenStack’s core value is that it will always let you build and run your cloud infrastructure with freedom of choice. At Mirantis, our solutions are founded on building out clouds with that transparency, and we submit all code changes back upstream.</span></p>",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/Uploads/mirantis-sm.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/mirantis-lg.png",
+                "color": "#fe0aa0",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "pr@mirantis.com",
+                "admin_email": "",
+                "sponsorships":
+                [
+                    9036,
+                    9452,
+                    9539,
+                    17265,
+                    17328,
+                    18650,
+                    18621,
+                    18915,
+                    20517,
+                    21904,
+                    22989,
+                    23793,
+                    24438,
+                    24795,
+                    24659
+                ],
+                "project_sponsorships":
+                [
+                    19,
+                    2,
+                    10,
+                    14
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 62,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 2,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 3,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 615,
+                "created": 1407156253,
+                "last_edited": 1686337614,
+                "name": "Component Soft",
+                "url": "http://www.componentsoft.io",
+                "url_segment": "component-soft",
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "<p>Component Soft is an IT training and consulting company with 25+ years of history in mission critical IT systems, based in Budapest Hungary and offering services in Europe, North and Latin America and beyond. We are an OpenInfra Foundation Silver Member, a CNCF Silver Member, an Openstack Training and Consulting Partner as well as a Kubernetes Training Partner and Certified Service Provider. The main areas of our expertise are open-source cloud and cloud-native topics, such as Openstack, Ceph, Kubernetes, Docker, Istio and Ansible. Our main customers are global telecom vendors and operators as well as IT service providers.</p>",
+                "industry": "Telecom, IT Services Providers",
+                "contributions": "<p>With 25+ years of experience in enterprise open source systems Component Soft offers high quality trainings and consultation about open source cloud and cloud-native topics, such as Openstack, Kubernetes, Docker, Ceph and Ansible, for corporate and governmental customers in Europe, North and Latin America and beyond.</p>",
+                "member_level": "None",
+                "overview": "<p>Component Soft is an IT training and consulting company with 25+ years of history in mission critical IT systems based in Budapest Hungary and offering services in Europe, North and Latin America and beyond. We are an OpenInfra Foundation Silver Member, a CNCF Silver Member and a Red Hat Technology Partner. The main areas of our expertise are open-source cloud and cloud-native topics, such as Openstack, Docker, Ceph, Kubernetes and Ansible. Our main customers are global telecom vendors, operators as well as IT service providers.</p>",
+                "products": "<p><span style=\"color: #333333; font-family: &#039;Open Sans&#039;, sans-serif;\"><span style=\"font-size: 14px;\">With 25+ years of experience in enterprise open source systems Component Soft offers OpenStack, Kubernetes, Istio and other cloud-native and devops trainings and consultation throughout Europe, North and Latin America and beyond.</span></span></p>",
+                "commitment": "<p>As a longtime supporter of the Openstack Foundation and lately the OpenInfra Foundation, our mission is to provide high quality and affordable trainings in Openstack and related open-source cloud technologies for the member companies of the OpenInfra Foundation as well as for individual contributors, this way helping the development, spreading and implementation of these technologies.</p>",
+                "commitment_author": "-",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/Component-Soft-Logo-black-nobackground-smaller.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/Component-Soft-Logo-black-nobackground-small2.png",
+                "color": "#C34431",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "erno@componentsoft.io",
+                "admin_email": "",
+                "sponsorships":
+                [
+                    22737
+                ],
+                "project_sponsorships":
+                []
+            },
+            "sponsorship":
+            {
+                "id": 106,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 4,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 5,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 1111,
+                "created": 1538753335,
+                "last_edited": 1654276472,
+                "name": "SysEleven",
+                "url": "https://www.syseleven.de/",
+                "url_segment": "syseleven",
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "",
+                "industry": "",
+                "contributions": "",
+                "member_level": "Mention",
+                "overview": "",
+                "products": "",
+                "commitment": "",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/Uploads/syseleven-sm2.jpg",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1111/logos/syseleven-lg1.jpg",
+                "color": "#C34431",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "",
+                "admin_email": "",
+                "sponsorships":
+                [
+                    22884,
+                    22908
+                ],
+                "project_sponsorships":
+                [
+                    6
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 106,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 4,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 5,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 1190,
+                "created": 1628879453,
+                "last_edited": 1628879453,
+                "name": "Exaion",
+                "url": "https://exaion.edf.fr/en/exaion",
+                "url_segment": "Exaion",
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "",
+                "industry": "",
+                "contributions": "",
+                "member_level": "StartUp",
+                "overview": "",
+                "products": "",
+                "commitment": "",
+                "commitment_author": "",
+                "logo": null,
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/Exaion-Logo-Lgr.png",
+                "color": "#c23631",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "vivien.sayve@exaion.com",
+                "admin_email": "",
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                [
+                    30,
+                    39,
+                    3,
+                    15,
+                    34,
+                    37
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 106,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 4,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 5,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 1209,
+                "created": 1633012094,
+                "last_edited": 1639364486,
+                "name": "Nipa Cloud",
+                "url": "https://www.nipa.cloud",
+                "url_segment": "nipa-cloud",
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "<p>NIPA Technology was established in 1996 and focuses on innovation being a very first Thailand end-to-end digital marketing agency for many years. We are now providing cloud computing services, which include enterprise public cloud, private/edge cloud, cloud storage, and fabric networking based on OpenStack, Ceph and Tungsten Fabric.</p><p>NIPA Cloud team has learned tremendously from our first public cloud which is running under Ocata version of OpenStack providing cloud services for the past four years with Ceph storage. We are now launching a brand new version of enterprise public cloud – Victoria with RADOS-based Ceph Stack. With our software development team, we replace Horizon with our own NIPA Cloud Platform (NCP) including billing system which makes it possible to provide “Pay-as-you-go” model.</p><p>NIPA Cloud is now certified according to ISO 270001 (since 2017), ISO 20000-1, ISO 29110 – for cloud security and service management professional, and software development process. Our services expand to multi data centers within Thailand using fabric networking.</p>",
+                "industry": "",
+                "contributions": "<p>NIPA is totally committed to open source community. We started out with OpenStack Ocata and we have not looked back since. Our OpenStack entire team is probably the best in Thailand and it’s ready to commit back to global community through telemetry and dashboard tools. We are Gold Member of the OpenInfra Foundation and a leader of Openstack community in Thailand organizing Openstack Day Thailand and Meetup events.</p>",
+                "member_level": "None",
+                "overview": "<p>NIPA Technology was established in 1996 and focuses on innovation being a very first Thailand end-to-end digital marketing agency for many years. We are now providing cloud computing services, which include enterprise public cloud, private/edge cloud, cloud storage, and fabric networking based on OpenStack, Ceph and Tungsten Fabric.</p><p>NIPA Cloud team has learned tremendously from our first public cloud which is running under Ocata version of OpenStack providing cloud services for the past four years with Ceph storage. We are now launching a brand new version of enterprise public cloud – Victoria with RADOS-based Ceph Stack. With our software development team, we replace Horizon with our own NIPA Cloud Platform (NCP) including billing system which makes it possible to provide “Pay-as-you-go” model.</p><p>NIPA Cloud is now certified according to ISO 270001 (since 2017), ISO 20000-1, ISO 29110 – for cloud security and service management professional, and software development process. Our services expand to multi data centers within Thailand using fabric networking.</p>",
+                "products": "",
+                "commitment": "<p>NIPA is totally committed to open source community. We started out with OpenStack Ocata and we have not looked back since. Our OpenStack entire team is probably the best in Thailand and it’s ready to commit back to global community through telemetry and dashboard tools. We are Gold Member of the OpenInfra Foundation and a leader of Openstack community in Thailand organizing Openstack Day Thailand and Meetup events.</p>",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/Uploads/nipa-small.jpg",
+                "big_logo": null,
+                "color": "#df10c0",
+                "display_on_site": true,
+                "featured": true,
+                "contact_email": "abhisak@nipa.co.th",
+                "admin_email": "",
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                []
+            },
+            "sponsorship":
+            {
+                "id": 106,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 4,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 5,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 227,
+                "created": 1338833303,
+                "last_edited": 1742985305,
+                "name": "Red Hat, Inc.",
+                "url": "http://www.redhat.com/openstack/?sc_cid=70160000000bEKkAAM&offer_id=701600000006R7KAAU",
+                "url_segment": "red-hat",
+                "city": "",
+                "state": "",
+                "country": "US",
+                "description": "<p>Red Hat is the world's leading provider of open source software solutions, using a community-powered approach to reliable and high-performing cloud, Linux, middleware, storage, and virtualization technologies. Red Hat also offers award-winning support, training, and consulting services. As the connective hub in a global network of enterprises, partners, and open source communities, Red Hat helps create relevant, innovative technologies that liberate resources for growth and prepare customers for the future of IT. Learn more about Red Hat at <a href=\"http://www.redhat.com/\">http://www.redhat.com</a>.</p>",
+                "industry": "Software",
+                "contributions": "<p>As a Platinum member of the OpenStack Foundation, Red Hat has been a top contributor to the OpenStack project since 2011. Leveraging our nearly 20 years of leadership and experience in open source project development, Red Hat provides extensive contributions to the broad range of OpenStack and ancillary projects and services.</p>",
+                "member_level": "Gold",
+                "overview": "<p>Red Hat is the world’s leading provider of open source software solutions, using a community-powered approach to reliable and high-performing cloud, Linux, middleware, storage and virtualization technologies.</p>",
+                "products": "<p>Building on a unique “community first” approach to our entire business and product development strategy, Red Hat is uniquely positioned to provide our customers a competitive advantage in emerging cloud technologies, like OpenStack with KVM, scale-out storage, security, networking, and hybrid cloud management.</p><p>From project to product, Red Hat delivers a hardened, enterprise-grade OpenStack platform that is designed to stand up the rigors of production use. We offer our customers award-winning, global, production-level support, along with a variety of training, certification, and consulting services to ensure your success.</p>",
+                "commitment": "<p>Red Hat is the leading contributor to the OpenStack project, and is deeply committed to providing enterprise-grade, open source OpenStack solutions for a variety of end-users - all based on the industry-leading platform of Red Hat Enterprise Linux.</p>",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/Uploads/RedHat-sm.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/RedHat-lg.png",
+                "color": "#C7282C",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "griveros@redhat.com",
+                "admin_email": "griveros@redhat.com",
+                "sponsorships":
+                [
+                    8925,
+                    8931,
+                    8932,
+                    8933,
+                    8935,
+                    8936,
+                    8937,
+                    9017,
+                    9062,
+                    9064,
+                    9455,
+                    17404,
+                    17408,
+                    17406,
+                    17405,
+                    17409,
+                    17407,
+                    17410,
+                    18685,
+                    18621,
+                    18944,
+                    18945,
+                    18946,
+                    18947,
+                    18948,
+                    18949,
+                    18950,
+                    20541,
+                    20542,
+                    20543,
+                    20544,
+                    20545,
+                    20546,
+                    20547,
+                    20580,
+                    21662,
+                    21667,
+                    21815,
+                    21816,
+                    21817,
+                    21818,
+                    21819,
+                    21820,
+                    21791,
+                    22916,
+                    22956,
+                    22963,
+                    22980,
+                    22981,
+                    22982,
+                    22983,
+                    22984,
+                    22985,
+                    24431
+                ],
+                "project_sponsorships":
+                [
+                    2,
+                    10,
+                    33,
+                    36,
+                    14
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 84,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 3,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 4,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 1166,
+                "created": 1591030964,
+                "last_edited": 1739910102,
+                "name": "OpenMetal",
+                "url": "https://hubs.li/Q037cqQY0",
+                "url_segment": "open-metal",
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "<p>OpenMetal is a leading private cloud infrastructure provider specializing in hosted private clouds and bare metal solutions. Powered by open-source technologies like OpenStack and Ceph, OpenMetal delivers scalable, high-performance, on-demand private cloud environments for businesses, especially those seeking alternatives to public clouds and closed source systems. </p>\n\n<p>Trusted by SaaS providers, hosting companies, MSPs, and enterprises, OpenMetal empowers organizations to reduce costs, eliminate vendor lock-in, and seamlessly run modern workloads, including DevOps, AI, and open-source projects. With data centers in the US and Europe and plans to expand into Asia, OpenMetal is redefining private cloud infrastructure on a global scale using open standards and customer-first solutions.</p>\n",
+                "industry": "",
+                "contributions": "<p>OpenMetal’s  mission is to simplify the adoption of open source and empower individuals – by themselves or within teams – to meaningfully contribute to the larger community, fostering innovation that benefits all.</p>\n\n<p>OpenMetal has a strong history of supporting open source technologies. As a Foundation member of the Open Infrastructure Foundation, OpenMetal continues to simplify and scale the adoption of open source and OpenStack systems for teams of any size. We believe that contributing to the OpenStack and open source communities is pivotal to fostering the open infrastructure technology ecosystem.\n</p>",
+                "member_level": "Silver",
+                "overview": "<p>OpenMetal is a technology company that provides cloud-based solutions and managed services to businesses of all sizes, across the globe. OpenMetal was created to bring together what we believe about open source and what we see as a critical addition to the future of IT. Our mission is to simplify the adoption of open source and empower individuals – by themselves or within teams – to meaningfully contribute to the larger community, fostering innovation that benefits all.</p>",
+                "products": "<p>OpenMetal’s flagship offering is an On-Demand Hosted Private Cloud platform built on OpenStack and Ceph, delivering the agility of a public cloud with the security and efficiency of a private cloud. As a hosted IaaS solution, it integrates private cloud, enterprise bare metal, and Ceph storage clusters, supporting a range of workloads, including AI and Big Data. With approved access, customers can deploy a fully operational private cloud in under a minute—something previously only possible with public clouds. Organizations migrating from public cloud typically achieve 30-60% cost savings while enhancing operational efficiency.</p>",
+                "commitment": "<p>OpenMetal has a strong history of supporting open source technologies. As a foundation member of the Open Infrastructure Foundation, OpenMetal continues to simplify and scale the adoption of open source and OpenStack systems for teams of any size. We believe that contributing to the OpenStack and open source communities is pivotal to fostering the open infrastructure technology ecosystem.</p>",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/Uploads/openmetal-sm.jpg",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/openmetal-lg.jpg",
+                "color": "#000000",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "solutions@openmetal.io",
+                "admin_email": "",
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                [
+                    5,
+                    3,
+                    34,
+                    37,
+                    15
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 106,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 4,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 5,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 1192,
+                "created": 1629981176,
+                "last_edited": 1741941131,
+                "name": "Cloudbase Solutions",
+                "url": "http://www.cloudbase.it",
+                "url_segment": "cloudbase-solutions",
+                "city": null,
+                "state": null,
+                "country": null,
+                "description": "<p><span style=\"font-size: 11.0pt; font-family: &#039;Calibri&#039;,sans-serif;\">Cloudbase Solutions is the leading global contributor for OpenStack on Windows with Hyper-V, bridging the enterprise world with open source cloud computing. Our products and services are based on state-of-the-art open source orchestration solutions for standard Microsoft based workloads.</span></p>",
+                "industry": null,
+                "contributions": null,
+                "member_level": "Silver",
+                "overview": "<p>Cloudbase Solutions is the leading global contributor for OpenStack on Windows with Hyper-V, bridging the enterprise world with open source cloud computing. Our products and services are based on state-of-the-art open source orchestration solutions for standard Microsoft based workloads.</p>",
+                "products": null,
+                "commitment": "<p>Cloudbase Solutions develops, maintains and contributes all the crucial OpenStack components for Windows, including Nova, Cinder, Neutron, Ceilometer, Ironic, Manila, OS-Win and Heat templates along with Open vSwitch for Hyper-V and the guest Windows Cloudbase-Init.</p>",
+                "commitment_author": null,
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1192/logos/Sponsor-Logos-Silver-CloudbaseSolutions.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/cloudbase-lg2.jpg",
+                "color": "#00a0e4",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": null,
+                "admin_email": null,
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                [
+                    30,
+                    39,
+                    3,
+                    15,
+                    34,
+                    37
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 106,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 4,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 5,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 1153,
+                "created": 1570480733,
+                "last_edited": 1623869291,
+                "name": "CloudFire Srl",
+                "url": "https://cloudfire.it/",
+                "url_segment": "cloudfire",
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "",
+                "industry": "",
+                "contributions": "",
+                "member_level": "None",
+                "overview": "",
+                "products": "",
+                "commitment": "",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1153/logos/cloudfire-sm1.png",
+                "big_logo": null,
+                "color": "#e91373",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "",
+                "admin_email": "",
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                []
+            },
+            "sponsorship":
+            {
+                "id": 150,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 6,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 7,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 73,
+                "created": 1306343094,
+                "last_edited": 1454985582,
+                "name": "OW2",
+                "url": "http://www.ow2.org/",
+                "url_segment": "ow2",
+                "city": null,
+                "state": null,
+                "country": "FR",
+                "description": null,
+                "industry": null,
+                "contributions": null,
+                "member_level": "Mention",
+                "overview": null,
+                "products": null,
+                "commitment": null,
+                "commitment_author": null,
+                "logo": null,
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/ow2-lg.jpg",
+                "color": "#f0f0ee",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": null,
+                "admin_email": null,
+                "sponsorships":
+                [
+                    9014
+                ],
+                "project_sponsorships":
+                [
+                    31,
+                    4,
+                    39,
+                    6
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 150,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 6,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 7,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 698,
+                "created": 1418144963,
+                "last_edited": 1661948615,
+                "name": "OVHcloud",
+                "url": "https://www.ovhcloud.com",
+                "url_segment": "ovh-group",
+                "city": null,
+                "state": null,
+                "country": null,
+                "description": "<p class=\"p1\">Founded in 1999, the OVHcloud innovates at the heart of the Internet, data centers (380,000 physical servers) and network (20 Tbps). As a result, today it is a major player in the European cloud market. OVHcloud offers tools and solutions that are simple yet powerful, revolutionizing the way its 1,5B worldwide customers work. Its credo is technology must serve business. Respect for the individual, freedom, and equal opportunity to access new technologies have always been and will be strong commitments of the company. </p>",
+                "industry": "Hosting and Cloud comapny",
+                "contributions": "<p>OVHcloud works in many areas in the community, from technical contributions with patches, reviews and feedbacks, to marketing actions like participating to events or promoting OpenStack. We’re also one of the initial participants in the OpenStack Passport program. In practice, we also provide resources to the community for the CI/CD and the hands on workshops during the OpenStack Summits.</p>",
+                "member_level": "Silver",
+                "overview": "<p>OVH is a major player in cloud market. Thanks to 15 years of hosting experience, OVH builds his own data centers and manages his own network around the world. The OVH Group offers tools and solutions that are simple yet powerful, revolutionizing the way its 900,0000 worldwide customers work.</p>",
+                "products": "<h1>Public Cloud</h1><p>OVHcloud runs OpenStack for one of his main product \"Public Cloud\", it provides storage and compute ressources based on a large infrastructure splitted in many regions all around the world. We worked on high availability solutions for our users using strong hardware and robust open source software. The APIs are available for the users and a user-friendly interface can be used to manage easily every part of the cloud. Our solution is integrated with other products available at OVHcloud like network IP Failover, inter-region private networks and load balancers.</p>",
+                "commitment": "<p>Through this Public Cloud product, the OVH group dedicated a whole team of engineers and tech enthusiasts to bring its bare-metal and performance experience to the cloud and OpenStack ecosystem.</p>",
+                "commitment_author": null,
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/Uploads/OVH-new-sm.jpg",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/OVH-new-lg.jpg",
+                "color": "#000E9C",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "jean-daniel.bonnetot@corp.ovh.com",
+                "admin_email": null,
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                [
+                    5,
+                    30,
+                    39,
+                    3,
+                    34,
+                    15,
+                    37
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 84,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 3,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 4,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 1227,
+                "created": 1646232881,
+                "last_edited": 1646232881,
+                "name": "GermanTechJobs",
+                "url": "https://germantechjobs.de/en/jobs/Cloud/all",
+                "url_segment": null,
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "",
+                "industry": "",
+                "contributions": "",
+                "member_level": "None",
+                "overview": "",
+                "products": "",
+                "commitment": "",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1227/logos/germantechjobs-lg.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1227/logos/germantechjobs-lg1.png",
+                "color": "#DADADA",
+                "display_on_site": false,
+                "featured": false,
+                "contact_email": "emma@germantechjobs.de",
+                "admin_email": "emma@germantechjobs.de",
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                []
+            },
+            "sponsorship":
+            {
+                "id": 194,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 8,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 9,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 1228,
+                "created": 1646757430,
+                "last_edited": 1741361920,
+                "name": "NETWAYS Managed Services GmbH",
+                "url": "https://nws.netways.de/en/",
+                "url_segment": "netways-gmbh",
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "<p>NETWAYS Managed Services provides tailored, worry-free Cloud and Managed Services, all in one place. With a broad portfolio of off-the-shelf open-source offerings, a powerful public cloud offering and personal 24/7 support, NETWAYS Managed Services enables their customers to build reliable products and solutions.</p>",
+                "industry": "",
+                "contributions": "",
+                "member_level": "StartUp",
+                "overview": "<p>NETWAYS Managed Services provides tailored, worry-free Cloud and Managed Services, all in one place. With a broad portfolio of off-the-shelf open-source offerings, a powerful public cloud offering and personal 24/7 support, NETWAYS Managed Services enables their customers to build reliable products and solutions.</p>",
+                "products": "",
+                "commitment": "<p>NETWAYS Managed Services and the NETWAYS group build on top of Open Source. With OpenStack at the heart of their cloud platform and support, hosting, and consulting for more than 20 open-source solutions, they help their customers and communities succeed with free and open software.</p>",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/Uploads/netways-sm.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/netways-lg.png",
+                "color": "#002b3f",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": null,
+                "admin_email": "mail@dbodky.me",
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                [
+                    15,
+                    3
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 150,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 6,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 7,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 1200,
+                "created": 1632347241,
+                "last_edited": 1632347241,
+                "name": "Soda Foundation",
+                "url": "https://sodafoundation.io/",
+                "url_segment": null,
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "",
+                "industry": "",
+                "contributions": "",
+                "member_level": "None",
+                "overview": "",
+                "products": "",
+                "commitment": "",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1200/logos/soda-foundation-member.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1200/logos/soda-foundation-logo-lg.jpeg",
+                "color": "#DADADA",
+                "display_on_site": false,
+                "featured": false,
+                "contact_email": "",
+                "admin_email": "",
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                [
+                    4
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 150,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 6,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 7,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 120,
+                "created": 1311173767,
+                "last_edited": 1743093428,
+                "name": "VEXXHOST, Inc.",
+                "url": "http://vexxhost.com",
+                "url_segment": "vexxhost",
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "<p>VEXXHOST is an established hosting company specialized in providing public cloud computing services that are delivered using the OpenStack projects. All the services are designed with performance, reliability and security as the core features.</p>",
+                "industry": "",
+                "contributions": "<p>Our commitment to supporting the OpenStack ecosystem is by frequently contributing code to the compute project, Nova. In addition, we are also committed to increase awareness around the OpenStack projects through educational material and talks.</p>",
+                "member_level": "Silver",
+                "overview": "<p>VEXXHOST is an established hosting company specialized in providing public cloud computing services that are delivered using the OpenStack projects.  All the services are designed with performance, reliability and security as the core features.</p>",
+                "products": "",
+                "commitment": "<p>Our commitment to supporting the OpenStack ecosystem is by frequently contributing code to the compute project, Nova.  In addition, we are also committed to increase awareness around the OpenStack projects through educational material and talks.</p>",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/120/logos/vexxhost-sm-copy.jpg",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/vexxhost-lg2.jpg",
+                "color": "#423fff",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "sales@vexxhost.com",
+                "admin_email": "",
+                "sponsorships":
+                [
+                    23790,
+                    24802
+                ],
+                "project_sponsorships":
+                [
+                    5,
+                    23,
+                    15,
+                    3
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 62,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 2,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 3,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 582,
+                "created": 1400619871,
+                "last_edited": 1744119822,
+                "name": "Fairbanks",
+                "url": "http://fairbanks.nl/",
+                "url_segment": "Fairbanks",
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "<p>Fairbanks specializes in providing expert services for open source infrastructure, including OpenStack, Kubernetes, Ceph, and Linux. Fairbanks offers managed services, consultancy, training, and emergency assistance, ensuring scalability, reliability, and performance for cloud environments. Fairbanks supports organizations worldwide, helping them optimize their infrastructure and tackle complex challenges.</p>",
+                "industry": "",
+                "contributions": "<p>Fairbanks is deeply committed to open infrastructure and open source technologies, being active members of several open source foundations. Fairbanks continuously contributes to the community through code, knowledge sharing, and thought leadership. Fairbanks regularly participates in open source events and provides training, consultancy, and managed services. Fairbanks’ commitment extends to sharing best practices and innovations, helping teams around the world build scalable and flexible infrastructures while avoiding vendor lock-in.</p>",
+                "member_level": "Silver",
+                "overview": "<p>Fairbanks specializes in providing expert services for open source infrastructure, including OpenStack, Kubernetes, Ceph, and Linux. Fairbanks offers managed services, consultancy, training, and emergency assistance, ensuring scalability, reliability, and performance for cloud environments. Fairbanks supports organizations worldwide, helping them optimize their infrastructure and tackle complex challenges.</p>",
+                "products": "<p><span>Fairbanks delivers solutions that grow along with your usage, but can also scale down when needed. By using available modules when available, combined with open source solutions. We realize a cloud for you, that works perfectly, is cheaper than custom build solutions and is implemented faster than using traditional methods. It’s your cloud, running on your hardware, in your datacentre. All of our solutions are presented simple on this site so you get an easy view of our propositions. All services are SLA-backed and supported end-to-end. And for specific industries or applications, we combine our products and services in specialized Cloud Programs.</span></p>",
+                "commitment": "<p>Fairbanks is deeply committed to open infrastructure and open source technologies, being active members of several open source foundations. Fairbanks continuously contributes to the community through code, knowledge sharing, and thought leadership. Fairbanks regularly participates in open source events and provides training, consultancy, and managed services. Fairbanks’ commitment extends to sharing best practices and innovations, helping teams around the world build scalable and flexible infrastructures while avoiding vendor lock-in.</p>",
+                "commitment_author": null,
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/582/logos/fairbanks-lg.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/582/logos/fairbanks-lg1.png",
+                "color": "#C34431",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "info@fairbanks.nl",
+                "admin_email": "",
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                [
+                    30,
+                    39,
+                    34,
+                    15,
+                    37,
+                    3
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 106,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 4,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 5,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 489,
+                "created": 1390322474,
+                "last_edited": 1742486555,
+                "name": "Sardina Systems",
+                "url": "https://www.sardinasystems.com/",
+                "url_segment": "sardina-systems",
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "<p>Sardina Systems is one of the leading European developers and suppliers of operations management software with a headquarters in the UK and a local presence around the globe. FishOS®, the brainchild of Sardina Systems, is a cutting-edge cloud management tool that provides a smart, efficient, super-scalable OpenStack cloud, Kubernetes orchestration platform, and Ceph. Sardina's technology enables companies and non-profit organizations to maximize the utility of their resources with zero-downtime operations.</p>",
+                "industry": "Open Source Private Cloud Software Technology",
+                "contributions": "<p>Sardina Systems' commitment to open source began in 2014 by launching FishOS, our OpenStack-powered solution. FishOS has enabled us to grow our presence across various sectors, including finance, healthcare, telecom, and the public sector. Our deep OpenStack expertise allows us to provide efficient, automated solutions, making OpenStack accessible to IT teams of all skill levels. Sardina Systems maximizes cloud resource utilization, elevating typical data center usage from 20% to 80%, driving substantial cost savings and better business outcomes. Sardina Systems puts clients at the heart of everything we do. We aim to deliver practical, cost-effective results rather than focusing on consulting fees or inflating prices based on branding.</p>",
+                "member_level": "Silver",
+                "overview": "<p>Sardina Systems is one of the leading European developers and suppliers of operations management software with a headquarters in the UK and a local presence around the globe. FishOS®, the brainchild of Sardina Systems, is a cutting-edge cloud management tool that provides a smart, efficient, super-scalable OpenStack cloud, Kubernetes orchestration platform, and Ceph. Sardina's technology enables companies and non-profit organizations to maximize the utility of their resources with zero-downtime operations.</p>",
+                "products": "<p>FishOS is an award-winning cloud management platform integrating OpenStack, Kubernetes, and Ceph with 11 unique components for fully automated operations, including AI-powered FishOS Workload Manager and Health Monitoring services. Highly compatible with other solutions, it delivers a flexible, scalable, and cost-effective enterprise cloud.</p>",
+                "commitment": "<p>Sardina Systems' commitment to open source began in 2014 by launching FishOS, our OpenStack-powered solution. FishOS has enabled us to grow our presence across various sectors, including finance, healthcare, telecom, and the public sector.</p><p>Our deep OpenStack expertise allows us to provide efficient, automated solutions, making OpenStack accessible to IT teams of all skill levels. Sardina Systems maximizes cloud resource utilization, elevating typical data center usage from 20% to 80%, driving substantial cost savings and better business outcomes.</p><p>Sardina Systems puts clients at the heart of everything we do. We aim to deliver practical, cost-effective results rather than focusing on consulting fees or inflating prices based on branding.</p>",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/489/logos/sardina-lg1.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/489/logos/sardina-lg2.png",
+                "color": "#cc0202",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "info@sardinasystems.com",
+                "admin_email": "",
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                [
+                    30,
+                    39,
+                    3,
+                    34,
+                    15,
+                    37
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 106,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 4,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 5,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 56,
+                "created": 1306342304,
+                "last_edited": 1637858542,
+                "name": "B1 Systems",
+                "url": "http://www.b1-systems.de/",
+                "url_segment": "b1-systems",
+                "city": null,
+                "state": null,
+                "country": "DE",
+                "description": null,
+                "industry": null,
+                "contributions": null,
+                "member_level": "Silver",
+                "overview": null,
+                "products": null,
+                "commitment": null,
+                "commitment_author": null,
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/logos/b1systems.jpg",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/BSystems.jpg",
+                "color": "#f0f0ee",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": null,
+                "admin_email": null,
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                [
+                    30,
+                    3,
+                    34,
+                    15,
+                    37
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 84,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 3,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 4,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 504,
+                "created": 1392740720,
+                "last_edited": 1600451615,
+                "name": "TrilioData",
+                "url": "http://www.triliodata.com",
+                "url_segment": "triliodata",
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "",
+                "industry": "",
+                "contributions": "",
+                "member_level": "None",
+                "overview": "",
+                "products": "",
+                "commitment": "",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/504/logos/trilio-new-lg.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/504/logos/trilio-new-lg1.png",
+                "color": "#C34431",
+                "display_on_site": false,
+                "featured": false,
+                "contact_email": "",
+                "admin_email": "",
+                "sponsorships":
+                [
+                    9001,
+                    17330,
+                    18921,
+                    18928,
+                    20584,
+                    20585,
+                    21914,
+                    24796
+                ],
+                "project_sponsorships":
+                []
+            },
+            "sponsorship":
+            {
+                "id": 106,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 4,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 5,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 319,
+                "created": 1367431509,
+                "last_edited": 1551818412,
+                "name": "StorPool Storage",
+                "url": "http://storpool.com",
+                "url_segment": "StorPool",
+                "city": null,
+                "state": null,
+                "country": null,
+                "description": null,
+                "industry": "storage",
+                "contributions": null,
+                "member_level": "Mention",
+                "overview": "<p>a</p>",
+                "products": null,
+                "commitment": "<p>a</p>",
+                "commitment_author": null,
+                "logo": null,
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/storpool.jpg",
+                "color": "#f0f0ee",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "b.ivanov@storpool.com",
+                "admin_email": "b.ivanov@storpool.com",
+                "sponsorships":
+                [
+                    22904,
+                    24445
+                ],
+                "project_sponsorships":
+                [
+                    6
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 106,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 4,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 5,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 195,
+                "created": 1331228448,
+                "last_edited": 1700076121,
+                "name": "Deutsche Telekom",
+                "url": "https://open-telekom-cloud.com/en",
+                "url_segment": "deutsche-telekom",
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "<p><strong>Leading European Telco</strong></p><p><a href=\"https://www.telekom.com/en/company/company-profile\">Deutsche Telekom</a> is one of the world's leading integrated telecommunications companies, with some 178 million mobile customers, 28 million fixed-network lines, and 20 million broadband lines.</p><p>We provide fixed-network/broadband, mobile communications, Internet, and IPTV products and services for consumers, and information and communication technology (ICT) solutions for business and corporate customers.</p><p>Deutsche Telekom is present in more than 50 countries. With a staff of some 216,000 employees throughout the world, we generated revenue of 75,7 billion Euro in the 2018 financial year, about 66 percent of it outside Germany.</p>",
+                "industry": "Telecommunications and Information Technology",
+                "contributions": "<p>Deutsche Telekom was one of the first major European companies publicly supporting the OpenStack project.</p><p>First public activities date back to 2012.</p><p>Today several engineers and architects from Deutsche Telekom contribute to OpenStack in networking, testing, storage, library, and infrastructure projects. The company is Gold Member of the OpenStack Foundation and frequent sponsor and supporter of the foundations events.</p>",
+                "member_level": "Gold",
+                "overview": "<p><strong>Leading European Telco</strong></p><p><a href=\"https://www.telekom.com/en/company/company-profile\">Deutsche Telekom</a> is one of the world's leading integrated telecommunications companies, with some 178 million mobile customers, 28 million fixed-network lines, and 20 million broadband lines.</p><p>We provide fixed-network/broadband, mobile communications, Internet, and IPTV products and services for consumers, and information and communication technology (ICT) solutions for business and corporate customers.</p><p>Deutsche Telekom is present in more than 50 countries. With a staff of some 216,000 employees throughout the world, we generated revenue of 75,7 billion Euro in the 2018 financial year, about 66 percent of it outside Germany.</p>",
+                "products": "<p>Deutsche Telekom leverages OpenStack in a number of areas; three projects deserve highlighting:</p><p>TelekomCloud BusinessMarketplace (a SaaS offering primarily targeted at European SMBs) uses OpenStack at its backbone and was launched in summer 2012.</p><p>In the Terastream project, an NFV cloud is built, hosting network oriented services in the network as part of the network transformation.</p><p>In March 2016 Deutsche Telekom launched <a href=\"https://open-telekom-cloud.com/\">Open Telekom Cloud</a>. The public cloud is leading in size and performance in Europe. It is operated by T-Systems in European data centers by European staff. Its software is based on Huawei's FusionSphere OpenStack distribution. The Open Telekom Cloud bundles now Deutsche Telekom's OpenStack activities, applying the four opens to its business model.</p>",
+                "commitment": "<p>Deutsche Telekom was one of the first major European companies publicly supporting the OpenStack project.</p><p>First public activities date back to 2012.</p><p>Today several engineers and architects from Deutsche Telekom contribute to OpenStack in networking, testing, storage, library, and infrastructure projects. The company is Gold Member of the OpenStack Foundation and frequent sponsor and supporter of the foundations events.</p>",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/195/logos/tsystems-sm.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/195/logos/tsystems-lg1.png",
+                "color": "#e30074",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "nils.magnus@t-systems.com",
+                "admin_email": "",
+                "sponsorships":
+                [
+                    22918,
+                    23773
+                ],
+                "project_sponsorships":
+                [
+                    29,
+                    14,
+                    33,
+                    36,
+                    2,
+                    10,
+                    39
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 62,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 2,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 3,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 1233,
+                "created": 1650647120,
+                "last_edited": 1650647120,
+                "name": "Datacenter Insider",
+                "url": "https://www.datacenter-insider.de",
+                "url_segment": null,
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "",
+                "industry": "",
+                "contributions": "",
+                "member_level": "None",
+                "overview": "",
+                "products": "",
+                "commitment": "",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1233/logos/DCI-Insider-Logo-2019.jpg",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/1233/logos/DCI-Insider-Logo-20191.jpg",
+                "color": "#DADADA",
+                "display_on_site": false,
+                "featured": false,
+                "contact_email": "",
+                "admin_email": "",
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                []
+            },
+            "sponsorship":
+            {
+                "id": 194,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 8,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 9,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 475,
+                "created": 1386883441,
+                "last_edited": 1739891317,
+                "name": "Wind River",
+                "url": "http://www.windriver.com",
+                "url_segment": "wind-river",
+                "city": null,
+                "state": null,
+                "country": null,
+                "description": "<p>Wind River® is accelerating digital transformation of critical infrastructure by delivering the technology and expertise that enable the deployment of safe, secure, and reliable IoT systems.</p>",
+                "industry": null,
+                "contributions": "<p>Wind River is a leading contributor to the OpenStack StarlingX edge computing Infrastructure project as well as to core services such as Cinder, Glance, Keystone, Neutron, Nova and Swift.</p>",
+                "member_level": "Platinum",
+                "overview": "<p>Wind River® is accelerating digital transformation of critical infrastructure by delivering the technology and expertise that enable the deployment of safe, secure, and reliable IoT systems.</p>",
+                "products": "<p>Based on OpenStack, Wind River® Titanium Cloud™ is the industry's only fully integrated, ultrareliable, and deployment-ready portfolio of virtualization software products. Titanium Cloud provides the ideal software infrastructure designed for the rigorous demands of critical infrastructure applications such as telecom networks and industrial control.</p>",
+                "commitment": "<p>As a leading contributor to the OpenStack StarlingX edge computing Infrastructure project as well as to core services such as Cinder, Glance, Keystone, Neutron, Nova and Swift, Wind River is committed to drive the adoption of OpenStack-based platforms in critical infrastructure applications.</p>",
+                "commitment_author": null,
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/Uploads/windriver-sm.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/main_logo/windriver-lg.png",
+                "color": "#3dbbb5",
+                "display_on_site": true,
+                "featured": true,
+                "contact_email": "Charlie.Ashton@windriver.com",
+                "admin_email": null,
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                [
+                    16,
+                    32,
+                    35,
+                    9,
+                    11,
+                    1
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 40,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 1,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 2,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        },
+        {
+            "company":
+            {
+                "id": 667,
+                "created": 1412954674,
+                "last_edited": 1654937543,
+                "name": "Bloomberg",
+                "url": "https://www.bloomberg.com/company/values/tech-at-bloomberg/open-source/?utm_medium=cto&utm_content=site-partner&utm_source=site-partner&utm_campaign=MKTG_2022TechEvent_OpenInfra&tactic=622682",
+                "url_segment": "bloomberg",
+                "city": "",
+                "state": "",
+                "country": "",
+                "description": "",
+                "industry": "",
+                "contributions": "",
+                "member_level": "Gold",
+                "overview": "<p>a</p>",
+                "products": "",
+                "commitment": "<p>a</p>",
+                "commitment_author": "",
+                "logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/667/logos/bloomberg-lg.png",
+                "big_logo": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/companies/667/logos/bloomberg-lg1.png",
+                "color": "#000000",
+                "display_on_site": true,
+                "featured": false,
+                "contact_email": "",
+                "admin_email": "",
+                "sponsorships":
+                [],
+                "project_sponsorships":
+                [
+                    14,
+                    33,
+                    36,
+                    2,
+                    10
+                ]
+            },
+            "sponsorship":
+            {
+                "id": 84,
+                "widget_title": null,
+                "lobby_template": null,
+                "expo_hall_template": null,
+                "sponsor_page_template": null,
+                "event_page_template": null,
+                "sponsor_page_use_disqus_widget": true,
+                "sponsor_page_use_live_event_widget": true,
+                "sponsor_page_use_schedule_widget": true,
+                "sponsor_page_use_banner_widget": true,
+                "type_id": 3,
+                "badge_image": null,
+                "badge_image_alt_text": null,
+                "summit_id": 32,
+                "order": 4,
+                "should_display_on_expo_hall_page": true,
+                "should_display_on_lobby_page": true
+            }
+        }
+    ],
+    "featured_speakers":
+    [
+        {
+            "id": 1759,
+            "first_name": "Jonathan",
+            "last_name": "Bryce",
+            "pic": "https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/JonathanBryceBio100.jpg",
+            "company": "OpenInfra Foundation"
+        },
+        {
+            "id": 1071,
+            "first_name": "Thierry",
+            "last_name": "Carrez",
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/ThierryCarrez-Headshot1.jpg",
+            "company": "OpenInfra Foundation"
+        },
+        {
+            "id": 16693,
+            "first_name": "Oindrilla",
+            "last_name": "Chatterjee",
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/Oindrilla-Chatterjee-headshot.jpeg",
+            "company": "Red Hat"
+        },
+        {
+            "id": 3660,
+            "first_name": "Mark",
+            "last_name": "Collier",
+            "pic": "https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/5ae1fab52c42f.jpg",
+            "company": "OpenInfra Foundation"
+        },
+        {
+            "id": 16381,
+            "first_name": "Johannes",
+            "last_name": "Foufas",
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/johannes-foufas.jpg",
+            "company": "Volvo Car Corporation"
+        },
+        {
+            "id": 14148,
+            "first_name": "Tytus",
+            "last_name": "Kurek",
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/162090668-tytus-headshot.jpg",
+            "company": "Canonical"
+        },
+        {
+            "id": 10999,
+            "first_name": "Trong Vinh",
+            "last_name": "Nguyen",
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/Nguyen-Trong-Vinh-headshot.JPG",
+            "company": "VietOpenInfra"
+        },
+        {
+            "id": 16543,
+            "first_name": "Maryna",
+            "last_name": "Savchenko",
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/16189887778771.jpg",
+            "company": "CERN"
+        },
+        {
+            "id": 16608,
+            "first_name": "Shubham",
+            "last_name": "Tatvamasi",
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/Shubham-Tatvamasi2.jpg",
+            "company": "Magma Core Foundation"
+        }
+    ]
+}

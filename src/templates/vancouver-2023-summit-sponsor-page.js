@@ -16,8 +16,7 @@ import SummitSponsorsYvr from '../components/SummitSponsorsYvr'
 
 export const SummitSponsorPageTemplate = ({
   isLoggedUser,
-  header,
-  summit_sponsors
+  header
 }) => {
 
   return (
@@ -59,7 +58,7 @@ export const SummitSponsorPageTemplate = ({
             <span className="description">
               <p> A warm thank you to the sponsors of OpenInfra Summit Vancouver 2023!</p>
             </span>
-            <SummitSponsorsYvr summit_sponsors={summit_sponsors} />
+            <SummitSponsorsYvr />
           </section>
           
           <section id="howToSponsor" className="sponsor-steps">
@@ -164,7 +163,6 @@ const SummitSponsorPage = ({ isLoggedUser, summit, data }) => {
         previousSummits={post.frontmatter.previousSummits}
         videoBanner={post.frontmatter.videoBanner}
         sponsorships={post.frontmatter.sponsorships}
-        summit_sponsors={summit?.summit_sponsors || []}
       />
     </Layout>
   )
@@ -175,8 +173,7 @@ SummitSponsorPage.propTypes = {
 }
 
 export default connect(({loggedUserState, summitState}) => ({
-  isLoggedUser: loggedUserState.isLoggedUser,
-  summit: summitState.summit
+  isLoggedUser: loggedUserState.isLoggedUser
 }))(SummitSponsorPage)
 
 export const summitSponsorPageQuery = graphql`

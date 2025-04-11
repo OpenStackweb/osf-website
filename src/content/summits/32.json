@@ -1529,63 +1529,63 @@
             "id": 1759,
             "first_name": "Jonathan",
             "last_name": "Bryce",
-            "pic": null,
+            "pic": "https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/JonathanBryceBio100.jpg",
             "company": "OpenInfra Foundation"
         },
         {
             "id": 1071,
             "first_name": "Thierry",
             "last_name": "Carrez",
-            "pic": null,
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/ThierryCarrez-Headshot1.jpg",
             "company": "OpenInfra Foundation"
         },
         {
             "id": 16693,
             "first_name": "Oindrilla",
             "last_name": "Chatterjee",
-            "pic": null,
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/Oindrilla-Chatterjee-headshot.jpeg",
             "company": "Red Hat"
         },
         {
             "id": 3660,
             "first_name": "Mark",
             "last_name": "Collier",
-            "pic": null,
+            "pic": "https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/5ae1fab52c42f.jpg",
             "company": "OpenInfra Foundation"
         },
         {
             "id": 16381,
             "first_name": "Johannes",
             "last_name": "Foufas",
-            "pic": null,
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/johannes-foufas.jpg",
             "company": "Volvo Car Corporation"
         },
         {
             "id": 14148,
             "first_name": "Tytus",
             "last_name": "Kurek",
-            "pic": null,
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/162090668-tytus-headshot.jpg",
             "company": "Canonical"
         },
         {
             "id": 10999,
             "first_name": "Trong Vinh",
             "last_name": "Nguyen",
-            "pic": null,
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/Nguyen-Trong-Vinh-headshot.JPG",
             "company": "VietOpenInfra"
         },
         {
             "id": 16543,
             "first_name": "Maryna",
             "last_name": "Savchenko",
-            "pic": null,
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/16189887778771.jpg",
             "company": "CERN"
         },
         {
             "id": 16608,
             "first_name": "Shubham",
             "last_name": "Tatvamasi",
-            "pic": null,
+            "pic": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/profile-images/Shubham-Tatvamasi2.jpg",
             "company": "Magma Core Foundation"
         }
     ]

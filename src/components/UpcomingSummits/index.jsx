@@ -1,8 +1,6 @@
 import React from "react";
-
-import "./styles.scss";
-
 import SummitCard from "../SummitCard";
+import "./styles.scss";
 
 const UPCOMING_SUMMITS = [
   {
@@ -13,19 +11,11 @@ const UPCOMING_SUMMITS = [
     notification: {
       text: " ",
       button: {
-        link:
-          "https://summit2025.openinfra.org",
+        link: "https://summit2025.openinfra.org",
         text: "Learn More",
       },
     },
-  },
-  // {
-  //     key: 'europe-25',
-  //     background: '/img/summit-landing/cards/summit-europe25.png',
-  //     date: '2025',
-  //     location: 'Berlin, Germany',
-  //     notification: null
-  // }
+  }
 ];
 
 const UpcomingSummits = ({ title }) => {

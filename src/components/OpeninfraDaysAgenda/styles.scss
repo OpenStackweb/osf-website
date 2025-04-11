@@ -87,6 +87,10 @@
           font-size: 12px;
           max-width: 375px;
 
+          a {
+            text-decoration: underline;
+          }
+
           @media (min-width: 720px) {
             font-size: 16px;
           }

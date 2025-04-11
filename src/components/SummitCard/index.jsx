@@ -23,11 +23,9 @@ const SummitCard = ({
         <div
           className="summit-card-image"
           style={{ backgroundImage: `url(${background}` }}
-        ></div>
+        />
         <div
-          className={`summit-card-info ${
-            notification?.text ? "" : "no-notification"
-          }`}
+          className={`summit-card-info ${notification?.text ? "" : "no-notification"}`}
         >
           <div className="summit-card-info-wrapper">
             <span>

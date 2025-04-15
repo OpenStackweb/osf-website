@@ -29,11 +29,11 @@ const upcomingItemsAsia = [
     location: "Yogyakarta, ID",
     coming_soon: "More info coming soon!"
   },
-  { title: <a href="https://openinfradays.kr/" target="_blank">OpenInfra Days Korea"</a>,
+  { title: <a href="https://openinfradays.kr/" target="_blank">OpenInfra Days Korea</a>,
     date: "August 26th, 2025",
     location: "Seoul, KR",
     registration: '<a href="https://forms.gle/mCNKfsM4vUfPna3B6" target="_blank">The CFP closes June 15</a>',
-    sponsor: '<a href="https://openinfradays.kr/sponsor/" target="_blank">Sponsor this event</a>'
+    sponsor: '<a href="#" target="_blank">Sponsor this event</a>'
   },
   { title: "OpenInfra Days Taipei",
     coming_soon: "More info coming soon!",

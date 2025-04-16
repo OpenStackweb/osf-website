@@ -33,7 +33,7 @@ const upcomingItemsAsia = [
     date: "August 26th, 2025",
     location: "Seoul, KR",
     registration: '<a href="https://forms.gle/mCNKfsM4vUfPna3B6" target="_blank">The CFP closes June 15</a>',
-    sponsor: '<a href="#" target="_blank">Sponsor this event</a>'
+    sponsor: '<a href="mailto:sponsor@openinfradays.kr" target="_blank">Sponsor this event</a>'
   },
   { title: "OpenInfra Days Taipei",
     coming_soon: "More info coming soon!",

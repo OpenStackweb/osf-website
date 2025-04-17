@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "OpenInfra Member Working Group PTG Recaps: OpenStack for AI and VMware
   Migration"
-author: Allison Price
+author: Kendall Nelson
 date: 2025-04-17T15:41:01.960Z
 category:
   - value: category-h2Ztx9rpD

@@ -60,10 +60,14 @@ Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 # Kata Containers: The speed of containers, the security of VMs
 
 * The new [Kata Containers 3.15.0](https://github.com/kata-containers/kata-containers/releases) release is now available!
+* The next Architecture Committee (AC) election is currently in progress, the voting period is open till Apr 28, 2025. Look out for notifications to announce the new AC!
+* The Kata community participated in the recent PTG. Check out the [overview blog posts](https://katacontainers.io/blog/kata-community-ptg-updates-april-2025/) to learn what contributors discussed about the Rust runtime, performance testing, CI, and further topics
 
 # StarlingX: A fully featured cloud for the distributed edge
 
 * The latest [StarlingX 10.0](https://www.starlingx.io/blog/starlingx-release-10/) release is now available!
+* The community has just finalized the planning phase for the 11.0 release cycle. In the implementation phase they will not accept any new ideas that require significant changes, but small improvements can still be added to the release plan.
+* The StarlingX community participated in the recent PTG. Check out the [overview blog](https://www.starlingx.io/blog/starlingx-vptg-april-2025-recap/) post to learn more about what the project teams are currently working on.
 
 # Zuul: Stop merging broken code
 

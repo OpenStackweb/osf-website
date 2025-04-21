@@ -38,32 +38,16 @@ Finally, it is worth mentioning that OpenDev is not alone in hosting developer t
 * The OpenInfra Member OpenInfra AI Working Group also met at the PTG to begin an outline for a white paper that will be published in October.
 * If you’re interested in participating in members-only opportunities, such as the VMware to OpenStack Migration Working Group or the OpenInfra AI Working Group, check out the [recent PTG recap](https://openinfra.org/blog/vmware-ai-working-groups-ptg) and consider [membership of the OpenInfra Foundation](https://openinfra.dev/join/members/). Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev) today to find out more!
 
-# **Community Events**
+# OpenInfra Summit Europe
 
-**Upcoming OpenInfra and Community Events**[](https://www.socallinuxexpo.org/scale/22x/events/open-infra-days)
+17-19 October | Paris-Saclay, France | École Polytechnique Campus
 
-[OpenInfra Summit Europe](https://summit2025.openinfra.org/)
-
-* [](https://summit2025.openinfra.org/)17-19 October 2025 | Paris-Saclay, FR | École Polytechnique Campus
-* [Submit a Talk ](https://summit2025.openinfra.org/cfp/)| The deadline is 13 June at 23:59 PT
+* [Submit a Talk](https://summit2025.openinfra.org/cfp/) | The deadline is 13 June at 23:59 PT
 * [Become a Sponsor](https://summit2025.openinfra.org/sponsor/) | The deadline is 26 September at 23:59 PT
-* [Register Now](https://openinfrasummit25.dakini-pco.com/) | Prices increase on 29 July at 23:59 PT
-* [Travel Support](https://openinfrafoundation.formstack.com/forms/openinfra_tsp) | The Deadline is 9 July at 23:59 PT
-* Questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev)
+* [Register Now](https://openinfrasummit25.dakini-pco.com/) | Prices increase on 29 July at 23:59 PT
+* [Apply for Travel Support](https://openinfrafoundation.formstack.com/forms/openinfra_tsp) | The Deadline is 9 July at 23:59 PT
 
-[Celebrate OpenStack's 15th Birthday](https://www.openstack.org/blog/celebrating-15-years-of-openstack/)
-
-* 29 & 30 April: [Erlangen, Germany](https://www.meetup.com/openinfra-lowersaxony/events/306901826/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal)
-* 22 May: [Stockholm, Sweden](https://www.meetup.com/openinfra-user-group-sweden/events/306139678/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link)
-* 8 May: Athens, GR
-* 5 June: [Rennes, FR](https://www.meetup.com/fr-FR/openstack-rennes/events/306903998/?eventOrigin=group_upcoming_events)
-* Check out [more upcoming celebrations](https://www.openstack.org/blog/celebrating-15-years-of-openstack/)!
-
-Sweden
-
-StackConf
-
-* For more information about OpenInfra community events, please contact [events@openinfra.dev](mailto:events@openinfra.dev).
+##### LEARN MORE
 
 # OpenStack: Open source software for creating private and public clouds
 

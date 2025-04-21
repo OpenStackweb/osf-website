@@ -42,16 +42,20 @@ Finally, it is worth mentioning that OpenDev is not alone in hosting developer t
 
 17-19 October | Paris-Saclay, France | École Polytechnique Campus
 
+* [Learn More](https://summit2025.openinfra.org/) about the OpenInfra Summit Europe
 * [Submit a Talk](https://summit2025.openinfra.org/cfp/) | The deadline is 13 June at 23:59 PT
 * [Become a Sponsor](https://summit2025.openinfra.org/sponsor/) | The deadline is 26 September at 23:59 PT
 * [Register Now](https://openinfrasummit25.dakini-pco.com/) | Prices increase on 29 July at 23:59 PT
 * [Apply for Travel Support](https://openinfrafoundation.formstack.com/forms/openinfra_tsp) | The Deadline is 9 July at 23:59 PT
 
-##### LEARN MORE
+Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
+
+[Nominations for the 2025 Superuser Awards](https://openinfrafoundation.formstack.com/forms/superuserawards2025) are currently open! If you know of an organization (even your own!) who sets a high bar for open source infrastructure innovation, nominate them to be recognized by the global community! Nominations will close September 2 at 23:59 PT. The winner will be announced at the [OpenInfra Summit Europe](https://summit2025.openinfra.org/) on Friday, October 17.
 
 # OpenStack: Open source software for creating private and public clouds
 
-*
+* [OpenStack 2025.1, Epoxy](https://www.openstack.org/software/openstack-epoxy/) is now available! Hear about the updates [directly from the community leaders](https://www.youtube.com/watch?v=qX2-8oyFVPk)!
+* Check out [Superuser](https://superuser.openinfra.org/) to find the latest OpenStack case studies plus OpenStack + Kata Containers tutorials!
 
 # Kata Containers: The speed of containers, the security of VMs
 

@@ -38,11 +38,11 @@ const MoreEventsSection = () => {
                 event.name}
               </div>
               <div className="agenda-date">
-                <img src="img/openinfra-days/calendar.svg" alt="date" />
+                <img src="/img/openinfra-days/calendar.svg" alt="date" />
                 {event.date}
               </div>
               <div className="agenda-location">
-                <img src="img/openinfra-days/location.svg" alt="location" />
+                <img src="/img/openinfra-days/location.svg" alt="location" />
                 {event.location}
               </div>
             </div>

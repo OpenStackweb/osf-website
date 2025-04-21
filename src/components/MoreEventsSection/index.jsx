@@ -21,7 +21,7 @@ const EVENTS = [
 
 const MoreEventsSection = () => {
   return (
-    <section className="more-events-section-wrapper" id="#community-events">
+    <section className="more-events-section-wrapper" id="community-events">
       <div className="container">
         <h1 className="title">
           More Community-Powered Events
@@ -30,10 +30,10 @@ const MoreEventsSection = () => {
           {EVENTS.map((event, idx) => (
             <div className="agenda-row" style={{borderLeftColor: COLORS[idx % 4]}}>
               <div className="agenda-name">
-                {event.link ? 
+                {event.link ?
                   <>
                     <LinkComponent href={event.link}>{event.name}</LinkComponent>
-                  </> 
+                  </>
                   :
                 event.name}
               </div>

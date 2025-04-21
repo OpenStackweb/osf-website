@@ -59,8 +59,41 @@ Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 
 # Kata Containers: The speed of containers, the security of VMs
 
-*
+* The new [Kata Containers 3.15.0](https://github.com/kata-containers/kata-containers/releases) release is now available!
 
 # StarlingX: A fully featured cloud for the distributed edge
 
-*
+* The latest [StarlingX 10.0](https://www.starlingx.io/blog/starlingx-release-10/) release is now available!
+
+# Zuul: Stop merging broken code
+
+* [Zuul 12.0.0](http://%20zuul%2012.0.0%20released%20https//lists.zuul-ci.org/archives/list/zuul-announce@lists.zuul-ci.org/message/RU5EPJO22Q64ME73RXEA3ZW4IGPJXDPD/) has arrived!
+
+# **Upcoming OpenInfra and Community Events**
+
+**[Celebrate OpenStack's 15th Birthday](https://www.openstack.org/blog/celebrating-15-years-of-openstack/)**  
+
+* 29 & 30 April: [Erlangen, Germany](https://www.meetup.com/openinfra-lowersaxony/events/306901826/) 
+* 22 May: [Stockholm, Sweden](https://www.meetup.com/openinfra-user-group-sweden/events/306139678/)
+* 5 June: [Rennes, France](https://www.meetup.com/fr-FR/openstack-rennes/events/306903998/)
+* Check out [more upcoming celebrations](https://www.openstack.org/blog/celebrating-15-years-of-openstack/)!
+
+**[OpenInfra User Group Sweden's 10th Anniversary](https://www.meetup.com/openinfra-user-group-sweden/events/306139678/)** 
+
+* 22 May | Stockholm, Sweden | Biograf Skandia
+
+<!--StartFragment-->
+
+**OpenInfra Days Asia Roadshow**
+
+* June & July | [OpenInfra Days Vietnam](https://www.vietopeninfra.org/void2025)
+* 19 July | [OpenInfra Day Indonesia](https://www.linkedin.com/posts/openinfraid_openinfra-oid2025-openinfraid-ugcPost-7319909725951643648-UeNl?utm_source=share&utm_medium=member_desktop&rcm=ACoAACkFmC4BAjY_ZaQQLbuPSV1vjFRU6hVE5Pk) 
+* 26 August | [OpenInfra Day Korea](https://openinfradays.kr/)
+* July - September | [Cloud Operator Days Tokyo](https://cloudopsdays.com/)
+* [And more](https://openinfra.org/days)!
+
+**[OpenInfra User Group Colombia at Kubernetes Community Day](https://www.meetup.com/colombia-openinfra-user-group/events/307096751/)** 
+
+* 29 August | Bogotá Colombia | Pontificia Universidad Javeriana
+
+For more information about OpenInfra community events, please contact [events@openinfra.dev](mailto:events@openinfra.dev).

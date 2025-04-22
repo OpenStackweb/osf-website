@@ -6,7 +6,7 @@ date: 2025-04-21T17:11:25.697Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: "Inside Open Infrastructure: April 2025"
   url: https://openinfra.dev/blog/openinfra-newsletter-april-2025

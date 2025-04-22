@@ -27,3 +27,7 @@ Events like this, even free and virtual, are incredibly valuable and important f
 The VMware Migration WG has been working on putting together a migration guide to help the wider ecosystem understand the benefits of leveraging OpenStack as an alternative. They spent much of their time at the PTG working on this guide which will be published sometime in June. The OpenInfra for AI WG has also begun working on a whitepaper of sorts with the focus on OpenStack specifically as an infrastructure platform for AI workloads. 
 
 Dates for the next PTG will be announced soon! Stay tuned!
+
+![](/img/os_tc1.png)
+
+![](/img/screenshot-from-2025-04-09-10-07-43.png)

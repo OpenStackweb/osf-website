@@ -18,7 +18,7 @@ seo:
     for the free event while the cumulative reported attendance across all
     sessions broke 650 participants for the week. "
 ---
-Earlier this month, from April 7-11, the OpenInfra Foundation played host to the Project Team Gathering. This PTG, 36 teams gathered together to work on open source projects in a virtual conference, exchanging ideas and getting work done in a productive, low-key setting. Over 200 community members registered for the free event while the cumulative reported attendance across all sessions broke 650 participants for the week.
+Earlier this month, from April 7-11, the OpenInfra Foundation host to the Project Team Gathering. 36 teams gathered together to work on open source projects in a virtual conference, exchanging ideas and getting work done in a productive, low-key setting. Over 200 community members registered for the free event, while the cumulative reported attendance across all sessions broke 650 participants for the week.
 
 Events like this, even free and virtual, are incredibly valuable and important for the community. The PTG allows teams to have higher definition discussions that would otherwise be more difficult to have, especially without in person events that gather the larger developer part of the community together. Gathering the community together also helps to foster trust and understanding amongst community members. It provides a space for newcomers to join teams and put faces to names that would otherwise just be irc nicknames as well. Moreover, the PTG event provides a space for teams to have cross project discussions hosted on open source tools, thanks to our own OpenDev collaboratory, like Meetpad and Etherpad and the PTGbot.
 

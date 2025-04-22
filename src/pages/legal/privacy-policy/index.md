@@ -390,7 +390,7 @@ If your dispute or complaint related to your Personal Data that we received in r
 
 ### Part XIII. Changes to Policy
 
-We may revise our Privacy Policy at any time by posting a revision on our website. However, the version of the Privacy Policy posted on our site at the time of the collection of your personal data will continue to apply to the personal data collected while that version was published.
+We may revise our Privacy Policy at any time by posting a revision on our website.
 
 ##### Cookies
 

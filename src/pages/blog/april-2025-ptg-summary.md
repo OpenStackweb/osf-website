@@ -6,7 +6,7 @@ date: 2025-04-22T18:03:07.298Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/blog/april-2025-ptg

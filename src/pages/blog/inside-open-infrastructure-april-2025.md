@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "Inside Open Infrastructure: April 2025"
 author: Allison Price
-date: 2025-04-21T17:11:25.697Z
+date: 2025-04-22T23:46:19.393Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
@@ -23,8 +23,8 @@ seo:
 Things the OpenDev Team has been working on recently include:
 
 * **Parallelizing OpenDev's continuous deployment jobs in Zuul that actually update the OpenDev servers. This has produced dramatic improvements to the time it takes to deploy changes.** It has been in the works for some time due to being an all-or-nothing switch. OpenDev can only run things in parallel if every deployment job is aware it is running in parallel and appropriately locking shared resources. OpenDev has spun up two new cloud regions in [Rackspace OpenStack Flex](https://www.rackspace.com/cloud/openstack-flex) to provide CI test job resources. OpenDev has an early beta deployment of the new zuul-launcher service, helping to ensure that Nodepool in Zuul is ready for everyone when it releases. Servers that host the OpenDev services are migrating onto Ubuntu Noble and from Docker to Podman as the container runtime. This enables speculative testing of container images in the OpenDev CI jobs while allowing us to move the hosting of the OpenDev container images outside of Docker hub.
-* **Helped the OpenStack project release [Epoxy 2025.1](https://releases.openstack.org/epoxy/index.html) on time, merging more than 7,600 changes and running more than one million CI jobs in the process.** These CI jobs test that the software continues to function as it changes and produces the artifacts that ultimately make up the release itself.
-* **Hosted the recent virtual PTG using the combination of Etherpad and Jitsi Meet also known as "Meetpad".** Hundreds of attendees came together to help build the future of Open Infra atop the open infrastructure OpenDev is hosting.
+* **Helping the OpenStack project release [Epoxy 2025.1](https://releases.openstack.org/epoxy/index.html) on time, merging more than 7,600 changes and running more than one million CI jobs in the process.** These CI jobs test that the software continues to function as it changes and produces the artifacts that ultimately make up the release itself.
+* **Hosting the recent virtual PTG using the combination of Etherpad and Jitsi Meet also known as "Meetpad".** Hundreds of attendees came together to help build the future of Open Infra atop the open infrastructure OpenDev is hosting.
 
 Looking ahead, the OpenDev team plans to upgrade more servers to Ubuntu Noble and upgrade services like Gerrit to newer versions. Keep an eye on the [announcement mailing list](https://lists.opendev.org/mailman3/lists/service-announce.lists.opendev.org/) for important details like outages related to these upgrades.
 
@@ -35,8 +35,8 @@ Finally, it is worth mentioning that OpenDev is not alone in hosting developer t
 # OpenInfra Foundation News
 
 * The [OpenInfra Member VMware Migration Working Group](https://www.openstack.org/vmware-migration-to-openstack) met again at the PTG to advance the upcoming VMware to OpenStack Migration Guide. Stay tuned in June for more information! 
-* The OpenInfra Member OpenInfra AI Working Group also met at the PTG to begin an outline for a white paper that will be published in October.
-* If you’re interested in participating in members-only opportunities, such as the VMware to OpenStack Migration Working Group or the OpenInfra AI Working Group, check out the [recent PTG recap](https://openinfra.org/blog/vmware-ai-working-groups-ptg) and consider [membership of the OpenInfra Foundation](https://openinfra.dev/join/members/). Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev) today to find out more!
+* The OpenInfra Member OpenStack for AI Working Group also met at the PTG to begin an outline for a white paper that will be published in October.
+* If you’re interested in participating in members-only opportunities, such as the VMware to OpenStack Migration Working Group or the OpenStack for AI Working Group, check out the [recent PTG recap](https://openinfra.org/blog/vmware-ai-working-groups-ptg) and consider [membership of the OpenInfra Foundation](https://openinfra.dev/join/members/). Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev) today to find out more!
 
 # OpenInfra Summit Europe
 
@@ -50,7 +50,7 @@ Finally, it is worth mentioning that OpenDev is not alone in hosting developer t
 
 Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 
-[Nominations for the 2025 Superuser Awards](https://openinfrafoundation.formstack.com/forms/superuserawards2025) are currently open! If you know of an organization (even your own!) who sets a high bar for open source infrastructure innovation, nominate them to be recognized by the global community! Nominations will close September 2 at 23:59 PT. The winner will be announced at the [OpenInfra Summit Europe](https://summit2025.openinfra.org/) on Friday, October 17.
+[Nominations for the 2025 Superuser Awards](https://openinfrafoundation.formstack.com/forms/superuserawards2025) are currently open! If you know of an organization (even your own!) who sets a high bar for open source infrastructure innovation, nominate them to be recognized by the global community! Nominations will close 2 September at 23:59 PT. The winner will be announced at the [OpenInfra Summit Europe](https://summit2025.openinfra.org/) on Friday, 17 October.
 
 # OpenStack: Open source software for creating private and public clouds
 
@@ -71,7 +71,7 @@ Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 
 # Zuul: Stop merging broken code
 
-* [Zuul 12.0.0](http://%20zuul%2012.0.0%20released%20https//lists.zuul-ci.org/archives/list/zuul-announce@lists.zuul-ci.org/message/RU5EPJO22Q64ME73RXEA3ZW4IGPJXDPD/) has arrived!
+* [Zuul 12.0.0](https://lists.zuul-ci.org/archives/list/zuul-announce@lists.zuul-ci.org/message/RU5EPJO22Q64ME73RXEA3ZW4IGPJXDPD/) has arrived!
 
 # **Upcoming OpenInfra and Community Events**
 
@@ -85,8 +85,6 @@ Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 **[OpenInfra User Group Sweden's 10th Anniversary](https://www.meetup.com/openinfra-user-group-sweden/events/306139678/)** 
 
 * 22 May | Stockholm, Sweden | Biograf Skandia
-
-<!--StartFragment-->
 
 **OpenInfra Days Asia Roadshow**
 

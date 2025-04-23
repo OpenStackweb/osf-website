@@ -14,17 +14,15 @@ seo:
   description: We are excited to announce that the OpenInfra Summit Europe will
     take place at École Polytechnique in Palaiseau, France!
 ---
-We are excited to announce that the **OpenInfra Summit Europe** will take place at **École Polytechnique Campus in Palaiseau, near Paris, France** on **October 17-19, 2025**! This event will bring together OpenInfra community members from across the globe to collaborate, learn, and drive innovation in open infrastructure.
+We are excited to announce that the **[OpenInfra Summit Europe](https://summit2025.openinfra.org/)** will take place at **École Polytechnique Campus in Palaiseau, near Paris, France** on **October 17-19, 2025**! This event will bring together OpenInfra community members from across the globe to collaborate, learn, and drive innovation in open infrastructure.
 
 A huge thank you to our associate members at **Télécom Paris** for supporting this incredible partnership, helping us bring the OpenInfra Summit to such a prestigious location.
 
 The OpenInfra Summit Europe runs on a **community-led model**, ensuring a more **accessible, inclusive, and impactful event**. This means that our summit is designed by the community, for the community—allowing us to focus on what truly matters to OpenInfra contributors, users, and organizations.
 
-**If you are interested in submitting to the CFP, sponsoring, or attending the OpenInfra Summit Europe; [please sign up for event notifications](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form)!**
-
 ### **Sponsorships**
 
-If you are interested in sponsoring this event, take a look at the sponsorship options, and [sign up to be notified](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form) when sponsorship opportunities are available and further event details are published.
+If you are interested in sponsoring this event, take a look at the [sponsorship options](https://summit2025.openinfra.org/sponsor/), and learn more about sponsoring the OpenInfra Summit. 
 
 *Prices below are in EUR unless noted otherwise and include local taxes.*
 
@@ -40,7 +38,7 @@ If you are interested in sponsoring this event, take a look at the sponsorship o
 
 ### **Registration**
 
-[Sign up to be notified](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form) when registration opens and further event details are published.
+[Register now](https://openinfrasummit25.dakini-pco.com/) to attend the OpenInfra Summit Europe!
 
 *Prices below are in EUR unless noted otherwise and include local taxes.*
 
@@ -65,15 +63,16 @@ The **OpenInfra Summit Planning Committee** is open to **anyone** from the OpenI
 * Student Engagement Committee (Assists with student engagement activities)
 * Onsite Volunteers (Assists with room proctoring, registration desk, and other to-be-determined tasks)
 
-If you are interested in joining the planning committee please reach out to [helena@openinfra.dev](mailto:helena@openinfra.dev)
+If you are interested in joining the planning committee please reach out to [summit@openinfra.dev](mailto:summit@openinfra.dev)
 
-The programming committee will have its first meeting on Thursday, March 27. To join this meeting please reach out to [helena@openinfra.dev](mailto:helena@openinfra.dev)
+The programming committee will have its first meeting on Thursday, March 27. To join this meeting please reach out to [summit@openinfra.dev](mailto:summit@openinfra.dev)
 
 Stay tuned for more details on speakers, sessions, and activities. We can't wait to see you in France!
 
 ### **Important Links**
 
-* [Signup for event notifications](https://openinfrafoundation.formstack.com/forms/2025_openinfra_summit_notification_form)
-* Want to join the planning committee? Contact [helena@openinfra.dev](mailto:helena@openinfra.dev)
-* Have questions? Contact us at [summit@openinfra.dev](mailto:summit@openinfra.dev)
-* Contact [ecosystem@openinfra.dev](mailto:ecosystem@openinfra.dev) for more information about OpenInfra Foundation Membership
+* [Submit a Talk ](https://summit2025.openinfra.org/cfp/)| The deadline is 13 June at 23:59 PT
+* [Become a Sponsor](https://summit2025.openinfra.org/sponsor/) | The deadline is 26 September at 23:59 PT
+* [Register Now](https://openinfrasummit25.dakini-pco.com/) | Prices increase July 29 at 23:59 PT
+* [Travel Support](https://openinfrafoundation.formstack.com/forms/openinfra_tsp) | The Deadline is 9 July at 23:59 PT
+* Questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev)

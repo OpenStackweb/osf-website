@@ -1,5 +1,5 @@
 ---
-templateKey: generic-page
+templateKey: privacy-policy-page
 seo:
   description: >-
     This Privacy Policy describes how the Open Infrastructure Foundation collects personal data from and about website visitors and individual community members, how and why we use that data, and the circumstances under which we share that data with others.

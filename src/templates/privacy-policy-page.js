@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import {connect} from "react-redux";
 import PropTypes from 'prop-types'
 import {graphql} from 'gatsby'
 import Content, {HTMLContent} from '../components/Content'
@@ -8,9 +9,7 @@ import TopBar from '../components/TopBar';
 import NavbarV2 from '../components/NavbarV2';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
-
-import {connect} from "react-redux";
-import styles from "../style/modules/legal-popup.module.scss";
+import "../style/privacy-policy-page.scss";
 
 export const PrivacyPolicyPageTemplate = ({
                                             isLoggedUser,
@@ -76,27 +75,26 @@ const PrivacyPolicyPage = ({isLoggedUser, data}) => {
         footer={post.frontmatter.footer}
         content={post.html}
       />
-      <div className={`modal ${showModal ? "is-active" : ""}`}>
+      <div className={`modal privacy-policy-modal ${showModal ? "is-active" : ""}`}>
         <div className="modal-background" onClick={() => setShowModal(false)}/>
-        <div className="modal-content" style={{padding: "40px 30px 20px", maxWidth: 640}}>
+        <div className="modal-content">
           <button
-            className="link"
-            style={{position: "absolute", right: "4px", top: "5px", background: "none", border: "none", color: "black"}}
+            className="link close-btn"
             onClick={() => setShowModal(false)}
           >
             <i className="closeIcon fa fa-times icon" />
           </button>
           <div className="modal-card">
-            <section className="modal-card-body" style={{color: "black"}}>
+            <section className="modal-card-body">
               We're combining our programs with the Linux Foundation. As a result, your information will be transferred to
               Linux Foundation and will remain protected under the privacy commitments we've always upheld. If you would
-              like to opt-out of this transfer, please let us know by emailing legalnotice@openinfra.dev by May 31, 2025.
+              like to opt-out of this transfer, please let us know by emailing <a href="mailto:legalnotice@openinfra.dev">legalnotice@openinfra.dev</a> by May 31, 2025.
               After May 31, 2025, your data will be transferred to Linux Foundation, but you can always request deletion of
               your data at any time by following the steps outlined in our privacy policy.
             </section>
-            <footer className="modal-card-foot" style={{textAlign: "center"}}>
-              <button onClick={() => setShowModal(false)} className="button">Close</button>
-            </footer>
+            <button onClick={() => setShowModal(false)} className="button is-normal footer-btn">
+              Close
+            </button>
           </div>
         </div>
       </div>

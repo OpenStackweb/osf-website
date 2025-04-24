@@ -1,0 +1,43 @@
+.privacy-policy-modal {
+
+  .modal-content {
+    padding: 40px 30px 20px;
+    width: auto;
+
+    @media (max-width: 767px) {
+      padding: 20px;
+    }
+
+    .close-btn {
+      position: absolute;
+      right: 4px;
+      top: 5px;
+      background: none;
+      border: none;
+      color: black;
+    }
+
+    .modal-card {
+      .modal-card-body {
+        color: black;
+        background: none;
+
+        @media (max-width: 767px) {
+          margin: 0;
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+
+      @media (max-width: 767px) {
+        margin: 0;
+      }
+    }
+
+
+    .footer-btn {
+      margin: 20px auto 0;
+    }
+  }
+}
+

@@ -79,11 +79,14 @@ export const PTGPageTemplate = ({
               <ul>
                 {header.buttons.map((button, index) => {
                   return (
+                    button.display ? 
                     <li>
                       <a key={`header-button-${index}`} href={button.link}>
                         {button.text} <img src={leftArrow} alt="left" />
                       </a>
                     </li>
+                    :
+                    null
                   );
                 })}
               </ul>
@@ -153,7 +156,7 @@ export const PTGPageTemplate = ({
       <main className="main">
         <div className="content">
           <section className="ptg-who">
-            <div className="ptg-container">
+            {/* <div className="ptg-container">
               <div className="ptg-who-teams">
                 <h4 className="title">
                   The April 2025 Project Teams List is Official!
@@ -228,7 +231,7 @@ export const PTGPageTemplate = ({
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="ptg-container">
               <div className="ptg-who-boxes">
                 <div className="should">
@@ -443,6 +446,7 @@ export const PTGPageQuery = graphql`
           buttons {
             text
             link
+            display
           }
           image {
             childImageSharp {

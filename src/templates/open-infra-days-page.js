@@ -18,8 +18,8 @@ import UpcomingSummits from "../components/UpcomingSummits";
 
 const upcomingItemsAsia = [
   { title: <a href="https://www.vietopeninfra.org/void2025" target="_blank">OpenInfra Days Vietnam</a>,
-    date: "June & July 2025",
-    location: "Hanoi & Ho Chi Minh City, VN",
+    date: "June 28, 2025",
+    location: "Hanoi, VN",
     registration: '<a href="https://docs.google.com/forms/d/e/1FAIpQLSc99Cuh4U7JXYmUqkv74jjz_Fq984Q_YP-HKAv8hiad62AWrA/viewform" target="_blank">The CFP closes June 15</a>',
     sponsor: '<a href="https://tinyurl.com/VOI2025" target="_blank">Sponsor this event</a>'
   },

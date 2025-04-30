@@ -8,39 +8,56 @@ const Tick = ({color}) => (
   </svg>
 );
 
-const SponsorshipCard = ({title, showname, priceMember, priceNonMember, price, color, items}) => {
+const SponsorshipCard = ({overview, title, dark, priceMember, priceNonMember, price, color, items}) => {
 
-  const getValue = (value) => {
+  const getValue = (value, colored) => {
     if (value === false) {
       return "-";
     } else if (value === true) {
       return <Tick color={color} />
+    } else if (Array.isArray(value)) {
+      return (
+        <div className="value-list-wrapper">
+          {value.map((valItem) => (
+            <div className="value-item" key={valItem}>
+              <i className="fa fa-caret-right" /> {valItem}
+            </div>
+          ))}
+        </div>
+      );
     } else {
-      return value
+      return colored ? <span className="colored-value" style={{color}}>{value}</span> : value;
     }
   }
 
   return (
     <div className="sponsorship-card-wrapper">
-      <div className="left-section" style={{backgroundColor: color}}>
+      <div className={`left-section ${dark ? 'dark' : ''}`} style={{backgroundColor: color}}>
+        {overview && <p className="overview">{overview}</p>}
         <h2 className="title">{title}</h2>
         <div className="prices">
-          {priceMember &&
-          <div className="member-price">
-            <p className="price-label">Member Price</p>
-            <p className="price">{priceMember}</p>
+          {(priceMember || priceNonMember || price) &&
+          <div className="price-title" style={{color: dark ? color : "inherit"}}>
+            Price
           </div>
           }
+          {priceMember &&
+            <div className="member-price">
+              <span className="price">{priceMember}</span>
+              <i className="fa fa-caret-right" />
+              <span className="price-label">Member Price </span>
+            </div>
+          }
           {priceNonMember &&
-          <div className="non-member-price">
-            <p className="price-label">Non-Member Price</p>
-            <p className="price">{priceNonMember}</p>
+            <div className="non-member-price">
+              <span className="price">{priceNonMember}</span>
+              <i className="fa fa-caret-right" />
+              <span className="price-label">Non-Member Price</span>
           </div>
           }
           {price &&
             <div className="single-price">
-              <p className="price-label">Price</p>
-              <p className="price">{price}</p>
+              <span className="price">{price}</span>
             </div>
           }
         </div>
@@ -53,7 +70,7 @@ const SponsorshipCard = ({title, showname, priceMember, priceNonMember, price, c
                 {it.title}{' '}
               </h4>
               {it.subtitle && <div className="item-subtitle">{it.subtitle}</div>}
-              <p className="item-value">{getValue(it.value)}</p>
+              <p className="item-value">{getValue(it.value, it.colored)}</p>
             </div>
           ))}
         </div>

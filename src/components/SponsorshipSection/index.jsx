@@ -4,7 +4,7 @@ import SponsorshipCard from "./SponsorshipCard";
 import './styles.scss';
 import LinkComponent from '../LinkComponent';
 
-const SponsorshipSection = ({overview, title, showname, sponsorships}) => {
+const SponsorshipSection = ({overview, title, sponsorships}) => {
   return (
     <section className="sponsorship-section-wrapper">
       <div className="container">

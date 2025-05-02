@@ -11,8 +11,8 @@ const COLORS = [
 
 const EVENTS = [
   {name: "OpenStack 15th Birthday Celebrations!", link: "https://www.openstack.org/blog/celebrating-15-years-of-openstack/", date: "All Year Long", location: "All Around the Globe"},
-  {name: "Open Telco Cloud Summit", link: "https://open.telcocloud-summit.com/event/585d8b6f-6494-4698-bb78-840206d3d3fa/summary?rt=svQDGBmL7k24CyoTCtWc2Q", date: "June 12, 2025", location: "Virtual"},
   {name: "KubeCon + CloudNativeCon China", link: "https://events.linuxfoundation.org/kubecon-cloudnativecon-china/", date: "June 10-11, 2025", location: "Hong Kong"},
+  {name: "Open Telco Cloud Summit", link: "https://open.telcocloud-summit.com/event/585d8b6f-6494-4698-bb78-840206d3d3fa/summary?rt=svQDGBmL7k24CyoTCtWc2Q", date: "June 12, 2025", location: "Virtual"},
   {name: "KubeCon + CloudNativeCon Japan", link: "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/", date: "June 16-17, 2025", location: "Tokyo, JP"},
   {name: "Open Source Summit NA", link: "https://events.linuxfoundation.org/open-source-summit-north-america/ ", date: "June 23-25, 2025", location: "Denver, CO"},
   {name: "OpenInfra Day Vietnam", link: "https://www.vietopeninfra.org/void2025  ", date: "June 28, 2025", location: "Ho Chi Minh, VN "},

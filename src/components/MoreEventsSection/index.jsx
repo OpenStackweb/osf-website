@@ -30,7 +30,7 @@ const MoreEventsSection = () => {
     <section className="more-events-section-wrapper" id="community-events">
       <div className="container">
         <h1 className="title">
-          More Community-Powered Events
+          More Open Source Community Events
         </h1>
         <div className="more-agenda-list">
           {EVENTS.map((event, idx) => (

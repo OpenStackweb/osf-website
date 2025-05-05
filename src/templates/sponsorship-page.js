@@ -197,16 +197,6 @@ const SPONSORSHIPS_DAYS = [
         ],
       },
       {
-        title: "OPENSTACK PARTY AT OPENINFRA DAYS NORTH AMERICA",
-        price: "$500 USD",
-        color: "#e61e24",
-        items: [
-          { title: "MARCH 6 or 7, 2025 IN PASADENA, CA", value: true },
-          { title: "BYOB", value: "Bring your own banner to display at the birthday party venue!" },
-          { title: "Number Available", value: "Unlimited" },
-        ],
-      },
-      {
         title: "IN-PERSON USER GROUP BIRTHDAY CELEBRATION",
         price: "$1,000 USD *price may vary",
         color: "#28a4db",

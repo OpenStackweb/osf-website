@@ -12,7 +12,6 @@ import BottomBanner from "../components/BottomBanner";
 import SponsorshipSection from "../components/SponsorshipSection";
 
 import "../style/sponsorship-page.scss";
-import SponsoringBanner from "../components/SponsoringBanner";
 import SponsorshipSubNav from "../components/SponsorshipSubNav";
 
 const SPONSORSHIPS = [
@@ -21,66 +20,150 @@ const SPONSORSHIPS = [
 
 const SPONSORSHIPS_DAYS = [
   {
-    title: ["OPENINFRA DAY NORTH AMERICA at SCALE - MARCH 2025", "Pasadena, California"],
+    title: ["Openinfra summit europe, 17-19 october", "paris-saclay, france"],
     subtitle: (
       <>
         <a href="mailto:events@openinfra.dev">Contact us</a> to sponsor
-        OpenInfra Day NA or <a href="https://www.socallinuxexpo.org/scale/22x/events/open-infra-days">learn more</a>.
+        OpenInfra Summit Europe or <a href="https://summit2025.openinfra.org/sponsor">learn more</a>.
       </>
     ),
-    showname: ["OIDNA"],
-    name: "OID NA",
     plans: [
       {
         title: "Headline Sponsor",
-        price: "SOLD OUT",
+        priceMember: "€ 50 000",
+        priceNonMember: "€ 60 000",
+        color: "#ED362F",
+        items: [
+          { title: "8-Minute Keynote", value: true },
+          { title: "One 30-Minute Presentation", value: true },
+          { title: "Booth Size", value: ["3m x 3m" , '27" monitor']},
+          { title: "Meeting Room", value: true },
+          { title: "Logo Display" , value: "Sponsor logo on website and printed materials." },
+          { title: "12 Complimentary Registrations", value: true },
+          { title: "Number Available", value: "2", colored: true },
+        ],
+      },
+      {
+        title: "Premier Sponsor",
+        priceMember: "€ 30 000",
+        priceNonMember: "€ 45 000",
         color: "#F4A93A",
         items: [
-          { title: "10 Minute Keynote", value: true },
-          { title: "20 Minute Presentation", value: true },
-          { title: "Booth Size", value: "Two 6' table tops & chairs in the OpenInfra sponsors hall. Sponsors must bring their own banner." },
+          { title: "Two 30-Minute Presentation", value: true },
+          { title: "Booth Size", value: ["3m x 3m" , '27" monitor']},
+          { title: "Meeting Room", value: ["Available for purchase"] },
           { title: "Logo Display" , value: "Sponsor logo on website and printed materials." },
-          { title: "Lead Scanners" , value: "Lead scanners can be purchased for an additional $300 USD." },
-          { title: "4 Complimentary Registrations", value: true },
-          { title: "Number Available", value: "2" },
+          { title: "8 Complimentary Registrations", value: "" },
+          { title: "Number Available", value: "3", colored: true },
         ],
       },
       {
         title: "Spotlight Sponsor",
-        price: "$2,500 USD",
-        color: "#39AE4A",
-        items: [
-          { title: "10 Minute Presentation", value: true },
-          { title: "Booth Size", value: "One 6' table tops & chairs in the OpenInfra sponsors hall. Sponsors must bring their own banner." },
-          { title: "Logo Display" , value: "Sponsor logo on website and printed materials." },
-          { title: "Lead Scanners" , value: "Lead scanners can be purchased for an additional $300 USD." },
-          { title: "2 Complimentary Registrations", value: true },
-          { title: "Number Available", value: "5" },
-        ],
-      },
-      {
-        title: "Coffee Sponsor",
-        price: "$2,500 USD",
+        priceMember: "€ 15 000",
+        priceNonMember: "€ 25 000",
         color: "#28A4DB",
         items: [
-          { title: "10 Minute Presentation", value: true },
-          { title: "Booth Size", value: "One 6' table tops & chairs in the OpenInfra sponsors hall. Sponsors must bring their own banner." },
+          { title: "One 30-Minute Presentation", value: true },
+          { title: "Booth Size", value: ["1.5m x 3m" , '27" monitor']},
+          { title: "Meeting Room", value: false },
           { title: "Logo Display" , value: "Sponsor logo on website, at coffee station, and printed materials." },
-          { title: "Lead Scanners" , value: "Lead scanners can be purchased for an additional $300 USD." },
-          { title: "2 Complimentary Registrations", value: true },
-          { title: "Number Available", value: "2" },
+          { title: "4 Complimentary Registrations", value: "" },
+          { title: "Number Available", value: "Limited Supply", colored: true },
         ],
       },
       {
-        title: "Diversity Sponsor",
-        price: "SOLD OUT",
+        title: "Exhibitor Sponsor",
+        priceMember: "€ 7 500",
+        priceNonMember: "€ 15 000",
+        color: "#39AE4A",
+        items: [
+          { title: "30-Minute Presentation", value: "Available for purchase" },
+          { title: "Booth Size", value: ["1.5m x 3m" , "Monitor available for purchase"]},
+          { title: "Meeting Room", value: false },
+          { title: "Logo Display" , value: "Sponsor logo on website, at coffee station, and printed materials." },
+          { title: "2 Complimentary Registrations", value: "" },
+          { title: "Number Available", value: "Limited Supply", colored: true },
+        ],
+      },
+      {
+        dark: true,
+        title: "Supporting Sponsor",
+        priceMember: "€ 2 500",
+        priceNonMember: "€ 5 000",
         color: "#E61E24",
         items: [
-          { title: "No presentation", value: false },
-          { title: "No Booth", value: false },
-          { title: "Logo Display" , value: "Sponsor logo on website and printed materials" },
-          { title: "2 Complimentary Registrations", value: true },
-          { title: "Number Available", value: "1" },
+          { title: "30-Minute Presentation", value: "Available for purchase" },
+          { title: "Booth Size", value: false},
+          { title: "Meeting Room", value: false },
+          { title: "Logo Display" , value: "Sponsor logo on website, at coffee station, and printed materials." },
+          { title: "1 Complimentary Registrations", value: "" },
+          { title: "Number Available", value: "Unlimited", colored: true },
+        ],
+      },
+      {
+        dark: true,
+        overview: <span style={{color:"#F4A93A"}}>Add on:</span>,
+        title: "30-MINUTE BREAKOUT SPEAKING SESSION",
+        color: "#F4A93A",
+        items: [
+          { title: "Price", value: ["€ 10 000 Member", "€ 15 000 Non-Member"] },
+          { title: "30-Minute Presentation", value: ["On October 18th or 19th"]},
+          { title: "Recording", value: ["Available post-event"] },
+          {
+            title: "Number Available",
+            value: <>10 <span style={{fontSize: "12px"}}>(limit one per person)</span></>,
+            colored: true
+          },
+        ],
+      },
+      {
+        dark: true,
+        overview: <span style={{color:"#28A4DB"}}>Add on:</span>,
+        title: <>Meeting<br/> Room</>,
+        color: "#28A4DB",
+        items: [
+          { title: "Price", value: ["€ 5 000"] },
+          { title: "Private meeting room", value: ["For October 18th or 19th", "Available to premier level only"]},
+          { title: "Number Available", value: "3", colored: true },
+        ],
+      },
+      {
+        dark: true,
+        overview: <span style={{color:"#39AE4A"}}>Add on:</span>,
+        title: "T-Shirt Sponsor",
+        color: "#39AE4A",
+        items: [
+          { title: "Price", value: ["€ 20 000"] },
+          { title: "SPONSOR LOGO ON SLEEVE", value: "T-shirt design created by the OpenInfra Foundation"},
+        ],
+      },
+      {
+        dark: true,
+        title: <>Booth<br/><span style={{color: "#888888"}}>Add-On</span></>,
+        color: "#161616",
+        items: [
+          { title: "computer monitor (27\")", value: ["€ 250"] },
+          { title: "tv screen (55\")", value: ["€ 400"]},
+        ],
+      },
+      {
+        overview: "Virtualization Migration Day:",
+        title: <span style={{color: "white"}}>8-Minute keynote</span>,
+        color: "#888888",
+        items: [
+          { title: "Price", value: ["€ 10 000 Member", "€ 15 000 Non-Member"] },
+          { title: "Exclusive 8-Minute demo", value: ["During Virtualization Migration Day Kickoff on Saturday, 18th October"] },
+          { title: "Number Available", value: "1", colored: true },
+        ],
+      },
+      {
+        overview: "Virtualization Migration Day:",
+        title: <span style={{color: "white"}}>Lightning Demo</span>,
+        color: "#888888",
+        items: [
+          { title: "Price", value: ["€ 5 000 Member", "€ 7 500 Non-Member"] },
+          { title: "15-Minute demo", value: ["Demo in the Lightning Demo Showcase"] },
+          { title: "Number Available", value: "5", colored: true },
         ],
       },
     ],
@@ -92,8 +175,6 @@ const SPONSORSHIPS_DAYS = [
         <a href="mailto:events@openinfra.dev">Contact us</a> to sponsor an OpenStack Birthday celebration!
       </>
     ),
-    showname: ["OpenStackBirthday"],
-    name: "OpenStack Birthday",
     plans: [
       {
         title: "BIRTHDAY SHIRT OPTION A",
@@ -113,16 +194,6 @@ const SPONSORSHIPS_DAYS = [
           { title: "500 SHIRTS", value: "T-shirt design will be produced by OpenInfra Foundation. To be distributed at various community events." },
           { title: "Logo Display" , value: "T-shirt with official birthday design on front with sponsor's logo of choice on sleeve." },
           { title: "Number Available" , value: "Only one t-shirt sponsorship is available. Sponsors have the opportunity to choose option A or B." },
-        ],
-      },
-      {
-        title: "OPENSTACK PARTY AT OPENINFRA DAYS NORTH AMERICA",
-        price: "$500 USD",
-        color: "#e61e24",
-        items: [
-          { title: "MARCH 6 or 7, 2025 IN PASADENA, CA", value: true },
-          { title: "BYOB", value: "Bring your own banner to display at the birthday party venue!" },
-          { title: "Number Available", value: "Unlimited" },
         ],
       },
       {

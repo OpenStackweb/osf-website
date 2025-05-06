@@ -10,6 +10,7 @@ const PAST_SUMMITS = [
     background: "/img/summit-landing/cards/summit-asia.png",
     date: "September 3 & 4, 2024",
     location: "Suwon Convention Center, Suwon, South Korea",
+    link: "https://youtube.com/playlist?list=PLKqaoAnDyfgqjY-vzt45oayXLa4aLpMRU&feature=shared",
     notification: {
       text: " ",
       button: {
@@ -36,6 +37,7 @@ const PastSummits = ({ title }) => {
         <SummitCard
           key={summit.key}
           background={summit.background}
+          link={summit.link}
           summit={summit}
         />
       ))}

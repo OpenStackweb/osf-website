@@ -19,7 +19,7 @@ Here is what members of the Programming Committee are looking for in the AI Infr
 
 **Ali Hussain**
 
-ArchBits | Software Engineer and Open Source Evengelist
+ArchBits | Software Engineer and Open Source Evangelist
 
 Talks should focus on operationalizing AI/ML workloads using open infrastructure, especially around LLM serving, distributed training, vector databases, and edge inferencing in resource-constrained environments.
 

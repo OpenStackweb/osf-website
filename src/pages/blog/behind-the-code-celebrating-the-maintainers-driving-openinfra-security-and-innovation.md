@@ -2,12 +2,12 @@
 templateKey: blog-post
 title: "Behind the Code: Celebrating the Maintainers Driving OpenInfra Security
   and Innovation"
-author: Allison Price
-date: 2025-05-09T16:34:49.273Z
+author: Jeremy Stanley and Clark Boylan
+date: 2025-05-09T16:40:21.422Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: "Behind the Code: Celebrating the Maintainers Driving OpenInfra Security
     and Innovation"

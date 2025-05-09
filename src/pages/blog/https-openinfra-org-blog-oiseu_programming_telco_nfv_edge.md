@@ -27,9 +27,9 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 
 * Arnaud Morin
 
-AI Infrastructure
+[AI Infrastructure](https://openinfra.org/blog/OISEU_programming_AI)
 
-* Ali Hussain, Armstrong Foundjem, Qihui Zhao, Goutham Pacha Ravi
+* Ali Hussain, Armstrong Foundjem, Goutham Pacha Ravi, Qihui Zhao
 
 Scientific Use Cases and HPC
 

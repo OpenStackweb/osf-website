@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: https://openinfra.org/blog/OISEU_programming_telco_nfv_edge
+title: Meet the OpenInfra Summit Europe Programming Committee
 author: Allison Price
 date: 2025-05-09T18:09:09.326Z
 category:

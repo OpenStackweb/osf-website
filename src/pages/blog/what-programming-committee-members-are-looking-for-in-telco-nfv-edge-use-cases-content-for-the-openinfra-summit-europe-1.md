@@ -25,7 +25,7 @@ Talks should focus on operationalizing AI/ML workloads using open infrastructure
 
 **Armstrong Foundjem**
 
-École Polytechnique Montréal | Research Scientist in AI -- Trustworthiness of Safety-critical systems (Chief Scientist Institut d’Intelligence sur la durabilité des SECO. (9480-2808 QUEBEC INC.))
+École Polytechnique Montréal | Research Scientist in AI
 
 I would like to see submissions that explore how AI and ML can enhance the resilience, scalability, and sustainability of open infrastructure. This includes intelligent automation for CI/CD workflows, energy-aware scheduling, AI-driven observability, and explainable ML systems for DevSecOps. I also encourage talks on federated learning, agent-based orchestration, and real-world integrations of AI in OpenStack, Kubernetes, and edge computing environments.
 

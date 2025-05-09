@@ -26,3 +26,43 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 [Telco, NFV & Edge use cases](https://openinfra.org/blog/OISEU_programming_telco_nfv_edge)
 
 * Arnaud Morin
+
+AI Infrastructure
+
+* Ali Hussain, Armstrong Foundjem, Qihui Zhao, Goutham Pacha Ravi
+
+Scientific Use Cases and HPC
+
+* Ali Hussain, Armstrong Foundjem
+
+CI/CD and Development Infrastructure
+
+* Tony Breeds
+
+Container Infrastructure
+
+* Sean McGinnis, Tony Breeds, Qihui Zhao, Josephine Pfeiffer
+
+Getting Started
+
+* Seongsoo Cho, Egine Nalbandian, Lucky Joseph Hassan
+
+Hands-on Workshops
+
+* Arnaud Morin, Lucky Joseph Hassan
+
+Private Cloud and Virtualization Migration
+
+* Egine Nalbandian, Kenneth Tan, Goutham Pacha Ravi
+
+Hybrid Cloud, Public Cloud, Federation, Decentralization
+
+* Seongsoo Cho, Kenneth Tan, Zvonko Kaiser, Axel Simon
+
+Digital Sovereignty
+
+* Oluwatooni Ajayi, Christian Berendt
+
+Security, Confidential Computing
+
+* Oluwatooni Ajayi, Zvonko Kaiser, Josephine Pfeiffer, Nicolae Paladi

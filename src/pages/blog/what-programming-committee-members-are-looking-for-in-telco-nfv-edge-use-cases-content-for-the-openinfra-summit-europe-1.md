@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: What Programming Committee members are looking for in Telco, NFV & Edge
-  use cases content for the OpenInfra Summit Europe
+title: What Programming Committee members are looking for in AI Infrastructure
+  content for the OpenInfra Summit Europe
 author: Allison Price
 date: 2025-05-09T18:24:18.366Z
 category:
@@ -10,7 +10,7 @@ category:
 hidePost: true
 seo:
   title: What Programming Committee members are looking for in AI Infrastructure
-    use cases content for the OpenInfra Summit Europe
+    content for the OpenInfra Summit Europe
   description: Recommended topics and content ideas for the OpenInfra Summit Europe
   url: https://openinfra.org/blog/OISEU_programming_AI
   twitterUsername: "@OpenInfraDev"

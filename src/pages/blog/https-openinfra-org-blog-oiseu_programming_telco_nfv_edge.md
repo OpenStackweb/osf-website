@@ -31,7 +31,7 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 
 * Ali Hussain, Armstrong Foundjem, Goutham Pacha Ravi, Qihui Zhao
 
-Scientific Use Cases and HPC
+[Scientific Use Cases and HPC](https://openinfra.org/blog/OISEU_programming_hpc)
 
 * Ali Hussain, Armstrong Foundjem, Axel Simon
 

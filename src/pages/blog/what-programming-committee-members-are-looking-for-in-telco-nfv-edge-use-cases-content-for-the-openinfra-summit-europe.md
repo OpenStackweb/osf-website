@@ -15,4 +15,10 @@ seo:
   url: https://openinfra.org/blog/OISEU_programming_telco_nfv_edge
   twitterUsername: "@OpenInfraDev"
 ---
-test
+Here is what members of the Programming Committee are looking for in the Telco, NFV & Edge track for the [OpenInfra Summit Europe](https://summit2025.openinfra.org/)! [Submit your proposals](https://summit2025.openinfra.org/cfp/) by June 13.
+
+**Arnaud Morin**
+
+OVHcloud | Architect
+
+I'd like to see some topics around operational stuff, issues, fixes, or any other operator thing. I would also love see some topics around Large Scale and Public Cloud.

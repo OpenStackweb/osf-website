@@ -11,10 +11,9 @@ hidePost: false
 seo:
   title: "Behind the Code: Celebrating the Maintainers Driving OpenInfra Security
     and Innovation"
-  description: In the case of [OpenStack](http://openstack.org) and
-    [Zuul](http://zuul-ci.org), a number of maintainers have stepped up in
-    remarkable ways to push critical work across the finish line. It's time we
-    spotlight some of these efforts and the people behind them.
+  description: In the case of OpenStack and Zuul, a number of maintainers have
+    stepped up in remarkable ways to push critical work across the finish line.
+    It's time we spotlight some of these efforts and the people behind them.
   url: https://openinfra.dev/blog/openinfra-maintainer-month
   twitterUsername: "@openinfradev"
 ---

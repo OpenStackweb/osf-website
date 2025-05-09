@@ -33,7 +33,7 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 
 Scientific Use Cases and HPC
 
-* Ali Hussain, Armstrong Foundjem
+* Ali Hussain, Armstrong Foundjem, Axel Simon
 
 CI/CD and Development Infrastructure
 

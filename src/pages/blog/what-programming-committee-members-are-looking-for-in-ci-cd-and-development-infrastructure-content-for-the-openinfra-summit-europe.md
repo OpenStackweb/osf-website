@@ -21,4 +21,4 @@ Here is what members of the Programming Committee are looking for in the CI/CD a
 
 Red Hat | Principal Software Engineer
 
-"All the things"!  Methods for self-service, and barrier reduction.  Actually I'd really love to see something on how to reduce/eliminate flaky test and the pain they cause.
+"All the things"!  Methods for self-service and barrier reduction.  Actually, I'd really love to see something on how to reduce/eliminate flaky test and the pain they cause.

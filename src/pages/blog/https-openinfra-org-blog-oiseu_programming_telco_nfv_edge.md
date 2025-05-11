@@ -43,7 +43,7 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 
 * [](https://openinfra.org/blog/OISEU_programming_container)Sean McGinnis, Tony Breeds, Qihui Zhao, Josephine Pfeiffer
 
-Getting Started
+[Getting Started](https://openinfra.org/blog/OISEU_programming_started)
 
 * Seongsoo Cho, Egine Nalbandian, Lucky Joseph Hassan
 

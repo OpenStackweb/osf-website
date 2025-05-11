@@ -35,13 +35,13 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 
 * Ali Hussain, Armstrong Foundjem, Axel Simon
 
-CI/CD and Development Infrastructure
+[CI/CD and Development Infrastructure](https://openinfra.org/blog/OISEU_programming_cicd)
 
 * Tony Breeds
 
-Container Infrastructure
+[Container Infrastructure](https://openinfra.org/blog/OISEU_programming_container)
 
-* Sean McGinnis, Tony Breeds, Qihui Zhao, Josephine Pfeiffer
+* [](https://openinfra.org/blog/OISEU_programming_container)Sean McGinnis, Tony Breeds, Qihui Zhao, Josephine Pfeiffer
 
 Getting Started
 

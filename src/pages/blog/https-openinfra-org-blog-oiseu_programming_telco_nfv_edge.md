@@ -25,11 +25,11 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 
 [Telco, NFV & Edge use cases](https://openinfra.org/blog/OISEU_programming_telco_nfv_edge)
 
-* Arnaud Morin
+* Arnaud Morin, Nicolae Paladi
 
 [AI Infrastructure](https://openinfra.org/blog/OISEU_programming_AI)
 
-* Ali Hussain, Armstrong Foundjem, Goutham Pacha Ravi, Qihui Zhao
+* Ali Hussain, Armstrong Foundjem, Goutham Pacha Ravi, Randy Bias, Qihui Zhao
 
 [Scientific Use Cases and HPC](https://openinfra.org/blog/OISEU_programming_hpc)
 

@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: What Programming Committee members are looking for in Security,
   Confidential Computing content for the OpenInfra Summit Europe
-author: Allison Price
+author: Helena Spease
 date: 2025-05-12T03:10:18.781Z
 category:
   - value: category-h2Ztx9rpD

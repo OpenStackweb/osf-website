@@ -63,6 +63,6 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 
 * Oluwatooni Ajayi, Christian Berendt
 
-Security, Confidential Computing
+[Security, Confidential Computing](https://openinfra.org/blog/OISEU_programming_security)
 
-* Oluwatooni Ajayi, Zvonko Kaiser, Josephine Pfeiffer, Nicolae Paladi
+* [](https://openinfra.org/blog/OISEU_programming_security)Oluwatooni Ajayi, Zvonko Kaiser, Josephine Pfeiffer, Nicolae Paladi

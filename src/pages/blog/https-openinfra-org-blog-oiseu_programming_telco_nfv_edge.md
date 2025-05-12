@@ -55,7 +55,7 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 
 * Egine Nalbandian, Kenneth Tan, Goutham Pacha Ravi
 
-Hybrid Cloud, Public Cloud, Federation, Decentralization
+[Hybrid Cloud, Public Cloud, Federation, Decentralization](https://openinfra.org/blog/OISEU_programming_hybrid)
 
 * Seongsoo Cho, Kenneth Tan, Zvonko Kaiser, Axel Simon
 

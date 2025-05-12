@@ -37,7 +37,7 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 
 [CI/CD and Development Infrastructure](https://openinfra.org/blog/OISEU_programming_cicd)
 
-* Tony Breeds
+* Tony Breeds, 
 
 [Container Infrastructure](https://openinfra.org/blog/OISEU_programming_container)
 

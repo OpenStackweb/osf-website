@@ -22,3 +22,12 @@ Here is what members of the Programming Committee are looking for in the Telco, 
 OVHcloud | Architect
 
 I'd like to see some topics around operational stuff, issues, fixes, or any other operator thing. I would also love see some topics around Large Scale and Public Cloud.
+
+**Nicolae Paladi**
+
+Canary Bit AB | CEO and Co-founder
+
+I am primarily interested in three types of submissions: 
+
+(1) "stories from the trenches", with relevance to a broad public and with clear and impactful lessons learned that save time and money for others.
+(2) pragmatic directions for development - suggestions and visions for the evolution of open infrastructure projects that are based on known market traction and demand (rather than hype).

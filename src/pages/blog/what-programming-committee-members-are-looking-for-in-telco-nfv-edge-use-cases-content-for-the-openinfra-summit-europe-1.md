@@ -35,6 +35,10 @@ Red Hat | Principal Software Engineer and OpenStack Technical Committee Chair
 
 I'd like to see submissions experimenting with Open Source AI, model training and use of OpenStack with commodity and purpose-built hardware integrations. I'd like to see benchmarking and OpenStack showcased within research and academic AI fields.
 
+**Randy Bias** 
+
+Mirantis | VP Technology and Strategy
+
 **Qihui Zhao**
 
 China Mobile Research Institute 

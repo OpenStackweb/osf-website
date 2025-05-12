@@ -29,6 +29,8 @@ UNICEF | Open-Source Community Manager
 
 I would love to see sessions that serve as true entry points into the open infrastructure ecosystem. This includes beginner-friendly workshops on how to get started with open source, how to discover major projects and make contributions e.g. OpenStack, and practical steps for making your first contribution, from setting up the development environment to understanding how issues, pull requests, and community norms work.
 
+I would also like to have some content guide beginners through major tools and basics they need before jumping into the deep—like learning to start with Git/GitHub, understanding starting cloud infrastructure, and open community concepts. Such sessions with a focus on real contributor experience, community welcoming practices, and hands-on small projects would make this track easier and more inspirational for beginners.
+
 **Seongsoo Cho**
 
 NHN Cloud | System Engineer / OpenStack Engineer

@@ -51,7 +51,7 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 
 * Arnaud Morin, Lucky Joseph Hassan
 
-Private Cloud and Virtualization Migration
+[Private Cloud and Virtualization Migration](https://openinfra.org/blog/OISEU_programming_private)
 
 * Egine Nalbandian, Kenneth Tan, Goutham Pacha Ravi
 

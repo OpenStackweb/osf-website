@@ -59,7 +59,7 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 
 * Seongsoo Cho, Kenneth Tan, Zvonko Kaiser, Axel Simon
 
-Digital Sovereignty
+[Digital Sovereignty](https://openinfra.org/blog/OISEU_programming_sovereignty)
 
 * Oluwatooni Ajayi, Christian Berendt
 

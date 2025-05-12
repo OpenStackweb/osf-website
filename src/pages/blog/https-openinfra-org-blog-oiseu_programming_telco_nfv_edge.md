@@ -47,7 +47,7 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 
 * Seongsoo Cho, Egine Nalbandian, Lucky Joseph Hassan
 
-Hands-on Workshops
+[Hands-on Workshops](https://openinfra.org/blog/OISEU_programming_workshop)
 
 * Arnaud Morin, Lucky Joseph Hassan
 

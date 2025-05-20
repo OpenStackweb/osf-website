@@ -39,7 +39,7 @@ Cachengo Among International Leaders Supporting OpenInfra Foundation\
 Cachengo joins over 560 organizations backing the OpenInfra Foundation’s mission to build open source communities that write software that runs in production. Platinum Members include Ant Group, Ericsson, Huawei, Microsoft, Okestro, Rackspace and Wind River.
 
 **About the OpenInfra Foundation**\
-The OpenInfra Foundation builds communities who write open source infrastructure software that runs in production. With the support of over 110,000 individuals in 187 countries, the OpenInfra Foundation hosts open source projects and communities of practice, including infrastructure for AI, container-native apps, edge computing and datacenter clouds. Join the OpenInfra movement: [www.openinfra.](http://www.openinfra.dev/)org
+The OpenInfra Foundation builds communities who write open source infrastructure software that runs in production. With the support of over 110,000 individuals in 187 countries, the OpenInfra Foundation hosts open source projects and communities of practice, including infrastructure for AI, container-native apps, edge computing and datacenter clouds. Join the OpenInfra movement: [www.openinfra.org](http://www.openinfra.org/)
 
 **About Cachengo**\
 Cachengo delivers intelligent infrastructure for edge computing, combining storage and compute in a single platform. Its distributed architecture is designed to address modern workloads in AI, analytics and IoT, empowering organizations to make decisions closer to the data. Headquartered in Franklin, Tennessee, Cachengo provides solutions that break free from traditional centralized cloud constraints and bring intelligence to the edge. Learn more at [www.cachengo.com](http://www.cachengo.com/)

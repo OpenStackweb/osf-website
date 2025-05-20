@@ -17,8 +17,6 @@ seo:
   url: https://openinfra.org/blog/cachengo-openinfra-platinum-member
   twitterUsername: "@OpenInfraDev"
 ---
-# OpenInfra Foundation Welcomes Hardware, AI Innovator Cachengo as Newest Platinum Member
-
 [Cachengo](https://cachengo.com/) joins global leaders to advance open source infrastructure for AI, storage and edge computing with [OpenStack](https://openstack.org) and OpenInfra community support
 
 *AUSTIN, Texas, May XX, 2025 –* [The Open Infrastructure (OpenInfra) Foundation](https://openinfra.org/) today announced that Cachengo, a pioneer in intelligent edge computing and distributed storage solutions, has joined as its newest Platinum Member. Cachengo will work closely with the global OpenInfra community to accelerate the adoption of open source infrastructure technologies for artificial intelligence (AI), machine learning and edge-native applications.

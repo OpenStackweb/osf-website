@@ -7,7 +7,7 @@ date: 2025-05-20T16:52:57.302Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: OpenInfra Foundation Welcomes Hardware, AI Innovator Cachengo as Newest
     Platinum Member

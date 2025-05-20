@@ -18,7 +18,7 @@ import UpcomingSummits from "../components/UpcomingSummits";
 
 const upcomingItemsAsia = [
   { title: <a href="https://www.vietopeninfra.org/void2025" target="_blank">OpenInfra Days Vietnam</a>,
-    date: "June 28, 2025",
+    date: "July 28, 2025",
     location: "Hanoi, VN",
     registration: '<a href="https://docs.google.com/forms/d/e/1FAIpQLSc99Cuh4U7JXYmUqkv74jjz_Fq984Q_YP-HKAv8hiad62AWrA/viewform" target="_blank">The CFP closes June 15</a>',
     sponsor: '<a href="https://tinyurl.com/VOI2025" target="_blank">Sponsor this event</a>'
@@ -35,11 +35,11 @@ const upcomingItemsAsia = [
     registration: '<a href="https://forms.gle/mCNKfsM4vUfPna3B6" target="_blank">The CFP closes June 15</a>',
     sponsor: '<a href="mailto:sponsor@openinfradays.kr" target="_blank">Sponsor this event</a>'
   },
-  { title: "OpenInfra Days Taipei",
-    coming_soon: "More info coming soon!",
-  },
-  { title: "OpenInfra Days Shanghai",
-    coming_soon: "More info coming soon!",
+  {
+    title: "OpenInfra Days China",
+    date: "November 15, 2025",
+    location: "Hangzhou, CN",
+    coming_soon: "More info coming soon!"
   },
   {
     title: <a href="https://cloudopsdays.com/" target="_blank">Cloud Operator Days Tokyo</a>,

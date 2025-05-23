@@ -19,7 +19,7 @@ seo:
 ---
 ### [Cachengo](https://cachengo.com/) joins global leaders to advance open source infrastructure for AI, storage and edge computing with [OpenStack](https://openstack.org) and OpenInfra community support
 
-*AUSTIN, Texas, May XX, 2025 –* [The Open Infrastructure (OpenInfra) Foundation](https://openinfra.org/) today announced that Cachengo, a pioneer in intelligent edge computing and distributed storage solutions, has joined as its newest Platinum Member. Cachengo will work closely with the global OpenInfra community to accelerate the adoption of open source infrastructure technologies for artificial intelligence (AI), machine learning and edge-native applications.
+[The Open Infrastructure (OpenInfra) Foundation](https://openinfra.org/) is thrilled to announc that Cachengo, a pioneer in intelligent edge computing and distributed storage solutions, has joined as its newest Platinum Member. Cachengo will work closely with the global OpenInfra community to accelerate the adoption of open source infrastructure technologies for artificial intelligence (AI), machine learning and edge-native applications.
 
 Founded by industry veteran (Mylex, VA-Linux, Snap Appliance, Huawei)  Ash Young, [Cachengo](https://cachengo.com/) builds intelligent storage and compute nodes designed to bring processing closer to where data is generated – at the edge. The company’s architecture eliminates the traditional bottlenecks of centralized data centers, unlocking new possibilities for smart cities, industrial automation and real-time analytics.
 

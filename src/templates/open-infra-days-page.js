@@ -51,10 +51,11 @@ const upcomingItemsAsia = [
 ];
 
 const upcomingMeetups = [
-  { background: '/img/openinfra-days/openinfra-days-cards/sweden-meetup.svg', date: 'May 22, 2025', location: 'Stockholm, Sweden', link: 'https://www.meetup.com/openinfra-user-group-sweden/events/306139678/'},
+  { background: '/img/openinfra-days/openinfra-days-cards/kenya.svg', coming_soon: true, link: 'https://www.meetup.com/kenya-openinfra-user-group/'}
 ];
 
 const pastMeetups = [
+  { background: '/img/openinfra-days/openinfra-days-cards/sweden-meetup.svg', date: 'May 22, 2025', location: 'Stockholm, Sweden', link: 'https://www.meetup.com/openinfra-user-group-sweden/events/306139678/'},
   { background: '/img/openinfra-days/openinfra-days-cards/oid-pasadena.png', name: 'North America', date: 'March 6 & 7, 2025', location: 'Pasadena, California', link: 'https://www.youtube.com/live/W9OmGdtJAAE?si=OO_WjYr7A6ktAv5A '},
 ]
 
@@ -78,7 +79,7 @@ export const OpenInfraDaysPageTemplate = ({
               title={<><span className="red">Upcoming</span><br />Openinfra Days</>}
               items={upcomingItemsAsia}
             />
-            <OpenInfraDays title="Upcoming meetups" events={upcomingMeetups} />
+            <OpenInfraDays title="Upcoming OpenInfra Days" events={upcomingMeetups} />
             <MeetupBanner />
             <OpenInfraDays title="Past Openinfra Days" events={pastMeetups} />
             <MoreEventsSection />

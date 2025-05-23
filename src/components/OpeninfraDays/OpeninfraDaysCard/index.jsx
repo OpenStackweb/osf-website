@@ -8,7 +8,7 @@ import logo from '../../../../static/img/openinfra-days/openinfra-days-cards/ope
 import './styles.scss';
 import LinkComponent from '../../LinkComponent';
 
-const OpenInfraDaysCard = ({background, name, date, location, link = '#'}) => {
+const OpenInfraDaysCard = ({background, name, date, location, coming_soon, link = '#'}) => {
   return (
     <LinkComponent href={link}>
       <div className="openinfra-days-card-wrapper">
@@ -22,12 +22,22 @@ const OpenInfraDaysCard = ({background, name, date, location, link = '#'}) => {
         </div>
         <div className="info">
           <div className='info-wrapper'>
-            <span>
-              <img src={calendarIcon}/> {date}
-            </span>
-            <span>
-              <img src={locationIcon}/> {location}
-            </span>
+            {date &&
+              <span>
+                <img src={calendarIcon}/> {date}
+              </span>
+            }
+            {location &&
+              <span>
+                <img src={locationIcon}/> {location}
+              </span>
+            }
+            {coming_soon &&
+              <span>
+                <img src="/img/openinfra-days/soon.svg" alt="soon"/>
+                More info coming soon!
+              </span>
+            }
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ From the moment we first connected with Ash Young and the Cachengo team, it was 
 
 Their approach to blending compute and storage at the edge opens up new possibilities for everything from real-time analytics to smart city deployments—and they’re building it all on open source. The fact that they’re planning a 100% [OpenStack](https://openstack.org)-powered architecture speaks volumes about their long-term dedication to open infrastructure and upstream engagement.
 
-Here’s today’s official announcement:
+Here’s the official announcement:
 
 The Open Infrastructure (OpenInfra) Foundation today announced that Cachengo, a pioneer in decentralized AI, compute, and storage solutions, has joined as its newest Platinum Member. Cachengo will work closely with the global OpenInfra community to accelerate the adoption of open source infrastructure technologies for artificial intelligence (AI), machine learning and edge-native applications.
 

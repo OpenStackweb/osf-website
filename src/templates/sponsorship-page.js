@@ -129,6 +129,7 @@ const SPONSORSHIPS_DAYS = [
       },
       {
         dark: true,
+        soldOut: true,
         overview: <span style={{color:"#39AE4A"}}>Add on:</span>,
         title: "T-Shirt Sponsor",
         color: "#39AE4A",
@@ -147,6 +148,7 @@ const SPONSORSHIPS_DAYS = [
         ],
       },
       {
+        soldOut: true,
         overview: "Virtualization Migration Day:",
         title: <span style={{color: "white"}}>8-Minute keynote</span>,
         color: "#888888",

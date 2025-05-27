@@ -14,7 +14,7 @@ seo:
     Summit Europe, OpenInfra Software Releases and more!
   twitterUsername: "@openinradev"
 ---
-# Bridging the Gap
+# Bridging the Gap between Community & Contributing Organizations
 
 Open source foundations play an important role in the ecosystem through crucial services, like trademark management, marketing and events they provide to the communities they support. Community management is another critical function, which often doesn't get as much visibility as it deserves.
 
@@ -22,16 +22,12 @@ Community management ensures that communities function efficiently, remain susta
 
 If you are an active contributor or maintainer to the project, make sure to fill out the [OpenStack surveys](https://lists.openstack.org/archives/list/openstack-discuss@lists.openstack.org/message/3RZVTYLY5KIBLXG4DRBDUM7RF34HDXNU/) that were distributed when the OpenStack Epoxy release came out, and provide feedback about your experience during that most recent release cycle. Your insights will help OpenInfra community managers to provide better support and more informed guidance to contributors on how to improve processes, workflows and documentation and improve the contributor experience for new and established contributors alike.
 
-
-
 # OpenInfra Foundation News
 
 * The OpenInfra Foundation is thrilled to [announce](https://openinfra.org/blog/cachengo-openinfra-platinum-member) our newest Platinum Member, [Cachengo](https://cachengo.com/)! Cachengo will work closely with the global OpenInfra community to accelerate the adoption of open source infrastructure technologies for artificial intelligence (AI), machine learning and edge-native applications.
 * The OpenInfra Member [VMware Migration Working Group](https://www.openstack.org/vmware-migration-to-openstack) has completed the VMware to OpenStack Migration Guide. Look for the release on June 18th!
 * The OpenInfra Member OpenInfra AI Working Group held their first meeting featuring a show-and-tell from OpenInfra Foundation Silver Member FPT Smart Cloud. Learn more [here](https://superuser.openinfra.org/articles/openstack-delivers-efficiency-cost-savings-for-powering-ai-workloads/).
 * If you’re interested in participating members-only opportunities such as VMware to OpenStack Migration Working Group or OpenInfra AI Working Group, check out the [recent PTG recap](https://openinfra.org/blog/vmware-ai-working-groups-ptg) and consider [membership of the OpenInfra Foundation](https://openinfra.dev/join/members/). Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev) today to find out more!
-
-
 
 # OpenInfra Summit Europe
 
@@ -66,7 +62,7 @@ Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 
 * Zuul 12.0.0 has been released. Read the [announcement](https://lists.zuul-ci.org/archives/list/zuul-announce@lists.zuul-ci.org/thread/RU5EPJO22Q64ME73RXEA3ZW4IGPJXDPD/) for important upgrade details and information about new features.
 
-# **OpenInfra University Partnership Program** 
+# **OpenInfra University Partnership Program**
 
 * Students at Associate Member, Valencia College, have been wrapping up a semester of mentored work on OpenStack. Check out their video presentations on their experiences
 * UPP with Jayson Flores mentorship video with StackHPC recap presentation. <https://youtu.be/iFPwK-6tydc?si=7jxfKdWD1ZYA0eTb>

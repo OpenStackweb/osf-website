@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Excited to Welcome Cachengo as a Platinum Member of the OpenInfra Foundation
+title: "Welcome Cachengo as a Platinum Member of the OpenInfra Foundation! "
 author: Jimmy McArthur
 date: 2025-05-20T16:52:57.302Z
 category:
@@ -8,13 +8,17 @@ category:
     label: News & Announcements
 hidePost: false
 seo:
-  title: Excited to Welcome Cachengo as a Platinum Member of the OpenInfra Foundation
+  title: Welcome Cachengo as a Platinum Member of the OpenInfra Foundation
   description: OpenInfra Foundation Welcomes Hardware, AI Innovator Cachengo as
     Newest Platinum Member
   url: https://openinfra.org/blog/cachengo-openinfra-platinum-member
   twitterUsername: "@OpenInfraDev"
 ---
 I couldn’t be more excited to announce that [Cachengo](https://cachengo.com/) has officially joined the [OpenInfra Foundation](https://openinfra.org) as our newest Platinum Member.
+
+![](/img/cachengo_welcome.jpg)
+
+
 
 From the moment we first connected with Ash Young and the Cachengo team, it was clear that their vision and values strongly align with the OpenInfra community. Their commitment to decentralization, open source collaboration, and building edge-native solutions comes at exactly the right time—when the industry is demanding more flexible, distributed, and intelligent infrastructure.
 

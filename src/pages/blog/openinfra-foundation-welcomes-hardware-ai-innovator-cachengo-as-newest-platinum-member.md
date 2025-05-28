@@ -16,7 +16,7 @@ seo:
 ---
 I couldn’t be more excited to announce that [Cachengo](https://cachengo.com/) has officially joined the [OpenInfra Foundation](https://openinfra.org) as our newest Platinum Member.
 
-![Welcome Cachengo as an OpenInfra Foundation Platinum Member](/img/cachengo-announce.jpg "Welcome Cachengo as an OpenInfra Foundation Platinum Member")
+![Welcome Cachengo as an OpenInfra Foundation Platinum Member](/img/screenshot-2025-05-28-at-10.15.43 am.png "Welcome Cachengo as an OpenInfra Foundation Platinum Member")
 
 From the moment we first connected with Ash Young and the Cachengo team, it was clear that their vision and values strongly align with the OpenInfra community. Their commitment to decentralization, open source collaboration, and building edge-native solutions comes at exactly the right time—when the industry is demanding more flexible, distributed, and intelligent infrastructure.
 

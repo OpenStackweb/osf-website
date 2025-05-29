@@ -51,7 +51,7 @@ const upcomingItemsAsia = [
 ];
 
 const upcomingMeetups = [
-  { background: '/img/openinfra-days/openinfra-days-cards/kenya.svg', coming_soon: true, link: 'https://www.meetup.com/kenya-openinfra-user-group/'}
+  { background: '/img/openinfra-days/openinfra-days-cards/kenya_2.svg', coming_soon: true, link: 'https://www.meetup.com/kenya-openinfra-user-group/'}
 ];
 
 const pastMeetups = [

@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: What Programming Committee members are looking for in CI/CD and
   Development Infrastructure content for the OpenInfra Summit Europe
-author: Allison Price
+author: Amy Marrich
 date: 2025-05-11T18:04:11.381Z
 category:
   - value: category-h2Ztx9rpD

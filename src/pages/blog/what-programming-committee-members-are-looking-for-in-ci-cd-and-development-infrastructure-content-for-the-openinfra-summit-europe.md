@@ -15,10 +15,24 @@ seo:
   url: https://openinfra.org/blog/OISEU_programming_cicd
   twitterUsername: "@OpenInfraDev"
 ---
-Here is what members of the Programming Committee are looking for in the CI/CD and Development Infrastructure track for the [OpenInfra Summit Europe](https://summit2025.openinfra.org/)! [Submit your proposals](https://summit2025.openinfra.org/cfp/) by June 13.
+We’re excited to welcome you to the upcoming **[OpenInfra Summit Europe](https://summit2025.openinfra.org/)**! This year’s **CI/CD and Development Infrastructure** track will spotlight how open infrastructure is transforming the way software is built, tested, and delivered at scale.
 
-**Tony Breeds** 
+We’re looking for session proposals that dig into the real-world implementation of continuous integration and delivery pipelines, automation strategies, tooling, and developer environments. Whether you're scaling CI/CD in hybrid clouds, integrating open source tools to streamline development workflows, or fostering collaboration across teams and platforms — your experience can help others build more reliable, efficient, and innovative infrastructure.
 
-Red Hat | Principal Software Engineer
+**[Submit your session proposals by June 13](https://summit2025.openinfra.org/cfp/)** and help shape a program that empowers developers and operators to optimize the full lifecycle of software delivery with open infrastructure.
 
-"All the things"!  Methods for self-service and barrier reduction.  Actually, I'd really love to see something on how to reduce/eliminate flaky test and the pain they cause.
+- - -
+
+## What We’re Looking For
+
+The committee is particularly excited to see proposals focused on:
+
+* Methods for self-service and reducing barriers in CI/CD workflows.
+* Strategies to reduce or eliminate flaky tests and the challenges they cause.
+* Hands-on workshops based on real CI/CD use cases for validation and experimentation.
+* Integrating DevOps practices in highly regulated or telco-grade infrastructure.
+* Leveraging GitOps for continuous delivery and infrastructure management.
+* Building secure software supply chains using open source tools.
+* Ensuring reproducible builds within development pipelines.
+* Real-world examples of CI strategy failures and how teams recovered.
+* Experiences sharing the organic growth and evolution of CI approaches within organizations.

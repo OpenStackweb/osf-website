@@ -13,11 +13,9 @@ seo:
   description: Recommended topics and content ideas for the OpenInfra Summit Europe
   twitterUsername: "@OpenInfraDev"
 ---
-We are very excited to announce the [OpenInfra Summit Europe](https://summit2025.openinfra.org/) Programming Committee!
+The [OpenInfra Summit Europe](https://summit2025.openinfra.org/) is more than just a gathering—it’s a vibrant hub where the brightest minds in open source infrastructure come together to share, collaborate, and innovate. This year’s programming lineup is packed with dynamic sessions designed to empower developers, operators, and community leaders alike. From deep technical workshops to forward-looking keynotes, the OpenInfra Summit offers something for everyone passionate about advancing open source infrastructure. Dive into what you can expect from the summit’s agenda and discover how this event will shape the future of cloud, edge, and beyond.
 
 The OpenInfra Summit Europe prides itself on being built for the community, by the community! This means that the CFP review and schedule building process is completed by [volunteers from the OpenInfra community](https://summit2025.openinfra.org/who-we-are/) to drive the direction of the OpenInfra Summit!
-
-[Meet the programming committee >>](summit2025.openinfra.org/who-we-are/)
 
 The OpenInfra Summit Europe will take place at the École Polytechnique Campus in Paris, France, October 17-19, 2025! The CFP closes June 13 at 23:59 UTC.
 

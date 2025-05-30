@@ -25,44 +25,22 @@ The OpenInfra Summit Europe will take place at the École Polytechnique Campus i
 
 [Telco, NFV & Edge use cases](https://openinfra.org/blog/OISEU_programming_telco_nfv_edge)
 
-* Arnaud Morin, Nicolae Paladi
-
 [AI Infrastructure](https://openinfra.org/blog/OISEU_programming_AI)
-
-* Ali Hussain, Armstrong Foundjem, Goutham Pacha Ravi, Randy Bias, Qihui Zhao
 
 [Scientific Use Cases and HPC](https://openinfra.org/blog/OISEU_programming_hpc)
 
-* Ali Hussain, Armstrong Foundjem, Axel Simon
-
 [CI/CD and Development Infrastructure](https://openinfra.org/blog/OISEU_programming_cicd)
-
-* Tony Breeds, 
 
 [Container Infrastructure](https://openinfra.org/blog/OISEU_programming_container)
 
-* [](https://openinfra.org/blog/OISEU_programming_container)Sean McGinnis, Tony Breeds, Qihui Zhao, Josephine Pfeiffer
-
 [Getting Started](https://openinfra.org/blog/OISEU_programming_started)
-
-* Seongsoo Cho, Egine Nalbandian, Lucky Joseph Hassan
 
 [Hands-on Workshops](https://openinfra.org/blog/OISEU_programming_workshop)
 
-* Arnaud Morin, Lucky Joseph Hassan
-
 [Private Cloud and Virtualization Migration](https://openinfra.org/blog/OISEU_programming_private)
-
-* Egine Nalbandian, Kenneth Tan, Goutham Pacha Ravi
 
 [Hybrid Cloud, Public Cloud, Federation, Decentralization](https://openinfra.org/blog/OISEU_programming_hybrid)
 
-* Seongsoo Cho, Kenneth Tan, Zvonko Kaiser, Axel Simon
-
 [Digital Sovereignty](https://openinfra.org/blog/OISEU_programming_sovereignty)
 
-* Oluwatooni Ajayi, Christian Berendt
-
 [Security, Confidential Computing](https://openinfra.org/blog/OISEU_programming_security)
-
-* [](https://openinfra.org/blog/OISEU_programming_security)Oluwatooni Ajayi, Zvonko Kaiser, Josephine Pfeiffer, Nicolae Paladi

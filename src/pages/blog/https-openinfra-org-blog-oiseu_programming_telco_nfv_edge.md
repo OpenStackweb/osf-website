@@ -13,9 +13,7 @@ seo:
   description: Recommended topics and content ideas for the OpenInfra Summit Europe
   twitterUsername: "@OpenInfraDev"
 ---
-The [OpenInfra Summit Europe](https://summit2025.openinfra.org/) is brings together the brightest minds in open source infrastructure to share, collaborate, and innovate. 
-
-The OpenInfra Summit Europe prides itself on being built for the community, by the community! This means that the CFP review and schedule building process is completed by [volunteers from the OpenInfra community](https://summit2025.openinfra.org/who-we-are/) to drive the direction of the OpenInfra Summit!
+The [OpenInfra Summit Europe](https://summit2025.openinfra.org/) prides itself on being built for the community, by the community! This means that the CFP review and schedule building process is completed by [volunteers from the OpenInfra community](https://summit2025.openinfra.org/who-we-are/) to drive the direction of the OpenInfra Summit!
 
 The OpenInfra Summit Programming Committee is led by Amy Marrich, who will be leading 30+ committee members in the review and schedule building process. Below you will find details on the kind of submissions the programming committee members are interested in seeing.
 

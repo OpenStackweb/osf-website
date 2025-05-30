@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Meet the OpenInfra Summit Europe Programming Committee
-author: Allison Price
+author: Helena Spease
 date: 2025-05-09T18:09:09.326Z
 category:
   - value: category-h2Ztx9rpD

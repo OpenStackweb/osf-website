@@ -25,7 +25,7 @@ Stuff that goes beyond "use a scanner" —like hardened pipelines, exploit case 
 
 I am primarily interested in three types of submissions: 
 
-(1) "stories from the trenches", with relevance to a broad public and with clear and impactful lessons learned that save time and money for others.
+(1) "Stories from the trenches", with relevance to a broad public and with clear and impactful lessons learned that save time and money for others.
 (2) pragmatic directions for development - suggestions and visions for the evolution of open infrastructure projects that are based on known market traction and demand (rather than hype).
 
 \_\_\_\__

@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: What Programming Committee members are looking for in Scientific Use
   Cases and HPC content for the OpenInfra Summit Europe
-author: Allison Price
+author: Amy Marrich
 date: 2025-05-09T18:30:14.711Z
 category:
   - value: category-h2Ztx9rpD

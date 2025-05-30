@@ -15,24 +15,22 @@ seo:
   url: https://openinfra.org/blog/OISEU_programming_started
   twitterUsername: "@OpenInfraDev"
 ---
-Here is what members of the Programming Committee are looking for in the Getting Started track for the [OpenInfra Summit Europe](https://summit2025.openinfra.org/)! [Submit your proposals](https://summit2025.openinfra.org/cfp/) by June 13.
+We’re excited to welcome you to the upcoming **[OpenInfra Summit Europe](https://summit2025.openinfra.org/)**! This year’s **Getting Started** track is designed to help newcomers and those early in their open infrastructure journey build a strong foundation. Whether you’re just beginning to explore open infrastructure technologies—such as cloud platforms, container orchestration, edge computing, or storage solutions—this track will provide practical guidance, foundational concepts, and real-world examples to get you up and running with confidence.
 
-**Egine Nalbandian**
+We’re looking for session proposals that simplify complex technologies and demystify open infrastructure tools and projects. If you’re passionate about making open infrastructure more accessible—through beginner-friendly tutorials, walkthroughs, best practices, or community onboarding stories—your insights will be invaluable to those just starting out.
 
-Sardina Systems | Marketing Lead
+**[Submit your session proposals by June 13](https://summit2025.openinfra.org/cfp/)** and help us create a track that welcomes and empowers the next generation of open infrastructure contributors, operators, and enthusiasts.
 
-Content should be welcoming and beginner-friendly, providing hands-on guides, real-life examples, and interactive demos to ease the learning curve of OpenInfra technologies. I’d like to see sessions focused on practical entry points—such as navigating documentation, architecture basics, and initial deployment tips. Talks that highlight common mistakes and how to avoid them would also be highly valuable.
+- - -
 
-**Lucky Joseph Hassan**
+## What We’re Looking For
 
-UNICEF | Open-Source Community Manager
+The committee is especially interested in proposals that focus on:
 
-I would love to see sessions that serve as true entry points into the open infrastructure ecosystem. This includes beginner-friendly workshops on how to get started with open source, how to discover major projects and make contributions e.g. OpenStack, and practical steps for making your first contribution, from setting up the development environment to understanding how issues, pull requests, and community norms work.
-
-I would also like to have some content guide beginners through major tools and basics they need before jumping into the deep—like learning to start with Git/GitHub, understanding starting cloud infrastructure, and open community concepts. Such sessions with a focus on real contributor experience, community welcoming practices, and hands-on small projects would make this track easier and more inspirational for beginners.
-
-**Seongsoo Cho**
-
-NHN Cloud | System Engineer / OpenStack Engineer
-
-I would especially like to see talks that share hands-on knowledge and troubleshooting experiences related to setting up public clouds across multiple regions—particularly around Keystone configuration and building self-service networks.
+* Content should be welcoming and beginner-friendly, providing hands-on guides, real-life examples, and interactive demos to ease the learning curve of OpenInfra technologies.
+* Sessions focused on practical entry points such as navigating documentation, architecture basics, and initial deployment tips.
+* Talks that highlight common mistakes and how to avoid them.
+* Beginner-friendly workshops on how to get started with open source and how to discover major projects like OpenStack.
+* Practical steps for making your first contribution, including setting up the development environment and understanding issues, pull requests, and community norms.
+* Guides through major tools and basics needed before diving deeper, such as learning Git/GitHub, starting with cloud infrastructure, and understanding open community concepts.
+* Sessions emphasizing real contributor experiences, community welcoming practices, and hands-on small projects to inspire beginners.

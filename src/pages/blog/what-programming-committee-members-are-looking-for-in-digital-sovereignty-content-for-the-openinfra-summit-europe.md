@@ -27,12 +27,12 @@ The **Digital Sovereignty** track is your opportunity to help define what autono
 
 The Programming Committee is especially interested in:
 
-* **Innovative, practical frameworks for achieving data autonomy** in a global context—solutions that balance openness with control and compliance.
-* **Explorations of decentralized infrastructure** models that can empower local or regional digital control while maintaining interoperability.
-* **Effective cross-border data governance strategies**, especially those built around open standards and community collaboration.
-* **Compelling case studies** that showcase real-world implementations of digital sovereignty using open-source technologies.
-* **Forward-looking visions** that illustrate how digital sovereignty can evolve through collaboration, openness, and technological leadership.
-* **“Stories from the trenches”**—lessons learned, challenges overcome, and tools developed that save time, reduce complexity, and increase autonomy.
-* **Pragmatic development roadmaps**—proposals grounded in real-world demand and use cases, not just hype.
-* **Federated cloud deployments**—examples of multiple OpenStack clouds operating together under unified identity systems, with cross-cloud billing, resource sharing, and user management.
-* **Engagement by public officials**—talks that highlight how governments and institutions a
+* **Innovative, practical frameworks for achieving data autonomy** in a global context—solutions that balance openness with control and compliance.  
+* **Explorations of decentralized infrastructure** models that can empower local or regional digital control while maintaining interoperability.  
+* **Effective cross-border data governance strategies**, especially those built around open standards and community collaboration.  
+* **Compelling case studies** that showcase real-world implementations of digital sovereignty using open-source technologies.  
+* **Forward-looking visions** that illustrate how digital sovereignty can evolve through collaboration, openness, and technological leadership.  
+* **“Stories from the trenches”**—lessons learned, challenges overcome, and tools developed that save time, reduce complexity, and increase autonomy.  
+* **Pragmatic development roadmaps**—proposals grounded in real-world demand and use cases, not just hype.  
+* **Federated cloud deployments**—examples of multiple OpenStack clouds operating together under unified identity systems, with cross-cloud billing, resource sharing, and user management.  
+* **Engagement by public officials**—talks that highlight how governments and institutions are supporting or implementing digital sovereignty initiatives.

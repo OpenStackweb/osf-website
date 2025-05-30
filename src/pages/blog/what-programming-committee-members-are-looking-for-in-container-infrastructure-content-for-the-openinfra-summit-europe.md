@@ -15,26 +15,20 @@ seo:
   url: https://openinfra.org/blog/OISEU_programming_container
   twitterUsername: "@OpenInfraDev"
 ---
-Here is what members of the Programming Committee are looking for in the Container Infrastructure track for the [OpenInfra Summit Europe](https://summit2025.openinfra.org/)! [Submit your proposals](https://summit2025.openinfra.org/cfp/) by June 13.
+We’re thrilled to welcome you to the upcoming **[OpenInfra Summit Europe](https://summit2025.openinfra.org/)**! This year’s **Container Infrastructure** track will dive deep into the technologies and practices powering modern containerized environments, from orchestration and runtime to networking and security.
 
-**Josephine Pfeiffer**
+We’re seeking session proposals that explore real-world container infrastructure challenges and solutions—whether that’s scaling Kubernetes clusters, optimizing container runtimes, advancing service mesh implementations, enhancing container security, or innovating storage and networking for containers. If you’re working on making container infrastructure more resilient, scalable, and developer-friendly across diverse environments, your insights can help the community drive the next wave of open infrastructure innovation.
 
-Red Hat | Senior Cloud Native Consultant
+**[Submit your session proposals by June 13](https://summit2025.openinfra.org/cfp/)** and join us in shaping a track that empowers operators and developers to build robust, scalable, and secure container infrastructure at scale.
 
-real-world war stories from running k8s and friends at scale, not just happy-path demos. deep dives into observability, scheduling, cni/csi chaos, upgrades gone wrong, and how people actually debug weird behavior. bonus points for anything multi-cluster or multi-tenant.
+- - -
 
-**Qihui Zhao**
+## What We’re Looking For
 
-China Mobile Research Institute
+The committee is particularly excited to see proposals focused on:
 
-**Sean McGinnis**
-
-Lambda AI | Software Engineer
-
-I would love to see a good mix of projects and the different use cases they are able to address. Typically only a small few get much attention, and this is good for gaining traction and shaping projects that can help many users. But there are also always a few that a very good at meeting their focus area that may not be as visible, even though they may be perfect for many users. Having a good mix of the well known and popular projects, along with a few things that could be interesting discoveries, can help motivate others to get involved or try things out. Ideally with talks that are a mix of introductory material, advanced use cases, and some developer onboarding pointers.
-
-**Tony Breeds** 
-
-Red Hat | Principal Software Engineer
-
-I'm actually not sure about this one.  Something along the lines or "demystifying" containers and showing ways use in production and development
+* Insights and best practices around Kata Containers and other lightweight virtualization technologies that enhance container security and isolation.
+* Real-world war stories from running Kubernetes and related projects at scale — not just happy-path demos. Deep dives into observability, scheduling, CNI/CSI chaos, upgrade challenges, and how people debug unexpected behavior. Bonus points for multi-cluster or multi-tenant scenarios.
+* A diverse mix of projects and use cases, including both well-known/popular projects and lesser-known but effective tools. Sessions that highlight different approaches can help attendees discover new solutions and inspire community involvement.
+* Talks covering a range of expertise levels: introductory overviews, advanced use cases, and developer onboarding tips.
+* Sessions that demystify containers, showcasing practical ways containers are used in production and development environments.

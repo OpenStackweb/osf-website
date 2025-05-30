@@ -15,9 +15,9 @@ seo:
   url: https://openinfra.org/blog/OISEU_programming_AI
   twitterUsername: "@OpenInfraDev"
 ---
-We’re excited for the upcoming OpenInfra Summit Europe and can’t wait to connect with the community! As we gear up for another dynamic gathering of developers, operators, and technologists, the Programming Committee for the **AI Infrastructure** track is looking for compelling, real-world sessions that highlight how open infrastructure is powering the future of AI.
+We’re excited for the upcoming [OpenInfra Summit Europe](https://summit2025.openinfra.org/) and can’t wait to connect with the community! As we gear up for another dynamic gathering of developers, operators, and technologists, the Programming Committee for the **AI Infrastructure** track is looking for compelling, real-world sessions that highlight how open infrastructure is powering the future of AI.
 
-If you're building scalable AI platforms, integrating open source tools to support ML workflows, or solving infrastructure challenges unique to AI and deep learning, we want to hear from you. Submit your proposal by **June 13** and join us in shaping the conversation around practical, open, and production-ready AI infrastructure.
+If you're building scalable AI platforms, integrating open source tools to support ML workflows, or solving infrastructure challenges unique to AI and deep learning, we want to hear from you. **[Submit your proposal by June 13](https://summit2025.openinfra.org/cfp/)** and join us in shaping the conversation around practical, open, and production-ready AI infrastructure.
 
 ## What We’re Looking For
 

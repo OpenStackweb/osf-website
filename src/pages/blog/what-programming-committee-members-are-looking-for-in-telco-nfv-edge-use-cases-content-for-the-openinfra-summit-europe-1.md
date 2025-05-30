@@ -23,8 +23,6 @@ If you're building scalable AI platforms, integrating open source tools to suppo
 
 Here’s the type of content the committee is excited to see:
 
-
-
 * Operationalizing AI/ML workloads using open infrastructure, with a focus on:
 
   * LLM (Large Language Model) serving

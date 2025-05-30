@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: What Programming Committee members are looking for in AI Infrastructure
   content for the OpenInfra Summit Europe
-author: Allison Price
+author: Amy Marrich
 date: 2025-05-09T18:24:18.366Z
 category:
   - value: category-h2Ztx9rpD

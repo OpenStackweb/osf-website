@@ -9,7 +9,8 @@ category:
     label: Community
 hidePost: true
 seo:
-  title: Security & Confidential Computing Track — Call for Proposals
+  title: What Programming Committee members are looking for in Security,
+    Confidential Computing content for the OpenInfra Summit Europe
   description: Recommended topics and content ideas for the OpenInfra Summit Europe
   url: https://openinfra.org/blog/OISEU_programming_security
   twitterUsername: "@OpenInfraDev"

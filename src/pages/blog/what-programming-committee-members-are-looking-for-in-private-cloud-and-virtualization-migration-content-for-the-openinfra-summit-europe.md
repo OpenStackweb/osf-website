@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: What Programming Committee members are looking for in Private Cloud and
   Virtualization Migration content for the OpenInfra Summit Europe
-author: Allison Price
+author: Amy Marrich
 date: 2025-05-12T02:19:14.197Z
 category:
   - value: category-h2Ztx9rpD

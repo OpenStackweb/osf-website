@@ -17,47 +17,19 @@ seo:
   url: https://openinfra.org/blog/OISEU_programming_hybrid
   twitterUsername: "@OpenInfraDev"
 ---
-Here is what members of the Programming Committee are looking for in the Hybrid Cloud, Public Cloud, Federation, Decentralization track for the [OpenInfra Summit Europe](https://summit2025.openinfra.org/)! [Submit your proposals](https://summit2025.openinfra.org/cfp/) by June 13.
+We’re thrilled about the upcoming **[OpenInfra Summit Europe](https://summit2025.openinfra.org/)** and eager to connect with the community! As we gear up for another dynamic gathering of developers, operators, and cloud innovators, the Programming Committee for the **Hybrid Cloud, Public Cloud, Federation, Decentralization** track invites forward-thinking and practical session proposals.
 
-**Axel Simon**
+We want to hear about **cutting-edge strategies and implementations that enable seamless hybrid and public cloud integration, federated architectures, and decentralized cloud ecosystems**. Whether it’s pioneering federation models that empower collaboration across independent clouds, or real-world deployments that demonstrate resilience, scalability, and sovereignty — your insights will help define the future of cloud infrastructure. **[Submit your talks by June 13](https://summit2025.openinfra.org/cfp/)**, and join us in shaping the next wave of open cloud technology.
 
-StackHPC | solutions architect
+- - -
 
-I would like to see things like the state and advances for automating OpenStack deployments using kolla-ansible.
+## What We’re Looking For
 
-Updates about confidential computing and Nova and things like Kata containers would also be interesting.
+The committee is particularly excited to see proposals focused on:
 
-I'd really like to see how people are managing federated cloud deployments, where multiple OS clouds are working together with a single identity, ideally with cross-cloud resource use tracking and billing, etc.
-
-Efforts and understanding by public officials about the importance of using, improving and funding FOSS software and OpenStack would also be very good.
-
-And all things security i'm interested in too!
-
-**Kenneth Tan**
-
-Sardina Systems | Executive Director
-
-* How organizations are designing and managing hybrid cloud environments using OpenInfra technologies, combining private cloud and public cloud to meet compliance, performance, and cost-efficiency goals. 
-* Real-world implementations of federated cloud environments and decentralization strategies. 
-* Multi-cloud orchestration, workload governance, and the role of open standards in enabling seamless workload portability. 
-* Edge-cloud integration and solutions addressing data sovereignty and regulatory requirements. 
-* How organizations are designing hybrid architectures to maximize resilience, security, and control using OpenInfra technologies.
-
-**Seongsoo Cho**
-
-NHN Cloud | System Engineer / OpenStack Engineer
-
-I’d love to see submissions that explore real-world implementations and technical challenges of hybrid and public cloud infrastructures, especially those involving OpenStack.
-
-I would especially like to see talks that share hands-on knowledge and troubleshooting experiences related to setting up public clouds across multiple regions—particularly around Keystone configuration and building self-service networks.
-
-**Zvonko Kaiser**
-
-NVIDIA | Principal System Engineer
-
-* the intersection of different areas like HPC on cloud-native stacks with confidential computing,
-* e2e enterprise pipelines for secure AI 
-* infrastructure blueprints for any use-case 
-* VIrtualization ideas beyond KVM/QEMU, like the secondary VM model to not do nested virt 
-* How to protect confidential data, confidential storage, not secure storage that we have today 
-* Confidential computing use cases, user stories so we, as the community,y can build the proper infrastructure
+* Managing federated cloud deployments with multiple OpenStack clouds working together under unified identity and cross-cloud resource tracking and billing  
+* Designing and managing hybrid cloud environments that combine private and public clouds for compliance, performance, and cost efficiency  
+* Real-world examples of federated cloud implementations and decentralization strategies  
+* Multi-cloud orchestration, workload governance, and leveraging open standards for workload portability  
+* Edge-cloud integration addressing data sovereignty and regulatory compliance  
+* Hybrid architectures focused on maximizing resilience, security, and control with OpenInfra technologies

@@ -15,19 +15,22 @@ seo:
   url: https://openinfra.org/blog/OISEU_programming_workshop
   twitterUsername: "@OpenInfraDev"
 ---
-Here is what members of the Programming Committee are looking for in the Hands-on Workshops track for the [OpenInfra Summit Europe](https://summit2025.openinfra.org/)! [Submit your proposals](https://summit2025.openinfra.org/cfp/) by June 13.
+We’re thrilled to welcome you to the upcoming **[OpenInfra Summit Europe](https://summit2025.openinfra.org/)**! This year’s **Hands-on Workshops** track is all about diving deep into practical skills and real-world solutions alongside the open infrastructure community.
 
-**Arnaud Morin**
+We invite you to lead interactive, hands-on sessions that empower attendees to build, troubleshoot, and innovate across a wide range of open source cloud and infrastructure technologies. Whether it’s step-by-step labs, guided workshops on emerging tools, or practical sessions focused on operator workflows and developer contributions — your workshop can make a direct impact by giving participants tangible takeaways and skills.
 
-OVHcloud | Architect
+**[Submit your workshop proposals by June 13](https://summit2025.openinfra.org/cfp/)** and help shape a dynamic, engaging experience that equips the community to confidently advance open infrastructure projects and practices.
 
-I'd like to see some topics around operational stuff, issues, fixes, or any other operator thing.
-I would also love see some topics around Large Scale and Public Cloud.
+- - -
 
-**Lucky Joseph Hassan**
+## What We’re Looking For
 
-UNICEF | Open-Source Community Manager
+The committee is particularly excited to see proposals focused on:
 
-I would love to see sessions that serve as true entry points into the open infrastructure ecosystem. This includes beginner-friendly workshops on how to get started with open source, how to discover major projects and make contributions e.g. OpenStack, and practical steps for making your first contribution, from setting up the development environment to understanding how issues, pull requests, and community norms work.
-
-I would also like to have some content guide beginners through major tools and basics they need before jumping into the deep—like learning to start with Git/GitHub, understanding starting cloud infrastructure, and open community concepts. Such sessions with a focus on real contributor experience, community welcoming practices, and hands-on small projects would make this track easier and more inspirational for beginners.
+* Workshops covering operational challenges, common issues, and practical fixes for cloud operators.
+* Hands-on sessions focused on large-scale deployments and public cloud operational practices.
+* Beginner-friendly workshops introducing the open infrastructure ecosystem and how to get started with open source.
+* Practical, step-by-step workshops on discovering major projects like OpenStack and making your first contribution.
+* Guided hands-on sessions for setting up development environments and understanding community workflows (issues, pull requests, community norms).
+* Workshops teaching foundational tools and concepts such as Git/GitHub, basic cloud infrastructure, and open community engagement.
+* Interactive sessions focused on real contributor experiences, community welcoming practices, and small hands-on projects to inspire and empower beginners.

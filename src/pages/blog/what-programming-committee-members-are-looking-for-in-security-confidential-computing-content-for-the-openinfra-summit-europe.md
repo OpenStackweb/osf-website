@@ -15,30 +15,45 @@ seo:
   url: https://openinfra.org/blog/OISEU_programming_security
   twitterUsername: "@OpenInfraDev"
 ---
-Here is what the Programming Committee is looking for in the Security, Confidential Computing track for the [OpenInfra Summit Europe](https://summit2025.openinfra.org/)! [Submit your proposals](https://summit2025.openinfra.org/cfp/) by June 13.
+# 🔐 Security & Confidential Computing Track — Call for Proposals
 
-\_\_\_\__
+We’re excited for the upcoming **[OpenInfra Summit Europe](https://summit2025.openinfra.org/)** and can’t wait to hear from the community! As we prepare for another incredible gathering of developers, operators, and technologists, the Programming Committee for the **Security & Confidential Computing** track is on the lookout for insightful, practical, and forward-thinking sessions.
 
-Stuff that goes beyond "use a scanner" —like hardened pipelines, exploit case studies, sandboxing tradeoffs, supply chain attacks in the wild, or how orgs deal with compliance without becoming Kafkaesque
+If you’re working on innovative security solutions, confidential computing strategies, or tackling real-world infrastructure challenges, we want your story on stage. **[Submit your proposal by June 13](https://summit2025.openinfra.org/cfp/)** and help us shape the future of secure, open infrastructure—without the unnecessary complexity.
 
-\_\_\_\__
+- - -
 
-I am primarily interested in three types of submissions: 
+## What We’re Looking For
 
-(1) "Stories from the trenches", with relevance to a broad public and with clear and impactful lessons learned that save time and money for others.
-(2) pragmatic directions for development - suggestions and visions for the evolution of open infrastructure projects that are based on known market traction and demand (rather than hype).
+Here’s the type of content the committee is excited to see:
 
-\_\_\_\__
+* **Beyond the basics**: Go further than “just use a scanner” — share real tactics like:
 
-In the Security & Confidential Computing track, I'm looking for submissions presenting groundbreaking data protection and privacy approaches. Encourage talks that delve into cutting-edge confidential computing advancements, practical zero-trust implementations, and the responsible application of AI in security. Highlight real-world use cases demonstrating a strong balance between strong security and user accessibility, while also addressing the ethical considerations of emerging security technologies.
+  * Hardened pipelines  
+  * Exploit case studies  
+  * Sandboxing tradeoffs  
+  * Real-world supply chain attacks  
+  * Practical compliance approaches that avoid unnecessary bureaucracy  
+* **Stories from the trenches**:
 
-\_\_\_\__
+  * Real-world security or privacy incidents and how you tackled them  
+  * Lessons learned that others can apply to save time, effort, or cost  
+* **Development roadmaps rooted in reality**:
 
-I am interested in seeing talks on:
+  * Visionary ideas grounded in actual user demand or market traction  
+  * Practical suggestions for evolving open infrastructure security  
+* **Cutting-edge advancements and practical implementations**:
 
-* the intersection of different areas like HPC on cloud-native stacks with confidential computing,
-* e2e enterprise pipelines for secure AI 
-* infrastructure blueprints for any use-case 
-* VIrtualization ideas beyond KVM/QEMU, like the secondary VM model to not do nested virt 
-* How to protect confidential data, confidential storage, not secure storage that we have today 
-* Confidential computing use cases, user stories so we, as the community,y can build the proper infrastructure
+  * Confidential computing breakthroughs and real-world use cases  
+  * Secure, scalable, and accessible zero-trust architectures  
+  * Ethical and responsible use of AI in security contexts  
+* **Talks at the intersection of tech domains**:
+
+  * Confidential computing + cloud-native HPC  
+  * Secure AI with enterprise-ready, end-to-end pipelines  
+  * Infrastructure blueprints for a range of security-focused use cases  
+* **Innovative architecture & infrastructure ideas**:
+
+  * Alternatives to traditional virtualization (e.g., secondary VM models)  
+  * Protecting confidential vs. merely “secure” storage  
+  * Community-driven infrastructure shaped by real user stories

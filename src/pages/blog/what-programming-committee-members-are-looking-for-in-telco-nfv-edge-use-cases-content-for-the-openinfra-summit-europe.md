@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: What Programming Committee members are looking for in Telco, NFV & Edge
   use cases content for the OpenInfra Summit Europe
-author: Allison Price
+author: Amy Marrich
 date: 2025-05-09T17:58:25.226Z
 category:
   - value: category-h2Ztx9rpD

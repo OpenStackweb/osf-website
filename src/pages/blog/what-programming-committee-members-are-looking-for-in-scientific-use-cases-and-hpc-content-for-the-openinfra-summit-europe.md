@@ -15,22 +15,23 @@ seo:
   url: https://openinfra.org/blog/OISEU_programming_hpc
   twitterUsername: "@OpenInfraDev"
 ---
-Here is what members of the Programming Committee are looking for in the Scientific Use Cases and HPC track for the [OpenInfra Summit Europe](https://summit2025.openinfra.org/)! [Submit your proposals](https://summit2025.openinfra.org/cfp/) by June 13.
+We’re thrilled to welcome you to the upcoming **[OpenInfra Summit Europe](https://summit2025.openinfra.org/)**! This year’s **Scientific Use Cases and HPC** track highlights the critical role open infrastructure plays in enabling cutting-edge research, high performance computing, and large-scale data-driven science.
 
-**Ali Hussain**
+We invite you to share your expertise through sessions that explore how open source technologies are accelerating scientific discovery and powering complex computational workloads. Whether it's real-world case studies, best practices in deploying HPC workloads, or collaborative efforts between research institutions and industry — your insights can inspire and equip attendees to harness open infrastructure for impactful scientific innovation.
 
-ArchBits | Software Engineer and Open Source Evangelist
+**[Submit your session proposals by June 13](https://summit2025.openinfra.org/cfp/)** and contribute to a compelling program that showcases how open infrastructure is driving progress in science, research, and HPC.
 
-Content showing the convergence of HPC and cloud-native paradigms would be valuable, especially in federated environments and containerized HPC workloads on OpenStack or Kubernetes.
+- - -
 
-**Armstrong Foundjem**
+## What We’re Looking For
 
-École Polytechnique Montréal | Research Scientist in AI
+The committee is particularly excited to see proposals focused on:
 
-I would like to see submissions that explore how AI and ML can enhance the resilience, scalability, and sustainability of open infrastructure. This includes intelligent automation for CI/CD workflows, energy-aware scheduling, AI-driven observability, and explainable ML systems for DevSecOps. I also encourage talks on federated learning, agent-based orchestration, and real-world integrations of AI in OpenStack, Kubernetes, and edge computing environments.
-
-**Axel Simon**
-
-StackHPC | Solutions Architect 
-
-I would like to see things like the state and advances for automating OpenStack deployments using kolla-ansible. Efforts and understanding by public officials about the importance of using, improving and funding FOSS software and OpenStack would also be very good.
+* The convergence of HPC and cloud-native paradigms, especially in federated environments  
+* Containerized HPC workloads running on OpenStack or Kubernetes  
+* Use of AI/ML to enhance resilience, scalability, and sustainability of scientific infrastructure  
+* Energy-aware scheduling and intelligent automation for HPC workloads  
+* Federated learning and agent-based orchestration in scientific computing  
+* Real-world case studies integrating AI/ML in OpenStack, Kubernetes, or edge environments for research  
+* Advances in automating OpenStack deployments using tools like Kolla Ansible  
+* Government and public sector engagement in supporting, funding, and improving open source infrastructure for science and research

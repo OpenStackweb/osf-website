@@ -15,32 +15,31 @@ seo:
   url: https://openinfra.org/blog/OISEU_programming_AI
   twitterUsername: "@OpenInfraDev"
 ---
-Here is what members of the Programming Committee are looking for in the AI Infrastructure track for the [OpenInfra Summit Europe](https://summit2025.openinfra.org/)! [Submit your proposals](https://summit2025.openinfra.org/cfp/) by June 13.
+We’re excited for the upcoming OpenInfra Summit Europe and can’t wait to connect with the community! As we gear up for another dynamic gathering of developers, operators, and technologists, the Programming Committee for the **AI Infrastructure** track is looking for compelling, real-world sessions that highlight how open infrastructure is powering the future of AI.
 
-**Ali Hussain**
+If you're building scalable AI platforms, integrating open source tools to support ML workflows, or solving infrastructure challenges unique to AI and deep learning, we want to hear from you. Submit your proposal by **June 13** and join us in shaping the conversation around practical, open, and production-ready AI infrastructure.
 
-ArchBits | Software Engineer and Open Source Evangelist
+## What We’re Looking For
 
-Talks should focus on operationalizing AI/ML workloads using open infrastructure, especially around LLM serving, distributed training, vector databases, and edge inferencing in resource-constrained environments.
+Here’s the type of content the committee is excited to see:
 
-**Armstrong Foundjem**
 
-École Polytechnique Montréal | Research Scientist in AI
 
-I would like to see submissions that explore how AI and ML can enhance the resilience, scalability, and sustainability of open infrastructure. This includes intelligent automation for CI/CD workflows, energy-aware scheduling, AI-driven observability, and explainable ML systems for DevSecOps. I also encourage talks on federated learning, agent-based orchestration, and real-world integrations of AI in OpenStack, Kubernetes, and edge computing environments.
+* Operationalizing AI/ML workloads using open infrastructure, with a focus on:
 
-**Goutham Pacha Ravi**
+  * LLM (Large Language Model) serving
+  * Distributed training
+  * Vector databases
+  * Edge inferencing in resource-constrained environments
+* Enhancing the resilience, scalability, and sustainability of AI infrastructure through:
 
-Red Hat | Principal Software Engineer and OpenStack Technical Committee Chair
-
-I'd like to see submissions experimenting with Open Source AI, model training and use of OpenStack with commodity and purpose-built hardware integrations. I'd like to see benchmarking and OpenStack showcased within research and academic AI fields.
-
-**Randy Bias** 
-
-Mirantis | VP Technology and Strategy
-
-**Qihui Zhao**
-
-China Mobile Research Institute 
-
-AI infrastructure management by OpenStack, Kubernetes.
+  * Intelligent automation for CI/CD workflows
+  * Energy-aware scheduling
+  * AI-driven observability
+  * Explainable ML systems for DevSecOps
+* Federated learning and agent-based orchestration for AI infrastructure
+* Real-world integrations of AI in OpenStack, Kubernetes, and edge computing environments
+* Experimentation with Open Source AI tools and frameworks
+* Model training and inference on OpenStack with both commodity and purpose-built hardware
+* Benchmarking AI/ML workloads on OpenStack
+* Showcasing OpenStack in academic and research AI use cases

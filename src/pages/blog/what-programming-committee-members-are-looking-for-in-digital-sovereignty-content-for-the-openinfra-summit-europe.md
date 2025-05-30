@@ -15,14 +15,24 @@ seo:
   url: https://openinfra.org/blog/OISEU_programming_sovereignty
   twitterUsername: "@OpenInfraDev"
 ---
-Here is what members of the Programming Committee are looking for in the Digital Sovereignty track for the [OpenInfra Summit Europe](https://summit2025.openinfra.org/)! [Submit your proposals](https://summit2025.openinfra.org/cfp/) by June 13.
+We’re thrilled to welcome the global open infrastructure community to **[OpenInfra Summit Europe](https://summit2025.openinfra.org/)**! As the digital landscape grows more complex and interconnected, the importance of **digital sovereignty**—the ability to control and protect data, infrastructure, and technologies on your own terms—has never been greater.
 
-**Oluwatooni Ajayi**
+The **Digital Sovereignty** track is your opportunity to help define what autonomy looks like in the age of global-scale open infrastructure. If you’re building frameworks for data control, navigating cross-border governance, or deploying decentralized systems in the wild, **we want to hear from you**.
 
-Deloitte | Cybersecurity Analyst
+**[Submit your proposal by June 13](https://summit2025.openinfra.org/cfp/)** and help us shine a light on how open source can support resilient, self-determined digital futures for nations, regions, and organizations alike.
 
-For the Digital Sovereignty track, I would like to see submissions showcasing innovative, practical frameworks for achieving data autonomy and control in a global context. Let's explore decentralized infrastructures, effective cross-border data governance strategies, and concrete examples of how open-source empowers digital independence for nations and organizations. We need compelling case studies of successful implementations and forward-thinking visions for the future of digital sovereignty.
+- - -
 
-**Christian Berendt**
+## What We’re Looking For
 
-Cloud Technology Advisor
+The Programming Committee is especially interested in:
+
+* **Innovative, practical frameworks for achieving data autonomy** in a global context—solutions that balance openness with control and compliance.
+* **Explorations of decentralized infrastructure** models that can empower local or regional digital control while maintaining interoperability.
+* **Effective cross-border data governance strategies**, especially those built around open standards and community collaboration.
+* **Compelling case studies** that showcase real-world implementations of digital sovereignty using open-source technologies.
+* **Forward-looking visions** that illustrate how digital sovereignty can evolve through collaboration, openness, and technological leadership.
+* **“Stories from the trenches”**—lessons learned, challenges overcome, and tools developed that save time, reduce complexity, and increase autonomy.
+* **Pragmatic development roadmaps**—proposals grounded in real-world demand and use cases, not just hype.
+* **Federated cloud deployments**—examples of multiple OpenStack clouds operating together under unified identity systems, with cross-cloud billing, resource sharing, and user management.
+* **Engagement by public officials**—talks that highlight how governments and institutions a

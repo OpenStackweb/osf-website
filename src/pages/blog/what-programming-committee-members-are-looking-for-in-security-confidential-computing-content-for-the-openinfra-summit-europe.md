@@ -36,19 +36,13 @@ Here’s the type of content the committee is excited to see:
 
   * Real-world security or privacy incidents and how you tackled them  
   * Lessons learned that others can apply to save time, effort, or cost  
-* **Development roadmaps rooted in reality**:
-
-  * Visionary ideas grounded in actual user demand or market traction  
-  * Practical suggestions for evolving open infrastructure security  
 * **Cutting-edge advancements and practical implementations**:
 
   * Confidential computing breakthroughs and real-world use cases  
   * Secure, scalable, and accessible zero-trust architectures  
-  * Ethical and responsible use of AI in security contexts  
 * **Talks at the intersection of tech domains**:
 
   * Confidential computing + cloud-native HPC  
-  * Secure AI with enterprise-ready, end-to-end pipelines  
   * Infrastructure blueprints for a range of security-focused use cases  
 * **Innovative architecture & infrastructure ideas**:
 

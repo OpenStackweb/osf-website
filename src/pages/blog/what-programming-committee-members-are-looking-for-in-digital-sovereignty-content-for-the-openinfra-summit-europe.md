@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: What Programming Committee members are looking for in Digital Sovereignty
   content for the OpenInfra Summit Europe
-author: Allison Price
+author: Amy Marrich
 date: 2025-05-12T03:06:09.772Z
 category:
   - value: category-h2Ztx9rpD

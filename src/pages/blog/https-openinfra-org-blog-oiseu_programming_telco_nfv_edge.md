@@ -2,11 +2,11 @@
 templateKey: blog-post
 title: Meet the OpenInfra Summit Europe Programming Committee
 author: Helena Spease
-date: 2025-05-09T18:09:09.326Z
+date: 2025-05-30T16:59:46.524Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   url: https://openinfra.org/blog/OISEU_programming
   title: Meet the OpenInfra Summit Europe Programming Committee

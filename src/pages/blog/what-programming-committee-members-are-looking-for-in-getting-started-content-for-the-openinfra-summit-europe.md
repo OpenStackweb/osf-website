@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: What Programming Committee members are looking for in Getting Started
   content for the OpenInfra Summit Europe
-author: Allison Price
+author: Amy Marrich
 date: 2025-05-11T18:52:42.453Z
 category:
   - value: category-h2Ztx9rpD

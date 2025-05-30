@@ -3,7 +3,7 @@ templateKey: blog-post
 title: What Programming Committee members are looking for in Hybrid Cloud,
   Public Cloud, Federation, Decentralization content for the OpenInfra Summit
   Europe
-author: Allison Price
+author: Amy Marrich
 date: 2025-05-12T02:35:14.904Z
 category:
   - value: category-h2Ztx9rpD

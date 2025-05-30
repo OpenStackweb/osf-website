@@ -17,20 +17,22 @@ seo:
 ---
 Here is what the Programming Committee is looking for in the Security, Confidential Computing track for the [OpenInfra Summit Europe](https://summit2025.openinfra.org/)! [Submit your proposals](https://summit2025.openinfra.org/cfp/) by June 13.
 
+\_\_\_\__
+
 Stuff that goes beyond "use a scanner" —like hardened pipelines, exploit case studies, sandboxing tradeoffs, supply chain attacks in the wild, or how orgs deal with compliance without becoming Kafkaesque
 
-
+\_\_\_\__
 
 I am primarily interested in three types of submissions: 
 
 (1) "stories from the trenches", with relevance to a broad public and with clear and impactful lessons learned that save time and money for others.
 (2) pragmatic directions for development - suggestions and visions for the evolution of open infrastructure projects that are based on known market traction and demand (rather than hype).
 
-
+\_\_\_\__
 
 In the Security & Confidential Computing track, I'm looking for submissions presenting groundbreaking data protection and privacy approaches. Encourage talks that delve into cutting-edge confidential computing advancements, practical zero-trust implementations, and the responsible application of AI in security. Highlight real-world use cases demonstrating a strong balance between strong security and user accessibility, while also addressing the ethical considerations of emerging security technologies.
 
-
+\_\_\_\__
 
 I am interested in seeing talks on:
 

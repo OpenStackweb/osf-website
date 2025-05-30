@@ -8,7 +8,7 @@ category:
     label: Community
 hidePost: false
 seo:
-  url: https://openinfra.org/blog/OISEU_programming
+  url: https://openinfra.org/blog/openinfra_summit_programming
   title: Meet the OpenInfra Summit Europe Programming Committee
   description: Recommended topics and content ideas for the OpenInfra Summit Europe
   twitterUsername: "@OpenInfraDev"

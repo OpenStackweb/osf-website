@@ -312,6 +312,22 @@ members:
     linkedin: https://www.linkedin.com/in/alexander-navratil-44a673231/
     openStack: https://openinfra.org/a/community/members/119181
     picture: /img/board/AlexanderNavratil.png
+  - name: Steve Westmoreland
+    description: >
+      Stephen (Steve) Westmoreland is currently the Chief Information Officer at
+      Cachengo. Steve was a Co-Founder at Cachengo and has shifted from a
+      long-time advisory role to full-time CIO as Cachengo continues to be
+      successful in the market. 
+
+
+      With more than 35 years of experience in Information Technology and Information Security, he has held numerous executive and technology leadership roles ranging from technology start-ups to Fortune 50 corporations. He has an extensive background in Cloud Transformation, DevSecOps architecture/deployment, Information Security Operations, and Information Security Continuous Compliance. He has successfully designed, architected, and implemented Cyber Security programs that address extremely high compliance requirements while addressing the cultural shift within the organizations to support those programs long term.
+       Steve has a broad range of participation and interest in advanced Cloud technologies supporting efforts utilizing Open-Source technology involving Kubernetes, Observability, Service Mesh, OpenTelemetry, Edge AI/compute systems, Software Bill of Materials and DevSecOps Automation.
+    title: Platinum Director
+    company: Cachengo
+    picture: /img/screenshot-2025-06-01-at-6.29.57 pm.png
+    twitter: ""
+    linkedin: https://www.linkedin.com/in/stevewestmoreland/
+    openStack: https://openinfra.org/a/community/members/166938
   - company: Ant Financial
     description: >-
       Xu Wang is a senior staff engineer at Ant Financial and an initial member

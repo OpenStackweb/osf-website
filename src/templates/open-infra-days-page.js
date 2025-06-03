@@ -24,10 +24,11 @@ const upcomingItemsAsia = [
     sponsor: '<a href="https://tinyurl.com/VOI2025" target="_blank">Sponsor this event</a>'
   },
   {
-    title: "OpenInfra Days Indonesia",
+    title: <a href="https://2025.openinfra.id/" target="_blank">OpenInfra Days Indonesia</a>,
     date: "July 19, 2025",
     location: "Yogyakarta, ID",
-    coming_soon: "More info coming soon!"
+    registration: '<a href="https://docs.google.com/forms/d/e/1FAIpQLSeeiUkMOQ1fEWhuTXIuqlEKudDjp7_pqcC3bGbRpxIU2-S2fg/viewform" target="_blank">The CFP closes June 27</a>',
+    sponsor: '<a href="https://2025.openinfra.id/files/OID25-Sponsorship_Prospectus_20250515.pdf" target="_blank">Sponsor this event</a>'
   },
   { title: <a href="https://openinfradays.kr/" target="_blank">OpenInfra Days Korea</a>,
     date: "August 26th, 2025",

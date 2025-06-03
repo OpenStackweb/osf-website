@@ -52,7 +52,7 @@ const upcomingItemsAsia = [
 ];
 
 const upcomingMeetups = [
-  { background: '/img/openinfra-days/openinfra-days-cards/kenya_2.svg', date: 'September 6, 2025', location: 'Nairobi, Kenya', link: 'https://www.meetup.com/kenya-openinfra-user-group/'}
+  { background: '/img/openinfra-days/openinfra-days-cards/kenya_3.svg', date: 'September 6, 2025', location: 'Nairobi, Kenya', link: 'https://www.meetup.com/kenya-openinfra-user-group/'}
 ];
 
 const pastMeetups = [

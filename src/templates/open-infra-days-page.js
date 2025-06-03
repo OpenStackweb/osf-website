@@ -24,10 +24,11 @@ const upcomingItemsAsia = [
     sponsor: '<a href="https://tinyurl.com/VOI2025" target="_blank">Sponsor this event</a>'
   },
   {
-    title: "OpenInfra Days Indonesia",
+    title: <a href="https://2025.openinfra.id/" target="_blank">OpenInfra Days Indonesia</a>,
     date: "July 19, 2025",
     location: "Yogyakarta, ID",
-    coming_soon: "More info coming soon!"
+    registration: '<a href="https://docs.google.com/forms/d/e/1FAIpQLSeeiUkMOQ1fEWhuTXIuqlEKudDjp7_pqcC3bGbRpxIU2-S2fg/viewform" target="_blank">The CFP closes June 27</a>',
+    sponsor: '<a href="https://2025.openinfra.id/files/OID25-Sponsorship_Prospectus_20250515.pdf" target="_blank">Sponsor this event</a>'
   },
   { title: <a href="https://openinfradays.kr/" target="_blank">OpenInfra Days Korea</a>,
     date: "August 26th, 2025",
@@ -51,10 +52,11 @@ const upcomingItemsAsia = [
 ];
 
 const upcomingMeetups = [
-  { background: '/img/openinfra-days/openinfra-days-cards/sweden-meetup.svg', date: 'May 22, 2025', location: 'Stockholm, Sweden', link: 'https://www.meetup.com/openinfra-user-group-sweden/events/306139678/'},
+  { background: '/img/openinfra-days/openinfra-days-cards/kenya_2.svg', date: 'September 6, 2025', location: 'Nairobi, Kenya', link: 'https://www.meetup.com/kenya-openinfra-user-group/'}
 ];
 
 const pastMeetups = [
+  { background: '/img/openinfra-days/openinfra-days-cards/sweden-meetup.svg', date: 'May 22, 2025', location: 'Stockholm, Sweden', link: 'https://www.meetup.com/openinfra-user-group-sweden/events/306139678/'},
   { background: '/img/openinfra-days/openinfra-days-cards/oid-pasadena.png', name: 'North America', date: 'March 6 & 7, 2025', location: 'Pasadena, California', link: 'https://www.youtube.com/live/W9OmGdtJAAE?si=OO_WjYr7A6ktAv5A '},
 ]
 
@@ -78,7 +80,7 @@ export const OpenInfraDaysPageTemplate = ({
               title={<><span className="red">Upcoming</span><br />Openinfra Days</>}
               items={upcomingItemsAsia}
             />
-            <OpenInfraDays title="Upcoming meetups" events={upcomingMeetups} />
+            <OpenInfraDays title="Upcoming OpenInfra Days" events={upcomingMeetups} />
             <MeetupBanner />
             <OpenInfraDays title="Past Openinfra Days" events={pastMeetups} />
             <MoreEventsSection />

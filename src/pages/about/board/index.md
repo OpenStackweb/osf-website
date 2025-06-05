@@ -27,10 +27,9 @@ members:
       <p>In a sense, I found a home in OpenStack in 2014 and the Ironic project in 2015 because of many years  spent working with physical hardware in data centers.</p> <p>I presently work for Red Hat as a Principal Software Engineer, where my upstream focus has been Ironic  for the past few years, and my downstream focus has been on helping lead adoption and use of Ironic.</p>
     linkedin: https://www.linkedin.com/in/juliaashleykreger
     name: Julia Kreger
-    openStack: https://www.openstack.org/community/members/profile/19088
+    openStack: /a/community/members/19088
     picture: /img/board/MG-5121-1.jpg
     title: Chair | Individual Director
-    twitter: https://twitter.com/ashinclouds
   - company: "Open Usage Commons, Software Freedom Conservancy, Eigenstate Ltd,
       Ericsson Software Technology, The Perl Foundation, Onyx Neon, Inc. "
     description: "Allison is a software developer and open source strategist. She is
@@ -49,10 +48,10 @@ members:
       Cambridge. "
     linkedin: https://www.linkedin.com/in/allisonrandal/
     name: Allison Randal
-    openStack: https://www.openstack.org/community/members/profile/2813
+    openStack: /a/community/members/2813
     picture: /img/board/allisonrandall.png
     title: Vice Chair | Individual Director
-    twitter: https://twitter.com/allisonrandal
+    twitter: https://x.com/allisonrandal
   - company: Red Hat
     description: Amy Marrich is a Principal Technical Marketing Manager at Red Hat.
       She previously worked at a small Open Source e-assessment company in
@@ -66,10 +65,10 @@ members:
       performance events (agility, FASt Cat, and dock diving) with her
       Dalmatians and competing in Dressage with her Connemara pony.
     name: Amy Marrich
-    openStack: https://www.openstack.org/community/members/profile/33567
+    openStack: /a/community/members/33567
     picture: /img/board/amymarrich.jpg
     title: Vice Chair | Individual Director
-    twitter: https://twitter.com/spotzz_
+    twitter: https://x.com/spotzz_
   - name: Eoghan Glynn
     title: Gold Director
     company: Red Hat
@@ -82,7 +81,7 @@ members:
       contributed to the Apache community for many years and also worked on AWS
       monitoring while at Amazon. Eoghan is based in Dublin, Ireland though he's
       also part of a highly globalized team at Red Hat.
-    openStack: https://www.openstack.org/community/members/profile/1341/eoghan-glynn
+    openStack: /a/community/members/1341
   - name: Ghanshyam Mann
     description: >-
       <p>Ghanshyam is currently serving as a Chair of the OpenStack Technical
@@ -99,10 +98,10 @@ members:
       software developer in the Avionic domain with the C++ language.</p>
 
       <p>He has also been a frequent speaker in various Open Source events such as OpenStack, Open Infra, Open source summit, Open Infra Days and LinuxCon on various topics like RESTful API, QA, Cloud Backup, Open Source Community Building, Open Source Governance. In addition, he has been actively involved in various PoC and solutions designs around Cloud OSS and currently serving as Cloud Consultant in NEC.</p>
-    openStack: https://openinfra.org/a/community/members/6461
+    openStack: /a/community/members/6461
     picture: /img/board/ghanshyammann.jpeg
     title: Individual Director
-    twitter: https://twitter.com/GmannInCloud
+    twitter: https://x.com/GmaanInCloud
     linkedin: https://www.linkedin.com/in/gmann1/
     company: NEC
   - name: Kurt Garloff
@@ -121,7 +120,7 @@ members:
       DT has been a vocal supporter of OpenStack since I joined in early 2012 -- we have been able to run several OpenStack projects. I personally supported the InterOp Workig Group, when DT became gold member of the OpenStack Foundation in 2016. I was serving in the board in as DT rep as well as individual member after moving on from DT.
 
       Before joining DT at the end of 2011 I was a long-time contributor to the Linux kernel, which also gave me the privilege of building up and leading SUSE Labs and work with a number of great engineers in- and outside my company, contributing to the success of the Open Source technology.
-    openStack: https://openinfra.org/a/community/members/6804
+    openStack: /a/community/members/6804
     picture: /img/board/KurtGarloff.png
     title: Individual Director
     linkedin: http://de.linkedin.com/pub/kurt-garloff/
@@ -138,7 +137,7 @@ members:
       He was one of the earliest OpenStack contributors in China. He has been working on the OpenStack since 2012, when he worked on the PowerVM driver under Nova to support IBM Power Systems. He has been contributing several projects like Nova, Neutron, Ironic, Oslo, etc. He was the organizer of China OpenStack user group, and promote OpenStack technologies in several meet-ups in China including Beijing, Xi'an, Chengdu, Shenzhen, etc.  He is also keen to help others learn how to contribute in upstream and delivered presentation about upstream contribution for several companies. He attended several design summits and delivered presentations. He served as track chair of upstream development in Barcelona, Boston and Sydney design summit.
 
       He served as Individual Director of OpenStack Foundation in 2017- 2019 and Oslo PTL for Pike and Queens.
-    openStack: https://openinfra.org/a/community/members/14945
+    openStack: /a/community/members/14945
     picture: /img/board/changboguo.JPG
     title: Individual Director
     linkedin: https://www.linkedin.com/in/changbo-guo-90123285
@@ -147,7 +146,7 @@ members:
     picture: /img/smallprofilepic1.png
     title: Gold Director
     company: Cleura
-    openStack: https://openinfra.org/a/community/members/26794
+    openStack: /a/community/members/26794
     description: >-
       Johan Christenson is a serial entrepreneur whom has successfully exited
       multiple companies he founded. After receiving a graduate degree in
@@ -170,9 +169,9 @@ members:
     company: Rackspace
     title: Platinum Director
     linkedin: https://www.linkedin.com/in/jovillarreal/
-    openStack: https://openinfra.org/a/community/members/161820
+    openStack: /a/community/members/161820
   - name: Mohammed Naser
-    openStack: https://www.openstack.org/community/members/profile/8899/mohammed-naser
+    openStack: /a/community/members/8899
     title: Individual Director
     picture: /img/mnaser.jpg
     company: VEXXHOST
@@ -200,7 +199,7 @@ members:
       innovation and inventorship.
     linkedin: https://www.linkedin.com/in/telecomcto/
     name: Paul Miller
-    openStack: https://www.openstack.org/community/members/profile/128770
+    openStack: /a/community/members/128770
     picture: /img/paulmiller.jpg
     title: Platinum Director
   - name: Phil Robb
@@ -215,7 +214,7 @@ members:
       a waste of the participant’s time, effort, and resources. Mastering how to
       best navigate this new form of software development has been an
       overarching theme of my career.
-    openStack: https://openinfra.org/a/community/members/114583
+    openStack: /a/community/members/114583
     picture: /img/board/philrobb.jpeg
     title: Platinum Director
     twitter: null
@@ -228,7 +227,7 @@ members:
       functions and unikernels.
     linkedin: https://www.linkedin.com/in/tkurek
     name: Tytus Kurek
-    openStack: https://www.openstack.org/community/members/profile/70331
+    openStack: /a/community/members/70331
     picture: /img/tytuskurek.jpg
     title: Gold Director
     twitter: ""
@@ -254,7 +253,7 @@ members:
       Day activities.   Her team has published dozens of speeches in
       OpenStack-related community activities, sharing China Mobile's practical
       and innovation experience in OpenStack.
-    openStack: https://openinfra.org/a/community/members/90048
+    openStack: /a/community/members/90048
     picture: /img/board/Xiangyu-Li.jpg
   - name: Huaxing Zhang
     title: Gold Director
@@ -268,7 +267,7 @@ members:
       in 31 provinces and maintain upgrading with new Cloud & Network
       technologies. I believe it is precisely the mutual promotion with the open
       source community that has helped the industry to grow rapidly.
-    openStack: https://openinfra.org/a/community/members/127797
+    openStack: /a/community/members/127797
     picture: /img/board/HuaxingZhang.png
   - name: Yulong Liu
     title: Gold Director
@@ -285,7 +284,7 @@ members:
       OpenStack Neutron. At present, his main work and research fields are
       focused on cloud networking, SDN, SmartNIC, DPU and hardware offloading.
     linkedin: https://www.linkedin.com/in/liu-yulong/
-    openStack: https://openinfra.org/a/community/members/5508
+    openStack: /a/community/members/5508
     picture: /img/board/YulongLIU.png
   - name: Alexander Navratil
     title: Gold Director
@@ -310,7 +309,7 @@ members:
 
       Some personal stuff from myside, I am married, have tree sons, and a passionate kitesurfer, spending time with my family close to the ocean around the world.
     linkedin: https://www.linkedin.com/in/alexander-navratil-44a673231/
-    openStack: https://openinfra.org/a/community/members/119181
+    openStack: /a/community/members/119181
     picture: /img/board/AlexanderNavratil.png
   - name: Steve Westmoreland
     description: >
@@ -327,7 +326,7 @@ members:
     picture: /img/screenshot-2025-06-01-at-6.29.57 pm.png
     twitter: ""
     linkedin: https://www.linkedin.com/in/stevewestmoreland/
-    openStack: https://openinfra.org/a/community/members/166938
+    openStack: /a/community/members/166938
   - company: Ant Financial
     description: >-
       Xu Wang is a senior staff engineer at Ant Financial and an initial member
@@ -342,7 +341,7 @@ members:
 
       Xu had experiences on Linux Kernel, virtualization,  container, and distributed storage system. And he is also a technical writer and translator on Linux, virtualization, NoSQL etc.
     name: Xu Wang
-    openStack: https://openinfra.org/a/community/members/37833
+    openStack: /a/community/members/37833
     picture: /img/xuwang.jpg
     title: Platinum Director
   - description: >-

@@ -43,12 +43,12 @@ export const BoardPageTemplate = ({
                       <div className="card-social-container-icons">
                         {member.openStack &&
                           <LinkComponent href={member.openStack}>
-                            <img src="/img/symbols/icon-1.svg" className="card-social-icons" alt="card-social-icons" />
+                            <img src="/img/symbols/arrow-RGB-stacked.svg" className="card-social-icons" alt="card-social-icons" />
                           </LinkComponent>
                         }
                         {member.twitter &&
                           <LinkComponent href={member.twitter}>
-                            <img src="/img/symbols/icon-3.svg" className="card-social-icons" alt="card-social-icons" />
+                            <img src="/img/symbols/x-logo.svg" className="card-social-icons" alt="card-social-icons" />
                           </LinkComponent>
                         }
                         {member.linkedin &&

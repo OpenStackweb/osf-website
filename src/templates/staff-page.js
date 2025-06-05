@@ -43,12 +43,12 @@ export const StaffPageTemplate = ({
                     <div className="card-social-container-icons">
                       {member.openStack &&
                         <LinkComponent href={member.openStack}>
-                          <img src="/img/symbols/icon-1.svg" alt="icon" className="card-social-icons" />
+                          <img src="/img/symbols/arrow-RGB-stacked.svg" alt="icon" className="card-social-icons" />
                         </LinkComponent>
                       }
                       {member.twitter &&
                         <LinkComponent href={member.twitter}>
-                          <img src="/img/symbols/icon-3.svg" alt="icon" className="card-social-icons" />
+                          <img src="/img/symbols/x-logo.svg" alt="icon" className="card-social-icons" />
                         </LinkComponent>
                       }
                       {member.linkedin &&

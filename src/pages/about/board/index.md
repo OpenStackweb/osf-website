@@ -27,10 +27,9 @@ members:
       <p>In a sense, I found a home in OpenStack in 2014 and the Ironic project in 2015 because of many years  spent working with physical hardware in data centers.</p> <p>I presently work for Red Hat as a Principal Software Engineer, where my upstream focus has been Ironic  for the past few years, and my downstream focus has been on helping lead adoption and use of Ironic.</p>
     linkedin: https://www.linkedin.com/in/juliaashleykreger
     name: Julia Kreger
-    openStack: https://www.openstack.org/community/members/profile/19088
+    openStack: https://openinfra.org/a/community/members/19088
     picture: /img/board/MG-5121-1.jpg
     title: Chair | Individual Director
-    twitter: https://twitter.com/ashinclouds
   - company: "Open Usage Commons, Software Freedom Conservancy, Eigenstate Ltd,
       Ericsson Software Technology, The Perl Foundation, Onyx Neon, Inc. "
     description: "Allison is a software developer and open source strategist. She is
@@ -49,10 +48,10 @@ members:
       Cambridge. "
     linkedin: https://www.linkedin.com/in/allisonrandal/
     name: Allison Randal
-    openStack: https://www.openstack.org/community/members/profile/2813
+    openStack: https://openinfra.org/a/community/members/2813
     picture: /img/board/allisonrandall.png
     title: Vice Chair | Individual Director
-    twitter: https://twitter.com/allisonrandal
+    twitter: https://x.com/allisonrandal
   - company: Red Hat
     description: Amy Marrich is a Principal Technical Marketing Manager at Red Hat.
       She previously worked at a small Open Source e-assessment company in
@@ -66,10 +65,10 @@ members:
       performance events (agility, FASt Cat, and dock diving) with her
       Dalmatians and competing in Dressage with her Connemara pony.
     name: Amy Marrich
-    openStack: https://www.openstack.org/community/members/profile/33567
+    openStack: https://openinfra.org/a/community/members/33567
     picture: /img/board/amymarrich.jpg
     title: Vice Chair | Individual Director
-    twitter: https://twitter.com/spotzz_
+    twitter: https://x.com/spotzz_
   - name: Eoghan Glynn
     title: Gold Director
     company: Red Hat
@@ -82,7 +81,7 @@ members:
       contributed to the Apache community for many years and also worked on AWS
       monitoring while at Amazon. Eoghan is based in Dublin, Ireland though he's
       also part of a highly globalized team at Red Hat.
-    openStack: https://www.openstack.org/community/members/profile/1341/eoghan-glynn
+    openStack: https://openinfra.org/a/community/members/1341
   - name: Ghanshyam Mann
     description: >-
       <p>Ghanshyam is currently serving as a Chair of the OpenStack Technical
@@ -102,7 +101,7 @@ members:
     openStack: https://openinfra.org/a/community/members/6461
     picture: /img/board/ghanshyammann.jpeg
     title: Individual Director
-    twitter: https://twitter.com/GmannInCloud
+    twitter: https://x.com/GmaanInCloud
     linkedin: https://www.linkedin.com/in/gmann1/
     company: NEC
   - name: Kurt Garloff
@@ -172,7 +171,7 @@ members:
     linkedin: https://www.linkedin.com/in/jovillarreal/
     openStack: https://openinfra.org/a/community/members/161820
   - name: Mohammed Naser
-    openStack: https://www.openstack.org/community/members/profile/8899/mohammed-naser
+    openStack: https://openinfra.org/a/community/members/8899
     title: Individual Director
     picture: /img/mnaser.jpg
     company: VEXXHOST
@@ -200,7 +199,7 @@ members:
       innovation and inventorship.
     linkedin: https://www.linkedin.com/in/telecomcto/
     name: Paul Miller
-    openStack: https://www.openstack.org/community/members/profile/128770
+    openStack: https://openinfra.org/a/community/members/128770
     picture: /img/paulmiller.jpg
     title: Platinum Director
   - name: Phil Robb
@@ -228,7 +227,7 @@ members:
       functions and unikernels.
     linkedin: https://www.linkedin.com/in/tkurek
     name: Tytus Kurek
-    openStack: https://www.openstack.org/community/members/profile/70331
+    openStack: https://openinfra.org/a/community/members/70331
     picture: /img/tytuskurek.jpg
     title: Gold Director
     twitter: ""

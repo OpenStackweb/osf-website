@@ -39,7 +39,7 @@ members:
       initiative.</p>
     linkedin: https://www.linkedin.com/in/jbryce
     name: Jonathan Bryce
-    openStack: https://openinfra.org/a/community/members/28
+    openStack: /a/community/members/28
     picture: /img/about-staff/JonathanBryceBio100.jpg
     title: Executive Director
     twitter: https://twitter.com/jbryce
@@ -56,7 +56,7 @@ members:
       media channels.
     linkedin: https://www.linkedin.com/in/markcollier
     name: Mark Collier
-    openStack: https://openinfra.org/a/community/members/31
+    openStack: /a/community/members/31
     picture: /img/markcollier.jpg
     title: Chief Operating Officer
     twitter: https://twitter.com/sparkycollier
@@ -73,7 +73,7 @@ members:
       Team, and an IT manager in various companies.</p>
     linkedin: https://www.linkedin.com/in/thierry-carrez-652662a
     name: Thierry Carrez
-    openStack: https://openinfra.org/a/community/members/154
+    openStack: /a/community/members/154
     picture: /img/thierrycarrez_2.jpg
     title: General Manager
     twitter: https://twitter.com/tcarrez
@@ -88,7 +88,7 @@ members:
       three kids.
     linkedin: https://www.linkedin.com/in/iamweswilson
     name: Wes Wilson
-    openStack: https://openinfra.org/a/community/members/20997
+    openStack: /a/community/members/20997
     picture: /img/weswilson_2023.jpg
     title: VP of Operations
     twitter: https://twitter.com/iamweswilson
@@ -100,7 +100,7 @@ members:
       Dion, rank local margaritas, and travel. "
     linkedin: https://www.linkedin.com/in/allisonmarieprice
     name: Allison Price
-    openStack: https://openinfra.org/a/community/members/17777
+    openStack: /a/community/members/17777
     picture: /img/allisonprice_2023.jpg
     title: VP of Marketing & Community
     twitter: https://twitter.com/amprice88
@@ -111,7 +111,7 @@ members:
       Clark enjoys brewing beer and  barbecuing brisket in his brother's back
       yard.
     name: Clark Boylan
-    openStack: https://openinfra.org/a/community/members/1092
+    openStack: /a/community/members/1092
     picture: /img/about-staff/ClarkBoylan.jpg
     title: Senior Principal Engineer
   - description: >
@@ -127,7 +127,7 @@ members:
       He’s passionate about cooking and will happily share his 3X award winning Texas Red chili recipe with you, should you ask.
     linkedin: https://www.linkedin.com/in/jimmymcarthur/
     name: Jimmy McArthur
-    openStack: https://openinfra.org/a/community/members/1395
+    openStack: /a/community/members/1395
     picture: /img/jimmymcarthur.jpg
     title: Director of Business Development
     twitter: https://twitter.com/jimmymcarthur
@@ -144,7 +144,7 @@ members:
       When she is not evangelizing about the awesomeness of OpenStack, bringing people into the community, binding open source communities together, or working to make upstream development in open source a friendlier place, she can be found reading Harry Potter, watching Doctor Who, or out on a photo taking adventure.</p>
     linkedin: https://www.linkedin.com/in/kendall-nelson-a7409575/
     name: Kendall Nelson
-    openStack: https://openinfra.org/a/community/members/35859
+    openStack: /a/community/members/35859
     picture: /img/about-staff/kendallnelson.jpg
     title: Senior Upstream Developer Advocate
     twitter: https://twitter.com/knelson92
@@ -157,7 +157,7 @@ members:
       hardware projects and embedded platforms, restores old video game  systems
       and enjoys articles on math theory and cosmology.
     name: Jeremy Stanley
-    openStack: https://openinfra.org/a/community/members/5479
+    openStack: /a/community/members/5479
     picture: /img/about-staff/jeremystanley.jpg
     title: Senior Principal Engineer
   - description: Ildikó started her journey with virtualization during the
@@ -174,7 +174,7 @@ members:
       Foundation.
     linkedin: https://hu.linkedin.com/in/ildiko-vancsa-a963499
     name: Ildiko Vancsa
-    openStack: https://openinfra.org/a/community/members/14820
+    openStack: /a/community/members/14820
     picture: /img/about-staff/ildikovancsa.png
     title: Director of Community
     twitter: https://twitter.com/IldikoVancsa
@@ -191,7 +191,7 @@ members:
       fiend.
     linkedin: https://www.linkedin.com/in/helenaspease/
     twitter: https://twitter.com/helena_spease
-    openStack: https://openinfra.org/a/community/members/121598
+    openStack: /a/community/members/121598
 support:
   members:
     - description: Horace is currently working as China Community Manager @ Open
@@ -204,7 +204,7 @@ support:
         DataCenter and Client Computing business. Outside of working area,
         Horace likes jogging, swimming, music, movie, fashion and art.
       name: Horace Li
-      openStack: https://openinfra.org/a/community/members/98596
+      openStack: /a/community/members/98596
       picture: /img/horaceli_2023.jpg
       title: China Community Manager
     - description: Lisa Miller serves as legal counsel for the Open Infrastructure
@@ -220,7 +220,7 @@ support:
         degree from Texas Christian University and a Juris Doctor from
         The  University of Texas School of Law.</p>
       name: Lisa Miller
-      openStack: https://openinfra.org/a/community/members/7565
+      openStack: /a/community/members/7565
       picture: /img/about-staff/lisamiller.jpg
       title: Legal Counsel
     - description: <p>Mark Radcliffe is a senior partner who practices corporate
@@ -254,7 +254,7 @@ support:
         2012. In 1997, the National Law Journal named him one of  the 100 Most
         Influential Lawyers in the United States.</p>
       name: Mark Radcliffe
-      openStack: https://openinfra.org/a/community/members/1429
+      openStack: /a/community/members/1429
       picture: /img/about-staff/markradcliffe.jpg
       title: Legal Counsel
     - description: "FNTECH is the long-time production partner behind some of our more

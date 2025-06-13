@@ -194,11 +194,10 @@ members:
     openStack: https://www.openstack.org/community/members/profile/121598
 support:
   members:
-    - description: Horace is currently working as China Community Manager @ Open
-        Infrastructure Foundation, to accelerate  China OpenStack ecosystem
-        growing up, and Open Infrastructure focused open source
-        projects  landing in China. Before joining Open Infrastructure
-        Foundation, Horace worked in Intel Open Source  Technology Center for 13
+    - description: Horace is currently working as Director of OpenInfra Asia to
+        accelerate  China OpenStack ecosystem growing up, and Open
+        Infrastructure focused open source projects landing in China.
+        Previously, Horace worked in Intel Open Source Technology Center for 13
         years, as technical account manager to support open source
         community  projects engagement in China, including both Cloud Computing,
         DataCenter and Client Computing business. Outside of working area,
@@ -206,7 +205,7 @@ support:
       name: Horace Li
       openStack: https://www.openstack.org/community/members/profile/98596
       picture: /img/horaceli_2023.jpg
-      title: China Community Manager
+      title: Director of OpenInfra Asia
     - description: Lisa Miller serves as legal counsel for the Open Infrastructure
         Foundation. Lisa focuses her practice on  providing quality legal
         services to corporate clients on transactional matters and

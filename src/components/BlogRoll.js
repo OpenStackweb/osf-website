@@ -100,7 +100,7 @@ export default ({ customFilter }) => (
                 title
                 templateKey
                 hidePost
-                date (formatString: "DD/MM/YYYY", locale: "en_us")
+                date (formatString: "MM/DD/YYYY", locale: "en_us")
                 author
                 category {
                   label

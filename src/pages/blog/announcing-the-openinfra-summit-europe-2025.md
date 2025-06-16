@@ -72,7 +72,7 @@ Stay tuned for more details on speakers, sessions, and activities. We can't wait
 ### **Important Links**
 
 * [Submit a Talk ](https://summit2025.openinfra.org/cfp/)| The deadline is 13 June at 23:59 PT
-* [Become a Sponsor](https://summit2025.openinfra.org/sponsor/) | The deadline is 13 September at 23:59 PT
+* [Become a Sponsor](https://summit2025.openinfra.org/sponsor/) | The deadline is 26 September at 23:59 PT
 * [Register Now](https://openinfrasummit25.dakini-pco.com/) | Prices increase 2 July at 23:59 PT
-* [Travel Support](https://openinfrafoundation.formstack.com/forms/openinfra_tsp) | The Deadline is 9 July at 23:59 PT
+* [Travel Support](https://openinfrafoundation.formstack.com/forms/openinfra_tsp) | The Deadline is 30 July at 23:59 PT
 * Questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev)

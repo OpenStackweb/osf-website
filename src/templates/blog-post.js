@@ -122,7 +122,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date (formatString: "DD/MM/YYYY", locale: "en_us")
+        date (formatString: "MM/DD/YYYY", locale: "en_us")
         title
         author
         seo {

@@ -90,7 +90,7 @@ members:
     name: Wes Wilson
     openStack: https://www.openstack.org/community/members/profile/20997
     picture: /img/weswilson_2023.jpg
-    title: VP of Operations
+    title: "Chief of Staff "
     twitter: https://twitter.com/iamweswilson
   - description: "Allison is the VP of Marketing & Community at the OpenInfra
       Foundation (previously the OpenStack Foundation). Her mission is to

@@ -6,7 +6,7 @@ date: 2025-06-24T04:58:13.850Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: My Vision for the Next 15 years of OpenInfra
   description: The OpenInfra Foundation is uniquely positioned to provide

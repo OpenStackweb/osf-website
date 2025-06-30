@@ -2,7 +2,7 @@
 templateKey: generic-page
 seo:
   description: >-
-    In order to clarify the intellectual property license granted with Contributions from any person or entity, Open Infrastructure Foundation projects use the Apache-2 license with a Contributor License Agreement (CLA), in a way comparable to Apache Foundation projects.
+    In order to clarify the intellectual property license granted with contributions from any person or entity, OpenInfra Foundation projects use the Apache License, Version 2.0 with the Developer Certificate of Origin (DCO).
   image: /img/OpenInfra-icon-white.jpg
   title: "OpenInfra Developer Certificate of Origin (DCO)"
   twitterUsername: "@OpenInfraDev"

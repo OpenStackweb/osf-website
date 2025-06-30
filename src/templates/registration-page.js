@@ -4,7 +4,6 @@ import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import React, { useEffect } from "react"
 import URI from "urijs"
-import { doLogin } from 'openstack-uicore-foundation/lib/security/methods'
 
 export const RegistrationPageTemplate = ({ loggedUserState, location }) => {
     return null;
@@ -14,7 +13,7 @@ const RegistrationPage = ({ loggedUserState, location }) => {
 
     useEffect(() => {
         let query = URI.parseQuery(location.search);
-        let membershipType = null;
+        let membershipType = 'foundation';
         if (query.hasOwnProperty("membership_type")) {
           membershipType = query["membership_type"];
         }
@@ -23,10 +22,7 @@ const RegistrationPage = ({ loggedUserState, location }) => {
         {
           console.log("RegistrationPageTemplate::Render user is already logged redirecting to /a/profile")
           navigate(backUrl);
-          return;
         }
-        console.log(`RegistrationPage::useEffect doing login ${backUrl}`);
-        doLogin(backUrl)
     }, [loggedUserState, location]);
 
     return (

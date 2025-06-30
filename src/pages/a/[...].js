@@ -41,8 +41,8 @@ const App = ({ isLoggedUser, user, lastBuild, syncData }) => {
             <MembershipResignPage path="/profile/membership/resign" isLoggedIn={isLoggedUser} user={user} location={location} />
             <MembershipCommunityPage path="/profile/membership/community" isLoggedIn={isLoggedUser} user={user} location={location} />
             <MembershipFoundationPage path="/profile/membership/foundation" isLoggedIn={isLoggedUser} user={user} location={location} />
+            <RegistrationPage path="/registration" location={location} isLoggedIn={isLoggedUser} />
           </PrivateRoute>
-          <RegistrationPage path="/registration" location={location} isLoggedIn={isLoggedUser} />
           <MemberListPage path="/community/members" location={location} isLoggedIn={isLoggedUser} />
           <MemberProfilePage path="/community/members/:memberId" location={location} isLoggedIn={isLoggedUser} />
           <CompanyProfilePage path="/members/profile/:sponsorshipType/:company" location={location} isLoggedIn={isLoggedUser}/>

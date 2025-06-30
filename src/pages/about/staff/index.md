@@ -103,7 +103,6 @@ members:
     openStack: /a/community/members/17777
     picture: /img/allisonprice_2023.jpg
     title: VP of Marketing & Community
-    twitter: https://twitter.com/amprice88
   - description: It all started as a volunteer sysadmin at Portland State
       University. Since then Clark has operated  large network infrastructures,
       built radios for airplanes, and is now a core member of the
@@ -130,7 +129,6 @@ members:
     openStack: /a/community/members/1395
     picture: /img/jimmymcarthur.jpg
     title: Director of Business Development
-    twitter: https://twitter.com/jimmymcarthur
   - description: >-
       <p>Kendall is an Upstream Developer Advocate at the Open Infrastructure
       Foundation based in the United States. She first started working on

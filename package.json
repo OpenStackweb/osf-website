@@ -65,7 +65,7 @@
     "netlify-cli": "^10.3.0",
     "netlify-cms-app": "^2.13.3",
     "node-sass": "^7.0.0",
-    "openstack-uicore-foundation": "^4.1.92",
+    "openstack-uicore-foundation": "4.2.11",
     "path-browserify": "^1.0.1",
     "prop-types": "^15.6.0",
     "react": "^17.0.0",

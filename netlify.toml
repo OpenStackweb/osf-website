@@ -243,3 +243,8 @@
   to = "/open-infrastructure-blueprint-white-paper"
   status = 301
   force = true
+[[redirects]]
+  from = "/cla"
+  to = "/dco"
+  status = 301
+  force = true

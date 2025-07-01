@@ -14,19 +14,17 @@ seo:
     VMware Migration Guide and more!
   twitterUsername: "@openinradev"
 ---
-
-
 ![](/img/reg-2-1600x900.png)
 
-# For the Community, by the Community
+# OpenInfra Summit Schedule: For the Community, by the Community 
 
-The [OpenInfra Summit Europe](https://summit2025.openinfra.org/) is a **community-driven event**, made possible by the dedication and passion of volunteers from across the globe. This year, **over 30 volunteers** came together to shape every element of the OpenInfra Summit experience, from reviewing talks and building the schedule to creating speaker graphics, developing local tourism resources, and launching new community-focused initiatives like the New Contributor Showcase.
+The [OpenInfra Summit Europe](https://summit2025.openinfra.org/) is a **community-driven event**, made possible by the dedication and passion of volunteers from across the globe. This year, **over 30 volunteers** came together to shape every element of the OpenInfra Summit experience, from reviewing talks and building the schedule to creating speaker graphics, developing local tourism resources, and launching new community-focused initiatives like the [New Contributor Showcase](https://summit2025.openinfra.org/new-contributors-at-the-openInfra-summit).
 
-Today, we are highlighting the OpenInfra Summit Programming Committee. These contributors have spent countless hours curating the content that will be presented on stage, ensuring the agenda reflects the innovation, collaboration, and diversity of the global OpenInfra ecosystem. Their work has culminated in the official release of the [OpenInfra Summit schedule](http://summit2025.openinfra.org/a/schedule), **now live and featuring dozens of sessions** that highlight the most exciting developments across open source infrastructure.
+Today, we are highlighting the [OpenInfra Summit Programming Committee](https://summit2025.openinfra.org/who-we-are/). These contributors have spent countless hours curating the content that will be presented on stage, ensuring the agenda reflects the innovation, collaboration, and diversity of the global OpenInfra ecosystem. Their work has culminated in the official release of the [OpenInfra Summit schedule](http://summit2025.openinfra.org/a/schedule), **now live and featuring dozens of sessions** that highlight the most exciting developments across open source infrastructure.
 
 We’d like to specifically recognize **Amy Marrich, who led the CFP review and schedule build process** with thoughtfulness and precision. Her leadership helped guide the programming team through hundreds of submissions, resulting in a well-balanced and dynamic lineup of sessions that showcase the depth and breadth of the OpenInfra community.
 
-From behind-the-scenes logistics to creative contributions, **the work of these volunteers is what brings the OpenInfra Summit to life**. We are incredibly grateful for their time, energy, and commitment to making the OpenInfra Summit a world-class event.
+From behind-the-scenes logistics to creative contributions, **the work of these volunteers is what brings the OpenInfra Summit to life**. We are incredibly grateful for their time, energy, and commitment to making the OpenInfra Summit Europe a world-class event.
 
 [MEET THE OPENINFRA PLANNING COMMITTEE](https://summit2025.openinfra.org/who-we-are/)
 
@@ -35,7 +33,7 @@ From behind-the-scenes logistics to creative contributions, **the work of these 
 # OpenInfra Foundation News
 
 * The [OpenInfra Foundation has officially joined the Linux Foundation](https://openinfra.org/blog/openinfra-joins-linux-foundation), creating unprecedented alignment in open source infrastructure! For the first time, open source standards for operating systems (Linux), cloud infrastructure (OpenStack), and containers (Kubernetes) are all under the same collaborative umbrella. This move combines resources while preserving OpenInfra's community-driven approach, positioning us to accelerate innovation in AI-ready infrastructure and cross-project collaboration.
-* The Linux Foundation has appointed [Jonathan Bryce as Executive Director, Cloud & Infrastructure and Chris Aniszczyk as CTO, Cloud & Infrastructure](https://www.linuxfoundation.org/press/linux-foundation-appoints-jonathan-bryce-as-executive-director-cloud-infrastructure-and-chris-aniszczyk-as-cto-cloud-infrastructure-to-oversee-major-open-s-1750718282015), to oversee major open source initiatives including OpenInfra and CNCF. Bryce will serve as executive director of both CNCF and the OpenInfra Foundation, establishing a stronger collaborative bond across the two foundations and driving strategic alignment throughout the broader open source ecosystem.
+* The Linux Foundation has appointed [Jonathan Bryce as Executive Director, Cloud & Infrastructure and Chris Aniszczyk as CTO, Cloud & Infrastructure](https://www.linuxfoundation.org/press/linux-foundation-appoints-jonathan-bryce-as-executive-director-cloud-infrastructure-and-chris-aniszczyk-as-cto-cloud-infrastructure-to-oversee-major-open-s-1750718282015), to oversee major open source initiatives including OpenInfra and CNCF. Jonathan will serve as executive director of both CNCF and the OpenInfra Foundation, establishing a stronger collaborative bond across the two foundations and driving strategic alignment throughout the broader open source ecosystem.
 * The OpenInfra Member VMware Migration Working Group published a comprehensive VMware to OpenStack Migration Guide this month, [The Future of Virtualization: Modernizing Your Data Center with OpenStack](https://www.openstack.org/vmware-migration-to-openstack/)
 * If you’re interested in joining this global open source collaboration, consider [membership of the OpenInfra Foundation](https://openinfra.dev/join/members/). Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev) today to find out more!
 * The OpenInfra PTG team survey signup is live! If your team is interested in participating in the PTG, [please fill out the team survey here](https://openinfrafoundation.formstack.com/forms/oct2025_ptg_survey). 
@@ -46,10 +44,10 @@ From behind-the-scenes logistics to creative contributions, **the work of these 
 
 * [The Schedule is live!](https://summit2025.openinfra.org/a/schedule/) 
 * [Register Now](https://openinfrasummit25.dakini-pco.com/) | Prices double on 2 July at 23:59 PT
-* [Submit a Forum Discussion](https://summit2025.openinfra.org/cfp/) | The deadline is 13 June at 23:59 PT
-* [Apply for the New Contributor Showcase](https://summit2025.openinfra.org/new-contributors-at-the-openinfra-summit/) | The deadline is 13 June at 23:59 PT
+* [Submit a Forum Discussion](https://summit2025.openinfra.org/cfp/) | The deadline is 8 July at 23:59 PT
+* [Apply for the New Contributor Showcase](https://summit2025.openinfra.org/new-contributors-at-the-openinfra-summit/) | The deadline is 11 August at 23:59 PT
 * [Become a Sponsor](https://summit2025.openinfra.org/sponsor/) | The deadline is 26 September at 23:59 PT
-* [Travel Support](https://openinfrafoundation.formstack.com/forms/openinfra_tsp) | The Deadline is 30 July at 23:59 PT
+* [Apply for Travel Support](https://openinfrafoundation.formstack.com/forms/openinfra_tsp) | The deadline is 30 July at 23:59 PT
 
 Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 
@@ -68,7 +66,7 @@ Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 
 # Kata Containers: The speed of containers, the security of VMs
 
-* The community is switching to a new platform to schedule and organize weekly meetings, and has new dial-in information starting the week fo of Jun 23, 2025! Check out the [new meeting calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/kata-containers?view=week) for details.
+* The community is switching to a new platform to schedule and organize weekly meetings, and has new dial-in information starting the week of June 23, 2025! Check out the [new meeting calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/kata-containers?view=week) for details.
 * If you’re evaluating or using Kata Containers, please take a few minutes to fill out the [User Survey](https://openinfrafoundation.formstack.com/forms/kata_containers_user_survey) and provide feedback to the community!
 * Check out the [Kata Containers-related sessions](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4638) on the OpenInfra Summit schedule:
 
@@ -85,7 +83,7 @@ Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 
 # StarlingX: A fully featured cloud for the distributed edge
 
-* The community is switching to a new platform to schedule and organize weekly meetings, and has new dial-in information starting the week fo of Jun 30, 2025! Check out the [new meeting calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/starlingx?view=week) for details.
+* The community is switching to a new platform to schedule and organize weekly meetings, and has new dial-in information starting the week of June 30, 2025! Check out the [new meeting calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/starlingx?view=week) for details.
 * If you’re evaluating or using StarlingX, please take a few minutes to fill out the [User Survey](https://openinfrafoundation.formstack.com/forms/starlingx_user_survey) and provide feedback to the community!
 * Check out the [StarlingX-related sessions](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4841) on the OpenInfra Summit schedule:
 
@@ -96,7 +94,7 @@ Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 
 # Zuul: Stop merging broken code
 
-* Zuul 12.1.0 has been released. This release adds OpenID Connect compatible workload federation. This allows Zuul to provide authentication tokens to jobs for services that trust Zuul as an identity provider. To learn more about this feature and others added in Zuul 12.1.0 read the [announcement](https://lists.zuul-ci.org/archives/list/zuul-announce@lists.zuul-ci.org/thread/EUKSMBPYJU2PKWHO6UKEYBL26ANGWKFY/).
+* Zuul 12.1.0 has been released. This release adds OpenID Connect compatible workload federation. This allows Zuul to provide authentication tokens to jobs for services that trust Zuul as an identity provider. To learn more about this feature and further enhancments read the release [announcement](https://lists.zuul-ci.org/archives/list/zuul-announce@lists.zuul-ci.org/thread/EUKSMBPYJU2PKWHO6UKEYBL26ANGWKFY/).
 * Check out the [Zuul sessions](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4624) on the OpenInfra Summit schedule:
 
   * [How BMW Uses Zuul CI as the Standard Gating System](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4624&title=How%20BMW%20Uses%20Zuul%20CI%20as%20the%20Standard%20Gating%20System)
@@ -115,7 +113,7 @@ Work at a university and interested in getting a UPP setup at your educational i
 **[Celebrate OpenStack's 15th Birthday](https://www.openstack.org/blog/celebrating-15-years-of-openstack/)**  
 
 * 3 July: [Bogota, CO](https://www.meetup.com/colombia-openinfra-user-group/events/308383244/?eventOrigin=network_page)
-* Check out [more upcoming celebrations](https://www.openstack.org/blog/celebrating-15-years-of-openstack/)!
+* Check out [more upcoming celebrations!](https://www.openstack.org/blog/celebrating-15-years-of-openstack/)
 
 **OpenInfra Days Asia Roadshow**
 

@@ -26,7 +26,7 @@ From behind-the-scenes logistics to creative contributions, **the work of these 
 
 [MEET THE OPENINFRA PLANNING COMMITTEE](https://summit2025.openinfra.org/who-we-are/)
 
-*[](https://summit2025.openinfra.org/who-we-are/)[Register to attend](https://openinfrasummit25.dakini-pco.com/) the OpenInfra Summit before prices increase 2 July at 23:59 PST*
+[](https://summit2025.openinfra.org/who-we-are/)*[Register to attend](https://openinfrasummit25.dakini-pco.com/) the OpenInfra Summit before prices increase 2 July at 23:59 PST*
 
 # OpenInfra Foundation News
 
@@ -59,6 +59,14 @@ Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 
 * The community is switching to a new platform to schedule and organize weekly meetings, and has new dial-in information starting the week fo of Jun 23, 2025! Check out the [new meeting calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/kata-containers?view=week) for details.
 * If you’re evaluating or using Kata Containers, please take a few minutes to fill out the [User Survey](https://openinfrafoundation.formstack.com/forms/kata_containers_user_survey) and provide feedback to the community!
+* Check out the [Kata Containers-related sessions](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4638) on the OpenInfra Summit schedule:
+
+  * [Towards Secure Container Infrastructure on RISC-V: the Development from rust-vmm to Kata-Containers](https://summit2025.openinfra.org/a/schedule#view=calendar&title=Towards%20Secure%20Container%20Infrastructure%20on%20RISC-V%3A%20the%20Development%20from%20rust-vmm%20to%20Kata-Containers)
+  * [Enabling Confidential Computing Throughout the Virtualization Stack](https://summit2025.openinfra.org/a/schedule#view=calendar&title=Enabling%20Confidential%20Computing%20Throughout%20the%20Virtualization%20Stack)
+  * [Enhancing Container Security with Kata Containers and eBPF at Ant Group](https://summit2025.openinfra.org/a/schedule#view=calendar&title=Enhancing%20Container%20Security%20with%20Kata%20Containers%20and%20eBPF%20at%20Ant%20Group)
+  * [LLM Infrastructure Landscape and Trends: Insights from Open-Source Ecosystem Data](https://summit2025.openinfra.org/a/schedule#view=calendar&title=LLM%20Infrastructure%20Landscape%20and%20Trends%3A%20Insights%20from%20Open-Source%20Ecosystem%20Data)
+  * [How Ant Group Achieves Data Security in LLM Inference with Kata-Based Confidential Computing](https://summit2025.openinfra.org/a/schedule#view=calendar&title=How%20Ant%20Group%20Achieves%20Data%20Security%20in%20LLM%20Inference%20with%20Kata-Based%20Confidential%20Computing)
+  * [Next Generation Edge: Edge Computing Architectures for AI/ML Use Cases](https://summit2025.openinfra.org/a/schedule#view=calendar&title=Next%20Generation%20Edge%3A%20Edge%20Computing%20Architectures%20for%20AI%2FML%20Use%20Cases)
 
 # OpenDev: Free software needs free tools
 
@@ -68,10 +76,22 @@ Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 
 * The community is switching to a new platform to schedule and organize weekly meetings, and has new dial-in information starting the week fo of Jun 30, 2025! Check out the [new meeting calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/starlingx?view=week) for details.
 * If you’re evaluating or using StarlingX, please take a few minutes to fill out the [User Survey](https://openinfrafoundation.formstack.com/forms/starlingx_user_survey) and provide feedback to the community!
+* Check out the [StarlingX-related sessions](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4841) on the OpenInfra Summit schedule:
+
+  * [Building Resilient Systems: Lessons from High Availability Architecture in StarlingX](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4841&title=Building%20Resilient%20Systems%3A%20Lessons%20from%20High%20Availability%20Architecture%20in%20StarlingX)
+  * [StarlingX Edge Orchestration: Managing Critical Workloads at Scale](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4841&title=StarlingX%20Edge%20Orchestration%3A%20Managing%20Critical%20Workloads%20at%20Scale)
+  * [Transforming Telecom: Kubernetes in Radio Access Network Management](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4841&title=Transforming%20Telecom%3A%20Kubernetes%20in%20Radio%20Access%20Network%20Management)
+  * [Next Generation Edge: Edge Computing Architectures for AI/ML Use Cases](https://summit2025.openinfra.org/a/schedule#view=calendar&title=Next%20Generation%20Edge%3A%20Edge%20Computing%20Architectures%20for%20AI%2FML%20Use%20Cases)
 
 # Zuul: Stop merging broken code
 
 * Zuul 12.1.0 has been released. This release adds OpenID Connect compatible workload federation. This allows Zuul to provide authentication tokens to jobs for services that trust Zuul as an identity provider. To learn more about this feature and others added in Zuul 12.1.0 read the [announcement](https://lists.zuul-ci.org/archives/list/zuul-announce@lists.zuul-ci.org/thread/EUKSMBPYJU2PKWHO6UKEYBL26ANGWKFY/).
+* Check out the [Zuul sessions](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4624) on the OpenInfra Summit schedule:
+
+  * [How BMW Uses Zuul CI as the Standard Gating System](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4624&title=How%20BMW%20Uses%20Zuul%20CI%20as%20the%20Standard%20Gating%20System)
+  * [Building a Kubernetes Distribution for Workday using Zuul](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4624&title=Building%20a%20Kubernetes%20Distribution%20for%20Workday%20using%20Zuul)
+  * [Building OpenDev: A Zuul for Operations Story](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4624&title=Building%20OpenDev%3A%20A%20Zuul%20for%20Operations%20Story)
+  * [So Long and Thanks For All the Nodes](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4624&title=So%20Long%20and%20Thanks%20For%20All%20the%20Nodes)
 
 # **OpenInfra University Partnership Program**
 

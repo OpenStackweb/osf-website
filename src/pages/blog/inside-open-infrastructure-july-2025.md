@@ -94,7 +94,7 @@ Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 
 # Zuul: Stop merging broken code
 
-* Zuul 12.1.0 has been released. This release adds OpenID Connect compatible workload federation. This allows Zuul to provide authentication tokens to jobs for services that trust Zuul as an identity provider. To learn more about this feature and further enhancments read the release [announcement](https://lists.zuul-ci.org/archives/list/zuul-announce@lists.zuul-ci.org/thread/EUKSMBPYJU2PKWHO6UKEYBL26ANGWKFY/).
+* Zuul 12.1.0 has been released. This release adds OpenID Connect compatible workload federation. This allows Zuul to provide authentication tokens to jobs for services that trust Zuul as an identity provider. To learn more about this feature and further enhancements, read the release [announcement](https://lists.zuul-ci.org/archives/list/zuul-announce@lists.zuul-ci.org/thread/EUKSMBPYJU2PKWHO6UKEYBL26ANGWKFY/).
 * Check out the [Zuul sessions](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4624) on the OpenInfra Summit schedule:
 
   * [How BMW Uses Zuul CI as the Standard Gating System](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4624&title=How%20BMW%20Uses%20Zuul%20CI%20as%20the%20Standard%20Gating%20System)

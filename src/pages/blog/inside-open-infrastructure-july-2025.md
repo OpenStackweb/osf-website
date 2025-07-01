@@ -14,6 +14,10 @@ seo:
     VMware Migration Guide and more!
   twitterUsername: "@openinradev"
 ---
+
+
+![](/img/reg-2-1600x900.png)
+
 # For the Community, by the Community
 
 The [OpenInfra Summit Europe](https://summit2025.openinfra.org/) is a **community-driven event**, made possible by the dedication and passion of volunteers from across the globe. This year, **over 30 volunteers** came together to shape every element of the OpenInfra Summit experience, from reviewing talks and building the schedule to creating speaker graphics, developing local tourism resources, and launching new community-focused initiatives like the New Contributor Showcase.
@@ -54,6 +58,13 @@ Have questions? Email [summit@openinfra.dev](mailto:summit@openinfra.dev) 
 # OpenStack: Open source software for creating private and public clouds
 
 * As part of the [VMware Migration Guide](https://www.openstack.org/vmware-migration-to-openstack/), several organizations shared case studies on successfully migrating to OpenStack including [Vodafone with Huawei](https://superuser.openinfra.org/articles/huawei-telco-intelligent-converged-cloud-ticc-solution-achieve-advanced-telco-services-for-world-leading-carrier-vodafone/), [Nebul with Mirantis](https://superuser.openinfra.org/articles/mirantis-k0rdent-ai-helps-nebul-deliver-sovereign-ai-clouds-for-european-enterprises/), a [Korean government owned company with Okestro](https://superuser.openinfra.org/articles/vmware-migration-to-openstack-case-study-okestro/), and [Boost Mobile with Wind River](https://superuser.openinfra.org/articles/vmware-migration-case-study-the-wind-river-cloud-platform/).
+* Some highlights among the [80+ OpenStack sessions](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4649) on the OpenInfra Summit schedule include:
+
+  * [From Zero to Code - How to get started in OpenStack](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4649&title=From%20Zero%20to%20Code%20-%20How%20to%20get%20started%20in%20OpenStack)
+  * [Multi-Arch OpenStack in Production: ARM64/x86 Bare Metal and Hypervisors with Kolla-Ansible](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4649&title=Multi-Arch%20OpenStack%20in%20Production%3A%20ARM64%2Fx86%20Bare%20Metal%20and%20Hypervisors%20with%20Kolla-Ansible)
+  * [Talking with Your Infrastructure: AI Agents for OpenStack and Kubernetes Infra](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4649&speakers=10326)
+  * [All aboard the Release Train: Lessons from our last 100 OpenStack upgrades](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4649&title=All%20aboard%20the%20Release%20Train%3A%20Lessons%20from%20our%20last%20100%20OpenStack%20upgrades)
+  * [OpenStack at Scale: Operating a bare metal cloud for quant research](https://summit2025.openinfra.org/a/schedule#view=calendar&tags=4649&title=OpenStack%20at%20Scale%3A%20Operating%20a%20bare%20metal%20cloud%20for%20quant%20research)
 
 # Kata Containers: The speed of containers, the security of VMs
 

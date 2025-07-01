@@ -6,7 +6,7 @@ date: 2025-07-01T16:45:19.457Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   url: https://openinfra.dev/blog/openinfra-newsletter-july-2025
   title: "Inside Open Infrastructure: July 2025"
@@ -16,7 +16,7 @@ seo:
 ---
 ![](/img/reg-2-1600x900.png)
 
-# OpenInfra Summit Schedule: For the Community, by the Community 
+# OpenInfra Summit Schedule: For the Community, by the Community
 
 The [OpenInfra Summit Europe](https://summit2025.openinfra.org/) is a **community-driven event**, made possible by the dedication and passion of volunteers from across the globe. This year, **over 30 volunteers** came together to shape every element of the OpenInfra Summit experience, from reviewing talks and building the schedule to creating speaker graphics, developing local tourism resources, and launching new community-focused initiatives like the [New Contributor Showcase](https://summit2025.openinfra.org/new-contributors-at-the-openInfra-summit).
 
@@ -36,7 +36,7 @@ From behind-the-scenes logistics to creative contributions, **the work of these 
 * The Linux Foundation has appointed [Jonathan Bryce as Executive Director, Cloud & Infrastructure and Chris Aniszczyk as CTO, Cloud & Infrastructure](https://www.linuxfoundation.org/press/linux-foundation-appoints-jonathan-bryce-as-executive-director-cloud-infrastructure-and-chris-aniszczyk-as-cto-cloud-infrastructure-to-oversee-major-open-s-1750718282015), to oversee major open source initiatives including OpenInfra and CNCF. Jonathan will serve as executive director of both CNCF and the OpenInfra Foundation, establishing a stronger collaborative bond across the two foundations and driving strategic alignment throughout the broader open source ecosystem.
 * The OpenInfra Member VMware Migration Working Group published a comprehensive VMware to OpenStack Migration Guide this month, [The Future of Virtualization: Modernizing Your Data Center with OpenStack](https://www.openstack.org/vmware-migration-to-openstack/)
 * If you’re interested in joining this global open source collaboration, consider [membership of the OpenInfra Foundation](https://openinfra.dev/join/members/). Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev) today to find out more!
-* The OpenInfra PTG team survey signup is live! If your team is interested in participating in the PTG, [please fill out the team survey here](https://openinfrafoundation.formstack.com/forms/oct2025_ptg_survey). 
+* The next [Project Teams Gathering (PTG)](https://openinfra.org/ptg/) is scheduled for October 27-31, 2025. The OpenInfra PTG team survey signup is live! If your team is interested in participating in the PTG, [please fill out the team survey here](https://openinfrafoundation.formstack.com/forms/oct2025_ptg_survey). 
 
 # OpenInfra Summit Europe
 

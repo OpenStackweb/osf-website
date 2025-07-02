@@ -24,6 +24,7 @@ export const UPDATE_IDP_PROFILE = 'UPDATE_IDP_PROFILE';
 export const MEMBERSHIP_TYPE_UPDATED = 'MEMBERSHIP_TYPE_UPDATED';
 export const MEMBERSHIP_TYPE_COMMUNITY = 'Community';
 export const MEMBERSHIP_TYPE_FOUNDATION = 'Foundation';
+export const MEMBERSHIP_TYPE_INDIVIDUAL = 'Individual';
 export const MEMBERSHIP_TYPE_NONE = 'None';
 export const MEMBERSHIP_RENEWED = "MEMBERSHIP_RENEWED";
 export const AFFILIATION_SAVED = 'AFFILIATION_SAVED';
@@ -62,7 +63,10 @@ export const getUserProfile = () => async (dispatch) => {
   )(params)(dispatch).then((payload) => {
     return dispatch(getIDPProfile()).then(() => {
       return dispatch(getMemberProfile(payload.response.id)).then(() => {
-        return getElectionMemberProfile(payload.response.id).then(() => dispatch(createAction(STOP_LOADING_PROFILE)()))
+        return dispatch(getElectionMemberProfile(payload.response.id)).then(() => {
+          dispatch(createAction(STOP_LOADING_PROFILE)())          
+          return payload?.response;
+        })
       })
     });
   }).catch(() => dispatch(createAction(STOP_LOADING_PROFILE)()));
@@ -307,23 +311,20 @@ export const renewMembership = () => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
 
   dispatch(startLoading());
-  dispatch(createAction(START_LOADING_PROFILE)());
 
   const params = {
     access_token: accessToken,
   };
 
   return putRequest(
-    null,
+    createAction(START_LOADING_PROFILE),
     createAction(MEMBERSHIP_RENEWED),
     `${window.API_BASE_URL}/api/v1/members/me/membership/individual`,
     {},
     authErrorHandler
   )(params)(dispatch)
-    .then((payload) => {
-      dispatch(stopLoading());
-      dispatch(createAction(STOP_LOADING_PROFILE)());
-    });
+    .then(() => dispatch(createAction(STOP_LOADING_PROFILE)()))
+    .finally(() => dispatch(stopLoading()));
 }
 
 /*********************** SPEAKER PROFILE ***************************************/

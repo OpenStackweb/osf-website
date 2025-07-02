@@ -8,7 +8,7 @@ import Header from "../components/Header";
 import SEO from "../components/SEO";
 import 'openstack-uicore-foundation/lib/css/components/index.css';
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
-import { renewMembership } from "../actions/user-actions";
+import { MEMBERSHIP_TYPE_INDIVIDUAL, renewMembership } from "../actions/user-actions";
 
 import leftArrow from '../img/svg/arrow-left.svg'
 
@@ -44,7 +44,7 @@ export const RenewMembershipPageTemplate = ({
                 <div className="column is-three-fifths text-column">
                   <h1>
                     <span className="renew-membership-title">RENEW YOUR OPENINFRA MEMBERSHIP</span></h1>
-                  {userProfile.membership_type !== "Individual" ?
+                  {userProfile.membership_type !== MEMBERSHIP_TYPE_INDIVIDUAL ?
                     <span>
                       <strong>Thank you, you've renewed your membership.
                       </strong>

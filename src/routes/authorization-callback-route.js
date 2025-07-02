@@ -16,7 +16,7 @@ import URI from "urijs"
 import { navigate } from '@reach/router'
 import { connect } from 'react-redux';
 import AbstractAuthorizationCallbackRoute from "openstack-uicore-foundation/lib/security/abstract-auth-callback-route";
-import { getUserProfile } from '../actions/user-actions'
+import { getUserProfile, MEMBERSHIP_TYPE_INDIVIDUAL } from '../actions/user-actions'
 import { IDP_BASE_URL, OAUTH2_CLIENT_ID, getEnvVariable } from '../utils/envVariables'
 import HeroComponent from "../components/HeroComponent";
 
@@ -31,9 +31,8 @@ class AuthorizationCallbackRoute extends AbstractAuthorizationCallbackRoute {
     this.props.getUserInfo(
       'groups, all_affiliations, candidate_profile, election_applications, election_nominations, election_nominations.candidate',
       'election_nominations.candidate.first_name, election_nominations.candidate.last_name'
-    ).then(() => this.props.getUserProfile().then(() => {
-      const { userProfile } = this.props;
-      if (userProfile.membership_type !== "Individual") {
+    ).then(() => this.props.getUserProfile().then((userProfile) => {
+      if (userProfile?.membership_type !== MEMBERSHIP_TYPE_INDIVIDUAL) {
         return navigate("/a/renew-membership");
       }
       navigate(URI.decode(backUrl))
@@ -64,10 +63,6 @@ class AuthorizationCallbackRoute extends AbstractAuthorizationCallbackRoute {
   }
 }
 
-const mapStateToProps = ({ userState }) => ({
-  userProfile: userState.userProfile
-});
-
-export default connect(mapStateToProps, {
+export default connect(null, {
   getUserProfile
 })(AuthorizationCallbackRoute)

@@ -14,7 +14,7 @@ import axios from "axios";
 import { handleApiError } from "../utils/security";
 import { customErrorHandler } from "../utils/customErrorHandler";
 import { getMemberProfile, getElectionMemberProfile } from "./member-actions";
-import { getAccessTokenSafely} from "../utils/security";
+import { getAccessTokenSafely } from "../utils/security";
 
 export const START_LOADING_IDP_PROFILE = 'START_LOADING_IDP_PROFILE';
 export const STOP_LOADING_IDP_PROFILE = 'STOP_LOADING_IDP_PROFILE';
@@ -25,6 +25,7 @@ export const MEMBERSHIP_TYPE_UPDATED = 'MEMBERSHIP_TYPE_UPDATED';
 export const MEMBERSHIP_TYPE_COMMUNITY = 'Community';
 export const MEMBERSHIP_TYPE_FOUNDATION = 'Foundation';
 export const MEMBERSHIP_TYPE_NONE = 'None';
+export const MEMBERSHIP_RENEWED = "MEMBERSHIP_RENEWED";
 export const AFFILIATION_SAVED = 'AFFILIATION_SAVED';
 export const AFFILIATION_DELETED = 'AFFILIATION_DELETED';
 export const AFFILIATION_ADDED = 'AFFILIATION_ADDED';
@@ -61,7 +62,8 @@ export const getUserProfile = () => async (dispatch) => {
   )(params)(dispatch).then((payload) => {
     return dispatch(getIDPProfile()).then(() => {
       return dispatch(getMemberProfile(payload.response.id)).then(() => {
-        return getElectionMemberProfile(payload.response.id).then(() => dispatch(createAction(STOP_LOADING_PROFILE)()))})
+        return getElectionMemberProfile(payload.response.id).then(() => dispatch(createAction(STOP_LOADING_PROFILE)()))
+      })
     });
   }).catch(() => dispatch(createAction(STOP_LOADING_PROFILE)()));
 }
@@ -298,6 +300,29 @@ export const resignMembershipType = () => async (dispatch) => {
   )(params)(dispatch)
     .then((payload) => {
       dispatch(stopLoading());
+    });
+}
+
+export const renewMembership = () => async (dispatch) => {
+  const accessToken = await getAccessTokenSafely();
+
+  dispatch(startLoading());
+  dispatch(createAction(START_LOADING_PROFILE)());
+
+  const params = {
+    access_token: accessToken,
+  };
+
+  return putRequest(
+    null,
+    createAction(MEMBERSHIP_RENEWED),
+    `${window.API_BASE_URL}/api/v1/members/me/membership/individual`,
+    {},
+    authErrorHandler
+  )(params)(dispatch)
+    .then((payload) => {
+      dispatch(stopLoading());
+      dispatch(createAction(STOP_LOADING_PROFILE)());
     });
 }
 

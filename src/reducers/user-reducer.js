@@ -14,9 +14,11 @@ import {
   START_LOADING_SPEAKER_PROFILE,
   STOP_LOADING_SPEAKER_PROFILE,
   GET_SPEAKER_PROFILE,
+  MEMBERSHIP_RENEWED,
 } from '../actions/user-actions'
 
 const DEFAULT_STATE = {
+  loading: false,
   loadingIDP: false,
   idpProfile: null,
   userProfile: null,
@@ -105,6 +107,9 @@ const userReducer = (state = DEFAULT_STATE, action) => {
     case MEMBERSHIP_TYPE_UPDATED: {
       let member = { ...payload.response };
       return { ...state, currentMembershipType: member.membership_type };
+    }
+    case MEMBERSHIP_RENEWED: {      
+      return { ...state, userProfile: {...state.userProfile, ...payload.data}, currentMembershipType: payload.data.membership_type };
     }
     case GET_SPEAKER_PROFILE: {
       let entity = { ...payload.response };

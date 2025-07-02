@@ -19,6 +19,7 @@ import NotFoundPage from "../404"
 import ProfileLegalPage from "../../templates/profile-legal-page";
 import ProfileElectionPage from "../../templates/profile-election-page";
 import ProfileSpeakerPage from "../../templates/profile-speaker-page";
+import RenewMembershipPage from "../../templates/renew-membership-page";
 
 const App = ({ isLoggedUser, user, lastBuild, syncData }) => {
 
@@ -42,6 +43,7 @@ const App = ({ isLoggedUser, user, lastBuild, syncData }) => {
             <MembershipCommunityPage path="/profile/membership/community" isLoggedIn={isLoggedUser} user={user} location={location} />
             <MembershipFoundationPage path="/profile/membership/foundation" isLoggedIn={isLoggedUser} user={user} location={location} />
             <RegistrationPage path="/registration" location={location} isLoggedIn={isLoggedUser} />
+            <RenewMembershipPage path="/renew-membership" isLoggedIn={isLoggedUser} user={user} location={location} />
           </PrivateRoute>
           <MemberListPage path="/community/members" location={location} isLoggedIn={isLoggedUser} />
           <MemberProfilePage path="/community/members/:memberId" location={location} isLoggedIn={isLoggedUser} />

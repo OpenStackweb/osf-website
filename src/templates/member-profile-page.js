@@ -16,6 +16,8 @@ import { doLogin } from 'openstack-uicore-foundation/lib/security/methods';
 import { epochToMomentTimeZone } from 'openstack-uicore-foundation/lib/utils/methods';
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 
+import genericProfilePicture from "../img/generic-profile-photo.png";
+
 export const MemberProfilePageTemplate = ({
   isLoggedUser,
   isOwnProfile,
@@ -60,7 +62,7 @@ export const MemberProfilePageTemplate = ({
               {!loading_members && member_profile &&
                 <>
                   <div className="member-profile-group">
-                    <img className="profile-pic" src={member_profile.pic} alt={`${member_profile.first_name} ${member_profile.last_name}`} />
+                    <img className="profile-pic" src={member_profile.pic || genericProfilePicture} alt={`${member_profile.first_name} ${member_profile.last_name}`} />
                     <span className="profile-name">{`${member_profile.first_name} ${member_profile.last_name}`}</span>
                   </div>
                   <hr />

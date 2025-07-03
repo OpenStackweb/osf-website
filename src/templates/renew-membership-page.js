@@ -24,6 +24,13 @@ export const RenewMembershipPageTemplate = ({
 }) => {
 
   const [acceptedTerms, setAcceptedTerms] = useState(false);
+  const [renewedMembership, setRenewedMembership] = useState(false);
+
+  const handleRenewMembership = () => {
+    renewMembership()
+      .then(() => setRenewedMembership(true))
+      .catch(() => setRenewedMembership(false));
+  }
 
   useEffect(() => {
     // if (userProfile.membership_type === "Individual") navigate("/a/profile")
@@ -44,7 +51,7 @@ export const RenewMembershipPageTemplate = ({
                 <div className="column is-three-fifths text-column">
                   <h1>
                     <span className="renew-membership-title">RENEW YOUR OPENINFRA MEMBERSHIP</span></h1>
-                  {userProfile.membership_type !== MEMBERSHIP_TYPE_INDIVIDUAL ?
+                  {renewedMembership ?
                     <span>
                       <strong>Thank you, you've renewed your membership.
                       </strong>
@@ -69,7 +76,7 @@ export const RenewMembershipPageTemplate = ({
                       </div>
                       <button
                         className="renew-membership-button button-cta"
-                        onClick={() => renewMembership()}
+                        onClick={handleRenewMembership}
                         disabled={!acceptedTerms}>
                         CONFIRM<img src={leftArrow} alt="" />
                       </button>

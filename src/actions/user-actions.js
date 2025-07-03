@@ -324,6 +324,10 @@ export const renewMembership = () => async (dispatch) => {
     authErrorHandler
   )(params)(dispatch)
     .then(() => dispatch(createAction(STOP_LOADING_PROFILE)()))
+    .catch((err) => {
+      dispatch(createAction(STOP_LOADING_PROFILE)())
+      throw err;
+    })
     .finally(() => dispatch(stopLoading()));
 }
 

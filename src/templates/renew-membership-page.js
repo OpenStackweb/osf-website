@@ -33,7 +33,7 @@ export const RenewMembershipPageTemplate = ({
   }
 
   useEffect(() => {
-    if (userProfile.membership_type === "Individual") navigate("/a/profile")
+    // if (userProfile.membership_type === "Individual") navigate("/a/profile")
   }, [])
 
   return (
@@ -85,14 +85,14 @@ export const RenewMembershipPageTemplate = ({
                 </div>
                 <div className="column">
                   <div className="image-grid">
-                    <img src="/img/renew-membership/img_3.svg" />
-                    <img src="/img/renew-membership/img_4.svg" />
-                    <img src="/img/renew-membership/img_3.svg" />
-                    <img src="/img/renew-membership/img_4.svg" />
-                    <img src="/img/renew-membership/img_5.svg" />
-                    <img src="/img/renew-membership/img_6.svg" />
-                    <img src="/img/renew-membership/img_5.svg" />
-                    <img src="/img/renew-membership/img_6.svg" />
+                    <img src="/img/renew-membership/01.svg" />
+                    <img src="/img/renew-membership/02.svg" />
+                    <img src="/img/renew-membership/03.svg" />
+                    <img src="/img/renew-membership/04.svg" />
+                    <img src="/img/renew-membership/05.svg" />
+                    <img src="/img/renew-membership/06.svg" />
+                    <img src="/img/renew-membership/07.svg" />
+                    <img src="/img/renew-membership/08.svg" />
                   </div>
                 </div>
               </div>

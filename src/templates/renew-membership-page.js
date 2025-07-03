@@ -33,7 +33,7 @@ export const RenewMembershipPageTemplate = ({
   }
 
   useEffect(() => {
-    // if (userProfile.membership_type === "Individual") navigate("/a/profile")
+    if (userProfile.membership_type === "Individual") navigate("/a/profile")
   }, [])
 
   return (

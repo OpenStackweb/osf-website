@@ -59,11 +59,11 @@ const userReducer = (state = DEFAULT_STATE, action) => {
         //   hasTicket: userProfile.summit_tickets?.length > 0
       }
     case RECEIVE_USER_INFO: {
-      let {response} = action.payload;
+      let { response } = action.payload;
       let affiliations = response.affiliations.map((a) => {
-        return {...a};
+        return { ...a };
       });
-      return {...state, currentMembershipType: response.membership_type};
+      return { ...state, currentMembershipType: response.membership_type };
     }
     case AFFILIATION_ADDED: {
       let affiliation = { ...payload.response };
@@ -71,7 +71,7 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       return {
         ...state,
         userProfile: {
-          ...state.userProfile, 
+          ...state.userProfile,
           all_affiliations: [...state.userProfile.all_affiliations, affiliation]
         }
       };
@@ -81,7 +81,7 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       return {
         ...state,
         userProfile: {
-          ...state.userProfile, 
+          ...state.userProfile,
           all_affiliations: state.userProfile.all_affiliations.map(a => {
             if (a.id !== affiliation.id) return a;
             // Otherwise, this is the one we want - return an updated value
@@ -109,7 +109,8 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       return { ...state, currentMembershipType: member.membership_type };
     }
     case MEMBERSHIP_RENEWED: {      
-      return { ...state, userProfile: {...state.userProfile, ...payload.data}, currentMembershipType: payload.data.membership_type };
+      let updatedProfile = { ...payload.response };
+      return { ...state, userProfile: { ...state.userProfile, ...updatedProfile }, currentMembershipType: updatedProfile.membership_type };
     }
     case GET_SPEAKER_PROFILE: {
       let entity = { ...payload.response };

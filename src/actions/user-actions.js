@@ -11,7 +11,7 @@ import {
   showMessage,
 } from "openstack-uicore-foundation/lib/utils/actions";
 import axios from "axios";
-import { handleApiError } from "../utils/security";
+import { authPromiseReject, handleApiError } from "../utils/security";
 import { customErrorHandler } from "../utils/customErrorHandler";
 import { getMemberProfile, getElectionMemberProfile } from "./member-actions";
 import { getAccessTokenSafely} from "../utils/security";
@@ -44,7 +44,7 @@ export const BIG_PIC_ATTACHED = 'BIG_PIC_ATTACHED';
 export const getUserProfile = () => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
 
-  if (!accessToken) return Promise.resolve();
+  if (!accessToken) return authPromiseReject();
 
   let params = {
     access_token: accessToken,
@@ -69,7 +69,7 @@ export const getUserProfile = () => async (dispatch) => {
 export const getIDPProfile = () => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
 
-  if (!accessToken) return Promise.resolve();
+  if (!accessToken) return authPromiseReject();
 
   let params = {
     access_token: accessToken,
@@ -87,7 +87,7 @@ export const getIDPProfile = () => async (dispatch) => {
 export const updateProfilePicture = (pic) => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
 
-  if (!accessToken) return Promise.reject();
+  if (!accessToken) return authPromiseReject();
 
   let params = {
     access_token: accessToken,
@@ -110,7 +110,7 @@ export const updateProfilePicture = (pic) => async (dispatch) => {
 export const updateIDPProfile = (profile) => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
 
-  if (!accessToken) return Promise.reject();
+  if (!accessToken) return authPromiseReject();
 
   let params = {
     access_token: accessToken,
@@ -132,7 +132,7 @@ export const updateIDPProfile = (profile) => async (dispatch) => {
 export const updateProfile = (profile) => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
 
-  if (!accessToken) return Promise.reject();
+  if (!accessToken) return authPromiseReject();
 
   let params = {
     access_token: accessToken,
@@ -159,6 +159,8 @@ export const updateProfile = (profile) => async (dispatch) => {
 export const addOrganization = (organization, callback) => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
 
+  if (!accessToken) return authPromiseReject();
+
   const params = {
     access_token: accessToken,
   };
@@ -180,6 +182,8 @@ export const addOrganization = (organization, callback) => async (dispatch) => {
 
 export const addAffiliation = (affiliation) => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
+
+  if (!accessToken) return authPromiseReject();
 
   dispatch(startLoading());
 
@@ -206,6 +210,8 @@ export const addAffiliation = (affiliation) => async (dispatch) => {
 export const saveAffiliation = (affiliation) => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
 
+  if (!accessToken) return authPromiseReject();
+
   dispatch(startLoading());
 
   const params = {
@@ -228,6 +234,8 @@ export const saveAffiliation = (affiliation) => async (dispatch) => {
 
 export const deleteAffiliation = (affiliationId) => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
+
+  if (!accessToken) return authPromiseReject();
 
   const params = {
     access_token: accessToken,
@@ -262,6 +270,8 @@ const normalizeEntity = (entity) => {
 export const updateMembershipType = (type) => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
 
+  if (!accessToken) return authPromiseReject();
+
   dispatch(startLoading());
 
   const params = {
@@ -282,6 +292,8 @@ export const updateMembershipType = (type) => async (dispatch) => {
 
 export const resignMembershipType = () => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
+
+  if (!accessToken) return authPromiseReject();
 
   dispatch(startLoading());
 
@@ -306,6 +318,8 @@ export const resignMembershipType = () => async (dispatch) => {
 export const getSpeakerProfile = () => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
 
+  if (!accessToken) return authPromiseReject();
+
   dispatch(startLoading());
 
   let params = {
@@ -327,6 +341,8 @@ export const getSpeakerProfile = () => async (dispatch) => {
 
 export const saveSpeakerProfile = (entity) => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
+
+  if (!accessToken) return authPromiseReject();
 
   dispatch(startLoading());
 
@@ -397,6 +413,8 @@ export const saveSpeakerProfile = (entity) => async (dispatch) => {
 export const uploadFileProfile = (entity, file) => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
 
+  if (!accessToken) return authPromiseReject();
+
   let formData = new FormData();
   formData.append('file', file);
 
@@ -420,6 +438,8 @@ export const uploadFileProfile = (entity, file) => async (dispatch) => {
 
 export const uploadFileBigPhoto = (entity, file) => async (dispatch) => {
   const accessToken = await getAccessTokenSafely();
+
+  if (!accessToken) return authPromiseReject();
 
   let formData = new FormData();
   formData.append('file', file);

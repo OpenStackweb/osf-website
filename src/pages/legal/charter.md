@@ -18,7 +18,7 @@ footer:
   display: false
 ---
 
-1. **Mission and Scope of the OpenInfra Foundation.**
+1\. **Mission and Scope of the OpenInfra Foundation.**
 
    a) The mission of the OpenInfra Foundation, a directed fund of the Linux Foundation (the "Directed Fund") is to facilitate the building and operation of open infrastructure. To enable that mission, the purpose of the Directed Fund is to raise, budget and spend funds in support of various open source, open data and/or open standards projects relating to operating cloud infrastructure, including infrastructure and support initiatives related thereto (each such project, a "Technical Project"). The governance of each Technical Project is as set forth in the applicable charter for each Technical Project.
 
@@ -26,7 +26,7 @@ footer:
 
    c) The Governing Board manages the Directed Fund. The Directed Fund may also have working groups, councils, committees and similar bodies (collectively, "Committees") that are established by the Governing Board. These Committees report to the Governing Board.
 
-2. **Membership.**
+2\. **Membership.**
 
    a) The Directed Fund will be composed of Platinum, Gold, Silver and Associate Members (each a "Member" and, collectively, the "Members") in Good Standing. All Members must be current corporate members of the LF (at any level) to participate in the Directed Fund as a Member. All participating Members of the Directed Fund enjoy the privileges and undertake the obligations described in this Charter, as from time to time amended by the Governing Board with the approval of the LF. During the term of their membership, all Members will comply with all such policies as the LF Board of Directors and/or the Governing Board may adopt with notice to Members.
 
@@ -48,7 +48,7 @@ footer:
 
       ii) identify themselves as members of the OpenInfra Foundation supporting the OpenInfra Foundation community, as described in the Trademark Policy (as defined in Section 7, below).
 
-3. **Governing Board.**
+3\. **Governing Board.**
 
    a) The Governing Board voting members will consist of:
 
@@ -102,7 +102,7 @@ footer:
 
       xi) voting on all decisions or matters coming before the Governing Board.
 
-4. **Voting.**
+4\. **Voting.**
 
    a) Quorum for Governing Board and Committee meetings will require at least fifty percent of the total number of Platinum, Gold, and OIF Individual Representatives (each a "Voting Representative"). If advance notice of the meeting has been given per normal means and timing and quorum is not met, the meeting may be held for discussion purposes only and no decision made or other action taken at the meeting.
 
@@ -112,7 +112,7 @@ footer:
 
    d) In the event of a tied vote at a Governing Board meeting with respect to an action that cannot be resolved by the Governing Board, the Chair may refer the matter to the LF for assistance in reaching a resolution. If there is a tied vote in any Committee meeting that cannot be resolved, the matter may be referred by the Committee chair to the Governing Board for resolution.
 
-5. **Subsidiaries and Related Companies.**
+5\. **Subsidiaries and Related Companies.**
 
    a) Definitions:
 
@@ -128,21 +128,21 @@ footer:
 
    d) Directed Fund Membership is non-transferable, non-salable and non-assignable, except that a Member may transfer its current Membership benefits and obligations to a successor to substantially all of its business or assets, whether by merger, sale or otherwise; provided that the transferee agrees to be bound by this Charter and the Bylaws and policies required by LF membership.
 
-6. **Good Standing.**
+6\. **Good Standing.**
 
    a) The Linux Foundation's Good Standing Policy is available at https://www.linuxfoundation.org/good-standing-policy and will apply to Members (i.e. Platinum, Gold, Silver and Associate Members) of the Directed Fund.
 
-7. **Trademarks.**
+7\. **Trademarks.**
 
    a) Any trademarks relating to the Directed Fund or the Technical Projects, including without limitation any mark relating to any Conformance Program, must be transferred to and held by LF Projects, LLC or the Linux Foundation and will be made available for use pursuant to the trademark usage policy, available at https://openinfra.org/legal/trademark-policy (the "Trademark Policy").
 
-8. **Antitrust Guidelines.**
+8\. **Antitrust Guidelines.**
 
    a) All Members must abide by The Linux Foundation's Antitrust Policy available at http://www.linuxfoundation.org/antitrust-policy.
 
    b) All Members must encourage open participation from any organization able to meet the membership requirements, regardless of competitive interests. Put another way, the Governing Board will not seek to exclude any member based on any criteria, requirements or reasons other than those that are reasonable and applied on a non-discriminatory basis to all members.
 
-9. **Budget.**
+9\. **Budget.**
 
    a) The Governing Board will approve an annual budget and never commit to spend in excess of funds raised. The budget and the purposes to which it is applied must be consistent with both (a) the non-profit and tax-exempt mission of The Linux Foundation and (b) the aggregate goals of the Technical Projects.
 
@@ -150,13 +150,13 @@ footer:
 
    c) In the event an unbudgeted or otherwise unfunded obligation arises related to the Directed Fund, The Linux Foundation will coordinate with the Governing Board to address gap funding requirements.
 
-10. **General & Administrative Expenses.**
+10\. **General & Administrative Expenses.**
 
     a) The Linux Foundation will have custody of and final authority over the usage of any fees, funds and other cash receipts.
 
     b) A General & Administrative (G&A) fee will be applied by The Linux Foundation to funds raised to cover membership records, finance, accounting, and human resources operations. The G&A fee will be 9% of the Directed Fund's first $1,000,000 of gross receipts each year and 6% of the Directed Fund's gross receipts each year over $1,000,000.
 
-11. **General Rules and Operations.** The Directed Fund activities must:
+11\. **General Rules and Operations.** The Directed Fund activities must:
 
     a) engage in the work of the project in a professional manner consistent with maintaining a cohesive community, while also maintaining the goodwill and esteem of The Linux Foundation and the Directed Fund in the open source community;
 
@@ -166,6 +166,6 @@ footer:
 
     d) operate under such rules and procedures as may be approved by the Governing Board and confirmed by The Linux Foundation.
 
-12. **Amendments.**
+12\. **Amendments.**
 
     a) This Charter may be amended by a two-thirds vote of Platinum, Gold and OIF Individual Representatives of the Governing Board, subject to approval by The Linux Foundation.

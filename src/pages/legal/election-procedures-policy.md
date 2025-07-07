@@ -28,22 +28,22 @@ This Election Procedures Policy (the “Policy”) is maintained by the Governin
 
 **For Elections Beginning January 1, 2026:**
 
-1. **Gold Representative Elections.** The Governing Board will cause, through a designee, elections of the Gold Representatives to be held annually by electronic ballot, and will determine the procedures for nomination and election by the Gold Members, acting as a class, consistent with the Charter and this Policy as then in force. Each Gold Representative will serve terms of one year or until such Gold Representative's earlier death, resignation or removal. The quorum for an annual or special election of the Gold Representatives shall be a majority of Gold Members eligible to vote in such election.
+1\. **Gold Representative Elections.** The Governing Board will cause, through a designee, elections of the Gold Representatives to be held annually by electronic ballot, and will determine the procedures for nomination and election by the Gold Members, acting as a class, consistent with the Charter and this Policy as then in force. Each Gold Representative will serve terms of one year or until such Gold Representative's earlier death, resignation or removal. The quorum for an annual or special election of the Gold Representatives shall be a majority of Gold Members eligible to vote in such election.
  
-2. **OIF Individual Member Elections.** The Governing Board will cause, through a designee, elections of the OIF Individual Member Representatives to be held annually by electronic ballot, and will determine the procedures for nomination and election by the OIF Individual Members consistent with the Charter and this policy as then in force.  Each OIF Individual Member Representative will serve a term of one year or until such OIF Individual Member Representative's earlier death, resignation, removal or replacement. The quorum for an annual or special election of the OIF Individual Member Representatives shall be 10% of the OIF Individual Members eligible to vote in such election.
+2\. **OIF Individual Member Elections.** The Governing Board will cause, through a designee, elections of the OIF Individual Member Representatives to be held annually by electronic ballot, and will determine the procedures for nomination and election by the OIF Individual Members consistent with the Charter and this policy as then in force.  Each OIF Individual Member Representative will serve a term of one year or until such OIF Individual Member Representative's earlier death, resignation, removal or replacement. The quorum for an annual or special election of the OIF Individual Member Representatives shall be 10% of the OIF Individual Members eligible to vote in such election.
 
 a) OIF Individual Members are eligible to vote in an OIF Individual Member Election only if the date of such vote falls at least 180 days after the effective date that such an individual became an OIF Individual Member according to the OIF Individual Member Registry.
 
 b) Requirements for Nominations for OIF Individual Member Representatives:
 
-     i) the nomination must be signed by at least ten (10) OIF Individual Members;
+      i) the nomination must be signed by at least ten (10) OIF Individual Members;
 
-     ii) the nominee is an OIF Individual Member in good standing;
+      ii) the nominee is an OIF Individual Member in good standing;
 
-     iii) the nominee must have completed an application for nomination as an OIF Individual Member Representative in the form provided by the Governing Board; and
+      iii) the nominee must have completed an application for nomination as an OIF Individual Member Representative in the form provided by the Governing Board; and
 
-     iv) the nomination must be received by the Governing Board at least thirty (30) days prior to the relevant election.
+      iv) the nomination must be received by the Governing Board at least thirty (30) days prior to the relevant election.
  
-3. **Plurality of Votes.**  Any election of Gold Representatives or OIF Individual Member Representatives (including an election to fill a vacancy) will be determined by a plurality of votes cast by the eligible Members of the relevant class in such election except as provided in paragraph 4 below. 
+3\. **Plurality of Votes.**  Any election of Gold Representatives or OIF Individual Member Representatives (including an election to fill a vacancy) will be determined by a plurality of votes cast by the eligible Members of the relevant class in such election except as provided in paragraph 4 below. 
  
-4. **Diversity Requirement.**  If, in an OIF Individual Member election, the election of any one OIF Individual Member would result in the Governing Board having more than three (3) representatives from the same group of Related Companies (such situation, “Diversity Noncompliance”), then the OIF Individual Member candidate with the next highest number of votes, whose election as an OIF Individual Member Representative would not create Diversity Noncompliance, shall be elected as the OIF Individual Member Representative instead of the Individual Member whose election would cause Diversity Noncompliance.
+4\. **Diversity Requirement.**  If, in an OIF Individual Member election, the election of any one OIF Individual Member would result in the Governing Board having more than three (3) representatives from the same group of Related Companies (such situation, “Diversity Noncompliance”), then the OIF Individual Member candidate with the next highest number of votes, whose election as an OIF Individual Member Representative would not create Diversity Noncompliance, shall be elected as the OIF Individual Member Representative instead of the Individual Member whose election would cause Diversity Noncompliance.

@@ -294,7 +294,7 @@ export const ProfileManagement = ({
                 </h3>
                 <span>
                   Current Member Level <br />
-                  <b>{currentMembershipType === MEMBERSHIP_TYPE_INDIVIDUAL ? `OIF ${currentMembershipType} Member` : currentMembershipType} </b>
+                  <b>{currentMembershipType === MEMBERSHIP_TYPE_INDIVIDUAL ? `OIF ${currentMembershipType} Member` : currentMembershipType}</b>&nbsp;
                   {currentMembershipType === MEMBERSHIP_TYPE_FOUNDATION && <LinkComponent href="/a/renew-membership">(Renew Your Membership)</LinkComponent>}
                 </span>
                 <a onClick={() => currentMembershipType?.toLowerCase() === 'community' ? handleConvertIndividualMember() : handleConvertCommunityMember()}>

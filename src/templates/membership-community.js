@@ -40,7 +40,7 @@ export const MembershipCommunityPageTemplate = ({
                             <div className="columns">
                                 <div className="column">
                                     <p>
-                                        If you select this option, you will be revoking your right to vote in elections and to commit code to OpenStack via Gerrit. Additionally, any administrative rights to the Marketplace Admin or Company Admin will be revoked.
+                                        If you select this option, you will be revoking your right to vote and run in elections. Additionally, any administrative rights to the Marketplace Admin or Company Admin will be revoked.
                                     </p>
                                     <button role="button" onClick={() => resign()}>Yes, I agree</button>
                                     &nbsp;

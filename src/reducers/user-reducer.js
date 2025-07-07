@@ -55,6 +55,7 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       return {
         ...state,
         userProfile: userProfile,
+        currentMembershipType: userProfile.membership_type
         //   isAuthorized: isAuthorizedUser(userProfile.groups),
         //   hasTicket: userProfile.summit_tickets?.length > 0
       }

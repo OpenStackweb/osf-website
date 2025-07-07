@@ -176,7 +176,6 @@ export const MembersPageTemplate = ({
                                     <span className="price">{memberBenefits.fees.silver.price}</span>
                                     <span className="fee">Annual Membership Fee</span>
                                     <LinkComponent href={memberBenefits.fees.silver.button.link} >{memberBenefits.fees.silver.button.text}</LinkComponent>
-                                    <span>Startup pricing available</span>
                                 </div>
                             </div>
                             <div className="mobile-gold">
@@ -203,7 +202,6 @@ export const MembersPageTemplate = ({
                                     <span className="price">{memberBenefits.fees.gold.price}</span>
                                     <span className="fee">Annual Membership Fee</span>
                                     <LinkComponent href={memberBenefits.fees.gold.button.link} >{memberBenefits.fees.gold.button.text}</LinkComponent>
-                                    <span>Startup pricing available</span>
                                 </div>
                             </div>
                             <div className="mobile-platinum">

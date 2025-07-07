@@ -1,16 +1,16 @@
 ---
 templateKey: board-page
 seo:
-  description: The Board of Directors provides strategic and financial oversight
+  description: The Governing Board provides strategic and financial oversight
     of OpenInfra Foundation resources and staff.
   image: /img/OpenInfra-icon-white.jpg
-  title: Board of Directors
+  title: Governing Board
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/about/board/
+  url: https://openinfra.org/about/board/
 header:
-  subTitle: The Board of Directors provides strategic and financial oversight of
+  subTitle: The Governing Board provides strategic and financial oversight of
     OpenInfra Foundation resources and staff.
-  title: BOARD OF DIRECTORS
+  title: GOVERNING BOARD
 members:
   - company: Red Hat
     description: >-

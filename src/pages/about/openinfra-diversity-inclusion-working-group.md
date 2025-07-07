@@ -4,16 +4,16 @@ seo:
   title: Diversity & Inclusion Initiatives
   description: The OpenInfra Diversity & Inclusion Working Group identifies and
     removes barriers that keep us from having a diverse, thriving community.
-  url: https://openinfra.dev/about/diversity
+  url: https://openinfra.org/about/diversity
   twitterUsername: "@openinfra.dev"
   image: /img/openinfrafoundation-logo-rgb-stacked.jpg
 title: OpenInfra Diversity & Inclusion Working Group
 ---
 ### Charter
 
-In an effort to assert and facilitate the incorporation of diversity policies into its overall strategy, the Board of Directors of the OpenInfra Foundation is committed to fostering an inclusive and welcoming place for all people to collaborate, drive innovation, and design cutting-edge data center capabilities that provide solutions for our most pressing challenges.
+In an effort to assert and facilitate the incorporation of diversity policies into its overall strategy, the Governing Board of the OpenInfra Foundation is committed to fostering an inclusive and welcoming place for all people to collaborate, drive innovation, and design cutting-edge data center capabilities that provide solutions for our most pressing challenges.
 
-This working group sponsors and creates programs that encourage diversity and inclusion by identifying and removing the barriers that keep us from having a diverse, thriving community. The programs recommended by this working group apply to the board of directors, foundation members, project leaders, contributors, and their associated communities. Each program has specific success metrics, and the working group provides regular updates on all programs to the Board as well as the community.
+This working group sponsors and creates programs that encourage diversity and inclusion by identifying and removing the barriers that keep us from having a diverse, thriving community. The programs recommended by this working group apply to the governing board, foundation members, project leaders, contributors, and their associated communities. Each program has specific success metrics, and the working group provides regular updates on all programs to the Board as well as the community.
 
 The diversity working group is supervised by the OpenInfra Foundation Board who has authority to approve its proposals. The Board may choose to exercise such authority by setting guidelines for the scope and implementation of such programs. The working group reviews existing Foundation programs and policies on a regular basis to evaluate their performance and effectiveness. The working group collaborates with project leadership and the Board to ensure that all programs are meeting their diversity and inclusion goals.
 

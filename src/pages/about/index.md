@@ -7,7 +7,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: About
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/about/
+  url: https://openinfra.org/about/
 footer:
   button: ""
   buttonText: ""
@@ -19,11 +19,11 @@ When the OpenStack Foundation formed to govern the OpenStack project in 2012, cl
 
 For this reason, we expanded our focus as a foundation and are helping to establish new open source communities to advance areas where technology can successfully contribute to the development of open infrastructure: AI/Machine Learning, CI/CD, Container Infrastructure, Edge Computing and of course, Public, Private and Hybrid Clouds.
 
-Now, the OpenInfra Foundation supports the development and adoption of open infrastructure globally, across a community of over 110,000 individuals in 187 countries, by hosting open source projects and communities of practice.
+Now a part of the Linux Foundation, the OpenInfra Foundation supports the development and adoption of open infrastructure globally, across a community of over 110,000 individuals in 187 countries, by hosting open source projects and communities of practice.
 
-Staying true to its mission of helping people build and operate open infrastructure, OpenInfra Foundation hosts open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens.” These projects include [OpenStack](https://www.openstack.org), [Airship](https://www.airshipit.org), [Kata Containers](https://katacontainers.io/), [OpenInfra Labs](https://openinfralabs.org/), [StarlingX](https://starlingx.io), and [Zuul](https://zuul-ci.org/). Additional initiatives supported by the OpenInfra Foundation include [OpenDev](https://opendev.org/), project hosting, continuous integration tooling, and virtual collaboration spaces for open source software projects and Superuser, an online publication where users and developers share how they're combining software from OpenInfra Foundation communities with other popular open source tools like Kubernetes, Ceph, Cloud Foundry, OVS, OpenContrail, Open Switch, OPNFV and more to power their open infrastructure.
+Staying true to its mission of helping people build and operate open infrastructure, OpenInfra Foundation hosts open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens.” These projects include [OpenStack](https://www.openstack.org), [Airship](https://www.airshipit.org), [Kata Containers](https://katacontainers.io/), [StarlingX](https://starlingx.io), and [Zuul](https://zuul-ci.org/). Additional initiatives supported by the OpenInfra Foundation include [OpenDev](https://opendev.org/), project hosting, continuous integration tooling, and virtual collaboration spaces for open source software projects and Superuser, an online publication where users and developers share how they're combining software from OpenInfra Foundation communities with other popular open source tools like Kubernetes, Ceph, Cloud Foundry, OVS, OpenContrail, Open Switch, OPNFV and more to power their open infrastructure.
 
-[Individual membership of the Open Infrastructure Foundation](/join/) is free for anyone with an interest in open infrastructure. Individual Members are expected to participate in the community through technical contributions or community building efforts, and vote in an annual election for the Board of Directors.
+[OIF Individual membership of the OpenInfra Foundation](/join/) is free for anyone with an interest in open infrastructure. Individual Members are expected to participate in the community through technical contributions or community building efforts, and vote in an annual election for the Governing Board.
 
 For more insight into Open Infrastructure Foundation activities and progress, please read the annual reports: 
 

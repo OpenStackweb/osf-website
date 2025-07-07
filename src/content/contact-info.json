@@ -21,8 +21,8 @@
   },
   "links": [
     {
-      "text": "Board of Directors",
-      "url": "https://openinfra.dev/about/board/"
+      "text": "Governing Board",
+      "url": "https://openinfra.org/about/board/"
     },
     {
       "text": "Technical Committee",
@@ -34,7 +34,7 @@
     },
     {
       "text": "Supporting Organizations",
-      "url": "https://openinfra.dev/members/"
+      "url": "https://openinfra.org/members/"
     }
   ]
 }

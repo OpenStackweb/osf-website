@@ -11,8 +11,9 @@ import ProfileFoodPreferences from './ProfileFoodPreference'
 import Affiliations from './Affiliations';
 
 import styles from '../style/modules/edit-profile.module.scss'
-import { MEMBERSHIP_TYPE_NONE } from "../actions/user-actions";
+import { MEMBERSHIP_TYPE_FOUNDATION, MEMBERSHIP_TYPE_INDIVIDUAL, MEMBERSHIP_TYPE_NONE } from "../actions/user-actions";
 import { navigate } from 'gatsby';
+import LinkComponent from './LinkComponent';
 
 export const ProfileManagement = ({
   user,
@@ -264,8 +265,8 @@ export const ProfileManagement = ({
     navigate('/a/profile/membership/community')
   };
 
-  const handleConvertFoundationMember = () => {
-    navigate('/a/profile/membership/foundation')
+  const handleConvertIndividualMember = () => {
+    navigate('/a/renew-membership')
   }
 
   const handleResign = () => {
@@ -293,10 +294,11 @@ export const ProfileManagement = ({
                 </h3>
                 <span>
                   Current Member Level <br />
-                  <b>{currentMembershipType}</b>
+                  <b>{currentMembershipType === MEMBERSHIP_TYPE_INDIVIDUAL ? `OIF ${currentMembershipType} Member` : currentMembershipType} </b>
+                  {currentMembershipType === MEMBERSHIP_TYPE_FOUNDATION && <LinkComponent href="/a/renew-membership">(Renew Your Membership)</LinkComponent>}
                 </span>
-                <a onClick={() => currentMembershipType?.toLowerCase() === 'community' ? handleConvertFoundationMember() : handleConvertCommunityMember()}>
-                  Change to {currentMembershipType?.toLowerCase() === 'community' ? 'Foundation' : 'Community'} Member
+                <a onClick={() => currentMembershipType?.toLowerCase() === 'community' ? handleConvertIndividualMember() : handleConvertCommunityMember()}>
+                  Change to {currentMembershipType?.toLowerCase() === 'community' ? 'OIF Individual Member' : 'Community'} Member
                 </a>
                 <div className={styles.resignWrapper}>
                   <a onClick={() => handleResign()}>Resign Membership</a>

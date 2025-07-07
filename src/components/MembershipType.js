@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from "prop-types";
 import legalDoc from '../content/legal-document.json';
-import {MEMBERSHIP_TYPE_COMMUNITY, MEMBERSHIP_TYPE_FOUNDATION, MEMBERSHIP_TYPE_NONE} from "../actions/user-actions";
+import {MEMBERSHIP_TYPE_COMMUNITY, MEMBERSHIP_TYPE_FOUNDATION, MEMBERSHIP_TYPE_INDIVIDUAL, MEMBERSHIP_TYPE_NONE} from "../actions/user-actions";
+import LinkComponent from './LinkComponent';
 
 const MembershipType = class extends React.Component {
 
@@ -23,10 +24,18 @@ const MembershipType = class extends React.Component {
                 <div>Current Member Level: <b>{this.props.currentType}</b></div>
             </div>);
         }
+        if(initialType === MEMBERSHIP_TYPE_INDIVIDUAL){
+            return(<div className="membership-type-container">
+                <div>You are logged in as <b>{this.props.userName}</b></div>
+                <div>Current Member Level: <b>{`OIF ${this.props.currentType} Member`}</b></div>
+            </div>);
+        }
         if(initialType === MEMBERSHIP_TYPE_FOUNDATION){
             return(<div className="membership-type-container">
                 <div>You are logged in as <b>{this.props.userName}</b></div>
-                <div>Current Member Level: <b>{this.props.currentType}</b></div>
+                <div>Current Member Level: <b>{this.props.currentType}</b> 
+                    <LinkComponent href="/a/renew-membership">(Renew Your Membership)</LinkComponent>
+                    </div>
             </div>);
         }
         if(initialType === MEMBERSHIP_TYPE_NONE){

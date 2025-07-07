@@ -45,7 +45,6 @@ footer:
   h) Members will be entitled to:
 
   - i) participate in Directed Fund general meetings, initiatives, elections or appointments (as applicable), events and any other activities; and
-
   - ii) identify themselves as members of the OpenInfra Foundation supporting the OpenInfra Foundation community, as described in the Trademark Policy (as defined in Section 7, below).
 
 3\. **Governing Board.**
@@ -53,9 +52,7 @@ footer:
   a) The Governing Board voting members will consist of:
 
   - i) one representative appointed by each Platinum Member;
-
   - ii) Gold Representatives; and
-
   - iii) OIF Individual Member Representatives.
 
   b) Only one Member that is part of a group of Related Companies (as defined in Section 5) may appoint, or nominate for a membership class election, a representative on the Governing Board. Unless otherwise approved by the Governing Board, no single Member, company or set of Related Companies will be entitled to: (i) appoint or nominate for Membership class election more than one representative employed by that Member, its company or its set of Related Companies to serve at the same time on the Governing Board, or (ii) have more than three representatives (including having employees who are OIF Individual Member Representatives) serving at the same time on the Governing Board.
@@ -65,9 +62,7 @@ footer:
   c) Conduct of Meetings
 
   - i) Except for executive sessions and as deemed necessary by the Governing Board, the Governing Board will: (i) conduct all of its meetings in whole or in part via remote teleconference or other electronic means and permit observation of those meetings by the public via such remote teleconference or other electronic means, and (ii) publish minutes of the meeting of the Governing Board.
-
   - ii) Governing Board meetings follow the requirements for quorum and voting outlined in this Charter. The Governing Board may decide whether to allow named representatives (one per Member per Governing Board and per Committee) to attend as an alternate.
-
   - iii) The Governing Board may invite guests to participate in consideration of specific Governing Board topics (but such guests may not participate in any vote on any matter before the Governing Board).
 
   d) Officers

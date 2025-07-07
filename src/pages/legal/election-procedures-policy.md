@@ -32,17 +32,17 @@ This Election Procedures Policy (the “Policy”) is maintained by the Governin
  
 2\. **OIF Individual Member Elections.** The Governing Board will cause, through a designee, elections of the OIF Individual Member Representatives to be held annually by electronic ballot, and will determine the procedures for nomination and election by the OIF Individual Members consistent with the Charter and this policy as then in force.  Each OIF Individual Member Representative will serve a term of one year or until such OIF Individual Member Representative's earlier death, resignation, removal or replacement. The quorum for an annual or special election of the OIF Individual Member Representatives shall be 10% of the OIF Individual Members eligible to vote in such election.
 
-a) OIF Individual Members are eligible to vote in an OIF Individual Member Election only if the date of such vote falls at least 180 days after the effective date that such an individual became an OIF Individual Member according to the OIF Individual Member Registry.
+  a) OIF Individual Members are eligible to vote in an OIF Individual Member Election only if the date of such vote falls at least 180 days after the effective date that such an individual became an OIF Individual Member according to the OIF Individual Member Registry.
 
-b) Requirements for Nominations for OIF Individual Member Representatives:
+  b) Requirements for Nominations for OIF Individual Member Representatives:
 
-      i) the nomination must be signed by at least ten (10) OIF Individual Members;
+    i) the nomination must be signed by at least ten (10) OIF Individual Members;
 
-      ii) the nominee is an OIF Individual Member in good standing;
+    ii) the nominee is an OIF Individual Member in good standing;
 
-      iii) the nominee must have completed an application for nomination as an OIF Individual Member Representative in the form provided by the Governing Board; and
+    iii) the nominee must have completed an application for nomination as an OIF Individual Member Representative in the form provided by the Governing Board; and
 
-      iv) the nomination must be received by the Governing Board at least thirty (30) days prior to the relevant election.
+    iv) the nomination must be received by the Governing Board at least thirty (30) days prior to the relevant election.
  
 3\. **Plurality of Votes.**  Any election of Gold Representatives or OIF Individual Member Representatives (including an election to fill a vacancy) will be determined by a plurality of votes cast by the eligible Members of the relevant class in such election except as provided in paragraph 4 below. 
  

@@ -44,63 +44,51 @@ footer:
 
   h) Members will be entitled to:
 
-    i) participate in Directed Fund general meetings, initiatives, elections or appointments (as applicable), events and any other activities; and
+  - i) participate in Directed Fund general meetings, initiatives, elections or appointments (as applicable), events and any other activities; and
 
-    ii) identify themselves as members of the OpenInfra Foundation supporting the OpenInfra Foundation community, as described in the Trademark Policy (as defined in Section 7, below).
+  - ii) identify themselves as members of the OpenInfra Foundation supporting the OpenInfra Foundation community, as described in the Trademark Policy (as defined in Section 7, below).
 
 3\. **Governing Board.**
 
   a) The Governing Board voting members will consist of:
 
-    i) one representative appointed by each Platinum Member;
+  - i) one representative appointed by each Platinum Member;
 
-    ii) Gold Representatives; and
+  - ii) Gold Representatives; and
 
-    iii) OIF Individual Member Representatives.
+  - iii) OIF Individual Member Representatives.
 
   b) Only one Member that is part of a group of Related Companies (as defined in Section 5) may appoint, or nominate for a membership class election, a representative on the Governing Board. Unless otherwise approved by the Governing Board, no single Member, company or set of Related Companies will be entitled to: (i) appoint or nominate for Membership class election more than one representative employed by that Member, its company or its set of Related Companies to serve at the same time on the Governing Board, or (ii) have more than three representatives (including having employees who are OIF Individual Member Representatives) serving at the same time on the Governing Board.
 
-    i) Please note that it will be acceptable for one Member to appoint or nominate a representative to the Governing Board and have up to two of its (or any Related Company's) employees, serve as OIF Individual Member Representatives.
+  - i) Please note that it will be acceptable for one Member to appoint or nominate a representative to the Governing Board and have up to two of its (or any Related Company's) employees, serve as OIF Individual Member Representatives.
 
   c) Conduct of Meetings
 
-    i) Except for executive sessions and as deemed necessary by the Governing Board, the Governing Board will: (i) conduct all of its meetings in whole or in part via remote teleconference or other electronic means and permit observation of those meetings by the public via such remote teleconference or other electronic means, and (ii) publish minutes of the meeting of the Governing Board.
+  - i) Except for executive sessions and as deemed necessary by the Governing Board, the Governing Board will: (i) conduct all of its meetings in whole or in part via remote teleconference or other electronic means and permit observation of those meetings by the public via such remote teleconference or other electronic means, and (ii) publish minutes of the meeting of the Governing Board.
 
-    ii) Governing Board meetings follow the requirements for quorum and voting outlined in this Charter. The Governing Board may decide whether to allow named representatives (one per Member per Governing Board and per Committee) to attend as an alternate.
+  - ii) Governing Board meetings follow the requirements for quorum and voting outlined in this Charter. The Governing Board may decide whether to allow named representatives (one per Member per Governing Board and per Committee) to attend as an alternate.
 
-    iii) The Governing Board may invite guests to participate in consideration of specific Governing Board topics (but such guests may not participate in any vote on any matter before the Governing Board).
+  - iii) The Governing Board may invite guests to participate in consideration of specific Governing Board topics (but such guests may not participate in any vote on any matter before the Governing Board).
 
   d) Officers
 
-    i) The officers ("Officers") of the Directed Fund to be elected at the first meeting of the Governing Board will be a Chairperson ("Chair") and a Treasurer. Additional Officer positions may be created by the Governing Board. The Chair must be a voting member of the Governing Board.
-
-    ii) The Chair (or other member of the Governing Board elected as a Vice Chair) will preside over meetings of the Governing Board. The Chair will manage any day-to-day operational decisions, and will submit minutes for Governing Board approval.
-
-    iii) The Treasurer will assist in the preparation of budgets for Governing Board approval, monitor expenses against the budget and authorize expenditures approved in the budget.
+  - i) The officers ("Officers") of the Directed Fund to be elected at the first meeting of the Governing Board will be a Chairperson ("Chair") and a Treasurer. Additional Officer positions may be created by the Governing Board. The Chair must be a voting member of the Governing Board.
+  - ii) The Chair (or other member of the Governing Board elected as a Vice Chair) will preside over meetings of the Governing Board. The Chair will manage any day-to-day operational decisions, and will submit minutes for Governing Board approval.
+  - iii) The Treasurer will assist in the preparation of budgets for Governing Board approval, monitor expenses against the budget and authorize expenditures approved in the budget.
 
   e) The Governing Board will be responsible for overall management of the Directed Fund, including:
 
-    i) approving a budget directing the use of funds raised by the Directed Fund from all sources of revenue;
-
-    ii) nominating and electing Officers of the Directed Fund;
-
-    iii) determining the processes to guide the lifecycles of Technical Projects, including evaluation of the structure and procedures of the general and technical management of each Technical Project;
-
-    iv) overseeing all Directed Fund business and community outreach matters and work with the LF on any legal matters that arise;
-
-    v) adopting and maintaining policies or rules and procedures for the Directed Fund (subject to LF approval);
-
-    vi) establishing advisory bodies, Committees, programs or councils to resolve any particular matter or in support of the mission of the Directed Fund and/or its Technical Projects including in support of end-users and ambassadors for the Technical Projects;
-
-    vii) establishing any conformance programs and solicit input (including testing tools) from the applicable governance body of any Technical Project for defining and administering any programs related to conformance with any Technical Project (each, a "Conformance Program");
-
-    viii) budgeting for the filing and enforcement of trademarks of the Directed Fund and/or any Technical Project;
-
-    ix) publishing use cases, user stories, websites and priorities to help inform the ecosystem and technical community;
-
-    x) approving, maintaining and updating the Election Procedures Policy Document and overseeing matters with respect to elections and officer positions of the Directed Fund; and
-
-    xi) voting on all decisions or matters coming before the Governing Board.
+  - i) approving a budget directing the use of funds raised by the Directed Fund from all sources of revenue;
+  - ii) nominating and electing Officers of the Directed Fund;
+  - iii) determining the processes to guide the lifecycles of Technical Projects, including evaluation of the structure and procedures of the general and technical management of each Technical Project;
+  - iv) overseeing all Directed Fund business and community outreach matters and work with the LF on any legal matters that arise;
+  - v) adopting and maintaining policies or rules and procedures for the Directed Fund (subject to LF approval);
+  - vi) establishing advisory bodies, Committees, programs or councils to resolve any particular matter or in support of the mission of the Directed Fund and/or its Technical Projects including in support of end-users and ambassadors for the Technical Projects;
+  - vii) establishing any conformance programs and solicit input (including testing tools) from the applicable governance body of any Technical Project for defining and administering any programs related to conformance with any Technical Project (each, a "Conformance Program");
+  - viii) budgeting for the filing and enforcement of trademarks of the Directed Fund and/or any Technical Project;
+  - ix) publishing use cases, user stories, websites and priorities to help inform the ecosystem and technical community;
+  - x) approving, maintaining and updating the Election Procedures Policy Document and overseeing matters with respect to elections and officer positions of the Directed Fund; and
+  - xi) voting on all decisions or matters coming before the Governing Board.
 
 4\. **Voting.**
 
@@ -116,11 +104,9 @@ footer:
 
   a) Definitions:
 
-    i) "Subsidiary" means any entity in which a Member owns, directly or indirectly, more than fifty percent of the voting securities or membership interests of the entity in question;
-
-    ii) "Related Company" means any entity which controls or is controlled by a Member or which, together with a Member, is under the common control of a third party, in each case where such control results from ownership, either directly or indirectly, of more than fifty percent of the voting securities or membership interests of the entity in question; and
-
-    iii) "Related Companies" are entities that are each a Related Company of a Member.
+  - i) "Subsidiary" means any entity in which a Member owns, directly or indirectly, more than fifty percent of the voting securities or membership interests of the entity in question;
+  - ii) "Related Company" means any entity which controls or is controlled by a Member or which, together with a Member, is under the common control of a third party, in each case where such control results from ownership, either directly or indirectly, of more than fifty percent of the voting securities or membership interests of the entity in question; and
+  - iii) "Related Companies" are entities that are each a Related Company of a Member.
 
   b) Only the legal entity which has executed a Participation Agreement and its Subsidiaries will be entitled to enjoy the rights and privileges of such Membership; provided, however, that such Member and its Subsidiaries will be treated together as a single Member.
 

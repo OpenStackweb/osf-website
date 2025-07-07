@@ -36,13 +36,10 @@ This Election Procedures Policy (the “Policy”) is maintained by the Governin
 
   b) Requirements for Nominations for OIF Individual Member Representatives:
 
-    i) the nomination must be signed by at least ten (10) OIF Individual Members;
-
-    ii) the nominee is an OIF Individual Member in good standing;
-
-    iii) the nominee must have completed an application for nomination as an OIF Individual Member Representative in the form provided by the Governing Board; and
-
-    iv) the nomination must be received by the Governing Board at least thirty (30) days prior to the relevant election.
+  - i) the nomination must be signed by at least ten (10) OIF Individual Members;
+  - ii) the nominee is an OIF Individual Member in good standing;
+  - iii) the nominee must have completed an application for nomination as an OIF Individual Member Representative in the form provided by the Governing Board; and
+  - iv) the nomination must be received by the Governing Board at least thirty (30) days prior to the relevant election.
  
 3\. **Plurality of Votes.**  Any election of Gold Representatives or OIF Individual Member Representatives (including an election to fill a vacancy) will be determined by a plurality of votes cast by the eligible Members of the relevant class in such election except as provided in paragraph 4 below. 
  

@@ -53,7 +53,7 @@ const FooterV2 = class extends React.Component {
             <div className="footer-section">
                 <h6>About</h6>
                 <ul>
-                    <li><a href="/about/board/">Board of Directors</a></li>
+                    <li><a href="/about/board/">Governing Board</a></li>
                     <li><a href="/about/staff/">Foundation Staff</a></li>
                     <li><a href="/careers/">Careers</a></li>
                     <li><a href="/about/open-infrastructure/">Open Infrastructure 101</a></li>

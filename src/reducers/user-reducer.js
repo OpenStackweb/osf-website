@@ -14,9 +14,11 @@ import {
   START_LOADING_SPEAKER_PROFILE,
   STOP_LOADING_SPEAKER_PROFILE,
   GET_SPEAKER_PROFILE,
+  MEMBERSHIP_RENEWED,
 } from '../actions/user-actions'
 
 const DEFAULT_STATE = {
+  loading: false,
   loadingIDP: false,
   idpProfile: null,
   userProfile: null,
@@ -53,15 +55,16 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       return {
         ...state,
         userProfile: userProfile,
+        currentMembershipType: userProfile.membership_type
         //   isAuthorized: isAuthorizedUser(userProfile.groups),
         //   hasTicket: userProfile.summit_tickets?.length > 0
       }
     case RECEIVE_USER_INFO: {
-      let {response} = action.payload;
+      let { response } = action.payload;
       let affiliations = response.affiliations.map((a) => {
-        return {...a};
+        return { ...a };
       });
-      return {...state, currentMembershipType: response.membership_type};
+      return { ...state, currentMembershipType: response.membership_type };
     }
     case AFFILIATION_ADDED: {
       let affiliation = { ...payload.response };
@@ -69,7 +72,7 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       return {
         ...state,
         userProfile: {
-          ...state.userProfile, 
+          ...state.userProfile,
           all_affiliations: [...state.userProfile.all_affiliations, affiliation]
         }
       };
@@ -79,7 +82,7 @@ const userReducer = (state = DEFAULT_STATE, action) => {
       return {
         ...state,
         userProfile: {
-          ...state.userProfile, 
+          ...state.userProfile,
           all_affiliations: state.userProfile.all_affiliations.map(a => {
             if (a.id !== affiliation.id) return a;
             // Otherwise, this is the one we want - return an updated value
@@ -105,6 +108,10 @@ const userReducer = (state = DEFAULT_STATE, action) => {
     case MEMBERSHIP_TYPE_UPDATED: {
       let member = { ...payload.response };
       return { ...state, currentMembershipType: member.membership_type };
+    }
+    case MEMBERSHIP_RENEWED: {      
+      let updatedProfile = { ...payload.response };
+      return { ...state, userProfile: { ...state.userProfile, ...updatedProfile }, currentMembershipType: updatedProfile.membership_type };
     }
     case GET_SPEAKER_PROFILE: {
       let entity = { ...payload.response };

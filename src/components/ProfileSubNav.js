@@ -24,7 +24,6 @@ const ProfileSubNav = ({ activePage, pageName }) => {
 
                 <ul id="links-list" className="links-list">
                     <li><LinkComponent href="/a/profile" className={`link ${activePage === 'profile-details' ? 'active' : ''}`}>Your Details</LinkComponent></li>
-                    <li><LinkComponent href="/a/profile/legal" className={`link ${activePage === 'profile-legal' ? 'active' : ''}`}>Legal Agreements</LinkComponent></li>
                     <li><LinkComponent href="/a/profile/speaker" className={`link ${activePage === 'profile-speaker' ? 'active' : ''}`}>Speaker Details</LinkComponent></li>
                     <li><LinkComponent href="/a/profile/elections" className={`link ${activePage === 'profile-elections' ? 'active' : ''}`}>Elections</LinkComponent></li>
                 </ul>

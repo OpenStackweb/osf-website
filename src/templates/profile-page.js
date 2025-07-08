@@ -52,6 +52,10 @@ export const ProfilePageTemplate = ({
     const [currentMembershipType, setCurrentMembershipType] = useState(initialCurrentMemberShipType);
     const [validationError, setValidationError] = useState(null);
 
+    useEffect(() => {
+        setCurrentMembershipType(initialMembershipType)
+    }, [initialMembershipType]);
+
     const handleConvertCommunityMember = () => {
         navigate('/a/profile/membership/community')
     };

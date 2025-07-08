@@ -5,7 +5,7 @@ import {
     startLoading
 } from 'openstack-uicore-foundation/lib/utils/actions';
 import { LOGOUT_USER } from "openstack-uicore-foundation/lib/security/actions";
-import { getAccessTokenSafely} from "../utils/security";
+import { authPromiseReject, getAccessTokenSafely} from "../utils/security";
 import {customErrorHandler} from '../utils/customErrorHandler';
 
 export const GET_EVENT_DATA = 'GET_EVENT_DATA';
@@ -28,7 +28,7 @@ export const getEventById = (eventId) => async (dispatch, getState) => {
     // if does not exists get it from api
     const accessToken = await getAccessTokenSafely();
 
-    if (!accessToken) return Promise.resolve();
+    if (!accessToken) return authPromiseReject();
 
   dispatch(startLoading());
 

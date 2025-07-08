@@ -1,4 +1,4 @@
-import { getAccessToken } from "openstack-uicore-foundation/lib/security/methods";
+import { getAccessToken, initLogOut } from "openstack-uicore-foundation/lib/security/methods";
 import {getEnvVariable, IDP_BASE_URL, OAUTH2_CLIENT_ID} from './envVariables'
 import {needsLogin} from "./alerts";
 
@@ -21,10 +21,17 @@ export const handleApiError = (error) => {
 
 export const getAccessTokenSafely = async () => {
   try {
-    return await getAccessToken();
-  }
-  catch (e) {
-    console.log('log out: ', e);
+    return await getAccessToken().catch((e) => {
+      console.log("oif::getAccessTokenSafely error: ", e);
+      initLogOut();
+      return null;
+    });
+  } catch (e) {
+    console.log("oif::getAccessTokenSafely error: ", e);
+    initLogOut();
     return null;
   }
 };
+
+export const authPromiseReject = async () =>
+  Promise.reject(new Error("Auth Token error"));

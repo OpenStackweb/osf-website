@@ -9,7 +9,7 @@ import {
   authErrorHandler
 } from "openstack-uicore-foundation/lib/utils/actions";
 import {updateUserInfo} from "openstack-uicore-foundation/lib/security/actions";
-import { getAccessTokenSafely} from "../utils/security";
+import { authPromiseReject, getAccessTokenSafely} from "../utils/security";
 
 import Swal from "sweetalert2";
 
@@ -90,9 +90,7 @@ export const getGoldCandidates = () => (dispatch, getState) => {
 export const nominateMember = (candidate_id) => async (dispatch, getState) => {
   const { loggedUserState: { member } } = getState();
   const accessToken = await getAccessTokenSafely();
-  if (!accessToken) {
-    return Promise.resolve();
-  }
+  if (!accessToken) return authPromiseReject();
 
   dispatch(startLoading());
 
@@ -126,7 +124,7 @@ export const updateCandidateProfile = (profile) => async (dispatch, getState) =>
   const { loggedUserState: { member } } = getState();
   const accessToken = await getAccessTokenSafely();
 
-  if (!accessToken) return Promise.resolve();
+  if (!accessToken) return authPromiseReject();
 
   dispatch(startLoading());
 

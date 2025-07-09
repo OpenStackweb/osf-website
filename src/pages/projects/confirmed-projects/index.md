@@ -130,7 +130,7 @@ projectList:
       - link: https://opendev.org/starlingx
         text: Code
       - link: https://www.surveymonkey.com/r/StarlingX
-        text: User Survey 
+        text: User Survey
     description: "StarlingX is a complete cloud infrastructure software stack for
       the edge used  by the most demanding applications in industrial IoT,
       telecom, and other use  cases. Based on mature production software
@@ -172,10 +172,11 @@ projectList:
     category: confirmed
   - logo: /img/projects-img/edge-group-logo.svg
     button:
-      link: https://www.openstack.org/edge-computing/edge-computing-next-steps-in-architecture-design-and-testing
-      text: "Edge Whitepaper #2"
+      link: https://www.openstack.org/use-cases/edge-computing/next-generation-edge-edge-computing-architectures-for-artificial-intelligence-and-machine-learning-use-cases
+      text: Next Generation Edge
     class: projects-s5
     title: Edge Computing Group
+    subTitle: "Cloud Edge Computing: Beyond the Data Center"
     links:
       - link: http://lists.openstack.org/cgi-bin/mailman/listinfo/edge-computing
         text: Mailing List
@@ -197,14 +198,20 @@ projectList:
       text: CFN Strategy Video
     class: projects-s6
     title: Computing Force Network (CFN) Working Group
+    subTitle: Connectivity, Computing and Capability - the New Era of Digital
+      Infrastructure
     links:
       - link: https://lists.opendev.org/cgi-bin/mailman/listinfo/computing-force-network
         text: Mailing List
       - link: https://wiki.openstack.org/wiki/Computing_Force_Network_Working_Group
         text: Working Group Wiki
       - link: https://youtu.be/hzmoQUYqt3s
-        text: Connectivity, Computing and Capability - the New Era of Digital Infrastructure
-    description: The Computing Force Network working group is aiming to formulate solutions for common challenges with using related technologies, promoting technical implementations, and gradually building the next generation of open infrastructure.
+        text: Connectivity, Computing and Capability - the New Era of Digital
+          Infrastructure
+    description: The Computing Force Network working group is aiming to formulate
+      solutions for common challenges with using related technologies, promoting
+      technical implementations, and gradually building the next generation of
+      open infrastructure.
     features:
       - icon: /img/icon1.svg
         text: EDGE COMPUTING

@@ -34,7 +34,7 @@ const MembershipType = class extends React.Component {
             return(<div className="membership-type-container">
                 <div>You are logged in as <b>{this.props.userName}</b></div>
                 <div>Current Member Level: <b>{this.props.currentType}</b>&nbsp;
-                    <LinkComponent href="/a/renew-membership">(Renew Your Membership)</LinkComponent>
+                    <LinkComponent href="/a/renew-membership">(Reestablish Your Membership)</LinkComponent>
                     </div>
             </div>);
         }

@@ -50,7 +50,7 @@ export const RenewMembershipPageTemplate = ({
               <div className="columns">
                 <div className="column is-three-fifths text-column">
                   <h1>
-                    <span className="renew-membership-title">RENEW YOUR OPENINFRA MEMBERSHIP</span></h1>
+                    <span className="renew-membership-title">REESTABLISH YOUR OPENINFRA MEMBERSHIP</span></h1>
                   {renewedMembership ?
                     <span>
                       <strong>Thank you, you've renewed your membership.
@@ -61,7 +61,7 @@ export const RenewMembershipPageTemplate = ({
                       <span className="renew-membership-text">
                         <strong>OpenInfra has officially joined the Linux Foundation to strengthen open source infrastructure collaboration. </strong>
                         As part of this transition, all individual members need to reestablish their membership under the new governance structure.
-                        Your participation remains free, and with your renewed membership you will have the ability to vote to elect representatives on
+                        Your participation remains free, and with your reestablished membership you will have the ability to vote to elect representatives on
                         the governing board.
                         <br /><br />
                         Help us build the future of open infrastructure together!

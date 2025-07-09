@@ -66,11 +66,11 @@ projectList:
         text: Documentation
       - link: https://github.com/kata-containers/kata-containers/releases
         text: Releases
-      - link: https://katacontainers.io/community/
+      - link: https://katacontainers.io/blog/
         text: Blog
       - link: https://github.com/kata-containers
         text: Code
-      - link: https://www.surveymonkey.com/r/KataContainers
+      - link: https://openinfrafoundation.formstack.com/forms/kata_containers_user_survey
         text: User Survey
     description: Kata Containers is an open source project delivering increased
       container security and workload isolation through an implementation of
@@ -125,11 +125,11 @@ projectList:
         text: Documentation
       - link: https://docs.starlingx.io/releasenotes/index.html
         text: Releases
-      - link: https://wiki.openstack.org/wiki/Starlingx/Meetings
+      - link: https://zoom-lfx.platform.linuxfoundation.org/meetings/starlingx
         text: Standing Meetings
       - link: https://opendev.org/starlingx
         text: Code
-      - link: https://www.surveymonkey.com/r/StarlingX
+      - link: https://openinfrafoundation.formstack.com/forms/starlingx_user_survey
         text: User Survey
     description: "StarlingX is a complete cloud infrastructure software stack for
       the edge used  by the most demanding applications in industrial IoT,
@@ -178,9 +178,9 @@ projectList:
     title: Edge Computing Group
     subTitle: "Cloud Edge Computing: Beyond the Data Center"
     links:
-      - link: http://lists.openstack.org/cgi-bin/mailman/listinfo/edge-computing
+      - link: https://lists.opendev.org/mailman3/lists/edge-computing.lists.opendev.org/
         text: Mailing List
-      - link: https://wiki.openstack.org/wiki/Edge_Computing_Group?_ga=2.89217689.361772780.1598227486-61533541.1515512744
+      - link: https://zoom-lfx.platform.linuxfoundation.org/meetings/openinfra-foundation?view=week&committee=ac7d832b-36f3-491e-abf7-a1d236208a61
         text: Weekly Meetings
       - link: https://www.openstack.org/edge-computing/cloud-edge-computing-beyond-the-data-center?lang=en_US
         text: "Cloud Edge Computing: Beyond the Data Center White Paper"

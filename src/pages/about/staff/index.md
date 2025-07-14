@@ -40,7 +40,7 @@ members:
     linkedin: https://www.linkedin.com/in/jbryce
     name: Jonathan Bryce
     openStack: /a/community/members/28
-    picture: /img/about-staff/JonathanBryceBio100.jpg
+    picture: /img/jonathan-bryce.jpg
     title: Executive Director
     twitter: https://twitter.com/jbryce
   - description: Mark Collier is a co-founder of the OpenStack project and the Chief

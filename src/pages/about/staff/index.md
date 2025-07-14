@@ -77,15 +77,13 @@ members:
     picture: /img/thierrycarrez_2.jpg
     title: General Manager
     twitter: https://twitter.com/tcarrez
-  - description: As the VP of Operations at the OpenInfra Foundation, Wes is
+  - description: As the Chief of Staff at the OpenInfra Foundation, Wes is
       responsible for business operations, as well as, product strategy and
       execution. The root of his role is to provide value to our community of
       corporate members, developers, and users through buildout, management, and
       strategy of key operations functions. Prior to joining OpenInfra
       Foundation, he spent two decades in startups and has worn many hats from
-      creative to product and marketing. In his free time, he enjoys traveling,
-      rooting for the San Antonio Spurs, and spending time with his wife and
-      three kids.
+      creative to product and marketing.
     linkedin: https://www.linkedin.com/in/iamweswilson
     name: Wes Wilson
     openStack: /a/community/members/20997

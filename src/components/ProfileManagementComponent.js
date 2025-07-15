@@ -297,12 +297,16 @@ export const ProfileManagement = ({
                   <b>{currentMembershipType === MEMBERSHIP_TYPE_INDIVIDUAL ? `OIF ${currentMembershipType} Member` : currentMembershipType}</b>&nbsp;
                   {currentMembershipType === MEMBERSHIP_TYPE_FOUNDATION && <LinkComponent href="/a/renew-membership">(Reestablish Your Membership)</LinkComponent>}
                 </span>
+                { initialMembershipType !== MEMBERSHIP_TYPE_NONE &&
                 <a onClick={() => currentMembershipType?.toLowerCase() === 'community' ? handleConvertIndividualMember() : handleConvertCommunityMember()}>
                   Change to {currentMembershipType?.toLowerCase() === 'community' ? 'OIF Individual Member' : 'Community'} Member
                 </a>
-                <div className={styles.resignWrapper}>
-                  <a onClick={() => handleResign()}>Resign Membership</a>
-                </div>
+                }
+                { initialMembershipType !== MEMBERSHIP_TYPE_NONE &&
+                  <div className={styles.resignWrapper}>
+                    <a onClick={() => handleResign()}>Resign Membership</a>
+                  </div>
+                }
               </div>
             </div>
             <div className="column">

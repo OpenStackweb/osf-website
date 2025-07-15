@@ -128,7 +128,7 @@ const JoinIndividualPage = ({ isLoggedUser, data }) => {
     const handleOnClick = useCallback(event => {
         event.preventDefault();
         let origin = window.location.origin;
-        let type = event.target.className.includes('button-individual') ? 'foundation' : 'community';        
+        let type = event.target.className.includes('button-individual') ? 'individual' : 'community';
         doRegistration(origin, type);
     }, []);
 

@@ -11,8 +11,11 @@ const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive, 
     // do login after page is loaded and GA is called
     if(typeof window !== 'undefined') {
       window.setTimeout(() => {
-        console.log(`calling doLogin with ${location.pathname}`);
-        doLogin(`${location.pathname}`);
+        let backUrl = location.pathname ;
+        if(location.search)
+          backUrl += `${location.search}`;
+        console.log(`calling doLogin with ${backUrl}`);
+        doLogin(`${backUrl}`);
       }, 1500);
     }
     return <HeroComponent title={'Checking Credentials ...'}/>

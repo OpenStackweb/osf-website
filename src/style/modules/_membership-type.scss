@@ -1,8 +1,12 @@
 .membership-type-container {
 
+  .btn-select-membership-type{
+    background-color: #e61e24;
+    color: white;
+  }
   .btn-select-membership-type.active
   {
-      background-color: #e61e24;
+      background-color: #e61e26;
       color: white;
   }
 }

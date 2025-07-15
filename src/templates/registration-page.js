@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import React, { useEffect } from "react"
 import URI from "urijs"
+import {checkState} from "../utils/security";
 
 export const RegistrationPageTemplate = ({ loggedUserState, location }) => {
     return null;
@@ -12,8 +13,9 @@ export const RegistrationPageTemplate = ({ loggedUserState, location }) => {
 const RegistrationPage = ({ loggedUserState, location }) => {
 
     useEffect(() => {
+        debugger;
         let query = URI.parseQuery(location.search);
-        let membershipType = 'foundation';
+        let membershipType = 'individual';
         if (query.hasOwnProperty("membership_type")) {
           membershipType = query["membership_type"];
         }
@@ -21,7 +23,7 @@ const RegistrationPage = ({ loggedUserState, location }) => {
         if(loggedUserState.isLoggedUser)
         {
           console.log("RegistrationPageTemplate::Render user is already logged redirecting to /a/profile")
-          navigate(backUrl);
+          return navigate(backUrl);
         }
     }, [loggedUserState, location]);
 

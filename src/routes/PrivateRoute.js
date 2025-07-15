@@ -11,7 +11,6 @@ const PrivateRoute = ({ children, location, isLoggedUser, user, isIdTokenAlive, 
     // do login after page is loaded and GA is called
     if(typeof window !== 'undefined') {
       window.setTimeout(() => {
-        debugger;
         let backUrl = location.pathname ;
         if(location.search)
           backUrl += `${location.search}`;

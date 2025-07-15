@@ -19,8 +19,8 @@
           "url": "/user-survey/"
         },
         {
-          "text": "CLA",
-          "url": "/cla/"
+          "text": "DCO",
+          "url": "/dco/"
         },
         {
           "text": "OpenInfra Universe",
@@ -124,7 +124,7 @@
     },
     {
       "title": "News",
-      "image": "/img/menu/menu_about.jpg",
+      "image": "/img/middle-banner-21.png",
       "marginLeft": "-423px",
       "display": true,
       "links": [

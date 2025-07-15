@@ -49,8 +49,8 @@
           "link": "/user-survey/"
         },
         {
-          "text": "CLA",
-          "link": "/cla/"
+          "text": "DCO",
+          "link": "/dco/"
         },
         {
           "text": "Open Infrastructure Blueprint",
@@ -64,6 +64,10 @@
         {
           "text": "Supporting Organizations",
           "link": "/members/"
+        },
+        {
+          "text": "Membership Benefits",
+          "link": "https://openinfra.org/join/members/"
         },
         {
           "text": "Join OpenInfra Foundation",

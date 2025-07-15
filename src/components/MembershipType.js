@@ -56,7 +56,7 @@ const MembershipType = class extends React.Component {
                <button id="community"
                className={'btn btn-select-membership-type'+(currentType === 'community'?" active":"")}
                data-membership-type="community"
-               onClick={this.onSelectMembershipType}>Make me a Community Member</button>
+               onClick={this.onSelectMembershipType}>Make Me a Community Member</button>
                {currentType === 'individual' &&
                <h2>OIF Individual Member Program Terms</h2>
                }

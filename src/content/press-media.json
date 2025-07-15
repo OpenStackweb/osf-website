@@ -9,12 +9,13 @@
       "link": "https://www.sdxcentral.com/news/wind-rivers-boost-mobile-win-outed-vmware-beat-aws-and-red-hat/"
     },
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2025-04-07T18:41:40.589Z",
       "title": "OpenStack Epoxy 2025.1 Release Expands VMware Migration, AI Performance",
       "site": "ITPro Today",
-      "link": "https://www.itprotoday.com/openstack-cloud/openstack-epoxy-2025-1-release-expands-vmware-migration-ai-performance"
+      "link": "https://www.itprotoday.com/openstack-cloud/openstack-epoxy-2025-1-release-expands-vmware-migration-ai-performance",
+      "image": "/img/theregister-epoxy.png"
     },
     {
       "featured": false,
@@ -41,12 +42,13 @@
       "link": "https://devops.com/consortium-driving-openstack-to-become-arm-of-the-linux-foundation/"
     },
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2025-03-12T13:12:30.761Z",
       "title": "The Linux Foundation's latest partnership could shake up open-source ecosystems - here's why",
       "site": "ZDNET",
-      "link": "https://www.zdnet.com/article/the-linux-foundation-and-open-infrastructure-foundation-unite-to-empower-open-source-ecosystems/"
+      "link": "https://www.zdnet.com/article/the-linux-foundation-and-open-infrastructure-foundation-unite-to-empower-open-source-ecosystems/",
+      "image": "/img/the-linux-foundations-latest-partnership-could-shake-up-open-source-ecosystems-heres-why2.webp"
     },
     {
       "featured": false,
@@ -65,12 +67,13 @@
       "site": "Network World"
     },
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2025-02-27T20:25:13.705Z",
       "title": "StarlingX bridges IPv4-IPv6 gap with dual-stack networking support",
       "site": "Network World",
-      "link": "https://www.networkworld.com/article/3834095/starlingx-bridges-ipv4-ipv6-gap-with-dual-stack-networking-support.html"
+      "link": "https://www.networkworld.com/article/3834095/starlingx-bridges-ipv4-ipv6-gap-with-dual-stack-networking-support.html",
+      "image": "/img/starlingx-bridges-ipv4-ipv6-gap.jpg"
     },
     {
       "featured": false,
@@ -89,12 +92,13 @@
       "link": "https://www.businesskorea.co.kr/news/articleView.html?idxno=234528"
     },
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2024-12-13T19:42:49.985Z",
       "link": "https://www.sdxcentral.com/articles/broadcoms-vmware-caas-booted-by-boost-mobile/2024/12/",
       "title": "Broadcom’s VMware CaaS booted by Boost Mobile",
-      "site": "SDxCentral"
+      "site": "SDxCentral",
+      "image": "/img/broadcoms-vmware-caas-booted-by-boost-mobile.png"
     },
     {
       "featured": false,
@@ -145,28 +149,31 @@
       "link": "https://www.computerweekly.com/blog/Open-Source-Insider/OpenStack-Dalmatian-knocks-spots-off-AI-workload-doghouse"
     },
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2024-09-05T04:20:46.544Z",
       "title": "Why OpenStack and Kata Containers are both seeing a resurgence of adoption",
       "site": "ZDNet",
-      "link": "https://www.zdnet.com/article/why-openstack-and-kata-containers-are-both-seeing-a-resurgence-of-adoption/#google_vignette"
+      "link": "https://www.zdnet.com/article/why-openstack-and-kata-containers-are-both-seeing-a-resurgence-of-adoption/#google_vignette",
+      "image": "/img/suwon-south-korea.webp"
     },
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2024-09-09T16:22:04.391Z",
       "title": "Warren Buffett’s favorite insurer GEICO drops VMware for OpenStack",
       "site": "The Register",
-      "link": "https://www.theregister.com/2024/08/28/geico_vmware_openstack_migration/"
+      "link": "https://www.theregister.com/2024/08/28/geico_vmware_openstack_migration/",
+      "image": "/img/geico-drops-vmware.jpg"
     },
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2024-10-02T17:55:07.124Z",
       "link": "https://www.itprotoday.com/openstack-cloud/openstack-dalmation-advances-open-source-cloud-with-new-dashboard-better-ai-support",
       "title": "OpenStack Dalmation Advances Open Source Cloud with New Dashboard, Better AI Support",
-      "site": "ITPro Today"
+      "site": "ITPro Today",
+      "image": "/img/dalmation-itpro.webp"
     },
     {
       "featured": false,
@@ -185,12 +192,13 @@
       "link": "https://zdnet.co.kr/view/?no=20240903153749"
     },
     {
-      "featured": false,
+      "featured": true,
       "hideArticle": false,
       "date": "2024-06-21T15:18:18.905Z",
       "title": "Is OpenStack a viable VMware alternative? ",
       "site": "SDxCentral",
-      "link": "https://www.sdxcentral.com/articles/interview/is-openstack-a-viable-vmware-alternative/2024/06/"
+      "link": "https://www.sdxcentral.com/articles/interview/is-openstack-a-viable-vmware-alternative/2024/06/",
+      "image": "/img/sdx-openstack-vmware.png"
     },
     {
       "featured": false,

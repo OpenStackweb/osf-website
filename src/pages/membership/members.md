@@ -8,7 +8,7 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   title: Join The Open Infrastructure Foundation
   twitterUsername: "@OpenInfraDev"
-  url: https://openinfra.dev/join/members/
+  url: https://openinfra.org/join/members/
 header:
   display: true
   title: OUR MEMBERS MAKE OPEN INFRASTRUCTURE A REALITY
@@ -19,8 +19,8 @@ header:
     OpenInfra Foundation mission: Build  open source communities who write
     software that runs in production.
   button:
-    text: Schedule a Call
-    link: https://calendly.com/jimmy-mcarthur
+    text: Join Now
+    link: "https://enrollment.lfx.linuxfoundation.org/?project=openinfra-foundation "
   image: /img/members-page/Group-49.png
   membership: Read about <a href="#benefits">membership levels</a>.  Or see <a
     href="/join">other ways to join</a>.
@@ -63,7 +63,7 @@ memberBenefits:
   display: true
   title: OpenInfra Member Benefits
   table:
-    - text: <b>Your company logo</b> displayed on openinfra.dev
+    - text: <b>Your company logo</b> displayed on openinfra.org
       silver: true
       gold: true
       platinum: true
@@ -127,13 +127,13 @@ memberBenefits:
       silver: false
       gold: true
       platinum: true
-    - text: <b>Potential seat on the OpenInfra Board of Directors</b> if elected
-        through Gold member elections
+    - text: <b>Potential seat on the OpenInfra Governing Board</b> if elected through
+        Gold member elections
       silver: false
       gold: true
       platinum: false
-    - text: <b>Appoint one representative</b> to the OpenInfra Foundation Board of
-        Directors
+    - text: <b>Appoint one representative</b> to the OpenInfra Foundation Governing
+        Board
       silver: false
       gold: false
       platinum: true
@@ -161,34 +161,36 @@ memberBenefits:
     silver:
       price: $15,000
       button:
-        link: /contact/?silver
-        text: Contact Us
+        link: "https://enrollment.lfx.linuxfoundation.org/?project=openinfra-foundation
+          "
+        text: Join Now
     gold:
       price: $150,000
       button:
-        link: /contact/?gold
-        text: Contact Us
+        link: "https://enrollment.lfx.linuxfoundation.org/?project=openinfra-foundation
+          "
+        text: Join Now
     platinum:
       price: $350,000
       button:
-        link: /contact/?platinum
-        text: Contact Us
+        link: "https://enrollment.lfx.linuxfoundation.org/?project=openinfra-foundation
+          "
+        text: Join Now
   scheduleCall: Still have questions? <a
     href="https://calendly.com/jimmy-mcarthur">Schedule a phone call</a>.
 quote:
   display: true
   text: >
-    We are really excited [about] being an active member of the Open
-    Infrastructure  Foundation, what we view as a place for crowdsourced
-    innovation - the ability for  multiple companies, individuals and developers
-    to come together and contribute in  a way that can solve these problems at
-    scale.
+    We are really excited [about] being an active member of the
+    OpenInfra  Foundation, what we view as a place for crowdsourced innovation -
+    the ability for  multiple companies, individuals and developers to come
+    together and contribute in  a way that can solve these problems at scale.
   people:
     picture: /img/members-page/1616433488142 1.png
     name: Paul Miller
     position: CTO at Wind River<br/><a href="/about/board"
       style="display:block;font-size:0.65em;line-height:22px;">OpenInfra
-      Foundation Board Member</a>
+      Foundation Governing Board Member</a>
     company: /img/members-page/Wind_River_logo 1.png
 help:
   display: true

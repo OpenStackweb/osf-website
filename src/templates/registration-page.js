@@ -13,7 +13,6 @@ export const RegistrationPageTemplate = ({ loggedUserState, location }) => {
 const RegistrationPage = ({ loggedUserState, location }) => {
 
     useEffect(() => {
-        debugger;
         let query = URI.parseQuery(location.search);
         let membershipType = 'individual';
         if (query.hasOwnProperty("membership_type")) {

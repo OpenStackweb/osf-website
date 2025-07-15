@@ -43,6 +43,10 @@
           "url": "/members/"
         },
         {
+          "text": "Membership Benefits",
+          "url": "/join/members/"
+        },
+        {
           "text": "Join OpenInfra Foundation ",
           "url": "/join/"
         },

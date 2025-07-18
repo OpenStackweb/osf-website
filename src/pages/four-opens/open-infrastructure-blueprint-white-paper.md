@@ -129,6 +129,12 @@ Atmosphere is an open source deployment tool tailored to efficiently manage Open
 
 From a technical standpoint, Atmosphere excels with its meticulous integration of advanced networking technologies and storage configurations. It supports a range of hardware acceleration options like Mellanox ASAP2 and Open vSwitch (OVS) offloading, improving network throughput and latency. The platform's container storage interface (CSI) and automated secure sockets layer (SSL) management through cert-manager complement its seamless handling of block storage and image services. For Kubernetes orchestration, Atmosphere employs a custom Cluster API driver, facilitating the cohesive management of containerized and traditional virtual machine workloads within a unified infrastructure. The platform is built to facilitate a smooth migration from various environments, including VMware and AWS, ensuring minimal disruption.
 
+### Genestack
+
+Genestack is an open-source deployment architecture designed to combine the service- management and reliability capabilities of Kubernetes with the vast catalog of services provided by OpenStack cloud infrastructure. It provides both tooling and an opinionated reference architecture for full-scale cloud. Genestack leverages Ansible, Kubernetes, and OpenStack-Helm for an automated and repeatable deployment process, ensuring consistent provisioning of OpenStack resources. Networking is fully integrated between Kubernetes and OpenStack through using Open Virtual Networking (OVN) enabling tight integration between Kubernetes-deployed services and OpenStack tenants. 
+
+Genestack is designed for maintainable and repeatable deployments, utilizing Kubernetes operators for core services, and Kustomize to track changes and deviations from upstream OpenStack Helm charts. Genestack features automatic SSL certificate creation and management with cert-manager, integrated observability and monitoring with Loki and Prometheus, and automatic failover and load-balancing of services with MetalLB. Genestack is fully open source, with documentation included. For environments requiring the support, compliance, and 3rd-party software and hardware integration, a fully supported distribution of Genestack, called openCenter is available from Rackspace.
+
 ### Kolla
 
 The Kolla project provides production-ready containers and tools for deploying and managing OpenStack clouds. Kolla builds and maintains container images for OpenStack services and for other infrastructure components, like MariaDB, HAProxy on which OpenStack depends and also OpenSearch and Prometheus which are useful in deploying a monitoring/observability stack on which OpenStack depends. In addition to container images, the Kolla project family maintains Ansible playbooks and additional tooling organized under the Kolla-Ansible sub-project for quickly deploying OpenStack with minimal experience. The Kolla project also produces an integrated technology stack for deploying OpenStack to bare metal machines under the Kayobe sub-project.
@@ -301,6 +307,18 @@ Huawei Dual-Engine container solution is built with OpenStack as its IaaS layer 
 Expansion instead of new construction: For live production environment, upgrading from VM platform to dual engine platform to support multivariable resource will save huge cost. There is no need for new constructions. New dual engine platform can take advantage of previous OM systems. Virtualization and containerization management panel work in the same layer, share the same COTS infrastructure. Each component takes its own responsibility and shared common services such as IAM, BareMetal, etc. The dual engine BareMetal container solution supports multiple resource forms, such as VMs, bare metal servers, VM containers, and bare metal containers.
 
 ![Huawei Reference Architecture](/img/huawei-ref.png)
+
+## Rackspace
+
+#### Rackspace Genestack
+
+Genestack deploys Kubernetes for platform-wide services including OpenStack IaaS
+projects. Its integrated OVN networking backplane allows for cluster-wide services to be
+deployed on Kubernetes and integrated directly into Neutron. Genestack is designed to
+scale from small, hyperconverged deployments, to large public or private cloud
+infrastructures with a dedicated control plane.
+
+![](/img/genestack-refarch.svg)
 
 ## Red Hat
 

@@ -121,7 +121,7 @@ export const OpenInfraLiveTemplate = ({
                 <h1>{hero.title}</h1>
                 <p className="fix-h5" dangerouslySetInnerHTML={{ __html: hero.description }} />
                 <p className="fix-h5">
-                  Subscribe to the <a href="https://www.openstack.org/community/email-signup">OpenInfra newsletter</a> to hear more about upcoming episodes.
+                  Subscribe to the <a href="/newsletter/">OpenInfra newsletter</a> to hear more about upcoming episodes.
                 </p>
                 <div className="platforms">
                   <a className="social-links" href="//youtube.com/c/OpenStackFoundation?sub_confirmation=1">

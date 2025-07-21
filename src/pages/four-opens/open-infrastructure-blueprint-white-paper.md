@@ -318,7 +318,7 @@ deployed on Kubernetes and integrated directly into Neutron. Genestack is design
 scale from small, hyperconverged deployments, to large public or private cloud
 infrastructures with a dedicated control plane.
 
-![](/img/genestack-refarch.svg)
+![](/img/rackspace-refarch-60.jpg)
 
 ## Red Hat
 

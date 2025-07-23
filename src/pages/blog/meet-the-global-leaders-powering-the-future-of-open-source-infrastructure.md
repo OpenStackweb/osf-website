@@ -18,6 +18,8 @@ This year, we celebrate 15 years of OpenStack! Over the past 10 years working at
 
 Today, I’m delighted to [introduce the 80+ members](openinfra.org/members) that have joined the OpenInfra Foundation under the umbrella of the Linux Foundation. We’d like to give a special thank you to the Platinum Members who play a strategic role in advancing OpenInfra technologies: Ant Group, Cachengo, Ericsson, Huawei, Okestro, Rackspace, and Wind River. 
 
+![OpenInfra Platinum Members](/img/platinum_oif.png "OpenInfra Platinum Members")
+
 These are organizations and individuals I have the opportunity to work with daily. Much like our OpenInfra User Group in Japan, they believe in our mission to help drive open source innovation from the data center to the edge. They’re not only deploying cutting-edge infrastructure, but also training the next generation of open source engineers and modernizing critical systems around the world.
 
 From digital sovereignty to the AI revolution, it’s never been more clear that open source technologies are necessary for evolution in infrastructure technology. This is where the global OpenInfra ecosystem has already proven to be powerful. They have disrupted the hyperscaler hold and established an impressive footprint of over 300 public cloud data centers powered by OpenStack and thousands of deployments of OpenStack, Kata Containers, StarlingX, and Zuul. Coupled with the 110,000 individual members in 185+ countries, these organizations will continue to build and deploy open source infrastructure technologies at scale. 

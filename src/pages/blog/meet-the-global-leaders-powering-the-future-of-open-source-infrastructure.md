@@ -6,7 +6,7 @@ date: 2025-07-23T21:37:00.141Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: Meet the Global Leaders Powering the Future of Open Source Infrastructure
   description: Meet the 80+ members that have joined OpenInfra under the umbrella

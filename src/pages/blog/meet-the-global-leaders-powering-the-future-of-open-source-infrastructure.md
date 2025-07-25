@@ -16,7 +16,7 @@ seo:
 ---
 This year, we celebrate 15 years of OpenStack! Over the past 10 years working at the OpenInfra Foundation, the thing I’ve come to love most about my role is getting to see, up close, the global impact of the open source software our ecosystem builds and uses for mission critical infrastructure. A few weeks ago, I was thrilled to have the opportunity to meet our OpenInfra User Group in Japan and, as always, it was an impactful meeting with a group of kind volunteers that advocate for the power of open source technologies. I was really excited to bring the news of the most impactful open source foundations joining forces: the Linux Foundation and OpenInfra Foundation.
 
-Today, I’m delighted to [introduce the 80+ members](openinfra.org/members) that have joined the OpenInfra Foundation under the umbrella of the Linux Foundation. We’d like to give a special thank you to the Platinum Members who play a strategic role in advancing OpenInfra technologies: Ant Group, Cachengo, Ericsson, Huawei, Okestro, Rackspace, and Wind River. 
+Today, I’m delighted to [introduce the 80+ members](https://openinfra.org/members/) that have joined the OpenInfra Foundation under the umbrella of the Linux Foundation. We’d like to give a special thank you to the Platinum Members who play a strategic role in advancing OpenInfra technologies: Ant Group, Cachengo, Ericsson, Huawei, Okestro, Rackspace, and Wind River. 
 
 ![OpenInfra Platinum Members](/img/platinum_oif.png "OpenInfra Platinum Members")
 

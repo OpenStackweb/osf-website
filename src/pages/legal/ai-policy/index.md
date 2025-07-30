@@ -18,7 +18,7 @@ footer:
   display: true
 ---
 
-### Summaruy
+### Summary
 
 Assistive AI tools are permitted, as long as contributions are marked with an “Assisted-By:” label in commit messages. Generative AI tools, which produce complete code artifacts (not just small fragments or suggestions), are also permitted under limited circumstances. Such tools are often used to provide a starting point, which is then reworked by the human author. If a substantial portion of a patch is generated in this way, it must be marked with a “Generated-By:” label.
 
@@ -183,13 +183,13 @@ As a contributor, you are responsible for the code you submit, whether you use A
       <td>0.10.1</td>
       <td>Added a Summary suggestion based upon discussion with A. Marrich</td>
       <td>May, 12 2025</td>
-      <td> </td>
+      <td>J. Kreger</td>
     </tr>
     <tr>
       <td>0.11</td>
       <td>Revision to clarify “Assisted-By” along with further clarifying the Summary and removal of the example commit message from open discussion with A. Marrich, G. Mann, and community members.</td>
       <td>June 24, 2025</td>
-      <td> </td>
+      <td>J. Kreger on behalf of the working group</td>
     </tr>
     <tr>
       <td>0.11.1</td>

@@ -1,27 +1,18 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, } from 'react';
 import { Dropdown } from 'openstack-uicore-foundation/lib/components'
 import Swal from "sweetalert2";
-import { WidgetInstance } from 'friendly-challenge';
-import { getEnvVariable, FRIENDLY_CAPTCHA_SITE_KEY } from '../utils/envVariables'
 import URI from 'urijs';
+import useTurnstileCaptcha from './TurnstileCaptcha';
 
 const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumMembers }) => {
+    const turnstileCaptchaFieldName = 'cf-turnstile-response';
 
-    const friendlyCaptchaFieldName = 'frc-captcha-solution';
     const [inputs, setInputs] = useState({});
     const [success, setSuccess] = useState(false);
-    const container = useRef();
-    const widget = useRef();
+    const widget = useRef(null);
+    const { token } = useTurnstileCaptcha({ widget });
 
     const [platinumDropdown, setPlatinumDropdown] = useState([])
-
-    const doneCallback = (solution) => {
-        setInputs(values => ({ ...values, [friendlyCaptchaFieldName]: solution }))
-    }
-
-    const errorCallback = (err) => {
-        Swal.fire("Validation Error", `Captcha solution is invalid!. ${err}`, "warning");
-    }
 
     const handleChange = (event) => {
         const name = event.target.name;
@@ -35,18 +26,8 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
     }
 
     useEffect(() => {
-        if (!widget.current && container.current) {
-            widget.current = new WidgetInstance(container.current, {
-                startMode: "auto",
-                doneCallback: doneCallback,
-                errorCallback: errorCallback
-            });
-        }
-
-        return () => {
-            if (widget.current !== undefined) widget.current.destroy();
-        }
-    }, [container]);
+        setInputs(values => ({ ...values, [turnstileCaptchaFieldName]: token }))
+    }, [token]);
 
     useEffect(() => {
         const formattedMembers = platinumMembers?.map(p => {
@@ -65,10 +46,11 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
 
     const handleSubmit = (evt) => {
         evt.preventDefault();
+
         const uri = new URI();
         uri.addQuery("form-name", evt.target.getAttribute("name"));
         uri.addQuery(inputs);
-        if (!uri.hasQuery(friendlyCaptchaFieldName)) {
+        if (!uri.hasQuery(turnstileCaptchaFieldName)) {
             Swal.fire("Validation Error", 'Captcha solution is invalid!.', "warning");
             return false;
         }
@@ -294,7 +276,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                         </div>
                         <div className="field-column is-full-width">
                             <div className="field-column is-full-width">
-                                <div ref={container} className="frc-captcha" data-sitekey={getEnvVariable(FRIENDLY_CAPTCHA_SITE_KEY)} />
+                                <div ref={widget} className="tc-captcha" />
                             </div>
                             <span className='form-agree' dangerouslySetInnerHTML={{ __html: privacyPolicyAgreement }} />
                             <button className="contact-submit" type="submit" name="submit">SUBMIT</button>

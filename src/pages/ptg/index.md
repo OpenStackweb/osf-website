@@ -21,7 +21,7 @@ header:
   buttons:
     - text: Register Now!
       link: https://ptg.openinfra.org/
-      display: false
+      display: true
   image: /img/ptg-page/hero-image.png
 form:
   display: true

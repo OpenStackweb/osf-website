@@ -315,7 +315,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-turnstile',
       options: {
-        siteKey: process.env.GATSBY_TURNSTILE_SITE_KEY,
+        siteKey: `${process.env.GATSBY_TURNSTILE_SITE_KEY}`,
       },
     },
     "gatsby-plugin-netlify", // make sure to keep it last in the array

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, } from 'react';
+import React, { useState, useEffect, useRef, } from 'react';
 import { Dropdown } from 'openstack-uicore-foundation/lib/components'
 import Swal from "sweetalert2";
 import URI from 'urijs';
@@ -10,7 +10,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
     const [inputs, setInputs] = useState({});
     const [success, setSuccess] = useState(false);
     const widget = useRef(null);
-    const { token } = useTurnstileCaptcha({ widget });
+    const { token, siteKey, } = useTurnstileCaptcha({ widget });
 
     const [platinumDropdown, setPlatinumDropdown] = useState([])
 
@@ -276,7 +276,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                         </div>
                         <div className="field-column is-full-width">
                             <div className="field-column is-full-width">
-                                <div ref={widget} className="tc-captcha" />
+                                <div ref={widget} className="cf-turnstile" data-sitekey={siteKey}></div>
                             </div>
                             <span className='form-agree' dangerouslySetInnerHTML={{ __html: privacyPolicyAgreement }} />
                             <button className="contact-submit" type="submit" name="submit">SUBMIT</button>

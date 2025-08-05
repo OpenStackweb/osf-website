@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { useTurnstileSiteKey } from 'gatsby-plugin-turnstile/src';
 
 const useTurnstileCaptcha = ({ widget }) => {

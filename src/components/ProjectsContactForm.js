@@ -10,7 +10,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
     const [inputs, setInputs] = useState({});
     const [success, setSuccess] = useState(false);
     const widget = useRef(null);
-    const { token, siteKey, } = useTurnstileCaptcha({ widget });
+    const { token } = useTurnstileCaptcha({ widget });
 
     const [platinumDropdown, setPlatinumDropdown] = useState([])
 
@@ -276,7 +276,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                         </div>
                         <div className="field-column is-full-width">
                             <div className="field-column is-full-width">
-                                <div ref={widget} className="cf-turnstile" data-sitekey={siteKey}></div>
+                                <div ref={widget}></div>
                             </div>
                             <span className='form-agree' dangerouslySetInnerHTML={{ __html: privacyPolicyAgreement }} />
                             <button className="contact-submit" type="submit" name="submit">SUBMIT</button>

@@ -1,6 +1,3 @@
-// This is the demo secret key. In production, we recommend
-// you store your secret key(s) safely.
-
 async function TurnstileCaptchaValidation(request) {
   try {
     const { GATSBY_TURNSTILE_SECRET_KEY, GATSBY_TURNSTILE_API_URL } = process.env;
@@ -24,7 +21,7 @@ async function TurnstileCaptchaValidation(request) {
 
     const outcome = await result.json();
     if (outcome.success) {
-      return new Response(JSON.stringify({ success: true, token: outcome.cdata }), {
+      return new Response(JSON.stringify({ success: true, token: (outcome.cdata ?? null) }), {
         headers: { "Content-Type": "application/json" },
       });
     }

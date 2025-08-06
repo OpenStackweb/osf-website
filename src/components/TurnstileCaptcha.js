@@ -1,12 +1,14 @@
-import { useEffect, useRef } from 'react';
-import { useTurnstileSiteKey } from 'gatsby-plugin-turnstile/src';
+import { useState, useEffect, useRef } from 'react';
 
+const siteKey = `${process.env.GATSBY_TURNSTILE_SITE_KEY}`;
 const useTurnstileCaptcha = ({ widget }) => {
-    const siteKey = useTurnstileSiteKey();
     const tokenRef = useRef('');
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
-        if (window.turnstile && widget?.current) {
+        if (window?.turnstile && widget?.current && !loading)
+        {
+            setLoading(true);
             window.turnstile.render(widget.current, {
                 sitekey: siteKey,
                 callback: (token) => {
@@ -14,7 +16,7 @@ const useTurnstileCaptcha = ({ widget }) => {
                 },
             });
         }
-    }, [siteKey]);
+    }, [window?.turnstile, widget?.current]);
 
     return {token: tokenRef.current, siteKey};
 };

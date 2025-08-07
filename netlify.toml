@@ -9,9 +9,7 @@
 [build.environment]
   NODE_VERSION = "14.20.1"
   YARN_VERSION = "1.22.4"
-  YARN_FLAGS = "--no-ignore-optional"
-  GATSBY_TURNSTILE_SITE_KEY = "your-turnstile-site-key"
-  GATSBY_TURNSTILE_SECRET_KEY = "your-turnstile-secret-key"
+  GATSBY_TURNSTILE_SECRET_KEY = "0x4AAAAAABoSsMitHCdrNh-X"
   GATSBY_TURNSTILE_API_URL = "https://challenges.cloudflare.com/turnstile/v0/siteverify"
 # Deploy Preview context: all deploys resulting from a pull/merge request will
 # inherit these settings.

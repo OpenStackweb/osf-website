@@ -122,7 +122,7 @@
   "scripts": {
     "clean": "gatsby clean",
     "start": "npm run develop",
-    "debug": "NODE_OPTIONS=--inspect NODE_ENV=dev netlify dev --port 8001",
+    "debug": "NODE_OPTIONS=--inspect NODE_ENV=development netlify dev --port 8001",
     "serve": "netlify functions:serve",
     "build": "npm run clean && gatsby build",
     "develop": "npm run clean && gatsby develop --open --https",

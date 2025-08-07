@@ -9,7 +9,6 @@
 [build.environment]
   NODE_VERSION = "14.20.1"
   YARN_VERSION = "1.22.4"
-  GATSBY_TURNSTILE_SECRET_KEY = "0x4AAAAAABoSsMitHCdrNh-X"
   GATSBY_TURNSTILE_API_URL = "https://challenges.cloudflare.com/turnstile/v0/siteverify"
 # Deploy Preview context: all deploys resulting from a pull/merge request will
 # inherit these settings.
@@ -26,8 +25,6 @@
   GATSBY_SF_OID = "00DG0000000lhAF"
   GATSBY_FRIENDLY_CAPTCHA_SITE_KEY = "FCMLO9OV7A0PENUN"
   GATSBY_FRIENDLY_CAPTCHA_API_KEY = "A1DIAJU833CPQ4P1HU2CMI75PIOMC3LPG4BG12RN93R1PC3QH41FNNQ4MM"
-  GATSBY_TURNSTILE_SITE_KEY = "your-test-turnstile-site-key"
-  GATSBY_TURNSTILE_SECRET_KEY = "your-test-turnstile-secret-key"
   GATSBY_TURNSTILE_API_URL = "https://challenges.cloudflare.com/turnstile/v0/siteverify"
   GATSBY_ELECTION_SINCE_YEAR="2023"
   GATSBY_ELECTION_TO_SHOW="2"

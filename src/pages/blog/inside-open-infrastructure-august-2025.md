@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Inside Open Infrastructure: August 2025"
+title: "Inside Open Infrastructure: July 2025"
 author: Allison Price
 date: 2025-08-05T16:06:29.918Z
 category:
@@ -9,7 +9,7 @@ category:
 hidePost: false
 seo:
   url: https://openinfra.dev/blog/openinfra-newsletter-august-2025
-  title: "Inside Open Infrastructure: August 2025"
+  title: "Inside Open Infrastructure: July 2025"
   description: Meet the Global Leaders Powering the Future of Open Source Infrastructure
   twitterUsername: "@openinradev"
 ---

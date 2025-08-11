@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Inside Open Infrastructure: July 2025"
+title: "Inside Open Infrastructure: June 2025"
 author: Allison Price
 date: 2025-07-01T18:54:23.477Z
 category:
@@ -9,7 +9,7 @@ category:
 hidePost: false
 seo:
   url: https://openinfra.dev/blog/openinfra-newsletter-july-2025
-  title: "Inside Open Infrastructure: July 2025"
+  title: "Inside Open Infrastructure: June 2025"
   description: Meet the OpenInfra Summit Europe planning committee, check out the
     VMware Migration Guide and more!
   twitterUsername: "@openinradev"

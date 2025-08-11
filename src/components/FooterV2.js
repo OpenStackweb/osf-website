@@ -36,7 +36,7 @@ const FooterV2 = class extends React.Component {
                     <li><a href="/projects/hosting/">Host at the Foundation</a></li>
                     <li><a href="/hybrid-cloud/">Hybrid Cloud</a></li>
                     <li><a href="/user-survey/">User Survey</a></li>
-                    <li><a href="/doc/">DCO</a></li>
+                    <li><a href="/dco/">DCO</a></li>
                     <li><a href="/universe/">OpenInfra Universe</a></li>
                     <li><a href="/open-infrastructure-blueprint-white-paper/">Open Infrastructure Blueprint</a></li>
                 </ul>

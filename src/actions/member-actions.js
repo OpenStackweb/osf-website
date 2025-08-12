@@ -3,6 +3,7 @@ import {
   createAction,
   escapeFilterValue
 } from "openstack-uicore-foundation/lib/utils/actions";
+import { MEMBERSHIP_TYPE_INDIVIDUAL } from "./user-actions";
 
 export const GET_MEMBERS = 'GET_MEMBERS';
 export const GET_MEMBERS_SUCCESS = 'GET_MEMBERS_SUCCESS';
@@ -16,7 +17,7 @@ export const GET_ELECTION_MEMBER_PROFILE_ERROR = 'GET_ELECTION_MEMBER_PROFILE_ER
 
 export const getMembers = (keyword, letter, page = 1) => (dispatch, getState) => {
 
-  const filter = ['active==1', 'membership_type==Individual'];
+  const filter = ['active==1', `membership_type==${MEMBERSHIP_TYPE_INDIVIDUAL}`];
 
   if (keyword) {
     const escapedKeyword = escapeFilterValue(keyword);

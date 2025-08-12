@@ -16,7 +16,7 @@ export const GET_ELECTION_MEMBER_PROFILE_ERROR = 'GET_ELECTION_MEMBER_PROFILE_ER
 
 export const getMembers = (keyword, letter, page = 1) => (dispatch, getState) => {
 
-  const filter = ['active==1', 'group_slug==foundation-members'];
+  const filter = ['active==1', 'membership_type==Individual'];
 
   if (keyword) {
     const escapedKeyword = escapeFilterValue(keyword);
@@ -51,7 +51,7 @@ export const getMemberProfile = (memberId) => (dispatch, getState) => {
     createAction(GET_MEMBER_PROFILE),
     createAction(GET_MEMBER_PROFILE_SUCCESS),
     `${window.API_BASE_URL}/api/public/v1/members/${memberId}`,
-     null 
+     null
   )({})(dispatch)
     .then().catch((e) => {
       dispatch(createAction(GET_MEMBER_PROFILE_ERROR)())

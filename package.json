@@ -39,6 +39,7 @@
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
     "gatsby-plugin-sass": "^5.10.2",
     "gatsby-plugin-sharp": "^4.10.2",
+    "gatsby-plugin-turnstile": "^1.1.1",
     "gatsby-plugin-webfonts": "^2.2.1",
     "gatsby-remark-classes": "^1.0.0",
     "gatsby-remark-copy-linked-files": "^5.10.0",
@@ -121,7 +122,7 @@
   "scripts": {
     "clean": "gatsby clean",
     "start": "npm run develop",
-    "debug": "NODE_OPTIONS=--inspect NODE_ENV=dev netlify dev --port 8001",
+    "debug": "NODE_OPTIONS=--inspect NODE_ENV=development netlify dev --port 8001",
     "serve": "netlify functions:serve",
     "build": "npm run clean && gatsby build",
     "develop": "npm run clean && gatsby develop --open --https",

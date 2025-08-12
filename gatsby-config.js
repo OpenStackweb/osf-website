@@ -1,7 +1,7 @@
 module.exports = {
   flags: {
     DEV_SSR: false
-  },  
+  },
   siteMetadata: {
     title: "OpenInfra Foundation",
     description: "The Home of Open Infrastructure",
@@ -237,12 +237,12 @@ module.exports = {
         //
         // Defaults to null
         defaultDataLayer: { platform: "gatsby" },
-  
+
         // Specify optional GTM environment details.
         // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
         // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
         // dataLayerName: "YOUR_DATA_LAYER_NAME",
-  
+
         // Name of the event that is triggered
         // on every Gatsby route change.
         //
@@ -297,20 +297,26 @@ module.exports = {
     {
       resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
       options: {
-        develop: true, // Activates purging in npm run develop        
+        develop: true, // Activates purging in npm run develop
         whitelistPatterns: [/^carousel/, /^projects-s/, /^company-level-/, /^more-recent-single-/, /^fa/, /^logo-/, /^modal/],
         purgeOnly: ["/style"], // applies purging only on the bulma css file
       },
-    }, // must be after other CSS plugins    
+    }, // must be after other CSS plugins
     {
       resolve: "gatsby-plugin-linkedin-insight",
       options: {
         partnerId: "2906612",
-  
+
         // Include LinkedIn Insight in development.
         // Defaults to false meaning LinkedIn Insight will only be loaded in production.
         includeInDevelopment: true
       }
+    },
+    {
+      resolve: 'gatsby-plugin-turnstile',
+      options: {
+        siteKey: `${process.env.GATSBY_TURNSTILE_SITE_KEY}`,
+      },
     },
     "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],

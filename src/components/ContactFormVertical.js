@@ -1,25 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Swal from "sweetalert2";
-import { WidgetInstance } from 'friendly-challenge';
-import {getServerFunctionUrl} from '../utils/functionsUtils';
-import {getEnvVariable, FRIENDLY_CAPTCHA_SITE_KEY} from '../utils/envVariables'
 import URI from 'urijs';
+import {getServerFunctionUrl} from '../utils/functionsUtils';
+import useTurnstileCaptcha from './TurnstileCaptcha';
 
 const ContactForm = () => {
 
-    const friendlyCaptchaFieldName = 'frc-captcha-solution';
+    const turnstileCaptchaFieldName = 'cf-turnstile-response';
     const [inputs, setInputs] = useState({});
     const [success, setSuccess] = useState(false);
-    const container = useRef();
-    const widget = useRef();
-
-    const doneCallback = (solution) => {
-        setInputs( values => ({...values, [friendlyCaptchaFieldName] : solution}))
-    }
-
-    const errorCallback = (err) => {
-        Swal.fire("Validation Error", `Captcha solution is invalid!. ${err}`, "warning");
-    }
+    const widget = useRef(null);
+    const { token } = useTurnstileCaptcha({ widget });
 
     const checkLevel = () => {
         let value = '';
@@ -44,52 +35,78 @@ const ContactForm = () => {
     },[]);
 
     useEffect(() => {
-        if (!widget.current && container.current) {
-            widget.current = new WidgetInstance(container.current, {
-                startMode: "auto",
-                doneCallback: doneCallback,
-                errorCallback: errorCallback
-            });
-        }
+        setInputs(values => ({ ...values, [turnstileCaptchaFieldName]: token }))
+    }, [token]);
 
-        return () => {
-            if (widget.current !== undefined) widget.current.destroy();
-        }
-    }, [container]);
+    const handleSubmit = (evt) => {
+        try
+        {
+            evt.target.disabled = true;
+            evt.preventDefault();
 
-   const handleSubmit = (evt) => {
-        evt.preventDefault();
-        const uri = new URI();
-        uri.addQuery("form-name", evt.target.getAttribute("name"));
-        uri.addQuery(inputs);
-        if(!uri.hasQuery(friendlyCaptchaFieldName)){
-           Swal.fire("Validation Error", 'Captcha solution is invalid!.', "warning");
-           return false;
-        }
+            const uri = new URI();
+            uri.addQuery("form-name", evt.target.getAttribute("name"));
+            uri.addQuery(inputs);
+            if (!uri.hasQuery(turnstileCaptchaFieldName)) {
+                Swal.fire("Validation Error", 'Captcha solution is invalid!.', "warning");
+                evt.target.disabled = false;
+                return false;
+            }
 
-        fetch("/",
-            {
-                headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                method: "POST",
-                body: uri.query(),
-            }).then((response) => {
-                if(response.ok){
-                    setSuccess(true);
-                    return;
-                }
-                if(response.status === 412){
-                    response.text().then(function (text) {
+            fetch(
+                getServerFunctionUrl('TurnstileCaptchaValidation'),
+                {
+                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                    method: "POST",
+                    body: uri.query(),
+                }).then(async (response) => {
+                    if (response.ok) {
+                        Swal.fire("Form submitted successfully", '', "success");
+                        setSuccess(true);
+                        return;
+                    }
+
+                    // Handle different error types
+                    if (response.status === 412) {
+                        const text = await response.text();
                         Swal.fire("Validation Error", text, "warning");
-                    });
-                }
-                setSuccess(false);
-            }).catch(e => {
-                setSuccess(false);
-                console.log(e);
-                Swal.fire("Error", 'Oops! Something went wrong.', "warning");
-            });
+                    } else if (response.status === 400) {
+                        try {
+                            const data = await response.json();
+                            Swal.fire("Validation Error", data.error || 'Invalid form submission', "warning");
+                        } catch {
+                            const text = await response.text();
+                            Swal.fire("Validation Error", text || 'Invalid form submission', "warning");
+                        }
+                    } else if (response.status === 500) {
+                        try {
+                            const data = await response.json();
+                            Swal.fire("Server Error", data.message || 'Internal server error', "error");
+                        } catch {
+                            Swal.fire("Server Error", 'Internal server error', "error");
+                        }
+                    } else {
+                        const text = await response.text();
+                        Swal.fire("Error", text || 'Something went wrong', "warning");
+                    }
+                    setSuccess(false);
+                }).catch(e => {
+                    setSuccess(false);
+                    console.error("Error submitting form:", e);
+                    Swal.fire("Error", 'Oops! Something went wrong.', "warning");
+                });
 
-        return false
+            return false
+        }
+        catch (e) {
+            setSuccess(false);
+            console.error("Error submitting form", e);
+            Swal.fire("Error", "Oops! Something went wrong.", "warning");
+            return false;
+        }
+        finally {
+            evt.target.disabled = false;
+        }
     }
 
     return (
@@ -137,7 +154,7 @@ const ContactForm = () => {
                                       placeholder="How can we help?" wrap="soft" required
                                       value={inputs['membership_interest'] || ""} onChange={handleChange}></textarea>
                             <div className="field-column is-full-width">
-                                <div ref={container} className="frc-captcha" data-sitekey={getEnvVariable(FRIENDLY_CAPTCHA_SITE_KEY)} />
+                                <div ref={widget} data-sitekey={process.env.GATSBY_TURNSTILE_SITE_KEY}></div>
                             </div>
                             <button className="contact-submit" type="submit" name="submit">SUBMIT</button>
                         </div>

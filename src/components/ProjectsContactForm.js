@@ -3,6 +3,7 @@ import { Dropdown } from 'openstack-uicore-foundation/lib/components'
 import Swal from "sweetalert2";
 import URI from 'urijs';
 import useTurnstileCaptcha from './TurnstileCaptcha';
+import { getServerFunctionUrl } from '../utils/functionsUtils';
 
 const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumMembers }) => {
     const turnstileCaptchaFieldName = 'cf-turnstile-response';
@@ -60,7 +61,8 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
             }
 
             // Use unified TurnstileCaptchaValidation with form processing
-            fetch('/.netlify/functions/TurnstileCaptchaValidation',
+            fetch(
+                getServerFunctionUrl('TurnstileCaptchaValidation'),
                 {
                     headers: { "Content-Type": "application/x-www-form-urlencoded" },
                     method: "POST",

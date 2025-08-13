@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 
 const siteKey = `${process.env.GATSBY_TURNSTILE_SITE_KEY}`;
 const useTurnstileCaptcha = ({ widget }) => {
-    const tokenRef = useRef('');
+    const [token, setToken] = useState(null);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
@@ -11,14 +11,12 @@ const useTurnstileCaptcha = ({ widget }) => {
             setLoading(true);
             window.turnstile.render(widget.current, {
                 sitekey: siteKey,
-                callback: (token) => {
-                    tokenRef.current = token;
-                },
+                callback: setToken,
             });
         }
     }, [window?.turnstile, widget?.current]);
 
-    return {token: tokenRef.current, siteKey};
+    return { token, siteKey };
 };
 
 export { useTurnstileCaptcha, useTurnstileCaptcha as default };

@@ -21,7 +21,10 @@ header:
   buttons:
     - text: Register Now!
       link: https://ptg.openinfra.org/
-      display: false
+      display: true
+    - text: Sign Up Your Team
+      link: https://openinfrafoundation.formstack.com/forms/oct2025_ptg_survey
+      display: true
   image: /img/ptg-page/hero-image.png
 form:
   display: true

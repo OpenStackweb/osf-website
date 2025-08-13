@@ -46,8 +46,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
     }
 
     const handleSubmit = (evt) => {
-        try
-        {
+        try {
             evt.target.disabled = true;
             evt.preventDefault();
 

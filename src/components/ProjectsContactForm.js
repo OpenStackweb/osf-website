@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Dropdown } from 'openstack-uicore-foundation/lib/components'
 import Swal from "sweetalert2";
 import URI from 'urijs';
-import useTurnstileCaptcha from './TurnstileCaptcha';
+import useTurnstileCaptcha, { getErrorCodeToDescription } from './TurnstileCaptcha';
+import { getServerFunctionUrl } from '../utils/functionsUtils';
 
 const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumMembers }) => {
     const turnstileCaptchaFieldName = 'cf-turnstile-response';
@@ -45,8 +46,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
     }
 
     const handleSubmit = (evt) => {
-        try
-        {
+        try {
             evt.target.disabled = true;
             evt.preventDefault();
 
@@ -59,8 +59,10 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                 return false;
             }
 
-            // Use unified TurnstileCaptchaValidation with form processing
-            fetch('/.netlify/functions/TurnstileCaptchaValidation',
+            const URL = getServerFunctionUrl('TurnstileCaptchaValidation');
+            console.log("Submitting form with data:", uri.query(), URL);
+            fetch(
+                URL,
                 {
                     headers: { "Content-Type": "application/x-www-form-urlencoded" },
                     method: "POST",
@@ -74,13 +76,14 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
 
                     // Handle different error types
                     if (response.status === 412) {
-                        const text = await response.text();
-                        Swal.fire("Validation Error", text, "warning");
+                        const data = await response.json();
+                        Swal.fire("Validation Error", getErrorCodeToDescription(data['error-codes'][0] ?? null), "warning");
                     } else if (response.status === 400) {
                         try {
                             const data = await response.json();
-                            Swal.fire("Validation Error", data.error || 'Invalid form submission', "warning");
-                        } catch {
+                            Swal.fire("Validation Error", (data['error-codes'][0] ?? false) ? getErrorCodeToDescription(data['error-codes'][0]) : 'Invalid form submission', "warning");
+                        } catch (error) {
+                            console.error("Error parsing response:", error);
                             const text = await response.text();
                             Swal.fire("Validation Error", text || 'Invalid form submission', "warning");
                         }
@@ -88,11 +91,13 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                         try {
                             const data = await response.json();
                             Swal.fire("Server Error", data.message || 'Internal server error', "error");
-                        } catch {
+                        } catch (error) {
+                            console.error("Error parsing response:", error);
                             Swal.fire("Server Error", 'Internal server error', "error");
                         }
                     } else {
                         const text = await response.text();
+                        console.error("Unexpected response code:", response.status);
                         Swal.fire("Error", text || 'Something went wrong', "warning");
                     }
                     setSuccess(false);

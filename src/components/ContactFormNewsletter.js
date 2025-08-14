@@ -2,15 +2,14 @@ import React, { useState, useEffect, useRef } from 'react';
 import Swal from "sweetalert2";
 import URI from 'urijs';
 import { getServerFunctionUrl } from '../utils/functionsUtils';
-import useTurnstileCaptcha from './TurnstileCaptcha';
+import useTurnstileCaptcha, { getErrorCodeToDescription } from './TurnstileCaptcha';
 
 const NewsletterForm = () => {
 
-    const turnstileCaptchaFieldName = 'cf-turnstile-response';
     const [inputs, setInputs] = useState({});
     const [success, setSuccess] = useState(false);
     const widget = useRef(null);
-    const { token } = useTurnstileCaptcha({ widget });
+    const { token, turnstileCaptchaFieldName } = useTurnstileCaptcha({ widget });
 
     const handleChange = (event) => {
         const name = event.target.name;
@@ -37,8 +36,10 @@ const NewsletterForm = () => {
                 return false;
             }
 
+            const URL = getServerFunctionUrl('TurnstileCaptchaValidation');
+            console.log("Submitting form with data:", uri.query(), URL);
             fetch(
-                getServerFunctionUrl('TurnstileCaptchaValidation'),
+                URL,
                 {
                     headers: { "Content-Type": "application/x-www-form-urlencoded" },
                     method: "POST",
@@ -52,13 +53,14 @@ const NewsletterForm = () => {
 
                     // Handle different error types
                     if (response.status === 412) {
-                        const text = await response.text();
-                        Swal.fire("Validation Error", text, "warning");
+                        const data = await response.json();
+                        Swal.fire("Validation Error", getErrorCodeToDescription(data['error-codes'][0] ?? null), "warning");
                     } else if (response.status === 400) {
                         try {
                             const data = await response.json();
-                            Swal.fire("Validation Error", data.error || 'Invalid form submission', "warning");
-                        } catch {
+                            Swal.fire("Validation Error", (data['error-codes'][0] ?? false) ? getErrorCodeToDescription(data['error-codes'][0]) : 'Invalid form submission', "warning");
+                        } catch(error) {
+                            console.error("Error parsing response:", error);
                             const text = await response.text();
                             Swal.fire("Validation Error", text || 'Invalid form submission', "warning");
                         }
@@ -66,11 +68,13 @@ const NewsletterForm = () => {
                         try {
                             const data = await response.json();
                             Swal.fire("Server Error", data.message || 'Internal server error', "error");
-                        } catch {
+                        } catch(error) {
+                            console.error("Error parsing response:", error);
                             Swal.fire("Server Error", 'Internal server error', "error");
                         }
                     } else {
                         const text = await response.text();
+                        console.error("Unexpected response code:", response.status);
                         Swal.fire("Error", text || 'Something went wrong', "warning");
                     }
                     setSuccess(false);
@@ -101,14 +105,18 @@ const NewsletterForm = () => {
             data-netlify="true"
             data-netlify-honeypot="bot-field">
             {!success &&
-                <div className="home-v2-newsletter-form">
-                    <input id="email" className="contact-field ct-field"
-                        maxLength="80" name="email" value={inputs.email || ""}
-                        onChange={handleChange} type="email" placeholder="Enter your email"
-                        required />
-                    <div ref={widget} data-sitekey={process.env.GATSBY_TURNSTILE_SITE_KEY}></div>
-                    <button className="contact-submit" type="submit" name="submit">Subscribe</button>
-                </div>
+                <>
+                    <div className="home-v2-newsletter-form">
+                        <input id="email" className="contact-field ct-field"
+                            maxLength="80" name="email" value={inputs.email || ""}
+                            onChange={handleChange} type="email" placeholder="Enter your email"
+                            required />
+                        <button className="contact-submit" type="submit" name="submit">Subscribe</button>
+                    </div>
+                    <div className="cf-turnstile is-fullwidth">
+                        <div ref={widget} data-sitekey={process.env.GATSBY_TURNSTILE_SITE_KEY}></div>
+                    </div>
+                </>
             }
             {success &&
                 <div className="home-v2-newsletter-form home-v2-newsletter-form-success">

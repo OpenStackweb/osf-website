@@ -2,9 +2,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import Swal from "sweetalert2";
 import URI from 'urijs';
 import {getServerFunctionUrl} from '../utils/functionsUtils';
-import useTurnstileCaptcha from './TurnstileCaptcha';
+import useTurnstileCaptcha, { getErrorCodeToDescription } from './TurnstileCaptcha';
 
-const ContactForm = () => {
+const ContactFormVertical = () => {
 
     const turnstileCaptchaFieldName = 'cf-turnstile-response';
     const [inputs, setInputs] = useState({});
@@ -53,8 +53,10 @@ const ContactForm = () => {
                 return false;
             }
 
+            const URL = getServerFunctionUrl('TurnstileCaptchaValidation');
+            console.log("Submitting form with data:", uri.query(), URL);
             fetch(
-                getServerFunctionUrl('TurnstileCaptchaValidation'),
+                URL,
                 {
                     headers: { "Content-Type": "application/x-www-form-urlencoded" },
                     method: "POST",
@@ -68,13 +70,14 @@ const ContactForm = () => {
 
                     // Handle different error types
                     if (response.status === 412) {
-                        const text = await response.text();
-                        Swal.fire("Validation Error", text, "warning");
+                        const data = await response.json();
+                        Swal.fire("Validation Error", getErrorCodeToDescription(data['error-codes'][0] ?? null), "warning");
                     } else if (response.status === 400) {
                         try {
                             const data = await response.json();
-                            Swal.fire("Validation Error", data.error || 'Invalid form submission', "warning");
-                        } catch {
+                            Swal.fire("Validation Error", (data['error-codes'][0] ?? false) ? getErrorCodeToDescription(data['error-codes'][0]) : 'Invalid form submission', "warning");
+                        } catch(error) {
+                            console.error("Error parsing response:", error);
                             const text = await response.text();
                             Swal.fire("Validation Error", text || 'Invalid form submission', "warning");
                         }
@@ -82,11 +85,13 @@ const ContactForm = () => {
                         try {
                             const data = await response.json();
                             Swal.fire("Server Error", data.message || 'Internal server error', "error");
-                        } catch {
+                        } catch(error) {
+                            console.error("Error parsing response:", error);
                             Swal.fire("Server Error", 'Internal server error', "error");
                         }
                     } else {
                         const text = await response.text();
+                        console.error("Unexpected response code:", response.status);
                         Swal.fire("Error", text || 'Something went wrong', "warning");
                     }
                     setSuccess(false);
@@ -153,9 +158,11 @@ const ContactForm = () => {
                             <textarea id="membership_interest" className="message-field" name="membership_interest" type="text"
                                       placeholder="How can we help?" wrap="soft" required
                                       value={inputs['membership_interest'] || ""} onChange={handleChange}></textarea>
-                            <div className="field-column is-full-width">
-                                <div ref={widget} data-sitekey={process.env.GATSBY_TURNSTILE_SITE_KEY}></div>
-                            </div>
+                        </div>
+                        <div className="field-column is-full-width mt-3">
+                            <div ref={widget} data-sitekey={process.env.GATSBY_TURNSTILE_SITE_KEY}></div>
+                        </div>
+                        <div className="field-column is-full-width">|
                             <button className="contact-submit" type="submit" name="submit">SUBMIT</button>
                         </div>
 
@@ -178,4 +185,4 @@ const ContactForm = () => {
     )
 }
 
-export default ContactForm;
+export default ContactFormVertical;

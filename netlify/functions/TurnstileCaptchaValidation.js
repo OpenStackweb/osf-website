@@ -42,7 +42,6 @@ exports.handler = async (event, context) => {
     let formParams = null;
 
     if (contentType.includes('application/x-www-form-urlencoded')) {
-      // This is a form submission from ProjectsContactForm
       console.log('Processing form submission...');
       isFormSubmission = true;
 

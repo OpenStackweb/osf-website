@@ -5,6 +5,7 @@
  */
 
 const fetch = require('node-fetch');
+const allowedForms = ['projects-contact', 'newsletter-contact', 'contact'];
 
 exports.handler = async (event, context) => {
   console.log('TurnstileCaptchaValidation invoked:', event.httpMethod);
@@ -41,7 +42,6 @@ exports.handler = async (event, context) => {
     let formParams = null;
 
     if (contentType.includes('application/x-www-form-urlencoded')) {
-      // This is a form submission from ProjectsContactForm
       console.log('Processing form submission...');
       isFormSubmission = true;
 
@@ -53,14 +53,14 @@ exports.handler = async (event, context) => {
       console.log('Form data keys:', Array.from(formParams.keys()));
 
       // Only process projects-contact form
-      if (formName !== 'projects-contact') {
+      if (!allowedForms.includes(formName)) {
         return {
           statusCode: 400,
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             error: 'Invalid form name',
             received: formName,
-            expected: 'projects-contact'
+            expected: allowedForms
           })
         };
       }

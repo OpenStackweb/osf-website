@@ -1,25 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
-import Swal from "sweetalert2";
-import { WidgetInstance } from 'friendly-challenge';
-import {getServerFunctionUrl} from '../utils/functionsUtils';
-import {getEnvVariable, FRIENDLY_CAPTCHA_SITE_KEY} from '../utils/envVariables'
-import URI from 'urijs';
+import React, { useEffect } from 'react';
+import useTurnstileCaptcha from './TurnstileCaptcha';
 
-const ContactForm = () => {
+const ContactFormVertical = () => {
 
-    const friendlyCaptchaFieldName = 'frc-captcha-solution';
-    const [inputs, setInputs] = useState({});
-    const [success, setSuccess] = useState(false);
-    const container = useRef();
-    const widget = useRef();
-
-    const doneCallback = (solution) => {
-        setInputs( values => ({...values, [friendlyCaptchaFieldName] : solution}))
-    }
-
-    const errorCallback = (err) => {
-        Swal.fire("Validation Error", `Captcha solution is invalid!. ${err}`, "warning");
-    }
+    const { widget, success, inputs, setInputs, handleSubmit, handleChange } = useTurnstileCaptcha();
 
     const checkLevel = () => {
         let value = '';
@@ -33,64 +17,9 @@ const ContactForm = () => {
         setInputs(values => ({...values, membership_interest: value}))
     }
 
-    const handleChange = (event) => {
-        const name = event.target.name;
-        const value = event.target.value;
-        setInputs(values => ({...values, [name]: value}))
-    }
-
     useEffect(() => {
         checkLevel()
     },[]);
-
-    useEffect(() => {
-        if (!widget.current && container.current) {
-            widget.current = new WidgetInstance(container.current, {
-                startMode: "auto",
-                doneCallback: doneCallback,
-                errorCallback: errorCallback
-            });
-        }
-
-        return () => {
-            if (widget.current !== undefined) widget.current.destroy();
-        }
-    }, [container]);
-
-   const handleSubmit = (evt) => {
-        evt.preventDefault();
-        const uri = new URI();
-        uri.addQuery("form-name", evt.target.getAttribute("name"));
-        uri.addQuery(inputs);
-        if(!uri.hasQuery(friendlyCaptchaFieldName)){
-           Swal.fire("Validation Error", 'Captcha solution is invalid!.', "warning");
-           return false;
-        }
-
-        fetch("/",
-            {
-                headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                method: "POST",
-                body: uri.query(),
-            }).then((response) => {
-                if(response.ok){
-                    setSuccess(true);
-                    return;
-                }
-                if(response.status === 412){
-                    response.text().then(function (text) {
-                        Swal.fire("Validation Error", text, "warning");
-                    });
-                }
-                setSuccess(false);
-            }).catch(e => {
-                setSuccess(false);
-                console.log(e);
-                Swal.fire("Error", 'Oops! Something went wrong.', "warning");
-            });
-
-        return false
-    }
 
     return (
         <form className="contact-form"
@@ -136,9 +65,11 @@ const ContactForm = () => {
                             <textarea id="membership_interest" className="message-field" name="membership_interest" type="text"
                                       placeholder="How can we help?" wrap="soft" required
                                       value={inputs['membership_interest'] || ""} onChange={handleChange}></textarea>
-                            <div className="field-column is-full-width">
-                                <div ref={container} className="frc-captcha" data-sitekey={getEnvVariable(FRIENDLY_CAPTCHA_SITE_KEY)} />
-                            </div>
+                        </div>
+                        <div className="field-column is-full-width mt-3">
+                            <div ref={widget} data-sitekey={process.env.GATSBY_TURNSTILE_SITE_KEY}></div>
+                        </div>
+                        <div className="field-column is-full-width">
                             <button className="contact-submit" type="submit" name="submit">SUBMIT</button>
                         </div>
 
@@ -161,4 +92,4 @@ const ContactForm = () => {
     )
 }
 
-export default ContactForm;
+export default ContactFormVertical;

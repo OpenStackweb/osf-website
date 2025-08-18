@@ -3,7 +3,7 @@ import { Dropdown } from 'openstack-uicore-foundation/lib/components';
 import useTurnstileCaptcha from './TurnstileCaptcha';
 
 const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumMembers }) => {
-    const { widget, success, inputs, setInputs, handleSubmit, handleChange, } = useTurnstileCaptcha();
+    const { widget, success, inputs, setInputs, handleSubmit, handleChange, isSending } = useTurnstileCaptcha();
 
     const [platinumDropdown, setPlatinumDropdown] = useState([])
 
@@ -226,7 +226,7 @@ const ProjectsContactForm = ({ privacyPolicyAgreement, successMessage, platinumM
                                 <div ref={widget} data-sitekey={process.env.GATSBY_TURNSTILE_SITE_KEY}></div>
                             </div>
                             <span className='form-agree' dangerouslySetInnerHTML={{ __html: privacyPolicyAgreement }} />
-                            <button className="contact-submit" type="submit" name="submit">SUBMIT</button>
+                            <button className="contact-submit" type="submit" name="submit" disabled={isSending}>SUBMIT</button>
                         </div>
 
                     </div>

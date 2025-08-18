@@ -3,7 +3,7 @@ import useTurnstileCaptcha from './TurnstileCaptcha';
 
 const ContactFormVertical = () => {
 
-    const { widget, success, inputs, setInputs, handleSubmit, handleChange, isSending } = useTurnstileCaptcha();
+    const { widget, success, inputs, setInputs, handleSubmit, handleChange } = useTurnstileCaptcha();
 
     const checkLevel = () => {
         let value = '';
@@ -69,8 +69,8 @@ const ContactFormVertical = () => {
                         <div className="field-column is-full-width mt-3">
                             <div ref={widget} data-sitekey={process.env.GATSBY_TURNSTILE_SITE_KEY}></div>
                         </div>
-                        <div className="field-column is-full-width">|
-                            <button className="contact-submit" type="submit" name="submit" disabled={isSending}>SUBMIT</button>
+                        <div className="field-column is-full-width">
+                            <button className="contact-submit" type="submit" name="submit">SUBMIT</button>
                         </div>
 
                     </div>

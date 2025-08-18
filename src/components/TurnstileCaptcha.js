@@ -15,7 +15,6 @@ const useTurnstileCaptcha = () => {
   const [loading, setLoading] = useState(false);
   const [inputs, setInputs] = useState({});
   const [success, setSuccess] = useState(false);
-  const [isSending, setSending] = useState(false);
 
   const turnstileCaptchaFieldName = 'cf-turnstile-response';
 
@@ -48,7 +47,6 @@ const useTurnstileCaptcha = () => {
 
       const URL = getServerFunctionUrl('TurnstileCaptchaValidation');
       console.log("Submitting form with data:", uri.query(), URL);
-      setSending(true);
       fetch(
         URL,
         {
@@ -56,7 +54,6 @@ const useTurnstileCaptcha = () => {
           method: "POST",
           body: uri.query(),
         }).then(async (response) => {
-          setSending(false);
           if (response.ok) {
             Swal.fire("Form submitted successfully", '', "success");
             setSuccess(true);
@@ -104,9 +101,6 @@ const useTurnstileCaptcha = () => {
       Swal.fire("Error", "Oops! Something went wrong.", "warning");
       return false;
     }
-    finally {
-      setSending(false)
-    }
   }
 
   const handleChange = (event) => {
@@ -115,7 +109,7 @@ const useTurnstileCaptcha = () => {
     setInputs(values => ({ ...values, [name]: value }))
   }
 
-  return { token, siteKey, turnstileCaptchaFieldName, widget, success, setSuccess, inputs, setInputs, isSending, handleSubmit, handleChange };
+  return { token, siteKey, turnstileCaptchaFieldName, widget, success, setSuccess, inputs, setInputs, handleSubmit, handleChange };
 };
 
 export { useTurnstileCaptcha, useTurnstileCaptcha as default };

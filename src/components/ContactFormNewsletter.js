@@ -3,7 +3,7 @@ import useTurnstileCaptcha from './TurnstileCaptcha';
 
 const NewsletterForm = () => {
 
-    const { widget, success, inputs, handleSubmit, handleChange, isSending } = useTurnstileCaptcha();
+    const { widget, success, inputs, handleSubmit, handleChange } = useTurnstileCaptcha();
 
     return (
         <form className="contact-form top-line"
@@ -19,7 +19,7 @@ const NewsletterForm = () => {
                             maxLength="80" name="email" value={inputs.email || ""}
                             onChange={handleChange} type="email" placeholder="Enter your email"
                             required />
-                        <button className="contact-submit" type="submit" name="submit" disabled={isSending}>Subscribe</button>
+                        <button className="contact-submit" type="submit" name="submit">Subscribe</button>
                     </div>
                     <div className="cf-turnstile is-fullwidth">
                         <div ref={widget} data-sitekey={process.env.GATSBY_TURNSTILE_SITE_KEY}></div>

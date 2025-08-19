@@ -38,7 +38,6 @@ Additionally, we're working with clients in the trusted research domain where to
 We’re proud to support two major open source projects that extend the value of OpenInfra for research computing:
 
 1. [Azimuth Cloud Portal](https://github.com/azimuth-cloud/azimuth)Azimuth is our platform-as-a-service solution designed specifically for scientists and research software engineers. It runs as a Kubernetes workload on OpenStack, allowing users to deploy and manage compute platforms and applications from a curated catalogue quickly and easily.
-
 2. [Slurm Appliance](https://github.com/stackhpc/ansible-slurm-appliance)The Slurm Appliance is a production-ready, cloud-native solution for deploying and managing Slurm HPC clusters. Built using Terraform/OpenTofu, Ansible, and CI pipelines, it brings modern infrastructure-as-code practices to the world of scientific computing.
 
 Both of these tools are open source, widely adopted, and actively supported by StackHPC.

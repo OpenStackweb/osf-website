@@ -37,10 +37,10 @@ const upcomingItemsAsia = [
     sponsor: '<a href="mailto:sponsor@openinfradays.kr" target="_blank">Sponsor this event</a>'
   },
   {
-    title: "OpenInfra Days China",
+    title: <a href="https://sessionize.com/kcd-hangzhou-and-oicd-2025/" target="_blank">OpenInfra Days China</a>,
     date: "November 15, 2025",
     location: "Hangzhou, CN",
-    coming_soon: "More info coming soon!"
+    registration: '<a href="https://sessionize.com/kcd-hangzhou-and-oicd-2025/" target="_blank">The CFP closes September 21</a>'
   },
   {
     title: <a href="https://cloudopsdays.com/" target="_blank">Cloud Operator Days Tokyo</a>,

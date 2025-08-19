@@ -13,7 +13,7 @@ import SubHeaderDays from "../components/SubHeaderDays";
 import MoreEventsSection from "../components/MoreEventsSection";
 import OpeninfraDaysAgenda from "../components/OpeninfraDaysAgenda";
 import OpenInfraDays from "../components/OpeninfraDays";
-import hero from '../../static/img/openinfra-days/openinfra-days-header.png';
+import hero from '../../static/img/openinfra-days/OI-Days-1920x325.11.svg';
 import UpcomingSummits from "../components/UpcomingSummits";
 
 const upcomingItemsAsia = [

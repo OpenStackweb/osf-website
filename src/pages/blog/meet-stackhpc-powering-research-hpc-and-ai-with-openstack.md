@@ -50,16 +50,16 @@ We’re excited about the future and look forward to continuing our journey with
 
 #### StackHPC at the OpenInfra Summit Europe 
 
-At the OpenInfra Summit Europe, taking place 17-19 October in Paris-Saclay, check out these user stories from StackHPC clients as well as StackHPC's own R&D and community activities:
+At the OpenInfra Summit Europe, taking place 17-19 October in Paris-Saclay, plan to visit StackHPC's booth in the expo hall and check out these user stories from StackHPC clients as well as StackHPC's own R&D and community activities:
 
-* GAIA: CINECA’s large-scale HPC Cloud infrastructure for scientific and technological research
-* OpenStack at Scale: Operating a bare metal cloud for quant research
-* Slicing Supercomputers for Trusted Research Environments
-* Multi-Arch OpenStack in Production: ARM64/x86 Bare Metal and Hypervisors with Kolla-Ansible
-* History of the OpenStack Compute API
-* Dynamic resource sharing and diverse compute platforms for AI: The Slinky Solution
-* OpenStack deployments made easy - Kolla-Ansible workshop
-* All aboard the Release Train: Lessons from our last 100 OpenStack upgrades
-* A Universe from Nothing: A hands-on introduction to OpenStack
-* Kolla User Forum
-* Scientific SIG Working Group Session
+* [GAIA: CINECA’s large-scale HPC Cloud infrastructure for scientific and technological research](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=GAIA%3A%20CINECA%E2%80%99s%20large-scale%20HPC%20Cloud%20infrastructure%20for%20scientific%20and%20technological%20research)
+* [OpenStack at Scale: Operating a bare metal cloud for quant research](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=OpenStack%20at%20Scale%3A%20Operating%20a%20bare%20metal%20cloud%20for%20quant%20research)
+* [Slicing Supercomputers for Trusted Research Environments](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=Slicing%20Supercomputers%20for%20Trusted%20Research%20Environments)
+* [](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=Slicing%20Supercomputers%20for%20Trusted%20Research%20Environments)[Multi-Arch OpenStack in Production: ARM64/x86 Bare Metal and Hypervisors with Kolla-Ansible](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=Multi-Arch%20OpenStack%20in%20Production%3A%20ARM64%2Fx86%20Bare%20Metal%20and%20Hypervisors%20with%20Kolla-Ansible)
+* [History of the OpenStack Compute API](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=History%20of%20the%20OpenStack%20Compute%20API)
+* [Dynamic resource sharing and diverse compute platforms for AI: The Slinky Solution](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=Dynamic%20resource%20sharing%20and%20diverse%20compute%20platforms%20for%20AI%3A%20The%20Slinky%20Solution)
+* [OpenStack deployments made easy - Kolla-Ansible workshop](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=OpenStack%20deployments%20made%20easy%20-%20Kolla-Ansible%20workshop)
+* [All aboard the Release Train: Lessons from our last 100 OpenStack upgrades](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=All%20aboard%20the%20Release%20Train%3A%20Lessons%20from%20our%20last%20100%20OpenStack%20upgrades)
+* [A Universe from Nothing: A hands-on introduction to OpenStack](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=A%20Universe%20from%20Nothing%3A%20A%20hands-on%20introduction%20to%20OpenStack)
+* [Kolla User Forum](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=Kolla%20User%20Forum)
+* [Scientific SIG Working Group Session](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=Scientific%20SIG%20Working%20Group%20Session)

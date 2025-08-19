@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: "Meet StackHPC: Powering Research, HPC and AI with OpenStack"
-author: Allison Price
+author: Stig Telfer
 date: 2025-08-20T09:00:01.776Z
 category:
   - value: category-h2Ztx9rpD

@@ -50,7 +50,7 @@ We’re excited about the future and look forward to continuing our journey with
 
 #### StackHPC at the OpenInfra Summit Europe 
 
-At the OpenInfra Summit Europe, taking place 17-19 October in Paris-Saclay, plan to visit StackHPC's booth in the expo hall and check out these user stories from StackHPC clients as well as StackHPC's own R&D and community activities:
+At the [OpenInfra Summit Europe](https://summit2025.openinfra.org/), taking place 17-19 October in Paris-Saclay, plan to visit StackHPC's booth in the expo hall and check out these user stories from StackHPC clients as well as StackHPC's own R&D and community activities:
 
 * [GAIA: CINECA’s large-scale HPC Cloud infrastructure for scientific and technological research](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=GAIA%3A%20CINECA%E2%80%99s%20large-scale%20HPC%20Cloud%20infrastructure%20for%20scientific%20and%20technological%20research)
 * [OpenStack at Scale: Operating a bare metal cloud for quant research](https://summit2025.openinfra.org/a/schedule/#view=calendar&title=OpenStack%20at%20Scale%3A%20Operating%20a%20bare%20metal%20cloud%20for%20quant%20research)

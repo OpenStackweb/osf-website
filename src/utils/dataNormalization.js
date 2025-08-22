@@ -19,7 +19,7 @@ const excludeKeys = [
 ];
 
 const deepOmit = (obj, keysToOmit) => {
-  let keysToOmitIndex =  _.keyBy(Array.isArray(keysToOmit) ? keysToOmit : [keysToOmit] ); // create an index object of the keys that should be omitted
+  let keysToOmitIndex = _.keyBy(Array.isArray(keysToOmit) ? keysToOmit : [keysToOmit] ); // create an index object of the keys that should be omitted
 
   const omitFromObject = (obj) => { // the inner function which will be called recursively
     return _.transform(obj, function(result, value, key) { // transform to a new object

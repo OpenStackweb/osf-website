@@ -21,8 +21,8 @@ class GoogleTagManagerProvider extends TagManagerProvider {
     GoogleTagManagerProvider.instance = this;
   }
 
-  #gtag() {
-    this.dataLayer.push(arguments);
+  #gtag(...args) {
+    this.dataLayer.push(args);
   };
 
   trackEvent = (eventName, eventParams) => {

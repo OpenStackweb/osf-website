@@ -1,8 +1,11 @@
+const dotenv = require("dotenv");
+
+
 const googleTagManagerPlugin = [
   {
     resolve: "gatsby-plugin-google-tagmanager",
     options: {
-      id: "GTM-5SLZBPV",
+      id: process.env.GOOGLE_TAGMANAGER_ID || "GTM-5SLZBPV",
       // Include GTM in development.
       //
       // Defaults to false meaning GTM will only be loaded in production.

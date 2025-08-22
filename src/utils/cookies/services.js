@@ -15,7 +15,7 @@ const services = [
   {
     name: "google-analytics",
     title: "Google Analytics",
-    purposes: ["analytics"],
+    purposes: ["marketing"],
     cookies: [/^_ga(_.*)?/],
     default: true,
     onAccept: () => {

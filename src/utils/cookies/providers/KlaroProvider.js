@@ -23,6 +23,7 @@ class KlaroProvider extends CookieManagerProvider {
   #formatConfig = (services) => ({
     acceptAll: true,
     hideLearnMore: true,
+    localStorage: 'localStorage',
     translations: {
       en: {
         purposes: {
@@ -50,7 +51,7 @@ class KlaroProvider extends CookieManagerProvider {
   });
 
   #handleAccept = (service) => {
-    if (service.name === "google-tag-manager") {
+    if (service.name === "google-tag-manager" || service.name === "google-analytics") {
       const consents = this.getConsents();
       for (let k of Object.keys(consents)) {
         if (consents[k]) {

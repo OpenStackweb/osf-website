@@ -1,5 +1,7 @@
 #!/bin/bash
 
+NODE_ENV=development
+
 # Source nvm if it exists
 if [ -f "$HOME/.nvm/nvm.sh" ]; then
     source "$HOME/.nvm/nvm.sh"

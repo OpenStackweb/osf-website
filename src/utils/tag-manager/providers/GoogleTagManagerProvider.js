@@ -1,5 +1,5 @@
 import TagManagerProvider from "../TagManagerProvider";
-import { getEnvVariable, GOOGLE_TAGMANAGER_ID } from "@utils/envVariables";
+// import { getEnvVariable, GOOGLE_TAGMANAGER_ID } from "@utils/envVariables";
 
 class GoogleTagManagerProvider extends TagManagerProvider {
   static instance;
@@ -9,9 +9,9 @@ class GoogleTagManagerProvider extends TagManagerProvider {
       return GoogleTagManagerProvider.instance;
     }
     super();
-    if (!getEnvVariable(GOOGLE_TAGMANAGER_ID)) {
-      console.warn("GoogleTagManagerProvider: GOOGLE_TAGMANAGER_ID environment variable is not set. Tracking will be disabled.");
-    }
+    // if (!getEnvVariable(GOOGLE_TAGMANAGER_ID)) {
+    //   console.warn("GoogleTagManagerProvider: GOOGLE_TAGMANAGER_ID environment variable is not set. Tracking will be disabled.");
+    // }
     if (typeof window !== "undefined") {
       window.dataLayer = window.dataLayer || [];
       this.dataLayer = window.dataLayer;

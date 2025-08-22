@@ -51,7 +51,7 @@ class KlaroProvider extends CookieManagerProvider {
   });
 
   #handleAccept = (service) => {
-    if (service.name === "google-tag-manager" || service.name === "google-analytics") {
+    if (service.name === "google-tag-manager") {
       const consents = this.getConsents();
       for (let k of Object.keys(consents)) {
         if (consents[k]) {

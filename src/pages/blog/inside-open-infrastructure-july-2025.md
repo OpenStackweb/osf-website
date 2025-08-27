@@ -8,7 +8,7 @@ category:
     label: News & Announcements
 hidePost: false
 seo:
-  url: https://openinfra.dev/blog/openinfra-newsletter-july-2025
+  url: https://openinfra.dev/blog/openinfra-newsletter-june-2025
   title: "Inside Open Infrastructure: June 2025"
   description: Meet the OpenInfra Summit Europe planning committee, check out the
     VMware Migration Guide and more!

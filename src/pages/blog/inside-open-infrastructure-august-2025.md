@@ -8,7 +8,7 @@ category:
     label: News & Announcements
 hidePost: false
 seo:
-  url: https://openinfra.dev/blog/openinfra-newsletter-august-2025
+  url: https://openinfra.dev/blog/openinfra-newsletter-july-2025
   title: "Inside Open Infrastructure: July 2025"
   description: Meet the Global Leaders Powering the Future of Open Source Infrastructure
   twitterUsername: "@openinradev"

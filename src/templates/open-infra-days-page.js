@@ -13,7 +13,7 @@ import SubHeaderDays from "../components/SubHeaderDays";
 import MoreEventsSection from "../components/MoreEventsSection";
 import OpeninfraDaysAgenda from "../components/OpeninfraDaysAgenda";
 import OpenInfraDays from "../components/OpeninfraDays";
-import hero from '../../static/img/openinfra-days/openinfra-days-header.png';
+import hero from '../../static/img/openinfra-days/OI-Days-1920x325.11.svg';
 import UpcomingSummits from "../components/UpcomingSummits";
 
 const upcomingItemsAsia = [
@@ -37,10 +37,10 @@ const upcomingItemsAsia = [
     sponsor: '<a href="mailto:sponsor@openinfradays.kr" target="_blank">Sponsor this event</a>'
   },
   {
-    title: "OpenInfra Days China",
+    title: <a href="https://sessionize.com/kcd-hangzhou-and-oicd-2025/" target="_blank">OpenInfra Days China</a>,
     date: "November 15, 2025",
     location: "Hangzhou, CN",
-    coming_soon: "More info coming soon!"
+    registration: '<a href="https://sessionize.com/kcd-hangzhou-and-oicd-2025/" target="_blank">The CFP closes September 21</a>'
   },
   {
     title: <a href="https://cloudopsdays.com/" target="_blank">Cloud Operator Days Tokyo</a>,

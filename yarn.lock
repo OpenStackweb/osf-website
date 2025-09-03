@@ -9938,21 +9938,13 @@ gatsby-plugin-feed@^4.24.0:
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
-gatsby-plugin-google-analytics@^v4.24:
+gatsby-plugin-google-analytics@^4.24.0:
   version "4.25.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-4.25.0.tgz#9235094d56ddf945eda184c77e1dade08ef2c0da"
   integrity sha512-fbHrViBAbJ0Ch2gcpuJQlGxWoapaNed42k75eR4gCiZPzaTUvCKagJgLG8ro8ukD1rfD594lgLzdSEaYYcH4WQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     minimatch "3.0.4"
-    web-vitals "^1.1.2"
-
-gatsby-plugin-google-tagmanager@^v4.24:
-  version "4.25.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-4.25.0.tgz#bc24b4c34964813374c4f0d5ef77e5d370b3d675"
-  integrity sha512-9l2AoS2eY7O4hPq+Rp/Q1Gg7KcVb2H3+4a6sE7rF0Vo98LQfdLS8/ED/wSY5fQ5+WVR1h7Sm9OEf3wIjTNGXlA==
-  dependencies:
-    "@babel/runtime" "^7.15.4"
     web-vitals "^1.1.2"
 
 gatsby-plugin-image@^2.10.1:

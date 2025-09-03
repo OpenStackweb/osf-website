@@ -6,7 +6,7 @@ dotenv.config({
 
 const googleTagManagerPlugin = [
   {
-    resolve: "gatsby-plugin-google-tagmanager",
+    resolve: require.resolve("./plugins/gatsby-plugin-google-tagmanager"),
     options: {
       id: process.env.GOOGLE_TAGMANAGER_ID || "GTM-5SLZBPV",
       // Include GTM in development.

@@ -14,9 +14,7 @@ import SponsorshipSection from "../components/SponsorshipSection";
 import "../style/sponsorship-page.scss";
 import SponsorshipSubNav from "../components/SponsorshipSubNav";
 
-const SPONSORSHIPS = [
-  
-];
+const SPONSORSHIPS = [];
 
 const SPONSORSHIPS_DAYS = [
   {
@@ -29,6 +27,7 @@ const SPONSORSHIPS_DAYS = [
     ),
     plans: [
       {
+        soldOut: true,
         title: "Headline Sponsor",
         priceMember: "€ 50 000",
         priceNonMember: "€ 60 000",
@@ -44,6 +43,7 @@ const SPONSORSHIPS_DAYS = [
         ],
       },
       {
+        soldOut: true,
         title: "Premier Sponsor",
         priceMember: "€ 30 000",
         priceNonMember: "€ 45 000",
@@ -58,6 +58,7 @@ const SPONSORSHIPS_DAYS = [
         ],
       },
       {
+        soldOut: true,
         title: "Spotlight Sponsor",
         priceMember: "€ 15 000",
         priceNonMember: "€ 25 000",
@@ -72,6 +73,7 @@ const SPONSORSHIPS_DAYS = [
         ],
       },
       {
+        soldOut: true,
         title: "Exhibitor Sponsor",
         priceMember: "€ 7 500",
         priceNonMember: "€ 15 000",
@@ -87,6 +89,7 @@ const SPONSORSHIPS_DAYS = [
       },
       {
         dark: true,
+        soldOut: true,
         title: "Supporting Sponsor",
         priceMember: "€ 2 500",
         priceNonMember: "€ 5 000",
@@ -102,6 +105,7 @@ const SPONSORSHIPS_DAYS = [
       },
       {
         dark: true,
+        soldOut: true,
         overview: <span style={{color:"#F4A93A"}}>Add on:</span>,
         title: "30-MINUTE BREAKOUT SPEAKING SESSION",
         color: "#F4A93A",
@@ -118,6 +122,7 @@ const SPONSORSHIPS_DAYS = [
       },
       {
         dark: true,
+        soldOut: true,
         overview: <span style={{color:"#28A4DB"}}>Add on:</span>,
         title: <>Meeting<br/> Room</>,
         color: "#28A4DB",
@@ -140,6 +145,7 @@ const SPONSORSHIPS_DAYS = [
       },
       {
         dark: true,
+        soldOut: true,
         title: <>Booth<br/><span style={{color: "#888888"}}>Add-On</span></>,
         color: "#161616",
         items: [
@@ -159,6 +165,7 @@ const SPONSORSHIPS_DAYS = [
         ],
       },
       {
+        soldOut: true,
         overview: "Virtualization Migration Day:",
         title: <span style={{color: "white"}}>Lightning Demo</span>,
         color: "#888888",

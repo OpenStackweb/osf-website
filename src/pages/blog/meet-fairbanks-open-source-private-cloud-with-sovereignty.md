@@ -6,7 +6,7 @@ date: 2025-08-27T17:18:25.268Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   twitterUsername: "@openinfradev "
   url: https://openinfra.org/blog/openinfra-member-fairbanks

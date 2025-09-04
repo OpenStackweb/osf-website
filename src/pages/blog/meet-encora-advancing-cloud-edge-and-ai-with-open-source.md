@@ -36,7 +36,7 @@ Encora’s teams actively engage with several OpenInfra projects, bringing deep 
 
 Beyond implementation, we also contribute back to the OpenInfra community through documentation improvements, code contributions, and active participation in project discussions.
 
-## Innovating Across Industries
+### Innovating Across Industries
 
 Encora is a digital engineering specialist headquartered in Santa Clara, CA. We bring a data-first, cloud-smart, and AI-enabled approach to engineering, helping clients modernize core value streams in hyper-connected industries.
 

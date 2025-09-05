@@ -16,7 +16,7 @@ seo:
 ---
 ![](/img/1200x675-silver-encora-1-.png)
 
-At [Encora](https://www.encora.com/), our mission is to empower organizations with cutting-edge digital engineering solutions that are open, scalable, and future-ready. That’s why we’re proud to be a member of the OpenInfra Foundation — a global community committed to advancing open-source infrastructure technologies.
+At [Encora](https://www.encora.com/), our mission is to empower organizations with cutting-edge digital engineering solutions that are open, scalable, and future-ready. That’s why we’re proud to be a member of the OpenInfra Foundation, a global community committed to advancing open-source infrastructure technologies.
 
 As an OpenInfra Foundation member, we align with the mission to drive open innovation in infrastructure technologies. Being part of this collaborative, global ecosystem allows us to:
 

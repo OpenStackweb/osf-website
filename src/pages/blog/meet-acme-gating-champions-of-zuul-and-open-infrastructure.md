@@ -6,7 +6,7 @@ date: 2025-09-16T14:15:19.260Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: false
+hidePost: true
 seo:
   title: "Meet Acme Gating: Champions of Zuul and Open Infrastructure"
   description: Acme Gating is a company fully dedicated to empowering enterprises
@@ -14,6 +14,8 @@ seo:
   url: openinfra.org/blog/openinfra-member-acme-gating
   twitterUsername: "@openinfradev"
 ---
+![](/img/1200x675-silver-acme-gating-1-.png)
+
 When it comes to scaling modern software development workflows, one tool stands out from the crowd, [Zuul](http://zuulci.org). And at the heart of the Zuul ecosystem is [Acme Gating](https://acmegating.com/), a company fully dedicated to empowering enterprises with this open source CI/CD solution. As a proud member of the OpenInfra Foundation, Acme Gating is helping shape the reliability of open infrastructure.
 
 ### Why OpenInfra?

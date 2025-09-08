@@ -32,7 +32,7 @@ This combination allows us to offer a powerful alternative to public clouds and 
 
 ### Contributing to the OpenInfra Ecosystem
 
-Our engagement with the OpenInfra community goes beyond using the technology. We actively contribute to several OpenInfra projects, including:
+Our engagement with the OpenInfra community goes beyond using the technology. We actively contribute to several OpenInfra and adjancent open source projects, including:
 
 * OpenStack with contributions to Manila, Nova, Designate, Octavia, and others
 * Kubernetes as part of our orchestration layer

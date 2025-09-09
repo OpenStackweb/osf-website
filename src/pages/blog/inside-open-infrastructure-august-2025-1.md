@@ -6,7 +6,7 @@ date: 2025-08-27T15:31:11.958Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   url: https://openinfra.dev/blog/openinfra-newsletter-august-2025
   title: "Inside Open Infrastructure: August 2025"

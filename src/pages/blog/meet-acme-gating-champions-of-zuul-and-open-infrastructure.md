@@ -2,11 +2,11 @@
 templateKey: blog-post
 title: "Meet Acme Gating: Champions of Zuul and Open Infrastructure"
 author: James Blair
-date: 2025-09-16T14:15:19.260Z
+date: 2025-09-09T17:40:19.802Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: "Meet Acme Gating: Champions of Zuul and Open Infrastructure"
   description: Acme Gating is a company fully dedicated to empowering enterprises

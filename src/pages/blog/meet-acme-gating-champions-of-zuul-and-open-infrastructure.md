@@ -11,7 +11,7 @@ seo:
   title: "Meet Acme Gating: Champions of Zuul and Open Infrastructure"
   description: Acme Gating is a company fully dedicated to empowering enterprises
     with Zuul, an open source CI/CD solution.
-  url: openinfra.org/blog/openinfra-member-acme-gating
+  url: https://openinfra.org/blog/openinfra-member-acme-gating
   twitterUsername: "@openinfradev"
 ---
 ![](/img/1200x675-silver-acme-gating-1-.png)

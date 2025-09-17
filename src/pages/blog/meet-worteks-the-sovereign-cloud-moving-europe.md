@@ -16,7 +16,7 @@ seo:
 ---
 STACKIT, the cloud and colocation provider of Schwarz Group, stands for the sovereign cloud that moves Europe. As such, digital sovereignty is one of our fundamental cornerstones, and adhering to data protection according to European standards is a key priority. To achieve this, independence is a must - economically, technologically and politically. The OpenInfra Foundation provides an open-source infrastructure that aligns with our values, which is why we at STACKIT are proud to be an OpenInfra Member.
 
-## Our Core Focus: Digital Sovereignty
+### Our Core Focus: Digital Sovereignty
 
 STACKIT primarily works with OpenStack, an open-source cloud platform for building and managing cloud environments without risking a vendor lock-in. In practice, this means data is stored exclusively in STACKIT's own data centers in Germany and Austria. This full control over data storage and processing enables us to meet complex legal and regulatory requirements while remaining flexible, scalable and secure.Our OpenStack deployment currently covers three Availability Zones near Heilbronn, with additional zones under construction in Austria. This geographical distribution allows us to ensure even greater scalability and resilience for our customers.
 

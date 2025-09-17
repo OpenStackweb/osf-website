@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Meet STACKIT GmbH & Co. KG: A Sovereign Cloud Moving Europe"
+title: "Meet STACKIT GmbH & Co. KG: A Sovereign Cloud Powering Europe"
 author: Felix Hüttner
 date: 2025-09-17T17:38:16.506Z
 category:
@@ -8,28 +8,36 @@ category:
     label: Community
 hidePost: true
 seo:
-  title: "Meet STACKIT GmbH & Co. KG: A Sovereign Cloud Moving Europe"
+  title: "Meet STACKIT GmbH & Co. KG: A Sovereign Cloud Powering Europe"
   twitterUsername: "@openinfradev"
   url: https://openinfra.org/blog/openinfra-member-stackit
   description: STACKIT, the cloud and colocation provider of Schwarz Group, stands
     for the sovereign cloud that moves Europe.
 ---
-STACKIT, the cloud and colocation provider of Schwarz Group, stands for the sovereign cloud that moves Europe. As such, digital sovereignty is one of our fundamental cornerstones, and adhering to data protection according to European standards is a key priority. To achieve this, independence is a must - economically, technologically and politically. The OpenInfra Foundation provides an open-source infrastructure that aligns with our values, which is why we at STACKIT are proud to be an OpenInfra Member.
+[STACKIT](https://www.stackit.de/en/), the cloud and colocation provider of the Schwarz Group, is building the sovereign cloud that powers Europe. Digital sovereignty is not just a principle for us, it is a cornerstone. Adhering to strict European data protection standards is essential, and true sovereignty requires independence on every level: economic, technological, and political.
+
+That is why we are proud to be an OpenInfra Member. The OpenInfra Foundation provides an open source infrastructure model that aligns directly with our values: open, transparent, and community-driven.
 
 ### Our Core Focus: Digital Sovereignty
 
-STACKIT primarily works with OpenStack, an open-source cloud platform for building and managing cloud environments without risking a vendor lock-in. In practice, this means data is stored exclusively in STACKIT's own data centers in Germany and Austria. This full control over data storage and processing enables us to meet complex legal and regulatory requirements while remaining flexible, scalable and secure.Our OpenStack deployment currently covers three Availability Zones near Heilbronn, with additional zones under construction in Austria. This geographical distribution allows us to ensure even greater scalability and resilience for our customers.
+At STACKIT, OpenStack forms the backbone of our cloud infrastructure. By relying on this open source cloud platform, we can build and manage environments without the risks of vendor lock-in.
+
+All customer data is stored exclusively in STACKIT’s own data centers in Germany and Austria. This ensures full control over data storage and processing, allowing us to meet complex legal and regulatory requirements while remaining scalable, secure, and adaptable.
+
+Today, STACKIT’s OpenStack deployment spans three Availability Zones near Heilbronn, with additional zones under construction in Austria. This regional expansion strengthens both scalability and resilience, giving customers confidence in a truly sovereign cloud solution.
 
 ### Innovation and Engagement
 
-We would like to point to [our scientific deep dive](https://www.stackit.de/de/kontakt-handelsblatt-studie/) for more digital sovereignty in Germany (only available in German). The current geopolitical situation makes it urgently necessary for German companies to strengthen their digital sovereignty. In our pioneering study, which we are currently carrying out together with the Handelsblatt Research Institute, we shed light on the dependence on imported technologies and demonstrate meaningful cloud-based strategies for digital sovereignty for companies.
+Digital sovereignty is not just a guiding value, it’s a national priority. To contribute to this effort, STACKIT has partnered with the [Handelsblatt Research Institute](https://research.handelsblatt.com/) on a pioneering study that examines the risks of dependence on imported technologies and proposes cloud-based strategies to strengthen sovereignty for German companies.\
+\
+[Read more about the study](https://www.stackit.de/de/kontakt-handelsblatt-studie/) (German only)
 
 ### Commitment to Upstream Development
 
-STACKIT has a dedicated OpenStack team, which is highly committed to the open-source community. By actively contributing code upstream whenever possible, we ensure that our infrastructure remains at the forefront of innovation. Our contributions range from improving features for OVN migration to fixing bugs in services such as Nova and Neutron. This active involvement shows that STACKIT doesn't just use the technology, but also helps to shape its development.
+Our dedicated OpenStack team is deeply engaged with the open source community. By actively contributing code upstream, STACKIT ensures our infrastructure remains at the cutting edge of innovation.
+
+Our contributions include improving OVN migration features and fixing bugs in critical services like Nova and Neutron. This hands-on involvement reflects our philosophy: STACKIT doesn’t just deploy open source, we help shape its future.
 
 ### Looking Ahead
 
-STACKIT GmbH & Co. KG continues to play an important role in the OpenInfra community. Their ongoing commitment to open source, upstream development, and advancing the cause of digital sovereignty puts STACKIT right in the middle of the work we're doing at OpenInfra Foundation.
-
-Next year, STACKIT will also have their next Cloud X Summit by STACKIT. The event will take place on September 17, 2026 in Wiesbaden. Stay tuned for more information in 2026!
+STACKIT GmbH & Co. KG is proud to stand alongside the OpenInfra community in advancing the cause of open source infrastructure. With our commitment to sovereignty, upstream development, and community collaboration, we are helping to build an open, secure, and resilient digital future for Europe and beyond.

@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Meet STACKIT GmbH & Co. KG: The Sovereign Cloud Moving Europe"
+title: "Meet STACKIT GmbH & Co. KG: A Sovereign Cloud Moving Europe"
 author: Felix Hüttner
 date: 2025-09-17T17:38:16.506Z
 category:
@@ -8,7 +8,7 @@ category:
     label: Community
 hidePost: true
 seo:
-  title: "Meet STACKIT GmbH & Co. KG: The Sovereign Cloud Moving Europe"
+  title: "Meet STACKIT GmbH & Co. KG: A Sovereign Cloud Moving Europe"
   twitterUsername: "@openinfradev"
   url: https://openinfra.org/blog/openinfra-member-stackit
   description: STACKIT, the cloud and colocation provider of Schwarz Group, stands

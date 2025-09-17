@@ -8,7 +8,7 @@ category:
     label: Community
 hidePost: true
 seo:
-  title: "Meet Worteks: The Sovereign Cloud Moving Europe"
+  title: "Meet STACKIT GmbH & Co. KG: The Sovereign Cloud Moving Europe"
   twitterUsername: "@openinfradev"
   url: https://openinfra.org/blog/openinfra-member-stackit
   description: STACKIT, the cloud and colocation provider of Schwarz Group, stands

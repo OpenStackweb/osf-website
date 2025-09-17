@@ -1,11 +1,11 @@
 ---
 templateKey: blog-post
-title: "Meet Worteks: The Sovereign Cloud Moving Europe"
-author: Jimmy McArthur
+title: "Meet STACKIT GmbH & Co. KG: The Sovereign Cloud Moving Europe"
+author: Felix Hüttner
 date: 2025-09-17T17:38:16.506Z
 category:
-  - value: category-KMY0e6q9N
-    label: OpenStack
+  - value: category-h2Ztx9rpD
+    label: Community
 hidePost: true
 seo:
   title: "Meet Worteks: The Sovereign Cloud Moving Europe"

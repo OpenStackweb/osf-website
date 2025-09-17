@@ -30,6 +30,6 @@ STACKIT has a dedicated OpenStack team, which is highly committed to the open-so
 
 ### Looking Ahead
 
-STACKIT GmbH & Co. KG continues to play an important role in the OpenInfra community. With their ongoing commitment to open source, we are excited to see how they will help shape the future of infrastructure around the world.
+STACKIT GmbH & Co. KG continues to play an important role in the OpenInfra community. Their ongoing commitment to open source, upstream development, and advancing the cause of digital sovereignty puts STACKIT right in the middle of the work we're doing at OpenInfra Foundation.
 
 Next year, STACKIT will also have their next Cloud X Summit by STACKIT. The event will take place on September 17, 2026 in Wiesbaden. Stay tuned for more information in 2026!

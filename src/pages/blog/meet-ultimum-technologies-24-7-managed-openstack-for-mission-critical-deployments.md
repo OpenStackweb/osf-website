@@ -16,6 +16,8 @@ seo:
   url: https://openinfra.org/blog/openinfra-member-ultimum-technologies
   twitterUsername: "@openinfradev"
 ---
+![Ultimum Technologies - Silver Member of OpenInfra Foundation](/img/ultimum-membershout.png "Ultimum Technologies - Silver Member of OpenInfra Foundation")
+
 At [Ultimum Technologies](https://www.ultimum.io/), we believe that the future of digital infrastructure lies in openness, collaboration, and shared innovation. That’s why we’re proud to be a Silver Member of the OpenInfra Foundation, formalizing our long-standing commitment to the open source community and reinforcing our role in shaping the next generation of cloud and infrastructure technologies.
 
 For our customers and partners, this means we are better positioned to anticipate industry trends, contribute to standards that improve interoperability, and ensure that the infrastructure layer remains open and community-driven.

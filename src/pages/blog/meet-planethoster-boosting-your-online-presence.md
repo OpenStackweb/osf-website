@@ -14,6 +14,8 @@ seo:
     open source technologies at the core of its business.
   twitterUsername: "@openinfradev"
 ---
+![Planethoster - Silver Member of OpenInfra Foundation](/img/planethoster-membershout.png "Planethoster - Silver Member of OpenInfra Foundation")
+
 [PlanetHoster](https://www.planethoster.com/en) is a fast-growing managed hosting provider built on open source technologies at the core of its business. For more than a decade, we’ve relied on platforms like OpenStack to deliver the flexibility, scalability, and reliability our customers expect.
 
 Becoming an OpenInfra Member is our way of giving back to the global community that builds and sustains the technologies we use every day. By supporting the OpenInfra Foundation, we aim to help make platforms like OpenStack even more popular and widely adopted, increase the number of contributors, and ensure that it remains a stable and future-proof solution for years to come.

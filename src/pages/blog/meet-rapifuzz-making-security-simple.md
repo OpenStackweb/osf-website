@@ -13,6 +13,8 @@ seo:
   url: https://openinfra.org/blog/openinfra-member-rapifuzz
   twitterUsername: "@openinfradev"
 ---
+![Rapifuzz - Silver Member of OpenInfra Foundation](/img/rapifuzz-membershout.png "Rapifuzz - Silver Member of OpenInfra Foundation")
+
 [Rapifuzz Pvt. Ltd.](https://rapifuzz.in/) joined the OpenInfra Foundation to connect with a global community that is shaping the next generation of open-source infrastructure. OpenStack has been pivotal in this journey by helping us move beyond third-party cloud providers, take full control of our infrastructure, and optimize costs while boosting agility.
 
 As members of OpenInfra, we aim to stay closely aligned with the latest developments in OpenStack and related projects, collaborate with like-minded organizations, and share lessons learned from our real-world deployments. This membership also opens the door to adopting emerging OpenInfra technologies, ensuring our infrastructure remains innovative, scalable, and ready for the future.

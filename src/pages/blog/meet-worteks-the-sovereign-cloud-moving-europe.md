@@ -14,6 +14,8 @@ seo:
   description: STACKIT, the cloud and colocation provider of Schwarz Group, stands
     for the sovereign cloud that moves Europe.
 ---
+![STACKIT - Silver Member of OpenInfra Foundation](/img/stackit-membershout.png "STACKIT - Silver Member of OpenInfra Foundation")
+
 [STACKIT](https://www.stackit.de/en/), the cloud and colocation provider of the Schwarz Group, is building the sovereign cloud that powers Europe. Digital sovereignty is not just a principle for us, it is a cornerstone. Adhering to strict European data protection standards is essential, and true sovereignty requires independence on every level: economic, technological, and political.
 
 That is why we are proud to be an OpenInfra Member. The OpenInfra Foundation provides an open source infrastructure model that aligns directly with our values: open, transparent, and community-driven.

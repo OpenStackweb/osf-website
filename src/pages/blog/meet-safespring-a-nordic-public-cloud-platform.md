@@ -14,6 +14,10 @@ seo:
   url: https://openinfra.org/blog/openinfra-member-safespring
   twitterUsername: "@openinfradev"
 ---
+![Safespring - Silver Member of OpenInfra Foundation](/img/safespring-membershout.png "Safespring - Silver Member of OpenInfra Foundation")
+
+[](https://www.safespring.com/en/)
+
 [Safespring](https://www.safespring.com/en/) is dedicated to delivering secure, sovereign, and open cloud infrastructure for the Nordic region. By becoming an OpenInfra Member, we strengthen our mission to build on open standards and avoid vendor lock-in, ensuring our customers can rely on transparent, community-driven technologies.
 
 Membership not only gives us a voice in the global OpenInfra community, it allows us to collaborate directly with contributors worldwide and support the foundation that sustains large-scale open source projects like OpenStack.

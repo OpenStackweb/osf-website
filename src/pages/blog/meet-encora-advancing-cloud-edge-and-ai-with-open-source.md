@@ -14,7 +14,7 @@ seo:
   description: Encora's mission is to empower organizations with cutting-edge
     digital engineering solutions that are open, scalable, and future-ready.
 ---
-![](/img/1200x675-silver-encora-1-.png)
+![](/img/encora-silvermember.png)
 
 At [Encora](https://www.encora.com/), our mission is to empower organizations with cutting-edge digital engineering solutions that are open, scalable, and future-ready. That’s why we’re proud to be a member of the OpenInfra Foundation, a global community committed to advancing open-source infrastructure technologies.
 

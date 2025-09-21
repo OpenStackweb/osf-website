@@ -6,7 +6,7 @@ date: 2025-09-17T17:38:16.506Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: "Meet STACKIT GmbH & Co. KG: A Sovereign Cloud Powering Europe"
   twitterUsername: "@openinfradev"

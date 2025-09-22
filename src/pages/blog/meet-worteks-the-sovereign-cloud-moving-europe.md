@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "Meet STACKIT GmbH & Co. KG: A Sovereign Cloud Powering Europe"
 author: Felix Hüttner
-date: 2025-09-17T17:38:16.506Z
+date: 2025-09-22T01:17:16.888Z
 category:
   - value: category-h2Ztx9rpD
     label: Community

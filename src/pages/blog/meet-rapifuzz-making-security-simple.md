@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "Meet RAPIFUZZ: Making Security Simple"
 author: Rahul Pratap
-date: 2025-09-17T18:34:04.253Z
+date: 2025-09-23T13:38:20.540Z
 category:
   - value: category-h2Ztx9rpD
     label: Community

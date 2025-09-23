@@ -34,7 +34,7 @@ Today, more than 95% of our hosting business runs on several OpenStack clouds, a
 
 One of our flagship offerings is the [HybridCloud N0C](https://blog.planethoster.com/en/planethoster-unveils-hybridcloud-n0c-a-next-generation-dedicated-server-offering/), a hosting solution powered by our internally developed control panel system. Running entirely in OpenStack virtual machines, HybridCloud N0C gives our customers the flexibility to deploy across multiple locations: Montreal (Canada), Paris (France), and Lausanne (Switzerland).
 
-We’re also preparing to expand into private cloud deployment and hosting services. Customers will soon be able to provision secure, managed N0C VM images, complete with full support: a PaaS-like experience that simplifies cloud adoption while maintaining reliability.
+We’re also preparing to expand into [private cloud](https://www.planethoster.com/en/private-cloud) deployment and hosting services. Customers will soon be able to provision secure, managed N0C VM images, complete with full support: a PaaS-like experience that simplifies cloud adoption while maintaining reliability.
 
 Try HybridCloud N0C with an exclusive 50% off for the first month: [Learn More](https://www.planethoster.com/en/HybridCloud-Servers?utm_source=openinfra&utm_medium=event&utm_campaign=OpenInfra_2025&utm_id=66725)
 

@@ -6,7 +6,7 @@ date: 2025-09-17T18:59:35.808Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: "Meet PlanetHoster: Boosting Your Online Presence"
   url: https://openinfra.org/blog/openinfra-member-planethoster

@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "Inside Open Infrastructure: September 2025"
 author: Allison Price
-date: 2025-09-30T21:36:39.020Z
+date: 2025-09-30T22:02:23.679Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements

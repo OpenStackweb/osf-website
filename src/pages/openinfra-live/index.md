@@ -15,6 +15,21 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2025-10-02T09:00:12.921Z
+    episodeTitle: Introducting OpenStack 2025.2 'Flamingo'
+    episodeDescription: >
+      Learn more about the 32nd release of OpenStack straight from the community
+      leaders.
+    episodeSpeakers: |-
+      Allison Price, Host
+      Goutham Pacha Ravi, OpenStack Technical Committee 
+      Iury Gregory, Ironic 
+      Rene Ribaud, Nova 
+      Carlos Silva, Manila 
+    youtubeLink: https://www.youtube.com/watch?v=cdqL6umlM1w
+    linkedinLink: https://www.linkedin.com/events/introductingopenstack2025-2-fla7379231051413577728/
+    youtubeEmbed: https://www.youtube.com/embed/cdqL6umlM1w?si=inIRGM7cTuTgkxYx
+  - hidden: false
     date: 2025-04-03T14:00:00.000Z
     episodeTitle: Introducing OpenStack 2025.1 Epoxy
     youtubeLink: https://www.youtube.com/watch?v=qX2-8oyFVPk

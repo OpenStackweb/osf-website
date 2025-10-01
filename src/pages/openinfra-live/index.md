@@ -15,7 +15,7 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2025-10-02T09:00:12.921Z
+    date: 2025-10-02T14:00:12.921Z
     episodeTitle: Introducting OpenStack 2025.2 'Flamingo'
     episodeDescription: >
       Learn more about the 32nd release of OpenStack straight from the community

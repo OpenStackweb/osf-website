@@ -21,11 +21,11 @@ episodes:
       Learn more about the 32nd release of OpenStack straight from the community
       leaders.
     episodeSpeakers: |-
-      Allison Price, Host
       Goutham Pacha Ravi, OpenStack Technical Committee 
       Iury Gregory, Ironic 
       Rene Ribaud, Nova 
       Carlos Silva, Manila 
+      Brian Haley, Neutron
     youtubeLink: https://www.youtube.com/watch?v=cdqL6umlM1w
     linkedinLink: https://www.linkedin.com/events/introductingopenstack2025-2-fla7379231051413577728/
     youtubeEmbed: https://www.youtube.com/embed/cdqL6umlM1w?si=inIRGM7cTuTgkxYx

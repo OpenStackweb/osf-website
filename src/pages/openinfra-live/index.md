@@ -27,7 +27,7 @@ episodes:
       Carlos Silva, Manila 
       Brian Haley, Neutron
     youtubeLink: https://www.youtube.com/watch?v=cdqL6umlM1w
-    linkedinLink: https://www.linkedin.com/events/introductingopenstack2025-2-fla7379231051413577728/
+    linkedinLink: https://www.linkedin.com/posts/openinfra-foundation_learn-more-about-the-32nd-release-of-openstack-activity-7379270289551114240-1GDL
     youtubeEmbed: https://www.youtube.com/embed/cdqL6umlM1w?si=inIRGM7cTuTgkxYx
   - hidden: false
     date: 2025-04-03T14:00:00.000Z

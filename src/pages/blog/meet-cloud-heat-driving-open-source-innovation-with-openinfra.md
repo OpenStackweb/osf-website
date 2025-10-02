@@ -15,6 +15,8 @@ seo:
   url: https://openinfra.org/blog/openinfra-member-cloud-and-heat
   twitterUsername: "@openinfra.dev"
 ---
+![Cloud & Heat](/img/cloudandheat-blog.png "Cloud & Heat")
+
 At Cloud&Heat, our commitment to open source technologies goes far beyond just using software, it's a core part of how we innovate, build, and collaborate. That’s why becoming a Silver Member of the OpenInfra Foundation was a natural step for us. It aligns with our mission to drive forward digitally sovereign, sustainable, and secure cloud infrastructure and to do it together with a global community.
 
 ### Supporting the OpenInfra Mission

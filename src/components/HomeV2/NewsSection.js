@@ -48,7 +48,14 @@ const NewsSection = class extends React.Component {
                         <p className="home-v2-paragraph home-v2-paragraph-white">The latest news, technologies, and resources from the OpenInfra Community</p>
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
-                    <div className="news-article-inner-container">
+                        <div className="news-article-inner-container">
+                            <a href="https://www.networkworld.com/article/4066532/openstack-flamingo-pays-down-technical-debt-as-adoption-continues-to-climb.html"><img src="/img/homeV2/news-images/NetworkWorld-Flamingo.png" /></a>
+                            <p className="news-article-intro-text"> Sean Michael Kerner • Oct 01, 2025</p>
+                            <a href="https://www.networkworld.com/article/4066532/openstack-flamingo-pays-down-technical-debt-as-adoption-continues-to-climb.html"><h3>OpenStack Flamingo pays down technical debt as adoption continues to climb</h3></a>
+                            <p className="news-article-content">Today the open-source effort debuted its 32nd release known as OpenStack Flamingo. The new release follows a year of change for OpenStack.</p>
+                            <a className="news-article-link" href="https://www.networkworld.com/article/4066532/openstack-flamingo-pays-down-technical-debt-as-adoption-continues-to-climb.html">READ MORE</a>
+                        </div>
+                        <div className="news-article-inner-container">
                             <a href="https://www.theregister.com/2025/04/03/openstack_epoxy_released/"><img src="/img/homeV2/news-images/theregister-epoxy.png" /></a>
                             <p className="news-article-intro-text"> Simon Sharwood • Apr 03, 2025</p>
                             <a href="https://www.theregister.com/2025/04/03/openstack_epoxy_released/"><h3>OpenStack delivers ‘Epoxy’ release, which it hopes will unglue more VMware customers</h3></a>

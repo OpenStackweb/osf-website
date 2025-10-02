@@ -15,7 +15,7 @@ seo:
     unwavering, and our relationship with the OpenInfra Foundation is a
     testament to this core value. "
 ---
-![](/img/1200x675-gold-red-hat.png)
+![](/img/redhat-quote-smaller.jpg)
 
 At Red Hat, our commitment to open source communities is unwavering, and our relationship with the OpenInfra Foundation is a testament to this core value. Through our Gold membership, we don't just contribute financially; we actively engage to shape the future of open infrastructure, particularly OpenStack. 
 

@@ -23,6 +23,8 @@ Our investment in the OpenInfra community goes deep. We fund direct contribution
 
 Beyond the technical contributions, our Gold membership provides a crucial path to influence the highest governance structures of the OpenInfra Foundation. Having a Red Hat Board member elected by our fellow Gold member companies sends a strong signal to our customers: our dedication to the upstream community is paramount. 
 
+![Eoghan Glynn Quote](/img/redhat-quote-sm.jpg "Eoghan Glynn Quote")
+
 This visible presence in governance forums and at events builds immense customer confidence. As organizations plan years ahead for their OpenStack deployments, knowing that Red Hat is actively involved in ensuring the community's long-term viability provides critical reassurance. Along with our individually elected members, all Red Hatters on the Board are unified in this mission. 
 
 Furthermore, our representatives serve on key sub-committees like Finance, Executive Goals, and Inclusion, allowing us to help shape policy on strategic directions, including the important discussion around accepting AI-generated contributions. 

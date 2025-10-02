@@ -17,7 +17,11 @@ seo:
   url: https://openinfra.org/blog/openinfra-member-netways
   twitterUsername: "@openinfradev "
 ---
-[NETWAYS Managed Services](https://nws.netways.de/en/managed-services/) thrives on open source. With OpenStack at the heart of our cloud platform, becoming an OpenInfra Member was a natural step. We’re committed to giving back to the upstream community that makes our work possible by contributing code, sharing knowledge, and participating in the global exchange of ideas that OpenInfra enables.
+
+
+![Netways](/img/netways-blog.png "Netways Web Services")
+
+[](https://nws.netways.de/en/managed-services/)[NETWAYS Managed Services](https://nws.netways.de/en/managed-services/) thrives on open source. With OpenStack at the heart of our cloud platform, becoming an OpenInfra Member was a natural step. We’re committed to giving back to the upstream community that makes our work possible by contributing code, sharing knowledge, and participating in the global exchange of ideas that OpenInfra enables.
 
 ### How We Use OpenInfra Projects
 

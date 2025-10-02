@@ -54,6 +54,7 @@ We are just 2 weeks away from getting back together again in Paris!
 # OpenStack: Open source software for creating private and public clouds
 
 * Yesterday, the OpenStack community announced the release of OpenStack 2025.2 (Flamingo). [Learn more](https://www.openstack.org/software/openstack-flamingo/) about the highlights around technical debt reduction and expanded security.
+* learn more about the 32nd release of OpenStack straight from the community leaders on [OpenInfra Live](https://www.youtube.com/watch?v=cdqL6umlM1w).
 
 # Kata Containers: The speed of containers, the security of VMs
 

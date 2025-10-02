@@ -592,6 +592,30 @@
       "featured": true,
       "hideArticle": false,
       "image": "/img/img_20180522_125817.webp"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2025-10-02T20:35:17.835Z",
+      "title": "OpenStack in the pink with Flamingo release that escapes ancient Python constrictions",
+      "site": "The Register",
+      "link": "https://www.theregister.com/2025/10/01/openstack_flamingo_release/"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2025-10-02T20:37:00.064Z",
+      "title": "OpenStack Flamingo sets course for a future without Eventlet",
+      "site": "Techzine",
+      "link": "https://www.techzine.eu/news/applications/135110/openstack-flamingo-sets-course-for-a-future-without-eventlet/"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2025-10-02T20:37:00.727Z",
+      "title": "OpenStack Flamingo pays down technical debt as adoption continues to climb",
+      "site": "Network World",
+      "link": "https://www.networkworld.com/article/4066532/openstack-flamingo-pays-down-technical-debt-as-adoption-continues-to-climb.html"
     }
   ],
   "seo": {

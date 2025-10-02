@@ -15,7 +15,7 @@ seo:
     unwavering, and our relationship with the OpenInfra Foundation is a
     testament to this core value. "
 ---
-![](/img/redhat-quote-smaller.jpg)
+![](/img/1200x675-gold-red-hat.png)
 
 At Red Hat, our commitment to open source communities is unwavering, and our relationship with the OpenInfra Foundation is a testament to this core value. Through our Gold membership, we don't just contribute financially; we actively engage to shape the future of open infrastructure, particularly OpenStack. 
 
@@ -23,7 +23,7 @@ Our investment in the OpenInfra community goes deep. We fund direct contribution
 
 Beyond the technical contributions, our Gold membership provides a crucial path to influence the highest governance structures of the OpenInfra Foundation. Having a Red Hat Board member elected by our fellow Gold member companies sends a strong signal to our customers: our dedication to the upstream community is paramount. 
 
-![Eoghan Glynn Quote](/img/redhat-quote-sm.jpg "Eoghan Glynn Quote")
+![Eoghan Glynn Quote](/img/redhat-quote-smaller.jpg "Eoghan Glynn Quote")
 
 This visible presence in governance forums and at events builds immense customer confidence. As organizations plan years ahead for their OpenStack deployments, knowing that Red Hat is actively involved in ensuring the community's long-term viability provides critical reassurance. Along with our individually elected members, all Red Hatters on the Board are unified in this mission. 
 

@@ -6,7 +6,7 @@ date: 2025-09-26T22:19:03.925Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: "Red Hat and OpenInfra: A Partnership Driving OpenStack's Future"
   url: https://openinfra.org/blog/openinfra-member-redhat

@@ -230,6 +230,11 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/bylaws"
+  to = "/legal/bylaws"
+  status = 301
+  force = true
+[[redirects]]
   from = "/upp"
   to = "/university-partnership-program"
   status = 301

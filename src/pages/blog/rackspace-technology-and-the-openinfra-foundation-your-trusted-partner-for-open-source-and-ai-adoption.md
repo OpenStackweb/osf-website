@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: "Rackspace Technology and the OpenInfra Foundation: Your Trusted Partner
-  for Open Source and AI Adoption"
+title: "Rackspace Technology and the OpenInfra Foundation: Your Trusted
+  Partnership for Open Source and AI Adoption"
 author: Madhavi Rajan
 date: 2025-10-13T17:05:17.873Z
 category:

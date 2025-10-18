@@ -28,8 +28,6 @@ footer:
 
 [Trademark Policy](/legal/trademark-policy)
 
-[Transparency Policy](/legal/transparency-policy)
-
 [Event Policy](/legal/event-policy)
 
 [Policy for AI Generated Content](/legal/ai-policy)
@@ -53,3 +51,5 @@ footer:
 [Individual Member Agreement (Delaware 501c6)](/legal/individual-member-agreement)
 
 [Privacy Policy (Delaware 501c6)](/privacy-policy)
+
+[Transparency Policy (Delaware 501c6)](/legal/transparency-policy)

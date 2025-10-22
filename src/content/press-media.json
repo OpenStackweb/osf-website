@@ -3,6 +3,30 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2025-10-22T12:33:47.916Z",
+      "title": "Europe's plan to ditch US tech giants is built on open source - and it's gaining steam",
+      "site": "ZDNet",
+      "link": "https://www.zdnet.com/article/europes-plan-to-ditch-us-tech-giants-is-built-on-open-source-and-its-gaining-steam/"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2025-10-22T12:33:01.413Z",
+      "link": "https://www.computerweekly.com/news/366633154/OpenInfra-Summit-Europe-Migrating-off-VMware",
+      "site": "Computer Weekly ",
+      "title": "OpenInfra Summit Europe: Migrating off VMware"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2025-10-22T12:35:16.380Z",
+      "link": "https://www.computerweekly.com/news/366632938/OpenInfra-Summit-Europe-Digital-sovereignty-in-the-face-of-political-tension",
+      "site": "Computer Weekly",
+      "title": "OpenInfra Summit Europe: Digital sovereignty in the face of political tension"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2025-10-02T20:37:00.727Z",
       "title": "OpenStack Flamingo pays down technical debt as adoption continues to climb",
       "site": "Network World",

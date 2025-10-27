@@ -1,9 +1,10 @@
 ---
 templateKey: election-page
 seo:
-  description: OIF Individual Member Representative elections for the 2026 Governing Board of
-    Directors will be held *Monday January 12, 2026 to * *Friday January 16,
-    2026*. Nominations  occur between *November 10, 2025 and December 12, 2025*.
+  description: OIF Individual Member Representative elections for the 2026
+    Governing Board of Directors will be held *Monday January 12, 2026 to *
+    *Friday January 16, 2026*. Nominations  occur between *November 10, 2025 and
+    December 12, 2025*.
   image: /img/OpenInfra-icon-white.jpg
   title: 2026 Governing Board Elections
   twitterUsername: "@OpenInfraDev"
@@ -51,7 +52,7 @@ OIF Individual Member Representative elections for the 2026 Board will be held *
 
 Governing Board elections will take place online using a Meek STV voting method. No more than three members of the Board may be affiliated with the same company, which means the candidate receiving the next highest votes would assume the seat if the election results in too many employees from a single company. OIF Individual Member Representatives elected in 2026 will serve a one-year term, but they may be nominated and re-elected indefinitely. The next election for OIF Individual Member Representative will take place during January 2026.
 
-If you are an eligible voter, you will receive an email with a link to complete your ballot when the elections open on January 12, 2026. To ensure you receive the ballot, please log on to the website at [openinfra.org/a/profile](/a/profile) and make sure your information is current. **Please note, elections will take place on [https://lfx.linuxfoundation.org/](https://lfx.linuxfoundation.org/). In order to vote, you must have a LFX account using the email address that matches the email where your ballot is sent.** 
+If you are an eligible voter, you will receive an email with a link to complete your ballot when the elections open on January 12, 2026. To ensure you receive the ballot, please log on to the website at [openinfra.org/a/profile](/a/profile) and make sure your information is current. **Please note, elections will take place on <https://lfx.linuxfoundation.org/>. In order to vote, you must have a LFX account using the email address that matches the email where your ballot is sent.** 
 
 #### Nomination Process
 
@@ -74,7 +75,7 @@ A candidate's responses will appear on their public profile, as well as on [the
 
 #### Election Timeline Summary:
 
-* November 10: OIF Individual Member Representative nominations open, election details live on [openinfra.org](https://openinfra.dev/election)
+* November 10: OIF Individual Member Representative nominations open, election details live on [openinfra.org](/election)
 * December 12: OIF Individual Member Representative nominations close
 * December 19: Deadline for OIF Individual Member Representative Nominees to complete application
 * January 8: Gold Member Director Selector Election (1 day)

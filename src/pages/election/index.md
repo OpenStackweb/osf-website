@@ -51,7 +51,7 @@ OIF Individual Member Representative elections for the 2026 Board will be held *
 
 Governing Board elections will take place online using a Meek STV voting method. No more than three members of the Board may be affiliated with the same company, which means the candidate receiving the next highest votes would assume the seat if the election results in too many employees from a single company. OIF Individual Member Representatives elected in 2026 will serve a one-year term, but they may be nominated and re-elected indefinitely. The next election for OIF Individual Member Representative will take place during January 2026.
 
-If you are an eligible voter, you will receive an email with a link to complete your ballot when the elections open on January 12, 2026. To ensure you receive the ballot, please log on to the website at [openinfra.dev/a/profile](/a/profile) and make sure your information is current.
+If you are an eligible voter, you will receive an email with a link to complete your ballot when the elections open on January 12, 2026. To ensure you receive the ballot, please log on to the website at [openinfra.dev/a/profile](/a/profile) and make sure your information is current. **Please note, elections will take place on [https://lfx.linuxfoundation.org/](https://lfx.linuxfoundation.org/). In order to vote, you must have a LFX account using the email address that matches the email where your ballot is sent.** 
 
 #### Nomination Process
 

@@ -9,11 +9,11 @@ category:
 hidePost: true
 seo:
   title: "Meet Ant Group: Building Trusted, Open-Source Infrastructure for the AI Era"
-  description: At [Ant Group](https://www.antgroup.com/), we believe trust is the
-    cornerstone of every service we provide. As we continue to blend technology
-    and finance in increasingly innovative ways, our mission is to build
-    future-ready digital infrastructure for the service industry—creating small,
-    beautiful changes that impact the world in meaningful ways.
+  description: At Ant Group, we believe trust is the cornerstone of every service
+    we provide. As we continue to blend technology and finance in increasingly
+    innovative ways, our mission is to build future-ready digital infrastructure
+    for the service industry—creating small, beautiful changes that impact the
+    world in meaningful ways.
   url: https://openinfra.org/blog/meet-ant-group-building-trusted-open-source-infrastructure-for-the-ai-era
   twitterUsername: "@openinfradev"
 ---

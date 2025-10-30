@@ -4,10 +4,10 @@ import "./styles.scss";
 
 const UPCOMING_SUMMITS = [
   {
-    key: "europe-25",
+    key: "china-26",
     background: "/img/summit-landing/cards/summit-europe-25-2.png",
-    date: "October 17-19, 2025",
-    location: "École Polytechnique, Paris-Saclay, France",
+    date: "September 8-9, 2026",
+    location: "Shanghai International Convention Center Oriental Riverside Hotel",
     notification: {
       text: " ",
       button: {

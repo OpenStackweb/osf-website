@@ -34,23 +34,23 @@ const OpenInfraEventsSection = () => {
 
     const UpcomingEventsData = [
         {
+            image: '/img/homeV2/events-images/openinfra-asia-img-2026.png',
+            date: "September 8-9, 2026",
+            location: "Shanghai International Convention Center Oriental Riverside Hotel",
+            button: {
+                link: 'https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/',
+                text: 'LEARN MORE'
+            }
+        },
+        {
             image: '/img/homeV2/events-images/openinfra-europe-img-2025.png',
             date: 'October 17-19, 2025',
             location: 'École Polytechnique, Paris-Saclay, France',
             button: {
-                link: 'https://openinfra.dev/summit',
-                text: 'OPENINFRA.DEV/SUMMIT'
+                link: 'https://www.youtube.com/playlist?list=PLKqaoAnDyfgr91wN_12nwY321504Ctw1s',
+                text: 'WATCH VIDEOS'
             }
-        },
-        {
-            image: '/img/homeV2/events-images/openinfra-asia-img-2025.png',
-            date: 'July - September 2025',
-            location: 'Hanoi ● Ho Chi Minh City ● Yogyakarta ● Seoul ● Taipei ● Shanghai ● Tokyo',
-            button: {
-                link: 'https://openinfra.dev/days',
-                text: 'OPENINFRA.DEV/DAYS'
-            }
-        }
+        }        
     ]
 
     return (

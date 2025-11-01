@@ -7,9 +7,9 @@ const HeaderImage = ({backgroundImage, overview, logo, caption}) => {
     <main className="main">
       <section className="hero-main-v2 header-image" style={{backgroundImage: `url(${backgroundImage})`}}>
         <div className="container">
-          <p className="overview">{overview}</p>
+          <p className="overview" dangerouslySetInnerHTML={{__html: overview}} />
           <img src={logo.src} alt={logo.alt} />
-          <p className="caption">{caption}</p>
+          <p className="caption" dangerouslySetInnerHTML={{__html: caption}} />
         </div>
       </section>
     </main>

@@ -1,10 +1,9 @@
 import React from 'react'
 
-import background from '../../../static/img/summit-landing/subscribe/subscribe-banner-bg.png'
 import './styles.scss';
 import RoundedButton from '../RoundedButton';
 
-const BottomBanner = ({ title, button }) => (
+const BottomBanner = ({ background, title, button }) => (
 
     <section className='bottom-banner-wrapper' style={{ backgroundImage: `url(${background}` }}>
         <div className="container bottom-banner-container">

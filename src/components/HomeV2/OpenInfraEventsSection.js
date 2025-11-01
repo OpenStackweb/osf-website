@@ -39,7 +39,7 @@ const OpenInfraEventsSection = () => {
             location: "Shanghai International Convention Center Oriental Riverside Hotel",
             button: {
                 link: 'https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/',
-                text: 'OPENINFRA.DEV/DAYS'
+                text: 'LEARN MORE'
             }
         },
         {
@@ -47,8 +47,8 @@ const OpenInfraEventsSection = () => {
             date: 'October 17-19, 2025',
             location: 'École Polytechnique, Paris-Saclay, France',
             button: {
-                link: 'https://openinfra.dev/summit',
-                text: 'OPENINFRA.DEV/SUMMIT'
+                link: 'https://www.youtube.com/playlist?list=PLKqaoAnDyfgr91wN_12nwY321504Ctw1s',
+                text: 'WATCH VIDEOS'
             }
         }        
     ]

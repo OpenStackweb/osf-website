@@ -18,14 +18,14 @@ const UPCOMING_SUMMITS = [
   }
 ];
 
-const UpcomingSummits = ({ title }) => {
+const UpcomingSummits = ({ title, summits }) => {
   return (
     <div className="container upcoming-summits-wrapper">
       {title && <div className="upcoming-summits-title">{title}</div>}
-      {UPCOMING_SUMMITS.map((summit) => (
+      {summits.map((summit) => (
         <SummitCard
           key={summit.key}
-          background={summit.background}
+          background={summit.background?.publicURL || summit.background}
           summit={summit}
         />
       ))}

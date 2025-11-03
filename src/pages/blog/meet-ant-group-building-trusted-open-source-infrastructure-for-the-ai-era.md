@@ -66,7 +66,7 @@ This year, we’re thrilled to continue our active involvement in the OpenInfra 
 
 In July, we shared insights on ModelPack and the LLM Landscape at the Open-Source Large Models & Infrastructure Forum, held alongside the OpenStack 10th Anniversary Celebration in Suzhou, China.
 
-![](/img/antgroup3a.png)
+![](/img/antspeakers.jpg)
 
 In September, together with Huawei, Linaro, and China Mobile, we co-hosted a Kata Containers meetup in Beijing to present our CWPP white paper and exchange ideas on securing cloud workloads.
 
@@ -76,7 +76,7 @@ In October, at the beautiful and intellectually vibrant Paris-Saclay, we joined 
 
 During the following days, Ant Group and community contributors delivered several breakout sessions on Kata, the LLM infrastructure ecosystem, and ModelPack, fostering deep technical collaboration.
 
-![](/img/antgroup-collage.jpg)
+![](/img/antcollage.jpg)
 
 In the upcoming November 15, in Hangzhou — the “City of Heaven,” once praised by Marco Polo and now a hub of the digital economy, [KCD Hangzhou and OpenInfra Days China](https://community.cncf.io/events/details/cncf-kcd-hangzhou-presents-kcd-hangzhou-openinfra-days-china-2025/) will join forces for the first time. Ant Group is proud to be one of the key local organizers, with several engineers ready to share real-world open-source practices on stage.
 

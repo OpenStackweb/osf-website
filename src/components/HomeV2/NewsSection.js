@@ -48,6 +48,13 @@ const NewsSection = class extends React.Component {
                         <p className="home-v2-paragraph home-v2-paragraph-white">The latest news, technologies, and resources from the OpenInfra Community</p>
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
+                    <div className="news-article-inner-container">
+                            <a href="https://www.theregister.com/2025/10/31/resilience_openinfra_summit/"><img src="/img/homeV2/news-images/Register-Resilience.png" /></a>
+                            <p className="news-article-intro-text"> Sean Richard Speed • Oct 31, 2025</p>
+                            <a href="https://www.theregister.com/2025/10/31/resilience_openinfra_summit/"><h3>Resilience, not sovereignty, defines OpenStack's next chapter</h3></a>
+                            <p className="news-article-content">Sovereignty might be the word of the hour, but the OpenStack community has another – resilience. "It's about independence and control" </p>
+                            <a className="news-article-link" href="https://www.theregister.com/2025/10/31/resilience_openinfra_summit/">READ MORE</a>
+                        </div>
                         <div className="news-article-inner-container">
                             <a href="https://www.networkworld.com/article/4066532/openstack-flamingo-pays-down-technical-debt-as-adoption-continues-to-climb.html"><img src="/img/homeV2/news-images/NetworkWorld-Flamingo.png" /></a>
                             <p className="news-article-intro-text"> Sean Michael Kerner • Oct 01, 2025</p>

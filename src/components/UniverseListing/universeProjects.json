@@ -96,6 +96,14 @@
     "isOIF": true
   },
   {
+    "name": "OpenStack Exporter for Prometheus",
+    "link": "https://github.com/openstack-exporter/openstack-exporter",
+    "logo": "",
+    "description": "An OpenStack exporter for prometheus written in Golang using the gophercloud library.",
+    "tags": ["monitoring", "prometheus", "operations"],
+    "isOIF": false
+  },
+  {
     "name": "OSISM",
     "link": "https://osism.tech",
     "logo": "osism.png",

@@ -31,11 +31,11 @@ menu:
 
 The Governing Board is responsible for the OpenInfra Foundation, a directed fund of the Linux Foundation. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. The 2026 Governing Board will be composed of 21 directors: 7 elected by the OIF Individual Members, 7 elected by the Gold Members, and 7 appointed by the Platinum Members.
 
-Governing Board members are responsible for fiduciary duties and adhering to an expanded code of conduct. All Directors need to attend regular quarterly Board meetings and any special meetings that come up. The meetings will be held in a way that allows for remote participation.
+Governing Board members are responsible for fiduciary duties and adhering to an expanded code of conduct. All Directors need to attend regular Board meetings and any special meetings that come up. The meetings will be held in a way that allows for remote participation.
 
 #### OIF Individual Member Representative board seats
 
-* OIF Individual Member Representative are there to represent the OIF Individual Members of the Foundation
+* OIF Individual Member Representative are there to represent the participants in the OIF Individual Members program
 * These Directors act as the link between the thousands of members of the Foundation and the Board, and are not representing the companies for which they work
 
 When considering which candidates are best equipped to serve in this capacity, voters can review each candidate's application on the [candidate](/election/candidates) page prior to the start of the election.
@@ -50,7 +50,7 @@ Members should review and comply with the the [Community Code of Conduct](/lega
 
 OIF Individual Member Representative elections for the 2026 Board will be held **Monday January 12, 2026 to Friday January 16, 2026**. You must have joined the OpenInfra Foundation as an OIF Individual Member by Sunday, July 20, 2025 to vote in the January 2026 election, per the [OpenInfra Elections Procedures Policy](/legal/election-procedures-policy).
 
-Governing Board elections will take place online using a Meek STV voting method. No more than three members of the Board may be affiliated with the same company, which means the candidate receiving the next highest votes would assume the seat if the election results in too many employees from a single company. OIF Individual Member Representatives elected in 2026 will serve a one-year term, but they may be nominated and re-elected indefinitely. The next election for OIF Individual Member Representative will take place during January 2026.
+Governing Board elections will take place online using a Meek STV voting method. You will be able to rank all candidates in order of preference. No more than three members of the Board may be affiliated with the same company, which means the candidate receiving the next highest votes would assume the seat if the election results in too many employees from a single company. OIF Individual Member Representatives elected in 2026 will serve a one-year term, but they may be nominated and re-elected indefinitely. The next election for OIF Individual Member Representative will take place during January 2026.
 
 If you are an eligible voter, you will receive an email with a link to complete your ballot when the elections open on January 12, 2026. To ensure you receive the ballot, please log on to the website at [openinfra.org/a/profile](/a/profile) and make sure your information is current. **Please note, elections will take place on <https://lfx.linuxfoundation.org/>. In order to vote, you must have a LFX account using the email address that matches the email where your ballot is sent.** 
 

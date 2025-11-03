@@ -70,7 +70,7 @@ In July, we shared insights on ModelPack and the LLM Landscape at the Open-Sourc
 
 In September, together with Huawei, Linaro, and China Mobile, we co-hosted a Kata Containers meetup in Beijing to present our CWPP white paper and exchange ideas on securing cloud workloads.
 
-![](/img/antroup2-group.jpg)
+![](/img/antgroupshot4.jpg)
 
 In October, at the beautiful and intellectually vibrant Paris-Saclay, we joined the OpenInfra Summit Europe, where Zvonko Kaiser (NVIDIA) and Xu Wang (Ant Group) delivered a keynote showcasing Kata Containers’ capabilities in securing AI workloads.
 

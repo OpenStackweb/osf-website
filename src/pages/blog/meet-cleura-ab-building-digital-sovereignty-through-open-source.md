@@ -2,11 +2,11 @@
 templateKey: blog-post
 title: "Meet Cleura AB: Building Digital Sovereignty Through Open Source"
 author: Özgür Bal
-date: 2025-10-02T19:33:32.488Z
+date: 2025-11-03T20:33:32.488Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: "Meet Cleura AB: Building Digital Sovereignty Through Open Source"
   description: For Cleura, open infrastructure is more than just a technological

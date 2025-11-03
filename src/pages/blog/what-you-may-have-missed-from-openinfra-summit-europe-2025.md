@@ -17,8 +17,6 @@ seo:
 ---
 "Ultimately, what makes us resilient is not technology. It is working together, beyond borders, despite political leaders. What makes us reliant is our community," said Thierry Carrez, general manager at the OpenInfra Foundation, to kick off the [OpenInfra Summit Europe](https://summit2025.openinfra.org/) during Friday's keynotes. After over ten years, the OpenInfra Foundation returned to Paris for the OpenInfra Summit Europe, gathering the global OpenInfra community to celebrate its contributions to human progress and collaborate on building the next decade of open infrastructure solutions.
 
-![](https://superuser.openinfra.org/wp-content/uploads/2025/10/Screenshot-2025-10-28-165714.png)
-
 Over 1,200 attendees from 65+ countries gathered at France's most prestigious engineering university, École Polytechnique. The OpenInfra Summit week was full of exciting announcements and new (and growing!) users sharing their open source, production use cases. Special thanks to the [support of the sponsors](https://summit2025.openinfra.org/sponsor/), who made the event possible:
 
 * **Headline Sponsor:** OVHcloud

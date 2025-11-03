@@ -52,7 +52,7 @@ Beyond Kata Containers, Ant Group maintains deep engagement with the wider Linux
 
 A recent highlight: In April 2025, Ant Group became the first company in China to win the [CNCF End User Award](https://www.cncf.io/announcements/2025/04/03/cloud-native-computing-foundation-announces-ant-group-as-the-top-end-user-award-winner/), joining our earlier [recognition as an OpenInfra Superuser](https://superuser.openinfra.org/articles/congratulations-to-the-2022-superuser-awards-winners-ovhcloud-ant-group/). We are serious users of leading cloud-infrastructure technologies, including Kubernetes, Harbor, and containerd. These honors reflect our team’s dedication to upstream open-source contributions.
 
-![](/img/antgroup-1.jpg)
+![](/img/antgroup1a.jpg)
 
 ### InclusionAI: Open Sourcing AI Innovation
 
@@ -66,17 +66,17 @@ This year, we’re thrilled to continue our active involvement in the OpenInfra 
 
 In July, we shared insights on ModelPack and the LLM Landscape at the Open-Source Large Models & Infrastructure Forum, held alongside the OpenStack 10th Anniversary Celebration in Suzhou, China.
 
-![](/img/antgroup-3group.png)
+![](/img/antgroup3a.png)
 
 In September, together with Huawei, Linaro, and China Mobile, we co-hosted a Kata Containers meetup in Beijing to present our CWPP white paper and exchange ideas on securing cloud workloads.
 
-![](/img/antgroup-2-biggroup.jpg)
+![](/img/antroup2-group.jpg)
 
 In October, at the beautiful and intellectually vibrant Paris-Saclay, we joined the OpenInfra Summit Europe, where Zvonko Kaiser (NVIDIA) and Xu Wang (Ant Group) delivered a keynote showcasing Kata Containers’ capabilities in securing AI workloads.
 
 During the following days, Ant Group and community contributors delivered several breakout sessions on Kata, the LLM infrastructure ecosystem, and ModelPack, fostering deep technical collaboration.
 
-![](/img/antgroup-3.jpg)
+![](/img/antgroup-collage.jpg)
 
 In the upcoming November 15, in Hangzhou — the “City of Heaven,” once praised by Marco Polo and now a hub of the digital economy, [KCD Hangzhou and OpenInfra Days China](https://community.cncf.io/events/details/cncf-kcd-hangzhou-presents-kcd-hangzhou-openinfra-days-china-2025/) will join forces for the first time. Ant Group is proud to be one of the key local organizers, with several engineers ready to share real-world open-source practices on stage.
 

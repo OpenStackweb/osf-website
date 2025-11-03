@@ -52,7 +52,7 @@ Beyond Kata Containers, Ant Group maintains deep engagement with the wider Linux
 
 A recent highlight: In April 2025, Ant Group became the first company in China to win the [CNCF End User Award](https://www.cncf.io/announcements/2025/04/03/cloud-native-computing-foundation-announces-ant-group-as-the-top-end-user-award-winner/), joining our earlier [recognition as an OpenInfra Superuser](https://superuser.openinfra.org/articles/congratulations-to-the-2022-superuser-awards-winners-ovhcloud-ant-group/). We are serious users of leading cloud-infrastructure technologies, including Kubernetes, Harbor, and containerd. These honors reflect our team’s dedication to upstream open-source contributions.
 
-![](/img/antgroup1a.jpg)
+![](/img/antonstage.jpg)
 
 ### InclusionAI: Open Sourcing AI Innovation
 

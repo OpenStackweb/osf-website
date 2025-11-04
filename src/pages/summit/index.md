@@ -46,7 +46,7 @@ upcomingSummits:
   title: Upcoming OpenInfra Summit
   summits: 
     - key: "china-26"
-      background: /img/summit-landing/cards/summit-asia26.png
+      background: /img/summit-landing/cards/summit-asia-26.png
       date: "September 8-9, 2026"
       location: "Shanghai International Convention Center Oriental Riverside Hotel"
       notification:
@@ -96,25 +96,6 @@ middleBanner:
       link: "mailto:summit@openinfra.dev"      
     image: /img/summit-landing/middle-banner/middle-banner-2.png
     imageFirst: true
-sponsorBanner:
-  background: /img/summit-landing/sponsor-banner-bg.png
-  upperTitle: Become a Sponsor
-  title: |
-    Want to support <br />
-    the next decade of open <br />
-    infrastructure?
-  button:
-    link: /events/sponsorship
-    text: More Info 
-meetupBanner: 
-  background: /img/summit-landing/meetup/meetup-banner.png
-  logo: /img/summit-landing/meetup/openinfra-usergroup.svg
-  button:
-    link: https://www.meetup.com/pro/openinfradev/
-    text: find your local meetup
-  text: |
-    Interested in hosting a Meetup? <br />
-    Contact us at <a href="mailto:events@openinfra.dev">events@openinfra.dev</a>
 previousSummits:
   title: Previous OpenInfra Summits
   summits:
@@ -138,14 +119,5 @@ previousSummits:
       date: 'November 4-6, 2019'
       image: /img/summit-landing/summits/shanghai.png
       link:  'https://www.openstack.org/summit/shanghai-2019'
-bottomBanner:
-  background: /img/summit-landing/subscribe/subscribe-banner-bg.png
-  title: |
-    Subscribe to the OpenInfra newsletter<br/>
-    & keep up to date with the latest<br/>
-    OpenInfra Summit news.
-  button: 
-    link: "https://openinfra.dev/newsletter/"
-    text: "Sign Me Up"
 ---
 

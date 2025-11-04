@@ -27,10 +27,7 @@ export const SummitLandingPageTemplate = ({
   upcomingSummits,
   pastSummits,
   middleBanner,
-  sponsorBanner,
-  meetupBanner,
   previousSummits,
-  bottomBanner
 }) => {
   return (
     <div>
@@ -65,27 +62,21 @@ export const SummitLandingPageTemplate = ({
           button={{ text: banner.button?.text, link: banner.button?.link }}
           imageFirst={banner.imageFirst}
         />)}
-        <SponsorBanner
-          background={sponsorBanner.background.publicURL}
-          upperTitle={sponsorBanner.upperTitle}
-          title={sponsorBanner.title}
-          button={sponsorBanner.button}
-        />
-        <MeetupBanner
-          background={meetupBanner.background.publicURL}
-          logo={meetupBanner.logo.publicURL}
-          button={meetupBanner.button}
-          text={meetupBanner.text}
-        />
-        <PreviousSummits 
+        <SponsorBanner />
+        <MeetupBanner />
+        <PreviousSummits
           title={previousSummits.title}
           summits={previousSummits.summits}
         />
         <BottomBanner
-          background={bottomBanner.background.publicURL}
-          title={bottomBanner.title}
-          button={bottomBanner.button}
-        />
+          title={`
+          Subscribe to the OpenInfra newsletter<br/>
+          & keep up to date with the latest<br/>
+          OpenInfra Summit news.`}
+          button={{
+            link: "https://openinfra.dev/newsletter/",
+            text: "Sign Me Up",
+          }} />
       </div>
 
       <main className="main">
@@ -111,10 +102,7 @@ const SummitLandingPage = ({ isLoggedUser, data }) => {
         upcomingSummits={post.frontmatter.upcomingSummits}
         pastSummits={post.frontmatter.pastSummits}
         middleBanner={post.frontmatter.middleBanner}
-        sponsorBanner={post.frontmatter.sponsorBanner}
-        meetupBanner={post.frontmatter.meetupBanner}
         previousSummits={post.frontmatter.previousSummits}
-        bottomBanner={post.frontmatter.bottomBanner}
         isLoggedUser={isLoggedUser}
       />
     </Layout>
@@ -261,46 +249,7 @@ export const SummitLandingPageQuery = graphql`
             publicURL
           }
           imageFirst
-        }
-        sponsorBanner {
-          background {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 90) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-            publicURL
-          }
-          upperTitle
-          title
-          button {
-            link
-            text
-          }
-        }
-        meetupBanner {
-          background {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 90) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-            publicURL
-          }
-          logo {
-            childImageSharp {
-              fluid(maxWidth: 500, quality: 80) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-            publicURL
-          }
-          button {
-            link
-            text
-          }
-          text
-        }
+        }        
         previousSummits {
           title
           summits {
@@ -315,21 +264,6 @@ export const SummitLandingPageQuery = graphql`
               publicURL
             }
             link
-          }
-        }
-        bottomBanner {
-          background {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 90) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-            publicURL
-          }
-          title
-          button {
-            link
-            text
           }
         }
       }

@@ -1,5 +1,7 @@
+local_backend: true
+
 backend:
-  name: github
+  name: git-gateway
   repo: OpenStackweb/osf-website
   branch: master
   commit_messages:
@@ -1298,7 +1300,7 @@ collections:
           { label: "Url", name: "url", widget: string },
           { label: "Image", name: "image", widget: image },
           { label: "Twitter Username", name: "twitterUsername", widget: string },
-        ] }
+        ]}
         - { label: "Title", name: title, widget: string }
         - { label: "Sub Title", name: subTitle, widget: string }
         - { label: "Header Image", name: headerImage, widget: object, fields: [
@@ -1308,8 +1310,8 @@ collections:
           { label: "Logo", name: logo, widget: object, fields: [
             { label: "Image", name: src, widget: image },
             { label: "Alt Text", name: alt, widget: string }
-          ] }
-        ] }
+          ]}
+        ]}
         - { label: "Sub Header", name: subHeader, widget: object, fields: [
           { label: "Overview", name: overview, widget: string },
           { label: "Title", name: title, widget: text, hint: "You can use HTML tags like <span class='red'>text</span>" },
@@ -1317,12 +1319,12 @@ collections:
           { label: "Badge", name: badge, widget: object, fields: [
             { label: "Image", name: src, widget: image },
             { label: "Alt Text", name: alt, widget: string }
-          ] },
+          ]},
           { label: "Footer Image", name: footer, widget: object, fields: [
             { label: "Image", name: src, widget: image },
             { label: "Alt Text", name: alt, widget: string }
-          ] }
-        ] }
+          ]}
+        ]}
         - { label: "Upcoming Summits", name: upcomingSummits, widget: object, fields: [
           { label: "Title", name: title, widget: string },
           { label: "Summits", name: summits, widget: list, fields: [
@@ -1335,10 +1337,10 @@ collections:
               { label: "Button", name: button, widget: object, fields: [
                 { label: "Link", name: link, widget: string },
                 { label: "Text", name: text, widget: string }
-              ] }
-            ] }
-          ] }
-        ] }
+              ]}
+            ]}
+          ]}
+        ]}
         - { label: "Past Summits", name: pastSummits, widget: object, fields: [
           { label: "Title", name: title, widget: string },
           { label: "Summits", name: summits, widget: list, fields: [
@@ -1351,38 +1353,20 @@ collections:
               { label: "Button", name: button, widget: object, fields: [
                 { label: "Link", name: link, widget: string },
                 { label: "Text", name: text, widget: string }
-              ] }
-            ] }
-          ] }
-        ] }
+              ]}
+            ]}
+          ]}
+        ]}
         - { label: "Middle Banner", name: middleBanner, widget: list, fields: [
           { label: "Title", name: title, widget: string },
           { label: "Text", name: text, widget: text, hint: "You can use HTML tags" },
           { label: "Button", name: button, widget: object, required: false, fields: [
             { label: "Text", name: text, widget: string },
             { label: "Link", name: link, widget: string }
-          ] },
+          ]},
           { label: "Image", name: image, widget: image },
           { label: "Image First", name: imageFirst, widget: boolean }
-        ] }
-        - { label: "Sponsor Banner", name: sponsorBanner, widget: object, fields: [
-          { label: "Background Image", name: background, widget: image, required: false },
-          { label: "Upper Title", name: upperTitle, widget: string },
-          { label: "Title", name: title, widget: text, hint: "You can use HTML tags like <br />" },
-          { label: "Button", name: button, widget: object, fields: [
-            { label: "Link", name: link, widget: string },
-            { label: "Text", name: text, widget: string }
-          ] }
-        ] }
-        - { label: "Meetup Banner", name: meetupBanner, widget: object, fields: [
-          { label: "Background Image", name: background, widget: image },
-          { label: "Logo", name: logo, widget: image },
-          { label: "Button", name: button, widget: object, fields: [
-            { label: "Link", name: link, widget: string },
-            { label: "Text", name: text, widget: string }
-          ] },
-          { label: "Text", name: text, widget: text, hint: "You can use HTML tags" }
-        ] }
+        ]}
         - { label: "Previous Summits", name: previousSummits, widget: object, fields: [
           { label: "Title", name: title, widget: string },
           { label: "Summits", name: summits, widget: list, fields: [
@@ -1390,13 +1374,5 @@ collections:
             { label: "Date", name: date, widget: string },
             { label: "Image", name: image, widget: image },
             { label: "Link", name: link, widget: string }
-          ] }
-        ] }
-        - { label: "Bottom Banner", name: bottomBanner, widget: object, fields: [
-          { label: "Background Image", name: background, widget: image, required: false },
-          { label: "Title", name: title, widget: text, hint: "You can use HTML tags like <br />" },
-          { label: "Button", name: button, widget: object, fields: [
-            { label: "Link", name: link, widget: string },
-            { label: "Text", name: text, widget: string }
-          ] }
-        ] }      
+          ]}
+        ]}

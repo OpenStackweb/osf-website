@@ -4,17 +4,16 @@ import { SummitLandingPageTemplate } from '../../templates/summit-landing-page'
 
 const SummitLandingPagePreview = ({ entry }) => {
   const data = entry.getIn(['data']).toJS()
-  
-  // Extract arrays
+
   const upcomingSummitsArray = entry.getIn(['data', 'upcomingSummits', 'summits'])
   const upcomingSummits = upcomingSummitsArray ? upcomingSummitsArray.toJS() : []
-  
+
   const pastSummitsArray = entry.getIn(['data', 'pastSummits', 'summits'])
   const pastSummits = pastSummitsArray ? pastSummitsArray.toJS() : []
-  
+
   const middleBannerArray = entry.getIn(['data', 'middleBanner'])
   const middleBanner = middleBannerArray ? middleBannerArray.toJS() : []
-  
+
   const previousSummitsArray = entry.getIn(['data', 'previousSummits', 'summits'])
   const previousSummits = previousSummitsArray ? previousSummitsArray.toJS() : []
 
@@ -77,30 +76,6 @@ const SummitLandingPagePreview = ({ entry }) => {
             publicURL: banner.image
           }
         }))}
-        sponsorBanner={{
-          background: {
-            publicURL: entry.getIn(['data', 'sponsorBanner', 'background'])
-          },
-          upperTitle: entry.getIn(['data', 'sponsorBanner', 'upperTitle']),
-          title: entry.getIn(['data', 'sponsorBanner', 'title']),
-          button: {
-            link: entry.getIn(['data', 'sponsorBanner', 'button', 'link']),
-            text: entry.getIn(['data', 'sponsorBanner', 'button', 'text'])
-          }
-        }}
-        meetupBanner={{
-          background: {
-            publicURL: entry.getIn(['data', 'meetupBanner', 'background'])
-          },
-          logo: {
-            publicURL: entry.getIn(['data', 'meetupBanner', 'logo'])
-          },
-          button: {
-            link: entry.getIn(['data', 'meetupBanner', 'button', 'link']),
-            text: entry.getIn(['data', 'meetupBanner', 'button', 'text'])
-          },
-          text: entry.getIn(['data', 'meetupBanner', 'text'])
-        }}
         previousSummits={{
           title: entry.getIn(['data', 'previousSummits', 'title']),
           summits: previousSummits.map(summit => ({
@@ -109,16 +84,6 @@ const SummitLandingPagePreview = ({ entry }) => {
               publicURL: summit.image
             }
           }))
-        }}
-        bottomBanner={{
-          background: {
-            publicURL: entry.getIn(['data', 'bottomBanner', 'background'])
-          },
-          title: entry.getIn(['data', 'bottomBanner', 'title']),
-          button: {
-            link: entry.getIn(['data', 'bottomBanner', 'button', 'link']),
-            text: entry.getIn(['data', 'bottomBanner', 'button', 'text'])
-          }
         }}
         isLoggedUser={false}
       />

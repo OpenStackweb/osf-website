@@ -2,7 +2,6 @@ import React from 'react'
 import '../style/modules/_sub_header.scss'
 
 const SubHeader = ({ overview, title, text, badge, footer }) => {
-  console.log("SUB CHECK...", badge, footer)
   return (
     <section className="subheader_wrapper">
       <div className="container">

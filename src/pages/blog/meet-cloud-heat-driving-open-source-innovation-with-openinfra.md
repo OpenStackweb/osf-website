@@ -2,11 +2,11 @@
 templateKey: blog-post
 title: "Meet Cloud&Heat: Driving Open Source Innovation with OpenInfra"
 author: Maria Vaquero
-date: 2025-10-02T18:46:37.430Z
+date: 2025-11-04T19:46:37.430Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: "Meet Cloud&Heat: Driving Open Source Innovation with OpenInfra"
   description: At Cloud&Heat, our commitment to open source technologies goes far

@@ -247,6 +247,23 @@ collections:
               ] },
             ] }
           ] }
+          - { label: "OpenInfra Events", name: openInfraEvents, widget: object, fields: [
+            { label: "Events Data", name: eventsData, widget: list, fields: [
+              { label: "Link", name: link, widget: string },
+              { label: "Logo", name: logo, widget: image },
+              { label: "Text", name: text, widget: string },
+              { label: "Color", name: color, widget: string, hint: "Hex color code, e.g. #FFB325" }
+            ]},
+            { label: "Upcoming Events", name: upcomingEvents, widget: list, fields: [
+              { label: "Image", name: image, widget: image },
+              { label: "Date", name: date, widget: string },
+              { label: "Location", name: location, widget: string },
+              { label: "Button", name: button, widget: object, fields: [
+                { label: "Link", name: link, widget: string },
+                { label: "Text", name: text, widget: string }
+              ]}
+            ]}
+          ]}
   - name: "generic-about-pages"
     label: "About Pages"
     folder: "src/pages/about/"

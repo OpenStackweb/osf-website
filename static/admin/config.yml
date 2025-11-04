@@ -1391,3 +1391,65 @@ collections:
             { label: "Link", name: link, widget: string }
           ]}
         ]}
+  - name: "openinfra-days-page"
+    label: "OpenInfra Days Page"
+    files:
+    - file: "src/pages/days/index.md"
+      label: "OpenInfra Days"
+      name: "openinfra-days"
+      fields:
+        - { label: "Template Key", name: "templateKey", widget: "hidden", default: "open-infra-days-page" }
+        - { label: SEO, name: seo, widget: object, fields: [
+          { label: "Title", name: "title", widget: string },
+          { label: "Description", name: "description", widget: string },
+          { label: "Url", name: "url", widget: string },
+          { label: "Image", name: "image", widget: image },
+          { label: "Twitter Username", name: "twitterUsername", widget: string },
+        ]}
+        - { label: "Title", name: title, widget: string }
+        - { label: "Sub Title", name: subTitle, widget: string }        
+        - { label: "Upcoming Days Events", name: upcomingDaysEvents, widget: object, fields: [
+          { label: "Title", name: title, widget: text, hint: "You can use HTML tags like <br />" },
+          { label: "Events", name: events, widget: list, fields: [
+            { label: "Title", name: title, widget: text, hint: "You can use HTML tags like <br />" },
+            { label: "Date", name: date, widget: string },
+            { label: "Location", name: location, widget: string },
+            { label: "Registration", name: registration, widget: text, hint: "You can use HTML tags like <br />" },
+            { label: "Sponsor", name: sponsor, widget: text, hint: "You can use HTML tags like <br />", required: false },
+          ]}
+        ]}
+        - { label: "Upcoming Meetups", name: upcomingMeetups, widget: list, fields: [
+          { label: "Background", name: background, widget: image },
+          { label: "Date", name: date, widget: string },
+          { label: "Location", name: location, widget: string },
+          { label: "Link", name: link, widget: string },
+        ]}
+        - { label: "Past Meetups", name: pastMeetups, widget: list, fields: [
+          { label: "Background", name: background, widget: image },
+          { label: "Name", name: name, widget: string, required: false },
+          { label: "Date", name: date, widget: string },
+          { label: "Location", name: location, widget: string },
+          { label: "Link", name: link, widget: string },
+        ]}
+        - { label: "Community Events", name: communityEvents, widget: object, fields: [
+          { label: "Title", name: title, widget: string },
+          { label: "Events", name: events, widget: list, fields: [
+            { label: "Name", name: name, widget: string },
+            { label: "Link", name: link, widget: string },
+            { label: "Date", name: date, widget: string },
+            { label: "Location", name: location, widget: string },
+          ]}
+        ]}
+        - { label: "Upcoming Summits", name: upcomingSummits, widget: list, fields: [
+          { label: "Key", name: key, widget: "string" },
+          { label: "Background", name: background, widget: "image" },
+          { label: "Date", name: date, widget: "string" },
+          { label: "Location", name: location, widget: "string" },
+          { label: "Notification", name: notification, widget: "object", fields: [
+            { label: "Text", name: text, widget: "string" },
+            { label: "Button", name: button, widget: "object", fields: [
+              { label: "Link", name: link, widget: "string" },
+              { label: "Text", name: text, widget: "string" }
+            ]}
+          ]}         
+        ]}

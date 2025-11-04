@@ -79,8 +79,8 @@ export const OpenInfraDaysPageTemplate = ({
             <ImageOnlyHeader backgroundImage={hero} />
             <SubHeaderDays button={{ text: "Check out upcoming events", link: "#upcoming-events" }} />
             <OpeninfraDaysAgenda
-              title={<><span className="red">Upcoming</span><br />Openinfra Days</>}
-              items={upcomingItemsAsia}
+              title={upcomingDaysEvents.title}
+              items={upcomingDaysEvents.events}
             />
             <OpenInfraDays title="Upcoming OpenInfra Days" events={upcomingMeetups} />
             <MeetupBanner
@@ -133,6 +133,11 @@ const OpenInfraDaysPage = ({ isLoggedUser, data }) => {
         subTitle={post.frontmatter.subTitle}
         contentComponent={HTMLContent}
         content={post.html}
+        upcomingDaysEvents={post.frontmatter.upcomingDaysEvents}
+        upcomingMeetups={post.frontmatter.upcomingMeetups}
+        pastMeetups={post.frontmatter.pastMeetups}
+        communityEvents={post.frontmatter.communityEvents}
+        upcomingSummits={post.frontmatter.upcomingSummits}
         isLoggedUser={isLoggedUser}
       />
     </Layout>
@@ -164,6 +169,57 @@ export const OpenInfraDaysPageQuery = graphql`
         }
         title
         subTitle
+        upcomingDaysEvents {
+          title
+          events {
+            title
+            date
+            location
+            registration
+            sponsor
+          }
+        }
+        upcomingMeetups {
+          background {            
+            publicURL
+          }
+          date
+          location
+          link
+        }
+        pastMeetups {
+          background {
+            publicURL
+          }
+          name
+          date
+          location
+          link
+        }
+        communityEvents {
+          title
+          events {
+            name
+            link
+            date
+            location
+          }
+        }
+        upcomingSummits {
+          key
+          background {
+            publicURL
+          }
+          date
+          location
+          notification {
+            text
+            button {
+              link
+              text
+            }
+          }      
+        }    
       }
     }
   }

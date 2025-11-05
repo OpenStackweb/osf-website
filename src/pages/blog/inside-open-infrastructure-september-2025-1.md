@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "Inside Open Infrastructure: September 2025"
 author: Allison Price
-date: 2025-11-05T16:31:57.306Z
+date: 2025-11-05T17:28:32.518Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
@@ -10,7 +10,7 @@ hidePost: true
 seo:
   url: https://openinfra.org/blog/openinfra-newsletter-october-2025
   title: "Inside Open Infrastructure: October 2025"
-  description: OpenInfra User Surveys
+  description: OpenInfra Summit Sessions Available to Stream
   twitterUsername: "@openinradev"
 ---
 ![](/img/147-openinfra-summit-europe25.jpg)

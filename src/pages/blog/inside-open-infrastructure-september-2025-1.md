@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Inside Open Infrastructure: September 2025"
+title: "Inside Open Infrastructure: October 2025"
 author: Allison Price
 date: 2025-11-05T16:31:57.306Z
 category:

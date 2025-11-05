@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Inside Open Infrastructure: October 2025"
+title: "Inside Open Infrastructure: September 2025"
 author: Allison Price
 date: 2025-11-05T16:31:57.306Z
 category:
@@ -13,7 +13,7 @@ seo:
   description: OpenInfra User Surveys
   twitterUsername: "@openinradev"
 ---
-![](/img/oif-2.jpg)
+![](/img/147-openinfra-summit-europe25.jpg)
 
 # OpenInfra Summit Sessions Available to Stream
 
@@ -63,13 +63,13 @@ Sponsorship opportunities are now live and will close July 17, 2026.
 
 # OpenStack: Open source software for creating private and public clouds
 
-* Yesterday, the OpenStack community announced the release of OpenStack 2025.2 (Flamingo). [Learn more](https://www.openstack.org/software/openstack-flamingo/) about the highlights around technical debt reduction and expanded security.
-* learn more about the 32nd release of OpenStack straight from the community leaders on [OpenInfra Live](https://www.youtube.com/watch?v=cdqL6umlM1w).
+* If you were a maintainer or contributor to an OpenStack project team during the 2025.2/Flamingo development cycle, please take a moment to fill out the cycle retrospective [Maintainer Experience Survey](https://openinfrafoundation.formstack.com/forms/openstack_maintainer_experience_survey) or [Contributor Experience Survey](https://openinfrafoundation.formstack.com/forms/openstack_contributor_experience_survey) by November 16. Also remind your colleagues and teammates to do the same!
+* The OpenStack for AI Working Group launched the [OpenStack for AI Whitepaper](https://www.openstack.org/openstack-for-ai/) at OpenInfra Summit Europe. Nine OpenInfra Foundation Members came together to lay out how the OpenStack community is responding to the AI infrastructure shift and what the future of AI on OpenStack will look like. You’ll also find a set of production case studies and reference architectures from ChinaMobile, FPT SmartCloud, Rackspace, and StackHPC.
 
 # Kata Containers: The speed of containers, the security of VMs
 
-* The new KataContainers [3.21](https://github.com/kata-containers/kata-containers/releases) release is now available!
-* The nomination period for the [Kata Containers Architecture Committee (AC) election](https://github.com/kata-containers/community/tree/main/elections/arch-committee-2025-10) is currently open! Submit your nomination if you’re eligible, or follow the process to learn who the new AC members are going to be.
+* The new Kata Containers [3.22](https://github.com/kata-containers/kata-containers/releases/tag/3.22.0) release is now available!
+* The [Kata Containers Architecture Committee (AC) election](https://github.com/kata-containers/community/tree/main/elections/arch-committee-2025-10) has concluded with all seats being reelected.
 * If you’re evaluating or using Kata Containers, please take a few minutes to fill out the [User Survey](https://openinfrafoundation.formstack.com/forms/kata_containers_user_survey) and provide feedback to the community!
 
 # OpenDev: Free software needs free tools
@@ -78,38 +78,24 @@ Sponsorship opportunities are now live and will close July 17, 2026.
 
 # StarlingX: A fully featured cloud for the distributed edge
 
-* The [StarlingX Technical Steering Committee, Project and Technical Lead elections](https://docs.starlingx.io/election/) will be kicking off later this month. It is time to prepare your nomination if you’re eligible to run for any of the open positions, or keep an eye on the process to learn who the project’s new leaders are going to be
-* If you’re evaluating or using StarlingX, please take a few minutes to fill out the [User Survey](https://openinfrafoundation.formstack.com/forms/starlingx_user_survey) and provide feedback to the community!
+* The [StarlingX Technical Steering Committee, Project and Technical Lead elections](https://docs.starlingx.io/election/) are currently running. Keep an eye on the process to learn who the project’s new leaders are going to be.
+* If you’re evaluating or using StarlingX, please take a few minutes to fill out the [User Survey](https://openinfrafoundation.formstack.com/forms/starlingx_user_survey) and provide feedback to the community
 
 # Zuul: Stop merging broken code
 
-* Zuul 13.0.0 has been released. This release includes support for Ansible 11, better automatic triggering of builds when jobs are updated, alternative nodesets, and more. Please read the [release announcement](https://lists.zuul-ci.org/archives/list/zuul-announce@lists.zuul-ci.org/thread/DQEBRTB5J6SEGUQQMRKRFIJYCYIXVJUD/) for more information
+* Zuul 13.01 has been released with security fixes for jobs that run on Windows. See the [release announcement](https://lists.zuul-ci.org/archives/list/zuul-announce@lists.zuul-ci.org/thread/UJEL6DLYNEN7S4M66QWSC37VZYZ7WAM3/) for more information.
 
 # **Upcoming OpenInfra and Community Events**
 
 **[Celebrate OpenStack's 15th Birthday](https://www.openstack.org/blog/celebrating-15-years-of-openstack/)**  
 
-* [Austin, TX](https://www.meetup.com/openinfra-austin/events/310508680/?eventOrigin=group_upcoming_events) - 3 October | Co-located with [Texas Linux Fest](https://2025.texaslinuxfest.org/) (3-4 October)
-* [Atlanta, GA](https://www.meetup.com/openstack-atlanta/events/311071434/?eventOrigin=group_upcoming_events) - 12 November | Co-located with [KubeCon NA](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/?utm_source=google&utm_medium=paid-search&utm_campaign=10608228-kubecon-na-2025&utm_term=events-kubecon-na-2025-cncf-bofu&utm_content=events-kubecon-na-2025-cncf-bofu-rsa&gad_source=1&gad_campaignid=22910266965&gbraid=0AAAAAD2R-lpINY2tRhDg3BYnvqxa65d5C&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUEeiqwhcByFBebzbcIIb73AMdNvfquk7vgHwYVhZR1qofdOFGYjChxoCOUIQAvD_BwE) (November 10–13)
-* [Montreal, CA](https://www.meetup.com/montreal-openstack/events/310374679/?eventOrigin=network_page) - 13 November
+* [Atlanta, GA](https://www.meetup.com/openstack-atlanta/events/311071434/?eventOrigin=group_upcoming_events) – 12 November
+* [Montreal, CA](https://www.meetup.com/montreal-openstack/events/310374679/?eventOrigin=network_page) – 13 November
 * Check out [all the celebrations](https://www.openstack.org/blog/celebrating-15-years-of-openstack/)!
-
-Many of these OpenStack birthday celebrations are still recruiting sponsors. If your organization is interested in sponsoring one of these birthday celebrations, please reach out to [events@openinfra.dev](mailto:events@openinfra.dev).
-
-**OpenInfra Days**<!--StartFragment-->
-
-* 15 November | [KCD Hangzhou + OpenInfra Days China 202](https://community.cncf.io/events/details/cncf-kcd-hangzhou-presents-kcd-hangzhou-openinfra-days-china-2025/?ajs_aid=8d9e8434-7853-4842-a240-2529d5844246)
-
-**OpenInfra Days Kenya** 
-
-* 6 September | Nairobi, Kenya | [Learn More](https://www.meetup.com/openinfra-user-group-kenya/events/308280635/?eventOrigin=network_page)
 
 **More upcoming events!**
 
-* [Texas Linux Fest](https://2025.texaslinuxfest.org/)
-* [Cephlacon](https://events.linuxfoundation.org/cephalocon/) 
-* [Linux Foundation Europe Roadshow](https://events.linuxfoundation.org/lf-europe-roadshow-regulation/) 
-* [KubeCon N](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/?utm_source=google&utm_medium=paid-search&utm_campaign=10608228-kubecon-na-2025&utm_term=events-kubecon-na-2025-cncf-bofu&utm_content=events-kubecon-na-2025-cncf-bofu-rsa&gad_source=1&gad_campaignid=22910266965&gbraid=0AAAAAD2R-lpINY2tRhDg3BYnvqxa65d5C&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUEeiqwhcByFBebzbcIIb73AMdNvfquk7vgHwYVhZR1qofdOFGYjChxoCOUIQAvD_BwE)
-* [Find an OpenInfra  User Group near you!](https://www.meetup.com/pro/openinfradev/) 
+* [OpenInfra User Group India - Virtual Meetup Series 2025](https://www.meetup.com/indian-openinfra-user-group/events/311675266/?eventOrigin=group_upcoming_events) 
+* [Find a User Group near you!](https://www.meetup.com/pro/openinfradev/) 
 
 For more information about OpenInfra community events, please contact [events@openinfra.dev](mailto:events@openinfra.dev).

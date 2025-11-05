@@ -6,6 +6,19 @@ import SummitCard from "../SummitCard";
 
 const PAST_SUMMITS = [
   {
+    key: "europe-25",
+    background: "/img/summit-landing/cards/summit-europe-25-2.png",
+    date: "October 17-19, 2025",
+    location: "École Polytechnique, Paris-Saclay, France",
+    notification: {
+      text: " ",
+      button: {
+        link: "https://summit2025.openinfra.org",
+        text: "Learn More",
+      },
+    },
+  },
+  {
     key: "asia-24",
     background: "/img/summit-landing/cards/summit-asia.png",
     date: "September 3 & 4, 2024",

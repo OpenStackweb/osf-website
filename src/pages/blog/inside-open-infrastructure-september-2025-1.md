@@ -9,7 +9,7 @@ category:
 hidePost: true
 seo:
   url: https://openinfra.org/blog/openinfra-newsletter-october-2025
-  title: "Inside Open Infrastructure: September 2025"
+  title: "Inside Open Infrastructure: October 2025"
   description: OpenInfra User Surveys
   twitterUsername: "@openinradev"
 ---

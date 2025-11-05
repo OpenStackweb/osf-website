@@ -8,7 +8,7 @@ category:
     label: News & Announcements
 hidePost: true
 seo:
-  url: https://openinfra.org/blog/openinfra-newsletter-september-2025
+  url: https://openinfra.org/blog/openinfra-newsletter-october-2025
   title: "Inside Open Infrastructure: September 2025"
   description: OpenInfra User Surveys
   twitterUsername: "@openinradev"

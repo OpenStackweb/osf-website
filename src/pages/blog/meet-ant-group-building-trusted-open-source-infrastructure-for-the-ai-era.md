@@ -6,7 +6,7 @@ date: 2025-10-29T13:16:19.022Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: "Meet Ant Group: Building Trusted, Open-Source Infrastructure for the AI Era"
   description: At Ant Group, we believe trust is the cornerstone of every service

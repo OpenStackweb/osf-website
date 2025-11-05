@@ -72,7 +72,7 @@ Co-located events expanded the Summit’s impact, including the [Gerrit User Sum
 * [Montreal, CA](https://www.meetup.com/montreal-openstack/events/310374679/?eventOrigin=network_page) – 13 November
 * Check out [all the celebrations](https://www.openstack.org/blog/celebrating-15-years-of-openstack/)!
 
-**More upcoming events!**
+**More ways to get involved!**
 
 * [OpenInfra User Group India - Virtual Meetup Series 2025](https://www.meetup.com/indian-openinfra-user-group/events/311675266/?eventOrigin=group_upcoming_events) 
 * [Find a User Group near you!](https://www.meetup.com/pro/openinfradev/) 

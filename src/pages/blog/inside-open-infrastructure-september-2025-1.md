@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Inside Open Infrastructure: September 2025"
+title: "Inside Open Infrastructure: October 2025"
 author: Allison Price
 date: 2025-11-05T17:28:32.518Z
 category:
@@ -39,27 +39,6 @@ Co-located events expanded the Summit’s impact, including the [Gerrit User Sum
 * On September 8-9, OpenInfra Summit Asia | KubeCon | CloudNativeCon will take place in Shanghai. This flagship event unites adopters, technologists, and community members from across the region to drive innovation in open source infrastructure and cloud native computing around common, industry-wide use cases like nextgen AI. Over two days, CNCF Projects will collaborate with the OpenInfra community across dozens of open technologies, including two of the most active open source projects to exist, Kubernetes and OpenStack, to shape the future of open source software and technology as a whole.
 * The OpenInfra Foundation is highlighting our Member organizations and how they’re powering the future of open source infrastructure. Check out the [Red Hat](https://openinfra.org/blog/openinfra-member-redhat), [Rackspace](https://openinfra.org/blog/rackspace-technology-and-openinfra-foundation), [Cleura](https://openinfra.org/blog/openinfra-member-cleura), and [Ant Group](https://openinfra.org/blog/meet-ant-group-building-trusted-open-source-infrastructure-for-the-ai-era) blogs and keep an eye on the [Foundation blog](https://openinfra.org/blog/) to meet more OpenInfra Members. 
 * If you’re interested in joining the global collaboration around open source infrastructure, consider [membership of the OpenInfra Foundation](https://openinfra.dev/join/members/). Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev "jimmy@openinfra.dev") today to find out more!
-
-# KubeCon + CloudNativeCon + OpenInfra Summit Asia
-
-September 8 & 9, 2026 | Shanghai, China | [Shanghai International Convention Center Oriental Riverside Hotel](https://maps.app.goo.gl/jXZQP3ApyUvLqzNJ8)
-
-This flagship event unites adopters, technologists, and community members from across the region to drive innovation in open source infrastructure and cloud native computing around common, industry-wide use cases like nextgen AI.
-
-Over two days, OpenInfra community will collaborate with the CNCF projects across dozens of open technologies, including two of the most active open source projects to exist, Kubernetes and OpenStack, to shape the future of open source software and technology as a whole.
-
-Sponsorship opportunities are now live and will close July 17, 2026.
-
-**[CHECK OUT THE EVENT >>](https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/)**
-
-**Important Dates:**
-
-* Now: Sponsorships Open
-* January 2026: Registration Opens
-* March 2026: CFP Opens
-* May 2026: CFP Closes
-* June 2026: Schedule is Live
-* July 2026: Sponsor Deadline
 
 # OpenStack: Open source software for creating private and public clouds
 

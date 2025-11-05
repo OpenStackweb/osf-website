@@ -2,11 +2,11 @@
 templateKey: blog-post
 title: What You May Have Missed from OpenInfra Summit Europe 2025
 author: Helena Spease
-date: 2025-11-03T18:17:17.012Z
+date: 2025-11-05T17:23:28.884Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   twitterUsername: "@openinfradev"
   url: https://openinfra.org/blog/openinfra-summit-europe

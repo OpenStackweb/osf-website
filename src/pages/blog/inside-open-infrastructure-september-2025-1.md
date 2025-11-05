@@ -6,7 +6,7 @@ date: 2025-11-05T17:28:32.518Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   url: https://openinfra.org/blog/openinfra-newsletter-october-2025
   title: "Inside Open Infrastructure: October 2025"

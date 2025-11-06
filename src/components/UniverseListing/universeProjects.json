@@ -96,6 +96,14 @@
     "isOIF": true
   },
   {
+    "name": "OpenStack CLI/TUI",
+    "link": "https://github.com/gtema/openstack",
+    "logo": "osc.png",
+    "description": "An OpenStack CLI and TUI with the SDK using Rust.",
+    "tags": ["cli", "tui", "sdk"],
+    "isOIF": false
+  },
+  {
     "name": "OpenStack Exporter for Prometheus",
     "link": "https://github.com/openstack-exporter/openstack-exporter",
     "logo": "",

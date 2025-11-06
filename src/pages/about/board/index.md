@@ -1,8 +1,8 @@
 ---
 templateKey: board-page
 seo:
-  description: The Governing Board provides strategic and financial oversight
-    of OpenInfra Foundation resources and staff.
+  description: The Governing Board provides strategic and financial oversight of
+    OpenInfra Foundation resources and staff.
   image: /img/OpenInfra-icon-white.jpg
   title: Governing Board
   twitterUsername: "@OpenInfraDev"
@@ -286,31 +286,32 @@ members:
     linkedin: https://www.linkedin.com/in/liu-yulong/
     openStack: /a/community/members/5508
     picture: /img/board/YulongLIU.png
-  - name: Alexander Navratil
+  - name: Ritesh Paiboina
     title: Gold Director
     company: T-Systems
-    description: >-
-      I started my IT careen in 2000 as the owner of my small business for
-      training solutions in Germany. I provide Linux courses Development
-      trainings in C and Java as well a lot of Infrastructure and collaboration
-      topic like Lotus or Exchange. Later I was joining a hardware manufacture
-      company Fujitsu and become responsible for Fujitsu OpenStack initiative.
-      After servaral years and project me and my team could develop this
-      initiative into a real product. With this entry into Cloud and Linux I
-      followed the open-source path to the cloud world and got part of the
-      OpenStack and OpenInfra family. 
+    description: >+
+      Ritesh Paiboina is currently  Chief Technology Officer for Open Telekom
+      Cloud.  As Chief Technology Officer, responsible for the strategic
+      delivery and expansion of Open Telekom Cloud’s portfolio, ensuring
+      advanced technology and architectural excellence. Direct software security
+      programs and compliance, shaping robust frameworks for public cloud
+      offerings. Foster portfolio development and drive innovation by
+      collaborating with product leadership and squads to introduce
+      next-generation services and infrastructure.
 
 
-      Since 2019 I'm with T-Systems in the role Chief Architect of Open Telekom Cloud (OTC)! 
+      Since starting his journey with OpenStack in 2013, Ritesh has been also involved in its development ecosystem—driving the development of cloud features for scheduling, orchestration, and many PoC's. His experiences spans core cloud infrastructure, Kubernetes, and NVIDIA GPU-based computing.
 
 
-      As the architecture lead, I am responsible for everything between the upper edge of operating system to the outer edge of Service Delivery. Open Telekom Cloud is by now one of the largest OpenStack-based clouds in Europe, providing full GDPR-compliance and the full stack of IaaS, PaaS and SaaS offerings.
+      Ritesh has also contributions to the OpenStack community in the past, including enhancements to command usability, heat stack lifecycle operations, resource queuing, and snapshot reliability for instances and volumes. 
 
 
-      Some personal stuff from myside, I am married, have tree sons, and a passionate kitesurfer, spending time with my family close to the ocean around the world.
+      With over 14 years of experience in cloud technologies, he has led strategic initiatives delivering innovative, secure, and technical solutions for public and private clouds based on Openstack. Ritesh has a deep passion for open-source cloud technologies, particularly OpenStack and Open Telekom Cloud, which he regards as vital for innovation and openness in the cloud industry.
+
+
     linkedin: https://www.linkedin.com/in/alexander-navratil-44a673231/
-    openStack: /a/community/members/119181
-    picture: /img/board/AlexanderNavratil.png
+    openStack: /a/community/members/19051
+    picture: /img/1629101963889.jpg
   - name: Steve Westmoreland
     description: >
       Stephen (Steve) Westmoreland is currently the Chief Information Officer at

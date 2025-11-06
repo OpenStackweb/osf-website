@@ -309,7 +309,7 @@ members:
       With over 14 years of experience in cloud technologies, he has led strategic initiatives delivering innovative, secure, and technical solutions for public and private clouds based on Openstack. Ritesh has a deep passion for open-source cloud technologies, particularly OpenStack and Open Telekom Cloud, which he regards as vital for innovation and openness in the cloud industry.
 
 
-    linkedin: https://www.linkedin.com/in/alexander-navratil-44a673231/
+    linkedin: https://www.linkedin.com/in/riteshpaiboina/
     openStack: /a/community/members/19051
     picture: /img/1629101963889.jpg
   - name: Steve Westmoreland

@@ -13,218 +13,210 @@ import SponsorshipSection from "../components/SponsorshipSection";
 
 import "../style/sponsorship-page.scss";
 import SponsorshipSubNav from "../components/SponsorshipSubNav";
+import LinkComponent from "../components/LinkComponent";
 
 const SPONSORSHIPS = [];
 
 const SPONSORSHIPS_DAYS = [
   {
-    title: ["Openinfra summit europe, 17-19 october", "paris-saclay, france"],
+    title: ["Kubecon | CloudNativeCon | OpenInfra Summit Asia", "8-9 September, Shanghai, China"],
     subtitle: (
       <>
-        <a href="mailto:events@openinfra.dev">Contact us</a> to sponsor
-        OpenInfra Summit Europe or <a href="https://summit2025.openinfra.org/sponsor">learn more</a>.
+        <a href="mailto:summit@openinfra.dev">Contact us</a> to sponsor
+        or <LinkComponent href="https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/">learn more</LinkComponent>.
       </>
     ),
     plans: [
       {
-        soldOut: true,
-        title: "Headline Sponsor",
-        priceMember: "€ 50 000",
-        priceNonMember: "€ 60 000",
+        soldOut: false,
+        title: "Diamond Sponsor",
+        priceMember: "$ 125 000",
+        priceNonMember: "$ 150 000",
         color: "#ED362F",
         items: [
-          { title: "8-Minute Keynote", value: true },
-          { title: "One 30-Minute Presentation", value: true },
-          { title: "Booth Size", value: ["3m x 3m" , '27" monitor']},
-          { title: "Meeting Room", value: true },
-          { title: "Logo Display" , value: "Sponsor logo on website and printed materials." },
-          { title: "12 Complimentary Registrations", value: true },
-          { title: "Number Available", value: "2", colored: true },
+          { title: "SPEAKING OPPORTUNITY<sup>1</sup>", value: "Choice of (1) 5-minute keynote or (1) 30-minute breakout session" },
+          { title: "ACCESS TO OPT-IN ATTENDEE REGISTRATION LIST<sup>2</sup>", value: "Provided pre - and post - event" },
+          { title: "RECOGNITION IN EVENT PROMOTIONAL EMAILS AND ATTENDEE COMMUNICATIONS", value: "logo and link" },
+          { title: "DEMO SESSION<sup>3</sup>", value: "(1) 20 - minute session at demo theater(includes attendee contact information)" },
+          { title: "LIST OF REGISTERED PRESS/ANALYSTS", value: "Provided 3 weeks prior to the event" },
+          { title: "LOGO RECOGNITION ON KEYNOTE SCREEN", value: true },
+          { title: "LOGO RECOGNITION IN POST-EVENT TRANSPARENCY REPORT", value: true },
+          { title: "SOCIAL MEDIA POSTS ON X (FORMERLY TWITTER) FROM OFFICIAL @KUBECON_ AND OPENINFRA HANDLE", value: "(1) pre - event standalone post with social card" },
+          { title: "POSTS IN CNCF AND OPENINFRA'S WECHAT GROUPS", value: "(1) standalone WeChat article and poster" },
+          { title: "LOGO ON SPONSOR SIGNAGE, CONFERENCE WEBSITE, AND CONFERENCE SCHEDULE", value: true },
+          { title: "OPPORTUNITY TO INCLUDE NEWS ANNOUNCEMENTS IN OFFICIAL EVENT NEWS PACKAGE", value: "Preferred placement " },
+          { title: "COMPLIMENTARY CONFERENCE PASSES<sup>4</sup>", value: "20" },
+          { title: "20% DISCOUNT ON ADDITIONAL CONFERENCE PASSES", value: "Unlimited usage while passes are available for sale" },
+          { title: "EXHIBIT SPACE", value: "6m(w) x 3m(d) turnkey booth" },
+          { title: "HYSICAL LEAD RETRIEVAL DEVICE(S)", value: "(2) device" },
         ],
       },
       {
-        soldOut: true,
-        title: "Premier Sponsor",
-        priceMember: "€ 30 000",
-        priceNonMember: "€ 45 000",
+        soldOut: false,
+        title: "PLATINUM SPONSOR",
+        priceMember: "$ 60 000",
+        priceNonMember: "$ 72 000",
         color: "#F4A93A",
         items: [
-          { title: "Two 30-Minute Presentation", value: true },
-          { title: "Booth Size", value: ["3m x 3m" , '27" monitor']},
-          { title: "Meeting Room", value: ["Available for purchase"] },
-          { title: "Logo Display" , value: "Sponsor logo on website and printed materials." },
-          { title: "8 Complimentary Registrations", value: "" },
-          { title: "Number Available", value: "3", colored: true },
+          { title: "ACCESS TO OPT-IN ATTENDEE REGISTRATION LIST<sup>2</sup>", value: "Provided post-event" },
+          { title: "RECOGNITION IN EVENT PROMOTIONAL EMAILS AND ATTENDEE COMMUNICATIONS", value: "company name and link only" },
+          { title: "DEMO SESSION<sup>3</sup>", value: "(1) 20-minute session at demo theater (includes attendee contact information)" },
+          { title: "LIST OF REGISTERED PRESS/ANALYSTS", value: "Provided 3 weeks prior to the event" },
+          { title: "LOGO RECOGNITION ON KEYNOTE SCREEN", value: true },
+          { title: "LOGO RECOGNITION IN POST-EVENT TRANSPARENCY REPORT", value: true },
+          { title: "SOCIAL MEDIA POSTS ON X (FORMERLY TWITTER) FROM OFFICIAL @KUBECON_ AND OPENINFRA HANDLE", value: "(1) pre-event group post" },
+          { title: "POSTS IN CNCF AND OPENINFRA'S WECHAT GROUPS", value: "(1) standalone WeChat article and poster" },
+          { title: "LOGO ON SPONSOR SIGNAGE, CONFERENCE WEBSITE, AND CONFERENCE SCHEDULE", value: true },
+          { title: "OPPORTUNITY TO INCLUDE NEWS ANNOUNCEMENTS IN OFFICIAL EVENT NEWS PACKAGE", value: "Preferred placement " },
+          { title: "COMPLIMENTARY CONFERENCE PASSES<sup>4</sup>", value: "10" },
+          { title: "20% DISCOUNT ON ADDITIONAL CONFERENCE PASSES", value: "Unlimited usage while passes are available for sale" },
+          { title: "EXHIBIT SPACE", value: "4.5m (w) x 3m (d) turnkey booth" },
+          { title: "PHYSICAL LEAD RETRIEVAL DEVICE(S)", value: "(2) device" },
         ],
       },
       {
-        soldOut: true,
-        title: "Spotlight Sponsor",
-        priceMember: "€ 15 000",
-        priceNonMember: "€ 25 000",
+        soldOut: false,
+        title: "Gold Sponsor",
+        priceMember: "$ 35 000",
+        priceNonMember: "$ 42 000",
         color: "#28A4DB",
         items: [
-          { title: "One 30-Minute Presentation", value: true },
-          { title: "Booth Size", value: ["1.5m x 3m" , '27" monitor']},
-          { title: "Meeting Room", value: false },
-          { title: "Logo Display" , value: "Sponsor logo on website, at coffee station, and printed materials." },
-          { title: "4 Complimentary Registrations", value: "" },
-          { title: "Number Available", value: "Limited Supply", colored: true },
+          { title: "DEMO SESSION<sup>3</sup>", value: "Promotion of (1) sponsor-hosted in-booth demo" },
+          { title: "LIST OF REGISTERED PRESS/ANALYSTS", value: "Provided 3 weeks prior to the event" },
+          { title: "LOGO RECOGNITION ON KEYNOTE SCREEN", value: true },
+          { title: "LOGO RECOGNITION IN POST-EVENT TRANSPARENCY REPORT", value: true },
+          { title: "SOCIAL MEDIA POSTS ON X (FORMERLY TWITTER) FROM OFFICIAL @KUBECON_ AND OPENINFRA HANDLE", value: "(1) pre-event group post" },
+          { title: "POSTS IN CNCF AND OPENINFRA'S WECHAT GROUPS", value: "(1) shared group WeChat article and poster" },
+          { title: "LOGO ON SPONSOR SIGNAGE, CONFERENCE WEBSITE, AND CONFERENCE SCHEDULE", value: true },
+          { title: "OPPORTUNITY TO INCLUDE NEWS ANNOUNCEMENTS IN OFFICIAL EVENT NEWS PACKAGE", value: true },
+          { title: "COMPLIMENTARY CONFERENCE PASSES<sup>4</sup>", value: "6" },
+          { title: "20% DISCOUNT ON ADDITIONAL CONFERENCE PASSES", value: "Unlimited usage while passes are available for sale" },
+          { title: "EXHIBIT SPACE", value: "3m (w) x 3m (d) turnkey booth" },
+          { title: "PHYSICAL LEAD RETRIEVAL DEVICE(S)", value: "(1) device" },
         ],
       },
       {
-        soldOut: true,
-        title: "Exhibitor Sponsor",
-        priceMember: "€ 7 500",
-        priceNonMember: "€ 15 000",
+        soldOut: false,
+        title: "Silver Sponsor",
+        priceMember: "$ 18 500",
+        priceNonMember: "$ 21 600",
         color: "#39AE4A",
         items: [
-          { title: "30-Minute Presentation", value: "Available for purchase" },
-          { title: "Booth Size", value: ["1.5m x 3m" , "Monitor available for purchase"]},
-          { title: "Meeting Room", value: false },
-          { title: "Logo Display" , value: "Sponsor logo on website, at coffee station, and printed materials." },
-          { title: "2 Complimentary Registrations", value: "" },
-          { title: "Number Available", value: "Limited Supply", colored: true },
+          { title: "POSTS IN CNCF AND OPENINFRA'S WECHAT GROUPS", value: "(1) shared group WeChat article and poster" },
+          { title: "LOGO ON SPONSOR SIGNAGE, CONFERENCE WEBSITE, AND CONFERENCE SCHEDULE", value: true },
+          { title: "OPPORTUNITY TO INCLUDE NEWS ANNOUNCEMENTS IN OFFICIAL EVENT NEWS PACKAGE", value: true },
+          { title: "COMPLIMENTARY CONFERENCE PASSES<sup>4</sup>", value: "4" },
+          { title: "EXHIBIT SPACE", value: "2.5m(w) x 2.5m(d) exhibit space with branded cabinet" },
+          { title: "PHYSICAL LEAD RETRIEVAL DEVICE(S)", value: "(1) device" }
         ],
       },
       {
         dark: true,
-        soldOut: true,
-        title: "Supporting Sponsor",
-        priceMember: "€ 2 500",
-        priceNonMember: "€ 5 000",
+        soldOut: false,
+        title: "STARTUP / END USER SPONSOR",
+        priceMember: "$ 6 000",
         color: "#E61E24",
         items: [
-          { title: "30-Minute Presentation", value: "Available for purchase" },
-          { title: "Booth Size", value: false},
-          { title: "Meeting Room", value: false },
-          { title: "Logo Display" , value: "Sponsor logo on website, at coffee station, and printed materials." },
-          { title: "1 Complimentary Registrations", value: "" },
-          { title: "Number Available", value: "Unlimited", colored: true },
+
+          { title: "POSTS IN CNCF AND OPENINFRA'S WECHAT GROUPS", value: "(1) shared group WeChat article and poster" },
+          { title: "LOGO ON SPONSOR SIGNAGE, CONFERENCE WEBSITE, AND CONFERENCE SCHEDULE", value: true },
+          { title: "OPPORTUNITY TO INCLUDE NEWS ANNOUNCEMENTS IN OFFICIAL EVENT NEWS PACKAGE", value: true },
+          { title: "COMPLIMENTARY CONFERENCE PASSES<sup>4</sup>", value: "2" },
+          { title: "20% DISCOUNT ON ADDITIONAL CONFERENCE PASSES", value: "Unlimited usage while passes are available for sale" },
+          { title: "EXHIBIT SPACE", value: "Tabletop exhibit only" },
+          { title: "PHYSICAL LEAD RETRIEVAL DEVICE(S)", value: "(1) device" },
         ],
       },
       {
         dark: true,
-        soldOut: true,
-        overview: <span style={{color:"#F4A93A"}}>Add on:</span>,
-        title: "30-MINUTE BREAKOUT SPEAKING SESSION",
+        soldOut: false,
+        title: "DAN KOHN DIVERSITY SCHOLARSHIP FUND",
+        price: "$ 7 500 Minimun",
         color: "#F4A93A",
         items: [
-          { title: "Price", value: ["€ 10 000 Member", "€ 15 000 Non-Member"] },
-          { title: "30-Minute Presentation", value: ["On October 18th or 19th"]},
-          { title: "Recording", value: ["Available post-event"] },
-          {
-            title: "Number Available",
-            value: <>10 <span style={{fontSize: "12px"}}>(limit one per person)</span></>,
-            colored: true
-          },
+          { title: "SPONSOR RECOGNITION ON EVENT WEBSITE", value: true },
+          { title: "LOGO RECOGNITION ON ROTATING SLIDES BEFORE AND AFTER KEYNOTES", value: true },
+          { title: "LOGO RECOGNITION ON ONSITE SIGNAGE", value: true },
+          { title: "LOGO RECOGNITION IN POST-EVENT TRANSPARENCY REPORT", value: true },
+          { title: "(1) PRE-EVENT GROUP POST", value: "from the official @kubecon_ x handle (formerly twitter)" },
+          { title: "SPONSOR RECOGNITION IN SCHOLARSHIP ACCEPTANCE NOTIFICATIONS", value: true },
         ],
       },
       {
         dark: true,
-        soldOut: true,
-        overview: <span style={{color:"#28A4DB"}}>Add on:</span>,
-        title: <>Meeting<br/> Room</>,
+        soldOut: false,
+        overview: <span style={{ color: "#28A4DB" }}>Available To Confirmed Level Sponsors Only</span>,
+        title: "CROSS-PROMOTION OF PRE-APPROVED COMMUNITY EVENTS",
         color: "#28A4DB",
+        price: "$ 10 000 Each",
         items: [
-          { title: "Price", value: ["€ 5 000"] },
-          { title: "Private meeting room", value: ["For October 18th or 19th", "Available to premier level only"]},
-          { title: "Number Available", value: "3", colored: true },
+          { title: "EVENT LISTED ON THE OFFICIAL CONFERENCE SCHEDULE", value: true },
+          { title: "EVENT LISTED IN A SHARED PRE-EVENT PROMOTIONAL EMAIL", value: true },
+          { title: "★ OPTIONAL: EVENT LISTED ON THE KUBECON + CLOUDNATIVECON REGISTRATION FORM FOR ATTENDEES TO ADD IT TO THEIR CONFERENCE REGISTRATION.", value: "A 2.58 % credit card processing fee per registrant will be charged if a registration fee is required." },
         ],
       },
       {
-        dark: true,
-        soldOut: true,
-        overview: <span style={{color:"#39AE4A"}}>Add on:</span>,
-        title: "T-Shirt Sponsor",
-        color: "#39AE4A",
-        items: [
-          { title: "Price", value: ["€ 20 000"] },
-          { title: "SPONSOR LOGO ON SLEEVE", value: "T-shirt design created by the OpenInfra Foundation"},
-        ],
-      },
-      {
-        dark: true,
-        soldOut: true,
-        title: <>Booth<br/><span style={{color: "#888888"}}>Add-On</span></>,
-        color: "#161616",
-        items: [
-          { title: "computer monitor (27\")", value: ["€ 250"] },
-          { title: "tv screen (55\")", value: ["€ 400"]},
-        ],
-      },
-      {
-        soldOut: true,
-        overview: "Virtualization Migration Day:",
-        title: <span style={{color: "white"}}>8-Minute keynote</span>,
+        soldOut: false,
+        title: <span style={{color: "white"}}>Attendee T-Shirt</span>,
         color: "#888888",
+        price: "$ 15 000 | 1 Available",
         items: [
-          { title: "Price", value: ["€ 10 000 Member", "€ 15 000 Non-Member"] },
-          { title: "Exclusive 8-Minute demo", value: ["During Virtualization Migration Day Kickoff on Saturday, 18th October"] },
-          { title: "Number Available", value: "1", colored: true },
+          { title: "SPONSOR LOGO IS PRINTED ON THE OFFICIAL CONFERENCE LANYARDS.", value: "Logo must be single-color only (no gradient colors)." },
+          { title: "★ Logo color, size, and placement will be determined by CNCF based on the overall t-shirt design." }
         ],
       },
       {
-        soldOut: true,
-        overview: "Virtualization Migration Day:",
-        title: <span style={{color: "white"}}>Lightning Demo</span>,
+        soldOut: false,
+        title: <span style={{color: "white"}}>Lanyards</span>,
         color: "#888888",
+        price: "$ 10 000 | 1 Available",
         items: [
-          { title: "Price", value: ["€ 5 000 Member", "€ 7 500 Non-Member"] },
-          { title: "15-Minute demo", value: ["Demo in the Lightning Demo Showcase"] },
-          { title: "Number Available", value: "5", colored: true },
+          { title: "SPONSOR LOGO IS PRINTED ON THE OFFICIAL CONFERENCE LANYARDS.", value: "Logo must be single-color only (no gradient colors)." },
+          { title: "★ Logo color, size, and placement will be determined by CNCF based on the overall t-shirt design." }
+        ],
+      },
+      {
+        soldOut: false,
+        title: <span style={{color: "white"}}>Session Recording</span>,
+        color: "#888888",
+        price: "$ 15 000 | 1 Available",
+        items: [
+          { title: "SPONSOR RECOGNITION SLIDE WITH LOGO AT THE BEGINNING OF EACH VIDEO RECORDING", value: true },
+          { title: "CUSTOMIZABLE SLIDE DESIGNED BY SPONSOR AT ", value: true }
         ],
       },
     ],
-  },
-  {
-    title: ["OPENSTACK TURNS 15 JULY 2025! JOIN IN BY SPONSORING VARIOUS ACTIVITIES AROUND THE GLOBE"],
-    subtitle: (
-      <>
-        <a href="mailto:events@openinfra.dev">Contact us</a> to sponsor an OpenStack Birthday celebration!
-      </>
-    ),
-    plans: [
-      {
-        title: "BIRTHDAY SHIRT OPTION A",
-        price: "$25,000 USD",
-        color: "#F4A93A",
-        items: [
-          { title: "1,000 SHIRTS", value: "T-shirt design will be produced by OpenInfra Foundation. To be distributed at various community events." },
-          { title: "Logo Display" , value: "T-shirt with official birthday design on front with sponsor's logo of choice on sleeve." },
-          { title: "Number Available" , value: "Only one t-shirt sponsorship is available. Sponsors have the opportunity to choose option A or B." },
-        ],
-      },
-      {
-        title: "BIRTHDAY SHIRT OPTION B",
-        price: "$15,000 USD",
-        color: "#5c6b7e",
-        items: [
-          { title: "500 SHIRTS", value: "T-shirt design will be produced by OpenInfra Foundation. To be distributed at various community events." },
-          { title: "Logo Display" , value: "T-shirt with official birthday design on front with sponsor's logo of choice on sleeve." },
-          { title: "Number Available" , value: "Only one t-shirt sponsorship is available. Sponsors have the opportunity to choose option A or B." },
-        ],
-      },
-      {
-        title: "IN-PERSON USER GROUP BIRTHDAY CELEBRATION",
-        price: "$1,000 USD *price may vary",
-        color: "#28a4db",
-        items: [
-          { title: "About", value: "For the OpenStack birthdays, User Groups around the world host in-person gatherings to celebrate. This sponsorship would be location-specific. Please contact us for a list of available locations." },
-          { title: "Logo Display" , value: "Logo inclusion a slide in the deck the OpenInfraFoundation shares with the User Groups, an onsite thank you from the organizers. Organizers will be connected directly with the sponsor to discuss swag options." },
-        ],
-      },
-      {
-        title: "Virtual USER GROUP BIRTHDAY CELEBRATION",
-        price: "$500 USD *price may vary",
-        color: "#f4a93a",
-        items: [
-          { title: "About", value: "For the OpenStack birthdays, User Groups around the world host gatherings to celebrate. This sponsorship would be location-specific. Please contact us for a list of available locations" },
-          { title: "Logo Display" , value: "Logo inclusion a slide in the deck the OpenInfraFoundation shares with the User Groups and a thank you from the organizers." },
-        ],
-      },
-    ],
-  },
+    notes: `
+    <p>
+      <sup>1</sup><b>SPEAKING OPPORTUNITY:</b> Content must meet CFP criteria and is subject to program committee approval. Includes attendee contact list (for breakout session only, not available for keynote session.) 
+      <br/>Includes Video recording of sponsored keynote or breakout session. Raw file to be used under Creative Commons license with attribution to The Linux Foundation and Cloud Native Computing Foundation
+    </p>      
+
+    <p>
+      <sup>2</sup><b>ACCESS TO OPT-IN ATTENDEE REGISTRATION LIST:</b> List may be used for marketing purposes, and will include attendee contact information (with email address) of opt-in attendees.
+    </p>  
+
+    <p>
+      <sup>3</sup><b>DEMO SESSION:</b> Demo theater located in meeting room or exhibit hall (subject to availability)
+    </p>
+
+    <p>
+      <sup>4</sup><b>COMPLIMENTARY CONFERENCE PASSES:</b> To be used for booth staff, attendees, and guests, Includes access to keynotes, sessions, and exhibits
+    </p>
+
+    <p>
+      <b>EXHIBIT SPACE:</b> Booth sizes are subject to change based on venue <br/>
+        <ul>
+          <li>Turnkey booth includes backwall and counter with graphics, (2) stools, (1) wastebasket, and basic power.</li>
+          <li>Tabletop exhibit includes (1) draped table, (2) chairs, (1) wastebasket, and basic power.</li>
+        </ul>
+    </p>
+
+    <p>
+      <b>PHYSICAL LEAD RETRIEVAL DEVICE(S):</b> To be used at booth only
+    </p>
+    `
+  }
 ];
 
 export const SponsorshipPageTemplate = ({

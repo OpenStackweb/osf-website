@@ -66,8 +66,7 @@ const SponsorshipCard = ({overview, title, dark, soldOut, priceMember, priceNonM
         <div className="items-section">
           {items.map(it => (
             <div className={`item ${it.value === false ? 'disabled' : ''}`}>
-              <h4 className="item-title">
-                {it.title}{' '}
+              <h4 className="item-title" dangerouslySetInnerHTML={{__html: `${it.title} `}}>                
               </h4>
               {it.subtitle && <div className="item-subtitle">{it.subtitle}</div>}
               <p className="item-value">{getValue(it.value, it.colored)}</p>

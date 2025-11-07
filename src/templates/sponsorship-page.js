@@ -34,10 +34,10 @@ const SPONSORSHIPS_DAYS = [
         priceNonMember: "$ 150 000",
         color: "#ED362F",
         items: [
-          { title: "SPEAKING OPPORTUNITY<sup>1</sup>", value: "Choice of (1) 5-minute keynote or (1) 30-minute breakout session" },
-          { title: "ACCESS TO OPT-IN ATTENDEE REGISTRATION LIST<sup>2</sup>", value: "Provided pre - and post - event" },
+          { title: `SPEAKING OPPORTUNITY<sup><a href="#note1">1</a></sup>`, value: "Choice of (1) 5-minute keynote or (1) 30-minute breakout session" },
+          { title: `ACCESS TO OPT-IN ATTENDEE REGISTRATION LIST<sup><a href="#note2">2</a></sup>`, value: "Provided pre - and post - event" },
           { title: "RECOGNITION IN EVENT PROMOTIONAL EMAILS AND ATTENDEE COMMUNICATIONS", value: "logo and link" },
-          { title: "DEMO SESSION<sup>3</sup>", value: "(1) 20 - minute session at demo theater(includes attendee contact information)" },
+          { title: `DEMO SESSION<sup><a href="#note3">3</a></sup>`, value: "(1) 20 - minute session at demo theater(includes attendee contact information)" },
           { title: "LIST OF REGISTERED PRESS/ANALYSTS", value: "Provided 3 weeks prior to the event" },
           { title: "LOGO RECOGNITION ON KEYNOTE SCREEN", value: true },
           { title: "LOGO RECOGNITION IN POST-EVENT TRANSPARENCY REPORT", value: true },
@@ -45,7 +45,7 @@ const SPONSORSHIPS_DAYS = [
           { title: "POSTS IN CNCF AND OPENINFRA'S WECHAT GROUPS", value: "(1) standalone WeChat article and poster" },
           { title: "LOGO ON SPONSOR SIGNAGE, CONFERENCE WEBSITE, AND CONFERENCE SCHEDULE", value: true },
           { title: "OPPORTUNITY TO INCLUDE NEWS ANNOUNCEMENTS IN OFFICIAL EVENT NEWS PACKAGE", value: "Preferred placement " },
-          { title: "COMPLIMENTARY CONFERENCE PASSES<sup>4</sup>", value: "20" },
+          { title: `COMPLIMENTARY CONFERENCE PASSES<sup><a href="#note4">4</a></sup>`, value: "20" },
           { title: "20% DISCOUNT ON ADDITIONAL CONFERENCE PASSES", value: "Unlimited usage while passes are available for sale" },
           { title: "EXHIBIT SPACE", value: "6m(w) x 3m(d) turnkey booth" },
           { title: "HYSICAL LEAD RETRIEVAL DEVICE(S)", value: "(2) device" },
@@ -58,9 +58,9 @@ const SPONSORSHIPS_DAYS = [
         priceNonMember: "$ 72 000",
         color: "#F4A93A",
         items: [
-          { title: "ACCESS TO OPT-IN ATTENDEE REGISTRATION LIST<sup>2</sup>", value: "Provided post-event" },
+          { title: `ACCESS TO OPT-IN ATTENDEE REGISTRATION LIST<sup><a href="#note2">2</a></sup>`, value: "Provided post-event" },
           { title: "RECOGNITION IN EVENT PROMOTIONAL EMAILS AND ATTENDEE COMMUNICATIONS", value: "company name and link only" },
-          { title: "DEMO SESSION<sup>3</sup>", value: "(1) 20-minute session at demo theater (includes attendee contact information)" },
+          { title: `DEMO SESSION<sup><a href="#note3">3</a></sup>`, value: "(1) 20-minute session at demo theater (includes attendee contact information)" },
           { title: "LIST OF REGISTERED PRESS/ANALYSTS", value: "Provided 3 weeks prior to the event" },
           { title: "LOGO RECOGNITION ON KEYNOTE SCREEN", value: true },
           { title: "LOGO RECOGNITION IN POST-EVENT TRANSPARENCY REPORT", value: true },
@@ -68,7 +68,7 @@ const SPONSORSHIPS_DAYS = [
           { title: "POSTS IN CNCF AND OPENINFRA'S WECHAT GROUPS", value: "(1) standalone WeChat article and poster" },
           { title: "LOGO ON SPONSOR SIGNAGE, CONFERENCE WEBSITE, AND CONFERENCE SCHEDULE", value: true },
           { title: "OPPORTUNITY TO INCLUDE NEWS ANNOUNCEMENTS IN OFFICIAL EVENT NEWS PACKAGE", value: "Preferred placement " },
-          { title: "COMPLIMENTARY CONFERENCE PASSES<sup>4</sup>", value: "10" },
+          { title: `COMPLIMENTARY CONFERENCE PASSES<sup><a href="#note4">4</a></sup>`, value: "10" },
           { title: "20% DISCOUNT ON ADDITIONAL CONFERENCE PASSES", value: "Unlimited usage while passes are available for sale" },
           { title: "EXHIBIT SPACE", value: "4.5m (w) x 3m (d) turnkey booth" },
           { title: "PHYSICAL LEAD RETRIEVAL DEVICE(S)", value: "(2) device" },
@@ -81,7 +81,7 @@ const SPONSORSHIPS_DAYS = [
         priceNonMember: "$ 42 000",
         color: "#28A4DB",
         items: [
-          { title: "DEMO SESSION<sup>3</sup>", value: "Promotion of (1) sponsor-hosted in-booth demo" },
+          { title: `DEMO SESSION<sup><a href="#note3">3</a></sup>`, value: "Promotion of (1) sponsor-hosted in-booth demo" },
           { title: "LIST OF REGISTERED PRESS/ANALYSTS", value: "Provided 3 weeks prior to the event" },
           { title: "LOGO RECOGNITION ON KEYNOTE SCREEN", value: true },
           { title: "LOGO RECOGNITION IN POST-EVENT TRANSPARENCY REPORT", value: true },
@@ -89,7 +89,7 @@ const SPONSORSHIPS_DAYS = [
           { title: "POSTS IN CNCF AND OPENINFRA'S WECHAT GROUPS", value: "(1) shared group WeChat article and poster" },
           { title: "LOGO ON SPONSOR SIGNAGE, CONFERENCE WEBSITE, AND CONFERENCE SCHEDULE", value: true },
           { title: "OPPORTUNITY TO INCLUDE NEWS ANNOUNCEMENTS IN OFFICIAL EVENT NEWS PACKAGE", value: true },
-          { title: "COMPLIMENTARY CONFERENCE PASSES<sup>4</sup>", value: "6" },
+          { title: `COMPLIMENTARY CONFERENCE PASSES<sup><a href="#note4">4</a></sup>`, value: "6" },
           { title: "20% DISCOUNT ON ADDITIONAL CONFERENCE PASSES", value: "Unlimited usage while passes are available for sale" },
           { title: "EXHIBIT SPACE", value: "3m (w) x 3m (d) turnkey booth" },
           { title: "PHYSICAL LEAD RETRIEVAL DEVICE(S)", value: "(1) device" },
@@ -105,7 +105,7 @@ const SPONSORSHIPS_DAYS = [
           { title: "POSTS IN CNCF AND OPENINFRA'S WECHAT GROUPS", value: "(1) shared group WeChat article and poster" },
           { title: "LOGO ON SPONSOR SIGNAGE, CONFERENCE WEBSITE, AND CONFERENCE SCHEDULE", value: true },
           { title: "OPPORTUNITY TO INCLUDE NEWS ANNOUNCEMENTS IN OFFICIAL EVENT NEWS PACKAGE", value: true },
-          { title: "COMPLIMENTARY CONFERENCE PASSES<sup>4</sup>", value: "4" },
+          { title: `COMPLIMENTARY CONFERENCE PASSES<sup><a href="#note4">4</a></sup>`, value: "4" },
           { title: "EXHIBIT SPACE", value: "2.5m(w) x 2.5m(d) exhibit space with branded cabinet" },
           { title: "PHYSICAL LEAD RETRIEVAL DEVICE(S)", value: "(1) device" }
         ],
@@ -121,7 +121,7 @@ const SPONSORSHIPS_DAYS = [
           { title: "POSTS IN CNCF AND OPENINFRA'S WECHAT GROUPS", value: "(1) shared group WeChat article and poster" },
           { title: "LOGO ON SPONSOR SIGNAGE, CONFERENCE WEBSITE, AND CONFERENCE SCHEDULE", value: true },
           { title: "OPPORTUNITY TO INCLUDE NEWS ANNOUNCEMENTS IN OFFICIAL EVENT NEWS PACKAGE", value: true },
-          { title: "COMPLIMENTARY CONFERENCE PASSES<sup>4</sup>", value: "2" },
+          { title: `COMPLIMENTARY CONFERENCE PASSES<sup><a href="#note4">4</a></sup>`, value: "2" },
           { title: "20% DISCOUNT ON ADDITIONAL CONFERENCE PASSES", value: "Unlimited usage while passes are available for sale" },
           { title: "EXHIBIT SPACE", value: "Tabletop exhibit only" },
           { title: "PHYSICAL LEAD RETRIEVAL DEVICE(S)", value: "(1) device" },
@@ -188,20 +188,20 @@ const SPONSORSHIPS_DAYS = [
     ],
     notes: `
     <p>
-      <sup>1</sup><b>SPEAKING OPPORTUNITY:</b> Content must meet CFP criteria and is subject to program committee approval. Includes attendee contact list (for breakout session only, not available for keynote session.) 
+      <sup id="note1">1</sup><b> SPEAKING OPPORTUNITY:</b> Content must meet CFP criteria and is subject to program committee approval. Includes attendee contact list (for breakout session only, not available for keynote session.) 
       <br/>Includes Video recording of sponsored keynote or breakout session. Raw file to be used under Creative Commons license with attribution to The Linux Foundation and Cloud Native Computing Foundation
     </p>      
 
     <p>
-      <sup>2</sup><b>ACCESS TO OPT-IN ATTENDEE REGISTRATION LIST:</b> List may be used for marketing purposes, and will include attendee contact information (with email address) of opt-in attendees.
+      <sup id="note2">2</sup><b> ACCESS TO OPT-IN ATTENDEE REGISTRATION LIST:</b> List may be used for marketing purposes, and will include attendee contact information (with email address) of opt-in attendees.
     </p>  
 
     <p>
-      <sup>3</sup><b>DEMO SESSION:</b> Demo theater located in meeting room or exhibit hall (subject to availability)
+      <sup id="note3">3</sup><b> DEMO SESSION:</b> Demo theater located in meeting room or exhibit hall (subject to availability)
     </p>
 
     <p>
-      <sup>4</sup><b>COMPLIMENTARY CONFERENCE PASSES:</b> To be used for booth staff, attendees, and guests, Includes access to keynotes, sessions, and exhibits
+      <sup id="note4">4</sup><b> COMPLIMENTARY CONFERENCE PASSES:</b> To be used for booth staff, attendees, and guests, Includes access to keynotes, sessions, and exhibits
     </p>
 
     <p>

@@ -30,8 +30,8 @@ const SPONSORSHIPS_DAYS = [
       {
         soldOut: false,
         title: "Diamond Sponsor",
-        priceMember: "$ 125 000",
-        priceNonMember: "$ 150 000",
+        priceMember: "$ 125,000",
+        priceNonMember: "$ 150,000",
         color: "#ED362F",
         items: [
           { title: `SPEAKING OPPORTUNITY<sup><a href="#note1">1</a></sup>`, value: "Choice of (1) 5-minute keynote or (1) 30-minute breakout session" },
@@ -48,14 +48,14 @@ const SPONSORSHIPS_DAYS = [
           { title: `COMPLIMENTARY CONFERENCE PASSES<sup><a href="#note4">4</a></sup>`, value: "20" },
           { title: "20% DISCOUNT ON ADDITIONAL CONFERENCE PASSES", value: "Unlimited usage while passes are available for sale" },
           { title: "EXHIBIT SPACE", value: "6m(w) x 3m(d) turnkey booth" },
-          { title: "HYSICAL LEAD RETRIEVAL DEVICE(S)", value: "(2) device" },
+          { title: "PHYSICAL LEAD RETRIEVAL DEVICES", value: "(2) device" },
         ],
       },
       {
         soldOut: false,
         title: "PLATINUM SPONSOR",
-        priceMember: "$ 60 000",
-        priceNonMember: "$ 72 000",
+        priceMember: "$ 60,000",
+        priceNonMember: "$ 72,000",
         color: "#F4A93A",
         items: [
           { title: `ACCESS TO OPT-IN ATTENDEE REGISTRATION LIST<sup><a href="#note2">2</a></sup>`, value: "Provided post-event" },
@@ -71,14 +71,14 @@ const SPONSORSHIPS_DAYS = [
           { title: `COMPLIMENTARY CONFERENCE PASSES<sup><a href="#note4">4</a></sup>`, value: "10" },
           { title: "20% DISCOUNT ON ADDITIONAL CONFERENCE PASSES", value: "Unlimited usage while passes are available for sale" },
           { title: "EXHIBIT SPACE", value: "4.5m (w) x 3m (d) turnkey booth" },
-          { title: "PHYSICAL LEAD RETRIEVAL DEVICE(S)", value: "(2) device" },
+          { title: "PHYSICAL LEAD RETRIEVAL DEVICES", value: "(2) device" },
         ],
       },
       {
         soldOut: false,
         title: "Gold Sponsor",
-        priceMember: "$ 35 000",
-        priceNonMember: "$ 42 000",
+        priceMember: "$ 35,000",
+        priceNonMember: "$ 42,000",
         color: "#28A4DB",
         items: [
           { title: `DEMO SESSION<sup><a href="#note3">3</a></sup>`, value: "Promotion of (1) sponsor-hosted in-booth demo" },
@@ -98,8 +98,8 @@ const SPONSORSHIPS_DAYS = [
       {
         soldOut: false,
         title: "Silver Sponsor",
-        priceMember: "$ 18 500",
-        priceNonMember: "$ 21 600",
+        priceMember: "$ 18,000",
+        priceNonMember: "$ 21,600",
         color: "#39AE4A",
         items: [
           { title: "POSTS IN CNCF AND OPENINFRA'S WECHAT GROUPS", value: "(1) shared group WeChat article and poster" },
@@ -114,7 +114,7 @@ const SPONSORSHIPS_DAYS = [
         dark: true,
         soldOut: false,
         title: "STARTUP / END USER SPONSOR",
-        priceMember: "$ 6 000",
+        priceMember: "$ 6,000",
         color: "#E61E24",
         items: [
 
@@ -131,14 +131,14 @@ const SPONSORSHIPS_DAYS = [
         dark: true,
         soldOut: false,
         title: "DAN KOHN DIVERSITY SCHOLARSHIP FUND",
-        price: "$ 7 500 Minimun",
+        price: "$ 7,500 Minimun",
         color: "#F4A93A",
         items: [
           { title: "SPONSOR RECOGNITION ON EVENT WEBSITE", value: true },
           { title: "LOGO RECOGNITION ON ROTATING SLIDES BEFORE AND AFTER KEYNOTES", value: true },
           { title: "LOGO RECOGNITION ON ONSITE SIGNAGE", value: true },
           { title: "LOGO RECOGNITION IN POST-EVENT TRANSPARENCY REPORT", value: true },
-          { title: "(1) PRE-EVENT GROUP POST", value: "from the official @kubecon_ x handle (formerly twitter)" },
+          { title: "(1) PRE-EVENT GROUP POST", value: "From the official X handle @KubeCon_ (formerly Twitter)" },
           { title: "SPONSOR RECOGNITION IN SCHOLARSHIP ACCEPTANCE NOTIFICATIONS", value: true },
         ],
       },
@@ -148,7 +148,7 @@ const SPONSORSHIPS_DAYS = [
         overview: <span style={{ color: "#28A4DB" }}>Available To Confirmed Level Sponsors Only</span>,
         title: "CROSS-PROMOTION OF PRE-APPROVED COMMUNITY EVENTS",
         color: "#28A4DB",
-        price: "$ 10 000 Each",
+        price: "$ 10,000 Each",
         items: [
           { title: "EVENT LISTED ON THE OFFICIAL CONFERENCE SCHEDULE", value: true },
           { title: "EVENT LISTED IN A SHARED PRE-EVENT PROMOTIONAL EMAIL", value: true },
@@ -159,37 +159,37 @@ const SPONSORSHIPS_DAYS = [
         soldOut: false,
         title: <span style={{color: "white"}}>Attendee T-Shirt</span>,
         color: "#888888",
-        price: "$ 15 000 | 1 Available",
+        price: "$ 15,000 | 1 Available",
         items: [
-          { title: "SPONSOR LOGO IS PRINTED ON THE OFFICIAL CONFERENCE LANYARDS.", value: "Logo must be single-color only (no gradient colors)." },
-          { title: "★ Logo color, size, and placement will be determined by CNCF based on the overall t-shirt design." }
+          { title: "SPONSOR LOGO IS PRINTED ON THE OFFICIAL CONFERENCE SHIRT", value: "Logo must be single-color only (no gradient colors)." },
+          { title: "★ Logo color, size, and placement will be determined by OpenInfra Foundation and CNCF based on the overall t-shirt design." }
         ],
       },
       {
         soldOut: false,
         title: <span style={{color: "white"}}>Lanyards</span>,
         color: "#888888",
-        price: "$ 10 000 | 1 Available",
+        price: "$ 10,000 | 1 Available",
         items: [
           { title: "SPONSOR LOGO IS PRINTED ON THE OFFICIAL CONFERENCE LANYARDS.", value: "Logo must be single-color only (no gradient colors)." },
-          { title: "★ Logo color, size, and placement will be determined by CNCF based on the overall t-shirt design." }
+          { title: "★ Logo color, size, and placement will be determined by OpenInfra Foundation and CNCF based on the overall Lanyard design." }
         ],
       },
       {
         soldOut: false,
         title: <span style={{color: "white"}}>Session Recording</span>,
         color: "#888888",
-        price: "$ 15 000 | 1 Available",
+        price: "$ 15,000 | 1 Available",
         items: [
           { title: "SPONSOR RECOGNITION SLIDE WITH LOGO AT THE BEGINNING OF EACH VIDEO RECORDING", value: true },
-          { title: "CUSTOMIZABLE SLIDE DESIGNED BY SPONSOR AT ", value: true }
+          { title: "Customizable slide designed by the sponsor at the beginning of each video recording", value: true }
         ],
       },
     ],
     notes: `
     <p>
       <sup id="note1">1</sup><b> SPEAKING OPPORTUNITY:</b> Content must meet CFP criteria and is subject to program committee approval. Includes attendee contact list (for breakout session only, not available for keynote session.) 
-      <br/>Includes Video recording of sponsored keynote or breakout session. Raw file to be used under Creative Commons license with attribution to The Linux Foundation and Cloud Native Computing Foundation
+      <br/>Includes Video recording of sponsored keynote or breakout session. Includes Video recording of sponsored keynote or breakout session. Raw file to be used under Creative Commons license with attribution to The Linux Foundation, Cloud Native Computing Foundation, and OpenInfra Foundation
     </p>      
 
     <p>

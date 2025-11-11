@@ -12,7 +12,7 @@ const OpenInfraDaysCard = ({background, name, date, location, coming_soon, link 
   return (
     <LinkComponent href={link}>
       <div className="openinfra-days-card-wrapper">
-        <div className="top" style={{backgroundImage: `url(${background})`}}>
+        <div className="top" style={{backgroundImage: `url(${background.publicURL})`}}>
           {name &&
             <>
               <img src={logo}/>

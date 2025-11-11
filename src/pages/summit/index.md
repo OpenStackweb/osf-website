@@ -42,18 +42,6 @@ subHeader:
   footer:
     src: /img/summit-landing/community.png
     alt: community
-upcomingSummits:
-  title: Upcoming OpenInfra Summit
-  summits: 
-    - key: "china-26"
-      background: /img/summit-landing/cards/summit-asia-26.png
-      date: "September 8-9, 2026"
-      location: "Shanghai International Convention Center Oriental Riverside Hotel"
-      notification:
-        text: " "
-        button:
-          link: "https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/"
-          text: "Learn More"
 pastSummits:
   title: Past OpenInfra Summits
   summits:

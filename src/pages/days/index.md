@@ -125,16 +125,4 @@ communityEvents:
       link: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/"
       date: "November 10-13"
       location: "Atlanta, GA"
-upcomingSummits:
-  title: ""
-  summits:
-    - key: "china-26"
-      background: /img/summit-landing/cards/summit-asia-26.png
-      date: "September 8-9, 2026"
-      location: "Shanghai International Convention Center Oriental Riverside Hotel"
-      notification:
-        text: " "
-        button:
-          link: "https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/"
-          text: "Learn More"
 ---

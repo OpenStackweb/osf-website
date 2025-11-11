@@ -9,7 +9,7 @@ const UpcomingSummits = ({ title, summits }) => {
       {summits.map((summit) => (
         <SummitCard
           key={summit.key}
-          background={summit.background?.publicURL}
+          background={summit.background}
           summit={summit}
         />
       ))}

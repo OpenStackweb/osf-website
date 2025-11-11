@@ -16,6 +16,8 @@ import OpenInfraDays from "../components/OpeninfraDays";
 import hero from '../../static/img/openinfra-days/OI-Days-1920x325.11.svg';
 import UpcomingSummits from "../components/UpcomingSummits";
 
+import UpcomingSummitsData from "../content/upcoming-summits.json"
+
 export const OpenInfraDaysPageTemplate = ({
   isLoggedUser,
   title,
@@ -25,8 +27,7 @@ export const OpenInfraDaysPageTemplate = ({
   upcomingDaysEvents,
   upcomingMeetups,
   pastMeetups,
-  communityEvents,
-  upcomingSummits
+  communityEvents
 }) => {
   return (
     <div>
@@ -45,7 +46,7 @@ export const OpenInfraDaysPageTemplate = ({
             <MeetupBanner />
             <OpenInfraDays title={pastMeetups.title} events={pastMeetups.meetups} />
             <MoreEventsSection title={communityEvents.title} events={communityEvents.events}/>
-            <UpcomingSummits summits={upcomingSummits.summits} />
+            <UpcomingSummits summits={UpcomingSummitsData.summits} />
             <BottomBanner
               title={'Interested in becoming<br/>a Community Organizer?<br/>Contact us at <a href="mailto:events@openinfra.dev">events@openinfra.dev</a>'}
               button={{ link: 'mailto:events@openinfra.dev', text: 'Events Contact' }}
@@ -73,7 +74,6 @@ const OpenInfraDaysPage = ({ isLoggedUser, data }) => {
         upcomingMeetups={post.frontmatter.upcomingMeetups}
         pastMeetups={post.frontmatter.pastMeetups}
         communityEvents={post.frontmatter.communityEvents}
-        upcomingSummits={post.frontmatter.upcomingSummits}
         isLoggedUser={isLoggedUser}
       />
     </Layout>
@@ -146,26 +146,8 @@ export const OpenInfraDaysPageQuery = graphql`
             date
             location
           }
-        }
-        upcomingSummits {
-          title
-          summits {
-            key
-            background {
-              publicURL
-            }
-            date
-            location
-            notification {
-              text
-              button {
-                link
-                text
-              }
-            }                
-          }
-        }    
+        }        
       }
-    }
+    }    
   }
 `

@@ -52,20 +52,24 @@ upcomingDaysEvents:
       sponsor: |
         <a href="https://cloudopsdays.com/wp-content/uploads/2025/03/CODT2025_sponsorship_en.pdf" target="_blank">Sponsor this event</a>
 upcomingMeetups:
-  - background: /img/openinfra-days/openinfra-days-cards/kenya_3.svg
-    date: "September 6, 2025"
-    location: "Nairobi, Kenya"
-    link: "https://www.meetup.com/kenya-openinfra-user-group/"
+  title: "Upcoming OpenInfra Days"
+  meetups:
+    - background: /img/openinfra-days/openinfra-days-cards/kenya_3.svg
+      date: "September 6, 2025"
+      location: "Nairobi, Kenya"
+      link: "https://www.meetup.com/kenya-openinfra-user-group/"
 pastMeetups:
-  - background: /img/openinfra-days/openinfra-days-cards/sweden-meetup.svg
-    date: "May 22, 2025"
-    location: "Stockholm, Sweden"
-    link: "https://www.meetup.com/openinfra-user-group-sweden/events/306139678/"
-  - background: /img/openinfra-days/openinfra-days-cards/oid-pasadena.png
-    name: "North America"
-    date: "March 6 & 7, 2025"
-    location: "Pasadena, California"
-    link: "https://www.youtube.com/live/W9OmGdtJAAE?si=OO_WjYr7A6ktAv5A"
+  title: "Past Openinfra Days"
+  meetups:
+    - background: /img/openinfra-days/openinfra-days-cards/sweden-meetup.svg
+      date: "May 22, 2025"
+      location: "Stockholm, Sweden"
+      link: "https://www.meetup.com/openinfra-user-group-sweden/events/306139678/"
+    - background: /img/openinfra-days/openinfra-days-cards/oid-pasadena.png
+      name: "North America"
+      date: "March 6 & 7, 2025"
+      location: "Pasadena, California"
+      link: "https://www.youtube.com/live/W9OmGdtJAAE?si=OO_WjYr7A6ktAv5A"
 communityEvents:
   title: "More Open Source Community Events"
   events:
@@ -122,13 +126,15 @@ communityEvents:
       date: "November 10-13"
       location: "Atlanta, GA"
 upcomingSummits:
-  - key: "europe-25"
-    background: /img/summit-landing/cards/summit-europe-25-2.png
-    date: "October 17-19, 2025"
-    location: "École Polytechnique, Paris-Saclay, France"
-    notification:
-      text: " "
-      button:
-        link: "https://summit2025.openinfra.org"
-        text: "Learn More"
+  title: ""
+  summits:
+    - key: "china-26"
+      background: /img/summit-landing/cards/summit-asia-26.png
+      date: "September 8-9, 2026"
+      location: "Shanghai International Convention Center Oriental Riverside Hotel"
+      notification:
+        text: " "
+        button:
+          link: "https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/"
+          text: "Learn More"
 ---

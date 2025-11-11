@@ -180,7 +180,7 @@ sponsor:
     title: Platinum Members
   title: Companies supporting the OpenInfra Foundation
 openInfraEvents:
-  eventsData:    
+  openInfraEventsData:    
     - link: 'https://openinfraasia.org'
       logo: /img/homeV2/events-images/logo-asia.svg
       text: 'openinfraasia.org'

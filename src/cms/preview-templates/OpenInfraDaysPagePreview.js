@@ -4,7 +4,7 @@ import { OpenInfraDaysPageTemplate } from '../../templates/open-infra-days-page'
 
 const OpenInfraDaysPagePreview = ({ entry, widgetFor }) => {
   const data = entry.getIn(['data']).toJS()
-    
+  
   const entryUpcomingDaysEvents = entry.getIn(['data', 'upcomingDaysEvents', 'events'])
   const upcomingDaysEvents = entryUpcomingDaysEvents ? entryUpcomingDaysEvents.toJS() : []
   
@@ -16,10 +16,10 @@ const OpenInfraDaysPagePreview = ({ entry, widgetFor }) => {
   
   const entryCommunityEvents = entry.getIn(['data', 'communityEvents', 'events'])
   const communityEvents = entryCommunityEvents ? entryCommunityEvents.toJS() : []
-
+  
   const entryUpcomingSummits = entry.getIn(['data', 'upcomingSummits'])
-  const upcomingSummits = entryUpcomingSummits ? entryUpcomingSummits.toJS() : []
-
+  const upcomingSummits = entryUpcomingSummits ? entryUpcomingSummits.toJS() : { title: '', summits: [] }
+  
   if (data) {
     return (
       <OpenInfraDaysPageTemplate

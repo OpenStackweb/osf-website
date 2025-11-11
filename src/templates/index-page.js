@@ -236,7 +236,7 @@ export const pageQuery = graphql`
           }
         }
         openInfraEvents {
-          eventsData {          
+          openInfraEventsData {          
             link
             logo {
               publicURL

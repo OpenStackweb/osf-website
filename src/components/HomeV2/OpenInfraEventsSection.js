@@ -25,11 +25,11 @@ const OpenInfraEventsSection = ({events}) => {
                 <br />OPEN SOURCE INFRASTRUCTURE
             </span>
             <div className='openinfra-events-section-wrapper'>
-                {events.eventsData.map(event => {
+                {events.openInfraEventsData.map(event => {
                     return (
                         <LinkComponent href={event.link}>
                             <div className='openinfra-event' style={{ color: event.color, borderColor: event.color }}>
-                                <img src={event.logo?.publicURL || event.logo} />
+                                <img src={event.logo?.publicURL} />
                                 <span>{arrowIcon(event.color)} {event.text}</span>
                             </div>
                         </LinkComponent>
@@ -42,7 +42,7 @@ const OpenInfraEventsSection = ({events}) => {
                     {events.upcomingEvents.map(event => {
                         return (
                             <div className="event-container">
-                                <img className="event-image" src={event.image?.publicURL || event.image} />
+                                <img className="event-image" src={event.image?.publicURL} />
                                 <span className='event-info'>
                                     <img src={calendarIcon} /> {event.date}
                                 </span>

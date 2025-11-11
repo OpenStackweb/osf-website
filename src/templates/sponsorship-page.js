@@ -189,7 +189,7 @@ const SPONSORSHIPS_DAYS = [
     notes: `
     <p>
       <sup id="note1">1</sup><b> SPEAKING OPPORTUNITY:</b> Content must meet CFP criteria and is subject to program committee approval. Includes attendee contact list (for breakout session only, not available for keynote session.) 
-      <br/>Includes Video recording of sponsored keynote or breakout session. Includes Video recording of sponsored keynote or breakout session. Raw file to be used under Creative Commons license with attribution to The Linux Foundation, Cloud Native Computing Foundation, and OpenInfra Foundation
+      <br/>Includes Video recording of sponsored keynote or breakout session. Raw file to be used under Creative Commons license with attribution to The Linux Foundation, Cloud Native Computing Foundation, and OpenInfra Foundation
     </p>      
 
     <p>

@@ -57,5 +57,5 @@ CMS.registerPreviewTemplate('electionPage', ElectionPagePreview)
 CMS.registerPreviewTemplate('contributors-pages', ContributorsPagePreview)
 CMS.registerPreviewTemplate('annual-report-pages', AnnualReportPagePreview)
 CMS.registerPreviewTemplate('projects-contact', ProjectsContactPagePreview)
-CMS.registerPreviewTemplate('summit-landing-page', SummitLandingPagePreview);
+CMS.registerPreviewTemplate('summit-landing-page', SummitLandingPagePreview)
 CMS.registerPreviewTemplate('openinfra-days', OpenInfraDaysPagePreview)

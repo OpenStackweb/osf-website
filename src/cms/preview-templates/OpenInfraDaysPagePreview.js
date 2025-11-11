@@ -2,24 +2,24 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { OpenInfraDaysPageTemplate } from '../../templates/open-infra-days-page'
 
-const OpenInfraDaysPagePreview = ({ entry, widgetFor }) => {
+const OpenInfraDaysPagePreview = ({ entry }) => {
   const data = entry.getIn(['data']).toJS()
-
-  const entryUpcomingDaysEvents = entry.getIn(['data', 'upcomingDaysEvents', 'events'])
-  const upcomingDaysEvents = entryUpcomingDaysEvents ? entryUpcomingDaysEvents.toJS() : []
-
-  const entryUpcomingMeetups = entry.getIn(['data', 'upcomingMeetups'])
-  const upcomingMeetups = entryUpcomingMeetups ? entryUpcomingMeetups.toJS() : []
-
-  const entryPastMeetups = entry.getIn(['data', 'pastMeetups'])
-  const pastMeetups = entryPastMeetups ? entryPastMeetups.toJS() : []
-
-  const entryCommunityEvents = entry.getIn(['data', 'communityEvents', 'events'])
-  const communityEvents = entryCommunityEvents ? entryCommunityEvents.toJS() : []
-
-  const entryUpcomingSummits = entry.getIn(['data', 'upcomingSummits'])
-  const upcomingSummits = entryUpcomingSummits ? entryUpcomingSummits.toJS() : { title: '', summits: [] }
-
+  
+  const upcomingDaysEventsArray = entry.getIn(['data', 'upcomingDaysEvents', 'events'])
+  const upcomingDaysEvents = upcomingDaysEventsArray ? upcomingDaysEventsArray.toJS() : []
+  
+  const upcomingMeetupsArray = entry.getIn(['data', 'upcomingMeetups', 'meetups'])
+  const upcomingMeetups = upcomingMeetupsArray ? upcomingMeetupsArray.toJS() : []
+  
+  const pastMeetupsArray = entry.getIn(['data', 'pastMeetups', 'meetups'])
+  const pastMeetups = pastMeetupsArray ? pastMeetupsArray.toJS() : []
+  
+  const communityEventsArray = entry.getIn(['data', 'communityEvents', 'events'])
+  const communityEvents = communityEventsArray ? communityEventsArray.toJS() : []
+  
+  const upcomingSummitsArray = entry.getIn(['data', 'upcomingSummits', 'summits'])
+  const upcomingSummits = upcomingSummitsArray ? upcomingSummitsArray.toJS() : []
+  
   if (data) {
     return (
       <OpenInfraDaysPageTemplate
@@ -29,13 +29,37 @@ const OpenInfraDaysPagePreview = ({ entry, widgetFor }) => {
           title: entry.getIn(['data', 'upcomingDaysEvents', 'title']),
           events: upcomingDaysEvents
         }}
-        upcomingMeetups={upcomingMeetups}
-        pastMeetups={pastMeetups}
+        upcomingMeetups={{
+          title: entry.getIn(['data', 'upcomingMeetups', 'title']),
+          meetups: upcomingMeetups.map(meetup => ({
+            ...meetup,
+            background: {
+              publicURL: meetup.background
+            }
+          }))
+        }}
+        pastMeetups={{
+          title: entry.getIn(['data', 'pastMeetups', 'title']),
+          meetups: pastMeetups.map(meetup => ({
+            ...meetup,
+            background: {
+              publicURL: meetup.background
+            }
+          }))
+        }}
         communityEvents={{
           title: entry.getIn(['data', 'communityEvents', 'title']),
           events: communityEvents
         }}
-        upcomingSummits={upcomingSummits}
+        upcomingSummits={{
+          title: entry.getIn(['data', 'upcomingSummits', 'title']),
+          summits: upcomingSummits.map(summit => ({
+            ...summit,
+            background: {
+              publicURL: summit.background
+            }
+          }))
+        }}
         isLoggedUser={false}
       />
     )
@@ -49,7 +73,6 @@ OpenInfraDaysPagePreview.propTypes = {
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
-  widgetFor: PropTypes.func,
 }
 
 export default OpenInfraDaysPagePreview

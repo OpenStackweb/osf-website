@@ -15,6 +15,7 @@ import UpcomingSummits from "../components/UpcomingSummits";
 import MeetupBanner from "../components/MeetupBanner";
 import BottomBanner from "../components/BottomBanner";
 import MiddleBanner from "../components/MiddleBanner";
+import UpcomingSummitsData from "../content/upcoming-summits.json";
 
 export const SummitLandingPageTemplate = ({
   isLoggedUser,
@@ -24,7 +25,6 @@ export const SummitLandingPageTemplate = ({
   contentComponent,
   headerImage,
   subHeader,
-  upcomingSummits,
   pastSummits,
   middleBanner,
   previousSummits,
@@ -48,8 +48,8 @@ export const SummitLandingPageTemplate = ({
           footer={subHeader.footer}
         />
         <UpcomingSummits
-          title={upcomingSummits.title}
-          summits={upcomingSummits.summits}
+          title={UpcomingSummitsData.title}
+          summits={UpcomingSummitsData.summits}
         />
         <PastSummits
           title={pastSummits.title}
@@ -99,7 +99,6 @@ const SummitLandingPage = ({ isLoggedUser, data }) => {
         content={post.html}
         headerImage={post.frontmatter.headerImage}
         subHeader={post.frontmatter.subHeader}
-        upcomingSummits={post.frontmatter.upcomingSummits}
         pastSummits={post.frontmatter.pastSummits}
         middleBanner={post.frontmatter.middleBanner}
         previousSummits={post.frontmatter.previousSummits}
@@ -185,29 +184,6 @@ export const SummitLandingPageQuery = graphql`
               publicURL
             }
             alt
-          }
-        }
-        upcomingSummits {
-          title
-          summits {
-            key
-            background {
-              childImageSharp {
-                fluid(maxWidth: 800, quality: 80) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-              publicURL
-            }
-            date
-            location
-            notification {
-              text
-              button {
-                link
-                text
-              }
-            }
           }
         }
         pastSummits {

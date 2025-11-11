@@ -16,57 +16,18 @@ import OpenInfraDays from "../components/OpeninfraDays";
 import hero from '../../static/img/openinfra-days/OI-Days-1920x325.11.svg';
 import UpcomingSummits from "../components/UpcomingSummits";
 
-const upcomingItemsAsia = [
-  { title: <a href="https://www.vietopeninfra.org/void2025" target="_blank">OpenInfra Days Vietnam</a>,
-    date: "July 26, 2025",
-    location: "Hanoi, VN",
-    registration: '<a href="https://docs.google.com/forms/d/e/1FAIpQLSc99Cuh4U7JXYmUqkv74jjz_Fq984Q_YP-HKAv8hiad62AWrA/viewform" target="_blank">The CFP closes June 15</a>',
-    sponsor: '<a href="https://tinyurl.com/VOI2025" target="_blank">Sponsor this event</a>'
-  },
-  {
-    title: <a href="https://2025.openinfra.id/" target="_blank">OpenInfra Days Indonesia</a>,
-    date: "July 19, 2025",
-    location: "Yogyakarta, ID",
-    registration: '<a href="https://docs.google.com/forms/d/e/1FAIpQLSeeiUkMOQ1fEWhuTXIuqlEKudDjp7_pqcC3bGbRpxIU2-S2fg/viewform" target="_blank">The CFP closes June 27</a>',
-    sponsor: '<a href="https://2025.openinfra.id/files/OID25-Sponsorship_Prospectus_20250515.pdf" target="_blank">Sponsor this event</a>'
-  },
-  { title: <a href="https://openinfradays.kr/" target="_blank">OpenInfra Days Korea</a>,
-    date: "August 26th, 2025",
-    location: "Seoul, KR",
-    registration: '<a href="https://forms.gle/mCNKfsM4vUfPna3B6" target="_blank">The CFP closes June 15</a>',
-    sponsor: '<a href="mailto:sponsor@openinfradays.kr" target="_blank">Sponsor this event</a>'
-  },
-  {
-    title: <a href="https://community.cncf.io/events/details/cncf-kcd-hangzhou-presents-kcd-hangzhou-openinfra-days-china-2025/?ajs_aid=8d9e8434-7853-4842-a240-2529d5844246" target="_blank">OpenInfra Days China</a>,
-    date: "November 15, 2025",
-    location: "Hangzhou, CN",
-    registration: '<a href="https://sessionize.com/kcd-hangzhou-and-oicd-2025/" target="_blank">The CFP closes September 21</a>'
-  },
-  {
-    title: <a href="https://cloudopsdays.com/" target="_blank">Cloud Operator Days Tokyo</a>,
-    date: "July 2025 (Online Sessions Available), Sept 5, 2025 (Closing Ceremony)",
-    location: "Tokyo, JP",
-    registration: '<a href="https://docs.google.com/forms/d/e/1FAIpQLSejRuQZvcWa0QDIcz01yP1DscVOrtPYPYHP2T0os0wUDx-LCg/viewform" target="_blank">The CFP closes April 30</a>',
-    sponsor: '<a href="https://cloudopsdays.com/wp-content/uploads/2025/03/CODT2025_sponsorship_en.pdf" target="_blank">Sponsor this event</a>'
-  },
-];
-
-const upcomingMeetups = [
-  { background: '/img/openinfra-days/openinfra-days-cards/kenya_3.svg', date: 'September 6, 2025', location: 'Nairobi, Kenya', link: 'https://www.meetup.com/kenya-openinfra-user-group/'}
-];
-
-const pastMeetups = [
-  { background: '/img/openinfra-days/openinfra-days-cards/sweden-meetup.svg', date: 'May 22, 2025', location: 'Stockholm, Sweden', link: 'https://www.meetup.com/openinfra-user-group-sweden/events/306139678/'},
-  { background: '/img/openinfra-days/openinfra-days-cards/oid-pasadena.png', name: 'North America', date: 'March 6 & 7, 2025', location: 'Pasadena, California', link: 'https://www.youtube.com/live/W9OmGdtJAAE?si=OO_WjYr7A6ktAv5A '},
-]
-
 export const OpenInfraDaysPageTemplate = ({
-                                          isLoggedUser,
-                                          title,
-                                          subTitle,
-                                          content,
-                                          contentComponent
-                                        }) => {
+  isLoggedUser,
+  title,
+  subTitle,
+  content,
+  contentComponent,
+  upcomingDaysEvents,
+  upcomingMeetups,
+  pastMeetups,
+  communityEvents,
+  upcomingSummits
+}) => {
   return (
     <div>
       <div className="wrapper project-background">
@@ -75,19 +36,20 @@ export const OpenInfraDaysPageTemplate = ({
         <main className="main">
           <div className="content">
             <ImageOnlyHeader backgroundImage={hero} />
-            <SubHeaderDays button={{text: "Check out upcoming events", link: "#upcoming-events"}} />
+            <SubHeaderDays button={{ text: "Check out upcoming events", link: "#upcoming-events" }} />
             <OpeninfraDaysAgenda
-              title={<><span className="red">Upcoming</span><br />Openinfra Days</>}
-              items={upcomingItemsAsia}
+              title={upcomingDaysEvents.title}
+              items={upcomingDaysEvents.events}
             />
-            <OpenInfraDays title="Upcoming OpenInfra Days" events={upcomingMeetups} />
+            <OpenInfraDays title={upcomingMeetups.title} events={upcomingMeetups.meetups} />
             <MeetupBanner />
-            <OpenInfraDays title="Past Openinfra Days" events={pastMeetups} />
-            <MoreEventsSection />
-            <UpcomingSummits />
+            <OpenInfraDays title={pastMeetups.title} events={pastMeetups.meetups} />
+            <MoreEventsSection title={communityEvents.title} events={communityEvents.events}/>
+            <UpcomingSummits summits={upcomingSummits.summits} />
             <BottomBanner
               title={'Interested in becoming<br/>a Community Organizer?<br/>Contact us at <a href="mailto:events@openinfra.dev">events@openinfra.dev</a>'}
-              button={{link: 'mailto:events@openinfra.dev', text: 'Events Contact'}}
+              button={{ link: 'mailto:events@openinfra.dev', text: 'Events Contact' }}
+              background="/img/summit-landing/subscribe/subscribe-banner-bg.png"
             />
           </div>
         </main>
@@ -107,6 +69,11 @@ const OpenInfraDaysPage = ({ isLoggedUser, data }) => {
         subTitle={post.frontmatter.subTitle}
         contentComponent={HTMLContent}
         content={post.html}
+        upcomingDaysEvents={post.frontmatter.upcomingDaysEvents}
+        upcomingMeetups={post.frontmatter.upcomingMeetups}
+        pastMeetups={post.frontmatter.pastMeetups}
+        communityEvents={post.frontmatter.communityEvents}
+        upcomingSummits={post.frontmatter.upcomingSummits}
         isLoggedUser={isLoggedUser}
       />
     </Layout>
@@ -138,6 +105,66 @@ export const OpenInfraDaysPageQuery = graphql`
         }
         title
         subTitle
+        upcomingDaysEvents {
+          title
+          events {
+            title
+            date
+            location
+            registration
+            sponsor
+          }
+        }
+        upcomingMeetups {
+          title
+          meetups {
+            background {            
+              publicURL
+            }
+            date
+            location
+            link
+          }
+        }
+        pastMeetups {
+          title
+          meetups {
+            background {
+              publicURL
+            }
+            name
+            date
+            location
+            link
+          }
+        }
+        communityEvents {
+          title
+          events {
+            name
+            link
+            date
+            location
+          }
+        }
+        upcomingSummits {
+          title
+          summits {
+            key
+            background {
+              publicURL
+            }
+            date
+            location
+            notification {
+              text
+              button {
+                link
+                text
+              }
+            }                
+          }
+        }    
       }
     }
   }

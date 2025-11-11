@@ -14,6 +14,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         projects={data.projects || {}}
         people={data.people || {}}
         sponsor={data.sponsor || {}}
+        openInfraEvents={data.openInfraEvents || {}}
         content={data.content || {}}
       />
     )

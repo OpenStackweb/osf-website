@@ -179,4 +179,27 @@ sponsor:
         image: //img/companies/_New/Platinum/WNDRVR.png
     title: Platinum Members
   title: Companies supporting the OpenInfra Foundation
+openInfraEvents:
+  openInfraEventsData:    
+    - link: 'https://openinfraasia.org'
+      logo: /img/homeV2/events-images/logo-asia.svg
+      text: 'openinfraasia.org'
+      color: '#FFB325'
+    - link: 'https://openinfraeurope.org'
+      logo: /img/homeV2/events-images/logo-europe.svg
+      text: 'openinfraeurope.org'
+      color: '#2CB4E2'
+  upcomingEvents:
+    - image: /img/homeV2/events-images/openinfra-asia-img-2026.png
+      date: "September 8-9, 2026"
+      location: "Shanghai International Convention Center Oriental Riverside Hotel"
+      button: 
+        link: 'https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/'
+        text: 'LEARN MORE'
+    - image: /img/homeV2/events-images/openinfra-europe-img-2025.png
+      date: 'October 17-19, 2025'
+      location: 'École Polytechnique, Paris-Saclay, France'
+      button: 
+        link: 'https://www.youtube.com/playlist?list=PLKqaoAnDyfgr91wN_12nwY321504Ctw1s'
+        text: 'WATCH VIDEOS'
 ---

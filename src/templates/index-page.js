@@ -20,7 +20,8 @@ import OpenInfraEventsSection from '../components/HomeV2/OpenInfraEventsSection'
 
 export const IndexPageTemplate = ({
   isLoggedUser,
-  header
+  header,
+  openInfraEvents
 }) => (
   <div>
     <div className="wrapper hero-background home-v2-hero-wrapper">
@@ -46,7 +47,7 @@ export const IndexPageTemplate = ({
         </div>
 
         <div className="home-v2-outer-container-dark">          
-          <OpenInfraEventsSection />
+          <OpenInfraEventsSection events={openInfraEvents}/>
           <NewsSection />
         </div>
 
@@ -79,6 +80,7 @@ const IndexPage = ({ isLoggedUser, data }) => {
         projects={frontmatter.projects}
         people={frontmatter.people}
         sponsor={frontmatter.sponsor}
+        openInfraEvents={frontmatter.openInfraEvents}
       />
     </Layout>
   )
@@ -230,6 +232,27 @@ export const pageQuery = graphql`
                 extension
               }
               alt
+            }
+          }
+        }
+        openInfraEvents {
+          openInfraEventsData {          
+            link
+            logo {
+              publicURL
+            }
+            text
+            color        
+          }
+          upcomingEvents {
+            image {
+              publicURL
+            }
+            date
+            location
+            button {
+              link
+              text
             }
           }
         }

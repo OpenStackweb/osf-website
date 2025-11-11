@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: OpenStackweb/osf-website
-  branch: master
+  branch: feature/openinfra-pages-cms
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -245,6 +245,23 @@ collections:
               ] },
             ] }
           ] }
+          - { label: "OpenInfra Events", name: openInfraEvents, widget: object, fields: [
+            { label: "Events Data", name: openInfraEventsData, widget: list, fields: [
+              { label: "Link", name: link, widget: string },
+              { label: "Logo", name: logo, widget: image },
+              { label: "Text", name: text, widget: string },
+              { label: "Color", name: color, widget: string, hint: "Hex color code, e.g. #FFB325" }
+            ]},
+            { label: "Upcoming Events", name: upcomingEvents, widget: list, fields: [
+              { label: "Image", name: image, widget: image },
+              { label: "Date", name: date, widget: string },
+              { label: "Location", name: location, widget: string },
+              { label: "Button", name: button, widget: object, fields: [
+                { label: "Link", name: link, widget: string },
+                { label: "Text", name: text, widget: string }
+              ]}
+            ]}
+          ]}
   - name: "generic-about-pages"
     label: "About Pages"
     folder: "src/pages/about/"
@@ -1284,3 +1301,164 @@ collections:
       ] }
       - { label: "Title", name: title, widget: string, required: true }
       - { label: "Body", name: body, widget: markdown, required: true }
+  - name: "summit-landing"
+    label: "Summit Landing Page"
+    files:
+    - file: "src/pages/summit/index.md"
+      label: "Summit Landing"
+      name: "summit-landing-page"
+      fields:
+        - { label: "Template Key", name: "templateKey", widget: "hidden", default: "summit-landing-page" }
+        - { label: SEO, name: seo, widget: object, fields: [
+          { label: "Title", name: "title", widget: string },
+          { label: "Description", name: "description", widget: string },
+          { label: "Url", name: "url", widget: string },
+          { label: "Image", name: "image", widget: image },
+          { label: "Twitter Username", name: "twitterUsername", widget: string },
+        ]}
+        - { label: "Title", name: title, widget: string }
+        - { label: "Sub Title", name: subTitle, widget: string }
+        - { label: "Header Image", name: headerImage, widget: object, fields: [
+          { label: "Background Image", name: backgroundImage, widget: image },
+          { label: "Overview", name: overview, widget: text, hint: "You can use HTML tags like <span class='red'>text</span>" },
+          { label: "Caption", name: caption, widget: string },
+          { label: "Logo", name: logo, widget: object, fields: [
+            { label: "Image", name: src, widget: image },
+            { label: "Alt Text", name: alt, widget: string }
+          ]}
+        ]}
+        - { label: "Sub Header", name: subHeader, widget: object, fields: [
+          { label: "Overview", name: overview, widget: string },
+          { label: "Title", name: title, widget: text, hint: "You can use HTML tags like <span class='red'>text</span>" },
+          { label: "Text", name: text, widget: text, hint: "You can use HTML tags" },
+          { label: "Badge", name: badge, widget: object, fields: [
+            { label: "Image", name: src, widget: image },
+            { label: "Alt Text", name: alt, widget: string }
+          ]},
+          { label: "Footer Image", name: footer, widget: object, fields: [
+            { label: "Image", name: src, widget: image },
+            { label: "Alt Text", name: alt, widget: string }
+          ]}
+        ]}
+        - { label: "Upcoming Summits", name: upcomingSummits, widget: object, fields: [
+          { label: "Title", name: title, widget: string },
+          { label: "Summits", name: summits, widget: list, fields: [
+            { label: "Key", name: key, widget: string },
+            { label: "Background Image", name: background, widget: image },
+            { label: "Date", name: date, widget: string },
+            { label: "Location", name: location, widget: string },
+            { label: "Notification", name: notification, widget: object, fields: [
+              { label: "Text", name: text, widget: string },
+              { label: "Button", name: button, widget: object, fields: [
+                { label: "Link", name: link, widget: string },
+                { label: "Text", name: text, widget: string }
+              ]}
+            ]}
+          ]}
+        ]}
+        - { label: "Past Summits", name: pastSummits, widget: object, fields: [
+          { label: "Title", name: title, widget: string },
+          { label: "Summits", name: summits, widget: list, fields: [
+            { label: "Key", name: key, widget: string },
+            { label: "Background Image", name: background, widget: image },
+            { label: "Date", name: date, widget: string },
+            { label: "Location", name: location, widget: string },
+            { label: "Notification", name: notification, widget: object, fields: [
+              { label: "Text", name: text, widget: string },
+              { label: "Button", name: button, widget: object, fields: [
+                { label: "Link", name: link, widget: string },
+                { label: "Text", name: text, widget: string }
+              ]}
+            ]}
+          ]}
+        ]}
+        - { label: "Middle Banner", name: middleBanner, widget: list, fields: [
+          { label: "Title", name: title, widget: string },
+          { label: "Text", name: text, widget: text, hint: "You can use HTML tags" },
+          { label: "Button", name: button, widget: object, required: false, fields: [
+            { label: "Text", name: text, widget: string },
+            { label: "Link", name: link, widget: string }
+          ]},
+          { label: "Image", name: image, widget: image },
+          { label: "Image First", name: imageFirst, widget: boolean }
+        ]}
+        - { label: "Previous Summits", name: previousSummits, widget: object, fields: [
+          { label: "Title", name: title, widget: string },
+          { label: "Summits", name: summits, widget: list, fields: [
+            { label: "Name", name: name, widget: string },
+            { label: "Date", name: date, widget: string },
+            { label: "Image", name: image, widget: image },
+            { label: "Link", name: link, widget: string }
+          ]}
+        ]}
+  - name: "openinfra-days-page"
+    label: "OpenInfra Days Page"
+    files:
+    - file: "src/pages/days/index.md"
+      label: "OpenInfra Days"
+      name: "openinfra-days"
+      fields:
+        - { label: "Template Key", name: "templateKey", widget: "hidden", default: "open-infra-days-page" }
+        - { label: SEO, name: seo, widget: object, fields: [
+          { label: "Title", name: "title", widget: string },
+          { label: "Description", name: "description", widget: string },
+          { label: "Url", name: "url", widget: string },
+          { label: "Image", name: "image", widget: image },
+          { label: "Twitter Username", name: "twitterUsername", widget: string },
+        ]}
+        - { label: "Title", name: title, widget: string }
+        - { label: "Sub Title", name: subTitle, widget: string }        
+        - { label: "Upcoming Days Events", name: upcomingDaysEvents, widget: object, fields: [
+          { label: "Title", name: title, widget: text, hint: "You can use HTML tags like <br />" },
+          { label: "Events", name: events, widget: list, fields: [
+            { label: "Title", name: title, widget: text, hint: "You can use HTML tags like <br />" },
+            { label: "Date", name: date, widget: string },
+            { label: "Location", name: location, widget: string },
+            { label: "Registration", name: registration, widget: text, hint: "You can use HTML tags like <br />" },
+            { label: "Sponsor", name: sponsor, widget: text, hint: "You can use HTML tags like <br />", required: false },
+          ]}
+        ]}
+        - { label: "Upcoming Meetups", name: upcomingMeetups, widget: object, fields: [
+          { label: "Title", name: title, widget: string },
+          { label: "Meetups", name: meetups, widget: list, fields: [
+            { label: "Background", name: background, widget: image },
+            { label: "Date", name: date, widget: string },
+            { label: "Location", name: location, widget: string },
+            { label: "Link", name: link, widget: string },
+          ]}
+        ]}
+        - { label: "Past Meetups", name: pastMeetups, widget: object, fields: [
+          { label: "Title", name: title, widget: string },
+          { label: "Meetups", name: meetups, widget: list, fields: [
+            { label: "Background", name: background, widget: image },
+            { label: "Name", name: name, widget: string, required: false },
+            { label: "Date", name: date, widget: string },
+            { label: "Location", name: location, widget: string },
+            { label: "Link", name: link, widget: string },
+          ]}
+        ]}
+        - { label: "Community Events", name: communityEvents, widget: object, fields: [
+          { label: "Title", name: title, widget: string },
+          { label: "Events", name: events, widget: list, fields: [
+            { label: "Name", name: name, widget: string },
+            { label: "Link", name: link, widget: string },
+            { label: "Date", name: date, widget: string },
+            { label: "Location", name: location, widget: string },
+          ]}
+        ]}
+        - { label: "Upcoming Summits", name: upcomingSummits, widget: object, fields: [
+          { label: "Title", name: title, widget: string },
+          { label: "Summits", name: summits, widget: list, fields: [
+            { label: "Key", name: key, widget: "string" },
+            { label: "Background", name: background, widget: "image" },
+            { label: "Date", name: date, widget: "string" },
+            { label: "Location", name: location, widget: "string" },
+            { label: "Notification", name: notification, widget: "object", fields: [
+              { label: "Text", name: text, widget: "string" },
+              { label: "Button", name: button, widget: "object", fields: [
+                { label: "Link", name: link, widget: "string" },
+                { label: "Text", name: text, widget: "string" }
+              ]}
+            ]}         
+          ]} 
+        ]}

@@ -4,7 +4,7 @@ import SponsorshipCard from "./SponsorshipCard";
 import './styles.scss';
 import LinkComponent from '../LinkComponent';
 
-const SponsorshipSection = ({overview, title, sponsorships}) => {
+const SponsorshipSection = ({ overview, title, sponsorships }) => {
   return (
     <section className="sponsorship-section-wrapper">
       <div className="container">
@@ -29,6 +29,7 @@ const SponsorshipSection = ({overview, title, sponsorships}) => {
               <div className="subsection-plans">
                 {s.plans.map(plan => <SponsorshipCard {...plan} />)}
               </div>
+              <div className="subsection-notes" dangerouslySetInnerHTML={{ __html: s.notes }} />
             </div>
           )}
         </div>

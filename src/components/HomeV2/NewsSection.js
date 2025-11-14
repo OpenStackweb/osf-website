@@ -48,9 +48,16 @@ const NewsSection = class extends React.Component {
                         <p className="home-v2-paragraph home-v2-paragraph-white">The latest news, technologies, and resources from the OpenInfra Community</p>
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
-                    <div className="news-article-inner-container">
+                        <div className="news-article-inner-container">
+                            <a href="https://www.networkworld.com/article/4090214/starlingx-11-0-addresses-edge-security-ipv4-exhaustion-for-massive-deployments.html"><img src="/img/homeV2/news-images/starlingx-11.png" /></a>
+                            <p className="news-article-intro-text">Sean Michael Kerner • Nov 14, 2025</p>
+                            <a href="https://www.networkworld.com/article/4090214/starlingx-11-0-addresses-edge-security-ipv4-exhaustion-for-massive-deployments.html"><h3>StarlingX 11.0 addresses edge security, IPv4 exhaustion for massive deployments</h3></a>
+                            <p className="news-article-content">The open-source StarlingX cloud infrastructure project is out with its second major update of 2025, bringing with it new edge security and usability improvements.</p>
+                            <a className="news-article-link" href="https://www.networkworld.com/article/4090214/starlingx-11-0-addresses-edge-security-ipv4-exhaustion-for-massive-deployments.html">READ MORE</a>
+                        </div>
+                        <div className="news-article-inner-container">
                             <a href="https://www.theregister.com/2025/10/31/resilience_openinfra_summit/"><img src="/img/homeV2/news-images/Register-Resilience.png" /></a>
-                            <p className="news-article-intro-text"> Sean Richard Speed • Oct 31, 2025</p>
+                            <p className="news-article-intro-text">Richard Speed • Oct 31, 2025</p>
                             <a href="https://www.theregister.com/2025/10/31/resilience_openinfra_summit/"><h3>Resilience, not sovereignty, defines OpenStack's next chapter</h3></a>
                             <p className="news-article-content">Sovereignty might be the word of the hour, but the OpenStack community has another – resilience. "It's about independence and control" </p>
                             <a className="news-article-link" href="https://www.theregister.com/2025/10/31/resilience_openinfra_summit/">READ MORE</a>

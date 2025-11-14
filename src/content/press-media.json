@@ -3,6 +3,14 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2025-11-14T17:12:13.831Z",
+      "link": "https://www.networkworld.com/article/4090214/starlingx-11-0-addresses-edge-security-ipv4-exhaustion-for-massive-deployments.html",
+      "site": "Network World ",
+      "title": "StarlingX 11.0 addresses edge security, IPv4 exhaustion for massive deployments"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2025-10-31T17:15:07.199Z",
       "title": "Resilience, not sovereignty, defines OpenStack's next chapter",
       "site": "The Register",

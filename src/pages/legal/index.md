@@ -36,4 +36,4 @@ footer:
 
 ---
 
-View archived legal policies for [OpenStack Foundation, a Delaware 501c6, here)](/legal/archived)
+View [archived legal policies for OpenStack Foundation, a Delaware 501c6](/legal/archived)

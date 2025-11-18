@@ -36,20 +36,4 @@ footer:
 
 ---
 
-[Foundation Bylaws (Delaware 501c6)](/legal/bylaws)
-
-[Individual Member Policy (Delaware 501c6)](/legal/individual-member-policy/)
-
-[Platinum Member Policy (Delaware 501c6)](/legal/platinum-member-policy/)
-
-[Gold Member Policy (Delaware 501c6)](/legal/gold-member-policy/)
-
-[Antitrust Policy (Delaware 501c6)](/legal/antitrust-compliance-policy)
-
-[Company Code of Conduct (Delaware 501c6)](/legal/code-of-conduct/company)
-
-[Individual Member Agreement (Delaware 501c6)](/legal/individual-member-agreement)
-
-[Privacy Policy (Delaware 501c6)](/privacy-policy)
-
-[Transparency Policy (Delaware 501c6)](/legal/transparency-policy)
+View [archived legal policies for OpenStack Foundation, a Delaware 501c6](/legal/archived)

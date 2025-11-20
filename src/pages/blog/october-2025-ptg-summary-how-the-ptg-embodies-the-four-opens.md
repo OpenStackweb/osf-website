@@ -12,7 +12,7 @@ category:
     label: Kata Containers
   - value: category-x3TAX-MsU
     label: StarlingX
-hidePost: true
+hidePost: false
 seo:
   title: October 2025 PTG Summary & How the PTG embodies the Four Opens
   description: October 2025 PTG Summary & How the PTG embodies the Four Opens As a

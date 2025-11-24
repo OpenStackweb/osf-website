@@ -41,6 +41,7 @@ export const CompaniesPageTemplate = ({
     if (sponsors.length > 0) goToTier()
   }, [sponsors])
 
+
   return (
     <div>
       <AjaxLoader relative={true} color={'#ffffff'} show={loading} size={120} />
@@ -54,31 +55,47 @@ export const CompaniesPageTemplate = ({
         <div className="content">
           <div className="container">
             <section className="companies-s1-main">
-              {sponsors?.map((tier, index) => {
+              {sponsors?.map((tier) => {
+                const isTierSupportingOrganizations = tier.id === 6;
                 const customWidth = sponsorsLevel.find(e => e.id === tier.id)?.width;
                 const tierId = tier.name.split(' ')[0].toLowerCase();
                 if (tier.is_active === true) {
                   return (
-                    <div className="companies-s1-container" key={index} id={tierId}>
+                    <div className="companies-s1-container" key={`companies-s1-container-${tier.id}`} id={tierId}>
                       <div className="companies-s1-columns">
                         <div className="companies-s1-column1">
                           <div className="fix-h3">{tier.name}</div>
-                          <div className="fix-h5" dangerouslySetInnerHTML={{ __html: tier.description }}>
-                          </div>
+                          {isTierSupportingOrganizations ? (
+                            <div className="fix-h5">
+                              The Supporting Organizations category has been deprecated.
+                              Take a look at the benefits of membership with OpenInfra Foundation{" "}
+                              <a href="https://openinfra.org/join/members/">here</a>.
+                              If you&apos;re interested in joining, please send an email to{" "}
+                              <a href="mailto:ecosystem@openinfra.dev">ecosystem@openinfra.dev</a>.
+                            </div>
+                          ) : (
+                            <div className="fix-h5" dangerouslySetInnerHTML={{ __html: tier.description }}>
+                            </div>
+                          )}
                         </div>
                         <div className="companies-s1-1-container">
                           <div className={`company-level-${tier.name.split(' ')[0].toLowerCase()}`}>
-                            {tier.supporting_companies.sort((a, b) => a.company.name.localeCompare(b.company.name)).map(({ company }, companyIndex) => {
-                              return (
-                                <LinkComponent href={company?.description?.length > 0 ? `/a/members/profile/${tier.id}/${kebabCase(company.name)}` : company.url} key={companyIndex}>
-                                  <img
-                                    src={`https://openinfra.dev/cdn-cgi/image/quality=75${customWidth ? `,width=${customWidth}` : ''}/${company.logo || company.big_logo}`}
-                                    alt={company.name}
-                                    key={company.id}
-                                  />
-                                </LinkComponent>
-                              )
-                            })}
+                            {!isTierSupportingOrganizations &&
+                              tier.supporting_companies
+                                .sort((a, b) => a.company.name.localeCompare(b.company.name))
+                                .map(({ company }) => {
+                                  const href = company?.description?.length ? `/a/members/profile/${tier.id}/${kebabCase(company?.name)}` : company.url;
+                                  const src = `https://openinfra.dev/cdn-cgi/image/quality=75${customWidth ? `,width=${customWidth}` : ''}/${company?.logo || company?.big_logo}`;
+                                  return (
+                                    <LinkComponent href={href} key={href}>
+                                      <img
+                                        src={src}
+                                        alt={company.name}
+                                        key={company.id}
+                                      />
+                                    </LinkComponent>
+                                  )
+                                })}
                           </div>
                         </div>
                       </div>

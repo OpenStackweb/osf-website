@@ -15,7 +15,43 @@ import { connect } from "react-redux";
 
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 
-import { getSponsorhipTypes } from '../actions/sponsor-actions'
+import { getSponsorshipTypes } from '../actions/sponsor-actions'
+import { useMemo } from 'react'
+
+
+const supportingOrganizationID = 6; // IDs of deprecated tiers
+const supportingOrganizationsDescription = (
+  <div className="fix-h5">
+    The Supporting Organizations category has been deprecated.
+    Take a look at the benefits of membership with OpenInfra Foundation{" "}
+    <a href="https://openinfra.org/join/members/">here</a>.
+    If you&apos;re interested in joining, please send an email to{" "}
+    <a href="mailto:ecosystem@openinfra.dev">ecosystem@openinfra.dev</a>.
+  </div>
+);
+
+const getCompanyLink = (company, tierId) => {
+  let url = company.url;
+  if (company?.name?.length) {
+    url = `/a/members/profile/${tierId}/${kebabCase(company?.name)}`;
+  }
+  console.log('company url', url, { company, tierId });
+  return url;
+}
+
+const getCompanyLogoSrc = (company, width) => {
+  return `https://openinfra.dev/cdn-cgi/image/quality=75$,width=${width}/${company?.logo || company?.big_logo}`;
+}
+
+const SponsorCompany = ({ company, tierId, width }) => (
+  <LinkComponent href={getCompanyLink(company, tierId)}>
+    <img
+      src={getCompanyLogoSrc(company, width)}
+      alt={company.name}
+      key={company.id}
+    />
+  </LinkComponent>
+);
 
 export const CompaniesPageTemplate = ({
   isLoggedUser,
@@ -24,23 +60,43 @@ export const CompaniesPageTemplate = ({
   sponsorsLevel,
   loading,
   location,
-  content,
-  contentComponent
 }) => {
-  const PageContent = contentComponent || Content
 
   const goToTier = () => {
     if (location.hash) {
-      setTimeout(() => {
-        navigate(location.hash)
-      }, 750)
+      navigate(location.hash)
     }
   }
 
   useEffect(() => {
-    if (sponsors.length > 0) goToTier()
+    if (sponsors?.length) goToTier()
   }, [sponsors])
 
+  const customWidths = sponsorsLevel.reduce((acc, level) => {
+    acc[level.id] = level.width || 0;
+    return acc;
+  }, {});
+
+  const sponsorsToShow = useMemo(() => sponsors
+    ?.filter(tier => tier.is_active)
+    ?.map(tier => {
+
+      const elemId = tier.name.split(' ')[0].toLowerCase();
+      return tier.id !== supportingOrganizationID ?
+        {
+          elemId,
+          ...tier,
+          supporting_companies: [...tier.supporting_companies]
+            .sort((a, b) => a.company.name.localeCompare(b.company.name)),
+        }
+        :
+        {
+          elemId,
+          ...tier,
+          supporting_companies: [],
+          description: supportingOrganizationsDescription
+        };
+    }) || [], [sponsors]);
 
   return (
     <div>
@@ -55,57 +111,37 @@ export const CompaniesPageTemplate = ({
         <div className="content">
           <div className="container">
             <section className="companies-s1-main">
-              {sponsors?.map((tier) => {
-                const isTierSupportingOrganizations = tier.id === 6;
-                const customWidth = sponsorsLevel.find(e => e.id === tier.id)?.width;
-                const tierId = tier.name.split(' ')[0].toLowerCase();
-                if (tier.is_active === true) {
-                  return (
-                    <div className="companies-s1-container" key={`companies-s1-container-${tier.id}`} id={tierId}>
-                      <div className="companies-s1-columns">
-                        <div className="companies-s1-column1">
-                          <div className="fix-h3">{tier.name}</div>
-                          {isTierSupportingOrganizations ? (
-                            <div className="fix-h5">
-                              The Supporting Organizations category has been deprecated.
-                              Take a look at the benefits of membership with OpenInfra Foundation{" "}
-                              <a href="https://openinfra.org/join/members/">here</a>.
-                              If you&apos;re interested in joining, please send an email to{" "}
-                              <a href="mailto:ecosystem@openinfra.dev">ecosystem@openinfra.dev</a>.
-                            </div>
-                          ) : (
-                            <div className="fix-h5" dangerouslySetInnerHTML={{ __html: tier.description }}>
-                            </div>
-                          )}
-                        </div>
-                        <div className="companies-s1-1-container">
-                          <div className={`company-level-${tier.name.split(' ')[0].toLowerCase()}`}>
-                            {!isTierSupportingOrganizations &&
-                              tier.supporting_companies
-                                .sort((a, b) => a.company.name.localeCompare(b.company.name))
-                                .map(({ company }) => {
-                                  const href = company?.description?.length ? `/a/members/profile/${tier.id}/${kebabCase(company?.name)}` : company.url;
-                                  const src = `https://openinfra.dev/cdn-cgi/image/quality=75${customWidth ? `,width=${customWidth}` : ''}/${company?.logo || company?.big_logo}`;
-                                  return (
-                                    <LinkComponent href={href} key={href}>
-                                      <img
-                                        src={src}
-                                        alt={company.name}
-                                        key={company.id}
-                                      />
-                                    </LinkComponent>
-                                  )
-                                })}
-                          </div>
+              {!loading && sponsorsToShow?.map((tier) => (
+                <div className="companies-s1-container" key={`companies-s1-container-${tier.id}`} id={tier.elemId}>
+                  <div className="companies-s1-columns">
+                    <div className="companies-s1-column1">
+                      <div className="fix-h3">{tier.name}</div>
+                      {typeof tier.description === 'string' ? (
+                        <div className="fix-h5" dangerouslySetInnerHTML={{ __html: tier.description }} />
+                      ) : (
+                        tier.description
+                      )}
+                    </div>
+                    {tier.supporting_companies.length > 0 && (
+                      <div className="companies-s1-1-container">
+                        <div className={`company-level-${tier.elemId}`}>
+                          {tier.supporting_companies
+                            .map(({ company }) => (
+                              <SponsorCompany
+                                company={company}
+                                tierId={tier.id}
+                                width={customWidths[tier.id] ?? 0}
+                                key={getCompanyLink(company, tier.id)}
+                              />
+                            ))}
                         </div>
                       </div>
-                    </div>
-                  )
-                }
-              })}
+                    )}
+                  </div>
+                </div>
+              ))}
             </section>
           </div>
-          <PageContent content={content} />
           <BecomeSponsor />
         </div>
       </main>
@@ -118,8 +154,14 @@ CompaniesPageTemplate.propTypes = {
   sponsors: PropTypes.array,
 }
 
-const CompaniesPage = ({ isLoggedUser, data, getSponsorhipTypes, sponsors, location, loading }) => {
+const CompaniesPage = ({ isLoggedUser, data, getSponsorshipTypes, sponsors, location, loading }) => {
   const { markdownRemark: post } = data
+
+  useEffect(() => {
+    getSponsorshipTypes();
+  }, []);
+
+  const sortedSponsors = useMemo(() => ([...sponsors]?.sort((a, b) => a.order - b.order) ?? []), [sponsors]);
 
   return (
     <Layout>
@@ -127,7 +169,7 @@ const CompaniesPage = ({ isLoggedUser, data, getSponsorhipTypes, sponsors, locat
       <CompaniesPageTemplate
         isLoggedUser={isLoggedUser}
         header={post.frontmatter.header}
-        sponsors={sponsors.sort((a, b) => a.order - b.order)}
+        sponsors={sortedSponsors}
         sponsorsLevel={post.frontmatter.sponsorsLevel}
         location={location}
         loading={loading}
@@ -145,7 +187,7 @@ export default connect(state => ({
   sponsors: state.sponsorState.sponsorshipTypes,
   loading: state.sponsorState.loading
 }), {
-  getSponsorhipTypes
+  getSponsorshipTypes
 })(CompaniesPage)
 
 export const companiesPageQuery = graphql`

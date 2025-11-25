@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { graphql, navigate } from 'gatsby'
 import { kebabCase } from 'lodash'
-import Content from '../components/Content'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar';
@@ -10,12 +9,7 @@ import NavbarV2 from '../components/NavbarV2';
 import BecomeSponsor from '../components/BecomeSponsor'
 import SEO from '../components/SEO'
 import LinkComponent from '../components/LinkComponent'
-
 import { connect } from "react-redux";
-
-import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
-
-import { getSponsorhipTypes } from '../actions/sponsor-actions'
 import { useMemo } from 'react'
 
 
@@ -149,8 +143,21 @@ export const CompaniesPageTemplate = ({
 }
 
 CompaniesPageTemplate.propTypes = {
-  header: PropTypes.object,
+  header: PropTypes.shape({
+    title: PropTypes.string,
+    subTitle: PropTypes.string,
+    link: PropTypes.shape({
+      url: PropTypes.string,
+      text: PropTypes.string,
+    }),
+  }),
   sponsors: PropTypes.array,
+  sponsorsLevel: PropTypes.array,
+  isLoggedUser: PropTypes.bool,
+  loading: PropTypes.bool,
+  location: PropTypes.shape({
+    hash: PropTypes.string,
+  }),
 }
 
 const CompaniesPage = ({ isLoggedUser, data, sponsors, location }) => {

@@ -15,7 +15,7 @@ import { connect } from "react-redux";
 
 import { AjaxLoader } from "openstack-uicore-foundation/lib/components";
 
-import { getSponsorshipTypes } from '../actions/sponsor-actions'
+import { getSponsorhipTypes } from '../actions/sponsor-actions'
 import { useMemo } from 'react'
 
 
@@ -100,7 +100,6 @@ export const CompaniesPageTemplate = ({
 
   return (
     <div>
-      <AjaxLoader relative={true} color={'#ffffff'} show={loading} size={120} />
       <div className="wrapper project-background">
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
@@ -154,12 +153,8 @@ CompaniesPageTemplate.propTypes = {
   sponsors: PropTypes.array,
 }
 
-const CompaniesPage = ({ isLoggedUser, data, getSponsorshipTypes, sponsors, location, loading }) => {
+const CompaniesPage = ({ isLoggedUser, data, sponsors, location }) => {
   const { markdownRemark: post } = data
-
-  useEffect(() => {
-    getSponsorshipTypes();
-  }, []);
 
   const sortedSponsors = useMemo(() => ([...sponsors]?.sort((a, b) => a.order - b.order) ?? []), [sponsors]);
 
@@ -172,7 +167,6 @@ const CompaniesPage = ({ isLoggedUser, data, getSponsorshipTypes, sponsors, loca
         sponsors={sortedSponsors}
         sponsorsLevel={post.frontmatter.sponsorsLevel}
         location={location}
-        loading={loading}
       />
     </Layout>
   )
@@ -185,10 +179,7 @@ CompaniesPage.propTypes = {
 export default connect(state => ({
   isLoggedUser: state.loggedUserState.isLoggedUser,
   sponsors: state.sponsorState.sponsorshipTypes,
-  loading: state.sponsorState.loading
-}), {
-  getSponsorshipTypes
-})(CompaniesPage)
+}))(CompaniesPage)
 
 export const companiesPageQuery = graphql`
   query CompaniesPage($id: String!) {

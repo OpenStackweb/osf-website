@@ -69,9 +69,8 @@ export const CompaniesPageTemplate = ({
                         <div className="companies-s1-1-container">
                           <div className={`company-level-${tier.name.split(' ')[0].toLowerCase()}`}>
                             {tier.supporting_companies.sort((a, b) => a.company.name.localeCompare(b.company.name)).map(({ company }, companyIndex) => {
-                              const companyUrl = company?.description?.length > 0 ? `/a/members/profile/${tier.id}/${kebabCase(company.name)}` : company.url;
                               return (
-                              <LinkComponent href={companyUrl || "#"} key={companyIndex}>
+                                <LinkComponent href={company?.description?.length > 0 ? `/a/members/profile/${tier.id}/${kebabCase(company.name)}` : company.url} key={companyIndex}>
                                   <img
                                     src={`https://openinfra.dev/cdn-cgi/image/quality=75${customWidth ? `,width=${customWidth}` : ''}/${company.logo || company.big_logo}`}
                                     alt={company.name}

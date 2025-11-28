@@ -8,13 +8,13 @@ const LinkComponent = class extends React.Component {
 
     let { href, children, className, id, ...rest } = this.props;
 
-    if(href.match(/^(http:\/\/|https:\/\/|www\.)/)){
+    if(href?.match(/^(http:\/\/|https:\/\/|www\.)/)){
       return (
         <OutboundLink href={href} id={id} className={className} target="_blank" rel="noopener noreferrer" {...rest}>
           {children}
         </OutboundLink>
       )
-    } else if (href.match(/mailto:/)){
+    } else if (href?.match(/mailto:/)){
       return (
         <a href={href} id={id} className={className} {...rest}>
           {children}

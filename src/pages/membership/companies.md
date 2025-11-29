@@ -28,7 +28,7 @@ sponsorsLevel:
     id: 3
     width: "120"
   - name: ASSOCIATE MEMBERS
-    id: 4
+    id: 43
     width: "120"
   - name: INFRASTRUCTURE DONORS
     id: 5

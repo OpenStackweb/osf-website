@@ -55,7 +55,7 @@ export const CompaniesPageTemplate = ({
           <div className="container">
             <section className="companies-s1-main">
               {sponsors?.map((tier, index) => {
-                const customWidth = sponsorsLevel.find(e => e.id === tier.id)?.width;
+                const customWidth = sponsorsLevel.find(e =>e.id === tier.id ||  e.name === tier.name)?.width;
                 const tierId = tier.name.split(' ')[0].toLowerCase();
                 if (tier.is_active === true) {
                   return (
@@ -159,6 +159,7 @@ export const companiesPageQuery = graphql`
           }
         }
         sponsorsLevel {
+          name
           id
           width
         }

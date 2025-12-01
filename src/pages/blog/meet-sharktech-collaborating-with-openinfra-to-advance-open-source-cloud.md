@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: "Meet Sharktech: Collaborating with OpenInfra to Advance Open Source Cloud "
-author: Allison Price
+author: Tim Timrawi
 date: 2025-12-01T21:26:57.245Z
 category:
   - value: category-h2Ztx9rpD

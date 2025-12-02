@@ -8,6 +8,7 @@ import TopBar from "../components/TopBar";
 import NavbarV2 from '../components/NavbarV2';
 import Header from "../components/Header";
 import SEO from "../components/SEO";
+import LinkComponent from "../components/LinkComponent";
 
 export const ElectionPagePreviousTemplate = ({
     isLoggedUser,
@@ -16,7 +17,7 @@ export const ElectionPagePreviousTemplate = ({
     content,
     contentComponent
 }) => {
-    const PageContent = contentComponent || Content 
+    const PageContent = contentComponent || Content
 
     const { closes, nomination_closes, nomination_opens, opens } = electionData
 
@@ -34,18 +35,19 @@ export const ElectionPagePreviousTemplate = ({
                 <div className="content">
                     <section className="section about-s1-main">
                         <div className="container about-s1-container">
-                                <article className="message is-warning">
-                                    <div className="message-body election-alert">
-                                        Nominations for Individual Board Members have closed.
-                                    </div>
-                                </article>
+                            You're viewing a past election page. See the <LinkComponent className="current-election-link" href="/election">current election page</LinkComponent>.<br /><br />
+                            <article className="message is-warning">
+                                <div className="message-body election-alert">
+                                    Nominations for Individual Board Members have closed.
+                                </div>
+                            </article>
                             <div className="columns">
                                 <div className="column is-one-third">
-                                <div class="election-item"><a aria-current="page" class="" href={`/election/${electionYear}-individual-director-election`}>ELECTION DETAILS<i class="fa fa-chevron-right"></i></a></div>
-                                <div class="election-item"><a aria-current="page" class="" href={`/election/${electionYear}-individual-director-election/candidates/`}>SEE THE CANDIDATES<i class="fa fa-chevron-right"></i></a></div>
-                                <div class="election-item"><a aria-current="page" class="" href={`/election/${electionYear}-individual-director-election/candidates/gold`}>GOLD MEMBER ELECTION CANDIDATES<i class="fa fa-chevron-right"></i></a></div>
-                                <div class="election-item"><a aria-current="page" class="" href="../../legal/code-of-conduct">CODE OF CONDUCT<i class="fa fa-chevron-right"></i></a></div>
-                                <div class="election-item"><a aria-current="page" class="" href="mailto:info@openinfra.dev">REPORT A BUG<i class="fa fa-chevron-right"></i></a></div>
+                                    <div class="election-item"><a aria-current="page" class="" href={`/election/${electionYear}-individual-director-election`}>ELECTION DETAILS<i class="fa fa-chevron-right"></i></a></div>
+                                    <div class="election-item"><a aria-current="page" class="" href={`/election/${electionYear}-individual-director-election/candidates/`}>SEE THE CANDIDATES<i class="fa fa-chevron-right"></i></a></div>
+                                    <div class="election-item"><a aria-current="page" class="" href={`/election/${electionYear}-individual-director-election/candidates/gold`}>GOLD MEMBER ELECTION CANDIDATES<i class="fa fa-chevron-right"></i></a></div>
+                                    <div class="election-item"><a aria-current="page" class="" href="../../legal/code-of-conduct">CODE OF CONDUCT<i class="fa fa-chevron-right"></i></a></div>
+                                    <div class="election-item"><a aria-current="page" class="" href="mailto:info@openinfra.dev">REPORT A BUG<i class="fa fa-chevron-right"></i></a></div>
                                 </div>
                                 <div className="column is-two-thirds">
                                     <p>
@@ -75,7 +77,7 @@ const ElectionPagePrevious = ({ isLoggedUser, location, data }) => {
             <SEO seo={post.frontmatter.seo} />
             <ElectionPagePreviousTemplate
                 location={location}
-                isLoggedUser={isLoggedUser}                
+                isLoggedUser={isLoggedUser}
                 title={post.frontmatter.title}
                 menu={post.frontmatter.menu}
                 electionData={electionData}

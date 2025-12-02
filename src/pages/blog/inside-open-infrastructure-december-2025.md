@@ -13,24 +13,23 @@ seo:
   description: Check out the OpenStack Marketplace
   twitterUsername: "@openinradev"
 ---
-![](/img/147-openinfra-summit-europe25.jpg)
+![](/img/newsletter-header-openstack-marketplace-1-.png)
 
-# OpenInfra Summit Sessions Available to Stream
+# Check out the OpenStack Marketplace
 
-The [OpenInfra Summit Europe](https://summit2025.openinfra.org/) united over 1,200 attendees from 65+ countries at École Polytechnique to celebrate global collaboration in open infrastructure. Opening the event, OpenInfra Foundation GM Thierry Carrez reminded participants that [true resilience lies not in technology but in community](https://youtu.be/XsUTVgDAUxA?si=0dK_GUOh9LneefZ5). Supported by sponsors including OVHcloud, Canonical, Huawei and Mirantis, the Summit highlighted the strength and innovation of the open source movement in the European region.
+The [OpenStack Marketplace](https://www.openstack.org/marketplace/) first launched in 2015. In the 10 years since, it has become one of the most visited pages on [openstack.org](http://openstack.org), which gets millions of visits per year. The Marketplace continues to grow and attract new organizations from the OpenStack ecosystem that want to feature their products to our over 110,000 community members looking for everything from:
 
-Throughout the week, keynotes and demos showcased open collaboration in action.
+* [Public](https://www.openstack.org/marketplace/public-clouds/) and [Private Cloud](https://www.openstack.org/marketplace/hosted-private-clouds/) [solutions](https://www.openstack.org/marketplace/remotely-managed-private-clouds/)
+* [VMware Migration Tools](https://www.openstack.org/marketplace/consulting/f/a/Migration%20Tools)
+* [OpenStack Services Consultant](https://www.openstack.org/marketplace/consulting/)
+* [Training partner](https://www.openstack.org/marketplace/training/)
+* [OpenStack Distro](https://www.openstack.org/marketplace/distros/)
 
-* OpenInfra members executed [simultaneous workload migrations from VMware to OpenStack](https://youtu.be/slOxTkVEiSE?si=B4Gr4JC9bDkJmMgc)
-* [NVIDIA](https://youtu.be/bdoF5hQojaA?si=ChvWyFu6ArSk_X6c) and [Ant Open Source](https://youtu.be/QxUJjg04ipc?si=FB2nFUAphTY7DuiH) demonstrated Kata Containers’ role in securing AI workloads
-* A new [OpenStack for AI white paper](https://www.openstack.org/openstack-for-ai/) was announced, detailing production-ready architectures 
-* [OVHcloud founder Octave Klaba](https://youtu.be/n3SKNXH3hTI?si=HOpTMnif3ySTyDiF) shared how open infrastructure supports resilience and innovation
-* [ECMWF](https://youtu.be/ban-qA-F814?si=5_lf8Bry-ehLOZyr) and [BT Group](https://youtu.be/RPNsT5W1zfY?si=9B0WrD4o1yjLU_om) detailed their architectures for weather forecasting and UK telco infrastructure respectively, both leveraging the OpenInfra Blueprint (the open source standard combining Linux, OpenStack, and Kubernetes) 
-* The Summit also honored top contributors and [named StackHPC as the newest Superuser Award winner](https://youtu.be/9ITY0tF3cpA?si=9j3Cjtpzph1Q_wg0).
+You’ll find a trusted organization that can help!
 
-Co-located events expanded the Summit’s impact, including the [Gerrit User Summit](https://youtube.com/playlist?list=PLySCWiWz9cNuiJK2Uy3foHGvkxL3fBLUC&si=1EeOdEwzlhIy718J) and the first VM Migration Day addressing the shift away from VMware. All of the keynote and breakout session videos are now available on the [OpenInfra Foundation YouTube channel](https://youtube.com/playlist?list=PLKqaoAnDyfgr91wN_12nwY321504Ctw1s&si=g5JmtXI-4d8U4AQQ). 
+If your organization would like to be featured in the OpenStack Marketplace, contact [ecosystem@openinfra.org](mailto:ecosystem@openinfra.org) for more information.
 
-**[SEE THE VIDEOS >>](https://youtube.com/playlist?list=PLKqaoAnDyfgr91wN_12nwY321504Ctw1s&si=g5JmtXI-4d8U4AQQ)**
+**[SEE THE OPENSTACK MARKETPLACE >> ](https://www.openstack.org/marketplace/)**
 
 # OpenInfra Foundation News
 

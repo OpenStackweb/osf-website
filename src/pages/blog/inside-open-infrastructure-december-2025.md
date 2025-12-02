@@ -33,46 +33,42 @@ If your organization would like to be featured in the OpenStack Marketplace, con
 
 # OpenInfra Foundation News
 
-* Please welcome new OpenInfra Foundation Silver Members, [Pure Storage](https://www.purestorage.com/) and [Bai Xin Information Technology Co., Ltd.](https://www.100trust.cn/product/39.html)
-* The OpenInfra Foundation is partnering with LF Research to collect data on open source investments, benefits, and ROI across different organizational contexts. If your organization contributes to open source projects, please [take the survey](https://linuxfoundation.research.net/r/7NR77SM) by **this Friday, November 7**!
-* The OpenInfra Foundation is highlighting our Member organizations and how they’re powering the future of open source infrastructure. Check out the [Red Hat](https://openinfra.org/blog/openinfra-member-redhat), [Rackspace](https://openinfra.org/blog/rackspace-technology-and-openinfra-foundation), [Cleura](https://openinfra.org/blog/openinfra-member-cleura), and [Ant Group](https://openinfra.org/blog/meet-ant-group-building-trusted-open-source-infrastructure-for-the-ai-era) blogs and keep an eye on the [Foundation blog](https://openinfra.org/blog/) to meet more OpenInfra Members. 
-* If you’re interested in joining the global collaboration around open source infrastructure, consider [membership of the OpenInfra Foundation](https://openinfra.dev/join/members/). Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev "jimmy@openinfra.dev") today to find out more!
+* Please welcome new OpenInfra Foundation Silver Member [CECloud](https://cecloud.com/).
+* On September 8-9, [OpenInfra Summit Asia | KubeCon | CloudNativeCon](https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/) will take place in Shanghai. This flagship event unites adopters, technologists, and community members from across the region to drive innovation in open source infrastructure and cloud native computing around common, industry-wide use cases like nextgen AI. Over two days, CNCF projects will collaborate with the OpenInfra community across dozens of open technologies, including two of the most active open source projects to exist, Kubernetes and OpenStack, to shape the future of open source software and technology as a whole.
+* The OpenInfra Foundation is highlighting our Member organizations and how they’re powering the future of open source infrastructure. Check out the [Sharktech](https://openinfra.org/blog/openinfra-member-sharktech) and [Cloud&Heat](https://openinfra.org/blog/openinfra-member-cloud-and-heat) blog posts and keep an eye on the [Foundation blog](https://openinfra.org/blog/) to meet more OpenInfra Members. 
+* If you’re interested in joining the global collaboration around open source infrastructure, consider [membership of the OpenInfra Foundation](https://openinfra.dev/join/members/). Contact [Jimmy McArthur](mailto:jimmy@openinfra.dev) today to find out more.
+
+# OpenInfra Summit
+
+* September 8 & 9, 2026
+* Shanghai, China | [Shanghai International Convention Center Oriental Riverside Hotel](http://www.guojihuiyizhongxin.com.cn/index1.html)
+* [Become a Sponsor](https://openinfra.org/events/sponsorship) | Contracts must be signed by July 17, 2026.
 
 # OpenStack: Open source software for creating private and public clouds
 
-* If you were a maintainer or contributor to an OpenStack project team during the 2025.2/Flamingo development cycle, please take a moment to fill out the cycle retrospective [Maintainer Experience Survey](https://openinfrafoundation.formstack.com/forms/openstack_maintainer_experience_survey) or [Contributor Experience Survey](https://openinfrafoundation.formstack.com/forms/openstack_contributor_experience_survey) by November 16. Also remind your colleagues and teammates to do the same!
-* The OpenStack for AI Working Group launched the [OpenStack for AI Whitepaper](https://www.openstack.org/openstack-for-ai/) at OpenInfra Summit Europe. Nine OpenInfra Foundation Members came together to lay out how the OpenStack community is responding to the AI infrastructure shift and what the future of AI on OpenStack will look like. You’ll also find a set of production case studies and reference architectures from ChinaMobile, FPT SmartCloud, Rackspace, and StackHPC.
+* [OSSA-2025-002 (CVE-2025-65073)](https://security.openstack.org/ossa/OSSA-2025-002.html) shared a security flaw in OpenStack Keystone’s ec2tokens and s3tokens APIs. Affected environments should be upgraded or patched at the earliest opportunity.
+* Monasca (monitoring as a service), last released in the 2023.2/Bobcat cycle, has officially been [retired](https://review.opendev.org/c/openstack/governance/+/953671) from OpenStack. [Venus](https://lists.openstack.org/archives/list/openstack-discuss@lists.openstack.org/thread/G4FSLQDGJBRY6G4JQ3SSIPN2UVX7BC4K) (log management) and [Vitrage](https://lists.openstack.org/archives/list/openstack-discuss@lists.openstack.org/thread/22GL7TB54WY4T2JDEVKFQCEKQY4AAVAN) (root cause analysis) services are being considered [inactive](https://governance.openstack.org/tc/reference/emerging-technology-and-inactive-projects.html) for 2026.1/Gazpacho due to a lack of volunteers to lead those teams, and will be retired in the future if the situation doesn’t improve.
 
 # Kata Containers: The speed of containers, the security of VMs
 
-* The new Kata Containers [3.22](https://github.com/kata-containers/kata-containers/releases/tag/3.22.0) release is now available!
-* The [Kata Containers Architecture Committee (AC) election](https://github.com/kata-containers/community/tree/main/elections/arch-committee-2025-10) has concluded with all seats being reelected.
+* The new Kata Containers [3.23](https://github.com/kata-containers/kata-containers/releases/tag/3.23.0) release is now available!
+* The [overview](https://katacontainers.io/blog/kata-community-ptg-updates-october-2025/) of the Kata Containers PTG sessions are now available on the [project’s blog](https://katacontainers.io/blog/).
 * If you’re evaluating or using Kata Containers, please take a few minutes to fill out the [User Survey](https://openinfrafoundation.formstack.com/forms/kata_containers_user_survey) and provide feedback to the community!
 
 # OpenDev: Free software needs free tools
 
-* OpenDev’s base Python container images have moved from Docker Hub to Quay. Read the [announcement](https://lists.opendev.org/archives/list/service-announce@lists.opendev.org/thread/HO6Z66QIMDIDY7CCVAREDOPSYZYNKIT3/) to catch up on all the details. If you are using OpenDev’s base Python container images you will need to update your builds to fetch them from the new location
+* The OpenDev team will be upgrading Gerrit on review.opendev.org to Gerrit 3.11 on December 7, 2025 at 21:00 UTC. See the [announcement](https://lists.opendev.org/archives/list/service-announce@lists.opendev.org/thread/BRIFZRKPOWCRFYJGYY6UBDWQLRX7YXMP/) for more details.
 
 # StarlingX: A fully featured cloud for the distributed edge
 
-* The [StarlingX Technical Steering Committee, Project and Technical Lead elections](https://docs.starlingx.io/election/) are currently running. Keep an eye on the process to learn who the project’s new leaders are going to be.
-* If you’re evaluating or using StarlingX, please take a few minutes to fill out the [User Survey](https://openinfrafoundation.formstack.com/forms/starlingx_user_survey) and provide feedback to the community
-
-# Zuul: Stop merging broken code
-
-* Zuul 13.01 has been released with security fixes for jobs that run on Windows. See the [release announcement](https://lists.zuul-ci.org/archives/list/zuul-announce@lists.zuul-ci.org/thread/UJEL6DLYNEN7S4M66QWSC37VZYZ7WAM3/) for more information.
+* The StarlingX 11.0 release is now available! Check out the [project’s blog](https://www.starlingx.io/blog/starlingx-release-11/) and the [release notes](https://docs.starlingx.io/releasenotes/index.html#release-notes) to learn what’s new in this release.
+* The [overview](https://www.starlingx.io/blog/starlingx-vptg-october-2025-recap/) of the StarlingX PTG sessions are now available on the [project’s blog](https://www.starlingx.io/blog/).
+* If you’re evaluating or using StarlingX, please take a few minutes to fill out the [User Survey](https://openinfrafoundation.formstack.com/forms/starlingx_user_survey) and provide feedback to the community!
 
 # **Upcoming OpenInfra and Community Events**
 
-**[Celebrate OpenStack's 15th Birthday](https://www.openstack.org/blog/celebrating-15-years-of-openstack/)**  
-
-* [Atlanta, GA](https://www.meetup.com/openstack-atlanta/events/311071434/?eventOrigin=group_upcoming_events) – 12 November
-* [Montreal, CA](https://www.meetup.com/montreal-openstack/events/310374679/?eventOrigin=network_page) – 13 November
-* Check out [all the celebrations](https://www.openstack.org/blog/celebrating-15-years-of-openstack/)!
-
-**More ways to get involved!**
-
-* [OpenInfra User Group India - Virtual Meetup Series 2025](https://www.meetup.com/indian-openinfra-user-group/events/311675266/?eventOrigin=group_upcoming_events) 
-* [Find a User Group near you!](https://www.meetup.com/pro/openinfradev/) 
+* 12 December -  [Athens OpenStack User Group Meetup](https://www.meetup.com/athens-openstack-user-group/events/312235216/?eventOrigin=network_page)
+* 31 January & 1 February - [Visit the OpenInfra and CNCF stand at FOSDEM](https://fosdem.org/2026/news/2025-11-16-accepted-stands/)  
+* [Find a user group near you!](https://www.meetup.com/pro/openinfradev/)
 
 For more information about OpenInfra community events, please contact [events@openinfra.dev](mailto:events@openinfra.dev).

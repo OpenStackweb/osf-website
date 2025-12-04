@@ -35,10 +35,9 @@ export const ElectionPagePreviousTemplate = ({
                 <div className="content">
                     <section className="section about-s1-main">
                         <div className="container about-s1-container">
-                            You're viewing a past election page. See the <LinkComponent className="current-election-link" href="/election">current election page</LinkComponent>.<br /><br />
                             <article className="message is-warning">
                                 <div className="message-body election-alert">
-                                    Nominations for Individual Board Members have closed.
+                                    You're viewing a previous election. See the <LinkComponent className="current-election-link" href="/election">most recent election page here</LinkComponent>.
                                 </div>
                             </article>
                             <div className="columns">

@@ -29,7 +29,7 @@ menu:
 ---
 #### About the Board
 
-The Governing Board is responsible for the OpenInfra Foundation, a directed fund of the Linux Foundation. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. The 2026 Governing Board will be composed of 21 directors: 7 elected by the OIF Individual Members, 7 elected by the Gold Members, and 7 appointed by the Platinum Members.
+The Governing Board is responsible for the OpenInfra Foundation, a directed fund of the Linux Foundation. Board activities include oversight of the Foundation and its budget, strategy and goals according to the mission and responsibilities. The 2026 Governing Board will be composed of 24 directors: 8 elected by the OIF Individual Members, 8 elected by the Gold Members, and 8 appointed by the Platinum Members.
 
 Governing Board members are responsible for fiduciary duties and adhering to an expanded code of conduct. All Directors need to attend regular Board meetings and any special meetings that come up. The meetings will be held in a way that allows for remote participation.
 

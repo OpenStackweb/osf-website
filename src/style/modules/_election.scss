@@ -1,3 +1,13 @@
+.current-election-link {
+  color: #337ab7;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: #23527c;
+    text-decoration: underline;
+  }
+}
+
 .election-item {
   display: flex;
   justify-content: space-between;

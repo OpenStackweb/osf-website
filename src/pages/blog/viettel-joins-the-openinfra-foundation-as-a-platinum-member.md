@@ -18,7 +18,7 @@ The OpenInfra Foundation is proud to welcome Viettel, Vietnam’s largest teleco
 
 This milestone is especially meaningful for the OpenInfra community. Vietnam has been one of the most active and enthusiastic regions in the world. For the past eight years, the Foundation has proudly supported OpenInfra Days Vietnam, helping build a strong ecosystem of engineers, operators, students and organizations. I have had the privilege of visiting Vietnam four times to support this growth and to deepen relationships with Viettel and many others who are advancing open source in the country.
 
-The Vietnam OpenInfra User Group captured the significance of this moment in a recent reflection on Viettel’s transformation. In their words:
+The [Vietnam OpenInfra User Group](https://www.meetup.com/vietopenstack/) captured the significance of this moment in a recent reflection on Viettel’s transformation. In their words:
 
 “Viettel's membership upgrade signifies a major strategic shift, evolving from a consumer of open-source technology to a leader in Vietnam and Southeast Asia. This move sends a strong, positive message to the tech ecosystem, reinforcing Viettel's long-standing support for community building, not only with the Vietnam OpenInfra User Group and the Cloud Native Community in Vietnam, but also through events like technical meetups and OpenInfra Days Vietnam. We look forward to Viettel's continued leadership across the Asian market. We also hope this milestone serves as a catalyst for other cloud providers to strengthen their commitment to the open-source community, fostering innovation that delivers tangible value to society.”
 
@@ -26,13 +26,13 @@ That spirit has shaped the open source movement in Vietnam for nearly a decade, 
 
 ## A Global Leader With a Vision for Digital Society
 
-Viettel has grown into one of the world’s most valuable telecommunications brands, operating in 11 countries across Asia, Africa and the Americas. With more than 50,000 employees, the company plays a central role in Vietnam’s national digital strategy and delivers services across mobile connectivity, cloud computing, cybersecurity, AI and digital government.
+[Viettel](https://viettel.com.vn/en/) has grown into one of the world’s most valuable telecommunications brands, operating in 11 countries across Asia, Africa and the Americas. With more than 50,000 employees, the company plays a central role in Vietnam’s national digital strategy and delivers services across mobile connectivity, cloud computing, cybersecurity, AI and digital government.
 
 The company’s mission centers on building a digital society that improves people’s lives. This vision aligns directly with the OpenInfra Foundation’s belief that open infrastructure enables transparency, collaboration and shared innovation across borders and industries.
 
 ## Building One of Southeast Asia’s Largest OpenStack Clouds
 
-Viettel IDC, the business unit responsible for cloud and data center operations, has deployed one of the largest OpenStack-based infrastructures in Southeast Asia. Their cloud underpins digital services for enterprises, government agencies and critical national programs.
+[Viettel IDC](https://viettelidc.com.vn/), the business unit responsible for cloud and data center operations, has deployed one of the largest OpenStack-based infrastructures in Southeast Asia. Their cloud underpins digital services for enterprises, government agencies and critical national programs.
 
 Their OpenStack environment includes 15 private cloud clusters, more than 3,500 physical servers, over 112,000 compute cores, 1,200 terabytes of RAM and more than 11,000 terabytes of storage. This scale demonstrates Viettel’s belief that open source platforms provide the flexibility, security and cost efficiency required for modern sovereign cloud architectures.
 

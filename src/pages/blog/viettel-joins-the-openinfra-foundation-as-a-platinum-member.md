@@ -14,7 +14,9 @@ seo:
   url: https://openinfra.org/blog/viettel-joins-openinfra-foundation-as-platinum-member
   twitterUsername: "@openinfradev"
 ---
-The OpenInfra Foundation is proud to welcome Viettel, Vietnam’s largest telecommunications and technology group, as our newest Platinum Member. Viettel is the first organization in Vietnam to join at this highest level of membership, and their commitment reflects the growing prominence of open source infrastructure across Southeast Asia.
+![Welcome Viettel - OpenInfra Foundation Platinum Member](/img/1200x675-platinum-viettel.png)
+
+The OpenInfra Foundation is proud to welcome [Viettel](https://viettel.com.vn/en/), Vietnam’s largest telecommunications and technology group, as our newest Platinum Member. Viettel is the first organization in Vietnam to join at this highest level of membership, and their commitment reflects the growing prominence of open source infrastructure across Southeast Asia.
 
 This milestone is especially meaningful for the OpenInfra community. Vietnam has been one of the most active and enthusiastic regions in the world. For the past eight years, the Foundation has proudly supported OpenInfra Days Vietnam, helping build a strong ecosystem of engineers, operators, students and organizations. I have had the privilege of visiting Vietnam four times to support this growth and to deepen relationships with Viettel and many others who are advancing open source in the country.
 
@@ -26,7 +28,7 @@ That spirit has shaped the open source movement in Vietnam for nearly a decade, 
 
 ## A Global Leader With a Vision for Digital Society
 
-[Viettel](https://viettel.com.vn/en/) has grown into one of the world’s most valuable telecommunications brands, operating in 11 countries across Asia, Africa and the Americas. With more than 50,000 employees, the company plays a central role in Vietnam’s national digital strategy and delivers services across mobile connectivity, cloud computing, cybersecurity, AI and digital government.
+Viettel has grown into one of the world’s most valuable telecommunications brands, operating in 11 countries across Asia, Africa and the Americas. With more than 50,000 employees, the company plays a central role in Vietnam’s national digital strategy and delivers services across mobile connectivity, cloud computing, cybersecurity, AI and digital government.
 
 The company’s mission centers on building a digital society that improves people’s lives. This vision aligns directly with the OpenInfra Foundation’s belief that open infrastructure enables transparency, collaboration and shared innovation across borders and industries.
 

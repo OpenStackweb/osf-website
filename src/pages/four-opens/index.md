@@ -37,5 +37,5 @@ We welcome you to [read the book](https://opendev.org/osf/four-opens/src/branch/
 Learn more about the Four Opens, the value they bring, and the responsibility of the community that upholds them to be mentors for the next wave of new members with Aeva Black, Azure Office of the CTO at Microsoft, on the OpenInfra Live: Keynotes.
 <br /><br />
 <div style="position: relative; padding-bottom: 56.25%; height: 0;" className="videoWrapper">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/gTR_AtJVXkw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/gTR_AtJVXkw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen referrerPolicy="strict-origin-when-cross-origin"></iframe>
 </div> 

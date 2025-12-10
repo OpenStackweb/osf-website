@@ -254,3 +254,7 @@
   to = "/dco"
   status = 301
   force = true
+[[headers]]
+  for = "/*"
+  [headers.values]
+  Referrer-Policy = "strict-origin-when-cross-origin"

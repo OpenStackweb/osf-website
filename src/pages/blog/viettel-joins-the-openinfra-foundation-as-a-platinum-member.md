@@ -51,4 +51,4 @@ For the OpenInfra Foundation, Viettel’s membership represents the continuation
 
 We are excited to welcome Viettel as a Platinum Member and look forward to the innovation, collaboration and leadership they will bring to the global OpenInfra community. This partnership reflects the incredible momentum across Southeast Asia and highlights how open source infrastructure continues to shape the future of cloud, AI and digital transformation.
 
-Welcome to Platinum Membership, Viettel. We look forward to building what comes next together.
+We look forward to building the next decade of open infrastructure together!

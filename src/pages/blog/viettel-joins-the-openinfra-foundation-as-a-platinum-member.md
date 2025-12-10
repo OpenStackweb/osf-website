@@ -20,7 +20,7 @@ The OpenInfra Foundation is proud to welcome [Viettel](https://viettel.com.vn/en
 
 This milestone is especially meaningful for the OpenInfra community. Vietnam has been one of the most active and enthusiastic regions in the world. For the past eight years, the Foundation has proudly supported OpenInfra Days Vietnam, helping build a strong ecosystem of engineers, operators, students and organizations. I have had the privilege of visiting Vietnam four times to support this growth and to deepen relationships with Viettel and many others who are advancing open source in the country.
 
-The [Vietnam OpenInfra User Group](https://www.meetup.com/vietopenstack/) captured the significance of this moment in a recent reflection on Viettel’s transformation. In their words:
+The [Vietnam OpenInfra User Group](https://www.meetup.com/vietopenstack/) captured the significance of this moment in a recent reflection on Viettel’s transformation. From the leader of the User Group, Trong Vinh (Tovin) Nguyen:
 
 “Viettel's membership upgrade signifies a major strategic shift, evolving from a consumer of open-source technology to a leader in Vietnam and Southeast Asia. This move sends a strong, positive message to the tech ecosystem, reinforcing Viettel's long-standing support for community building, not only with the Vietnam OpenInfra User Group and the Cloud Native Community in Vietnam, but also through events like technical meetups and OpenInfra Days Vietnam. We look forward to Viettel's continued leadership across the Asian market. We also hope this milestone serves as a catalyst for other cloud providers to strengthen their commitment to the open-source community, fostering innovation that delivers tangible value to society.”
 

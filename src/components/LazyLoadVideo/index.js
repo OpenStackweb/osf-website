@@ -10,7 +10,7 @@ function LazyLoadVideo({ videoUrl }) {
     const [videoLoaded, setVideoLoaded] = useState(false);
 
     useEffect(() => {
-        if(videoUrl)
+        if (videoUrl)
             setVideoId(getVideoId(videoUrl));
     }, []);
 
@@ -28,7 +28,8 @@ function LazyLoadVideo({ videoUrl }) {
                     frameBorder: 0,
                     allow: '',
                     width: 560,
-                    height: 315
+                    height: 315,
+                    referrerPolicy: "strict-origin-when-cross-origin"
                 },
                 ''
             );
@@ -37,7 +38,7 @@ function LazyLoadVideo({ videoUrl }) {
         }
     }
 
-    if(!videoUrl){
+    if (!videoUrl) {
         return null;
     }
 

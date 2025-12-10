@@ -142,6 +142,35 @@ members:
     title: Individual Director
     linkedin: https://www.linkedin.com/in/changbo-guo-90123285
     company: EasyStack
+  - name: Huaxing Zhang
+    title: Gold Director
+    company: China Telecom
+    description: 2017, I joined China Telecom and have been working on Cloud &
+      Network infrastructure products since then. In the past years, I used to
+      led a team to design and develop VIM products based on OpenStack and ETSI
+      MANO specifications; and participated in design China Telecom's NFV
+      three-layer decoupling scheme and implemented multiple projects such as
+      5GC, vIMS, and vBRAS. Our CT Cloud based on OpenStack have been deployed
+      in 31 provinces and maintain upgrading with new Cloud & Network
+      technologies. I believe it is precisely the mutual promotion with the open
+      source community that has helped the industry to grow rapidly.
+    openStack: /a/community/members/127797
+    picture: /img/board/HuaxingZhang.png
+  - description: Hieu Le is the Chief Information Officer of Viettel Networks, a key
+      subsidiary of Viettel Group in Vietnam. He also serves as Vice President
+      of the Vietnam Free and Open Source Software Association (VFOSSA), an
+      organization dedicated to advancing open-source adoption nationwide. In
+      2013, he founded the Vietnam OpenStack User Group (now the Vietnam
+      OpenInfra User Group) and established the first OpenStack engineering team
+      in the country. He led the development of Viettel’s—and Vietnam’s—first
+      OpenStack-based private cloud, and later contributed to national-level
+      initiatives and regulatory efforts aimed at promoting OpenStack and
+      open-source technologies across Vietnam around 2018.
+    company: Viettel
+    title: CIO
+    name: Hieu Le
+    picture: /img/hieule.jpg
+    openStack: /a/community/members/26486
   - name: Johan Christenson
     picture: /img/smallprofilepic1.png
     title: Gold Director
@@ -255,20 +284,6 @@ members:
       and innovation experience in OpenStack.
     openStack: /a/community/members/90048
     picture: /img/board/Xiangyu-Li.jpg
-  - name: Huaxing Zhang
-    title: Gold Director
-    company: China Telecom
-    description: 2017, I joined China Telecom and have been working on Cloud &
-      Network infrastructure products since then. In the past years, I used to
-      led a team to design and develop VIM products based on OpenStack and ETSI
-      MANO specifications; and participated in design China Telecom's NFV
-      three-layer decoupling scheme and implemented multiple projects such as
-      5GC, vIMS, and vBRAS. Our CT Cloud based on OpenStack have been deployed
-      in 31 provinces and maintain upgrading with new Cloud & Network
-      technologies. I believe it is precisely the mutual promotion with the open
-      source community that has helped the industry to grow rapidly.
-    openStack: /a/community/members/127797
-    picture: /img/board/HuaxingZhang.png
   - name: Yulong Liu
     title: Gold Director
     company: China Unicom

@@ -167,7 +167,7 @@ members:
       initiatives and regulatory efforts aimed at promoting OpenStack and
       open-source technologies across Vietnam around 2018.
     company: Viettel
-    title: CIO
+    title: Platinum Director
     name: Hieu Le
     picture: /img/hieule.jpg
     openStack: /a/community/members/26486

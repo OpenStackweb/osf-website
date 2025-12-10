@@ -29,7 +29,7 @@ The company’s mission is focused on building a digital society that improves p
 
 ## Building One of Southeast Asia’s Largest OpenStack Clouds
 
-Viettel IDC, the business unit responsible for cloud and data center operations, has deployed one of the largest OpenStack-based infrastructures in the region. Their cloud serves enterprises, government agencies, smart city initiatives and critical digital services throughout Vietnam.
+[Viettel IDC](https://viettelidc.com.vn/), the business unit responsible for cloud and data center operations, has deployed one of the largest OpenStack-based infrastructures in the region. Their cloud serves enterprises, government agencies, smart city initiatives and critical digital services throughout Vietnam.
 
 Today their OpenStack environment spans 15 private cloud clusters, more than 3,500 physical servers, over 112,000 compute cores, 1,200 terabytes of RAM and more than 11,000 terabytes of storage capacity. This scale demonstrates Viettel’s belief that open source provides the flexibility, security and cost control required for modern sovereign cloud platforms.
 

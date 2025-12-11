@@ -52,6 +52,17 @@ const SummitLandingPagePreview = ({ entry }) => {
             alt: entry.getIn(['data', 'subHeader', 'footer', 'alt'])
           }
         }}
+        sponsorBanner={{
+          upperText: entry.getIn(['data', 'sponsorBanner', 'upperText']),
+          title: entry.getIn(['data', 'sponsorBanner', 'title']),
+          image: {
+            publicURL: entry.getIn(['data', 'sponsorBanner', 'image'])
+          },
+          button: {
+            text: entry.getIn(['data', 'sponsorBanner', 'button', 'text']),
+            link: entry.getIn(['data', 'sponsorBanner', 'button', 'link'])
+          }
+        }}
         upcomingSummits={{
           title: entry.getIn(['data', 'upcomingSummits', 'title']),
           summits: upcomingSummits.map(summit => ({

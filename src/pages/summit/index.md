@@ -84,6 +84,16 @@ middleBanner:
       link: "mailto:summit@openinfra.dev"      
     image: /img/summit-landing/middle-banner/middle-banner-2.png
     imageFirst: true
+sponsorBanner:
+  upperText: Become a Sponsor
+  image: /img/summit-landing/sponsor-banner-bg.png
+  title: |
+    Want to support <br />
+    the next decade of open <br />
+    infrastructure? 
+  button:
+    text: More Info
+    link: "/events/sponsorship"
 previousSummits:
   title: Previous OpenInfra Summits
   summits:

@@ -25,6 +25,7 @@ export const SummitLandingPageTemplate = ({
   contentComponent,
   headerImage,
   subHeader,
+  sponsorBanner,
   pastSummits,
   middleBanner,
   previousSummits,
@@ -62,7 +63,12 @@ export const SummitLandingPageTemplate = ({
           button={{ text: banner.button?.text, link: banner.button?.link }}
           imageFirst={banner.imageFirst}
         />)}
-        <SponsorBanner />
+        <SponsorBanner
+          upperText={sponsorBanner.upperText}
+          title={sponsorBanner.title}
+          image={sponsorBanner.image}
+          button={sponsorBanner.button}
+         />
         <MeetupBanner />
         <PreviousSummits
           title={previousSummits.title}
@@ -99,6 +105,7 @@ const SummitLandingPage = ({ isLoggedUser, data }) => {
         content={post.html}
         headerImage={post.frontmatter.headerImage}
         subHeader={post.frontmatter.subHeader}
+        sponsorBanner={post.frontmatter.sponsorBanner}
         pastSummits={post.frontmatter.pastSummits}
         middleBanner={post.frontmatter.middleBanner}
         previousSummits={post.frontmatter.previousSummits}
@@ -184,6 +191,17 @@ export const SummitLandingPageQuery = graphql`
               publicURL
             }
             alt
+          }
+        }
+        sponsorBanner {
+          upperText
+          title
+          image {
+            publicURL
+          }
+          button {
+            text
+            link
           }
         }
         pastSummits {

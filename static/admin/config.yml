@@ -1360,6 +1360,15 @@ collections:
               { label: "Alt Text", name: alt, widget: string }
             ]}
           ]}
+          - { label: "Sponsor Banner", name: sponsorBanner, widget: object, fields: [
+            { label: "Upper Text", name: upperText, widget: string },
+            { label: "Title", name: title, widget: text, hint: "You can use HTML tags like <br />" },
+            { label: "Image", name: image, widget: image },
+            { label: "Button", name: button, widget: object, fields: [
+              { label: "Text", name: text, widget: string },
+              { label: "Link", name: link, widget: string }
+            ]}
+          ]}
           - { label: "Past Summits", name: pastSummits, widget: object, fields: [
             { label: "Title", name: title, widget: string },
             { label: "Summits", name: summits, widget: list, fields: [

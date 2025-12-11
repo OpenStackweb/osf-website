@@ -6,7 +6,7 @@ date: 2025-12-02T19:51:43.230Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   url: https://openinfra.org/blog/openinfra-newsletter-december-2025
   title: "Inside Open Infrastructure: December 2025"

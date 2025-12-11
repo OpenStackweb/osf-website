@@ -1428,8 +1428,8 @@ collections:
           - { label: "Upcoming Meetups", name: upcomingMeetups, widget: object, fields: [
             { label: "Title", name: title, widget: string },
             { label: "Banner", name: banner, widget: object, required: false, fields: [
-              { label: "Title", name: title, widget: string },
-              { label: "Content", name: content, widget: text },
+              { label: "Title", name: title, widget: string, hint: "You can use HTML tags like <br />" },
+              { label: "Content", name: content, widget: text, hint: "You can use HTML tags like <br />" },
               { label: "Button", name: button, widget: object, fields: [
                 { label: "Text", name: text, widget: string },
                 { label: "URL", name: url, widget: string }

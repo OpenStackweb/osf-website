@@ -1,7 +1,5 @@
-local_backend: true
-
 backend:
-  name: git-gateway
+  name: github
   repo: OpenStackweb/osf-website
   branch: feature/openinfra-pages-cms
   commit_messages:

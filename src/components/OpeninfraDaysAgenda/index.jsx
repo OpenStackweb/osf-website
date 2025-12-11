@@ -3,15 +3,14 @@ import { StaticImage } from "gatsby-plugin-image";
 import './styles.scss';
 import RoundedButton from '../RoundedButton';
 
-const OpeninfraDaysAgenda = ({ title = "", items, learnMoreLink }) => {
+const OpeninfraDaysAgenda = ({ title = "", items, headerImage, learnMoreLink }) => {
   return (
     <section id="upcoming-events" className="special-edition-section-wrapper">
       <div className="container">
         <h1 className="title" dangerouslySetInnerHTML={{ __html: title }} />
         <div className="agenda-wrapper">
           <div className="agenda-header">
-            <StaticImage src="../../../static/img/openinfra-days/days-asia.png"
-              alt="asia-days" />
+            <img src={headerImage.img?.publicURL || headerImage.img} alt={headerImage.alt} />
           </div>
           <div className="agenda-body">
             {items.map(day => (

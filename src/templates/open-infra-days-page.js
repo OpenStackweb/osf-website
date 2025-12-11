@@ -13,7 +13,6 @@ import SubHeaderDays from "../components/SubHeaderDays";
 import MoreEventsSection from "../components/MoreEventsSection";
 import OpeninfraDaysAgenda from "../components/OpeninfraDaysAgenda";
 import OpenInfraDays from "../components/OpeninfraDays";
-import hero from '../../static/img/openinfra-days/OI-Days-1920x325.11.svg';
 import UpcomingSummits from "../components/UpcomingSummits";
 
 import UpcomingSummitsData from "../content/upcoming-summits.json"
@@ -24,6 +23,7 @@ export const OpenInfraDaysPageTemplate = ({
   subTitle,
   content,
   contentComponent,
+  headerImageUrl,
   upcomingDaysEvents,
   upcomingMeetups,
   pastMeetups,
@@ -36,16 +36,19 @@ export const OpenInfraDaysPageTemplate = ({
         <NavbarV2 isLoggedUser={isLoggedUser} />
         <main className="main">
           <div className="content">
-            <ImageOnlyHeader backgroundImage={hero} />
+            <ImageOnlyHeader backgroundImage={headerImageUrl} />
             <SubHeaderDays button={{ text: "Check out upcoming events", link: "#upcoming-events" }} />
-            <OpeninfraDaysAgenda
-              title={upcomingDaysEvents.title}
-              items={upcomingDaysEvents.events}
-            />
-            <OpenInfraDays title={upcomingMeetups.title} events={upcomingMeetups.meetups} />
+            {upcomingDaysEvents.isVisible &&
+              <OpeninfraDaysAgenda
+                title={upcomingDaysEvents.title}
+                headerImage={upcomingDaysEvents.headerImage}
+                items={upcomingDaysEvents.events}
+              />
+            }
+            <OpenInfraDays title={upcomingMeetups.title} banner={upcomingMeetups.banner} events={upcomingMeetups.meetups} />
             <MeetupBanner />
             <OpenInfraDays title={pastMeetups.title} events={pastMeetups.meetups} />
-            <MoreEventsSection title={communityEvents.title} events={communityEvents.events}/>
+            <MoreEventsSection title={communityEvents.title} events={communityEvents.events} />
             <UpcomingSummits summits={UpcomingSummitsData.summits} />
             <BottomBanner
               title={'Interested in becoming<br/>a Community Organizer?<br/>Contact us at <a href="mailto:events@openinfra.dev">events@openinfra.dev</a>'}
@@ -70,6 +73,7 @@ const OpenInfraDaysPage = ({ isLoggedUser, data }) => {
         subTitle={post.frontmatter.subTitle}
         contentComponent={HTMLContent}
         content={post.html}
+        headerImageUrl={post.frontmatter.headerImageUrl.publicURL}
         upcomingDaysEvents={post.frontmatter.upcomingDaysEvents}
         upcomingMeetups={post.frontmatter.upcomingMeetups}
         pastMeetups={post.frontmatter.pastMeetups}
@@ -105,8 +109,18 @@ export const OpenInfraDaysPageQuery = graphql`
         }
         title
         subTitle
+        headerImageUrl {
+          publicURL
+        }
         upcomingDaysEvents {
+          isVisible
           title
+          headerImage {
+            img {
+              publicURL
+            }
+            alt
+          }
           events {
             title
             date
@@ -117,6 +131,14 @@ export const OpenInfraDaysPageQuery = graphql`
         }
         upcomingMeetups {
           title
+          banner {
+            title
+            content
+            button {
+              text
+              url
+            }
+          }
           meetups {
             background {            
               publicURL

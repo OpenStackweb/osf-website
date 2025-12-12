@@ -1,0 +1,9 @@
+{
+  "background": "/img/summit-landing/meetup/meetup-banner.png",
+  "logo": "/img/summit-landing/meetup/openinfra-usergroup.svg",
+  "button": {
+    "link": "https://www.meetup.com/pro/openinfradev/",
+    "text": "find your local meetup"
+  },
+  "text": "Interested in hosting a Meetup? <br /> Contact us at <a href='mailto:events@openinfra.dev'>events@openinfra.dev</a>"
+}

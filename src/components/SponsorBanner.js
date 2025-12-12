@@ -1,20 +1,15 @@
 import React from 'react'
 
-import background from '../../static/img/summit-landing/sponsor-banner-bg.png';
 import '../style/modules/_sponsor_banner.scss'
 import RoundedButton from './RoundedButton';
 
-const SponsorBanner = () => {
+const SponsorBanner = ({ upperText, title, image, button }) => {
   return (
-    <section className='sponsor-banner-wrapper' style={{ backgroundImage: `url(${background}` }}>
+    <section className='sponsor-banner-wrapper' style={{ backgroundImage: `url(${image.publicURL || image})` }}>
       <div className="container sponsor-banner-container">
-        <span className='sponsor-banner-upper-title'>Become a Sponsor</span>
-        <span className='sponsor-banner-title'>
-          Want to support <br />
-          the next decade of open <br />
-          infrastructure?
-        </span>
-        <RoundedButton link="/events/sponsorship" text={'More Info'} className="sponsor-banner-button" />
+        <span className='sponsor-banner-upper-title'>{upperText}</span>
+        <span className='sponsor-banner-title' dangerouslySetInnerHTML={{ __html: title }} />
+        <RoundedButton link={button.link} text={button.text} className="sponsor-banner-button" />
       </div>
     </section>
   )

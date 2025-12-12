@@ -267,6 +267,7 @@ export const SponsorshipPageTemplate = ({
             fullwidth={false}
           />
           <BottomBanner
+            background={"/img/summit-landing/subscribe/subscribe-banner-bg.png"}
             title={
               "Subscribe to our newsletter <br/>& keep up to date with the latest<br/>News about the Summits."
             }

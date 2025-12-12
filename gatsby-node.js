@@ -532,6 +532,26 @@ exports.createSchemaCustomization = ({actions}) => {
       url: String
       logo: String
       big_logo: String
+    }        
+    type MarkdownRemarkFrontmatterUpcomingMeetupsMeetups {
+      background: File @fileByRelativePath
+      date: String
+      location: String
+      link: String
+    }    
+    type MarkdownRemarkFrontmatterUpcomingMeetupsBannerButton {
+      text: String
+      url: String
+    }    
+    type MarkdownRemarkFrontmatterUpcomingMeetupsBanner {
+      title: String
+      content: String
+      button: MarkdownRemarkFrontmatterUpcomingMeetupsBannerButton
+    }    
+    type MarkdownRemarkFrontmatterUpcomingMeetups {
+      title: String
+      banner: MarkdownRemarkFrontmatterUpcomingMeetupsBanner
+      meetups: [MarkdownRemarkFrontmatterUpcomingMeetupsMeetups]
     }
     `
   createTypes(typeDefs)

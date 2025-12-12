@@ -6,19 +6,15 @@ import RoundedButton from '../RoundedButton'
 
 import './styles.scss'
 
-const MeetupBanner = () => {
+const MeetupBanner = ({ background, logo, button, text }) => {
     return (
         <section className='container meetup-banner-wrapper'>
             <div className="meetup-banner" style={{ backgroundImage: `url(${background}` }}>
                 <div className='meetup-banner-content'>
-                    <img src={openinfraUserGroup} />
+                    <img src={logo} />
                     <div>
-                        <RoundedButton link="https://www.meetup.com/pro/openinfradev/" text={'find your local meetup'}
-                            className="meetup-banner-button" />
-                        <span>
-                            Interested in hosting a Meetup? <br />
-                            Contact us at <a href='mailto:events@openinfra.dev'>events@openinfra.dev</a>
-                        </span>
+                        <RoundedButton link={button.link} text={button.text} className="meetup-banner-button" />
+                        <span dangerouslySetInnerHTML={{ __html: text }} />
                     </div>
                 </div>
             </div>

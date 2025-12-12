@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: OpenStackweb/osf-website
-  branch: feature/openinfra-pages-cms
+  branch: feature/openinfra-pages-cms-tmp
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'

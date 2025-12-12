@@ -16,6 +16,7 @@ import MeetupBanner from "../components/MeetupBanner";
 import BottomBanner from "../components/BottomBanner";
 import MiddleBanner from "../components/MiddleBanner";
 import UpcomingSummitsData from "../content/upcoming-summits.json";
+import MeetupBannerData from "../content/meetup-banner.json"
 
 export const SummitLandingPageTemplate = ({
   isLoggedUser,
@@ -29,6 +30,7 @@ export const SummitLandingPageTemplate = ({
   pastSummits,
   middleBanner,
   previousSummits,
+  bottomBanner
 }) => {
   return (
     <div>
@@ -68,21 +70,16 @@ export const SummitLandingPageTemplate = ({
           title={sponsorBanner.title}
           image={sponsorBanner.image}
           button={sponsorBanner.button}
-         />
-        <MeetupBanner />
+        />
+        <MeetupBanner background={MeetupBannerData.background} logo={MeetupBannerData.logo} button={MeetupBannerData.button} text={MeetupBannerData.text} />
         <PreviousSummits
           title={previousSummits.title}
           summits={previousSummits.summits}
         />
         <BottomBanner
-          title={`
-          Subscribe to the OpenInfra newsletter<br/>
-          & keep up to date with the latest<br/>
-          OpenInfra Summit news.`}
-          button={{
-            link: "https://openinfra.dev/newsletter/",
-            text: "Sign Me Up",
-          }} />
+          background={bottomBanner.background}
+          title={bottomBanner.title}
+          button={bottomBanner.button} />
       </div>
 
       <main className="main">
@@ -109,6 +106,7 @@ const SummitLandingPage = ({ isLoggedUser, data }) => {
         pastSummits={post.frontmatter.pastSummits}
         middleBanner={post.frontmatter.middleBanner}
         previousSummits={post.frontmatter.previousSummits}
+        bottomBanner={post.frontmatter.bottomBanner}
         isLoggedUser={isLoggedUser}
       />
     </Layout>
@@ -258,6 +256,16 @@ export const SummitLandingPageQuery = graphql`
               publicURL
             }
             link
+          }
+        }
+        bottomBanner {
+          background {
+            publicURL
+          }
+          title
+          button {
+            link
+            text
           }
         }
       }

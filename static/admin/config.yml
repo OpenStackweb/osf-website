@@ -1323,7 +1323,20 @@ collections:
                 { label: "Text", name: text, widget: string }
               ]}
             ]}
-          ]}    
+          ]}
+      - file: "src/content/meetup-banner.json"
+        label: "Meetup Banner (Shared)"
+        name: "meetup-banner-shared"
+        editor:
+          preview: false
+        fields:
+          - { label: "Background", name: "background", widget: "image" }
+          - { label: "Logo", name: "logo", widget: "image" }
+          - { label: "Button", name: button, widget: object, fields: [
+              { label: "Link", name: link, widget: string },
+              { label: "Text", name: text, widget: string }
+            ]}
+          - { label: "Text", name: text, widget: text, hint: "You can use HTML tags like <span class='red'>text</span>" }      
       - file: "src/pages/summit/index.md"
         label: "Summit Landing"
         name: "summit-landing-page"
@@ -1403,7 +1416,15 @@ collections:
               { label: "Image", name: image, widget: image },
               { label: "Link", name: link, widget: string }
             ]}
-          ]}      
+          ]}
+          - { label: "Bottom banner", name: bottomBanner, widget: object, fields: [
+            { label: "Background", name: "background", widget: "image" },
+            { label: "Title", name: title, widget: text, hint: "You can use HTML tags like <span class='red'>text</span>" },
+            { label: "Button", name: button, widget: object, fields: [
+              { label: "Link", name: link, widget: string },
+              { label: "Text", name: text, widget: string }
+            ]}
+          ]}
       - file: "src/pages/days/index.md"
         label: "OpenInfra Days"
         name: "openinfra-days"
@@ -1469,4 +1490,12 @@ collections:
               { label: "Date", name: date, widget: string },
               { label: "Location", name: location, widget: string },
             ]}
+          ]}
+          - { label: "Bottom banner", name: bottomBanner, widget: object, fields: [
+            { label: "Background", name: "background", widget: "image" },
+            { label: "Title", name: title, widget: text, hint: "You can use HTML tags like <span class='red'>text</span>" },
+            { label: "Button", name: button, widget: object, fields: [
+              { label: "Link", name: link, widget: string },
+              { label: "Text", name: text, widget: string }
+            ]}            
           ]}

@@ -100,4 +100,12 @@ communityEvents:
       link: "https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/"
       date: "September 8-9, 2026"
       location: "Shanghai, CN"
+bottomBanner:
+  background: /img/summit-landing/subscribe/subscribe-banner-bg.png
+  title: |
+    Interested in becoming<br/>a Community Organizer?<br/>
+    Contact us at <a href="mailto:events@openinfra.dev">events@openinfra.dev</a>
+  button:
+    link: "mailto:events@openinfra.dev"
+    text: "Events Contact"
 ---

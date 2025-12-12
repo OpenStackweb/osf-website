@@ -117,4 +117,13 @@ previousSummits:
       date: 'November 4-6, 2019'
       image: /img/summit-landing/summits/shanghai.png
       link:  'https://www.openstack.org/summit/shanghai-2019'
+bottomBanner:
+  background: /img/summit-landing/subscribe/subscribe-banner-bg.png
+  title: |
+    Subscribe to the OpenInfra newsletter<br/>
+    & keep up to date with the latest<br/>
+    OpenInfra Summit news
+  button:
+    link: "https://openinfra.dev/newsletter/"
+    text: "Sign Me Up"  
 ---

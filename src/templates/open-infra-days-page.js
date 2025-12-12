@@ -16,6 +16,7 @@ import OpenInfraDays from "../components/OpeninfraDays";
 import UpcomingSummits from "../components/UpcomingSummits";
 
 import UpcomingSummitsData from "../content/upcoming-summits.json"
+import MeetupBannerData from "../content/meetup-banner.json"
 
 export const OpenInfraDaysPageTemplate = ({
   isLoggedUser,
@@ -27,7 +28,8 @@ export const OpenInfraDaysPageTemplate = ({
   upcomingDaysEvents,
   upcomingMeetups,
   pastMeetups,
-  communityEvents
+  communityEvents,
+  bottomBanner
 }) => {
   return (
     <div>
@@ -46,15 +48,14 @@ export const OpenInfraDaysPageTemplate = ({
               />
             }
             <OpenInfraDays title={upcomingMeetups.title} banner={upcomingMeetups.banner} events={upcomingMeetups.meetups} />
-            <MeetupBanner />
+            <MeetupBanner background={MeetupBannerData.background} logo={MeetupBannerData.logo} button={MeetupBannerData.button} text={MeetupBannerData.text} />
             <OpenInfraDays title={pastMeetups.title} events={pastMeetups.meetups} />
             <MoreEventsSection title={communityEvents.title} events={communityEvents.events} />
             <UpcomingSummits summits={UpcomingSummitsData.summits} />
             <BottomBanner
-              title={'Interested in becoming<br/>a Community Organizer?<br/>Contact us at <a href="mailto:events@openinfra.dev">events@openinfra.dev</a>'}
-              button={{ link: 'mailto:events@openinfra.dev', text: 'Events Contact' }}
-              background="/img/summit-landing/subscribe/subscribe-banner-bg.png"
-            />
+              background={bottomBanner.background}
+              title={bottomBanner.title}
+              button={bottomBanner.button} />
           </div>
         </main>
       </div>
@@ -78,6 +79,7 @@ const OpenInfraDaysPage = ({ isLoggedUser, data }) => {
         upcomingMeetups={post.frontmatter.upcomingMeetups}
         pastMeetups={post.frontmatter.pastMeetups}
         communityEvents={post.frontmatter.communityEvents}
+        bottomBanner={post.frontmatter.bottomBanner}
         isLoggedUser={isLoggedUser}
       />
     </Layout>
@@ -168,7 +170,17 @@ export const OpenInfraDaysPageQuery = graphql`
             date
             location
           }
-        }        
+        }
+        bottomBanner {
+          background {
+            publicURL
+          }
+          title
+          button {
+            link
+            text
+          }
+        }      
       }
     }    
   }

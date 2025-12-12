@@ -17,9 +17,6 @@ const OpenInfraDaysPagePreview = ({ entry }) => {
   const communityEventsArray = entry.getIn(['data', 'communityEvents', 'events'])
   const communityEvents = communityEventsArray ? communityEventsArray.toJS() : []
 
-  const upcomingSummitsArray = entry.getIn(['data', 'upcomingSummits', 'summits'])
-  const upcomingSummits = upcomingSummitsArray ? upcomingSummitsArray.toJS() : []
-
   if (data) {
     return (
       <OpenInfraDaysPageTemplate
@@ -67,14 +64,15 @@ const OpenInfraDaysPagePreview = ({ entry }) => {
           title: entry.getIn(['data', 'communityEvents', 'title']),
           events: communityEvents
         }}
-        upcomingSummits={{
-          title: entry.getIn(['data', 'upcomingSummits', 'title']),
-          summits: upcomingSummits.map(summit => ({
-            ...summit,
-            background: {
-              publicURL: summit.background
-            }
-          }))
+        bottomBanner={{
+          background: {
+            publicURL: entry.getIn(['data', 'bottomBanner', 'background'])
+          },
+          title: entry.getIn(['data', 'bottomBanner', 'title']),
+          button: {
+            link: entry.getIn(['data', 'bottomBanner', 'button', 'link']),
+            text: entry.getIn(['data', 'bottomBanner', 'button', 'text'])
+          }
         }}
         isLoggedUser={false}
       />

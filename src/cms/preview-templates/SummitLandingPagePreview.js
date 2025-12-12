@@ -5,9 +5,6 @@ import { SummitLandingPageTemplate } from '../../templates/summit-landing-page'
 const SummitLandingPagePreview = ({ entry }) => {
   const data = entry.getIn(['data']).toJS()
 
-  const upcomingSummitsArray = entry.getIn(['data', 'upcomingSummits', 'summits'])
-  const upcomingSummits = upcomingSummitsArray ? upcomingSummitsArray.toJS() : []
-
   const pastSummitsArray = entry.getIn(['data', 'pastSummits', 'summits'])
   const pastSummits = pastSummitsArray ? pastSummitsArray.toJS() : []
 
@@ -63,15 +60,6 @@ const SummitLandingPagePreview = ({ entry }) => {
             link: entry.getIn(['data', 'sponsorBanner', 'button', 'link'])
           }
         }}
-        upcomingSummits={{
-          title: entry.getIn(['data', 'upcomingSummits', 'title']),
-          summits: upcomingSummits.map(summit => ({
-            ...summit,
-            background: {
-              publicURL: summit.background
-            }
-          }))
-        }}
         pastSummits={{
           title: entry.getIn(['data', 'pastSummits', 'title']),
           summits: pastSummits.map(summit => ({
@@ -95,6 +83,16 @@ const SummitLandingPagePreview = ({ entry }) => {
               publicURL: summit.image
             }
           }))
+        }}
+        bottomBanner={{
+          background: {
+            publicURL: entry.getIn(['data', 'bottomBanner', 'background'])
+          },
+          title: entry.getIn(['data', 'bottomBanner', 'title']),
+          button: {
+            link: entry.getIn(['data', 'bottomBanner', 'button', 'link']),
+            text: entry.getIn(['data', 'bottomBanner', 'button', 'text'])
+          }
         }}
         isLoggedUser={false}
       />

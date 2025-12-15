@@ -5,7 +5,7 @@ import './styles.scss';
 
 const OpenInfraDays = ({ title, events, banner }) => {
   return (
-    <section className="openinfra-days-wrapper">
+    <section id="upcoming-events" className="openinfra-days-wrapper">
       <div className="container">
         <h1 className="title">{title}</h1>
         {banner &&

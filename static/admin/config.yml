@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: OpenStackweb/osf-website
-  branch: master
+  branch: fix/cms-annual-report
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -1172,67 +1172,24 @@ collections:
           ] }
   - name: "annual-report-pages"
     label: "Annual Report Pages"
-    files:
-      - file: "src/pages/annual-report/2024.md"
-        label: "Annual Report - 2024"
-        name: "annual-report-pages-2024"
-        fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "annual-report-page" }
-          - { label: SEO, name: seo, widget: object, fields: [
-            { label: "Title", name: "title", widget: string },
-            { label: "Description", name: "description", widget: string },
-            { label: "Url", name: "url", widget: string },
-            { label: "Image", name: "image", widget: image },
-            { label: "Twitter Username", name: "twitterUsername", widget: string },
-          ] }
-          - { label: "Title", name: title, widget: string }
-          - { label: "Sub Title", name: subTitle, widget: string }
-          - { label: "Body", name: body, widget: markdown }
-      - file: "src/pages/annual-report/2023.md"
-        label: "Annual Report - 2023"
-        name: "annual-report-pages-2023"
-        fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "annual-report-page" }
-          - { label: SEO, name: seo, widget: object, fields: [
-            { label: "Title", name: "title", widget: string },
-            { label: "Description", name: "description", widget: string },
-            { label: "Url", name: "url", widget: string },
-            { label: "Image", name: "image", widget: image },
-            { label: "Twitter Username", name: "twitterUsername", widget: string },
-          ] }
-          - { label: "Title", name: title, widget: string }
-          - { label: "Sub Title", name: subTitle, widget: string }
-          - { label: "Body", name: body, widget: markdown }
-      - file: "src/pages/annual-report/2022.md"
-        label: "Annual Report - 2022"
-        name: "annual-report-pages-2022"
-        fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "annual-report-page" }
-          - { label: SEO, name: seo, widget: object, fields: [
-            { label: "Title", name: "title", widget: string },
-            { label: "Description", name: "description", widget: string },
-            { label: "Url", name: "url", widget: string },
-            { label: "Image", name: "image", widget: image },
-            { label: "Twitter Username", name: "twitterUsername", widget: string },
-          ] }
-          - { label: "Title", name: title, widget: string }
-          - { label: "Sub Title", name: subTitle, widget: string }
-          - { label: "Body", name: body, widget: markdown }
-      - file: "src/pages/annual-report/2021.md"
-        label: "Annual Report - 2021"
-        name: "annual-report-pages-2021"
-        fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "annual-report-page" }
-          - { label: SEO, name: seo, widget: object, fields: [
-            { label: "Title", name: "title", widget: string },
-            { label: "Description", name: "description", widget: string },
-            { label: "Url", name: "url", widget: string },
-            { label: "Image", name: "image", widget: image },
-            { label: "Twitter Username", name: "twitterUsername", widget: string },
-          ] }
-          - { label: "Title", name: title, widget: string }
-          - { label: "Sub Title", name: subTitle, widget: string }
-          - { label: "Body", name: body, widget: markdown }
+    folder: "src/pages/annual-report"
+    create: true
+    slug: "{{year}}"
+    summary: "Annual Report - {{fields.year}}"
+    identifier_field: year
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "annual-report-page" }
+      - { label: "Year", name: "year", widget: "number", value_type: "int", required: true }
+      - { label: SEO, name: seo, widget: object, fields: [
+        { label: "Title", name: "title", widget: string },
+        { label: "Description", name: "description", widget: string },
+        { label: "Url", name: "url", widget: string },
+        { label: "Image", name: "image", widget: image },
+        { label: "Twitter Username", name: "twitterUsername", widget: string },
+      ] }
+      - { label: "Title", name: title, widget: string }
+      - { label: "Sub Title", name: subTitle, widget: string }
+      - { label: "Body", name: body, widget: markdown }      
   - name: "previous-election-pages"
     label: "Previous Election Main Pages"
     folder: "/src/pages/election/previous-elections"

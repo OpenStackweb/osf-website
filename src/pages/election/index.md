@@ -59,7 +59,7 @@ If you are an eligible voter, you will receive an email with a link to complete 
 * Between November 10 and December 12, members can visit [this page](/a/community/members) and nominate candidates.
 * Whenever a member is nominated, they will receive a notification (via the email listed in their member profile)
 * Nominees must then log in and 1) accept the initial nomination, and 2) fill out the application
-* Members who have received 10 nominations by December 12 must also complete the candidate application by December 20 in order to appear on the ballot
+* Members who have received 10 nominations by December 12 must also complete the candidate application by December 19 in order to appear on the ballot
 
 #### Candidate Application
 

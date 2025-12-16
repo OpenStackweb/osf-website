@@ -3,11 +3,11 @@ templateKey: blog-post
 title: Viettel Takes Center Stage as the First Vietnamese Platinum Member of
   OpenInfra Foundation
 author: Jimmy McArthur
-date: 2025-12-17T00:21:45.764Z
+date: 2025-12-16T10:00:45.764Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: Viettel Joins the OpenInfra Foundation as a Platinum Member
   description: Accelerating Open Source Cloud Innovation Across Vietnam and Southeast Asia

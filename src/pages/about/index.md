@@ -27,6 +27,7 @@ Staying true to its mission of helping people build and operate open infrastruct
 
 For more insight into Open Infrastructure Foundation activities and progress, please read the annual reports: 
 
+* [2025 annual report](https://openinfra.org/annual-report/2025)
 * [2024 annual report](https://openinfra.dev/annual-report/2024)
 * [2023 annual report](https://openinfra.dev/annual-report/2023)
 * [2﻿022 annual report](https://openinfra.dev/annual-report/2022)

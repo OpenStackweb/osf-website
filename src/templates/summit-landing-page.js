@@ -15,8 +15,8 @@ import UpcomingSummits from "../components/UpcomingSummits";
 import MeetupBanner from "../components/MeetupBanner";
 import BottomBanner from "../components/BottomBanner";
 import MiddleBanner from "../components/MiddleBanner";
-import hero from "../../static/img/summit-landing/summit-landing-hero.png";
-import logo from "../../static/img/summit-landing/openinfra-logo.png";
+import UpcomingSummitsData from "../content/upcoming-summits.json";
+import MeetupBannerData from "../content/meetup-banner.json"
 
 export const SummitLandingPageTemplate = ({
   isLoggedUser,
@@ -24,6 +24,13 @@ export const SummitLandingPageTemplate = ({
   subTitle,
   content,
   contentComponent,
+  headerImage,
+  subHeader,
+  sponsorBanner,
+  pastSummits,
+  middleBanner,
+  previousSummits,
+  bottomBanner
 }) => {
   return (
     <div>
@@ -31,56 +38,48 @@ export const SummitLandingPageTemplate = ({
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
         <HeaderImage
-          backgroundImage={hero}
-          overview={
-            <>
-              Rediscover <br /> THE SUMMIT EXPERIENCE
-            </>
-          }
-          caption="By the Community. For the Community."
-          logo={{ src: logo, alt: "Openinfra logo" }}
+          backgroundImage={headerImage.backgroundImage.publicURL}
+          overview={headerImage.overview}
+          caption={headerImage.caption}
+          logo={{ src: headerImage.logo.src.publicURL, alt: headerImage.logo.alt }}
         />
-        <SubHeader />
-        <UpcomingSummits title={"Upcoming OpenInfra Summit"} />
-        <PastSummits title={"Past OpenInfra Summits"} />
-        <MiddleBanner
-          title={"inclusive. diverse. open"}
-          text={
-            `We are a diverse community of professionals, and the OpenInfra Summit organizers are dedicated to providing an 
-            inclusive and safe Summit experience for everyone. View the 
-            <a href="/legal/code-of-conduct">OpenInfra Summit Code of Conduct</a> for more information.<br/><br/>
-            The OpenInfra Foundation’s Travel Support Program facilitates the participation of key contributors to 
-            OpenInfra events by covering the costs for their travel and accommodation. If you are a key contributor to 
-            a project supported by the OpenInfra Foundation and your company does not cover the costs of your travel 
-            and accommodation to the event, you can apply for the 
-            <a href="https://openinfrafoundation.formstack.com/forms/openinfra_tsp">Travel Support Program</a>.<br/><br/>
-            Want to support the OpenInfra Travel Support Program? 
-            <a href="https://donate.stripe.com/8wMbLU6Qh8v8fVC9AE">Donations</a> made are directly used to fund active 
-            contributors to OpenInfra events around the world.`
-          }
-          image={"/img/summit-landing/middle-banner/middle-banner-1.png"}
-          imageFirst={false}
+        <SubHeader
+          overview={subHeader.overview}
+          title={subHeader.title}
+          text={subHeader.text}
+          badge={subHeader.badge}
+          footer={subHeader.footer}
         />
-        <MiddleBanner
-          title={"have questions?"}
-          text={`Contact the Openinfra Foundation and OpenInfra Summit organizers.`}
-          button={{ text: "Contact us", link: "mailto:summit@openinfra.dev" }}
-          image={"/img/summit-landing/middle-banner/middle-banner-2.png"}
-          imageFirst={true}
+        <UpcomingSummits
+          title={UpcomingSummitsData.title}
+          summits={UpcomingSummitsData.summits}
         />
-        <SponsorBanner />
-        <MeetupBanner />
-        <PreviousSummits />
+        <PastSummits
+          title={pastSummits.title}
+          summits={pastSummits.summits}
+        />
+        {middleBanner.map((banner) => <MiddleBanner
+          title={banner.title}
+          text={banner.text}
+          image={banner.image.publicURL}
+          button={{ text: banner.button?.text, link: banner.button?.link }}
+          imageFirst={banner.imageFirst}
+        />)}
+        <SponsorBanner
+          upperText={sponsorBanner.upperText}
+          title={sponsorBanner.title}
+          image={sponsorBanner.image}
+          button={sponsorBanner.button}
+        />
+        <MeetupBanner background={MeetupBannerData.background} logo={MeetupBannerData.logo} button={MeetupBannerData.button} text={MeetupBannerData.text} />
+        <PreviousSummits
+          title={previousSummits.title}
+          summits={previousSummits.summits}
+        />
         <BottomBanner
-          title={`
-          Subscribe to the OpenInfra newsletter<br/>
-          & keep up to date with the latest<br/>
-          OpenInfra Summit news.`}
-          button={{
-            link: "https://openinfra.dev/newsletter/",
-            text: "Sign Me Up",
-          }}
-        />
+          background={bottomBanner.background}
+          title={bottomBanner.title}
+          button={bottomBanner.button} />
       </div>
 
       <main className="main">
@@ -101,6 +100,13 @@ const SummitLandingPage = ({ isLoggedUser, data }) => {
         subTitle={post.frontmatter.subTitle}
         contentComponent={HTMLContent}
         content={post.html}
+        headerImage={post.frontmatter.headerImage}
+        subHeader={post.frontmatter.subHeader}
+        sponsorBanner={post.frontmatter.sponsorBanner}
+        pastSummits={post.frontmatter.pastSummits}
+        middleBanner={post.frontmatter.middleBanner}
+        previousSummits={post.frontmatter.previousSummits}
+        bottomBanner={post.frontmatter.bottomBanner}
         isLoggedUser={isLoggedUser}
       />
     </Layout>
@@ -135,6 +141,133 @@ export const SummitLandingPageQuery = graphql`
         }
         title
         subTitle
+        headerImage {
+          backgroundImage {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            publicURL
+          }
+          overview
+          caption
+          logo {
+            src {
+              childImageSharp {
+                fluid(maxWidth: 500, quality: 80) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+              publicURL
+            }
+            alt
+          }
+        }
+        subHeader {
+          overview
+          title
+          text
+          badge {
+            src {
+              childImageSharp {
+                fluid(maxWidth: 400, quality: 80) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+              publicURL
+            }
+            alt
+          }
+          footer {
+            src {
+              childImageSharp {
+                fluid(maxWidth: 1200, quality: 80) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+              publicURL
+            }
+            alt
+          }
+        }
+        sponsorBanner {
+          upperText
+          title
+          image {
+            publicURL
+          }
+          button {
+            text
+            link
+          }
+        }
+        pastSummits {
+          title
+          summits {
+            key
+            background {
+              childImageSharp {
+                fluid(maxWidth: 800, quality: 80) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+              publicURL
+            }
+            date
+            location
+            notification {
+              text
+              button {
+                link
+                text
+              }
+            }
+          }
+        }
+        middleBanner {
+          title
+          text
+          button {
+            text
+            link
+          }
+          image {
+            childImageSharp {
+              fluid(maxWidth: 1000, quality: 80) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            publicURL
+          }
+          imageFirst
+        }        
+        previousSummits {
+          title
+          summits {
+            name
+            date
+            image {
+              childImageSharp {
+                fluid(maxWidth: 600, quality: 80) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+              publicURL
+            }
+            link
+          }
+        }
+        bottomBanner {
+          background {
+            publicURL
+          }
+          title
+          button {
+            link
+            text
+          }
+        }
       }
     }
   }

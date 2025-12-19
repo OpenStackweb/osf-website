@@ -5,7 +5,7 @@ import RoundedButton from '../RoundedButton';
 import calendarIcon from '../../../static/img/summit-landing/icons/calendar-icon.svg'
 import locationIcon from '../../../static/img/summit-landing/icons/location-icon.svg'
 
-const OpenInfraEventsSection = () => {
+const OpenInfraEventsSection = ({events}) => {
 
     const arrowIcon = (color) => {
         return (
@@ -17,42 +17,6 @@ const OpenInfraEventsSection = () => {
         )
     }
 
-    const OpenInfraEventsData = [
-        {
-            link: 'https://openinfraasia.org',
-            logo: '/img/homeV2/events-images/logo-asia.svg',
-            text: 'openinfraasia.org',
-            color: '#FFB325',
-        },
-        {
-            link: 'https://openinfraeurope.org',
-            logo: '/img/homeV2/events-images/logo-europe.svg',
-            text: 'openinfraeurope.org',
-            color: '#2CB4E2',
-        }
-    ];
-
-    const UpcomingEventsData = [
-        {
-            image: '/img/homeV2/events-images/openinfra-asia-img-2026.png',
-            date: "September 8-9, 2026",
-            location: "Shanghai International Convention Center Oriental Riverside Hotel",
-            button: {
-                link: 'https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/',
-                text: 'LEARN MORE'
-            }
-        },
-        {
-            image: '/img/homeV2/events-images/openinfra-europe-img-2025.png',
-            date: 'October 17-19, 2025',
-            location: 'École Polytechnique, Paris-Saclay, France',
-            button: {
-                link: 'https://www.youtube.com/playlist?list=PLKqaoAnDyfgr91wN_12nwY321504Ctw1s',
-                text: 'WATCH VIDEOS'
-            }
-        }        
-    ]
-
     return (
         <div className='home-v2-events-section container'>
             <span className='home-v2-header-events'>
@@ -61,11 +25,11 @@ const OpenInfraEventsSection = () => {
                 <br />OPEN SOURCE INFRASTRUCTURE
             </span>
             <div className='openinfra-events-section-wrapper'>
-                {OpenInfraEventsData.map(event => {
+                {events.openInfraEventsData.map(event => {
                     return (
                         <LinkComponent href={event.link}>
                             <div className='openinfra-event' style={{ color: event.color, borderColor: event.color }}>
-                                <img src={event.logo} />
+                                <img src={event.logo?.publicURL} />
                                 <span>{arrowIcon(event.color)} {event.text}</span>
                             </div>
                         </LinkComponent>
@@ -75,10 +39,10 @@ const OpenInfraEventsSection = () => {
             <div className='upcoming-events-section-wrapper'>
                 <span className='upcoming-events-title'>OPENINFRA <span className='red'>community events</span></span>
                 <div className="events-wrapper">
-                    {UpcomingEventsData.map(event => {
+                    {events.upcomingEvents.map(event => {
                         return (
                             <div className="event-container">
-                                <img className="event-image" src={event.image} />
+                                <img className="event-image" src={event.image?.publicURL} />
                                 <span className='event-info'>
                                     <img src={calendarIcon} /> {event.date}
                                 </span>

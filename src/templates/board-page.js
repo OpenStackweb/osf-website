@@ -96,13 +96,14 @@ BoardPageTemplate.propTypes = {
   members: PropTypes.array,
 }
 
-const BoardPage = ({ BoardPage, data }) => {
+const BoardPage = ({ isLoggedUser, BoardPage, data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
       <SEO seo={post.frontmatter.seo ? post.frontmatter.seo : null} />
       <BoardPageTemplate
+        isLoggedUser={isLoggedUser}
         BoardPage={BoardPage}
         contentComponent={HTMLContent}
         header={post.frontmatter.header}

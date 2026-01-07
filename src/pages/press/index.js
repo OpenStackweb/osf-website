@@ -1,17 +1,16 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { withPrefix } from 'gatsby'
-
+import { connect } from "react-redux";
 import Layout from '../../components/Layout'
 import TopBar from '../../components/TopBar';
 import NavbarV2 from '../../components/NavbarV2';
 import NewsRoll from '../../components/NewsRoll'
 
-import pressContent from '../../content/press-media.json' 
+import pressContent from '../../content/press-media.json'
 import FeaturedRoll from '../../components/FeaturedRoll'
 
-export default class PressIndexPage extends React.Component {
-
+const PressIndexPage = class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -20,8 +19,9 @@ export default class PressIndexPage extends React.Component {
     }
   }
 
-  render() {    
-    const { news, featured } = this.state;    
+  render() {
+    const { news, featured } = this.state;
+    const { isLoggedUser } = this.props;
     return (
       <Layout>
         <div>
@@ -41,7 +41,7 @@ export default class PressIndexPage extends React.Component {
           </Helmet>
           <div className="wrapper project-background">
             <TopBar />
-            <NavbarV2 />
+            <NavbarV2 isLoggedUser={isLoggedUser} />
             <main className="main">
               <section className="hero-main is-primary hero">
                 <div className="hero-body">
@@ -87,3 +87,7 @@ export default class PressIndexPage extends React.Component {
     )
   }
 }
+
+export default connect(state => ({
+  isLoggedUser: state.loggedUserState.isLoggedUser
+}), null)(PressIndexPage)

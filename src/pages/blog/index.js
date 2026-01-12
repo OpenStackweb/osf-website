@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { kebabCase } from 'lodash'
 import { Link } from 'gatsby'
-
+import { connect } from "react-redux";
 import Layout from '../../components/Layout'
 import Header from '../../components/Header'
 import TopBar from '../../components/TopBar';
@@ -11,11 +11,10 @@ import BlogRoll from '../../components/BlogRoll'
 
 import blogConfig from '../../content/blog-config.json'
 
-export default class BlogIndexPage extends React.Component {
-
+const BlogIndexPage = class extends React.Component {
 
   render() {
-    const { filter } = this.props;
+    const { filter, isLoggedUser } = this.props;
     return (
       <Layout>
         <div>
@@ -35,7 +34,7 @@ export default class BlogIndexPage extends React.Component {
           </Helmet>
           <div className="wrapper project-background">
             <TopBar />
-            <NavbarV2 />
+            <NavbarV2 isLoggedUser={isLoggedUser} />
             <Header title={blogConfig.title} subTitle={blogConfig.subTitle} />
           </div>
           <main className="main">
@@ -83,3 +82,7 @@ export default class BlogIndexPage extends React.Component {
     )
   }
 }
+
+export default connect(state => ({
+  isLoggedUser: state.loggedUserState.isLoggedUser
+}), null)(BlogIndexPage)

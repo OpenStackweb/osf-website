@@ -79,8 +79,8 @@ A candidate's responses will appear on their public profile, as well as on [the
 * December 12: OIF Individual Member Representative nominations close
 * December 19: Deadline for OIF Individual Member Representative Nominees to complete application
 * January 8: Gold Member Director Selector Election (1 day)
-* January 12: OIF Individual Member Representative Elections open
-* January 16: OIF Individual Member Representative Elections close
+* January 13: OIF Individual Member Representative Elections open
+* January 17: OIF Individual Member Representative Elections close
 
 Note that the Gold Member process will complete prior to the start of the OIF Individual Member Representative elections. Each Platinum Member has already appointed a Board Member, although they can change that appointment at any time during their membership.
 

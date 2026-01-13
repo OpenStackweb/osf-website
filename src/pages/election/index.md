@@ -48,7 +48,7 @@ Members should review and comply with the the [Community Code of Conduct](/lega
 
 #### Election Overview:
 
-OIF Individual Member Representative elections for the 2026 Board will be held **Monday January 12, 2026 to Friday January 16, 2026**. You must have joined the OpenInfra Foundation as an OIF Individual Member by Sunday, July 20, 2025 to vote in the January 2026 election, per the [OpenInfra Elections Procedures Policy](/legal/election-procedures-policy).
+OIF Individual Member Representative elections for the 2026 Board will be held **Tuesday January 13, 2026 to Saturday January 17, 2026**. You must have joined the OpenInfra Foundation as an OIF Individual Member by Sunday, July 20, 2025 to vote in the January 2026 election, per the [OpenInfra Elections Procedures Policy](/legal/election-procedures-policy).
 
 Governing Board elections will take place online using a Meek STV voting method. You will be able to rank all candidates in order of preference. No more than three members of the Board may be affiliated with the same company, which means the candidate receiving the next highest votes would assume the seat if the election results in too many employees from a single company. OIF Individual Member Representatives elected in 2026 will serve a one-year term, but they may be nominated and re-elected indefinitely. The next election for OIF Individual Member Representative will take place during January 2026.
 

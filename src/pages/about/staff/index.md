@@ -202,67 +202,6 @@ support:
       openStack: /a/community/members/98596
       picture: /img/horaceli_2023.jpg
       title: Director of OpenInfra Asia
-    - description: Lisa Miller serves as legal counsel for the Open Infrastructure
-        Foundation. Lisa focuses her practice on  providing quality legal
-        services to corporate clients on transactional matters and
-        general  corporate maintenance including entity formation, mergers and
-        acquisitions, reorganizations,  corporate and non-profit governance and
-        contract negotiations. <p>Prior to forming the Law Office of Lisa S.
-        Miller, Lisa was an associate attorney with the  Corporate &amp;
-        Securities and Health Care sections of Jackson Walker, L.L.P. She is a
-        member  of the State Bar of Texas and is active her her hometown
-        community of San Antonio, Texas. Lisa  holds a Bachelor of Science
-        degree from Texas Christian University and a Juris Doctor from
-        The  University of Texas School of Law.</p>
-      name: Lisa Miller
-      openStack: /a/community/members/7565
-      picture: /img/about-staff/lisamiller.jpg
-      title: Legal Counsel
-    - description: <p>Mark Radcliffe is a senior partner who practices corporate
-        securities and intellectual property  at DLA Piper. DLA Piper has over
-        4200 lawyers in more than 30 countries and 65 cities. Mr.
-        Radcliffe’s  practice focuses on representing corporations in their
-        intellectual property and finance matters.  He has worked with many
-        software companies, in particular open source companies and is Chair of
-        the  Open Source Industry Group at the firm. He assisted Sun
-        Microsystems in open sourcing the Solaris  operating system and drafting
-        the CDDL. And he represents other large companies in their
-        software  licensing (and, in particular, open source matters) including
-        eBay, Accenture, Adobe, Palm and Sony.  He represents or has represented
-        many software companies and particularly open source startups,  such as
-        SugarCRM (the first venture backed open source applications company),
-        WSO2, Zimbra, DeviceVM,  Revolution Analytic, Funambol and Reductive
-        Labs, He represented Siemens Venture Capital in their  investment in
-        MontaVista Software, Inc and Hummer Winblad and Morganthaler in their
-        investment in  MuleSource. On a pro bono basis, he serves as outside
-        General Counsel for the Open Source Initiative  and on the Legal
-        Committee of the Apache Software Foundation. He was the Chair of
-        Committee C for  the Free Software Foundation in reviewing GPLv3 and was
-        the lead drafter for Project Harmony. And  in 2012, he became outside
-        general counsel of the Open Infrastructure Foundation.</p> <p>He has
-        spoken on open source issues at the Open Source Business Conference,
-        Silicon Valley  Association of General Counsel, American Corporate
-        Counsel Association and O’Reilly Open Source  Conference. In April 2009
-        (the first year of the award), he was recognized for his experience
-        by  Intellectual Asset Management magazine as one of the world's Leading
-        250 IP Strategists. He has  been recognized again in 2010, 2011 and
-        2012. In 1997, the National Law Journal named him one of  the 100 Most
-        Influential Lawyers in the United States.</p>
-      name: Mark Radcliffe
-      openStack: /a/community/members/1429
-      picture: /img/about-staff/markradcliffe.jpg
-      title: Legal Counsel
-    - description: "FNTECH is the long-time production partner behind some of our more
-        significant Foundation events, including the Open Infrastructure Summit,
-        OpenDev, and Project Teams Gathering (PTG). With headquarters in both
-        Southern and Northern California, FNTECH specializes in all types of
-        events: simple meetings to extremely complex conferences. Domestic and
-        abroad. In-person, virtual and everything in-between. Have an event
-        concept, but don’t know where to begin? Reach out to FNTECH today for
-        ideas and advice! "
-      name: FNTech
-      picture: /img/fntech-lg.png
-      title: Events Management Partner
     - description: >
         Cathey.co has served the Open Infrastructure Foundation since 2013,
         providing messaging, PR, and AR services and thought leadership
@@ -287,8 +226,6 @@ support:
         management systems, and mobile apps. Devoted to open source software
         initiatives, Tipit utilizes open source tooling and has released several
         open source projects.
-
-
       name: Tipit
       picture: /img/tipitlogo.jpg
       title: Web Development Partner

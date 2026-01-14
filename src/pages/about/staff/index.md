@@ -27,7 +27,7 @@ banner:
   title: COMMUNITY ENGAGEMENT AND DEVELOPMENT
 members:
   - description: Jonathan Bryce, who has spent his career building the cloud, is
-      Executive Director of the Open Infrastructure Foundation. Previously he
+      Executive Director of the OpenInfra Foundation. Previously he
       was a founder of The Rackspace Cloud. He started his career working as a
       web developer for Rackspace, and during his tenure, he and  co-worker Todd
       Morey had a vision to build a sophisticated web hosting environment where
@@ -44,7 +44,7 @@ members:
     title: Executive Director
     twitter: https://twitter.com/jbryce
   - description: Mark Collier is a co-founder of the OpenStack project and the Chief
-      Operating Officer at the Open Infrastructure Foundation. A committed
+      Operating Officer at the OpenInfra Foundation. A committed
       advocate for open-source principles, Mark has played a key role in the
       development and global success of OpenStack, establishing it as a leading
       cloud computing platform and one of the most active open source projects
@@ -203,7 +203,7 @@ support:
       picture: /img/horaceli_2023.jpg
       title: Director of OpenInfra Asia
     - description: >
-        Cathey.co has served the Open Infrastructure Foundation since 2013,
+        Cathey.co has served the OpenInfra Foundation since 2013,
         providing messaging, PR, and AR services and thought leadership
         programming to guide the evolution of the foundation’s flagship
         OpenStack cloud infrastructure software project. Its team specifically

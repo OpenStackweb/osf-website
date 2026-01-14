@@ -29,7 +29,6 @@ export const ProjectsPageTemplate = ({
       <div className="wrapper project-background">
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
-        <ProjectsSubNav active="projects" />
         <Header title={header.title} subTitle={header.subTitle} />
       </div>
 
@@ -106,7 +105,6 @@ export const ProjectsPageTemplate = ({
           })}
 
           <PageContent content={content} />
-          <HostingProject />
         </div>
       </main>
     </div>

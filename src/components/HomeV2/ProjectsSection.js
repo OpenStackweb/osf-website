@@ -86,20 +86,6 @@ const ProjectsSection = class extends React.Component {
             <a className="home-v2-project-link" href="/projects/">
               <div className="home-v2-project-box">
                 <div className="home-v2-project">
-                  <img src="/img/homeV2/project-logos/airship.svg" />
-                  <h3 className="home-v2-project-title airship-project-title">
-                    Airship
-                  </h3>
-                  <p className="home-v2-project-text">
-                    Making lifecycle management for open infrastructure simple,
-                    repeatable & resilient.
-                  </p>
-                </div>
-              </div>
-            </a>
-            <a className="home-v2-project-link" href="/projects/">
-              <div className="home-v2-project-box">
-                <div className="home-v2-project">
                   <img src="/img/homeV2/project-logos/starlingx.svg" />
                   <h3 className="home-v2-project-title starlingx-project-title">
                     StarlingX
@@ -149,33 +135,6 @@ const ProjectsSection = class extends React.Component {
             <a className="home-v2-project-link" href="/projects/">
               <div className="home-v2-project-box">
                 <div className="home-v2-project">
-                  <img src="/img/homeV2/project-logos/oilabs.svg" />
-                  <h3 className="home-v2-project-title">OpenInfra Labs</h3>
-                  <p className="home-v2-project-text">
-                    Delivering open source tools to run cloud, container, AI,
-                    machine learning and edge workloads efficiently, repeatedly
-                    and predictably.
-                  </p>
-                </div>
-              </div>
-            </a>
-            <a className="home-v2-project-link" href="/projects/">
-              <div className="home-v2-project-box">
-                <div className="home-v2-project">
-                  <img src="/img/homeV2/project-logos/airship.svg" />
-                  <h3 className="home-v2-project-title airship-project-title">
-                    Airship
-                  </h3>
-                  <p className="home-v2-project-text">
-                    Making lifecycle management for open infrastructure simple,
-                    repeatable & resilient.
-                  </p>
-                </div>
-              </div>
-            </a>
-            <a className="home-v2-project-link" href="/projects/">
-              <div className="home-v2-project-box">
-                <div className="home-v2-project">
                   <img src="/img/homeV2/project-logos/starlingx.svg" />
                   <h3 className="home-v2-project-title starlingx-project-title">
                     StarlingX
@@ -218,19 +177,6 @@ const ProjectsSection = class extends React.Component {
                   <p className="home-v2-project-text">
                     CI/CD platform for gating changes across multiple
                     systems/repos.
-                  </p>
-                </div>
-              </div>
-            </a>
-            <a className="home-v2-project-link" href="/projects/">
-              <div className="home-v2-project-box">
-                <div className="home-v2-project">
-                  <img src="/img/homeV2/project-logos/oilabs.svg" />
-                  <h3 className="home-v2-project-title">OpenInfra Labs</h3>
-                  <p className="home-v2-project-text">
-                    Delivering open source tools to run cloud, container, AI,
-                    machine learning and edge workloads efficiently, repeatedly
-                    and predictably.
                   </p>
                 </div>
               </div>

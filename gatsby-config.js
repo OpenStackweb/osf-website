@@ -260,8 +260,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Open Infrastructure Foundation`,
-        short_name: `Open Infrastructure Foundation`,
+        name: `OpenInfra Foundation`,
+        short_name: `OpenInfra Foundation`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#f15b3e`,

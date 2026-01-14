@@ -78,12 +78,7 @@ const ContactFormVertical = () => {
             }
             {success &&
                 <div id="confirmation-message">
-                    <div className="confirmation-text">Thank you for contacting the Open Infrastructure Foundation. Someone
-                        from the Foundation will follow up with you as soon as possible. If you’d like to set up a meeting
-                        directly with our business development team, go ahead and <a className="form-links"
-                                                                                     href="https://calendly.com/jimmy-mcarthur"
-                                                                                     target="_blank">grab some time on our
-                            calendar</a>.
+                    <div className="confirmation-text">Thank you for contacting the OpenInfra Foundation. Someone from the Foundation will follow up with you as soon as possible. If you’d like to set up a meeting directly with our business development team, go ahead and <a className="form-links" href="https://calendly.com/jimmy-mcarthur" target="_blank">grab some time on our calendar</a>.
                     </div>
                 </div>
             }

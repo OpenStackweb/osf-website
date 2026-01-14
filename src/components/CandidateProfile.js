@@ -99,7 +99,7 @@ const CandidateProfile = ({ electionProfile, electionStatus }) => {
                 <h4>Your Candidate Nominations</h4>
                 {electionProfile.election_nominations?.length > 0 ?
                     <>
-                        <span>These are the open Infrastructure Foundation Individual Members you have nominated in this election.</span>
+                        <span>These are the OpenInfra Foundation Individual Members you have nominated in this election.</span>
                         <ul>
                             {electionProfile.election_nominations.map((nomination, index) => {
                                 return (

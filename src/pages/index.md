@@ -1,11 +1,13 @@
 ---
 templateKey: index-page
 seo:
-  description: "The OpenInfra Foundation is an open source foundation supporting a
+  description:
+    "The OpenInfra Foundation is an open source foundation supporting a
     global community of 110,000 individuals to build and operate open
     infrastructure software. "
   image: /img/OpenInfra-icon-white.jpg
-  title: "OpenInfra Foundation: We build communities who write software that runs
+  title:
+    "OpenInfra Foundation: We build communities who write software that runs
     in production"
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.dev/
@@ -104,14 +106,16 @@ people:
       user: "@gchenuet"
     - name: Mark Collier
       picture: https://pbs.twimg.com/profile_images/795298621965144064/rbQvkw0c_bigger.jpg
-      text: "THANKS to 1,400+ contributors from 150+ orgs who made OpenStack Stein
+      text:
+        "THANKS to 1,400+ contributors from 150+ orgs who made OpenStack Stein
         (#19!) a reality.  There are a lot of OSS projects dominated by one
         company, who are changing models right  now to control the benefits($).
         At OpenInfra Foundation #fouropens mean more opportunity, IMHO."
       user: "@sparkycollier"
     - name: Tim Bell
       picture: https://pbs.twimg.com/profile_images/556073063888850945/xCO4x5vO_bigger.jpeg
-      text: "Thanks to the #openstack infra team for the help to debug a mailing list
+      text:
+        "Thanks to the #openstack infra team for the help to debug a mailing list
         issue. It's easy  to forget how much effort goes into an open source
         community above writing the code:  ticket handling, user registration,
         test infrastructure, web outreach and collaboration tools."
@@ -180,26 +184,26 @@ sponsor:
     title: Platinum Members
   title: Companies supporting the OpenInfra Foundation
 openInfraEvents:
-  openInfraEventsData:    
-    - link: 'https://openinfraasia.org'
+  openInfraEventsData:
+    - link: "https://openinfraasia.org"
       logo: /img/homeV2/events-images/logo-asia.svg
-      text: 'openinfraasia.org'
-      color: '#FFB325'
-    - link: 'https://openinfraeurope.org'
+      text: "openinfraasia.org"
+      color: "#FFB325"
+    - link: "https://openinfraeurope.org"
       logo: /img/homeV2/events-images/logo-europe.svg
-      text: 'openinfraeurope.org'
-      color: '#2CB4E2'
+      text: "openinfraeurope.org"
+      color: "#2CB4E2"
   upcomingEvents:
     - image: /img/homeV2/events-images/openinfra-asia-img-2026.png
       date: "September 8-9, 2026"
       location: "Shanghai International Convention Center Oriental Riverside Hotel"
-      button: 
-        link: 'https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/'
-        text: 'LEARN MORE'
+      button:
+        link: "https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/"
+        text: "LEARN MORE"
     - image: /img/homeV2/events-images/openinfra-europe-img-2025.png
-      date: 'October 17-19, 2025'
-      location: 'École Polytechnique, Paris-Saclay, France'
-      button: 
-        link: 'https://www.youtube.com/playlist?list=PLKqaoAnDyfgr91wN_12nwY321504Ctw1s'
-        text: 'WATCH VIDEOS'
+      date: "October 17-19, 2025"
+      location: "École Polytechnique, Paris-Saclay, France"
+      button:
+        link: "https://www.youtube.com/playlist?list=PLKqaoAnDyfgr91wN_12nwY321504Ctw1s"
+        text: "WATCH VIDEOS"
 ---

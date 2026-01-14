@@ -77,7 +77,7 @@ const Header = class extends React.Component {
                         <p className="home-v2-numbers-subheading">
                           OpenStack is Deployed On
                         </p>
-                        <p className="home-v2-numbers-title">45M+ Cores</p>
+                        <p className="home-v2-numbers-title">55M+ Cores</p>
                         <p className="home-v2-numbers-subtitle">
                           Around The World
                         </p>

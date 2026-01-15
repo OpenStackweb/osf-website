@@ -1,4 +1,3 @@
-import { element } from "prop-types";
 import React from "react";
 
 export const checkUrlHorizontal = () => {
@@ -58,16 +57,16 @@ class ContactFormHorizontal extends React.Component {
                 */}
                 <div className="field-column is-full-width-lt">
                     <div className="field-row ">
-                        <label for="first_name"></label><input id="first_name" className="contact-field lt-field" maxlength="40" name="first_name" type="text" placeholder="First Name" required/>
-                        <label for="last_name"></label><input id="last_name" className="contact-field rt-field" maxlength="80" name="last_name"  type="text" placeholder="Last Name" required/>
+                        <label htmlFor="first_name"></label><input id="first_name" className="contact-field lt-field" maxLength="40" name="first_name" type="text" placeholder="First Name" required/>
+                        <label htmlFor="last_name"></label><input id="last_name" className="contact-field rt-field" maxLength="80" name="last_name"  type="text" placeholder="Last Name" required/>
                         </div>
                     <div className="field-row ">
-                        <label for="company"></label><input id="company" className="contact-field lt-field" maxlength="40" name="company" type="text" placeholder="Company" required/>
+                        <label htmlFor="company"></label><input id="company" className="contact-field lt-field" maxLength="40" name="company" type="text" placeholder="Company" required/>
                         
-                        <label for="title"></label><input id="title" className="contact-field rt-field" maxlength="40" name="title" type="text" placeholder="Title" required/>
+                        <label htmlFor="title"></label><input id="title" className="contact-field rt-field" maxLength="40" name="title" type="text" placeholder="Title" required/>
                     </div>
                     <div className="field-row ">
-                        <label for="email"></label><input id="email" className="contact-field ct-field" maxlength="80" name="email" type="text" placeholder="Email" required/>
+                        <label htmlFor="email"></label><input id="email" className="contact-field ct-field" maxLength="80" name="email" type="text" placeholder="Email" required/>
                     </div>
                 </div>
                 <div className="field-column is-full-width-rt">
@@ -77,7 +76,7 @@ class ContactFormHorizontal extends React.Component {
                 </div>
             </div>
             <div id="confirmation-message">
-                <div className="confirmation-text">Thank you for contacting the Open Infrastructure Foundation. Someone from the Foundation will follow up with you as soon as possible. If you’d like to set up a meeting directly with our business development team, go ahead and <a className="form-links" href="https://calendly.com/jimmy-mcarthur" target="_blank">grab some time on our calendar</a>.</div>
+                <div className="confirmation-text">Thank you for contacting the OpenInfra Foundation. Someone from the Foundation will follow up with you as soon as possible. If you’d like to set up a meeting directly with our business development team, go ahead and <a className="form-links" href="https://calendly.com/jimmy-mcarthur" target="_blank">grab some time on our calendar</a>.</div>
             </div>
         </form>
     )

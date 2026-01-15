@@ -30,12 +30,6 @@ We at OpenInfra Foundation consider The Four Opens our guiding principles in eve
 * [Open Development](/four-opens/open-development/)
 * [Open Community](/four-opens/open-community/)
 
-How we practiced the Four Opens has evolved over time and incorporates many practices: public code reviews, design summits, technical committee, and lazy consensus.  Earlier this year, the Open Infrastructure Foundation started the Four Opens Book as a way to share these learnings and how the Four Opens were initially intended for upstream, and how they proved applicable to downstream activities such as user feedback gathering, marketing, or event management. As the Open Infrastructure Foundation grows to more generally support Open Infrastructure, the Four Opens will grow alongside it.
+How we practiced the Four Opens has evolved over time and incorporates many practices: public code reviews, design summits, technical committee, and lazy consensus.  The OpenInfra Foundation started the Four Opens Book as a way to share these learnings and how the Four Opens were initially intended for upstream, and how they proved applicable to downstream activities such as user feedback gathering, marketing, or event management. As the OpenInfra Foundation grows to more generally support Open Infrastructure, the Four Opens will grow alongside it.
 
 We welcome you to [read the book](https://opendev.org/osf/four-opens/src/branch/master/doc/source/introduction.rst) or [contribute](https://opendev.org/osf/four-opens) and share your open source learnings as this book continues to evolve and reflect our values.
-
-Learn more about the Four Opens, the value they bring, and the responsibility of the community that upholds them to be mentors for the next wave of new members with Aeva Black, Azure Office of the CTO at Microsoft, on the OpenInfra Live: Keynotes.
-<br /><br />
-<div style="position: relative; padding-bottom: 56.25%; height: 0;" className="videoWrapper">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/gTR_AtJVXkw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen referrerPolicy="strict-origin-when-cross-origin"></iframe>
-</div> 

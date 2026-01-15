@@ -1,7 +1,7 @@
 {
   "siteMetadata": {
-    "title": "Open Infrastructure Foundation",
-    "titleTemplate": "%s  - Open Infrastructure Foundation (OpenInfra Foundation)",
+    "title": "OpenInfra Foundation",
+    "titleTemplate": "%s  - OpenInfra Foundation",
     "description": "Projects further the OpenInfra Foundation mission of supporting the development and adoption of production infrastructure with open source components.",
     "url": "https://openinfra.dev/",
     "image": "/img/oificon-social.png",

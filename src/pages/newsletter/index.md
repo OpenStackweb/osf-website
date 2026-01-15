@@ -15,8 +15,7 @@ header:
   description: >-
     With over 110,000 members in 187 countries, the OpenInfra Foundation provides a 
     home for open infrastructure projects, including <a href="http://openstack.org">OpenStack</a>, as well as open source projects 
-    <a href="http://airshipit.org">Airship</a>, <a href="http://katacontainers.io">Kata Containers</a>, <a href="http://openinfralabs.org">OpenInfra 
-    Labs</a>, <a href="http://starlingx.io">StarlingX</a> and <a href="http://zuul-ci.org">Zuul</a>. The monthly <a href='https://superuser.openstack.org/articles/tag/newsletter/'
+    <a href="http://katacontainers.io">Kata Containers</a>, <a href="http://starlingx.io">StarlingX</a> and <a href="http://zuul-ci.org">Zuul</a>. The monthly <a href='https://superuser.openstack.org/articles/tag/newsletter/'
     target='_blank' rel='noopener noreferrer'>OpenInfra community newsletter</a> brings the latest 
     developments and activities across OpenInfra projects, events, and users from the OpenInfra 
     community to your inbox.

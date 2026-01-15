@@ -28,7 +28,7 @@ const NominationModal = ({ candidate_profile, closeModal, nominateMember, member
     think would be a good candidate`
       :
       `Are you sure you would officially like to nominate ${candidate_profile.first_name} 
-    to the Open Infrastructure Foundation Board`
+    to the OpenInfra Foundation Board`
   }
 
   const getModalButtons = () => {
@@ -68,7 +68,7 @@ const NominationModal = ({ candidate_profile, closeModal, nominateMember, member
               <p>Success</p>
             </div>
             <div className="message-body">
-              You've just nominated {candidate_profile.first_name} for the Open Infrastructure Foundation Board
+              You've just nominated {candidate_profile.first_name} for the OpenInfra Foundation Board
             </div>
           </article>
           <div className="content">

@@ -43,7 +43,7 @@ const Footer = class extends React.Component {
               <LinkComponent href="/" className="router-link-active">
                 <div className="logo-containter">
                   <div className="logo-containter-child logo-containter-child-img">
-                    <img src={logo} alt="Open Infrastructure Foundation" />
+                    <img src={logo} alt="OpenInfra Foundation" />
                     </div>
                 </div>
               </LinkComponent>

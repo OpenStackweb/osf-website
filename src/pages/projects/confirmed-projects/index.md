@@ -23,35 +23,6 @@ projectCategories:
   - label: OPENINFRA WORKING GROUPS
     categoryId: working-groups
 projectList:
-  - logo: /img/logo-airship.svg
-    button:
-      link: https://airshipit.org/
-      text: airshipit.org
-    class: projects-s2
-    title: AIRSHIP
-    subTitle: Making lifecycle management for open infrastructure simple, repeatable
-      & resilient.
-    links:
-      - link: http://lists.airshipit.org/cgi-bin/mailman/listinfo
-        text: Mailing Lists
-      - link: https://airship-treasuremap.readthedocs.io/en/latest/
-        text: Documentation
-      - link: https://git.airshipit.org/cgit
-        text: Code
-      - link: https://www.surveymonkey.com/r/AirshipUserSurvey
-        text: User Survey
-    description: Airship is a collection of interoperable and loosely coupled open
-      source tools that  Provide for automated cloud provisioning and life cycle
-      management in a completely  Declarative and predictable way. The focus of
-      this project is the implementation of  a declarative platform to introduce
-      OpenStack on Kubernetes, and the lifecycle Management of the resulting
-      cloud.
-    features:
-      - icon: /img/icon1.svg
-        text: EDGE COMPUTING
-      - icon: /img/icon3.svg
-        text: CONTAINER INFRASTRUCTURE
-    category: confirmed
   - logo: /img/projects-img/logo-kata.svg
     button:
       link: https://katacontainers.io/
@@ -97,7 +68,8 @@ projectList:
         text: Technical Committee
       - link: https://www.openstack.org/user-survey/survey-2022/landing
         text: User Survey
-    description: "OpenStack is an open source software project for creating private
+    description:
+      "OpenStack is an open source software project for creating private
       and public clouds, powering 75 public cloud data centers and thousands of
       private clouds at a scale of more than 15 million physical cores
       worldwide. Since launching in 2012, OpenStack has become one of the top 3
@@ -116,7 +88,8 @@ projectList:
       text: starlingx.io
     class: projects-s4
     title: STARLINGX
-    subTitle: Edge cloud computing infrastructure for high performance, ultra-low
+    subTitle:
+      Edge cloud computing infrastructure for high performance, ultra-low
       latency applications.
     links:
       - link: http://lists.starlingx.io/
@@ -131,7 +104,8 @@ projectList:
         text: Code
       - link: https://openinfrafoundation.formstack.com/forms/starlingx_user_survey
         text: User Survey
-    description: "StarlingX is a complete cloud infrastructure software stack for
+    description:
+      "StarlingX is a complete cloud infrastructure software stack for
       the edge used  by the most demanding applications in industrial IoT,
       telecom, and other use  cases. Based on mature production software
       deployed in mission critical applications, newly open sourced StarlingX
@@ -184,7 +158,8 @@ projectList:
         text: Weekly Meetings
       - link: https://www.openstack.org/edge-computing/cloud-edge-computing-beyond-the-data-center?lang=en_US
         text: "Cloud Edge Computing: Beyond the Data Center White Paper"
-    description: The Edge Computing Group is a working group comprised of architects
+    description:
+      The Edge Computing Group is a working group comprised of architects
       and engineers across large enterprises, telecoms and technology vendors
       working to define and advance edge cloud computing. The focus is open
       infrastructure technologies, not exclusive to OpenStack.
@@ -208,7 +183,8 @@ projectList:
       - link: https://youtu.be/hzmoQUYqt3s
         text: Connectivity, Computing and Capability - the New Era of Digital
           Infrastructure
-    description: The Computing Force Network working group is aiming to formulate
+    description:
+      The Computing Force Network working group is aiming to formulate
       solutions for common challenges with using related technologies, promoting
       technical implementations, and gradually building the next generation of
       open infrastructure.

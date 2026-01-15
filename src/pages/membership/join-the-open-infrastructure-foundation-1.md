@@ -62,12 +62,8 @@ communities:
         work of building and operating software that solves real problems around
         the globe.
   logos:
-    - img: /img/home/logo1.svg
-      alt: Airship
     - img: /img/home/logo2.svg
       alt: KataContainer
-    - img: /img/home/logo7.svg
-      alt: OpenInfra Labs
     - img: /img/home/logo3.svg
       alt: OpenStack
     - img: /img/home/logo4.svg
@@ -76,7 +72,7 @@ communities:
       alt: Zuul
 contact:
   display: true
-  text: Interested in hosting your open source project with the OpenInfra Foundation?
+  text: Is your company interested in OpenInfra Foundation membership?
   button:
     text: Contact Us
     link: mailto:ecosystem@openinfra.dev

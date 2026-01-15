@@ -36,7 +36,7 @@ export const MemberListPageTemplate = ({
             <div className="wrapper project-background">
                 <TopBar/>
                 <NavbarV2 isLoggedUser={isLoggedUser}/>
-                <Header title='Open Infrastructure Foundation' subTitle='Member Directory'/>
+                <Header title='OpenInfra Foundation' subTitle='Member Directory'/>
             </div>
             <AjaxLoader show={loading_members} size={120}/>
             <main className="main">

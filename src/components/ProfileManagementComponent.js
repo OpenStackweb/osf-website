@@ -573,7 +573,7 @@ export const ProfileManagement = ({
                       <label className={styles.checkbox} htmlFor="subscribedToNewsletter">
                         <input type="checkbox" id="subscribedToNewsletter" checked={privateInformation.subscribedToNewsletter}
                           onChange={e => setPrivateInformation({ ...privateInformation, subscribedToNewsletter: !privateInformation.subscribedToNewsletter })} />
-                        I don't mind occasionally receiving updates and communications from the Open Infrastructure Foundation.
+                        I don't mind occasionally receiving updates and communications from the OpenInfra Foundation.
                       </label>
                     </div>
                     <div className={`column is-full ${styles.inputField}`}>

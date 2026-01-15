@@ -60,7 +60,7 @@ members:
     picture: /img/markcollier.jpg
     title: Chief Operating Officer
     twitter: https://twitter.com/sparkycollier
-  - description: <p>Thierry Carrez is the General Manager of the Open Infrastructure
+  - description: <p>Thierry Carrez is the General Manager of the OpenInfra
       Foundation. A systems engineer by trade, he was involved in the inception
       of the OpenStack project, and still contributes to its governance and
       release management.</p>  <p>With a personal interest in the intersection

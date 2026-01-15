@@ -67,7 +67,11 @@ const Header = class extends React.Component {
                       <a href="/projects/hosting/" className="hero-primary-btn">
                         <span>Join Us</span>
                       </a>
+                      <a href='/projects/' className="hero-secondary-btn">
+                      <span >Discover Our Projects</span>
+                    </a>  
                     </div>
+                    
                   </div>
                 </div>
                 <div className="hero-slider-container container">

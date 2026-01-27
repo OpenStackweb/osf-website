@@ -11,7 +11,7 @@ const SummitCard = ({
   background,
   summit,
   cardStyles,
-  link = "https://summit2025.openinfra.org",
+  link = "https://www.lfopensource.cn/kubecon-cloudnativecon-openinfra-summit-pytorch-conference-china/",
 }) => {
   if (!summit) return null;
 

@@ -19,7 +19,7 @@ const SPONSORSHIPS = [];
 
 const SPONSORSHIPS_DAYS = [
   {
-    title: ["Kubecon | CloudNativeCon | OpenInfra Summit Asia", "8-9 September, Shanghai, China"],
+    title: ["Kubecon + CloudNativeCon + OpenInfra Summit Asia + PyTorch Conference China", "8-9 September, Shanghai, China"],
     subtitle: (
       <>
         <a href="mailto:summit@openinfra.dev">Contact us</a> to sponsor

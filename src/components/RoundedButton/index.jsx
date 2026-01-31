@@ -14,20 +14,20 @@ const RoundedButton = ({ link, text, className, hasArrowIcon = true, arrowColor 
 
     const arrowIcon = (color) => {
         return (
-            <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrow-icon">
-                <path d="M21 19L26 14" stroke={color} stroke-width="2" stroke-linecap="round" />
-                <path d="M21 9L26 14" stroke={color} stroke-width="2" stroke-linecap="round" />
-                <path d="M12 14L26 14" stroke={color} stroke-width="2" stroke-linecap="round" />
+            <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg" className="arrow-icon">
+                <path d="M21 19L26 14" stroke={color} strokeWidth="2" strokeLinecap="round" />
+                <path d="M21 9L26 14" stroke={color} strokeWidth="2" strokeLinecap="round" />
+                <path d="M12 14L26 14" stroke={color} strokeWidth="2" strokeLinecap="round" />
             </svg>
         )
     }
 
     const arrowHoverIcon = (color) => {
         return (
-            <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrow-hover-icon">
-                <path d="M21 19L26 14" stroke={color} stroke-width="2" stroke-linecap="round" />
-                <path d="M21 9L26 14" stroke={color} stroke-width="2" stroke-linecap="round" />
-                <path d="M12 14L26 14" stroke={color} stroke-width="2" stroke-linecap="round" />
+            <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg" className="arrow-hover-icon">
+                <path d="M21 19L26 14" stroke={color} strokeWidth="2" strokeLinecap="round" />
+                <path d="M21 9L26 14" stroke={color} strokeWidth="2" strokeLinecap="round" />
+                <path d="M12 14L26 14" stroke={color} strokeWidth="2" strokeLinecap="round" />
             </svg>
         )
     }

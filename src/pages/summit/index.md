@@ -49,6 +49,7 @@ pastSummits:
       background: /img/summit-landing/cards/summit-europe-25-2.png
       date: "October 17-19, 2025"
       location: "École Polytechnique, Paris-Saclay, France"
+      link: ""
       notification:
         text: " "
         button:
@@ -58,6 +59,7 @@ pastSummits:
       background: /img/summit-landing/cards/summit-asia.png
       date: "September 3 & 4, 2024"
       location: "Suwon Convention Center, Suwon, South Korea"
+      link: ""
       notification:
         text: " "
         button:

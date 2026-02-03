@@ -6,7 +6,7 @@ date: 2026-02-02T17:58:42.638Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   url: https://openinfra.org/blog/openinfra-newsletter-january-2026
   title: "Inside Open Infrastructure: January 2026"

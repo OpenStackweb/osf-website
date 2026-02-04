@@ -254,25 +254,26 @@ members:
     openStack: /a/community/members/90048
     picture: /img/board/Xiangyu-Li.jpg
   - name: Chris Morgan
-    description: Chris Morgan is the Product Owner for Bloomberg Cloud Compute, an
-      OpenStack-based private cloud that supports a significant portion of the
-      firm’s back-end infrastructure. Bloomberg has been running OpenStack in
-      production for more than a decade, and its cloud services team was
-      profiled on Superuser
-      (https://superuser.openinfra.org/articles/openstack-at-bloomberg/) and
-      recognized by the OpenInfra community as the winner of the 2023 Superuser
-      Awards
-      (https://superuser.openinfra.org/articles/congratulations-to-the-2023-superuser-awards-winner-bloomberg/).
-      Chris is also active in the broader OpenStack community, where he helps
-      run the OpenStack Ops Radio Hour
-      (https://etherpad.opendev.org/p/openstack_ops_radiohour), an ongoing
-      series of online meetups for OpenStack operators that evolved from the
-      prior OpenStack Ops Meetups
-      (https://wiki.openstack.org/wiki/Operations/Meetups) he helped chair and
-      organize for many years. Chris joined Bloomberg in 1999, after working on
-      submarine control systems and a GUI for fixed income research at Goldman
-      Sachs. He earned a bachelor’s degree in mechanical engineering from the
-      University of Birmingham.
+    description: '<p>Chris Morgan is the Product Owner for Bloomberg Cloud Compute,
+      an OpenStack-based private cloud that supports a significant portion of
+      the firm’s back-end infrastructure. Bloomberg has been running OpenStack
+      in production for more than a decade, and its cloud services team was
+      profiled on <a
+      href="https://superuser.openinfra.org/articles/openstack-at-bloomberg/"
+      style="color: #337ab7">Superuser</a> and recognized by the OpenInfra
+      community as the winner of the <a
+      href="https://superuser.openinfra.org/articles/congratulations-to-the-2023-superuser-awards-winner-bloomberg/"
+      style="color: #337ab7">2023 Superuser Awards</a>. Chris is also active in
+      the broader OpenStack community, where he helps run the <a
+      href="https://etherpad.opendev.org/p/openstack_ops_radiohour"
+      style="color: #337ab7">OpenStack Ops Radio Hour</a>, an ongoing series of
+      online meetups for OpenStack operators that evolved from the prior <a
+      href="https://wiki.openstack.org/wiki/Operations/Meetups" style="color:
+      #337ab7">OpenStack Ops Meetups</a> he helped chair and organize for many
+      years.</p><p>Chris joined Bloomberg in 1999, after working on submarine
+      control systems and a GUI for fixed income research at Goldman Sachs. He
+      earned a bachelor’s degree in mechanical engineering from the University
+      of Birmingham.</p>'
     title: Gold Director
     company: Bloomberg
     linkedin: www.linkedin.com/in/mihalis68

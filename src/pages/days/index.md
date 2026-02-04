@@ -102,10 +102,6 @@ pastMeetups:
 communityEvents:
   title: More Open Source Community Events
   events:
-    - name: FOSDEM
-      link: https://fosdem.org/2026/
-      date: 31 Jan - 1 Feb 2026
-      location: Brussels, BE
     - name: SCALE 23X
       link: https://www.socallinuxexpo.org/scale/23x
       date: March 5-8, 2026

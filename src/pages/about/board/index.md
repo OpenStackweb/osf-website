@@ -82,28 +82,6 @@ members:
       monitoring while at Amazon. Eoghan is based in Dublin, Ireland though he's
       also part of a highly globalized team at Red Hat.
     openStack: /a/community/members/1341
-  - name: Ghanshyam Mann
-    description: >-
-      <p>Ghanshyam is currently serving as a Chair of the OpenStack Technical
-      Committee and Core developer in various OpenStack projects (Nova, QA and a
-      few more) and served as PTL of the OpenStack QA. project. He started
-      working in OpenStack with NEC in 2012 as a cloud support engineer, and
-      since 2014 he has been involved in upstream development. His main upstream
-      focus is on Nova, QA, API stability, and CI/CD. In addition, he is
-      passionate about bringing more contributors to the Open Infra family and
-      helping them in onboarding in the community via different programs like
-      First Contact SIG, Upstream Institute Trainings, mentorship. Before
-      OpenStack Upstream, he worked in different domains like Avionics, Storage,
-      Cloud, and Virtualization. Ghanshyam started his career in technology as a
-      software developer in the Avionic domain with the C++ language.</p>
-
-      <p>He has also been a frequent speaker in various Open Source events such as OpenStack, Open Infra, Open source summit, Open Infra Days and LinuxCon on various topics like RESTful API, QA, Cloud Backup, Open Source Community Building, Open Source Governance. In addition, he has been actively involved in various PoC and solutions designs around Cloud OSS and currently serving as Cloud Consultant in NEC.</p>
-    openStack: /a/community/members/6461
-    picture: /img/board/ghanshyammann.jpeg
-    title: Individual Director
-    twitter: https://x.com/GmaanInCloud
-    linkedin: https://www.linkedin.com/in/gmann1/
-    company: NEC
   - name: Kurt Garloff
     description: >-
       With Sovereign Cloud Stack (SCS), we have a publicly funded project to
@@ -284,23 +262,6 @@ members:
       and innovation experience in OpenStack.
     openStack: /a/community/members/90048
     picture: /img/board/Xiangyu-Li.jpg
-  - name: Yulong Liu
-    title: Gold Director
-    company: China Unicom
-    description: LIU Yulong currently works at China Unicom Cloud for research,
-      development and management for a team of Cloud Networking. He has been
-      engaged in Cloud Computing for more than ten years. He is proficient in
-      the core components of OpenStack, and has a deep understanding of the
-      architecture of Nova and Neutron with the underlying technologies, such as
-      Openvswitch, OpenFlow, SDN, Linux Networking, Libvirt and Qemu/kvm. His
-      past work experience in several famous public clouds has enabled him to
-      have a deep construction of cloud technologies, which also shows his love
-      for Cloud Computing. Since 2019, he has become the core developer of
-      OpenStack Neutron. At present, his main work and research fields are
-      focused on cloud networking, SDN, SmartNIC, DPU and hardware offloading.
-    linkedin: https://www.linkedin.com/in/liu-yulong/
-    openStack: /a/community/members/5508
-    picture: /img/board/YulongLIU.png
   - name: Ritesh Paiboina
     title: Gold Director
     company: T-Systems

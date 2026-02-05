@@ -1273,7 +1273,7 @@ collections:
             { label: "Background", name: background, widget: image },
             { label: "Date", name: date, widget: string },
             { label: "Location", name: location, widget: string },
-            { label: "Link", name: link, widget: string },
+            { label: "Image Link", name: imageLink, widget: string },
             { label: "Notification", name: notification, widget: object, fields: [
               { label: "Text", name: text, widget: string },
               { label: "Button", name: button, widget: object, fields: [
@@ -1347,7 +1347,7 @@ collections:
               { label: "Background Image", name: background, widget: image },
               { label: "Date", name: date, widget: string },
               { label: "Location", name: location, widget: string },
-              { label: "Link", name: link, widget: string },
+              { label: "Image Link", name: imageLink, widget: string },
               { label: "Notification", name: notification, widget: object, fields: [
                 { label: "Text", name: text, widget: string },
                 { label: "Button", name: button, widget: object, fields: [

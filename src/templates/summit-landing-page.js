@@ -216,7 +216,7 @@ export const SummitLandingPageQuery = graphql`
             }
             date
             location
-            link
+            imageLink
             notification {
               text
               button {

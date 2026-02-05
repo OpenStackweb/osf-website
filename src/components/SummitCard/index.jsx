@@ -11,18 +11,19 @@ const SummitCard = ({
   background,
   summit,
   cardStyles,
-  link,
 }) => {
   if (!summit) return null;
 
-  const { date, location, notification } = summit;
+  const { date, location, notification, imageLink } = summit;
 
-  const cardContent = (
+  return (
     <section className="summit-card-wrapper" style={cardStyles}>
-      <div
-        className="summit-card-image"
-        style={{ backgroundImage: `url(${background})` }}
-      />
+      <LinkComponent href={imageLink}>
+        <div
+          className="summit-card-image"
+          style={{ backgroundImage: `url(${background}` }}
+        />
+      </LinkComponent>
       <div
         className={`summit-card-info ${notification?.text ? "" : "no-notification"}`}
       >
@@ -48,14 +49,6 @@ const SummitCard = ({
         </div>
       )}
     </section>
-  );
-
-  return (
-    link ?
-      <LinkComponent href={link}>
-        {cardContent}
-      </LinkComponent>
-      : cardContent
   );
 };
 

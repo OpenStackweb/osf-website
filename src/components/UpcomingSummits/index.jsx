@@ -11,7 +11,6 @@ const UpcomingSummits = ({ title, summits }) => {
           key={summit.key}
           background={summit.background}
           summit={summit}
-          link={summit.link}
         />
       ))}
     </div>

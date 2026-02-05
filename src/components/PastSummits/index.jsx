@@ -13,7 +13,6 @@ const PastSummits = ({ title, summits }) => {
           key={summit.key}
           background={summit.background.publicURL}
           summit={summit}
-          link={summit.link}
         />
       ))}
     </div>

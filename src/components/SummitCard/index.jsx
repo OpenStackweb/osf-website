@@ -18,12 +18,19 @@ const SummitCard = ({
 
   return (
     <section className="summit-card-wrapper" style={cardStyles}>
-      <LinkComponent href={imageLink}>
+      {imageLink ?
+        <LinkComponent href={imageLink}>
+          <div
+            className="summit-card-image"
+            style={{ backgroundImage: `url(${background}` }}
+          />
+        </LinkComponent>
+        :
         <div
           className="summit-card-image"
           style={{ backgroundImage: `url(${background}` }}
         />
-      </LinkComponent>
+      }
       <div
         className={`summit-card-info ${notification?.text ? "" : "no-notification"}`}
       >

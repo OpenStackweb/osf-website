@@ -40,14 +40,15 @@ individualMember:
   button:
     text: PARTICIPATE AS AN INDIVIDUAL MEMBER
     link: "#"
-  note: >
-    * Individual Members are required to vote regularly in Governing Board
-    elections, or their  membership will be transitioned to a Community account
+  note: "* Individual Members are required to vote regularly in Governing Board
+    elections, or their membership will be transitioned to a Community account
     (please see below). Note that new Individual Members must be members for 180
     days before they are eligible to vote in Governing Board Member elections.
     Inactive Individual Member accounts are transitioned to Community account
-    level automatically after a period of inactivity.  You may also log into
-    your profile at any time and adjust your membership level.
+    level automatically if they do not vote in at least 50% of the Individual
+    Member elections for which they were eligible within the prior 24-month
+    period. You may also log into your profile at any time and adjust your
+    membership level."
 additional:
   display: true
   title: Additional Ways to Participate in the Community

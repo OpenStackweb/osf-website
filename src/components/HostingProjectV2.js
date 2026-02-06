@@ -13,7 +13,7 @@ const HostingProjectV2 = () =>
         between the project leaders and the OpenInfra Foundation staff to discuss the project’s scope,
         use cases and vision for the future.
       </div>
-      <LinkComponent href="/projects/contact" className="button button-red projects-btn">
+      <LinkComponent href="/contact" className="button button-red projects-btn">
         <span>CONTACT US</span><img src={arrow}/>
       </LinkComponent>
     </div>

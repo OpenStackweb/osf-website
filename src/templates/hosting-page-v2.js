@@ -43,7 +43,6 @@ export const HostingPageV2Template = ({ sponsors = [], isLoggedUser }) => {
           title="host a project with The OpenInfra Foundation"
           subtitle="We build communities who write infrastructure software that runs in production. Let us build a strong open source community around your project. "
           sublabel="Ready to hear more? "
-          contactLink="/projects/contact"
           moreLink="#building"
         />
       </div>

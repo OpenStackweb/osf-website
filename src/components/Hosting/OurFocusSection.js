@@ -64,7 +64,7 @@ const OurFocusSection = () => {
               project is openly developed and in the infrastructure space, contact us!
             </p>
             <div className="actions">
-              <LinkComponent href="/projects/contact" className="button button-red">
+              <LinkComponent href="/contact" className="button button-red">
                 <span>CONTACT US</span><img src={arrow} alt="arrow"/>
               </LinkComponent>
             </div>

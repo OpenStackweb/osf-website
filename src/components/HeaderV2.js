@@ -15,9 +15,11 @@ const HeaderV2 = ({backgroundImage, frontImage, title, subtitle, sublabel, conta
                             <p className="subtitle">{subtitle}</p>
                             <p className="sublabel">{sublabel}</p>
                             <div className="actions">
-                                <LinkComponent href={contactLink} className="button button-red">
-                                    <span>Contact Us</span><img src={arrow} alt="arrow" />
-                                </LinkComponent>
+                                {contactLink && (
+                                    <LinkComponent href={contactLink} className="button button-red">
+                                        <span>Contact Us</span><img src={arrow} alt="arrow" />
+                                    </LinkComponent>
+                                )}
                                 <LinkComponent href={moreLink} className="button button-white">
                                     <span>Learn more</span><img src={rightArrowLearnMore? rightArrow : downArrow} alt="arrow" />
                                 </LinkComponent>

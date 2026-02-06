@@ -16,7 +16,7 @@
     }
 
     & > div {
-        height: 200px;
+        height: 100%;
         position: absolute;
         top: 0;
         left: 0;
@@ -25,13 +25,32 @@
     }
 
     .images {
+        display: flex;
         flex-wrap: nowrap;
-        animation: moveSlideshow 12s linear infinite;
+        align-items: center;
+        height: 100%;
+        animation: moveSlideshow 24s linear infinite;
+        will-change: transform;
+        backface-visibility: hidden;
+        perspective: 1000px;
+        transform: translateZ(0);
+        -webkit-font-smoothing: antialiased;
+        
+        img {
+            flex-shrink: 0;
+            max-height: 100%;
+            height: auto;
+            width: auto;
+            object-fit: contain;
+        }
     }
 }
 
 @keyframes moveSlideshow {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
     100% {
-        transform: translateX(-66.6666%);
+        transform: translate3d(-25%, 0, 0);
     }
 }

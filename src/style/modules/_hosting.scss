@@ -273,9 +273,24 @@
             width: 100%;
             margin: 80px 0 40px;
 
+            .sponsors-label {
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 20px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                text-align: left;
+                margin-bottom: 20px;
+                color: #000000;
+            }
+
             img {
                 max-width: 115px;
+                max-height: 114px;
                 margin: 0 30px;
+                object-fit: contain;
             }
         }
 

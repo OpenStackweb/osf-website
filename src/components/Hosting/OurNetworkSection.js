@@ -18,16 +18,13 @@ const OurNetworkSection = ({sponsors}) => {
                         <p className="body">
                             The OpenInfra community is vast, comprising more than 110,000 people from over 182 countries
                             and 710
-                            organizations. Our community is passionate about open source and engaged in OpenInfra projects in a diverse set of activities ranging from contribution to operations. OpenInfra projects have access to the community in a
-                            variety of ways,
-                            including events like the <LinkComponent href="/summit">OpenInfra
+                            organizations. Our community is passionate about open source and actively engaged in advancing open infrastructure through a diverse set of activities ranging from code contribution to operations and deployment. Community members connect and collaborate through events like the <LinkComponent href="/summit">OpenInfra
                             Summit</LinkComponent> and{' '}
                             <LinkComponent href="/live">OpenInfra Live</LinkComponent>, publications like{' '}
                             <LinkComponent href="https://superuser.openstack.org">Superuser Magazine</LinkComponent>,
-                            and regular outreach like project mailing lists and the <LinkComponent href="/newsletter">OpenInfra
+                            and regular engagement through project mailing lists and the <LinkComponent href="/newsletter">OpenInfra
                             Newsletter</LinkComponent>.
-                            Projects that are hosted by the OpenInfra Foundation enjoy an immediate audience to help
-                            accelerate use and growth.
+                            This engaged community actively participates in shaping the future of open infrastructure, sharing knowledge, and driving innovation through collaborative efforts.
                         </p>
                     </div>
                     <div className="column is-one-third">
@@ -44,6 +41,7 @@ const OurNetworkSection = ({sponsors}) => {
                 </div>
                 {sponsors && sponsors.length > 0 &&
                 <div className="sponsors-wrapper">
+                    <p className="sponsors-label">OpenInfra Platinum and Gold Members</p>
                     <Slideshow>
                         {sponsors.map(s => <img key={`sponsor-${s.id}`} src={s.logo || s.big_logo} alt={s.name}/>)}
                     </Slideshow>

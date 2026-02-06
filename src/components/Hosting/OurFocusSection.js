@@ -56,9 +56,6 @@ const OurFocusSection = () => {
               believe that transparency and open collaboration is the key to building the most effective form of open
               source. This has been proven by the long-term success of OpenStack, the de-facto open source cloud project.
               Collectively we support the largest, most active, and engaged open source infrastructure communities globally.
-              <br /><br />
-              The OpenInfra Foundation operates efficiently based on years of experience navigating the intricacies of open collaboration, with a focus on community development. We dedicate our resources towards advancing project
-              goals and growing adoption. Our strength lies in the communities we serve and the members who support our mission.
             </p>
           </div>
         </div>

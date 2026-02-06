@@ -1,41 +1,57 @@
 ---
-templateKey: about-page
+templateKey: hosting-page-v2
 seo:
-  description: "The OpenInfra Foundation is an open source foundation supporting a
-    global community of 110,000 individuals to build and operate open
-    infrastructure software. "
+  description: "As an open source software host, the OpenInfra Foundation
+    dedicates resources towards advancing the project community's goals and
+    growing adoption. "
   image: /img/OpenInfra-icon-white.jpg
   title: About
   twitterUsername: "@OpenInfraDev"
   url: https://openinfra.org/about/
-footer:
-  button: ""
-  buttonText: ""
-  display: false
-  title: ""
-  subTitle: ""
+header:
+  subTitle: The OpenInfra Foundation supports active, global, and engaged open
+    source infrastructure communities.
+  title: Host Your Project at the OpenInfra Foundation
+row1:
+  email:
+    link: mailto:community@openinfra.dev
+    text: Contact us
+  images:
+    - image: /img/projects-img/hosting1.jpg
+    - image: /img/projects-img/hosting2.jpg
+  list:
+    - item: Open Source
+    - item: Open Community
+    - item: Open Development
+    - item: Open Design
+  text1: "The OpenInfra Foundation approach to open source provides a home for
+    Open Infrastructure communities that align with the \"Four Opens\"
+    philosophy:      "
+  text2: Communities want to work with us because we help projects thrive and
+    truly believe that collaboration is the key to success.  The OpenInfra
+    Foundation staff is a small team, but we make a big impact. Collectively we
+    support the largest, most active, and engaged open  source infrastructure
+    communities globally.
+  text3: OpenInfra Foundation operates efficiently based on years of experience
+    figuring out what works and what doesn't, with a focus on
+    community  development. We dedicate our resources towards advancing the
+    project goals and growing adoption. Our strength lies in the  communities we
+    serve. Inquire about hosting your project with OpenInfra Foundation.
+  title: HOST AT OpenInfra Foundation
+row2:
+  images:
+    - image: /img/projects-img/hosting3.jpg
+  text1: "At OpenInfra Foundation we value project individuality and
+    collaboration. The quality of each project is our main focus, not the
+    overall  quantity of projects we host. There is no template or a
+    one-size-fits-all model for the way we engage and support open  source
+    projects. Each project is unique and each community has specific needs. We
+    welcome every project with personalized  support and attention to detail.
+    Our team is genuinely welcoming, helpful, knowledgeable and passionate about
+    helping  communities grow and thrive. We do not sit on the sidelines; we
+    actively participate in each and every community that we serve        "
+  text2: Our model provides the support system and collaborative environment where
+    communities are able to focus their attention  on the important work of
+    building and operating software that solves real problems around the globe.
+  title: A CUSTOMIZED APPROACH
 ---
-When the OpenStack Foundation formed to govern the OpenStack project in 2012, clouds mainly offered virtual machines in a datacenter. The Foundation evolved as datacenter composition evolved into a mix of bare metal, VMs, and containers. While the OpenStack project is seen as the de facto open source platform for operating cloud infrastructure around the world, the Foundation realized more technology is needed to meet all of the diverse use cases, and we want to make sure it’s developed in the open, using the same proven approach to open source.
-
-For this reason, we expanded our focus as a foundation and are helping to establish new open source communities to advance areas where technology can successfully contribute to the development of open infrastructure: AI/Machine Learning, CI/CD, Container Infrastructure, Edge Computing and of course, Public, Private and Hybrid Clouds.
-
-Now a part of the Linux Foundation, the OpenInfra Foundation supports the development and adoption of open infrastructure globally, across a community of over 110,000 individuals in 187 countries, by hosting open source projects and communities of practice.
-
-Staying true to its mission of helping people build and operate open infrastructure, OpenInfra Foundation hosts open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens.” These projects include [OpenStack](https://www.openstack.org), [Kata Containers](https://katacontainers.io/), [StarlingX](https://starlingx.io), and [Zuul](https://zuul-ci.org/). Additional initiatives supported by the OpenInfra Foundation include [OpenDev](https://opendev.org/), project hosting, continuous integration tooling, and virtual collaboration spaces for open source software projects and Superuser, an online publication where users and developers share how they're combining software from OpenInfra Foundation communities with other popular open source tools like Kubernetes, Ceph, Cloud Foundry, OVS, OpenContrail, Open Switch, OPNFV and more to power their open infrastructure.
-
-[OIF Individual membership of the OpenInfra Foundation](/join/) is free for anyone with an interest in open infrastructure. Individual Members are expected to participate in the community through technical contributions or community building efforts, and vote in an annual election for the Governing Board.
-
-For more insight into OpenInfra Foundation activities and progress, please read the annual reports: 
-
-* [2025 annual report](https://openinfra.org/annual-report/2025)
-* [2024 annual report](https://openinfra.dev/annual-report/2024)
-* [2023 annual report](https://openinfra.dev/annual-report/2023)
-* [2﻿022 annual report](https://openinfra.dev/annual-report/2022)
-* [](https://openinfra.dev/annual-report/2022)[2021 annual report](/annual-report/2021)
-* [2020 annual report](https://www.openstack.org/annual-reports/2020-openstack-foundation-annual-report)
-* [2019 annual report](https://www.openstack.org/annual-reports/2019-openstack-foundation-annual-report)
-* [2018 annual report](https://www.openstack.org/annual-reports/2018-openstack-foundation-annual-report)
-* [2017 annual report](https://www.openstack.org/assets/reports/OpenStack-AnnualReport2017.pdf)
-* [2016 annual report](https://www.openstack.org/assets/reports/OpenStack-2016-Annual-Report-final-draft.pdf)
-* [2015 annual report](https://www.openstack.org/assets/reports/osf-annual-report-2015-FINAL.pdf)
-* [2014 annual report](https://www.openstack.org/assets/reports/osf-annual-report-2014.pdf)

@@ -284,6 +284,16 @@
   to = "/about"
   status = 301
   force = true
+[[redirects]]
+  from = "/projects/hosting"
+  to = "/about"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/projects/hosting/*"
+  to = "/about"
+  status = 301
+  force = true
 [[headers]]
   for = "/*"
   [headers.values]

@@ -13,7 +13,7 @@ seo:
   url: https://openinfra.dev/
 header:
   buttons:
-    - link: /projects/hosting/
+    - link: /about
       text: Project Hosting
     - link: /join/
       text: Join Us

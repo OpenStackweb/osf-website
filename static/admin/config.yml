@@ -713,46 +713,6 @@ collections:
               { label: Link, name: link, widget: string }
             ] },
           ] }
-      - file: "src/pages/projects/hosting/index.md"
-        label: "Hosting"
-        name: "hosting"
-        fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "hosting-page-v2" }
-          - { label: SEO, name: seo, widget: object, fields: [
-            { label: "Title", name: "title", widget: string },
-            { label: "Description", name: "description", widget: string },
-            { label: "Url", name: "url", widget: string },
-            { label: "Image", name: "image", widget: image },
-            { label: "Twitter Username", name: "twitterUsername", widget: string },
-          ] }
-          - { label: Header, name: header, widget: object, fields: [
-            { label: "Title", name: title, widget: string },
-            { label: "Sub Title", name: subTitle, widget: string }
-          ] }
-          - { label: First Row, name: row1, widget: object, fields: [
-            { label: "Title", name: title, widget: string },
-            { label: "Text", name: text1, widget: string },
-            { label: List, name: list, widget: list, fields: [
-              { label: "Item", name: item, widget: string },
-            ] },
-            { label: "Text", name: text2, widget: string },
-            { label: "Text", name: text3, widget: string },
-            { label: "Email", name: email, widget: object, fields: [
-              { label: "Text", name: text, widget: string },
-              { label: "Link", name: link, widget: string },
-            ] },
-            { label: Images, name: images, widget: list, fields: [
-              { label: Image, name: image, widget: image }
-            ] }
-          ] }
-          - { label: Second Row, name: row2, widget: object, fields: [
-            { label: "Title", name: title, widget: string },
-            { label: "Text", name: text1, widget: string },
-            { label: "Text", name: text2, widget: string },
-            { label: Images, name: images, widget: list, fields: [
-              { label: Image, name: image, widget: image }
-            ] }
-          ] }
   - name: "generic-four-open-pages"
     label: "Four Opens Pages"
     folder: "src/pages/four-opens/"

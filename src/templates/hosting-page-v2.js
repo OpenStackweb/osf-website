@@ -16,7 +16,7 @@ import OurNetworkSection from "../components/Hosting/OurNetworkSection";
 import { getSponsorhipTypes } from "../actions/sponsor-actions";
 import OurTrackRecordSection from "../components/Hosting/OurTrackRecordSection";
 import OurFocusSection from "../components/Hosting/OurFocusSection";
-import OurServicesSection from "../components/Hosting/OurServicesSection";
+import AnnualReportsSection from "../components/Hosting/AnnualReportsSection";
 import JourneySection from "../components/Hosting/JourneySection";
 import ProjectsSubNav from "../components/ProjectsSubNav";
 
@@ -56,7 +56,7 @@ export const HostingPageV2Template = ({ sponsors = [], isLoggedUser }) => {
           <OurTrackRecordSection />
           <JourneySection />
           <OurFocusSection />
-          <OurServicesSection />
+          <AnnualReportsSection />
           <HostingProjectV2 />
         </div>
       </main>

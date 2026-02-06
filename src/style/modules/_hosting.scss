@@ -731,6 +731,32 @@
                         color: #FFFFFF;
                     }
                 }
+
+                .annual-report-item {
+                    margin-bottom: 10px;
+
+                    .annual-report-link {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 19px;
+                        letter-spacing: 0.3px;
+                        color: #000000;
+                        text-decoration: none;
+                        display: block;
+                        transition: color 0.2s ease;
+
+                        &:hover {
+                            color: #45B65C;
+                            text-decoration: underline;
+                        }
+
+                        @media (max-width: 991px) and (min-width: 768px) {
+                            font-size: 11px;
+                        }
+                    }
+                }
             }
         }
     }

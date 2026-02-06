@@ -18,7 +18,6 @@ import OurTrackRecordSection from "../components/Hosting/OurTrackRecordSection";
 import OurFocusSection from "../components/Hosting/OurFocusSection";
 import AnnualReportsSection from "../components/Hosting/AnnualReportsSection";
 import JourneySection from "../components/Hosting/JourneySection";
-import ProjectsSubNav from "../components/ProjectsSubNav";
 
 import '../style/modules/_hosting.scss';
 
@@ -37,7 +36,6 @@ export const HostingPageV2Template = ({ sponsors = [], isLoggedUser }) => {
       <div className="wrapper project-background">
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
-        <ProjectsSubNav active="hosting" />
         <HeaderV2
           frontImage={heroFront}
           title="host a project with The OpenInfra Foundation"

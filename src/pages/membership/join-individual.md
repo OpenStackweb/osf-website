@@ -57,8 +57,8 @@ additional:
     many of the OpenInfra Foundation's community activities, such as submitting
     and voting on proposed OpenInfra Summit talks. However, to run for
     leadership positions and vote in elections, you will need to upgrade your
-    account to an Individual Member account (please see  above). Get an
-    OpenStackID to participate in Community Events, without an Individual
+    account to an Individual Member account (please see above). Get an
+    OpenInfraID to participate in Community Events, without an Individual
     Membership.
   button:
     text: Create a Community Account

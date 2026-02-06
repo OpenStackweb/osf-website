@@ -19,7 +19,7 @@ const AnnualReportsSection = () => {
   ];
 
   return (
-    <section className="section our-services">
+    <section className="section our-services" id="annual-reports">
       <div className="container">
         <div className="columns">
           <div className="column is-two-thirds">

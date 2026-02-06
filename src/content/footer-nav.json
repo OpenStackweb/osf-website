@@ -96,6 +96,10 @@
       "title": "About",
       "nav": [
         {
+          "text": "About Us",
+          "link": "/about"
+        },
+        {
           "text": "Governing Board",
           "link": "/about/board/"
         },

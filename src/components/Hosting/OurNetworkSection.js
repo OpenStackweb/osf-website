@@ -1,5 +1,6 @@
 import React from 'react'
 import arrow from "../../img/svg/arrow-left-gray.svg";
+import arrowRed from "../../img/svg/arrow-left.svg";
 import networkImg from "../../img/network.png";
 import LinkComponent from "../LinkComponent";
 import Slideshow from "../Slideshow";
@@ -38,15 +39,7 @@ const OurNetworkSection = ({sponsors}) => {
                         VAST NETWORK OF Organizations Driving Open Source Infrastructure
                     </h2>
                     <p className="body">
-                        When you host your project with the OpenInfra Foundation, you’re tapping into a vast network of
-                        open
-                        infrastructure operators. This broad ecosystem has a vested interest in not only supporting the
-                        set of open
-                        source projects they currently rely on to power their businesses, but are looking for the next
-                        solution to
-                        take their efforts to the next level. OpenInfra projects have an inside track to proof of
-                        concept (POC) and
-                        production use at some of the most impactful companies in the world.
+                        The OpenInfra Foundation is supported by a vast network of members and organizations who are committed to advancing open source infrastructure. These members have a vested interest in not only supporting the set of open source projects they currently rely on to power their businesses, but are actively looking for the next solution to take their efforts to the next level. Through their support, OpenInfra Foundation projects have an inside track to proof of concept (POC) and production use at some of the most impactful companies in the world.
                     </p>
                 </div>
                 {sponsors && sponsors.length > 0 &&
@@ -56,10 +49,15 @@ const OurNetworkSection = ({sponsors}) => {
                     </Slideshow>
                 </div>
                 }
-                <div className="link-all-sponsors">
-                    <LinkComponent href="/members">
-                        <span>ALL OPENINFRA FOUNDATION MEMBERS</span><img src={arrow} alt="arrow"/>
+                <div className="membership-actions">
+                    <LinkComponent href="/join/members" className="button button-red">
+                        <span>EXPLORE MEMBERSHIP</span><img src={arrowRed} alt="arrow"/>
                     </LinkComponent>
+                    <div className="link-all-sponsors">
+                        <LinkComponent href="/members">
+                            <span>See all members</span>
+                        </LinkComponent>
+                    </div>
                 </div>
 
             </div>

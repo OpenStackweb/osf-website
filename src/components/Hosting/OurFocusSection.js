@@ -52,22 +52,14 @@ const OurFocusSection = () => {
               />
             </div>
             <p className="body">
-              Some of the largest companies in the world want to work with us because we help projects thrive and truly
+              Some of the largest companies in the world support the OpenInfra Foundation because we help projects thrive and truly
               believe that transparency and open collaboration is the key to building the most effective form of open
               source. This has been proven by the long-term success of OpenStack, the de-facto open source cloud project.
               Collectively we support the largest, most active, and engaged open source infrastructure communities globally.
               <br /><br />
-              The OpenInfra Foundation operates efficiently based on years of experience navigating the intricacies of open collaboration, with a focus on community development. We dedicate our resources towards advancing the project
-              goals and growing adoption. Our strength lies in the communities we serve.
-              <br /><br />
-              We are interested in hosting projects that will help define the next decade of open infrastructure. If your
-              project is openly developed and in the infrastructure space, contact us!
+              The OpenInfra Foundation operates efficiently based on years of experience navigating the intricacies of open collaboration, with a focus on community development. We dedicate our resources towards advancing project
+              goals and growing adoption. Our strength lies in the communities we serve and the members who support our mission.
             </p>
-            <div className="actions">
-              <LinkComponent href="/contact" className="button button-red">
-                <span>CONTACT US</span><img src={arrow} alt="arrow"/>
-              </LinkComponent>
-            </div>
           </div>
         </div>
       </div>

@@ -14,16 +14,20 @@ const HeaderV2 = ({backgroundImage, frontImage, title, subtitle, sublabel, conta
                             <h1 className="title">{title}</h1>
                             <p className="subtitle">{subtitle}</p>
                             <p className="sublabel">{sublabel}</p>
-                            <div className="actions">
-                                {contactLink && (
-                                    <LinkComponent href={contactLink} className="button button-red">
-                                        <span>Contact Us</span><img src={arrow} alt="arrow" />
-                                    </LinkComponent>
-                                )}
-                                <LinkComponent href={moreLink} className="button button-white">
-                                    <span>Learn more</span><img src={rightArrowLearnMore? rightArrow : downArrow} alt="arrow" />
-                                </LinkComponent>
-                            </div>
+                            {(contactLink || moreLink) && (
+                                <div className="actions">
+                                    {contactLink && (
+                                        <LinkComponent href={contactLink} className="button button-red">
+                                            <span>Contact Us</span><img src={arrow} alt="arrow" />
+                                        </LinkComponent>
+                                    )}
+                                    {moreLink && (
+                                        <LinkComponent href={moreLink} className="button button-white">
+                                            <span>Learn more</span><img src={rightArrowLearnMore? rightArrow : downArrow} alt="arrow" />
+                                        </LinkComponent>
+                                    )}
+                                </div>
+                            )}
                         </div>
                         <div className="column is-half image-wrapper" style={{backgroundImage: `url(${backgroundImage})`}}>
                             <img src={frontImage} className="image" alt="hero image" />

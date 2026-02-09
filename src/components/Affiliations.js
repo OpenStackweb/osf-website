@@ -109,7 +109,7 @@ const Affiliations = class extends React.Component {
                     For our purposes, an affiliation is defined as any company where you are an officer, director or
                     employee, or any person or company that has paid you more than $60,000 USD as an independent
                     contractor in the last 12 months. Please list all affiliations which meet this criteria. If you're
-                    not being paid to work on OpenStack please put "Unaffiliated".
+                    not being paid to work on OpenInfra projects please put "Unaffiliated".
                 </p>
             </div>
         );

@@ -35,7 +35,7 @@ const PlatinumMembersSection2 = class extends React.Component {
         </div>
         <div className="home-v2-slider-container">
           <div className="home-v2-slider-body">
-            <div className="home-v2-slider">
+            <div className="home-v2-slider home-v2-slider-platinum">
               {subProject?.sponsorship_types
                 .sort((a, b) => a.order - b.order)
                 .map((t, tierIndex) => {

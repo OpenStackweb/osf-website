@@ -9,7 +9,6 @@ import SEO from '../components/SEO'
 
 import { connect } from "react-redux";
 
-import OurFocusSection4 from '../components/HomeV2/OurFocusSection4'
 import SFASection from '../components/HomeV2/SFASection'
 import ProjectsSection from '../components/HomeV2/ProjectsSection'
 import QuotesSection from '../components/HomeV2/QuotesSection'
@@ -32,8 +31,6 @@ export const IndexPageTemplate = ({
 
     <main className="main home-v2-body-wrapper">
       <div className="content">
-
-        <OurFocusSection4 />
 
         <SFASection />
 

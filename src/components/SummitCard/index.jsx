@@ -11,45 +11,51 @@ const SummitCard = ({
   background,
   summit,
   cardStyles,
-  link = "https://www.lfopensource.cn/kubecon-cloudnativecon-openinfra-summit-pytorch-conference-china/",
 }) => {
   if (!summit) return null;
 
-  const { date, location, notification } = summit;
+  const { date, location, notification, imageLink } = summit;
 
   return (
-    <LinkComponent href={link}>
-      <section className="summit-card-wrapper" style={cardStyles}>
+    <section className="summit-card-wrapper" style={cardStyles}>
+      {imageLink ?
+        <LinkComponent href={imageLink}>
+          <div
+            className="summit-card-image"
+            style={{ backgroundImage: `url(${background}` }}
+          />
+        </LinkComponent>
+        :
         <div
           className="summit-card-image"
           style={{ backgroundImage: `url(${background}` }}
         />
-        <div
-          className={`summit-card-info ${notification?.text ? "" : "no-notification"}`}
-        >
-          <div className="summit-card-info-wrapper">
-            <span>
-              <img src={calendarIcon} /> {date}
-            </span>
-            <span>
-              <img src={locationIcon} /> {location}
-            </span>
-          </div>
+      }
+      <div
+        className={`summit-card-info ${notification?.text ? "" : "no-notification"}`}
+      >
+        <div className="summit-card-info-wrapper">
+          <span>
+            <img src={calendarIcon} /> {date}
+          </span>
+          <span>
+            <img src={locationIcon} /> {location}
+          </span>
         </div>
-        {notification?.text && (
-          <div className="summit-card-notification">
-            <span dangerouslySetInnerHTML={{ __html: notification.text }} />
-            {notification?.button.text && (
-              <RoundedButton
-                link={notification.button.link}
-                text={notification.button.text}
-                className="summit-card-button"
-              />
-            )}
-          </div>
-        )}
-      </section>
-    </LinkComponent>
+      </div>
+      {notification?.text && (
+        <div className="summit-card-notification">
+          <span dangerouslySetInnerHTML={{ __html: notification.text }} />
+          {notification?.button.text && (
+            <RoundedButton
+              link={notification.button.link}
+              text={notification.button.text}
+              className="summit-card-button"
+            />
+          )}
+        </div>
+      )}
+    </section>
   );
 };
 

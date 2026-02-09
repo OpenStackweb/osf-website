@@ -56,8 +56,8 @@ export const HostingPageV2Template = ({ sponsors = [], isLoggedUser }) => {
           <FourOpensSection />
           <OurNetworkSection sponsors={platAndGoldCompanies} />
           <OurFocusSection />
-          <AnnualReportsSection />
           <HostingProjectV2 />
+          <AnnualReportsSection />
         </div>
       </main>
     </div>

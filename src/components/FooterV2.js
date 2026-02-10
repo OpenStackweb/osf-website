@@ -102,6 +102,9 @@ const FooterV2 = class extends React.Component {
                 <h6>About</h6>
                 <ul>
                   <li>
+                    <a href="/about">About Us</a>
+                  </li>
+                  <li>
                     <a href="/about/board/">Governing Board</a>
                   </li>
                   <li>

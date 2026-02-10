@@ -24,7 +24,6 @@ import HybridCloudPagePreview from './preview-templates/HybridCloudPagePreview'
 import ElectionPagePreview from './preview-templates/ElectionPagePreview'
 import ContributorsPagePreview from './preview-templates/ContributorsPagePreview'
 import AnnualReportPagePreview from './preview-templates/AnnualReportPagePreview'
-import ProjectsContactPagePreview from './preview-templates/ProjectsContactPagePreview'
 import SummitLandingPagePreview from './preview-templates/SummitLandingPagePreview'
 import OpenInfraDaysPagePreview from './preview-templates/OpenInfraDaysPagePreview'
 
@@ -56,6 +55,5 @@ CMS.registerPreviewTemplate('hybrid-cloud-page', HybridCloudPagePreview)
 CMS.registerPreviewTemplate('electionPage', ElectionPagePreview)
 CMS.registerPreviewTemplate('contributors-pages', ContributorsPagePreview)
 CMS.registerPreviewTemplate('annual-report-pages', AnnualReportPagePreview)
-CMS.registerPreviewTemplate('projects-contact', ProjectsContactPagePreview)
 CMS.registerPreviewTemplate('summit-landing-page', SummitLandingPagePreview)
 CMS.registerPreviewTemplate('openinfra-days', OpenInfraDaysPagePreview)

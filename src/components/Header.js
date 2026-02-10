@@ -57,8 +57,15 @@ const Header = class extends React.Component {
                     </h3>
                     <div className="hero-entry">
                       <p>
-                        We are a <b>non-profit organization</b> providing a{" "}
-                        <b>neutral, open environment</b> for organizations,
+                        As a part of the{" "}
+                        <LinkComponent href="https://linuxfoundation.org" target="_blank" rel="noopener noreferrer" className="hero-entry-linux-link">
+                          Linux Foundation
+                        </LinkComponent>
+                        , we are a{" "}
+                        <LinkComponent href="/about" className="hero-entry-about-link">
+                          <b>neutral, open environment</b>
+                        </LinkComponent>{" "}
+                        for organizations,
                         developers, and users to build open source
                         infrastructure software together.{" "}
                       </p>

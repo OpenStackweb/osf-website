@@ -10,15 +10,13 @@ import SEO from '../components/SEO';
 import HostingProjectV2 from '../components/HostingProjectV2';
 import heroFront from '../img/hosting-hero-img.png';
 import BuildSection from "../components/Hosting/BuildSection";
+import LinkComponent from '../components/LinkComponent';
 import OurModelSection from "../components/Hosting/OurModelSection";
 import FourOpensSection from "../components/Hosting/FourOpensSection";
 import OurNetworkSection from "../components/Hosting/OurNetworkSection";
 import { getSponsorhipTypes } from "../actions/sponsor-actions";
-import OurTrackRecordSection from "../components/Hosting/OurTrackRecordSection";
 import OurFocusSection from "../components/Hosting/OurFocusSection";
-import OurServicesSection from "../components/Hosting/OurServicesSection";
-import JourneySection from "../components/Hosting/JourneySection";
-import ProjectsSubNav from "../components/ProjectsSubNav";
+import AnnualReportsSection from "../components/Hosting/AnnualReportsSection";
 
 import '../style/modules/_hosting.scss';
 
@@ -37,15 +35,18 @@ export const HostingPageV2Template = ({ sponsors = [], isLoggedUser }) => {
       <div className="wrapper project-background">
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />
-        <ProjectsSubNav active="hosting" />
-        <HeaderV2
-          frontImage={heroFront}
-          title="host a project with The OpenInfra Foundation"
-          subtitle="We build communities who write infrastructure software that runs in production. Let us build a strong open source community around your project. "
-          sublabel="Ready to hear more? "
-          contactLink="/projects/contact"
-          moreLink="#building"
-        />
+        <div className="about-page-hero">
+          <HeaderV2
+            frontImage={heroFront}
+            title="About The OpenInfra Foundation"
+            subtitle={
+              <>
+                We build communities who write infrastructure software that runs in production. With over 110,000 members in 187 countries, we support the largest, most active, and engaged open source infrastructure communities globally. OpenInfra Foundation is part of the nonprofit{' '}
+                <LinkComponent href="https://linuxfoundation.org" target="_blank" rel="noopener noreferrer" style={{ color: '#E61E24', textDecoration: 'underline' }}>Linux Foundation</LinkComponent>.
+              </>
+            }
+          />
+        </div>
       </div>
 
       <main className="main">
@@ -54,11 +55,9 @@ export const HostingPageV2Template = ({ sponsors = [], isLoggedUser }) => {
           <OurModelSection />
           <FourOpensSection />
           <OurNetworkSection sponsors={platAndGoldCompanies} />
-          <OurTrackRecordSection />
-          <JourneySection />
           <OurFocusSection />
-          <OurServicesSection />
           <HostingProjectV2 />
+          <AnnualReportsSection />
         </div>
       </main>
     </div>

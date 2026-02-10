@@ -102,7 +102,7 @@ const ApproachSection = () => {
           <p className="body">
             We’ve found that the services listed above cover most projects, but we know that every project community
             is unique and services needed will vary. If you’re looking for a service that isn’t listed here,{' '}
-            <LinkComponent href="/projects/contact">let us know!</LinkComponent>
+            <LinkComponent href="/contact">let us know!</LinkComponent>
           </p>
         </div>
       </div>

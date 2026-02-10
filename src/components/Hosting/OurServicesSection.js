@@ -29,11 +29,6 @@ const OurServicesSection = () => {
               the globe. Projects can choose a package of services that fits their unique needs and ambitions, ranging
               from marketing to community management to development support services, and more.
             </p>
-            <div className="link-all-projects">
-              <LinkComponent href="/projects/services">
-                <span>READ ABOUT PROJECT SERVICES</span><img src={arrowGray} alt="arrow"/>
-              </LinkComponent>
-            </div>
           </div>
           <div className="column is-one-third">
             <div className="checklist-box">
@@ -50,9 +45,6 @@ const OurServicesSection = () => {
                 <CheckLabel label="Community Management" />
                 <CheckLabel label="Program Management" />
                 <CheckLabel label="Development Support" />
-                <LinkComponent href="/projects/services" className="button button-green">
-                  <span>ALL PROJECT SERVICES</span><img src={arrow} alt="arrow"/>
-                </LinkComponent>
               </div>
             </div>
           </div>

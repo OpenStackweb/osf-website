@@ -32,11 +32,6 @@ const OurModelSection = () => {
             <p className="caption">Balancing the 3 Forces creates compounding growth</p>
           </div>
         </div>
-        <div className="actions">
-          <LinkComponent href="/projects/funding" className="button button-red">
-            <span>MORE ABOUT PROJECT FUNDING</span><img src={arrow} alt="arrow"/>
-          </LinkComponent>
-        </div>
       </div>
     </section>
   )

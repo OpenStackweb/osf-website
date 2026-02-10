@@ -434,6 +434,12 @@ exports.createSchemaCustomization = ({actions}) => {
       hero: MarkdownRemarkFrontmatterHero
       sponsorshipSection: MarkdownRemarkFrontmatterSponsorshipSection
       whatToExpect: MarkdownRemarkFrontmatterWhatToExpect
+      row1: MarkdownRemarkFrontmatterRow1
+      row2: MarkdownRemarkFrontmatterRow2
+      row3: MarkdownRemarkFrontmatterRow3
+      row4: MarkdownRemarkFrontmatterRow4
+      row5: MarkdownRemarkFrontmatterRow5
+      row6: MarkdownRemarkFrontmatterRow6
     }
     type Category {
       label: String
@@ -553,6 +559,177 @@ exports.createSchemaCustomization = ({actions}) => {
       banner: MarkdownRemarkFrontmatterUpcomingMeetupsBanner
       meetups: [MarkdownRemarkFrontmatterUpcomingMeetupsMeetups]
     }
+    # Resolve frontmatter seo.image path (string) to File so childImageSharp/publicURL work
+    type MarkdownRemarkFrontmatterSeo @infer {
+      image: File @fileByRelativePath
+    }
+    # Summit/summit-coming-soon/vancouver header and form image/icon as File
+    type MarkdownRemarkFrontmatterHeaderDate @infer {
+      icon: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterHeaderLocation @infer {
+      icon: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterHeader @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterForm @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterTopicsTopicList @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterPreviousSummitsSummitList @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterSponsorshipsSponsorList @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterAbout @infer {
+      image: File @fileByRelativePath
+    }
+    # Summit-landing-page: resolve image/background/src to File
+    type MarkdownRemarkFrontmatterHeaderImage @infer {
+      backgroundImage: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterHeaderImageLogo @infer {
+      src: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterSubHeaderBadge @infer {
+      src: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterSubHeaderFooter @infer {
+      src: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterSponsorBanner @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterPastSummitsSummits @infer {
+      background: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterMiddleBanner @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterPreviousSummitsSummits @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterBottomBanner @infer {
+      background: File @fileByRelativePath
+    }
+    # Other templates: resolve image/picture/logo/img to File where inferred as String
+    type MarkdownRemarkFrontmatterRow1Images @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterRow2Images @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterIndividualMember @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterCommunitiesLogos @infer {
+      img: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterInvolvedSlide @infer {
+      picture: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterHeadlineSponsorsSponsors @infer {
+      logo: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterSupportingSponsorsSponsors @infer {
+      logo: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterMembers @infer {
+      picture: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterWhyJoinItems @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterQuotePeople @infer {
+      picture: File @fileByRelativePath
+      company: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterHelp @infer {
+      picture: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterUpcomingDaysEventsHeaderImage @infer {
+      img: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterUpcomingMeetupsMeetups @infer {
+      background: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterPastMeetupsMeetups @infer {
+      background: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterProjectList @infer {
+      logo: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterProjectListFeatures @infer {
+      icon: File @fileByRelativePath
+    }
+    # Row types with all optional fields for services-page template
+    type MarkdownRemarkFrontmatterRow1 @infer {
+      title1: String
+      text1: String
+      title2: String
+      text2: String
+      images: [MarkdownRemarkFrontmatterRow1Images]
+    }
+    type MarkdownRemarkFrontmatterRow2 @infer {
+      title: String
+      text: String
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterRow3 @infer {
+      title: String
+      text: String
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterRow4 @infer {
+      title: String
+      text1: String
+      text2: String
+      link: MarkdownRemarkFrontmatterRow4Link
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterRow4Link {
+      url: String
+      text: String
+    }
+    type MarkdownRemarkFrontmatterRow5 @infer {
+      title: String
+      text1: String
+      text2: String
+      text3: String
+      link1: MarkdownRemarkFrontmatterRow5Link
+      link2: MarkdownRemarkFrontmatterRow5Link
+      images: [MarkdownRemarkFrontmatterRow5Images]
+    }
+    type MarkdownRemarkFrontmatterRow5Link {
+      text: String
+      url: String
+    }
+    type MarkdownRemarkFrontmatterRow5Images @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterRow6 @infer {
+      title1: String
+      text1: String
+      title2: String
+      text2: String
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterBanner @infer {
+      image: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterSupportMembers @infer {
+      picture: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterOpenInfraEventsData @infer {
+      logo: File @fileByRelativePath
+    }
+    type MarkdownRemarkFrontmatterUpcomingEvents @infer {
+      image: File @fileByRelativePath
+    }
     `
   createTypes(typeDefs)
 }
@@ -635,6 +812,55 @@ exports.createPages = ({actions, graphql}) => {
     createRedirect({
       fromPath: `/election/candidates/gold`,
       toPath: `/election/${electionYear}-individual-director-election/candidates/gold`,
+    });
+
+    // Redirect deleted project pages to /about
+    createRedirect({
+      fromPath: `/projects/services`,
+      toPath: `/about`,
+      isPermanent: true,
+    });
+
+    createRedirect({
+      fromPath: `/projects/services/*`,
+      toPath: `/about`,
+      isPermanent: true,
+    });
+
+    createRedirect({
+      fromPath: `/projects/funding`,
+      toPath: `/about`,
+      isPermanent: true,
+    });
+
+    createRedirect({
+      fromPath: `/projects/funding/*`,
+      toPath: `/about`,
+      isPermanent: true,
+    });
+
+    createRedirect({
+      fromPath: `/projects/contact`,
+      toPath: `/about`,
+      isPermanent: true,
+    });
+
+    createRedirect({
+      fromPath: `/projects/contact/*`,
+      toPath: `/about`,
+      isPermanent: true,
+    });
+
+    createRedirect({
+      fromPath: `/projects/hosting`,
+      toPath: `/about`,
+      isPermanent: true,
+    });
+
+    createRedirect({
+      fromPath: `/projects/hosting/*`,
+      toPath: `/about`,
+      isPermanent: true,
     });
   });
 

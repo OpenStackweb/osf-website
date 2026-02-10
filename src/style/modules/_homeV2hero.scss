@@ -49,6 +49,26 @@
             font-family: 'Roboto Flex', sans-serif;
             font-weight: 200;
         }
+        a.hero-entry-linux-link,
+        .hero-entry-linux-link {
+            color: #FFB325 !important;
+            font-weight: 700;
+            text-decoration: none;
+            &:hover {
+                color: #FFB325 !important;
+                text-decoration: underline;
+            }
+        }
+        a.hero-entry-about-link,
+        .hero-entry-about-link {
+            color: #FFB325 !important;
+            font-weight: 700;
+            text-decoration: none;
+            &:hover {
+                color: #FFB325 !important;
+                text-decoration: underline;
+            }
+        }
     }
     .hero-actions {
         display: flex;

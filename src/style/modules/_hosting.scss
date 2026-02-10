@@ -271,28 +271,106 @@
 
         .sponsors-wrapper {
             width: 100%;
-            margin: 80px 0 100px;
+            margin: 80px 0 40px;
+
+            .sponsors-label {
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 20px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                text-align: left;
+                margin-bottom: 20px;
+                color: #000000;
+            }
 
             img {
                 max-width: 115px;
+                max-height: 114px;
                 margin: 0 30px;
+                object-fit: contain;
+            }
+        }
+
+        .membership-actions {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+
+            .button-red {
+                align-items: center;
+                justify-content: center;
+                padding: 0 30px;
+                gap: 10px;
+                height: 40px;
+                background: #E61E24;
+                border-radius: 37px;
+                display: inline-flex;
+                margin: 0;
+                line-height: 40px;
+
+                span {
+                    font-family: 'Roboto', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 40px;
+                    text-align: center;
+                    letter-spacing: 0.3px;
+                    color: #FFFFFF;
+                    display: inline-flex;
+                    align-items: center;
+                    vertical-align: middle;
+                }
+
+                img {
+                    display: inline-flex;
+                    align-items: center;
+                    vertical-align: middle;
+                }
             }
         }
 
         .link-all-sponsors {
             color: black;
             opacity: 0.8;
+            display: flex;
+            align-items: center;
+            height: 40px;
+            margin: 0;
+            line-height: 40px;
+
+            a {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                height: 100%;
+                margin: 0;
+                line-height: 40px;
+            }
 
             a span {
                 font-family: 'Roboto', sans-serif;
                 font-style: normal;
                 font-weight: 700;
                 font-size: 12px;
-                line-height: 19px;
+                line-height: 40px;
                 letter-spacing: 0.3px;
                 color: #848484;
                 margin-right: 20px;
                 text-align: center;
+                display: inline-flex;
+                align-items: center;
+                vertical-align: middle;
+            }
+
+            a img {
+                display: inline-flex;
+                align-items: center;
+                vertical-align: middle;
             }
         }
     }
@@ -731,7 +809,39 @@
                         color: #FFFFFF;
                     }
                 }
+
+                .annual-report-item {
+                    margin-bottom: 10px;
+
+                    .annual-report-link {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 19px;
+                        letter-spacing: 0.3px;
+                        color: #000000;
+                        text-decoration: none;
+                        display: block;
+                        transition: color 0.2s ease;
+
+                        &:hover {
+                            color: #45B65C;
+                            text-decoration: underline;
+                        }
+
+                        @media (max-width: 991px) and (min-width: 768px) {
+                            font-size: 11px;
+                        }
+                    }
+                }
             }
+        }
+    }
+
+    .about-page-hero {
+        .hero-main-v2 {
+            padding-bottom: 0;
         }
     }
 }

@@ -24,21 +24,6 @@ const ProjectsSubNav = ({active}) => {
           Hosting
         </LinkComponent>
       </li>
-      <li>
-        <LinkComponent href="/projects/services" className={`link ${isActive('services')}`}>
-          Services
-        </LinkComponent>
-      </li>
-      <li>
-        <LinkComponent href="/projects/funding" className={`link ${isActive('funding')}`}>
-          Funding
-        </LinkComponent>
-      </li>
-      <li>
-        <LinkComponent href="/projects/contact" className="link registration">
-          Contact us
-        </LinkComponent>
-      </li>
     </ul>
   );
 

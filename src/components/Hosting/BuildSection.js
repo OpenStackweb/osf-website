@@ -16,7 +16,8 @@ const BuildSection = () => {
               <LinkComponent href="#our-model">sustainability model (3 Forces)</LinkComponent>,
               our <LinkComponent href="#four-opens">collaboration principles (4 Opens)</LinkComponent>, and{' '}
               <LinkComponent href="#our-network">our network</LinkComponent> of developers, companies and operators
-              around open infrastructure.
+              around open infrastructure. Read about recent work and accomplishments in our{' '}
+              <LinkComponent href="#annual-reports">Annual Reports</LinkComponent>.
             </p>
           </div>
         </div>

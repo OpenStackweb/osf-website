@@ -81,89 +81,93 @@ const CommunitiesSection = class extends React.Component {
             </div>
           </div>
         </div>
-        <div className="home-v2-slider-container">
-          <div className="home-v2-slider-body">
-            <div className="home-v2-slider">
-              {subProject?.sponsorship_types
-                .sort((a, b) => a.order - b.order)
-                .map((t, tierIndex) => {
-                  if (t.name == "Gold Members") {
-                    return (
-                      <div
-                        className="slide-track home-v2-gold-sponsor-container slide-track-gold-2 slide-track-offset-gold"
-                        key={`company-tier-${tierIndex}`}
-                      >
-                        {t.supporting_companies
-                          .sort((a, b) => a.order - b.order)
-                          .map(({ company }, index) => {
-                            if (index >= 9) {
-                              return (
-                                <div
-                                  className="home-v2-gold-sponsor slide slide-gold"
-                                  key={`company-tier-${tierIndex}-${index}`}
-                                >
-                                  <img
-                                    src={
-                                      company.big_logo
-                                        ? company.big_logo
-                                        : company.logo
-                                    }
-                                    alt={company.name}
-                                  />
-                                </div>
-                              );
-                            }
-                          })}
-                        {t.supporting_companies
-                          .sort((a, b) => a.order - b.order)
-                          .map(({ company }, index) => {
-                            if (index >= 9) {
-                              return (
-                                <div
-                                  className="home-v2-gold-sponsor slide slide-gold"
-                                  key={`company-tier-${tierIndex}-${index}`}
-                                >
-                                  <img
-                                    src={
-                                      company.big_logo
-                                        ? company.big_logo
-                                        : company.logo
-                                    }
-                                    alt={company.name}
-                                  />
-                                </div>
-                              );
-                            }
-                          })}
+        {subProject?.sponsorship_types
+          ?.find((t) => t.name === "Gold Members")
+          ?.supporting_companies?.length > 9 && (
+          <div className="home-v2-slider-container">
+            <div className="home-v2-slider-body">
+              <div className="home-v2-slider">
+                {subProject.sponsorship_types
+                  .sort((a, b) => a.order - b.order)
+                  .map((t, tierIndex) => {
+                    if (t.name == "Gold Members") {
+                      return (
+                        <div
+                          className="slide-track home-v2-gold-sponsor-container slide-track-gold-2 slide-track-offset-gold"
+                          key={`company-tier-${tierIndex}`}
+                        >
+                          {t.supporting_companies
+                            .sort((a, b) => a.order - b.order)
+                            .map(({ company }, index) => {
+                              if (index >= 9) {
+                                return (
+                                  <div
+                                    className="home-v2-gold-sponsor slide slide-gold"
+                                    key={`company-tier-${tierIndex}-${index}`}
+                                  >
+                                    <img
+                                      src={
+                                        company.big_logo
+                                          ? company.big_logo
+                                          : company.logo
+                                      }
+                                      alt={company.name}
+                                    />
+                                  </div>
+                                );
+                              }
+                            })}
+                          {t.supporting_companies
+                            .sort((a, b) => a.order - b.order)
+                            .map(({ company }, index) => {
+                              if (index >= 9) {
+                                return (
+                                  <div
+                                    className="home-v2-gold-sponsor slide slide-gold"
+                                    key={`company-tier-${tierIndex}-${index}`}
+                                  >
+                                    <img
+                                      src={
+                                        company.big_logo
+                                          ? company.big_logo
+                                          : company.logo
+                                      }
+                                      alt={company.name}
+                                    />
+                                  </div>
+                                );
+                              }
+                            })}
 
-                        {t.supporting_companies
-                          .sort((a, b) => a.order - b.order)
-                          .map(({ company }, index) => {
-                            if (index >= 9) {
-                              return (
-                                <div
-                                  className="home-v2-gold-sponsor slide slide-gold"
-                                  key={`company-tier-${tierIndex}-${index}`}
-                                >
-                                  <img
-                                    src={
-                                      company.big_logo
-                                        ? company.big_logo
-                                        : company.logo
-                                    }
-                                    alt={company.name}
-                                  />
-                                </div>
-                              );
-                            }
-                          })}
-                      </div>
-                    );
-                  }
-                })}
+                          {t.supporting_companies
+                            .sort((a, b) => a.order - b.order)
+                            .map(({ company }, index) => {
+                              if (index >= 9) {
+                                return (
+                                  <div
+                                    className="home-v2-gold-sponsor slide slide-gold"
+                                    key={`company-tier-${tierIndex}-${index}`}
+                                  >
+                                    <img
+                                      src={
+                                        company.big_logo
+                                          ? company.big_logo
+                                          : company.logo
+                                      }
+                                      alt={company.name}
+                                    />
+                                  </div>
+                                );
+                              }
+                            })}
+                        </div>
+                      );
+                    }
+                  })}
+              </div>
             </div>
           </div>
-        </div>
+        )}
         <div className="container">
           <div className="home-v2-community-btn-container">
             <a href="/join/">

@@ -7,7 +7,7 @@ date: 2026-02-10T18:42:12.052Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: "Stewardship, Not Ownership: What I’m Carrying from OpenStack and
     OpenInfra into the PyTorch Foundation"
@@ -17,7 +17,7 @@ seo:
     leading the PyTorch Foundation at a moment when PyTorch is rapidly becoming
     one of the defining infrastructure layers of the AI era.
 ---
-I’m taking on a new role at the Linux Foundation, leading the PyTorch Foundation at a moment when PyTorch is rapidly becoming one of the defining infrastructure layers of the AI era. I’ve written separately about the role itself and the mission of the PyTorch Foundation. Here, I want to focus on something more fundamental: what I’ve learned over more than a decade working on OpenStack and within the OpenInfra community, and how those lessons are shaping the way I approach this next chapter.
+I’m taking on a new role at the Linux Foundation, leading the PyTorch Foundation at a moment when PyTorch is rapidly becoming one of the defining infrastructure layers of the AI era. [I’ve written separately](https://pytorch.org/blog/why-im-joining-the-pytorch-foundation/?_gl=1*odw3pz*_up*MQ..*_ga*Mjk5NzI4MzQ1LjE3NzA4MjkyMDY.*_ga_469Y0W5V62*czE3NzA4MjkyMDUkbzEkZzEkdDE3NzA4MjkyMjckajM4JGwwJGgw) about the role itself and the mission of the PyTorch Foundation. Here, I want to focus on something more fundamental: what I’ve learned over more than a decade working on OpenStack and within the OpenInfra community, and how those lessons are shaping the way I approach this next chapter.
 
 I’ve spent much of my career identifying the infrastructure layers beneath major technology shifts and helping build open source ecosystems around them. When those layers matter, they matter quickly, and the cost of getting them wrong compounds just as fast. This work is about responsibility, stewardship, and making sure success doesn’t outpace the structures needed to sustain it.
 

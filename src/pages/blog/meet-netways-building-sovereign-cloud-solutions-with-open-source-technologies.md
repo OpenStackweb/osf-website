@@ -3,11 +3,11 @@ templateKey: blog-post
 title: "Meet NETWAYS: Building Sovereign Cloud Solutions with Open Source
   Technologies"
 author: Daniel Bodky
-date: 2025-10-02T18:31:01.509Z
+date: 2026-02-12T10:00:00.000Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: "Meet NETWAYS: Building Sovereign Cloud Solutions with Open Source
     Technologies"

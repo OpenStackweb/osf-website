@@ -3,7 +3,7 @@ templateKey: blog-post
 title: "Stewardship, Not Ownership: What I’m Carrying from OpenStack and
   OpenInfra into the PyTorch Foundation"
 author: Mark Collier
-date: 2026-02-10T18:42:12.052Z
+date: 2026-02-11T17:05:50.544Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements

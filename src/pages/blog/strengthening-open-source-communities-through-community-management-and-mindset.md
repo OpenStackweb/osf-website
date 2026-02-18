@@ -40,7 +40,7 @@ Across meetings, OpenInfra staff facilitated introductions between community mem
 
 The Community devroom sessions reflected a mature ecosystem, with participants deeply thinking about sustainability, inclusivity, governance models, and the impact of AI on contribution workflows.
 
-OpenInfra contributed directly to that conversation with Ildiko Vancsa’s session on “[Downstream Mindset vs. Upstream Communities](https://fosdem.org/2026/schedule/event/UTAMGU-downstream_mindset_vs_upstream_communities/),” which resonated strongly with attendees and sparked continued dialogue beyond the room. (Check out [Ildiko’s summary of her session here](https://openinfra.org/blog/strengthening-open-source-community-management).) The appetite for thoughtful governance and practical collaboration models remains strong.
+OpenInfra contributed directly to that conversation with Ildiko Vancsa’s session on “[Downstream Mindset vs. Upstream Communities](https://fosdem.org/2026/schedule/event/UTAMGU-downstream_mindset_vs_upstream_communities/),” which resonated strongly with attendees and sparked continued dialogue beyond the room. (Check out [Ildiko’s summary of her session here](https://openinfra.org/blog/openinfra-community-management).) The appetite for thoughtful governance and practical collaboration models remains strong.
 
 ## Visible, Accessible, and Engaged
 

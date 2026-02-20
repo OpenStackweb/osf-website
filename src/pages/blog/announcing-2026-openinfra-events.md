@@ -10,16 +10,16 @@ hidePost: true
 seo:
   title: Announcing 2026 OpenInfra Events
   url: openinfra.org/blog/2026-openinfra-events
-  description: We’re excited to announce the full list of 2026 OpenInfra events
-    including the OpenInfra Summit, OpenInfra Days and a few more events you can
-    find the OpenInfra community at! These community-powered events unite local
-    and global operators, developers, and users to collaborate and share
-    expertise on building and operating open infrastructure at scale!
+  description: " including the OpenInfra Summit, OpenInfra Days, and a few more
+    events where you can find the OpenInfra community at! These
+    community-powered events unite local and global operators, developers, and
+    users to collaborate and share expertise on building and operating open
+    infrastructure at scale! "
   twitterUsername: "@openinfradev"
 ---
 # Announcing 2026 OpenInfra Events
 
-We’re excited to announce the full list of 2026 OpenInfra events including the OpenInfra Summit, OpenInfra Days and a few more events you can find the OpenInfra community at! These community-powered events unite local and global operators, developers, and users to collaborate and share expertise on building and operating open infrastructure at scale!
+We’re excited to announce the full list of 2026 OpenInfra events including the OpenInfra Summit, OpenInfra Days, and a few more events where you can find the OpenInfra community at! These community-powered events unite local and global operators, developers, and users to collaborate and share expertise on building and operating open infrastructure at scale! Please fill out the form below if you would like to receive notifications on updates regarding these events.
 
 - - -
 

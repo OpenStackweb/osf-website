@@ -27,7 +27,7 @@ We’re excited to announce the full list of 2026 OpenInfra events including the
 
 Since joining the Linux Foundation in 2025, a few new opportunties have eerged for the OpenInfra community to collaborate with the global open source ecosystem! This means that in 2026 you can expect to see co-locations and collaboration with the Cloud Native, Ceph, PyTorch and more!
 
-We will soon be opening registration, CFPs, sponsorships and more for these events to signup to get notified for these updates!
+We will soon be opening registration, CFPs, sponsorships and more for these events to [signup to get notified](https://openinfrafoundation.formstack.com/forms/2026_openinfra_events_updates) for these updates!
 
 - - -
 
@@ -59,9 +59,9 @@ March 2026 | Kata Containers Booth at KubeCon + CloudNativeCon Europe
 
 May 2026 | OpenInfra Forum Sweden
 
-June 2026 | OpenInfra Meetup India at KubeCon + CloudNativeCon India
+June 2026 | OpenInfra Booth & Meetup India at KubeCon + CloudNativeCon India
 
-July 2026 | OpenInfra Meetup Japan at KubeCon + CloudNativeCon Japan
+July 2026 | OpenInfra Booth & Meetup Japan at KubeCon + CloudNativeCon Japan
 
 November 2026 | OpenInfra Track at the ALASCA Summit
 

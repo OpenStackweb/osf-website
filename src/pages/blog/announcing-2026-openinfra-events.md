@@ -9,7 +9,7 @@ category:
 hidePost: true
 seo:
   title: Announcing 2026 OpenInfra Events
-  url: openinfra.org/blog/2026-openinfra-events
+  url: openinfra.org/blog/announcing-2026-openinfra-events
   description: " including the OpenInfra Summit, OpenInfra Days, and a few more
     events where you can find the OpenInfra community at! These
     community-powered events unite local and global operators, developers, and

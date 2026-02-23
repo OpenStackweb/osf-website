@@ -1,7 +1,7 @@
 ---
 title: "OpenInfra at FOSDEM 2026: Community, Collaboration, and Continued Momentum"
 author: Thierry Carrez
-date: 2026-02-23T18:31:50.561Z
+date: 2026-02-23T21:53:57.648Z
 category:
   - value: category-h2Ztx9rpD
     label: Community

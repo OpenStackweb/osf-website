@@ -15,7 +15,7 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
-    date: 2026-03-05T10:00:00.000Z
+    date: 2026-03-05T16:00:00.000Z
     youtubeLink: https://www.youtube.com/watch?v=WM5pYEbiaaw
     youtubeEmbed: https://www.youtube.com/embed/WM5pYEbiaaw?si=z_p9ktY3Rr9bp-0_
     episodeSpeakers: |

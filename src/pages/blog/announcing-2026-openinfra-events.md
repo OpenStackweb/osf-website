@@ -55,19 +55,19 @@ H2 2026 | Ceph x OpenInfra Day North America
 
 **More places to find the OpenInfra Community**
 
-February  2026 | OpenInfra x CNCF Booth & LF Reception at FOSDEM
+February  2026 | OpenInfra x CNCF Booth & LF Reception at [FOSDEM](https://fosdem.org/2026/)
 
-March 2026 | Kata Containers Booth at KubeCon + CloudNativeCon Europe
+March 2026 | Kata Containers Booth at [KubeCon + CloudNativeCon Europe](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/), Booth #1362
 
-April 2026 | Project Teams Gathering (PTG)
+April 2026 | [Project Teams Gathering (PTG)](https://www.meetup.com/pro/openinfradev/)
 
 May 2026 | OpenInfra Forum Sweden
 
-June 2026 | OpenInfra Project Booth & Meetup India at KubeCon + CloudNativeCon India
+June 2026 | OpenInfra Project Booth & Meetup India at [KubeCon + CloudNativeCon India](https://events.linuxfoundation.org/kubecon-cloudnativecon-india/)
 
-July 2026 | OpenInfra Project Booth & Meetup Japan at KubeCon + CloudNativeCon Japan
+July 2026 | OpenInfra Project Booth & Meetup Japan at [KubeCon + CloudNativeCon Japan](https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/)
 
-November 2026 | OpenInfra Track at the ALASCA Summit
+November 2026 | OpenInfra Track at the [ALASCA Summit](https://alasca.cloud/en/alasca-summit-2026)
 
 TBD 2026 | Cloud Operator Days Tokyo (CODT)
 

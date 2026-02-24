@@ -1,5 +1,6 @@
 ---
-title: "OpenInfra at FOSDEM 2026: Community, Collaboration, and Continued Momentum"
+title: 'OLD DON"T USE OpenInfra at FOSDEM 2026: Community, Collaboration, and
+  Continued Momentum'
 author: Thierry Carrez
 date: 2026-02-24T17:01:23.772Z
 category:

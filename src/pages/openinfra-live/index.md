@@ -15,6 +15,30 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2026-03-05T10:00:00.000Z
+    youtubeLink: https://www.youtube.com/watch?v=WM5pYEbiaaw
+    youtubeEmbed: https://www.youtube.com/embed/WM5pYEbiaaw?si=z_p9ktY3Rr9bp-0_
+    episodeSpeakers: |
+      Xu Wang, Ant Group 
+      Janet Kuo, Google 
+      Zvonko Kaiser, NVIDIA 
+      Hema Shankar Bontha, NVIDIA  
+      Host: Mark Collier, Linux Foundation 
+    episodeDescription: >
+      AI agents introduce a fundamentally different risk profile than
+      traditional microservices or batch workloads. With access to models,
+      memory, tools, external APIs, and sometimes direct execution capabilities,
+      agents can observe, reason, and act in ways that expand the attack surface
+      far beyond standard containerized applications. The question is no longer
+      just how to scale AI, but how to securely contain it.
+
+
+      In this live discussion with leaders from Ant Group, NVIDIA, Google, and the Linux Foundation, we’ll explore why traditional container isolation may be insufficient for agent-based systems, and what changes when agents have memory persistence, filesystem access, GPU acceleration, or external execution authority. We’ll examine how approaches like Kata-based agent sandboxes provide lightweight VM isolation to restrict runtime behavior, minimize host visibility, and reduce cross-session risk, including emerging concerns like GPU memory leakage.
+
+
+      From runtime guardrails and privilege boundaries to telemetry capture and performance trade-offs, this session will unpack what “secure-by-design” means for AI agents. Finally, we’ll look ahead: will agent virtualization become a standard layer of AI infrastructure, and are sandboxes destined to become a universal requirement for production AI platforms?
+    episodeTitle: "AI Agent Sandboxes: Securing Memory, GPUs, and Model Access"
+  - hidden: false
     date: 2025-10-02T14:00:12.921Z
     episodeTitle: Introducting OpenStack 2025.2 'Flamingo'
     episodeDescription: >

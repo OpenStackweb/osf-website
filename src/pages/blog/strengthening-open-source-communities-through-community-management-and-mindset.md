@@ -5,6 +5,7 @@ date: 2026-02-24T17:01:23.772Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
+hidePost: false
 seo:
   title: "OpenInfra at FOSDEM 2026: Community, Collaboration, and Continued Momentum"
   description: In 2026, OpenInfra staff were on the ground across FOSDEM devrooms,

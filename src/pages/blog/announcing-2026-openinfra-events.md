@@ -70,3 +70,7 @@ July 2026 | OpenInfra Project Booth & Meetup Japan at KubeCon + CloudNativeCon J
 November 2026 | OpenInfra Track at the ALASCA Summit
 
 TBD 2026 | Cloud Operator Days Tokyo (CODT)
+
+**Thank you!**
+
+None of this would be possible without the incredible energy of the OpenInfra community. From [local meetups](https://www.meetup.com/pro/openinfradev/) to OpenInfra Summits, the vast majority of these events are dreamed up, organized, and executed by the very people who build and use the software.

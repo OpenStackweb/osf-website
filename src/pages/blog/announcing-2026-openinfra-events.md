@@ -21,7 +21,7 @@ seo:
 ---
 # Announcing 2026 OpenInfra Events
 
-We’re excited to announce the current list of 2026 OpenInfra events including the OpenInfra Summit, OpenInfra Days, and a few more events where you can find the OpenInfra community! These community-powered events unite local and global operators, developers, and users to collaborate and share expertise on building and operating open infrastructure at scale! Please fill out the form below if you would like to receive notifications on updates regarding these events.
+We’re excited to announce the current list of 2026 OpenInfra events including the OpenInfra Summit, OpenInfra Days, and a few more events where you can find the OpenInfra community! These community-powered events unite local and global operators, developers, and users to collaborate and share expertise on building and operating open infrastructure at scale!
 
 - - -
 

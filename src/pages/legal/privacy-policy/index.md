@@ -378,10 +378,6 @@ For further information or to lodge a complaint, please contact us at [legalnoti
 
 This policy reflects our commitment to protecting personal data and our dedication to upholding the highest standards of privacy and security.
 
-#### Dispute Resolution
-
-If a privacy complaint or dispute relating to Personal Data received by the Open Infrastructure Foundation in reliance on the Data Privacy Framework (or any of its predecessors) cannot be resolved through our internal processes, we have agreed to participate in the VeraSafe Data Privacy Framework Dispute Resolution Procedure. Subject to the terms of the [VeraSafe Data Privacy Framework Dispute Resolution Procedure](https://verasafe.com/public-resources/dispute-resolution/dispute-resolution-procedure/), VeraSafe will provide appropriate recourse free of charge to you. To file a complaint with VeraSafe and participate in the VeraSafe Data Privacy Framework Dispute Resolution Procedure, please submit the required information here: [https://www.verasafe.com/privacy-services/dispute-resolution/submit-dispute/](https://www.verasafe.com/privacy-services/dispute-resolution/submit-dispute/)
-
 #### Binding Arbitration
 
 If your dispute or complaint related to your Personal Data that we received in reliance on the Data Privacy Framework cannot be resolved by us, nor through the dispute resolution mechanism mentioned above, you may have the right to require that we enter into binding arbitration with you under the Data Privacy Framework “Recourse, Enforcement and Liability” Principle and Annex I of the Data Privacy Framework.

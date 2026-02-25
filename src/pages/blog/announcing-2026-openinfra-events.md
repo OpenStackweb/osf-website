@@ -59,7 +59,7 @@ February  2026 | OpenInfra x CNCF Booth & LF Reception at [FOSDEM](https://fosde
 
 March 2026 | Kata Containers Booth at [KubeCon + CloudNativeCon Europe](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/), Booth #1362
 
-April 2026 | [Project Teams Gathering (PTG)](https://www.meetup.com/pro/openinfradev/)
+April 2026 | [Project Teams Gathering (PTG)](https://openinfra.org/ptg)
 
 May 2026 | OpenInfra Forum Sweden
 

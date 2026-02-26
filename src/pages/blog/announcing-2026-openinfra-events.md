@@ -69,7 +69,7 @@ July 2026 | OpenInfra Project Booth & Meetup Japan at [KubeCon + CloudNativeCon 
 
 November 2026 | OpenInfra Track at the [ALASCA Summit](https://alasca.cloud/en/alasca-summit-2026)
 
-TBD 2026 | Cloud Operator Days Tokyo (CODT)
+August - September 2026 | Cloud Operator Days Tokyo (CODT)
 
 **Thank you!**
 

@@ -23,7 +23,7 @@ For OpenInfra members and the broader ecosystem, this presents a clear opportuni
 
 [Read more](https://superuser.openinfra.org/articles/africa-a-strategic-growth-opportunity-for-open-infrastructure/) about OpenInfra opportunities in Africa and how to get involved.
 
-OpenInfra Foundation News
+# OpenInfra Foundation News
 
 * Please welcome our newest Silver Member, [Leaseweb](http://leaseweb.com), a Dutch public and private cloud hosting company that’s been in business for 25 years. Welcome to the OpenInfra Foundation!
 * On September 8-9, [OpenInfra Summit Asia | KubeCon | CloudNativeCon | PyTorch Conference China](https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/) will take place in Shanghai. This flagship event unites adopters, technologists, and community members from across the region to drive innovation in open source infrastructure, cloud native computing, and open source AI around common, industry-wide use cases like nextgen AI. Over two days, the OpenInfra community will collaborate with the PyTorch and CNCF communities across dozens of open technologies, including two of the most active open source projects to exist—Kubernetes and OpenStack—to shape the future of open source software and technology as a whole.

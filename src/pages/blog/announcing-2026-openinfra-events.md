@@ -6,7 +6,7 @@ date: 2026-02-20T20:24:57.214Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: Announcing 2026 OpenInfra Events
   url: https://openinfra.org/blog/announcing-2026-openinfra-events

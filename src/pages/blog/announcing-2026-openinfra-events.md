@@ -43,7 +43,7 @@ We will soon be opening registration, CFPs, sponsorships and more for these even
 
 February 2026 | OpenInfra Days DRC
 
-April 2026 | OpenInfra Day Nigeria
+April 2026 | [OpenInfra Day Nigeria](https://www.meetup.com/openstack-nigeria-user-group/events/313525373/)
 
 July 2026 | KCD x OpenInfra Day Vietnam
 

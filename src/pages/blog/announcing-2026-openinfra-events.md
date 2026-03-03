@@ -61,7 +61,7 @@ March 2026 | Kata Containers Booth at [KubeCon + CloudNativeCon Europe](https://
 
 April 2026 | [Project Teams Gathering (PTG)](https://openinfra.org/ptg)
 
-May 2026 | OpenInfra Forum Sweden
+May 2026 | [OpenInfra Forum Sweden](https://www.meetup.com/openinfra-user-group-sweden/events/313615139/)
 
 June 2026 | OpenInfra Project Booth & Meetup India at [KubeCon + CloudNativeCon India](https://events.linuxfoundation.org/kubecon-cloudnativecon-india/)
 

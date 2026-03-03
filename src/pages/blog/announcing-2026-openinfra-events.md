@@ -35,7 +35,7 @@ We will soon be opening registration, CFPs, sponsorships and more for these even
 
 **Join us at the OpenInfra Summit Asia**
 
-8-9 September 2026 | [KubeCon + CloudNativeCon + OpenInfra Summit Asia + PyTorch Conference](https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/)
+* 8-9 September 2026 | [KubeCon + CloudNativeCon + OpenInfra Summit Asia + PyTorch Conference](https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/)
 
 **Attend an OpenInfra Day**
 

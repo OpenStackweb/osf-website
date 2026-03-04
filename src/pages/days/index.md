@@ -77,12 +77,24 @@ upcomingDaysEvents:
 upcomingMeetups:
   title: Upcoming OpenInfra Days
   banner:
-    title: 2026 OPENINFRA DAYS COMING SOON
+    title: 2026 OPENINFRA DAYS
     content: Sign up to get notified when the list of 2026 OpenInfra Days is released!
     button:
       text: SIGN UP TO BE NOTIFIED
       url: https://openinfra.org/newsletter/
-  meetups: null
+  meetups:
+    - background: /img/cover-02-1600x900.png
+      date: May 21, 2026
+      link: https://www.meetup.com/openinfra-user-group-sweden/events/313615139/
+      location: Stockholm, Sweden
+    - date: INFO COMING SOON
+      location: USA
+      link: https://openinfrafoundation.formstack.com/forms/2026_openinfra_events_updates
+      background: /img/oid-cover-image_usa.png
+    - date: April 25, 2026
+      link: https://www.meetup.com/openstack-nigeria-user-group/events/313525373/
+      location: Jalingo, Nigeria
+      background: /img/oid-cover-image_nigeria.png
 pastMeetups:
   title: Past Openinfra Days
   meetups:
@@ -90,14 +102,14 @@ pastMeetups:
       date: September 6, 2025
       location: Nairobi, Kenya
       link: https://www.meetup.com/kenya-openinfra-user-group/
-      name: Kenya
+      name: KENYA
     - background: /img/oid-cover-image.png
       date: May 22, 2025
       location: Stockholm, Sweden
       link: https://www.meetup.com/openinfra-user-group-sweden/events/306139678/
-      name: Sweden
+      name: SWEDEN
     - background: /img/openinfra-days/openinfra-days-cards/oid-pasadena.png
-      name: North America
+      name: NORTH AMERICA
       date: March 6 & 7, 2025
       location: Pasadena, California
       link: https://www.youtube.com/live/W9OmGdtJAAE?si=OO_WjYr7A6ktAv5A

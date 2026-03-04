@@ -99,6 +99,11 @@ pastMeetups:
       date: March 6 & 7, 2025
       location: Pasadena, California
       link: https://www.youtube.com/live/W9OmGdtJAAE?si=OO_WjYr7A6ktAv5A
+    - background: /img/oid-background.png
+      name: DRC
+      date: February 4, 2026
+      location: Kinshasa, DRC
+      link: https://www.meetup.com/dddrcassociation/
 communityEvents:
   title: More Open Source Community Events
   events:

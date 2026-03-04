@@ -86,12 +86,12 @@ upcomingMeetups:
 pastMeetups:
   title: Past Openinfra Days
   meetups:
-    - background: /img/oid-background.png
+    - background: /img/oid-cover-image.png
       date: September 6, 2025
       location: Nairobi, Kenya
       link: https://www.meetup.com/kenya-openinfra-user-group/
       name: Kenya
-    - background: /img/oid-background.png
+    - background: /img/oid-cover-image.png
       date: May 22, 2025
       location: Stockholm, Sweden
       link: https://www.meetup.com/openinfra-user-group-sweden/events/306139678/
@@ -101,7 +101,7 @@ pastMeetups:
       date: March 6 & 7, 2025
       location: Pasadena, California
       link: https://www.youtube.com/live/W9OmGdtJAAE?si=OO_WjYr7A6ktAv5A
-    - background: /img/oid-background.png
+    - background: /img/oid-cover-image.png
       name: DRC
       date: February 4, 2026
       location: Kinshasa, DRC

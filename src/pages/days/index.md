@@ -85,7 +85,7 @@ upcomingMeetups:
       link: https://events.linuxfoundation.org/kubecon-cloudnativecon-india/
     - background: /img/openstack.jpg
       link: https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/
-      date: 29-30 July, 2026
+      date: July 29-30, 2026
       location: Booth at KubeCon + CoudNativeCon Japan
     - location: " Cloud Operator Days Tokyo (CODT)"
       link: https://cloudopsdays.com/

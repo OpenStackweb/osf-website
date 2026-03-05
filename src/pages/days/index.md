@@ -10,91 +10,91 @@ title: OpenInfra Days
 subTitle: by the community, for the community
 headerImageUrl: /img/openinfra-days/Header.svg
 upcomingDaysEvents:
-  isVisible: false
+  isVisible: true
   title: |
     <span class="red">Upcoming</span><br />Openinfra Days
   headerImage:
-    img: /img/openinfra-days/days-asia.png
-    alt: asia-days
+    img: /img/oi-days-1920x325.11-1-.png
+    alt: openinfra-days
   events:
     - title: >
-        <a href="https://www.vietopeninfra.org/void2025"
-        target="_blank">OpenInfra Days Vietnam</a>
-      date: July 26, 2025
-      location: Hanoi, VN
+        <a
+        href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
+        target="_blank">OpenInfra Days Nigeria</a>
+      date: April 25, 2026
+      location: Jalingo, Nigeria
       registration: >
         <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSc99Cuh4U7JXYmUqkv74jjz_Fq984Q_YP-HKAv8hiad62AWrA/viewform"
-        target="_blank">The CFP closes June 15</a>
-      sponsor: >
-        <a href="https://tinyurl.com/VOI2025" target="_blank">Sponsor this
-        event</a>
-    - title: >
-        <a href="https://2025.openinfra.id/" target="_blank">OpenInfra Days
-        Indonesia</a>
-      date: July 19, 2025
-      location: Yogyakarta, ID
-      registration: >
-        <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSeeiUkMOQ1fEWhuTXIuqlEKudDjp7_pqcC3bGbRpxIU2-S2fg/viewform"
-        target="_blank">The CFP closes June 27</a>
-      sponsor: >
-        <a
-        href="https://2025.openinfra.id/files/OID25-Sponsorship_Prospectus_20250515.pdf"
-        target="_blank">Sponsor this event</a>
-    - title: >
-        <a href="https://openinfradays.kr/" target="_blank">OpenInfra Days
-        Korea</a>
-      date: August 26th, 2025
-      location: Seoul, KR
-      registration: >
-        <a href="https://forms.gle/mCNKfsM4vUfPna3B6" target="_blank">The CFP
-        closes June 15</a>
-      sponsor: >
-        <a href="mailto:sponsor@openinfradays.kr" target="_blank">Sponsor this
-        event</a>
-    - title: >
-        <a href="https://sessionize.com/kcd-hangzhou-and-oicd-2025/"
-        target="_blank">OpenInfra Days China</a>
-      date: November 15, 2025
-      location: Hangzhou, CN
-      registration: >
-        '<a href="https://sessionize.com/kcd-hangzhou-and-oicd-2025/"
-        target="_blank">The CFP closes September 21</a>'
-    - title: >
-        <a href="https://cloudopsdays.com/" target="_blank">Cloud Operator Days
-        Tokyo</a>
-      date: July 2025 (Online Sessions Available), Sept 5, 2025 (Closing Ceremony)
-      location: Tokyo, JP
-      registration: >
-        <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSejRuQZvcWa0QDIcz01yP1DscVOrtPYPYHP2T0os0wUDx-LCg/viewform"
-        target="_blank">The CFP closes April 30</a>
-      sponsor: >
-        <a
-        href="https://cloudopsdays.com/wp-content/uploads/2025/03/CODT2025_sponsorship_en.pdf"
-        target="_blank">Sponsor this event</a>
+        href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
+        target="_blank">Learn More</a>
+      sponsor: ""
+    - title: |
+        Kubernetes Community Day x OpenInfra Day Vietnam
+      date: July 24 & 25, 2026
+      location: Hanoi, Vietnam
+      registration: |
+        More Info Coming Soon
+      sponsor: ""
+    - title: OpenInfra Day Kenya
+      date: September 4 & 5, 2026
+      location: Nairobi, Kenya
+      registration: More Info Coming Soon
+      sponsor: ""
+    - title: |
+        OpenInfra Day Saar-Lor-Lux
+      date: October 24, 2026
+      location: Saarbrücken, Germany
+      registration: More Info Coming Soon
+    - title: Ceph Day x OpenInfra Day North America
+      date: TBD
+      location: TBD
+      registration: More Info Coming Soon
+      sponsor: ""
+    - title: OpenInfra Day Korea
+      date: TBD
+      location: Seoul, South Korea
+      registration: More Info Coming Soon
 upcomingMeetups:
-  title: Upcoming OpenInfra Days
+  title: OpenInfra Community Events
   banner:
-    title: 2026 OPENINFRA DAYS
-    content: Sign up to get notified when the list of 2026 OpenInfra Days is released!
+    title: More places to find the OpenInfra Community
+    content: Since joining the Linux Foundation in 2025, a few new opportunities
+      have emerged for the OpenInfra community to collaborate with the global
+      open source ecosystem! This means that in 2026 you can expect to see
+      co-locations and collaboration with the Cloud Native, Ceph, PyTorch
+      communities and more!
     button:
       text: SIGN UP TO BE NOTIFIED
-      url: https://openinfra.org/newsletter/
+      url: https://openinfrafoundation.formstack.com/forms/2026_openinfra_events_updates
   meetups:
     - background: /img/cover-02-1600x900.png
       date: May 21, 2026
       link: https://www.meetup.com/openinfra-user-group-sweden/events/313615139/
       location: Stockholm, Sweden
-    - date: INFO COMING SOON
-      location: USA
-      link: https://openinfrafoundation.formstack.com/forms/2026_openinfra_events_updates
-      background: /img/oid-cover-image_usa.png
-    - date: April 25, 2026
-      link: https://www.meetup.com/openstack-nigeria-user-group/events/313525373/
-      location: Jalingo, Nigeria
-      background: /img/oid-cover-image_nigeria.png
+    - date: March 23-26, 2026
+      link: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
+      location: Booth at KubeCon + CoudNativeCon EU
+      background: /img/kata.jpg
+    - date: Project Teams Gathering
+      location: Virtual
+      link: https://openinfra.org/ptg/
+      background: /img/ptg-project-teams-gathering-1x.png
+    - background: /img/oif-2-india.jpg
+      location: Booth at KubeCon + CoudNativeCon India
+      date: June 18-19, 2026
+      link: https://events.linuxfoundation.org/kubecon-cloudnativecon-india/
+    - background: /img/openstack.jpg
+      link: https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/
+      date: 29-30 July, 2026
+      location: Booth at KubeCon + CoudNativeCon Japan
+    - location: OpenInfra Track at the ALASCA Summit
+      link: https://alasca.cloud/en/alasca-summit-2026/alasca-summit-2026-programme/alasca-summit-2026-call-for-contributions/
+      background: /img/oif-alasca.jpg
+      date: November 3-4, 2026
+    - location: " Cloud Operator Days Tokyo (CODT)"
+      link: https://cloudopsdays.com/
+      date: August-September 2026
+      background: /img/oif-2-codt.jpg
 pastMeetups:
   title: Past Openinfra Days
   meetups:
@@ -121,18 +121,23 @@ pastMeetups:
 communityEvents:
   title: More Open Source Community Events
   events:
-    - name: SCALE 23X
-      link: https://www.socallinuxexpo.org/scale/23x
-      date: March 5-8, 2026
-      location: Pasadena, CA
     - name: KUBECON +  CLOUDNATIVECON EUROPE
       link: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
       date: March 23–26, 2026
       location: Amsterdam, NL
-    - name: OPENINFRA SUMMIT ASIA + KUBECON + CLOUDNATIVECON CHINA
+    - name: KubeCon KUBECON +  CLOUDNATIVECON India
+      date: June 18-19, 2026
+      location: Mumbai, India
+      link: https://events.linuxfoundation.org/kubecon-cloudnativecon-india/
+    - name: KubeCon + CloudNativeCon + OpenInfra Summit + PyTorch Conference China
+        2026
       link: https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/
       date: September 8-9, 2026
       location: Shanghai, CN
+    - name: Alasca Summit
+      link: https://alasca.cloud/en/alasca-summit-2026/
+      date: November 3-4, 2026
+      location: Dresden, Germany
 bottomBanner:
   background: /img/summit-landing/subscribe/subscribe-banner-bg.png
   title: |

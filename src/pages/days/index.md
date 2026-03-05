@@ -70,13 +70,13 @@ upcomingMeetups:
     - background: /img/cover-02-1600x900.png
       date: May 21, 2026
       link: https://www.meetup.com/openinfra-user-group-sweden/events/313615139/
-      location: Stockholm, Sweden
+      location: OpenInfra Forum Sweden
     - date: March 23-26, 2026
       link: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
       location: Booth at KubeCon + CoudNativeCon EU
       background: /img/kata.jpg
-    - date: Project Teams Gathering
-      location: Virtual
+    - date: April 20-24, 2026
+      location: Virtual Project Teams Gathering
       link: https://openinfra.org/ptg/
       background: /img/ptg-project-teams-gathering-1x.png
     - background: /img/oif-2-india.jpg
@@ -87,14 +87,14 @@ upcomingMeetups:
       link: https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/
       date: 29-30 July, 2026
       location: Booth at KubeCon + CoudNativeCon Japan
-    - location: OpenInfra Track at the ALASCA Summit
-      link: https://alasca.cloud/en/alasca-summit-2026/alasca-summit-2026-programme/alasca-summit-2026-call-for-contributions/
-      background: /img/oif-alasca.jpg
-      date: November 3-4, 2026
     - location: " Cloud Operator Days Tokyo (CODT)"
       link: https://cloudopsdays.com/
       date: August-September 2026
       background: /img/oif-2-codt.jpg
+    - location: OpenInfra Track at the ALASCA Summit
+      link: https://alasca.cloud/en/alasca-summit-2026/alasca-summit-2026-programme/alasca-summit-2026-call-for-contributions/
+      background: /img/oif-alasca.jpg
+      date: November 3-4, 2026
 pastMeetups:
   title: Past Openinfra Days
   meetups:

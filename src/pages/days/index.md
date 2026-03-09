@@ -14,7 +14,7 @@ upcomingDaysEvents:
   title: |
     <span class="red">Upcoming</span><br />Openinfra Days
   headerImage:
-    img: /img/oi-days-1920x325.11-1-.png
+    img: /img/oi-days-1920x325.11.png
     alt: openinfra-days
   events:
     - title: >

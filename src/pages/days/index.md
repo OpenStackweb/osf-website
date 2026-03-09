@@ -40,8 +40,7 @@ upcomingDaysEvents:
       location: Nairobi, Kenya
       registration: More Info Coming Soon
       sponsor: ""
-    - title: |
-        OpenInfra Day Saar-Lor-Lux
+    - title: OpenInfra Day Germany
       date: October 24, 2026
       location: Saarbrücken, Germany
       registration: More Info Coming Soon

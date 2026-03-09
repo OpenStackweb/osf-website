@@ -13,7 +13,7 @@ seo:
   description: OpenInfra User Surveys
   twitterUsername: "@openinradev"
 ---
-![](/img/oif-2.jpg)
+![](/img/c5b18fa5b7075feb98a4d993_1280x720.jpg)
 
 # The OpenInfra University Partnership Program
 

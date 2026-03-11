@@ -12,6 +12,16 @@ import { connect } from 'react-redux'
 
 import '../style/modules/_digital-sovereignty.scss'
 
+const normalizeLogoUrl = (url) => {
+  if (!url) return null
+  // If Gatsby/fmImagesToRelative rewrote the path into ../../../static/..., recover the /img/... segment
+  const imgIndex = url.indexOf('/img/')
+  if (imgIndex !== -1) {
+    return url.slice(imgIndex)
+  }
+  return url
+}
+
 export const DigitalSovereigntyPageTemplate = ({
   isLoggedUser,
   title,
@@ -101,28 +111,31 @@ export const DigitalSovereigntyPageTemplate = ({
               <div className="container">
                 <h2 className="ds-section-title">Digital Sovereignty Working Group Members</h2>
                 <div className="ds-members-grid">
-                  {members.map((m, i) => (
-                    <div key={i} className="ds-member-logo-wrapper">
-                      {m.link ? (
-                        <LinkComponent
-                          href={m.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="ds-member-logo-link"
-                        >
-                          {m.logoUrl ? (
-                            <img src={m.logoUrl} alt={m.name} />
-                          ) : (
-                            <span className="ds-member-name">{m.name}</span>
-                          )}
-                        </LinkComponent>
-                      ) : m.logoUrl ? (
-                        <img src={m.logoUrl} alt={m.name} />
-                      ) : (
-                        <span className="ds-member-name">{m.name}</span>
-                      )}
-                    </div>
-                  ))}
+                  {members.map((m, i) => {
+                    const src = normalizeLogoUrl(m.logoUrl)
+                    return (
+                      <div key={i} className="ds-member-logo-wrapper">
+                        {m.link ? (
+                          <LinkComponent
+                            href={m.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="ds-member-logo-link"
+                          >
+                            {src ? (
+                              <img src={src} alt={m.name} />
+                            ) : (
+                              <span className="ds-member-name">{m.name}</span>
+                            )}
+                          </LinkComponent>
+                        ) : src ? (
+                          <img src={src} alt={m.name} />
+                        ) : (
+                          <span className="ds-member-name">{m.name}</span>
+                        )}
+                      </div>
+                    )
+                  })}
                 </div>
               </div>
             </section>

@@ -3,6 +3,29 @@
 \* ------------------------------------------------------------ */
 
 .digital-sovereignty-page {
+  /* Override hero title on this page to match section headers */
+  .hero-project-content {
+    text-align: center;
+    .hero-project-title {
+      font-family: 'Jura', 'Roboto', sans-serif;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 48px;
+      letter-spacing: -0.6px;
+      text-transform: uppercase;
+      color: #000;
+      margin-bottom: 24px;
+    }
+    .hero-project-entry {
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      line-height: 30px;
+      color: #000;
+      opacity: 0.9;
+      max-width: 780px;
+      margin: 0 auto;
+    }
+  }
   .ds-section {
     padding: 70px 0;
     @media (max-width: 767px) {
@@ -92,6 +115,14 @@
       font-size: 18px;
       line-height: 28px;
       margin: 0;
+      &::before {
+        content: '"';
+        color: #fec84b;
+      }
+      &::after {
+        content: '"';
+        color: #fec84b;
+      }
     }
     @media (max-width: 767px) {
       min-height: auto;
@@ -125,7 +156,9 @@
 
   .ds-resource-card {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
     min-height: 140px;
     padding: 24px;
     background: #f3f3f3;
@@ -140,6 +173,16 @@
       background: #e8e8e8;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
       color: #161616;
+    }
+    .ds-resource-card-icon {
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
     }
     .ds-resource-card-text {
       display: block;

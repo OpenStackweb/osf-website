@@ -69,7 +69,11 @@ export const DigitalSovereigntyPageTemplate = ({
               <div className="container">
                 <h2 className="ds-section-title">Related Resources</h2>
                 <div className="ds-resources-grid">
-                  {relatedResources.map((r, i) => (
+                  {relatedResources.map((r, i) => {
+                    const iconKey = r.icon || (i === 2 ? 'video' : 'article')
+                    const iconPath = iconKey === 'video' ? '/img/video.svg' : '/img/article.svg'
+                    const iconAlt = iconKey === 'video' ? 'Video resource' : 'Article resource'
+                    return (
                     <LinkComponent
                       key={i}
                       href={r.url}
@@ -77,9 +81,15 @@ export const DigitalSovereigntyPageTemplate = ({
                       rel="noopener noreferrer"
                       className="ds-resource-card"
                     >
+                      <span className="ds-resource-card-icon">
+                        <img
+                          src={iconPath}
+                          alt={iconAlt}
+                        />
+                      </span>
                       <span className="ds-resource-card-text">{r.title}</span>
                     </LinkComponent>
-                  ))}
+                  )})}
                 </div>
               </div>
             </section>
@@ -101,13 +111,13 @@ export const DigitalSovereigntyPageTemplate = ({
                           className="ds-member-logo-link"
                         >
                           {m.logoUrl ? (
-                            <img src={m.logoUrl} alt={m.name} className="ds-member-logo" />
+                            <img src={m.logoUrl} alt={m.name} />
                           ) : (
                             <span className="ds-member-name">{m.name}</span>
                           )}
                         </LinkComponent>
                       ) : m.logoUrl ? (
-                        <img src={m.logoUrl} alt={m.name} className="ds-member-logo" />
+                        <img src={m.logoUrl} alt={m.name} />
                       ) : (
                         <span className="ds-member-name">{m.name}</span>
                       )}
@@ -142,9 +152,9 @@ const DigitalSovereigntyPage = ({ isLoggedUser, data }) => {
   const { markdownRemark: post } = data
   const { frontmatter } = post
 
-  // Extract stance body: content after first </h2> until next <h2>
+  // Extract stance body: content after first </h2> until next <h2> or end of string
   const html = post.html || ''
-  const firstSectionMatch = html.match(/<h2[^>]*>[\s\S]*?<\/h2>([\s\S]*?)(?=<h2)/i)
+  const firstSectionMatch = html.match(/<h2[^>]*>[\s\S]*?<\/h2>([\s\S]*?)(?=<h2|$)/i)
   const stanceHtml = firstSectionMatch ? firstSectionMatch[1].trim() : ''
 
   // Extract join section body: content after "Join the OpenInfra..." h2 until next <h2>
@@ -215,6 +225,7 @@ export const digitalSovereigntyPageQuery = graphql`
         relatedResources {
           title
           url
+          icon
         }
         members {
           name

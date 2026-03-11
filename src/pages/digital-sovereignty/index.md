@@ -21,41 +21,44 @@ quotes:
 relatedResources:
   - title: Why NUBO chose OpenStack to build a sovereign, open source cloud infrastructure
     url: https://superuser.openinfra.org/articles/why-nubo-chose-openstack-to-build-a-sovereign-open-source-cloud-infrastructure/
+    icon: article
   - title: Addressing digital sovereignty — STACKIT's OpenStack solution for secure, compliant cloud computing
     url: https://superuser.openinfra.org/articles/addressing-digital-sovereignty-stackits-openstack-solution-for-secure-compliant-cloud-computing/
+    icon: article
   - title: Digital sovereignty and OpenInfra session
     url: https://www.youtube.com/watch?v=XsUTVgDAUxA&list=PLKqaoAnDyfgr91wN_12nwY321504Ctw1s&index=4&t=8s&pp=iAQBsAgC
+    icon: video
 members:
   - name: Viettel
-    logoUrl: /img/placeholder-logo.svg
+    logoUrl: /img/digital-sovereignty/viettel-new-sm.png
     link: https://viettel.com.vn
   - name: Wind River
-    logoUrl: /img/placeholder-logo.svg
+    logoUrl: /img/digital-sovereignty/windriver-sm.png
     link: https://www.windriver.com
   - name: Canonical
-    logoUrl: /img/placeholder-logo.svg
+    logoUrl: /img/digital-sovereignty/Canonical-lg.png
     link: https://canonical.com
   - name: China Mobile
-    logoUrl: /img/placeholder-logo.svg
+    logoUrl: /img/digital-sovereignty/chinamobile-sm.jpg
     link: https://www.chinamobileltd.com
   - name: Red Hat
-    logoUrl: /img/placeholder-logo.svg
+    logoUrl: /img/digital-sovereignty/RedHat-sm.png
     link: https://www.redhat.com
   - name: T-Systems
-    logoUrl: /img/placeholder-logo.svg
+    logoUrl: /img/digital-sovereignty/tsystems-sm.png
     link: https://www.t-systems.com
   - name: FPTSmarCloud
-    logoUrl: /img/placeholder-logo.svg
+    logoUrl: /img/digital-sovereignty/fptsmartcloud-sm.png
   - name: OVHCloud
-    logoUrl: /img/placeholder-logo.svg
+    logoUrl: /img/digital-sovereignty/OVH-new-sm.jpg
     link: https://www.ovhcloud.com
   - name: StackHPC
-    logoUrl: /img/placeholder-logo.svg
+    logoUrl: /img/digital-sovereignty/StackHPC-sm1.png
     link: https://www.stackhpc.com
   - name: Storware
-    logoUrl: /img/placeholder-logo.svg
+    logoUrl: /img/digital-sovereignty/storware-sm.png
   - name: VyOS Networks
-    logoUrl: /img/placeholder-logo.svg
+    logoUrl: /img/digital-sovereignty/vyos-sm1.png
 ---
 
 ## Stance on Digital Sovereignty

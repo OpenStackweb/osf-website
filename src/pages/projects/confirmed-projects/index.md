@@ -192,4 +192,23 @@ projectList:
       - icon: /img/icon1.svg
         text: EDGE COMPUTING
     category: working-groups
+  - logo: /img/projects-img/sover-wg-icon.svg
+    button:
+      link: /digital-sovereignty/
+      text: Learn More
+    class: projects-s6
+    title: Digital Sovereignty Working Group
+    subTitle: OpenInfra guidance and collaboration around digital sovereignty strategies.
+    links:
+      - link: /digital-sovereignty/
+        text: Digital Sovereignty with OpenInfra
+    description:
+      The Digital Sovereignty Working Group brings together organizations and individuals
+      using OpenInfra technologies to design and share practical approaches to digital
+      sovereignty, including regulatory awareness, case studies, and implementation
+      patterns that preserve openness and collaboration.
+    features:
+      - icon: /img/home/icon1.svg
+        text: DIGITAL SOVEREIGNTY
+    category: working-groups
 ---

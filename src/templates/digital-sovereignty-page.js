@@ -105,6 +105,34 @@ export const DigitalSovereigntyPageTemplate = ({
             </section>
           )}
 
+          {/* Join Digital Sovereignty Working Group - dark background */}
+          <section className="ds-section ds-section-join">
+            <div className="container">
+              <h2 className="ds-section-title ds-section-title-light">
+                Join the OpenInfra Digital Sovereignty Working Group
+              </h2>
+              <div className="ds-join-body">
+                <p>
+                  The OpenInfra Digital Sovereignty Working Group meets regularly to collaborate on guiding resources in the space and how to leverage OpenInfra technologies, surface new regulations that are being leveled globally shaping the future of digital sovereignty, discuss case studies and share perspectives from different regions around the world.
+                </p>
+                <p>
+                  If your organization is building a digital sovereignty strategy with OpenInfra technologies (or wants to!), get involved in the OpenInfra Digital Sovereignty Working Group by{' '}
+                  <a href="https://etherpad.opendev.org/p/Digital-Sovereignty-WG" target="_blank" rel="noopener noreferrer">filling out this interest form</a>.
+                </p>
+              </div>
+              <div className="ds-join-cta">
+                <LinkComponent
+                  href="https://etherpad.opendev.org/p/Digital-Sovereignty-WG"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ds-join-button"
+                >
+                  Get Involved
+                </LinkComponent>
+              </div>
+            </div>
+          </section>
+
           {/* Members logos - light background, 6 then 5 per row desktop, 3 mobile */}
           {members && members.length > 0 && (
             <section className="ds-section ds-section-members">

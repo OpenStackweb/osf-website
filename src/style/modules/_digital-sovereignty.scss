@@ -1,0 +1,275 @@
+/* ------------------------------------------------------------ *\
+  Digital Sovereignty page
+\* ------------------------------------------------------------ */
+
+.digital-sovereignty-page {
+  .ds-section {
+    padding: 70px 0;
+    @media (max-width: 767px) {
+      padding: 50px 15px;
+    }
+  }
+
+  .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+    @media (max-width: 767px) {
+      padding: 0 12px;
+    }
+  }
+
+  .ds-section-title {
+    font-family: 'Jura', 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 48px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 24px;
+    text-align: center;
+    @media (max-width: 767px) {
+      font-size: 32px;
+      line-height: 38px;
+    }
+    &.ds-section-title-light {
+      color: #fff;
+    }
+  }
+
+  /* Stance section - white background */
+  .ds-section-stance {
+    background: #fff;
+    .ds-stance-body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      line-height: 30px;
+      color: #000;
+      opacity: 0.9;
+      max-width: 880px;
+      margin: 0 auto;
+      p {
+        margin-bottom: 1em;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  /* Quotes section - dark background, quote cards like home */
+  .ds-section-quotes {
+    background-color: #272727;
+    background-image: url("/img/homeV2/background-images/news-background-1.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .ds-quotes-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+
+  .ds-quote-card {
+    background-color: #161616;
+    border-radius: 25px;
+    padding: 30px;
+    min-height: 200px;
+    display: flex;
+    align-items: flex-start;
+    .ds-quote-text {
+      color: #fff;
+      font-family: "Roboto Flex", sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+      margin: 0;
+    }
+    @media (max-width: 767px) {
+      min-height: auto;
+      padding: 25px;
+      .ds-quote-text {
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+
+  /* Related resources - light background, card grid */
+  .ds-section-resources {
+    background: #fff;
+  }
+
+  .ds-resources-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+    @media (max-width: 991px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+  }
+
+  .ds-resource-card {
+    display: flex;
+    align-items: center;
+    min-height: 140px;
+    padding: 24px;
+    background: #f3f3f3;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #161616;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    transition: background 0.2s, box-shadow 0.2s;
+    &:hover {
+      background: #e8e8e8;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      color: #161616;
+    }
+    .ds-resource-card-text {
+      display: block;
+    }
+    @media (max-width: 576px) {
+      min-height: 100px;
+      padding: 20px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  /* Join section - dark background */
+  .ds-section-join {
+    background: linear-gradient(180deg, rgba(22, 22, 22, 1) 0%, rgba(39, 39, 39, 1) 100%);
+    color: #fff;
+    .ds-join-body {
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+      opacity: 0.9;
+      max-width: 800px;
+      margin: 0 auto 32px;
+      p {
+        margin-bottom: 1em;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      a {
+        color: #f4a93a;
+        text-decoration: underline;
+        &:hover {
+          color: #fec84b;
+        }
+      }
+    }
+    .ds-join-cta {
+      text-align: center;
+      margin-top: 24px;
+    }
+    .ds-join-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 30px;
+      height: 44px;
+      background: #e61e24;
+      border-radius: 37px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 19px;
+      letter-spacing: 0.3px;
+      color: #fff;
+      text-decoration: none;
+      transition: background 0.2s, box-shadow 0.2s;
+      &:hover {
+        background: #c41a1f;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        color: #fff;
+      }
+    }
+  }
+
+  /* Members logos - light background, 6 + 5 on desktop, 3 per row mobile */
+  .ds-section-members {
+    background: #f3f3f3;
+  }
+
+  .ds-members-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 24px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    /* First 6 in row 1, next 5 in row 2: use same grid, row 2 has 5 items so one empty cell */
+    @media (max-width: 991px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    @media (max-width: 576px) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px 16px;
+    }
+  }
+
+  .ds-member-logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    width: 100%;
+  }
+
+  .ds-member-logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .ds-member-logo {
+    max-width: 120px;
+    max-height: 48px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.85;
+    transition: opacity 0.2s, filter 0.2s;
+    @media (max-width: 576px) {
+      max-width: 90px;
+      max-height: 40px;
+    }
+  }
+  .ds-member-logo-link:hover .ds-member-logo,
+  .ds-member-logo-wrapper:hover .ds-member-logo {
+    opacity: 1;
+    filter: grayscale(0%);
+  }
+
+  .ds-member-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #161616;
+    text-align: center;
+  }
+}

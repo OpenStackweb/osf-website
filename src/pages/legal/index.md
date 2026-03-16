@@ -28,8 +28,6 @@ footer:
 
 [Trademark Policy](/legal/trademark-policy)
 
-[Event Policy](/legal/event-policy)
-
 [Policy for AI Generated Content](/legal/ai-policy)
 
 [Linux Foundation Antitrust Policy](https://www.linuxfoundation.org/legal/antitrust-policy)

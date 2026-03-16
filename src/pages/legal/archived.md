@@ -38,3 +38,5 @@ The links below provide archived legal policies related to the OpenStack Foundat
 [Privacy Policy (Delaware 501c6)](/privacy-policy)
 
 [Transparency Policy (Delaware 501c6)](/legal/transparency-policy)
+
+[Event Policy (Delaware 501c6)](/legal/event-policy)

@@ -187,9 +187,7 @@ projectList:
       The Computing Force Network working group is aiming to formulate
       solutions for common challenges with using related technologies, promoting
       technical implementations, and gradually building the next generation of
-      open infrastructure.  <a href="https://wiki.openstack.org/wiki/Computing_Force_Network_Working_Group">
-    CFN Working Group Wiki
-  </a>.
+      open infrastructure.
     features:
       - icon: /img/icon1.svg
         text: EDGE COMPUTING
@@ -202,15 +200,32 @@ projectList:
     title: Digital Sovereignty Working Group
     subTitle: OpenInfra guidance and collaboration around digital sovereignty strategies.
     links:
-      - link: /digital-sovereignty/
-        text: Digital Sovereignty with OpenInfra
+      - link: https://openinfrafoundation.formstack.com/forms/digital_sovereignty_wg_interest_form
+        text: Get involved
     description:
-      The Digital Sovereignty Working Group brings together organizations and individuals
-      using OpenInfra technologies to design and share practical approaches to digital
-      sovereignty, including regulatory awareness, case studies, and implementation
-      patterns that preserve openness and collaboration.
+      The OpenInfra Digital Sovereignty Working Group meets regularly to collaborate on guiding resources in the space and how to leverage OpenInfra technologies, surface new regulations that are being leveled globally shaping the future of digital sovereignty, discuss case studies and share perspectives from different regions around the world.
     features:
       - icon: /img/home/icon1.svg
         text: DIGITAL SOVEREIGNTY
+    category: working-groups
+  - class: projects-s6
+    button:
+      link: https://www.openstack.org/openstack-for-ai-white-paper
+      text: Read the Whitepaper
+    logo: /img/projects-img/ai-wg-logo.svg
+    title: OpenInfra for AI Working Group
+    subTitle: Leveraging OpenInfra projects to power AI workloads.
+    description:
+      The OpenInfra for AI Working Group is focused on surfacing how OpenInfra projects can be leveraged to support the growing proliferation of AI workloads. This ranges from promotion of case studies from OpenInfra users and operators to the OpenStack for AI Whitepaper which focused on OpenStack usage. As AI continues to grow and scale the infrastructure compute and storage requirements, this group will continue to collaborate on resources to showcase just how OpenInfra can support it. Keep an eye on mailing lists you’re subscribed to (Kata Containers, OpenStack, StarlingX, or Zuul) for upcoming opportunities!
+    category: working-groups
+  - class: projects-s6
+    title: VMware Migration Working Group
+    subTitle: Guiding organizations from VMware to open, vendor-neutral infrastructure.
+    logo: /img/projects-img/vmw-group-logo.svg
+    button:
+      link: https://www.openstack.org/vmware-migration-to-openstack/vmware-to-openstack-migration-guide
+      text: Learn More
+    description:
+      The OpenStack VMware Migration Working Group is a cross-community initiative within the OpenInfra Foundation that helps organizations transition from proprietary VMware environments to open, vendor-neutral infrastructure built on OpenStack. As licensing costs increase and digital sovereignty becomes a priority, the group brings together operators, vendors, and contributors to share proven migration patterns, reference architectures, and tooling that reduce risk and accelerate adoption. By addressing challenges such as workload portability, networking and storage parity, operational continuity, and skills transition, the working group provides a clear, actionable path for enterprises and service providers to modernize their infrastructure, and unlock greater control, transparency, and long-term ROI through open source infrastructure.
     category: working-groups
 ---

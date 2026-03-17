@@ -17,24 +17,19 @@ footer:
 ---
 ### **OpenInfra Events Schedule 2026**
 
-| **Date**                                       | **Event Name**                                                                                                                                                                                                              |
-| ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Jan 31 – Feb 1**[](https://fosdem.org/2026/) | OpenInfra x CNCF Booth & LF Reception at FOSDEM                                                                                                                                                                             |
-| **February 4**                                 | OpenInfra Day DRC                                                                                                                                                                                                           |
-| **March 23–26**                                | Kata Containers Booth #1362 at [KubeCon + CloudNativeCon Europe](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)                                                                                         |
-| **April 20–24**                                | [Project Teams Gathering (PTG)](https://openinfra.org/ptg/)                                                                                                                                                                 |
-| **April 25**                                   | [OpenInfra Day Nigeria](https://www.meetup.com/openstack-nigeria-user-group/events/313525373/)                                                                                                                              |
-| **May 21**                                     | [OpenInfra Forum Sweden](https://www.meetup.com/openinfra-user-group-sweden/events/313615139/)                                                                                                                              |
-| **June 18-19**                                 | OpenInfra Booth and Meetup at [KubeCon + CloudNativeCon India](https://events.linuxfoundation.org/kubecon-cloudnativecon-india/)                                                                                            |
-| **July 25**                                    | KCD x OpenInfra Day Vietnam                                                                                                                                                                                                 |
-| **July 29-30**                                 | OpenStack Booth at [KubeCon + CloudNativeCon Japan](https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/)                                                                                                       |
-| **September 4–5**                              | OpenInfra Day Kenya                                                                                                                                                                                                         |
-| **September 8–9**                              | [KubeCon + CloudNativeCon + OpenInfra Summit Asia + PyTorch Conference](https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/)                                                                           |
-| **September 11**                               | OpenInfra Community at [CODT](https://cloudopsdays.com/)                                                                                                                                                                    |
-| **October 24**                                 | OpenInfra Day Germany                                                                                                                                                                                                       |
-| **November 3-4**                               | [OpenInfra track](https://alasca.cloud/en/alasca-summit-2026/alasca-summit-2026-programme/alasca-summit-2026-call-for-contributions/) at the [ALASCA Summit](https://alasca.cloud/en/alasca-summit-2026/alasca-summit-2026) |
-| **TBD**                                        | Ceph Day x OpenInfra Day North America                                                                                                                                                                                      |
-| **TBD**                                        | OpenInfra Day Korea                                                                                                                                                                                                         |
+| **Date**                                       | **Event Name**|
+|------|------|
+| **February 4**                                 | OpenInfra Day DRC|
+| **April 20–24**                                | [Project Teams Gathering (PTG)](https://openinfra.org/ptg/)|
+| **April 25**                                   | [OpenInfra Day Nigeria](https://www.meetup.com/openstack-nigeria-user-group/events/313525373/)|
+| **May 21**                                     | [OpenInfra Forum Sweden](https://www.meetup.com/openinfra-user-group-sweden/events/313615139/)|
+| **July 25**                                    | KCD x OpenInfra Day Vietnam|
+| **September 4–5**                              | OpenInfra Day Kenya|
+| **September 8–9**                              | [KubeCon + CloudNativeCon + OpenInfra Summit Asia + PyTorch Conference](https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/)|
+| **September 11**                               | OpenInfra Community at [CODT](https://cloudopsdays.com/)|
+| **October 24**                                 | OpenInfra Day Germany|
+| **TBD**                                        | Ceph Day x OpenInfra Day North America|
+| **TBD**                                        | OpenInfra Day Korea|
 
 ## [OpenInfra Summit](/summit)
 

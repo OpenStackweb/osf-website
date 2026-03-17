@@ -8,7 +8,7 @@ seo:
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/digital-sovereignty/'
 title: Digital Sovereignty
-subTitle: OpenInfra Technologies For Sovereign Digital Infrastructure
+subTitle: OpenInfra Technologies for Sovereign Digital Infrastructure
 footer:
   display: true
   title: Join the OpenInfra Foundation

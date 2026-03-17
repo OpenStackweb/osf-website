@@ -15,7 +15,9 @@ footer:
   title: OPENINFRA COMMUNITY EVENTS
   subTitle: ""
 ---
-| **Date(s)**                                    | **Event Name**                                                                                                                                                                                                              |
+### **OpenInfra Events Schedule 2026**
+
+| **Date**                                       | **Event Name**                                                                                                                                                                                                              |
 | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Jan 31 – Feb 1**[](https://fosdem.org/2026/) | OpenInfra x CNCF Booth & LF Reception at FOSDEM                                                                                                                                                                             |
 | **February 4**                                 | OpenInfra Day DRC                                                                                                                                                                                                           |

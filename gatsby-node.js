@@ -440,6 +440,7 @@ exports.createSchemaCustomization = ({actions}) => {
       row4: MarkdownRemarkFrontmatterRow4
       row5: MarkdownRemarkFrontmatterRow5
       row6: MarkdownRemarkFrontmatterRow6
+      members: [MarkdownRemarkFrontmatterMembers]
     }
     type Category {
       label: String
@@ -639,7 +640,10 @@ exports.createSchemaCustomization = ({actions}) => {
       logo: File @fileByRelativePath
     }
     type MarkdownRemarkFrontmatterMembers @infer {
+      name: String
       picture: File @fileByRelativePath
+      logoUrl: String
+      link: String
     }
     type MarkdownRemarkFrontmatterWhyJoinItems @infer {
       image: File @fileByRelativePath

@@ -187,7 +187,9 @@ projectList:
       The Computing Force Network working group is aiming to formulate
       solutions for common challenges with using related technologies, promoting
       technical implementations, and gradually building the next generation of
-      open infrastructure.
+      open infrastructure.  <a href="https://wiki.openstack.org/wiki/Computing_Force_Network_Working_Group">
+    CFN Working Group Wiki
+  </a>.
     features:
       - icon: /img/icon1.svg
         text: EDGE COMPUTING

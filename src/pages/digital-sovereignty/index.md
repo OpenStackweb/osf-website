@@ -8,7 +8,7 @@ seo:
   twitterUsername: '@OpenInfraDev'
   url: 'https://openinfra.dev/digital-sovereignty/'
 title: Digital Sovereignty
-subTitle: OpenInfra technologies for sovereign digital infrastructure
+subTitle: OpenInfra Technologies For Sovereign Digital Infrastructure
 footer:
   display: true
   title: Join the OpenInfra Foundation
@@ -25,9 +25,9 @@ relatedResources:
   - title: Addressing digital sovereignty — STACKIT's OpenStack solution for secure, compliant cloud computing
     url: https://superuser.openinfra.org/articles/addressing-digital-sovereignty-stackits-openstack-solution-for-secure-compliant-cloud-computing/
     icon: article
-  - title: Digital sovereignty and OpenInfra session
-    url: https://www.youtube.com/watch?v=XsUTVgDAUxA&list=PLKqaoAnDyfgr91wN_12nwY321504Ctw1s&index=4&t=8s&pp=iAQBsAgC
-    icon: video
+  - title: "Open Source: A global commons to enable digital sovereignty"
+    url: https://opensource.org/blog/open-source-a-global-commons-to-enable-digital-sovereignty
+    icon: article
 members:
   - name: Viettel
     logoUrl: /img/digital-sovereignty/viettel-new-sm.png
@@ -47,11 +47,19 @@ members:
   - name: T-Systems
     logoUrl: /img/digital-sovereignty/tsystems-sm.png
     link: https://www.t-systems.com
+  - name: B1-Systems
+    logoUrl: /img/digital-sovereignty/b1systems.jpg
+  - name: Cloudification
+    logoUrl: /img/digital-sovereignty/cloudification-sm1.png
   - name: FPTSmarCloud
     logoUrl: /img/digital-sovereignty/fptsmartcloud-sm.png
+  - name: NETWAYS
+    logoUrl: /img/digital-sovereignty/netways-sm.png
   - name: OVHCloud
     logoUrl: /img/digital-sovereignty/OVH-new-sm.jpg
     link: https://www.ovhcloud.com
+  - name: Spitzkop
+    logoUrl: /img/digital-sovereignty/spitzkop-sm.png
   - name: StackHPC
     logoUrl: /img/digital-sovereignty/StackHPC-sm1.png
     link: https://www.stackhpc.com
@@ -63,6 +71,6 @@ members:
 
 ## Stance on Digital Sovereignty
 
-<p>Digital sovereignty starts with owning your data and controlling where it lives and runs. But real control requires more: the ability to understand, modify, and innovate on the software itself. Technologies following the "4 Opens" development methodology, transparent providers, interoperability, and the option to self-host give users that power.</p>
+<p>Digital sovereignty starts with owning your data and controlling where it lives and runs and extends to who is able to access it. But real control requires more: the ability to understand, modify, and innovate on the software itself. Technologies following the “4 Opens” development methodology, transparent providers, interoperability, and the option to self-host give users that power.</p>
 
 <p>Open source projects including OpenStack, Kata Containers, StarlingX, and Zuul, supported by the OpenInfra Foundation, provide the building blocks. Rooted in global communities and neutral governance, open infrastructure brings digital sovereignty within reach.</p>

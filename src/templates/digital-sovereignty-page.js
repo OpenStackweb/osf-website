@@ -109,7 +109,8 @@ export const DigitalSovereigntyPageTemplate = ({
           <section className="ds-section ds-section-join">
             <div className="container">
               <h2 className="ds-section-title ds-section-title-light">
-                Join the OpenInfra Digital Sovereignty Working Group
+                <span className="ds-section-title-sub">Join the OpenInfra</span>
+                Digital Sovereignty Working Group
               </h2>
               <div className="ds-join-body">
                 <p>
@@ -117,12 +118,12 @@ export const DigitalSovereigntyPageTemplate = ({
                 </p>
                 <p>
                   If your organization is building a digital sovereignty strategy with OpenInfra technologies (or wants to!), get involved in the OpenInfra Digital Sovereignty Working Group by{' '}
-                  <a href="https://etherpad.opendev.org/p/Digital-Sovereignty-WG" target="_blank" rel="noopener noreferrer">filling out this interest form</a>.
+                  <a href="https://openinfrafoundation.formstack.com/forms/digital_sovereignty_wg_interest_form" target="_blank" rel="noopener noreferrer">filling out this interest form</a>.
                 </p>
               </div>
               <div className="ds-join-cta">
                 <LinkComponent
-                  href="https://etherpad.opendev.org/p/Digital-Sovereignty-WG"
+                  href="https://openinfrafoundation.formstack.com/forms/digital_sovereignty_wg_interest_form"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="ds-join-button"
@@ -137,7 +138,10 @@ export const DigitalSovereigntyPageTemplate = ({
           {members && members.length > 0 && (
             <section className="ds-section ds-section-members">
               <div className="container">
-                <h2 className="ds-section-title">Digital Sovereignty Working Group Members</h2>
+                <h2 className="ds-section-title">
+                  OpenInfra Members
+                  <span className="ds-section-title-sub">in the Digital Sovereignty Working Group</span>
+                </h2>
                 <div className="ds-members-grid">
                   {members.map((m, i) => {
                     const src = normalizeLogoUrl(m.logoUrl)

@@ -15,6 +15,31 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2026-04-09T14:00:19.531Z
+    episodeTitle: https://www.youtube.com/watch?v=zrL62jyoEZs
+    episodeDescription: "Learn more about the features that landed in Ironic for the
+      OpenStack 2026.1 Gazpacho release cycle. "
+    episodeSpeakers: |-
+      Jay Faulkner
+      Doug Goldstein
+      Clifton Houck
+      Julia Kreger
+    youtubeLink: https://www.youtube.com/watch?v=zrL62jyoEZs
+    youtubeEmbed: https://www.youtube.com/embed/zrL62jyoEZs?si=inIRGM7cTuTgkxYx
+  - hidden: false
+    date: 2026-04-02T14:00:11.824Z
+    episodeTitle: Introducing OpenStack 2026.1 'Gazpacho'
+    episodeDescription: Learn more about the latest release from the OpenStack
+      community, 2026.1 'Gazpacho'
+    youtubeLink: https://www.youtube.com/watch?v=YSrqj-pKBPo
+    youtubeEmbed: https://www.youtube.com/embed/YSrqj-pKBPo?si=inIRGM7cTuTgkxYx
+    episodeSpeakers: |-
+      Jay Faulkner (Ironic)
+      Goutham Pacha Ravi (OpenStack Technical Committee)
+      René Ribaud (Nova)
+      Carlos Silva (Manila)
+      Douglas Viroel (Watcher) 
+  - hidden: false
     date: 2026-03-05T16:00:00.000Z
     youtubeLink: https://www.youtube.com/watch?v=WM5pYEbiaaw
     youtubeEmbed: https://www.youtube.com/embed/WM5pYEbiaaw?si=z_p9ktY3Rr9bp-0_

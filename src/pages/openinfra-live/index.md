@@ -16,7 +16,7 @@ hero:
 episodes:
   - hidden: false
     date: 2026-04-09T14:00:19.531Z
-    episodeTitle: https://www.youtube.com/watch?v=zrL62jyoEZs
+    episodeTitle: "OpenStack 2026.1 Gazpacho: Ironic Deep Dive"
     episodeDescription: "Learn more about the features that landed in Ironic for the
       OpenStack 2026.1 Gazpacho release cycle. "
     episodeSpeakers: |-

@@ -22,9 +22,9 @@ header:
     - text: Register Now!
       link: https://ptg.openinfra.org/
       display: true
-    - text: Sign Up Your Team
-      link: https://openinfrafoundation.formstack.com/forms/apr2026_ptg_survey
-      display: true
+#    - text: Sign Up Your Team
+#      link: https://openinfrafoundation.formstack.com/forms/apr2026_ptg_survey
+#      display: true
   image: /img/ptg-page/hero-image.png
 form:
   display: true

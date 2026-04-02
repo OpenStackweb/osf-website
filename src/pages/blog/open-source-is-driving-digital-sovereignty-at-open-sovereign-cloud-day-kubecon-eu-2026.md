@@ -6,7 +6,7 @@ date: 2026-04-01T14:00:00.000Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: Open Source is Driving Digital Sovereignty at Open Sovereign Cloud Day
     @KubeCon EU 2026

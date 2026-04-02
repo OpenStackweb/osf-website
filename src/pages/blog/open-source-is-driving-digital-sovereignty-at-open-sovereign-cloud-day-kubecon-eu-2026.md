@@ -1,7 +1,6 @@
 ---
 templateKey: blog-post
-title: Open Source is Driving Digital Sovereignty at Open Sovereign Cloud Day
-  @KubeCon EU 2026
+title: "Open Source Drives Digital Sovereignty at Inaugural Open Sovereign Cloud Day "
 author: Kendall Nelson
 date: 2026-04-01T14:00:00.000Z
 category:

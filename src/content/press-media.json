@@ -11,6 +11,14 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2026-03-26T19:02:00.012Z",
+      "site": "TechRevolt",
+      "link": "https://techrevolt.news/articles/exclusive-thierry-carrez-on-europe%E2%80%99s-digital-sovereignty-and-open-infrastructure-future",
+      "title": "Exclusive: Thierry Carrez on Europe’s Digital Sovereignty and Open Infrastructure Future"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2025-11-14T17:12:13.831Z",
       "link": "https://www.networkworld.com/article/4090214/starlingx-11-0-addresses-edge-security-ipv4-exhaustion-for-massive-deployments.html",
       "site": "Network World ",

@@ -70,10 +70,6 @@ upcomingMeetups:
       date: May 21, 2026
       link: https://www.meetup.com/openinfra-user-group-sweden/events/313615139/
       location: OpenInfra Forum Sweden
-    - date: March 23-26, 2026
-      link: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
-      location: Booth at KubeCon EU
-      background: /img/kata.jpg
     - date: April 20-24, 2026
       location: Project Teams Gathering
       link: https://openinfra.org/ptg/

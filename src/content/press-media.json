@@ -3,6 +3,14 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2026-04-03T20:04:38.552Z",
+      "link": "https://www.techzine.eu/news/infrastructure/140224/openstack-gazpacho-simplifies-operations-and-vmware-migrations/",
+      "site": "Techzine",
+      "title": "OpenStack Gazpacho simplifies operations and VMware migrations"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2026-04-01T19:00:57.782Z",
       "title": "OpenStack Gazpacho is a dish best served cold for hot cloud networks",
       "site": "Network World",

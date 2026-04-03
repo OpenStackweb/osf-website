@@ -21,7 +21,7 @@ upcomingDaysEvents:
         <a
         href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
         target="_blank">OpenInfra Days Nigeria</a>
-      date: April 25, 2026
+      date: May 16, 2026
       location: Jalingo, Nigeria
       registration: >
         <a
@@ -49,8 +49,8 @@ upcomingDaysEvents:
       location: TBD
       registration: More Info Coming Soon
       sponsor: ""
-    - title: OpenInfra Day Korea
-      date: TBD
+    - title: Kubernetes Community Day x OpenInfra Day Korea
+      date: September 1, 2026
       location: Seoul, South Korea
       registration: More Info Coming Soon
 upcomingMeetups:

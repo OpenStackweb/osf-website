@@ -3,6 +3,14 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2026-04-07T19:32:47.316Z",
+      "title": "Yahoo! Japan’s owner consolidating 164 OpenStack clusters into one",
+      "site": "The Register",
+      "link": "https://www.theregister.com/2026/04/07/ly_corp_openstack_consolidation/"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2026-04-03T20:04:38.552Z",
       "link": "https://www.techzine.eu/news/infrastructure/140224/openstack-gazpacho-simplifies-operations-and-vmware-migrations/",
       "site": "Techzine",

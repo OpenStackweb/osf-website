@@ -35,6 +35,14 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2026-02-03T21:14:12.367Z",
+      "title": "Kata containers: the overlooked Kubernetes workload isolation for secure AI",
+      "site": "The Stack",
+      "link": "https://www.thestack.technology/kata-containers-kubernetes-isolation-ai/"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2025-11-14T17:12:13.831Z",
       "link": "https://www.networkworld.com/article/4090214/starlingx-11-0-addresses-edge-security-ipv4-exhaustion-for-massive-deployments.html",
       "site": "Network World ",

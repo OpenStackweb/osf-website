@@ -50,7 +50,7 @@ const NewsSection = class extends React.Component {
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
                     <div className="news-article-inner-container">
                             <a href="https://www.theregister.com/2026/04/07/ly_corp_openstack_consolidation/"><img src="/img/homeV2/news-images/LY-upstream.png" /></a>
-                            <p className="news-article-intro-text">Sean Simon Sharwood • Apr 7, 2026</p>
+                            <p className="news-article-intro-text">Simon Sharwood • Apr 7, 2026</p>
                             <a href="https://www.theregister.com/2026/04/07/ly_corp_openstack_consolidation/"><h3>Yahoo! Japan’s owner consolidating 164 OpenStack clusters into one</h3></a>
                             <p className="news-article-content">Customizations are causing pain so new cloud will stick to upstream cuts of the open source stack.</p>
                             <a className="news-article-link" href="https://www.theregister.com/2026/04/07/ly_corp_openstack_consolidation/">READ MORE</a>

@@ -48,6 +48,13 @@ const NewsSection = class extends React.Component {
                         <p className="home-v2-paragraph home-v2-paragraph-white">The latest news, technologies, and resources from the OpenInfra Community</p>
                     </div>
                     <div className="news-article-container" style={{right: this.state.newsOffset}}>
+                    <div className="news-article-inner-container">
+                            <a href="https://www.theregister.com/2026/04/07/ly_corp_openstack_consolidation/"><img src="/img/homeV2/news-images/LY-upstream.png" /></a>
+                            <p className="news-article-intro-text">Simon Sharwood • Apr 7, 2026</p>
+                            <a href="https://www.theregister.com/2026/04/07/ly_corp_openstack_consolidation/"><h3>Yahoo! Japan’s owner consolidating 164 OpenStack clusters into one</h3></a>
+                            <p className="news-article-content">Customizations are causing pain so new cloud will stick to upstream cuts of the open source stack.</p>
+                            <a className="news-article-link" href="https://www.theregister.com/2026/04/07/ly_corp_openstack_consolidation/">READ MORE</a>
+                        </div>
                         <div className="news-article-inner-container">
                             <a href="https://www.networkworld.com/article/4090214/starlingx-11-0-addresses-edge-security-ipv4-exhaustion-for-massive-deployments.html"><img src="/img/homeV2/news-images/starlingx-11.png" /></a>
                             <p className="news-article-intro-text">Sean Michael Kerner • Nov 14, 2025</p>

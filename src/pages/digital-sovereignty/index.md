@@ -51,6 +51,8 @@ members:
     logoUrl: /img/digital-sovereignty/b1systems.jpg
   - name: Cloudification
     logoUrl: /img/digital-sovereignty/cloudification-sm1.png
+  - name: Everpure
+    logoUrl: /img/digital-sovereignty/everpure-lg.png
   - name: FPTSmarCloud
     logoUrl: /img/digital-sovereignty/fptsmartcloud-sm.png
   - name: NETWAYS

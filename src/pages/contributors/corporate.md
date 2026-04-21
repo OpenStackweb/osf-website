@@ -922,5 +922,7 @@ companyDetails:
       col2: 2017-02-08
 ---
 
-The list of Corporate CLAs allowed to contribute to OpenStack projects. (Individual developers still need to fill out the Individual [Contributors License Agreement](https://wiki.openstack.org/wiki/How_To_Contribute#Contributors_License_Agreement)). If you need to update the list of employees authorized to commit code to OpenStack, please read [How To Update Corporate CLA](/cla). 
+Starting July 1, 2025, OpenInfra Foundation projects have transitioned from requiring Contributor License Agreements (CLAs) to using the Developer Certificate of Origin (DCO) approach. This change eliminates friction for new contributors while maintaining the legal clarity needed for open source projects. The DCO is simpler, more transparent, and aligns with industry best practices used by major projects like the Linux kernel, Docker, Git, and many others. Read more about [DCO here](/dco).
+
+The following is the archived list of Corporate CLAs allowed to contribute to OpenStack projects. 
 

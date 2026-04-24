@@ -18,13 +18,13 @@ header:
   location:
     icon: /img/summit/Vector-world.svg
     text: Virtual
-#  buttons:
-#    - text: Register Now!
-#      link: https://ptg.openinfra.org/
-#      display: true
-#    - text: Sign Up Your Team
-#      link: https://openinfrafoundation.formstack.com/forms/apr2026_ptg_survey
-#      display: true
+buttons:
+  - text: Register Now!
+    link: https://ptg.openinfra.org/
+    display: false
+  - text: Sign Up Your Team
+    link: https://openinfrafoundation.formstack.com/forms/apr2026_ptg_survey
+    display: false
   image: /img/ptg-page/hero-image.png
 form:
   display: true

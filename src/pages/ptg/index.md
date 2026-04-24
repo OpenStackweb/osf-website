@@ -14,14 +14,14 @@ header:
     The Project Teams Gathering (PTG) allows OpenInfra community groups and adjacent open source community project teams to meet virtually, exchange ideas and get work done in a productive, low-key setting. The ‘co-location’ of these meetings into a combined event, in conjunction with the dynamic scheduling and transparency of topics being discussed, enables open collaboration for communities to discuss any specific topic. Check out the list of teams participating in the next PTG on our registration page!
   date:
     icon: /img/summit/Vector-calendar.svg
-    text: April 20-24, 2026!
+    text: October 12-16, 2026!
   location:
     icon: /img/summit/Vector-world.svg
     text: Virtual
-  buttons:
-    - text: Register Now!
-      link: https://ptg.openinfra.org/
-      display: true
+#  buttons:
+#    - text: Register Now!
+#      link: https://ptg.openinfra.org/
+#      display: true
 #    - text: Sign Up Your Team
 #      link: https://openinfrafoundation.formstack.com/forms/apr2026_ptg_survey
 #      display: true

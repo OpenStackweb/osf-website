@@ -3,10 +3,35 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2026-05-05T16:55:11.940Z",
+      "title": "StarlingX 12.0 is right on time for mixed-hardware edge deployments",
+      "link": "https://www.networkworld.com/article/4166545/starlingx-12-0-is-right-on-time-for-mixed-hardware-edge-deployments.html",
+      "site": "Network World"
+    },
+    {
+      "date": "2020-10-19T15:15:00.000Z",
+      "title": "The OpenStack Foundation becomes the Open Infrastructure Foundation",
+      "link": "https://techcrunch.com/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/",
+      "site": "TechCrunch",
+      "featured": true,
+      "hideArticle": false,
+      "image": "/img/img_20180522_125817.webp"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2026-04-07T19:32:47.316Z",
       "title": "Yahoo! Japan’s owner consolidating 164 OpenStack clusters into one",
       "site": "The Register",
       "link": "https://www.theregister.com/2026/04/07/ly_corp_openstack_consolidation/"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
+      "date": "2026-05-05T16:55:09.824Z",
+      "title": "StarlingX 12 release adds OIDC support, sharpens edge cloud management",
+      "site": "SDxCentral",
+      "link": "https://www.sdxcentral.com/news/starlingx-12-release-adds-oidc-support-sharpens-edge-cloud-management/"
     },
     {
       "featured": false,
@@ -687,15 +712,6 @@
       "site": "ITProToday",
       "featured": false,
       "hideArticle": false
-    },
-    {
-      "date": "2020-10-19T15:15:00.000Z",
-      "title": "The OpenStack Foundation becomes the Open Infrastructure Foundation",
-      "link": "https://techcrunch.com/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/",
-      "site": "TechCrunch",
-      "featured": true,
-      "hideArticle": false,
-      "image": "/img/img_20180522_125817.webp"
     }
   ],
   "seo": {

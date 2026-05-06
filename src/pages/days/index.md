@@ -17,17 +17,6 @@ upcomingDaysEvents:
     img: /img/oi-days-1920x325.11.png
     alt: openinfra-days
   events:
-    - title: >
-        <a
-        href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
-        target="_blank">OpenInfra Days Nigeria</a>
-      date: May 16, 2026
-      location: Jalingo, Nigeria
-      registration: >
-        <a
-        href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
-        target="_blank">Learn More</a>
-      sponsor: ""
     - title: |
         Kubernetes Community Day x OpenInfra Day Vietnam
       date: July 24 & 25, 2026
@@ -44,15 +33,26 @@ upcomingDaysEvents:
       date: October 24, 2026
       location: Saarbrücken, Germany
       registration: More Info Coming Soon
+    - title: KCD x Ceph x OpenInfra Day Korea
+      date: September 1, 2026
+      location: Seoul, South Korea
+      registration: More Info Coming Soon
     - title: Ceph Day x OpenInfra Day North America
       date: TBD
       location: TBD
       registration: More Info Coming Soon
       sponsor: ""
-    - title: Kubernetes Community Day x OpenInfra Day Korea
-      date: September 1, 2026
-      location: Seoul, South Korea
-      registration: More Info Coming Soon
+    - title: >
+        <a
+        href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
+        target="_blank">OpenInfra Days Nigeria</a>
+      date: TBD
+      location: Jalingo, Nigeria
+      registration: >
+        <a
+        href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
+        target="_blank">Learn More</a>
+      sponsor: ""
 upcomingMeetups:
   title: OpenInfra Community Events
   banner:

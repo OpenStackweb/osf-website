@@ -57,6 +57,8 @@ members:
     logoUrl: /img/digital-sovereignty/fptsmartcloud-sm.png
   - name: NETWAYS
     logoUrl: /img/digital-sovereignty/netways-sm.png
+  - name: OpenMetal
+    logoUrl: /img/digital-sovereignty/openmetal-sm.jpg
   - name: OVHCloud
     logoUrl: /img/digital-sovereignty/OVH-new-sm.jpg
     link: https://www.ovhcloud.com

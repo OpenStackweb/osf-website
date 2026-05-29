@@ -19,20 +19,17 @@ upcomingDaysEvents:
   events:
     - title: |
         Kubernetes Community Day x OpenInfra Day Vietnam
-      date: July 24 & 25, 2026
+      date: July 25, 2026
       location: Hanoi, Vietnam
-      registration: |
-        More Info Coming Soon
+      registration: >
+        <a href="https://sessionize.com/kcd-and-oid-vietnam-2026/"
+        target="_blank">CFP Closes May 31</a>
       sponsor: ""
     - title: OpenInfra Day Kenya
       date: September 4 & 5, 2026
       location: Nairobi, Kenya
       registration: More Info Coming Soon
       sponsor: ""
-    - title: OpenInfra Day Germany
-      date: October 24, 2026
-      location: Saarbrücken, Germany
-      registration: More Info Coming Soon
     - title: KCD x Ceph x OpenInfra Day Korea
       date: September 1, 2026
       location: Seoul, South Korea

@@ -15,6 +15,24 @@ hero:
     14:00 UTC (9am CT)</strong>."
 episodes:
   - hidden: false
+    date: 2026-06-11T14:00:00.000Z
+    episodeTitle: The AI Challenges Zuul Already Solved
+    episodeDescription: In this OpenInfra Live episode, Zuul maintainers and users
+      will explore how the principles behind Zuul's architecture map directly to
+      today's AI workflows, why trusted automation matters more than ever, and
+      what AI builders can learn from a decade of operating complex autonomous
+      systems at scale. Rather than solving old problems presenting as new, AI
+      teams may find that many of the answers already exist in the tools and
+      practices that have powered open source software delivery for years.
+    episodeSpeakers: |
+      Clark Boylan, OpenDev
+      Monty Taylor
+      James Blair, Acme Gating 
+      Johannes Foufas, Volvo Cars 
+    youtubeLink: https://www.youtube.com/watch?v=b_Q_Hp6-QPQ
+    linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:7467617280126980097/
+    youtubeEmbed: https://www.youtube.com/embed/b_Q_Hp6-QPQ?si=inIRGM7cTuTgkxYx
+  - hidden: false
     date: 2026-04-09T14:00:19.531Z
     episodeTitle: "OpenStack 2026.1 Gazpacho: Ironic Deep Dive"
     episodeDescription: "Learn more about the features that landed in Ironic for the

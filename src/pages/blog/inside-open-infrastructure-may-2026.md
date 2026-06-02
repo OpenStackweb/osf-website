@@ -49,9 +49,10 @@ On September 8-9, [OpenInfra Summit Asia | KubeCon | CloudNativeCon | PyTorch Co
 
 * Learn more about how the StarlingX community refreshed how authentication works in the 12.0 release of the platform with OIDC on the [StarlingX blog](https://www.starlingx.io/blog/starlingx-oidc/).
 
-## [Zuul](https://docs.google.com/document/d/1OrwXFZgITKTuqdcjXaSRKoT3UN1IxchI6-4gGTQzAHc/edit?tab=t.0) 
+## [Zuul](https://docs.google.com/document/d/1OrwXFZgITKTuqdcjXaSRKoT3UN1IxchI6-4gGTQzAHc/edit?tab=t.0)
 
 * See Monty Taylor’s article [AI Agents Need CI/CD, Not Root Access](https://zuul-ci.org/blog/#20260513a) recently published to the Zuul Blog, for a CI/CD and code review approach to LLM agent isolation.
+* Join an [episode of OpenInfra Live](https://www.youtube.com/watch?v=b_Q_Hp6-QPQ) on June 11 at 1400 UTC (9am CT) to explore how the principles behind Zuul's architecture map directly to today's AI workflows, why trusted automation matters more than ever, and what AI builders can learn from a decade of operating complex autonomous systems at scale.
 
 ## More OpenInfra Community Events
 

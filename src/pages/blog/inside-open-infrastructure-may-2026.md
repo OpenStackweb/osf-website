@@ -17,11 +17,13 @@ seo:
 
 The OpenInfra Foundation has launched a new AI Policy Working Group to help align open source community needs with how AI is already reshaping software development. Across OpenInfra projects, contributors are increasingly using AI tools in their day-to-day work, and AI-related regulation is showing up across more jurisdictions. This work is critical: the decisions we make now about how AI fits into our projects will shape contribution practices, governance, and compliance for years to come. The group will focus on understanding the current state of AI policy across OpenInfra projects, tracking industry developments, developing guidance that accommodates agentic workflows while preserving human accountability for contributions, and building recommendations that can evolve as the technology does.
 
-This effort needs broad community input to succeed, your perspective matters. The Working Group meets the third Wednesday of every month at 18:00 UTC, with the [agenda and meeting details available in this etherpad](https://etherpad.opendev.org/p/openinfra-ai-policy-wg). You can also [join the conversation via the public mailing list](https://lists.openinfra.org/mailman3/lists/ai-policy-wg.lists.openinfra.org/). We'd love to have you at the table as we shape how our projects respond to one of the most significant shifts in open source development today.
+This effort needs broad community input to succeed; your perspective matters. The Working Group meets the third Wednesday of every month at 18:00 UTC, with the [agenda and meeting details available in this etherpad](https://etherpad.opendev.org/p/openinfra-ai-policy-wg). You can also [join the conversation via the public mailing list](https://lists.openinfra.org/mailman3/lists/ai-policy-wg.lists.openinfra.org/). We'd love to have you at the table as we shape how OpenInfra projects respond to one of the most significant shifts in open source development today.
 
 ## OpenInfra Foundation News
 
 * The OpenInfra Digital Sovereignty Working Group has been hard at work. Many new content pieces are in the pipeline, including case studies, a comparison guide between proprietary clouds vs OpenStack clouds, and a guide to OpenInfra best practices. [The landing page](https://openinfra.org/digital-sovereignty/) will be getting updates soon, so stay tuned. In the meantime, check out [this case study from dNation with KInIT](https://superuser.openinfra.org/articles/the-kinit-case-study-sovereign-ai-cloud/)
+* The [University Partnership Program (UPP)](https://t.e2ma.net/click/el3ini/ulijjyje/io48z8) is a global initiative dedicated to fostering collaboration between the OpenInfra Foundation and academic institutions. By engaging students in open source development, the program aims to build a robust pipeline of young professionals for the open source infrastructure ecosystem. Joses De Carlos, a student at Valencia College (OpenInfra Associate Member), has wrapped up his work with Manila this semester. Joses worked with mentors Goutham Pacha Ravi and Carlos Silva to get real world experience while working on his degree. He [recorded a presentation about his experience](https://t.e2ma.net/click/el3ini/ulijjyje/yg58z8) as part of his final.
+* The [VMware to OpenStack Working Group](https://t.e2ma.net/click/el3ini/ulijjyje/e958z8) is starting back up with an aim to update the VMware/OpenStack comparison chart as well as document use cases around SAP and Oracle workloads running on OpenStack. This working group is for OpenInfra Foundation Members. For more information, email [Jimmy McArthur](mailto:jimmy@openinfra.org).
 * If you’re interested in joining the global collaboration around open source infrastructure, consider [membership in the OpenInfra Foundation](https://t.e2ma.net/click/icbmli/u5lbjst/edhkv8). [Book a meeting with Jimmy McArthur](https://t.e2ma.net/click/icbmli/u5lbjst/u5hkv8) today!
 
 ## [OpenInfra Summit Asia](https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/)
@@ -41,7 +43,7 @@ On September 8-9, [OpenInfra Summit Asia | KubeCon | CloudNativeCon | PyTorch Co
 
 * The new Kata Containers [3.31.0](https://github.com/kata-containers/kata-containers/releases/tag/3.31.0) release is now available! The community is working hard on the Kata Containers 4.0.0 release. If you’re curious about what the new major version of the runtime is going to bring you, check out the [release preview blog post](https://katacontainers.io/blog/release-4-0-0-preview/)!!
 
-## OpenDev Collaboratory
+## [OpenDev Collaboratory](https://opendev.org/)
 
 * Opendev will upgrade Gerrit on review.opendev.org from version 3.12 to 3.13 on Friday June 5, 2026 at 1600 UTC. See the [announcement](https://lists.opendev.org/archives/list/service-announce@lists.opendev.org/thread/UIFRQR34WYMF3KDMNQFMO222DIK3HTUD/) for more information.
 
@@ -59,9 +61,10 @@ On September 8-9, [OpenInfra Summit Asia | KubeCon | CloudNativeCon | PyTorch Co
 * [OpenStack Booth at KubeCon + CloudNativeCon India](https://events.linuxfoundation.org/kubecon-cloudnativecon-india/)  | 18-19 June
 
   * Booth # SU4
-* OpenInfra + KCD Vietnam | 25 July
+  * [Register](https://openinfrafoundation.formstack.com/forms/openstack_starlingx_meetup_india) for the evening event
+* [OpenInfra + KCD Vietnam ](https://2026.vietopeninfra.org/vi/)| 25 July
 
-  * [CFP open until 31 May](https://sessionize.com/kcd-and-oid-vietnam-2026/)
+  * [Learn More](https://t.e2ma.net/click/el3ini/ulijjyje/elr9z8) | [Register](https://t.e2ma.net/click/el3ini/ulijjyje/uds9z8)
 * [OpenInfra Track at the ALASCA Summit](https://alasca.cloud/en/alasca-summit-2026/) | 3 & 4 November
 
   * [CFP open until 31 July](https://alasca.cloud/en/alasca-summit-2026/alasca-summit-2026-programme/alasca-summit-2026-call-for-contributions/)

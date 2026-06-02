@@ -6,7 +6,7 @@ date: 2026-06-02T20:29:41.069Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   url: https://openinfra.org/blog/openinfra-newsletter-may-2026
   twitterUsername: "@openinfradev"

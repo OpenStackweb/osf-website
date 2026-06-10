@@ -27,8 +27,8 @@ footer:
 | **September 4–5** | OpenInfra Day Kenya                                                                                                                               |
 | **September 8–9** | [KubeCon + CloudNativeCon + OpenInfra Summit Asia + PyTorch Conference](https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/) |
 | **September 11**  | OpenInfra Community at [CODT](https://cloudopsdays.com/)                                                                                          |
+| **October 22-25**  | OpenInfra Community will have a track at [Sovereign Cloud Days Germany](https://www.sovereign-cloud-days.eu/en)                                                                                          |
 | **TBD**           | [OpenInfra Day Nigeria](https://www.meetup.com/openstack-nigeria-user-group/events/313525373/)                                                    |
-| **TBD**           | OpenInfra Day Germany                                                                                                                             |
 | **TBD**           | Ceph Day x OpenInfra Day North America                                                                                                            |
 
 ## [OpenInfra Summit](/summit)

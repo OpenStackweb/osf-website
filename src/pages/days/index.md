@@ -83,6 +83,10 @@ upcomingMeetups:
       link: https://cloudopsdays.com/
       date: August-September 2026
       background: /img/oif-2-codt.jpg
+    - background: /img/scs2026.png
+      date: October 22–25, 2026
+      location: OpenInfra Track at Sovereign Cloud Days
+      link: https://www.sovereign-cloud-days.eu/en
     - location: OpenInfra Track at ALASCA Summit
       link: https://alasca.cloud/en/alasca-summit-2026/alasca-summit-2026-programme/alasca-summit-2026-call-for-contributions/
       background: /img/oif-alasca.jpg
@@ -126,6 +130,10 @@ communityEvents:
       link: https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/
       date: September 8-9, 2026
       location: Shanghai, CN
+    - link: https://www.sovereign-cloud-days.eu/en
+      date: October 22–25, 2026
+      location: Saarbrücken, Germany
+      name: Sovereign Cloud Days Germany
     - name: Alasca Summit
       link: https://alasca.cloud/en/alasca-summit-2026/
       date: November 3-4, 2026

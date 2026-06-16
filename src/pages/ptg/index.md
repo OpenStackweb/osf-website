@@ -24,7 +24,7 @@ header:
       display: true
     - text: Sign Up Your Team
       link: https://openinfrafoundation.formstack.com/forms/apr2026_ptg_survey
-      display: false
+      display: true
   image: /img/ptg-page/hero-image.png
 form:
   display: true

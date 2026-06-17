@@ -22,8 +22,9 @@ upcomingDaysEvents:
       date: July 25, 2026
       location: Hanoi, Vietnam
       registration: >
-        <a href="https://sessionize.com/kcd-and-oid-vietnam-2026/"
-        target="_blank">CFP Closes May 31</a>
+        <a href="https://ticketbox.vn/kcd-openinfra-days-2026-26115"
+        target="_blank">Register</a> | <a
+        href="https://2026.vietopeninfra.org/en/#sponsors">Sponsor</a>
       sponsor: ""
     - title: OpenInfra Day Kenya
       date: September 4 & 5, 2026

@@ -30,10 +30,13 @@ upcomingDaysEvents:
       location: Nairobi, Kenya
       registration: More Info Coming Soon
       sponsor: ""
-    - title: KCD x Ceph x OpenInfra Day Korea
+    - title: <a
+        href="https://community2.cncf.io/events/details/cncf-kcd-south-korea-presents-kcd-x-ceph-x-openinfra-day-korea-2026/"
+        target="_blank">KCD x Ceph x OpenInfra Day Korea</a>
       date: September 1, 2026
       location: Seoul, South Korea
-      registration: More Info Coming Soon
+      registration: <a href="https://sessionize.com/kcd-ceph-openinfra-day-korea-2026"
+        target="_blank">CFP Closes June 26</a>
     - title: Ceph Day x OpenInfra Day North America
       date: TBD
       location: TBD

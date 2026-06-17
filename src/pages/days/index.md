@@ -17,8 +17,8 @@ upcomingDaysEvents:
     img: /img/oi-days-1920x325.11.png
     alt: openinfra-days
   events:
-    - title: |
-        Kubernetes Community Day x OpenInfra Day Vietnam
+    - title: <a href="https://2026.vietopeninfra.org/en/" target="_blank">Kubernetes
+        Community Day x OpenInfra Day Vietnam</a>
       date: July 25, 2026
       location: Hanoi, Vietnam
       registration: >

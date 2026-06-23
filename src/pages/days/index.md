@@ -36,8 +36,15 @@ upcomingDaysEvents:
         target="_blank">KCD x Ceph x OpenInfra Day Korea</a>
       date: September 1, 2026
       location: Seoul, South Korea
-      registration: <a href="https://sessionize.com/kcd-ceph-openinfra-day-korea-2026"
-        target="_blank">CFP Closes June 26</a>
+      registration: >+
+        <a
+        href="https://community2.cncf.io/events/details/cncf-kcd-south-korea-presents-kcd-x-ceph-x-openinfra-day-korea-2026/"
+        target="_blank">Register</a> | <a
+        href="https://drive.google.com/file/d/1bU6MZvdkwUck5SyvxltGh724CnBgkwsP/view?usp=drive_link"
+        target="_blank">Sponsor</a>
+
+
+
     - title: Ceph Day x OpenInfra Day North America
       date: TBD
       location: TBD

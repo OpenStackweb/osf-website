@@ -102,6 +102,10 @@ upcomingMeetups:
       location: Project Teams Gathering
       link: https://openinfra.org/ptg/
       background: /img/oif-ptg-h1-2026.jpg
+    - background: /img/oif-ptg-h2-2026.jpg
+      location: Project Teams Gathering
+      link: https://openinfra.org/ptg/
+      date: October 12-16
 pastMeetups:
   title: Past Openinfra Days
   meetups:

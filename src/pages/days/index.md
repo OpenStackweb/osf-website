@@ -82,6 +82,10 @@ upcomingMeetups:
       link: https://cloudopsdays.com/
       date: August-September 2026
       background: /img/oif-2-codt.jpg
+    - background: /img/oif-ptg-h2-2026.jpg
+      location: Project Teams Gathering
+      link: https://openinfra.org/ptg/
+      date: October 12-16
     - background: /img/scs2026.png
       date: October 22–25, 2026
       location: OpenInfra Track at Sovereign Cloud Days
@@ -102,10 +106,6 @@ upcomingMeetups:
       location: Project Teams Gathering
       link: https://openinfra.org/ptg/
       background: /img/oif-ptg-h1-2026.jpg
-    - background: /img/oif-ptg-h2-2026.jpg
-      location: Project Teams Gathering
-      link: https://openinfra.org/ptg/
-      date: October 12-16
 pastMeetups:
   title: Past Openinfra Days
   meetups:

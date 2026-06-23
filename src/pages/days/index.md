@@ -132,14 +132,6 @@ pastMeetups:
 communityEvents:
   title: More Open Source Community Events
   events:
-    - name: KUBECON +  CLOUDNATIVECON EUROPE
-      link: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
-      date: March 23–26, 2026
-      location: Amsterdam, NL
-    - name: KubeCon KUBECON +  CLOUDNATIVECON India
-      date: June 18-19, 2026
-      location: Mumbai, India
-      link: https://events.linuxfoundation.org/kubecon-cloudnativecon-india/
     - name: KubeCon + CloudNativeCon + OpenInfra Summit + PyTorch Conference China
         2026
       link: https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/

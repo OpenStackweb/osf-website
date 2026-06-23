@@ -74,18 +74,6 @@ upcomingMeetups:
       text: SIGN UP TO BE NOTIFIED
       url: https://openinfrafoundation.formstack.com/forms/2026_openinfra_events_updates
   meetups:
-    - background: /img/cover-02-1600x900.png
-      date: May 21, 2026
-      link: https://www.meetup.com/openinfra-user-group-sweden/events/313615139/
-      location: OpenInfra Forum Sweden
-    - date: April 20-24, 2026
-      location: Project Teams Gathering
-      link: https://openinfra.org/ptg/
-      background: /img/ptg-project-teams-gathering-1x.png
-    - background: /img/oif-2-india.jpg
-      location: Booth at KubeCon India
-      date: June 18-19, 2026
-      link: https://events.linuxfoundation.org/kubecon-cloudnativecon-india/
     - background: /img/openstack.jpg
       link: https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/
       date: July 29-30, 2026
@@ -102,6 +90,18 @@ upcomingMeetups:
       link: https://alasca.cloud/en/alasca-summit-2026/alasca-summit-2026-programme/alasca-summit-2026-call-for-contributions/
       background: /img/oif-alasca.jpg
       date: November 3-4, 2026
+    - background: /img/oif-2-india-1-.jpg
+      location: Booth at KubeCon India
+      date: June 18-19, 2026
+      link: https://events.linuxfoundation.org/kubecon-cloudnativecon-india/
+    - background: /img/oif-2-sweden.jpg
+      date: May 21, 2026
+      link: https://www.meetup.com/openinfra-user-group-sweden/events/313615139/
+      location: OpenInfra Forum Sweden
+    - date: April 20-24, 2026
+      location: Project Teams Gathering
+      link: https://openinfra.org/ptg/
+      background: /img/oif-ptg-h1-2026.jpg
 pastMeetups:
   title: Past Openinfra Days
   meetups:

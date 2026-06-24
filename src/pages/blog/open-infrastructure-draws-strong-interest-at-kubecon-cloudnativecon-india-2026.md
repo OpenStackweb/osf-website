@@ -5,9 +5,13 @@ title: Open Infrastructure Draws Strong Interest at KubeCon + CloudNativeCon
 author: Jimmy McArthur
 date: 2026-06-24T17:48:16.545Z
 category:
-  - value: category-A7fnZYrE1
-    label: News & Announcements
-hidePost: true
+  - value: category-KMY0e6q9N
+    label: OpenStack
+  - value: category-x3TAX-MsU
+    label: StarlingX
+  - value: category-h2Ztx9rpD
+    label: Community
+hidePost: false
 seo:
   title: Open Infrastructure Draws Strong Interest at KubeCon + CloudNativeCon
     India 2026

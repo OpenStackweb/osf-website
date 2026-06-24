@@ -34,6 +34,8 @@ Operational conversations were still frequent and centered around several famili
 
 The event also provided an opportunity to meet a number of OpenStack operators and users who were not previously engaged with the broader community. NPCI, who averages 240,000 API requests per second, shared their [story on the keynote stage](https://sched.co/2NlyU), including how their open source powered infrastructure is based on OpenStack. These conversations highlighted the continued growth of OpenStack deployments across the region and demonstrated the importance of creating opportunities for operators to connect, share experiences, and participate upstream.
 
+![](/img/keynote.png)
+
 The broader OpenInfra ecosystem was also engaged throughout the event. OpenInfra Foundation Silver Member [Coredge](https://coredge.io/) maintained a packed booth of its own, showcasing its OpenStack-powered cloud and edge solutions. Many of the discussions taking place at the Coredge booth reflected the same market dynamics we heard throughout the conference, including growing demand for digital sovereignty, cloud independence, and migration away from proprietary infrastructure platforms.
 
 OpenInfra Foundation Platinum Member [Wind River](https://www.windriver.com/) joined us behind the OpenInfra booth, helping answer technical questions about StarlingX and sharing insights from real-world edge computing deployments. Their participation underscored the growing interest in edge infrastructure as organizations look to deploy cloud-native applications closer to users, devices, and data sources.

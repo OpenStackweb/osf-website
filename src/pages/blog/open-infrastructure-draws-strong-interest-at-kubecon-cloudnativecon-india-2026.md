@@ -18,7 +18,9 @@ seo:
 ---
 KubeCon + CloudNativeCon India 2026 provided another clear signal that interest in open infrastructure is accelerating.
 
-Throughout the event, the OpenInfra Foundation booth remained consistently busy, often with visitors gathered in crowds to discuss OpenStack, StarlingX, and the role open infrastructure is playing in the next generation of cloud, edge, and AI deployments.
+Throughout the event, the OpenInfra Foundation booth remained consistently busy, often with visitors gathered in crowds to discuss OpenStack, StarlingX, and the role open infrastructure is playing in the next generation of cloud, edge, and AI deployments. We were thrilled to have volunteers from [OpenInfra User Group India](https://www.meetup.com/indian-openinfra-user-group/) help us manage the booth and offer their own insights to visitors around OpenStack and StarlingX.
+
+![OpenInfra Foundation Booth at Kubecon India 2026](/img/boothcrowd.png "OpenInfra Foundation Booth at Kubecon India 2026")
 
 For many years, developer conferences focused almost exclusively on applications and orchestration layers. Increasingly, however, we are seeing developers, operators, and platform teams turn their attention back toward the infrastructure that powers those environments. It is a trend we observed earlier this year at CloudFest, and one that was equally evident throughout KubeCon + CloudNativeCon India.
 
@@ -38,7 +40,7 @@ OpenInfra Foundation Platinum Member [Wind River](https://www.windriver.com/) jo
 
 ## OpenInfra User Group India Meetup
 
-One of the highlights of the week was the [OpenInfra User Group India](https://www.meetup.com/indian-openinfra-user-group/) meetup, which attracted more than 400 registrations and a strong turnout from across the local cloud native and open infrastructure communities.
+One of the highlights of the week was the OpenInfra User Group India meetup, which attracted more than 400 registrations and a strong turnout from across the local cloud native and open infrastructure communities.
 
 The gathering provided an opportunity for OpenInfra Foundation staff, User Group leaders, operators, developers, and newcomers to connect in a relaxed environment outside the conference halls. Alongside great food and local hospitality, attendees exchanged stories about operating infrastructure at scale, contributing upstream, and building careers within open source communities.
 

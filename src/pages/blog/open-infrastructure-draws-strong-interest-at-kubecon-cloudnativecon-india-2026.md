@@ -44,6 +44,8 @@ The gathering provided an opportunity for OpenInfra Foundation staff, User Group
 
 The meetup served as a reminder that successful open source projects are built on more than code alone. Relationships, shared experiences, and trust remain essential ingredients in growing sustainable communities. Events like these create space for those connections to form and often become the starting point for future contributors, operators, and community leaders.
 
+![OpenInfra User Group India Meetup at Sofitel Hotel](/img/img_8280.jpg "OpenInfra User Group India Meetup at Sofitel Hotel")
+
 ## Looking Ahead
 
 KubeCon + CloudNativeCon India reinforced what we continue to hear from users and operators around the world. As organizations confront new challenges around AI infrastructure, edge computing, virtualization, and digital sovereignty, interest in open infrastructure platforms is growing.

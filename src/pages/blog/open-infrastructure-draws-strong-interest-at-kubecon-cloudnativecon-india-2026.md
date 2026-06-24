@@ -20,7 +20,7 @@ KubeCon + CloudNativeCon India 2026 provided another clear signal that interest 
 
 Throughout the event, the OpenInfra Foundation booth remained consistently busy, often with visitors gathered in crowds to discuss OpenStack, StarlingX, and the role open infrastructure is playing in the next generation of cloud, edge, and AI deployments. We were thrilled to have volunteers from [OpenInfra User Group India](https://www.meetup.com/indian-openinfra-user-group/) help us manage the booth and offer their own insights to visitors around OpenStack and StarlingX.
 
-![OpenInfra Foundation Booth at Kubecon India 2026](/img/boothcrowd.png "OpenInfra Foundation Booth at Kubecon India 2026")
+![OpenInfra Foundation Booth at Kubecon India 2026](/img/boothcrowd2.png "OpenInfra Foundation Booth at Kubecon India 2026")
 
 For many years, developer conferences focused almost exclusively on applications and orchestration layers. Increasingly, however, we are seeing developers, operators, and platform teams turn their attention back toward the infrastructure that powers those environments. It is a trend we observed earlier this year at CloudFest, and one that was equally evident throughout KubeCon + CloudNativeCon India.
 
@@ -46,7 +46,7 @@ The gathering provided an opportunity for OpenInfra Foundation staff, User Group
 
 The meetup served as a reminder that successful open source projects are built on more than code alone. Relationships, shared experiences, and trust remain essential ingredients in growing sustainable communities. Events like these create space for those connections to form and often become the starting point for future contributors, operators, and community leaders.
 
-![OpenInfra User Group India Meetup at Sofitel Hotel](/img/img_8280.jpg "OpenInfra User Group India Meetup at Sofitel Hotel")
+![OpenInfra User Group India Meetup at Sofitel Hotel](/img/meetup.jpg "OpenInfra User Group India Meetup at Sofitel Hotel")
 
 ## Looking Ahead
 

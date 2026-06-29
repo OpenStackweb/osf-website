@@ -27,7 +27,7 @@ With Platinum Member [Wind River](https://www.windriver.com/) supporting technic
 * Written by OpenStack TC Chair Goutham Pacha Ravi, [this All Things Open article](https://allthingsopen.org/articles/digital-sovereignty-open-source-governance-openstack) explores why open governance is the foundation of digital sovereignty, using OpenStack as a real-world example of how community-led decision making helps organizations maintain control over critical infrastructure.
 * If you’re interested in joining the global collaboration around open source infrastructure, consider [membership in the OpenInfra Foundation](https://t.e2ma.net/click/ud4ini/igq4cs/mbte08). [Book a meeting with Jimmy McArthur](https://t.e2ma.net/click/ud4ini/igq4cs/23te08) today!
 
-### [OpenInfra Summit Asia](https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/) 
+### [OpenInfra Summit Asia](https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/)
 
 On September 8-9, [OpenInfra Summit Asia | KubeCon | CloudNativeCon | PyTorch Conference China](https://t.e2ma.net/click/ud4ini/igq4cs/yove08) will take place in Shanghai. This flagship event unites adopters, technologists, and community members from across the region to drive innovation in open-source infrastructure, cloud-native computing, and open-source AI around common, industry-wide use cases such as next-gen AI. Over two days, the OpenInfra community will collaborate with the PyTorch and CNCF communities across dozens of open technologies, including two of the most active open source projects to exist—Kubernetes and OpenStack—to shape the future of open source software and technology as a whole.
 
@@ -36,19 +36,19 @@ On September 8-9, [OpenInfra Summit Asia | KubeCon | CloudNativeCon | PyTorch Co
 * [Become a Sponsor](https://t.e2ma.net/click/ud4ini/igq4cs/u9we08) | Contracts must be signed by July 17.
 * [View the Schedule](https://www.lfopensource.cn/kubecon-cloudnativecon-openinfra-summit-pytorch-conference-china/program/schedule/)
 
-### [OpenStack](https://docs.google.com/document/d/1dK_dHXjYPZptgX8I6lfxldMmRoRfxTRC2K6uzUP1ivk/edit?tab=t.0) 
+### [OpenStack](https://docs.google.com/document/d/1dK_dHXjYPZptgX8I6lfxldMmRoRfxTRC2K6uzUP1ivk/edit?tab=t.0)
 
 * Technical elections are just around the corner! If you’re interested in helping lead the OpenStack community either as a Project Team Lead or member of the Technical Committee, now is the time to work on drafting your candidate position statements. Self-nominations open at the beginning of August for all PTLs as well as four TC seats. Keep an eye on the [election site](https://governance.openstack.org/election/) and watch for communication from election officials on the [OpenStack Discussion mailing list](https://lists.openstack.org/mailman3/lists/openstack-discuss.lists.openstack.org/) for further instructions as deadlines draw near.
 * Deployers and operators are encouraged to upgrade their Ironic, Mistral, Nova, Neutron, and Swift versions for several new important security fixes. As always, [consult the OpenStack Security site](https://security.openstack.org/) and [subscribe to the OpenStack Announcements mailing list](https://lists.openstack.org/mailman3/lists/openstack-announce.lists.openstack.org/) for the latest in official OpenStack Security Advisories and Security Notes.
 * Running OpenStack? Share your feedback and deployment choices in the [OpenStack User Survey](https://www.openstack.org/user-survey/survey-2026). The deadline to be included in 2026 analysis is August 28, 2026.
 * At the upcoming OpenInfra Summit in Shanghai, there are several [sessions covering OpenStack](https://www.lfopensource.cn/kubecon-cloudnativecon-openinfra-summit-pytorch-conference-china/program/schedule/?search=openstack) with topics ranging from virtualization migration to bare metal management and AI agent sandboxing. 
 
-### [Kata Containers](https://docs.google.com/document/d/1tuX7R69c-2BAXNChdwmCQEXblAy9ocWFIpscKE869uk/edit?tab=t.0) 
+### [Kata Containers](https://docs.google.com/document/d/1tuX7R69c-2BAXNChdwmCQEXblAy9ocWFIpscKE869uk/edit?tab=t.0)
 
 * The new Kata Containers [3.32.0](https://github.com/kata-containers/kata-containers/releases/tag/3.32.0) release is now available! The community is working hard on the Kata Containers 4.0.0 release. If you’re curious about what the new major version of the runtime is going to bring you, check out the [release preview blog post](https://t.e2ma.net/click/ud4ini/igq4cs/6q6e08)!
 * At the upcoming OpenInfra Summit in Shanghai, [these sessions cover various Kata Containers topics](https://www.lfopensource.cn/kubecon-cloudnativecon-openinfra-summit-pytorch-conference-china/program/schedule/?search=kata) including the 4.0 release and Kata’s growing role in AI agent sandboxing. 
 
-### OpenDev Collaboratory 
+### OpenDev Collaboratory
 
 * OpenDev is planning to rename Gerrit projects in the near future. Please get those requests in now if you have a need to rename a Gerrit project.
 
@@ -56,12 +56,13 @@ On September 8-9, [OpenInfra Summit Asia | KubeCon | CloudNativeCon | PyTorch Co
 
 * The StarlingX community has reached milestone 2 in the 13.0 release cycle. This means that the community has locked down the desired content of the release and is now working on finishing the implementation work and testing activities before the release later this year. 
 
-### [Zuul](https://docs.google.com/document/d/1OrwXFZgITKTuqdcjXaSRKoT3UN1IxchI6-4gGTQzAHc/edit?tab=t.0) 
+### [Zuul](https://docs.google.com/document/d/1OrwXFZgITKTuqdcjXaSRKoT3UN1IxchI6-4gGTQzAHc/edit?tab=t.0)
 
-* Zuul and its ability to address problems posed by AI driven software development was the subject of our [last OpenInfra Live episode](https://www.youtube.com/watch?v=b_Q_Hp6-QPQ). Check out the recording to learn all about how Zuul fits into your AI driven software development environment.
+* Zuul and its ability to address problems posed by AI-driven software development were the subject of our last [OpenInfra Live](https://openinfra.org/live/) episode. Check out [the recording](https://www.youtube.com/watch?v=b_Q_Hp6-QPQ) or [the blog post](https://superuser.openinfra.org/articles/been-there-gated-that-what-ai-builders-can-learn-from-a-decade-of-open-source-ci/) to learn all about how Zuul fits into your AI-driven software development environment.
+
 * At the OpenInfra Summit in Shanghai, [Monty Taylor will demonstrate](https://www.lfopensource.cn/kubecon-cloudnativecon-openinfra-summit-pytorch-conference-china/program/schedule/?search=zuul) how long-lived AI coding and review agents collaborate through Gerrit, Zuul, and Matrix, integrating seamlessly into the same open development workflows used by human contributors.
 
-### More OpenInfra Community Events 
+### More OpenInfra Community Events
 
 * OpenInfra + KCD Vietnam | 25 July
 

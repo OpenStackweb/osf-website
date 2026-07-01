@@ -85,42 +85,49 @@ Network sovereignty — the ability to control segmentation, routing, and data f
 
 In a sovereignty context, security comes down to three questions: who controls the keys, who can audit the code, and who decides when vulnerabilities are patched.
 
-|     |     |     |
-| --- | --- | --- |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
+|  Category   |  OpenStack - Keystone, Barbican   |  Proprietary Solutions   |
+| :--- | :--- | :--- |
+|  **Encryption at rest**   |  Operator-configured. Encryption policies, algorithms, and key rotation are under full operator control via Barbican.   |   Enabled by default on most platforms, but encryption is vendor-managed. Key custody remains with the provider unless a bring-your-own-key (BYOK) option is purchased.  |
+|  **Encryption in transit**   |  TLS configuration is operator-managed. Certificate authority, cipher suite, and rotation policy are locally controlled.   |   TLS is vendor-managed. Cipher suite selection may be limited. Internal traffic between vendor services may not be end-to-end encrypted from the operator's perspective.  |
+|  **Key management**   |  Barbican provides a dedicated key management service. Keys can be stored in on-premises HSMs. No third-party key custody.   |   Vendor KMS. BYOK options exist on some platforms, but key material still transits vendor infrastructure during use.  |
+|  **Confidential computing**   |  Supports hardware-level confidential computing (Intel TDX, AMD SEV) with full operator control over attestation and policy.   |   Confidential computing is available on some platforms, but vendor-managed attestation is required. Independent verification of isolation is limited.  |
+|  **Vulnerability patching**   |  Operators control patching cadence. Critical vulnerabilities can be patched immediately without waiting for a provider release cycle.   |   Patching is vendor-controlled. Organizations cannot unilaterally patch vulnerabilities in the platform layer.  |
+|  **Audit logging**   |  Comprehensive audit logging via OpenStack's native audit middleware and integration with open SIEM platforms. Log format and retention are operator-defined.   |   Audit logs are available but may be filtered, formatted, or retained in accordance with vendor policy. Full audit log access may require premium tiers.  |
+|  **Supply chain security**   |  Open source codebase enables a full supply chain audit. SBOMs (Software Bill of Materials) are community-generated and verifiable.   |   The supply chain is vendor-controlled. SBOM availability varies. Independent verification of component provenance is not possible.  |
+
+
+
 
 # Sovereignty & Compliance
 
 Regulatory compliance and data sovereignty requirements are evolving rapidly across jurisdictions. The ability to adapt infrastructure controls to meet new requirements without relying on a vendor's product roadmap is what separates genuinely sovereign infrastructure from infrastructure that merely claims to be so.
 
-|     |     |     |
-| --- | --- | --- |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
+|  Category   |  OpenStack  |  Proprietary Solutions   |
+| :--- | :--- | :--- |
+|  **Data residency**   |  Absolute. Data placement is operator-controlled at the hardware level. Residency guarantees are architectural, not contractual.   |   Contractual data residency is offered on most major platforms, but the underlying infrastructure spans multiple jurisdictions. Contractual guarantees are not the same as architectural guarantees.  |
+|  **Regulatory certifications**   |  Operators obtain certifications (ISO 27001, SOC 2, PCI-DSS) for their specific deployments. Certification scope covers the full stack.   |   Providers hold certifications for their platform. Operators inherit partial coverage but remain responsible for their own controls. Shared responsibility models create compliance gaps.  |
+|  **GDPR / data protection**   |  Full control over personal data processing, retention, and deletion. No third-party processor dependency for infrastructure-level data.   |   Provider is a data processor. Data processing agreements (DPAs) are required. Third-party sub-processors may be involved.  |
+|  **Sector-specific compliance**   |  Operators can implement controls required for DORA (financial services), NIS2, HIPAA, or defense standards without waiting for vendor feature development.   |   Compliance features are on vendor roadmaps. Sector-specific requirements may not be addressable in the current version of the platform.  |
+|  **Audit & right of inspection**   |  Full right of inspection. Operators can audit any component of the stack at any time.   |   Audit rights are contractually limited. Vendors provide compliance reports (e.g., SOC 2 Type II) in lieu of direct inspection.  |
+|  **Jurisdiction & legal access**   |  Infrastructure is entirely within the operator's jurisdiction. No foreign government has a basis for legal access through the platform provider.   |   Providers may be subject to foreign jurisdictions (e.g., CLOUD Act, Law on Protection of Personal Data). Legal access requests may be processed without operator notification, depending on jurisdiction.  |
+
+
 
 # Platform & Operations
 
 Operational sovereignty — the ability to run, maintain, and evolve infrastructure without external dependencies — determines whether an organization retains control of its digital environment in the long run.
 
-|     |     |     |
-| --- | --- | --- |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
+|  Category   |  OpenStack  |  Proprietary Solutions   |
+| :--- | :--- | :--- |
+|  **Orchestration & Kubernetes**   |  Magnum provides Kubernetes-as-a-service on OpenStack. Any upstream Kubernetes distribution can be deployed. No proprietary Kubernetes extensions required.   |   Managed Kubernetes services are available but use vendor-specific control planes, node configurations, and networking plugins. Portability to other environments requires re-engineering.  |
+|  **Identity & access management**   |  Keystone provides federated identity with support for SAML, OIDC, and LDAP. Integration with existing enterprise IAM is straightforward and operator-controlled.   |   IAM is vendor-managed. Integration with external identity providers is supported, but the IAM control plane remains with the vendor.  |
+|  **Monitoring & observability**   |  Open standards (Prometheus, Grafana, OpenTelemetry) with no vendor lock-in. Data stays within the operator's environment.   |   Monitoring tooling is vendor-provided. Telemetry data is often sent to vendor systems. Third-party observability integration may be limited.  |
+|  **Upgrade & lifecycle control**   |  Operators control upgrade timing and cadence. Rolling upgrades are supported. Organizations can remain on a stable release while evaluating new versions.   |   Upgrades are vendor-controlled. End-of-life enforcement may require organizations to upgrade on the vendor's schedule or lose support.  |
+|  **Configuration management**   |  Infrastructure-as-code with Terraform, Ansible, Heat, and any standard tooling. Configuration is fully portable.   |   Configuration is managed through vendor APIs and consoles. Proprietary IaC tooling (e.g., CloudFormation) creates configuration lock-in.  |
+|  **Disaster recovery**   |  DR architecture is fully operator-designed. RPO/RTO targets are implemented at the infrastructure level without dependency on vendor DR products.   |   DR options are vendor-provided services. DR architecture is subject to vendor product availability and pricing.  |
+|  **Multi-site & edge**   |  StarlingX and distributed OpenStack deployments natively support edge, telco, and multi-site sovereign architectures.   |   Multi-region and edge options are available, but they use vendor-specific edge platforms and proprietary connectivity services.  |
+
+
 
 
 

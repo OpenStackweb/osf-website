@@ -98,9 +98,6 @@ const NavbarV2 = class extends React.Component {
                           </div>
                           <div id="dropdown-menu" role="menu" className="dropdown-menu">
                             <div className="dropdown-content">
-                              <div className="nested-menu-image">
-                                <img src={li.image} alt="" style={li.marginLeft ? { marginLeft: li.marginLeft } : {}} />
-                              </div>
                               {li.links.map((link, index) => {
                                 return (
                                   <div className="menuitemeffect" key={index}>

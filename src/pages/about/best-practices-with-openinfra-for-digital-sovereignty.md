@@ -12,7 +12,7 @@ title: Best Practices with OpenInfra for Digital Sovereignty
 subTitle: "Authors: Simon Dodsley, Kurt Garloff, Soumaya Msallem, Kendall
   Nelson, Anoop Shukla, Sang Tran Quoc"
 ---
-## Introduction
+# Introduction
 
 Cloud infrastructure decisions that once looked straightforward have become politically and strategically complex. Organizations that spent the last decade chasing scalability and cloud convenience are now grappling with the consequences: tighter privacy regulations, unpredictable trade dynamics, and growing pressure to demonstrate control over the data they hold. **Digital sovereignty** sits at the center of it all. 
 
@@ -20,7 +20,7 @@ For most organizations, digital sovereignty means the practical ability to maint
 
 Achieving it requires an open foundation. Proprietary software creates structural dependencies that cannot be fully governed, audited, or replaced. This white paper examines how open infrastructure — the approach championed by the OpenInfra community and built on The Four Opens (open source, open design, open development, and open community) — gives organizations the tools to build and operate genuinely sovereign infrastructure.
 
-## Background and Context
+# Background and Context
 
 Digital sovereignty has evolved from a niche regulatory concern into a critical strategic priority for nations and regulated industries worldwide. Digital sovereignty is an organization’s ability to exercise meaningful authority and independent control over its digital infrastructure, technologies, and data, aligned with its own policies and strategic objectives rather than those of an external vendor or foreign jurisdiction. 
 
@@ -66,9 +66,9 @@ Several distinct pressures push organizations toward sovereignty. The scenarios 
 * ***Scenario 4:*** **Geopolitical Stability and Operational Sovereignty**\
   In an era of international trade disputes and shifting geopolitical alliances, organizations must shield their operations from the impact of sudden service revocations or external dependencies. Achieving "Operational Sovereignty" requires shifting to a comprehensive autonomy model — one that utilizes local support, air-gapped environments, and independent technology stacks. This autonomy model ensures operational continuity, allowing critical services to persist independently of foreign-domiciled providers or international instability.
 
-## Aspects of Sovereignty
+# Aspects of Sovereignty
 
-### Data Sovereignty
+## Data Sovereignty
 
 Data sovereignty is the right and practical capacity of an organization, jurisdiction, or individual to control the collection, storage, processing, and transfer of their data in accordance with applicable laws, policies, and values. It is not merely a question of where data physically resides, but of who exercises effective authority over that data — including authority over the legal framework that governs it, the encryption keys that protect it, and the operational processes that manage it. With Open Infrastructure projects, organizations can have that level of authority. 
 

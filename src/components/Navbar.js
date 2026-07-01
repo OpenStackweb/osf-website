@@ -21,12 +21,25 @@ const Navbar = class extends React.Component {
     super(props)
     this.state = {
       active: false,
-      navBarActiveClass: ''
+      navBarActiveClass: '',
+      expandedIndex: null
     }
 
     this.onClickLogin = this.onClickLogin.bind(this);
     this.onClickLogout = this.onClickLogout.bind(this);
     this.getBackURL = this.getBackURL.bind(this);
+  }
+
+  isMobile() {
+    return typeof window !== 'undefined' && window.innerWidth <= 768;
+  }
+
+  onClickDropdownTrigger = (evt, index) => {
+    if (!this.isMobile()) return;
+    evt.preventDefault();
+    this.setState((prevState) => ({
+      expandedIndex: prevState.expandedIndex === index ? null : index
+    }));
   }
 
   getBackURL() {
@@ -87,20 +100,23 @@ const Navbar = class extends React.Component {
               <ul className="nav-menu menu-item">
                 {Menu.nav.map((li, index) => {
                   if(li.display) {
+                    const isExpanded = this.state.expandedIndex === index;
                     return (
                       <li key={index}>
-                        <div className="dropdown is-hoverable">
+                        <div className={`dropdown is-hoverable ${isExpanded ? 'is-active' : ''}`}>
                           <div className="dropdown-trigger">
                             { li.url &&
-                                  <button aria-haspopup="true" aria-controls="dropdown-menu" className="button">
+                                  <button aria-haspopup="true" aria-controls="dropdown-menu" aria-expanded={isExpanded} className="button" onClick={(evt) => this.onClickDropdownTrigger(evt, index)}>
                                     <LinkComponent href={li.url}>
                                       <span>{li.title}</span>
                                     </LinkComponent>
+                                    <span className="navbar-dropdown-arrow" aria-hidden="true">{isExpanded ? '▲' : '▼'}</span>
                                   </button>
                             }
-                            { !li.url &&                              
-                                <button aria-haspopup="true" aria-controls="dropdown-menu" className="button">
+                            { !li.url &&
+                                <button aria-haspopup="true" aria-controls="dropdown-menu" aria-expanded={isExpanded} className="button" onClick={(evt) => this.onClickDropdownTrigger(evt, index)}>
                                   <span>{li.title}</span>
+                                  <span className="navbar-dropdown-arrow" aria-hidden="true">{isExpanded ? '▲' : '▼'}</span>
                                 </button>
                             }
                           </div>

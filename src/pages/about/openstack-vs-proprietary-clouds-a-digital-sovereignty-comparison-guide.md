@@ -135,27 +135,31 @@ Operational sovereignty — the ability to run, maintain, and evolve infrastruct
 
 Licensing models, egress costs, and platform migration costs shape the total cost of ownership for cloud infrastructure in ways that often surface years after the initial procurement decision. Sovereignty-focused organizations must assess these commercial factors alongside technical capabilities.
 
-|     |     |     |
-| --- | --- | --- |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
+|  Category   |  OpenStack  |  Proprietary Solutions   |
+| :--- | :--- | :--- |
+|  **Licensing models**   |  Apache 2.0 open source. No per-core, per-socket, or per-VM licensing fees. Software costs are predictable and scale linearly with hardware investment.   |   Subscription or consumption-based licensing. Per-core, per-socket, or vRAM-based models are common. Costs can increase non-linearly with scale, demand pipeline and geopolitical issues.  |
+|  **Total cost of ownerships**   |  TCO is dominated by hardware, power, and operational labor. No egress fees. No vendor price increases on renewal.   |   TCO includes platform fees, egress charges, support costs, and potential for vendor-driven price increases at contract renewal.  |
+|  **Egress costss**   |  No platform egress fees. Data movement costs are network infrastructure costs under operator control.   |   Egress fees are a significant and often underestimated cost. Large-scale data retrieval or repatriation can be prohibitively expensive.  |
+|  **Exit risk & switching costs**   |  Low. Standard APIs and open data formats mean workloads can be migrated to any compatible platform. No proprietary lock-in.   |   High. Proprietary APIs, managed service dependencies, and data gravity create significant switching costs. Migration projects can span years.  |
+|  **Support models**   |  Multiple independent support vendors compete on price and quality. Organizations are not dependent on a single vendor for support.   |   Single-vendor support. Support quality and pricing are controlled by the platform vendor. Escalation paths are vendor-managed.  |
+|  **Commercial negotiating positions**   |  Organizations are not dependent on a single vendor for platform continuation. The negotiating position is strong.   |   Organizations become increasingly dependent on the platform vendor over time. The negotiating position weakens as migration costs rise.  |
+
+
 
 # Ecosystem & Integration
 
 A cloud platform's partner network, compatible technologies, and integration paths determine how well it can serve diverse workload requirements over time.
 
-|     |     |     |
-| --- | --- | --- |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
+|  Category   |  OpenStack  |  Proprietary Solutions   |
+| :--- | :--- | :--- |
+|  **API standards**   |  OpenStack APIs are open and community-governed. No single vendor controls the API roadmap. Integrations built on OpenStack APIs are portable.   |   Proprietary APIs are vendor-controlled. API changes are at the vendor’s discretion. Integrations built on proprietary APIs are not portable.  |
+|  **Partner ecosystem**   |  Large, diverse ecosystem of hardware vendors, software vendors, system integrators, and managed service providers. Competition benefits operators.   |   Curated partner ecosystem managed by the platform vendor. Partner relationships are subject to vendor approval and commercial agreements.  |
+|  **AI/ML workload support**   |  Full support for open source AI/ML frameworks (PyTorch, TensorFlow, Ray, Kubeflow) without proprietary wrappers. GPU passthrough via Nova.   |   Managed AI/ML services are available but rely on vendor-specific APIs and data pipelines. Training data may be retained by the provider.  |
+|  **Container & Kubernetes**   |  Any upstream Kubernetes distribution. Full compatibility with the CNCF ecosystem. No vendor-specific Kubernetes extensions required.   |   Managed Kubernetes with vendor-specific control planes. CNCF-compatible but with proprietary additions that create migration complexity.  |
+|  **Legacy integration**   |  Direct integration with existing on-premises infrastructure via standard protocols. No requirement to refactor workloads.   |   Legacy workloads may require refactoring to use managed services. Lift-and-shift is possible but does not leverage platform capabilities.  |
+|  **Edge & distributed**   |  StarlingX provides a purpose-built open source platform for distributed, edge, and telco workloads with sovereign requirements.   |   Proprietary edge extensions are available but introduce additional vendor dependency at the edge layer.  |
+
+
 
 # Summary & Use Case Guidance
 
@@ -186,16 +190,16 @@ Note: The considerations above reflect the inherent architectural characteristic
 
 The following matrix summarises the sovereignty-relevant advantages and considerations across all evaluated categories.
 
-|     |     |     |     |
-| --- | --- | --- | --- |
-|     |     |     |     |
-|     |     |     |     |
-|     |     |     |     |
-|     |     |     |     |
-|     |     |     |     |
-|     |     |     |     |
-|     |     |     |     |
-|     |     |     |     |
+|  Category   |  OpenStack Advantage |  Proprietary Solutions   |  Sovereignty Impact   |
+| :--- | :--- | :--- | :--- |
+|  **Compute**   |  Hardware-agnostic, full hypervisor control, air-gap support   |   Faster provisioning via managed APIs, less operational overhead   |   High: full control over workload placement and isolation  |
+|  **Storage**   |  Pluggable backends, operator key custody, no egress fees   |   Managed services reduce operational complexity   |   Critical: key custody and data placement are non-negotiable  |
+|  **Networking**   |  Full SDN control, zero egress fees, auditable policy   |   Simplified network management, global connectivity   |   High: egress control and routing transparency  |
+|  **Security**   |  Open source auditability, operator-held keys, patch control   |   Managed security services, broad threat intelligence   |   Critical: key custody, patch autonomy, audit access  |
+|  **Sovereignty & Compliance**   |  Architectural guarantees, full audit rights, no foreign jurisdiction risk   |   Contractual residency, shared certification coverage   |   Critical: architectural vs contractual is a fundamental distinction  |
+|  **Platform & Operations**   |  Full lifecycle control, open standards, portable configuration   |   Lower operational overhead, managed services breadth   |   High: upgrade autonomy and configuration portability  |
+|  **Commercial & Licensing**   |  Predictable TCO, no egress costs, strong exit position   |   Lower initial capex, consumption-based pricing flexibility   |   Medium-High: exit risk compounds significantly over time  |
+|  **Ecosystem & Integration**   |  Open APIs, broad partner choice, open AI/ML stack   |   Larger managed service catalog, global partner network   |   Medium: API portability and partner independence matter long-term  |
 
 # Conclusion
 

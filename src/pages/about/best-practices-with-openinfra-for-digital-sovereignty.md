@@ -91,6 +91,7 @@ Categories that typically warrant the strongest sovereignty controls include:
 * **Personally identifiable information (PII)** — regulated broadly under GDPR, Québec Law 25, India's DPDP Act, Brazil's Lei Geral de Proteção de Dados (LGPD), China's PIPL, and equivalent frameworks
 
   * A note on logs as PII: Audit, access, and system logs frequently constitute personal data in their own right. Log entries that capture IP addresses, user identifiers, session tokens, or timestamps of individual activity are treated as PII under GDPR and equivalent frameworks. Organizations should not assume that logs are operationally neutral — they must be assessed for PII content at the point of log design and classified and controlled accordingly.
+
 * **Intellectual property and trade secrets** — commercially sensitive data whose sovereignty requirements are contractual and strategic rather than regulatory
 
 ### Extra-territorial reach of foreign law

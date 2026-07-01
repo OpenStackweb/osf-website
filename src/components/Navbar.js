@@ -6,6 +6,16 @@ import {doLogin, initLogOut} from 'openstack-uicore-foundation/lib/security/meth
 import PropTypes from "prop-types";
 import URI from "urijs"
 
+const LINKS_PER_COLUMN = 4;
+
+const chunkLinks = (links) => {
+  const columns = [];
+  for (let i = 0; i < links.length; i += LINKS_PER_COLUMN) {
+    columns.push(links.slice(i, i + LINKS_PER_COLUMN));
+  }
+  return columns;
+};
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
@@ -96,15 +106,17 @@ const Navbar = class extends React.Component {
                           </div>
                           <div id="dropdown-menu" role="menu" className="dropdown-menu">
                             <div className="dropdown-content">
-                              {li.links.map((link, index) => {
-                                return (
-                                  <div className="menuitemeffect" key={index}>
-                                    <LinkComponent href={link.url} className="dropdown-item">
-                                      <span>{link.text} </span>
-                                    </LinkComponent>
-                                  </div>
-                                )
-                              })}
+                              {chunkLinks(li.links).map((column, colIndex) => (
+                                <div className="dropdown-column" key={colIndex}>
+                                  {column.map((link, index) => (
+                                    <div className="menuitemeffect" key={index}>
+                                      <LinkComponent href={link.url} className="dropdown-item">
+                                        <span>{link.text} </span>
+                                      </LinkComponent>
+                                    </div>
+                                  ))}
+                                </div>
+                              ))}
                             </div>
                           </div>
                         </div>

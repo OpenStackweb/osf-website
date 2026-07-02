@@ -511,7 +511,10 @@ div.content.custom > main > section > div > div > div > h3 {
 
 @media (max-width: 768px) {
   .dropdown {
-    display: block;
+    // flow-root forces this to establish its own block formatting context, so
+    // it reliably contains the expanded .dropdown-menu's height instead of
+    // collapsing to just the trigger's height and letting the next nav item overlap it
+    display: flow-root;
     width: 100%;
 
     .dropdown-trigger {

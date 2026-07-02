@@ -6,17 +6,40 @@ import {doLogin, initLogOut} from 'openstack-uicore-foundation/lib/security/meth
 import PropTypes from "prop-types";
 import URI from "urijs"
 
+const LINKS_PER_COLUMN = 4;
+
+const chunkLinks = (links) => {
+  const columns = [];
+  for (let i = 0; i < links.length; i += LINKS_PER_COLUMN) {
+    columns.push(links.slice(i, i + LINKS_PER_COLUMN));
+  }
+  return columns;
+};
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       active: false,
-      navBarActiveClass: ''
+      navBarActiveClass: '',
+      expandedIndex: null
     }
 
     this.onClickLogin = this.onClickLogin.bind(this);
     this.onClickLogout = this.onClickLogout.bind(this);
     this.getBackURL = this.getBackURL.bind(this);
+  }
+
+  isMobile() {
+    return typeof window !== 'undefined' && window.innerWidth <= 768;
+  }
+
+  onClickDropdownTrigger = (evt, index) => {
+    if (!this.isMobile()) return;
+    evt.preventDefault();
+    this.setState((prevState) => ({
+      expandedIndex: prevState.expandedIndex === index ? null : index
+    }));
   }
 
   getBackURL() {
@@ -77,37 +100,39 @@ const Navbar = class extends React.Component {
               <ul className="nav-menu menu-item">
                 {Menu.nav.map((li, index) => {
                   if(li.display) {
+                    const isExpanded = this.state.expandedIndex === index;
                     return (
                       <li key={index}>
-                        <div className="dropdown is-hoverable">
+                        <div className={`dropdown is-hoverable ${isExpanded ? 'is-active' : ''}`}>
                           <div className="dropdown-trigger">
                             { li.url &&
-                                  <button aria-haspopup="true" aria-controls="dropdown-menu" className="button">
+                                  <button aria-haspopup="true" aria-controls="dropdown-menu" aria-expanded={isExpanded} className="button" onClick={(evt) => this.onClickDropdownTrigger(evt, index)}>
                                     <LinkComponent href={li.url}>
                                       <span>{li.title}</span>
                                     </LinkComponent>
+                                    <span className="navbar-dropdown-arrow" aria-hidden="true">{isExpanded ? '▲' : '▼'}</span>
                                   </button>
                             }
-                            { !li.url &&                              
-                                <button aria-haspopup="true" aria-controls="dropdown-menu" className="button">
+                            { !li.url &&
+                                <button aria-haspopup="true" aria-controls="dropdown-menu" aria-expanded={isExpanded} className="button" onClick={(evt) => this.onClickDropdownTrigger(evt, index)}>
                                   <span>{li.title}</span>
+                                  <span className="navbar-dropdown-arrow" aria-hidden="true">{isExpanded ? '▲' : '▼'}</span>
                                 </button>
                             }
                           </div>
                           <div id="dropdown-menu" role="menu" className="dropdown-menu">
                             <div className="dropdown-content">
-                              <div className="nested-menu-image">
-                                <img src={li.image} alt="" style={li.marginLeft ? { marginLeft: li.marginLeft } : {}} />
-                              </div>
-                              {li.links.map((link, index) => {
-                                return (
-                                  <div className="menuitemeffect" key={index}>
-                                    <LinkComponent href={link.url} className="dropdown-item">
-                                      <span>{link.text} </span>
-                                    </LinkComponent>
-                                  </div>
-                                )
-                              })}
+                              {chunkLinks(li.links).map((column, colIndex) => (
+                                <div className="dropdown-column" key={colIndex}>
+                                  {column.map((link, index) => (
+                                    <div className="menuitemeffect" key={index}>
+                                      <LinkComponent href={link.url} className="dropdown-item">
+                                        <span>{link.text} </span>
+                                      </LinkComponent>
+                                    </div>
+                                  ))}
+                                </div>
+                              ))}
                             </div>
                           </div>
                         </div>

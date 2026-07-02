@@ -35,7 +35,6 @@ collections:
         fields:
           - { label: "Pages", name: "nav", widget: list, fields: [
             { label: "Title", name: "title", widget: string },
-            { label: "Image", name: "image", widget: image },
             { label: "Left Margin", name: "marginLeft", widget: string, required: false },
             { label: "Link", name: "url", widget: string, required: false },
             { label: "Display", name: "display", widget: boolean, required: false },

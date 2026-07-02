@@ -406,19 +406,33 @@ div.content.custom > main > section > div > div > div > h3 {
     border-radius: 0px;
     box-shadow: none;
     box-shadow: 0 2px 3px rgba(34, 34, 34, 0.1), 0 0 0 1px rgba(34, 34, 34, 0.1);
-    margin-top: 22px;
+    margin-top: 16px;
     font-size: 17px;
+    display: flex;
     @media (min-width: 769px) {
-      height: 267px;
-      padding-bottom: 10%;
-      padding-top: 10%;
+      // fixed spacing instead of a percentage, so the panel's vertical
+      // padding doesn't balloon as it widens to fit more columns
+      padding-bottom: 24px;
+      padding-top: 24px;
     }
     left: 50%;
     @media (max-width: 769px) {
       //small screen pantalla
+      flex-direction: column;
       margin-top: 5px;
       padding-bottom: 1.5rem;
       padding-top: 1.5rem;
+    }
+
+    .dropdown-column + .dropdown-column {
+      margin-left: 20px;
+      padding-left: 20px;
+      border-left: 1px solid rgba(22, 22, 22, 0.1);
+      @media (max-width: 769px) {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none;
+      }
     }
     a span {
       color: #161616;
@@ -447,52 +461,115 @@ div.content.custom > main > section > div > div > div > h3 {
       }
     }
 
-    &:after {
-      /* arrow */
-      // bottom: 70%;
-      top: -2px;
-      left: 50%;
-      border: solid transparent;
+  }
+}
+
+@media (min-width: 769px) {
+  .dropdown.is-active .dropdown-menu,
+  .dropdown.is-hoverable:hover .dropdown-menu {
+    display: block;
+    left: 0;
+    transform: none;
+    width: auto;
+    min-width: 240px;
+    border-radius: 0;
+  }
+
+  // dropdown arrow: centered under the top-level nav item itself (not the wide
+  // dropdown panel), sitting on the black nav background just below the trigger.
+  // Anchored to .dropdown-trigger (not .dropdown) since the trigger tightly wraps
+  // just the button with no absolutely-positioned siblings, so top: 100% always
+  // lands right at the button's bottom edge regardless of item/height variance.
+  .dropdown {
+    .dropdown-trigger {
+      position: relative;
+    }
+
+    .dropdown-trigger:after {
       content: " ";
-      height: 0;
-      width: 0;
       position: absolute;
-      pointer-events: none;
-      border-color: rgba(255, 255, 255, 0);
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border: 10px solid transparent;
       border-bottom-color: $white;
-      border-width: 20px;
-      margin-left: -30px;
-      @media (max-width: 768px) {
+      pointer-events: none;
+      // .dropdown-menu is Bootstrap's, with z-index: 1000 - the arrow must
+      // exceed that to render above the panel instead of behind it
+      z-index: 1001;
+      display: none;
+    }
+
+    &.is-active .dropdown-trigger:after,
+    &.is-hoverable:hover .dropdown-trigger:after {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .dropdown {
+    // flow-root forces this to establish its own block formatting context, so
+    // it reliably contains the expanded .dropdown-menu's height instead of
+    // collapsing to just the trigger's height and letting the next nav item overlap it
+    display: flow-root;
+    width: 100%;
+
+    .dropdown-trigger {
+      width: 100%;
+
+      .button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+    .dropdown-menu {
+      display: none;
+      position: static;
+      transform: none;
+      left: 0;
+      width: 100%;
+    }
+
+    .dropdown-content {
+      position: static;
+      left: 0;
+      transform: none;
+      width: 100%;
+
+      &:after {
         display: none;
       }
     }
-  }
-}
 
-.nested-menu-image {
-  display: none;
-  height: 0px;
-  img {
-    margin-left: -428px;
-    height: 268px;
-    max-width: unset;
-    margin-top: -10%;
-  }
-}
+    // only .is-active (click) opens the menu on mobile - hover is disabled
+    &.is-active .dropdown-menu {
+      display: block;
+    }
 
-.dropdown.is-active .dropdown-menu,
-.dropdown.is-hoverable:hover .dropdown-menu {
-  display: block;
-  left: calc(50% - 110px);
-  width: auto;
-  min-width: 240px;
-  border-radius: 0;
-  .nested-menu-image {
-    display: block;
-    @media (max-width: 1024px) {
-      //small screen pantalla
+    &.is-hoverable:hover .dropdown-menu {
       display: none;
     }
+
+    &.is-hoverable.is-active:hover .dropdown-menu {
+      display: block;
+    }
+  }
+
+  .navbar-dropdown-arrow {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 769px) {
+  .navbar-dropdown-arrow {
+    display: none;
   }
 }
 

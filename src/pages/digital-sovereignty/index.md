@@ -28,7 +28,7 @@ relatedResources:
   - title: "Open Source: A global commons to enable digital sovereignty"
     url: https://opensource.org/blog/open-source-a-global-commons-to-enable-digital-sovereignty
     icon: article
-  - title: "The Kinit case study: sovereign AI cloud"
+  - title: "KInIT (Kempelen Institute of Intelligent Technologies) case study: Advancing AI Research and Innovation with Sovereign AI Cloud Infrastructure"
     url: https://superuser.openinfra.org/articles/the-kinit-case-study-sovereign-ai-cloud/
     icon: article
   - title: "When OpenStack meets governments: how Pinaka ZTI builds sovereign clouds governments can actually trust"

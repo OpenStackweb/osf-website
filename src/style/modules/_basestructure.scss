@@ -406,12 +406,14 @@ div.content.custom > main > section > div > div > div > h3 {
     border-radius: 0px;
     box-shadow: none;
     box-shadow: 0 2px 3px rgba(34, 34, 34, 0.1), 0 0 0 1px rgba(34, 34, 34, 0.1);
-    margin-top: 22px;
+    margin-top: 16px;
     font-size: 17px;
     display: flex;
     @media (min-width: 769px) {
-      padding-bottom: 10%;
-      padding-top: 10%;
+      // fixed spacing instead of a percentage, so the panel's vertical
+      // padding doesn't balloon as it widens to fit more columns
+      padding-bottom: 24px;
+      padding-top: 24px;
     }
     left: 50%;
     @media (max-width: 769px) {
@@ -474,25 +476,34 @@ div.content.custom > main > section > div > div > div > h3 {
   }
 
   // dropdown arrow: centered under the top-level nav item itself (not the wide
-  // dropdown panel), sitting on the black nav background just below the trigger
+  // dropdown panel), sitting on the black nav background just below the trigger.
+  // Anchored to .dropdown-trigger (not .dropdown) since the trigger tightly wraps
+  // just the button with no absolutely-positioned siblings, so top: 100% always
+  // lands right at the button's bottom edge regardless of item/height variance.
   .dropdown {
-    &:after {
+    .dropdown-trigger {
+      position: relative;
+    }
+
+    .dropdown-trigger:after {
       content: " ";
       position: absolute;
       top: 100%;
       left: 50%;
       transform: translateX(-50%);
-      margin-top: 5px;
       width: 0;
       height: 0;
       border: 10px solid transparent;
       border-bottom-color: $white;
       pointer-events: none;
+      // .dropdown-menu is Bootstrap's, with z-index: 1000 - the arrow must
+      // exceed that to render above the panel instead of behind it
+      z-index: 1001;
       display: none;
     }
 
-    &.is-active:after,
-    &.is-hoverable:hover:after {
+    &.is-active .dropdown-trigger:after,
+    &.is-hoverable:hover .dropdown-trigger:after {
       display: block;
     }
   }

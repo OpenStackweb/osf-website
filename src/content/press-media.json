@@ -9,15 +9,6 @@
       "site": "Network World"
     },
     {
-      "date": "2020-10-19T15:15:00.000Z",
-      "title": "The OpenStack Foundation becomes the Open Infrastructure Foundation",
-      "link": "https://techcrunch.com/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/",
-      "site": "TechCrunch",
-      "featured": true,
-      "hideArticle": false,
-      "image": "/img/img_20180522_125817.webp"
-    },
-    {
       "featured": false,
       "hideArticle": false,
       "date": "2026-04-07T19:32:47.316Z",
@@ -704,6 +695,15 @@
       "title": "What's in a name? OpenStack Foundation evolves to become the Open Infrastructure Foundation",
       "featured": false,
       "hideArticle": false
+    },
+    {
+      "date": "2020-10-19T15:15:00.000Z",
+      "title": "The OpenStack Foundation becomes the Open Infrastructure Foundation",
+      "link": "https://techcrunch.com/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/",
+      "site": "TechCrunch",
+      "featured": true,
+      "hideArticle": false,
+      "image": "/img/img_20180522_125817.webp"
     },
     {
       "date": "2020-10-22T04:53:00.000Z",

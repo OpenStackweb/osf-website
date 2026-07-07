@@ -3,7 +3,7 @@ templateKey: blog-post
 title: "From Policy to Production: Inside UN Open Source Week and the OpenInfra
   Path to True Digital Sovereignty"
 author: Kendall Nelson
-date: 2026-07-09T15:00:00.000Z
+date: 2026-07-15T13:00:00.000Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements

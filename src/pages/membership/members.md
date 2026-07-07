@@ -177,7 +177,8 @@ memberBenefits:
           "
         text: Join Now
   scheduleCall: Still have questions? <a
-    href="https://calendly.com/jimmy-mcarthur">Schedule a phone call</a>.
+    href="https://www.linuxfoundation.org/meetings/jmcarthur3">Schedule a
+    meeting</a>.
 quote:
   display: true
   text: >

@@ -14,11 +14,15 @@ subTitle: "Authors: Simon Dodsley, Kurt Garloff, Soumaya Msallem, Kendall
 ---
 # Introduction
 
-Cloud infrastructure decisions that once looked straightforward have become politically and strategically complex. Organizations that spent the last decade chasing scalability and cloud convenience are now grappling with the consequences: tighter privacy regulations, unpredictable trade dynamics, and growing pressure to demonstrate control over the data they hold. **Digital sovereignty** sits at the center of it all. 
+Cloud infrastructure decisions that once looked straightforward have become politically and strategically complex. Organizations that spent the last decade chasing scalability and cloud convenience are now grappling with the consequences: tighter privacy regulations, unpredictable trade dynamics, and growing pressure to demonstrate control over the data they hold. Digital sovereignty sits at the center of it all. 
 
-For most organizations, digital sovereignty means the practical ability to maintain authority over their infrastructure, data, and the software stack that processes it, without depending on vendors or jurisdictions that may not share their interests. That is a broader definition than data residency, and a more demanding one.
+For most organizations, digital sovereignty means the practical ability to maintain authority over their infrastructure, data, and the software stack that processes it, without depending on vendors or jurisdictions that may not share their interests. That is a broader definition than data residency, and a more demanding one.\
+\
+Digital sovereignty is not achieved by eliminating dependencies. It is achieved by ensuring that no single dependency can prevent the continued operation, maintenance, or evolution of critical infrastructure. The goal is managed interdependence: building on open standards, transparent governance, and a diverse ecosystem of trusted partners so organizations retain flexibility as technology, business requirements, and geopolitical conditions evolve.
 
-Achieving it requires an open foundation. Proprietary software creates structural dependencies that cannot be fully governed, audited, or replaced. This white paper examines how open infrastructure — the approach championed by the OpenInfra community and built on The Four Opens (open source, open design, open development, and open community) — gives organizations the tools to build and operate genuinely sovereign infrastructure.
+Achieving that requires an open foundation. Proprietary software creates structural dependencies that can be difficult to inspect, replace, or sustain over the long term. Open source, by contrast, provides transparency, interoperability, and continuity. Open governance and community-driven development protect organizations from software "kill switches," abrupt licensing changes, and the loss of access that can occur when critical technology remains under the exclusive control of a single vendor.
+
+This white paper examines how open infrastructure, built on the Four Opens (open source, open design, open development, and open community), provides the architectural principles and operational practices needed to build resilient, sovereign infrastructure.
 
 # Background and Context
 
@@ -26,57 +30,49 @@ Digital sovereignty has evolved from a niche regulatory concern into a critical 
 
 Implementing digital sovereignty is a collaborative pursuit, involving diverse organizational stakeholders who each safeguard distinct dimensions of technological independence and data control. The following roles are essential to an organization’s digital sovereignty strategy, driving the technological and governance controls necessary to maintain operational autonomy.
 
-* **Enterprise Architects**: Responsible for designing modern, sovereign-capable platforms that balance innovation with long-term technological independence. They ensure infrastructure remains adaptable, interoperable, and free from vendor lock-in by prioritizing open standards.
+* Enterprise Architects: Responsible for designing modern, sovereign-capable platforms that balance innovation with long-term technological independence. They ensure infrastructure remains adaptable, interoperable, and free from vendor lock-in by prioritizing open standards.
   * Primary Sovereignty Driver: Technological independence and reversibility.
   * Key Responsibility: Architecting hybrid and multi-cloud strategies that prevent infrastructure dependencies and ensure workload portability.
+* IT Security Practitioners: Focused on implementing architectural controls to satisfy stringent regulatory requirements while actively mitigating supply chain risks. They protect sensitive data from unauthorized access and extraterritorial interference.
+  * Primary Sovereignty Driver: Risk mitigation and data protection.
+  * Key Responsibility: Implementing technical safeguards like encryption (e.g., Bring Your Own Key or BYOK), confidential computing, and automated policy-as-code compliance.
+* IT Operations, SREs, and System Administrators: Tasked with maintaining resilient, cloud-native infrastructure that ensures operational autonomy. They manage environments, often in disconnected or air-gapped setups, to maintain service continuity independent of external provider stability.
+  * Primary Sovereignty Driver: Operational autonomy and resilience.
+  * Key Responsibility: Owning the full operational lifecycle, including the upgrade path and security response, without reliance on foreign-domiciled support.
+* Executive Leadership (CIO/CTO/CISO): Drive the strategic vision for digital sovereignty, balancing rapid transformation with long-term business resilience. They focus on reducing dependency on foreign technology providers to protect the organization's strategic interests.
+  * Primary Sovereignty Driver: Economic competitiveness and geopolitical risk management.
+  * Key Responsibility: Aligning technology investments with jurisdictional mandates and ensuring the organization's "digital destiny" remains under internal authority.
+* Legal and Compliance Officers: Bridge the gap between regulation and operations by interpreting cross-border data transfer laws. They ensure that sovereign data protection standards are translated into actionable and enforceable internal policies.
+  * Primary Sovereignty Driver: Regulatory alignment and jurisdictional control.
+  * Key Responsibility: Assessing vendor domiciles and legal frameworks to insulate sensitive data from extra-territorial laws like the U.S. Clarifying Lawful Overseas Use of Data (CLOUD) Act. 
+* Data Privacy Officers (DPOs): Act as guardians of individual data rights, ensuring sovereignty strategies are built upon privacy-by-design principles. They mandate strict adherence to global data-handling requirements, such as the European Union’s General Data Protection Regulation (GDPR) and Digital Operational Resilience Act (DORA).
+  * Primary Sovereignty Driver: Trust, transparency, and data residency.
+  * Key Responsibility: Verifying that data residency claims are backed by technical audits rather than just contractual assertions.
 
-* **IT Security Practitioners**: Focused on implementing architectural controls to satisfy stringent regulatory requirements while actively mitigating supply chain risks. They protect sensitive data from unauthorized access and extraterritorial interference.
-  * *Primary Sovereignty Driver*: Risk mitigation and data protection.
-  * *Key Responsibility*: Implementing technical safeguards like encryption (e.g., Bring Your Own Key or BYOK), confidential computing, and automated policy-as-code compliance.
-
-* **IT Operations, SREs, and System Administrators**: Tasked with maintaining resilient, cloud-native infrastructure that ensures operational autonomy. They manage environments, often in disconnected or air-gapped setups, to maintain service continuity independent of external provider stability.
-  * *Primary Sovereignty Driver*: Operational autonomy and resilience.
-  * *Key Responsibility*: Owning the full operational lifecycle, including the upgrade path and security response, without reliance on foreign-domiciled support.
-
-* **Executive Leadership (CIO/CTO/CISO)**: Drive the strategic vision for digital sovereignty, balancing rapid transformation with long-term business resilience. They focus on reducing dependency on foreign technology providers to protect the organization's strategic interests.
-  * *Primary Sovereignty Driver*: Economic competitiveness and geopolitical risk management.
-  * *Key Responsibility*: Aligning technology investments with jurisdictional mandates and ensuring the organization's "digital destiny" remains under internal authority.
-
-* **Legal and Compliance Officers**: Bridge the gap between regulation and operations by interpreting cross-border data transfer laws. They ensure that sovereign data protection standards are translated into actionable and enforceable internal policies.
-  * *Primary Sovereignty Driver*: Regulatory alignment and jurisdictional control.
-  * *Key Responsibility*: Assessing vendor domiciles and legal frameworks to insulate sensitive data from extra-territorial laws like the U.S. Clarifying Lawful Overseas Use of Data (CLOUD) Act. 
-
-* **Data Privacy Officers (DPOs)**: Act as guardians of individual data rights, ensuring sovereignty strategies are built upon privacy-by-design principles. They mandate strict adherence to global data-handling requirements, such as the European Union’s General Data Protection Regulation (GDPR) and Digital Operational Resilience Act (DORA).
-  * *Primary Sovereignty Driver*: Trust, transparency, and data residency.
-  * *Key Responsibility*: Verifying that data residency claims are backed by technical audits rather than just contractual assertions.
-
-## Why Digital Sovereignty? Key Scenarios
+### Why Digital Sovereignty? Key Scenarios
 
 Several distinct pressures push organizations toward sovereignty. The scenarios below represent the most common starting points:
 
-* ***Scenario 1*:** **Discovery-Driven Audit and Assurance Sovereignty**\
+* Scenario 1: Discovery-Driven Audit and Assurance Sovereignty\
   Organizations often begin their sovereignty journey by conducting deep discovery and audits of their digital footprint. This process involves mapping complex data flows and infrastructure dependencies to identify vulnerabilities. This audit is the foundation for aligning with frameworks such as DORA, the Cooperative Association for Internet Data Analysis (CAIDA), and the European Union Cyber Resilience Act (CRA), and for establishing jurisdictional control from the ground up rather than retrofitting it later.
-
-* ***Scenario 2*:** **Regulatory Evolution and Data Sovereignty**\
+* Scenario 2: Regulatory Evolution and Strategic Independence\
   The landscape of data privacy is becoming increasingly fragmented and strict. From the EU’s GDPR to evolving global mandates — such as India's Digital Personal Data Protection (DPDP) Act or China’s Personal Information Protection Law (PIPL) — organizations face the challenge of managing "where" and "how" data is processed. 
-
-* ***Scenario 3*:** **Economic Resilience and Technical Sovereignty**\
+* Scenario 3: Economic Resilience and Technical Sovereignty\
   Proprietary hyperscale cloud environments often introduce "hidden" costs, such as unpredictable egress fees and opaque pricing models, which threaten long-term fiscal viability. Organizations are shifting toward "Technical Sovereignty" by adopting open source standards and hybrid infrastructure models. This approach prevents vendor lock-in, enables workload portability, and ensures that the technology stack remains adaptable, interoperable, and cost-efficient.
-
-* ***Scenario 4:*** **Geopolitical Stability and Operational Sovereignty**\
-  In an era of international trade disputes and shifting geopolitical alliances, organizations must shield their operations from the impact of sudden service revocations or external dependencies. Achieving "Operational Sovereignty" requires shifting to a comprehensive autonomy model — one that utilizes local support, air-gapped environments, and independent technology stacks. This autonomy model ensures operational continuity, allowing critical services to persist independently of foreign-domiciled providers or international instability.
+* Scenario 4: Geopolitical Stability and Operational Resilience\
+  In an era of international trade disputes and shifting geopolitical alliances, organizations must shield their operations from the impact of sudden service revocations or external dependencies. Achieving "Operational Resilience" requires shifting to a comprehensive autonomy model — one that utilizes local support, air-gapped environments, and independent technology stacks. This autonomy model ensures operational continuity, allowing critical services to persist independently of foreign-domiciled providers or international instability.
 
 # Aspects of Sovereignty
 
-## Data Sovereignty
+## Strategic Independence 
 
-Data sovereignty is the right and practical capacity of an organization, jurisdiction, or individual to control the collection, storage, processing, and transfer of their data in accordance with applicable laws, policies, and values. It is not merely a question of where data physically resides, but of who exercises effective authority over that data — including authority over the legal framework that governs it, the encryption keys that protect it, and the operational processes that manage it. With Open Infrastructure projects, organizations can have that level of authority. 
+Strategic independence is the right and practical capacity of an organization, jurisdiction, or individual to control the collection, storage, processing, and transfer of their data in accordance with applicable laws, policies, and values. It is not merely a question of where data physically resides anymore, but of who exercises effective authority over that data — including authority over the legal framework that governs it, the encryption keys that protect it, and the operational processes that manage it. With Open Infrastructure projects, organizations can have that level of authority. 
 
-Data sovereignty rests on three interlocking pillars:
+Strategic independence  aims to address three key issues:
 
-* **Jurisdiction**: Which legal framework governs the data, and which authorities can compel access to it?
-* **Control**: Who holds the technical and operational means to access, modify, move, or delete the data?
-* **Protection**: How is data secured against unauthorized access, disclosure, or loss, and who controls the means of that protection (e.g., encryption keys)?
+* Jurisdiction: Which legal framework governs the data, and which authorities can compel access to it?
+* Control: Who holds the technical and operational means to access, modify, move, or delete the data?
+* Protection: How is data secured against unauthorized access, disclosure, or loss, and who controls the means of that protection (e.g., encryption keys)?
 
 ### Crown Jewels
 
@@ -84,29 +80,27 @@ Not all data carries the same sovereignty requirement. A foundational principle 
 
 Categories that typically warrant the strongest sovereignty controls include:
 
-* **Personal health records** — subject to stringent requirements in virtually all jurisdictions \[e.g., France's Health Data Hosting certification, the U.S.’s Health Insurance Portability and Accountability Act (HIPAA) in the US, and National Health Service (NHS) frameworks in the UK]
-* **Financial transaction data** — increasingly regulated under frameworks such as the EU's DORA, the UK Prudential Regulation Authority's Supervisory Statement on Outsourcing and Third-Party Risk Management (PRA SS2/21), and the Monetary Authority of Singapore’s Technology Risk Management framework (MAS TRM).
-* **Critical national infrastructure data** — operational data from energy, transport, water, and communications sectors
-* **Government and classified data** — subject to sovereign requirements that may prohibit processing outside national boundaries entirely
-* **Personally identifiable information (PII)** — regulated broadly under GDPR, Québec Law 25, India's DPDP Act, Brazil's Lei Geral de Proteção de Dados (LGPD), China's PIPL, and equivalent frameworks
-
+* Personal health records — subject to stringent requirements in virtually all jurisdictions \[e.g., France's Health Data Hosting certification, the U.S.’s Health Insurance Portability and Accountability Act (HIPAA) in the US, and National Health Service (NHS) frameworks in the UK]
+* Financial transaction data — increasingly regulated under frameworks such as the EU's DORA, the UK Prudential Regulation Authority's Supervisory Statement on Outsourcing and Third-Party Risk Management (PRA SS2/21), and the Monetary Authority of Singapore’s Technology Risk Management framework (MAS TRM).
+* Critical national infrastructure data — operational data from energy, transport, water, and communications sectors
+* Government and classified data — subject to sovereign requirements that may prohibit processing outside national boundaries entirely
+* Personally identifiable information (PII) — regulated broadly under GDPR, Québec Law 25, India's DPDP Act, Brazil's Lei Geral de Proteção de Dados (LGPD), China's PIPL, and equivalent frameworks
   * A note on logs as PII: Audit, access, and system logs frequently constitute personal data in their own right. Log entries that capture IP addresses, user identifiers, session tokens, or timestamps of individual activity are treated as PII under GDPR and equivalent frameworks. Organizations should not assume that logs are operationally neutral — they must be assessed for PII content at the point of log design and classified and controlled accordingly.
-
-* **Intellectual property and trade secrets** — commercially sensitive data whose sovereignty requirements are contractual and strategic rather than regulatory
+* Intellectual property and trade secrets — commercially sensitive data whose sovereignty requirements are contractual and strategic rather than regulatory
 
 ### Extra-territorial reach of foreign law
 
 Several national legal frameworks assert authority over data held by organizations incorporated in their jurisdiction, regardless of where the data physically resides. Organizations should assess the jurisdictional exposure created by their choice of cloud provider, software supplier, and hardware vendor — not only the location of their data centers. China's Data Security Law (DSL Article 36) and Personal Information Protection Law (PIPL Article 41) serve as direct counterparts to this risk: they prohibit organizations in China from providing data to foreign courts or regulators without Chinese government approval, creating a formal blocking mechanism against foreign extraterritorial compulsion.
 
-### Data residency vs. data sovereignty
+### Data residency vs. data sovereignty (strategic independence)
 
-Data residency — the physical location of data — is a necessary but insufficient condition for data sovereignty. Data held in a domestic data center but operated by a foreign-controlled entity, or encrypted with keys managed by a foreign supplier, may not constitute sovereign data in a meaningful sense. True sovereignty requires residency, domestic operational control, and domestic control of key management.
+Data residency — the physical location of data — is a necessary but insufficient condition for strategic independence. Data held in a domestic data center but operated by a foreign-controlled entity, or encrypted with keys managed by a foreign supplier, may not constitute sovereign data in a meaningful sense. True sovereignty requires residency, domestic operational control, and domestic control of key management.
 
 ### Regulatory fragmentation
 
 Data sovereignty obligations vary significantly by jurisdiction and sector. There is no single global framework. Organizations operating across multiple jurisdictions must map their data flows against each applicable framework. Organizations should verify current requirements with legal counsel.
 
-### OpenInfra’s Role in Data Sovereignty
+### OpenInfra’s Role in Strategic Independence
 
 #### Architecture Principles
 
@@ -114,13 +108,13 @@ Sovereignty requirements must drive infrastructure selection — not the reverse
 
 #### Core Technology Stack
 
-*OpenStack* serves as the foundation for sovereign private and hybrid clouds, offering full software auditability, no vendor lock-in, operator-controlled encryption, and scheduler-enforced data residency through availability zones and host aggregates. These properties are not achievable with closed-source hyperscaler platforms.
+OpenStack serves as the foundation for sovereign private and hybrid clouds, offering full software auditability, no vendor lock-in, operator-controlled encryption, and scheduler-enforced data residency through availability zones and host aggregates. These properties are not achievable with closed-source hyperscaler platforms.
 
 OpenStack Barbican provides the key management layer. Production sovereign deployments require a PKCS#11 or KMIP backend — industry-standard interfaces for cryptographic key management — connected to a hardware security module (HSM) physically located within the sovereign boundary. Per-tenant key isolation, rotation capability, and audit logging are non-negotiable requirements, and audit logs themselves must remain within the sovereign boundary.
 
-*StarlingX* addresses edge and distributed sovereign deployments, enabling data to be processed at the jurisdictional boundary without routing through central infrastructure. Its distributed cloud model supports centralized management while keeping data processing local — critical for Container Network Interface (CNI) operators, government edge deployments, and air-gapped environments.
+StarlingXTM addresses edge and distributed sovereign deployments, enabling data to be processed at the jurisdictional boundary without routing through central infrastructure. Its distributed cloud model supports centralized management while keeping data processing local — critical for Container Network Interface (CNI) operators, government edge deployments, and air-gapped environments.
 
-*Kata Containers* provides VM-level isolation for multi-tenant environments, using lightweight virtual machines to prevent cross-tenant access to the underlying kernel. For high-sensitivity multi-tenant workloads, this should be treated as a baseline requirement rather than an optional enhancement.
+Kata ContainersTM provides VM-level isolation for multi-tenant environments, using lightweight virtual machines to prevent cross-tenant access to the underlying kernel. For high-sensitivity multi-tenant workloads, this should be treated as a baseline requirement rather than an optional enhancement.
 
 #### Key Implementation Requirements
 
@@ -133,16 +127,15 @@ OpenStack Barbican provides the key management layer. Production sovereign deplo
 
 Security teams must test sovereignty controls through regular exercises — including key revocation, sub-cloud isolation, and cross-tenant access attempts. Procurement and legal teams must assess vendor domicile, require audit rights and compulsion notification clauses, and mandate operator-controlled key management for sensitive data tiers. Provider-managed key management is not an equivalent substitute.
 
-## Operational Sovereignty
+## Operational Resilience
 
 Operating an infrastructure platform in a reliable and sovereign manner presents significant and ongoing challenges, often greater than those encountered during initial deployment. Operators must maintain the skills necessary to run the platform reliably without relying on parties outside the established trust boundary and must provide customers with full transparency into how that operational capability is sustained.
 
-The following areas are central to an organization’s operational sovereignty posture:
+The following areas are central to an organization’s operational resilience:
 
 ### Support & Operations staff
 
-Providers must maintain staffing that is sufficient in both capability and capacity to deliver quality customer support and manage day-to-day platform operations. Where external support is engaged, that dependency should be disclosed to customers.
-
+Providers must maintain staffing that is sufficient in both capability and capacity to deliver quality customer support and manage day-to-day platform operations. Where external support is engaged, that dependency should be disclosed to customers.\
 \
 Personnel providing support and operations functions will have some degree of exposure to customer data. Implementing measures to limit that exposure — such as encryption, confidential computing, and log cleaning/anonymization — strengthens the sovereignty posture, as does making those measures transparent to customers.
 
@@ -158,20 +151,19 @@ Some observability tools are proprietary or rely on third-party SaaS services. P
 
 ### Lifecycle Management
 
-An infrastructure platform consists of a large set of software components; all of these can have bug and security fixes as well as upgrades that provide additional value for customers. In some cases, upgrades may also result in visible changes that may not be improvements for all customers, such as breaking changes or performance regressions for specific use cases.
-
+An infrastructure platform consists of a large set of software components; all of these can have bug and security fixes as well as upgrades that provide additional value for customers. In some cases, upgrades may also result in visible changes that may not be improvements for all customers, such as breaking changes or performance regressions for specific use cases.\
 \
 The software components need to be managed, and fixes, updates and upgrades need to be deployed from time to time. Providers can build trust by being transparent about the versions of software in use, documented through a Software Bill of Materials (SBOM), and by maintaining clear policies that are followed consistently, with defined validation processes and advance customer notification when platform changes are deployed.
 
 ### Supply chain
 
-No software is free of bugs; to keep software working well, bugs and security vulnerabilities need to be addressed. For proprietary software, bug and security fixes can typically be provided only by the software developer. Transparency in the software supply chain is needed to assess the associated risks.
+No software is free of bugs. Maintaining secure and reliable infrastructure requires continuous identification, remediation, and deployment of bug fixes and security updates throughout the software lifecycle. With proprietary software, organizations typically depend on a single vendor to develop, prioritize, and distribute those updates, making the vendor's commercial priorities and long-term viability an important operational consideration. Transparency throughout the software supply chain is therefore essential for assessing both technical and strategic risk.
 
-Using open source software provides significant advantages: it enables anyone with the requisite skills to create and contribute bug and security fixes. While permissive open source licenses allow fixes to be applied without contributing them back upstream, this approach carries increasing risk over time as the burden of maintaining downstream patches against an evolving codebase grows. 
+Open source software strengthens software supply chain resilience by distributing knowledge, development, and maintenance across a broad ecosystem of contributors rather than concentrating responsibility within a single supplier. Organizations are not limited to one path for obtaining security fixes, support, or ongoing innovation. This diversity helps protect against software discontinuation, licensing changes, commercial disruption, or geopolitical events that could otherwise interrupt access to critical technology.
 
-It is thus helpful for providers to create transparency not only about the open source software used, but also about who has the skills and responsibility to address bugs and implement security fixes, and how those fixes are fed back to the upstream open source communities.
+While permissive open source licenses allow organizations to maintain private downstream modifications, doing so over extended periods increases maintenance costs and technical debt as upstream projects continue to evolve. Contributing improvements back to the upstream community reduces long-term maintenance burden while strengthening the software ecosystem for all participants.
 
-Customers increasingly expect not only ongoing bug fixes but also feature development as technology evolves.  Transparency about how new capabilities are developed — through internal staff, partners, and community collaboration — as well as publication of forward-looking roadmaps, is an important element of building and sustaining customer trust.
+Providers should be transparent not only about the open source software they use, but also about how they sustain it. Customers benefit from understanding who is responsible for maintaining critical components, how vulnerabilities are addressed, how fixes are contributed upstream, and how new capabilities are developed through collaboration between internal engineering teams, partners, and open source communities. This transparency demonstrates both the long-term sustainability of the platform and the organization's commitment to the health of the broader ecosystem.
 
 ### Incident handling
 
@@ -179,15 +171,13 @@ Incidents are an expected aspect of operating complex infrastructure; they arise
 
 When incidents do occur, open and timely communication is essential. Acknowledging the problem and providing transparent updates on the resolution status enables customers to respond effectively and limit downstream impact.
 
-\
 Operators are expected to learn from incidents. Transparent handling of those incidents reflects the learning culture of the operating organization and contributes to rebuilding and sustaining customer trust over time.
 
 Within a network of operators, cross-organizational learning — including from customers operating compatible private cloud platforms — creates mutual benefit and raises the collective operational standard.
 
 ### Knowledge building and sharing
 
-Operational transparency into the processes, tools, and challenges not only benefits customer trust. It also helps customers who want to run a private platform (built with similar technology) in a hybrid setting, as well as other providers that run compatible platforms. While many operators are understandably selective about what they share, there can be a huge benefit in a network of collaborating providers that together form a resilient system for their customers. This network enables customers to achieve a level of sovereignty that would otherwise be impossible: they have very little lock-in to a single provider in this setup.
-
+Operational transparency into the processes, tools, and challenges not only benefits customer trust. It also helps customers who want to run a private platform (built with similar technology) in a hybrid setting, as well as other providers that run compatible platforms. While many operators are understandably selective about what they share, there can be a huge benefit in a network of collaborating providers that together form a resilient system for their customers. This network enables customers to achieve a level of sovereignty that would otherwise be impossible: they have very little lock-in to a single provider in this setup.\
 \
 In a network of many providers, knowledge sharing may appear to carry an additional cost; however, in practice, the value returned from contributions made by others substantially exceeds that investment, fostering a learning culture and enabling a level of operational excellence that would be difficult for any single organization to achieve independently.
 
@@ -195,35 +185,32 @@ In a network of many providers, knowledge sharing may appear to carry an additio
 
 The current pace of software advancement has been made possible by the permissionless innovation model of open source, enabling individuals to collaborate on software development across teams, organizations, and even continents. Over the past few decades, the IT industry has broadly adopted this collaborative approach. 
 
-Software development collaboration, however, is only half of the DevOps and DevSecOps picture. Open Operations extends that same collaborative model to the operational aspects of running IT infrastructure. A growing number of organizations have formalized this commitment through the Open Operations manifesto, pledging to share operational knowledge and enable broader learning across the community.
-
+Software development collaboration, however, is only half of the DevOps and DevSecOps picture. Open Operations extends that same collaborative model to the operational aspects of running IT infrastructure. A growing number of organizations have formalized this commitment through the Open Operations manifesto, pledging to share operational knowledge and enable broader learning across the community.\
+\
 Open Operations provides customers with the transparency necessary to build trust and creates pathways for smaller organizations to operate infrastructure environments successfully. By lowering barriers to entry and expanding the provider ecosystem, it increases customer choice in a more competitive market, ultimately extending practical sovereignty to a broader range of organizations.
 
-## Software Sovereignty
+## Software Transparency
 
-Software sovereignty is the ability of an organization or jurisdiction to exercise real control over the software it depends on: understanding how it works, auditing it, modifying it, and replacing it without a vendor's permission. This control is vital for achieving genuine technological independence and robustly defending systems against extra-territorial laws or interference. 
+Software transparency is the ability of an organization or jurisdiction to exercise real control over the software it depends on: understanding how it works, auditing it, modifying it, and replacing it without a vendor's permission. This control is vital for achieving genuine technological independence and robustly defending systems against extra-territorial laws or interference. 
 
-Software sovereignty enables a defined jurisdiction to design, develop, and govern key digital technologies, ensuring that essential infrastructure aligns with national strategic interests. A central benefit is mitigating risks associated with complex or potentially vulnerable foreign supply chains. Open source software is a critical enabler of this pillar: its transparent, auditable nature provides a degree of control, adaptability, and long-term viability that proprietary alternatives cannot match. 
+Software transparency enables a defined jurisdiction to design, develop, and govern key digital technologies, ensuring that essential infrastructure aligns with national strategic interests. A central benefit is mitigating risks associated with complex or potentially vulnerable foreign supply chains. Open source software is a critical enabler of this pillar: its transparent, auditable nature provides a degree of control, adaptability, and long-term viability that proprietary alternatives cannot match. Open source transparency gives you protection against software kill switches, and forkability that provides long-term access to the technology. 
 
-The key requirements for achieving software sovereignty focus on ensuring trust and control throughout the software lifecycle. The following principles define what that looks like in practice:
+The key requirements for achieving both software transparency and sovereignty focus on ensuring trust and control throughout the software lifecycle. The following principles define what that looks like in practice:
 
-* **Open source as the foundation for sovereignty**: Open source software provides the foundation for organizations seeking genuine digital sovereignty. Its transparency enables organizations to inspect source code, develop a thorough understanding of system behavior, and independently verify security and compliance — capabilities that proprietary systems structurally limit or prohibit.
+Open source as the foundation for sovereignty: Open source software provides the foundation for organizations pursuing digital sovereignty by ensuring that critical technologies remain transparent, accessible, and sustainable over the long term. Organizations can inspect source code, verify security and compliance, understand system behavior, and make informed decisions about the software they depend on, capabilities that proprietary platforms inherently limit.
 
-Open source solutions give organizations meaningful control over their technology architecture. That control enables software to be modified for specific requirements, diverse components to be integrated without friction, and the strategic constraints of vendor-controlled platforms to be avoided.
+Open source also strengthens operational resilience. Because development occurs within open communities under transparent governance, organizations are not dependent on a single vendor for continued access to critical technology. The ability to maintain, support, and, when necessary, fork software protects against abrupt licensing changes, software "kill switches," vendor withdrawal, or geopolitical events that could otherwise disrupt essential services.
 
-Open source technologies also offer strong interoperability advantages, enabling organizations to architect flexible, hybrid environments that adapt to evolving business requirements without the constraints of single-vendor ecosystems. This adaptability is particularly valuable for organizations operating across multiple jurisdictions with differing and evolving compliance mandates.
+Rather than eliminating dependencies, open source enables organizations to build a diverse ecosystem of trusted technology partners. Open standards and interoperable interfaces allow infrastructure to evolve over time, integrating new technologies and providers without requiring wholesale replacement of existing investments. This flexibility supports hybrid and multi-cloud architectures while reducing long-term strategic dependency on any single vendor or jurisdiction.
 
-* **Verifiable Trust in the Software Supply Chain**: Verifiable trust requires rigorous, continuous processes to ensure the integrity and authenticity of every software component across the full lifecycle, from initial source code development and secure build environments through deployment and ongoing operations. Digital signatures, automated integrity checks, and comprehensive auditing mechanisms are the primary technical means of establishing and maintaining that trust.
+* Verifiable Trust in the Software Supply Chain: Verifiable trust requires rigorous, continuous processes to ensure the integrity and authenticity of every software component across the full lifecycle, from initial source code development and secure build environments through deployment and ongoing operations. Digital signatures, automated integrity checks, and comprehensive auditing mechanisms are the primary technical means of establishing and maintaining that trust.
+* Reproducible Builds and Digital Signing: Establishing a zero-trust approach requires the strict enforcement of reproducible builds, ensuring binary artifacts can be independently verified against their source code. This approach is coupled with cryptographic digital signing, often utilizing frameworks like Sigstore, to provide non-repudiable proof of integrity and origin, thereby safeguarding the software supply chain against tampering, hidden backdoors, and unauthorized modifications.
+* Comprehensive SBOM Management: Maintaining an SBOM is crucial for establishing verifiable trust by providing a complete, machine-readable inventory of all open source and proprietary components, licenses, and dependencies. This transparency is essential for rapidly identifying and mitigating vulnerabilities and ensuring regulatory compliance throughout the entire software supply chain.
+* Sovereign Operating System (OS): A sovereign OS is a foundational computing environment that serves as a fully trusted and verifiable basis for all higher-level software and applications. It emphasizes complete architectural control, typically leveraging open source components to enable exhaustive transparency and independent security audits. By prioritizing localized development, maintenance, and support, a sovereign OS guarantees strict compliance with national security standards and effectively mitigates external supply chain risks.
 
-* **Reproducible Builds and Digital Signing**: Establishing a zero-trust approach requires the strict enforcement of reproducible builds, ensuring binary artifacts can be independently verified against their source code. This approach is coupled with cryptographic digital signing, often utilizing frameworks like Sigstore, to provide non-repudiable proof of integrity and origin, thereby safeguarding the software supply chain against tampering, hidden backdoors, and unauthorized modifications.
+As the preceding sections establish, achieving digital sovereignty requires addressing three distinct but interconnected areas: strategic independence, operational resilience , and software transparency.
 
-* **Comprehensive SBOM Management**: Maintaining an SBOM is crucial for establishing verifiable trust by providing a complete, machine-readable inventory of all open source and proprietary components, licenses, and dependencies. This transparency is essential for rapidly identifying and mitigating vulnerabilities and ensuring regulatory compliance throughout the entire software supply chain.
-
-* **Sovereign Operating System (OS)**: A sovereign OS is a foundational computing environment that serves as a fully trusted and verifiable basis for all higher-level software and applications. It emphasizes complete architectural control, typically leveraging open source components to enable exhaustive transparency and independent security audits. By prioritizing localized development, maintenance, and support, a sovereign OS guarantees strict compliance with national security standards and effectively mitigates external supply chain risks.
-
-As the preceding sections establish, achieving digital sovereignty requires addressing three distinct but interconnected areas: data sovereignty, operational sovereignty, and software sovereignty.
-
-The three pillars are interdependent. Maintaining data within a specific jurisdiction requires a technology stack that can be independently audited (software sovereignty) and operated under the organization’s own governance (operational sovereignty), with appropriately vetted personnel. A sovereignty strategy that addresses only one or two of these dimensions will have gaps that cannot be compensated for elsewhere.
+The three pillars are interdependent. Maintaining data within a specific jurisdiction requires a technology stack that can be independently audited (software transparency) and operated under the organization’s own governance (operational resilience), with appropriately vetted personnel. A sovereignty strategy that addresses only one or two of these dimensions will have gaps that cannot be compensated for elsewhere.
 
 ## Reference Architecture
 

@@ -11,7 +11,7 @@ hidePost: false
 seo:
   title: "From Policy to Production: Inside UN Open Source Week and the OpenInfra
     Path to True Digital Sovereignty"
-  url: un-opensource-week-and-digital-sovereignty
+  url: https://openinfra.org/blog/un-opensource-week-and-digital-sovereignty
   twitterUsername: "@openinfradev"
   description: "Learning from UN Open Source Week and launch of the digital
     sovereignty WG white papers. "

@@ -3,11 +3,11 @@ templateKey: blog-post
 title: "From Policy to Production: Inside UN Open Source Week and the OpenInfra
   Path to True Digital Sovereignty"
 author: Kendall Nelson
-date: 2026-07-15T13:00:00.000Z
+date: 2026-07-08T16:14:56.427Z
 category:
   - value: category-A7fnZYrE1
     label: News & Announcements
-hidePost: true
+hidePost: false
 seo:
   title: "From Policy to Production: Inside UN Open Source Week and the OpenInfra
     Path to True Digital Sovereignty"
@@ -18,7 +18,7 @@ seo:
 ---
 Awesome. The word is often thrown around for things that don't really deserve it, but being at the UN Open Source Week alongside representatives from over a hundred countries was the literal definition of awesome. Walking the floor and listening to global delegates, public sector leaders, and community maintainers, it became incredibly clear that we are living through a massive structural shift being driven by not just AI, but also digital sovereignty.
 
-Digital sovereignty is no longer just an abstract, high level ideal or a luxury line item for a rainy day. It is a baseline national security concern and a prerequisite for choice and resilience. As the representative from Tanzania beautifully put it: "When we open our solutions, we multiply them." But how do we actually make that happen? If there was one major takeaway from the week, it’s that we have to move past the high level policy talk. Governments and member states are hungry for digitally sovereign, open source based reference architectures. They are ready to bring back control by working directly with open source communities, and that is exactly why the OpenInfra community has been busy putting together two brand new whitepapers that are going live today.
+Digital sovereignty is no longer just an abstract, high level ideal or a luxury line item for a rainy day. It is a baseline national security concern and a prerequisite for choice and resilience. As the representative from Tanzania beautifully put it: "When we open our solutions, we multiply them." But how do we actually make that happen? If there was one major takeaway from the week, it’s that we have to move past the high level policy talk. Governments and member states are hungry for digitally sovereign, open source based reference architectures. They are ready to bring back control by working directly with open source communities, and that is exactly why the OpenInfra community has been busy putting together two brand new whitepapers that are going live next week.
 
 But first, a few highlights from UN Open Source week: 
 
@@ -58,4 +58,4 @@ The challenges of the coming decade are going to be securing global infrastructu
 
 Every organization needs someone within that is committed to open source and is willing to lead the charge internally. By choosing open source systematically and leaning into deep cooperation, we can ensure a stable, fair, and trustworthy foundation for global innovation, not just for the AI era we are figuring out now, but for whatever is to come ten, fifty or one hundred years in the future.
 
-On that note, we encourage you to read and share [these new whitepapers put together through collaboration in the OpenInfra community](https://openinfra.org/digital-sovereignty/). Look at the reference architecture, understand the requirements to be digitally sovereign, and join the OpenInfra community in building a responsive, reliable, and truly open future.
+On that note, we encourage you to read [the resources available through collaboration in the OpenInfra community,](https://openinfra.org/digital-sovereignty/) and join us as we build a responsive, reliable, and truly open future.

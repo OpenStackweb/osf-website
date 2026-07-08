@@ -64,6 +64,6 @@ For OpenInfra members and the broader ecosystem, this presents a clear opportuni
 * We’re excited to [announce the current list of 2026 OpenInfra events](https://openinfra.org/blog/announcing-2026-openinfra-events) including the OpenInfra Summit, OpenInfra Days, and a few more events where you can find the OpenInfra community!
 * 23-26 March | [Meet the Kata Containers community at KubeCon EU in Amsterdam](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/) | Booth #1362
 * April 20-24, 2026 | [Project Teams Gathering (PTG)](https://openinfra.org/ptg)
-* 25 April 2026 | [OpenInfra Day Nigeria](https://t.e2ma.net/click/mv0dgi/ulijjyje/a21xh8)
+* August 29, 2026 | [OpenInfra Day Nigeria](https://t.e2ma.net/click/mv0dgi/ulijjyje/a21xh8)
 
 For more information about OpenInfra community events, please contact [events@openinfra.dev](mailto:events@openinfra.org).

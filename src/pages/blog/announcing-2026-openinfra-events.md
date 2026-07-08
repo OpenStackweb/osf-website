@@ -39,9 +39,8 @@ We will soon be opening registration, CFPs, sponsorships and more for these even
 
 **Attend an OpenInfra Day**
 
-* February 2026 | OpenInfra Days DRC
-* May 2026 | OpenInfra Day Nigeria
 * July 2026 | KCD x OpenInfra Day Vietnam
+* August 2026 | OpenInfra Day Nigeria
 * September 2026 | OpenInfra Day Kenya
 * September 2026 | KCD x OpenInfra Day Korea
 * October 2026 | OpenInfra Day Saar-Lor-Lux (Germany)

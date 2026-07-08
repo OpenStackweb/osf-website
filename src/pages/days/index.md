@@ -45,21 +45,21 @@ upcomingDaysEvents:
 
 
 
-    - title: Ceph Day x OpenInfra Day North America
-      date: TBD
-      location: TBD
-      registration: More Info Coming Soon
-      sponsor: ""
     - title: >
         <a
         href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
         target="_blank">OpenInfra Days Nigeria</a>
-      date: TBD
+      date: August 29, 2026
       location: Jalingo, Nigeria
       registration: >
         <a
         href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
         target="_blank">Learn More</a>
+      sponsor: ""
+    - title: Ceph Day x OpenInfra Day North America
+      date: TBD
+      location: TBD
+      registration: More Info Coming Soon
       sponsor: ""
 upcomingMeetups:
   title: OpenInfra Community Events

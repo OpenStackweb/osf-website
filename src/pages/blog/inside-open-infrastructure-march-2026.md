@@ -62,5 +62,5 @@ Learn more about “[Why AI agents need stronger sandboxing and what the Kata Co
 ## More OpenInfra Community Events
 
 * April 20-24 | [Project Teams Gathering (PTG)](https://openinfra.org/ptg)
-* May 16 | [OpenInfra Day Nigeria](https://www.meetup.com/openstack-nigeria-user-group/events/313525373/)
+* August 29 | [OpenInfra Day Nigeria](https://www.meetup.com/openstack-nigeria-user-group/events/313525373/)
 * See the full list of [2026 OpenInfra events](https://openinfra.org/community-events/)!

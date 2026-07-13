@@ -12,8 +12,8 @@ seo:
     custody to operational autonomy and commercial independence."
   url: https://openinfra.org/openstack-vs-proprietary-clouds-a-digital-sovereignty-comparison-guide
 title: "OpenStack vs Proprietary Clouds: A Digital Sovereignty Comparison Guide"
-subTitle: "Authors: Daniel Bodky, Rodolfo Casas, Simon Dodsley, Kurt Garloff,
-  Sash Ghosh, Kendall Nelson"
+subTitle: "Authors: Daniel Bodky, Rodolfo Casas, Simon Dodsley, Jenny Fowler,
+  Kurt Garloff, Sash Ghosh, Kendall Nelson"
 ---
 # Introduction
 

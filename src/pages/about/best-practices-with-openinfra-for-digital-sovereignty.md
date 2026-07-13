@@ -9,8 +9,8 @@ seo:
   image: /img/OpenInfra-icon-white.jpg
   twitterUsername: "@openinfra.dev"
 title: Best Practices with OpenInfra for Digital Sovereignty
-subTitle: "Authors: Simon Dodsley, Kurt Garloff, Soumaya Msallem, Kendall
-  Nelson, Anoop Shukla, Sang Tran Quoc"
+subTitle: "Authors: Simon Dodsley, Jenny Fowler, Kurt Garloff, Soumaya Msallem,
+  Kendall Nelson, Anoop Shukla, Sang Tran Quoc"
 ---
 # Introduction
 

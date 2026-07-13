@@ -10,20 +10,24 @@
           "url": "/projects/"
         },
         {
-          "text": "User Survey",
-          "url": "/user-survey/"
-        },
-        {
-          "text": "DCO",
-          "url": "/dco/"
-        },
-        {
           "text": "OpenInfra Universe",
           "url": "/universe/"
         },
         {
+          "text": "User Survey",
+          "url": "/user-survey/"
+        },
+        {
+          "text": "Digital Sovereignty",
+          "url": "/digital-sovereignty/"
+        },
+        {
           "text": "Open Infrastructure Blueprint",
           "url": "/open-infrastructure-blueprint-white-paper/"
+        },
+        {
+          "text": "DCO",
+          "url": "/dco/"
         }
       ]
     },

@@ -90,3 +90,8 @@ members:
 <p>Digital sovereignty is the ability for everyone to be able to perform their roles in the digital world independently, self-determinedly and securely. In infrastructure, that starts with owning your data and controlling where it lives and runs and extends to who is able to access it. But real control requires more: the ability to understand, modify, and innovate on the software itself. Technologies following the “4 Opens” development methodology, transparent providers, interoperability, and the option to self-host give users that power.</p>
 
 <p>Open source projects including OpenStack, Kata Containers, StarlingX, and Zuul, supported by the OpenInfra Foundation, provide the building blocks. Rooted in global communities and neutral governance, open infrastructure brings digital sovereignty within reach.</p>
+
+<div style="text-align: center;">
+  <a href="https://openinfra.org/best-practices-with-openinfra-for-digital-sovereignty" class="button button-red">Get the Best Practices Guide</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://openinfra.org/openstack-vs-proprietary-clouds-a-digital-sovereignty-comparison-guide" class="button button-red">See the Comparison Guide</a>
+</div>

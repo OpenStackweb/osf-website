@@ -19,6 +19,12 @@ quotes:
   - text: NUBO, a French interministerial cloud project, built and operated by the Ministry of Economics and Finance, has emerged as a leading example of how open-source technologies — especially OpenStack — can power sovereign, secure, and scalable digital infrastructure.
   - text: STACKIT, the cloud and colocation provider of Schwarz Group, has fully embraced the concept of digital sovereignty by leveraging OpenStack, an open-source cloud platform that ensures full control over data storage and processing while adhering to stringent legal requirements.
 relatedResources:
+  - title: Code you can’t see isn’t trustworthy. Code you can’t govern isn’t sovereign.
+    url: https://allthingsopen.org/articles/digital-sovereignty-open-source-governance-openstack
+    icon: article
+  - title: Without Digital Sovereignty, There Is No Sovereignty
+    url: https://www.enterprisetimes.co.uk/2026/06/18/without-digital-sovereignty-there-is-no-sovereignty/
+    icon: article
   - title: Why NUBO chose OpenStack to build a sovereign, open source cloud infrastructure
     url: https://superuser.openinfra.org/articles/why-nubo-chose-openstack-to-build-a-sovereign-open-source-cloud-infrastructure/
     icon: article

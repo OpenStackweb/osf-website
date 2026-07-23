@@ -26,6 +26,17 @@ upcomingDaysEvents:
         target="_blank">Register</a> | <a
         href="https://2026.vietopeninfra.org/en/#sponsors">Sponsor</a>
       sponsor: ""
+    - title: >
+        <a
+        href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
+        target="_blank">OpenInfra Days Nigeria</a>
+      date: August 29, 2026
+      location: Jalingo, Nigeria
+      registration: >
+        <a
+        href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
+        target="_blank">Learn More</a>
+      sponsor: ""
     - title: OpenInfra Day Kenya
       date: September 4 & 5, 2026
       location: Nairobi, Kenya
@@ -45,21 +56,10 @@ upcomingDaysEvents:
 
 
 
-    - title: >
-        <a
-        href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
-        target="_blank">OpenInfra Days Nigeria</a>
-      date: August 29, 2026
-      location: Jalingo, Nigeria
-      registration: >
-        <a
-        href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
-        target="_blank">Learn More</a>
-      sponsor: ""
-    - title: Ceph Day x OpenInfra Day North America
-      date: TBD
-      location: TBD
-      registration: More Info Coming Soon
+    - title: OpenInfra Day North America
+      date: November 17, 2026
+      location: Marriott Marquis, Chicago, IL
+      registration: Registration Opening Soon!
       sponsor: ""
 upcomingMeetups:
   title: OpenInfra Community Events

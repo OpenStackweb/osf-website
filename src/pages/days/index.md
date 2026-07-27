@@ -28,14 +28,14 @@ upcomingDaysEvents:
       sponsor: ""
     - title: >
         <a
-        href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
-        target="_blank">OpenInfra Days Nigeria</a>
+        href="https://www.meetup.com/openstack-nigeria-user-group/events/315706846/"_blank">OpenInfra
+        Days Nigeria</a>
       date: August 29, 2026
       location: Jalingo, Nigeria
       registration: >
         <a
-        href="https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
-        target="_blank">Learn More</a>
+        href="https://www.meetup.com/openstack-nigeria-user-group/events/315706846/">Learn
+        More</a>
       sponsor: ""
     - title: OpenInfra Day Kenya
       date: September 4 & 5, 2026

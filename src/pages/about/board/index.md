@@ -126,22 +126,26 @@ members:
     openStack: /a/community/members/128770
     picture: /img/paulmiller.jpg
     title: Platinum Director
-  - name: Phil Robb
+  - name: Dirk Hohndel
     company: Ericsson AB, Ericsson Software Technology
-    description: With over 30 years in Software Engineering and 20 years in open
-      source communities, my passion is bringing developers and companies
-      together to leverage the significant strengths of open collaborative
-      development while avoiding the pitfalls. These communities are often
-      driven by competing forces of technical excellence, customer desire, and
-      individual corporate agendas. When done right they create a rich set of
-      digital assets that can be widely leveraged. When done wrong, it is often
-      a waste of the participant’s time, effort, and resources. Mastering how to
-      best navigate this new form of software development has been an
-      overarching theme of my career.
-    openStack: /a/community/members/114583
-    picture: /img/board/philrobb.jpeg
+    description: >-
+      Dirk is the Head of Ericsson Software Technology, leading a team of
+      engineers working on upstream open source contributions. He brings nearly
+      four decades of software and open source leadership, most recently as head
+      of Verizon's Open Source Office, focused on open source governance and
+      security. Before that, he spent six years as VMware's Chief Open Source
+      Officer, establishing the company’s OSPO and driving its involvement in
+      the open source community, and nearly fifteen years at Intel as Chief
+      Linux and Open Source Technologist, shaping the company's open source
+      strategy. He began his executive career as the first CTO of SUSE Linux.
+
+
+      Dirk has been a software developer and part of many free software and open source communities since the late 1980s, helping build and grow projects like Linux, KDE, Yocto, and most recently Subsurface and adsb.im. He has served on the boards and advisory boards of a number of open source foundations, including the Linux Foundation, KDE, GNOME, and the Free Standards Group. He holds a degree in Mathematics and Computer Science from the University of Würzburg and lives in Portland, Oregon. 
+    openStack: "#"
+    picture: /img/images-jul-30-2026-12-38-49-3154-pm.jpg
     title: Platinum Director
     twitter: null
+    linkedin: https://www.linkedin.com/in/dirkhohndel/
   - name: Josh Villarreal
     picture: /img/image002-1.png
     description: Josh Villarreal is a 15-year Racker who has been working in the

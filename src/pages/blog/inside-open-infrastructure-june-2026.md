@@ -6,7 +6,7 @@ date: 2026-06-29T16:02:29.006Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   url: https://openinfra.org/blog/openinfra-newsletter-june-2026
   title: "Inside Open Infrastructure: June 2026"

@@ -293,20 +293,6 @@ members:
     linkedin: https://www.linkedin.com/in/riteshpaiboina/
     openStack: /a/community/members/19051
     picture: /img/1629101963889.jpg
-  - name: Huaxing Zhang
-    title: Gold Director
-    company: China Telecom
-    description: 2017, I joined China Telecom and have been working on Cloud &
-      Network infrastructure products since then. In the past years, I used to
-      led a team to design and develop VIM products based on OpenStack and ETSI
-      MANO specifications; and participated in design China Telecom's NFV
-      three-layer decoupling scheme and implemented multiple projects such as
-      5GC, vIMS, and vBRAS. Our CT Cloud based on OpenStack have been deployed
-      in 31 provinces and maintain upgrading with new Cloud & Network
-      technologies. I believe it is precisely the mutual promotion with the open
-      source community that has helped the industry to grow rapidly.
-    openStack: /a/community/members/127797
-    picture: /img/board/HuaxingZhang.png
   - name: Kurt Garloff
     description: >-
       With Sovereign Cloud Stack (SCS), we have a publicly funded project to

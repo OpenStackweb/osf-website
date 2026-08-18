@@ -8,7 +8,7 @@ category:
     label: Community
   - value: category-KMY0e6q9N
     label: OpenStack
-hidePost: true
+hidePost: false
 seo:
   title: OpenInfra Day + KCD Vietnam 2026 Recap
   description: "[OpenInfra Foundation](https://openinfra.org) and

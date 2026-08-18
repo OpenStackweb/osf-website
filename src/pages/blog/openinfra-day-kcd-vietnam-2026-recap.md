@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: OpenInfra Day + KCD Vietnam 2026 Recap
 author: Jimmy McArthur
-date: 2026-08-14T17:53:42.643Z
+date: 2026-08-18T13:00:00.000Z
 category:
   - value: category-h2Ztx9rpD
     label: Community

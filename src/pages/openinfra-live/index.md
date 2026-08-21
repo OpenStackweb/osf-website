@@ -32,6 +32,8 @@ episodes:
     youtubeLink: https://www.youtube.com/watch?v=b_Q_Hp6-QPQ
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:7467617280126980097/
     youtubeEmbed: https://www.youtube.com/embed/b_Q_Hp6-QPQ?si=inIRGM7cTuTgkxYx
+    spotifyLink: https://open.spotify.com/episode/38ovhwjApaxJLhpGo1XySr
+    applePodcastsLink: https://podcasts.apple.com/us/podcast/openinfra-live/id6788132895?i=1000778716802
   - hidden: false
     date: 2026-04-09T14:00:19.531Z
     episodeTitle: "OpenStack 2026.1 Gazpacho: Ironic Deep Dive"

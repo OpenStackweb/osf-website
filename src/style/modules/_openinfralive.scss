@@ -43,24 +43,21 @@
     @media (max-width: 768px) {
       margin-left: 0;
     }
+    // Deliberately NOT a flex container: inline-block shrink-to-fit is
+    // consistent across engines, whereas inline-flex children of a wrapping
+    // flex container get stretched to full width by some browsers.
+    // Note the root font-size on this site is 10px, so 1rem == 10px.
     .platforms {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 0.75rem;
-      margin-top: 2.5rem;
+      margin-top: 3rem;
       .social-links {
-        display: inline-flex;
-        align-items: center;
-        flex: 0 0 auto;
-        max-width: 100%;
+        display: inline-block;
+        vertical-align: middle;
         white-space: nowrap;
         text-align: left;
         font-size: 0.95em;
         font-weight: 500;
-        line-height: 1;
-        margin-right: 0;
-        padding: 0.7rem 1.25rem;
+        margin: 0 1rem 1rem 0;
+        padding: 1rem 1.8rem;
         border: 1px solid rgba($primary, 0.15);
         border-radius: 999px;
         background: $white;
@@ -68,8 +65,11 @@
         transition: background 0.2s ease, color 0.2s ease,
           border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
         .social-icon {
-          max-width: 1.35rem;
-          margin-right: 0.6rem;
+          display: inline-block;
+          vertical-align: middle;
+          max-width: 2.2rem;
+          margin-right: 0.8rem;
+          margin-top: -2px;
         }
         &:hover,
         &:focus {
@@ -81,10 +81,8 @@
         }
       }
       @media (max-width: 768px) {
-        justify-content: center;
         .social-links {
-          margin-right: 0;
-          margin-bottom: 0;
+          margin: 0 0.5rem 1rem;
         }
       }
     }

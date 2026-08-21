@@ -11,8 +11,8 @@ hero:
   description: "Introducing: OpenInfra Live—an hour-long series sharing production
     case studies, open source demos, industry conversations, and the latest
     updates from the global open infrastructure community! <br /> <br /> Catch
-    every episode on several streaming platforms, airing <strong>Thursdays at
-    14:00 UTC (9am CT)</strong>."
+    our <strong>Select Live Broadcasts</strong> on YouTube & LinkedIn, or
+    catchup by streaming the <strong>Podcast</strong> on Spotify & Apple Music."
 episodes:
   - hidden: false
     date: 2026-06-11T14:00:00.000Z
@@ -116,8 +116,7 @@ episodes:
 
 
       Learn about some of the features delivered and community progress as well as plans for OpenStack 2025.2 'Flamingo.'
-  - facebookLink: ""
-    episodeDescription: A year ago, Broadcom’s acquisition of VMware disrupted the
+  - episodeDescription: A year ago, Broadcom’s acquisition of VMware disrupted the
       global virtualization market where VMware previously held 40% market
       share. Since then, over 80% of OpenInfra Foundation members have received
       requests from organizations to migrate workloads from VMware to OpenStack.
@@ -304,8 +303,7 @@ episodes:
     episodeSpeakers: "Guillaume Allard, Arnaud Morin, Belmiro Moreira, Mohammed
       Naser, Thierry Carrez, Kristin Barrientos "
     linkedinLink: https://www.linkedin.com/events/7043641361979346944/comments/
-  - facebookLink: ""
-    episodeDescription: >
+  - episodeDescription: >
       The OpenStack community released Antelope, the 27th version of the world’s
       most widely deployed open source cloud infrastructure software, this week.
       Join us to learn about the latest from community leaders about what was
@@ -327,8 +325,7 @@ episodes:
     episodeSpeakers: "Todd Robinson, Jimmy McArthur "
     youtubeEmbed: https://www.youtube.com/embed/6GCGhuRpPqM
     youtubeLink: https://www.youtube.com/watch?v=6GCGhuRpPqM
-  - facebookLink: https://www.facebook.com/events/677204717420396
-    episodeDescription: >
+  - episodeDescription: >
       Members of the OpenStack community will introduce how Cyborg, an OpenStack
       project, aims to provide a general-purpose management framework for
       acceleration resources such as GPU, FPGA, NVMe SSDs, SmartNIC and so on.
@@ -644,8 +641,7 @@ episodes:
       Adrian Seiffert (Schwarz)
       Marvin Titus (Schwarz)
       Carmel Walsh (ARDC Nectar)
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4476144952440739/
-    episodeDescription: >-
+  - episodeDescription: >-
       The hybrid cloud marketing is expected to reach $145 billion USD by 2026
       and organizations worldwide are deploying a combination of open source and
       proprietary tools in production for this use case. Join us on OpenInfra
@@ -667,8 +663,7 @@ episodes:
     linkedinLink: https://www.linkedin.com/video/event/urn:li:ugcPost:6859941007103029248/
     episodeTitle: "OpenInfra in Production: Hybrid Cloud"
     youtubeLink: https://www.youtube.com/watch?v=Z9wLCKWe7LE
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4454849267903641/
-    episodeDescription: "Join us as we discuss how chipmakers, hardware vendors, and
+  - episodeDescription: "Join us as we discuss how chipmakers, hardware vendors, and
       data center architects are all working in concert to solve this
       problem.  "
     calendarInvite: static/invites/myevents-11-.ics
@@ -681,8 +676,7 @@ episodes:
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6857452910423494657
     episodeTitle: Tackling Sustainability with Eco-friendly, Green Hardware
     youtubeLink: https://www.youtube.com/watch?v=4Pf1B3vW30E
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4407685335953368/
-    episodeDescription: "Networking is complex, and Neutron is one of the most
+  - episodeDescription: "Networking is complex, and Neutron is one of the most
       difficult parts of OpenStack to scale. In this episode of the Large Scale
       OpenStack show, we will explore early architectural choices you can make,
       recommended drivers, features to avoid if your ultimate goal is to scale
@@ -704,8 +698,7 @@ episodes:
     linkedinLink: https://www.linkedin.com/video/event/urn:li:ugcPost:6851936962715222016/
     episodeTitle: "Large Scale OpenStack: Neutron scaling best practices"
     youtubeLink: https://www.youtube.com/watch?v=4ZLqILbLIpQ
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4364096940312208/
-    episodeDescription: Ceph is a highly scalable distributed-storage open source
+  - episodeDescription: Ceph is a highly scalable distributed-storage open source
       solution offering object, block, and file storage. Join us as various
       Community members discuss the basics, ongoing development and integration
       of OpenStack with Ceph.
@@ -745,8 +738,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/openinfra-days-2021-openinfra-live-recap/
     episodeTitle: OpenInfra Days 2021 Recap
     youtubeLink: https://www.youtube.com/watch?v=-s1eJa6u_2A
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4319519031436666/
-    episodeDescription: "Since the Paris Summit in 2014, the OpenInfra Foundation
+  - episodeDescription: "Since the Paris Summit in 2014, the OpenInfra Foundation
       has hosted our annual Superuser Awards to recognize organizations that
       have used open infrastructure to meaningfully improve their business while
       contributing back to the community. Past winners will join us for this
@@ -765,8 +757,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/superusers-where-are-they-now-openinfra-live-recap/
     episodeTitle: "Superusers: Where are they Now"
     youtubeLink: https://www.youtube.com/watch?v=nUwgBdx0lSw
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4298495370205699/
-    episodeDescription: "Are you looking for a job in open source? Curious about
+  - episodeDescription: "Are you looking for a job in open source? Curious about
       what companies might be right for you? Join us as we spotlight companies
       with open infrastructure job openings, hear straight from current
       employees about their day-to-day community involvement and hear what their
@@ -784,8 +775,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/open-source-job-openings-and-how-to-land-them-round-two-openinfra-live-recap/
     episodeTitle: Open Source Job Openings (and how to land them) Round Two
     youtubeLink: https://www.youtube.com/watch?v=BPtr_nq3wJQ
-  - facebookLink: https://www.facebook.com/watch/live/?v=1116775512183635&ref=watch_permalink
-    episodeDescription: "Interested in learning more or improving your open source
+  - episodeDescription: "Interested in learning more or improving your open source
       development skills? Looking to learn more about OpenStack and Kubernetes
       administration and prep for the Certified OpenStack Administrator or
       Certified Kubernetes Administrator exams? Join us as OpenInfra
@@ -801,8 +791,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/open-source-training-opportunities-openinfra-live-recap/
     episodeTitle: "Open Source Training Opportunities "
     youtubeLink: https://youtu.be/0bMI1fcrI0A
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4256168904438346/
-    episodeDescription: "When we talk about Large Scale, it usually refers to
+  - episodeDescription: "When we talk about Large Scale, it usually refers to
       scaling out to hundreds of thousands of commodity nodes. But there is
       another dimension to Large Scale OpenStack: using OpenStack to build
       supercomputers to use in research and HPC. In this episode, operators of
@@ -820,8 +809,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/large-scale-openstack-discussing-software-defined-supercomputers-openinfra-live-recap/
     episodeTitle: "Large Scale OpenStack: Discussing Software-Defined Supercomputers"
     youtubeLink: https://www.youtube.com/watch?v=fOJTHanmOFg
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4229345477120689/
-    episodeDescription: Join us as members from the Bare Metal SIG join us to
+  - episodeDescription: Join us as members from the Bare Metal SIG join us to
       discuss how Ironic works to simplify many of the hardships physical bare
       metal operators deal with on a daily basis, including an overview of the
       project, project roadmap, and use cases of Ironic in production.
@@ -849,8 +837,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/openstack-basics-openinfra-live-recap/
     episodeTitle: OpenStack Basics
     youtubeLink: https://www.youtube.com/watch?v=hGRkdYu6I5k
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4173780696010501/
-    episodeDescription: "The Kubernetes steering committee and OpenStack technical
+  - episodeDescription: "The Kubernetes steering committee and OpenStack technical
       committee meet regularly to talk about cross-community learnings and
       collaboration opportunities. Join members of both governance bodies to ask
       questions about integration, cross-project support and how you can stay
@@ -865,8 +852,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/kubernetes-and-openstack-working-together-openinfra-live-recap/
     episodeTitle: Kubernetes and OpenStack Working Together
     youtubeLink: https://www.youtube.com/watch?v=G1vplawafw4
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4154104931311411/
-    episodeDescription: "The #KataContainers community is going to host community
+  - episodeDescription: "The #KataContainers community is going to host community
       members from AMD, Ant Group, Apple, IBM, and Huawei to share how they’re
       running Kata. Kata Containers Architecture Committee members and upstream
       contributors will provide an update on community development and the
@@ -881,8 +867,7 @@ episodes:
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:6821467132325445632/
     episodeTitle: Kata Containers Use Cases
     youtubeLink: https://www.youtube.com/watch?v=-9LtBfwj03Y
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4134653546589883/
-    episodeDescription: One of the reasons workloads moved to virtualization and
+  - episodeDescription: One of the reasons workloads moved to virtualization and
       clouds was to avoid having underutilized resources. But as demand for
       resources goes up and down, the cloud itself can now have a lot of spare
       capacity. How do OpenStack-based large scale clouds manage their spare
@@ -900,8 +885,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/how-openstack-large-clouds-manage-their-spare-capacity-openinfra-live-recap/
     episodeTitle: How OpenStack Large Clouds Manage their Spare Capacity
     youtubeLink: https://www.youtube.com/watch?v=G7oN2XdI__k
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4115187991869772/
-    episodeDescription: Johan Christenson, CEO of CityNetwork, hosts a discussion
+  - episodeDescription: Johan Christenson, CEO of CityNetwork, hosts a discussion
       around the role of open source in digital sovereignty between Pierre
       Gronlier, CTO of Gaia-X, Kurt Garloff, CTO at Sovereign Cloud Stack, and
       Linda Siwe, Chief Commercial Officer at Binero.
@@ -914,8 +898,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/the-role-of-open-source-in-digital-sovereignty-openinfra-live-recap/
     episodeTitle: The Role of Open Source in Digital Sovereignty
     youtubeLink: https://www.youtube.com/watch?v=JPfo6wXM0BY
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4096084423780129/
-    episodeDescription: Ildiko Vancsa will host Mark Collier, OpenInfra Foundation
+  - episodeDescription: Ildiko Vancsa will host Mark Collier, OpenInfra Foundation
       COO and Paul Miller, Wind River CTO, to learn about the results of the
       edge computing survey conducted by Wind River and provide insight into how
       upstream communities are making progress for this emerging use case.
@@ -928,8 +911,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/building-the-intelligent-edge-with-open-source-technologies-openinfra-live-recap/
     episodeTitle: Building the Intelligent Edge with Open Source Technologies
     youtubeLink: https://www.youtube.com/watch?v=pHHCIGkpNzs
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4076497655738806/
-    episodeDescription: Are you looking for a job in open source? Curious about what
+  - episodeDescription: Are you looking for a job in open source? Curious about what
       companies might be right for you? Join us as we spotlight companies with
       open infrastructure job openings, learn about their company cultures, and
       hear what they are looking for in candidates.
@@ -942,8 +924,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/open-source-job-openings-and-how-to-land-them-openinfra-live-recap/
     episodeTitle: Open Source Job Openings (and how to land them)
     youtubeLink: https://www.youtube.com/watch?v=xfrvN9zkjs8
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4058210514234187/
-    episodeDescription: Victoria Martinez de la Cruz, an OpenStack contributor who
+  - episodeDescription: Victoria Martinez de la Cruz, an OpenStack contributor who
       joined the community through the Outreachy internship program, will be
       joined by Kendall Nelson, OpenInfra Upstream Developer Advocate, and
       contributors who are just getting started. The group will discuss
@@ -958,8 +939,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/how-to-start-contributing-upstream-to-openinfra-openinfra-live-recap/
     episodeTitle: How to Start Contributing Upstream to OpenInfra
     youtubeLink: https://www.youtube.com/watch?v=4kGtM4J_hjM
-  - facebookLink: https://www.facebook.com/104139126308032/posts/4037348229653749/
-    episodeDescription: Keeping up with new OpenStack releases can be a challenge.
+  - episodeDescription: Keeping up with new OpenStack releases can be a challenge.
       In this continuation of the <a
       href="//www.youtube.com/watch?v=yf5iFiCg_Tw">May 20 OpenInfra Live
       episode</a>, a panel of large scale OpenStack infrastructure operators
@@ -975,8 +955,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/experts-discuss-tradeoffs-frequency-and-more-around-upgrades-of-large-scale-openstack-deployments-openinfra-live-recap/
     episodeTitle: "Upgrades in Large Scale OpenStack infrastructure: The Discussion"
     youtubeLink: https://www.youtube.com/watch?v=C2fSy005lDs
-  - facebookLink: ""
-    episodeDescription: Are the hyperscale public clouds killing open source? Is
+  - episodeDescription: Are the hyperscale public clouds killing open source? Is
       open source actually secure? How does open source impact software supply
       chains? Join us as Jonathan Bryce (Executive Director, OpenInfra
       Foundation), Mark Collier (COO, OpenInfra Foundation) and Allison Randal
@@ -995,8 +974,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/openinfra-leadership-tackles-questions-live-openinfra-live-episode-8/
     episodeTitle: OpenInfra AMA (Ask Me Anything)
     youtubeLink: https://www.youtube.com/watch?v=d5ieK74F804
-  - facebookLink: ""
-    episodeDescription: Don’t merge broken code. Infrastructure at scale relies on
+  - episodeDescription: Don’t merge broken code. Infrastructure at scale relies on
       quality software that is tested before it’s deployed. Operators rely on
       open source CI systems like Zuul for gating, scaling across organizations
       and cross-project dependencies.
@@ -1009,8 +987,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/large-scale-open-source-ci-featuring-zuul-openinfra-live-episode-7/
     episodeTitle: Large Scale Open Source CI Featuring Zuul
     youtubeLink: https://www.youtube.com/watch?v=MptrjDKrKhI
-  - facebookLink: ""
-    episodeDescription: "Keeping up with new #OpenStack releases can be a challenge.
+  - episodeDescription: "Keeping up with new #OpenStack releases can be a challenge.
       At a very large scale, it can be daunting. In this episode of
       OpenInfra.Live, operators from some of the largest OpenStack deployments
       at Blizzard Entertainment, OVH, Bloomberg, Workday, Vexxhost or CERN will
@@ -1027,8 +1004,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/upgrades-in-large-scale-openstack-infrastructure-openinfra-live-episode-6/
     episodeTitle: Upgrades in Large Scale OpenStack infrastructure
     youtubeLink: https://www.youtube.com/watch?v=yf5iFiCg_Tw
-  - facebookLink: ""
-    episodeDescription: As edge computing use cases demand the cloud to break out of
+  - episodeDescription: As edge computing use cases demand the cloud to break out of
       large data centers, they also put new challenges on infrastructure as the
       scale and geographical distribution is going through a yet unprecedented
       growth.
@@ -1041,8 +1017,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/open-edge-infrastructure-conundrums-and-solutions-openinfra-live/
     episodeTitle: Open Edge Infrastructure Conundrums and Solution
     youtubeLink: https://www.youtube.com/watch?v=Hs8bp8NSYAM
-  - facebookLink: ""
-    episodeDescription: How different would your daily life be without constant,
+  - episodeDescription: How different would your daily life be without constant,
       reliable high speed access to the Internet? While network access and 4G
       speeds have continued to improve, the speed of those networks is expected
       to decline for 3.3 billion people. Bridging this digital divide and
@@ -1059,8 +1034,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/the-future-of-the-network-depends-on-open-infrastructure/
     episodeTitle: The Future of the Network Depends on Open Infrastructure
     youtubeLink: https://www.youtube.com/watch?v=-KeD5RFLNUI
-  - facebookLink: ""
-    episodeDescription: Join for a Project Teams Gathering (PTG) recap! Project
+  - episodeDescription: Join for a Project Teams Gathering (PTG) recap! Project
       leaders from OpenStack, Kata Containers, StarlingX, OpenStack Ironic, the
       Edge Computing Group, Scientific SIG, and Multi-Arch SIG provide recaps
       from discussions held at the PTG.
@@ -1074,8 +1048,7 @@ episodes:
     superuserRecap: https://superuser.openstack.org/articles/project-teams-gathering-ptg-recap-openinfra-live/
     episodeTitle: OpenInfra Project Teams Gathering Recap
     youtubeLink: https://www.youtube.com/watch?v=yIt4dJvTQVg
-  - facebookLink: ""
-    episodeDescription: The OpenStack Technical Committee is the governing body of
+  - episodeDescription: The OpenStack Technical Committee is the governing body of
       the OpenStack open source project. It is an elected group that represents
       the contributors to the project, and has oversight on all technical
       matters. This includes developers, operators and end users of the
@@ -1091,8 +1064,7 @@ episodes:
     superuserRecap: ""
     episodeTitle: Behind the scenes of the OpenStack TC
     youtubeLink: https://www.youtube.com/watch?v=s4HOyAdQx8A
-  - facebookLink: ""
-    episodeDescription: Wallaby, the 23rd release of OpenStack, makes improvements
+  - episodeDescription: Wallaby, the 23rd release of OpenStack, makes improvements
       to role-based access control (RBAC) and integration with other open source
       projects including Ceph, Kubernetes and Prometheus to strengthen open
       infrastructure for cloud native applications.

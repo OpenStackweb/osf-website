@@ -11,7 +11,6 @@ import Hero from '../components/Hero'
 import LazyLoadVideo from '../components/LazyLoadVideo';
 
 import IdeasBanner from '../components/IdeasBanner'
-import KeynotesPromoV2 from '../components/KeynotesPromoV2';
 
 import { connect } from "react-redux";
 
@@ -87,10 +86,16 @@ export const OpenInfraLiveTemplate = ({
                   Watch on LinkedIn
                 </a>
               }
-              {episode.facebookLink &&
-                <a className="social-links" href={episode.facebookLink}>
-                  <img src="/img/socials/facebook.svg" className="social-icon" alt="OpenInfra Live on Facebook" />
-                  Watch on Facebook
+              {episode.spotifyLink &&
+                <a className="social-links" href={episode.spotifyLink}>
+                  <img src="/img/socials/spotify.svg" className="social-icon" alt="OpenInfra Live on Spotify" />
+                  Listen on Spotify
+                </a>
+              }
+              {episode.applePodcastsLink &&
+                <a className="social-links" href={episode.applePodcastsLink}>
+                  <img src="/img/socials/apple-podcasts.svg" className="social-icon" alt="OpenInfra Live on Apple Podcasts" />
+                  Listen on Apple Podcasts
                 </a>
               }
             </div>
@@ -124,86 +129,42 @@ export const OpenInfraLiveTemplate = ({
                   Subscribe to the <a href="/newsletter/">OpenInfra newsletter</a> to hear more about upcoming episodes.
                 </p>
                 <div className="platforms">
+                  <a className="social-links" href="//open.spotify.com/show/033KWnXq6Njhy1dRqs6Zx7">
+                    <img src="/img/socials/spotify.svg" className="social-icon" alt="OpenInfra Live on Spotify" />
+                    Listen on Spotify
+                  </a>
+                  <a className="social-links" href="//podcasts.apple.com/us/podcast/openinfra-live/id6788132895">
+                    <img src="/img/socials/apple-podcasts.svg" className="social-icon" alt="OpenInfra Live on Apple Podcasts" />
+                    Listen on Apple Podcasts
+                  </a>
                   <a className="social-links" href="//youtube.com/c/OpenStackFoundation?sub_confirmation=1">
                     <img src="/img/socials/youtube.svg" className="social-icon youtube" alt="OpenInfra Live on YouTube" />
-                    Subscribe on YouTube
+                    Watch Live on YouTube
                   </a>
                   <a className="social-links" href="//www.linkedin.com/company/open-infrastructure-foundation/">
                     <img src="/img/socials/linkedin.svg" className="social-icon" alt="OpenInfra Live on LinkedIn" />
-                    Follow on LinkedIn
-                  </a>
-                  <a className="social-links" href="//www.facebook.com/openinfradev">
-                    <img src="/img/socials/facebook.svg" className="social-icon" alt="OpenInfra Live on Facebook" />
-                    Follow on Facebook
-                  </a>
-                  <a className="social-links" href="//twitter.com/hashtag/OpenInfraLive?src=hashtag_click">
-                    <img src="/img/socials/twitter.svg" className="social-icon" alt="OpenInfra Live on Twitter" />
-                    Join the Conversation
+                    Join Live on LinkedIn
                   </a>
                 </div>
               </div>
             </section>
           </div>
-          
-          <KeynotesPromoV2 />
-
-          <section className="live-section">
-            <div className="container">
-              {ready ? futureEpisodes.length > 0 &&
-                <>
-                  <h2 className="section-title">{moment(futureEpisodes[0].date).utc().unix() >= today && moment(futureEpisodes[0].date).utc().unix() <= today + 7200 ? 'OpenInfra Live is Airing!' : 'The Next Episode Is Airing Soon!'}</h2>
-                  {/* Next episode */}
-                  {buildEpisodeItem(futureEpisodes[0], 0)}
-                </>
-                : <h2 className="section-title">Loading...</h2>
-              }
-              <section className="more-recent-wrapper" style={{ padding: futureEpisodes.length === 0 ? '0px' : '' }}>
-                <h2 className="section-title">
-                  {futureEpisodes.length > 0 ? "While You’re Waiting, Here Are A Few Of The Most Recent Episodes" : "Check out the most recent episodes"}
-                </h2>
-                <div className="more-recent-episodes">
-                  {pastEpisodes.map((episode, index) => {
-                    if (index >= 0 && index < 2) {
-                      return (
-                        <div className={`more-recent-single-${index === 0 ? 'left' : 'right'}`} key={`recent-${index}`}>
-                          <div className="date">{moment.utc(episode.date).format("dddd, MMMM DD, YYYY")}</div>
-                          <div className="video">
-                            <div className="videoWrapper">
-                              {/* <iframe width="560" height="315" src={episode.youtubeEmbed} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
-                              { episode.youtubeEmbed && <LazyLoadVideo videoUrl={episode.youtubeEmbed} /> }
-                            </div>
-                          </div>
-                          <div className="details">
-                            <h2>{episode.episodeTitle}</h2>
-                            <p className="description" dangerouslySetInnerHTML={{ __html: episode.episodeDescription }} />
-                            <div className="platforms">
-                              <a className="social-links" href={episode.youtubeLink}>
-                                <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube" />
-                                Watch on YouTube
-                              </a>
-                              {episode.superuserRecap &&
-                                <a className="social-links" href={episode.superuserRecap}>
-                                  <img src="/img/socials/superuser.svg" className="social-icon" alt="Read the recap on Superuser" />
-                                  Superuser Recap
-                                </a>
-                              }
-                            </div>
-                          </div>
-                        </div>
-                      )
-                    }
-                  })}
-                </div>
-                <a href="#all-episodes" className="schedule-link">
-                  See All Previous Episodes
-                  <img src="/img/icons/arrow-down.svg" className="link-icon" alt="See all previous episodes" />
-                </a>
-              </section>
-            </div>
-          </section>
+          {(!ready || futureEpisodes.length > 0) &&
+            <section className="live-section">
+              <div className="container">
+                {ready ?
+                  <>
+                    <h2 className="section-title">{moment(futureEpisodes[0].date).utc().unix() >= today && moment(futureEpisodes[0].date).utc().unix() <= today + 7200 ? 'OpenInfra Live is Airing!' : 'The Next Episode Is Airing Soon!'}</h2>
+                    {/* Next episode */}
+                    {buildEpisodeItem(futureEpisodes[0], 0)}
+                  </>
+                  : <h2 className="section-title">Loading...</h2>
+                }
+              </div>
+            </section>
+          }
           <section className="schedule-wrapper">
             <div className="container">
-              <h2 className="section-title">Upcoming OpenInfra Live Episodes</h2>
               <div className="schedule-list">
                 {/* Start single episode */}
                 {futureEpisodes.map((episode, index) => {
@@ -243,7 +204,7 @@ export const OpenInfraLiveTemplate = ({
           </section>
           <section className="live-section">
             <div className="container">
-              <h2 className="section-title" id="all-episodes">Watch Previous Episodes</h2>
+              <h2 className="section-title" id="all-episodes">Stream Previous Episodes</h2>
               <div className="all-episode-list">
                 {/* Start past episodes */}
                 {pastEpisodes.map((episode, index) => {
@@ -268,6 +229,18 @@ export const OpenInfraLiveTemplate = ({
                             <img src="/img/socials/youtube.svg" className="social-icon" alt="OpenInfra Live on YouTube" />
                             Watch on YouTube
                           </a>
+                          {episode.spotifyLink &&
+                            <a className="social-links" href={episode.spotifyLink}>
+                              <img src="/img/socials/spotify.svg" className="social-icon" alt="OpenInfra Live on Spotify" />
+                              Listen on Spotify
+                            </a>
+                          }
+                          {episode.applePodcastsLink &&
+                            <a className="social-links" href={episode.applePodcastsLink}>
+                              <img src="/img/socials/apple-podcasts.svg" className="social-icon" alt="OpenInfra Live on Apple Podcasts" />
+                              Listen on Apple Podcasts
+                            </a>
+                          }
                           {episode.superuserRecap &&
                             <a className="social-links" href={episode.superuserRecap}>
                               <img src="/img/socials/superuser-avatar.png" className="social-icon superuser-social-icon" alt="Read the recap on Superuser" />
@@ -351,8 +324,9 @@ export const OpenInfraLivePageQuery = graphql`
           episodeSpeakers
           youtubeEmbed
           youtubeLink
-          facebookLink
           linkedinLink
+          spotifyLink
+          applePodcastsLink
           calendarInvite
           superuserRecap
           hidden

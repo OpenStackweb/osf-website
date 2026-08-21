@@ -28,6 +28,10 @@
         {
           "text": "DCO",
           "url": "/dco/"
+        },
+        {
+          "text": "Security",
+          "url": "/security/"
         }
       ]
     },

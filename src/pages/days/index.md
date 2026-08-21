@@ -37,11 +37,6 @@ upcomingDaysEvents:
         href="https://www.meetup.com/openstack-nigeria-user-group/events/315706846/">Learn
         More</a>
       sponsor: ""
-    - title: OpenInfra Day Kenya
-      date: September 4 & 5, 2026
-      location: Nairobi, Kenya
-      registration: More Info Coming Soon
-      sponsor: ""
     - title: <a
         href="https://community2.cncf.io/events/details/cncf-kcd-south-korea-presents-kcd-x-ceph-x-openinfra-day-korea-2026/"
         target="_blank">KCD x Ceph x OpenInfra Day Korea</a>
@@ -56,6 +51,13 @@ upcomingDaysEvents:
 
 
 
+    - title: OpenInfra Day Kenya
+      date: November 5 & 6, 2026
+      location: Nairobi, Kenya
+      registration: <a
+        href="https://cfp.openinfra-ke.org/openinfra-days-kenya-2026/cfp">CFP
+        (Closes September 21)</a>
+      sponsor: ""
     - title: <a href="https://linuxfoundation.regfox.com/openinfra-day-north-america"
         target="_blank">OpenInfra Day North America</a>
       date: November 17, 2026

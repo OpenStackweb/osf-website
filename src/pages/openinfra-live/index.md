@@ -21,7 +21,6 @@ episodes:
       systems at scale. Rather than solving old problems presenting as new, AI
       teams may find that many of the answers already exist in the tools and
       practices that have powered open source software delivery for years.
-    applePodcastsLink: https://podcasts.apple.com/us/podcast/openinfra-live/id6788132895?i=1000778716802
     hidden: false
     date: 2026-06-11T14:00:00.000Z
     episodeSpeakers: |

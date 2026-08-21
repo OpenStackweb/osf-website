@@ -23,6 +23,7 @@
   }
   .logo {
     width: 250px;
+    flex: 0 0 250px;
     object-fit: contain;
     align-self: flex-start;
     margin: 0;
@@ -34,22 +35,72 @@
   .text {
     color: $primary;
     margin-left: 4rem;
+    // Without these the pill row's intrinsic width pushes the flex row
+    // wider than the container and squeezes the logo to nothing.
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
     @media (max-width: 768px) {
       margin-left: 0;
     }
+    // Deliberately NOT a flex container: inline-block shrink-to-fit is
+    // consistent across engines, whereas inline-flex children of a wrapping
+    // flex container get stretched to full width by some browsers.
+    // Note the root font-size on this site is 10px, so 1rem == 10px.
     .platforms {
-      align-items: baseline;
-      margin-top: 2rem;
+      margin-top: 3rem;
       .social-links {
+        display: inline-block;
+        vertical-align: middle;
         white-space: nowrap;
-        margin-right: 2rem;
         text-align: left;
-        font-size: 0.9em;
+        font-size: 0.95em;
+        font-weight: 500;
+        margin: 0 1rem 1rem 0;
+        padding: 1rem 1.8rem;
+        border: 1px solid rgba($primary, 0.15);
+        border-radius: 999px;
+        background: $white;
+        box-shadow: 0 1px 2px rgba($primary, 0.06);
+        transition: background 0.2s ease, color 0.2s ease,
+          border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+        .social-icon {
+          display: inline-block;
+          vertical-align: middle;
+          // Explicit width, not max-width: youtube.svg declares only a
+          // viewBox, so with max-width it contributes nothing to the pill's
+          // shrink-to-fit width but still paints 22px wide, and the label
+          // spills over the border.
+          width: 2.2rem;
+          // Overrides the 1.8rem clamp on the generic .social-icon rule,
+          // which would otherwise win over the width above.
+          max-width: 2.2rem;
+          height: auto;
+          margin-right: 0.8rem;
+          margin-top: -2px;
+        }
+        &:hover,
+        &:focus {
+          background: $primary;
+          border-color: $primary;
+          color: $white;
+          box-shadow: 0 6px 16px rgba($primary, 0.22);
+          transform: translateY(-2px);
+        }
       }
+      // Two per row on mobile. Grid rather than flex or inline-block
+      // percentages: the columns are explicit, so there is no shrink-to-fit
+      // guessing and no inline-whitespace gap to subtract from 50%.
       @media (max-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
         .social-links {
-          margin-right: 0;
-          margin-bottom: 1rem;
+          margin: 0;
+          padding: 1rem 1.2rem;
+          text-align: center;
+          // Labels have to wrap inside a half-width pill.
+          white-space: normal;
         }
       }
     }
@@ -243,7 +294,14 @@
 }
 .schedule-wrapper {
   background: $white;
-  padding: 6rem 0;
+  padding: 3rem 0 6rem;
+}
+.schedule-list:empty {
+  display: none;
+  // No upcoming episodes: don't leave a hole above the ideas banner
+  + .ideas-banner {
+    margin-top: 0;
+  }
 }
 .schedule-list {
   display: flex;

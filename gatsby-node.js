@@ -734,6 +734,10 @@ exports.createSchemaCustomization = ({actions}) => {
     type MarkdownRemarkFrontmatterUpcomingEvents @infer {
       image: File @fileByRelativePath
     }
+    type MarkdownRemarkFrontmatterEpisodes @infer {
+      spotifyLink: String
+      applePodcastsLink: String
+    }
     `
   createTypes(typeDefs)
 }

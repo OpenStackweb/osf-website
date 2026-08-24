@@ -23,7 +23,7 @@ A hallmark of OpenInfra Projects is that they're community maintained, so each p
 #### Reporting a Vulnerability
 
 * [Airship](https://docs.airshipit.org/learn/vulnerabilities.html#report-a-vulnerability)
-* [Kata Containers](https://github.com/kata-containers/community?tab=readme-ov-file#reporting-vulnerabilities)
+* [Kata Containers](https://github.com/kata-containers/kata-containers/blob/main/SECURITY.md#reporting-a-vulnerability)
 * [OpenDev Collaboratory](https://opendev.org/#service-vulnerabilities)
 * [OpenStack](https://security.openstack.org/reporting.html)
 * [StarlingX](https://wiki.openstack.org/wiki/StarlingX/Security#How_to_report_security_issues_to_StarlingX)

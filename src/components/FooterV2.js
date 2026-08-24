@@ -74,6 +74,9 @@ const FooterV2 = class extends React.Component {
                       Open Infrastructure Blueprint
                     </a>
                   </li>
+                  <li>
+                    <a href="/security/">Security</a>
+                  </li>
                 </ul>
               </div>
               <div className="footer-section">

@@ -66,8 +66,8 @@ upcomingDaysEvents:
         <a href="https://linuxfoundation.regfox.com/openinfra-day-north-america"
         target="_blank">Register</a> | <a
         href="https://drive.google.com/file/d/1KyeLJVZbbBEyaP9QnMzSl1Qil56aMIwT/view?usp=sharing"_blank">Sponsor</a>
-        | <a href="https://sessionize.com/OpenInfra2026/">CFP (Closes August 28
-        at 23:59 PT)</a>
+        | <a href="https://sessionize.com/OpenInfra2026/">CFP (Closes September
+        9 at 23:59 PT)</a>
 
       sponsor: ""
 upcomingMeetups:

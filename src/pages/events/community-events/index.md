@@ -29,7 +29,7 @@ footer:
 | **September 11, 2026**  | OpenInfra Community at [CODT](https://cloudopsdays.com/)                                                                                               |
 | **October 22-25, 2026** | OpenInfra track at [Sovereign Cloud Days Germany](https://www.sovereign-cloud-days.eu/en)                                                              |
 | **November 3-4, 2026**  | OpenInfra Track at [ALASCA Summit](https://alasca.cloud/en/alasca-summit-2026/alasca-summit-2026-programme/alasca-summit-2026-call-for-contributions/) |
-| **November 5-6, 2026**  | OpenInfra Day Kenya                                                                                                                                    |
+| **November 6-7, 2026**  | [OpenInfra Day Kenya](https://www.meetup.com/openinfra-user-group-kenya/events/315616588/)                                                             |
 | **November 17, 2026**   | [OpenInfra Day North America](https://linuxfoundation.regfox.com/openinfra-day-north-america)                                                          |
 
 ## [OpenInfra Summit ](/summit)

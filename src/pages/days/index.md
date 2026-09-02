@@ -17,40 +17,6 @@ upcomingDaysEvents:
     img: /img/oi-days-1920x325.11.png
     alt: openinfra-days
   events:
-    - title: <a href="https://2026.vietopeninfra.org/en/" target="_blank">Kubernetes
-        Community Day x OpenInfra Day Vietnam</a>
-      date: July 25, 2026
-      location: Hanoi, Vietnam
-      registration: >
-        <a href="https://ticketbox.vn/kcd-openinfra-days-2026-26115"
-        target="_blank">Register</a> | <a
-        href="https://2026.vietopeninfra.org/en/#sponsors">Sponsor</a>
-      sponsor: ""
-    - title: >
-        <a
-        href="https://www.meetup.com/openstack-nigeria-user-group/events/315706846/"_blank">OpenInfra
-        Days Nigeria</a>
-      date: August 29, 2026
-      location: Jalingo, Nigeria
-      registration: >
-        <a
-        href="https://www.meetup.com/openstack-nigeria-user-group/events/315706846/">Learn
-        More</a>
-      sponsor: ""
-    - title: <a
-        href="https://community2.cncf.io/events/details/cncf-kcd-south-korea-presents-kcd-x-ceph-x-openinfra-day-korea-2026/"
-        target="_blank">KCD x Ceph x OpenInfra Day Korea</a>
-      date: September 1, 2026
-      location: Seoul, South Korea
-      registration: >+
-        <a
-        href="https://community2.cncf.io/events/details/cncf-kcd-south-korea-presents-kcd-x-ceph-x-openinfra-day-korea-2026/"
-        target="_blank">Register</a> | <a
-        href="https://drive.google.com/file/d/1bU6MZvdkwUck5SyvxltGh724CnBgkwsP/view?usp=drive_link"
-        target="_blank">Sponsor</a>
-
-
-
     - title: <a
         href="https://www.meetup.com/openinfra-user-group-kenya/events/315616588/">OpenInfra
         Day Kenya</a>
@@ -72,6 +38,30 @@ upcomingDaysEvents:
         9 at 23:59 PT)</a>
 
       sponsor: ""
+    - title: <a href="https://2026.vietopeninfra.org/en/" target="_blank">Kubernetes
+        Community Day x OpenInfra Day Vietnam</a>
+      date: July 25, 2026
+      location: Hanoi, Vietnam
+      registration: |
+        EVENT COMPLETED
+      sponsor: ""
+    - title: >
+        <a
+        href="https://www.meetup.com/openstack-nigeria-user-group/events/315706846/"_blank">OpenInfra
+        Days Nigeria</a>
+      date: August 29, 2026
+      location: Jalingo, Nigeria
+      registration: |
+        EVENT COMPLETED
+      sponsor: ""
+    - title: <a
+        href="https://community2.cncf.io/events/details/cncf-kcd-south-korea-presents-kcd-x-ceph-x-openinfra-day-korea-2026/"
+        target="_blank">KCD x Ceph x OpenInfra Day Korea</a>
+      date: September 1, 2026
+      location: Seoul, South Korea
+      registration: |+
+        EVENT COMPLETED
+
 upcomingMeetups:
   title: OpenInfra Community Events
   banner:

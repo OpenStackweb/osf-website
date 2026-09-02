@@ -52,7 +52,7 @@ upcomingDaysEvents:
 
 
     - title: OpenInfra Day Kenya
-      date: November 5 & 6, 2026
+      date: November 6 & 7, 2026
       location: Nairobi, Kenya
       registration: <a
         href="https://cfp.openinfra-ke.org/openinfra-days-kenya-2026/cfp">CFP

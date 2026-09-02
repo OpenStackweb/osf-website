@@ -77,10 +77,6 @@ upcomingMeetups:
       text: SIGN UP TO BE NOTIFIED
       url: https://openinfrafoundation.formstack.com/forms/2026_openinfra_events_updates
   meetups:
-    - background: /img/openstack.jpg
-      link: https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/
-      date: July 29-30, 2026
-      location: Booth at KubeCon Japan
     - location: " Cloud Operator Days Tokyo"
       link: https://cloudopsdays.com/
       date: August-September 2026
@@ -109,6 +105,10 @@ upcomingMeetups:
       location: Project Teams Gathering
       link: https://openinfra.org/ptg/
       background: /img/oif-ptg-h1-2026.jpg
+    - background: /img/openstackjp-closed.jpg
+      link: https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/
+      date: July 29-30, 2026
+      location: Booth at KubeCon Japan
 pastMeetups:
   title: Past Openinfra Days
   meetups:

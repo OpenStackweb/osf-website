@@ -35,7 +35,7 @@ upcomingDaysEvents:
         target="_blank">Register</a> | <a
         href="https://drive.google.com/file/d/1KyeLJVZbbBEyaP9QnMzSl1Qil56aMIwT/view?usp=sharing"_blank">Sponsor</a>
         | <a href="https://sessionize.com/OpenInfra2026/">CFP (Closes September
-        9 at 23:59 PT)</a>
+        9)</a>
 
       sponsor: ""
     - title: <a href="https://2026.vietopeninfra.org/en/" target="_blank">Kubernetes

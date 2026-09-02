@@ -23,6 +23,8 @@ upcomingDaysEvents:
       date: November 6 & 7, 2026
       location: Nairobi, Kenya
       registration: <a
+        href="https://www.meetup.com/openinfra-user-group-kenya/events/315616588/?eventOrigin=network_page">Register</a>
+        | <a
         href="https://cfp.openinfra-ke.org/openinfra-days-kenya-2026/cfp">CFP
         (Closes September 21)</a>
       sponsor: ""

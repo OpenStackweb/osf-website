@@ -6,14 +6,14 @@ date: 2026-08-31T17:48:39.434Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: "Inside Open Infrastructure: August 2026"
   description: The latest from the OpenInfra Foundation
   url: https://openinfra.org/blog/openinfra-newsletter-august-2026
   twitterUsername: "@OpenInfraDev"
 ---
-Early this month, OpenDev’s Gerrit review system logged change number 1,000,000: a six-line patch to Zuul from Jim Blair, the CI/CD platform’s founder. The twist: Blair also filed change number 1, back in December 2012. Nearly 14 years and 999,999 changes later, he marked the one-millionth-commit milestone on the very system he helped build from its first commit.
+Early this month, OpenDev’s Gerrit review system logged change number 1,000,000: a six-line patch to Zuul from Jim Blair, the CI/CD platform’s founder. The twist: Blair also filed change number 1, back in December 2012. Nearly 15 years and 999,999 changes later, he marked the one-millionth-commit milestone on the very system he helped build from its first commit.
 
 The milestone is a good occasion to look at what OpenDev actually does: the free, open source collaboratory behind OpenStack, Zuul, Kata Containers, StarlingX and hundreds of smaller projects, where even changes to the servers themselves go through the same reviewed, gated workflow as any code contribution. Blair, Clark Boylan and Jeremy Stanley, the maintainers who keep it running, explain why that model still holds up against GitHub, GitLab and the rise of AI-assisted coding, and how readers can pitch in. 
 

@@ -9,14 +9,14 @@ const COLORS = [
   "#28a4db"
 ];
 
-const MoreEventsSection = ({ title, events }) => {
+const MoreEventsSection = ({ title, events, headingTag: Heading = 'h1' }) => {
   return (
     <section className="more-events-section-wrapper" id="community-events">
       <div className="container">
-        <h1 className="title" dangerouslySetInnerHTML={{ __html: title }} />
-        <div className="more-agenda-list">
+        <Heading className="title" dangerouslySetInnerHTML={{ __html: title }} />
+        <div className="more-agenda-list" role="list">
           {events.map((event, idx) => (
-            <div className="agenda-row" style={{ borderLeftColor: COLORS[idx % 4] }}>
+            <div className="agenda-row" role="listitem" key={`${event.name}-${event.date}`} style={{ borderLeftColor: COLORS[idx % 4] }}>
               <div className="agenda-name">
                 {event.link ?
                   <>

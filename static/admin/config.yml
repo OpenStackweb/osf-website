@@ -617,7 +617,7 @@ collections:
     files:
       - file: "src/pages/events/community-events/index.md"
         label: "Community Events"
-        name: ""
+        name: "community-events"
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "community-events-page" }
           - { label: SEO, name: seo, widget: object, fields: [
@@ -629,6 +629,20 @@ collections:
           ] }
           - { label: "Title", name: title, widget: string }
           - { label: "Sub Title", name: subTitle, widget: string }
+          - label: "Events Schedule"
+            name: eventsSchedule
+            widget: object
+            fields:
+              - { label: "Heading", name: title, widget: string }
+              - label: "Events"
+                name: events
+                widget: list
+                summary: "{{fields.name}} — {{fields.date}}"
+                fields:
+                  - { label: "Event Name", name: name, widget: string }
+                  - { label: "Date", name: date, widget: string }
+                  - { label: "Location", name: location, widget: string }
+                  - { label: "Link", name: link, widget: string, required: false }
           - { label: "Body", name: body, widget: markdown }
           - { label: "Footer", name: footer, widget: object, required: false, fields: [
             { label: "Title", name: title, widget: string, required: false },

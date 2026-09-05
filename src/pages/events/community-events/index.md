@@ -14,23 +14,57 @@ footer:
   display: false
   title: OPENINFRA COMMUNITY EVENTS
   subTitle: ""
+eventsSchedule:
+  title: OpenInfra Events Schedule 2026
+  events:
+    - name: "OpenInfra Day DRC"
+      date: "February 4, 2026"
+      location: "Kinshasa, DRC"
+    - name: "Project Teams Gathering (PTG)"
+      date: "April 20–24, 2026"
+      location: "Virtual"
+      link: "https://openinfra.org/ptg/"
+    - name: "OpenInfra Forum Sweden"
+      date: "May 21, 2026"
+      location: "Sweden"
+      link: "https://www.meetup.com/openinfra-user-group-sweden/events/313615139/"
+    - name: "KCD x OpenInfra Day Vietnam"
+      date: "July 25, 2026"
+      location: "Hanoi, Vietnam"
+      link: "https://2026.vietopeninfra.org/en/"
+    - name: "OpenInfra Day Nigeria"
+      date: "August 29, 2026"
+      location: "Jalingo, Nigeria"
+      link: "https://www.meetup.com/openstack-nigeria-user-group/events/313525373/"
+    - name: "KCD x Ceph x OpenInfra Day Korea"
+      date: "September 1, 2026"
+      location: "Seoul, South Korea"
+      link: "https://community2.cncf.io/events/details/cncf-kcd-south-korea-presents-kcd-x-ceph-x-openinfra-day-korea-2026/"
+    - name: "KubeCon + CloudNativeCon + OpenInfra Summit Asia + PyTorch Conference"
+      date: "September 8–9, 2026"
+      location: "Shanghai, China"
+      link: "https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/"
+    - name: "OpenInfra Community at CODT"
+      date: "September 11, 2026"
+      location: "Tokyo, Japan"
+      link: "https://cloudopsdays.com/"
+    - name: "OpenInfra track at Sovereign Cloud Days Germany"
+      date: "October 22–25, 2026"
+      location: "Saarbrücken, Germany"
+      link: "https://www.sovereign-cloud-days.eu/en"
+    - name: "OpenInfra Track at ALASCA Summit"
+      date: "November 3–4, 2026"
+      location: "Dresden, Germany"
+      link: "https://alasca.cloud/en/alasca-summit-2026/alasca-summit-2026-programme/alasca-summit-2026-call-for-contributions/"
+    - name: "OpenInfra Day Kenya"
+      date: "November 6–7, 2026"
+      location: "Nairobi, Kenya"
+      link: "https://www.meetup.com/openinfra-user-group-kenya/events/315616588/"
+    - name: "OpenInfra Day North America"
+      date: "November 17, 2026"
+      location: "Chicago, IL"
+      link: "https://linuxfoundation.regfox.com/openinfra-day-north-america"
 ---
-### **OpenInfra Events Schedule 2026**
-
-| **Date**                | **Event Name**                                                                                                                                         |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **February 4, 2026**    | OpenInfra Day DRC                                                                                                                                      |
-| **April 20–24, 2026**   | [Project Teams Gathering (PTG)](https://openinfra.org/ptg/)                                                                                            |
-| **May 21, 2026**        | [OpenInfra Forum Sweden](https://www.meetup.com/openinfra-user-group-sweden/events/313615139/)                                                         |
-| **July 25, 2026**       | [KCD x OpenInfra Day Vietnam](https://2026.vietopeninfra.org/en/)                                                                                      |
-| **August 29, 2026**     | [OpenInfra Day Nigeria](https://www.meetup.com/openstack-nigeria-user-group/events/313525373/)                                                         |
-| **September 1, 2026**   | [KCD x Ceph x OpenInfra Day Korea](https://community2.cncf.io/events/details/cncf-kcd-south-korea-presents-kcd-x-ceph-x-openinfra-day-korea-2026/)     |
-| **September 8–9, 2026** | [KubeCon + CloudNativeCon + OpenInfra Summit Asia + PyTorch Conference](https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/)      |
-| **September 11, 2026**  | OpenInfra Community at [CODT](https://cloudopsdays.com/)                                                                                               |
-| **October 22-25, 2026** | OpenInfra track at [Sovereign Cloud Days Germany](https://www.sovereign-cloud-days.eu/en)                                                              |
-| **November 3-4, 2026**  | OpenInfra Track at [ALASCA Summit](https://alasca.cloud/en/alasca-summit-2026/alasca-summit-2026-programme/alasca-summit-2026-call-for-contributions/) |
-| **November 6-7, 2026**  | [OpenInfra Day Kenya](https://www.meetup.com/openinfra-user-group-kenya/events/315616588/)                                                             |
-| **November 17, 2026**   | [OpenInfra Day North America](https://linuxfoundation.regfox.com/openinfra-day-north-america)                                                          |
 
 ## [OpenInfra Summit ](/summit)
 

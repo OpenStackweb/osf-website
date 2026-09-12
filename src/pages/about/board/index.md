@@ -366,6 +366,6 @@ members:
       OpenInfra Community and a product developer.
     linkedin: https://au.linkedin.com/in/tbreeds
     openStack: https://openinfra.org/a/community/members/24399
-    title: Senior Storage Production Engineer
+    title: Individual Director
     company: NVIDIA
 ---

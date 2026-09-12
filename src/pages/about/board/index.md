@@ -349,4 +349,23 @@ members:
 
       By fostering OpenStack at it’s early days in 2011, it has helped improve the project and our service as a whole. I’ve been a contributor to the project since and I have contributed code to almost every release of OpenStack since then.  I've also served as PTL for Puppet OpenStack, continue to serve as a PTL for OpenStack-Ansible and serve on the technical committee, chairing the committee for a term.
     linkedin: http://linkedin.com/in/mdnaser
+  - name: Tony Breeds
+    picture: /img/1000026160.jpg
+    description: Tony discovered Linux in 1994 and hasn't looked back.  His entire
+      professional career has been spent working on or with Linux.  Tony's first
+      role was as a Systems administrator and Network Engineer at a small
+      Internet Service Provider.  During his 10 years there the customer base
+      grew from "10s" to "1000s".  Tony's next role was with the public service
+      where he was responsible for the maintenance and availability of several
+      national health services.  Tony then received a Masters degree from the
+      Australian National University before joining IBM's Linux Technology
+      Centre - OzLabs as a kernel engineer.  In 2013 Tony was first exposed to
+      OpenStack and quickly ported it to the, at the time, unreleased OpenPower
+      platform. Since then Tony has been employed, first by Rackspace and then
+      by Red Hat to work on OpenStack full time both as a member of the
+      OpenInfra Community and a product developer.
+    linkedin: https://au.linkedin.com/in/tbreeds
+    openStack: https://openinfra.org/a/community/members/24399
+    title: Senior Storage Production Engineer
+    company: NVIDIA
 ---

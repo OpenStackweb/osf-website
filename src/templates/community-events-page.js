@@ -9,6 +9,7 @@ import NavbarV2 from '../components/NavbarV2';
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
 import CommunityEventsSubNav from '../components/CommunityEventsSubNav'
+import MoreEventsSection from '../components/MoreEventsSection'
 
 import { connect } from "react-redux";
 
@@ -17,6 +18,7 @@ export const CommunityEventsPageTemplate = ({
   title,
   subTitle,
   footer,
+  eventsSchedule,
   content,
   contentComponent
 }) => {
@@ -37,6 +39,15 @@ export const CommunityEventsPageTemplate = ({
             <div className="container about-s1-container">
               <div className="columns">
                 <div className="column community-events-wrapper">
+                  {eventsSchedule && eventsSchedule.events && eventsSchedule.events.length > 0 && (
+                    <div className="community-events-schedule">
+                      <MoreEventsSection
+                        title={eventsSchedule.title}
+                        events={eventsSchedule.events}
+                        headingTag="h2"
+                      />
+                    </div>
+                  )}
                   <PageContent content={content} />
                 </div>
               </div>
@@ -73,6 +84,15 @@ CommunityEventsPageTemplate.propTypes = {
   title: PropTypes.string,
   subTitle: PropTypes.string,
   footer: PropTypes.object,
+  eventsSchedule: PropTypes.shape({
+    title: PropTypes.string,
+    events: PropTypes.arrayOf(PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      date: PropTypes.string.isRequired,
+      location: PropTypes.string,
+      link: PropTypes.string,
+    })),
+  }),
 }
 
 const CommunityEventsPage = ({ isLoggedUser, data }) => {
@@ -87,6 +107,7 @@ const CommunityEventsPage = ({ isLoggedUser, data }) => {
         title={post.frontmatter.title}
         subTitle={post.frontmatter.subTitle}
         footer={post.frontmatter.footer}
+        eventsSchedule={post.frontmatter.eventsSchedule}
         content={post.html}
       />
     </Layout>
@@ -122,6 +143,15 @@ export const communityEventsPageQuery = graphql`
         }
         title
         subTitle
+        eventsSchedule {
+          title
+          events {
+            name
+            date
+            location
+            link
+          }
+        }
         footer {
           title
           subTitle

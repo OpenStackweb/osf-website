@@ -10,6 +10,8 @@ public/
 static/admin/*.bundle.*
 .idea/
 .env.*
+# Production configuration reference: never commit or use for local CMS writes.
+.env.prod.secret
 .env
 src/content/events.json
 src/content/summit.json

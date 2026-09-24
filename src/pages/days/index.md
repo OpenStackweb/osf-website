@@ -75,10 +75,6 @@ upcomingMeetups:
       text: SIGN UP TO BE NOTIFIED
       url: https://openinfrafoundation.formstack.com/forms/2026_openinfra_events_updates
   meetups:
-    - location: " Cloud Operator Days Tokyo"
-      link: https://cloudopsdays.com/
-      date: August-September 2026
-      background: /img/oif-2-codt.jpg
     - background: /img/oif-ptg-h2-2026.jpg
       location: Project Teams Gathering
       link: https://openinfra.org/ptg/
@@ -91,6 +87,10 @@ upcomingMeetups:
       link: https://alasca.cloud/en/alasca-summit-2026/alasca-summit-2026-programme/alasca-summit-2026-call-for-contributions/
       background: /img/oif-alasca.jpg
       date: November 3-4, 2026
+    - location: " Cloud Operator Days Tokyo"
+      link: https://cloudopsdays.com/
+      date: August-September 2026
+      background: /img/oif-2-codt-1-.jpg
     - background: /img/oif-2-india-1-.jpg
       location: Booth at KubeCon India
       date: June 18-19, 2026

@@ -22,13 +22,11 @@ upcomingDaysEvents:
         Day Kenya</a>
       date: November 6 & 7, 2026
       location: Nairobi, Kenya
-      registration: <a
+      registration: '<a
         href="https://www.meetup.com/openinfra-user-group-kenya/events/315616588/?eventOrigin=network_page">RSVP</a>  |
         <a
         href="https://drive.google.com/file/d/1bM_9ulQpLWYHJznqDhQpSky0aDONUMO9/view?usp=sharing">Sponsor</a>
-        | <a
-        href="https://cfp.openinfra-ke.org/openinfra-days-kenya-2026/cfp">CFP
-        (Closes September 21)</a>
+        '
       sponsor: ""
     - title: <a href="https://linuxfoundation.regfox.com/openinfra-day-north-america"
         target="_blank">OpenInfra Day North America</a>
@@ -38,8 +36,6 @@ upcomingDaysEvents:
         <a href="https://linuxfoundation.regfox.com/openinfra-day-north-america"
         target="_blank">Register</a> | <a
         href="https://drive.google.com/file/d/1KyeLJVZbbBEyaP9QnMzSl1Qil56aMIwT/view?usp=sharing"_blank">Sponsor</a>
-        | <a href="https://sessionize.com/OpenInfra2026/">CFP (Closes September
-        9)</a>
 
       sponsor: ""
     - title: <a href="https://2026.vietopeninfra.org/en/" target="_blank">Kubernetes

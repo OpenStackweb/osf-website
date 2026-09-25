@@ -68,8 +68,7 @@ projectList:
         text: Technical Committee
       - link: https://www.openstack.org/user-survey/survey-2022/landing
         text: User Survey
-    description:
-      "OpenStack is an open source software project for creating private
+    description: "OpenStack is an open source software project for creating private
       and public clouds, powering 75 public cloud data centers and thousands of
       private clouds at a scale of more than 15 million physical cores
       worldwide. Since launching in 2012, OpenStack has become one of the top 3
@@ -88,8 +87,7 @@ projectList:
       text: starlingx.io
     class: projects-s4
     title: STARLINGX
-    subTitle:
-      Edge cloud computing infrastructure for high performance, ultra-low
+    subTitle: Edge cloud computing infrastructure for high performance, ultra-low
       latency applications.
     links:
       - link: http://lists.starlingx.io/
@@ -104,8 +102,7 @@ projectList:
         text: Code
       - link: https://openinfrafoundation.formstack.com/forms/starlingx_user_survey
         text: User Survey
-    description:
-      "StarlingX is a complete cloud infrastructure software stack for
+    description: "StarlingX is a complete cloud infrastructure software stack for
       the edge used  by the most demanding applications in industrial IoT,
       telecom, and other use  cases. Based on mature production software
       deployed in mission critical applications, newly open sourced StarlingX
@@ -144,29 +141,6 @@ projectList:
       - icon: /img/home/icon2.svg
         text: CI/CD
     category: confirmed
-  - logo: /img/projects-img/edge-group-logo.svg
-    button:
-      link: https://www.openstack.org/use-cases/edge-computing/next-generation-edge-edge-computing-architectures-for-artificial-intelligence-and-machine-learning-use-cases
-      text: Next Generation Edge
-    class: projects-s5
-    title: Edge Computing Group
-    subTitle: "Cloud Edge Computing: Beyond the Data Center"
-    links:
-      - link: https://lists.opendev.org/mailman3/lists/edge-computing.lists.opendev.org/
-        text: Mailing List
-      - link: https://zoom-lfx.platform.linuxfoundation.org/meetings/openinfra-foundation?view=week&committee=ac7d832b-36f3-491e-abf7-a1d236208a61
-        text: Weekly Meetings
-      - link: https://www.openstack.org/edge-computing/cloud-edge-computing-beyond-the-data-center?lang=en_US
-        text: "Cloud Edge Computing: Beyond the Data Center White Paper"
-    description:
-      The Edge Computing Group is a working group comprised of architects
-      and engineers across large enterprises, telecoms and technology vendors
-      working to define and advance edge cloud computing. The focus is open
-      infrastructure technologies, not exclusive to OpenStack.
-    features:
-      - icon: /img/icon1.svg
-        text: EDGE COMPUTING
-    category: working-groups
   - logo: /img/projects-img/CFN-logo.jpeg
     button:
       link: https://youtu.be/hzmoQUYqt3s
@@ -183,8 +157,7 @@ projectList:
       - link: https://youtu.be/hzmoQUYqt3s
         text: Connectivity, Computing and Capability - the New Era of Digital
           Infrastructure
-    description:
-      The Computing Force Network working group is aiming to formulate
+    description: The Computing Force Network working group is aiming to formulate
       solutions for common challenges with using related technologies, promoting
       technical implementations, and gradually building the next generation of
       open infrastructure.
@@ -202,8 +175,11 @@ projectList:
     links:
       - link: https://openinfrafoundation.formstack.com/forms/digital_sovereignty_wg_interest_form
         text: Get involved
-    description:
-      The OpenInfra Digital Sovereignty Working Group meets regularly to collaborate on guiding resources in the space and how to leverage OpenInfra technologies, surface new regulations that are being leveled globally shaping the future of digital sovereignty, discuss case studies and share perspectives from different regions around the world.
+    description: The OpenInfra Digital Sovereignty Working Group meets regularly to
+      collaborate on guiding resources in the space and how to leverage
+      OpenInfra technologies, surface new regulations that are being leveled
+      globally shaping the future of digital sovereignty, discuss case studies
+      and share perspectives from different regions around the world.
     features:
       - icon: /img/home/icon1.svg
         text: DIGITAL SOVEREIGNTY
@@ -215,8 +191,15 @@ projectList:
     logo: /img/projects-img/ai-wg-logo.svg
     title: OpenInfra for AI Working Group
     subTitle: Leveraging OpenInfra projects to power AI workloads.
-    description:
-      The OpenInfra for AI Working Group is focused on surfacing how OpenInfra projects can be leveraged to support the growing proliferation of AI workloads. This ranges from promotion of case studies from OpenInfra users and operators to the OpenStack for AI Whitepaper which focused on OpenStack usage. As AI continues to grow and scale the infrastructure compute and storage requirements, this group will continue to collaborate on resources to showcase just how OpenInfra can support it. Keep an eye on mailing lists you’re subscribed to (Kata Containers, OpenStack, StarlingX, or Zuul) for upcoming opportunities!
+    description: The OpenInfra for AI Working Group is focused on surfacing how
+      OpenInfra projects can be leveraged to support the growing proliferation
+      of AI workloads. This ranges from promotion of case studies from OpenInfra
+      users and operators to the OpenStack for AI Whitepaper which focused on
+      OpenStack usage. As AI continues to grow and scale the infrastructure
+      compute and storage requirements, this group will continue to collaborate
+      on resources to showcase just how OpenInfra can support it. Keep an eye on
+      mailing lists you’re subscribed to (Kata Containers, OpenStack, StarlingX,
+      or Zuul) for upcoming opportunities!
     category: working-groups
   - class: projects-s6
     title: VMware Migration Working Group
@@ -225,7 +208,17 @@ projectList:
     button:
       link: https://www.openstack.org/vmware-migration-to-openstack/vmware-to-openstack-migration-guide
       text: Learn More
-    description:
-      The OpenStack VMware Migration Working Group is a cross-community initiative within the OpenInfra Foundation that helps organizations transition from proprietary VMware environments to open, vendor-neutral infrastructure built on OpenStack. As licensing costs increase and digital sovereignty becomes a priority, the group brings together operators, vendors, and contributors to share proven migration patterns, reference architectures, and tooling that reduce risk and accelerate adoption. By addressing challenges such as workload portability, networking and storage parity, operational continuity, and skills transition, the working group provides a clear, actionable path for enterprises and service providers to modernize their infrastructure, and unlock greater control, transparency, and long-term ROI through open source infrastructure.
+    description: The OpenStack VMware Migration Working Group is a cross-community
+      initiative within the OpenInfra Foundation that helps organizations
+      transition from proprietary VMware environments to open, vendor-neutral
+      infrastructure built on OpenStack. As licensing costs increase and digital
+      sovereignty becomes a priority, the group brings together operators,
+      vendors, and contributors to share proven migration patterns, reference
+      architectures, and tooling that reduce risk and accelerate adoption. By
+      addressing challenges such as workload portability, networking and storage
+      parity, operational continuity, and skills transition, the working group
+      provides a clear, actionable path for enterprises and service providers to
+      modernize their infrastructure, and unlock greater control, transparency,
+      and long-term ROI through open source infrastructure.
     category: working-groups
 ---

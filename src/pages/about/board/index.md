@@ -368,4 +368,23 @@ members:
     openStack: https://openinfra.org/a/community/members/24399
     title: Individual Director
     company: NVIDIA
+  - name: Wei Meng
+    picture: /img/meng-wei.jpg
+    title: Gold Director
+    company: ZTE
+    description: >-
+      Meng Wei, Head of Open Source Strategy Team at ZTE Corporation. Since
+      2016, he has led ZTE’s pre‑research work in telecom‑cloud networks, AI and
+      other fields. His research focuses on cloud virtualization, AI and 5G. In
+      2018, he was elected Chairperson of ML5G WG3 (Machine‑Learning‑applied 5G
+      Network Architecture Group) of the International Telecommunication Union.
+      In the same year, he took office as Deputy Group Leader of the General
+      Group of AI Industry Alliance and Board Member of Linux Foundation AI &
+      Data. He was consecutively elected Chairperson of the LF AI & Data
+      Governing Board in 2023 and 2024.
+
+
+      Mr. Meng has served as PTL for the OpenDaylight project and mentor for the Adlik/Co-sight project. He has driven the initiation and release of multiple international standards within IETF and ITU‑T covering AI and network function virtualization. Additionally, he holds more than 30 granted Chinese and international patents as the first‑named inventor.
+    openStack: "#"
+    linkedin: https://www.linkedin.com/in/wei-meng-linux/
 ---

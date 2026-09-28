@@ -14,6 +14,15 @@ hero:
     our <strong>Select Live Broadcasts</strong> on YouTube & LinkedIn, or
     catchup by streaming the <strong>Podcast</strong> on Spotify & Apple Music."
 episodes:
+  - hidden: false
+    date: 2026-10-01T14:00:52.677Z
+    episodeTitle: OpenStack 2026.2 Hibiscus
+    episodeDescription: Join us for an OpenInfra Live exploring what’s new in
+      OpenStack 2026.2 Hibiscus, from stronger security and hardware enablement
+      to the capabilities powering the next generation of AI and cloud
+      infrastructure.
+    youtubeLink: https://www.youtube.com/watch?v=37p9C0n0LLw
+    youtubeEmbed: https://www.youtube.com/embed/37p9C0n0LLw?si=inIRGM7cTuTgkxYx
   - episodeDescription: In this OpenInfra Live episode, Zuul maintainers and users
       will explore how the principles behind Zuul's architecture map directly to
       today's AI workflows, why trusted automation matters more than ever, and
@@ -21,6 +30,7 @@ episodes:
       systems at scale. Rather than solving old problems presenting as new, AI
       teams may find that many of the answers already exist in the tools and
       practices that have powered open source software delivery for years.
+    applePodcastsLink: https://podcasts.apple.com/us/podcast/openinfra-live/id6788132895?i=1000778716802
     hidden: false
     date: 2026-06-11T14:00:00.000Z
     episodeSpeakers: |
@@ -28,9 +38,8 @@ episodes:
       Monty Taylor
       James Blair, Acme Gating 
       Johannes Foufas, Volvo Cars 
-    youtubeEmbed: https://www.youtube.com/embed/b_Q_Hp6-QPQ?si=inIRGM7cTuTgkxYx
     spotifyLink: https://open.spotify.com/episode/38ovhwjApaxJLhpGo1XySr
-    applePodcastsLink: https://podcasts.apple.com/us/podcast/openinfra-live/id6788132895?i=1000778716802
+    youtubeEmbed: https://www.youtube.com/embed/b_Q_Hp6-QPQ?si=inIRGM7cTuTgkxYx
     linkedinLink: https://www.linkedin.com/feed/update/urn:li:ugcPost:7467617280126980097/
     episodeTitle: The AI Challenges Zuul Already Solved
     youtubeLink: https://www.youtube.com/watch?v=b_Q_Hp6-QPQ

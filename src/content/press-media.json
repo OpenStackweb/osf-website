@@ -3,6 +3,14 @@
     {
       "featured": false,
       "hideArticle": false,
+      "date": "2026-09-30T16:23:52.061Z",
+      "title": "OpenStack Hibiscus adds DNS security features and confidential computing to the open-source cloud platform",
+      "site": "Network World",
+      "link": "https://www.networkworld.com/article/4228863/openstack-hibiscus-adds-dns-security-features-and-confidential-computing-to-the-open-source-cloud-platform.html"
+    },
+    {
+      "featured": false,
+      "hideArticle": false,
       "date": "2026-05-05T16:55:11.940Z",
       "title": "StarlingX 12.0 is right on time for mixed-hardware edge deployments",
       "link": "https://www.networkworld.com/article/4166545/starlingx-12-0-is-right-on-time-for-mixed-hardware-edge-deployments.html",

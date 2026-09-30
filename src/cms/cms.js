@@ -26,6 +26,7 @@ import ContributorsPagePreview from './preview-templates/ContributorsPagePreview
 import AnnualReportPagePreview from './preview-templates/AnnualReportPagePreview'
 import SummitLandingPagePreview from './preview-templates/SummitLandingPagePreview'
 import OpenInfraDaysPagePreview from './preview-templates/OpenInfraDaysPagePreview'
+import CommunityEventsPagePreview from './preview-templates/CommunityEventsPagePreview'
 
 CMS.registerPreviewStyle('style/styles.scss');
 CMS.registerPreviewStyle('style/previews.css');
@@ -58,3 +59,4 @@ CMS.registerPreviewTemplate('contributors-pages', ContributorsPagePreview)
 CMS.registerPreviewTemplate('annual-report-pages', AnnualReportPagePreview)
 CMS.registerPreviewTemplate('summit-landing-page', SummitLandingPagePreview)
 CMS.registerPreviewTemplate('openinfra-days', OpenInfraDaysPagePreview)
+CMS.registerPreviewTemplate('community-events', CommunityEventsPagePreview)

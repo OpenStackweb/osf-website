@@ -93,6 +93,13 @@
     &:nth-of-type(even) {
       background-color: #f7f7f7;
     }
+
+    /* Always white, whichever side of the alternation it lands on: sponsor
+       logos are supplied by third parties and some carry an opaque white
+       background, which shows as a visible box on a tinted section. */
+    &.event-sponsors {
+      background-color: #ffffff;
+    }
   }
 
   .event-section-title {
@@ -267,13 +274,21 @@
   }
 
   .event-sponsor {
-    /* An explicit height keeps SVG logos that carry only a viewBox (and so have
-       no intrinsic size) from collapsing to 0x0. */
+    /* A uniform height renders every logo at the same optical size, so long as
+       each source file is cropped tight to its artwork — transparent padding
+       baked into a logo makes it render smaller than its neighbours. The
+       explicit height also keeps SVG logos that carry only a viewBox (and so
+       have no intrinsic size) from collapsing to 0x0. */
     img {
       width: auto;
-      height: 48px;
-      max-width: 200px;
+      height: 36px;
+      max-width: 100%;
       object-fit: contain;
+
+      @media (min-width: $screen-md-min) {
+        height: 44px;
+        max-width: 260px;
+      }
     }
   }
 

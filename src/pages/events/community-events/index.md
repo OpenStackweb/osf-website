@@ -63,7 +63,7 @@ eventsSchedule:
     - name: "OpenInfra Day North America"
       date: "November 17, 2026"
       location: "Chicago, IL"
-      link: "https://linuxfoundation.regfox.com/openinfra-day-north-america"
+      link: "/days/northamerica"
 ---
 
 ## [OpenInfra Summit ](/summit)

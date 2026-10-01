@@ -3,8 +3,6 @@ import { SSRWrapper } from "./src/state/ReduxWrapper"
 export const wrapRootElement = SSRWrapper;
 
 import { JSDOM } from 'jsdom'
-import { Blob } from 'blob-polyfill';
-import { XMLHttpRequest } from 'xmlhttprequest';
 
 // see https://github.com/jsdom/jsdom/issues/2308
 global.dom = new JSDOM(`...`,{ url: "http://localhost"});
@@ -20,6 +18,11 @@ global.window.matchMedia = function () {
     }
 }
 
+
+// Required lazily: these modules touch `document` at module scope, so they must
+// not be hoisted above the JSDOM globals set up above.
+const { Blob } = require('blob-polyfill');
+const { XMLHttpRequest } = require('xmlhttprequest');
 
 global.Blob = Blob
 global.XMLHttpRequest = XMLHttpRequest

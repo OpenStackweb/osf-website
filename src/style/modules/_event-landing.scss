@@ -1,0 +1,309 @@
+/* ------------------------------------------------------------ *\
+	Event landing page (templateKey: event-landing-page)
+\* ------------------------------------------------------------ */
+
+.event-landing {
+  $event-red: #e61e24;
+  $event-dark: #161616;
+  $event-muted: #5a5a5a;
+
+  background-color: #ffffff;
+
+  .container {
+    max-width: $container-max-width;
+    margin: 0 auto;
+    padding: 0 $container-gutter;
+  }
+
+  /* Hero ----------------------------------------------------- */
+
+  .event-hero-banner {
+    line-height: 0;
+    background-color: $event-dark;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .event-hero-body {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .event-hero-title {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.15;
+    color: $event-dark;
+    margin: 0 0 16px;
+
+    @media (min-width: $screen-md-min) {
+      font-size: 44px;
+    }
+  }
+
+  .event-hero-meta {
+    font-family: "Jura", "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: $event-dark;
+    margin: 0 0 8px;
+
+    @media (min-width: $screen-md-min) {
+      font-size: 20px;
+    }
+  }
+
+  .event-hero-icon {
+    width: 18px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: -3px;
+  }
+
+  .event-hero-note {
+    font-size: 15px;
+    font-style: italic;
+    color: $event-muted;
+    margin: 0;
+  }
+
+  .event-hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 28px;
+  }
+
+  /* Shared section shell ------------------------------------- */
+
+  .event-section {
+    padding: 36px 0;
+
+    @media (min-width: $screen-md-min) {
+      padding: 48px 0;
+    }
+
+    &:nth-of-type(even) {
+      background-color: #f7f7f7;
+    }
+  }
+
+  .event-section-title {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: $event-dark;
+    margin: 0 0 20px;
+
+    @media (min-width: $screen-md-min) {
+      font-size: 32px;
+    }
+  }
+
+  p,
+  li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+  }
+
+  /* About ---------------------------------------------------- */
+
+  .event-about-body {
+    max-width: $container-thin-max-width;
+
+    a {
+      color: $event-red;
+      text-decoration: underline;
+    }
+  }
+
+  /* Tracks --------------------------------------------------- */
+
+  .event-tracks-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+    @media (min-width: $screen-md-min) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px 40px;
+    }
+  }
+
+  .event-track {
+    border-left: 4px solid $event-red;
+    padding-left: 16px;
+  }
+
+  .event-track-title {
+    display: block;
+    font-weight: 700;
+    font-size: 17px;
+    color: $event-dark;
+    margin-bottom: 4px;
+  }
+
+  .event-track-description {
+    display: block;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+  }
+
+  /* Schedule ------------------------------------------------- */
+
+  .event-schedule-embed {
+    overflow-x: auto;
+  }
+
+  /* Venue ---------------------------------------------------- */
+
+  .event-venue-name {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 0 6px;
+  }
+
+  .event-venue-address {
+    margin: 0 0 12px;
+  }
+
+  .event-venue-icon {
+    width: 18px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: -3px;
+  }
+
+  .event-venue-description {
+    max-width: $container-thin-max-width;
+    margin: 0;
+  }
+
+  /* Passes --------------------------------------------------- */
+
+  .event-passes-list {
+    list-style: none;
+    margin: 0 0 28px;
+    padding: 0;
+  }
+
+  .event-pass {
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .event-pass-label {
+    font-weight: 700;
+    color: $event-dark;
+
+    &:after {
+      content: ":";
+    }
+  }
+
+  .event-pass-price {
+    margin-left: 8px;
+    color: $event-red;
+    font-weight: 700;
+  }
+
+  .event-pass-note {
+    display: block;
+    font-size: 14px;
+    color: $event-muted;
+
+    @media (min-width: $screen-md-min) {
+      display: inline;
+      margin-left: 8px;
+    }
+  }
+
+  /* Sponsors ------------------------------------------------- */
+
+  .event-sponsors {
+    text-align: center;
+  }
+
+  .event-sponsor-tier {
+    margin-bottom: 36px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .event-sponsor-tier-name {
+    font-family: "Jura", "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $event-muted;
+    margin: 0 0 20px;
+  }
+
+  .event-sponsor-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px 48px;
+  }
+
+  .event-sponsor {
+    /* An explicit height keeps SVG logos that carry only a viewBox (and so have
+       no intrinsic size) from collapsing to 0x0. */
+    img {
+      width: auto;
+      height: 48px;
+      max-width: 200px;
+      object-fit: contain;
+    }
+  }
+
+  .event-sponsor-name {
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  /* CTA buttons ---------------------------------------------- */
+
+  .event-button {
+    background-color: $event-red;
+    display: inline-flex;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Jura", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 40px;
+    padding: 18px 40px;
+    transition: background-color 0.3s;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: $dark-gray-hover;
+    }
+  }
+}

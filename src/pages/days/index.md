@@ -34,6 +34,8 @@ upcomingDaysEvents:
       registration: >+
         <a href="https://linuxfoundation.regfox.com/openinfra-day-north-america"
         target="_blank">Register</a> | <a
+        href="https://openinfra-day-northamerica-2026.sessionize.com/">Schedule</a>
+        | <a
         href="https://drive.google.com/file/d/1KyeLJVZbbBEyaP9QnMzSl1Qil56aMIwT/view?usp=sharing"_blank">Sponsor</a>
 
       sponsor: ""

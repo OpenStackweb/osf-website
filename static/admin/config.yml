@@ -651,6 +651,93 @@ collections:
             { label: "Button Text", name: buttonText, widget: string, required: false },
             { label: "Display", name: display, widget: boolean, required: false }
           ] }
+  - name: "event-landing-pages"
+    label: "Event Landing Pages"
+    label_singular: "Event Landing Page"
+    folder: "src/pages/events/"
+    create: true
+    summary: "{{fields.header.title}}"
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "event-landing-page" }
+      - { label: SEO, name: seo, widget: object, fields: [
+        { label: "Title", name: "title", widget: string },
+        { label: "Description", name: "description", widget: string },
+        { label: "Url", name: "url", widget: string, hint: "This sets the page URL. e.g. https://openinfra.org/days/northamerica serves the page at /days/northamerica" },
+        { label: "Image", name: "image", widget: image, required: false },
+        { label: "Twitter Username", name: "twitterUsername", widget: string, required: false },
+      ] }
+      - { label: "Header", name: header, widget: object, fields: [
+        { label: "Display", name: display, widget: boolean, required: false, default: true },
+        { label: "Header Image", name: banner, widget: image, required: false },
+        { label: "Header Image Alt Text", name: bannerAlt, widget: string, required: false },
+        { label: "Title", name: title, widget: string },
+        { label: "Date & Location", name: dateLocation, widget: string, required: false, hint: "e.g. November 17, 2026 | Marriott Marquis — Chicago, IL" },
+        { label: "Note", name: note, widget: string, required: false, hint: "Small italic line under the date, e.g. a nearby event" },
+        { label: "Buttons", name: buttons, widget: list, required: false, fields: [
+          { label: "Text", name: text, widget: string },
+          { label: "Link", name: link, widget: string, required: false },
+          { label: "Display", name: display, widget: boolean, required: false, default: false, hint: "Leave OFF until this link is ready to go live" },
+        ] },
+      ] }
+      - { label: "About", name: about, widget: object, required: false, fields: [
+        { label: "Display", name: display, widget: boolean, required: false, default: true },
+        { label: "Title", name: title, widget: string, required: false },
+        { label: "Body", name: body, widget: text, required: false, hint: "Accepts HTML, e.g. wrap each paragraph in <p>...</p>" },
+      ] }
+      - { label: "Key Tracks", name: tracks, widget: object, required: false, fields: [
+        { label: "Display", name: display, widget: boolean, required: false, default: true },
+        { label: "Title", name: title, widget: string, required: false },
+        { label: "Tracks", name: items, widget: list, required: false, fields: [
+          { label: "Title", name: title, widget: string },
+          { label: "Description", name: description, widget: text, required: false },
+        ] },
+      ] }
+      - { label: "Event Schedule Overview", name: schedule, widget: object, required: false, fields: [
+        { label: "Display", name: display, widget: boolean, required: false, default: false, hint: "Leave OFF until the schedule is ready to launch. While OFF the section is hidden and the embed is never loaded." },
+        { label: "Title", name: title, widget: string, required: false },
+        { label: "Embed Script URL", name: embedUrl, widget: string, required: false, hint: "Sessionize embed URL, e.g. https://sessionize.com/api/v2/XXXXXX/view/GridSmart" },
+      ] }
+      - { label: "Venue & Location", name: venue, widget: object, required: false, fields: [
+        { label: "Display", name: display, widget: boolean, required: false, default: true },
+        { label: "Title", name: title, widget: string, required: false },
+        { label: "Venue Name", name: name, widget: string, required: false },
+        { label: "Address", name: address, widget: string, required: false },
+        { label: "Description", name: description, widget: text, required: false },
+      ] }
+      - { label: "Registration & Passes", name: registration, widget: object, required: false, fields: [
+        { label: "Display", name: display, widget: boolean, required: false, default: true },
+        { label: "Title", name: title, widget: string, required: false },
+        { label: "Passes", name: passes, widget: list, required: false, fields: [
+          { label: "Label", name: label, widget: string },
+          { label: "Price", name: price, widget: string, required: false },
+          { label: "Note", name: note, widget: string, required: false },
+        ] },
+        { label: "Button", name: button, widget: object, required: false, fields: [
+          { label: "Text", name: text, widget: string, required: false },
+          { label: "Link", name: link, widget: string, required: false },
+          { label: "Display", name: display, widget: boolean, required: false, default: true },
+        ] },
+      ] }
+      - { label: "Sponsors", name: sponsors, widget: object, required: false, fields: [
+        { label: "Display", name: display, widget: boolean, required: false, default: true },
+        { label: "Title", name: title, widget: string, required: false },
+        { label: "Tiers", name: tiers, widget: list, required: false, fields: [
+          { label: "Tier Name", name: name, widget: string, hint: "e.g. Headline Sponsors, Coffee Sponsors" },
+          { label: "Sponsors", name: sponsors, widget: list, required: false, fields: [
+            { label: "Name", name: name, widget: string },
+            { label: "Logo", name: logo, widget: image, required: false },
+            { label: "Link", name: url, widget: string, required: false },
+          ] },
+        ] },
+      ] }
+      - { label: "Body", name: body, widget: markdown, required: false, hint: "Optional extra content, shown below the sponsors" }
+      - { label: "Footer", name: footer, widget: object, required: false, fields: [
+        { label: "Title", name: title, widget: string, required: false },
+        { label: "Sub Title", name: subTitle, widget: string, required: false },
+        { label: "Button Link", name: button, widget: string, required: false },
+        { label: "Button Text", name: buttonText, widget: string, required: false },
+        { label: "Display", name: display, widget: boolean, required: false }
+      ] }
   - name: "generic-projects-pages"
     label: "Projects Pages"
     folder: "src/pages/projects/"

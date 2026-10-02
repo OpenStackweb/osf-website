@@ -28,8 +28,7 @@ upcomingDaysEvents:
         href="https://drive.google.com/file/d/1bM_9ulQpLWYHJznqDhQpSky0aDONUMO9/view?usp=sharing">Sponsor</a>
         '
       sponsor: ""
-    - title: <a href="https://linuxfoundation.regfox.com/openinfra-day-north-america"
-        target="_blank">OpenInfra Day North America</a>
+    - title: <a href="/days/northamerica">OpenInfra Day North America</a>
       date: November 17, 2026
       location: Marriott Marquis, Chicago, IL
       registration: >+

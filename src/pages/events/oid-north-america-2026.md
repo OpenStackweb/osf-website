@@ -21,8 +21,8 @@ header:
       link: https://linuxfoundation.regfox.com/openinfra-day-north-america
       display: true
     - text: Schedule
-      link: ""
-      display: false
+      link: https://openinfra-day-northamerica-2026.sessionize.com/
+      display: true
 about:
   display: true
   title: About the Event

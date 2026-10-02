@@ -22,9 +22,7 @@ upcomingDaysEvents:
         Day Kenya</a>
       date: November 6 & 7, 2026
       location: Nairobi, Kenya
-      registration: '<a
-        href="https://www.meetup.com/openinfra-user-group-kenya/events/315616588/?eventOrigin=network_page">RSVP</a>  |
-        <a
+      registration: '<a href="https://zenlipa.co.ke/events/GErIfp">Register</a>  | <a
         href="https://drive.google.com/file/d/1bM_9ulQpLWYHJznqDhQpSky0aDONUMO9/view?usp=sharing">Sponsor</a>
         '
       sponsor: ""

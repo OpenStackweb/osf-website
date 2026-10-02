@@ -300,6 +300,12 @@ module.exports = {
       options: {
         develop: true, // Activates purging in npm run develop
         whitelistPatterns: [/^carousel/, /^projects-s/, /^company-level-/, /^more-recent-single-/, /^fa/, /^logo-/, /^modal/],
+        // Markdown content is not scanned for selectors (PurgeCSS only reads
+        // js/jsx/ts/tsx), so tags that appear solely in markdown -- such as the
+        // numbered lists in legal pages -- must be kept explicitly.
+        purgeCSSOptions: {
+          safelist: { greedy: [/(^|\s)ol($|[\s:.[])/] },
+        },
         purgeOnly: ["/style"], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins

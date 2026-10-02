@@ -6,6 +6,19 @@
 	max-width: 100%;
 	flex: 1 1 100%;
 
+	/* Numbered lists appear only in markdown content, which PurgeCSS does not
+	   scan, so without the "ol" safelist in gatsby-config.js these rules are
+	   purged and the "ol, ul { list-style: none }" reset wins. */
+	ol {
+		list-style: decimal outside;
+		margin-left: 2em;
+		margin-top: 1em;
+
+		li {
+			list-style: decimal outside;
+		}
+	}
+
 	@media (max-width: 767px) {
 		&:not(:last-child),
 		& {

@@ -19,7 +19,7 @@ CNCF, OpenInfra and the PyTorch Foundation recently shared a stage in China for 
 
 The week produced a shared map of the open source AI stack. The PyTorch Foundation stewards the layer that trains and serves models. CNCF stewards the layer that operates and scales the workloads. Beneath both, *OpenInfra provides and controls compute, networking, storage and isolation on the hardware itself.*
 
-![](/img/screenshot-2026-10-05-at-11.59.36 am.png)
+![](/img/screenshot-2026-10-05-at-new.png)
 
 Event sessions are now available on the [OpenInfra Foundation YouTube channel](https://www.youtube.com/playlist?list=PLYUhmBLBlro0). 
 

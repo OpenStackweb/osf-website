@@ -6,7 +6,7 @@ date: 2026-10-06T13:09:38.734Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: "Inside Open Infrastructure: September 2026"
   description: The latest from the OpenInfra Foundation

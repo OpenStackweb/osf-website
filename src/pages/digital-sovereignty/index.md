@@ -91,6 +91,8 @@ members:
 
 <p>Open source projects including OpenStack, Kata Containers, StarlingX, and Zuul, supported by the OpenInfra Foundation, provide the building blocks. Rooted in global communities and neutral governance, open infrastructure brings digital sovereignty within reach.</p>
 
+<p>As AI adoption grows, digital sovereignty extends to control over the data, models and infrastructure used for training and inference. Our AI and Digital Sovereignty working groups are bringing together operators and technology providers to share deployment experience, identify technical gaps and develop practical guidance for Sovereign AI on open infrastructure. Help shape this work by joining the OpenInfra <a href="https://lists.openinfra.org/mailman3/lists/ai-openstack-wg.lists.openinfra.org/">AI Working Group mailing list</a>.</p>
+
 <div style="text-align: center;">
   <a href="https://openinfra.org/best-practices-with-openinfra-for-digital-sovereignty" class="button button-red">Get the Best Practices Guide</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://openinfra.org/openstack-vs-proprietary-clouds-a-digital-sovereignty-comparison-guide" class="button button-red">See the Comparison Guide</a>

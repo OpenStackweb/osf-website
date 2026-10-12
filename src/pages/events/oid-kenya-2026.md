@@ -100,7 +100,7 @@ sponsors:
       sponsors:
         - name: OpenInfra Foundation
           url: https://openinfra.org/
-          logo: /img/events/sponsors/openinfra-foundation.png
+          logo: /img/events/sponsors/openinfra-foundation.svg
     - name: Infrastructure Partner
       sponsors:
         - name: Angani

@@ -11,6 +11,7 @@ seo:
   twitterUsername: "@OpenInfraDev"
 header:
   display: true
+  banner: /img/events/oid-kenya-2026-header.svg
   bannerAlt: OpenInfra Days Kenya 2026
   title: OpenInfra Days Kenya 2026
   dateLocation: November 6-7, 2026 | Node NBO — Gigiri, Nairobi, Kenya

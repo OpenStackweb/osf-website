@@ -59,7 +59,7 @@ eventsSchedule:
     - name: "OpenInfra Day Kenya"
       date: "November 6–7, 2026"
       location: "Nairobi, Kenya"
-      link: "https://www.meetup.com/openinfra-user-group-kenya/events/315616588/"
+      link: "/days/kenya"
     - name: "OpenInfra Day North America"
       date: "November 17, 2026"
       location: "Chicago, IL"

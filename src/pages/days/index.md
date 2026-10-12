@@ -17,9 +17,7 @@ upcomingDaysEvents:
     img: /img/oi-days-1920x325.11.png
     alt: openinfra-days
   events:
-    - title: <a
-        href="https://www.meetup.com/openinfra-user-group-kenya/events/315616588/">OpenInfra
-        Day Kenya</a>
+    - title: <a href="/days/kenya">OpenInfra Day Kenya</a>
       date: November 6 & 7, 2026
       location: Nairobi, Kenya
       registration: '<a href="https://zenlipa.co.ke/events/GErIfp">Register</a>  | <a

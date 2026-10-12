@@ -100,6 +100,12 @@
     &.event-sponsors {
       background-color: #ffffff;
     }
+
+    /* Same reasoning as above: the disclaimer must read as a quiet footnote,
+       not as another tinted content band. */
+    &.event-disclaimer {
+      background-color: #ffffff;
+    }
   }
 
   .event-section-title {
@@ -295,6 +301,50 @@
   .event-sponsor-name {
     font-weight: 700;
     font-size: 18px;
+  }
+
+  /* Extra markdown body ------------------------------------- */
+
+  /* Headings an editor writes in the optional markdown body should match the
+     section titles generated above them, rather than falling back to the
+     global heading styles. */
+  .event-extra-content {
+    h2 {
+      font-family: "Roboto Condensed", sans-serif;
+      font-weight: 700;
+      font-size: 26px;
+      color: $event-dark;
+      margin: 0 0 20px;
+
+      @media (min-width: $screen-md-min) {
+        font-size: 32px;
+      }
+    }
+  }
+
+  /* Disclaimer ---------------------------------------------- */
+
+  /* Event-operator / trademark attribution. Always white and visually quiet:
+     this is legal boilerplate that must be present and legible, but it should
+     not compete with the page content above it. */
+  .event-disclaimer {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .event-disclaimer-text {
+    max-width: $container-thin-max-width;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.6;
+    color: $event-muted;
+
+    a {
+      color: $event-muted;
+      text-decoration: underline;
+    }
   }
 
   /* CTA buttons ---------------------------------------------- */

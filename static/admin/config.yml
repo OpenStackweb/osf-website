@@ -731,6 +731,10 @@ collections:
         ] },
       ] }
       - { label: "Body", name: body, widget: markdown, required: false, hint: "Optional extra content, shown below the sponsors" }
+      - { label: "Disclaimer", name: disclaimer, widget: object, required: false, fields: [
+        { label: "Display", name: display, widget: boolean, required: false, default: false },
+        { label: "Text", name: body, widget: text, required: false, hint: "Event-operator / trademark attribution, shown in small print at the bottom of the page. Accepts HTML. Required for community-operated events that are not run by the OpenInfra Foundation." },
+      ] }
       - { label: "Footer", name: footer, widget: object, required: false, fields: [
         { label: "Title", name: title, widget: string, required: false },
         { label: "Sub Title", name: subTitle, widget: string, required: false },

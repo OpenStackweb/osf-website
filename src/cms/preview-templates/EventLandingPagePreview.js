@@ -24,6 +24,7 @@ const EventLandingPagePreview = ({ entry, widgetFor }) => {
   const venue = toJS(['venue'], {})
   const registration = toJS(['registration'], {})
   const sponsors = toJS(['sponsors'], {})
+  const disclaimer = toJS(['disclaimer'], {})
   const footer = toJS(['footer'], {})
 
   return (
@@ -48,6 +49,7 @@ const EventLandingPagePreview = ({ entry, widgetFor }) => {
           })),
         })),
       }}
+      disclaimer={disclaimer}
       footer={footer}
       content={widgetFor('body')}
     />

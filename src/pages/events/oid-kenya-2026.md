@@ -116,7 +116,7 @@ sponsors:
 disclaimer:
   display: true
   body: >-
-    OpenInfra Day Kenya is operated and provided by [CBO NAME TBD], and not the
+    OpenInfra Day Kenya is operated and provided by Agnes Nduta, and not the
     OpenInfra Foundation or The Linux Foundation. OpenInfra Day is a trademark
     of The Linux Foundation used by the Event Operator under license.
 footer:

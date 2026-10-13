@@ -253,6 +253,7 @@ export const eventLandingPageQuery = graphql`
               logo {
                 publicURL
               }
+              logoHeight
             }
           }
         }

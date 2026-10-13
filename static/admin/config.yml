@@ -727,6 +727,7 @@ collections:
             { label: "Name", name: name, widget: string },
             { label: "Logo", name: logo, widget: image, required: false },
             { label: "Link", name: url, widget: string, required: false },
+            { label: "Logo Height (px)", name: logoHeight, widget: number, required: false, value_type: "int", min: 20, max: 160, hint: "Optional. Leave blank for the standard height. Raise it for a stacked or square logo, which otherwise looks much smaller than a wide one (e.g. 84)." },
           ] },
         ] },
       ] }

@@ -107,6 +107,7 @@ sponsors:
         - name: Angani
           url: https://angani.co/
           logo: /img/events/sponsors/angani.png
+          logoHeight: 84
     - name: Venue
       sponsors:
         - name: Node NBO

@@ -727,10 +727,15 @@ collections:
             { label: "Name", name: name, widget: string },
             { label: "Logo", name: logo, widget: image, required: false },
             { label: "Link", name: url, widget: string, required: false },
+            { label: "Logo Height (px)", name: logoHeight, widget: number, required: false, value_type: "int", min: 20, max: 160, hint: "Optional. Leave blank for the standard height. Raise it for a stacked or square logo, which otherwise looks much smaller than a wide one (e.g. 84)." },
           ] },
         ] },
       ] }
       - { label: "Body", name: body, widget: markdown, required: false, hint: "Optional extra content, shown below the sponsors" }
+      - { label: "Disclaimer", name: disclaimer, widget: object, required: false, fields: [
+        { label: "Display", name: display, widget: boolean, required: false, default: false },
+        { label: "Text", name: body, widget: text, required: false, hint: "Event-operator / trademark attribution, shown in small print at the bottom of the page. Accepts HTML. Required for community-operated events that are not run by the OpenInfra Foundation." },
+      ] }
       - { label: "Footer", name: footer, widget: object, required: false, fields: [
         { label: "Title", name: title, widget: string, required: false },
         { label: "Sub Title", name: subTitle, widget: string, required: false },

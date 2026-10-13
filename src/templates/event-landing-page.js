@@ -26,6 +26,7 @@ export const EventLandingPageTemplate = ({
   venue,
   registration,
   sponsors,
+  disclaimer,
   footer,
   content,
   contentComponent,
@@ -104,6 +105,17 @@ export const EventLandingPageTemplate = ({
           </section>
         )}
 
+        {disclaimer && disclaimer.display && disclaimer.body && (
+          <section className="event-section event-disclaimer">
+            <div className="container">
+              <p
+                className="event-disclaimer-text"
+                dangerouslySetInnerHTML={{ __html: disclaimer.body }}
+              />
+            </div>
+          </section>
+        )}
+
         {footer && <Hero content={footer} />}
       </main>
     </div>
@@ -118,6 +130,7 @@ EventLandingPageTemplate.propTypes = {
   venue: PropTypes.object,
   registration: PropTypes.object,
   sponsors: PropTypes.object,
+  disclaimer: PropTypes.object,
   footer: PropTypes.object,
 };
 
@@ -137,6 +150,7 @@ const EventLandingPage = ({ isLoggedUser, data }) => {
         venue={post.frontmatter.venue}
         registration={post.frontmatter.registration}
         sponsors={post.frontmatter.sponsors}
+        disclaimer={post.frontmatter.disclaimer}
         footer={post.frontmatter.footer}
         content={post.html}
       />
@@ -239,8 +253,13 @@ export const eventLandingPageQuery = graphql`
               logo {
                 publicURL
               }
+              logoHeight
             }
           }
+        }
+        disclaimer {
+          display
+          body
         }
         footer {
           title

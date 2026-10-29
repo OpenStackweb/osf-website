@@ -27,7 +27,7 @@ episodes:
     date: 2026-10-29T14:00:00.000Z
     episodeSpeakers: Julia Kreger (Red Hat)
     spotifyLink: https://spotifycreators-web.app.link/e/ryKu6sDOr7b
-    youtubeEmbed: https://spotifycreators-web.app.link/e/ryKu6sDOr7b
+    youtubeEmbed: https://youtu.be/Z30r1tDdQnE
     episodeTitle: AI economics and the impact of OpenStack Ironic and open source software
     youtubeLink: https://youtu.be/Z30r1tDdQnE?si=UZlPra2KmrJPHZb_
   - hidden: false

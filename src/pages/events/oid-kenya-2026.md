@@ -2,10 +2,9 @@
 templateKey: event-landing-page
 seo:
   title: OpenInfra Days Kenya 2026
-  description: >-
-    OpenInfra Days Kenya 2026 runs 6-7 November 2026 at Node NBO, Gigiri,
-    Nairobi. Kenya's flagship open source infrastructure event, organised by
-    OpenInfra User Group Kenya.
+  description: OpenInfra Days Kenya 2026 runs 6-7 November 2026 at Node NBO,
+    Gigiri, Nairobi. Kenya's flagship open source infrastructure event,
+    organised by OpenInfra User Group Kenya.
   url: https://openinfra.org/days/kenya
   image: /img/OpenInfra-icon-white.jpg
   twitterUsername: "@OpenInfraDev"
@@ -21,8 +20,8 @@ header:
       link: https://openinfra-user-group-ke-l8cvq4.zenlipa.co.ke/events/GErIfp
       display: true
     - text: Schedule
-      link: ""
-      display: false
+      link: https://docs.google.com/spreadsheets/d/1qj_1-EdGuQBm8_1PgxKUKrziR7YxqhRoN0KM-2T4ieI/edit?gid=1157927920#gid=1157927920
+      display: true
 about:
   display: true
   title: About the Event
@@ -33,11 +32,7 @@ about:
     and build the future of Africa's digital infrastructure. It is organised by
     OpenInfra User Group Kenya, in support of the OpenInfra Foundation.</p>
 
-    <p>This is our first two-day edition, growing from a one-day event in 2025.
-    Sessions are open to beginner, intermediate, and advanced audiences. Expect
-    keynotes, talks, workshops, lightning talks, a panel on the future of open
-    infrastructure in Africa, and plenty of time to network with the
-    community.</p>
+    <p>This is our first two-day edition, growing from a one-day event in 2025. Sessions are open to beginner, intermediate, and advanced audiences. Expect keynotes, talks, workshops, lightning talks, a panel on the future of open infrastructure in Africa, and plenty of time to network with the community.</p>
 tracks:
   display: true
   title: Key Tracks & Focus Areas
@@ -67,9 +62,8 @@ venue:
   title: Venue & Location
   name: Node NBO
   address: Waitabit Lane, Gigiri, Nairobi, Kenya
-  description: >-
-    Node NBO is a campus in Gigiri, Nairobi, at the frontier of energy, AI and
-    infrastructure, built for the builders shaping Africa's future.
+  description: Node NBO is a campus in Gigiri, Nairobi, at the frontier of energy,
+    AI and infrastructure, built for the builders shaping Africa's future.
 registration:
   display: true
   title: Registration & Passes
@@ -115,8 +109,7 @@ sponsors:
           logo: /img/events/sponsors/node-nbo.png
 disclaimer:
   display: true
-  body: >-
-    OpenInfra Day Kenya is operated and provided by Agnes Nduta, and not the
+  body: OpenInfra Day Kenya is operated and provided by Agnes Nduta, and not the
     OpenInfra Foundation or The Linux Foundation. OpenInfra Day is a trademark
     of The Linux Foundation used by the Event Operator under license.
 footer:

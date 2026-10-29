@@ -24,7 +24,7 @@ episodes:
       utilization while preserving flexibility and choice.
     applePodcastsLink: https://podcasts.apple.com/us/podcast/ai-economics-and-the-impact-of-openstack-ironic/id6788132895?i=1000798730999
     hidden: false
-    date: 2026-10-29T16:22:44.118Z
+    date: 2026-10-29T14:00:00.000Z
     episodeSpeakers: Julia Kreger (Red Hat)
     spotifyLink: https://spotifycreators-web.app.link/e/ryKu6sDOr7b
     youtubeEmbed: https://spotifycreators-web.app.link/e/ryKu6sDOr7b

@@ -14,6 +14,22 @@ hero:
     our <strong>Select Live Broadcasts</strong> on YouTube & LinkedIn, or
     catchup by streaming the <strong>Podcast</strong> on Spotify & Apple Music."
 episodes:
+  - episodeDescription: As AI changes the economics of compute, organizations are
+      reconsidering everything from virtualization costs to how they deploy
+      increasingly specialized hardware. The interview will explore the rise of
+      heterogeneous and custom AI infrastructure, the growing appeal of bare
+      metal for high-value workloads, and how technologies like OpenStack Ironic
+      can provide a consistent way to manage that complexity. As the hardware
+      ecosystem fragments, open infrastructure can help organizations maximize
+      utilization while preserving flexibility and choice.
+    applePodcastsLink: https://podcasts.apple.com/us/podcast/ai-economics-and-the-impact-of-openstack-ironic/id6788132895?i=1000798730999
+    hidden: false
+    date: 2026-10-29T16:22:44.118Z
+    episodeSpeakers: Julia Kreger (Red Hat)
+    spotifyLink: https://spotifycreators-web.app.link/e/ryKu6sDOr7b
+    youtubeEmbed: https://spotifycreators-web.app.link/e/ryKu6sDOr7b
+    episodeTitle: AI economics and the impact of OpenStack Ironic and open source software
+    youtubeLink: https://youtu.be/Z30r1tDdQnE?si=UZlPra2KmrJPHZb_
   - hidden: false
     date: 2026-10-01T14:00:52.677Z
     episodeTitle: OpenStack 2026.2 Hibiscus

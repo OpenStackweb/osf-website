@@ -10,7 +10,7 @@ hidePost: true
 seo:
   title: "October 2026 PTG Recap: Powering Open, Resilient Infrastructure"
   description: Summary of the October 2026 PTG event
-  url: oct2026-ptg-summary
+  url: https://openinfra.org/blog/oct2026-ptg-summary
   twitterUsername: "@openinfradev"
 ---
 The October 2026 [Project Teams Gathering (PTG)](https://openinfra.org/ptg/) brought together contributors, operators, and open-source advocates across the Open Infrastructure Foundation ecosystem. Across five days of virtual design and roadmap alignment, total attendance across all tracks reached over 700 participants engaging in live technical discussions, troubleshooting sessions, and strategic planning. The gathering provided dedicated space for teams to coordinate cross-project initiatives spanning bare metal, container virtualization, edge environments, and AI operations. The shared success of OpenInfra projects rests on transparent design and community collaboration through events like this October’s PTG.

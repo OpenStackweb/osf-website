@@ -6,7 +6,7 @@ date: 2026-10-30T02:00:00.000Z
 category:
   - value: category-h2Ztx9rpD
     label: Community
-hidePost: true
+hidePost: false
 seo:
   title: "October 2026 PTG Recap: Powering Open, Resilient Infrastructure"
   description: Summary of the October 2026 PTG event

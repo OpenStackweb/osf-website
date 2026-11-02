@@ -19,7 +19,7 @@ Not long ago, nearly every workload was run in a virtual machine or a container.
 
 Kreger, who has spent the past decade on [OpenStack Ironic](https://docs.openstack.org/ironic/latest/), expects more tactical choices, with virtual machines and bare metal side by side in the same cloud. Ironic has grown from machine installation into ongoing machine management for AI compute vendors, data center operators and enterprises. As hardware gets more specialized, she argues, open infrastructure’s value lies in shared patterns and a community that can flag the problem you’d otherwise spend three months discovering. 
 
-Hear the full conversation \[link to episode] with hosts Kendall Nelson and Wes Wilson in the first episode of [OpenInfra Live](https://openinfra.org/live/)’s new podcast-friendly format. 
+Hear [the full conversation](https://youtu.be/Z30r1tDdQnE?si=UZlPra2KmrJPHZb_) with hosts Kendall Nelson and Wes Wilson in the first episode of [OpenInfra Live](https://openinfra.org/live/)’s new podcast-friendly format. 
 
 ### OpenInfra Foundation News
 

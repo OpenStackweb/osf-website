@@ -48,6 +48,9 @@ Hear [the full conversation](https://youtu.be/Z30r1tDdQnE?si=UZlPra2KmrJPHZb_) w
 
 ### More OpenInfra Community Events
 
+* OpenInfra Day Kenya| 6 & 7 November
+
+  * [Learn More](https://t.e2ma.net/click/6is2yi/ulijjyje/6mvbv9) | [Register](https://t.e2ma.net/click/6is2yi/ulijjyje/mfwbv9) | [Schedule](https://t.e2ma.net/click/6is2yi/ulijjyje/27wbv9)
 * OpenInfra Track at the ALASCA Summit | 3 & 4 November
 
   * [Learn More](https://t.e2ma.net/click/ud4ini/igq4cs/i8ff08) | [Register](https://t.e2ma.net/click/ud4ini/igq4cs/y0gf08) | [Sponsor](https://t.e2ma.net/click/ud4ini/igq4cs/ethf08) | [](https://t.e2ma.net/click/ud4ini/igq4cs/ulif08)[Schedule](https://alasca.cloud/en/alasca-summit-2026/programme/)

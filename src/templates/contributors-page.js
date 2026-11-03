@@ -8,7 +8,6 @@ import TopBar from '../components/TopBar';
 import NavbarV2 from '../components/NavbarV2';
 import SEO from '../components/SEO'
 import { useTable, useSortBy } from 'react-table'
-import { Helmet } from "react-helmet"
 import { connect } from "react-redux";
 
 export const ContributorsPageTemplate = ({
@@ -65,7 +64,7 @@ export const ContributorsPageTemplate = ({
                       ? column.isSortedDesc
                       ? <i className="fa fa-chevron-down sort-icon" />
                       : <i className="fa fa-chevron-up sort-icon" />
-                      : <i className="fas fa-sort sort-icon" />
+                      : <i className="fa fa-sort sort-icon" />
                       }
                   </span>
                 </th>
@@ -97,9 +96,6 @@ export const ContributorsPageTemplate = ({
 
   return (
     <div>
-        <Helmet>
-          <script src="https://kit.fontawesome.com/9438df25f9.js" crossorigin="anonymous"></script>
-        </Helmet>
       <div className="wrapper project-background">
         <TopBar />
         <NavbarV2 isLoggedUser={isLoggedUser} />

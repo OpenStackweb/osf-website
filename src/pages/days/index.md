@@ -23,7 +23,7 @@ upcomingDaysEvents:
       registration: <a href="https://zenlipa.co.ke/events/GErIfp">Register</a>  | <a
         href="https://drive.google.com/file/d/1bM_9ulQpLWYHJznqDhQpSky0aDONUMO9/view?usp=sharing">Sponsor</a>
         |  <a
-        href="https://docs.google.com/spreadsheets/d/1qj_1-EdGuQBm8_1PgxKUKrziR7YxqhRoN0KM-2T4ieI/edit?gid=1157927920#gid=1157927920">Schedule</a>
+        href="https://cfp.openinfra-ke.org/orga/event/openinfra-days-kenya-2026/schedule/">Schedule</a>
       sponsor: ""
     - title: <a href="/days/northamerica">OpenInfra Day North America</a>
       date: November 17, 2026

@@ -106,6 +106,7 @@ sponsors:
       sponsors:
         - logo: /img/max-studios-logo.png
           name: Max Studios
+          logoHeight: 84
     - name: Venue
       sponsors:
         - name: Node NBO

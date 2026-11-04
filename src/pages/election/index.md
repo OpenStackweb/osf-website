@@ -47,7 +47,7 @@ Members should review and comply with the [Community Code of Conduct](/legal/co
 
 #### Election Overview:
 
-OIF Individual Member Representative elections for the 2027 Board will be held **Monday, January 11, 2027 at 00:01 UTC through Friday, January 15, 2027 at 23:59 UTC**. To vote, you must have become an OIF Individual Member at least 180 days before the date you cast your vote, according to the OIF Individual Member Registry and the [OpenInfra Elections Procedures Policy](/legal/election-procedures-policy).
+OIF Individual Member Representative elections for the 2027 Board will be held **Monday, January 11, 2027 at 00:01 UTC through Friday, January 15, 2027 at 23:59 UTC**. To vote in the January 2027 election, you must have joined the OpenInfra Foundation as an OIF Individual Member on or before July 15, 2026, according to the OIF Individual Member Registry. See the [OpenInfra Elections Procedures Policy](/legal/election-procedures-policy).
 
 Governing Board elections will take place online using a Meek STV voting method. You will be able to rank all candidates in order of preference. No more than three members of the Board may be affiliated with the same company, which means the candidate receiving the next highest votes would assume the seat if the election results in too many employees from a single company. OIF Individual Member Representatives elected in 2027 will serve a one-year term, but they may be nominated and re-elected indefinitely. The next election for OIF Individual Member Representative will take place during January 2028.
 

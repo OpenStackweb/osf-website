@@ -102,15 +102,15 @@ sponsors:
           url: https://angani.co/
           logo: /img/events/sponsors/angani.png
           logoHeight: 84
+    - name: Photography Partner
+      sponsors:
+        - logo: /img/max-studios-logo.png
+          name: Max Studios
     - name: Venue
       sponsors:
         - name: Node NBO
           url: https://nodenbo.com/
           logo: /img/events/sponsors/node-nbo.png
-    - name: Photography Partner
-      sponsors:
-        - logo: /img/max-studios-logo.png
-          name: Max Studios
 disclaimer:
   display: true
   body: OpenInfra Day Kenya is operated and provided by Agnes Nduta, and not the

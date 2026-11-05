@@ -30,7 +30,7 @@ howToVote:
     href="https://lfx.linuxfoundation.org/">https://lfx.linuxfoundation.org/</a>.
     If you are an eligible voter, you must also have a LFX account using the
     email address that matches the email where your ballot is sent in order to
-    see the election in your LFX dashboard. If you do not receive an email notifying
-    you when the ballot is open, please contact <a
-    href='mailto:secretary@openinfra.dev'> secretary@openinfra.dev</a>.
+    see the election in your LFX dashboard. If you do not receive an email
+    notifying you when the ballot is open, please contact <a
+    href='mailto:secretary@openinfra.org'> secretary@openinfra.org</a>.
 ---

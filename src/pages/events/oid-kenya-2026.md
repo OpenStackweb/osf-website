@@ -102,10 +102,13 @@ sponsors:
           url: https://angani.co/
           logo: /img/events/sponsors/angani.png
           logoHeight: 84
-    - name: Photography Partner
+    - name: Community Partner
       sponsors:
         - logo: /img/max-studios-logo.png
           name: Max Studios
+          logoHeight: 84
+        - logo: /img/checkin-deck.webp
+          name: checkin .deck
           logoHeight: 84
     - name: Venue
       sponsors:

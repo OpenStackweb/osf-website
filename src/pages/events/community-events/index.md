@@ -11,22 +11,10 @@ subTitle: " "
 eventsSchedule:
   title: OpenInfra Events Schedule 2026
   events:
-    - name: Project Teams Gathering (PTG)
-      date: October 12-16, 2026
-      location: Virtual
-      link: https://openinfra.org/ptg/
-    - name: OpenInfra track at Sovereign Cloud Days Germany
-      date: October 22–25, 2026
-      location: Saarbrücken, Germany
-      link: https://www.sovereign-cloud-days.eu/en
-    - name: OpenInfra Track at ALASCA Summit
-      date: November 3–4, 2026
-      location: Dresden, Germany
-      link: https://alasca.cloud/en/alasca-summit-2026/alasca-summit-2026-programme/alasca-summit-2026-call-for-contributions/
     - name: OpenInfra Day Kenya
       date: November 6–7, 2026
       location: Nairobi, Kenya
-      link: "/days/kenya"
+      link: /days/kenya
     - name: OpenInfra Day North America
       date: November 17, 2026
       location: Chicago, IL
@@ -37,7 +25,6 @@ footer:
   display: false
   title: OPENINFRA COMMUNITY EVENTS
   subTitle: ""
-
 ---
 
 ## [OpenInfra Summit ](/summit)

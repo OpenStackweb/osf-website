@@ -254,7 +254,7 @@ const MemberProfilePage = ({
   const isOwnProfile = currentMember?.id === parseInt(memberId);
 
   useEffect(() => {
-    getMemberProfile(memberId).then(getElectionMemberProfile(memberId))
+    getMemberProfile(memberId).then(() => getElectionMemberProfile(memberId))
     getElectionStatus();
   }, [])
   return (

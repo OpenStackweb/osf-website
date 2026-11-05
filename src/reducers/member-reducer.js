@@ -52,7 +52,7 @@ const memberReducer = (state = DEFAULT_STATE, action) => {
     }
     case NOMINATE_MEMBER_SUCCESS: {
       const newNomination = payload.response;
-      return { ...state, member_profile: { ...state.member_profile, election_applications: [...state.member_profile.election_applications, newNomination] } }
+      return { ...state, member_profile: { ...state.member_profile, election_applications: [...(state.member_profile?.election_applications || []), newNomination] } }
     }
     default:
       return state;

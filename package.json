@@ -123,7 +123,7 @@
     "start": "npm run develop",
     "debug": "NODE_OPTIONS=--inspect NODE_ENV=development netlify dev --port 8001",
     "serve": "netlify functions:serve",
-    "build": "npm run clean && gatsby build",
+    "build": "npm run clean && gatsby build && node scripts/canonical-redirects.js",
     "develop": "npm run clean && gatsby develop --open --https",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"

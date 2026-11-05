@@ -109,15 +109,19 @@ export const nominateMember = (candidate_id) => async (dispatch, getState) => {
   )(params)(dispatch)
     .then((payload) => {
       let {response} = payload
-      const updatedProfile = { ...member, election_nominations: [...member.election_nominations, response] };
+      const updatedProfile = { ...member, election_nominations: [...(member.election_nominations || []), response] };
       dispatch(updateUserInfo(updatedProfile));
-      dispatch(stopLoading());
     })
     .catch((e) => {
-      const errorMessage = { message: JSON.parse(e.res.text).errors?.[0] || JSON.parse(e.res.text).error_description, status: e.res.statusCode };
-      dispatch(createAction(NOMINATE_MEMBER_ERROR)(errorMessage))
-      dispatch(stopLoading());
-    });
+      let body = {};
+      try { body = JSON.parse(e?.res?.text || '{}'); } catch (_) {}
+      const errorMessage = {
+        message: body.errors?.[0] || body.error_description || 'We could not confirm the result. Check your nominations before trying again.',
+        status: e?.res?.statusCode
+      };
+      dispatch(createAction(NOMINATE_MEMBER_ERROR)(errorMessage));
+    })
+    .finally(() => dispatch(stopLoading()));
 }
 
 export const updateCandidateProfile = (profile) => async (dispatch, getState) => {

@@ -12,7 +12,7 @@
  **/
 
 import React from 'react'
-import URI from "urijs"
+import { membershipReturnPath } from "../utils/membership-return"
 import { navigate } from '@reach/router'
 import { connect } from 'react-redux';
 import AbstractAuthorizationCallbackRoute from "openstack-uicore-foundation/lib/security/abstract-auth-callback-route";
@@ -32,10 +32,11 @@ class AuthorizationCallbackRoute extends AbstractAuthorizationCallbackRoute {
       'groups, all_affiliations, candidate_profile, election_applications, election_nominations, election_nominations.candidate',
       'election_nominations.candidate.first_name, election_nominations.candidate.last_name'
     ).then(() => this.props.getUserProfile().then((userProfile) => {
+      const returnTo = membershipReturnPath(backUrl, window.location.origin);
       if (userProfile?.membership_type !== MEMBERSHIP_TYPE_INDIVIDUAL) {
-        return navigate("/a/renew-membership");
+        return navigate(`/a/renew-membership?returnTo=${encodeURIComponent(returnTo)}`);
       }
-      navigate(URI.decode(backUrl))
+      navigate(returnTo)
     }));
   }
 

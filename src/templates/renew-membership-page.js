@@ -14,6 +14,7 @@ import leftArrow from '../img/svg/arrow-left.svg'
 
 import '../style/modules/_renew-membership.scss';
 import LinkComponent from "../components/LinkComponent";
+import { membershipReturnPath } from "../utils/membership-return";
 
 export const RenewMembershipPageTemplate = ({
   isLoggedUser,
@@ -26,6 +27,10 @@ export const RenewMembershipPageTemplate = ({
   const [acceptedTerms, setAcceptedTerms] = useState(false);
   const [renewedMembership, setRenewedMembership] = useState(false);
 
+  const origin = typeof window !== 'undefined' ? window.location.origin : 'https://openinfra.org';
+  const returnTo = membershipReturnPath(new URLSearchParams(location?.search || '').get('returnTo'), origin);
+  const returningToCandidate = /^\/a\/community\/members\/\d+\/?$/.test(returnTo.split('?')[0]);
+
   const handleRenewMembership = () => {
     renewMembership()
       .then(() => setRenewedMembership(true))
@@ -33,7 +38,7 @@ export const RenewMembershipPageTemplate = ({
   }
 
   useEffect(() => {
-    if (userProfile.membership_type === "Individual") navigate("/a/profile")
+    if (userProfile.membership_type === MEMBERSHIP_TYPE_INDIVIDUAL) navigate(returnTo)
   }, [])
 
   return (
@@ -52,10 +57,16 @@ export const RenewMembershipPageTemplate = ({
                   <h1>
                     <span className="renew-membership-title">REESTABLISH YOUR OPENINFRA MEMBERSHIP</span></h1>
                   {renewedMembership ?
-                    <span>
-                      <strong>Thank you, you've renewed your membership.
-                      </strong>
-                    </span>
+                    <div role="status">
+                      <p><strong>Thank you, you've renewed your membership.</strong></p>
+                      <p>{returningToCandidate
+                        ? 'Return to the candidate’s page to review and confirm your nomination. Renewing your membership has not submitted a nomination.'
+                        : 'You can now continue where you left off.'}</p>
+                      <button className="renew-membership-button button-cta" onClick={() => navigate(returnTo)}>
+                        {returningToCandidate ? 'Continue to nomination' : 'Continue'}
+                        <img src={leftArrow} alt="" />
+                      </button>
+                    </div>
                     :
                     <>
                       <span className="renew-membership-text">

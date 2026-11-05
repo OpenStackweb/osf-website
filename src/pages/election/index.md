@@ -85,4 +85,4 @@ Note that the Gold Member process will complete prior to the start of the OIF In
 
 #### Questions?
 
-If you have any questions regarding membership, the nomination process, or any other matter regarding the elections, please contact the Secretary (Wes Wilson) at [secretary@openinfra.dev](mailto:secretary@openinfra.dev).
+If you have any questions regarding membership, the nomination process, or any other matter regarding the elections, please contact the Secretary (Wes Wilson) at [secretary@openinfra.org](mailto:secretary@openinfra.org).

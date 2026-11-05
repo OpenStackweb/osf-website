@@ -20,7 +20,7 @@ header:
       link: https://openinfra-user-group-ke-l8cvq4.zenlipa.co.ke/events/GErIfp
       display: true
     - text: Schedule
-      link: https://cfp.openinfra-ke.org/orga/event/openinfra-days-kenya-2026/schedule/
+      link: https://cfp.openinfra-ke.org/openinfra-days-kenya-2026/schedule/
       display: true
 about:
   display: true

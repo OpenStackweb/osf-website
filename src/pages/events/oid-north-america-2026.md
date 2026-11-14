@@ -2,9 +2,8 @@
 templateKey: event-landing-page
 seo:
   title: OpenInfra Day North America 2026
-  description: >-
-    OpenInfra Day North America 2026 takes place November 17, 2026 at the
-    Marriott Marquis in Chicago, IL. Jointly organized by the OpenInfra
+  description: OpenInfra Day North America 2026 takes place November 17, 2026 at
+    the Marriott Marquis in Chicago, IL. Jointly organized by the OpenInfra
     communities from the United States, Mexico, and Canada.
   url: https://openinfra.org/days/northamerica
   image: /img/OpenInfra-icon-white.jpg
@@ -23,6 +22,9 @@ header:
     - text: Schedule
       link: https://openinfra-day-northamerica-2026.sessionize.com/
       display: true
+    - display: true
+      text: Venue Map
+      link: https://drive.google.com/file/d/1EptpMJ79h7NBc-1nZnP2mJKe87QHviNc/view?usp=sharing
 about:
   display: true
   title: About the Event
@@ -33,29 +35,23 @@ about:
     data center infrastructure, including OpenStack, Kubernetes, Linux, Kata
     Containers, StarlingX, Ceph, and many more!</p>
 
-    <p>We encourage involvement from open source users, contributors, and
-    companies from these countries for a lively networking and community-building
-    opportunity!</p>
+    <p>We encourage involvement from open source users, contributors, and companies from these countries for a lively networking and community-building opportunity!</p>
 tracks:
   display: true
   title: Key Tracks & Focus Areas
   items:
     - title: Cloud Infrastructure & OpenStack
-      description: >-
-        Production migration strategies, VMware replacement/repatriation,
+      description: Production migration strategies, VMware replacement/repatriation,
         upgrades, and large-scale operations.
     - title: AI & Sovereign Cloud
-      description: >-
-        Running open-source AI models on GPUs/VMs, high-performance compute
+      description: Running open-source AI models on GPUs/VMs, high-performance compute
         architectures, and digital sovereignty.
     - title: Cloud Native & Hybrid Integration
-      description: >-
-        Kubernetes, Kata Containers (secure sandboxing), StarlingX, and edge
-        infrastructure.
+      description: Kubernetes, Kata Containers (secure sandboxing), StarlingX, and
+        edge infrastructure.
     - title: Open Storage
-      description: >-
-        Deep dives into Ceph, CephFS, OpenStack Manila, and high-performance
-        storage integration.
+      description: Deep dives into Ceph, CephFS, OpenStack Manila, and
+        high-performance storage integration.
 schedule:
   display: false
   title: Event Schedule Overview
@@ -63,11 +59,10 @@ schedule:
 venue:
   display: true
   title: Venue & Location
-  name: Marriott Marquis Chicago
+  name: "Marriott Marquis Chicago - Level 2, Great Lakes Ballrooms E & F "
   address: 2121 S Prairie Ave, Chicago, IL 60616
-  description: >-
-    Conveniently located in downtown Chicago near McCormick Place, within
-    walking distance of Supercomputing 2026.
+  description: "You will find us on Level 2 of the Marriott Marquis on Level 2. We
+    are in the Great Lake Ballrooms E & F. "
 registration:
   display: true
   title: Registration & Passes

@@ -14,7 +14,7 @@ header:
   bannerAlt: OpenInfra Day North America 2026
   title: OpenInfra Day North America 2026
   dateLocation: November 17, 2026 | Marriott Marquis — Chicago, IL
-  note: Within walking distance of Supercomputing 2026
+  note: "Marriott Marquis Chicago - Level 2, Great Lakes Ballrooms E & F "
   buttons:
     - text: Register
       link: https://linuxfoundation.regfox.com/openinfra-day-north-america

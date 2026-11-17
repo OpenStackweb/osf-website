@@ -14,6 +14,28 @@ hero:
     our <strong>Select Live Broadcasts</strong> on YouTube & LinkedIn, or
     catchup by streaming the <strong>Podcast</strong> on Spotify & Apple Music."
 episodes:
+  - episodeDescription: >-
+      By the end of October, the OpenStack community had shipped fifty security
+      advisories, making 2026 the busiest year in security bug triage and
+      remediation. This is neither a flex nor an embarrassment. The
+      Vulnerability Management Team exists to ensure responsible disclosure,
+      prevent silent fixes, and help protect the critical workloads running
+      globally on OpenStack. On this episode of OpenInfra Live, Goutham Pacha
+      Ravi and Jay Faulkner join Kendall Nelson and Wes Wilson to pull back the
+      curtain on how that process actually works at scale.
+
+
+      The conversation covers the scope of OpenStack's VMT, how project security liaisons coordinate fixes across release branches, and why highly customizable software with wide-ranging deployment strategies requires careful impact framing so operators can assess whether a bug affects their specific cloud configuration. You'll hear why two clear lines of evidence pointing at an exploitable path beat a three-page theoretical essay, how LLM-assisted bug discovery has shifted the triage load, and what makes a security report actionable when the affected codebase spans millions of lines across dozens of projects.
+    applePodcastsLink: https://podcasts.apple.com/us/podcast/inside-the-vmt-managing-security-at-scale-in-openstack/id6788132895?i=1000800086838&l=ru
+    hidden: false
+    date: 2026-11-17T17:38:17.285Z
+    episodeSpeakers: |-
+      Goutham Pacha Ravi 
+      Jay Faulkner
+    spotifyLink: https://open.spotify.com/episode/1fPch29OIShwAxCgNVBCxW
+    youtubeEmbed: https://www.youtube.com/embed/2ldksOBNI8k&t=3s?si=3QWQFgXhdJf2BIzi
+    episodeTitle: "Inside the VMT: Managing Security at Scale in OpenStack "
+    youtubeLink: https://www.youtube.com/watch?v=2ldksOBNI8k&t=3s
   - episodeDescription: As AI changes the economics of compute, organizations are
       reconsidering everything from virtualization costs to how they deploy
       increasingly specialized hardware. The interview will explore the rise of

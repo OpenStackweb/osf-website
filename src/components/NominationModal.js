@@ -1,3 +1,4 @@
+import { nominatorLabel } from '../utils/nominator-label.mjs';
 import React, { useState } from 'react'
 import { navigate } from 'gatsby-link';
 import moment from 'moment-timezone';
@@ -79,7 +80,7 @@ const NominationModal = ({ candidate_profile, closeModal, nominateMember, member
               {candidate_profile.election_applications.map((application, index) => {
                 return (
                   <li>
-                    Nominated by {`${application.nominator.first_name} ${application.nominator.last_name} `}
+                    Nominated by {nominatorLabel(application)}
                     on {moment(application.last_edited * 1000).format('MMMM DD, YYYY')}
                   </li>
                 )

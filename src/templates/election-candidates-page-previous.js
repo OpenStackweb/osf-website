@@ -1,3 +1,4 @@
+import { nominatorLabel } from '../utils/nominator-label.mjs';
 import React, { useState, useEffect } from "react"
 import { graphql } from 'gatsby'
 import { connect } from 'react-redux'
@@ -48,9 +49,9 @@ const ElectionCandidatesPagePreviousTemplate = ({ candidates, electionData }) =>
                             <h4>{`${candidate.member.first_name} ${candidate.member.last_name}`}</h4>
                             <div>
                               {/* <b>Nominated by:</b>
-                              {candidate.member.election_applications.map(({ nominator }, i) => {
+                              {candidate.member.election_applications.map((application, i) => {
                                 return (
-                                  <span className="candidate-nominator" key={`nominator-ballot-${i}-${index}`}>{`${nominator.first_name} ${nominator.last_name}`}</span>
+                                  <span className="candidate-nominator" key={`nominator-ballot-${i}-${index}`}>{nominatorLabel(application)}</span>
                                 )
                               })} */}
                             </div>

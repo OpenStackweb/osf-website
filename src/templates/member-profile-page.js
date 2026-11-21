@@ -1,3 +1,4 @@
+import { nominatorLabel } from '../utils/nominator-label.mjs';
 import React, { useState, useEffect } from 'react'
 import { navigate } from "gatsby"
 import Layout from '../components/Layout'
@@ -181,7 +182,7 @@ export const MemberProfilePageTemplate = ({
                             {member_profile.election_applications.map((application, index) => {
                               return (
                                   <li key={`aplication-${index}`}>
-                                    {`${application.nominator.first_name} ${application.nominator.last_name}`}
+                                    {nominatorLabel(application)}
                                   </li>
                               )
                             })}

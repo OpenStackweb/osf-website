@@ -33,9 +33,9 @@ episodes:
       Goutham Pacha Ravi 
       Jay Faulkner
     spotifyLink: https://open.spotify.com/episode/1fPch29OIShwAxCgNVBCxW
-    youtubeEmbed: https://www.youtube.com/embed/2ldksOBNI8k&t?si=3QWQFgXhdJf2BIzi
+    youtubeEmbed: https://www.youtube.com/embed/2ldksOBNI8k?si=3QWQFgXhdJf2BIzi
     episodeTitle: "Inside the VMT: Managing Security at Scale in OpenStack "
-    youtubeLink: https://www.youtube.com/watch?v=2ldksOBNI8k&t=3s
+    youtubeLink: https://www.youtube.com/watch?v=2ldksOBNI8k
   - episodeDescription: As AI changes the economics of compute, organizations are
       reconsidering everything from virtualization costs to how they deploy
       increasingly specialized hardware. The interview will explore the rise of

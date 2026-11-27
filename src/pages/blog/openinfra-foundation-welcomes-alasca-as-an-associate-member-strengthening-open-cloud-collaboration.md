@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: OpenInfra Foundation Welcomes ALASCA as an Associate Member,
-  Strengthening Open Cloud Collaboration
+title: OpenInfra Foundation Joins ALASCA as an Associate Member, Strengthening
+  Open Cloud Collaboration
 author: Kendall Nelson
 date: 2026-11-23T19:32:27.097Z
 category:
@@ -9,16 +9,16 @@ category:
     label: News & Announcements
 hidePost: false
 seo:
-  title: OpenInfra Foundation Welcomes ALASCA as an Associate Member,
-    Strengthening Open Cloud Collaboration
-  description: The OpenInfra Foundation welcomes ALASCA, the Association for
+  title: OpenInfra Foundation Joins ALASCA as an Associate Member, Strengthening
+    Open Cloud Collaboration
+  description: The OpenInfra Foundation Joins ALASCA, the Association for
     Operational, Open Cloud Infrastructures, as an Associate Member,
     strengthening collaboration between two communities committed to open,
     interoperable, and vendor-neutral infrastructure.
   url: https://openinfra.org/blog/alasca-openinfra
   twitterUsername: "@openinfradev"
 ---
-The OpenInfra Foundation welcomes [ALASCA](https://alasca.cloud/en/), the Association for Operational, Open Cloud Infrastructures, as an Associate Member, strengthening collaboration between two communities committed to open, interoperable, and vendor-neutral infrastructure.
+The OpenInfra Foundation is elated to be joining [ALASCA](https://alasca.cloud/en/), the Association for Operational, Open Cloud Infrastructures, as an Associate Member, strengthening collaboration between two communities committed to open, interoperable, and vendor-neutral infrastructure.
 
 Founded in Germany in 2022, ALASCA brings together organizations and developers advancing operational open source cloud technologies. Its mission aligns closely with the OpenInfra Foundation's commitment to giving organizations greater choice and control over their infrastructure.
 
